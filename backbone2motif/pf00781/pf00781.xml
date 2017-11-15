@@ -1,0 +1,345 @@
+<ROSETTASCRIPTS>
+
+  <SCOREFXNS>
+    # A weight is added to small-range hbonds to favor helix, and beta pairing
+    # and to take residue propensity into account. This way, we can favor
+    # helix-forming residues in our designs.
+    <ScoreFunction name="fullatom" weights="talaris2014">
+      <Reweight scoretype="hbond_sr_bb"    weight="1.6"/>
+      <Reweight scoretype="hbond_lr_bb"    weight="1.6"/>
+      <Reweight scoretype="aa_composition" weight="1.0" />
+    </ScoreFunction>
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS>
+    # Standard FFL ResidueSelectors.
+    <xi:include href="xml_pieces/selectors.xml" />
+
+    # TEMPLATE (3s40)
+    <Index name="template"  resnums="8A-119A" />
+    <Not   name="!template" selector="template" />
+    <Index name="i1"        resnums="26A-27A" />
+    <Not   name="!i1"       selector="i1" />
+    <Index name="i2"        resnums="60A-61A" />
+    <Not   name="!i2"       selector="i2" />
+    <Index name="i3"        resnums="81A-88A" />
+    <Not   name="!i3"       selector="i3" />
+    <Index name="i4"        resnums="105A-112A" />
+    <Not   name="!i4"       selector="i4" />
+    <Index name="i4a"       resnums="105A-109A" />
+    <Not   name="!i4a"      selector="i4a" />
+    <Index name="i4b"       resnums="110A-112A" />
+    <Not   name="!i4b"      selector="i4b" />
+    ## v1 - all
+    <Or    name="insertionA"  selectors="i1,i2,i3,i4" />
+    <Not   name="!insertionA" selector="insertionA" />
+    <And   name="tusedA"      selectors="template,!insertionA" />
+    ## v2 - only two
+    <Or    name="insertionB"  selectors="i3,i4a" />
+    <Not   name="!insertionB" selector="insertionB" />
+    <And   name="tusedB"      selectors="template,!insertionB" />
+
+    <Index name="t1"   resnums="10A-13A" />
+    <Index name="_t2"  resnums="21A-37A" />
+    <And   name="t2"   selectors="_t2,!i1" />
+    <Index name="t3"   resnums="39A-44A" />
+    <Index name="t4"   resnums="49A-59A" />
+    <Index name="t5"   resnums="64A-69A" />
+    <Index name="t6"   resnums="72A-80A" />
+    <Index name="t7"   resnums="89A-94A" />
+    <Index name="t8"   resnums="99A-104A" />
+    <Index name="t9"   resnums="113A-119A" />
+    <Or    name="tall" selectors="t1,t2,t3,t4,t5,t6,t7,t8,t9" />
+
+    # QUERY (3vzd)
+    <Index name="m1"     resnums="34C-36C" />
+    <Not   name="!m1"    selector="m1" />
+    <Index name="m2"     resnums="69C-71C" />
+    <Not   name="!m2"    selector="m2" />
+    <Index name="m3"     resnums="91C-103C" />
+    <Not   name="!m3"    selector="m3" />
+    <Index name="m4"     resnums="120C-133C" />
+    <Not   name="!m4"    selector="m4" />
+    <Index name="m4a"    resnums="120C-128C" />
+    <Not   name="!m4a"   selector="m4a" />
+    <Index name="m4b"    resnums="129C-133C" />
+    <Not   name="!m4b"   selector="m4b" />
+    <Chain name="design" chains="C" />
+    <Index name="qused"  resnums="16C-140C" />
+    ## v1 - all
+    <Or    name="motifA"  selectors="m1,m2,m3,m4" />
+    <Not   name="!motifA" selector="motifA" />
+    <And   name="qusedA"  selectors="qused,!motifA" />
+    ## v2 - only two
+    <Or    name="motifB"  selectors="m3,m4a" />
+    <Not   name="!motifB" selector="motifB" />
+    <And   name="qusedB"  selectors="qused,!motifB" />
+
+    <Index name="q1"   resnums="18C-21C" />
+    <Index name="_q2"  resnums="29C-46C" />
+    <And   name="q2"   selectors="_q2,!m1" />
+    <Index name="q3"   resnums="48C-53C" />
+    <Index name="q4"   resnums="58C-68C" />
+    <Index name="q5"   resnums="74C-79C" />
+    <Index name="q6"   resnums="82C-90C" />
+    <Index name="q7"   resnums="104C-109C" />
+    <Index name="q8"   resnums="114C-119C" />
+    <Index name="q9"   resnums="134C-140C" />
+    <Or    name="qall" selectors="q1,q2,q3,q4,q5,q6,q7,q8,q9" />
+
+    # DESIGN
+    <ResiduePDBInfoHasLabel name="D1" property="T1" />
+    <ResiduePDBInfoHasLabel name="D2" property="T2" />
+    <ResiduePDBInfoHasLabel name="D3" property="T3" />
+    <ResiduePDBInfoHasLabel name="D4" property="T4" />
+    <ResiduePDBInfoHasLabel name="D5" property="T5" />
+    <ResiduePDBInfoHasLabel name="D6" property="T6" />
+    <ResiduePDBInfoHasLabel name="D7" property="T7" />
+    <ResiduePDBInfoHasLabel name="D8" property="T8" />
+    <ResiduePDBInfoHasLabel name="D9" property="T9" />
+    <ResiduePDBInfoHasLabel name="DA" property="TA" />
+
+  </RESIDUE_SELECTORS>
+
+  <MOVE_MAP_FACTORIES>
+    # Standard FFL MoveMap
+    <xi:include href="xml_pieces/movemap.xml" />
+  </MOVE_MAP_FACTORIES>
+
+  <TASKOPERATIONS>
+    # Standard FFL TaskOperators
+    <xi:include href="xml_pieces/taskoperators.xml" />
+  </TASKOPERATIONS>
+
+  <FILTERS> # (confidence=0 -> to score not to filter)
+
+    # Globals
+    <RmsdFromResidueSelectorFilter name="tglob" reference_name="template_pose"
+       reference_selector="tusedA" query_selector="DA" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="qglob" reference_name="motif_pose"
+       reference_selector="qusedA" query_selector="DA" confidence="0" />
+
+    # Locals
+    <RmsdFromResidueSelectorFilter name="rmsdT1" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t1" query_selector="D1"  />
+    <RmsdFromResidueSelectorFilter name="rmsdT2" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t2" query_selector="D2"  />
+    <RmsdFromResidueSelectorFilter name="rmsdT3" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t3" query_selector="D3"  />
+    <RmsdFromResidueSelectorFilter name="rmsdT4" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t4" query_selector="D4"  />
+    <RmsdFromResidueSelectorFilter name="rmsdT5" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t5" query_selector="D5"  />
+    <RmsdFromResidueSelectorFilter name="rmsdT6" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t6" query_selector="D6"  />
+    <RmsdFromResidueSelectorFilter name="rmsdT7" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t7" query_selector="D7"  />
+    <RmsdFromResidueSelectorFilter name="rmsdT8" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t8" query_selector="D8"  />
+    <RmsdFromResidueSelectorFilter name="rmsdT9" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="t9" query_selector="D9"  />
+    <RmsdFromResidueSelectorFilter name="rmsdTA" superimpose="false" confidence="0"
+      reference_name="template_pose" reference_selector="tusedA" query_selector="DA"  />
+
+    <RmsdFromResidueSelectorFilter name="rmsdQ1" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q1" query_selector="D1"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQ2" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q2" query_selector="D2"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQ3" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q3" query_selector="D3"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQ4" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q4" query_selector="D4"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQ5" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q5" query_selector="D5"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQ6" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q6" query_selector="D6"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQ7" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q7" query_selector="D7"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQ8" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q8" query_selector="D8"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQ9" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="q9" query_selector="D9"  />
+    <RmsdFromResidueSelectorFilter name="rmsdQA" superimpose="false" confidence="0"
+      reference_name="motif_pose" reference_selector="qusedA" query_selector="DA"  />
+
+    <BuriedUnsatHbonds name="BUNS" jump_number="0" confidence="0"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
+    <PackStat name="packstat" repeats="5" chain="1" confidence="0" />
+    <CavityVolume name="cav_vol" confidence="0" />
+  </FILTERS>
+
+  <MOVERS>
+    ## PREPROCESSING: LABELING TEMPLATE
+    <LabelPoseFromResidueSelectorMover name="tlab1" property="T1" residue_selector="t1" />
+    <LabelPoseFromResidueSelectorMover name="tlab2" property="T2" residue_selector="t2" />
+    <LabelPoseFromResidueSelectorMover name="tlab3" property="T3" residue_selector="t3" />
+    <LabelPoseFromResidueSelectorMover name="tlab4" property="T4" residue_selector="t4" />
+    <LabelPoseFromResidueSelectorMover name="tlab5" property="T5" residue_selector="t5" />
+    <LabelPoseFromResidueSelectorMover name="tlab6" property="T6" residue_selector="t6" />
+    <LabelPoseFromResidueSelectorMover name="tlab7" property="T7" residue_selector="t7" />
+    <LabelPoseFromResidueSelectorMover name="tlab8" property="T8" residue_selector="t8" />
+    <LabelPoseFromResidueSelectorMover name="tlab9" property="T9" residue_selector="t9" />
+    <LabelPoseFromResidueSelectorMover name="tlab0" property="TA" residue_selector="tusedA" />
+    <ParsedProtocol name="labelingT">
+      <Add mover_name="tlab1" />
+      <Add mover_name="tlab2" />
+      <Add mover_name="tlab3" />
+      <Add mover_name="tlab4" />
+      <Add mover_name="tlab5" />
+      <Add mover_name="tlab6" />
+      <Add mover_name="tlab7" />
+      <Add mover_name="tlab8" />
+      <Add mover_name="tlab9" />
+      <Add mover_name="tlab0" />
+    </ParsedProtocol>
+
+    ## PREPROCESSING: LABELING QUERY
+    <LabelPoseFromResidueSelectorMover name="qlab1" property="Q1" residue_selector="q1" />
+    <LabelPoseFromResidueSelectorMover name="qlab2" property="Q2" residue_selector="q2" />
+    <LabelPoseFromResidueSelectorMover name="qlab3" property="Q3" residue_selector="q3" />
+    <LabelPoseFromResidueSelectorMover name="qlab4" property="Q4" residue_selector="q4" />
+    <LabelPoseFromResidueSelectorMover name="qlab5" property="Q5" residue_selector="q5" />
+    <LabelPoseFromResidueSelectorMover name="qlab6" property="Q6" residue_selector="q6" />
+    <LabelPoseFromResidueSelectorMover name="qlab7" property="Q7" residue_selector="q7" />
+    <LabelPoseFromResidueSelectorMover name="qlab8" property="Q8" residue_selector="q8" />
+    <LabelPoseFromResidueSelectorMover name="qlab9" property="Q9" residue_selector="q9" />
+    <LabelPoseFromResidueSelectorMover name="qlab0" property="QA" residue_selector="qusedA" />
+    <ParsedProtocol name="labelingQ">
+      <Add mover_name="qlab1" />
+      <Add mover_name="qlab2" />
+      <Add mover_name="qlab3" />
+      <Add mover_name="qlab4" />
+      <Add mover_name="qlab5" />
+      <Add mover_name="qlab6" />
+      <Add mover_name="qlab7" />
+      <Add mover_name="qlab8" />
+      <Add mover_name="qlab9" />
+      <Add mover_name="qlab0" />
+    </ParsedProtocol>
+
+    ## PREPROCESSING: STORING INPUT STRUCTURES
+    <SavePoseMover name="saveTmplt" reference_name="template_pose" restore_pose="0" />
+    <SavePoseMover name="loadTmplt" reference_name="template_pose" restore_pose="1" />
+    <SavePoseMover name="saveFlded" reference_name="folded_pose"   restore_pose="0" />
+    # ** SavePoseMover used like this does not need to be called during PROTOCOL to work.
+    <SavePoseMover name="readMotif" reference_name="motif_pose" pdb_file="3vzdC.pdb" />
+    <SavePoseMover name="saveMotif" reference_name="motif_pose" restore_pose="0" />
+    <SavePoseMover name="loadMotif" reference_name="motif_pose" restore_pose="1" />
+
+    ## PREPROCESSING: LIMITING STRUCTURE TO TEMPLATE
+    <DeleteRegionMover name="cleanChains" residue_selector="!template" />
+
+    ## PREPROCESSING: MAKING FRAGMENTS
+    <StructFragmentMover name="makeFrags" prefix="pf00781" vall_file="database/vall.jul19.2011.gz"
+      small_frag_file="pf00781.200.3mers" large_frag_file="pf00781.200.9mers" output_frag_files="true"
+    />
+
+    ## PREPROCESSING: CONSTRAINTS
+    <AddConstraints name="foldingCST" >
+      <AtomPairConstraintGenerator name="atompairCST1" sd="3.5" ca_only="true"
+        use_harmonic="true" unweighted="true" min_seq_sep="6" max_distance="40" residue_selector="template"
+      />
+    </AddConstraints>
+
+    # MAIN: NUBINITIO FOLDING
+    <NubInitioMover name="FFLA" fragments_id="pf00781" template_motif_selector="insertionA" drop_unfolded_pose="false"
+      use_cst="true" rmsd_threshold="5" fullatom_scorefxn="fullatom" >
+      <Nub reference_name="motif_pose" residue_selector="motifA" >
+        <Segment order="1" n_term_flex="1" c_term_flex="1" />
+        <Segment order="2" n_term_flex="1" c_term_flex="1" />
+        <Segment order="3" n_term_flex="2" c_term_flex="2" />
+        <Segment order="4" n_term_flex="1" c_term_flex="1" />
+      </Nub>
+    </NubInitioMover>
+    <NubInitioMover name="FFLB" fragments_id="pf00781" template_motif_selector="insertionB" drop_unfolded_pose="false"
+      use_cst="true" rmsd_threshold="5" fullatom_scorefxn="fullatom" >
+      <Nub reference_name="motif_pose" residue_selector="motifB" >
+        <Segment order="1" n_term_flex="2" c_term_flex="2" />
+        <Segment order="2" n_term_flex="1" c_term_flex="1" />
+      </Nub>
+    </NubInitioMover>
+    <SwitchMover name="FFL" movers="FFLA,FFLB" selected="FFL%%mode%%" />
+
+    # POSTPROCESSING: CONSTRAINTS
+    <AddConstraints name="designCST" >
+      <AtomPairConstraintGenerator name="atompairCST2" sd="1.5" ca_only="true"
+        use_harmonic="true" unweighted="true" min_seq_sep="6" max_distance="40" residue_selector="design"
+      />
+    </AddConstraints>
+    <ClearConstraintsMover name="clearCST" />
+
+    # POSTPROCESSING: SEQUENCE CONSTRAINTS
+    <AddHelixSequenceConstraints name="compositionCST" />
+
+    # POSTPROCESSING: DESING
+    <FastDesign name="DesignRelax" scorefxn="fullatom" clear_designable_residues="true"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP"
+      repeats="3" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLSTANDARD_MOVEMAP" >
+    </FastDesign>
+
+    # POSTPROCESSING: LOOP CLOSURE
+    <NubInitioLoopClosureMover name="loopC" fragments_id="pf00781"
+      break_side_ramp="true" design="true" fullatom_scorefxn="fullatom" />
+
+    ## VERBOSE
+    <DisplayPoseLabelsMover name="showDesign" movemap_factory="FFLSTANDARD_MOVEMAP"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
+
+  </MOVERS>
+
+  <PROTOCOLS>
+    # PREPROCESSING: LABELING
+    <Add mover="labelingT"  />
+    <Add mover="showDesign" />
+    <Add mover="saveTmplt"  />
+    <Add mover="loadMotif"  />
+    <Add mover="labelingQ"  />
+    <Add mover="showDesign" />
+    <Add mover="saveMotif"  />
+    <Add mover="loadTmplt"  />
+    # PREPROCESSING
+    <Add mover="cleanChains" />
+    <Add mover="makeFrags"   />
+    <Add mover="saveTmplt"   />
+    <Add mover="foldingCST"  />
+    # MAIN
+    <Add mover="FFL"        />
+    <Add mover="showDesign" />
+    <Add mover="clearCST"   />
+    <Add mover="saveFlded"  />
+    # POSTPROCESSING
+    <Add mover="designCST"      />
+    <Add mover="compositionCST" />
+    <Add mover="DesignRelax"    />
+    <Add mover="clearCST"       />
+    <Add mover="loopC"          />
+    # EVALUATION
+    <Add filter="tglob"  />
+    <Add filter="qglob"  />
+    <Add filter="rmsdT1" />
+    <Add filter="rmsdT2" />
+    <Add filter="rmsdT3" />
+    <Add filter="rmsdT4" />
+    <Add filter="rmsdT5" />
+    <Add filter="rmsdT6" />
+    <Add filter="rmsdT7" />
+    <Add filter="rmsdT8" />
+    <Add filter="rmsdT9" />
+    <Add filter="rmsdTA" />
+    <Add filter="rmsdQ1" />
+    <Add filter="rmsdQ2" />
+    <Add filter="rmsdQ3" />
+    <Add filter="rmsdQ4" />
+    <Add filter="rmsdQ5" />
+    <Add filter="rmsdQ6" />
+    <Add filter="rmsdQ7" />
+    <Add filter="rmsdQ8" />
+    <Add filter="rmsdQ9" />
+    <Add filter="rmsdQA" />
+    <Add filter="BUNS"     />
+    <Add filter="packstat" />
+    <Add filter="cav_vol"  />
+  </PROTOCOLS>
+
+</ROSETTASCRIPTS>

@@ -1,0 +1,196 @@
+<ROSETTASCRIPTS>
+
+  <SCOREFXNS>
+    # A weight is added to small-range hbonds to favor helix, and beta pairing
+    # and to take residue propensity into account. This way, we can favor
+    # helix-forming residues in our designs.
+    <ScoreFunction name="fullatom" weights="talaris2014">
+      <Reweight scoretype="hbond_sr_bb"    weight="1.6"/>
+      <Reweight scoretype="hbond_lr_bb"    weight="1.6"/>
+      <Reweight scoretype="aa_composition" weight="1.0" />
+    </ScoreFunction>
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS>
+    # Standard FFL ResidueSelectors.
+    <xi:include href="xml_pieces/selectors.xml" />
+
+    # TEMPLATE (3fd6B)
+    <Index name="template"  resnums="69B-180B" />
+    <Not   name="!template" selector="template" />
+    <Index name="insertion" resnums="89B-99B" />
+    <Not   name="!insertion" selector="insertion" />
+    <And   name="used" selectors="template,!insertion" />
+
+    <Index name="salign" resnums="97B-106B" />
+    <Index name="sbeta1" resnums="81B-89B" />
+    <Index name="sbeta2" resnums="121B-129B" />
+    <Index name="sbeta3" resnums="159B-167B" />
+    <Index name="sbeta4" resnums="171B-179B" />
+    <Or    name="sall"   selectors="sbeta1,sbeta2,sbeta3,sbeta4" />
+
+    # MOTIF (3p4eA)
+    <Index name="motif"  resnums="68A-84A" />
+    <Chain name="design" chains="A" />
+
+    # TARGET (3p4eA)
+    <Index name="tbeta1" resnums="58A-66A" />
+    <Index name="tbeta2" resnums="105A-113A" />
+    <Index name="tbeta3" resnums="138A-146A" />
+    <Index name="tbeta4" resnums="157A-165A" />
+    <Or    name="tall"   selectors="tbeta1,tbeta2,tbeta3,tbeta4" />
+
+    # DESIGN
+    <Index name="dalign" resnums="35A-44A" />
+    <Index name="dbeta1" resnums="13A-21A" />
+    <Index name="dbeta2" resnums="59A-67A" />
+    <Index name="dbeta3" resnums="97A-105A" />
+    <Index name="dbeta4" resnums="109A-117A" />
+    <Or    name="dall"   selectors="dbeta1,dbeta2,dbeta3,dbeta4" />
+
+  </RESIDUE_SELECTORS>
+
+  <MOVE_MAP_FACTORIES>
+    # Standard FFL MoveMap
+    <xi:include href="xml_pieces/movemap.xml" />
+  </MOVE_MAP_FACTORIES>
+
+  <TASKOPERATIONS>
+    # Standard FFL TaskOperators
+    <xi:include href="xml_pieces/taskoperators.xml" />
+  </TASKOPERATIONS>
+
+  <FILTERS> # (confidence=0 -> to score not to filter)
+
+    <RmsdFromResidueSelectorFilter name="tmpb1" superimpose="false"
+      reference_name="motif_pose" reference_selector="tbeta1" query_selector="dbeta1" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="tmpb2" superimpose="false"
+      reference_name="motif_pose" reference_selector="tbeta2" query_selector="dbeta2" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="tmpb3" superimpose="false"
+      reference_name="motif_pose" reference_selector="tbeta3" query_selector="dbeta3" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="tmpb4" superimpose="false"
+      reference_name="motif_pose" reference_selector="tbeta4" query_selector="dbeta4" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="tmpbA" superimpose="false"
+      reference_name="motif_pose" reference_selector="tall" query_selector="dall" confidence="0" />
+
+    <RmsdFromResidueSelectorFilter name="sglob"
+      reference_name="template_pose" reference_selector="used" query_selector="TEMPLATE" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="smpb1" superimpose="false"
+      reference_name="template_pose" reference_selector="sbeta1" query_selector="dbeta1" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="smpb2" superimpose="false"
+      reference_name="template_pose" reference_selector="sbeta2" query_selector="dbeta2" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="smpb3" superimpose="false"
+      reference_name="template_pose" reference_selector="sbeta3" query_selector="dbeta3" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="smpb4" superimpose="false"
+      reference_name="template_pose" reference_selector="sbeta4" query_selector="dbeta4" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="smpbA" superimpose="false"
+      reference_name="template_pose" reference_selector="sall" query_selector="dall" confidence="0" />
+
+    # check rmsd drift
+    <RmsdFromResidueSelectorFilter name="rmsd_drift"
+      reference_name="folded_pose" reference_selector="design" query_selector="design" confidence="0" />
+    # Make sure to get an evaluation of the design alone
+    <ScorePoseSegmentFromResidueSelectorFilter name="design_score" confidence="0" residue_selector="design" scorefxn="fullatom" />
+
+
+    <BuriedUnsatHbonds name="BUNS" jump_number="0" confidence="0"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
+    <PackStat name="packstat" repeats="5" chain="1" confidence="0" />
+    <CavityVolume name="cav_vol" confidence="0" />
+  </FILTERS>
+
+  <MOVERS>
+    # ** SavePoseMover used like this does not need to be called during PROTOCOL to work.
+    <SavePoseMover name="load_template" reference_name="template_pose" pdb_file="3fd6B.pdb" />
+    <SavePoseMover name="load_motif"    reference_name="motif_pose"    pdb_file="3p4eA.pdb" />
+    <SavePoseMover name="save_folded"   reference_name="folded_pose"   restore_pose="0" />
+
+    # template has to be 1 contiguous chain
+    <DeleteRegionMover name="removeExtraChains" residue_selector="!template" />
+
+    # The creates the fragments (if they need to be created) or loads them from a file
+    # into the DataMap with the "frags" identifier (that needs to be specified in the NubInitio).
+    <StructFragmentMover name="FragmentPicker" prefix="pf00586"
+      small_frag_file="pf00586.200.3mers" large_frag_file="pf00586.200.9mers"
+    />
+
+    # CONSTRAINTS
+    # Constraints to guide the FOLDING
+    <AddConstraints name="foldingCST" >
+      <AtomPairConstraintGenerator name="atompairCST1" sd="3.5" ca_only="true"
+        use_harmonic="true" unweighted="true" min_seq_sep="6" max_distance="40" residue_selector="template"
+      />
+    </AddConstraints>
+    # Constraints to guide the DESIGN
+    <AddConstraints name="designCST" >
+      <AtomPairConstraintGenerator name="atompairCST2" sd="1.5" ca_only="true"
+        use_harmonic="true" unweighted="true" min_seq_sep="6" max_distance="40" residue_selector="design"
+      />
+    </AddConstraints>
+    # Add Sequence Propensity Constraints
+    <AddHelixSequenceConstraints name="compositionCST" />
+    # Clear Constraints
+    <ClearConstraintsMover name="clearCST" />
+
+    # NUBINITIO FOLDING TYPES
+    # The NubInitio folding with binding and only core
+    <NubInitioMover name="FFL" fragments_id="pf00586" template_motif_selector="insertion"
+      use_cst="true" rmsd_threshold="5" fullatom_scorefxn="fullatom" >
+      <Nub reference_name="motif_pose" residue_selector="motif" >
+        <Segment order="1" n_term_flex="2" c_term_flex="2" />
+      </Nub>
+    </NubInitioMover>
+
+    # This is good to have to see a schema of what residues are going to be affected in which way
+    <DisplayPoseLabelsMover name="showDesign" movemap_factory="FFLSTANDARD_MOVEMAP"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
+
+    # Design/Relax cycles
+    <FastDesign name="DesignRelax" scorefxn="fullatom" clear_designable_residues="true"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP"
+      repeats="3" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLSTANDARD_MOVEMAP" >
+    </FastDesign>
+
+    # Local alignment for final evaluation
+    <AlignByResidueSelectorMover name="align" reference_name="template_pose"
+      reference_selector="salign" query_selector="dalign" />
+
+  </MOVERS>
+
+  <PROTOCOLS>
+    # Preparing Template
+    <Add mover="removeExtraChains" />
+    <Add mover="FragmentPicker"    />
+    # Fold
+    <Add mover="foldingCST"  />
+    <Add mover="FFL"         />
+    <Add mover="showDesign"  />
+    <Add mover="clearCST"    />
+    <Add mover="save_folded" />
+    # Design
+    <Add mover="designCST"      />
+    <Add mover="compositionCST" />
+    <Add mover="DesignRelax"    />
+    <Add mover="clearCST"       />
+    # Evaluate
+    <Add filter="sglob" />
+    <Add mover="align" />
+    <Add filter="smpb1" />
+    <Add filter="smpb2" />
+    <Add filter="smpb3" />
+    <Add filter="smpb4" />
+    <Add filter="smpbA" />
+    <Add filter="tmpb1" />
+    <Add filter="tmpb2" />
+    <Add filter="tmpb3" />
+    <Add filter="tmpb4" />
+    <Add filter="tmpbA" />
+    <Add filter="rmsd_drift"     />
+    <Add filter="design_score"   />
+    <Add filter="BUNS"           />
+    <Add filter="packstat"       />
+    <Add filter="cav_vol"        />
+  </PROTOCOLS>
+
+</ROSETTASCRIPTS>
