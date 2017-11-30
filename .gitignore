@@ -100,4 +100,8 @@ ENV/
 # mypy
 .mypy_cache/
 
+
+# PROJECT
+
 *.combinedsilent.gz
+vall.jul19.2011.gz
