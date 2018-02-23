@@ -141,9 +141,9 @@ def plot_main_distributions( df, toprmsd=10 ):
     fig  = plt.figure(figsize=(30, 10))
     grid = (1, 3)
 
-    ax00 = plt.subplot2grid(grid, (0, 0))
-    ax01 = plt.subplot2grid(grid, (0, 1), sharey=ax00)
-    ax02 = plt.subplot2grid(grid, (0, 2), sharey=ax00)
+    ax00 = plt.subplot2grid(grid, (0, 0), fig=fig)
+    ax01 = plt.subplot2grid(grid, (0, 1), sharey=ax00, fig=fig)
+    ax02 = plt.subplot2grid(grid, (0, 2), sharey=ax00, fig=fig)
     ax   = [ax00, ax01, ax02]
     maxf = 0
     for _, f in enumerate(["wauto", "picker", "auto"]):

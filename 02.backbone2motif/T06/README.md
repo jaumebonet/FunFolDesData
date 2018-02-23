@@ -8,8 +8,10 @@ import sys
 
 # external libraries
 import matplotlib
+import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from IPython.display import display_javascript, display_html, display
 
 # local libraries
 sys.path.append(os.path.abspath("../"))
@@ -182,6 +184,24 @@ print "columns:", ", ".join([str(x) for x in df.columns.values]), "\n"
 df.groupby(["experiment", "fragments"]).count()["description"]
 ```
 
+    columns: score, ALIGNRMSD, A_ni_mtcontacts, A_ni_rmsd, A_ni_rmsd_threshold, A_ni_trials, BUNS, COMPRRMSD, MOTIFRMSD, cav_vol, driftRMSD, finalRMSD, packstat, A_ni_rmsd_type, description, experiment, fragments, sequence_A, benchmark 
+    
+
+
+
+
+
+    experiment  fragments
+    abinitio    auto         7723 
+                picker       8692 
+                wauto        10295
+    nubinitio   auto         5112 
+                picker       8510 
+                wauto        8076 
+    Name: description, dtype: int64
+
+
+
 ## Compare FFL vs. abinitio RMSD
 
 
@@ -190,9 +210,17 @@ readme_utils.plot.plot_main_summary( df )
 ```
 
 
+![png](README_files/README_11_0.png)
+
+
+
 ```python
 readme_utils.plot.plot_main_distributions( df, 15 )
 ```
+
+
+![png](README_files/README_12_0.png)
+
 
 ## FFL sequence retrieval
 
@@ -202,9 +230,17 @@ readme_utils.plot.plot_aa_heatmaps( df, info, base, 0.1 )
 ```
 
 
+![png](README_files/README_14_0.png)
+
+
+
 ```python
 readme_utils.plot.plot_aa_similarities( df, info, base )
 ```
+
+
+![png](README_files/README_15_0.png)
+
 
 ## Success?
 We measure success over the top 10% scored decoys of each experiment/fragment type; comparing the performance of FFL vs. that of _abinitio_.
@@ -213,6 +249,10 @@ We measure success over the top 10% scored decoys of each experiment/fragment ty
 ```python
 readme_utils.plot.check_success(df, info, base, 0.1, 3.0)
 ```
+
+
+![png](README_files/README_17_0.png)
+
 
 
 ```python
