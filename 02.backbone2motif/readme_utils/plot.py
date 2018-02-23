@@ -195,7 +195,7 @@ def plot_aa_heatmaps( df, info, base, top=None ):
     df = df[(df["fragments"] == "wauto") & (df["experiment"] == "nubinitio")].sort_values("score")
     count = df.shape[0] if top is None else int(float(df.shape[0]) * top)
     for _, a in enumerate(aa):
-        rstoolbox.plot.sequence_frequency_plot( df.head(count), info["design"]["chain"], ax[_], key_residues=a )
+        rstoolbox.plot.sequence_frequency_plot( df.head(count), info["design"]["chain"], ax[_], key_residues=a, xrotation=90 )
         rstoolbox.utils.add_top_title(ax[_], tl[_])
 
     plt.suptitle("FFL-wauto Sequence Recovery")

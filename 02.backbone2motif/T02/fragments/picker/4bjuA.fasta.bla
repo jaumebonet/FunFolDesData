@@ -1,0 +1,2299 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 4bjuA
+         (84 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_Q4WJF0 Phosphoacetylglucosamine mutase n=6 Tax=Aspergil...   152   8e-35
+UniRef90_V5FCI3 Phosphoacetylglucosamine mutase n=1 Tax=Byssochl...   152   1e-34
+UniRef90_A1D406 Phosphoacetylglucosamine mutase n=3 Tax=Aspergil...   150   2e-34
+UniRef90_C8V496 Phosphoacetylglucosamine mutase n=4 Tax=Aspergil...   150   3e-34
+UniRef90_A1CR31 Phosphoacetylglucosamine mutase n=3 Tax=Aspergil...   149   6e-34
+UniRef90_Q0CTJ5 Phosphoacetylglucosamine mutase n=1 Tax=Aspergil...   147   4e-33
+UniRef90_B8NNC4 Phosphoacetylglucosamine mutase n=7 Tax=Aspergil...   147   4e-33
+UniRef90_A0A017SQY9 Phosphoacetylglucosamine mutase n=4 Tax=Aspe...   144   2e-32
+UniRef90_A0A1S9RAH5 Phosphoacetylglucosamine mutase n=20 Tax=Asp...   143   4e-32
+UniRef90_B8M6P3 Phosphoacetylglucosamine mutase n=4 Tax=Talaromy...   143   4e-32
+UniRef90_G3YEB2 Phosphoacetylglucosamine mutase n=9 Tax=Aspergil...   143   4e-32
+UniRef90_A0A0F4YJ74 Phosphoacetylglucosamine mutase (Fragment) n...   142   9e-32
+UniRef90_A0A135L8J8 Phosphoacetylglucosamine mutase n=2 Tax=Aspe...   141   1e-31
+UniRef90_A0A0U1MA57 Phosphoacetylglucosamine mutase n=1 Tax=Tala...   140   4e-31
+UniRef90_J3KBJ9 Phosphoacetylglucosamine mutase n=6 Tax=Coccidio...   139   7e-31
+UniRef90_C4JYS4 Phosphoacetylglucosamine mutase n=1 Tax=Uncinoca...   139   7e-31
+UniRef90_K9G4N0 Phosphoacetylglucosamine mutase n=2 Tax=Penicill...   138   1e-30
+UniRef90_A0A0J8QHH4 N-acetylglucosamine-phosphate mutase n=1 Tax...   137   2e-30
+UniRef90_W6QGI6 Phosphoacetylglucosamine mutase n=1 Tax=Penicill...   137   2e-30
+UniRef90_A6QRQ8 Phosphoacetylglucosamine mutase n=13 Tax=Ajellom...   136   6e-30
+UniRef90_C1GTT6 Phosphoacetylglucosamine mutase n=5 Tax=Paracocc...   134   3e-29
+UniRef90_A0A167Y5T5 Phosphoacetylglucosamine mutase n=1 Tax=Asco...   128   2e-27
+UniRef90_D4AMH5 Phosphoacetylglucosamine mutase n=12 Tax=Arthrod...   125   8e-27
+UniRef90_A0A164ZYN8 Phosphoacetylglucosamine mutase n=1 Tax=Xylo...   117   3e-24
+UniRef90_R1E8V5 Phosphoacetylglucosamine mutase n=5 Tax=Botryosp...   113   5e-23
+UniRef90_R7Z1I4 Phosphoacetylglucosamine mutase n=1 Tax=Coniospo...   111   2e-22
+UniRef90_A0A1W5D9B3 Phosphoacetylglucosamine mutase n=1 Tax=Umbi...   110   2e-22
+UniRef90_A0A0D2APM8 Phosphoacetylglucosamine mutase n=3 Tax=Verr...   109   6e-22
+UniRef90_A0A1D9PTG3 Phosphoacetylglucosamine mutase n=5 Tax=Scle...   109   7e-22
+UniRef90_A0A0G4KE21 Uncharacterized protein (Fragment) n=1 Tax=V...   109   8e-22
+UniRef90_A0A1B8GKJ3 Phosphoacetylglucosamine mutase n=21 Tax=Pse...   108   1e-21
+UniRef90_A0A151GEH8 Phosphoacetylglucosamine mutase n=1 Tax=Drec...   108   1e-21
+UniRef90_A0A0D1Y2Q7 Phosphoacetylglucosamine mutase n=1 Tax=Exop...   108   2e-21
+UniRef90_A0A1E4TLF7 Phosphoacetylglucosamine mutase n=1 Tax=Tort...   108   2e-21
+UniRef90_S7QM51 N-terminal nucleophile aminohydrolases Ntn hydro...   107   3e-21
+UniRef90_A0A1M2VB24 Phosphoacetylglucosamine mutase n=2 Tax=Tram...   107   3e-21
+UniRef90_M2QY95 Uncharacterized protein n=1 Tax=Ceriporiopsis su...   107   3e-21
+UniRef90_A0A0G4MDK2 Phosphoacetylglucosamine mutase n=1 Tax=Vert...   106   5e-21
+UniRef90_A0A060SHA8 Phosphoacetylglucosamine mutase n=2 Tax=Poly...   106   5e-21
+UniRef90_A0A0D2B111 Phosphoacetylglucosamine mutase n=5 Tax=Exop...   105   8e-21
+UniRef90_G2WYV4 Phosphoacetylglucosamine mutase n=2 Tax=Verticil...   105   9e-21
+UniRef90_A0A072NZC7 Phosphoacetylglucosamine mutase n=1 Tax=Exop...   105   1e-20
+UniRef90_A0A0D2K8X6 Phosphoacetylglucosamine mutase n=4 Tax=Herp...   105   1e-20
+UniRef90_UPI00044161E1 phosphoacetylglucosamine mutase n=1 Tax=D...   105   1e-20
+UniRef90_A0A1C1CFB4 Phosphoacetylglucosamine mutase n=7 Tax=Herp...   105   1e-20
+UniRef90_A0A0D2CLH6 Phosphoacetylglucosamine mutase n=2 Tax=Herp...   105   1e-20
+UniRef90_A0A168NF66 Phosphoacetylglucosamine mutase n=2 Tax=Absi...   105   1e-20
+UniRef90_F8NDW6 Phosphoacetylglucosamine mutase n=2 Tax=Serpula ...   105   2e-20
+UniRef90_I1BPG1 Phosphoacetylglucosamine mutase n=1 Tax=Rhizopus...   104   2e-20
+UniRef90_A0A0P1KQ78 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   104   2e-20
+UniRef90_A0A0D0BQ79 Phosphoacetylglucosamine mutase n=1 Tax=Suil...   104   3e-20
+UniRef90_R8BCB4 Phosphoacetylglucosamine mutase n=1 Tax=Togninia...   104   3e-20
+UniRef90_A0A1X2GH87 Phosphoacetylglucosamine mutase n=1 Tax=Hess...   103   3e-20
+UniRef90_A0A1C7NB14 Phosphoacetylglucosamine mutase n=2 Tax=Choa...   103   3e-20
+UniRef90_A0A1X6NFV6 Phosphoacetylglucosamine mutase n=1 Tax=Post...   103   3e-20
+UniRef90_A0A0D2GZ92 Phosphoacetylglucosamine mutase n=3 Tax=Herp...   103   3e-20
+UniRef90_A0A165W2H4 Phosphoacetylglucosamine mutase n=1 Tax=Neol...   103   4e-20
+UniRef90_A0A1G4JC72 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   103   5e-20
+UniRef90_J4I897 Phosphoacetylglucosamine mutase n=1 Tax=Fibropor...   103   5e-20
+UniRef90_A0A0D7AH46 Phosphoacetylglucosamine mutase n=1 Tax=Fist...   103   5e-20
+UniRef90_K1XL19 Phosphoacetylglucosamine mutase n=7 Tax=Helotial...   103   5e-20
+UniRef90_E9E601 Phosphoacetylglucosamine mutase n=13 Tax=Hypocre...   103   5e-20
+UniRef90_S2K2Q4 Phosphoacetylglucosamine mutase n=3 Tax=Mucor Ta...   103   6e-20
+UniRef90_N1JC79 Phosphoacetylglucosamine mutase n=1 Tax=Blumeria...   103   6e-20
+UniRef90_A0A0C7BI70 Phosphoacetylglucosamine mutase n=5 Tax=Rhiz...   103   6e-20
+UniRef90_D6RK39 Phosphoacetylglucosamine mutase n=1 Tax=Coprinop...   103   6e-20
+UniRef90_Q5KH62 Phosphoacetylglucosamine mutase n=10 Tax=Cryptoc...   102   7e-20
+UniRef90_S8EFM0 Phosphoacetylglucosamine mutase n=2 Tax=Polypora...   102   8e-20
+UniRef90_A0A0A1TJ80 Phosphoacetylglucosamine mutase n=1 Tax=Torr...   102   9e-20
+UniRef90_A0A0C3HUM9 Phosphoacetylglucosamine mutase n=1 Tax=Oidi...   102   9e-20
+UniRef90_A0A165CE22 Phosphoacetylglucosamine mutase n=1 Tax=Laet...   102   9e-20
+UniRef90_V2Z1T3 Phosphoacetylglucosamine mutase n=2 Tax=Moniliop...   102   1e-19
+UniRef90_A0A063BTC5 Phosphoacetylglucosamine mutase n=1 Tax=Usti...   102   1e-19
+UniRef90_K0KEB1 Phosphoacetylglucosamine mutase n=1 Tax=Wickerha...   101   1e-19
+UniRef90_E3RSJ0 Phosphoacetylglucosamine mutase n=9 Tax=Pleospor...   101   1e-19
+UniRef90_A0A0C3FZJ5 Phosphoacetylglucosamine mutase n=1 Tax=Pilo...   101   2e-19
+UniRef90_A0A0B7NQV9 Phosphoacetylglucosamine mutase n=1 Tax=Para...   101   2e-19
+UniRef90_A0A0C3EKQ3 Phosphoacetylglucosamine mutase n=1 Tax=Scle...   101   2e-19
+UniRef90_A0A1U7KQ01 Phosphoacetylglucosamine mutase n=1 Tax=Phle...   101   2e-19
+UniRef90_C5DER6 Phosphoacetylglucosamine mutase n=1 Tax=Lachance...   101   2e-19
+UniRef90_A0A1X2HB76 Phosphoacetylglucosamine mutase n=1 Tax=Sync...   101   2e-19
+UniRef90_UPI000440DF32 phosphoacetylglucosamine mutase n=1 Tax=S...   101   2e-19
+UniRef90_A0A168C1L4 Phosphoacetylglucosamine mutase n=1 Tax=Asch...   100   3e-19
+UniRef90_A0A0M9VUZ6 Phosphoacetylglucosamine mutase n=1 Tax=Esco...   100   3e-19
+UniRef90_A0A165ZGR6 Phosphoacetylglucosamine mutase n=1 Tax=Fibu...   100   3e-19
+UniRef90_A0A060T1B3 Phosphoacetylglucosamine mutase n=1 Tax=Blas...   100   3e-19
+UniRef90_A0A086T2P7 Phosphoacetylglucosamine mutase n=1 Tax=Acre...   100   3e-19
+UniRef90_K5VDN9 Phosphoacetylglucosamine mutase n=1 Tax=Phaneroc...   100   4e-19
+UniRef90_A0A067P386 Uncharacterized protein n=1 Tax=Pleurotus os...   100   4e-19
+UniRef90_A0A1E3Q796 Phosphoacetylglucosamine mutase n=1 Tax=Lipo...   100   4e-19
+UniRef90_G9MG81 Phosphoacetylglucosamine mutase n=7 Tax=Trichode...   100   4e-19
+UniRef90_A0A0J9XF82 Phosphoacetylglucosamine mutase n=1 Tax=Geot...   100   4e-19
+UniRef90_A0A084QKH0 Phosphoacetylglucosamine mutase n=3 Tax=Stac...   100   4e-19
+UniRef90_A0A0H5C4N7 Phosphoacetylglucosamine mutase n=2 Tax=Cybe...   100   4e-19
+UniRef90_A0A0B2WQP1 Phosphoacetylglucosamine mutase n=1 Tax=Meta...   100   4e-19
+UniRef90_Q09770 Phosphoacetylglucosamine mutase 2 n=1 Tax=Schizo...   100   5e-19
+UniRef90_A0A1E3IRK0 Phosphoacetylglucosamine mutase n=2 Tax=Cryp...   100   5e-19
+UniRef90_A0A151WDT7 Phosphoacetylglucosamine mutase n=1 Tax=Hyps...   100   5e-19
+UniRef90_Q6C454 Phosphoacetylglucosamine mutase n=2 Tax=Yarrowia...   100   5e-19
+UniRef90_W4KPB5 Uncharacterized protein (Fragment) n=1 Tax=Heter...   100   6e-19
+UniRef90_S3DH83 Phosphoacetylglucosamine mutase n=2 Tax=Glarea l...   100   6e-19
+UniRef90_A0A1E3P4I2 Phosphoacetylglucosamine mutase n=1 Tax=Wick...   100   7e-19
+UniRef90_A0A0C3P5F5 Phosphoacetylglucosamine mutase n=2 Tax=Piso...   100   7e-19
+UniRef90_A0A1Y2E318 Phosphoacetylglucosamine mutase n=1 Tax=Pseu...    99   7e-19
+UniRef90_S9RA03 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...    99   8e-19
+UniRef90_A0A068RKR6 Phosphoacetylglucosamine mutase n=2 Tax=Lich...    99   8e-19
+UniRef90_W3XNK0 Phosphoacetylglucosamine mutase n=1 Tax=Pestalot...    99   8e-19
+UniRef90_A0A0C7N607 Phosphoacetylglucosamine mutase n=1 Tax=Lach...    99   9e-19
+UniRef90_A0A0D7B5M0 Phosphoacetylglucosamine mutase n=1 Tax=Cyli...    99   1e-18
+UniRef90_U1GA77 Uncharacterized protein n=1 Tax=Endocarpon pusil...    99   1e-18
+UniRef90_A0A167QQ47 Phosphoacetylglucosamine mutase n=1 Tax=Phyc...    99   1e-18
+UniRef90_A0A136JF88 Phosphoacetylglucosamine mutase n=1 Tax=Micr...    99   1e-18
+UniRef90_G4TZA2 Probable PCM1-phosphoacetylglucosamine mutase (F...    99   1e-18
+UniRef90_M1W7F4 Phosphoacetylglucosamine mutase n=1 Tax=Clavicep...    99   1e-18
+UniRef90_A0A165PD10 Phosphoacetylglucosamine mutase n=1 Tax=Exid...    98   2e-18
+UniRef90_A0A1B7NH65 Phosphoacetylglucosamine mutase n=2 Tax=Rhiz...    98   2e-18
+UniRef90_A0A0C3L564 Phosphoacetylglucosamine mutase n=1 Tax=Tula...    98   2e-18
+UniRef90_A0A0C3SD02 Phosphoacetylglucosamine mutase n=1 Tax=Phle...    98   2e-18
+UniRef90_A0A067QBL9 Phosphoacetylglucosamine mutase n=1 Tax=Jaap...    98   2e-18
+UniRef90_B0CPQ3 Phosphoacetylglucosamine mutase n=2 Tax=Laccaria...    98   3e-18
+UniRef90_G3JLP5 Phosphoacetylglucosamine mutase n=7 Tax=Cordycip...    97   3e-18
+UniRef90_A0A0H2S5X7 Phosphoacetylglucosamine mutase n=1 Tax=Schi...    97   3e-18
+UniRef90_A0A0L1HKR5 Stress response protein NST1 n=1 Tax=Stemphy...    97   3e-18
+UniRef90_S9W226 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...    97   3e-18
+UniRef90_A0A084G9Y0 Phosphoacetylglucosamine mutase n=1 Tax=Sced...    97   3e-18
+UniRef90_UPI000455F2FE Phosphoacetylglucosamine mutase n=1 Tax=C...    97   3e-18
+UniRef90_A0A1G4IXU2 Phosphoacetylglucosamine mutase n=1 Tax=Lach...    97   4e-18
+UniRef90_A0A061B5H5 Phosphoacetylglucosamine mutase n=2 Tax=Cybe...    97   4e-18
+UniRef90_A0A0B7JKY8 Phosphoacetylglucosamine mutase n=1 Tax=Bion...    97   4e-18
+UniRef90_A0A1W2TDM3 Phosphoacetylglucosamine mutase n=2 Tax=Fung...    97   4e-18
+UniRef90_A0A1C1WYM8 Phosphoglucomutase/phosphomannomutase domain...    97   4e-18
+UniRef90_Q09687 Phosphoacetylglucosamine mutase 1 n=1 Tax=Schizo...    97   5e-18
+UniRef90_A0A0N1HG03 Phosphoacetylglucosamine mutase n=1 Tax=Phia...    97   5e-18
+UniRef90_A0A0E9NPD7 Phosphoacetylglucosamine mutase n=1 Tax=Sait...    97   6e-18
+UniRef90_H6BQW9 Phosphoacetylglucosamine mutase n=3 Tax=Herpotri...    96   7e-18
+UniRef90_U9UTL0 Phosphoacetylglucosamine mutase n=2 Tax=Rhizopha...    96   7e-18
+UniRef90_I1RC31 Phosphoacetylglucosamine mutase n=22 Tax=Fusariu...    96   7e-18
+UniRef90_U5H9S9 Phosphoacetylglucosamine mutase n=1 Tax=Microbot...    96   7e-18
+UniRef90_A0A0A8L5F2 Phosphoacetylglucosamine mutase n=1 Tax=Kluy...    96   8e-18
+UniRef90_UPI0004410FC8 phosphoacetylglucosamine mutase n=1 Tax=A...    96   8e-18
+UniRef90_A0A146H5U0 Phosphoacetylglucosamine mutase n=1 Tax=Myce...    96   8e-18
+UniRef90_UPI000867A1FD Phosphoacetylglucosamine mutase n=1 Tax=S...    96   9e-18
+UniRef90_A0A197JRQ5 Phosphoacetylglucosamine mutase n=1 Tax=Mort...    96   9e-18
+UniRef90_W2S885 Phosphoacetylglucosamine mutase n=1 Tax=Cyphello...    96   9e-18
+UniRef90_A0A1Y1ZX85 Phosphoacetylglucosamine mutase n=1 Tax=Cloh...    96   9e-18
+UniRef90_G8JQW3 Phosphoacetylglucosamine mutase n=1 Tax=Eremothe...    96   9e-18
+UniRef90_A0A0B1PEY4 Phosphoacetylglucosamine mutase n=1 Tax=Unci...    96   1e-17
+UniRef90_A0A166LN48 Phosphoacetylglucosamine mutase n=1 Tax=Peni...    96   1e-17
+UniRef90_M7TMW3 Phosphoacetylglucosamine mutase n=1 Tax=Eutypa l...    96   1e-17
+UniRef90_A0A090C9F7 Putative phosphoacetylglucosamine mutase n=2...    96   1e-17
+UniRef90_A0A0P7BVJ6 Phosphoacetylglucosamine mutase n=1 Tax=Neon...    96   1e-17
+UniRef90_A0A0F2MM97 Phosphoacetylglucosamine mutase n=3 Tax=Spor...    96   1e-17
+UniRef90_A0A0L9SJJ7 Phosphoacetylglucosamine mutase n=1 Tax=Ophi...    95   1e-17
+UniRef90_A0A0D2PM98 Phosphoacetylglucosamine mutase n=1 Tax=Hyph...    95   1e-17
+UniRef90_A0A010S6D7 Phosphoacetylglucosamine mutase n=15 Tax=Col...    95   2e-17
+UniRef90_A0A0C9VSZ7 Unplaced genomic scaffold SPHSTscaffold_36, ...    95   2e-17
+UniRef90_K5WAK9 Uncharacterized protein n=2 Tax=Agaricus bisporu...    95   2e-17
+UniRef90_S9R8L2 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...    95   2e-17
+UniRef90_A0A1G4ITV7 Phosphoacetylglucosamine mutase n=1 Tax=Lach...    95   2e-17
+UniRef90_A0A0N8BY27 Phosphoacetylglucosamine mutase n=1 Tax=Daph...    95   2e-17
+UniRef90_A0A1Y2GMW1 Phosphoacetylglucosamine mutase n=1 Tax=Lobo...    95   2e-17
+UniRef90_A0A067TP36 Phosphoacetylglucosamine mutase n=1 Tax=Gale...    94   2e-17
+UniRef90_G8ZY60 Phosphoacetylglucosamine mutase n=1 Tax=Torulasp...    94   2e-17
+UniRef90_D8PNS7 Phosphoacetylglucosamine mutase n=1 Tax=Schizoph...    94   2e-17
+UniRef90_A0A1Y2WGG1 Phosphoacetylglucosamine mutase n=4 Tax=Xyla...    94   3e-17
+UniRef90_A0A167U532 Phosphoacetylglucosamine mutase n=1 Tax=Spor...    94   3e-17
+UniRef90_A0A0P5Z838 Phosphoacetylglucosamine mutase n=1 Tax=Daph...    94   3e-17
+UniRef90_A0A1B9HX97 Phosphoacetylglucosamine mutase n=4 Tax=Kwon...    94   3e-17
+UniRef90_Q75CE5 Phosphoacetylglucosamine mutase n=2 Tax=Saccharo...    94   3e-17
+UniRef90_B6JX50 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...    94   3e-17
+UniRef90_Q6BSY8 Phosphoacetylglucosamine mutase n=2 Tax=Debaryom...    94   4e-17
+UniRef90_A0A1G4MCE2 Phosphoacetylglucosamine mutase n=1 Tax=Lach...    94   4e-17
+UniRef90_UPI0004417621 phosphoacetylglucosamine mutase n=1 Tax=P...    94   4e-17
+UniRef90_G1X5E3 Phosphoacetylglucosamine mutase n=1 Tax=Arthrobo...    94   4e-17
+UniRef90_A0A1A5ZXY0 Phosphoacetylglucosamine mutase n=1 Tax=Kwon...    94   4e-17
+UniRef90_G0SDR9 Phosphoacetylglucosamine mutase n=1 Tax=Chaetomi...    94   4e-17
+UniRef90_A0A0P6AG10 Phosphoacetylglucosamine mutase n=22 Tax=Dap...    94   4e-17
+UniRef90_A0A194VAI7 Phosphoacetylglucosamine mutase n=3 Tax=Diap...    94   4e-17
+UniRef90_A0A1G4IS55 Phosphoacetylglucosamine mutase n=1 Tax=Lach...    94   5e-17
+UniRef90_A0A1E3HRU9 Phosphoacetylglucosamine mutase n=4 Tax=Cryp...    94   5e-17
+UniRef90_A0A0P5LWG5 Phosphoacetylglucosamine mutase n=1 Tax=Daph...    94   5e-17
+UniRef90_A0A1E3PSZ2 Phosphoacetylglucosamine mutase n=1 Tax=Nads...    93   5e-17
+UniRef90_UPI0006CEE77A phosphoacetylglucosamine mutase n=1 Tax=C...    93   5e-17
+UniRef90_A0A0E9ND47 Uncharacterized protein n=1 Tax=Saitoella co...    93   5e-17
+UniRef90_UPI00094E6767 phosphoacetylglucosamine mutase n=1 Tax=D...    93   6e-17
+UniRef90_D6X3A7 Phosphoacetylglucosamine mutase n=1 Tax=Triboliu...    93   6e-17
+UniRef90_A0A1Y1ZDZ2 Phosphoacetylglucosamine mutase n=1 Tax=Basi...    93   7e-17
+UniRef90_A0A074WEP8 Phosphoacetylglucosamine mutase n=4 Tax=Aure...    93   7e-17
+UniRef90_E9GZ07 Phosphoacetylglucosamine mutase n=1 Tax=Daphnia ...    93   8e-17
+UniRef90_H2B1Z1 Phosphoacetylglucosamine mutase n=1 Tax=Kazachst...    93   8e-17
+UniRef90_A0A0C3BC78 Phosphoacetylglucosamine mutase n=1 Tax=Sere...    92   9e-17
+UniRef90_UPI00044076E8 phosphoacetylglucosamine mutase n=1 Tax=F...    92   1e-16
+UniRef90_A0A0C2TU96 Phosphoacetylglucosamine mutase n=1 Tax=Aman...    92   1e-16
+UniRef90_A0A1G4IVT5 Phosphoacetylglucosamine mutase n=1 Tax=Lach...    92   1e-16
+UniRef90_S3D6X7 Phosphoacetylglucosamine mutase n=1 Tax=Ophiosto...    92   1e-16
+UniRef90_E2L4T6 Uncharacterized protein (Fragment) n=1 Tax=Monil...    92   1e-16
+UniRef90_UPI00096B0832 LOW QUALITY PROTEIN: phosphoacetylglucosa...    92   1e-16
+UniRef90_J5QRT1 Phosphoacetylglucosamine mutase n=2 Tax=Trichosp...    92   1e-16
+UniRef90_I4YEE6 Phosphoacetylglucosamine mutase n=1 Tax=Wallemia...    92   1e-16
+UniRef90_G3ANX8 Phosphoacetylglucosamine mutase n=1 Tax=Spathasp...    92   2e-16
+UniRef90_A7TGV8 Phosphoacetylglucosamine mutase n=1 Tax=Vanderwa...    91   2e-16
+UniRef90_A0A1R1YC41 Phosphoacetylglucosamine mutase n=2 Tax=Smit...    91   2e-16
+UniRef90_A0A0T6B8G5 Phosphoacetylglucosamine mutase n=1 Tax=Oryc...    91   3e-16
+UniRef90_A0A1U7LIF1 Phosphoacetylglucosamine mutase n=1 Tax=Neol...    91   3e-16
+UniRef90_G2Q6U3 Phosphoacetylglucosamine mutase n=2 Tax=Chaetomi...    91   3e-16
+UniRef90_Q6CSH9 Phosphoacetylglucosamine mutase n=1 Tax=Kluyvero...    91   3e-16
+UniRef90_A0A1Y1M850 Phosphoacetylglucosamine mutase n=1 Tax=Phot...    91   3e-16
+UniRef90_A0A1D2VJD0 Phosphoacetylglucosamine mutase n=1 Tax=Asco...    91   3e-16
+UniRef90_F0XL05 Phosphoacetylglucosamine mutase n=1 Tax=Grosmann...    91   3e-16
+UniRef90_A0A175WE09 Phosphoacetylglucosamine mutase n=1 Tax=Madu...    91   3e-16
+UniRef90_W0TFE1 Phosphoacetylglucosamine mutase n=1 Tax=Kluyvero...    91   3e-16
+UniRef90_A0A1J7J5W3 Phosphoacetylglucosamine mutase n=1 Tax=Coni...    91   4e-16
+UniRef90_J8LPS8 Phosphoacetylglucosamine mutase n=1 Tax=Saccharo...    91   4e-16
+UniRef90_A0A1E4U2Z3 Phosphoacetylglucosamine mutase n=1 Tax=Pach...    90   4e-16
+UniRef90_A0A1Y1WL75 Phosphoacetylglucosamine mutase n=1 Tax=Lind...    90   4e-16
+UniRef90_L8WUD3 Phosphoacetylglucosamine mutase n=1 Tax=Thanatep...    90   5e-16
+UniRef90_G7E995 1,2-dihydroxy-3-keto-5-methylthiopentene dioxyge...    90   5e-16
+UniRef90_S9X7C4 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...    90   6e-16
+UniRef90_UPI00067BB2D1 phosphoacetylglucosamine mutase n=1 Tax=A...    90   6e-16
+UniRef90_A0A0K3C845 Phosphoacetylglucosamine mutase n=4 Tax=Rhod...    90   6e-16
+UniRef90_A0A0C3CVS5 Phosphoacetylglucosamine mutase n=1 Tax=Hebe...    90   6e-16
+UniRef90_H8X4S4 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...    90   7e-16
+UniRef90_J9K1M9 Phosphoacetylglucosamine mutase n=1 Tax=Acyrthos...    89   7e-16
+UniRef90_A0A0P9EJU6 Phosphoacetylglucosamine mutase n=1 Tax=Rhod...    89   8e-16
+UniRef90_A0A177CM56 Phosphoacetylglucosamine mutase n=1 Tax=Para...    89   8e-16
+UniRef90_A5DNZ9 Phosphoacetylglucosamine mutase n=1 Tax=Meyerozy...    89   9e-16
+UniRef90_A3GI60 Phosphoacetylglucosamine mutase n=1 Tax=Scheffer...    89   1e-15
+UniRef90_A0A1B9H1A0 Phosphoacetylglucosamine mutase n=2 Tax=Kwon...    89   1e-15
+UniRef90_G8YTN2 Phosphoacetylglucosamine mutase n=2 Tax=Pichia s...    89   1e-15
+UniRef90_A0A1R0H0G8 Phosphoacetylglucosamine mutase n=1 Tax=Smit...    89   1e-15
+UniRef90_A0A0F7SHR8 Phosphoacetylglucosamine mutase n=1 Tax=Phaf...    89   1e-15
+UniRef90_J4TSU9 Phosphoacetylglucosamine mutase n=2 Tax=Saccharo...    89   1e-15
+UniRef90_Q2HFH7 Uncharacterized protein n=1 Tax=Chaetomium globo...    89   1e-15
+UniRef90_J3P9G6 Phosphoacetylglucosamine mutase n=2 Tax=Magnapor...    89   1e-15
+UniRef90_A0A074RYA8 Phosphoacetylglucosamine mutase n=4 Tax=Rhiz...    89   1e-15
+UniRef90_UPI0005AC5A41 phosphoacetylglucosamine mutase isoform X...    89   1e-15
+UniRef90_A0A178AT43 Phosphoacetylglucosamine mutase n=1 Tax=Stag...    89   1e-15
+UniRef90_E5A8G5 Phosphoacetylglucosamine mutase n=1 Tax=Leptosph...    89   1e-15
+UniRef90_A0A0D0DAC6 Phosphoacetylglucosamine mutase n=1 Tax=Paxi...    88   2e-15
+UniRef90_G8BF87 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...    88   2e-15
+UniRef90_A0A0D1DTH2 Phosphoacetylglucosamine mutase n=9 Tax=Usti...    88   2e-15
+UniRef90_A0A137QS47 Phosphoacetylglucosamine mutase n=1 Tax=Leuc...    88   2e-15
+UniRef90_A0A0L8RL55 Phosphoacetylglucosamine mutase n=1 Tax=Sacc...    88   2e-15
+UniRef90_C5MC59 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...    88   2e-15
+UniRef90_A0A1E4SV79 Uncharacterized protein n=1 Tax=Candida arab...    88   2e-15
+UniRef90_G0VG84 Phosphoacetylglucosamine mutase n=1 Tax=Naumovoz...    88   3e-15
+UniRef90_A0A163KFJ1 Phosphoacetylglucosamine mutase n=3 Tax=Pleo...    88   3e-15
+UniRef90_Q9P4V2 Phosphoacetylglucosamine mutase n=5 Tax=cellular...    87   3e-15
+UniRef90_G8C0T8 Phosphoacetylglucosamine mutase n=1 Tax=Tetrapis...    87   3e-15
+UniRef90_A0A0L0NU96 Phosphoacetylglucosamine mutase n=1 Tax=[Can...    87   3e-15
+UniRef90_F4RK03 Phosphoacetylglucosamine mutase n=1 Tax=Melampso...    87   3e-15
+UniRef90_V5GWV2 Phosphoacetylglucosamine mutase (Fragment) n=2 T...    87   3e-15
+UniRef90_A0A0F8BS23 Phosphoacetylglucosamine mutase n=2 Tax=Cera...    87   3e-15
+UniRef90_UPI0008F4961E phosphoacetylglucosamine mutase isoform X...    87   3e-15
+UniRef90_A0A093JGK1 Phosphoacetylglucosamine mutase (Fragment) n...    87   3e-15
+UniRef90_A0A167FDD7 Phosphoacetylglucosamine mutase n=1 Tax=Sugi...    87   3e-15
+UniRef90_A0A066WPR3 Phosphoacetylglucosamine mutase n=1 Tax=Till...    87   3e-15
+UniRef90_U3JJ60 Phosphoacetylglucosamine mutase n=3 Tax=Passerif...    87   4e-15
+UniRef90_A0A137NS59 Phosphoacetylglucosamine mutase n=1 Tax=Coni...    87   4e-15
+UniRef90_R0LB99 Phosphoacetylglucosamine mutase (Fragment) n=1 T...    87   4e-15
+UniRef90_R9AC49 Phosphoacetylglucosamine mutase n=1 Tax=Wallemia...    87   4e-15
+UniRef90_A0A1W4W2M4 Phosphoacetylglucosamine mutase n=2 Tax=Agri...    87   4e-15
+UniRef90_A0A1A0H4I9 Phosphoacetylglucosamine mutase n=1 Tax=Mets...    87   4e-15
+UniRef90_A0A1E5RG33 Phosphoacetylglucosamine mutase n=1 Tax=Hans...    87   4e-15
+UniRef90_UPI0006D507B8 phosphoacetylglucosamine mutase n=1 Tax=H...    87   5e-15
+UniRef90_A0A177DAQ4 Phosphoacetylglucosamine mutase n=1 Tax=Alte...    87   5e-15
+UniRef90_UPI00083C63AC phosphoacetylglucosamine mutase isoform X...    87   5e-15
+UniRef90_F7VV48 Phosphoacetylglucosamine mutase n=1 Tax=Sordaria...    87   5e-15
+UniRef90_A0A1Y2HJA6 Phosphoacetylglucosamine mutase n=1 Tax=Cate...    87   5e-15
+UniRef90_U3IJE3 Phosphoacetylglucosamine mutase n=68 Tax=Neognat...    86   6e-15
+UniRef90_UPI0009046A63 phosphoacetylglucosamine mutase isoform X...    86   7e-15
+UniRef90_I2FTA3 Phosphoacetylglucosamine mutase n=2 Tax=Ustilago...    86   7e-15
+UniRef90_F7E0J9 Phosphoacetylglucosamine mutase n=6 Tax=Xenopus ...    86   7e-15
+UniRef90_K1QVE8 Phosphoacetylglucosamine mutase n=1 Tax=Crassost...    86   8e-15
+UniRef90_A0A1L0BC82 Phosphoacetylglucosamine mutase n=2 Tax=[Can...    86   8e-15
+UniRef90_A0A1B6KB84 Phosphoacetylglucosamine mutase n=2 Tax=Cica...    86   8e-15
+UniRef90_E1BQU2 Phosphoacetylglucosamine mutase n=8 Tax=Gallifor...    86   8e-15
+UniRef90_I2H6P3 Phosphoacetylglucosamine mutase n=1 Tax=Tetrapis...    86   9e-15
+UniRef90_L7IW06 Phosphoacetylglucosamine mutase n=3 Tax=Magnapor...    86   9e-15
+UniRef90_UPI000846FBE4 phosphoacetylglucosamine mutase isoform X...    86   1e-14
+UniRef90_W6MQ04 Phosphoacetylglucosamine mutase n=1 Tax=Kuraishi...    86   1e-14
+UniRef90_A0A0B0DI26 Phosphoacetylglucosamine mutase n=4 Tax=Neur...    86   1e-14
+UniRef90_A0A1U7S9D8 Phosphoacetylglucosamine mutase n=6 Tax=Croc...    86   1e-14
+UniRef90_UPI0005EE03AF phosphoacetylglucosamine mutase n=1 Tax=S...    86   1e-14
+UniRef90_UPI000B4CF78D phosphoacetylglucosamine mutase isoform X...    86   1e-14
+UniRef90_A0A0X8HRM4 Phosphoacetylglucosamine mutase n=1 Tax=Erem...    85   1e-14
+UniRef90_G1T004 Phosphoacetylglucosamine mutase n=3 Tax=Lagomorp...    85   2e-14
+UniRef90_W1QDW8 Phosphoacetylglucosamine mutase n=2 Tax=Ogataea ...    85   2e-14
+UniRef90_A0A1R1PEY1 Phosphoacetylglucosamine mutase n=1 Tax=Zanc...    85   2e-14
+UniRef90_A0A0J1B1Q6 Phosphoacetylglucosamine mutase n=1 Tax=Cuta...    85   2e-14
+UniRef90_UPI0004967EE3 phosphoacetylglucosamine mutase n=1 Tax=C...    85   2e-14
+UniRef90_A9TDV4 Phosphoacetylglucosamine mutase n=1 Tax=Physcomi...    85   2e-14
+UniRef90_UPI0006265571 phosphoacetylglucosamine mutase n=1 Tax=O...    85   2e-14
+UniRef90_UPI0005592392 phosphoacetylglucosamine mutase n=2 Tax=P...    85   2e-14
+UniRef90_A0A1D1UX65 Uncharacterized protein n=1 Tax=Ramazzottius...    85   2e-14
+UniRef90_UPI0006D4D48C LOW QUALITY PROTEIN: phosphoacetylglucosa...    85   2e-14
+UniRef90_UPI000771DC2E phosphoacetylglucosamine mutase isoform X...    85   2e-14
+UniRef90_M5BJT9 Phosphoacetylglucosamine mutase n=2 Tax=Rhizocto...    85   2e-14
+UniRef90_S8AF20 Phosphoacetylglucosamine mutase n=1 Tax=Dactylel...    85   2e-14
+UniRef90_D5G706 Phosphoacetylglucosamine mutase n=1 Tax=Tuber me...    85   2e-14
+UniRef90_A0A0L0S2U0 Phosphoacetylglucosamine mutase n=2 Tax=Allo...    85   2e-14
+UniRef90_H2YFB1 Phosphoacetylglucosamine mutase n=10 Tax=Ciona s...    85   2e-14
+UniRef90_UPI000719C318 phosphoacetylglucosamine mutase-like n=1 ...    84   2e-14
+UniRef90_A0A146L187 Phosphoacetylglucosamine mutase n=1 Tax=Lygu...    84   3e-14
+UniRef90_A0A166CFN1 Phosphoacetylglucosamine mutase n=2 Tax=Sist...    84   3e-14
+UniRef90_C5DWY0 Phosphoacetylglucosamine mutase n=3 Tax=Zygosacc...    84   3e-14
+UniRef90_A0A0C4F7L0 Phosphoacetylglucosamine mutase n=1 Tax=Pucc...    84   3e-14
+UniRef90_A0A1E4SEB0 Phosphoacetylglucosamine mutase n=1 Tax=Cand...    84   3e-14
+UniRef90_UPI000626C107 phosphoacetylglucosamine mutase n=1 Tax=A...    84   3e-14
+UniRef90_U3F758 Phosphoacetylglucosamine mutase n=6 Tax=Colubroi...    84   3e-14
+UniRef90_A0A1E4RRM6 Phosphoacetylglucosamine mutase n=1 Tax=Hyph...    84   3e-14
+UniRef90_T1IIS7 Uncharacterized protein n=1 Tax=Strigamia mariti...    84   3e-14
+UniRef90_A0A1D2MVV2 Phosphoacetylglucosamine mutase n=1 Tax=Orch...    84   3e-14
+UniRef90_A0A210Q2C5 Phosphoacetylglucosamine mutase n=3 Tax=Mizu...    84   3e-14
+UniRef90_UPI0006D74762 phosphoacetylglucosamine mutase isoform X...    84   3e-14
+UniRef90_A0A0P6BY25 Phosphoacetylglucosamine mutase n=1 Tax=Daph...    84   3e-14
+UniRef90_Q6FXI7 Phosphoacetylglucosamine mutase n=2 Tax=Candida ...    84   3e-14
+UniRef90_A0A1S3GHN1 Phosphoacetylglucosamine mutase n=1 Tax=Dipo...    84   4e-14
+UniRef90_F2UMA3 Phosphoacetylglucosamine mutase n=1 Tax=Salpingo...    84   4e-14
+UniRef90_F2QM79 Phosphoacetylglucosamine mutase n=3 Tax=Komagata...    84   4e-14
+UniRef90_A0A167M3Z3 Phosphoacetylglucosamine mutase n=2 Tax=Calo...    84   4e-14
+UniRef90_C4Y4X5 Phosphoacetylglucosamine mutase n=1 Tax=Clavispo...    84   4e-14
+UniRef90_A0A1S2ZXN6 Phosphoacetylglucosamine mutase n=3 Tax=Erin...    84   4e-14
+UniRef90_J7RYU8 Phosphoacetylglucosamine mutase n=1 Tax=Kazachst...    84   4e-14
+UniRef90_A0A0D6EP94 Phosphoacetylglucosamine mutase n=1 Tax=Spor...    84   5e-14
+UniRef90_UPI000643F8D0 phosphoacetylglucosamine mutase n=1 Tax=C...    84   5e-14
+UniRef90_UPI000333879A phosphoacetylglucosamine mutase isoform X...    84   5e-14
+UniRef90_UPI00042BDA77 phosphoacetylglucosamine mutase n=3 Tax=D...    84   5e-14
+UniRef90_UPI0009E2FE6C phosphoacetylglucosamine mutase isoform X...    84   5e-14
+UniRef90_M7C7S1 Phosphoacetylglucosamine mutase n=2 Tax=Durocryp...    84   5e-14
+UniRef90_A0A1C9CW41 Phosphoacetylglucosamine mutase n=2 Tax=Bomb...    83   5e-14
+UniRef90_A0A1S3BPK3 Phosphoacetylglucosamine mutase n=2 Tax=Cucu...    83   6e-14
+UniRef90_UPI0009B336AE phosphoacetylglucosamine mutase n=1 Tax=M...    83   6e-14
+UniRef90_A8PZW5 Phosphoacetylglucosamine mutase n=1 Tax=Malassez...    83   6e-14
+UniRef90_A0A212EW76 Putative phosphoacetylglucosamine mutase n=1...    83   6e-14
+UniRef90_A7S2H7 Phosphoacetylglucosamine mutase n=1 Tax=Nematost...    83   7e-14
+UniRef90_H2ULH9 Phosphoacetylglucosamine mutase n=2 Tax=Takifugu...    83   7e-14
+UniRef90_A0A0N7L9K1 Phosphoacetylglucosamine mutase n=1 Tax=Cera...    83   7e-14
+UniRef90_A0A0K2V2U3 Phosphoacetylglucosamine mutaselike [Xiphosp...    83   7e-14
+UniRef90_UPI0007381490 phosphoacetylglucosamine mutase isoform X...    83   7e-14
+UniRef90_UPI000B540504 phosphoacetylglucosamine mutase isoform X...    83   7e-14
+UniRef90_A0A1L0B0L0 Phosphoacetylglucosamine mutase n=1 Tax=Hans...    83   8e-14
+UniRef90_UPI000328B328 phosphoacetylglucosamine mutase isoform X...    83   8e-14
+UniRef90_A5E1Q6 Phosphoacetylglucosamine mutase n=1 Tax=Lodderom...    83   8e-14
+UniRef90_A0A0B6ZY44 Uncharacterized protein (Fragment) n=1 Tax=A...    83   8e-14
+UniRef90_UPI000854763E phosphoacetylglucosamine mutase n=1 Tax=N...    83   8e-14
+UniRef90_A0A1W0XEY6 Phosphoacetylglucosamine mutase n=1 Tax=Hyps...    83   9e-14
+UniRef90_V3ZPQ6 Phosphoacetylglucosamine mutase n=1 Tax=Lottia g...    82   9e-14
+UniRef90_M3W4K3 Phosphoacetylglucosamine mutase n=21 Tax=Laurasi...    82   1e-13
+UniRef90_A0A1Y2BK07 Phosphoacetylglucosamine mutase n=1 Tax=Naem...    82   1e-13
+UniRef90_UPI0007B96FA2 phosphoacetylglucosamine mutase-like isof...    82   1e-13
+UniRef90_A0A0M8MQP0 Phosphoacetylglucosamine mutase n=1 Tax=Mala...    82   1e-13
+UniRef90_G0ZS84 Phosphoacetylglucosamine mutase (Fragment) n=1 T...    82   1e-13
+UniRef90_UPI00076FD533 phosphoacetylglucosamine mutase n=1 Tax=N...    82   1e-13
+UniRef90_UPI0003347408 phosphoacetylglucosamine mutase n=1 Tax=C...    82   1e-13
+UniRef90_UPI0004420A77 phosphoacetylglucosamine mutase n=1 Tax=P...    82   1e-13
+UniRef90_A0A1Y1UIT6 Phosphoacetylglucosamine mutase n=1 Tax=Kock...    82   1e-13
+UniRef90_A0A150H225 Uncharacterized protein n=1 Tax=Gonium pecto...    82   1e-13
+UniRef90_A0A0V0G5W2 Putative phosphoglucomutase/phosphomannomuta...    82   1e-13
+UniRef90_A0A0S6XQ32 Phosphoacetylglucosamine mutase n=1 Tax=fung...    82   1e-13
+UniRef90_UPI00083C5601 phosphoacetylglucosamine mutase n=1 Tax=E...    82   1e-13
+UniRef90_A0A177ULQ2 Phosphoacetylglucosamine mutase n=4 Tax=Till...    82   1e-13
+UniRef90_F6ZP25 Phosphoacetylglucosamine mutase n=2 Tax=Ciona in...    82   1e-13
+UniRef90_B3S2Y2 Phosphoacetylglucosamine mutase n=1 Tax=Trichopl...    82   2e-13
+UniRef90_U4L3Z1 Phosphoacetylglucosamine mutase n=1 Tax=Pyronema...    82   2e-13
+UniRef90_F1RQM2 Phosphoacetylglucosamine mutase n=3 Tax=Sus scro...    82   2e-13
+UniRef90_A0A091PZY6 Phosphoacetylglucosamine mutase (Fragment) n...    82   2e-13
+UniRef90_UPI000812D1D8 phosphoacetylglucosamine mutase isoform X...    82   2e-13
+UniRef90_M3Y268 Phosphoacetylglucosamine mutase n=16 Tax=Carnivo...    82   2e-13
+UniRef90_A0A1X7RBH5 Phosphoacetylglucosamine mutase n=1 Tax=Kaza...    82   2e-13
+UniRef90_F7G391 Phosphoacetylglucosamine mutase n=1 Tax=Ornithor...    82   2e-13
+UniRef90_K7FXW4 Phosphoacetylglucosamine mutase n=3 Tax=Pelodisc...    82   2e-13
+UniRef90_A0A182WJR6 Uncharacterized protein n=2 Tax=Myzomyia Tax...    82   2e-13
+UniRef90_UPI000711BAC7 phosphoacetylglucosamine mutase n=1 Tax=D...    82   2e-13
+UniRef90_UPI0009E3AE9D phosphoacetylglucosamine mutase-like n=1 ...    82   2e-13
+UniRef90_UPI0004F0FCB4 phosphoacetylglucosamine mutase n=1 Tax=A...    82   2e-13
+UniRef90_A0A0L6UQV3 Phosphoacetylglucosamine mutase n=1 Tax=Pucc...    82   2e-13
+UniRef90_P38628 Phosphoacetylglucosamine mutase n=15 Tax=Opistho...    82   2e-13
+UniRef90_A0A1E3QIW5 Phosphoacetylglucosamine mutase n=1 Tax=Babj...    82   2e-13
+UniRef90_UPI00033159AC phosphoacetylglucosamine mutase n=1 Tax=S...    81   2e-13
+UniRef90_A0A0G2RLT8 Phosphoacetylglucosamine mutase n=1 Tax=Cnap...    81   2e-13
+UniRef90_H0UZ15 Phosphoacetylglucosamine mutase n=7 Tax=Hystrico...    81   2e-13
+UniRef90_UPI000A1C44D3 phosphoacetylglucosamine mutase n=1 Tax=B...    81   2e-13
+UniRef90_UPI000B37F49C phosphoacetylglucosamine mutase n=1 Tax=H...    81   2e-13
+UniRef90_R7UDD6 Phosphoacetylglucosamine mutase n=1 Tax=Capitell...    81   2e-13
+UniRef90_UPI00045609CA hypothetical protein n=1 Tax=Anthracocyst...    81   2e-13
+UniRef90_O95394 Phosphoacetylglucosamine mutase n=77 Tax=Eutheri...    81   2e-13
+UniRef90_UPI0003C848A0 phosphoacetylglucosamine mutase n=5 Tax=C...    81   2e-13
+UniRef90_G3PJ22 Phosphoacetylglucosamine mutase n=1 Tax=Gasteros...    81   2e-13
+UniRef90_A0A125PIN5 Phosphoacetylglucosamine mutase n=1 Tax=Rhod...    81   2e-13
+UniRef90_G1RQ61 Phosphoacetylglucosamine mutase n=10 Tax=Euarcho...    81   2e-13
+UniRef90_A0A1V8URE6 Phosphoacetylglucosamine mutase n=4 Tax=Rach...    81   3e-13
+UniRef90_UPI000359979D phosphoacetylglucosamine mutase-like n=1 ...    81   3e-13
+UniRef90_T1G6J7 Phosphoacetylglucosamine mutase n=1 Tax=Helobdel...    81   3e-13
+UniRef90_I3IW27 Phosphoacetylglucosamine mutase n=4 Tax=Pseudocr...    81   3e-13
+UniRef90_UPI0009A2A6B6 phosphoacetylglucosamine mutase isoform X...    81   3e-13
+UniRef90_UPI0005119DC6 phosphoacetylglucosamine mutase-like n=1 ...    81   3e-13
+UniRef90_G3B7L8 Phosphoacetylglucosamine mutase n=2 Tax=Candida ...    81   3e-13
+UniRef90_UPI0006EB0363 LOW QUALITY PROTEIN: phosphoacetylglucosa...    81   3e-13
+UniRef90_A0A146WD54 Phosphoacetylglucosamine mutase n=1 Tax=Fund...    81   3e-13
+UniRef90_UPI0006B30A50 phosphoacetylglucosamine mutase n=2 Tax=R...    81   3e-13
+UniRef90_M3ZYH4 Phosphoacetylglucosamine mutase n=13 Tax=Cyprino...    81   3e-13
+UniRef90_UPI00077EAF7F phosphoacetylglucosamine mutase n=1 Tax=Z...    81   3e-13
+UniRef90_E2C6Q6 Phosphoacetylglucosamine mutase n=1 Tax=Harpegna...    81   3e-13
+UniRef90_A0A093HBF8 Phosphoacetylglucosamine mutase (Fragment) n...    80   4e-13
+UniRef90_A0A0S7L0R5 AGM1 (Fragment) n=3 Tax=Cyprinodontoidei Tax...    80   4e-13
+UniRef90_H2MR65 Phosphoacetylglucosamine mutase n=2 Tax=Oryzias ...    80   4e-13
+UniRef90_A0A0F8AQX6 Phosphoacetylglucosamine mutase n=3 Tax=Lari...    80   4e-13
+UniRef90_A0A1E5RM08 Phosphoacetylglucosamine mutase n=1 Tax=Hans...    80   4e-13
+UniRef90_A0A1A8V218 Phosphoacetylglucosamine mutase n=13 Tax=Not...    80   4e-13
+UniRef90_A0A1S3IPZ1 Phosphoacetylglucosamine mutase n=2 Tax=Ling...    80   4e-13
+UniRef90_W4XTN8 Phosphoacetylglucosamine mutase n=1 Tax=Strongyl...    80   4e-13
+UniRef90_A0A194QC94 Phosphoacetylglucosamine mutase n=3 Tax=Papi...    80   5e-13
+UniRef90_UPI000332F22C phosphoacetylglucosamine mutase n=3 Tax=M...    80   5e-13
+UniRef90_Q9VTZ4 Phosphoacetylglucosamine mutase n=15 Tax=melanog...    80   5e-13
+UniRef90_UPI000A288665 phosphoacetylglucosamine mutase n=1 Tax=P...    80   5e-13
+UniRef90_A0A0N0PE63 Phosphoacetylglucosamine mutase n=1 Tax=Papi...    80   5e-13
+UniRef90_Q16PT5 Phosphoacetylglucosamine mutase n=5 Tax=Stegomyi...    80   5e-13
+UniRef90_R4XEG1 Phosphoacetylglucosamine mutase n=1 Tax=Taphrina...    80   5e-13
+UniRef90_W5JZ35 Phosphoacetylglucosamine mutase n=1 Tax=Astyanax...    80   5e-13
+UniRef90_UPI0004963643 phosphoacetylglucosamine mutase n=1 Tax=S...    80   5e-13
+UniRef90_G1KTQ4 Phosphoacetylglucosamine mutase n=1 Tax=Anolis c...    80   5e-13
+UniRef90_UPI000718DA64 phosphoacetylglucosamine mutase n=2 Tax=P...    80   6e-13
+UniRef90_A0A067MML2 Phosphoacetylglucosamine mutase n=1 Tax=Botr...    80   6e-13
+UniRef90_A0A0Q3P619 Uncharacterized protein n=1 Tax=Amazona aest...    80   6e-13
+UniRef90_F1MS56 Phosphoacetylglucosamine mutase n=16 Tax=Cetarti...    80   6e-13
+UniRef90_A0A0E0LI64 Phosphoacetylglucosamine mutase n=1 Tax=Oryz...    80   7e-13
+UniRef90_UPI00081173A9 phosphoacetylglucosamine mutase-like n=1 ...    80   7e-13
+UniRef90_UPI0009957F0F phosphoacetylglucosamine mutase n=1 Tax=P...    80   7e-13
+UniRef90_I0YJY8 Phosphoacetylglucosamine mutase n=1 Tax=Coccomyx...    80   7e-13
+UniRef90_H0XB62 Phosphoacetylglucosamine mutase n=2 Tax=Otolemur...    79   8e-13
+UniRef90_A0A1X7VL00 Phosphoacetylglucosamine mutase n=1 Tax=Amph...    79   8e-13
+UniRef90_UPI0006B16C32 phosphoacetylglucosamine mutase-like n=1 ...    79   8e-13
+UniRef90_UPI000B7B7A8E phosphoacetylglucosamine mutase isoform X...    79   8e-13
+UniRef90_F6QV04 Phosphoacetylglucosamine mutase n=4 Tax=Metather...    79   9e-13
+UniRef90_Q0UJJ8 Phosphoacetylglucosamine mutase n=1 Tax=Phaeosph...    79   9e-13
+UniRef90_UPI0006747977 phosphoacetylglucosamine mutase-like n=1 ...    79   9e-13
+UniRef90_UPI000333D0D8 phosphoacetylglucosamine mutase n=1 Tax=O...    79   9e-13
+UniRef90_UPI0003AB7FCF phosphoacetylglucosamine mutase isoform X...    79   9e-13
+UniRef90_A0A161X1A6 Phosphoacetylglucosamine mutase n=1 Tax=Dauc...    79   9e-13
+UniRef90_UPI00074FE749 phosphoacetylglucosamine mutase n=1 Tax=G...    79   1e-12
+UniRef90_V9K8C4 Phosphoacetylglucosamine mutase n=2 Tax=Callorhi...    79   1e-12
+UniRef90_A0A094KMP5 Phosphoacetylglucosamine mutase (Fragment) n...    79   1e-12
+UniRef90_UPI0003F06C7A phosphoacetylglucosamine mutase-like n=1 ...    79   1e-12
+UniRef90_A0A1U9XQT3 Phosphoacetylglucosamine mutase n=1 Tax=Tigr...    79   1e-12
+UniRef90_UPI0007B8EF2D phosphoacetylglucosamine mutase-like n=1 ...    79   1e-12
+UniRef90_UPI0008148764 phosphoacetylglucosamine mutase isoform X...    79   1e-12
+UniRef90_A0A1Y2F2A8 Phosphoacetylglucosamine mutase n=1 Tax=Leuc...    79   1e-12
+UniRef90_UPI0006C94070 phosphoacetylglucosamine mutase n=1 Tax=T...    79   1e-12
+UniRef90_UPI0003890170 phosphoacetylglucosamine mutase isoform X...    79   1e-12
+UniRef90_A0A182S6C0 Uncharacterized protein n=1 Tax=Anopheles ma...    79   1e-12
+UniRef90_UPI0006233D8E phosphoacetylglucosamine mutase n=1 Tax=L...    79   2e-12
+UniRef90_UPI000B4F25A5 phosphoacetylglucosamine mutase n=1 Tax=M...    79   2e-12
+UniRef90_A0A091R4E1 Phosphoacetylglucosamine mutase (Fragment) n...    79   2e-12
+UniRef90_A0A0L0V0M0 Uncharacterized protein n=1 Tax=Puccinia str...    79   2e-12
+UniRef90_Q4R7E0 Testis cDNA, clone: QtsA-15546, similar to human...    79   2e-12
+UniRef90_UPI00077ABF30 phosphoacetylglucosamine mutase-like n=1 ...    79   2e-12
+UniRef90_E3K3J8 Phosphoacetylglucosamine mutase n=1 Tax=Puccinia...    79   2e-12
+UniRef90_A0A1D1Z9M1 Phosphoacetylglucosamine mutase n=1 Tax=Anth...    79   2e-12
+UniRef90_B5X1B2 Phosphoacetylglucosamine mutase n=3 Tax=Salmonin...    79   2e-12
+UniRef90_M5FQJ0 Phosphoacetylglucosamine mutase n=1 Tax=Dacryopi...    78   2e-12
+UniRef90_A0A0G2GWJ7 Phosphoacetylglucosamine mutase n=1 Tax=Phae...    78   2e-12
+UniRef90_UPI00077FDC81 phosphoacetylglucosamine mutase-like n=1 ...    78   2e-12
+UniRef90_A0A0D2X3L0 Phosphoacetylglucosamine mutase n=1 Tax=Caps...    78   2e-12
+UniRef90_W5NKD9 Phosphoacetylglucosamine mutase n=3 Tax=Lepisost...    78   2e-12
+UniRef90_G7JZT7 Phosphoacetylglucosamine mutase n=3 Tax=Papilion...    78   2e-12
+UniRef90_UPI00097E0AF4 phosphoacetylglucosamine mutase n=1 Tax=P...    78   2e-12
+UniRef90_W5UEC7 Phosphoacetylglucosamine mutase n=2 Tax=Ictaluru...    78   2e-12
+UniRef90_F1QHK0 Phosphoacetylglucosamine mutase n=5 Tax=Cyprinid...    78   2e-12
+UniRef90_UPI0005780BDE phosphoacetylglucosamine mutase n=1 Tax=E...    78   2e-12
+UniRef90_Q9CYR6 Phosphoacetylglucosamine mutase n=7 Tax=Mus TaxI...    78   2e-12
+UniRef90_UPI000775A89B phosphoacetylglucosamine mutase-like n=1 ...    78   2e-12
+UniRef90_G5E3M9 Putative phosphoglucomutase 3 (Fragment) n=1 Tax...    78   2e-12
+UniRef90_UPI0005F533A0 phosphoacetylglucosamine mutase isoform X...    78   2e-12
+UniRef90_UPI000258DEF3 phosphoacetylglucosamine mutase isoform X...    78   2e-12
+UniRef90_UPI000786FC96 phosphoacetylglucosamine mutase n=2 Tax=A...    78   2e-12
+UniRef90_A0A1D6MFW1 Phosphoacetylglucosamine mutase n=1 Tax=Zea ...    78   2e-12
+UniRef90_A0A1B6CV25 Uncharacterized protein n=2 Tax=Clastoptera ...    78   2e-12
+UniRef90_A0A1W4ZES4 Phosphoacetylglucosamine mutase n=2 Tax=Scle...    78   2e-12
+UniRef90_G3GTC9 Phosphoacetylglucosamine mutase n=6 Tax=Cricetid...    78   2e-12
+UniRef90_A0A182JYP4 Phosphoacetylglucosamine mutase n=1 Tax=Anop...    78   2e-12
+UniRef90_E4X2M0 Phosphoacetylglucosamine mutase n=3 Tax=Oikopleu...    78   3e-12
+UniRef90_A0A1I8ISB9 Uncharacterized protein n=1 Tax=Macrostomum ...    78   3e-12
+UniRef90_A8IZ78 Phosphoacetylglucosamine mutase n=1 Tax=Chlamydo...    78   3e-12
+UniRef90_UPI000A315143 phosphoacetylglucosamine mutase n=1 Tax=M...    78   3e-12
+UniRef90_A0A218RIG2 Uncharacterized protein n=4 Tax=Crotonoideae...    77   3e-12
+UniRef90_A0A151TJ63 Phosphoacetylglucosamine mutase n=2 Tax=Caja...    77   3e-12
+UniRef90_UPI00063F1BD8 phosphoacetylglucosamine mutase n=1 Tax=M...    77   3e-12
+UniRef90_A0A0L0FZ62 Phosphoacetylglucosamine mutase n=1 Tax=Spha...    77   3e-12
+UniRef90_A0A1B6IVT2 Uncharacterized protein (Fragment) n=1 Tax=H...    77   4e-12
+UniRef90_K7J1K6 Phosphoacetylglucosamine mutase n=1 Tax=Nasonia ...    77   4e-12
+UniRef90_UPI00064C11D2 phosphoacetylglucosamine mutase isoform X...    77   4e-12
+UniRef90_J3MJ85 Phosphoacetylglucosamine mutase n=2 Tax=Oryza br...    77   4e-12
+UniRef90_Q6ZDQ1 Phosphoacetylglucosamine mutase n=8 Tax=Oryza Ta...    77   4e-12
+UniRef90_A0A1B0GA53 Transferrin 2 (phosphoglucomutase/phosphoman...    77   4e-12
+UniRef90_A0A1S3VT11 Phosphoacetylglucosamine mutase n=4 Tax=Phas...    77   4e-12
+UniRef90_A0A0J8E3Z6 Phosphoacetylglucosamine mutase n=2 Tax=Beta...    77   4e-12
+UniRef90_A0A0A1XQ05 Phosphoacetylglucosamine mutase n=9 Tax=Teph...    77   5e-12
+UniRef90_UPI00090DAB62 phosphoacetylglucosamine mutase n=1 Tax=L...    77   5e-12
+UniRef90_A0A0K8RLH2 Putative phosphoglucomutase/phosphomannomuta...    77   5e-12
+
+>UniRef90_Q4WJF0 Phosphoacetylglucosamine mutase n=6 Tax=Aspergillus TaxID=5052
+           RepID=Q4WJF0_ASPFU
+          Length = 566
+
+ Score =  152 bits (384), Expect = 8e-35,   Method: Composition-based stats.
+ Identities = 83/84 (98%), Positives = 84/84 (100%)
+
+Query: 1   PSRLVRVEVAERSIFKAYDAERKLESPPGLQAKIDSLQSRYNKGRSFARASGTEDAVRVY 60
+           PSRLVRVEVA+RSIFKAYDAERKLESPPGLQAKIDSLQSRYNKGRSFARASGTEDAVRVY
+Sbjct: 474 PSRLVRVEVADRSIFKAYDAERKLESPPGLQAKIDSLQSRYNKGRSFARASGTEDAVRVY 533
+
+Query: 61  AEAASRSEADDLATRVANAVRDAG 84
+           AEAASRSEADDLATRVANAVRDAG
+Sbjct: 534 AEAASRSEADDLATRVANAVRDAG 557
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_K7FXW4 Phosphoacetylglucosamine mutase n=3 Tax=Pelodisc...   166   5e-39
+UniRef90_F7E0J9 Phosphoacetylglucosamine mutase n=6 Tax=Xenopus ...   166   6e-39
+UniRef90_UPI000846FBE4 phosphoacetylglucosamine mutase isoform X...   166   7e-39
+UniRef90_UPI00042BDA77 phosphoacetylglucosamine mutase n=3 Tax=D...   165   7e-39
+UniRef90_M7C7S1 Phosphoacetylglucosamine mutase n=2 Tax=Durocryp...   165   1e-38
+UniRef90_UPI000B540504 phosphoacetylglucosamine mutase isoform X...   164   2e-38
+UniRef90_A0A1U7S9D8 Phosphoacetylglucosamine mutase n=6 Tax=Croc...   164   2e-38
+UniRef90_I3IW27 Phosphoacetylglucosamine mutase n=4 Tax=Pseudocr...   164   2e-38
+UniRef90_M3ZYH4 Phosphoacetylglucosamine mutase n=13 Tax=Cyprino...   164   2e-38
+UniRef90_A0A0S7L0R5 AGM1 (Fragment) n=3 Tax=Cyprinodontoidei Tax...   163   3e-38
+UniRef90_UPI0009046A63 phosphoacetylglucosamine mutase isoform X...   163   3e-38
+UniRef90_UPI0006D74762 phosphoacetylglucosamine mutase isoform X...   163   3e-38
+UniRef90_A0A0P5Z838 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   163   3e-38
+UniRef90_G1T004 Phosphoacetylglucosamine mutase n=3 Tax=Lagomorp...   163   3e-38
+UniRef90_A0A0P6AG10 Phosphoacetylglucosamine mutase n=22 Tax=Dap...   163   3e-38
+UniRef90_R0LB99 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   163   4e-38
+UniRef90_A0A0N8BY27 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   163   4e-38
+UniRef90_F1RQM2 Phosphoacetylglucosamine mutase n=3 Tax=Sus scro...   163   4e-38
+UniRef90_H0UZ15 Phosphoacetylglucosamine mutase n=7 Tax=Hystrico...   163   4e-38
+UniRef90_A0A1S2ZXN6 Phosphoacetylglucosamine mutase n=3 Tax=Erin...   163   4e-38
+UniRef90_UPI0007B96FA2 phosphoacetylglucosamine mutase-like isof...   163   4e-38
+UniRef90_UPI0004420A77 phosphoacetylglucosamine mutase n=1 Tax=P...   163   4e-38
+UniRef90_A0A0P5LWG5 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   163   4e-38
+UniRef90_UPI0007B8EF2D phosphoacetylglucosamine mutase-like n=1 ...   163   4e-38
+UniRef90_UPI000A1C44D3 phosphoacetylglucosamine mutase n=1 Tax=B...   163   4e-38
+UniRef90_UPI0003890170 phosphoacetylglucosamine mutase isoform X...   163   5e-38
+UniRef90_A0A146WD54 Phosphoacetylglucosamine mutase n=1 Tax=Fund...   163   5e-38
+UniRef90_UPI000328B328 phosphoacetylglucosamine mutase isoform X...   163   5e-38
+UniRef90_M3Y268 Phosphoacetylglucosamine mutase n=16 Tax=Carnivo...   162   6e-38
+UniRef90_U3IJE3 Phosphoacetylglucosamine mutase n=68 Tax=Neognat...   162   6e-38
+UniRef90_S7QM51 N-terminal nucleophile aminohydrolases Ntn hydro...   162   6e-38
+UniRef90_UPI000854763E phosphoacetylglucosamine mutase n=1 Tax=N...   162   8e-38
+UniRef90_H2MR65 Phosphoacetylglucosamine mutase n=2 Tax=Oryzias ...   162   9e-38
+UniRef90_UPI000333879A phosphoacetylglucosamine mutase isoform X...   162   1e-37
+UniRef90_U3JJ60 Phosphoacetylglucosamine mutase n=3 Tax=Passerif...   162   1e-37
+UniRef90_U3F758 Phosphoacetylglucosamine mutase n=6 Tax=Colubroi...   162   1e-37
+UniRef90_M2QY95 Uncharacterized protein n=1 Tax=Ceriporiopsis su...   162   1e-37
+UniRef90_M3W4K3 Phosphoacetylglucosamine mutase n=21 Tax=Laurasi...   162   1e-37
+UniRef90_UPI0008F4961E phosphoacetylglucosamine mutase isoform X...   161   1e-37
+UniRef90_G1KTQ4 Phosphoacetylglucosamine mutase n=1 Tax=Anolis c...   161   1e-37
+UniRef90_O95394 Phosphoacetylglucosamine mutase n=77 Tax=Eutheri...   161   1e-37
+UniRef90_V3ZPQ6 Phosphoacetylglucosamine mutase n=1 Tax=Lottia g...   161   2e-37
+UniRef90_E9GZ07 Phosphoacetylglucosamine mutase n=1 Tax=Daphnia ...   161   2e-37
+UniRef90_G1RQ61 Phosphoacetylglucosamine mutase n=10 Tax=Euarcho...   161   2e-37
+UniRef90_UPI0003C848A0 phosphoacetylglucosamine mutase n=5 Tax=C...   161   2e-37
+UniRef90_F7G391 Phosphoacetylglucosamine mutase n=1 Tax=Ornithor...   161   2e-37
+UniRef90_UPI00033159AC phosphoacetylglucosamine mutase n=1 Tax=S...   161   2e-37
+UniRef90_UPI00094E6767 phosphoacetylglucosamine mutase n=1 Tax=D...   161   2e-37
+UniRef90_A0A1S3IPZ1 Phosphoacetylglucosamine mutase n=2 Tax=Ling...   161   2e-37
+UniRef90_E1BQU2 Phosphoacetylglucosamine mutase n=8 Tax=Gallifor...   161   2e-37
+UniRef90_K1QVE8 Phosphoacetylglucosamine mutase n=1 Tax=Crassost...   160   2e-37
+UniRef90_G3PJ22 Phosphoacetylglucosamine mutase n=1 Tax=Gasteros...   160   3e-37
+UniRef90_A0A1S3GHN1 Phosphoacetylglucosamine mutase n=1 Tax=Dipo...   160   3e-37
+UniRef90_UPI0005592392 phosphoacetylglucosamine mutase n=2 Tax=P...   160   3e-37
+UniRef90_UPI000B7B7A8E phosphoacetylglucosamine mutase isoform X...   160   3e-37
+UniRef90_UPI0003AB7FCF phosphoacetylglucosamine mutase isoform X...   160   3e-37
+UniRef90_UPI000812D1D8 phosphoacetylglucosamine mutase isoform X...   160   3e-37
+UniRef90_UPI000B4CF78D phosphoacetylglucosamine mutase isoform X...   160   4e-37
+UniRef90_F1MS56 Phosphoacetylglucosamine mutase n=16 Tax=Cetarti...   160   4e-37
+UniRef90_UPI000332F22C phosphoacetylglucosamine mutase n=3 Tax=M...   160   4e-37
+UniRef90_W5JZ35 Phosphoacetylglucosamine mutase n=1 Tax=Astyanax...   160   4e-37
+UniRef90_A0A210Q2C5 Phosphoacetylglucosamine mutase n=3 Tax=Mizu...   160   4e-37
+UniRef90_A0A060SHA8 Phosphoacetylglucosamine mutase n=2 Tax=Poly...   160   4e-37
+UniRef90_UPI00094E1429 phosphoacetylglucosamine mutase isoform X...   160   4e-37
+UniRef90_D6X3A7 Phosphoacetylglucosamine mutase n=1 Tax=Triboliu...   160   4e-37
+UniRef90_UPI00097E0AF4 phosphoacetylglucosamine mutase n=1 Tax=P...   160   4e-37
+UniRef90_W5UEC7 Phosphoacetylglucosamine mutase n=2 Tax=Ictaluru...   160   5e-37
+UniRef90_H2ULH9 Phosphoacetylglucosamine mutase n=2 Tax=Takifugu...   159   5e-37
+UniRef90_UPI000B4F25A5 phosphoacetylglucosamine mutase n=1 Tax=M...   159   5e-37
+UniRef90_UPI0005EE03AF phosphoacetylglucosamine mutase n=1 Tax=S...   159   6e-37
+UniRef90_UPI0004F0FCB4 phosphoacetylglucosamine mutase n=1 Tax=A...   159   6e-37
+UniRef90_UPI0009E2FE6C phosphoacetylglucosamine mutase isoform X...   159   6e-37
+UniRef90_UPI0006B30A50 phosphoacetylglucosamine mutase n=2 Tax=R...   159   7e-37
+UniRef90_UPI0004963643 phosphoacetylglucosamine mutase n=1 Tax=S...   159   7e-37
+UniRef90_A0A0H2S5X7 Phosphoacetylglucosamine mutase n=1 Tax=Schi...   159   7e-37
+UniRef90_U9UTL0 Phosphoacetylglucosamine mutase n=2 Tax=Rhizopha...   159   7e-37
+UniRef90_A0A1A8V218 Phosphoacetylglucosamine mutase n=13 Tax=Not...   158   8e-37
+UniRef90_F6QV04 Phosphoacetylglucosamine mutase n=4 Tax=Metather...   158   9e-37
+UniRef90_A0A0D0BQ79 Phosphoacetylglucosamine mutase n=1 Tax=Suil...   158   9e-37
+UniRef90_Q4R7E0 Testis cDNA, clone: QtsA-15546, similar to human...   158   9e-37
+UniRef90_F8NDW6 Phosphoacetylglucosamine mutase n=2 Tax=Serpula ...   158   1e-36
+UniRef90_A0A0F8AQX6 Phosphoacetylglucosamine mutase n=3 Tax=Lari...   158   1e-36
+UniRef90_A0A093JGK1 Phosphoacetylglucosamine mutase (Fragment) n...   158   1e-36
+UniRef90_H0XB62 Phosphoacetylglucosamine mutase n=2 Tax=Otolemur...   158   1e-36
+UniRef90_F1QHK0 Phosphoacetylglucosamine mutase n=5 Tax=Cyprinid...   158   1e-36
+UniRef90_B5X1B2 Phosphoacetylglucosamine mutase n=3 Tax=Salmonin...   158   1e-36
+UniRef90_UPI0005780BDE phosphoacetylglucosamine mutase n=1 Tax=E...   158   1e-36
+UniRef90_UPI0004967EE3 phosphoacetylglucosamine mutase n=1 Tax=C...   158   1e-36
+UniRef90_G3GTC9 Phosphoacetylglucosamine mutase n=6 Tax=Cricetid...   158   1e-36
+UniRef90_A0A1U7KQ01 Phosphoacetylglucosamine mutase n=1 Tax=Phle...   158   1e-36
+UniRef90_A0A0D7AH46 Phosphoacetylglucosamine mutase n=1 Tax=Fist...   158   2e-36
+UniRef90_A0A168NF66 Phosphoacetylglucosamine mutase n=2 Tax=Absi...   157   2e-36
+UniRef90_A0A1X2HB76 Phosphoacetylglucosamine mutase n=1 Tax=Sync...   157   2e-36
+UniRef90_UPI00077FDC81 phosphoacetylglucosamine mutase-like n=1 ...   157   2e-36
+UniRef90_UPI00074FE749 phosphoacetylglucosamine mutase n=1 Tax=G...   157   2e-36
+UniRef90_W4KPB5 Uncharacterized protein (Fragment) n=1 Tax=Heter...   157   2e-36
+UniRef90_A0A0G2RLT8 Phosphoacetylglucosamine mutase n=1 Tax=Cnap...   157   2e-36
+UniRef90_A0A091PZY6 Phosphoacetylglucosamine mutase (Fragment) n...   157   2e-36
+UniRef90_A9V3R2 Phosphoacetylglucosamine mutase n=1 Tax=Monosiga...   157   3e-36
+UniRef90_UPI0006D507B8 phosphoacetylglucosamine mutase n=1 Tax=H...   157   3e-36
+UniRef90_K5VDN9 Phosphoacetylglucosamine mutase n=1 Tax=Phaneroc...   157   3e-36
+UniRef90_A0A0K2V2U3 Phosphoacetylglucosamine mutaselike [Xiphosp...   157   3e-36
+UniRef90_Q9CYR6 Phosphoacetylglucosamine mutase n=7 Tax=Mus TaxI...   157   3e-36
+UniRef90_A0A1X2GH87 Phosphoacetylglucosamine mutase n=1 Tax=Hess...   157   4e-36
+UniRef90_A0A1W4ZES4 Phosphoacetylglucosamine mutase n=2 Tax=Scle...   157   4e-36
+UniRef90_G4TZA2 Probable PCM1-phosphoacetylglucosamine mutase (F...   157   4e-36
+UniRef90_UPI000A315143 phosphoacetylglucosamine mutase n=1 Tax=M...   157   4e-36
+UniRef90_UPI0009B336AE phosphoacetylglucosamine mutase n=1 Tax=M...   156   4e-36
+UniRef90_UPI0006D4D48C LOW QUALITY PROTEIN: phosphoacetylglucosa...   156   4e-36
+UniRef90_UPI000333D0D8 phosphoacetylglucosamine mutase n=1 Tax=O...   156   4e-36
+UniRef90_UPI000719C318 phosphoacetylglucosamine mutase-like n=1 ...   156   5e-36
+UniRef90_A0A0Q3P619 Uncharacterized protein n=1 Tax=Amazona aest...   156   5e-36
+UniRef90_A0A1W0XEY6 Phosphoacetylglucosamine mutase n=1 Tax=Hyps...   156   5e-36
+UniRef90_UPI000A288665 phosphoacetylglucosamine mutase n=1 Tax=P...   156   5e-36
+UniRef90_F6ZP25 Phosphoacetylglucosamine mutase n=2 Tax=Ciona in...   156   5e-36
+UniRef90_UPI000B37F49C phosphoacetylglucosamine mutase n=1 Tax=H...   156   6e-36
+UniRef90_A0A0C3EKQ3 Phosphoacetylglucosamine mutase n=1 Tax=Scle...   156   6e-36
+UniRef90_S8EFM0 Phosphoacetylglucosamine mutase n=2 Tax=Polypora...   156   6e-36
+UniRef90_A0A1Y1M850 Phosphoacetylglucosamine mutase n=1 Tax=Phot...   156   6e-36
+UniRef90_UPI0003347408 phosphoacetylglucosamine mutase n=1 Tax=C...   156   7e-36
+UniRef90_Q9VTZ4 Phosphoacetylglucosamine mutase n=15 Tax=melanog...   156   7e-36
+UniRef90_A0A167QQ47 Phosphoacetylglucosamine mutase n=1 Tax=Phyc...   155   7e-36
+UniRef90_W5NKD9 Phosphoacetylglucosamine mutase n=3 Tax=Lepisost...   155   8e-36
+UniRef90_R7UDD6 Phosphoacetylglucosamine mutase n=1 Tax=Capitell...   155   8e-36
+UniRef90_UPI00044161E1 phosphoacetylglucosamine mutase n=1 Tax=D...   155   9e-36
+UniRef90_A0A212EW76 Putative phosphoacetylglucosamine mutase n=1...   155   1e-35
+UniRef90_I1BPG1 Phosphoacetylglucosamine mutase n=1 Tax=Rhizopus...   155   1e-35
+UniRef90_A0A165W2H4 Phosphoacetylglucosamine mutase n=1 Tax=Neol...   155   1e-35
+UniRef90_A0A0B7NQV9 Phosphoacetylglucosamine mutase n=1 Tax=Para...   155   1e-35
+UniRef90_A0A197JRQ5 Phosphoacetylglucosamine mutase n=1 Tax=Mort...   155   1e-35
+UniRef90_A0A151WDT7 Phosphoacetylglucosamine mutase n=1 Tax=Hyps...   155   1e-35
+UniRef90_A0A0C3L564 Phosphoacetylglucosamine mutase n=1 Tax=Tula...   155   1e-35
+UniRef90_A0A1C9CW41 Phosphoacetylglucosamine mutase n=2 Tax=Bomb...   155   1e-35
+UniRef90_UPI000786FC96 phosphoacetylglucosamine mutase n=2 Tax=A...   155   1e-35
+UniRef90_UPI00090DAB62 phosphoacetylglucosamine mutase n=1 Tax=L...   155   1e-35
+UniRef90_UPI0008148764 phosphoacetylglucosamine mutase isoform X...   155   1e-35
+UniRef90_A0A151TJ63 Phosphoacetylglucosamine mutase n=2 Tax=Caja...   155   1e-35
+UniRef90_UPI000643F8D0 phosphoacetylglucosamine mutase n=1 Tax=C...   155   1e-35
+UniRef90_V2Z1T3 Phosphoacetylglucosamine mutase n=2 Tax=Moniliop...   155   1e-35
+UniRef90_A0A067QBL9 Phosphoacetylglucosamine mutase n=1 Tax=Jaap...   155   2e-35
+UniRef90_I4YEE6 Phosphoacetylglucosamine mutase n=1 Tax=Wallemia...   154   2e-35
+UniRef90_H2YFB1 Phosphoacetylglucosamine mutase n=10 Tax=Ciona s...   154   2e-35
+UniRef90_A0A0C7BI70 Phosphoacetylglucosamine mutase n=5 Tax=Rhiz...   154   2e-35
+UniRef90_UPI00063F1BD8 phosphoacetylglucosamine mutase n=1 Tax=M...   154   2e-35
+UniRef90_UPI000455F2FE Phosphoacetylglucosamine mutase n=1 Tax=C...   154   2e-35
+UniRef90_A0A1M2VB24 Phosphoacetylglucosamine mutase n=2 Tax=Tram...   154   2e-35
+UniRef90_K7K4V2 Uncharacterized protein n=1 Tax=Glycine max TaxI...   154   2e-35
+UniRef90_J9K1M9 Phosphoacetylglucosamine mutase n=1 Tax=Acyrthos...   154   2e-35
+UniRef90_K5WAK9 Uncharacterized protein n=2 Tax=Agaricus bisporu...   154   2e-35
+UniRef90_UPI000626C107 phosphoacetylglucosamine mutase n=1 Tax=A...   154   2e-35
+UniRef90_S2K2Q4 Phosphoacetylglucosamine mutase n=3 Tax=Mucor Ta...   154   2e-35
+UniRef90_A0A165CE22 Phosphoacetylglucosamine mutase n=1 Tax=Laet...   154   2e-35
+UniRef90_A0A093HBF8 Phosphoacetylglucosamine mutase (Fragment) n...   154   2e-35
+UniRef90_UPI0006CEE77A phosphoacetylglucosamine mutase n=1 Tax=C...   154   2e-35
+UniRef90_K7J1K6 Phosphoacetylglucosamine mutase n=1 Tax=Nasonia ...   154   2e-35
+UniRef90_UPI00044076E8 phosphoacetylglucosamine mutase n=1 Tax=F...   154   2e-35
+UniRef90_A0A1Y2GMW1 Phosphoacetylglucosamine mutase n=1 Tax=Lobo...   154   3e-35
+UniRef90_UPI0009B376C5 phosphoacetylglucosamine mutase n=1 Tax=L...   153   3e-35
+UniRef90_UPI0006B16C32 phosphoacetylglucosamine mutase-like n=1 ...   153   3e-35
+UniRef90_A0A1D1UX65 Uncharacterized protein n=1 Tax=Ramazzottius...   153   3e-35
+UniRef90_A0A0C3SD02 Phosphoacetylglucosamine mutase n=1 Tax=Phle...   153   4e-35
+UniRef90_A0A165PD10 Phosphoacetylglucosamine mutase n=1 Tax=Exid...   153   4e-35
+UniRef90_A0A0C3FZJ5 Phosphoacetylglucosamine mutase n=1 Tax=Pilo...   153   4e-35
+UniRef90_UPI00083C63AC phosphoacetylglucosamine mutase isoform X...   153   4e-35
+UniRef90_UPI0003F06C7A phosphoacetylglucosamine mutase-like n=1 ...   153   4e-35
+UniRef90_A0A0V0G5W2 Putative phosphoglucomutase/phosphomannomuta...   153   4e-35
+UniRef90_UPI0009957F0F phosphoacetylglucosamine mutase n=1 Tax=P...   153   4e-35
+UniRef90_A0A0T6B8G5 Phosphoacetylglucosamine mutase n=1 Tax=Oryc...   153   4e-35
+UniRef90_A0A1S3VT11 Phosphoacetylglucosamine mutase n=4 Tax=Phas...   153   4e-35
+UniRef90_A0A068RKR6 Phosphoacetylglucosamine mutase n=2 Tax=Lich...   153   5e-35
+UniRef90_C5MC59 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   153   5e-35
+UniRef90_A0A061F896 Phosphoacetylglucosamine mutase n=4 Tax=Malv...   153   5e-35
+UniRef90_A0A067RFT3 Phosphoacetylglucosamine mutase n=1 Tax=Zoot...   153   5e-35
+UniRef90_A0A1W4W2M4 Phosphoacetylglucosamine mutase n=2 Tax=Agri...   153   5e-35
+UniRef90_A0A0C3P5F5 Phosphoacetylglucosamine mutase n=2 Tax=Piso...   153   6e-35
+UniRef90_J4I897 Phosphoacetylglucosamine mutase n=1 Tax=Fibropor...   153   6e-35
+UniRef90_A0A0P1KQ78 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   153   6e-35
+UniRef90_A0A1X6NFV6 Phosphoacetylglucosamine mutase n=1 Tax=Post...   153   6e-35
+UniRef90_UPI0004410FC8 phosphoacetylglucosamine mutase n=1 Tax=A...   152   6e-35
+UniRef90_C5DER6 Phosphoacetylglucosamine mutase n=1 Tax=Lachance...   152   6e-35
+UniRef90_UPI0004417621 phosphoacetylglucosamine mutase n=1 Tax=P...   152   6e-35
+UniRef90_A0A0R0EL27 Phosphoacetylglucosamine mutase n=1 Tax=Glyc...   152   7e-35
+UniRef90_Q6BSY8 Phosphoacetylglucosamine mutase n=2 Tax=Debaryom...   152   7e-35
+UniRef90_Q16PT5 Phosphoacetylglucosamine mutase n=5 Tax=Stegomyi...   152   7e-35
+UniRef90_A0A1U9XQT3 Phosphoacetylglucosamine mutase n=1 Tax=Tigr...   152   8e-35
+UniRef90_D6RK39 Phosphoacetylglucosamine mutase n=1 Tax=Coprinop...   152   8e-35
+UniRef90_A0A1D2MVV2 Phosphoacetylglucosamine mutase n=1 Tax=Orch...   152   8e-35
+UniRef90_A0A1S3BPK3 Phosphoacetylglucosamine mutase n=2 Tax=Cucu...   152   8e-35
+UniRef90_UPI0006EB0363 LOW QUALITY PROTEIN: phosphoacetylglucosa...   152   9e-35
+UniRef90_A0A165ZGR6 Phosphoacetylglucosamine mutase n=1 Tax=Fibu...   152   9e-35
+UniRef90_A0A1E3P4I2 Phosphoacetylglucosamine mutase n=1 Tax=Wick...   152   9e-35
+UniRef90_A0A0K8RLH2 Putative phosphoglucomutase/phosphomannomuta...   152   9e-35
+UniRef90_UPI0007192663 phosphoacetylglucosamine mutase-like isof...   152   9e-35
+UniRef90_A0A067P386 Uncharacterized protein n=1 Tax=Pleurotus os...   152   9e-35
+UniRef90_A0A1C7NB14 Phosphoacetylglucosamine mutase n=2 Tax=Choa...   152   1e-34
+UniRef90_A0A0R0LDN9 Uncharacterized protein n=1 Tax=Glycine max ...   152   1e-34
+UniRef90_A0A146H5U0 Phosphoacetylglucosamine mutase n=1 Tax=Myce...   152   1e-34
+UniRef90_A0A1B6IVT2 Uncharacterized protein (Fragment) n=1 Tax=H...   152   1e-34
+UniRef90_UPI00077EAF7F phosphoacetylglucosamine mutase n=1 Tax=Z...   152   1e-34
+UniRef90_B0CPQ3 Phosphoacetylglucosamine mutase n=2 Tax=Laccaria...   152   1e-34
+UniRef90_A0A1D1Z9M1 Phosphoacetylglucosamine mutase n=1 Tax=Anth...   152   1e-34
+UniRef90_V9K8C4 Phosphoacetylglucosamine mutase n=2 Tax=Callorhi...   152   1e-34
+UniRef90_A0A166LN48 Phosphoacetylglucosamine mutase n=1 Tax=Peni...   152   1e-34
+UniRef90_A0A0N0PE63 Phosphoacetylglucosamine mutase n=1 Tax=Papi...   152   1e-34
+UniRef90_A0A0B6ZY44 Uncharacterized protein (Fragment) n=1 Tax=A...   152   1e-34
+UniRef90_UPI0005F533A0 phosphoacetylglucosamine mutase isoform X...   151   1e-34
+UniRef90_A0A0H5C4N7 Phosphoacetylglucosamine mutase n=2 Tax=Cybe...   151   1e-34
+UniRef90_UPI000440DF32 phosphoacetylglucosamine mutase n=1 Tax=S...   151   1e-34
+UniRef90_UPI0004E598E5 phosphoacetylglucosamine mutase isoform X...   151   1e-34
+UniRef90_I1NEX1 Phosphoacetylglucosamine mutase n=6 Tax=Glycine ...   151   1e-34
+UniRef90_A0A194QC94 Phosphoacetylglucosamine mutase n=3 Tax=Papi...   151   2e-34
+UniRef90_L7M719 Phosphoacetylglucosamine mutase n=3 Tax=Ixodidae...   151   2e-34
+UniRef90_K0KEB1 Phosphoacetylglucosamine mutase n=1 Tax=Wickerha...   151   2e-34
+UniRef90_A0A1E4TLF7 Phosphoacetylglucosamine mutase n=1 Tax=Tort...   151   2e-34
+UniRef90_UPI00096B0832 LOW QUALITY PROTEIN: phosphoacetylglucosa...   151   2e-34
+UniRef90_Q09687 Phosphoacetylglucosamine mutase 1 n=1 Tax=Schizo...   151   2e-34
+UniRef90_UPI0006233D8E phosphoacetylglucosamine mutase n=1 Tax=L...   151   2e-34
+UniRef90_D8PNS7 Phosphoacetylglucosamine mutase n=1 Tax=Schizoph...   151   2e-34
+UniRef90_A0A0D2PM98 Phosphoacetylglucosamine mutase n=1 Tax=Hyph...   151   2e-34
+UniRef90_G3ANX8 Phosphoacetylglucosamine mutase n=1 Tax=Spathasp...   151   2e-34
+UniRef90_G7JZT7 Phosphoacetylglucosamine mutase n=3 Tax=Papilion...   150   2e-34
+UniRef90_A0A1I8NAA5 Phosphoacetylglucosamine mutase n=3 Tax=Musc...   150   2e-34
+UniRef90_A0A1B7NH65 Phosphoacetylglucosamine mutase n=2 Tax=Rhiz...   150   2e-34
+UniRef90_A0A0C2TU96 Phosphoacetylglucosamine mutase n=1 Tax=Aman...   150   2e-34
+UniRef90_A0A218RIG2 Uncharacterized protein n=4 Tax=Crotonoideae...   150   2e-34
+UniRef90_E2C6Q6 Phosphoacetylglucosamine mutase n=1 Tax=Harpegna...   150   3e-34
+UniRef90_U5H9S9 Phosphoacetylglucosamine mutase n=1 Tax=Microbot...   150   3e-34
+UniRef90_A0A061B5H5 Phosphoacetylglucosamine mutase n=2 Tax=Cybe...   150   3e-34
+UniRef90_A0A199UP99 Phosphoacetylglucosamine mutase n=4 Tax=Anan...   150   3e-34
+UniRef90_UPI0006C94070 phosphoacetylglucosamine mutase n=1 Tax=T...   150   3e-34
+UniRef90_Q9P4V2 Phosphoacetylglucosamine mutase n=5 Tax=cellular...   150   3e-34
+UniRef90_UPI000B78A130 phosphoacetylglucosamine mutase isoform X...   150   3e-34
+UniRef90_T1G6J7 Phosphoacetylglucosamine mutase n=1 Tax=Helobdel...   150   3e-34
+UniRef90_UPI00077ABF30 phosphoacetylglucosamine mutase-like n=1 ...   150   3e-34
+UniRef90_UPI000711BAC7 phosphoacetylglucosamine mutase n=1 Tax=D...   150   3e-34
+UniRef90_A0A0D7B5M0 Phosphoacetylglucosamine mutase n=1 Tax=Cyli...   150   3e-34
+UniRef90_A0A1G4IS55 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   150   3e-34
+UniRef90_UPI000359979D phosphoacetylglucosamine mutase-like n=1 ...   150   3e-34
+UniRef90_A0A1Y3BME6 Phosphoacetylglucosamine mutase n=1 Tax=Euro...   150   4e-34
+UniRef90_G5E3M9 Putative phosphoglucomutase 3 (Fragment) n=1 Tax...   150   4e-34
+UniRef90_UPI000775A89B phosphoacetylglucosamine mutase-like n=1 ...   150   4e-34
+UniRef90_J3MJ85 Phosphoacetylglucosamine mutase n=2 Tax=Oryza br...   150   4e-34
+UniRef90_S9RA03 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...   150   4e-34
+UniRef90_A0A1G4JC72 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   150   4e-34
+UniRef90_UPI00067BB2D1 phosphoacetylglucosamine mutase n=1 Tax=A...   150   4e-34
+UniRef90_A0A0D9WWJ0 Phosphoacetylglucosamine mutase n=1 Tax=Leer...   150   4e-34
+UniRef90_A0A091R4E1 Phosphoacetylglucosamine mutase (Fragment) n...   150   4e-34
+UniRef90_A0A1B6KB84 Phosphoacetylglucosamine mutase n=2 Tax=Cica...   150   4e-34
+UniRef90_A0A060T1B3 Phosphoacetylglucosamine mutase n=1 Tax=Blas...   150   4e-34
+UniRef90_F2UMA3 Phosphoacetylglucosamine mutase n=1 Tax=Salpingo...   150   5e-34
+UniRef90_UPI00076FD533 phosphoacetylglucosamine mutase n=1 Tax=N...   150   5e-34
+UniRef90_A0A1E4RRM6 Phosphoacetylglucosamine mutase n=1 Tax=Hyph...   150   5e-34
+UniRef90_V5GWV2 Phosphoacetylglucosamine mutase (Fragment) n=2 T...   150   5e-34
+UniRef90_UPI0009A2A6B6 phosphoacetylglucosamine mutase isoform X...   150   5e-34
+UniRef90_A0A0A8L5F2 Phosphoacetylglucosamine mutase n=1 Tax=Kluy...   149   5e-34
+UniRef90_A0A1R1YC41 Phosphoacetylglucosamine mutase n=2 Tax=Smit...   149   6e-34
+UniRef90_A0A066WPR3 Phosphoacetylglucosamine mutase n=1 Tax=Till...   149   6e-34
+UniRef90_A8IZ78 Phosphoacetylglucosamine mutase n=1 Tax=Chlamydo...   149   6e-34
+UniRef90_L8WUD3 Phosphoacetylglucosamine mutase n=1 Tax=Thanatep...   149   6e-34
+UniRef90_A0A1G4ITV7 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   149   6e-34
+UniRef90_A0A1U8M4J7 Phosphoacetylglucosamine mutase n=5 Tax=Goss...   149   6e-34
+UniRef90_A0A0C9VSZ7 Unplaced genomic scaffold SPHSTscaffold_36, ...   149   6e-34
+UniRef90_A0A0J8E3Z6 Phosphoacetylglucosamine mutase n=2 Tax=Beta...   149   6e-34
+UniRef90_A0A0C7N607 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   149   7e-34
+UniRef90_A9TDV4 Phosphoacetylglucosamine mutase n=1 Tax=Physcomi...   149   7e-34
+UniRef90_UPI0006B0F5FE phosphoacetylglucosamine mutase-like n=1 ...   149   7e-34
+UniRef90_UPI0005AC5A41 phosphoacetylglucosamine mutase isoform X...   149   7e-34
+UniRef90_UPI000B3F0FB7 phosphoacetylglucosamine mutase n=1 Tax=H...   149   7e-34
+UniRef90_UPI0009E3AE9D phosphoacetylglucosamine mutase-like n=1 ...   149   7e-34
+UniRef90_A0A0E0LI64 Phosphoacetylglucosamine mutase n=1 Tax=Oryz...   149   8e-34
+UniRef90_A0A1Y1ZDZ2 Phosphoacetylglucosamine mutase n=1 Tax=Basi...   149   8e-34
+UniRef90_B3S2Y2 Phosphoacetylglucosamine mutase n=1 Tax=Trichopl...   148   9e-34
+UniRef90_A0A0C3BC78 Phosphoacetylglucosamine mutase n=1 Tax=Sere...   148   9e-34
+UniRef90_A0A0A1XQ05 Phosphoacetylglucosamine mutase n=9 Tax=Teph...   148   1e-33
+UniRef90_UPI00057B3D50 phosphoacetylglucosamine mutase n=2 Tax=A...   148   1e-33
+UniRef90_H0Y8I3 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   148   1e-33
+UniRef90_A0A022QYM8 Phosphoacetylglucosamine mutase n=2 Tax=Eryt...   148   1e-33
+UniRef90_UPI0009F35430 phosphoacetylglucosamine mutase n=1 Tax=D...   148   1e-33
+UniRef90_A0A0L1HKR5 Stress response protein NST1 n=1 Tax=Stemphy...   148   1e-33
+UniRef90_V4SQF7 Uncharacterized protein (Fragment) n=4 Tax=Citru...   148   1e-33
+UniRef90_A0A0E9NPD7 Phosphoacetylglucosamine mutase n=1 Tax=Sait...   148   1e-33
+UniRef90_A0A1B0CKT3 Phosphoacetylglucosamine mutase n=2 Tax=Phle...   148   1e-33
+UniRef90_A0A067TP36 Phosphoacetylglucosamine mutase n=1 Tax=Gale...   148   1e-33
+UniRef90_A0A0N7L9K1 Phosphoacetylglucosamine mutase n=1 Tax=Cera...   148   1e-33
+UniRef90_G0ZS84 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   148   1e-33
+UniRef90_A0A177ULQ2 Phosphoacetylglucosamine mutase n=4 Tax=Till...   148   1e-33
+UniRef90_B4GRG5 Phosphoacetylglucosamine mutase n=3 Tax=pseudoob...   148   1e-33
+UniRef90_B9SS01 Phosphoacetylglucosamine mutase n=1 Tax=Ricinus ...   148   2e-33
+UniRef90_B0X482 Phosphoacetylglucosamine mutase n=4 Tax=Culex Ta...   148   2e-33
+UniRef90_A0A1D6MFW1 Phosphoacetylglucosamine mutase n=1 Tax=Zea ...   148   2e-33
+UniRef90_UPI0007381490 phosphoacetylglucosamine mutase isoform X...   148   2e-33
+UniRef90_UPI000B791457 phosphoacetylglucosamine mutase-like isof...   148   2e-33
+UniRef90_UPI00081173A9 phosphoacetylglucosamine mutase-like n=1 ...   147   2e-33
+UniRef90_UPI000718DA64 phosphoacetylglucosamine mutase n=2 Tax=P...   147   2e-33
+UniRef90_A0A1Y1WL75 Phosphoacetylglucosamine mutase n=1 Tax=Lind...   147   2e-33
+UniRef90_B8M6P3 Phosphoacetylglucosamine mutase n=4 Tax=Talaromy...   147   2e-33
+UniRef90_K3XG38 Phosphoacetylglucosamine mutase n=3 Tax=Panicoid...   147   2e-33
+UniRef90_T1IIS7 Uncharacterized protein n=1 Tax=Strigamia mariti...   147   2e-33
+UniRef90_A0A084G9Y0 Phosphoacetylglucosamine mutase n=1 Tax=Sced...   147   2e-33
+UniRef90_A0A158NCB9 Phosphoacetylglucosamine mutase n=10 Tax=Att...   147   2e-33
+UniRef90_A0A1G4MCE2 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   147   2e-33
+UniRef90_UPI0000481BD9 Phosphoacetylglucosamine mutase n=1 Tax=M...   147   2e-33
+UniRef90_A0A094KMP5 Phosphoacetylglucosamine mutase (Fragment) n...   147   2e-33
+UniRef90_A0A1D6BTJ1 Phosphoacetylglucosamine mutase n=11 Tax=Tri...   147   3e-33
+UniRef90_A0A1R1PEY1 Phosphoacetylglucosamine mutase n=1 Tax=Zanc...   147   3e-33
+UniRef90_E2AG64 Phosphoacetylglucosamine mutase n=1 Tax=Camponot...   147   3e-33
+UniRef90_G8BF87 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   147   3e-33
+UniRef90_B4HG32 GM24644 n=1 Tax=Drosophila sechellia TaxID=7238 ...   147   3e-33
+UniRef90_A0A0F7SHR8 Phosphoacetylglucosamine mutase n=1 Tax=Phaf...   147   3e-33
+UniRef90_A0A182WJR6 Uncharacterized protein n=2 Tax=Myzomyia Tax...   147   3e-33
+UniRef90_UPI000867A1FD Phosphoacetylglucosamine mutase n=1 Tax=S...   147   3e-33
+UniRef90_A0A1D6CF73 Phosphoacetylglucosamine mutase n=1 Tax=Trit...   147   3e-33
+UniRef90_A0A137QS47 Phosphoacetylglucosamine mutase n=1 Tax=Leuc...   147   3e-33
+UniRef90_R1E8V5 Phosphoacetylglucosamine mutase n=5 Tax=Botryosp...   147   3e-33
+UniRef90_A0A139AJV5 Phosphoacetylglucosamine mutase n=1 Tax=Gona...   147   3e-33
+UniRef90_Q4WJF0 Phosphoacetylglucosamine mutase n=6 Tax=Aspergil...   147   4e-33
+UniRef90_D7TXL1 Phosphoacetylglucosamine mutase n=5 Tax=Vitis vi...   147   4e-33
+UniRef90_A0A1Q3DCJ1 Phosphoacetylglucosamine mutase n=1 Tax=Ceph...   147   4e-33
+UniRef90_A0A0K3C845 Phosphoacetylglucosamine mutase n=4 Tax=Rhod...   147   4e-33
+UniRef90_A0A1D2VJD0 Phosphoacetylglucosamine mutase n=1 Tax=Asco...   147   4e-33
+UniRef90_A0A164ZYN8 Phosphoacetylglucosamine mutase n=1 Tax=Xylo...   146   4e-33
+UniRef90_I1H2U1 Phosphoacetylglucosamine mutase n=2 Tax=Brachypo...   146   4e-33
+UniRef90_E2L4T6 Uncharacterized protein (Fragment) n=1 Tax=Monil...   146   5e-33
+UniRef90_UPI0004ED4004 phosphoacetylglucosamine mutase isoform X...   146   5e-33
+UniRef90_A3GI60 Phosphoacetylglucosamine mutase n=1 Tax=Scheffer...   146   5e-33
+UniRef90_A0A1R0H0G8 Phosphoacetylglucosamine mutase n=1 Tax=Smit...   146   5e-33
+UniRef90_UPI00053C8A7F phosphoacetylglucosamine mutase n=1 Tax=T...   146   6e-33
+UniRef90_A0A0X8HRM4 Phosphoacetylglucosamine mutase n=1 Tax=Erem...   146   6e-33
+UniRef90_UPI0006747977 phosphoacetylglucosamine mutase-like n=1 ...   146   6e-33
+UniRef90_A0A200PW98 Alpha-D-phosphohexomutase n=1 Tax=Macleaya c...   146   6e-33
+UniRef90_G8YTN2 Phosphoacetylglucosamine mutase n=2 Tax=Pichia s...   146   6e-33
+UniRef90_A0A1J1IP77 Phosphoacetylglucosamine mutase n=1 Tax=Clun...   146   6e-33
+UniRef90_E9J850 Uncharacterized protein (Fragment) n=2 Tax=Solen...   146   7e-33
+UniRef90_A0A059CHG5 Phosphoacetylglucosamine mutase n=1 Tax=Euca...   146   7e-33
+UniRef90_U5D048 Phosphoacetylglucosamine mutase n=1 Tax=Amborell...   146   7e-33
+UniRef90_A0A1Z5L9Z0 Uncharacterized protein (Fragment) n=1 Tax=O...   146   7e-33
+UniRef90_A0A182XLJ6 Uncharacterized protein n=1 Tax=Anopheles qu...   146   7e-33
+UniRef90_V9L9U3 Phosphoglucomutase 3 (Fragment) n=1 Tax=Callorhi...   146   7e-33
+UniRef90_W6MQ04 Phosphoacetylglucosamine mutase n=1 Tax=Kuraishi...   145   7e-33
+UniRef90_A0A146L187 Phosphoacetylglucosamine mutase n=1 Tax=Lygu...   145   7e-33
+UniRef90_A0A0A9EDA2 Phosphoacetylglucosamine mutase n=1 Tax=Arun...   145   7e-33
+UniRef90_A0A150H225 Uncharacterized protein n=1 Tax=Gonium pecto...   145   8e-33
+UniRef90_UPI000901D622 phosphoacetylglucosamine mutase n=1 Tax=I...   145   8e-33
+UniRef90_A0A0L0CL80 Phosphoacetylglucosamine mutase n=1 Tax=Luci...   145   8e-33
+UniRef90_B4LGP2 Phosphoacetylglucosamine mutase n=5 Tax=Drosophi...   145   8e-33
+UniRef90_D8U2X1 Phosphoacetylglucosamine mutase n=1 Tax=Volvox c...   145   8e-33
+UniRef90_A0A1B0GA53 Transferrin 2 (phosphoglucomutase/phosphoman...   145   8e-33
+UniRef90_A0A1B0DC94 Uncharacterized protein n=1 Tax=Phlebotomus ...   145   9e-33
+UniRef90_A0A0J9XF82 Phosphoacetylglucosamine mutase n=1 Tax=Geot...   145   9e-33
+UniRef90_H8X4S4 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   145   9e-33
+UniRef90_A0A074RYA8 Phosphoacetylglucosamine mutase n=4 Tax=Rhiz...   145   9e-33
+UniRef90_A0A182S6C0 Uncharacterized protein n=1 Tax=Anopheles ma...   145   9e-33
+UniRef90_A0A1Z5KW02 Uncharacterized protein (Fragment) n=1 Tax=O...   145   9e-33
+UniRef90_R8BCB4 Phosphoacetylglucosamine mutase n=1 Tax=Togninia...   145   1e-32
+UniRef90_G8ZY60 Phosphoacetylglucosamine mutase n=1 Tax=Torulasp...   145   1e-32
+UniRef90_E3K3J8 Phosphoacetylglucosamine mutase n=1 Tax=Puccinia...   145   1e-32
+UniRef90_A0A218VV00 Uncharacterized protein n=1 Tax=Punica grana...   145   1e-32
+UniRef90_A0A1E4SEB0 Phosphoacetylglucosamine mutase n=1 Tax=Cand...   145   1e-32
+UniRef90_A0A1Y2HJA6 Phosphoacetylglucosamine mutase n=1 Tax=Cate...   145   1e-32
+UniRef90_A1D406 Phosphoacetylglucosamine mutase n=3 Tax=Aspergil...   145   1e-32
+UniRef90_UPI00098E7ADB phosphoacetylglucosamine mutase n=1 Tax=A...   145   1e-32
+UniRef90_S9X7C4 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...   145   1e-32
+UniRef90_A0A0M5J3X5 Phosphoacetylglucosamine mutase n=2 Tax=Dros...   145   1e-32
+UniRef90_J5QRT1 Phosphoacetylglucosamine mutase n=2 Tax=Trichosp...   145   1e-32
+UniRef90_C3Y3M3 Phosphoacetylglucosamine mutase n=3 Tax=Branchio...   145   1e-32
+UniRef90_A0A0D6EP94 Phosphoacetylglucosamine mutase n=1 Tax=Spor...   145   1e-32
+UniRef90_A0A1Y1UIT6 Phosphoacetylglucosamine mutase n=1 Tax=Kock...   145   1e-32
+UniRef90_A0A067MML2 Phosphoacetylglucosamine mutase n=1 Tax=Botr...   145   1e-32
+UniRef90_UPI00064C11D2 phosphoacetylglucosamine mutase isoform X...   145   1e-32
+UniRef90_V5FCI3 Phosphoacetylglucosamine mutase n=1 Tax=Byssochl...   145   1e-32
+UniRef90_A1CR31 Phosphoacetylglucosamine mutase n=3 Tax=Aspergil...   145   1e-32
+UniRef90_A0A0L0FZ62 Phosphoacetylglucosamine mutase n=1 Tax=Spha...   145   1e-32
+UniRef90_A0A0P6BY25 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   145   2e-32
+UniRef90_A0A1J3CZZ4 Phosphoacetylglucosamine mutase (Fragment) n...   145   2e-32
+UniRef90_M0SSL0 Phosphoacetylglucosamine mutase n=3 Tax=Musa acu...   145   2e-32
+UniRef90_UPI0006C97C56 phosphoacetylglucosamine mutase n=1 Tax=C...   145   2e-32
+UniRef90_A0A086T2P7 Phosphoacetylglucosamine mutase n=1 Tax=Acre...   144   2e-32
+UniRef90_E3RSJ0 Phosphoacetylglucosamine mutase n=9 Tax=Pleospor...   144   2e-32
+UniRef90_A0A1E5RG33 Phosphoacetylglucosamine mutase n=1 Tax=Hans...   144   2e-32
+UniRef90_A0A0L6UQV3 Phosphoacetylglucosamine mutase n=1 Tax=Pucc...   144   2e-32
+UniRef90_UPI0008406A07 phosphoacetylglucosamine mutase n=1 Tax=C...   144   2e-32
+UniRef90_UPI000771DC2E phosphoacetylglucosamine mutase isoform X...   144   2e-32
+UniRef90_G1X5E3 Phosphoacetylglucosamine mutase n=1 Tax=Arthrobo...   144   2e-32
+UniRef90_A0A087UK17 Phosphoacetylglucosamine mutase (Fragment) n...   144   2e-32
+UniRef90_A0A0U1MA57 Phosphoacetylglucosamine mutase n=1 Tax=Tala...   144   2e-32
+UniRef90_A0A137NS59 Phosphoacetylglucosamine mutase n=1 Tax=Coni...   144   2e-32
+UniRef90_A0A0D3EEJ9 Phosphoacetylglucosamine mutase n=8 Tax=Bras...   144   2e-32
+UniRef90_A0A0C4F7L0 Phosphoacetylglucosamine mutase n=1 Tax=Pucc...   144   2e-32
+UniRef90_A0A1I8I4V1 Uncharacterized protein n=1 Tax=Macrostomum ...   144   2e-32
+UniRef90_A0A131ZT72 Phosphoacetylglucosamine mutase n=1 Tax=Sarc...   144   2e-32
+UniRef90_Q6ZDQ1 Phosphoacetylglucosamine mutase n=8 Tax=Oryza Ta...   144   2e-32
+UniRef90_A0A1L0BC82 Phosphoacetylglucosamine mutase n=2 Tax=[Can...   144   2e-32
+UniRef90_A0A1Y1ZX85 Phosphoacetylglucosamine mutase n=1 Tax=Cloh...   144   2e-32
+UniRef90_A5DNZ9 Phosphoacetylglucosamine mutase n=1 Tax=Meyerozy...   144   2e-32
+UniRef90_A0A0K9Q0L2 Phosphoacetylglucosamine mutase n=1 Tax=Zost...   144   2e-32
+UniRef90_P57750 Phosphoacetylglucosamine mutase n=7 Tax=Brassica...   144   2e-32
+UniRef90_UPI00058169DC phosphoacetylglucosamine mutase n=1 Tax=S...   144   2e-32
+UniRef90_A0A1I8ISB9 Uncharacterized protein n=1 Tax=Macrostomum ...   144   3e-32
+UniRef90_K4CN87 Phosphoacetylglucosamine mutase n=8 Tax=Solanace...   144   3e-32
+UniRef90_G7E995 1,2-dihydroxy-3-keto-5-methylthiopentene dioxyge...   144   3e-32
+UniRef90_R9AC49 Phosphoacetylglucosamine mutase n=1 Tax=Wallemia...   144   3e-32
+UniRef90_M5BJT9 Phosphoacetylglucosamine mutase n=2 Tax=Rhizocto...   144   3e-32
+UniRef90_A6QRQ8 Phosphoacetylglucosamine mutase n=13 Tax=Ajellom...   144   3e-32
+UniRef90_I2FTA3 Phosphoacetylglucosamine mutase n=2 Tax=Ustilago...   143   3e-32
+UniRef90_UPI0008DE3348 phosphoacetylglucosamine mutase-like n=2 ...   143   3e-32
+UniRef90_A0A136JF88 Phosphoacetylglucosamine mutase n=1 Tax=Micr...   143   3e-32
+UniRef90_A0A026WZ93 Phosphoacetylglucosamine mutase n=1 Tax=Cera...   143   3e-32
+UniRef90_A0A0B1PEY4 Phosphoacetylglucosamine mutase n=1 Tax=Unci...   143   3e-32
+UniRef90_D8SUW9 Uncharacterized protein (Fragment) n=2 Tax=Selag...   143   3e-32
+UniRef90_C1GTT6 Phosphoacetylglucosamine mutase n=5 Tax=Paracocc...   143   3e-32
+UniRef90_A0A1A5ZXY0 Phosphoacetylglucosamine mutase n=1 Tax=Kwon...   143   3e-32
+UniRef90_G8JQW3 Phosphoacetylglucosamine mutase n=1 Tax=Eremothe...   143   3e-32
+UniRef90_UPI00083C5601 phosphoacetylglucosamine mutase n=1 Tax=E...   143   3e-32
+UniRef90_UPI0007DC6275 phosphoacetylglucosamine mutase isoform X...   143   3e-32
+UniRef90_A0A0L0NU96 Phosphoacetylglucosamine mutase n=1 Tax=[Can...   143   4e-32
+UniRef90_W0TFE1 Phosphoacetylglucosamine mutase n=1 Tax=Kluyvero...   143   4e-32
+UniRef90_A0A0L0V0M0 Uncharacterized protein n=1 Tax=Puccinia str...   143   4e-32
+UniRef90_A7S2H7 Phosphoacetylglucosamine mutase n=1 Tax=Nematost...   143   4e-32
+UniRef90_A0A0D0DAC6 Phosphoacetylglucosamine mutase n=1 Tax=Paxi...   143   4e-32
+UniRef90_A8PZW5 Phosphoacetylglucosamine mutase n=1 Tax=Malassez...   143   5e-32
+UniRef90_A0A0C3CVS5 Phosphoacetylglucosamine mutase n=1 Tax=Hebe...   143   5e-32
+UniRef90_D7LXR2 Phosphoacetylglucosamine mutase n=4 Tax=Brassica...   143   5e-32
+UniRef90_A0A0M8ZZS2 Phosphoacetylglucosamine mutase n=1 Tax=Meli...   143   5e-32
+UniRef90_UPI000258DEF3 phosphoacetylglucosamine mutase isoform X...   143   5e-32
+UniRef90_A0A1E3Q796 Phosphoacetylglucosamine mutase n=1 Tax=Lipo...   143   5e-32
+UniRef90_A0A1X7VL00 Phosphoacetylglucosamine mutase n=1 Tax=Amph...   143   5e-32
+UniRef90_A0A1E3PSZ2 Phosphoacetylglucosamine mutase n=1 Tax=Nads...   143   5e-32
+UniRef90_F4RK03 Phosphoacetylglucosamine mutase n=1 Tax=Melampso...   143   5e-32
+UniRef90_A0A0E9ND47 Uncharacterized protein n=1 Tax=Saitoella co...   143   5e-32
+UniRef90_C8V496 Phosphoacetylglucosamine mutase n=4 Tax=Aspergil...   143   6e-32
+UniRef90_A0A1B8GKJ3 Phosphoacetylglucosamine mutase n=21 Tax=Pse...   143   6e-32
+UniRef90_Q75CE5 Phosphoacetylglucosamine mutase n=2 Tax=Saccharo...   143   6e-32
+UniRef90_M5W982 Phosphoacetylglucosamine mutase n=5 Tax=Prunus T...   143   6e-32
+UniRef90_A0A167Y5T5 Phosphoacetylglucosamine mutase n=1 Tax=Asco...   143   6e-32
+UniRef90_A0A0A9NW09 Uncharacterized protein n=2 Tax=Arundo donax...   143   6e-32
+UniRef90_UPI0006265571 phosphoacetylglucosamine mutase n=1 Tax=O...   142   6e-32
+UniRef90_A0A084QKH0 Phosphoacetylglucosamine mutase n=3 Tax=Stac...   142   6e-32
+UniRef90_A0A161X1A6 Phosphoacetylglucosamine mutase n=1 Tax=Dauc...   142   6e-32
+UniRef90_Q6C454 Phosphoacetylglucosamine mutase n=2 Tax=Yarrowia...   142   6e-32
+UniRef90_A0A1E4U2Z3 Phosphoacetylglucosamine mutase n=1 Tax=Pach...   142   7e-32
+UniRef90_A0A017SQY9 Phosphoacetylglucosamine mutase n=4 Tax=Aspe...   142   7e-32
+UniRef90_C4JYS4 Phosphoacetylglucosamine mutase n=1 Tax=Uncinoca...   142   8e-32
+UniRef90_Q6CSH9 Phosphoacetylglucosamine mutase n=1 Tax=Kluyvero...   142   8e-32
+UniRef90_A0A0P9EJU6 Phosphoacetylglucosamine mutase n=1 Tax=Rhod...   142   8e-32
+UniRef90_A0A0G4KE21 Uncharacterized protein (Fragment) n=1 Tax=V...   142   8e-32
+UniRef90_A0A084WES1 Phosphoacetylglucosamine mutase n=2 Tax=Anop...   142   8e-32
+UniRef90_A0A010S6D7 Phosphoacetylglucosamine mutase n=15 Tax=Col...   142   8e-32
+UniRef90_UPI000A2A97B6 phosphoacetylglucosamine mutase-like n=1 ...   142   8e-32
+UniRef90_J3KBJ9 Phosphoacetylglucosamine mutase n=6 Tax=Coccidio...   142   9e-32
+UniRef90_I1RC31 Phosphoacetylglucosamine mutase n=22 Tax=Fusariu...   142   9e-32
+UniRef90_A0A125PIN5 Phosphoacetylglucosamine mutase n=1 Tax=Rhod...   142   9e-32
+UniRef90_H2MR66 Phosphoacetylglucosamine mutase n=1 Tax=Oryzias ...   142   9e-32
+UniRef90_UPI0002C30C1D phosphoacetylglucosamine mutase isoform X...   142   9e-32
+UniRef90_UPI0005D3FB59 phosphoacetylglucosamine mutase n=1 Tax=P...   142   9e-32
+UniRef90_A0A0D2LTW9 Phosphoacetylglucosamine mutase n=1 Tax=Mono...   142   9e-32
+UniRef90_A0A067LEY8 Phosphoacetylglucosamine mutase n=1 Tax=Jatr...   142   9e-32
+UniRef90_A0A182I2R2 Uncharacterized protein n=1 Tax=Anopheles ar...   142   1e-31
+UniRef90_M1W7F4 Phosphoacetylglucosamine mutase n=1 Tax=Clavicep...   142   1e-31
+UniRef90_A0A151GEH8 Phosphoacetylglucosamine mutase n=1 Tax=Drec...   141   1e-31
+UniRef90_A0A1S6KW40 Phosphoacetylglucosamine mutase (Fragment) n...   141   1e-31
+UniRef90_A0A1U8GJ76 Phosphoacetylglucosamine mutase n=1 Tax=Caps...   141   1e-31
+UniRef90_UPI0005F07BDB phosphoacetylglucosamine mutase n=1 Tax=W...   141   1e-31
+UniRef90_K1XL19 Phosphoacetylglucosamine mutase n=7 Tax=Helotial...   141   1e-31
+UniRef90_S8CAW0 Phosphoacetylglucosamine mutase n=1 Tax=Genlisea...   141   1e-31
+UniRef90_A0A1G4IXU2 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   141   1e-31
+UniRef90_A0A1B9HX97 Phosphoacetylglucosamine mutase n=4 Tax=Kwon...   141   1e-31
+UniRef90_A0A0P7BVJ6 Phosphoacetylglucosamine mutase n=1 Tax=Neon...   141   1e-31
+UniRef90_D3ZFX4 Phosphoacetylglucosamine mutase n=2 Tax=Rattus n...   141   1e-31
+UniRef90_B8NNC4 Phosphoacetylglucosamine mutase n=7 Tax=Aspergil...   141   1e-31
+UniRef90_G0VG84 Phosphoacetylglucosamine mutase n=1 Tax=Naumovoz...   141   1e-31
+UniRef90_B4NMG7 Phosphoacetylglucosamine mutase n=2 Tax=Drosophi...   141   1e-31
+UniRef90_UPI00042C8B7B phosphoacetylglucosamine mutase isoform X...   141   1e-31
+UniRef90_A0A1Y2E318 Phosphoacetylglucosamine mutase n=1 Tax=Pseu...   141   1e-31
+UniRef90_A0A0V0IC11 Putative ovule protein n=1 Tax=Solanum chaco...   141   2e-31
+UniRef90_UPI0005119DC6 phosphoacetylglucosamine mutase-like n=1 ...   141   2e-31
+UniRef90_UPI0007046BD1 phosphoacetylglucosamine mutase isoform X...   141   2e-31
+UniRef90_A0A0D2APM8 Phosphoacetylglucosamine mutase n=3 Tax=Verr...   141   2e-31
+UniRef90_A0A1A0H4I9 Phosphoacetylglucosamine mutase n=1 Tax=Mets...   141   2e-31
+UniRef90_M7TMW3 Phosphoacetylglucosamine mutase n=1 Tax=Eutypa l...   141   2e-31
+UniRef90_A0A1W2TDM3 Phosphoacetylglucosamine mutase n=2 Tax=Fung...   141   2e-31
+UniRef90_A0A0J7L2M4 Phosphoacetylglucosamine mutase n=1 Tax=Lasi...   141   2e-31
+UniRef90_Q0CTJ5 Phosphoacetylglucosamine mutase n=1 Tax=Aspergil...   141   2e-31
+UniRef90_A0A1E4SV79 Uncharacterized protein n=1 Tax=Candida arab...   141   2e-31
+UniRef90_N1JC79 Phosphoacetylglucosamine mutase n=1 Tax=Blumeria...   140   2e-31
+UniRef90_G8C0T8 Phosphoacetylglucosamine mutase n=1 Tax=Tetrapis...   140   2e-31
+UniRef90_UPI000859FC95 phosphoacetylglucosamine mutase-like n=1 ...   140   2e-31
+UniRef90_W3XNK0 Phosphoacetylglucosamine mutase n=1 Tax=Pestalot...   140   2e-31
+UniRef90_C5DWY0 Phosphoacetylglucosamine mutase n=3 Tax=Zygosacc...   140   3e-31
+UniRef90_A0A0G4MDK2 Phosphoacetylglucosamine mutase n=1 Tax=Vert...   140   3e-31
+UniRef90_A0A182ZAN2 Uncharacterized protein n=1 Tax=Biomphalaria...   140   3e-31
+UniRef90_A0A068USW6 Phosphoacetylglucosamine mutase n=1 Tax=Coff...   140   3e-31
+UniRef90_G2WYV4 Phosphoacetylglucosamine mutase n=2 Tax=Verticil...   140   3e-31
+UniRef90_A0A1E3IRK0 Phosphoacetylglucosamine mutase n=2 Tax=Cryp...   140   3e-31
+UniRef90_A0A0L0V7X6 Uncharacterized protein n=1 Tax=Puccinia str...   140   3e-31
+UniRef90_A0A1G4IVT5 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   140   3e-31
+UniRef90_C4Y4X5 Phosphoacetylglucosamine mutase n=1 Tax=Clavispo...   140   3e-31
+UniRef90_W4XTN8 Phosphoacetylglucosamine mutase n=1 Tax=Strongyl...   140   3e-31
+UniRef90_G3YEB2 Phosphoacetylglucosamine mutase n=9 Tax=Aspergil...   140   3e-31
+UniRef90_Q5KH62 Phosphoacetylglucosamine mutase n=10 Tax=Cryptoc...   140   3e-31
+UniRef90_UPI00021A84D0 phosphoacetylglucosamine mutase isoform X...   140   3e-31
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_K7FXW4 Phosphoacetylglucosamine mutase n=3 Tax=Pelodiscus sinensis
+           TaxID=13735 RepID=K7FXW4_PELSI
+          Length = 571
+
+ Score =  166 bits (422), Expect = 5e-39,   Method: Composition-based stats.
+ Identities = 41/81 (50%), Positives = 53/81 (65%)
+
+Query: 1   PSRLVRVEVAERSIFKAYDAERKLESPPGLQAKIDSLQSRYNKGRSFARASGTEDAVRVY 60
+           P+R ++V+VA+R +    DAER+  +P GLQ KID L   Y   R+F R SGTED VRVY
+Sbjct: 477 PNRQLKVKVADRRVIDTTDAERRAVTPSGLQEKIDELVKTYRLSRAFVRPSGTEDVVRVY 536
+
+Query: 61  AEAASRSEADDLATRVANAVR 81
+           AEA ++  AD LA  V+ AV 
+Sbjct: 537 AEADTQENADSLAYEVSLAVY 557
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A1S2ZXN6 Phosphoacetylglucosamine mutase n=3 Tax=Erin...   147   3e-33
+UniRef90_K7FXW4 Phosphoacetylglucosamine mutase n=3 Tax=Pelodisc...   147   3e-33
+UniRef90_R0LB99 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   146   5e-33
+UniRef90_I3IW27 Phosphoacetylglucosamine mutase n=4 Tax=Pseudocr...   146   5e-33
+UniRef90_UPI00042BDA77 phosphoacetylglucosamine mutase n=3 Tax=D...   146   5e-33
+UniRef90_UPI0006D74762 phosphoacetylglucosamine mutase isoform X...   146   6e-33
+UniRef90_UPI0004420A77 phosphoacetylglucosamine mutase n=1 Tax=P...   146   7e-33
+UniRef90_U3IJE3 Phosphoacetylglucosamine mutase n=68 Tax=Neognat...   146   8e-33
+UniRef90_M7C7S1 Phosphoacetylglucosamine mutase n=2 Tax=Durocryp...   145   9e-33
+UniRef90_UPI000328B328 phosphoacetylglucosamine mutase isoform X...   145   9e-33
+UniRef90_UPI000B540504 phosphoacetylglucosamine mutase isoform X...   145   1e-32
+UniRef90_M3ZYH4 Phosphoacetylglucosamine mutase n=13 Tax=Cyprino...   145   1e-32
+UniRef90_UPI0007B8EF2D phosphoacetylglucosamine mutase-like n=1 ...   145   1e-32
+UniRef90_UPI0009046A63 phosphoacetylglucosamine mutase isoform X...   145   1e-32
+UniRef90_A0A0S7L0R5 AGM1 (Fragment) n=3 Tax=Cyprinodontoidei Tax...   145   1e-32
+UniRef90_UPI00094E6767 phosphoacetylglucosamine mutase n=1 Tax=D...   145   1e-32
+UniRef90_UPI0007B96FA2 phosphoacetylglucosamine mutase-like isof...   145   1e-32
+UniRef90_U9UTL0 Phosphoacetylglucosamine mutase n=2 Tax=Rhizopha...   144   2e-32
+UniRef90_UPI0003890170 phosphoacetylglucosamine mutase isoform X...   144   2e-32
+UniRef90_UPI000333879A phosphoacetylglucosamine mutase isoform X...   144   2e-32
+UniRef90_A0A061F896 Phosphoacetylglucosamine mutase n=4 Tax=Malv...   144   2e-32
+UniRef90_A0A1U7S9D8 Phosphoacetylglucosamine mutase n=6 Tax=Croc...   144   2e-32
+UniRef90_K1QVE8 Phosphoacetylglucosamine mutase n=1 Tax=Crassost...   144   2e-32
+UniRef90_A0A1S3VT11 Phosphoacetylglucosamine mutase n=4 Tax=Phas...   144   2e-32
+UniRef90_W5JZ35 Phosphoacetylglucosamine mutase n=1 Tax=Astyanax...   144   2e-32
+UniRef90_H2MR65 Phosphoacetylglucosamine mutase n=2 Tax=Oryzias ...   144   2e-32
+UniRef90_UPI0005592392 phosphoacetylglucosamine mutase n=2 Tax=P...   144   2e-32
+UniRef90_A0A146WD54 Phosphoacetylglucosamine mutase n=1 Tax=Fund...   144   3e-32
+UniRef90_A0A1W0XEY6 Phosphoacetylglucosamine mutase n=1 Tax=Hyps...   144   3e-32
+UniRef90_A0A0R0EL27 Phosphoacetylglucosamine mutase n=1 Tax=Glyc...   144   3e-32
+UniRef90_E1BQU2 Phosphoacetylglucosamine mutase n=8 Tax=Gallifor...   144   3e-32
+UniRef90_A0A1S3IPZ1 Phosphoacetylglucosamine mutase n=2 Tax=Ling...   144   3e-32
+UniRef90_K7K4V2 Uncharacterized protein n=1 Tax=Glycine max TaxI...   144   3e-32
+UniRef90_UPI00033159AC phosphoacetylglucosamine mutase n=1 Tax=S...   144   3e-32
+UniRef90_UPI000786FC96 phosphoacetylglucosamine mutase n=2 Tax=A...   144   3e-32
+UniRef90_UPI000A1C44D3 phosphoacetylglucosamine mutase n=1 Tax=B...   144   3e-32
+UniRef90_H0UZ15 Phosphoacetylglucosamine mutase n=7 Tax=Hystrico...   143   4e-32
+UniRef90_UPI0007192663 phosphoacetylglucosamine mutase-like isof...   143   4e-32
+UniRef90_D6X3A7 Phosphoacetylglucosamine mutase n=1 Tax=Triboliu...   143   4e-32
+UniRef90_UPI00094E1429 phosphoacetylglucosamine mutase isoform X...   143   4e-32
+UniRef90_W5UEC7 Phosphoacetylglucosamine mutase n=2 Tax=Ictaluru...   143   4e-32
+UniRef90_UPI0008F4961E phosphoacetylglucosamine mutase isoform X...   143   4e-32
+UniRef90_G1T004 Phosphoacetylglucosamine mutase n=3 Tax=Lagomorp...   143   4e-32
+UniRef90_A0A0N8BY27 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   143   5e-32
+UniRef90_U3JJ60 Phosphoacetylglucosamine mutase n=3 Tax=Passerif...   143   5e-32
+UniRef90_F6QV04 Phosphoacetylglucosamine mutase n=4 Tax=Metather...   143   5e-32
+UniRef90_A0A151TJ63 Phosphoacetylglucosamine mutase n=2 Tax=Caja...   143   5e-32
+UniRef90_G3PJ22 Phosphoacetylglucosamine mutase n=1 Tax=Gasteros...   143   5e-32
+UniRef90_A0A0P5Z838 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   143   5e-32
+UniRef90_O95394 Phosphoacetylglucosamine mutase n=77 Tax=Eutheri...   143   5e-32
+UniRef90_S7QM51 N-terminal nucleophile aminohydrolases Ntn hydro...   143   5e-32
+UniRef90_G1RQ61 Phosphoacetylglucosamine mutase n=10 Tax=Euarcho...   142   6e-32
+UniRef90_U3F758 Phosphoacetylglucosamine mutase n=6 Tax=Colubroi...   142   6e-32
+UniRef90_V3ZPQ6 Phosphoacetylglucosamine mutase n=1 Tax=Lottia g...   142   6e-32
+UniRef90_I1NEX1 Phosphoacetylglucosamine mutase n=6 Tax=Glycine ...   142   6e-32
+UniRef90_G1KTQ4 Phosphoacetylglucosamine mutase n=1 Tax=Anolis c...   142   6e-32
+UniRef90_A0A0P6AG10 Phosphoacetylglucosamine mutase n=22 Tax=Dap...   142   7e-32
+UniRef90_H2ULH9 Phosphoacetylglucosamine mutase n=2 Tax=Takifugu...   142   7e-32
+UniRef90_UPI000B7B7A8E phosphoacetylglucosamine mutase isoform X...   142   7e-32
+UniRef90_M2QY95 Uncharacterized protein n=1 Tax=Ceriporiopsis su...   142   7e-32
+UniRef90_UPI0004F0FCB4 phosphoacetylglucosamine mutase n=1 Tax=A...   142   7e-32
+UniRef90_M3Y268 Phosphoacetylglucosamine mutase n=16 Tax=Carnivo...   142   8e-32
+UniRef90_F8NDW6 Phosphoacetylglucosamine mutase n=2 Tax=Serpula ...   142   8e-32
+UniRef90_A0A0P5LWG5 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   142   8e-32
+UniRef90_UPI0005780BDE phosphoacetylglucosamine mutase n=1 Tax=E...   142   8e-32
+UniRef90_H0XB62 Phosphoacetylglucosamine mutase n=2 Tax=Otolemur...   142   9e-32
+UniRef90_UPI0004963643 phosphoacetylglucosamine mutase n=1 Tax=S...   142   9e-32
+UniRef90_A0A0J8E3Z6 Phosphoacetylglucosamine mutase n=2 Tax=Beta...   142   9e-32
+UniRef90_UPI00097E0AF4 phosphoacetylglucosamine mutase n=1 Tax=P...   142   9e-32
+UniRef90_UPI0003AB7FCF phosphoacetylglucosamine mutase isoform X...   142   1e-31
+UniRef90_A0A1A8V218 Phosphoacetylglucosamine mutase n=13 Tax=Not...   142   1e-31
+UniRef90_UPI0003347408 phosphoacetylglucosamine mutase n=1 Tax=C...   142   1e-31
+UniRef90_UPI0003C848A0 phosphoacetylglucosamine mutase n=5 Tax=C...   142   1e-31
+UniRef90_UPI000B4CF78D phosphoacetylglucosamine mutase isoform X...   142   1e-31
+UniRef90_M3W4K3 Phosphoacetylglucosamine mutase n=21 Tax=Laurasi...   142   1e-31
+UniRef90_A0A1S3BPK3 Phosphoacetylglucosamine mutase n=2 Tax=Cucu...   142   1e-31
+UniRef90_UPI000812D1D8 phosphoacetylglucosamine mutase isoform X...   142   1e-31
+UniRef90_UPI000B3F0FB7 phosphoacetylglucosamine mutase n=1 Tax=H...   141   1e-31
+UniRef90_UPI000854763E phosphoacetylglucosamine mutase n=1 Tax=N...   141   1e-31
+UniRef90_UPI00090DAB62 phosphoacetylglucosamine mutase n=1 Tax=L...   141   1e-31
+UniRef90_UPI0006B30A50 phosphoacetylglucosamine mutase n=2 Tax=R...   141   1e-31
+UniRef90_UPI0009E2FE6C phosphoacetylglucosamine mutase isoform X...   141   1e-31
+UniRef90_UPI000846FBE4 phosphoacetylglucosamine mutase isoform X...   141   1e-31
+UniRef90_A0A0G2RLT8 Phosphoacetylglucosamine mutase n=1 Tax=Cnap...   141   1e-31
+UniRef90_UPI00077FDC81 phosphoacetylglucosamine mutase-like n=1 ...   141   1e-31
+UniRef90_UPI000B4F25A5 phosphoacetylglucosamine mutase n=1 Tax=M...   141   1e-31
+UniRef90_A0A1Y1M850 Phosphoacetylglucosamine mutase n=1 Tax=Phot...   141   1e-31
+UniRef90_F7E0J9 Phosphoacetylglucosamine mutase n=6 Tax=Xenopus ...   141   2e-31
+UniRef90_A0A1S3GHN1 Phosphoacetylglucosamine mutase n=1 Tax=Dipo...   141   2e-31
+UniRef90_A0A0D0BQ79 Phosphoacetylglucosamine mutase n=1 Tax=Suil...   141   2e-31
+UniRef90_F1QHK0 Phosphoacetylglucosamine mutase n=5 Tax=Cyprinid...   141   2e-31
+UniRef90_A0A022QYM8 Phosphoacetylglucosamine mutase n=2 Tax=Eryt...   141   2e-31
+UniRef90_A0A060SHA8 Phosphoacetylglucosamine mutase n=2 Tax=Poly...   141   2e-31
+UniRef90_A0A210Q2C5 Phosphoacetylglucosamine mutase n=3 Tax=Mizu...   141   2e-31
+UniRef90_UPI0009B336AE phosphoacetylglucosamine mutase n=1 Tax=M...   141   2e-31
+UniRef90_F1RQM2 Phosphoacetylglucosamine mutase n=3 Tax=Sus scro...   140   2e-31
+UniRef90_UPI000332F22C phosphoacetylglucosamine mutase n=3 Tax=M...   140   2e-31
+UniRef90_F1MS56 Phosphoacetylglucosamine mutase n=16 Tax=Cetarti...   140   2e-31
+UniRef90_B5X1B2 Phosphoacetylglucosamine mutase n=3 Tax=Salmonin...   140   2e-31
+UniRef90_G3GTC9 Phosphoacetylglucosamine mutase n=6 Tax=Cricetid...   140   3e-31
+UniRef90_A0A093JGK1 Phosphoacetylglucosamine mutase (Fragment) n...   140   3e-31
+UniRef90_K5WAK9 Uncharacterized protein n=2 Tax=Agaricus bisporu...   140   3e-31
+UniRef90_W4KPB5 Uncharacterized protein (Fragment) n=1 Tax=Heter...   140   3e-31
+UniRef90_A0A091PZY6 Phosphoacetylglucosamine mutase (Fragment) n...   140   3e-31
+UniRef90_A0A218RIG2 Uncharacterized protein n=4 Tax=Crotonoideae...   140   3e-31
+UniRef90_A0A1U7KQ01 Phosphoacetylglucosamine mutase n=1 Tax=Phle...   140   3e-31
+UniRef90_A0A0H2S5X7 Phosphoacetylglucosamine mutase n=1 Tax=Schi...   140   3e-31
+UniRef90_K7J1K6 Phosphoacetylglucosamine mutase n=1 Tax=Nasonia ...   140   3e-31
+UniRef90_A0A1U8M4J7 Phosphoacetylglucosamine mutase n=5 Tax=Goss...   140   3e-31
+UniRef90_Q4R7E0 Testis cDNA, clone: QtsA-15546, similar to human...   140   3e-31
+UniRef90_I4YEE6 Phosphoacetylglucosamine mutase n=1 Tax=Wallemia...   140   3e-31
+UniRef90_F7G391 Phosphoacetylglucosamine mutase n=1 Tax=Ornithor...   140   3e-31
+UniRef90_UPI0004967EE3 phosphoacetylglucosamine mutase n=1 Tax=C...   140   3e-31
+UniRef90_A0A212EW76 Putative phosphoacetylglucosamine mutase n=1...   140   3e-31
+UniRef90_Q9VTZ4 Phosphoacetylglucosamine mutase n=15 Tax=melanog...   140   4e-31
+UniRef90_A0A0R0LDN9 Uncharacterized protein n=1 Tax=Glycine max ...   140   4e-31
+UniRef90_A0A197JRQ5 Phosphoacetylglucosamine mutase n=1 Tax=Mort...   140   4e-31
+UniRef90_A0A0F8AQX6 Phosphoacetylglucosamine mutase n=3 Tax=Lari...   140   4e-31
+UniRef90_UPI0005EE03AF phosphoacetylglucosamine mutase n=1 Tax=S...   140   4e-31
+UniRef90_G4TZA2 Probable PCM1-phosphoacetylglucosamine mutase (F...   140   4e-31
+UniRef90_UPI000A315143 phosphoacetylglucosamine mutase n=1 Tax=M...   140   4e-31
+UniRef90_A0A0Q3P619 Uncharacterized protein n=1 Tax=Amazona aest...   140   4e-31
+UniRef90_R7UDD6 Phosphoacetylglucosamine mutase n=1 Tax=Capitell...   139   5e-31
+UniRef90_E9GZ07 Phosphoacetylglucosamine mutase n=1 Tax=Daphnia ...   139   5e-31
+UniRef90_A0A0D7AH46 Phosphoacetylglucosamine mutase n=1 Tax=Fist...   139   5e-31
+UniRef90_UPI000B78A130 phosphoacetylglucosamine mutase isoform X...   139   5e-31
+UniRef90_A0A0C3EKQ3 Phosphoacetylglucosamine mutase n=1 Tax=Scle...   139   6e-31
+UniRef90_A0A1Y3BME6 Phosphoacetylglucosamine mutase n=1 Tax=Euro...   139   6e-31
+UniRef90_UPI0004E598E5 phosphoacetylglucosamine mutase isoform X...   139   6e-31
+UniRef90_UPI000B791457 phosphoacetylglucosamine mutase-like isof...   139   6e-31
+UniRef90_G7JZT7 Phosphoacetylglucosamine mutase n=3 Tax=Papilion...   139   6e-31
+UniRef90_UPI00077EAF7F phosphoacetylglucosamine mutase n=1 Tax=Z...   139   7e-31
+UniRef90_Q9CYR6 Phosphoacetylglucosamine mutase n=7 Tax=Mus TaxI...   139   7e-31
+UniRef90_A0A1C9CW41 Phosphoacetylglucosamine mutase n=2 Tax=Bomb...   139   7e-31
+UniRef90_UPI0006D4D48C LOW QUALITY PROTEIN: phosphoacetylglucosa...   139   7e-31
+UniRef90_A0A167QQ47 Phosphoacetylglucosamine mutase n=1 Tax=Phyc...   139   7e-31
+UniRef90_UPI0008148764 phosphoacetylglucosamine mutase isoform X...   139   8e-31
+UniRef90_UPI000B37F49C phosphoacetylglucosamine mutase n=1 Tax=H...   139   9e-31
+UniRef90_W5NKD9 Phosphoacetylglucosamine mutase n=3 Tax=Lepisost...   139   1e-30
+UniRef90_UPI0006CEE77A phosphoacetylglucosamine mutase n=1 Tax=C...   139   1e-30
+UniRef90_A0A165CE22 Phosphoacetylglucosamine mutase n=1 Tax=Laet...   139   1e-30
+UniRef90_A0A0C7BI70 Phosphoacetylglucosamine mutase n=5 Tax=Rhiz...   138   1e-30
+UniRef90_A0A0C3P5F5 Phosphoacetylglucosamine mutase n=2 Tax=Piso...   138   1e-30
+UniRef90_UPI000455F2FE Phosphoacetylglucosamine mutase n=1 Tax=C...   138   1e-30
+UniRef90_A0A0B7NQV9 Phosphoacetylglucosamine mutase n=1 Tax=Para...   138   1e-30
+UniRef90_K5VDN9 Phosphoacetylglucosamine mutase n=1 Tax=Phaneroc...   138   1e-30
+UniRef90_A0A0K2V2U3 Phosphoacetylglucosamine mutaselike [Xiphosp...   138   1e-30
+UniRef90_UPI0009F35430 phosphoacetylglucosamine mutase n=1 Tax=D...   138   1e-30
+UniRef90_A0A1W4ZES4 Phosphoacetylglucosamine mutase n=2 Tax=Scle...   138   1e-30
+UniRef90_A0A1Q3DCJ1 Phosphoacetylglucosamine mutase n=1 Tax=Ceph...   138   1e-30
+UniRef90_UPI000A288665 phosphoacetylglucosamine mutase n=1 Tax=P...   138   1e-30
+UniRef90_A9TDV4 Phosphoacetylglucosamine mutase n=1 Tax=Physcomi...   138   1e-30
+UniRef90_V4SQF7 Uncharacterized protein (Fragment) n=4 Tax=Citru...   138   1e-30
+UniRef90_J3MJ85 Phosphoacetylglucosamine mutase n=2 Tax=Oryza br...   138   1e-30
+UniRef90_A0A1D1Z9M1 Phosphoacetylglucosamine mutase n=1 Tax=Anth...   138   2e-30
+UniRef90_A0A0D9WWJ0 Phosphoacetylglucosamine mutase n=1 Tax=Leer...   138   2e-30
+UniRef90_I1BPG1 Phosphoacetylglucosamine mutase n=1 Tax=Rhizopus...   138   2e-30
+UniRef90_UPI00057B3D50 phosphoacetylglucosamine mutase n=2 Tax=A...   138   2e-30
+UniRef90_UPI000333D0D8 phosphoacetylglucosamine mutase n=1 Tax=O...   138   2e-30
+UniRef90_UPI0006D507B8 phosphoacetylglucosamine mutase n=1 Tax=H...   138   2e-30
+UniRef90_A9V3R2 Phosphoacetylglucosamine mutase n=1 Tax=Monosiga...   138   2e-30
+UniRef90_A0A1Y2GMW1 Phosphoacetylglucosamine mutase n=1 Tax=Lobo...   138   2e-30
+UniRef90_A0A067RFT3 Phosphoacetylglucosamine mutase n=1 Tax=Zoot...   137   2e-30
+UniRef90_UPI00074FE749 phosphoacetylglucosamine mutase n=1 Tax=G...   137   2e-30
+UniRef90_UPI0009B376C5 phosphoacetylglucosamine mutase n=1 Tax=L...   137   2e-30
+UniRef90_A0A0C3L564 Phosphoacetylglucosamine mutase n=1 Tax=Tula...   137   2e-30
+UniRef90_S8EFM0 Phosphoacetylglucosamine mutase n=2 Tax=Polypora...   137   2e-30
+UniRef90_S2K2Q4 Phosphoacetylglucosamine mutase n=3 Tax=Mucor Ta...   137   2e-30
+UniRef90_A0A1X2HB76 Phosphoacetylglucosamine mutase n=1 Tax=Sync...   137   2e-30
+UniRef90_UPI00083C63AC phosphoacetylglucosamine mutase isoform X...   137   2e-30
+UniRef90_P57750 Phosphoacetylglucosamine mutase n=7 Tax=Brassica...   137   2e-30
+UniRef90_A0A1J3CZZ4 Phosphoacetylglucosamine mutase (Fragment) n...   137   3e-30
+UniRef90_A0A151WDT7 Phosphoacetylglucosamine mutase n=1 Tax=Hyps...   137   3e-30
+UniRef90_C5MC59 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   137   3e-30
+UniRef90_UPI00053C8A7F phosphoacetylglucosamine mutase n=1 Tax=T...   137   3e-30
+UniRef90_B9SS01 Phosphoacetylglucosamine mutase n=1 Tax=Ricinus ...   137   4e-30
+UniRef90_A0A0E0LI64 Phosphoacetylglucosamine mutase n=1 Tax=Oryz...   137   4e-30
+UniRef90_I1H2U1 Phosphoacetylglucosamine mutase n=2 Tax=Brachypo...   137   4e-30
+UniRef90_A0A0D3EEJ9 Phosphoacetylglucosamine mutase n=8 Tax=Bras...   136   4e-30
+UniRef90_A0A146H5U0 Phosphoacetylglucosamine mutase n=1 Tax=Myce...   136   4e-30
+UniRef90_A0A1W4W2M4 Phosphoacetylglucosamine mutase n=2 Tax=Agri...   136   4e-30
+UniRef90_UPI000440DF32 phosphoacetylglucosamine mutase n=1 Tax=S...   136   4e-30
+UniRef90_UPI000643F8D0 phosphoacetylglucosamine mutase n=1 Tax=C...   136   5e-30
+UniRef90_K4CN87 Phosphoacetylglucosamine mutase n=8 Tax=Solanace...   136   5e-30
+UniRef90_UPI00044161E1 phosphoacetylglucosamine mutase n=1 Tax=D...   136   5e-30
+UniRef90_A0A093HBF8 Phosphoacetylglucosamine mutase (Fragment) n...   136   5e-30
+UniRef90_A0A1B6IVT2 Uncharacterized protein (Fragment) n=1 Tax=H...   136   5e-30
+UniRef90_V2Z1T3 Phosphoacetylglucosamine mutase n=2 Tax=Moniliop...   136   5e-30
+UniRef90_A0A165W2H4 Phosphoacetylglucosamine mutase n=1 Tax=Neol...   136   5e-30
+UniRef90_UPI0009957F0F phosphoacetylglucosamine mutase n=1 Tax=P...   136   6e-30
+UniRef90_D7TXL1 Phosphoacetylglucosamine mutase n=5 Tax=Vitis vi...   136   6e-30
+UniRef90_A0A1U9XQT3 Phosphoacetylglucosamine mutase n=1 Tax=Tigr...   136   6e-30
+UniRef90_A0A1D1UX65 Uncharacterized protein n=1 Tax=Ramazzottius...   136   7e-30
+UniRef90_A0A059CHG5 Phosphoacetylglucosamine mutase n=1 Tax=Euca...   136   7e-30
+UniRef90_A0A194QC94 Phosphoacetylglucosamine mutase n=3 Tax=Papi...   136   7e-30
+UniRef90_M5W982 Phosphoacetylglucosamine mutase n=5 Tax=Prunus T...   136   7e-30
+UniRef90_A0A1I8NAA5 Phosphoacetylglucosamine mutase n=3 Tax=Musc...   135   7e-30
+UniRef90_UPI00058169DC phosphoacetylglucosamine mutase n=1 Tax=S...   135   7e-30
+UniRef90_A0A199UP99 Phosphoacetylglucosamine mutase n=4 Tax=Anan...   135   7e-30
+UniRef90_A0A067LEY8 Phosphoacetylglucosamine mutase n=1 Tax=Jatr...   135   7e-30
+UniRef90_A0A067QBL9 Phosphoacetylglucosamine mutase n=1 Tax=Jaap...   135   8e-30
+UniRef90_UPI00044076E8 phosphoacetylglucosamine mutase n=1 Tax=F...   135   8e-30
+UniRef90_A0A0V0G5W2 Putative phosphoglucomutase/phosphomannomuta...   135   8e-30
+UniRef90_A0A168NF66 Phosphoacetylglucosamine mutase n=2 Tax=Absi...   135   8e-30
+UniRef90_UPI0006EB0363 LOW QUALITY PROTEIN: phosphoacetylglucosa...   135   8e-30
+UniRef90_A0A218VV00 Uncharacterized protein n=1 Tax=Punica grana...   135   8e-30
+UniRef90_A0A0C3SD02 Phosphoacetylglucosamine mutase n=1 Tax=Phle...   135   8e-30
+UniRef90_A0A1C7NB14 Phosphoacetylglucosamine mutase n=2 Tax=Choa...   135   9e-30
+UniRef90_A0A166LN48 Phosphoacetylglucosamine mutase n=1 Tax=Peni...   135   9e-30
+UniRef90_UPI000901D622 phosphoacetylglucosamine mutase n=1 Tax=I...   135   9e-30
+UniRef90_A0A0T6B8G5 Phosphoacetylglucosamine mutase n=1 Tax=Oryc...   135   9e-30
+UniRef90_L7M719 Phosphoacetylglucosamine mutase n=3 Tax=Ixodidae...   135   9e-30
+UniRef90_A0A067P386 Uncharacterized protein n=1 Tax=Pleurotus os...   135   1e-29
+UniRef90_Q09687 Phosphoacetylglucosamine mutase 1 n=1 Tax=Schizo...   135   1e-29
+UniRef90_F6ZP25 Phosphoacetylglucosamine mutase n=2 Tax=Ciona in...   135   1e-29
+UniRef90_U5D048 Phosphoacetylglucosamine mutase n=1 Tax=Amborell...   135   1e-29
+UniRef90_C5DER6 Phosphoacetylglucosamine mutase n=1 Tax=Lachance...   135   1e-29
+UniRef90_A0A0N0PE63 Phosphoacetylglucosamine mutase n=1 Tax=Papi...   135   1e-29
+UniRef90_A0A0B6ZY44 Uncharacterized protein (Fragment) n=1 Tax=A...   135   1e-29
+UniRef90_A0A1G4IS55 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   135   1e-29
+UniRef90_Q6BSY8 Phosphoacetylglucosamine mutase n=2 Tax=Debaryom...   135   1e-29
+UniRef90_H2YFB1 Phosphoacetylglucosamine mutase n=10 Tax=Ciona s...   135   1e-29
+UniRef90_UPI000719C318 phosphoacetylglucosamine mutase-like n=1 ...   135   1e-29
+UniRef90_A0A158NCB9 Phosphoacetylglucosamine mutase n=10 Tax=Att...   135   1e-29
+UniRef90_UPI0004417621 phosphoacetylglucosamine mutase n=1 Tax=P...   135   1e-29
+UniRef90_UPI0003F06C7A phosphoacetylglucosamine mutase-like n=1 ...   135   1e-29
+UniRef90_A0A1D2MVV2 Phosphoacetylglucosamine mutase n=1 Tax=Orch...   135   1e-29
+UniRef90_UPI00063F1BD8 phosphoacetylglucosamine mutase n=1 Tax=M...   135   1e-29
+UniRef90_J4I897 Phosphoacetylglucosamine mutase n=1 Tax=Fibropor...   135   1e-29
+UniRef90_A0A084G9Y0 Phosphoacetylglucosamine mutase n=1 Tax=Sced...   135   1e-29
+UniRef90_UPI0005F533A0 phosphoacetylglucosamine mutase isoform X...   135   1e-29
+UniRef90_A0A091R4E1 Phosphoacetylglucosamine mutase (Fragment) n...   135   1e-29
+UniRef90_D7LXR2 Phosphoacetylglucosamine mutase n=4 Tax=Brassica...   134   2e-29
+UniRef90_A0A1U8GJ76 Phosphoacetylglucosamine mutase n=1 Tax=Caps...   134   2e-29
+UniRef90_B0CPQ3 Phosphoacetylglucosamine mutase n=2 Tax=Laccaria...   134   2e-29
+UniRef90_UPI000626C107 phosphoacetylglucosamine mutase n=1 Tax=A...   134   2e-29
+UniRef90_A0A0F7SHR8 Phosphoacetylglucosamine mutase n=1 Tax=Phaf...   134   2e-29
+UniRef90_A0A1M2VB24 Phosphoacetylglucosamine mutase n=2 Tax=Tram...   134   2e-29
+UniRef90_UPI000359979D phosphoacetylglucosamine mutase-like n=1 ...   134   2e-29
+UniRef90_A0A0P1KQ78 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   134   2e-29
+UniRef90_D8PNS7 Phosphoacetylglucosamine mutase n=1 Tax=Schizoph...   134   2e-29
+UniRef90_A0A0C2TU96 Phosphoacetylglucosamine mutase n=1 Tax=Aman...   134   2e-29
+UniRef90_A0A1X6NFV6 Phosphoacetylglucosamine mutase n=1 Tax=Post...   134   2e-29
+UniRef90_Q16PT5 Phosphoacetylglucosamine mutase n=5 Tax=Stegomyi...   134   2e-29
+UniRef90_L8WUD3 Phosphoacetylglucosamine mutase n=1 Tax=Thanatep...   134   2e-29
+UniRef90_UPI0006B0F5FE phosphoacetylglucosamine mutase-like n=1 ...   134   2e-29
+UniRef90_UPI0006233D8E phosphoacetylglucosamine mutase n=1 Tax=L...   134   2e-29
+UniRef90_A0A0A1XQ05 Phosphoacetylglucosamine mutase n=9 Tax=Teph...   134   2e-29
+UniRef90_A0A0A9EDA2 Phosphoacetylglucosamine mutase n=1 Tax=Arun...   134   2e-29
+UniRef90_A0A1X2GH87 Phosphoacetylglucosamine mutase n=1 Tax=Hess...   134   2e-29
+UniRef90_UPI000859FC95 phosphoacetylglucosamine mutase-like n=1 ...   134   2e-29
+UniRef90_G3ANX8 Phosphoacetylglucosamine mutase n=1 Tax=Spathasp...   134   2e-29
+UniRef90_A0A0C7N607 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   134   2e-29
+UniRef90_A0A086T2P7 Phosphoacetylglucosamine mutase n=1 Tax=Acre...   134   2e-29
+UniRef90_UPI0009A2A6B6 phosphoacetylglucosamine mutase isoform X...   134   2e-29
+UniRef90_U5H9S9 Phosphoacetylglucosamine mutase n=1 Tax=Microbot...   134   2e-29
+UniRef90_A0A200PW98 Alpha-D-phosphohexomutase n=1 Tax=Macleaya c...   134   2e-29
+UniRef90_E2C6Q6 Phosphoacetylglucosamine mutase n=1 Tax=Harpegna...   134   2e-29
+UniRef90_A0A161X1A6 Phosphoacetylglucosamine mutase n=1 Tax=Dauc...   134   3e-29
+UniRef90_A0A0D7B5M0 Phosphoacetylglucosamine mutase n=1 Tax=Cyli...   134   3e-29
+UniRef90_UPI0000481BD9 Phosphoacetylglucosamine mutase n=1 Tax=M...   134   3e-29
+UniRef90_D6RK39 Phosphoacetylglucosamine mutase n=1 Tax=Coprinop...   134   3e-29
+UniRef90_A0A0D6EP94 Phosphoacetylglucosamine mutase n=1 Tax=Spor...   133   3e-29
+UniRef90_A0A0C3FZJ5 Phosphoacetylglucosamine mutase n=1 Tax=Pilo...   133   4e-29
+UniRef90_A0A131ZT72 Phosphoacetylglucosamine mutase n=1 Tax=Sarc...   133   4e-29
+UniRef90_UPI0006C94070 phosphoacetylglucosamine mutase n=1 Tax=T...   133   4e-29
+UniRef90_UPI00096B0832 LOW QUALITY PROTEIN: phosphoacetylglucosa...   133   4e-29
+UniRef90_A0A1D6BTJ1 Phosphoacetylglucosamine mutase n=11 Tax=Tri...   133   4e-29
+UniRef90_A0A0H5C4N7 Phosphoacetylglucosamine mutase n=2 Tax=Cybe...   133   4e-29
+UniRef90_UPI00067BB2D1 phosphoacetylglucosamine mutase n=1 Tax=A...   133   4e-29
+UniRef90_UPI0006B16C32 phosphoacetylglucosamine mutase-like n=1 ...   133   4e-29
+UniRef90_UPI0008DE3348 phosphoacetylglucosamine mutase-like n=2 ...   133   4e-29
+UniRef90_A0A068RKR6 Phosphoacetylglucosamine mutase n=2 Tax=Lich...   133   4e-29
+UniRef90_UPI00077ABF30 phosphoacetylglucosamine mutase-like n=1 ...   133   4e-29
+UniRef90_A0A0E9NPD7 Phosphoacetylglucosamine mutase n=1 Tax=Sait...   133   4e-29
+UniRef90_A0A139AJV5 Phosphoacetylglucosamine mutase n=1 Tax=Gona...   133   5e-29
+UniRef90_UPI000711BAC7 phosphoacetylglucosamine mutase n=1 Tax=D...   133   5e-29
+UniRef90_K3XG38 Phosphoacetylglucosamine mutase n=3 Tax=Panicoid...   133   5e-29
+UniRef90_S9RA03 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...   133   5e-29
+UniRef90_J9K1M9 Phosphoacetylglucosamine mutase n=1 Tax=Acyrthos...   133   5e-29
+UniRef90_A0A0V0IC11 Putative ovule protein n=1 Tax=Solanum chaco...   133   5e-29
+UniRef90_A0A1R1PEY1 Phosphoacetylglucosamine mutase n=1 Tax=Zanc...   133   5e-29
+UniRef90_A0A1D6CF73 Phosphoacetylglucosamine mutase n=1 Tax=Trit...   133   5e-29
+UniRef90_C3Y3M3 Phosphoacetylglucosamine mutase n=3 Tax=Branchio...   133   5e-29
+UniRef90_UPI0005AC5A41 phosphoacetylglucosamine mutase isoform X...   133   5e-29
+UniRef90_A0A0D2PM98 Phosphoacetylglucosamine mutase n=1 Tax=Hyph...   133   5e-29
+UniRef90_A0A1D6MFW1 Phosphoacetylglucosamine mutase n=1 Tax=Zea ...   133   5e-29
+UniRef90_V5GWV2 Phosphoacetylglucosamine mutase (Fragment) n=2 T...   133   5e-29
+UniRef90_B4GRG5 Phosphoacetylglucosamine mutase n=3 Tax=pseudoob...   133   5e-29
+UniRef90_UPI00098E7ADB phosphoacetylglucosamine mutase n=1 Tax=A...   133   6e-29
+UniRef90_A0A165PD10 Phosphoacetylglucosamine mutase n=1 Tax=Exid...   132   6e-29
+UniRef90_A0A061B5H5 Phosphoacetylglucosamine mutase n=2 Tax=Cybe...   132   6e-29
+UniRef90_A0A1G4ITV7 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   132   6e-29
+UniRef90_T1IIS7 Uncharacterized protein n=1 Tax=Strigamia mariti...   132   6e-29
+UniRef90_V9K8C4 Phosphoacetylglucosamine mutase n=2 Tax=Callorhi...   132   6e-29
+UniRef90_A0A0K8RLH2 Putative phosphoglucomutase/phosphomannomuta...   132   6e-29
+UniRef90_A0A068USW6 Phosphoacetylglucosamine mutase n=1 Tax=Coff...   132   6e-29
+UniRef90_M0SSL0 Phosphoacetylglucosamine mutase n=3 Tax=Musa acu...   132   6e-29
+UniRef90_A0A1B0CKT3 Phosphoacetylglucosamine mutase n=2 Tax=Phle...   132   7e-29
+UniRef90_A0A1B7NH65 Phosphoacetylglucosamine mutase n=2 Tax=Rhiz...   132   7e-29
+UniRef90_D8SUW9 Uncharacterized protein (Fragment) n=2 Tax=Selag...   132   7e-29
+UniRef90_F2UMA3 Phosphoacetylglucosamine mutase n=1 Tax=Salpingo...   132   7e-29
+UniRef90_B9MTY0 Phosphoacetylglucosamine mutase n=2 Tax=Populus ...   132   7e-29
+UniRef90_Q6ZDQ1 Phosphoacetylglucosamine mutase n=8 Tax=Oryza Ta...   132   7e-29
+UniRef90_A0A1B6KB84 Phosphoacetylglucosamine mutase n=2 Tax=Cica...   132   7e-29
+UniRef90_UPI0002C30C1D phosphoacetylglucosamine mutase isoform X...   132   8e-29
+UniRef90_A0A1E3P4I2 Phosphoacetylglucosamine mutase n=1 Tax=Wick...   132   8e-29
+UniRef90_A0A067TP36 Phosphoacetylglucosamine mutase n=1 Tax=Gale...   132   8e-29
+UniRef90_E3K3J8 Phosphoacetylglucosamine mutase n=1 Tax=Puccinia...   132   8e-29
+UniRef90_A0A066WPR3 Phosphoacetylglucosamine mutase n=1 Tax=Till...   132   8e-29
+UniRef90_UPI00076FD533 phosphoacetylglucosamine mutase n=1 Tax=N...   132   8e-29
+UniRef90_H0Y8I3 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   132   8e-29
+UniRef90_A0A0D3B1R2 Phosphoacetylglucosamine mutase n=4 Tax=Bras...   132   8e-29
+UniRef90_Q9P4V2 Phosphoacetylglucosamine mutase n=5 Tax=cellular...   132   9e-29
+UniRef90_A0A1Y2HJA6 Phosphoacetylglucosamine mutase n=1 Tax=Cate...   132   9e-29
+UniRef90_A0A1D2VJD0 Phosphoacetylglucosamine mutase n=1 Tax=Asco...   132   9e-29
+UniRef90_A0A177ULQ2 Phosphoacetylglucosamine mutase n=4 Tax=Till...   132   9e-29
+UniRef90_UPI000867A1FD Phosphoacetylglucosamine mutase n=1 Tax=S...   132   9e-29
+UniRef90_A0A1E4TLF7 Phosphoacetylglucosamine mutase n=1 Tax=Tort...   132   9e-29
+UniRef90_UPI000775A89B phosphoacetylglucosamine mutase-like n=1 ...   132   1e-28
+UniRef90_A0A026WZ93 Phosphoacetylglucosamine mutase n=1 Tax=Cera...   132   1e-28
+UniRef90_UPI0009E3AE9D phosphoacetylglucosamine mutase-like n=1 ...   132   1e-28
+UniRef90_G5E3M9 Putative phosphoglucomutase 3 (Fragment) n=1 Tax...   132   1e-28
+UniRef90_A0A0N7L9K1 Phosphoacetylglucosamine mutase n=1 Tax=Cera...   132   1e-28
+UniRef90_A3GI60 Phosphoacetylglucosamine mutase n=1 Tax=Scheffer...   132   1e-28
+UniRef90_A0A0K9Q0L2 Phosphoacetylglucosamine mutase n=1 Tax=Zost...   132   1e-28
+UniRef90_UPI0004410FC8 phosphoacetylglucosamine mutase n=1 Tax=A...   132   1e-28
+UniRef90_A0A1Y1ZDZ2 Phosphoacetylglucosamine mutase n=1 Tax=Basi...   132   1e-28
+UniRef90_UPI00049889A0 LOW QUALITY PROTEIN: phosphoacetylglucosa...   132   1e-28
+UniRef90_R9AC49 Phosphoacetylglucosamine mutase n=1 Tax=Wallemia...   132   1e-28
+UniRef90_G0ZS84 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   132   1e-28
+UniRef90_UPI0007381490 phosphoacetylglucosamine mutase isoform X...   132   1e-28
+UniRef90_A0A060T1B3 Phosphoacetylglucosamine mutase n=1 Tax=Blas...   131   1e-28
+UniRef90_A0A165ZGR6 Phosphoacetylglucosamine mutase n=1 Tax=Fibu...   131   1e-28
+UniRef90_A0A1W2TDM3 Phosphoacetylglucosamine mutase n=2 Tax=Fung...   131   1e-28
+UniRef90_UPI0006C97C56 phosphoacetylglucosamine mutase n=1 Tax=C...   131   1e-28
+UniRef90_A0A0K3C845 Phosphoacetylglucosamine mutase n=4 Tax=Rhod...   131   1e-28
+UniRef90_A0A136JF88 Phosphoacetylglucosamine mutase n=1 Tax=Micr...   131   2e-28
+UniRef90_K0KEB1 Phosphoacetylglucosamine mutase n=1 Tax=Wickerha...   131   2e-28
+UniRef90_A0A094KMP5 Phosphoacetylglucosamine mutase (Fragment) n...   131   2e-28
+UniRef90_A0A0C3BC78 Phosphoacetylglucosamine mutase n=1 Tax=Sere...   131   2e-28
+UniRef90_B4HG32 GM24644 n=1 Tax=Drosophila sechellia TaxID=7238 ...   131   2e-28
+UniRef90_UPI00081173A9 phosphoacetylglucosamine mutase-like n=1 ...   131   2e-28
+UniRef90_A0A1E4U2Z3 Phosphoacetylglucosamine mutase n=1 Tax=Pach...   131   2e-28
+UniRef90_A0A1I8I4V1 Uncharacterized protein n=1 Tax=Macrostomum ...   131   2e-28
+UniRef90_T1G6J7 Phosphoacetylglucosamine mutase n=1 Tax=Helobdel...   131   2e-28
+UniRef90_E2L4T6 Uncharacterized protein (Fragment) n=1 Tax=Monil...   131   2e-28
+UniRef90_A0A0L6UQV3 Phosphoacetylglucosamine mutase n=1 Tax=Pucc...   131   2e-28
+UniRef90_A0A067MML2 Phosphoacetylglucosamine mutase n=1 Tax=Botr...   131   2e-28
+UniRef90_A8IZ78 Phosphoacetylglucosamine mutase n=1 Tax=Chlamydo...   130   2e-28
+UniRef90_E2AG64 Phosphoacetylglucosamine mutase n=1 Tax=Camponot...   130   2e-28
+UniRef90_A0A0C4F7L0 Phosphoacetylglucosamine mutase n=1 Tax=Pucc...   130   2e-28
+UniRef90_A0A1E4SEB0 Phosphoacetylglucosamine mutase n=1 Tax=Cand...   130   2e-28
+UniRef90_A0A010S6D7 Phosphoacetylglucosamine mutase n=15 Tax=Col...   130   3e-28
+UniRef90_A0A1J1IP77 Phosphoacetylglucosamine mutase n=1 Tax=Clun...   130   3e-28
+UniRef90_A0A1E4RRM6 Phosphoacetylglucosamine mutase n=1 Tax=Hyph...   130   3e-28
+UniRef90_G8YTN2 Phosphoacetylglucosamine mutase n=2 Tax=Pichia s...   130   3e-28
+UniRef90_A0A1R1YC41 Phosphoacetylglucosamine mutase n=2 Tax=Smit...   130   3e-28
+UniRef90_B4LGP2 Phosphoacetylglucosamine mutase n=5 Tax=Drosophi...   130   3e-28
+UniRef90_A0A0L0CL80 Phosphoacetylglucosamine mutase n=1 Tax=Luci...   130   3e-28
+UniRef90_A0A0L0V0M0 Uncharacterized protein n=1 Tax=Puccinia str...   130   3e-28
+UniRef90_A0A1G4JC72 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   130   3e-28
+UniRef90_B3S2Y2 Phosphoacetylglucosamine mutase n=1 Tax=Trichopl...   130   3e-28
+UniRef90_A0A078C6X8 Phosphoacetylglucosamine mutase n=3 Tax=Bras...   130   3e-28
+UniRef90_G8BF87 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   130   3e-28
+UniRef90_A0A0L1HKR5 Stress response protein NST1 n=1 Tax=Stemphy...   130   4e-28
+UniRef90_A0A1Y1WL75 Phosphoacetylglucosamine mutase n=1 Tax=Lind...   130   4e-28
+UniRef90_D8U2X1 Phosphoacetylglucosamine mutase n=1 Tax=Volvox c...   130   4e-28
+UniRef90_A5DNZ9 Phosphoacetylglucosamine mutase n=1 Tax=Meyerozy...   130   4e-28
+UniRef90_A0A0L0FZ62 Phosphoacetylglucosamine mutase n=1 Tax=Spha...   130   4e-28
+UniRef90_I1RC31 Phosphoacetylglucosamine mutase n=22 Tax=Fusariu...   130   4e-28
+UniRef90_A0A137NS59 Phosphoacetylglucosamine mutase n=1 Tax=Coni...   130   4e-28
+UniRef90_UPI000B8B8518 phosphoacetylglucosamine mutase-like isof...   130   4e-28
+UniRef90_A7L4B1 Phosphoacetylglucosamine mutase n=6 Tax=Carica p...   130   4e-28
+UniRef90_A0A0A8L5F2 Phosphoacetylglucosamine mutase n=1 Tax=Kluy...   130   4e-28
+UniRef90_UPI0005F07BDB phosphoacetylglucosamine mutase n=1 Tax=W...   130   4e-28
+UniRef90_A0A0G4KE21 Uncharacterized protein (Fragment) n=1 Tax=V...   130   5e-28
+UniRef90_A0A1Y2E318 Phosphoacetylglucosamine mutase n=1 Tax=Pseu...   130   5e-28
+UniRef90_A0A074RYA8 Phosphoacetylglucosamine mutase n=4 Tax=Rhiz...   130   5e-28
+UniRef90_R1E8V5 Phosphoacetylglucosamine mutase n=5 Tax=Botryosp...   129   5e-28
+UniRef90_A0A1Z5L9Z0 Uncharacterized protein (Fragment) n=1 Tax=O...   129   5e-28
+UniRef90_A0A137QS47 Phosphoacetylglucosamine mutase n=1 Tax=Leuc...   129   5e-28
+UniRef90_A0A0A9NW09 Uncharacterized protein n=2 Tax=Arundo donax...   129   5e-28
+UniRef90_G8ZY60 Phosphoacetylglucosamine mutase n=1 Tax=Torulasp...   129   5e-28
+UniRef90_A0A1B0GA53 Transferrin 2 (phosphoglucomutase/phosphoman...   129   5e-28
+UniRef90_S8CAW0 Phosphoacetylglucosamine mutase n=1 Tax=Genlisea...   129   5e-28
+UniRef90_A0A1Y2WGG1 Phosphoacetylglucosamine mutase n=4 Tax=Xyla...   129   6e-28
+UniRef90_E9J850 Uncharacterized protein (Fragment) n=2 Tax=Solen...   129   6e-28
+UniRef90_A0A0P7BVJ6 Phosphoacetylglucosamine mutase n=1 Tax=Neon...   129   6e-28
+UniRef90_UPI0006747977 phosphoacetylglucosamine mutase-like n=1 ...   129   6e-28
+UniRef90_F4RK03 Phosphoacetylglucosamine mutase n=1 Tax=Melampso...   129   6e-28
+UniRef90_A0A084QKH0 Phosphoacetylglucosamine mutase n=3 Tax=Stac...   129   6e-28
+UniRef90_UPI0005D3FB59 phosphoacetylglucosamine mutase n=1 Tax=P...   129   6e-28
+UniRef90_M7TMW3 Phosphoacetylglucosamine mutase n=1 Tax=Eutypa l...   129   6e-28
+UniRef90_A0A1I8ISB9 Uncharacterized protein n=1 Tax=Macrostomum ...   129   7e-28
+UniRef90_N1JC79 Phosphoacetylglucosamine mutase n=1 Tax=Blumeria...   129   7e-28
+UniRef90_R8BCB4 Phosphoacetylglucosamine mutase n=1 Tax=Togninia...   129   7e-28
+UniRef90_UPI000718DA64 phosphoacetylglucosamine mutase n=2 Tax=P...   129   7e-28
+UniRef90_UPI0004ED4004 phosphoacetylglucosamine mutase isoform X...   129   8e-28
+UniRef90_M1W7F4 Phosphoacetylglucosamine mutase n=1 Tax=Clavicep...   129   8e-28
+UniRef90_A0A164ZYN8 Phosphoacetylglucosamine mutase n=1 Tax=Xylo...   129   8e-28
+UniRef90_A0A1B8GKJ3 Phosphoacetylglucosamine mutase n=21 Tax=Pse...   129   8e-28
+UniRef90_A0A1Z5KW02 Uncharacterized protein (Fragment) n=1 Tax=O...   129   8e-28
+UniRef90_A0A0V0XRT7 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   129   9e-28
+UniRef90_A0A0V0XS09 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   129   9e-28
+UniRef90_A0A0V1FAB6 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   129   9e-28
+UniRef90_B0X482 Phosphoacetylglucosamine mutase n=4 Tax=Culex Ta...   129   9e-28
+UniRef90_H8X4S4 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   129   9e-28
+UniRef90_W6MQ04 Phosphoacetylglucosamine mutase n=1 Tax=Kuraishi...   129   9e-28
+UniRef90_A0A1G4MCE2 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   129   9e-28
+UniRef90_G7E995 1,2-dihydroxy-3-keto-5-methylthiopentene dioxyge...   129   9e-28
+UniRef90_A0A0D0DAC6 Phosphoacetylglucosamine mutase n=1 Tax=Paxi...   129   9e-28
+UniRef90_A0A1B0DC94 Uncharacterized protein n=1 Tax=Phlebotomus ...   129   1e-27
+UniRef90_A0A0L0NU96 Phosphoacetylglucosamine mutase n=1 Tax=[Can...   129   1e-27
+UniRef90_A0A0L0S2U0 Phosphoacetylglucosamine mutase n=2 Tax=Allo...   128   1e-27
+UniRef90_A0A0B1PEY4 Phosphoacetylglucosamine mutase n=1 Tax=Unci...   128   1e-27
+UniRef90_A0A0G4MDK2 Phosphoacetylglucosamine mutase n=1 Tax=Vert...   128   1e-27
+UniRef90_B4NMG7 Phosphoacetylglucosamine mutase n=2 Tax=Drosophi...   128   1e-27
+UniRef90_A0A0C9VSZ7 Unplaced genomic scaffold SPHSTscaffold_36, ...   128   1e-27
+UniRef90_A0A0V0XRZ5 Phosphoacetylglucosamine mutase (Fragment) n...   128   1e-27
+UniRef90_G1X5E3 Phosphoacetylglucosamine mutase n=1 Tax=Arthrobo...   128   1e-27
+UniRef90_A0A151GEH8 Phosphoacetylglucosamine mutase n=1 Tax=Drec...   128   1e-27
+UniRef90_A0A150H225 Uncharacterized protein n=1 Tax=Gonium pecto...   128   1e-27
+UniRef90_A0A182WJR6 Uncharacterized protein n=2 Tax=Myzomyia Tax...   128   2e-27
+UniRef90_A0A0J9XF82 Phosphoacetylglucosamine mutase n=1 Tax=Geot...   128   2e-27
+UniRef90_J5QRT1 Phosphoacetylglucosamine mutase n=2 Tax=Trichosp...   128   2e-27
+UniRef90_W3XNK0 Phosphoacetylglucosamine mutase n=1 Tax=Pestalot...   128   2e-27
+UniRef90_A0A166CFN1 Phosphoacetylglucosamine mutase n=2 Tax=Sist...   128   2e-27
+UniRef90_A0A1X7VL00 Phosphoacetylglucosamine mutase n=1 Tax=Amph...   128   2e-27
+UniRef90_G2WYV4 Phosphoacetylglucosamine mutase n=2 Tax=Verticil...   127   2e-27
+UniRef90_A0A0M5J3X5 Phosphoacetylglucosamine mutase n=2 Tax=Dros...   127   2e-27
+UniRef90_A0A0E9ND47 Uncharacterized protein n=1 Tax=Saitoella co...   127   2e-27
+UniRef90_M5BJT9 Phosphoacetylglucosamine mutase n=2 Tax=Rhizocto...   127   2e-27
+UniRef90_A0A0C3HUM9 Phosphoacetylglucosamine mutase n=1 Tax=Oidi...   127   2e-27
+UniRef90_UPI00064C11D2 phosphoacetylglucosamine mutase isoform X...   127   2e-27
+UniRef90_A0A0D2LTW9 Phosphoacetylglucosamine mutase n=1 Tax=Mono...   127   3e-27
+UniRef90_S9X7C4 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...   127   3e-27
+UniRef90_UPI0008406A07 phosphoacetylglucosamine mutase n=1 Tax=C...   127   3e-27
+UniRef90_A0A0V1D366 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   127   3e-27
+UniRef90_A0A0V1B0A8 Phosphoacetylglucosamine mutase n=16 Tax=Tri...   127   3e-27
+UniRef90_G8JQW3 Phosphoacetylglucosamine mutase n=1 Tax=Eremothe...   127   3e-27
+UniRef90_H2MR66 Phosphoacetylglucosamine mutase n=1 Tax=Oryzias ...   127   3e-27
+UniRef90_UPI0006265571 phosphoacetylglucosamine mutase n=1 Tax=O...   127   3e-27
+UniRef90_UPI000A2A97B6 phosphoacetylglucosamine mutase-like n=1 ...   127   3e-27
+UniRef90_A0A1L0BC82 Phosphoacetylglucosamine mutase n=2 Tax=[Can...   127   3e-27
+UniRef90_UPI000258DEF3 phosphoacetylglucosamine mutase isoform X...   127   3e-27
+UniRef90_A0A1R0H0G8 Phosphoacetylglucosamine mutase n=1 Tax=Smit...   127   3e-27
+UniRef90_A0A063BTC5 Phosphoacetylglucosamine mutase n=1 Tax=Usti...   127   3e-27
+UniRef90_A0A0D2APM8 Phosphoacetylglucosamine mutase n=3 Tax=Verr...   127   4e-27
+UniRef90_A0A0P9EJU6 Phosphoacetylglucosamine mutase n=1 Tax=Rhod...   127   4e-27
+UniRef90_V9L9U3 Phosphoglucomutase 3 (Fragment) n=1 Tax=Callorhi...   127   4e-27
+UniRef90_A0A0F2MM97 Phosphoacetylglucosamine mutase n=3 Tax=Spor...   127   4e-27
+UniRef90_E9E601 Phosphoacetylglucosamine mutase n=13 Tax=Hypocre...   127   4e-27
+UniRef90_G3JLP5 Phosphoacetylglucosamine mutase n=7 Tax=Cordycip...   127   4e-27
+UniRef90_A0A167U532 Phosphoacetylglucosamine mutase n=1 Tax=Spor...   127   4e-27
+UniRef90_A0A182XLJ6 Uncharacterized protein n=1 Tax=Anopheles qu...   127   4e-27
+UniRef90_UPI0007DC6275 phosphoacetylglucosamine mutase isoform X...   126   4e-27
+UniRef90_A0A0A1TJ80 Phosphoacetylglucosamine mutase n=1 Tax=Torr...   126   4e-27
+UniRef90_W9SU38 Phosphoacetylglucosamine mutase n=1 Tax=Morus no...   126   5e-27
+UniRef90_A0A0X8HRM4 Phosphoacetylglucosamine mutase n=1 Tax=Erem...   126   5e-27
+UniRef90_A0A1A5ZXY0 Phosphoacetylglucosamine mutase n=1 Tax=Kwon...   126   5e-27
+UniRef90_A0A125PIN5 Phosphoacetylglucosamine mutase n=1 Tax=Rhod...   126   5e-27
+UniRef90_UPI000771DC2E phosphoacetylglucosamine mutase isoform X...   126   5e-27
+UniRef90_A0A182S6C0 Uncharacterized protein n=1 Tax=Anopheles ma...   126   5e-27
+UniRef90_A0A1B6CV25 Uncharacterized protein n=2 Tax=Clastoptera ...   126   5e-27
+UniRef90_A0A146L187 Phosphoacetylglucosamine mutase n=1 Tax=Lygu...   126   5e-27
+UniRef90_A0A167Y5T5 Phosphoacetylglucosamine mutase n=1 Tax=Asco...   126   5e-27
+UniRef90_A0A0L0V7X6 Uncharacterized protein n=1 Tax=Puccinia str...   126   5e-27
+UniRef90_A0A1Y1ZX85 Phosphoacetylglucosamine mutase n=1 Tax=Cloh...   126   5e-27
+UniRef90_A0A0J7L2M4 Phosphoacetylglucosamine mutase n=1 Tax=Lasi...   126   6e-27
+UniRef90_E3RSJ0 Phosphoacetylglucosamine mutase n=9 Tax=Pleospor...   126   6e-27
+UniRef90_A8PZW5 Phosphoacetylglucosamine mutase n=1 Tax=Malassez...   126   6e-27
+UniRef90_A0A1S6KW40 Phosphoacetylglucosamine mutase (Fragment) n...   126   6e-27
+UniRef90_A0A0V1MIP8 Phosphoacetylglucosamine mutase n=3 Tax=Tric...   126   6e-27
+UniRef90_A0A0V1MJB5 Phosphoacetylglucosamine mutase n=2 Tax=Tric...   126   6e-27
+UniRef90_A0A0V1HD43 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   126   6e-27
+UniRef90_I2FTA3 Phosphoacetylglucosamine mutase n=2 Tax=Ustilago...   126   7e-27
+UniRef90_I0YJY8 Phosphoacetylglucosamine mutase n=1 Tax=Coccomyx...   126   7e-27
+UniRef90_UPI00042C8B7B phosphoacetylglucosamine mutase isoform X...   125   7e-27
+UniRef90_A0A1E3Q796 Phosphoacetylglucosamine mutase n=1 Tax=Lipo...   125   7e-27
+UniRef90_A0A1E3IRK0 Phosphoacetylglucosamine mutase n=2 Tax=Cryp...   125   8e-27
+UniRef90_Q6CSH9 Phosphoacetylglucosamine mutase n=1 Tax=Kluyvero...   125   8e-27
+UniRef90_A0A1Y1UIT6 Phosphoacetylglucosamine mutase n=1 Tax=Kock...   125   9e-27
+UniRef90_A0A1E3PSZ2 Phosphoacetylglucosamine mutase n=1 Tax=Nads...   125   9e-27
+UniRef90_A0A0B2WQP1 Phosphoacetylglucosamine mutase n=1 Tax=Meta...   125   9e-27
+UniRef90_H2ULI0 Phosphoacetylglucosamine mutase n=1 Tax=Takifugu...   125   9e-27
+UniRef90_A0A0C3CVS5 Phosphoacetylglucosamine mutase n=1 Tax=Hebe...   125   9e-27
+UniRef90_A0A1B6GXU0 Uncharacterized protein (Fragment) n=1 Tax=C...   125   9e-27
+UniRef90_S3D6X7 Phosphoacetylglucosamine mutase n=1 Tax=Ophiosto...   125   1e-26
+UniRef90_A0A075AZ04 Phosphoacetylglucosamine mutase-like protein...   125   1e-26
+UniRef90_A0A0B7JKY8 Phosphoacetylglucosamine mutase n=1 Tax=Bion...   125   1e-26
+UniRef90_A0A1U7LIF1 Phosphoacetylglucosamine mutase n=1 Tax=Neol...   125   1e-26
+UniRef90_A0A0D2B111 Phosphoacetylglucosamine mutase n=5 Tax=Exop...   125   1e-26
+UniRef90_A0A1B9HX97 Phosphoacetylglucosamine mutase n=4 Tax=Kwon...   125   1e-26
+UniRef90_Q6C454 Phosphoacetylglucosamine mutase n=2 Tax=Yarrowia...   125   1e-26
+UniRef90_K1XL19 Phosphoacetylglucosamine mutase n=7 Tax=Helotial...   125   1e-26
+UniRef90_A0A099P4L8 Phosphoacetylglucosamine mutase n=2 Tax=Pich...   125   1e-26
+UniRef90_B8M6P3 Phosphoacetylglucosamine mutase n=4 Tax=Talaromy...   125   1e-26
+UniRef90_C4Y4X5 Phosphoacetylglucosamine mutase n=1 Tax=Clavispo...   125   1e-26
+UniRef90_G0VG84 Phosphoacetylglucosamine mutase n=1 Tax=Naumovoz...   125   1e-26
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_A0A1S2ZXN6 Phosphoacetylglucosamine mutase n=3 Tax=Erinaceus europaeus
+           TaxID=9365 RepID=A0A1S2ZXN6_ERIEU
+          Length = 575
+
+ Score =  147 bits (372), Expect = 3e-33,   Method: Composition-based stats.
+ Identities = 41/84 (48%), Positives = 53/84 (63%)
+
+Query: 1   PSRLVRVEVAERSIFKAYDAERKLESPPGLQAKIDSLQSRYNKGRSFARASGTEDAVRVY 60
+           P+R ++V+VA+R +    DAER+  +PPGLQ  I+ L  +Y   R+F R SGTED VRVY
+Sbjct: 481 PNRQIKVKVADRQVISTTDAERRAVTPPGLQEAINDLVKKYKLSRAFVRPSGTEDVVRVY 540
+
+Query: 61  AEAASRSEADDLATRVANAVRDAG 84
+           AEA S+  AD LA  V  AV    
+Sbjct: 541 AEADSQESADSLAHEVGLAVFQLA 564
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_K7FXW4 Phosphoacetylglucosamine mutase n=3 Tax=Pelodisc...   160   4e-37
+UniRef90_UPI0004420A77 phosphoacetylglucosamine mutase n=1 Tax=P...   160   4e-37
+UniRef90_A0A1S2ZXN6 Phosphoacetylglucosamine mutase n=3 Tax=Erin...   159   7e-37
+UniRef90_I3IW27 Phosphoacetylglucosamine mutase n=4 Tax=Pseudocr...   158   8e-37
+UniRef90_UPI00042BDA77 phosphoacetylglucosamine mutase n=3 Tax=D...   158   1e-36
+UniRef90_UPI000328B328 phosphoacetylglucosamine mutase isoform X...   158   1e-36
+UniRef90_UPI0007B8EF2D phosphoacetylglucosamine mutase-like n=1 ...   158   2e-36
+UniRef90_UPI0006D74762 phosphoacetylglucosamine mutase isoform X...   158   2e-36
+UniRef90_R0LB99 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   157   2e-36
+UniRef90_UPI000B540504 phosphoacetylglucosamine mutase isoform X...   157   2e-36
+UniRef90_M3ZYH4 Phosphoacetylglucosamine mutase n=13 Tax=Cyprino...   157   2e-36
+UniRef90_A0A0S7L0R5 AGM1 (Fragment) n=3 Tax=Cyprinodontoidei Tax...   157   2e-36
+UniRef90_M7C7S1 Phosphoacetylglucosamine mutase n=2 Tax=Durocryp...   157   2e-36
+UniRef90_UPI0007B96FA2 phosphoacetylglucosamine mutase-like isof...   157   2e-36
+UniRef90_A0A1U7S9D8 Phosphoacetylglucosamine mutase n=6 Tax=Croc...   157   2e-36
+UniRef90_UPI0009046A63 phosphoacetylglucosamine mutase isoform X...   157   3e-36
+UniRef90_UPI00094E6767 phosphoacetylglucosamine mutase n=1 Tax=D...   157   3e-36
+UniRef90_U3IJE3 Phosphoacetylglucosamine mutase n=68 Tax=Neognat...   157   3e-36
+UniRef90_H2MR65 Phosphoacetylglucosamine mutase n=2 Tax=Oryzias ...   157   4e-36
+UniRef90_A0A146WD54 Phosphoacetylglucosamine mutase n=1 Tax=Fund...   157   4e-36
+UniRef90_UPI000A1C44D3 phosphoacetylglucosamine mutase n=1 Tax=B...   156   4e-36
+UniRef90_UPI000333879A phosphoacetylglucosamine mutase isoform X...   156   5e-36
+UniRef90_G1KTQ4 Phosphoacetylglucosamine mutase n=1 Tax=Anolis c...   156   5e-36
+UniRef90_D6X3A7 Phosphoacetylglucosamine mutase n=1 Tax=Triboliu...   156   5e-36
+UniRef90_H0UZ15 Phosphoacetylglucosamine mutase n=7 Tax=Hystrico...   156   6e-36
+UniRef90_UPI0003890170 phosphoacetylglucosamine mutase isoform X...   156   6e-36
+UniRef90_G1T004 Phosphoacetylglucosamine mutase n=3 Tax=Lagomorp...   156   7e-36
+UniRef90_UPI0005592392 phosphoacetylglucosamine mutase n=2 Tax=P...   155   7e-36
+UniRef90_UPI00033159AC phosphoacetylglucosamine mutase n=1 Tax=S...   155   7e-36
+UniRef90_U3F758 Phosphoacetylglucosamine mutase n=6 Tax=Colubroi...   155   1e-35
+UniRef90_M3Y268 Phosphoacetylglucosamine mutase n=16 Tax=Carnivo...   155   1e-35
+UniRef90_UPI0008F4961E phosphoacetylglucosamine mutase isoform X...   155   1e-35
+UniRef90_E1BQU2 Phosphoacetylglucosamine mutase n=8 Tax=Gallifor...   155   1e-35
+UniRef90_U3JJ60 Phosphoacetylglucosamine mutase n=3 Tax=Passerif...   155   1e-35
+UniRef90_A0A061F896 Phosphoacetylglucosamine mutase n=4 Tax=Malv...   155   1e-35
+UniRef90_K1QVE8 Phosphoacetylglucosamine mutase n=1 Tax=Crassost...   155   1e-35
+UniRef90_UPI0003C848A0 phosphoacetylglucosamine mutase n=5 Tax=C...   155   1e-35
+UniRef90_O95394 Phosphoacetylglucosamine mutase n=77 Tax=Eutheri...   155   1e-35
+UniRef90_K7K4V2 Uncharacterized protein n=1 Tax=Glycine max TaxI...   155   1e-35
+UniRef90_G1RQ61 Phosphoacetylglucosamine mutase n=10 Tax=Euarcho...   155   1e-35
+UniRef90_UPI00094E1429 phosphoacetylglucosamine mutase isoform X...   155   1e-35
+UniRef90_F7E0J9 Phosphoacetylglucosamine mutase n=6 Tax=Xenopus ...   155   1e-35
+UniRef90_UPI000846FBE4 phosphoacetylglucosamine mutase isoform X...   155   1e-35
+UniRef90_UPI0006B30A50 phosphoacetylglucosamine mutase n=2 Tax=R...   155   1e-35
+UniRef90_W5JZ35 Phosphoacetylglucosamine mutase n=1 Tax=Astyanax...   155   2e-35
+UniRef90_W5UEC7 Phosphoacetylglucosamine mutase n=2 Tax=Ictaluru...   155   2e-35
+UniRef90_A0A1S3IPZ1 Phosphoacetylglucosamine mutase n=2 Tax=Ling...   154   2e-35
+UniRef90_UPI00097E0AF4 phosphoacetylglucosamine mutase n=1 Tax=P...   154   2e-35
+UniRef90_UPI000B4F25A5 phosphoacetylglucosamine mutase n=1 Tax=M...   154   2e-35
+UniRef90_V3ZPQ6 Phosphoacetylglucosamine mutase n=1 Tax=Lottia g...   154   2e-35
+UniRef90_A0A0P5Z838 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   154   2e-35
+UniRef90_A0A1W0XEY6 Phosphoacetylglucosamine mutase n=1 Tax=Hyps...   154   2e-35
+UniRef90_F6QV04 Phosphoacetylglucosamine mutase n=4 Tax=Metather...   154   2e-35
+UniRef90_M3W4K3 Phosphoacetylglucosamine mutase n=21 Tax=Laurasi...   154   2e-35
+UniRef90_A0A0N8BY27 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   154   2e-35
+UniRef90_A0A1A8V218 Phosphoacetylglucosamine mutase n=13 Tax=Not...   154   2e-35
+UniRef90_UPI000B7B7A8E phosphoacetylglucosamine mutase isoform X...   154   2e-35
+UniRef90_UPI000332F22C phosphoacetylglucosamine mutase n=3 Tax=M...   154   2e-35
+UniRef90_G3PJ22 Phosphoacetylglucosamine mutase n=1 Tax=Gasteros...   154   2e-35
+UniRef90_A0A0P6AG10 Phosphoacetylglucosamine mutase n=22 Tax=Dap...   154   2e-35
+UniRef90_UPI0003AB7FCF phosphoacetylglucosamine mutase isoform X...   154   3e-35
+UniRef90_UPI0009E2FE6C phosphoacetylglucosamine mutase isoform X...   153   3e-35
+UniRef90_A0A0P5LWG5 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   153   3e-35
+UniRef90_F1QHK0 Phosphoacetylglucosamine mutase n=5 Tax=Cyprinid...   153   3e-35
+UniRef90_UPI000812D1D8 phosphoacetylglucosamine mutase isoform X...   153   3e-35
+UniRef90_U9UTL0 Phosphoacetylglucosamine mutase n=2 Tax=Rhizopha...   153   3e-35
+UniRef90_G3GTC9 Phosphoacetylglucosamine mutase n=6 Tax=Cricetid...   153   3e-35
+UniRef90_F1RQM2 Phosphoacetylglucosamine mutase n=3 Tax=Sus scro...   153   3e-35
+UniRef90_A0A1S3GHN1 Phosphoacetylglucosamine mutase n=1 Tax=Dipo...   153   3e-35
+UniRef90_UPI0004963643 phosphoacetylglucosamine mutase n=1 Tax=S...   153   3e-35
+UniRef90_UPI000786FC96 phosphoacetylglucosamine mutase n=2 Tax=A...   153   3e-35
+UniRef90_UPI000854763E phosphoacetylglucosamine mutase n=1 Tax=N...   153   3e-35
+UniRef90_H2ULH9 Phosphoacetylglucosamine mutase n=2 Tax=Takifugu...   153   3e-35
+UniRef90_UPI0009B336AE phosphoacetylglucosamine mutase n=1 Tax=M...   153   4e-35
+UniRef90_UPI000B4CF78D phosphoacetylglucosamine mutase isoform X...   153   4e-35
+UniRef90_F1MS56 Phosphoacetylglucosamine mutase n=16 Tax=Cetarti...   153   4e-35
+UniRef90_F8NDW6 Phosphoacetylglucosamine mutase n=2 Tax=Serpula ...   153   4e-35
+UniRef90_A0A151TJ63 Phosphoacetylglucosamine mutase n=2 Tax=Caja...   153   4e-35
+UniRef90_UPI0004F0FCB4 phosphoacetylglucosamine mutase n=1 Tax=A...   153   4e-35
+UniRef90_UPI0003347408 phosphoacetylglucosamine mutase n=1 Tax=C...   153   4e-35
+UniRef90_UPI0005780BDE phosphoacetylglucosamine mutase n=1 Tax=E...   153   5e-35
+UniRef90_A0A1Y1M850 Phosphoacetylglucosamine mutase n=1 Tax=Phot...   153   5e-35
+UniRef90_UPI00090DAB62 phosphoacetylglucosamine mutase n=1 Tax=L...   153   5e-35
+UniRef90_S7QM51 N-terminal nucleophile aminohydrolases Ntn hydro...   153   6e-35
+UniRef90_A0A0R0EL27 Phosphoacetylglucosamine mutase n=1 Tax=Glyc...   153   6e-35
+UniRef90_Q9VTZ4 Phosphoacetylglucosamine mutase n=15 Tax=melanog...   152   6e-35
+UniRef90_A0A0F8AQX6 Phosphoacetylglucosamine mutase n=3 Tax=Lari...   152   7e-35
+UniRef90_A0A1S3VT11 Phosphoacetylglucosamine mutase n=4 Tax=Phas...   152   7e-35
+UniRef90_M2QY95 Uncharacterized protein n=1 Tax=Ceriporiopsis su...   152   7e-35
+UniRef90_UPI0007192663 phosphoacetylglucosamine mutase-like isof...   152   7e-35
+UniRef90_UPI000A315143 phosphoacetylglucosamine mutase n=1 Tax=M...   152   8e-35
+UniRef90_H0XB62 Phosphoacetylglucosamine mutase n=2 Tax=Otolemur...   152   8e-35
+UniRef90_K7J1K6 Phosphoacetylglucosamine mutase n=1 Tax=Nasonia ...   152   8e-35
+UniRef90_Q4R7E0 Testis cDNA, clone: QtsA-15546, similar to human...   152   9e-35
+UniRef90_A0A210Q2C5 Phosphoacetylglucosamine mutase n=3 Tax=Mizu...   152   1e-34
+UniRef90_A0A0G2RLT8 Phosphoacetylglucosamine mutase n=1 Tax=Cnap...   152   1e-34
+UniRef90_A0A093JGK1 Phosphoacetylglucosamine mutase (Fragment) n...   152   1e-34
+UniRef90_E9GZ07 Phosphoacetylglucosamine mutase n=1 Tax=Daphnia ...   152   1e-34
+UniRef90_UPI0004967EE3 phosphoacetylglucosamine mutase n=1 Tax=C...   152   1e-34
+UniRef90_B5X1B2 Phosphoacetylglucosamine mutase n=3 Tax=Salmonin...   152   1e-34
+UniRef90_F7G391 Phosphoacetylglucosamine mutase n=1 Tax=Ornithor...   152   1e-34
+UniRef90_Q9CYR6 Phosphoacetylglucosamine mutase n=7 Tax=Mus TaxI...   152   1e-34
+UniRef90_A0A1S3BPK3 Phosphoacetylglucosamine mutase n=2 Tax=Cucu...   152   1e-34
+UniRef90_UPI00077FDC81 phosphoacetylglucosamine mutase-like n=1 ...   151   1e-34
+UniRef90_I1NEX1 Phosphoacetylglucosamine mutase n=6 Tax=Glycine ...   151   1e-34
+UniRef90_A0A0D0BQ79 Phosphoacetylglucosamine mutase n=1 Tax=Suil...   151   1e-34
+UniRef90_A0A1U8M4J7 Phosphoacetylglucosamine mutase n=5 Tax=Goss...   151   2e-34
+UniRef90_UPI0006D4D48C LOW QUALITY PROTEIN: phosphoacetylglucosa...   151   2e-34
+UniRef90_UPI00074FE749 phosphoacetylglucosamine mutase n=1 Tax=G...   151   2e-34
+UniRef90_A0A0R0LDN9 Uncharacterized protein n=1 Tax=Glycine max ...   151   2e-34
+UniRef90_A0A091PZY6 Phosphoacetylglucosamine mutase (Fragment) n...   151   2e-34
+UniRef90_A0A212EW76 Putative phosphoacetylglucosamine mutase n=1...   151   2e-34
+UniRef90_A0A1W4ZES4 Phosphoacetylglucosamine mutase n=2 Tax=Scle...   151   2e-34
+UniRef90_A0A0Q3P619 Uncharacterized protein n=1 Tax=Amazona aest...   151   2e-34
+UniRef90_UPI0005EE03AF phosphoacetylglucosamine mutase n=1 Tax=S...   151   2e-34
+UniRef90_A0A218RIG2 Uncharacterized protein n=4 Tax=Crotonoideae...   150   2e-34
+UniRef90_A9V3R2 Phosphoacetylglucosamine mutase n=1 Tax=Monosiga...   150   2e-34
+UniRef90_UPI000B3F0FB7 phosphoacetylglucosamine mutase n=1 Tax=H...   150   2e-34
+UniRef90_UPI000333D0D8 phosphoacetylglucosamine mutase n=1 Tax=O...   150   3e-34
+UniRef90_A0A0D7AH46 Phosphoacetylglucosamine mutase n=1 Tax=Fist...   150   3e-34
+UniRef90_A0A0C3EKQ3 Phosphoacetylglucosamine mutase n=1 Tax=Scle...   150   3e-34
+UniRef90_I1BPG1 Phosphoacetylglucosamine mutase n=1 Tax=Rhizopus...   150   3e-34
+UniRef90_UPI0004E598E5 phosphoacetylglucosamine mutase isoform X...   150   4e-34
+UniRef90_A0A067RFT3 Phosphoacetylglucosamine mutase n=1 Tax=Zoot...   150   4e-34
+UniRef90_A0A0J8E3Z6 Phosphoacetylglucosamine mutase n=2 Tax=Beta...   150   4e-34
+UniRef90_W4KPB5 Uncharacterized protein (Fragment) n=1 Tax=Heter...   150   4e-34
+UniRef90_A0A060SHA8 Phosphoacetylglucosamine mutase n=2 Tax=Poly...   150   4e-34
+UniRef90_UPI0009B376C5 phosphoacetylglucosamine mutase n=1 Tax=L...   150   4e-34
+UniRef90_UPI000B78A130 phosphoacetylglucosamine mutase isoform X...   150   4e-34
+UniRef90_A0A167QQ47 Phosphoacetylglucosamine mutase n=1 Tax=Phyc...   150   5e-34
+UniRef90_R7UDD6 Phosphoacetylglucosamine mutase n=1 Tax=Capitell...   150   5e-34
+UniRef90_UPI0008148764 phosphoacetylglucosamine mutase isoform X...   150   5e-34
+UniRef90_A0A0B7NQV9 Phosphoacetylglucosamine mutase n=1 Tax=Para...   150   5e-34
+UniRef90_A0A1D1Z9M1 Phosphoacetylglucosamine mutase n=1 Tax=Anth...   150   5e-34
+UniRef90_V4SQF7 Uncharacterized protein (Fragment) n=4 Tax=Citru...   150   5e-34
+UniRef90_S2K2Q4 Phosphoacetylglucosamine mutase n=3 Tax=Mucor Ta...   149   5e-34
+UniRef90_A0A0C7BI70 Phosphoacetylglucosamine mutase n=5 Tax=Rhiz...   149   5e-34
+UniRef90_UPI000B37F49C phosphoacetylglucosamine mutase n=1 Tax=H...   149   5e-34
+UniRef90_K5WAK9 Uncharacterized protein n=2 Tax=Agaricus bisporu...   149   6e-34
+UniRef90_UPI0006D507B8 phosphoacetylglucosamine mutase n=1 Tax=H...   149   6e-34
+UniRef90_UPI00083C63AC phosphoacetylglucosamine mutase isoform X...   149   6e-34
+UniRef90_UPI000A288665 phosphoacetylglucosamine mutase n=1 Tax=P...   149   6e-34
+UniRef90_W5NKD9 Phosphoacetylglucosamine mutase n=3 Tax=Lepisost...   149   6e-34
+UniRef90_G7JZT7 Phosphoacetylglucosamine mutase n=3 Tax=Papilion...   149   7e-34
+UniRef90_A0A1X2HB76 Phosphoacetylglucosamine mutase n=1 Tax=Sync...   149   7e-34
+UniRef90_A0A0K2V2U3 Phosphoacetylglucosamine mutaselike [Xiphosp...   149   7e-34
+UniRef90_A0A022QYM8 Phosphoacetylglucosamine mutase n=2 Tax=Eryt...   149   7e-34
+UniRef90_UPI0006CEE77A phosphoacetylglucosamine mutase n=1 Tax=C...   149   7e-34
+UniRef90_A0A1C9CW41 Phosphoacetylglucosamine mutase n=2 Tax=Bomb...   149   7e-34
+UniRef90_A0A1U7KQ01 Phosphoacetylglucosamine mutase n=1 Tax=Phle...   149   7e-34
+UniRef90_F6ZP25 Phosphoacetylglucosamine mutase n=2 Tax=Ciona in...   149   8e-34
+UniRef90_A0A1I8NAA5 Phosphoacetylglucosamine mutase n=3 Tax=Musc...   149   8e-34
+UniRef90_UPI00077EAF7F phosphoacetylglucosamine mutase n=1 Tax=Z...   149   8e-34
+UniRef90_UPI00063F1BD8 phosphoacetylglucosamine mutase n=1 Tax=M...   148   9e-34
+UniRef90_UPI0009957F0F phosphoacetylglucosamine mutase n=1 Tax=P...   148   1e-33
+UniRef90_A0A197JRQ5 Phosphoacetylglucosamine mutase n=1 Tax=Mort...   148   1e-33
+UniRef90_A0A0H2S5X7 Phosphoacetylglucosamine mutase n=1 Tax=Schi...   148   1e-33
+UniRef90_G4TZA2 Probable PCM1-phosphoacetylglucosamine mutase (F...   148   2e-33
+UniRef90_A0A093HBF8 Phosphoacetylglucosamine mutase (Fragment) n...   148   2e-33
+UniRef90_B9SS01 Phosphoacetylglucosamine mutase n=1 Tax=Ricinus ...   147   2e-33
+UniRef90_UPI000455F2FE Phosphoacetylglucosamine mutase n=1 Tax=C...   147   2e-33
+UniRef90_A0A165CE22 Phosphoacetylglucosamine mutase n=1 Tax=Laet...   147   2e-33
+UniRef90_UPI000643F8D0 phosphoacetylglucosamine mutase n=1 Tax=C...   147   2e-33
+UniRef90_A0A0C3L564 Phosphoacetylglucosamine mutase n=1 Tax=Tula...   147   2e-33
+UniRef90_A0A151WDT7 Phosphoacetylglucosamine mutase n=1 Tax=Hyps...   147   2e-33
+UniRef90_A0A1W4W2M4 Phosphoacetylglucosamine mutase n=2 Tax=Agri...   147   3e-33
+UniRef90_K5VDN9 Phosphoacetylglucosamine mutase n=1 Tax=Phaneroc...   147   3e-33
+UniRef90_UPI000719C318 phosphoacetylglucosamine mutase-like n=1 ...   147   3e-33
+UniRef90_A0A1B6IVT2 Uncharacterized protein (Fragment) n=1 Tax=H...   147   3e-33
+UniRef90_UPI0006233D8E phosphoacetylglucosamine mutase n=1 Tax=L...   147   3e-33
+UniRef90_A0A0T6B8G5 Phosphoacetylglucosamine mutase n=1 Tax=Oryc...   147   3e-33
+UniRef90_UPI00057B3D50 phosphoacetylglucosamine mutase n=2 Tax=A...   147   3e-33
+UniRef90_A0A1U9XQT3 Phosphoacetylglucosamine mutase n=1 Tax=Tigr...   147   3e-33
+UniRef90_A0A168NF66 Phosphoacetylglucosamine mutase n=2 Tax=Absi...   147   3e-33
+UniRef90_A0A0A1XQ05 Phosphoacetylglucosamine mutase n=9 Tax=Teph...   147   3e-33
+UniRef90_A0A1Q3DCJ1 Phosphoacetylglucosamine mutase n=1 Tax=Ceph...   147   3e-33
+UniRef90_A0A1Y3BME6 Phosphoacetylglucosamine mutase n=1 Tax=Euro...   147   3e-33
+UniRef90_C5MC59 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   147   3e-33
+UniRef90_A0A1C7NB14 Phosphoacetylglucosamine mutase n=2 Tax=Choa...   147   3e-33
+UniRef90_UPI0005F533A0 phosphoacetylglucosamine mutase isoform X...   147   4e-33
+UniRef90_L7M719 Phosphoacetylglucosamine mutase n=3 Tax=Ixodidae...   147   4e-33
+UniRef90_A0A1D2MVV2 Phosphoacetylglucosamine mutase n=1 Tax=Orch...   147   4e-33
+UniRef90_S8EFM0 Phosphoacetylglucosamine mutase n=2 Tax=Polypora...   147   4e-33
+UniRef90_J3MJ85 Phosphoacetylglucosamine mutase n=2 Tax=Oryza br...   147   4e-33
+UniRef90_A0A1D1UX65 Uncharacterized protein n=1 Tax=Ramazzottius...   146   4e-33
+UniRef90_B4GRG5 Phosphoacetylglucosamine mutase n=3 Tax=pseudoob...   146   4e-33
+UniRef90_A0A0B6ZY44 Uncharacterized protein (Fragment) n=1 Tax=A...   146   4e-33
+UniRef90_UPI000B791457 phosphoacetylglucosamine mutase-like isof...   146   4e-33
+UniRef90_A0A199UP99 Phosphoacetylglucosamine mutase n=4 Tax=Anan...   146   5e-33
+UniRef90_A0A158NCB9 Phosphoacetylglucosamine mutase n=10 Tax=Att...   146   5e-33
+UniRef90_A0A1Y2GMW1 Phosphoacetylglucosamine mutase n=1 Tax=Lobo...   146   5e-33
+UniRef90_A0A1X2GH87 Phosphoacetylglucosamine mutase n=1 Tax=Hess...   146   5e-33
+UniRef90_A0A0D9WWJ0 Phosphoacetylglucosamine mutase n=1 Tax=Leer...   146   5e-33
+UniRef90_A0A0V0G5W2 Putative phosphoglucomutase/phosphomannomuta...   146   5e-33
+UniRef90_I4YEE6 Phosphoacetylglucosamine mutase n=1 Tax=Wallemia...   146   6e-33
+UniRef90_UPI0006EB0363 LOW QUALITY PROTEIN: phosphoacetylglucosa...   146   6e-33
+UniRef90_A0A059CHG5 Phosphoacetylglucosamine mutase n=1 Tax=Euca...   146   6e-33
+UniRef90_UPI00053C8A7F phosphoacetylglucosamine mutase n=1 Tax=T...   146   6e-33
+UniRef90_UPI0003F06C7A phosphoacetylglucosamine mutase-like n=1 ...   146   6e-33
+UniRef90_UPI000440DF32 phosphoacetylglucosamine mutase n=1 Tax=S...   146   6e-33
+UniRef90_UPI000626C107 phosphoacetylglucosamine mutase n=1 Tax=A...   146   7e-33
+UniRef90_A0A194QC94 Phosphoacetylglucosamine mutase n=3 Tax=Papi...   146   7e-33
+UniRef90_UPI0009F35430 phosphoacetylglucosamine mutase n=1 Tax=D...   146   7e-33
+UniRef90_A0A1G4IS55 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   146   7e-33
+UniRef90_A0A0P1KQ78 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   146   7e-33
+UniRef90_A0A0C3P5F5 Phosphoacetylglucosamine mutase n=2 Tax=Piso...   145   8e-33
+UniRef90_B0CPQ3 Phosphoacetylglucosamine mutase n=2 Tax=Laccaria...   145   8e-33
+UniRef90_UPI0006B16C32 phosphoacetylglucosamine mutase-like n=1 ...   145   8e-33
+UniRef90_A0A068RKR6 Phosphoacetylglucosamine mutase n=2 Tax=Lich...   145   8e-33
+UniRef90_UPI0006C94070 phosphoacetylglucosamine mutase n=1 Tax=T...   145   8e-33
+UniRef90_Q16PT5 Phosphoacetylglucosamine mutase n=5 Tax=Stegomyi...   145   8e-33
+UniRef90_A0A0N0PE63 Phosphoacetylglucosamine mutase n=1 Tax=Papi...   145   8e-33
+UniRef90_V2Z1T3 Phosphoacetylglucosamine mutase n=2 Tax=Moniliop...   145   9e-33
+UniRef90_A0A1B0CKT3 Phosphoacetylglucosamine mutase n=2 Tax=Phle...   145   9e-33
+UniRef90_A0A146H5U0 Phosphoacetylglucosamine mutase n=1 Tax=Myce...   145   9e-33
+UniRef90_A9TDV4 Phosphoacetylglucosamine mutase n=1 Tax=Physcomi...   145   9e-33
+UniRef90_Q6BSY8 Phosphoacetylglucosamine mutase n=2 Tax=Debaryom...   145   9e-33
+UniRef90_A0A165W2H4 Phosphoacetylglucosamine mutase n=1 Tax=Neol...   145   1e-32
+UniRef90_Q09687 Phosphoacetylglucosamine mutase 1 n=1 Tax=Schizo...   145   1e-32
+UniRef90_A0A0E0LI64 Phosphoacetylglucosamine mutase n=1 Tax=Oryz...   145   1e-32
+UniRef90_A0A166LN48 Phosphoacetylglucosamine mutase n=1 Tax=Peni...   145   1e-32
+UniRef90_C5DER6 Phosphoacetylglucosamine mutase n=1 Tax=Lachance...   145   1e-32
+UniRef90_UPI000359979D phosphoacetylglucosamine mutase-like n=1 ...   145   1e-32
+UniRef90_UPI00044161E1 phosphoacetylglucosamine mutase n=1 Tax=D...   145   1e-32
+UniRef90_A0A218VV00 Uncharacterized protein n=1 Tax=Punica grana...   145   1e-32
+UniRef90_UPI0005AC5A41 phosphoacetylglucosamine mutase isoform X...   145   1e-32
+UniRef90_K4CN87 Phosphoacetylglucosamine mutase n=8 Tax=Solanace...   145   1e-32
+UniRef90_A0A067P386 Uncharacterized protein n=1 Tax=Pleurotus os...   145   1e-32
+UniRef90_A0A1B6KB84 Phosphoacetylglucosamine mutase n=2 Tax=Cica...   145   1e-32
+UniRef90_D7TXL1 Phosphoacetylglucosamine mutase n=5 Tax=Vitis vi...   145   1e-32
+UniRef90_J9K1M9 Phosphoacetylglucosamine mutase n=1 Tax=Acyrthos...   145   2e-32
+UniRef90_UPI0004417621 phosphoacetylglucosamine mutase n=1 Tax=P...   144   2e-32
+UniRef90_V5GWV2 Phosphoacetylglucosamine mutase (Fragment) n=2 T...   144   2e-32
+UniRef90_M5W982 Phosphoacetylglucosamine mutase n=5 Tax=Prunus T...   144   2e-32
+UniRef90_G3ANX8 Phosphoacetylglucosamine mutase n=1 Tax=Spathasp...   144   2e-32
+UniRef90_A0A0C3SD02 Phosphoacetylglucosamine mutase n=1 Tax=Phle...   144   2e-32
+UniRef90_UPI00076FD533 phosphoacetylglucosamine mutase n=1 Tax=N...   144   2e-32
+UniRef90_UPI000901D622 phosphoacetylglucosamine mutase n=1 Tax=I...   144   2e-32
+UniRef90_A0A067QBL9 Phosphoacetylglucosamine mutase n=1 Tax=Jaap...   144   2e-32
+UniRef90_UPI0009A2A6B6 phosphoacetylglucosamine mutase isoform X...   144   2e-32
+UniRef90_UPI00077ABF30 phosphoacetylglucosamine mutase-like n=1 ...   144   2e-32
+UniRef90_E2AG64 Phosphoacetylglucosamine mutase n=1 Tax=Camponot...   144   2e-32
+UniRef90_UPI00096B0832 LOW QUALITY PROTEIN: phosphoacetylglucosa...   144   2e-32
+UniRef90_D6RK39 Phosphoacetylglucosamine mutase n=1 Tax=Coprinop...   144   2e-32
+UniRef90_UPI00058169DC phosphoacetylglucosamine mutase n=1 Tax=S...   144   2e-32
+UniRef90_UPI00098E7ADB phosphoacetylglucosamine mutase n=1 Tax=A...   144   2e-32
+UniRef90_UPI000711BAC7 phosphoacetylglucosamine mutase n=1 Tax=D...   144   2e-32
+UniRef90_A0A0D6EP94 Phosphoacetylglucosamine mutase n=1 Tax=Spor...   144   2e-32
+UniRef90_A0A200PW98 Alpha-D-phosphohexomutase n=1 Tax=Macleaya c...   144   3e-32
+UniRef90_V9K8C4 Phosphoacetylglucosamine mutase n=2 Tax=Callorhi...   144   3e-32
+UniRef90_UPI0006B0F5FE phosphoacetylglucosamine mutase-like n=1 ...   144   3e-32
+UniRef90_U5D048 Phosphoacetylglucosamine mutase n=1 Tax=Amborell...   144   3e-32
+UniRef90_E2C6Q6 Phosphoacetylglucosamine mutase n=1 Tax=Harpegna...   144   3e-32
+UniRef90_A0A067LEY8 Phosphoacetylglucosamine mutase n=1 Tax=Jatr...   144   3e-32
+UniRef90_A0A0K8RLH2 Putative phosphoglucomutase/phosphomannomuta...   143   3e-32
+UniRef90_G5E3M9 Putative phosphoglucomutase 3 (Fragment) n=1 Tax...   143   3e-32
+UniRef90_H2YFB1 Phosphoacetylglucosamine mutase n=10 Tax=Ciona s...   143   3e-32
+UniRef90_UPI0000481BD9 Phosphoacetylglucosamine mutase n=1 Tax=M...   143   3e-32
+UniRef90_A0A0L0CL80 Phosphoacetylglucosamine mutase n=1 Tax=Luci...   143   3e-32
+UniRef90_T1IIS7 Uncharacterized protein n=1 Tax=Strigamia mariti...   143   3e-32
+UniRef90_A0A0A9EDA2 Phosphoacetylglucosamine mutase n=1 Tax=Arun...   143   3e-32
+UniRef90_A0A0C2TU96 Phosphoacetylglucosamine mutase n=1 Tax=Aman...   143   3e-32
+UniRef90_J4I897 Phosphoacetylglucosamine mutase n=1 Tax=Fibropor...   143   3e-32
+UniRef90_A0A161X1A6 Phosphoacetylglucosamine mutase n=1 Tax=Dauc...   143   3e-32
+UniRef90_A0A1M2VB24 Phosphoacetylglucosamine mutase n=2 Tax=Tram...   143   3e-32
+UniRef90_UPI00044076E8 phosphoacetylglucosamine mutase n=1 Tax=F...   143   3e-32
+UniRef90_A0A1E3P4I2 Phosphoacetylglucosamine mutase n=1 Tax=Wick...   143   3e-32
+UniRef90_F2UMA3 Phosphoacetylglucosamine mutase n=1 Tax=Salpingo...   143   3e-32
+UniRef90_A0A091R4E1 Phosphoacetylglucosamine mutase (Fragment) n...   143   4e-32
+UniRef90_A0A0C7N607 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   143   4e-32
+UniRef90_A0A0F7SHR8 Phosphoacetylglucosamine mutase n=1 Tax=Phaf...   143   4e-32
+UniRef90_S9RA03 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...   143   4e-32
+UniRef90_A0A1U8GJ76 Phosphoacetylglucosamine mutase n=1 Tax=Caps...   143   4e-32
+UniRef90_UPI00067BB2D1 phosphoacetylglucosamine mutase n=1 Tax=A...   143   4e-32
+UniRef90_A8IZ78 Phosphoacetylglucosamine mutase n=1 Tax=Chlamydo...   143   4e-32
+UniRef90_UPI0008DE3348 phosphoacetylglucosamine mutase-like n=2 ...   143   4e-32
+UniRef90_UPI000775A89B phosphoacetylglucosamine mutase-like n=1 ...   143   4e-32
+UniRef90_A0A1J3CZZ4 Phosphoacetylglucosamine mutase (Fragment) n...   143   4e-32
+UniRef90_K3XG38 Phosphoacetylglucosamine mutase n=3 Tax=Panicoid...   143   5e-32
+UniRef90_A0A0C3FZJ5 Phosphoacetylglucosamine mutase n=1 Tax=Pilo...   143   5e-32
+UniRef90_D8PNS7 Phosphoacetylglucosamine mutase n=1 Tax=Schizoph...   143   5e-32
+UniRef90_A0A1I8I4V1 Uncharacterized protein n=1 Tax=Macrostomum ...   143   5e-32
+UniRef90_UPI0007381490 phosphoacetylglucosamine mutase isoform X...   143   5e-32
+UniRef90_A0A061B5H5 Phosphoacetylglucosamine mutase n=2 Tax=Cybe...   143   5e-32
+UniRef90_UPI0006C97C56 phosphoacetylglucosamine mutase n=1 Tax=C...   143   5e-32
+UniRef90_P57750 Phosphoacetylglucosamine mutase n=7 Tax=Brassica...   143   5e-32
+UniRef90_B4HG32 GM24644 n=1 Tax=Drosophila sechellia TaxID=7238 ...   143   5e-32
+UniRef90_E3K3J8 Phosphoacetylglucosamine mutase n=1 Tax=Puccinia...   143   6e-32
+UniRef90_B4LGP2 Phosphoacetylglucosamine mutase n=5 Tax=Drosophi...   143   6e-32
+UniRef90_A0A0D7B5M0 Phosphoacetylglucosamine mutase n=1 Tax=Cyli...   143   6e-32
+UniRef90_I1H2U1 Phosphoacetylglucosamine mutase n=2 Tax=Brachypo...   143   6e-32
+UniRef90_A0A0D3EEJ9 Phosphoacetylglucosamine mutase n=8 Tax=Bras...   142   6e-32
+UniRef90_Q9P4V2 Phosphoacetylglucosamine mutase n=5 Tax=cellular...   142   6e-32
+UniRef90_U5H9S9 Phosphoacetylglucosamine mutase n=1 Tax=Microbot...   142   6e-32
+UniRef90_C3Y3M3 Phosphoacetylglucosamine mutase n=3 Tax=Branchio...   142   6e-32
+UniRef90_A0A1D6MFW1 Phosphoacetylglucosamine mutase n=1 Tax=Zea ...   142   7e-32
+UniRef90_A0A0L6UQV3 Phosphoacetylglucosamine mutase n=1 Tax=Pucc...   142   7e-32
+UniRef90_A0A0D2PM98 Phosphoacetylglucosamine mutase n=1 Tax=Hyph...   142   7e-32
+UniRef90_A0A1Y2HJA6 Phosphoacetylglucosamine mutase n=1 Tax=Cate...   142   7e-32
+UniRef90_A0A1G4ITV7 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   142   7e-32
+UniRef90_UPI0002C30C1D phosphoacetylglucosamine mutase isoform X...   142   8e-32
+UniRef90_A0A067TP36 Phosphoacetylglucosamine mutase n=1 Tax=Gale...   142   8e-32
+UniRef90_A0A0E9NPD7 Phosphoacetylglucosamine mutase n=1 Tax=Sait...   142   8e-32
+UniRef90_M0SSL0 Phosphoacetylglucosamine mutase n=3 Tax=Musa acu...   142   8e-32
+UniRef90_A0A1B7NH65 Phosphoacetylglucosamine mutase n=2 Tax=Rhiz...   142   8e-32
+UniRef90_A0A1Y1ZDZ2 Phosphoacetylglucosamine mutase n=1 Tax=Basi...   142   9e-32
+UniRef90_A3GI60 Phosphoacetylglucosamine mutase n=1 Tax=Scheffer...   142   9e-32
+UniRef90_A0A1E4RRM6 Phosphoacetylglucosamine mutase n=1 Tax=Hyph...   142   9e-32
+UniRef90_A0A1X6NFV6 Phosphoacetylglucosamine mutase n=1 Tax=Post...   142   9e-32
+UniRef90_A0A1E4TLF7 Phosphoacetylglucosamine mutase n=1 Tax=Tort...   142   9e-32
+UniRef90_A0A0L0FZ62 Phosphoacetylglucosamine mutase n=1 Tax=Spha...   142   1e-31
+UniRef90_A0A165ZGR6 Phosphoacetylglucosamine mutase n=1 Tax=Fibu...   142   1e-31
+UniRef90_A0A1D6BTJ1 Phosphoacetylglucosamine mutase n=11 Tax=Tri...   142   1e-31
+UniRef90_G0ZS84 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   142   1e-31
+UniRef90_A0A177ULQ2 Phosphoacetylglucosamine mutase n=4 Tax=Till...   142   1e-31
+UniRef90_A0A0H5C4N7 Phosphoacetylglucosamine mutase n=2 Tax=Cybe...   142   1e-31
+UniRef90_L8WUD3 Phosphoacetylglucosamine mutase n=1 Tax=Thanatep...   142   1e-31
+UniRef90_E9J850 Uncharacterized protein (Fragment) n=2 Tax=Solen...   142   1e-31
+UniRef90_A0A0L0V0M0 Uncharacterized protein n=1 Tax=Puccinia str...   142   1e-31
+UniRef90_UPI0009E3AE9D phosphoacetylglucosamine mutase-like n=1 ...   142   1e-31
+UniRef90_A0A1I8ISB9 Uncharacterized protein n=1 Tax=Macrostomum ...   142   1e-31
+UniRef90_UPI0004ED4004 phosphoacetylglucosamine mutase isoform X...   142   1e-31
+UniRef90_A0A1B0DC94 Uncharacterized protein n=1 Tax=Phlebotomus ...   142   1e-31
+UniRef90_A0A1J1IP77 Phosphoacetylglucosamine mutase n=1 Tax=Clun...   142   1e-31
+UniRef90_A0A1D6CF73 Phosphoacetylglucosamine mutase n=1 Tax=Trit...   142   1e-31
+UniRef90_UPI0006747977 phosphoacetylglucosamine mutase-like n=1 ...   142   1e-31
+UniRef90_A0A0V0IC11 Putative ovule protein n=1 Tax=Solanum chaco...   142   1e-31
+UniRef90_T1G6J7 Phosphoacetylglucosamine mutase n=1 Tax=Helobdel...   142   1e-31
+UniRef90_UPI00081173A9 phosphoacetylglucosamine mutase-like n=1 ...   142   1e-31
+UniRef90_H0Y8I3 Phosphoacetylglucosamine mutase (Fragment) n=1 T...   142   1e-31
+UniRef90_UPI000867A1FD Phosphoacetylglucosamine mutase n=1 Tax=S...   141   1e-31
+UniRef90_A0A137NS59 Phosphoacetylglucosamine mutase n=1 Tax=Coni...   141   1e-31
+UniRef90_A0A0M5J3X5 Phosphoacetylglucosamine mutase n=2 Tax=Dros...   141   1e-31
+UniRef90_A0A060T1B3 Phosphoacetylglucosamine mutase n=1 Tax=Blas...   141   2e-31
+UniRef90_A0A1B0GA53 Transferrin 2 (phosphoglucomutase/phosphoman...   141   2e-31
+UniRef90_A0A0A8L5F2 Phosphoacetylglucosamine mutase n=1 Tax=Kluy...   141   2e-31
+UniRef90_A0A1D2VJD0 Phosphoacetylglucosamine mutase n=1 Tax=Asco...   141   2e-31
+UniRef90_B0X482 Phosphoacetylglucosamine mutase n=4 Tax=Culex Ta...   141   2e-31
+UniRef90_D7LXR2 Phosphoacetylglucosamine mutase n=4 Tax=Brassica...   141   2e-31
+UniRef90_A0A026WZ93 Phosphoacetylglucosamine mutase n=1 Tax=Cera...   141   2e-31
+UniRef90_UPI000718DA64 phosphoacetylglucosamine mutase n=2 Tax=P...   141   2e-31
+UniRef90_A0A066WPR3 Phosphoacetylglucosamine mutase n=1 Tax=Till...   141   2e-31
+UniRef90_K0KEB1 Phosphoacetylglucosamine mutase n=1 Tax=Wickerha...   141   2e-31
+UniRef90_A0A084G9Y0 Phosphoacetylglucosamine mutase n=1 Tax=Sced...   141   2e-31
+UniRef90_A0A094KMP5 Phosphoacetylglucosamine mutase (Fragment) n...   141   2e-31
+UniRef90_A0A1G4JC72 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   141   2e-31
+UniRef90_A0A131ZT72 Phosphoacetylglucosamine mutase n=1 Tax=Sarc...   141   2e-31
+UniRef90_B9MTY0 Phosphoacetylglucosamine mutase n=2 Tax=Populus ...   141   2e-31
+UniRef90_B4NMG7 Phosphoacetylglucosamine mutase n=2 Tax=Drosophi...   141   2e-31
+UniRef90_A0A139AJV5 Phosphoacetylglucosamine mutase n=1 Tax=Gona...   141   2e-31
+UniRef90_A0A1Z5L9Z0 Uncharacterized protein (Fragment) n=1 Tax=O...   140   2e-31
+UniRef90_A0A165PD10 Phosphoacetylglucosamine mutase n=1 Tax=Exid...   140   2e-31
+UniRef90_D8SUW9 Uncharacterized protein (Fragment) n=2 Tax=Selag...   140   2e-31
+UniRef90_A0A0C4F7L0 Phosphoacetylglucosamine mutase n=1 Tax=Pucc...   140   2e-31
+UniRef90_A0A1E4SEB0 Phosphoacetylglucosamine mutase n=1 Tax=Cand...   140   2e-31
+UniRef90_UPI00049889A0 LOW QUALITY PROTEIN: phosphoacetylglucosa...   140   3e-31
+UniRef90_B3S2Y2 Phosphoacetylglucosamine mutase n=1 Tax=Trichopl...   140   3e-31
+UniRef90_A0A0K3C845 Phosphoacetylglucosamine mutase n=4 Tax=Rhod...   140   3e-31
+UniRef90_G8BF87 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   140   3e-31
+UniRef90_A0A086T2P7 Phosphoacetylglucosamine mutase n=1 Tax=Acre...   140   3e-31
+UniRef90_A0A137QS47 Phosphoacetylglucosamine mutase n=1 Tax=Leuc...   140   3e-31
+UniRef90_A0A1Z5KW02 Uncharacterized protein (Fragment) n=1 Tax=O...   140   3e-31
+UniRef90_A0A1Y1WL75 Phosphoacetylglucosamine mutase n=1 Tax=Lind...   140   4e-31
+UniRef90_A0A068USW6 Phosphoacetylglucosamine mutase n=1 Tax=Coff...   140   4e-31
+UniRef90_A7L4B1 Phosphoacetylglucosamine mutase n=6 Tax=Carica p...   140   4e-31
+UniRef90_UPI0004410FC8 phosphoacetylglucosamine mutase n=1 Tax=A...   140   4e-31
+UniRef90_A0A0K9Q0L2 Phosphoacetylglucosamine mutase n=1 Tax=Zost...   140   4e-31
+UniRef90_G8ZY60 Phosphoacetylglucosamine mutase n=1 Tax=Torulasp...   140   4e-31
+UniRef90_UPI000859FC95 phosphoacetylglucosamine mutase-like n=1 ...   140   4e-31
+UniRef90_Q6ZDQ1 Phosphoacetylglucosamine mutase n=8 Tax=Oryza Ta...   140   4e-31
+UniRef90_D8U2X1 Phosphoacetylglucosamine mutase n=1 Tax=Volvox c...   140   5e-31
+UniRef90_A0A1R1PEY1 Phosphoacetylglucosamine mutase n=1 Tax=Zanc...   139   5e-31
+UniRef90_UPI000258DEF3 phosphoacetylglucosamine mutase isoform X...   139   5e-31
+UniRef90_A0A0A9NW09 Uncharacterized protein n=2 Tax=Arundo donax...   139   5e-31
+UniRef90_A0A1G4MCE2 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   139   5e-31
+UniRef90_G8YTN2 Phosphoacetylglucosamine mutase n=2 Tax=Pichia s...   139   5e-31
+UniRef90_A0A0C3BC78 Phosphoacetylglucosamine mutase n=1 Tax=Sere...   139   6e-31
+UniRef90_A0A182WJR6 Uncharacterized protein n=2 Tax=Myzomyia Tax...   139   6e-31
+UniRef90_H2MR66 Phosphoacetylglucosamine mutase n=1 Tax=Oryzias ...   139   7e-31
+UniRef90_UPI0005D3FB59 phosphoacetylglucosamine mutase n=1 Tax=P...   139   7e-31
+UniRef90_A5DNZ9 Phosphoacetylglucosamine mutase n=1 Tax=Meyerozy...   139   7e-31
+UniRef90_W6MQ04 Phosphoacetylglucosamine mutase n=1 Tax=Kuraishi...   139   8e-31
+UniRef90_UPI0008406A07 phosphoacetylglucosamine mutase n=1 Tax=C...   139   8e-31
+UniRef90_S8CAW0 Phosphoacetylglucosamine mutase n=1 Tax=Genlisea...   139   8e-31
+UniRef90_UPI000771DC2E phosphoacetylglucosamine mutase isoform X...   139   8e-31
+UniRef90_R9AC49 Phosphoacetylglucosamine mutase n=1 Tax=Wallemia...   139   8e-31
+UniRef90_A0A0D0DAC6 Phosphoacetylglucosamine mutase n=1 Tax=Paxi...   139   8e-31
+UniRef90_A0A146L187 Phosphoacetylglucosamine mutase n=1 Tax=Lygu...   139   8e-31
+UniRef90_A0A1X7VL00 Phosphoacetylglucosamine mutase n=1 Tax=Amph...   139   8e-31
+UniRef90_UPI0007DC6275 phosphoacetylglucosamine mutase isoform X...   138   1e-30
+UniRef90_A0A0L0S2U0 Phosphoacetylglucosamine mutase n=2 Tax=Allo...   138   1e-30
+UniRef90_A0A0N7L9K1 Phosphoacetylglucosamine mutase n=1 Tax=Cera...   138   1e-30
+UniRef90_H8X4S4 Phosphoacetylglucosamine mutase n=1 Tax=Candida ...   138   1e-30
+UniRef90_UPI00064C11D2 phosphoacetylglucosamine mutase isoform X...   138   1e-30
+UniRef90_A0A1B6CV25 Uncharacterized protein n=2 Tax=Clastoptera ...   138   1e-30
+UniRef90_UPI0005F07BDB phosphoacetylglucosamine mutase n=1 Tax=W...   138   1e-30
+UniRef90_A0A0L1HKR5 Stress response protein NST1 n=1 Tax=Stemphy...   138   1e-30
+UniRef90_A0A1R1YC41 Phosphoacetylglucosamine mutase n=2 Tax=Smit...   138   1e-30
+UniRef90_A0A0X8HRM4 Phosphoacetylglucosamine mutase n=1 Tax=Erem...   138   1e-30
+UniRef90_A0A0L0V7X6 Uncharacterized protein n=1 Tax=Puccinia str...   138   2e-30
+UniRef90_A0A150H225 Uncharacterized protein n=1 Tax=Gonium pecto...   138   2e-30
+UniRef90_E2L4T6 Uncharacterized protein (Fragment) n=1 Tax=Monil...   138   2e-30
+UniRef90_F4RK03 Phosphoacetylglucosamine mutase n=1 Tax=Melampso...   138   2e-30
+UniRef90_S9X7C4 Phosphoacetylglucosamine mutase n=1 Tax=Schizosa...   138   2e-30
+UniRef90_G8JQW3 Phosphoacetylglucosamine mutase n=1 Tax=Eremothe...   138   2e-30
+UniRef90_UPI000B8B8518 phosphoacetylglucosamine mutase-like isof...   138   2e-30
+UniRef90_A0A0J7L2M4 Phosphoacetylglucosamine mutase n=1 Tax=Lasi...   138   2e-30
+UniRef90_G7E995 1,2-dihydroxy-3-keto-5-methylthiopentene dioxyge...   138   2e-30
+UniRef90_A0A125PIN5 Phosphoacetylglucosamine mutase n=1 Tax=Rhod...   138   2e-30
+UniRef90_A0A136JF88 Phosphoacetylglucosamine mutase n=1 Tax=Micr...   138   2e-30
+UniRef90_A0A182XLJ6 Uncharacterized protein n=1 Tax=Anopheles qu...   137   2e-30
+UniRef90_A0A074RYA8 Phosphoacetylglucosamine mutase n=4 Tax=Rhiz...   137   2e-30
+UniRef90_A0A1E4U2Z3 Phosphoacetylglucosamine mutase n=1 Tax=Pach...   137   2e-30
+UniRef90_A0A0E9ND47 Uncharacterized protein n=1 Tax=Saitoella co...   137   2e-30
+UniRef90_V9L9U3 Phosphoglucomutase 3 (Fragment) n=1 Tax=Callorhi...   137   2e-30
+UniRef90_J5QRT1 Phosphoacetylglucosamine mutase n=2 Tax=Trichosp...   137   2e-30
+UniRef90_A0A195CFN1 Phosphoacetylglucosamine mutase n=1 Tax=Cyph...   137   2e-30
+UniRef90_A0A0C3HUM9 Phosphoacetylglucosamine mutase n=1 Tax=Oidi...   137   2e-30
+UniRef90_A0A182ZAN2 Uncharacterized protein n=1 Tax=Biomphalaria...   137   2e-30
+UniRef90_UPI00042C8B7B phosphoacetylglucosamine mutase isoform X...   137   2e-30
+UniRef90_A0A0C9VSZ7 Unplaced genomic scaffold SPHSTscaffold_36, ...   137   2e-30
+UniRef90_A0A182S6C0 Uncharacterized protein n=1 Tax=Anopheles ma...   137   2e-30
+UniRef90_A0A0D2LTW9 Phosphoacetylglucosamine mutase n=1 Tax=Mono...   137   2e-30
+UniRef90_N1JC79 Phosphoacetylglucosamine mutase n=1 Tax=Blumeria...   137   3e-30
+UniRef90_R1E8V5 Phosphoacetylglucosamine mutase n=5 Tax=Botryosp...   137   3e-30
+UniRef90_A0A0J9XF82 Phosphoacetylglucosamine mutase n=1 Tax=Geot...   137   3e-30
+UniRef90_A0A0M8ZZS2 Phosphoacetylglucosamine mutase n=1 Tax=Meli...   137   3e-30
+UniRef90_UPI0006265571 phosphoacetylglucosamine mutase n=1 Tax=O...   137   3e-30
+UniRef90_A0A0L0NU96 Phosphoacetylglucosamine mutase n=1 Tax=[Can...   137   3e-30
+UniRef90_A0A1E5RG33 Phosphoacetylglucosamine mutase n=1 Tax=Hans...   137   3e-30
+UniRef90_A0A0D3B1R2 Phosphoacetylglucosamine mutase n=4 Tax=Bras...   137   3e-30
+UniRef90_A0A1L0BC82 Phosphoacetylglucosamine mutase n=2 Tax=[Can...   137   3e-30
+UniRef90_A0A010S6D7 Phosphoacetylglucosamine mutase n=15 Tax=Col...   137   3e-30
+UniRef90_A0A0V0XRT7 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   137   3e-30
+UniRef90_A0A0V0XS09 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   137   3e-30
+UniRef90_A0A0V1FAB6 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   137   3e-30
+UniRef90_A0A1B8GKJ3 Phosphoacetylglucosamine mutase n=21 Tax=Pse...   137   3e-30
+UniRef90_R8BCB4 Phosphoacetylglucosamine mutase n=1 Tax=Togninia...   137   4e-30
+UniRef90_A0A164ZYN8 Phosphoacetylglucosamine mutase n=1 Tax=Xylo...   137   4e-30
+UniRef90_A0A0V0XRZ5 Phosphoacetylglucosamine mutase (Fragment) n...   137   4e-30
+UniRef90_A0A0G4KE21 Uncharacterized protein (Fragment) n=1 Tax=V...   137   4e-30
+UniRef90_A0A1W2TDM3 Phosphoacetylglucosamine mutase n=2 Tax=Fung...   136   4e-30
+UniRef90_A0A1S6KW40 Phosphoacetylglucosamine mutase (Fragment) n...   136   4e-30
+UniRef90_A0A0B1PEY4 Phosphoacetylglucosamine mutase n=1 Tax=Unci...   136   5e-30
+UniRef90_G1X5E3 Phosphoacetylglucosamine mutase n=1 Tax=Arthrobo...   136   5e-30
+UniRef90_UPI0005119DC6 phosphoacetylglucosamine mutase-like n=1 ...   136   6e-30
+UniRef90_A0A0L7R3U1 Phosphoacetylglucosamine mutase n=1 Tax=Habr...   136   6e-30
+UniRef90_A0A0P9EJU6 Phosphoacetylglucosamine mutase n=1 Tax=Rhod...   136   6e-30
+UniRef90_A0A1Y2E318 Phosphoacetylglucosamine mutase n=1 Tax=Pseu...   136   6e-30
+UniRef90_A0A1E3PSZ2 Phosphoacetylglucosamine mutase n=1 Tax=Nads...   136   6e-30
+UniRef90_H2ULI0 Phosphoacetylglucosamine mutase n=1 Tax=Takifugu...   136   6e-30
+UniRef90_I1RC31 Phosphoacetylglucosamine mutase n=22 Tax=Fusariu...   136   7e-30
+UniRef90_A0A087UK17 Phosphoacetylglucosamine mutase (Fragment) n...   136   7e-30
+UniRef90_W9SU38 Phosphoacetylglucosamine mutase n=1 Tax=Morus no...   136   7e-30
+UniRef90_A0A0C3CVS5 Phosphoacetylglucosamine mutase n=1 Tax=Hebe...   136   7e-30
+UniRef90_A0A084QKH0 Phosphoacetylglucosamine mutase n=3 Tax=Stac...   135   8e-30
+UniRef90_UPI00083C5601 phosphoacetylglucosamine mutase n=1 Tax=E...   135   8e-30
+UniRef90_A0A067MML2 Phosphoacetylglucosamine mutase n=1 Tax=Botr...   135   8e-30
+UniRef90_A0A151GEH8 Phosphoacetylglucosamine mutase n=1 Tax=Drec...   135   9e-30
+UniRef90_M5BJT9 Phosphoacetylglucosamine mutase n=2 Tax=Rhizocto...   135   9e-30
+UniRef90_A0A154PPH5 Phosphoacetylglucosamine mutase n=1 Tax=Dufo...   135   9e-30
+UniRef90_UPI000A2A97B6 phosphoacetylglucosamine mutase-like n=1 ...   135   1e-29
+UniRef90_G0VG84 Phosphoacetylglucosamine mutase n=1 Tax=Naumovoz...   135   1e-29
+UniRef90_A0A0P6BY25 Phosphoacetylglucosamine mutase n=1 Tax=Daph...   135   1e-29
+UniRef90_Q6C454 Phosphoacetylglucosamine mutase n=2 Tax=Yarrowia...   135   1e-29
+UniRef90_A0A078C6X8 Phosphoacetylglucosamine mutase n=3 Tax=Bras...   135   1e-29
+UniRef90_A0A1E3Q796 Phosphoacetylglucosamine mutase n=1 Tax=Lipo...   135   1e-29
+UniRef90_A0A1U7LIF1 Phosphoacetylglucosamine mutase n=1 Tax=Neol...   135   1e-29
+UniRef90_A0A0P7BVJ6 Phosphoacetylglucosamine mutase n=1 Tax=Neon...   135   1e-29
+UniRef90_W0TFE1 Phosphoacetylglucosamine mutase n=1 Tax=Kluyvero...   135   1e-29
+UniRef90_A0A0V1D366 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   135   1e-29
+UniRef90_A0A0V1B0A8 Phosphoacetylglucosamine mutase n=16 Tax=Tri...   135   1e-29
+UniRef90_A0A166CFN1 Phosphoacetylglucosamine mutase n=2 Tax=Sist...   135   1e-29
+UniRef90_A0A0G4MDK2 Phosphoacetylglucosamine mutase n=1 Tax=Vert...   135   1e-29
+UniRef90_A0A1Y1UIT6 Phosphoacetylglucosamine mutase n=1 Tax=Kock...   135   1e-29
+UniRef90_A0A1R0H0G8 Phosphoacetylglucosamine mutase n=1 Tax=Smit...   135   1e-29
+UniRef90_G2WYV4 Phosphoacetylglucosamine mutase n=2 Tax=Verticil...   135   1e-29
+UniRef90_K1XL19 Phosphoacetylglucosamine mutase n=7 Tax=Helotial...   135   1e-29
+UniRef90_E3RSJ0 Phosphoacetylglucosamine mutase n=9 Tax=Pleospor...   135   1e-29
+UniRef90_W3XNK0 Phosphoacetylglucosamine mutase n=1 Tax=Pestalot...   135   1e-29
+UniRef90_A0A182I2R2 Uncharacterized protein n=1 Tax=Anopheles ar...   135   2e-29
+UniRef90_I0YJY8 Phosphoacetylglucosamine mutase n=1 Tax=Coccomyx...   135   2e-29
+UniRef90_A0A063BTC5 Phosphoacetylglucosamine mutase n=1 Tax=Usti...   135   2e-29
+UniRef90_A0A1B6GXU0 Uncharacterized protein (Fragment) n=1 Tax=C...   134   2e-29
+UniRef90_A0A1A5ZXY0 Phosphoacetylglucosamine mutase n=1 Tax=Kwon...   134   2e-29
+UniRef90_A7S2H7 Phosphoacetylglucosamine mutase n=1 Tax=Nematost...   134   2e-29
+UniRef90_A0A099P4L8 Phosphoacetylglucosamine mutase n=2 Tax=Pich...   134   2e-29
+UniRef90_C4Y4X5 Phosphoacetylglucosamine mutase n=1 Tax=Clavispo...   134   2e-29
+UniRef90_A0A084WES1 Phosphoacetylglucosamine mutase n=2 Tax=Anop...   134   2e-29
+UniRef90_Q6CSH9 Phosphoacetylglucosamine mutase n=1 Tax=Kluyvero...   134   2e-29
+UniRef90_I2FTA3 Phosphoacetylglucosamine mutase n=2 Tax=Ustilago...   134   2e-29
+UniRef90_M7TMW3 Phosphoacetylglucosamine mutase n=1 Tax=Eutypa l...   134   2e-29
+UniRef90_Q8BWW3 Phosphoacetylglucosamine mutase n=2 Tax=Mus TaxI...   134   2e-29
+UniRef90_A0A1G4IVT5 Phosphoacetylglucosamine mutase n=1 Tax=Lach...   134   2e-29
+UniRef90_A0A1Y1ZX85 Phosphoacetylglucosamine mutase n=1 Tax=Cloh...   134   3e-29
+UniRef90_M1W7F4 Phosphoacetylglucosamine mutase n=1 Tax=Clavicep...   134   3e-29
+UniRef90_A0A0V1MIP8 Phosphoacetylglucosamine mutase n=3 Tax=Tric...   134   3e-29
+UniRef90_A0A0V1MJB5 Phosphoacetylglucosamine mutase n=2 Tax=Tric...   134   3e-29
+UniRef90_A0A0V1HD43 Phosphoacetylglucosamine mutase n=1 Tax=Tric...   134   3e-29
+UniRef90_A0A1Y1IRL6 Phosphoacetylglucosamine mutase n=1 Tax=Kleb...   133   3e-29
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_K7FXW4 Phosphoacetylglucosamine mutase n=3 Tax=Pelodiscus sinensis
+           TaxID=13735 RepID=K7FXW4_PELSI
+          Length = 571
+
+ Score =  160 bits (405), Expect = 4e-37,   Method: Composition-based stats.
+ Identities = 41/84 (48%), Positives = 53/84 (63%)
+
+Query: 1   PSRLVRVEVAERSIFKAYDAERKLESPPGLQAKIDSLQSRYNKGRSFARASGTEDAVRVY 60
+           P+R ++V+VA+R +    DAER+  +P GLQ KID L   Y   R+F R SGTED VRVY
+Sbjct: 477 PNRQLKVKVADRRVIDTTDAERRAVTPSGLQEKIDELVKTYRLSRAFVRPSGTEDVVRVY 536
+
+Query: 61  AEAASRSEADDLATRVANAVRDAG 84
+           AEA ++  AD LA  V+ AV    
+Sbjct: 537 AEADTQENADSLAYEVSLAVYHLA 560
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.312    0.187    0.620 
+
+Lambda     K      H
+   0.267   0.0575    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 20,905,903,553
+Number of Sequences: 61934301
+Number of extensions: 1123671576
+Number of successful extensions: 2082032
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 30517
+Number of HSP's successfully gapped in prelim test: 3952
+Number of HSP's that attempted gapping in prelim test: 2043250
+Number of HSP's gapped (non-prelim): 35089
+length of query: 84
+length of database: 21,023,703,129
+effective HSP length: 54
+effective length of query: 30
+effective length of database: 21,974,218,171
+effective search space: 659226545130
+effective search space used: 659226545130
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.3 bits)
+S2: 83 (36.1 bits)

@@ -30,17 +30,17 @@ function fragments() {
   # $TOOLS/fragment_tools/make_fragments.pl ../../structures/$QUERYPDB.fa
   cd ..
   ln -s auto/auto.200.3mers $QUERYPDB.auto.200.3mers
-  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../../structures/$QUERYPDB.pdb -f $QUERYPDB.auto.200.3mers -out:qual $QUERYPDB.auto.200.3mers.qual
+  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../structures/$QUERYPDB.pdb -f $QUERYPDB.auto.200.3mers -out:qual $QUERYPDB.auto.200.3mers.qual
   ln -s auto/auto.200.9mers $QUERYPDB.auto.200.9mers
-  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../../structures/$QUERYPDB.pdb -f $QUERYPDB.auto.200.9mers -out:qual $QUERYPDB.auto.200.9mers.qual
+  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../structures/$QUERYPDB.pdb -f $QUERYPDB.auto.200.9mers -out:qual $QUERYPDB.auto.200.9mers.qual
   ln -s picker/$QUERYPDB.200.3mers $QUERYPDB.picker.200.3mers
-  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../../structures/$QUERYPDB.pdb -f $QUERYPDB.picker.200.3mers -out:qual $QUERYPDB.picker.200.3mers.qual
+  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../structures/$QUERYPDB.pdb -f $QUERYPDB.picker.200.3mers -out:qual $QUERYPDB.picker.200.3mers.qual
   ln -s picker/$QUERYPDB.200.9mers $QUERYPDB.picker.200.9mers
-  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../../structures/$QUERYPDB.pdb -f $QUERYPDB.picker.200.9mers -out:qual $QUERYPDB.picker.200.9mers.qual
+  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../structures/$QUERYPDB.pdb -f $QUERYPDB.picker.200.9mers -out:qual $QUERYPDB.picker.200.9mers.qual
   ln -s wauto/wauto.200.3mers $QUERYPDB.wauto.200.3mers
-  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../../structures/$QUERYPDB.pdb -f $QUERYPDB.wauto.200.3mers -out:qual $QUERYPDB.wauto.200.3mers.qual
+  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../structures/$QUERYPDB.pdb -f $QUERYPDB.wauto.200.3mers -out:qual $QUERYPDB.wauto.200.3mers.qual
   ln -s wauto/wauto.200.9mers $QUERYPDB.wauto.200.9mers
-  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../../structures/$QUERYPDB.pdb -f $QUERYPDB.wauto.200.9mers -out:qual $QUERYPDB.wauto.200.9mers.qual
+  # $ROSETTA/r_frag_quality.$COMPILE -in:file:native ../structures/$QUERYPDB.pdb -f $QUERYPDB.wauto.200.9mers -out:qual $QUERYPDB.wauto.200.9mers.qual
   cd ..
 }
 
