@@ -105,3 +105,4 @@ ENV/
 
 *.combinedsilent.gz
 vall.jul19.2011.gz
+output/*/*gz

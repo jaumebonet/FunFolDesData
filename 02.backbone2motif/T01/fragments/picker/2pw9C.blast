@@ -1,0 +1,1952 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2pw9C
+         (58 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_Q6AMB9 Sulfur carrier protein FdhD n=2 Tax=Desulfotalea...   120   3e-25
+UniRef90_A0A1F9NQH9 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   104   2e-20
+UniRef90_A0A1M7Y7P1 Sulfur carrier protein FdhD n=1 Tax=Desulfop...   102   1e-19
+UniRef90_K1ZFH2 Uncharacterized protein (Fragment) n=1 Tax=groun...    98   1e-18
+UniRef90_UPI000881AA59 sufurtransferase FdhD n=1 Tax=Desulforhop...    96   7e-18
+UniRef90_A0A0A2HYT2 Sulfur carrier protein FdhD n=1 Tax=Desulfob...    95   1e-17
+UniRef90_A0A1W9MBE6 Sulfur carrier protein FdhD n=1 Tax=Desulfob...    94   3e-17
+UniRef90_A0A1Q6DIC6 Sulfur carrier protein FdhD n=1 Tax=Desulfob...    94   3e-17
+UniRef90_A0A1M5X7I8 Sulfur carrier protein FdhD n=1 Tax=Desulfof...    92   9e-17
+UniRef90_M1PN36 Sulfur carrier protein FdhD n=1 Tax=Desulfocapsa...    89   6e-16
+UniRef90_V4J6H5 Sulfur carrier protein FdhD n=1 Tax=uncultured D...    86   7e-15
+UniRef90_UPI000889FE6F sufurtransferase FdhD n=1 Tax=Desulfonatr...    85   1e-14
+UniRef90_UPI0005EAE572 sulfurtransferase FdhD n=1 Tax=Desulfonat...    84   2e-14
+UniRef90_UPI00068FF5AC sulfurtransferase FdhD n=2 Tax=Desulfonat...    80   5e-13
+UniRef90_UPI00048AFEA6 sulfurtransferase FdhD n=1 Tax=Desulfonat...    77   3e-12
+UniRef90_UPI0005EB7B16 sulfurtransferase FdhD n=1 Tax=Desulfonat...    77   4e-12
+UniRef90_F0S3P5 Sulfur carrier protein FdhD n=1 Tax=Desulfurobac...    74   2e-11
+UniRef90_D6SQL7 Sulfur carrier protein FdhD n=1 Tax=Desulfonatro...    68   2e-09
+UniRef90_A0A179D1Y6 Sulfur carrier protein FdhD n=1 Tax=Thermosu...    66   7e-09
+UniRef90_F8AD14 Sulfur carrier protein FdhD n=2 Tax=Thermodesulf...    65   2e-08
+UniRef90_UPI0003B3D20A sulfurtransferase FdhD n=1 Tax=Thermodesu...    63   6e-08
+UniRef90_A0A0W8F3J2 Formate dehydrogenase chain d n=1 Tax=hydroc...    52   1e-04
+
+>UniRef90_Q6AMB9 Sulfur carrier protein FdhD n=2 Tax=Desulfotalea psychrophila
+          (strain LSv54 / DSM 12343) TaxID=177439
+          RepID=Q6AMB9_DESPS
+          Length = 258
+
+ Score =  120 bits (301), Expect = 3e-25,   Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA
+Sbjct: 32 ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 89
+
+
+>UniRef90_A0A1F9NQH9 Sulfur carrier protein FdhD n=1 Tax=Desulfobacterales bacterium
+          GWB2_56_26 TaxID=1797913 RepID=A0A1F9NQH9_9DELT
+          Length = 255
+
+ Score =  104 bits (259), Expect = 2e-20,   Method: Composition-based stats.
+ Identities = 48/58 (82%), Positives = 54/58 (93%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY+IALND  IGSSMVLP+ LEEFGAGFLFGQGYIK+ EEI+EILVCP+GRI+VYA
+Sbjct: 29 ETPYSIALNDETIGSSMVLPIGLEEFGAGFLFGQGYIKRPEEIKEILVCPEGRIAVYA 86
+
+
+>UniRef90_A0A1M7Y7P1 Sulfur carrier protein FdhD n=1 Tax=Desulfopila aestuarii DSM
+          18488 TaxID=1121416 RepID=A0A1M7Y7P1_9DELT
+          Length = 263
+
+ Score =  102 bits (253), Expect = 1e-19,   Method: Composition-based stats.
+ Identities = 45/58 (77%), Positives = 52/58 (89%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY+IALND  IGSSMVLP+ LEEFG GFLFGQGYI K EE++E+LVCP+GRI+VYA
+Sbjct: 35 ETPYSIALNDETIGSSMVLPIGLEEFGVGFLFGQGYISKPEEVKEVLVCPEGRIAVYA 92
+
+
+>UniRef90_K1ZFH2 Uncharacterized protein (Fragment) n=1 Tax=groundwater metagenome
+          TaxID=717931 RepID=K1ZFH2_9ZZZZ
+          Length = 173
+
+ Score = 98.2 bits (243), Expect = 1e-18,   Method: Composition-based stats.
+ Identities = 45/58 (77%), Positives = 51/58 (87%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY IALND  IG+SMVLP+ LEEFG GFLFGQGYIK  EEI+EI+VCP+GRI+VYA
+Sbjct: 35 ETPYTIALNDETIGASMVLPIGLEEFGVGFLFGQGYIKTPEEIKEIVVCPEGRIAVYA 92
+
+
+>UniRef90_UPI000881AA59 sufurtransferase FdhD n=1 Tax=Desulforhopalus singaporensis
+          TaxID=91360 RepID=UPI000881AA59
+          Length = 261
+
+ Score = 95.9 bits (237), Expect = 7e-18,   Method: Composition-based stats.
+ Identities = 43/58 (74%), Positives = 49/58 (84%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY+IALND  IGSSMVLP  LEEFG GFLFGQGYIK   E++E+ VCP+GRI+VYA
+Sbjct: 35 ETPYSIALNDETIGSSMVLPSALEEFGVGFLFGQGYIKHPREVKEVYVCPEGRIAVYA 92
+
+
+>UniRef90_A0A0A2HYT2 Sulfur carrier protein FdhD n=1 Tax=Desulfobulbus sp. Tol-SR
+          TaxID=1536652 RepID=A0A0A2HYT2_9DELT
+          Length = 255
+
+ Score = 95.1 bits (235), Expect = 1e-17,   Method: Composition-based stats.
+ Identities = 42/58 (72%), Positives = 50/58 (86%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY +ALND  IG+SMVLPV L EFG GFLFGQGYI+  EE++E++VCP+GRISVYA
+Sbjct: 29 ETPYTVALNDETIGASMVLPVGLAEFGVGFLFGQGYIRTPEEVKEVIVCPEGRISVYA 86
+
+
+>UniRef90_A0A1W9MBE6 Sulfur carrier protein FdhD n=1 Tax=Desulfobulbaceae bacterium A2
+          TaxID=1934250 RepID=A0A1W9MBE6_9DELT
+          Length = 248
+
+ Score = 94.0 bits (232), Expect = 3e-17,   Method: Composition-based stats.
+ Identities = 43/58 (74%), Positives = 51/58 (87%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY +ALNDRVIG+SMVL   LEEFGAGFLFGQGYI +  ++RE+LVCP+GRISV+A
+Sbjct: 22 ETPYKVALNDRVIGASMVLETGLEEFGAGFLFGQGYITEPGQVREVLVCPEGRISVHA 79
+
+
+>UniRef90_A0A1Q6DIC6 Sulfur carrier protein FdhD n=1 Tax=Desulfobulbaceae bacterium
+          DB1 TaxID=1920419 RepID=A0A1Q6DIC6_9DELT
+          Length = 256
+
+ Score = 93.6 bits (231), Expect = 3e-17,   Method: Composition-based stats.
+ Identities = 41/58 (70%), Positives = 51/58 (87%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY +ALND+VIG+SMVL   LEEFGAGFLFGQGY+   ++++E+LVCP+GRISVYA
+Sbjct: 29 ETPYKVALNDKVIGASMVLETGLEEFGAGFLFGQGYVTTPDQVKEVLVCPEGRISVYA 86
+
+
+>UniRef90_A0A1M5X7I8 Sulfur carrier protein FdhD n=1 Tax=Desulfofustis glycolicus DSM
+          9705 TaxID=1121409 RepID=A0A1M5X7I8_9DELT
+          Length = 255
+
+ Score = 92.4 bits (228), Expect = 9e-17,   Method: Composition-based stats.
+ Identities = 41/58 (70%), Positives = 50/58 (86%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY I LN+  IG+SMVLPV L EFG GFLFGQGY+++ EEI+E+LVCP+G+ISVYA
+Sbjct: 29 ETPYTITLNEVTIGASMVLPVGLAEFGVGFLFGQGYLQRPEEIKEVLVCPEGKISVYA 86
+
+
+>UniRef90_M1PN36 Sulfur carrier protein FdhD n=1 Tax=Desulfocapsa sulfexigens
+          (strain DSM 10523 / SB164P1) TaxID=1167006
+          RepID=M1PN36_DESSD
+          Length = 252
+
+ Score = 89.4 bits (220), Expect = 6e-16,   Method: Composition-based stats.
+ Identities = 41/58 (70%), Positives = 48/58 (82%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E PY +ALND  IGSSMVL   LEEFGAGFLFGQGY+ K  ++RE+LVCP+GRISV+A
+Sbjct: 25 EVPYKVALNDEEIGSSMVLATGLEEFGAGFLFGQGYVTKVGQVREVLVCPEGRISVHA 82
+
+
+>UniRef90_V4J6H5 Sulfur carrier protein FdhD n=1 Tax=uncultured Desulfofustis sp.
+          PB-SRB1 TaxID=1385624 RepID=V4J6H5_9DELT
+          Length = 258
+
+ Score = 85.9 bits (211), Expect = 7e-15,   Method: Composition-based stats.
+ Identities = 39/58 (67%), Positives = 47/58 (81%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETP+ + LN+  IGSSMVLPVDLEEFGAGFLFG+GY+   EE+ E+ VC  GRISV+A
+Sbjct: 29 ETPFTVMLNEEEIGSSMVLPVDLEEFGAGFLFGRGYLSSPEELVEVWVCDDGRISVFA 86
+
+
+>UniRef90_UPI000889FE6F sufurtransferase FdhD n=1 Tax=Desulfonatronum thiosulfatophilum
+          TaxID=617002 RepID=UPI000889FE6F
+          Length = 261
+
+ Score = 85.1 bits (209), Expect = 1e-14,   Method: Composition-based stats.
+ Identities = 38/58 (65%), Positives = 48/58 (82%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E P  +ALN+RVIGS+MVL  +LEEFGAGFLFGQGY+   EEI E+++C QGR++VYA
+Sbjct: 30 EQPVEVALNERVIGSAMVLAENLEEFGAGFLFGQGYVSSPEEIVEVVLCDQGRVTVYA 87
+
+
+>UniRef90_UPI0005EAE572 sulfurtransferase FdhD n=1 Tax=Desulfonatronum thioautotrophicum
+          TaxID=617001 RepID=UPI0005EAE572
+          Length = 266
+
+ Score = 84.3 bits (207), Expect = 2e-14,   Method: Composition-based stats.
+ Identities = 37/58 (63%), Positives = 48/58 (82%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E P  +ALN+R+IG++MVL +DLEEFGAGFLFGQGY+   E+I E+ VC QGR++VYA
+Sbjct: 31 EQPVEVALNERLIGTAMVLALDLEEFGAGFLFGQGYVSVPEDIVEVTVCEQGRVTVYA 88
+
+
+>UniRef90_UPI00068FF5AC sulfurtransferase FdhD n=2 Tax=Desulfonatronum TaxID=66848
+          RepID=UPI00068FF5AC
+          Length = 280
+
+ Score = 79.7 bits (195), Expect = 5e-13,   Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 47/58 (81%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E P  +ALN+RVIG++MVL  DL+ FGAGFLFGQGY+   E+I E+++C QGR++VYA
+Sbjct: 30 EQPVEVALNERVIGTAMVLAQDLDVFGAGFLFGQGYVSTPEDIVEVVLCEQGRVTVYA 87
+
+
+>UniRef90_UPI00048AFEA6 sulfurtransferase FdhD n=1 Tax=Desulfonatronovibrio
+          hydrogenovorans TaxID=53245 RepID=UPI00048AFEA6
+          Length = 253
+
+ Score = 77.0 bits (188), Expect = 3e-12,   Method: Composition-based stats.
+ Identities = 34/58 (58%), Positives = 43/58 (74%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E PY + LND  IGS+MVL  DL+EF AG+LFGQG+++K   I +I VCP GR+ VYA
+Sbjct: 26 ERPYTVTLNDETIGSAMVLARDLKEFAAGYLFGQGHLEKDTRIFQIEVCPDGRVDVYA 83
+
+
+>UniRef90_UPI0005EB7B16 sulfurtransferase FdhD n=1 Tax=Desulfonatronovibrio magnus
+          TaxID=698827 RepID=UPI0005EB7B16
+          Length = 253
+
+ Score = 77.0 bits (188), Expect = 4e-12,   Method: Composition-based stats.
+ Identities = 34/58 (58%), Positives = 44/58 (75%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETP+A+ LND   GSSMVL  +LEEFG GFLFG+G++    +I E+ VCP+GR+ VYA
+Sbjct: 26 ETPFAVNLNDEPAGSSMVLASNLEEFGVGFLFGRGHLTAEAQILEVKVCPEGRVDVYA 83
+
+
+>UniRef90_F0S3P5 Sulfur carrier protein FdhD n=1 Tax=Desulfurobacterium
+          thermolithotrophum (strain DSM 11699 / BSA)
+          TaxID=868864 RepID=F0S3P5_DESTD
+          Length = 255
+
+ Score = 74.3 bits (181), Expect = 2e-11,   Method: Composition-based stats.
+ Identities = 34/54 (62%), Positives = 40/54 (74%)
+
+Query: 4  YAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVY 57
+          Y + LND  IGSSMVLP +LEEFG GFLF QGYI+K E+I  + VC +G I VY
+Sbjct: 30 YKVFLNDEYIGSSMVLPCNLEEFGVGFLFSQGYIQKPEDIESVRVCDKGGIFVY 83
+
+
+>UniRef90_D6SQL7 Sulfur carrier protein FdhD n=1 Tax=Desulfonatronospira
+          thiodismutans ASO3-1 TaxID=555779 RepID=D6SQL7_9DELT
+          Length = 282
+
+ Score = 68.2 bits (165), Expect = 2e-09,   Method: Composition-based stats.
+ Identities = 30/58 (51%), Positives = 41/58 (70%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E P  + LND  +G++MV+  DLEE   G+LFGQG I+  ++I +I VC QGRI+VYA
+Sbjct: 26 EKPVGVVLNDEPVGTAMVMARDLEELAVGYLFGQGLIEPGDKIFDIEVCEQGRINVYA 83
+
+
+>UniRef90_A0A179D1Y6 Sulfur carrier protein FdhD n=1 Tax=Thermosulfurimonas dismutans
+          TaxID=999894 RepID=A0A179D1Y6_9BACT
+          Length = 255
+
+ Score = 65.9 bits (159), Expect = 7e-09,   Method: Composition-based stats.
+ Identities = 33/59 (55%), Positives = 41/59 (69%), Gaps = 1/59 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC-PQGRISVYA 58
+          E PY I LN+  IGSSMVLP  LEEFG GFL+ QGY+   E ++E+ +C  +G I VYA
+Sbjct: 28 EVPYKIYLNEEPIGSSMVLPTGLEEFGVGFLYAQGYLSGPEVVKEVRLCHERGGIFVYA 86
+
+
+>UniRef90_F8AD14 Sulfur carrier protein FdhD n=2 Tax=Thermodesulfatator
+          TaxID=241192 RepID=F8AD14_THEID
+          Length = 258
+
+ Score = 64.7 bits (156), Expect = 2e-08,   Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 38/59 (64%), Gaps = 1/59 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC-PQGRISVYA 58
+          E PY I LN+  +GSSMVLP  LEEFG GFLF QGY       +E+ +C  +G I VYA
+Sbjct: 28 ERPYRIYLNEEPVGSSMVLPTGLEEFGVGFLFAQGYFDNPTVFKEVRLCHEKGSIFVYA 86
+
+
+>UniRef90_UPI0003B3D20A sulfurtransferase FdhD n=1 Tax=Thermodesulfatator atlanticus
+          TaxID=501497 RepID=UPI0003B3D20A
+          Length = 258
+
+ Score = 63.2 bits (152), Expect = 6e-08,   Method: Composition-based stats.
+ Identities = 31/59 (52%), Positives = 38/59 (64%), Gaps = 1/59 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC-PQGRISVYA 58
+          E PY I LN+  +GSSMVLP  LEEFG G+LF QGY       +E+ +C  +G I VYA
+Sbjct: 28 EKPYRIYLNEEPVGSSMVLPTGLEEFGLGYLFAQGYFDDPSVFKEVRLCHEKGSIFVYA 86
+
+
+>UniRef90_A0A0W8F3J2 Formate dehydrogenase chain d n=1 Tax=hydrocarbon metagenome
+          TaxID=938273 RepID=A0A0W8F3J2_9ZZZZ
+          Length = 260
+
+ Score = 52.0 bits (123), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 28/56 (50%), Positives = 38/56 (67%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E PYA+ +N R   +SM+ P++LE+F  G+LF +  IKKAEEI  I V  + RISV
+Sbjct: 28 EVPYALFINGRHAMTSMMSPIELEDFVTGYLFTEQVIKKAEEIESIKV-EKNRISV 82
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A1F9NQH9 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   116   4e-24
+UniRef90_A0A1M7Y7P1 Sulfur carrier protein FdhD n=1 Tax=Desulfop...   116   5e-24
+UniRef90_Q6AMB9 Sulfur carrier protein FdhD n=2 Tax=Desulfotalea...   115   7e-24
+UniRef90_K1ZFH2 Uncharacterized protein (Fragment) n=1 Tax=groun...   113   5e-23
+UniRef90_UPI000881AA59 sufurtransferase FdhD n=1 Tax=Desulforhop...   112   7e-23
+UniRef90_A0A0A2HYT2 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   110   2e-22
+UniRef90_A0A1Q6DIC6 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   108   8e-22
+UniRef90_A0A1M5X7I8 Sulfur carrier protein FdhD n=1 Tax=Desulfof...   108   2e-21
+UniRef90_V4J6H5 Sulfur carrier protein FdhD n=1 Tax=uncultured D...   106   5e-21
+UniRef90_A0A1W9MBE6 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   105   7e-21
+UniRef90_UPI0005EAE572 sulfurtransferase FdhD n=1 Tax=Desulfonat...   104   1e-20
+UniRef90_M1PN36 Sulfur carrier protein FdhD n=1 Tax=Desulfocapsa...   104   1e-20
+UniRef90_UPI000889FE6F sufurtransferase FdhD n=1 Tax=Desulfonatr...   103   3e-20
+UniRef90_F0S3P5 Sulfur carrier protein FdhD n=1 Tax=Desulfurobac...   102   6e-20
+UniRef90_F8AD14 Sulfur carrier protein FdhD n=2 Tax=Thermodesulf...   101   2e-19
+UniRef90_UPI00068FF5AC sulfurtransferase FdhD n=2 Tax=Desulfonat...   101   2e-19
+UniRef90_UPI00048AFEA6 sulfurtransferase FdhD n=1 Tax=Desulfonat...   100   2e-19
+UniRef90_UPI0005EB7B16 sulfurtransferase FdhD n=1 Tax=Desulfonat...   100   3e-19
+UniRef90_A0A179D1Y6 Sulfur carrier protein FdhD n=1 Tax=Thermosu...   100   5e-19
+UniRef90_UPI0003B3D20A sulfurtransferase FdhD n=1 Tax=Thermodesu...    99   9e-19
+UniRef90_D6SQL7 Sulfur carrier protein FdhD n=1 Tax=Desulfonatro...    97   3e-18
+UniRef90_A0A0W8F3J2 Formate dehydrogenase chain d n=1 Tax=hydroc...    80   3e-13
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1V4ZWS9 Sulfur carrier protein FdhD n=1 Tax=Methanor...    79   1e-12
+UniRef90_A0A1V4ZVD4 Sulfur carrier protein FdhD n=2 Tax=unclassi...    72   1e-10
+UniRef90_A7IA75 Sulfur carrier protein FdhD n=1 Tax=Methanoregul...    71   2e-10
+UniRef90_L0HFK6 Sulfur carrier protein FdhD n=1 Tax=Methanoregul...    67   3e-09
+UniRef90_A0A1V4UE25 Sulfur carrier protein FdhD n=2 Tax=unclassi...    67   3e-09
+UniRef90_A0A1V4ZG69 Sulfur carrier protein FdhD n=2 Tax=Methanor...    67   5e-09
+UniRef90_UPI0008347709 sulfurtransferase FdhD n=1 Tax=Methanofol...    66   8e-09
+UniRef90_A0A1V4ZNA7 Sulfur carrier protein FdhD n=1 Tax=Methanor...    65   1e-08
+UniRef90_A0A0F8FDQ6 Sulfur carrier protein FdhD n=4 Tax=Methanos...    61   3e-07
+UniRef90_Q2FND8 Uncharacterized protein required for formate deh...    60   4e-07
+UniRef90_A0A1V5T206 Formate dehydrogenase accessory protein n=1 ...    59   7e-07
+UniRef90_A0A1V4TRR3 Sulfur carrier protein FdhD n=1 Tax=Methanor...    59   1e-06
+UniRef90_UPI00041E9F12 sulfurtransferase FdhD n=1 Tax=Syntrophor...    59   1e-06
+UniRef90_A0A1F8LVM2 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    59   1e-06
+UniRef90_A0A1G8YG32 FdhD protein n=1 Tax=Methanoculleus thermoph...    59   1e-06
+UniRef90_I7KDW6 Formate dehydrogenase n=5 Tax=Methanoculleus Tax...    58   2e-06
+UniRef90_A0A0W8FHQ2 Formate dehydrogenase chain d n=1 Tax=hydroc...    58   2e-06
+UniRef90_A0A1E7GGT8 Sulfur carrier protein FdhD n=1 Tax=Methanos...    58   2e-06
+UniRef90_A0A0F8DUD2 Sulfur carrier protein FdhD n=1 Tax=Methanos...    57   4e-06
+UniRef90_A0A1M4MK78 Formate dehydrogenase accessory protein n=1 ...    56   7e-06
+UniRef90_A0A0P6V1I7 Sulfur carrier protein FdhD n=1 Tax=Methanos...    56   7e-06
+UniRef90_A0A0P0IS25 Sulfur carrier protein FdhD n=4 Tax=Methanos...    56   7e-06
+UniRef90_A0A1V5DRC1 Protein FdhD n=2 Tax=Syntrophus TaxID=167185...    56   9e-06
+UniRef90_A0A1F8QEG0 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    56   9e-06
+UniRef90_A0A1J4RIE3 Sulfur carrier protein FdhD n=1 Tax=Anaeroli...    56   9e-06
+UniRef90_A0A101IXM4 Sulfur carrier protein FdhD n=2 Tax=Methanom...    55   1e-05
+UniRef90_A0A0E3SA01 Sulfur carrier protein FdhD n=2 Tax=Methanos...    55   1e-05
+UniRef90_A0A0H1QXE6 Formate dehydrogenase n=1 Tax=Methanoculleus...    55   1e-05
+UniRef90_A0A0P6X3W8 Sulfur carrier protein FdhD n=1 Tax=Leviline...    55   1e-05
+UniRef90_A0A1V5DBH3 Protein FdhD n=1 Tax=Syntrophorhabdus sp. Pt...    55   2e-05
+UniRef90_A0A0P6XQQ0 Sulfur carrier protein FdhD n=1 Tax=Thermana...    54   2e-05
+UniRef90_A0A0Q1BUD2 Formate dehydrogenase family accessory prote...    54   2e-05
+UniRef90_K8DYU0 Sulfur carrier protein FdhD n=1 Tax=Desulfotomac...    54   2e-05
+UniRef90_A4J8H7 Sulfur carrier protein FdhD n=1 Tax=Desulfotomac...    54   3e-05
+UniRef90_A0A1V4WHE7 Protein FdhD n=3 Tax=Syntrophorhabdus TaxID=...    54   3e-05
+UniRef90_A0A1D2RCE2 Sulfur carrier protein FdhD n=1 Tax=Candidat...    54   3e-05
+UniRef90_A0A0M2U9H0 Sulfur carrier protein FdhD n=1 Tax=Clostrid...    53   4e-05
+UniRef90_A0A1V5AJ99 Sulfur carrier protein FdhD n=2 Tax=Methanos...    53   5e-05
+UniRef90_A0A101J060 Formate dehydrogenase n=2 Tax=Methanomicrobi...    53   5e-05
+UniRef90_UPI0008E9E970 formate dehydrogenase family accessory pr...    53   5e-05
+UniRef90_A0A1Q6DWC4 Protein required for formate dehydrogenase a...    53   6e-05
+UniRef90_A0A1F8NKT4 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    53   6e-05
+UniRef90_A0A1M4WGA0 Sulfur carrier protein FdhD n=2 Tax=Loktanel...    53   6e-05
+UniRef90_A0A063ZAD2 Formate dehydrogenase n=1 Tax=Methanoculleus...    53   7e-05
+UniRef90_N0B9B3 Sulfur carrier protein FdhD n=1 Tax=Hyphomicrobi...    53   8e-05
+UniRef90_E6VNA1 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...    52   8e-05
+UniRef90_F2L0M8 Formate dehydrogenase delta subunit n=1 Tax=Ther...    52   9e-05
+UniRef90_A0A1M4ZPP2 Sulfur carrier protein FdhD n=1 Tax=Desulfot...    52   1e-04
+UniRef90_UPI0008F6510A sulfurtransferase FdhD n=1 Tax=Albimonas ...    52   1e-04
+UniRef90_UPI0003F602AF sulfurtransferase FdhD n=1 Tax=Acetobacte...    52   1e-04
+UniRef90_A0A1F9ZWN2 Sulfur carrier protein FdhD n=1 Tax=Euryarch...    52   1e-04
+UniRef90_A0A1V5DY81 Sulfur carrier protein FdhD n=2 Tax=unclassi...    52   1e-04
+UniRef90_A0A1D9FHB6 Sulfur carrier protein FdhD n=1 Tax=Clostrid...    51   2e-04
+UniRef90_A0A1F4U5G9 Sulfur carrier protein FdhD n=1 Tax=candidat...    51   2e-04
+UniRef90_A0A1W9W6E4 Protein FdhD n=1 Tax=Desulfobacteraceae bact...    51   2e-04
+UniRef90_B8GHE9 Sulfur carrier protein FdhD n=1 Tax=Methanosphae...    51   3e-04
+UniRef90_A0A0S7B9T7 Sulfur carrier protein FdhD n=1 Tax=Longilin...    50   3e-04
+UniRef90_UPI0008AEC41D sufurtransferase FdhD n=1 Tax=Lihuaxuella...    50   3e-04
+UniRef90_UPI0003647827 sulfurtransferase FdhD n=1 Tax=Marinobact...    50   3e-04
+UniRef90_UPI000837A5CE FdhD/NarQ family protein n=1 Tax=Methanoc...    50   3e-04
+UniRef90_A0A1F8PU44 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    50   4e-04
+UniRef90_A0A133UAZ3 Sulfur carrier protein FdhD n=2 Tax=candidat...    50   4e-04
+UniRef90_A0A1F8PD71 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    50   4e-04
+UniRef90_A0A1F8KF54 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    50   4e-04
+UniRef90_UPI000B50207D formate dehydrogenase family accessory pr...    50   4e-04
+UniRef90_A0A1Y3GBS3 Protein required for formate dehydrogenase a...    50   4e-04
+UniRef90_UPI000472E50D sulfurtransferase FdhD n=1 Tax=Acetobacte...    50   4e-04
+UniRef90_A0A1Y4G800 Sulfurtransferase FdhD n=2 Tax=Gordonibacter...    50   4e-04
+UniRef90_A0A101W3N4 Sulfur carrier protein FdhD n=1 Tax=Gracilib...    50   4e-04
+UniRef90_A0A1F8MHT3 Protein FdhD n=1 Tax=Chloroflexi bacterium R...    50   4e-04
+UniRef90_UPI0008ABF5E9 sufurtransferase FdhD n=1 Tax=Paenibacill...    50   4e-04
+UniRef90_A0A1F8NL14 Uncharacterized protein n=1 Tax=Chloroflexi ...    50   4e-04
+UniRef90_A0A139CQQ9 Sulfur carrier protein FdhD n=1 Tax=Methanol...    50   4e-04
+UniRef90_A0A1F8Q076 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    50   5e-04
+UniRef90_D8JSH0 Sulfur carrier protein FdhD n=2 Tax=Hyphomicrobi...    50   5e-04
+UniRef90_A0A1G8ZEH0 Sulfur carrier protein FdhD n=1 Tax=Methanoc...    50   5e-04
+UniRef90_A0A1V4XP59 Protein FdhD n=1 Tax=Syntrophus sp. PtaB.Bin...    50   5e-04
+UniRef90_L0KY22 Sulfur carrier protein FdhD n=1 Tax=Methanomethy...    50   6e-04
+UniRef90_A0A101DWK3 Sulfur carrier protein FdhD n=2 Tax=Euryarch...    50   6e-04
+UniRef90_H1Z2S9 Sulfur carrier protein FdhD n=1 Tax=Methanoplanu...    50   6e-04
+UniRef90_F6B7C1 Sulfur carrier protein FdhD n=1 Tax=Desulfotomac...    49   7e-04
+UniRef90_A0A1J4VG40 Sulfur carrier protein FdhD n=1 Tax=Candidat...    49   7e-04
+UniRef90_A0A1T4URG0 Protein FdhD n=7 Tax=root TaxID=1 RepID=A0A1...    49   7e-04
+UniRef90_UPI000B795D86 formate dehydrogenase family accessory pr...    49   8e-04
+UniRef90_A0A1J4ZC44 Sulfur carrier protein FdhD n=1 Tax=Anaeroli...    49   8e-04
+UniRef90_UPI0004745B36 sulfurtransferase FdhD n=2 Tax=Stenotroph...    49   8e-04
+UniRef90_A0A1H9CQB4 Sulfur carrier protein FdhD n=2 Tax=Litorimi...    49   9e-04
+UniRef90_F2IYU2 Sulfur carrier protein FdhD n=1 Tax=Polymorphum ...    49   9e-04
+
+>UniRef90_A0A1F9NQH9 Sulfur carrier protein FdhD n=1 Tax=Desulfobacterales bacterium
+          GWB2_56_26 TaxID=1797913 RepID=A0A1F9NQH9_9DELT
+          Length = 255
+
+ Score =  116 bits (292), Expect = 4e-24,   Method: Composition-based stats.
+ Identities = 48/58 (82%), Positives = 54/58 (93%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY+IALND  IGSSMVLP+ LEEFGAGFLFGQGYIK+ EEI+EILVCP+GRI+VYA
+Sbjct: 29 ETPYSIALNDETIGSSMVLPIGLEEFGAGFLFGQGYIKRPEEIKEILVCPEGRIAVYA 86
+
+
+>UniRef90_A0A1M7Y7P1 Sulfur carrier protein FdhD n=1 Tax=Desulfopila aestuarii DSM
+          18488 TaxID=1121416 RepID=A0A1M7Y7P1_9DELT
+          Length = 263
+
+ Score =  116 bits (291), Expect = 5e-24,   Method: Composition-based stats.
+ Identities = 45/58 (77%), Positives = 52/58 (89%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY+IALND  IGSSMVLP+ LEEFG GFLFGQGYI K EE++E+LVCP+GRI+VYA
+Sbjct: 35 ETPYSIALNDETIGSSMVLPIGLEEFGVGFLFGQGYISKPEEVKEVLVCPEGRIAVYA 92
+
+
+>UniRef90_Q6AMB9 Sulfur carrier protein FdhD n=2 Tax=Desulfotalea psychrophila
+          (strain LSv54 / DSM 12343) TaxID=177439
+          RepID=Q6AMB9_DESPS
+          Length = 258
+
+ Score =  115 bits (290), Expect = 7e-24,   Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA
+Sbjct: 32 ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 89
+
+
+>UniRef90_K1ZFH2 Uncharacterized protein (Fragment) n=1 Tax=groundwater metagenome
+          TaxID=717931 RepID=K1ZFH2_9ZZZZ
+          Length = 173
+
+ Score =  113 bits (283), Expect = 5e-23,   Method: Composition-based stats.
+ Identities = 45/58 (77%), Positives = 51/58 (87%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY IALND  IG+SMVLP+ LEEFG GFLFGQGYIK  EEI+EI+VCP+GRI+VYA
+Sbjct: 35 ETPYTIALNDETIGASMVLPIGLEEFGVGFLFGQGYIKTPEEIKEIVVCPEGRIAVYA 92
+
+
+>UniRef90_UPI000881AA59 sufurtransferase FdhD n=1 Tax=Desulforhopalus singaporensis
+          TaxID=91360 RepID=UPI000881AA59
+          Length = 261
+
+ Score =  112 bits (281), Expect = 7e-23,   Method: Composition-based stats.
+ Identities = 43/58 (74%), Positives = 49/58 (84%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY+IALND  IGSSMVLP  LEEFG GFLFGQGYIK   E++E+ VCP+GRI+VYA
+Sbjct: 35 ETPYSIALNDETIGSSMVLPSALEEFGVGFLFGQGYIKHPREVKEVYVCPEGRIAVYA 92
+
+
+>UniRef90_A0A0A2HYT2 Sulfur carrier protein FdhD n=1 Tax=Desulfobulbus sp. Tol-SR
+          TaxID=1536652 RepID=A0A0A2HYT2_9DELT
+          Length = 255
+
+ Score =  110 bits (277), Expect = 2e-22,   Method: Composition-based stats.
+ Identities = 42/58 (72%), Positives = 50/58 (86%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY +ALND  IG+SMVLPV L EFG GFLFGQGYI+  EE++E++VCP+GRISVYA
+Sbjct: 29 ETPYTVALNDETIGASMVLPVGLAEFGVGFLFGQGYIRTPEEVKEVIVCPEGRISVYA 86
+
+
+>UniRef90_A0A1Q6DIC6 Sulfur carrier protein FdhD n=1 Tax=Desulfobulbaceae bacterium
+          DB1 TaxID=1920419 RepID=A0A1Q6DIC6_9DELT
+          Length = 256
+
+ Score =  108 bits (272), Expect = 8e-22,   Method: Composition-based stats.
+ Identities = 41/58 (70%), Positives = 51/58 (87%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY +ALND+VIG+SMVL   LEEFGAGFLFGQGY+   ++++E+LVCP+GRISVYA
+Sbjct: 29 ETPYKVALNDKVIGASMVLETGLEEFGAGFLFGQGYVTTPDQVKEVLVCPEGRISVYA 86
+
+
+>UniRef90_A0A1M5X7I8 Sulfur carrier protein FdhD n=1 Tax=Desulfofustis glycolicus DSM
+          9705 TaxID=1121409 RepID=A0A1M5X7I8_9DELT
+          Length = 255
+
+ Score =  108 bits (270), Expect = 2e-21,   Method: Composition-based stats.
+ Identities = 41/58 (70%), Positives = 50/58 (86%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY I LN+  IG+SMVLPV L EFG GFLFGQGY+++ EEI+E+LVCP+G+ISVYA
+Sbjct: 29 ETPYTITLNEVTIGASMVLPVGLAEFGVGFLFGQGYLQRPEEIKEVLVCPEGKISVYA 86
+
+
+>UniRef90_V4J6H5 Sulfur carrier protein FdhD n=1 Tax=uncultured Desulfofustis sp.
+          PB-SRB1 TaxID=1385624 RepID=V4J6H5_9DELT
+          Length = 258
+
+ Score =  106 bits (265), Expect = 5e-21,   Method: Composition-based stats.
+ Identities = 39/58 (67%), Positives = 47/58 (81%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETP+ + LN+  IGSSMVLPVDLEEFGAGFLFG+GY+   EE+ E+ VC  GRISV+A
+Sbjct: 29 ETPFTVMLNEEEIGSSMVLPVDLEEFGAGFLFGRGYLSSPEELVEVWVCDDGRISVFA 86
+
+
+>UniRef90_A0A1W9MBE6 Sulfur carrier protein FdhD n=1 Tax=Desulfobulbaceae bacterium A2
+          TaxID=1934250 RepID=A0A1W9MBE6_9DELT
+          Length = 248
+
+ Score =  105 bits (264), Expect = 7e-21,   Method: Composition-based stats.
+ Identities = 43/58 (74%), Positives = 51/58 (87%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY +ALNDRVIG+SMVL   LEEFGAGFLFGQGYI +  ++RE+LVCP+GRISV+A
+Sbjct: 22 ETPYKVALNDRVIGASMVLETGLEEFGAGFLFGQGYITEPGQVREVLVCPEGRISVHA 79
+
+
+>UniRef90_UPI0005EAE572 sulfurtransferase FdhD n=1 Tax=Desulfonatronum thioautotrophicum
+          TaxID=617001 RepID=UPI0005EAE572
+          Length = 266
+
+ Score =  104 bits (261), Expect = 1e-20,   Method: Composition-based stats.
+ Identities = 37/58 (63%), Positives = 48/58 (82%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E P  +ALN+R+IG++MVL +DLEEFGAGFLFGQGY+   E+I E+ VC QGR++VYA
+Sbjct: 31 EQPVEVALNERLIGTAMVLALDLEEFGAGFLFGQGYVSVPEDIVEVTVCEQGRVTVYA 88
+
+
+>UniRef90_M1PN36 Sulfur carrier protein FdhD n=1 Tax=Desulfocapsa sulfexigens
+          (strain DSM 10523 / SB164P1) TaxID=1167006
+          RepID=M1PN36_DESSD
+          Length = 252
+
+ Score =  104 bits (261), Expect = 1e-20,   Method: Composition-based stats.
+ Identities = 41/58 (70%), Positives = 48/58 (82%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E PY +ALND  IGSSMVL   LEEFGAGFLFGQGY+ K  ++RE+LVCP+GRISV+A
+Sbjct: 25 EVPYKVALNDEEIGSSMVLATGLEEFGAGFLFGQGYVTKVGQVREVLVCPEGRISVHA 82
+
+
+>UniRef90_UPI000889FE6F sufurtransferase FdhD n=1 Tax=Desulfonatronum thiosulfatophilum
+          TaxID=617002 RepID=UPI000889FE6F
+          Length = 261
+
+ Score =  103 bits (259), Expect = 3e-20,   Method: Composition-based stats.
+ Identities = 38/58 (65%), Positives = 48/58 (82%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E P  +ALN+RVIGS+MVL  +LEEFGAGFLFGQGY+   EEI E+++C QGR++VYA
+Sbjct: 30 EQPVEVALNERVIGSAMVLAENLEEFGAGFLFGQGYVSSPEEIVEVVLCDQGRVTVYA 87
+
+
+>UniRef90_F0S3P5 Sulfur carrier protein FdhD n=1 Tax=Desulfurobacterium
+          thermolithotrophum (strain DSM 11699 / BSA)
+          TaxID=868864 RepID=F0S3P5_DESTD
+          Length = 255
+
+ Score =  102 bits (256), Expect = 6e-20,   Method: Composition-based stats.
+ Identities = 34/54 (62%), Positives = 40/54 (74%)
+
+Query: 4  YAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVY 57
+          Y + LND  IGSSMVLP +LEEFG GFLF QGYI+K E+I  + VC +G I VY
+Sbjct: 30 YKVFLNDEYIGSSMVLPCNLEEFGVGFLFSQGYIQKPEDIESVRVCDKGGIFVY 83
+
+
+>UniRef90_F8AD14 Sulfur carrier protein FdhD n=2 Tax=Thermodesulfatator
+          TaxID=241192 RepID=F8AD14_THEID
+          Length = 258
+
+ Score =  101 bits (252), Expect = 2e-19,   Method: Composition-based stats.
+ Identities = 32/59 (54%), Positives = 38/59 (64%), Gaps = 1/59 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC-PQGRISVYA 58
+          E PY I LN+  +GSSMVLP  LEEFG GFLF QGY       +E+ +C  +G I VYA
+Sbjct: 28 ERPYRIYLNEEPVGSSMVLPTGLEEFGVGFLFAQGYFDNPTVFKEVRLCHEKGSIFVYA 86
+
+
+>UniRef90_UPI00068FF5AC sulfurtransferase FdhD n=2 Tax=Desulfonatronum TaxID=66848
+          RepID=UPI00068FF5AC
+          Length = 280
+
+ Score =  101 bits (252), Expect = 2e-19,   Method: Composition-based stats.
+ Identities = 35/58 (60%), Positives = 47/58 (81%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E P  +ALN+RVIG++MVL  DL+ FGAGFLFGQGY+   E+I E+++C QGR++VYA
+Sbjct: 30 EQPVEVALNERVIGTAMVLAQDLDVFGAGFLFGQGYVSTPEDIVEVVLCEQGRVTVYA 87
+
+
+>UniRef90_UPI00048AFEA6 sulfurtransferase FdhD n=1 Tax=Desulfonatronovibrio
+          hydrogenovorans TaxID=53245 RepID=UPI00048AFEA6
+          Length = 253
+
+ Score =  100 bits (251), Expect = 2e-19,   Method: Composition-based stats.
+ Identities = 34/58 (58%), Positives = 43/58 (74%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E PY + LND  IGS+MVL  DL+EF AG+LFGQG+++K   I +I VCP GR+ VYA
+Sbjct: 26 ERPYTVTLNDETIGSAMVLARDLKEFAAGYLFGQGHLEKDTRIFQIEVCPDGRVDVYA 83
+
+
+>UniRef90_UPI0005EB7B16 sulfurtransferase FdhD n=1 Tax=Desulfonatronovibrio magnus
+          TaxID=698827 RepID=UPI0005EB7B16
+          Length = 253
+
+ Score =  100 bits (250), Expect = 3e-19,   Method: Composition-based stats.
+ Identities = 34/58 (58%), Positives = 44/58 (75%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETP+A+ LND   GSSMVL  +LEEFG GFLFG+G++    +I E+ VCP+GR+ VYA
+Sbjct: 26 ETPFAVNLNDEPAGSSMVLASNLEEFGVGFLFGRGHLTAEAQILEVKVCPEGRVDVYA 83
+
+
+>UniRef90_A0A179D1Y6 Sulfur carrier protein FdhD n=1 Tax=Thermosulfurimonas dismutans
+          TaxID=999894 RepID=A0A179D1Y6_9BACT
+          Length = 255
+
+ Score = 99.7 bits (248), Expect = 5e-19,   Method: Composition-based stats.
+ Identities = 33/59 (55%), Positives = 41/59 (69%), Gaps = 1/59 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC-PQGRISVYA 58
+          E PY I LN+  IGSSMVLP  LEEFG GFL+ QGY+   E ++E+ +C  +G I VYA
+Sbjct: 28 EVPYKIYLNEEPIGSSMVLPTGLEEFGVGFLYAQGYLSGPEVVKEVRLCHERGGIFVYA 86
+
+
+>UniRef90_UPI0003B3D20A sulfurtransferase FdhD n=1 Tax=Thermodesulfatator atlanticus
+          TaxID=501497 RepID=UPI0003B3D20A
+          Length = 258
+
+ Score = 99.0 bits (246), Expect = 9e-19,   Method: Composition-based stats.
+ Identities = 31/59 (52%), Positives = 38/59 (64%), Gaps = 1/59 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC-PQGRISVYA 58
+          E PY I LN+  +GSSMVLP  LEEFG G+LF QGY       +E+ +C  +G I VYA
+Sbjct: 28 EKPYRIYLNEEPVGSSMVLPTGLEEFGLGYLFAQGYFDDPSVFKEVRLCHEKGSIFVYA 86
+
+
+>UniRef90_D6SQL7 Sulfur carrier protein FdhD n=1 Tax=Desulfonatronospira
+          thiodismutans ASO3-1 TaxID=555779 RepID=D6SQL7_9DELT
+          Length = 282
+
+ Score = 97.0 bits (241), Expect = 3e-18,   Method: Composition-based stats.
+ Identities = 30/58 (51%), Positives = 41/58 (70%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E P  + LND  +G++MV+  DLEE   G+LFGQG I+  ++I +I VC QGRI+VYA
+Sbjct: 26 EKPVGVVLNDEPVGTAMVMARDLEELAVGYLFGQGLIEPGDKIFDIEVCEQGRINVYA 83
+
+
+>UniRef90_A0A0W8F3J2 Formate dehydrogenase chain d n=1 Tax=hydrocarbon metagenome
+          TaxID=938273 RepID=A0A0W8F3J2_9ZZZZ
+          Length = 260
+
+ Score = 80.5 bits (198), Expect = 3e-13,   Method: Composition-based stats.
+ Identities = 28/56 (50%), Positives = 38/56 (67%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E PYA+ +N R   +SM+ P++LE+F  G+LF +  IKKAEEI  I V  + RISV
+Sbjct: 28 EVPYALFINGRHAMTSMMSPIELEDFVTGYLFTEQVIKKAEEIESIKV-EKNRISV 82
+
+
+>UniRef90_A0A1V4ZWS9 Sulfur carrier protein FdhD n=1 Tax=Methanoregula sp. PtaU1.Bin051
+           TaxID=1811682 RepID=A0A1V4ZWS9_9EURY
+          Length = 274
+
+ Score = 78.5 bits (193), Expect = 1e-12,   Method: Composition-based stats.
+ Identities = 26/56 (46%), Positives = 36/56 (64%), Gaps = 1/56 (1%)
+
+Query: 1   ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+           E PYA+ +N R   ++M+ PV LE+F  G+LF +  IKK EEI  I +  + RISV
+Sbjct: 46  EIPYALFINGRHAMTAMMSPVRLEDFVTGYLFTEQIIKKPEEIESIRI-EKNRISV 100
+
+
+>UniRef90_A0A1V4ZVD4 Sulfur carrier protein FdhD n=2 Tax=unclassified Methanoregulaceae
+           TaxID=1811719 RepID=A0A1V4ZVD4_9EURY
+          Length = 281
+
+ Score = 71.6 bits (175), Expect = 1e-10,   Method: Composition-based stats.
+ Identities = 26/56 (46%), Positives = 36/56 (64%), Gaps = 1/56 (1%)
+
+Query: 1   ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+           E PYA+ +N R + ++M+ P  LE+F  GFLF +  IK AEEI  I +  + RISV
+Sbjct: 47  EIPYALFVNGRHMTTAMLSPAGLEDFVTGFLFTEQVIKGAEEIESIKI-EKNRISV 101
+
+
+>UniRef90_A7IA75 Sulfur carrier protein FdhD n=1 Tax=Methanoregula boonei (strain
+          DSM 21154 / JCM 14090 / 6A8) TaxID=456442
+          RepID=A7IA75_METB6
+          Length = 259
+
+ Score = 71.2 bits (174), Expect = 2e-10,   Method: Composition-based stats.
+ Identities = 25/56 (44%), Positives = 34/56 (60%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P A+ +N R   ++M+ P DLE+F  G+LF +  IK AEEI  I +    RISV
+Sbjct: 29 EVPEAVFVNGRHAMTAMMSPSDLEDFVTGYLFTEQIIKSAEEIESIRI-ETNRISV 83
+
+
+>UniRef90_L0HFK6 Sulfur carrier protein FdhD n=1 Tax=Methanoregula formicica
+          (strain DSM 22288 / NBRC 105244 / SMSP) TaxID=593750
+          RepID=L0HFK6_METFS
+          Length = 264
+
+ Score = 67.4 bits (164), Expect = 3e-09,   Method: Composition-based stats.
+ Identities = 21/56 (37%), Positives = 34/56 (60%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P A+ +N R   ++M+ PV LE+F  G+L+ +  IK  +EI  I +  + R+SV
+Sbjct: 34 EVPLALFVNGRHAMTAMMSPVQLEDFVTGYLYTEQIIKNIDEIESIKI-EKNRMSV 88
+
+
+>UniRef90_A0A1V4UE25 Sulfur carrier protein FdhD n=2 Tax=unclassified
+          Methanoregulaceae TaxID=1811719 RepID=A0A1V4UE25_9EURY
+          Length = 259
+
+ Score = 67.4 bits (164), Expect = 3e-09,   Method: Composition-based stats.
+ Identities = 24/56 (42%), Positives = 34/56 (60%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E PYAI +N R + ++M+ PV L +F  G LF +  IK  +EI  I +  + RISV
+Sbjct: 25 EVPYAIFVNGRHMSTAMISPVALVDFVTGLLFTEQVIKGPDEIESIKL-DKNRISV 79
+
+
+>UniRef90_A0A1V4ZG69 Sulfur carrier protein FdhD n=2 Tax=Methanoregula TaxID=395331
+          RepID=A0A1V4ZG69_9EURY
+          Length = 270
+
+ Score = 66.6 bits (162), Expect = 5e-09,   Method: Composition-based stats.
+ Identities = 22/56 (39%), Positives = 34/56 (60%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P A+ +N R   ++M+ PV LE+F  G+LF +  I+  +EI  I + P  R+SV
+Sbjct: 39 EVPMALFINGRHAMTAMMSPVQLEDFVTGYLFTEQIIRGIDEIESIRLEP-NRMSV 93
+
+
+>UniRef90_UPI0008347709 sulfurtransferase FdhD n=1 Tax=Methanofollis ethanolicus
+          TaxID=488124 RepID=UPI0008347709
+          Length = 255
+
+ Score = 65.8 bits (160), Expect = 8e-09,   Method: Composition-based stats.
+ Identities = 21/56 (37%), Positives = 32/56 (57%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P A+ +N R   ++M+ P + E+F  G+LF +  IK   EI  I V  + R+SV
+Sbjct: 25 ELPVALFVNGRHAMTAMMSPGNFEDFVVGYLFTEEIIKGPGEIESIKV-EKNRVSV 79
+
+
+>UniRef90_A0A1V4ZNA7 Sulfur carrier protein FdhD n=1 Tax=Methanoregula sp. PtaU1.Bin051
+           TaxID=1811682 RepID=A0A1V4ZNA7_9EURY
+          Length = 275
+
+ Score = 65.1 bits (158), Expect = 1e-08,   Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 32/56 (57%), Gaps = 1/56 (1%)
+
+Query: 1   ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+           E P A+ +N R   + MV P+ LE+F  G+LF +  IK   EI  I +  + RISV
+Sbjct: 48  EMPIALFINGRHSTTLMVSPIRLEDFVTGYLFTEELIKTTREIESIKI-EKNRISV 102
+
+
+>UniRef90_A0A0F8FDQ6 Sulfur carrier protein FdhD n=4 Tax=Methanosarcina TaxID=2207
+          RepID=A0A0F8FDQ6_9EURY
+          Length = 262
+
+ Score = 60.8 bits (147), Expect = 3e-07,   Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 30/51 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P A+ +N R   ++M+ P  LEEF  GFL+ +  I+K E+I  + +  +
+Sbjct: 25 EAPLAVFVNGRHALTAMISPAMLEEFVTGFLYTEKIIRKPEDIESLRIEEK 75
+
+
+>UniRef90_Q2FND8 Uncharacterized protein required for formate dehydrogenase
+          activity-like protein n=1 Tax=Methanospirillum hungatei
+          JF-1 (strain ATCC 27890 / DSM 864 / NBRC 100397 / JF-1)
+          TaxID=323259 RepID=Q2FND8_METHJ
+          Length = 246
+
+ Score = 60.4 bits (146), Expect = 4e-07,   Method: Composition-based stats.
+ Identities = 22/56 (39%), Positives = 33/56 (58%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P AI +N R I + ++   ++ E+  G+LF + YIK A+EI  I V  + R SV
+Sbjct: 25 EEPVAIFINGRHISTVLLGSGNIREYVTGYLFTEQYIKTADEIESIRV-EKNRASV 79
+
+
+>UniRef90_A0A1V5T206 Formate dehydrogenase accessory protein n=1 Tax=Euryarchaeota
+          archaeon ADurb.Bin294 TaxID=1852878
+          RepID=A0A1V5T206_9EURY
+          Length = 246
+
+ Score = 59.3 bits (143), Expect = 7e-07,   Method: Composition-based stats.
+ Identities = 22/56 (39%), Positives = 32/56 (57%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P AI +N R I + ++ P ++ E+  G LF + YIK  EEI  I +  + R SV
+Sbjct: 25 EEPVAIFINGRHISTVLLAPGNIREYVTGSLFTEQYIKTTEEIESIRI-EKNRASV 79
+
+
+>UniRef90_A0A1V4TRR3 Sulfur carrier protein FdhD n=1 Tax=Methanoregula sp. PtaB.Bin085
+           TaxID=1811680 RepID=A0A1V4TRR3_9EURY
+          Length = 332
+
+ Score = 58.9 bits (142), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 18/56 (32%), Positives = 32/56 (57%), Gaps = 1/56 (1%)
+
+Query: 1   ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+           E P A+ +N R   + ++ P + E+F  G+LF +  I+  +EI  I +  + R+SV
+Sbjct: 91  EEPTALFINGRHAMTILMSPGNPEDFVTGYLFSEEIIRTPKEIESIRI-EKNRLSV 145
+
+
+>UniRef90_UPI00041E9F12 sulfurtransferase FdhD n=1 Tax=Syntrophorhabdus aromaticivorans
+          TaxID=328301 RepID=UPI00041E9F12
+          Length = 272
+
+ Score = 58.9 bits (142), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 23/58 (39%), Positives = 33/58 (56%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E    I +N   + ++ VLP    EF AG+LFGQG+I  A EI  + +  +G I+V A
+Sbjct: 27 EKELPIYVNGEHLATASVLPSMEREFVAGYLFGQGFIDGAGEIMTLEITDEGAIAVLA 84
+
+
+>UniRef90_A0A1F8LVM2 Sulfur carrier protein FdhD n=1 Tax=Chloroflexi bacterium
+          RBG_13_48_10 TaxID=1797620 RepID=A0A1F8LVM2_9CHLR
+          Length = 261
+
+ Score = 58.9 bits (142), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 22/52 (42%), Positives = 28/52 (53%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          ETP  + +N  V  + M  P DLE    GFLF +G IK  +EI  + VC  G
+Sbjct: 28 ETPVTLTVNGHVWLTFMCTPTDLEALAVGFLFNEGVIKSKDEIELVKVCSSG 79
+
+
+>UniRef90_A0A1G8YG32 FdhD protein n=1 Tax=Methanoculleus thermophilus TaxID=2200
+          RepID=A0A1G8YG32_9EURY
+          Length = 244
+
+ Score = 58.5 bits (141), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 19/56 (33%), Positives = 33/56 (58%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          ETP AI +N R + + ++ P   ++F  G+L+ +  IK  +EI  + +  + RISV
+Sbjct: 22 ETPVAIFVNGRHLTTVILSPGGFQDFITGYLYTEEIIKSPDEIESVRI-EENRISV 76
+
+
+>UniRef90_I7KDW6 Formate dehydrogenase n=5 Tax=Methanoculleus TaxID=45989
+           RepID=I7KDW6_METBM
+          Length = 304
+
+ Score = 58.1 bits (140), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 19/56 (33%), Positives = 34/56 (60%), Gaps = 1/56 (1%)
+
+Query: 1   ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+           ETP AI +N R + ++++ P   E+F  G+L+ +  I+  +EI  + +  + RISV
+Sbjct: 77  ETPVAIFVNGRHMTTAILSPARFEDFITGYLYTEEIIRNVDEIESVRI-EENRISV 131
+
+
+>UniRef90_A0A0W8FHQ2 Formate dehydrogenase chain d n=1 Tax=hydrocarbon metagenome
+          TaxID=938273 RepID=A0A0W8FHQ2_9ZZZZ
+          Length = 257
+
+ Score = 57.7 bits (139), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 19/48 (39%), Positives = 29/48 (60%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E  + + +N R + ++MV PVDLE+F  G+LF +  IK   EI  I +
+Sbjct: 25 EAAFTLNVNGRNVMAAMVSPVDLEDFIVGYLFTEEIIKGPGEIESIKI 72
+
+
+>UniRef90_A0A1E7GGT8 Sulfur carrier protein FdhD n=1 Tax=Methanosarcina sp. Ant1
+          TaxID=1882735 RepID=A0A1E7GGT8_9EURY
+          Length = 271
+
+ Score = 57.7 bits (139), Expect = 2e-06,   Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 30/51 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P ++ +N R   ++M+ P  LEEF  GFL+ +  I+K E+I  + +  +
+Sbjct: 25 EVPLSVFVNGRHALTAMISPTMLEEFVTGFLYTERIIRKLEDIDSLRIEEK 75
+
+
+>UniRef90_A0A0F8DUD2 Sulfur carrier protein FdhD n=1 Tax=Methanosarcina mazei
+          TaxID=2209 RepID=A0A0F8DUD2_METMZ
+          Length = 264
+
+ Score = 57.0 bits (137), Expect = 4e-06,   Method: Composition-based stats.
+ Identities = 20/53 (37%), Positives = 31/53 (58%), Gaps = 1/53 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGR 53
+          E P A+ +N R   ++MV P  LEEF  GFL+ +  I+K E+I  + +  + R
+Sbjct: 25 EVPLAVFVNGRNALTAMVSPTMLEEFVTGFLYTEKIIRKLEDIESMRI-EKSR 76
+
+
+>UniRef90_A0A1M4MK78 Formate dehydrogenase accessory protein n=1 Tax=Methanoculleus
+          chikugoensis TaxID=118126 RepID=A0A1M4MK78_9EURY
+          Length = 241
+
+ Score = 56.2 bits (135), Expect = 7e-06,   Method: Composition-based stats.
+ Identities = 20/56 (35%), Positives = 33/56 (58%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P AI +N R + + ++ P   E+F  G+L+ +  I+ A+EI  + V  + RISV
+Sbjct: 22 EKPVAIFVNGRHLTTVILSPGGFEDFITGYLYTEEIIRSADEIESVRV-EENRISV 76
+
+
+>UniRef90_A0A0P6V1I7 Sulfur carrier protein FdhD n=1 Tax=Methanosarcina flavescens
+          TaxID=1715806 RepID=A0A0P6V1I7_9EURY
+          Length = 263
+
+ Score = 56.2 bits (135), Expect = 7e-06,   Method: Composition-based stats.
+ Identities = 17/46 (36%), Positives = 28/46 (60%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREI 46
+          E P A+ +N R   ++M+ P +LEEF  GFL+ +  I K E++  +
+Sbjct: 25 EMPLAVFVNGRHALTAMISPTELEEFVTGFLYTEKIISKLEDLESL 70
+
+
+>UniRef90_A0A0P0IS25 Sulfur carrier protein FdhD n=4 Tax=Methanosarcina TaxID=2207
+          RepID=A0A0P0IS25_9EURY
+          Length = 258
+
+ Score = 55.8 bits (134), Expect = 7e-06,   Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 31/51 (60%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P ++ +N R   ++M+ PV LEEF  GFL+ +  I+K E+I  + +  +
+Sbjct: 25 EVPLSVFVNGRHALTAMISPVMLEEFITGFLYTERIIRKLEDIDSLRIEEK 75
+
+
+>UniRef90_A0A1V5DRC1 Protein FdhD n=2 Tax=Syntrophus TaxID=1671858
+          RepID=A0A1V5DRC1_9DELT
+          Length = 274
+
+ Score = 55.8 bits (134), Expect = 9e-06,   Method: Composition-based stats.
+ Identities = 22/58 (37%), Positives = 32/58 (55%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E    I +N   + ++ V P    EF AG+LFGQG+I+ AEEI  + +  +G   V A
+Sbjct: 29 EKELPIIVNGEHLATASVTPSMEREFAAGYLFGQGFIESAEEISSLEIAEEGAFVVLA 86
+
+
+>UniRef90_A0A1F8QEG0 Sulfur carrier protein FdhD n=1 Tax=Chloroflexi bacterium
+          RBG_16_57_11 TaxID=1797651 RepID=A0A1F8QEG0_9CHLR
+          Length = 282
+
+ Score = 55.8 bits (134), Expect = 9e-06,   Method: Composition-based stats.
+ Identities = 21/52 (40%), Positives = 30/52 (57%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          ETP ++ +N  V  + M  PVDLE    GFLF +G IK  E++  + +C  G
+Sbjct: 28 ETPVSLTVNGEVWLTFMCTPVDLEAMALGFLFNEGVIKSIEDVASVRLCASG 79
+
+
+>UniRef90_A0A1J4RIE3 Sulfur carrier protein FdhD n=1 Tax=Anaerolineae bacterium
+          CG1_02_58_13 TaxID=1805002 RepID=A0A1J4RIE3_9CHLR
+          Length = 264
+
+ Score = 55.8 bits (134), Expect = 9e-06,   Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 28/52 (53%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          ETP ++ +N     S M  PV LE    GFLF +G I   +E+ ++ VC  G
+Sbjct: 28 ETPVSLTVNGEAWVSFMCTPVLLEAMAVGFLFNEGVIDAMDEVSDVRVCEHG 79
+
+
+>UniRef90_A0A101IXM4 Sulfur carrier protein FdhD n=2 Tax=Methanomicrobiales TaxID=2191
+          RepID=A0A101IXM4_9EURY
+          Length = 257
+
+ Score = 55.4 bits (133), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 21/56 (37%), Positives = 31/56 (55%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P A+ +N R I ++M  PV L EF  G+L+ +  I   E+I  I +    +ISV
+Sbjct: 26 EVPIAVLVNGRHILTAMTSPVMLREFVIGYLYTERIISSLEDIESIRI-EDTKISV 80
+
+
+>UniRef90_A0A0E3SA01 Sulfur carrier protein FdhD n=2 Tax=Methanosarcina horonobensis
+          TaxID=418008 RepID=A0A0E3SA01_9EURY
+          Length = 245
+
+ Score = 55.4 bits (133), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 28/46 (60%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREI 46
+          E P A+ +N R   ++MV P  +EEF  GFL+ +  I+K E+I  +
+Sbjct: 2  EVPLAVFVNGRHALTAMVSPTMIEEFVTGFLYTEKIIRKLEDIESL 47
+
+
+>UniRef90_A0A0H1QXE6 Formate dehydrogenase n=1 Tax=Methanoculleus sediminis
+          TaxID=1550566 RepID=A0A0H1QXE6_9EURY
+          Length = 243
+
+ Score = 55.4 bits (133), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 19/56 (33%), Positives = 33/56 (58%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          ETP A+ +N R + +  + P   E+F  G+L+ +  I+ A+EI  + +  + RISV
+Sbjct: 22 ETPVAVFVNGRHLTTVTLSPGGFEDFITGYLYTEEIIRSADEIESVRI-EENRISV 76
+
+
+>UniRef90_A0A0P6X3W8 Sulfur carrier protein FdhD n=1 Tax=Levilinea saccharolytica
+          TaxID=229921 RepID=A0A0P6X3W8_9CHLR
+          Length = 274
+
+ Score = 55.0 bits (132), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 19/58 (32%), Positives = 33/58 (56%), Gaps = 1/58 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG-RISVY 57
+          E P ++ +N  V  + M  P+ LE    GFL+ +G+I+ + +I ++ VC  G  I V+
+Sbjct: 28 EVPVSLTVNAEVWITFMCTPLQLEALAVGFLYNEGFIQSSGDIADVRVCENGTNIDVW 85
+
+
+>UniRef90_A0A1V5DBH3 Protein FdhD n=1 Tax=Syntrophorhabdus sp. PtaU1.Bin153
+          TaxID=1811705 RepID=A0A1V5DBH3_9DELT
+          Length = 272
+
+ Score = 54.7 bits (131), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 21/58 (36%), Positives = 34/58 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          E    I +N   + ++ ++P    EF AG+LFGQG+I+ AEEI  + +  +G  +V A
+Sbjct: 27 EKELPIYVNGEHLATASLVPSMEREFVAGYLFGQGFIESAEEIITLEITEKGATAVLA 84
+
+
+>UniRef90_A0A0P6XQQ0 Sulfur carrier protein FdhD n=1 Tax=Thermanaerothrix daxensis
+          TaxID=869279 RepID=A0A0P6XQQ0_9CHLR
+          Length = 274
+
+ Score = 54.3 bits (130), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 20/58 (34%), Positives = 31/58 (53%), Gaps = 1/58 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG-RISVY 57
+          ETP  +++N     + M  P  LE    GFLF +G ++ A+E+  + VC  G  I V+
+Sbjct: 28 ETPVDLSVNGERWVTLMCTPTHLEALAVGFLFNEGIVESADEVAIVRVCENGCNIDVW 85
+
+
+>UniRef90_A0A0Q1BUD2 Formate dehydrogenase family accessory protein FdhD n=1
+          Tax=Methanoculleus sp. SDB TaxID=1735326
+          RepID=A0A0Q1BUD2_9EURY
+          Length = 251
+
+ Score = 54.3 bits (130), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 22/56 (39%), Positives = 28/56 (50%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E   A+ +N R   ++ V P  L EF AG+LF +  I  A EI  I      RISV
+Sbjct: 25 EMVLALFVNGRHTMTATVSPGGLREFAAGYLFTEQIIAGAGEIESIR-EETNRISV 79
+
+
+>UniRef90_K8DYU0 Sulfur carrier protein FdhD n=1 Tax=Desulfotomaculum
+          hydrothermale Lam5 = DSM 18033 TaxID=1121428
+          RepID=K8DYU0_9FIRM
+          Length = 262
+
+ Score = 54.3 bits (130), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 20/59 (33%), Positives = 30/59 (50%), Gaps = 1/59 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ-GRISVYA 58
+          E P  + LN +   + +  P  LEE   GFL  +G ++  EE+  I V  + G I+V A
+Sbjct: 30 EVPVTLFLNGKEFVTMVCSPQALEELAVGFLCSEGLLQSPEELESITVDEEKGLITVQA 88
+
+
+>UniRef90_A4J8H7 Sulfur carrier protein FdhD n=1 Tax=Desulfotomaculum reducens
+          (strain MI-1) TaxID=349161 RepID=A4J8H7_DESRM
+          Length = 262
+
+ Score = 53.9 bits (129), Expect = 3e-05,   Method: Composition-based stats.
+ Identities = 17/57 (29%), Positives = 30/57 (52%), Gaps = 1/57 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVY 57
+          E P  + LND+   + +  P  L+E   GFL  +G ++  E+I+ I +  +  + VY
+Sbjct: 30 EVPITLFLNDKEFVTMVCSPQALQELAVGFLCSEGLLQSPEDIKAIRLDEENGV-VY 85
+
+
+>UniRef90_A0A1V4WHE7 Protein FdhD n=3 Tax=Syntrophorhabdus TaxID=513557
+           RepID=A0A1V4WHE7_9DELT
+          Length = 289
+
+ Score = 53.9 bits (129), Expect = 3e-05,   Method: Composition-based stats.
+ Identities = 19/56 (33%), Positives = 30/56 (53%)
+
+Query: 1   ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+           E    I +N   + ++ V+P    EF AG+LFGQG+I    EI  + +  +G  +V
+Sbjct: 45  EKELPIYVNGEHLATASVVPSMEREFVAGYLFGQGFIDGPGEITMLEITDKGAAAV 100
+
+
+>UniRef90_A0A1D2RCE2 Sulfur carrier protein FdhD n=1 Tax=Candidatus Altiarchaeales
+          archaeon WOR_SM1_79 TaxID=1849365
+          RepID=A0A1D2RCE2_9EURY
+          Length = 246
+
+ Score = 53.9 bits (129), Expect = 3e-05,   Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 24/48 (50%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E P  I +N +   ++M+ P   EEF  G LF +G I    +I  + V
+Sbjct: 24 EVPLVIFVNGKHFSTAMISPQMREEFVTGHLFTEGIIDGPVDIESLKV 71
+
+
+>UniRef90_A0A0M2U9H0 Sulfur carrier protein FdhD n=1 Tax=Clostridiales bacterium
+          PH28_bin88 TaxID=1605376 RepID=A0A0M2U9H0_9FIRM
+          Length = 252
+
+ Score = 53.5 bits (128), Expect = 4e-05,   Method: Composition-based stats.
+ Identities = 19/48 (39%), Positives = 28/48 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E P+ I LN + I + +  P  LEE   GFL  +G + + EE+ E+LV
+Sbjct: 18 ERPFTIHLNGQEIVTLLCSPDHLEELAVGFLVAEGLLDRPEELIEVLV 65
+
+
+>UniRef90_A0A1V5AJ99 Sulfur carrier protein FdhD n=2 Tax=Methanosaeta TaxID=2222
+          RepID=A0A1V5AJ99_9EURY
+          Length = 258
+
+ Score = 53.5 bits (128), Expect = 5e-05,   Method: Composition-based stats.
+ Identities = 21/53 (39%), Positives = 30/53 (56%), Gaps = 2/53 (3%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGR 53
+          E P AI++N R   ++M+ P  L EF  G LF +G I+   EI  + V  +GR
+Sbjct: 32 EMPLAISVNGRAFTTAMLSPRQLREFVVGHLFTEGVIRSTSEIESLEV--EGR 82
+
+
+>UniRef90_A0A101J060 Formate dehydrogenase n=2 Tax=Methanomicrobiales TaxID=2191
+          RepID=A0A101J060_9EURY
+          Length = 249
+
+ Score = 53.1 bits (127), Expect = 5e-05,   Method: Composition-based stats.
+ Identities = 20/56 (35%), Positives = 33/56 (58%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          ET  A+ +N R   ++++ P  LEE+  GFLF +  I+  ++I  I +  + RISV
+Sbjct: 29 ETVIALFVNGRHAETAILSPGSLEEYTIGFLFSEEIIRSKDDIESIRI-EENRISV 83
+
+
+>UniRef90_UPI0008E9E970 formate dehydrogenase family accessory protein FdhD n=1
+          Tax=Methanolobus profundi TaxID=487685
+          RepID=UPI0008E9E970
+          Length = 266
+
+ Score = 53.1 bits (127), Expect = 5e-05,   Method: Composition-based stats.
+ Identities = 19/48 (39%), Positives = 28/48 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E P A+ +N R   ++M+ P  L EF  GFL+ +G IK  +EI  I +
+Sbjct: 25 EMPLAVRVNGRHALTAMISPDMLREFVLGFLYTEGIIKDVDEIESIKI 72
+
+
+>UniRef90_A0A1Q6DWC4 Protein required for formate dehydrogenase activity n=1
+          Tax=Euryarchaeota archaeon HMET1 TaxID=1903181
+          RepID=A0A1Q6DWC4_9EURY
+          Length = 241
+
+ Score = 53.1 bits (127), Expect = 6e-05,   Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 26/48 (54%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E P  I LN R + ++MV P + + F  G LF +G I   ++I  I +
+Sbjct: 21 EKPLRIYLNGRKLTTAMVSPTNEKSFVIGHLFSEGIISDYDDIESIRI 68
+
+
+>UniRef90_A0A1F8NKT4 Sulfur carrier protein FdhD n=1 Tax=Chloroflexi bacterium
+          RBG_16_47_49 TaxID=1797639 RepID=A0A1F8NKT4_9CHLR
+          Length = 268
+
+ Score = 53.1 bits (127), Expect = 6e-05,   Method: Composition-based stats.
+ Identities = 18/58 (31%), Positives = 31/58 (53%), Gaps = 1/58 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCP-QGRISVY 57
+          E P  +++N+    + M  P+DLE    GFL+ +  I+  E++  + VCP    I V+
+Sbjct: 26 EQPVTLSVNNEFWLTFMCTPIDLEALAVGFLYNENIIQAKEDVASVRVCPGNNNIDVW 83
+
+
+>UniRef90_A0A1M4WGA0 Sulfur carrier protein FdhD n=2 Tax=Loktanella atrilutea
+          TaxID=366533 RepID=A0A1M4WGA0_9RHOB
+          Length = 261
+
+ Score = 52.7 bits (126), Expect = 6e-05,   Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 25/50 (50%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCP 50
+          E P AI  N   +G  M  P DLE+F  GF   +G I    E+REI +  
+Sbjct: 23 ERPVAIVCNAVTLGVMMASPTDLEDFALGFAVTEGVIHDPSELREIEIVD 72
+
+
+>UniRef90_A0A063ZAD2 Formate dehydrogenase n=1 Tax=Methanoculleus sp. MH98A
+          TaxID=1495314 RepID=A0A063ZAD2_9EURY
+          Length = 243
+
+ Score = 52.7 bits (126), Expect = 7e-05,   Method: Composition-based stats.
+ Identities = 20/56 (35%), Positives = 34/56 (60%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          ETP AI +N R + + ++ P + E+F  G+L+ +  I  A+EI  + +  + RISV
+Sbjct: 22 ETPAAIFVNGRHLTTVILSPGEFEDFITGYLYTEEIIGSADEIESVRI-EENRISV 76
+
+
+>UniRef90_N0B9B3 Sulfur carrier protein FdhD n=1 Tax=Hyphomicrobium denitrificans
+          1NES1 TaxID=670307 RepID=N0B9B3_9RHIZ
+          Length = 272
+
+ Score = 52.7 bits (126), Expect = 8e-05,   Method: Composition-based stats.
+ Identities = 23/50 (46%), Positives = 29/50 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCP 50
+          ETP A+ +N       M  P DL +F  GFL G+G +K  +EIR ILV P
+Sbjct: 42 ETPVALQINSEPYTVMMATPADLRDFALGFLIGEGILKNPKEIRGILVMP 91
+
+
+>UniRef90_E6VNA1 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudomonas palustris
+          TaxID=1076 RepID=E6VNA1_RHOPX
+          Length = 275
+
+ Score = 52.3 bits (125), Expect = 8e-05,   Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 27/50 (54%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCP 50
+          ETP AI+ N       M  P DLE+F  GF   +G I++ E+I  + + P
+Sbjct: 28 ETPVAISYNGSTQAVMMATPADLEDFAIGFSLSEGVIERPEQIESVEIVP 77
+
+
+>UniRef90_F2L0M8 Formate dehydrogenase delta subunit n=1 Tax=Thermoproteus
+          uzoniensis (strain 768-20) TaxID=999630
+          RepID=F2L0M8_THEU7
+          Length = 228
+
+ Score = 52.3 bits (125), Expect = 9e-05,   Method: Composition-based stats.
+ Identities = 17/45 (37%), Positives = 27/45 (60%)
+
+Query: 4  YAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          + I +N R   + +  PVDL++   GFL+ +GYI   E++ EI V
+Sbjct: 16 FEIYVNGRPAATLVASPVDLDDLALGFLYAEGYIDSPEDVVEIAV 60
+
+
+>UniRef90_A0A1M4ZPP2 Sulfur carrier protein FdhD n=1 Tax=Desulfotomaculum putei DSM
+          12395 TaxID=1121429 RepID=A0A1M4ZPP2_9FIRM
+          Length = 262
+
+ Score = 52.3 bits (125), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 16/54 (29%), Positives = 27/54 (50%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRI 54
+          E P  + LN +   + +  P  LEE   GFL  +G ++  E+I+ I +  +  I
+Sbjct: 30 EVPITLFLNGKEFVTMVCSPQALEELTVGFLCSEGLLQSPEDIKNIKIDQENGI 83
+
+
+>UniRef90_UPI0008F6510A sulfurtransferase FdhD n=1 Tax=Albimonas pacifica TaxID=1114924
+          RepID=UPI0008F6510A
+          Length = 277
+
+ Score = 52.0 bits (124), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 18/50 (36%), Positives = 25/50 (50%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCP 50
+          ETP AI LN       M  P DLE+F  GF   +G I+   ++ E+ +  
+Sbjct: 37 ETPVAILLNGESFAVMMATPSDLEDFCVGFALTEGLIETPSDLHELRLAE 86
+
+
+>UniRef90_UPI0003F602AF sulfurtransferase FdhD n=1 Tax=Acetobacterium dehalogenans
+          TaxID=82116 RepID=UPI0003F602AF
+          Length = 277
+
+ Score = 52.0 bits (124), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 18/55 (32%), Positives = 29/55 (52%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRIS 55
+          E P AI +N R + + +  P  L     G+LF +G I+  E+I  + VC +  I+
+Sbjct: 36 ELPLAIYINGRELVTILCSPSKLNFLVVGYLFAEGVIENIEDINILRVCEESSIA 90
+
+
+>UniRef90_A0A1F9ZWN2 Sulfur carrier protein FdhD n=1 Tax=Euryarchaeota archaeon
+          RBG_19FT_COMBO_56_21 TaxID=1797983
+          RepID=A0A1F9ZWN2_9EURY
+          Length = 266
+
+ Score = 52.0 bits (124), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 27/46 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREI 46
+          E P  I LND  + + +  P DLE    GFLF +G IK+ E+++ I
+Sbjct: 28 EAPVTIFLNDVDLVTLLCSPKDLEYLAVGFLFAEGLIKRKEDVKSI 73
+
+
+>UniRef90_A0A1V5DY81 Sulfur carrier protein FdhD n=2 Tax=unclassified Syntrophaceae
+          TaxID=1510979 RepID=A0A1V5DY81_9DELT
+          Length = 258
+
+ Score = 51.6 bits (123), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 20/54 (37%), Positives = 28/54 (51%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRI 54
+          E P  + LND  + + +  P D+E    GFLF +G I   EEI+ I +  Q  I
+Sbjct: 25 EYPLTVMLNDEQLATLLCSPDDMENLAVGFLFSEGLIGTREEIKGISLDEQQGI 78
+
+
+>UniRef90_A0A1D9FHB6 Sulfur carrier protein FdhD n=1 Tax=Clostridium formicaceticum
+          TaxID=1497 RepID=A0A1D9FHB6_9CLOT
+          Length = 261
+
+ Score = 51.2 bits (122), Expect = 2e-04,   Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 26/51 (50%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P+ I LND    + +  P +L+    GFL  +G IK  EEI  I +  +
+Sbjct: 27 EYPFTIFLNDEEFITLLCSPRNLDYLAVGFLVSEGIIKTKEEIESIYIDEE 77
+
+
+>UniRef90_A0A1F4U5G9 Sulfur carrier protein FdhD n=1 Tax=candidate division WOR-1
+          bacterium RIFOXYC2_FULL_46_14 TaxID=1802587
+          RepID=A0A1F4U5G9_9BACT
+          Length = 264
+
+ Score = 51.2 bits (122), Expect = 2e-04,   Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 31/51 (60%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P+ I +N+  + + +  P DL+E   G+LF +G+I+   +I +I+V  +
+Sbjct: 26 EVPFTIKVNNEEVSTLLASPSDLKELAVGYLFVEGFIESQSDITDIVVNER 76
+
+
+>UniRef90_A0A1W9W6E4 Protein FdhD n=1 Tax=Desulfobacteraceae bacterium 4572_87
+          TaxID=1972443 RepID=A0A1W9W6E4_9DELT
+          Length = 273
+
+ Score = 51.2 bits (122), Expect = 2e-04,   Method: Composition-based stats.
+ Identities = 20/48 (41%), Positives = 31/48 (64%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E+   I LN + + ++ +LP   +EF  G+LFGQG+IK  E+I  I+V
+Sbjct: 30 ESELRIILNGKQLATASLLPGMEKEFVTGYLFGQGFIKTPEDIASIIV 77
+
+
+>UniRef90_B8GHE9 Sulfur carrier protein FdhD n=1 Tax=Methanosphaerula palustris
+          (strain ATCC BAA-1556 / DSM 19958 / E1-9c) TaxID=521011
+          RepID=B8GHE9_METPE
+          Length = 261
+
+ Score = 50.8 bits (121), Expect = 3e-04,   Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 25/51 (49%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P A+ +N R   + M  P  L+E   GFL  +G IK  +EI  + V   
+Sbjct: 26 EVPVALFVNGRHAATVMTSPTMLKELIVGFLLTEGVIKSLDEIEALSVDDD 76
+
+
+>UniRef90_A0A0S7B9T7 Sulfur carrier protein FdhD n=1 Tax=Longilinea arvoryzae
+          TaxID=360412 RepID=A0A0S7B9T7_9CHLR
+          Length = 274
+
+ Score = 50.4 bits (120), Expect = 3e-04,   Method: Composition-based stats.
+ Identities = 17/52 (32%), Positives = 24/52 (46%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          E P  + +N     + M  P  LE  G GFL+ +  I  A E+  + VC  G
+Sbjct: 29 EIPVGLFVNGESWLTFMCTPTHLEALGVGFLYNEEIISTAAEVSVVHVCENG 80
+
+
+>UniRef90_UPI0008AEC41D sufurtransferase FdhD n=1 Tax=Lihuaxuella thermophila
+          TaxID=1173111 RepID=UPI0008AEC41D
+          Length = 266
+
+ Score = 50.4 bits (120), Expect = 3e-04,   Method: Composition-based stats.
+ Identities = 17/53 (32%), Positives = 27/53 (50%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGR 53
+          E P  + LN     + +  P DLE+   GFL  +G I+  +EI+ I +  +G 
+Sbjct: 27 EYPLTVVLNGDEFATLVCSPSDLEDLVIGFLASEGVIRFPDEIKTISLDEKGG 79
+
+
+>UniRef90_UPI0003647827 sulfurtransferase FdhD n=1 Tax=Marinobacterium rhizophilum
+          TaxID=420402 RepID=UPI0003647827
+          Length = 286
+
+ Score = 50.4 bits (120), Expect = 3e-04,   Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 28/57 (49%), Gaps = 1/57 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC-PQGRISV 56
+          E P A+  N       M  P DLE+F  GF   +G ++  +E+ +I V   +  ISV
+Sbjct: 36 EVPVALVFNGISHAVMMTSPTDLEDFALGFSLTEGILQHPDELYDIEVLQEEHGISV 92
+
+
+>UniRef90_UPI000837A5CE FdhD/NarQ family protein n=1 Tax=Methanoculleus horonobensis
+          TaxID=528314 RepID=UPI000837A5CE
+          Length = 243
+
+ Score = 50.4 bits (120), Expect = 3e-04,   Method: Composition-based stats.
+ Identities = 19/56 (33%), Positives = 32/56 (57%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          ETP AI +N R + + ++ P    +F  G+L+ +  I  A+EI  + +  + RISV
+Sbjct: 22 ETPAAIFVNGRHLTTVILSPGGFLDFITGYLYTEEIIGSADEIESVRI-EENRISV 76
+
+
+>UniRef90_A0A1F8PU44 Sulfur carrier protein FdhD n=1 Tax=Chloroflexi bacterium
+          RBG_16_52_11 TaxID=1797646 RepID=A0A1F8PU44_9CHLR
+          Length = 274
+
+ Score = 50.4 bits (120), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 18/52 (34%), Positives = 29/52 (55%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          ETP ++ +N  +  + M  PV LE    GFLF +G I   ++I ++ +C  G
+Sbjct: 28 ETPVSLTVNGEIWLTFMCTPVHLEALAIGFLFNEGLIVSLDDIADVRLCAAG 79
+
+
+>UniRef90_A0A133UAZ3 Sulfur carrier protein FdhD n=2 Tax=candidate division MSBL1
+          TaxID=215777 RepID=A0A133UAZ3_9EURY
+          Length = 257
+
+ Score = 50.4 bits (120), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 18/48 (37%), Positives = 28/48 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E  Y + +N   I S M  P DL E G G+L  +G++K+ ++I E+ V
+Sbjct: 30 ERSYNLLINGTRIASLMASPSDLREMGYGYLLAEGFVKEEDQIIEVKV 77
+
+
+>UniRef90_A0A1F8PD71 Sulfur carrier protein FdhD n=1 Tax=Chloroflexi bacterium
+          RBG_16_51_16 TaxID=1797644 RepID=A0A1F8PD71_9CHLR
+          Length = 257
+
+ Score = 50.4 bits (120), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 18/52 (34%), Positives = 29/52 (55%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          ETP A+ +N +V  + M  PV+ E    GFL+ +  I   +E+ ++ VC  G
+Sbjct: 28 ETPVAVTVNGKVWLTFMCTPVESEAMAVGFLYNESVIDNFDEVADVRVCEHG 79
+
+
+>UniRef90_A0A1F8KF54 Sulfur carrier protein FdhD n=1 Tax=Chloroflexi bacterium
+          GWB2_49_20 TaxID=1797612 RepID=A0A1F8KF54_9CHLR
+          Length = 257
+
+ Score = 50.4 bits (120), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 21/53 (39%), Positives = 29/53 (54%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGR 53
+          E P  I++N +   + M  P  L+E   GFL+ +G IK  +EIR   VC  GR
+Sbjct: 28 EAPVDISINAKHWLTLMCTPSHLDELAIGFLYNEGIIKTIDEIRLAEVCHNGR 80
+
+
+>UniRef90_UPI000B50207D formate dehydrogenase family accessory protein FdhD n=1
+          Tax=Calderihabitans maritimus TaxID=1246530
+          RepID=UPI000B50207D
+          Length = 260
+
+ Score = 50.4 bits (120), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 16/51 (31%), Positives = 27/51 (52%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P  I LN++ I + +  P +LEE   GFL  +G IK  +++  +    +
+Sbjct: 28 EMPITIYLNEKEIVTLLCSPDNLEELAVGFLSSEGLIKDPKDLIRVRAHEE 78
+
+
+>UniRef90_A0A1Y3GBS3 Protein required for formate dehydrogenase activity n=2
+          Tax=Euryarchaeota archaeon AMET1 TaxID=1927129
+          RepID=A0A1Y3GBS3_9EURY
+          Length = 247
+
+ Score = 50.4 bits (120), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 17/46 (36%), Positives = 25/46 (54%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREI 46
+          E P ++ +N +   + M+ P   EEF  G L  +G IK  EEI+ I
+Sbjct: 21 EEPVSLFINGKHFKTFMISPEKKEEFTIGHLISEGIIKTPEEIQSI 66
+
+
+>UniRef90_UPI000472E50D sulfurtransferase FdhD n=1 Tax=Acetobacter papayae TaxID=1076592
+          RepID=UPI000472E50D
+          Length = 268
+
+ Score = 50.4 bits (120), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 17/53 (32%), Positives = 28/53 (52%), Gaps = 1/53 (1%)
+
+Query: 1  ETPYAIALNDR-VIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          E P  +  ND    G+ M+ P DLE+F  G+   +  ++  E+IR + V  +G
+Sbjct: 27 EVPVRLVFNDIFPHGTMMLTPDDLEDFAFGYCLTEQIVQGVEQIRSVRVVDEG 79
+
+
+>UniRef90_A0A1Y4G800 Sulfurtransferase FdhD n=2 Tax=Gordonibacter TaxID=644652
+          RepID=A0A1Y4G800_9ACTN
+          Length = 250
+
+ Score = 50.0 bits (119), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 23/51 (45%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P  I LND  +  S   P DL E   G+L  +G I   E   E+   P+
+Sbjct: 16 ERPIRIFLNDAPVAVSQGSPYDLAELAVGYLLSEGLIADRERFVEVTADPE 66
+
+
+>UniRef90_A0A101W3N4 Sulfur carrier protein FdhD n=1 Tax=Gracilibacter sp. BRH_c7a
+          TaxID=1734398 RepID=A0A101W3N4_9FIRM
+          Length = 257
+
+ Score = 50.0 bits (119), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 19/56 (33%), Positives = 30/56 (53%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          E P  I +N+R I + +  P  L E   GFL  +G IKK  +I  + +  +G I++
+Sbjct: 27 EFPVTIFINEREIVTLVCSPQYLRELAVGFLLSEGLIKKYVDITSMEIQEEGLINI 82
+
+
+>UniRef90_A0A1F8MHT3 Protein FdhD n=1 Tax=Chloroflexi bacterium RBG_13_51_18
+          TaxID=1797624 RepID=A0A1F8MHT3_9CHLR
+          Length = 279
+
+ Score = 50.0 bits (119), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 30/48 (62%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E   A+ +ND+ + ++ + P+  +EF  G+LFGQG+I   +E+  + +
+Sbjct: 34 EQGLALYVNDKHLATASISPIMEKEFVVGYLFGQGFINTIDELESLEI 81
+
+
+>UniRef90_UPI0008ABF5E9 sufurtransferase FdhD n=1 Tax=Paenibacillus sp. OV219
+          TaxID=1884377 RepID=UPI0008ABF5E9
+          Length = 269
+
+ Score = 50.0 bits (119), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 21/57 (36%), Positives = 29/57 (50%), Gaps = 1/57 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVY 57
+          E P  I L D    + +  P DLEE   GFL  +G I+   EI+E+ +  + R  VY
+Sbjct: 29 EYPLTIRLGDEEFATIVCSPTDLEEMTVGFLASEGVIRGTNEIKELRIDEE-RGFVY 84
+
+
+>UniRef90_A0A1F8NL14 Uncharacterized protein n=1 Tax=Chloroflexi bacterium
+          RBG_16_47_49 TaxID=1797639 RepID=A0A1F8NL14_9CHLR
+          Length = 254
+
+ Score = 50.0 bits (119), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 19/49 (38%), Positives = 26/49 (53%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC 49
+          ETP  +  N  +  + M  P +LE   AGF + +G IK  EEI  + VC
+Sbjct: 28 ETPVTLTANGNIWMTFMCTPTELEALEAGFNYNEGVIKSKEEIELVKVC 76
+
+
+>UniRef90_A0A139CQQ9 Sulfur carrier protein FdhD n=1 Tax=Methanolobus sp. T82-4
+          TaxID=1794908 RepID=A0A139CQQ9_9EURY
+          Length = 268
+
+ Score = 50.0 bits (119), Expect = 4e-04,   Method: Composition-based stats.
+ Identities = 20/47 (42%), Positives = 27/47 (57%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREIL 47
+          E P A+++N R   ++M  PV L EF  GFL+ +  IK  EEI  I 
+Sbjct: 25 EMPLAVSVNGRHALTAMTSPVMLREFVIGFLYTERIIKDIEEIESIR 71
+
+
+>UniRef90_A0A1F8Q076 Sulfur carrier protein FdhD n=1 Tax=Chloroflexi bacterium
+          RBG_16_54_11 TaxID=1797647 RepID=A0A1F8Q076_9CHLR
+          Length = 263
+
+ Score = 50.0 bits (119), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 30/54 (55%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRI 54
+          E    +++N+    + M  PV LEE G GFL+ +  I+  +E+  + VCP G I
+Sbjct: 21 EQAVTLSVNNAPWLTFMCTPVCLEELGIGFLYNEEIIQSMQEVASVRVCPSGDI 74
+
+
+>UniRef90_D8JSH0 Sulfur carrier protein FdhD n=2 Tax=Hyphomicrobium TaxID=81
+          RepID=D8JSH0_HYPDA
+          Length = 272
+
+ Score = 50.0 bits (119), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 28/50 (56%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCP 50
+          ETP A+ +N       M  P DL +F  GFL G+G +K  +EIR +L  P
+Sbjct: 42 ETPVALQINSEPYTVMMATPSDLRDFAFGFLIGEGILKDPKEIRGVLEMP 91
+
+
+>UniRef90_A0A1G8ZEH0 Sulfur carrier protein FdhD n=1 Tax=Methanoculleus thermophilus
+          TaxID=2200 RepID=A0A1G8ZEH0_9EURY
+          Length = 259
+
+ Score = 50.0 bits (119), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 28/48 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E P ++ +N R   ++M  PV L EF  G+L+ +  +++ +EI  I +
+Sbjct: 26 EMPLSVTVNGRHALTAMTSPVMLREFVVGYLYTERIVRELDEIESIRI 73
+
+
+>UniRef90_A0A1V4XP59 Protein FdhD n=1 Tax=Syntrophus sp. PtaB.Bin001 TaxID=1811710
+          RepID=A0A1V4XP59_9DELT
+          Length = 275
+
+ Score = 49.6 bits (118), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 17/52 (32%), Positives = 29/52 (55%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          E    I +N   + ++ V P   +E   G+LFGQG+I+ A EI ++ +  +G
+Sbjct: 31 EKDLPIYVNGEHLATASVAPSMEKELVVGYLFGQGFIENAGEITKLEITEKG 82
+
+
+>UniRef90_L0KY22 Sulfur carrier protein FdhD n=1 Tax=Methanomethylovorans
+          hollandica (strain DSM 15978 / NBRC 107637 / DMS1)
+          TaxID=867904 RepID=L0KY22_METHD
+          Length = 258
+
+ Score = 49.6 bits (118), Expect = 6e-04,   Method: Composition-based stats.
+ Identities = 16/48 (33%), Positives = 28/48 (58%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E P A+ +N R + ++M  P+ L EF  GFL+ +  IK   E+  +++
+Sbjct: 25 EIPLAVTVNGRHVLTAMTSPMMLREFVIGFLYTEKIIKGPNEVESLVI 72
+
+
+>UniRef90_A0A101DWK3 Sulfur carrier protein FdhD n=2 Tax=Euryarchaeota TaxID=28890
+           RepID=A0A101DWK3_9EURY
+          Length = 275
+
+ Score = 49.6 bits (118), Expect = 6e-04,   Method: Composition-based stats.
+ Identities = 19/51 (37%), Positives = 27/51 (52%)
+
+Query: 1   ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+           E    + LNDR I + + LP +L E G GFL  +G +   +E+R I V   
+Sbjct: 51  EQSIGLVLNDRPIATLLALPRELTELGVGFLLCEGLLDDVDELRSISVKDD 101
+
+
+>UniRef90_H1Z2S9 Sulfur carrier protein FdhD n=1 Tax=Methanoplanus limicola DSM
+          2279 TaxID=937775 RepID=H1Z2S9_9EURY
+          Length = 264
+
+ Score = 49.6 bits (118), Expect = 6e-04,   Method: Composition-based stats.
+ Identities = 19/56 (33%), Positives = 32/56 (57%), Gaps = 1/56 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISV 56
+          ET  ++ +N R   ++M+ PV ++EF  GFLF +  I+  +EI  I +    R S+
+Sbjct: 25 ETLLSVIVNGRDALTAMISPVMIKEFVIGFLFTEKIIRGTDEIESIRI-EDNRASI 79
+
+
+>UniRef90_F6B7C1 Sulfur carrier protein FdhD n=1 Tax=Desulfotomaculum nigrificans
+          (strain DSM 14880 / VKM B-2319 / CO-1-SRB) TaxID=868595
+          RepID=F6B7C1_DESCC
+          Length = 262
+
+ Score = 49.3 bits (117), Expect = 7e-04,   Method: Composition-based stats.
+ Identities = 16/59 (27%), Positives = 32/59 (54%), Gaps = 1/59 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ-GRISVYA 58
+          E P  + LN +   + +  P +LEE   GFL  +G ++  ++++++ +  + G I V A
+Sbjct: 30 EVPITLFLNGKEFVTLVCSPQNLEELAVGFLCSEGLLQSPDDLKDLKIDEEKGVIYVEA 88
+
+
+>UniRef90_A0A1J4VG40 Sulfur carrier protein FdhD n=1 Tax=Candidatus Omnitrophica
+          bacterium CG1_02_41_171 TaxID=1805285
+          RepID=A0A1J4VG40_9BACT
+          Length = 256
+
+ Score = 49.3 bits (117), Expect = 7e-04,   Method: Composition-based stats.
+ Identities = 17/48 (35%), Positives = 30/48 (62%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILV 48
+          E P+ + L +R + + +  P DLE+   GFLF  G +K  +EI++I++
+Sbjct: 24 EVPFTVNLGNRELVTVLCSPFDLEDLTRGFLFTSGLVKGPDEIKKIVI 71
+
+
+>UniRef90_A0A1T4URG0 Protein FdhD n=7 Tax=root TaxID=1 RepID=A0A1T4URG0_9FIRM
+          Length = 272
+
+ Score = 49.3 bits (117), Expect = 7e-04,   Method: Composition-based stats.
+ Identities = 19/55 (34%), Positives = 30/55 (54%)
+
+Query: 1   ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRIS 55
+           E P A+ LN     + +  P +LE+  AGFL  +G IK  ++I+ I V    R++
+Sbjct: 50  EFPLALVLNGEYSNTFLCTPENLEQLVAGFLMTKGVIKSKDDIKSIEVDFDNRVA 104
+
+
+>UniRef90_UPI000B795D86 formate dehydrogenase family accessory protein FdhD n=1
+          Tax=Anaerovirgula multivorans TaxID=312168
+          RepID=UPI000B795D86
+          Length = 262
+
+ Score = 49.3 bits (117), Expect = 8e-04,   Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 28/51 (54%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ 51
+          E P+ I LN++   + +  P  LE    GFL  +G IK  E+I++I +  +
+Sbjct: 27 EYPFTIFLNEKEFITLLCSPKGLEYLSVGFLVSEGVIKSKEQIKKIYIDEE 77
+
+
+>UniRef90_A0A1J4ZC44 Sulfur carrier protein FdhD n=1 Tax=Anaerolineae bacterium
+          CG2_30_57_67 TaxID=1805003 RepID=A0A1J4ZC44_9CHLR
+          Length = 253
+
+ Score = 49.3 bits (117), Expect = 8e-04,   Method: Composition-based stats.
+ Identities = 16/52 (30%), Positives = 24/52 (46%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQG 52
+          E P ++ +N     + M     LE    GFLF +G I    E+ +I +C  G
+Sbjct: 22 ENPISLTVNGAPWLTLMCTATHLEALAVGFLFNEGVIASRAELADIRLCEHG 73
+
+
+>UniRef90_UPI0004745B36 sulfurtransferase FdhD n=2 Tax=Stenotrophomonas maltophilia
+          TaxID=40324 RepID=UPI0004745B36
+          Length = 286
+
+ Score = 49.3 bits (117), Expect = 8e-04,   Method: Composition-based stats.
+ Identities = 18/50 (36%), Positives = 23/50 (46%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCP 50
+          E P A+  ND      M  P DLE+F  GF   +G I    ++  I V P
+Sbjct: 38 EVPVAMLYNDSPFSVMMASPTDLEDFALGFSMTEGTISDPSQLLRIEVRP 87
+
+
+>UniRef90_A0A1H9CQB4 Sulfur carrier protein FdhD n=2 Tax=Litorimicrobium taeanense
+          TaxID=657014 RepID=A0A1H9CQB4_9RHOB
+          Length = 271
+
+ Score = 49.3 bits (117), Expect = 9e-04,   Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 27/54 (50%), Gaps = 2/54 (3%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVC--PQG 52
+          E P A+  N   +   M  PVDLEEF  GF   +G +    ++ E+ V   P+G
+Sbjct: 29 EVPVALVYNGSTLAVMMASPVDLEEFALGFSLTEGIVTAPGQLGEVEVVTHPKG 82
+
+
+>UniRef90_F2IYU2 Sulfur carrier protein FdhD n=1 Tax=Polymorphum gilvum (strain
+          LMG 25793 / CGMCC 1.9160 / SL003B-26A1) TaxID=991905
+          RepID=F2IYU2_POLGS
+          Length = 261
+
+ Score = 48.9 bits (116), Expect = 9e-04,   Method: Composition-based stats.
+ Identities = 19/54 (35%), Positives = 29/54 (53%), Gaps = 2/54 (3%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIR--EILVCPQG 52
+          ETP A+  N       M  P DLE+F  GF   +G I++ E+IR  ++ +  +G
+Sbjct: 24 ETPVALTYNGTTHAVMMASPSDLEDFAYGFSLTEGQIERPEQIRSLDVEILDEG 77
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.317    0.179    0.578 
+
+Lambda     K      H
+   0.267   0.0542    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 6,354,565,528
+Number of Sequences: 61934301
+Number of extensions: 256495478
+Number of successful extensions: 473734
+Number of sequences better than 9.0e-04: 153
+Number of HSP's better than  0.0 without gapping: 160
+Number of HSP's successfully gapped in prelim test: 15
+Number of HSP's that attempted gapping in prelim test: 473571
+Number of HSP's gapped (non-prelim): 175
+length of query: 58
+length of database: 21,023,703,129
+effective HSP length: 31
+effective length of query: 27
+effective length of database: 19,103,739,798
+effective search space: 515800974546
+effective search space used: 515800974546
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.3 bits)
+S2: 117 (49.3 bits)

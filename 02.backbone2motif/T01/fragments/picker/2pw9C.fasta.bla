@@ -1,0 +1,2205 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2pw9C
+         (58 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_Q6AMB9 Sulfur carrier protein FdhD n=2 Tax=Desulfotalea...   120   3e-25
+UniRef90_A0A1F9NQH9 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   104   2e-20
+UniRef90_A0A1M7Y7P1 Sulfur carrier protein FdhD n=1 Tax=Desulfop...   102   1e-19
+UniRef90_K1ZFH2 Uncharacterized protein (Fragment) n=1 Tax=groun...    98   1e-18
+UniRef90_UPI000881AA59 sufurtransferase FdhD n=1 Tax=Desulforhop...    96   7e-18
+UniRef90_A0A0A2HYT2 Sulfur carrier protein FdhD n=1 Tax=Desulfob...    95   1e-17
+UniRef90_A0A1W9MBE6 Sulfur carrier protein FdhD n=1 Tax=Desulfob...    94   3e-17
+UniRef90_A0A1Q6DIC6 Sulfur carrier protein FdhD n=1 Tax=Desulfob...    94   3e-17
+UniRef90_A0A1M5X7I8 Sulfur carrier protein FdhD n=1 Tax=Desulfof...    92   9e-17
+UniRef90_M1PN36 Sulfur carrier protein FdhD n=1 Tax=Desulfocapsa...    89   6e-16
+UniRef90_V4J6H5 Sulfur carrier protein FdhD n=1 Tax=uncultured D...    86   7e-15
+UniRef90_UPI000889FE6F sufurtransferase FdhD n=1 Tax=Desulfonatr...    85   1e-14
+UniRef90_UPI0005EAE572 sulfurtransferase FdhD n=1 Tax=Desulfonat...    84   2e-14
+UniRef90_UPI00068FF5AC sulfurtransferase FdhD n=2 Tax=Desulfonat...    80   5e-13
+UniRef90_UPI00048AFEA6 sulfurtransferase FdhD n=1 Tax=Desulfonat...    77   3e-12
+UniRef90_UPI0005EB7B16 sulfurtransferase FdhD n=1 Tax=Desulfonat...    77   4e-12
+UniRef90_F0S3P5 Sulfur carrier protein FdhD n=1 Tax=Desulfurobac...    74   2e-11
+UniRef90_D6SQL7 Sulfur carrier protein FdhD n=1 Tax=Desulfonatro...    68   2e-09
+UniRef90_A0A179D1Y6 Sulfur carrier protein FdhD n=1 Tax=Thermosu...    66   7e-09
+UniRef90_F8AD14 Sulfur carrier protein FdhD n=2 Tax=Thermodesulf...    65   2e-08
+UniRef90_UPI0003B3D20A sulfurtransferase FdhD n=1 Tax=Thermodesu...    63   6e-08
+UniRef90_A0A0W8F3J2 Formate dehydrogenase chain d n=1 Tax=hydroc...    52   1e-04
+UniRef90_N0B9B3 Sulfur carrier protein FdhD n=1 Tax=Hyphomicrobi...    49   0.001
+UniRef90_A0A1V4ZWS9 Sulfur carrier protein FdhD n=1 Tax=Methanor...    48   0.002
+UniRef90_A0A1F8LVM2 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    48   0.002
+UniRef90_A0A1V4ZVD4 Sulfur carrier protein FdhD n=2 Tax=unclassi...    48   0.002
+UniRef90_A0A1F8QEG0 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    47   0.003
+UniRef90_X7E563 Sulfur carrier protein FdhD n=1 Tax=Marinomonas ...    47   0.005
+UniRef90_D8JSH0 Sulfur carrier protein FdhD n=2 Tax=Hyphomicrobi...    45   0.020
+UniRef90_A0A1R4B7S7 Sulfur carrier protein FdhD n=1 Tax=Vibrio s...    44   0.023
+UniRef90_UPI000946CBE8 hypothetical protein n=1 Tax=Neptuniibact...    44   0.025
+UniRef90_A7IA75 Sulfur carrier protein FdhD n=1 Tax=Methanoregul...    44   0.028
+UniRef90_A0A1J4RIE3 Sulfur carrier protein FdhD n=1 Tax=Anaeroli...    44   0.029
+UniRef90_A0A0F9M9M4 Uncharacterized protein n=1 Tax=marine sedim...    44   0.030
+UniRef90_A0A1A8T8F0 Sulfur carrier protein FdhD n=1 Tax=Marinomo...    44   0.035
+UniRef90_A0A101JWE0 Sulfur carrier protein FdhD n=2 Tax=Rhizobia...    44   0.036
+UniRef90_UPI0003B47B0B sulfurtransferase FdhD n=1 Tax=Desulfospi...    44   0.036
+UniRef90_A0A1V5DRC1 Protein FdhD n=2 Tax=Syntrophus TaxID=167185...    44   0.039
+UniRef90_Q2BI88 Sulfur carrier protein FdhD n=1 Tax=Neptuniibact...    44   0.040
+UniRef90_UPI0008971618 sulfurtransferase FdhD n=1 Tax=Roseicitre...    44   0.045
+UniRef90_UPI00046F607E sulfurtransferase FdhD n=1 Tax=Shewanella...    43   0.048
+UniRef90_E6VNA1 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...    43   0.053
+UniRef90_Q2FME6 Sulfur carrier protein FdhD n=2 Tax=Euryarchaeot...    43   0.057
+UniRef90_UPI000B6857B2 sufurtransferase FdhD n=1 Tax=Tropicimona...    42   0.088
+UniRef90_UPI00041E9F12 sulfurtransferase FdhD n=1 Tax=Syntrophor...    42   0.089
+UniRef90_A0A1V4UE25 Sulfur carrier protein FdhD n=2 Tax=unclassi...    42   0.091
+UniRef90_A0A1F8KF54 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    42   0.093
+UniRef90_UPI0008386C8C sulfurtransferase FdhD n=1 Tax=Vibrio tri...    42   0.095
+UniRef90_UPI00088C464E sulfurtransferase FdhD n=1 Tax=Alicycliph...    42   0.10 
+UniRef90_A0A0P6X3W8 Sulfur carrier protein FdhD n=1 Tax=Leviline...    42   0.10 
+UniRef90_A0A0K6IMN6 Formate dehydrogenase assembly factor FdhD n...    42   0.10 
+UniRef90_A0A1J4VG40 Sulfur carrier protein FdhD n=1 Tax=Candidat...    42   0.11 
+UniRef90_UPI0008E6EEBB sulfurtransferase FdhD n=1 Tax=Bosea sp. ...    42   0.12 
+UniRef90_A0A1F9ZWN2 Sulfur carrier protein FdhD n=1 Tax=Euryarch...    42   0.12 
+UniRef90_A0A1F8PD71 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    42   0.13 
+UniRef90_A0A1F8MVD3 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    42   0.13 
+UniRef90_A0A095VMK1 Sulfur carrier protein FdhD n=1 Tax=Rhizobiu...    42   0.14 
+UniRef90_A0A1F8NKT4 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    42   0.15 
+UniRef90_A0KHY0 Sulfur carrier protein FdhD n=49 Tax=Aeromonadac...    42   0.16 
+UniRef90_A0A1W9W6E4 Protein FdhD n=1 Tax=Desulfobacteraceae bact...    42   0.16 
+UniRef90_A0A1F8PU44 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    41   0.18 
+UniRef90_A0A1M4WGA0 Sulfur carrier protein FdhD n=2 Tax=Loktanel...    41   0.18 
+UniRef90_UPI000833A599 formate dehydrogenase family accessory pr...    41   0.19 
+UniRef90_A0A101DWK3 Sulfur carrier protein FdhD n=2 Tax=Euryarch...    41   0.19 
+UniRef90_V6M8M4 Sulfur carrier protein FdhD n=1 Tax=Brevibacillu...    41   0.20 
+UniRef90_UPI00030023F2 sulfurtransferase FdhD n=1 Tax=Brevibacil...    41   0.20 
+UniRef90_UPI0004851859 sulfurtransferase FdhD n=1 Tax=Clostridiu...    41   0.20 
+UniRef90_Q2CC21 Sulfur carrier protein FdhD n=1 Tax=Oceanicola g...    41   0.21 
+UniRef90_UPI0006D7ED48 sulfurtransferase FdhD n=1 Tax=Clostridiu...    41   0.23 
+UniRef90_A0A0N1C332 Sulfur carrier protein FdhD n=1 Tax=Rhodopse...    41   0.24 
+UniRef90_A0A1M4V1E5 Sulfur carrier protein FdhD n=1 Tax=Marinomo...    41   0.26 
+UniRef90_Q6NBU3 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...    41   0.26 
+UniRef90_UPI00058F1E67 sulfurtransferase FdhD n=1 Tax=Ideonella ...    41   0.26 
+UniRef90_A0A0B5E1C4 Sulfur carrier protein FdhD n=1 Tax=Celeriba...    41   0.27 
+UniRef90_A0A1V4ZG69 Sulfur carrier protein FdhD n=2 Tax=Methanor...    41   0.27 
+UniRef90_A0A1V5DBH3 Protein FdhD n=1 Tax=Syntrophorhabdus sp. Pt...    41   0.27 
+UniRef90_G8ASR4 Sulfur carrier protein FdhD n=4 Tax=Azospirillum...    41   0.27 
+UniRef90_A0A1F8Q076 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    41   0.27 
+UniRef90_A0A1F8NL14 Uncharacterized protein n=1 Tax=Chloroflexi ...    41   0.29 
+UniRef90_G9ZWF6 Sulfur carrier protein FdhD n=1 Tax=Acetobactera...    41   0.30 
+UniRef90_A0A1F4U5G9 Sulfur carrier protein FdhD n=1 Tax=candidat...    41   0.30 
+UniRef90_F6CU46 Sulfur carrier protein FdhD n=1 Tax=Marinomonas ...    41   0.30 
+UniRef90_A0A1F8NBF4 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    41   0.30 
+UniRef90_A0A1V4ZNA7 Sulfur carrier protein FdhD n=1 Tax=Methanor...    40   0.31 
+UniRef90_A0A157RM19 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    40   0.32 
+UniRef90_A0A133UAZ3 Sulfur carrier protein FdhD n=2 Tax=candidat...    40   0.33 
+UniRef90_UPI0005F7A4EB sulfurtransferase FdhD n=2 Tax=Hyphomicro...    40   0.33 
+UniRef90_D4XI07 Sulfur carrier protein FdhD n=2 Tax=Achromobacte...    40   0.34 
+UniRef90_A6VZP4 Sulfur carrier protein FdhD n=1 Tax=Marinomonas ...    40   0.36 
+UniRef90_A0A0P6XQQ0 Sulfur carrier protein FdhD n=1 Tax=Thermana...    40   0.36 
+UniRef90_UPI000367674E sulfurtransferase FdhD n=1 Tax=Novispiril...    40   0.37 
+UniRef90_A0A1M5DYT2 Sulfur carrier protein FdhD n=1 Tax=Aestuari...    40   0.40 
+UniRef90_A0A1V5T206 Formate dehydrogenase accessory protein n=1 ...    40   0.41 
+UniRef90_A0A176YST5 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    40   0.41 
+UniRef90_F5L7M3 Sulfur carrier protein FdhD n=1 Tax=Caldalkaliba...    40   0.42 
+UniRef90_A0A0D6II67 Sulfur carrier protein FdhD n=29 Tax=Alcalig...    40   0.42 
+UniRef90_UPI00054FEFF0 sulfurtransferase FdhD n=2 Tax=Ahrensia T...    40   0.42 
+UniRef90_A0A1V5DY81 Sulfur carrier protein FdhD n=2 Tax=unclassi...    40   0.42 
+UniRef90_A0A1V5AJ99 Sulfur carrier protein FdhD n=2 Tax=Methanos...    40   0.43 
+UniRef90_L0HFK6 Sulfur carrier protein FdhD n=1 Tax=Methanoregul...    40   0.45 
+UniRef90_UPI000483388E sulfurtransferase FdhD n=1 Tax=Roseomonas...    40   0.45 
+UniRef90_A0A1B4PRV6 Sulfur carrier protein FdhD n=1 Tax=Burkhold...    40   0.46 
+UniRef90_W1RV76 Sulfur carrier protein FdhD n=1 Tax=Marinomonas ...    40   0.47 
+UniRef90_C0Z6F4 Sulfur carrier protein FdhD n=10 Tax=Bacillales ...    40   0.48 
+UniRef90_UPI0009F8FB79 formate dehydrogenase family accessory pr...    40   0.49 
+UniRef90_A0A0Q9IG90 Sulfur carrier protein FdhD n=1 Tax=Bosea sp...    40   0.51 
+UniRef90_A0A1F3C5B4 Sulfur carrier protein FdhD n=1 Tax=Anaeromy...    40   0.51 
+UniRef90_A0A1F9CEW7 Sulfur carrier protein FdhD (Fragment) n=1 T...    40   0.53 
+UniRef90_A0A1P8WX84 Sulfur carrier protein FdhD n=1 Tax=Sphingop...    40   0.54 
+UniRef90_UPI0006920A8E sulfurtransferase FdhD n=1 Tax=Achromobac...    40   0.55 
+UniRef90_A0A1M3M1U5 Sulfur carrier protein FdhD n=1 Tax=Magnetos...    40   0.58 
+UniRef90_Q2J276 Sulfur carrier protein FdhD n=1 Tax=Rhodopseudom...    40   0.58 
+UniRef90_A0A0M2U9H0 Sulfur carrier protein FdhD n=1 Tax=Clostrid...    40   0.59 
+UniRef90_UPI0009FA3C7A formate dehydrogenase family accessory pr...    40   0.59 
+UniRef90_A0A0F8DUD2 Sulfur carrier protein FdhD n=1 Tax=Methanos...    40   0.61 
+UniRef90_A0A1I2CU64 Sulfur carrier protein FdhD n=1 Tax=Roseiviv...    40   0.63 
+UniRef90_X7EET8 Sulfur carrier protein FdhD n=1 Tax=Roseivivax h...    40   0.63 
+UniRef90_UPI0004B57F28 sulfurtransferase FdhD n=1 Tax=[Clostridi...    40   0.64 
+UniRef90_A0A1F8MKN1 Protein FdhD n=1 Tax=Chloroflexi bacterium R...    40   0.65 
+UniRef90_F2JWR6 Formate dehydrogenase subunit FdhD n=1 Tax=Marin...    40   0.66 
+UniRef90_UPI000482CF2B sulfurtransferase FdhD n=1 Tax=Bradyrhizo...    40   0.66 
+UniRef90_J4PGN9 Sulfur carrier protein FdhD n=5 Tax=Achromobacte...    40   0.67 
+UniRef90_A0A1H5RV55 Sulfur carrier protein FdhD n=1 Tax=Bosea la...    40   0.68 
+UniRef90_UPI00034B0E3F sulfurtransferase FdhD n=1 Tax=Rhodopseud...    39   0.70 
+UniRef90_A0A0F8FDQ6 Sulfur carrier protein FdhD n=4 Tax=Methanos...    39   0.72 
+UniRef90_A0A0B7JKX2 Sulfur carrier protein FdhD n=19 Tax=Photoba...    39   0.74 
+UniRef90_J2I6L8 Sulfur carrier protein FdhD n=1 Tax=Brevibacillu...    39   0.75 
+UniRef90_X0Y8Y9 Uncharacterized protein (Fragment) n=1 Tax=marin...    39   0.76 
+UniRef90_A0A0R3MXT6 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    39   0.77 
+UniRef90_A0A0E3UQ49 Sulfur carrier protein FdhD n=2 Tax=Pseudoxa...    39   0.78 
+UniRef90_A0A1H1Q4R4 Sulfur carrier protein FdhD n=1 Tax=Opitutus...    39   0.82 
+UniRef90_K6E7E1 Sulfur carrier protein FdhD n=1 Tax=Bacillus bat...    39   0.82 
+UniRef90_Q07HL8 Sulfur carrier protein FdhD n=1 Tax=Rhodopseudom...    39   0.82 
+UniRef90_A0A0H1R6H0 Sulfur carrier protein FdhD n=1 Tax=Microvir...    39   0.83 
+UniRef90_A0A0Q8XHV5 Sulfur carrier protein FdhD n=1 Tax=Achromob...    39   0.84 
+UniRef90_UPI0008BCAE0B sulfurtransferase FdhD n=1 Tax=Bosea lupi...    39   0.84 
+UniRef90_UPI0003F6B664 sulfurtransferase FdhD n=1 Tax=Bradyrhizo...    39   0.85 
+UniRef90_A0A0Q6A0L9 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    39   0.86 
+UniRef90_V4NWN4 Sulfur carrier protein FdhD n=2 Tax=Asticcacauli...    39   0.86 
+UniRef90_A0A1W1GVB1 Sulfur carrier protein FdhD n=9 Tax=Xanthomo...    39   0.86 
+UniRef90_A0A1A8TNB5 Sulfur carrier protein FdhD n=2 Tax=Marinomo...    39   0.87 
+UniRef90_UPI0009FF9968 formate dehydrogenase family accessory pr...    39   0.88 
+UniRef90_J2VB32 Sulfur carrier protein FdhD n=1 Tax=Phyllobacter...    39   0.90 
+UniRef90_A0A1Q6WF54 Sulfur carrier protein FdhD n=1 Tax=Gammapro...    39   0.92 
+UniRef90_A0A157PCP1 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    39   0.94 
+UniRef90_A0A0J8YWZ5 Sulfur carrier protein FdhD n=1 Tax=bacteria...    39   0.95 
+UniRef90_A0A099CZ67 Sulfur carrier protein FdhD n=1 Tax=Oleiagri...    39   0.96 
+UniRef90_UPI000694A5A6 sulfurtransferase FdhD n=1 Tax=Polycyclov...    39   0.96 
+UniRef90_A0A0Q0W4S4 Sulfur carrier protein FdhD n=1 Tax=Candidat...    39   0.97 
+UniRef90_A0A0Q4P129 Sulfur carrier protein FdhD n=2 Tax=Devosia ...    39   0.98 
+UniRef90_A0A0Q6N381 Sulfur carrier protein FdhD n=5 Tax=Burkhold...    39   0.99 
+UniRef90_A0A0Q8JMJ4 Sulfur carrier protein FdhD n=6 Tax=Achromob...    39   0.99 
+UniRef90_X1Q630 Uncharacterized protein (Fragment) n=1 Tax=marin...    39   1.00 
+UniRef90_UPI000680957A sulfurtransferase FdhD n=1 Tax=Aeromonas ...    39   1.00 
+UniRef90_A0A0P6V1I7 Sulfur carrier protein FdhD n=1 Tax=Methanos...    39   1.0  
+UniRef90_UPI00035DE2CF sulfurtransferase FdhD n=3 Tax=Streptomyc...    39   1.0  
+UniRef90_A0A0K2Z9Y3 Sulfur carrier protein FdhD n=21 Tax=Stenotr...    39   1.0  
+UniRef90_A0A078LUE5 Sulfur carrier protein FdhD n=1 Tax=Pseudomo...    39   1.0  
+UniRef90_A0A1B6AEX8 Sulfur carrier protein FdhD n=4 Tax=Streptom...    39   1.0  
+UniRef90_T1CL35 Formate dehydrogenase, subunit FdhD (Fragment) n...    39   1.0  
+UniRef90_UPI0004BF58A0 sulfurtransferase FdhD n=1 Tax=Streptomyc...    39   1.1  
+UniRef90_A0A1I3QV22 Sulfur carrier protein FdhD n=1 Tax=Celeriba...    39   1.1  
+UniRef90_A0A059IT78 Uncharacterized protein (Fragment) n=1 Tax=D...    39   1.1  
+UniRef90_A0A1F9TB93 Sulfur carrier protein FdhD n=1 Tax=Elusimic...    39   1.1  
+UniRef90_A0A1R0IL02 Sulfur carrier protein FdhD n=3 Tax=Sulfobac...    39   1.1  
+UniRef90_F8JFP1 Sulfur carrier protein FdhD n=2 Tax=Hyphomicrobi...    39   1.1  
+UniRef90_D0I9A2 Sulfur carrier protein FdhD n=1 Tax=Grimontia ho...    39   1.1  
+UniRef90_W7QSA4 Sulfur carrier protein FdhD n=2 Tax=Catenovulum ...    39   1.1  
+UniRef90_UPI000A070D4F sulfurtransferase FdhD n=1 Tax=Derxia gum...    39   1.1  
+UniRef90_A0A0B4ESE0 Sulfur carrier protein FdhD n=1 Tax=Rhodobac...    39   1.2  
+UniRef90_A0A0K9YX04 Sulfur carrier protein FdhD n=1 Tax=Brevibac...    39   1.2  
+UniRef90_F4GQD2 Sulfur carrier protein FdhD n=1 Tax=Pusillimonas...    39   1.2  
+UniRef90_UPI0008369099 sulfurtransferase FdhD n=1 Tax=Marinomona...    39   1.2  
+UniRef90_A0A0A8WPW0 Sulfur carrier protein FdhD n=1 Tax=Geobacte...    39   1.2  
+UniRef90_F2IYU2 Sulfur carrier protein FdhD n=1 Tax=Polymorphum ...    39   1.2  
+UniRef90_Q2KWI8 Sulfur carrier protein FdhD n=1 Tax=Bordetella a...    39   1.2  
+UniRef90_A0A0W8FHQ2 Formate dehydrogenase chain d n=1 Tax=hydroc...    39   1.3  
+UniRef90_A0A086YNM2 Sulfur carrier protein FdhD n=1 Tax=Peptococ...    39   1.3  
+UniRef90_D5XA52 Multifunctional fusion protein n=2 Tax=Therminco...    39   1.3  
+UniRef90_B9XQ02 Sulfur carrier protein FdhD n=1 Tax=Pedosphaera ...    39   1.3  
+UniRef90_UPI000412245B sulfurtransferase FdhD n=1 Tax=Bradyrhizo...    39   1.3  
+UniRef90_UPI0004B317BB sulfurtransferase FdhD n=1 Tax=Bordetella...    39   1.3  
+UniRef90_A0A0E3SA01 Sulfur carrier protein FdhD n=2 Tax=Methanos...    39   1.3  
+UniRef90_A0A1F8P9Y6 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    39   1.3  
+UniRef90_UPI000B845B19 sulfurtransferase FdhD n=1 Tax=Marinobact...    39   1.3  
+UniRef90_E3HSP1 Sulfur carrier protein FdhD n=7 Tax=Alcaligenace...    39   1.3  
+UniRef90_UPI000552E3EF sulfurtransferase FdhD n=1 Tax=Clostridiu...    39   1.3  
+UniRef90_A0A1E3H5X2 Sulfur carrier protein FdhD n=1 Tax=Methylob...    39   1.3  
+UniRef90_H0FDX6 Sulfur carrier protein FdhD n=1 Tax=Achromobacte...    39   1.3  
+UniRef90_UPI0008ABF5E9 sufurtransferase FdhD n=1 Tax=Paenibacill...    39   1.4  
+UniRef90_A0A166LRX9 Sulfur carrier protein FdhD n=1 Tax=Marinomo...    39   1.4  
+UniRef90_A0A1C3JSZ0 Protein FdhD n=2 Tax=Marinomonas gallaica Ta...    39   1.4  
+UniRef90_A0A0M1ERK4 Sulfur carrier protein FdhD n=3 Tax=Gammapro...    39   1.4  
+UniRef90_N9VLI9 Sulfur carrier protein FdhD n=1 Tax=Aeromonas di...    39   1.4  
+UniRef90_A0A0N0MAH0 Sulfur carrier protein FdhD n=1 Tax=Bosea va...    39   1.4  
+UniRef90_A0A0P0IS25 Sulfur carrier protein FdhD n=4 Tax=Methanos...    39   1.5  
+UniRef90_UPI0008E9E970 formate dehydrogenase family accessory pr...    38   1.5  
+UniRef90_UPI000B8100FB hypothetical protein n=1 Tax=Maribius pel...    38   1.5  
+UniRef90_A0A1N7Q3N5 Sulfur carrier protein FdhD n=2 Tax=Insoliti...    38   1.5  
+UniRef90_Q39NF3 Sulfur carrier protein FdhD n=50 Tax=Bacteria Ta...    38   1.6  
+UniRef90_Q2FND8 Uncharacterized protein required for formate deh...    38   1.6  
+UniRef90_A0A0Q3WHB1 Sulfur carrier protein FdhD n=2 Tax=Brevibac...    38   1.6  
+UniRef90_UPI0004C92B67 sulfurtransferase FdhD n=1 Tax=Streptomyc...    38   1.6  
+UniRef90_UPI00055156C8 sulfurtransferase FdhD n=1 Tax=Dyella Tax...    38   1.6  
+UniRef90_A0A161RXA5 Sulfur carrier protein FdhD n=1 Tax=Brevibac...    38   1.6  
+UniRef90_A0A1F8MHT3 Protein FdhD n=1 Tax=Chloroflexi bacterium R...    38   1.7  
+UniRef90_UPI0009812897 sulfurtransferase FdhD n=1 Tax=Burkholder...    38   1.7  
+UniRef90_I7KDW6 Formate dehydrogenase n=5 Tax=Methanoculleus Tax...    38   1.7  
+UniRef90_A0A139CQQ9 Sulfur carrier protein FdhD n=1 Tax=Methanol...    38   1.7  
+UniRef90_UPI000A030F20 formate dehydrogenase family accessory pr...    38   1.7  
+UniRef90_A0A0J8JIH8 Sulfur carrier protein FdhD n=2 Tax=Catenovu...    38   1.7  
+UniRef90_A3MT60 Formate dehydrogenase delta subunit n=1 Tax=Pyro...    38   1.8  
+UniRef90_A0A1D8G9E8 Sulfur carrier protein FdhD n=5 Tax=Streptom...    38   1.8  
+UniRef90_A0A1V5EBB0 Sulfur carrier protein FdhD n=1 Tax=Syntroph...    38   1.8  
+UniRef90_UPI00059059B0 sulfurtransferase FdhD n=1 Tax=Melaminivo...    38   1.8  
+UniRef90_A0A1P8ULD6 Sulfur carrier protein FdhD n=2 Tax=Acidihal...    38   1.8  
+UniRef90_A0A191HWA7 Sulfur carrier protein FdhD n=1 Tax=endosymb...    38   1.8  
+UniRef90_L5N6L6 Sulfur carrier protein FdhD n=3 Tax=Bacillaceae ...    38   1.9  
+UniRef90_D8EZI0 Sulfur carrier protein FdhD n=1 Tax=delta proteo...    38   1.9  
+UniRef90_A0A0D0HCA7 Sulfur carrier protein FdhD n=152 Tax=Burkho...    38   1.9  
+UniRef90_UPI0009A25471 sulfurtransferase FdhD n=1 Tax=Stenotroph...    38   1.9  
+UniRef90_A0A0U5BP91 Sulfur carrier protein FdhD n=3 Tax=Xanthomo...    38   1.9  
+UniRef90_UPI0004B0F360 sulfurtransferase FdhD n=1 Tax=Luteimonas...    38   1.9  
+UniRef90_F2L0M8 Formate dehydrogenase delta subunit n=1 Tax=Ther...    38   2.0  
+UniRef90_A0A176ZHN9 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    38   2.0  
+UniRef90_A0A0P9DTR7 Sulfur carrier protein FdhD n=1 Tax=Candidat...    38   2.0  
+UniRef90_UPI0003809420 sulfurtransferase FdhD n=1 Tax=Amphritea ...    38   2.0  
+UniRef90_A0A0Q3PEW3 Sulfur carrier protein FdhD n=1 Tax=Bosea th...    38   2.0  
+UniRef90_A0A085FMQ0 Sulfur carrier protein FdhD n=2 Tax=Bosea Ta...    38   2.0  
+UniRef90_V5SDY1 Sulfur carrier protein FdhD n=1 Tax=Hyphomicrobi...    38   2.1  
+UniRef90_A0A193G568 Sulfur carrier protein FdhD n=3 Tax=Bordetel...    38   2.1  
+UniRef90_A0A1T2XPW3 Sulfur carrier protein FdhD n=5 Tax=Campylob...    38   2.1  
+UniRef90_I7Z9C4 Sulfur carrier protein FdhD n=1 Tax=Hydrocarboni...    38   2.1  
+UniRef90_UPI00089C4DFC hypothetical protein n=1 Tax=Beijerinckia...    38   2.1  
+UniRef90_A0A1V2A2G3 Sufurtransferase FdhD (Fragment) n=1 Tax=Ach...    38   2.2  
+UniRef90_UPI000AF97C3C hypothetical protein n=1 Tax=Rhizobiales ...    38   2.2  
+UniRef90_I4C8E6 Sulfur carrier protein FdhD n=1 Tax=Desulfomonil...    38   2.2  
+UniRef90_UPI000B7114BC sufurtransferase FdhD n=1 Tax=Azospirillu...    38   2.2  
+UniRef90_V8QPA0 Sulfur carrier protein FdhD n=2 Tax=Advenella ka...    38   2.2  
+UniRef90_A0A101XB50 Formate dehydrogenase n=3 Tax=Thermoproteace...    38   2.2  
+UniRef90_M4WSS8 Sulfur carrier protein FdhD n=1 Tax=Pseudomonas ...    38   2.3  
+UniRef90_UPI00037EC44A sulfurtransferase FdhD n=2 Tax=Methylover...    38   2.3  
+UniRef90_N9Y1K9 Protein FdhD n=2 Tax=Clostridium TaxID=1485 RepI...    38   2.3  
+UniRef90_A0A0F9UHS9 Uncharacterized protein n=1 Tax=marine sedim...    38   2.3  
+UniRef90_A0A1B2QZ17 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    38   2.4  
+UniRef90_A0A1X6ZH47 Sulfur carrier protein FdhD n=1 Tax=Pseudooc...    38   2.4  
+UniRef90_A0A1I6JER4 Sulfur carrier protein FdhD n=4 Tax=Stenotro...    38   2.4  
+UniRef90_A0A0S8IZD9 Sulfur carrier protein FdhD n=1 Tax=candidat...    38   2.4  
+UniRef90_Q0B3P0 Sulfur carrier protein FdhD n=32 Tax=Burkholderi...    38   2.4  
+UniRef90_A0A118Q7W9 Sulfur carrier protein FdhD n=15 Tax=Burkhol...    38   2.4  
+UniRef90_UPI00048768DE sulfurtransferase FdhD n=1 Tax=Enterovibr...    38   2.4  
+UniRef90_UPI0005AB6C2E sulfurtransferase FdhD n=1 Tax=Bacillus r...    38   2.4  
+UniRef90_A0A101U8X2 Sulfur carrier protein FdhD n=1 Tax=Streptom...    38   2.4  
+UniRef90_UPI00046C9450 sulfurtransferase FdhD n=1 Tax=Deferrisom...    38   2.4  
+UniRef90_A0A1A5X4J6 Sulfur carrier protein FdhD n=4 Tax=Bacillal...    38   2.4  
+UniRef90_A0A128F2Q7 Sulfur carrier protein FdhD n=4 Tax=Grimonti...    38   2.4  
+UniRef90_UPI0004C4DA60 sulfurtransferase FdhD n=1 Tax=Streptomyc...    38   2.4  
+UniRef90_A0A0S6X353 Sulfur carrier protein FdhD n=1 Tax=Novosphi...    38   2.5  
+UniRef90_A0A0P6YE63 Sulfur carrier protein FdhD n=2 Tax=Ardentic...    38   2.5  
+UniRef90_A0A1F8Q4W8 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    38   2.6  
+UniRef90_A0A0U4FF19 Sulfur carrier protein FdhD n=1 Tax=Lentibac...    38   2.6  
+UniRef90_B1KA66 Sulfur carrier protein FdhD n=52 Tax=Burkholderi...    38   2.6  
+UniRef90_A0A169PBL1 Sulfur carrier protein FdhD n=2 Tax=Streptom...    37   2.6  
+UniRef90_A0A0C1RI93 Sulfur carrier protein FdhD n=1 Tax=marine a...    37   2.6  
+UniRef90_UPI0008DFB886 sufurtransferase FdhD n=1 Tax=Rhizobium s...    37   2.6  
+UniRef90_A0A1F4TND4 Sulfur carrier protein FdhD n=1 Tax=candidat...    37   2.7  
+UniRef90_A0A1V4Y0K3 Protein FdhD n=2 Tax=Syntrophus TaxID=167185...    37   2.8  
+UniRef90_A0A0Q9HDZ6 Sulfur carrier protein FdhD n=6 Tax=Rhizobia...    37   2.8  
+UniRef90_Q39WS2 Multifunctional fusion protein n=1 Tax=Geobacter...    37   2.8  
+UniRef90_A0A1D7QSY1 Sulfur carrier protein FdhD n=2 Tax=Bacillus...    37   2.8  
+UniRef90_A0A149VST1 Protein FdhD n=1 Tax=Ferrovum sp. PN-J185 Ta...    37   2.8  
+UniRef90_UPI0009DDC36D formate dehydrogenase family accessory pr...    37   2.9  
+UniRef90_A0A1Q9XBH0 Sulfur carrier protein FdhD n=3 Tax=Achromob...    37   2.9  
+UniRef90_UPI0004820372 sulfurtransferase FdhD n=3 Tax=Phyllobact...    37   3.0  
+UniRef90_A0A095UYY0 Sulfur carrier protein FdhD n=2 Tax=Achromob...    37   3.0  
+UniRef90_UPI00068C8076 sulfurtransferase FdhD n=1 Tax=Methylibiu...    37   3.0  
+UniRef90_A0A1E7GGT8 Sulfur carrier protein FdhD n=1 Tax=Methanos...    37   3.0  
+UniRef90_A9I097 Sulfur carrier protein FdhD n=1 Tax=Bordetella p...    37   3.0  
+UniRef90_UPI0003FB40AE sulfurtransferase FdhD n=1 Tax=Azohydromo...    37   3.1  
+UniRef90_A0A197SJE5 Sulfur carrier protein FdhD n=3 Tax=Streptom...    37   3.1  
+UniRef90_UPI0003A629D5 sulfurtransferase FdhD n=1 Tax=Arhodomona...    37   3.1  
+UniRef90_A0A0T1Q6V4 Sulfur carrier protein FdhD n=5 Tax=Streptom...    37   3.1  
+UniRef90_UPI0008F6510A sulfurtransferase FdhD n=1 Tax=Albimonas ...    37   3.1  
+UniRef90_A0A1D7TX46 Sulfur carrier protein FdhD n=2 Tax=Bosea Ta...    37   3.1  
+UniRef90_UPI0008E23A48 sufurtransferase FdhD n=1 Tax=Dyella sp. ...    37   3.1  
+UniRef90_A0A1X7P937 Sulfur carrier protein FdhD n=1 Tax=Maritimi...    37   3.2  
+UniRef90_UPI0008771083 sufurtransferase FdhD n=1 Tax=Asticcacaul...    37   3.2  
+UniRef90_A0A1V5BJ74 Sulfur carrier protein FdhD n=1 Tax=Pelotoma...    37   3.2  
+UniRef90_W1NB30 Uncharacterized protein n=2 Tax=Halomonas huangh...    37   3.2  
+UniRef90_A0A0K8PDX2 Sulfur carrier protein FdhD n=2 Tax=Streptom...    37   3.3  
+UniRef90_UPI000463DA2A sulfurtransferase FdhD n=1 Tax=Verrucomic...    37   3.3  
+UniRef90_UPI000883405D sulfurtransferase FdhD n=1 Tax=Phyllobact...    37   3.3  
+UniRef90_Q1ZUC8 Sulfur carrier protein FdhD n=11 Tax=Photobacter...    37   3.4  
+UniRef90_UPI000380D0C9 sulfurtransferase FdhD n=1 Tax=Meganema p...    37   3.4  
+UniRef90_UPI0003705F76 sulfurtransferase FdhD n=1 Tax=Hyphomicro...    37   3.5  
+UniRef90_A6DB32 Sulfur carrier protein FdhD n=1 Tax=Caminibacter...    37   3.6  
+UniRef90_UPI000737BA1E sulfurtransferase FdhD n=1 Tax=Luteimonas...    37   3.6  
+UniRef90_A0A1W6YRC4 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    37   3.6  
+UniRef90_H0TWJ0 Uncharacterized protein n=1 Tax=Bradyrhizobium s...    37   3.6  
+UniRef90_F0GF73 Sulfur carrier protein FdhD (Fragment) n=1 Tax=B...    37   3.6  
+UniRef90_I4D216 Sulfur carrier protein FdhD n=1 Tax=Desulfosporo...    37   3.7  
+UniRef90_UPI0004C4BF77 sulfurtransferase FdhD n=1 Tax=Streptomyc...    37   3.7  
+UniRef90_UPI0005B1ECEA sulfurtransferase FdhD n=1 Tax=Aeromonas ...    37   3.7  
+UniRef90_UPI000889E98C hypothetical protein n=1 Tax=Pelagibacter...    37   3.8  
+UniRef90_A0A0Q9IV18 Sulfur carrier protein FdhD n=1 Tax=Bosea sp...    37   3.8  
+UniRef90_V9VRR9 Sulfur carrier protein FdhD n=1 Tax=Leisingera m...    37   3.8  
+UniRef90_UPI00088B4CC8 formate dehydrogenase family accessory pr...    37   3.8  
+UniRef90_A0A0P9DMZ8 Sulfur carrier protein FdhD n=6 Tax=Paenibac...    37   3.9  
+UniRef90_A0A1T4URG0 Protein FdhD n=7 Tax=root TaxID=1 RepID=A0A1...    37   3.9  
+UniRef90_A0A0N1FAE9 Sulfur carrier protein FdhD n=1 Tax=Komagata...    37   3.9  
+UniRef90_K2NYA6 Sulfur carrier protein FdhD n=2 Tax=Nitratireduc...    37   3.9  
+UniRef90_UPI0008772466 sufurtransferase FdhD n=1 Tax=Paracoccus ...    37   4.0  
+UniRef90_UPI000420299D sulfurtransferase FdhD n=1 Tax=Bacillus s...    37   4.0  
+UniRef90_A0A1E5C5N7 Sulfur carrier protein FdhD n=3 Tax=Enterovi...    37   4.1  
+UniRef90_A0A091B4L6 Sulfur carrier protein FdhD n=1 Tax=Arenimon...    37   4.1  
+UniRef90_A0A100Y7P0 Sulfur carrier protein FdhD n=1 Tax=Streptom...    37   4.1  
+UniRef90_A0A0F9N8A2 Uncharacterized protein n=1 Tax=marine sedim...    37   4.1  
+UniRef90_A0A0F5L6H3 Sulfur carrier protein FdhD n=1 Tax=Devosia ...    37   4.1  
+UniRef90_J7L5M0 Sulfur carrier protein FdhD n=2 Tax=Nocardiopsac...    37   4.1  
+UniRef90_W2E8H5 Sulfur carrier protein FdhD n=3 Tax=Paenibacillu...    37   4.2  
+UniRef90_UPI0004232523 formate dehydrogenase family accessory pr...    37   4.3  
+UniRef90_A0A0B5I1X5 Sulfur carrier protein FdhD n=10 Tax=Actinob...    37   4.3  
+UniRef90_A0A1G3USY8 Sulfur carrier protein FdhD n=1 Tax=Syntroph...    37   4.3  
+UniRef90_A0A088TZX0 Sulfur carrier protein FdhD n=7 Tax=Burkhold...    37   4.4  
+UniRef90_UPI0009FB968C sulfurtransferase FdhD n=1 Tax=Niveispiri...    37   4.4  
+UniRef90_F1Z7A1 Sulfur carrier protein FdhD n=1 Tax=Novosphingob...    37   4.5  
+UniRef90_UPI000509B39E sulfurtransferase FdhD n=1 Tax=Arsenophon...    37   4.5  
+UniRef90_A0A101IR35 Protein FdhD n=2 Tax=Methanomicrobiales TaxI...    37   4.5  
+UniRef90_A0A193GJJ1 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    37   4.5  
+UniRef90_N9W1E2 Sulfur carrier protein FdhD n=6 Tax=Sphingopyxis...    37   4.6  
+UniRef90_A0A1Y6CD97 Sulfur carrier protein FdhD n=1 Tax=Tistlia ...    37   4.7  
+UniRef90_A0A089Z012 Sulfur carrier protein FdhD n=4 Tax=Pseudomo...    37   4.7  
+UniRef90_A0A1D9FHB6 Sulfur carrier protein FdhD n=1 Tax=Clostrid...    37   4.8  
+UniRef90_UPI0009FE7601 formate dehydrogenase family accessory pr...    37   4.8  
+UniRef90_A0A1N6WC40 Sulfur carrier protein FdhD n=1 Tax=Bosea sp...    37   4.9  
+UniRef90_F3NPY3 Sulfur carrier protein FdhD n=10 Tax=Actinobacte...    37   4.9  
+UniRef90_UPI000B795D86 formate dehydrogenase family accessory pr...    37   4.9  
+UniRef90_A0A133UGJ5 Sulfur carrier protein FdhD n=3 Tax=candidat...    37   5.1  
+UniRef90_UPI0008536BAD sulfurtransferase FdhD n=1 Tax=Streptomyc...    37   5.2  
+UniRef90_A0A0P8AK88 Sulfur carrier protein FdhD n=1 Tax=Rhodobac...    37   5.3  
+UniRef90_UPI00037A4C76 sulfurtransferase FdhD n=1 Tax=Verrucomic...    37   5.3  
+UniRef90_A0A1V5EU65 Sulfur carrier protein FdhD n=4 Tax=Bradyrhi...    37   5.4  
+UniRef90_S3ZIR4 Sulfur carrier protein FdhD n=4 Tax=Streptomyces...    37   5.4  
+UniRef90_A0A1D7VQ69 Sulfur carrier protein FdhD n=1 Tax=Streptom...    37   5.4  
+UniRef90_UPI00056BE322 sulfurtransferase FdhD n=1 Tax=Streptomyc...    37   5.4  
+UniRef90_UPI0009DE6826 sulfurtransferase FdhD n=1 Tax=Variovorax...    37   5.4  
+UniRef90_E6V584 Sulfur carrier protein FdhD n=3 Tax=Variovorax T...    37   5.5  
+UniRef90_A0A1G0LNM8 Uncharacterized protein n=1 Tax=Gemmatimonad...    37   5.5  
+UniRef90_A0A0Q7F5I1 Sulfur carrier protein FdhD n=1 Tax=Massilia...    37   5.5  
+UniRef90_A0A1S2MG18 Sulfur carrier protein FdhD n=1 Tax=Anaeroba...    37   5.5  
+UniRef90_B9L5P8 Sulfur carrier protein FdhD n=1 Tax=Nautilia pro...    37   5.5  
+UniRef90_UPI00047A0422 sulfurtransferase FdhD n=1 Tax=Bordetella...    37   5.5  
+UniRef90_UPI00047C1FED sulfurtransferase FdhD n=1 Tax=Bacillus s...    37   5.5  
+UniRef90_UPI00066FE144 sulfurtransferase FdhD n=1 Tax=Dyella-lik...    37   5.5  
+UniRef90_A0A0F2PP33 Sulfur carrier protein FdhD n=1 Tax=Peptococ...    37   5.6  
+UniRef90_A0A0H3KR92 Sulfur carrier protein FdhD n=21 Tax=Burkhol...    37   5.6  
+UniRef90_A0A1W6ZIR2 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    37   5.6  
+UniRef90_A0A1G3V437 Sulfur carrier protein FdhD (Fragment) n=1 T...    37   5.6  
+UniRef90_A0A151FID3 Sulfur carrier protein FdhD n=2 Tax=Bradyrhi...    37   5.6  
+UniRef90_A4TV59 Sulfur carrier protein FdhD n=2 Tax=Magnetospiri...    37   5.7  
+UniRef90_A0A1M3BS76 Sulfur carrier protein FdhD n=2 Tax=Burkhold...    37   5.7  
+UniRef90_UPI00037A5055 sulfurtransferase FdhD n=1 Tax=Rudaea cel...    37   5.7  
+UniRef90_UPI000B89370C sulfurtransferase FdhD n=1 Tax=Bradyrhizo...    37   5.7  
+UniRef90_A0A0D2UE96 Sulfur carrier protein FdhD n=2 Tax=Skermane...    36   5.8  
+UniRef90_UPI00082FD765 sulfurtransferase FdhD n=2 Tax=Burkholder...    36   5.8  
+UniRef90_A0A0F7VUJ6 Sulfur carrier protein FdhD n=2 Tax=Streptom...    36   5.8  
+UniRef90_UPI0008E7D83D sulfurtransferase FdhD n=1 Tax=Rugamonas ...    36   5.9  
+UniRef90_A0A033UYN3 Sulfur carrier protein FdhD n=9 Tax=Staphylo...    36   5.9  
+UniRef90_A0A1W6Z7L5 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    36   6.0  
+UniRef90_UPI0004C98C59 sulfurtransferase FdhD n=2 Tax=Streptomyc...    36   6.0  
+UniRef90_A0A0P1FJS9 Sulfur carrier protein FdhD n=1 Tax=Thalasso...    36   6.1  
+UniRef90_A0A0F8VW35 Sulfur carrier protein FdhD n=2 Tax=root Tax...    36   6.1  
+UniRef90_A0A1D9H4X2 Sulfur carrier protein FdhD n=2 Tax=Cupriavi...    36   6.1  
+UniRef90_UPI00089D7158 sufurtransferase FdhD n=1 Tax=Pseudomonas...    36   6.1  
+UniRef90_UPI000410BD06 sulfurtransferase FdhD n=2 Tax=Thalassoba...    36   6.2  
+UniRef90_UPI00078657BB sulfurtransferase FdhD n=1 Tax=Bellilinea...    36   6.2  
+UniRef90_A0A1A6Y0I9 Sulfur carrier protein FdhD n=1 Tax=Stenotro...    36   6.2  
+UniRef90_UPI00053C07E6 sulfurtransferase FdhD n=3 Tax=Campylobac...    36   6.2  
+UniRef90_UPI00082E9DF8 sulfurtransferase FdhD n=1 Tax=Rhizobiale...    36   6.3  
+UniRef90_UPI000B520F3C sulfurtransferase FdhD n=1 Tax=Marinibact...    36   6.3  
+UniRef90_A0A135HZH0 Sulfur carrier protein FdhD n=1 Tax=Parameso...    36   6.4  
+UniRef90_W0PDT4 Sulfur carrier protein FdhD n=1 Tax=Advenella mi...    36   6.4  
+UniRef90_A0A1M4XDP8 Sulfur carrier protein FdhD n=2 Tax=Desulfot...    36   6.5  
+UniRef90_L0KY22 Sulfur carrier protein FdhD n=1 Tax=Methanomethy...    36   6.6  
+UniRef90_A0A1E7RXP0 Sulfur carrier protein FdhD n=6 Tax=Clostrid...    36   6.6  
+UniRef90_UPI00048CD3D3 sulfurtransferase FdhD n=1 Tax=Streptomyc...    36   6.6  
+UniRef90_A0A1A9C6H4 Sulfur carrier protein FdhD n=1 Tax=Streptom...    36   6.7  
+UniRef90_A0A158M5A7 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    36   6.7  
+UniRef90_A0A1M3MGS2 Sulfur carrier protein FdhD n=1 Tax=Rhizobia...    36   6.8  
+UniRef90_A0A063ZAD2 Formate dehydrogenase n=1 Tax=Methanoculleus...    36   7.0  
+UniRef90_UPI000374AFDC sulfurtransferase FdhD n=1 Tax=Kushneria ...    36   7.0  
+UniRef90_A0A1S8D6K7 Sulfur carrier protein FdhD n=2 Tax=Roseomon...    36   7.1  
+UniRef90_UPI000930CD93 sulfurtransferase FdhD n=1 Tax=Hyphomicro...    36   7.1  
+UniRef90_UPI000B76FBCB sulfurtransferase FdhD n=1 Tax=Bosea sp. ...    36   7.3  
+UniRef90_A0A0B1ZSW3 Sulfur carrier protein FdhD n=2 Tax=Novosphi...    36   7.4  
+UniRef90_UPI000B51DB30 sulfurtransferase FdhD n=1 Tax=Achromobac...    36   7.4  
+UniRef90_A0A1C2DTZ1 Sulfur carrier protein FdhD n=4 Tax=Pseudomo...    36   7.6  
+UniRef90_UPI00088F026E sufurtransferase FdhD n=1 Tax=Streptomyce...    36   7.7  
+UniRef90_A0A1X7CHK0 Sulfur carrier protein FdhD n=2 Tax=Rhizobiu...    36   7.7  
+UniRef90_I2N9A3 Sulfur carrier protein FdhD n=1 Tax=Streptomyces...    36   7.7  
+UniRef90_A0A1E4JYM8 Sulfur carrier protein FdhD n=2 Tax=Xanthomo...    36   7.9  
+UniRef90_A0A1X6YXD2 Sulfur carrier protein FdhD n=2 Tax=Loktanel...    36   8.0  
+UniRef90_Q67L64 Sulfur carrier protein FdhD n=2 Tax=Symbiobacter...    36   8.1  
+UniRef90_A0A1B8V140 Sulfur carrier protein FdhD n=6 Tax=Pseudomo...    36   8.1  
+UniRef90_A0A1H9CQB4 Sulfur carrier protein FdhD n=2 Tax=Litorimi...    36   8.3  
+UniRef90_A0A0E3GZ84 Sulfur carrier protein FdhD n=99 Tax=Pseudom...    36   8.3  
+UniRef90_A0A139CAS4 FdhD protein n=1 Tax=Halomonadaceae bacteriu...    36   8.4  
+UniRef90_A0A0X3T4U8 Sulfur carrier protein FdhD n=1 Tax=Streptom...    36   8.5  
+UniRef90_UPI000469983F sulfurtransferase FdhD n=1 Tax=Sulfurospi...    36   8.6  
+UniRef90_A0A0P7WB77 Sulfur carrier protein FdhD n=1 Tax=Rhodobac...    36   8.8  
+UniRef90_UPI0003F602AF sulfurtransferase FdhD n=1 Tax=Acetobacte...    36   8.8  
+UniRef90_UPI000363C4BA sulfurtransferase FdhD n=1 Tax=Uliginosib...    36   9.0  
+UniRef90_UPI0003757623 sulfurtransferase FdhD n=2 Tax=Ancylobact...    36   9.1  
+UniRef90_Q13DH9 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...    36   9.2  
+UniRef90_H5YI87 Sulfur carrier protein FdhD n=5 Tax=Bradyrhizobi...    36   9.3  
+UniRef90_U7VEE4 Sulfur carrier protein FdhD n=1 Tax=Cetobacteriu...    36   9.4  
+UniRef90_A0A0D7EHN6 Sulfur carrier protein FdhD n=2 Tax=Rhodopse...    36   9.4  
+UniRef90_A0A1X1A785 Sulfur carrier protein FdhD n=2 Tax=Pseudomo...    36   9.8  
+
+>UniRef90_Q6AMB9 Sulfur carrier protein FdhD n=2 Tax=Desulfotalea psychrophila
+          (strain LSv54 / DSM 12343) TaxID=177439
+          RepID=Q6AMB9_DESPS
+          Length = 258
+
+ Score =  120 bits (301), Expect = 3e-25,   Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA
+Sbjct: 32 ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 89
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A1F9NQH9 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   117   2e-24
+UniRef90_Q6AMB9 Sulfur carrier protein FdhD n=2 Tax=Desulfotalea...   117   2e-24
+UniRef90_A0A1M7Y7P1 Sulfur carrier protein FdhD n=1 Tax=Desulfop...   116   4e-24
+UniRef90_K1ZFH2 Uncharacterized protein (Fragment) n=1 Tax=groun...   113   3e-23
+UniRef90_UPI000881AA59 sufurtransferase FdhD n=1 Tax=Desulforhop...   113   4e-23
+UniRef90_A0A0A2HYT2 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   111   2e-22
+UniRef90_A0A1Q6DIC6 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   108   8e-22
+UniRef90_A0A1M5X7I8 Sulfur carrier protein FdhD n=1 Tax=Desulfof...   108   1e-21
+UniRef90_A0A1W9MBE6 Sulfur carrier protein FdhD n=1 Tax=Desulfob...   106   4e-21
+UniRef90_V4J6H5 Sulfur carrier protein FdhD n=1 Tax=uncultured D...   106   4e-21
+UniRef90_M1PN36 Sulfur carrier protein FdhD n=1 Tax=Desulfocapsa...   105   1e-20
+UniRef90_UPI0005EAE572 sulfurtransferase FdhD n=1 Tax=Desulfonat...   104   2e-20
+UniRef90_UPI000889FE6F sufurtransferase FdhD n=1 Tax=Desulfonatr...   103   3e-20
+UniRef90_F0S3P5 Sulfur carrier protein FdhD n=1 Tax=Desulfurobac...   102   1e-19
+UniRef90_UPI00048AFEA6 sulfurtransferase FdhD n=1 Tax=Desulfonat...   101   2e-19
+UniRef90_UPI0005EB7B16 sulfurtransferase FdhD n=1 Tax=Desulfonat...   101   2e-19
+UniRef90_F8AD14 Sulfur carrier protein FdhD n=2 Tax=Thermodesulf...   101   2e-19
+UniRef90_UPI00068FF5AC sulfurtransferase FdhD n=2 Tax=Desulfonat...   100   2e-19
+UniRef90_A0A179D1Y6 Sulfur carrier protein FdhD n=1 Tax=Thermosu...    99   8e-19
+UniRef90_UPI0003B3D20A sulfurtransferase FdhD n=1 Tax=Thermodesu...    98   1e-18
+UniRef90_D6SQL7 Sulfur carrier protein FdhD n=1 Tax=Desulfonatro...    98   2e-18
+UniRef90_A0A0W8F3J2 Formate dehydrogenase chain d n=1 Tax=hydroc...    80   5e-13
+UniRef90_N0B9B3 Sulfur carrier protein FdhD n=1 Tax=Hyphomicrobi...    77   3e-12
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1V4ZWS9 Sulfur carrier protein FdhD n=1 Tax=Methanor...    79   1e-12
+UniRef90_A0A1V4ZVD4 Sulfur carrier protein FdhD n=2 Tax=unclassi...    73   5e-11
+UniRef90_D8JSH0 Sulfur carrier protein FdhD n=2 Tax=Hyphomicrobi...    72   9e-11
+UniRef90_A7IA75 Sulfur carrier protein FdhD n=1 Tax=Methanoregul...    71   2e-10
+UniRef90_L0HFK6 Sulfur carrier protein FdhD n=1 Tax=Methanoregul...    68   1e-09
+UniRef90_UPI0005F7A4EB sulfurtransferase FdhD n=2 Tax=Hyphomicro...    68   2e-09
+UniRef90_UPI0008347709 sulfurtransferase FdhD n=1 Tax=Methanofol...    67   3e-09
+UniRef90_A0A1V4ZNA7 Sulfur carrier protein FdhD n=1 Tax=Methanor...    67   4e-09
+UniRef90_F8JFP1 Sulfur carrier protein FdhD n=2 Tax=Hyphomicrobi...    67   4e-09
+UniRef90_A0A1V4ZG69 Sulfur carrier protein FdhD n=2 Tax=Methanor...    67   5e-09
+UniRef90_A0A1V4UE25 Sulfur carrier protein FdhD n=2 Tax=unclassi...    67   5e-09
+UniRef90_A0A1F8LVM2 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    62   2e-07
+UniRef90_I7KDW6 Formate dehydrogenase n=5 Tax=Methanoculleus Tax...    61   2e-07
+UniRef90_Q2FND8 Uncharacterized protein required for formate deh...    61   2e-07
+UniRef90_A0A0F8FDQ6 Sulfur carrier protein FdhD n=4 Tax=Methanos...    61   2e-07
+UniRef90_A0A1V4TRR3 Sulfur carrier protein FdhD n=1 Tax=Methanor...    61   3e-07
+UniRef90_A0A1G8YG32 FdhD protein n=1 Tax=Methanoculleus thermoph...    61   3e-07
+UniRef90_A0A1V5T206 Formate dehydrogenase accessory protein n=1 ...    60   4e-07
+UniRef90_E6VNA1 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...    60   6e-07
+UniRef90_A0A1M4WGA0 Sulfur carrier protein FdhD n=2 Tax=Loktanel...    59   7e-07
+UniRef90_A0A1F8QEG0 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    59   9e-07
+UniRef90_UPI000483388E sulfurtransferase FdhD n=1 Tax=Roseomonas...    59   9e-07
+UniRef90_A0A0W8FHQ2 Formate dehydrogenase chain d n=1 Tax=hydroc...    59   1e-06
+UniRef90_UPI00041E9F12 sulfurtransferase FdhD n=1 Tax=Syntrophor...    58   1e-06
+UniRef90_A0A0P6XQQ0 Sulfur carrier protein FdhD n=1 Tax=Thermana...    58   1e-06
+UniRef90_A0A1J4RIE3 Sulfur carrier protein FdhD n=1 Tax=Anaeroli...    58   2e-06
+UniRef90_A0A120CWU8 Sulfur carrier protein FdhD n=2 Tax=Hyphomic...    58   2e-06
+UniRef90_UPI0008F6510A sulfurtransferase FdhD n=1 Tax=Albimonas ...    58   2e-06
+UniRef90_A0A1M4MK78 Formate dehydrogenase accessory protein n=1 ...    58   2e-06
+UniRef90_UPI0003647827 sulfurtransferase FdhD n=1 Tax=Marinobact...    57   3e-06
+UniRef90_K8DYU0 Sulfur carrier protein FdhD n=1 Tax=Desulfotomac...    57   3e-06
+UniRef90_A0A0P6X3W8 Sulfur carrier protein FdhD n=1 Tax=Leviline...    57   3e-06
+UniRef90_A0A0H1QXE6 Formate dehydrogenase n=1 Tax=Methanoculleus...    57   4e-06
+UniRef90_A0A1V5DRC1 Protein FdhD n=2 Tax=Syntrophus TaxID=167185...    57   4e-06
+UniRef90_A4J8H7 Sulfur carrier protein FdhD n=1 Tax=Desulfotomac...    57   4e-06
+UniRef90_A0A1L7AF94 Sulfur carrier protein FdhD n=1 Tax=Roseomon...    57   5e-06
+UniRef90_M1FB31 Sulfur carrier protein FdhD n=3 Tax=Marinobacter...    57   5e-06
+UniRef90_A0A1E7GGT8 Sulfur carrier protein FdhD n=1 Tax=Methanos...    57   5e-06
+UniRef90_Q2J276 Sulfur carrier protein FdhD n=1 Tax=Rhodopseudom...    57   5e-06
+UniRef90_A0A1I6JER4 Sulfur carrier protein FdhD n=4 Tax=Stenotro...    56   6e-06
+UniRef90_A0A1F8NKT4 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    56   6e-06
+UniRef90_A0A1V4B3I1 Sulfur carrier protein FdhD n=1 Tax=Haemophi...    56   6e-06
+UniRef90_A0A0H1R6H0 Sulfur carrier protein FdhD n=1 Tax=Microvir...    56   6e-06
+UniRef90_A0A0F8DUD2 Sulfur carrier protein FdhD n=1 Tax=Methanos...    56   7e-06
+UniRef90_A0A101IXM4 Sulfur carrier protein FdhD n=2 Tax=Methanom...    56   7e-06
+UniRef90_A0A1R4B7S7 Sulfur carrier protein FdhD n=1 Tax=Vibrio s...    56   8e-06
+UniRef90_UPI000472E50D sulfurtransferase FdhD n=1 Tax=Acetobacte...    56   8e-06
+UniRef90_A0KHY0 Sulfur carrier protein FdhD n=49 Tax=Aeromonadac...    56   9e-06
+UniRef90_UPI0004745B36 sulfurtransferase FdhD n=2 Tax=Stenotroph...    56   9e-06
+UniRef90_A0A101JWE0 Sulfur carrier protein FdhD n=2 Tax=Rhizobia...    55   1e-05
+UniRef90_A0A0Q1BUD2 Formate dehydrogenase family accessory prote...    55   1e-05
+UniRef90_F2IYU2 Sulfur carrier protein FdhD n=1 Tax=Polymorphum ...    55   1e-05
+UniRef90_A0A1V5AJ99 Sulfur carrier protein FdhD n=2 Tax=Methanos...    55   1e-05
+UniRef90_A0A1W1GVB1 Sulfur carrier protein FdhD n=9 Tax=Xanthomo...    55   1e-05
+UniRef90_UPI000367674E sulfurtransferase FdhD n=1 Tax=Novispiril...    55   1e-05
+UniRef90_UPI0008E9E970 formate dehydrogenase family accessory pr...    55   1e-05
+UniRef90_UPI0004942307 sulfurtransferase FdhD n=1 Tax=Bosea sp. ...    55   1e-05
+UniRef90_Q2BI88 Sulfur carrier protein FdhD n=1 Tax=Neptuniibact...    55   1e-05
+UniRef90_X7E563 Sulfur carrier protein FdhD n=1 Tax=Marinomonas ...    55   1e-05
+UniRef90_A0A1H9CQB4 Sulfur carrier protein FdhD n=2 Tax=Litorimi...    55   1e-05
+UniRef90_A0A1M3BS76 Sulfur carrier protein FdhD n=2 Tax=Burkhold...    55   1e-05
+UniRef90_A0A0P6V1I7 Sulfur carrier protein FdhD n=1 Tax=Methanos...    55   1e-05
+UniRef90_A0A1D2SB63 Sulfur carrier protein FdhD n=1 Tax=Comamona...    55   1e-05
+UniRef90_A0A0F5EYC0 Sulfur carrier protein FdhD n=3 Tax=Avibacte...    55   1e-05
+UniRef90_UPI000B6857B2 sufurtransferase FdhD n=1 Tax=Tropicimona...    55   2e-05
+UniRef90_A0A0D2UE96 Sulfur carrier protein FdhD n=2 Tax=Skermane...    55   2e-05
+UniRef90_A0A0M2U9H0 Sulfur carrier protein FdhD n=1 Tax=Clostrid...    55   2e-05
+UniRef90_Q07HL8 Sulfur carrier protein FdhD n=1 Tax=Rhodopseudom...    55   2e-05
+UniRef90_G9ZWF6 Sulfur carrier protein FdhD n=1 Tax=Acetobactera...    55   2e-05
+UniRef90_UPI0008386C8C sulfurtransferase FdhD n=1 Tax=Vibrio tri...    55   2e-05
+UniRef90_A0A0E3SA01 Sulfur carrier protein FdhD n=2 Tax=Methanos...    55   2e-05
+UniRef90_UPI0004B317BB sulfurtransferase FdhD n=1 Tax=Bordetella...    55   2e-05
+UniRef90_X7EET8 Sulfur carrier protein FdhD n=1 Tax=Roseivivax h...    55   2e-05
+UniRef90_A0A0P0IS25 Sulfur carrier protein FdhD n=4 Tax=Methanos...    55   2e-05
+UniRef90_A0A1M5MXC7 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    55   2e-05
+UniRef90_A0A1F3C5B4 Sulfur carrier protein FdhD n=1 Tax=Anaeromy...    55   2e-05
+UniRef90_F2L0M8 Formate dehydrogenase delta subunit n=1 Tax=Ther...    55   2e-05
+UniRef90_A0A1H5ZL70 Sulfur carrier protein FdhD n=3 Tax=Halomona...    55   2e-05
+UniRef90_A0A1F8KF54 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    55   2e-05
+UniRef90_A0A0K2Z9Y3 Sulfur carrier protein FdhD n=21 Tax=Stenotr...    54   2e-05
+UniRef90_UPI000410BD06 sulfurtransferase FdhD n=2 Tax=Thalassoba...    54   2e-05
+UniRef90_Q2CC21 Sulfur carrier protein FdhD n=1 Tax=Oceanicola g...    54   2e-05
+UniRef90_A0A1M4ZPP2 Sulfur carrier protein FdhD n=1 Tax=Desulfot...    54   2e-05
+UniRef90_A0A0Q9IG90 Sulfur carrier protein FdhD n=1 Tax=Bosea sp...    54   2e-05
+UniRef90_I3CKG9 Sulfur carrier protein FdhD n=1 Tax=Beggiatoa al...    54   2e-05
+UniRef90_U1S8N9 Sulfur carrier protein FdhD n=1 Tax=Aggregatibac...    54   2e-05
+UniRef90_A0A1S8D6K7 Sulfur carrier protein FdhD n=2 Tax=Roseomon...    54   3e-05
+UniRef90_V5CAC5 Sulfur carrier protein FdhD n=1 Tax=Methyloglobu...    54   3e-05
+UniRef90_A0A085FMQ0 Sulfur carrier protein FdhD n=2 Tax=Bosea Ta...    54   3e-05
+UniRef90_A0A0B4ESE0 Sulfur carrier protein FdhD n=1 Tax=Rhodobac...    54   3e-05
+UniRef90_A0A095VMK1 Sulfur carrier protein FdhD n=1 Tax=Rhizobiu...    54   3e-05
+UniRef90_A0A1Q6DWC4 Protein required for formate dehydrogenase a...    54   3e-05
+UniRef90_A0A1V5DBH3 Protein FdhD n=1 Tax=Syntrophorhabdus sp. Pt...    54   3e-05
+UniRef90_C3M9P7 Sulfur carrier protein FdhD n=2 Tax=Sinorhizobiu...    54   3e-05
+UniRef90_E6KY28 Sulfur carrier protein FdhD n=2 Tax=Aggregatibac...    54   3e-05
+UniRef90_A0A0Q7TK25 Sulfur carrier protein FdhD n=1 Tax=Pseudola...    54   3e-05
+UniRef90_C9R5K5 Sulfur carrier protein FdhD n=14 Tax=Aggregatiba...    54   3e-05
+UniRef90_A0A0A3AP99 Sulfur carrier protein FdhD n=2 Tax=Chelonob...    54   3e-05
+UniRef90_T1CL35 Formate dehydrogenase, subunit FdhD (Fragment) n...    54   3e-05
+UniRef90_A0A063ZAD2 Formate dehydrogenase n=1 Tax=Methanoculleus...    54   3e-05
+UniRef90_F2JWR6 Formate dehydrogenase subunit FdhD n=1 Tax=Marin...    54   3e-05
+UniRef90_A0A0F3IJ00 Sulfur carrier protein FdhD n=1 Tax=Methyloc...    54   3e-05
+UniRef90_A0A1A6Y0I9 Sulfur carrier protein FdhD n=1 Tax=Stenotro...    54   3e-05
+UniRef90_UPI000931F294 sulfurtransferase FdhD n=1 Tax=Hyphomicro...    54   3e-05
+UniRef90_A0A0Q6SHX8 Sulfur carrier protein FdhD n=1 Tax=Massilia...    54   3e-05
+UniRef90_UPI000648BAF9 sulfurtransferase FdhD n=1 Tax=Mesorhizob...    54   3e-05
+UniRef90_A0A101J060 Formate dehydrogenase n=2 Tax=Methanomicrobi...    54   3e-05
+UniRef90_A3VHL5 Sulfur carrier protein FdhD n=1 Tax=Maritimibact...    54   3e-05
+UniRef90_UPI0003809420 sulfurtransferase FdhD n=1 Tax=Amphritea ...    54   3e-05
+UniRef90_UPI00089C4DFC hypothetical protein n=1 Tax=Beijerinckia...    54   3e-05
+UniRef90_A0A1V5DY81 Sulfur carrier protein FdhD n=2 Tax=unclassi...    54   3e-05
+UniRef90_UPI00058F1E67 sulfurtransferase FdhD n=1 Tax=Ideonella ...    54   3e-05
+UniRef90_A0A1E4NJS8 Sulfur carrier protein FdhD n=2 Tax=Xanthomo...    53   4e-05
+UniRef90_UPI0008E6EEBB sulfurtransferase FdhD n=1 Tax=Bosea sp. ...    53   4e-05
+UniRef90_A0A1N6WC40 Sulfur carrier protein FdhD n=1 Tax=Bosea sp...    53   4e-05
+UniRef90_UPI00088C464E sulfurtransferase FdhD n=1 Tax=Alicycliph...    53   4e-05
+UniRef90_A0A0M1ERK4 Sulfur carrier protein FdhD n=3 Tax=Gammapro...    53   4e-05
+UniRef90_UPI0008772466 sufurtransferase FdhD n=1 Tax=Paracoccus ...    53   4e-05
+UniRef90_A0A1V4WHE7 Protein FdhD n=3 Tax=Syntrophorhabdus TaxID=...    53   4e-05
+UniRef90_A0A1D2RCE2 Sulfur carrier protein FdhD n=1 Tax=Candidat...    53   4e-05
+UniRef90_UPI00068C2F02 sulfurtransferase FdhD n=1 Tax=Methylocap...    53   4e-05
+UniRef90_B2FTM6 Sulfur carrier protein FdhD n=43 Tax=Proteobacte...    53   4e-05
+UniRef90_G8PRN9 Sulfur carrier protein FdhD n=14 Tax=Pseudovibri...    53   4e-05
+UniRef90_A0A0Q4P129 Sulfur carrier protein FdhD n=2 Tax=Devosia ...    53   4e-05
+UniRef90_H5YI87 Sulfur carrier protein FdhD n=5 Tax=Bradyrhizobi...    53   4e-05
+UniRef90_I4YXY2 Sulfur carrier protein FdhD n=1 Tax=Microvirga l...    53   4e-05
+UniRef90_A0A0F9U0K0 Uncharacterized protein n=1 Tax=marine sedim...    53   4e-05
+UniRef90_UPI000B8100FB hypothetical protein n=1 Tax=Maribius pel...    53   4e-05
+UniRef90_A0A1M2YXM5 Sulfur carrier protein FdhD n=1 Tax=Rhizobia...    53   4e-05
+UniRef90_A7IL14 Sulfur carrier protein FdhD n=1 Tax=Xanthobacter...    53   5e-05
+UniRef90_A0A1Y3GBS3 Protein required for formate dehydrogenase a...    53   5e-05
+UniRef90_A0A1D9FHB6 Sulfur carrier protein FdhD n=1 Tax=Clostrid...    53   5e-05
+UniRef90_A0A1F8PD71 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    53   5e-05
+UniRef90_UPI000418079A sulfurtransferase FdhD n=1 Tax=Cucumibact...    53   5e-05
+UniRef90_A0A1Y6CD97 Sulfur carrier protein FdhD n=1 Tax=Tistlia ...    53   5e-05
+UniRef90_UPI0008971618 sulfurtransferase FdhD n=1 Tax=Roseicitre...    53   5e-05
+UniRef90_UPI000462ECBA sulfurtransferase FdhD n=1 Tax=Aminobacte...    53   5e-05
+UniRef90_I4C8E6 Sulfur carrier protein FdhD n=1 Tax=Desulfomonil...    53   5e-05
+UniRef90_UPI000680957A sulfurtransferase FdhD n=1 Tax=Aeromonas ...    53   5e-05
+UniRef90_UPI000930E50F sulfurtransferase FdhD n=1 Tax=Hyphomicro...    53   5e-05
+UniRef90_A0A178YFR9 Sulfur carrier protein FdhD n=1 Tax=Sinorhiz...    53   5e-05
+UniRef90_A0A1E4JYM8 Sulfur carrier protein FdhD n=2 Tax=Xanthomo...    53   5e-05
+UniRef90_UPI000975204E uncharacterized protein LOC109618173 n=1 ...    53   5e-05
+UniRef90_A0A1I3QV22 Sulfur carrier protein FdhD n=1 Tax=Celeriba...    53   5e-05
+UniRef90_A0A0A0HPC3 Sulfur carrier protein FdhD n=1 Tax=Roseovar...    53   6e-05
+UniRef90_A0A1N7Q3N5 Sulfur carrier protein FdhD n=2 Tax=Insoliti...    53   6e-05
+UniRef90_UPI000B8A00E7 hypothetical protein n=1 Tax=Devosia croc...    53   6e-05
+UniRef90_UPI0003705F76 sulfurtransferase FdhD n=1 Tax=Hyphomicro...    53   6e-05
+UniRef90_A0A1B6YYX4 Sulfur carrier protein FdhD n=1 Tax=Jannasch...    53   6e-05
+UniRef90_A0A1F8Q076 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    53   6e-05
+UniRef90_A0A0P8AK88 Sulfur carrier protein FdhD n=1 Tax=Rhodobac...    53   7e-05
+UniRef90_A0A0S7B9T7 Sulfur carrier protein FdhD n=1 Tax=Longilin...    53   7e-05
+UniRef90_UPI0008DFB886 sufurtransferase FdhD n=1 Tax=Rhizobium s...    53   7e-05
+UniRef90_A6VNS9 Sulfur carrier protein FdhD n=1 Tax=Actinobacill...    53   7e-05
+UniRef90_A0A1F4U5G9 Sulfur carrier protein FdhD n=1 Tax=candidat...    53   7e-05
+UniRef90_A0A1F8PU44 Sulfur carrier protein FdhD n=1 Tax=Chlorofl...    53   7e-05
+UniRef90_A0A0R0B5F8 Sulfur carrier protein FdhD n=1 Tax=Stenotro...    53   7e-05
+UniRef90_UPI00054FEFF0 sulfurtransferase FdhD n=2 Tax=Ahrensia T...    53   7e-05
+UniRef90_A0A1F9ZWN2 Sulfur carrier protein FdhD n=1 Tax=Euryarch...    53   7e-05
+UniRef90_A0A0J6KGY3 Sulfur carrier protein FdhD n=1 Tax=Chromoba...    53   7e-05
+UniRef90_A0A133UAZ3 Sulfur carrier protein FdhD n=2 Tax=candidat...    53   7e-05
+UniRef90_A0A1E4IK02 Sulfur carrier protein FdhD n=1 Tax=Rubriviv...    53   7e-05
+UniRef90_A0A0D6II67 Sulfur carrier protein FdhD n=29 Tax=Alcalig...    53   7e-05
+UniRef90_V5SDY1 Sulfur carrier protein FdhD n=1 Tax=Hyphomicrobi...    53   7e-05
+UniRef90_UPI0009A25471 sulfurtransferase FdhD n=1 Tax=Stenotroph...    53   7e-05
+UniRef90_UPI0008BCAE0B sulfurtransferase FdhD n=1 Tax=Bosea lupi...    53   8e-05
+UniRef90_UPI0004065623 sulfurtransferase FdhD n=1 Tax=Pseudodong...    53   8e-05
+UniRef90_UPI00065DFA83 sulfurtransferase FdhD n=1 Tax=Rubeoparvu...    53   8e-05
+UniRef90_UPI0009E368B9 formate dehydrogenase family accessory pr...    52   8e-05
+UniRef90_UPI00046F607E sulfurtransferase FdhD n=1 Tax=Shewanella...    52   8e-05
+UniRef90_UPI000889E736 sufurtransferase FdhD n=1 Tax=Duganella T...    52   8e-05
+UniRef90_UPI00037A5055 sulfurtransferase FdhD n=1 Tax=Rudaea cel...    52   8e-05
+UniRef90_A0A0B7JKX2 Sulfur carrier protein FdhD n=19 Tax=Photoba...    52   8e-05
+UniRef90_A3TTJ6 Sulfur carrier protein FdhD n=1 Tax=Pseudooceani...    52   8e-05
+UniRef90_I7Z9C4 Sulfur carrier protein FdhD n=1 Tax=Hydrocarboni...    52   8e-05
+UniRef90_A0A0U5BP91 Sulfur carrier protein FdhD n=3 Tax=Xanthomo...    52   8e-05
+UniRef90_UPI000478DD2C sulfurtransferase FdhD n=1 Tax=Methylocal...    52   8e-05
+UniRef90_A0A1V3JK04 Sulfur carrier protein FdhD n=1 Tax=Rodentib...    52   9e-05
+UniRef90_D4XI07 Sulfur carrier protein FdhD n=2 Tax=Achromobacte...    52   9e-05
+UniRef90_A0A0N1C332 Sulfur carrier protein FdhD n=1 Tax=Rhodopse...    52   9e-05
+UniRef90_G9A1M8 Sulfur carrier protein FdhD n=6 Tax=Sinorhizobiu...    52   9e-05
+UniRef90_UPI000A044997 sulfurtransferase FdhD n=2 Tax=Marinobact...    52   9e-05
+UniRef90_V4QHR8 Sulfur carrier protein FdhD n=2 Tax=Asticcacauli...    52   9e-05
+UniRef90_Q13DH9 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...    52   9e-05
+UniRef90_A0A1J5RLH1 Protein FdhD n=1 Tax=mine drainage metagenom...    52   9e-05
+UniRef90_V5AEG1 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...    52   9e-05
+UniRef90_UPI000A0005B4 sulfurtransferase FdhD n=1 Tax=Nevskia so...    52   9e-05
+UniRef90_A0A1L3LRM2 Sulfur carrier protein FdhD n=2 Tax=Sinorhiz...    52   1e-04
+UniRef90_UPI0003F602AF sulfurtransferase FdhD n=1 Tax=Acetobacte...    52   1e-04
+UniRef90_UPI000380D0C9 sulfurtransferase FdhD n=1 Tax=Meganema p...    52   1e-04
+UniRef90_A0A176YST5 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    52   1e-04
+UniRef90_A0A1Z9I777 Sulfurtransferase FdhD n=1 Tax=Cellvibrional...    52   1e-04
+UniRef90_UPI00034B0E3F sulfurtransferase FdhD n=1 Tax=Rhodopseud...    52   1e-04
+UniRef90_A0A0A1VHU6 Sulfur carrier protein FdhD n=1 Tax=Acidovor...    52   1e-04
+UniRef90_UPI000931EAC1 sulfurtransferase FdhD n=1 Tax=Paracoccus...    52   1e-04
+UniRef90_A0A101W3N4 Sulfur carrier protein FdhD n=1 Tax=Gracilib...    52   1e-04
+UniRef90_A0A1X7PYY5 Sulfur carrier protein FdhD n=1 Tax=Mesorhiz...    52   1e-04
+UniRef90_A0A1A9FPH8 Sulfur carrier protein FdhD n=3 Tax=Ochrobac...    52   1e-04
+UniRef90_UPI00036808FC sulfurtransferase FdhD n=2 Tax=Methylovul...    52   1e-04
+UniRef90_A0A0Q7F5I1 Sulfur carrier protein FdhD n=1 Tax=Massilia...    52   1e-04
+UniRef90_A0A095BBA8 Sulfur carrier protein FdhD n=1 Tax=Sphingop...    52   1e-04
+UniRef90_A0A1B8P4Z6 Sulfur carrier protein FdhD n=2 Tax=Halomona...    52   1e-04
+UniRef90_A0A149QFF3 Sulfur carrier protein FdhD n=2 Tax=Gammapro...    52   1e-04
+UniRef90_A0A0J6NMN4 Sulfur carrier protein FdhD n=7 Tax=Chromoba...    52   1e-04
+UniRef90_UPI00088B4CC8 formate dehydrogenase family accessory pr...    52   1e-04
+UniRef90_A0A0F7KX68 Sulfur carrier protein FdhD n=1 Tax=Alterery...    52   1e-04
+UniRef90_F4HDG1 Sulfur carrier protein FdhD n=15 Tax=Gallibacter...    52   1e-04
+UniRef90_A0A1I2CU64 Sulfur carrier protein FdhD n=1 Tax=Roseiviv...    52   1e-04
+UniRef90_UPI00054D3E2E sulfurtransferase FdhD n=1 Tax=Beijerinck...    52   1e-04
+UniRef90_A0A101DWK3 Sulfur carrier protein FdhD n=2 Tax=Euryarch...    52   1e-04
+UniRef90_A0A0G3QER4 Sulfur carrier protein FdhD n=5 Tax=Enteroba...    52   1e-04
+UniRef90_UPI00045E619B sulfurtransferase FdhD n=1 Tax=Methylosar...    52   1e-04
+UniRef90_A0A1M7QLW1 Sulfur carrier protein FdhD n=1 Tax=Duganell...    52   1e-04
+UniRef90_Q39NF3 Sulfur carrier protein FdhD n=50 Tax=Bacteria Ta...    52   1e-04
+UniRef90_A0A0Q8XHV5 Sulfur carrier protein FdhD n=1 Tax=Achromob...    52   1e-04
+UniRef90_W7QSA4 Sulfur carrier protein FdhD n=2 Tax=Catenovulum ...    52   1e-04
+UniRef90_A0A1V3YVX0 Sulfur carrier protein FdhD n=1 Tax=Ochrobac...    52   1e-04
+UniRef90_UPI0008BDDA37 sufurtransferase FdhD n=1 Tax=Amphritea a...    52   1e-04
+UniRef90_A0A1F8NL14 Uncharacterized protein n=1 Tax=Chloroflexi ...    52   1e-04
+UniRef90_UPI0006920A8E sulfurtransferase FdhD n=1 Tax=Achromobac...    52   1e-04
+UniRef90_UPI000B86275C sulfurtransferase FdhD n=1 Tax=Acidovorax...    52   1e-04
+UniRef90_A0A1H5RV55 Sulfur carrier protein FdhD n=1 Tax=Bosea la...    52   1e-04
+UniRef90_UPI000B89EA9B sulfurtransferase FdhD n=1 Tax=Paracoccus...    52   1e-04
+UniRef90_A0A1V3I8L9 Sulfur carrier protein FdhD n=1 Tax=Rodentib...    52   1e-04
+UniRef90_A0A1N6UHV4 Sulfur carrier protein FdhD n=1 Tax=Aeromona...    52   1e-04
+UniRef90_UPI00045E726F sulfurtransferase FdhD n=1 Tax=Pseudogulb...    52   1e-04
+UniRef90_A0A1A7PUD6 Sulfur carrier protein FdhD n=3 Tax=Gallibac...    52   1e-04
+UniRef90_E0SMJ5 Sulfur carrier protein FdhD n=18 Tax=Pectobacter...    52   1e-04
+UniRef90_UPI00088C92BC sufurtransferase FdhD n=1 Tax=Citreicella...    52   1e-04
+UniRef90_A0A1E4GYV5 Sulfur carrier protein FdhD n=1 Tax=Phenylob...    52   1e-04
+UniRef90_W6KG03 Sulfur carrier protein FdhD n=1 Tax=Magnetospira...    52   1e-04
+UniRef90_G3ISU1 Sulfur carrier protein FdhD n=2 Tax=Methylobacte...    52   1e-04
+UniRef90_UPI0004AF2F78 sulfurtransferase FdhD n=1 Tax=Microvirga...    52   1e-04
+UniRef90_UPI000837A5CE FdhD/NarQ family protein n=1 Tax=Methanoc...    52   1e-04
+UniRef90_UPI00066C574F sulfurtransferase FdhD n=1 Tax=Stenotroph...    52   1e-04
+UniRef90_UPI00037AFA9E sulfurtransferase FdhD n=1 Tax=Methylosar...    52   1e-04
+UniRef90_UPI000694A5A6 sulfurtransferase FdhD n=1 Tax=Polycyclov...    52   1e-04
+UniRef90_A0A0K1N540 Sulfur carrier protein FdhD n=5 Tax=Aggregat...    52   2e-04
+UniRef90_K8WVG1 Sulfur carrier protein FdhD n=1 Tax=Providencia ...    52   2e-04
+UniRef90_UPI0008AEC41D sufurtransferase FdhD n=1 Tax=Lihuaxuella...    52   2e-04
+UniRef90_A0A139CQQ9 Sulfur carrier protein FdhD n=1 Tax=Methanol...    52   2e-04
+UniRef90_UPI000690C687 sulfurtransferase FdhD n=1 Tax=Andreprevo...    52   2e-04
+UniRef90_A0A0Q3PEW3 Sulfur carrier protein FdhD n=1 Tax=Bosea th...    52   2e-04
+UniRef90_UPI0004B33D91 sulfurtransferase FdhD n=1 Tax=Ensifer so...    52   2e-04
+UniRef90_A0A059IT78 Uncharacterized protein (Fragment) n=1 Tax=D...    52   2e-04
+UniRef90_UPI000B7114BC sufurtransferase FdhD n=1 Tax=Azospirillu...    52   2e-04
+UniRef90_A0A133UGJ5 Sulfur carrier protein FdhD n=3 Tax=candidat...    52   2e-04
+UniRef90_UPI00036C3B0D sulfurtransferase FdhD n=1 Tax=Hahella ga...    52   2e-04
+UniRef90_A0A1J4ZC44 Sulfur carrier protein FdhD n=1 Tax=Anaeroli...    52   2e-04
+UniRef90_A0A149VST1 Protein FdhD n=1 Tax=Ferrovum sp. PN-J185 Ta...    52   2e-04
+UniRef90_A0A1B7JUC0 Sulfur carrier protein FdhD n=9 Tax=Providen...    52   2e-04
+UniRef90_UPI000B50207D formate dehydrogenase family accessory pr...    52   2e-04
+UniRef90_A0A1Y4G800 Sulfurtransferase FdhD n=2 Tax=Gordonibacter...    52   2e-04
+UniRef90_G8ASR4 Sulfur carrier protein FdhD n=4 Tax=Azospirillum...    52   2e-04
+UniRef90_A0A0H1AMT9 Sulfur carrier protein FdhD n=1 Tax=Luteimon...    51   2e-04
+UniRef90_A0A095TU74 Sulfur carrier protein FdhD n=2 Tax=Tatumell...    51   2e-04
+UniRef90_A0A1F4G6H4 Sulfur carrier protein FdhD n=1 Tax=Burkhold...    51   2e-04
+UniRef90_A9I097 Sulfur carrier protein FdhD n=1 Tax=Bordetella p...    51   2e-04
+UniRef90_UPI0004771947 sulfurtransferase FdhD n=1 Tax=Bacillus m...    51   2e-04
+UniRef90_A0A0U3VJ18 Sulfur carrier protein FdhD n=12 Tax=Enterob...    51   2e-04
+UniRef90_J2VB32 Sulfur carrier protein FdhD n=1 Tax=Phyllobacter...    51   2e-04
+UniRef90_UPI0008349C29 sulfurtransferase FdhD n=1 Tax=Azohydromo...    51   2e-04
+UniRef90_A0A1G3LCL0 Uncharacterized protein n=1 Tax=Spirochaetes...    51   2e-04
+UniRef90_UPI000552E3EF sulfurtransferase FdhD n=1 Tax=Clostridiu...    51   2e-04
+UniRef90_A0A1V3L9J9 Sulfur carrier protein FdhD n=8 Tax=Rodentib...    51   2e-04
+UniRef90_A0A1D8UUA5 Sulfur carrier protein FdhD n=4 Tax=Kozakia ...    51   2e-04
+UniRef90_A0A1E3VDW6 Sulfur carrier protein FdhD n=4 Tax=Ensifer ...    51   2e-04
+UniRef90_UPI0004104227 sulfurtransferase FdhD n=2 Tax=Acetobacte...    51   2e-04
+UniRef90_A0A1B2ETC6 Sulfur carrier protein FdhD n=1 Tax=Microvir...    51   2e-04
+UniRef90_UPI000A0214C2 sulfurtransferase FdhD n=1 Tax=Xylophilus...    51   2e-04
+UniRef90_A0A0J8JIH8 Sulfur carrier protein FdhD n=2 Tax=Catenovu...    51   2e-04
+UniRef90_A0A1Q6WF54 Sulfur carrier protein FdhD n=1 Tax=Gammapro...    51   2e-04
+UniRef90_A0A0J8YWZ5 Sulfur carrier protein FdhD n=1 Tax=bacteria...    51   2e-04
+UniRef90_UPI00047A0422 sulfurtransferase FdhD n=1 Tax=Bordetella...    51   2e-04
+UniRef90_J4PGN9 Sulfur carrier protein FdhD n=5 Tax=Achromobacte...    51   2e-04
+UniRef90_C3XD23 Sulfur carrier protein FdhD n=2 Tax=Oxalobacter ...    51   2e-04
+UniRef90_A0A0Q6GQP5 Sulfur carrier protein FdhD n=2 Tax=Rhizobiu...    51   2e-04
+UniRef90_A0A1Q4BGR5 Sulfur carrier protein FdhD n=1 Tax=Rhizobia...    51   2e-04
+UniRef90_UPI000A070D4F sulfurtransferase FdhD n=1 Tax=Derxia gum...    51   2e-04
+UniRef90_A0A1V3IYT5 Sulfur carrier protein FdhD n=2 Tax=Rodentib...    51   2e-04
+UniRef90_L0KY22 Sulfur carrier protein FdhD n=1 Tax=Methanomethy...    51   2e-04
+UniRef90_B8GHE9 Sulfur carrier protein FdhD n=1 Tax=Methanosphae...    51   2e-04
+UniRef90_A0A1Q3KJG4 Sulfur carrier protein FdhD n=1 Tax=Rhizobia...    51   2e-04
+UniRef90_A0A0N1LKQ4 Sulfur carrier protein FdhD n=1 Tax=alpha pr...    51   2e-04
+UniRef90_A0A0Q9HDZ6 Sulfur carrier protein FdhD n=6 Tax=Rhizobia...    51   2e-04
+UniRef90_A0A1H4CN01 Sulfur carrier protein FdhD n=9 Tax=Lonsdale...    51   2e-04
+UniRef90_A0A1D7TX46 Sulfur carrier protein FdhD n=2 Tax=Bosea Ta...    51   2e-04
+UniRef90_A0A0F7HAD6 Sulfur carrier protein FdhD n=3 Tax=Serratia...    51   2e-04
+UniRef90_UPI0004673C6C sulfurtransferase FdhD n=1 Tax=Aliihoefle...    51   2e-04
+UniRef90_UPI000483A6B0 sulfurtransferase FdhD n=1 Tax=Pseudophae...    51   2e-04
+UniRef90_P44449 Sulfur carrier protein FdhD n=31 Tax=Bacteria Ta...    51   2e-04
+UniRef90_A0A0P9DTR7 Sulfur carrier protein FdhD n=1 Tax=Candidat...    51   2e-04
+UniRef90_UPI0009FB968C sulfurtransferase FdhD n=1 Tax=Niveispiri...    51   2e-04
+UniRef90_UPI00041DA485 sulfurtransferase FdhD n=1 Tax=Azospirill...    51   2e-04
+UniRef90_UPI0003FB8683 sulfurtransferase FdhD n=1 Tax=Xanthomona...    51   2e-04
+UniRef90_W8RWD6 Sulfur carrier protein FdhD n=1 Tax=Roseibacteri...    51   3e-04
+UniRef90_UPI0004851859 sulfurtransferase FdhD n=1 Tax=Clostridiu...    51   3e-04
+UniRef90_A0A1C3U334 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    51   3e-04
+UniRef90_A0A0Q4MMK6 Sulfur carrier protein FdhD n=2 Tax=Erwinia ...    51   3e-04
+UniRef90_K8NWP1 Sulfur carrier protein FdhD n=3 Tax=Bradyrhizobi...    51   3e-04
+UniRef90_A0A1Q4C616 Sulfur carrier protein FdhD n=1 Tax=Rhizobia...    51   3e-04
+UniRef90_A0A0F2NI37 Sulfur carrier protein FdhD n=1 Tax=Peptococ...    51   3e-04
+UniRef90_K2MPX3 Sulfur carrier protein FdhD n=1 Tax=Nitratireduc...    51   3e-04
+UniRef90_A0A0Q8JMJ4 Sulfur carrier protein FdhD n=6 Tax=Achromob...    51   3e-04
+UniRef90_A0A0Q6VPD9 Sulfur carrier protein FdhD n=2 Tax=Massilia...    51   3e-04
+UniRef90_UPI000414EB46 sulfurtransferase FdhD n=1 Tax=Sinorhizob...    51   3e-04
+UniRef90_A0A161RXA5 Sulfur carrier protein FdhD n=1 Tax=Brevibac...    51   3e-04
+UniRef90_A0A1B3M9L7 Sulfur carrier protein FdhD n=1 Tax=Sinorhiz...    51   3e-04
+UniRef90_UPI00087E73B6 sufurtransferase FdhD n=1 Tax=Natronincol...    51   3e-04
+UniRef90_A0A0G3LQX8 Sulfur carrier protein FdhD n=10 Tax=Xanthom...    51   3e-04
+UniRef90_A0A0U1NXH3 Sulfur carrier protein FdhD n=1 Tax=Bacillus...    51   3e-04
+UniRef90_A0A0K0GB78 Sulfur carrier protein FdhD n=2 Tax=Bacilli ...    51   3e-04
+UniRef90_UPI0008ABF5E9 sufurtransferase FdhD n=1 Tax=Paenibacill...    51   3e-04
+UniRef90_E8T741 Sulfur carrier protein FdhD n=62 Tax=Phyllobacte...    51   3e-04
+UniRef90_A0A1T2XPW3 Sulfur carrier protein FdhD n=5 Tax=Campylob...    51   3e-04
+UniRef90_E7RZM4 Sulfur carrier protein FdhD n=1 Tax=Lautropia mi...    51   3e-04
+UniRef90_C0Z6F4 Sulfur carrier protein FdhD n=10 Tax=Bacillales ...    51   3e-04
+UniRef90_F6DUH1 Sulfur carrier protein FdhD n=1 Tax=Desulfotomac...    51   3e-04
+UniRef90_A0A1N6MRK1 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...    51   3e-04
+UniRef90_UPI0009EBDAC2 formate dehydrogenase family accessory pr...    51   3e-04
+UniRef90_A0A1B3JIJ3 Sulfur carrier protein FdhD n=7 Tax=Pasteure...    51   3e-04
+UniRef90_A0A1P8KCR7 Sulfur carrier protein FdhD n=2 Tax=Rhodofer...    51   3e-04
+UniRef90_K2NYA6 Sulfur carrier protein FdhD n=2 Tax=Nitratireduc...    51   3e-04
+UniRef90_A0A126NNS4 Sulfur carrier protein FdhD n=1 Tax=Stenotro...    51   3e-04
+UniRef90_UPI00082FD765 sulfurtransferase FdhD n=2 Tax=Burkholder...    51   3e-04
+UniRef90_UPI000930CD93 sulfurtransferase FdhD n=1 Tax=Hyphomicro...    51   3e-04
+UniRef90_UPI000B520F3C sulfurtransferase FdhD n=1 Tax=Marinibact...    51   3e-04
+UniRef90_UPI000737BA1E sulfurtransferase FdhD n=1 Tax=Luteimonas...    51   3e-04
+UniRef90_S6HHU2 Sulfur carrier protein FdhD n=1 Tax=Osedax symbi...    51   3e-04
+UniRef90_A0A1T4URG0 Protein FdhD n=7 Tax=root TaxID=1 RepID=A0A1...    51   3e-04
+UniRef90_N9Y1K9 Protein FdhD n=2 Tax=Clostridium TaxID=1485 RepI...    51   3e-04
+UniRef90_A0A0B3RUN6 Sulfur carrier protein FdhD n=3 Tax=Rhodobac...    50   3e-04
+UniRef90_G0CH71 Sulfur carrier protein FdhD n=29 Tax=Xanthomonas...    50   3e-04
+UniRef90_H0FDX6 Sulfur carrier protein FdhD n=1 Tax=Achromobacte...    50   3e-04
+UniRef90_A0A1M4V1E5 Sulfur carrier protein FdhD n=1 Tax=Marinomo...    50   3e-04
+UniRef90_A0A099CZ67 Sulfur carrier protein FdhD n=1 Tax=Oleiagri...    50   3e-04
+UniRef90_P57842 Sulfur carrier protein FdhD n=19 Tax=Pasteurella...    50   3e-04
+UniRef90_A0A084H4A9 Sulfur carrier protein FdhD n=2 Tax=Bacillus...    50   3e-04
+UniRef90_UPI0008E98A42 sufurtransferase FdhD n=1 Tax=Mesorhizobi...    50   3e-04
+UniRef90_V4NWN4 Sulfur carrier protein FdhD n=2 Tax=Asticcacauli...    50   3e-04
+UniRef90_UPI0005099F3E sulfurtransferase FdhD n=2 Tax=Pasteurell...    50   3e-04
+UniRef90_A0A023XHM5 Sulfur carrier protein FdhD n=9 Tax=Bradyrhi...    50   3e-04
+UniRef90_A0A157RM19 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    50   3e-04
+UniRef90_R7IKW0 Sulfur carrier protein FdhD n=2 Tax=Sutterellace...    50   3e-04
+UniRef90_A0A0A8DTU0 Sulfur carrier protein FdhD n=4 Tax=Xanthomo...    50   3e-04
+UniRef90_UPI0008EFB576 sulfurtransferase FdhD n=2 Tax=Bradyrhizo...    50   3e-04
+UniRef90_A0A1G8ZEH0 Sulfur carrier protein FdhD n=1 Tax=Methanoc...    50   3e-04
+UniRef90_V1DC08 Sulfur carrier protein FdhD n=5 Tax=Shewanella T...    50   3e-04
+UniRef90_UPI000425B073 sulfurtransferase FdhD n=5 Tax=Rhizobiace...    50   3e-04
+UniRef90_E3HSP1 Sulfur carrier protein FdhD n=7 Tax=Alcaligenace...    50   4e-04
+UniRef90_A0A1R0IL02 Sulfur carrier protein FdhD n=3 Tax=Sulfobac...    50   4e-04
+UniRef90_A0A063B851 Sulfur carrier protein FdhD n=2 Tax=Burkhold...    50   4e-04
+UniRef90_B9Z4A0 Sulfur carrier protein FdhD n=4 Tax=Pseudogulben...    50   4e-04
+UniRef90_B1KA66 Sulfur carrier protein FdhD n=52 Tax=Burkholderi...    50   4e-04
+UniRef90_UPI0006D7ED48 sulfurtransferase FdhD n=1 Tax=Clostridiu...    50   4e-04
+UniRef90_A0A1P8WX84 Sulfur carrier protein FdhD n=1 Tax=Sphingop...    50   4e-04
+UniRef90_A0A117SIP8 Protein FdhD n=1 Tax=Desulfosporosinus sp. B...    50   4e-04
+UniRef90_F6B7C1 Sulfur carrier protein FdhD n=1 Tax=Desulfotomac...    50   4e-04
+UniRef90_A0A1A9G6M0 Sulfur carrier protein FdhD n=3 Tax=Rhizobia...    50   4e-04
+UniRef90_UPI0008CA0299 sulfurtransferase FdhD n=1 Tax=Duganella ...    50   4e-04
+UniRef90_I3U9W2 Sulfur carrier protein FdhD n=1 Tax=Advenella ka...    50   4e-04
+UniRef90_A0A0Q6N9N3 Sulfur carrier protein FdhD n=2 Tax=Mesorhiz...    50   4e-04
+UniRef90_A0A1I7JS52 Sulfur carrier protein FdhD n=3 Tax=Burkhold...    50   4e-04
+UniRef90_A0A0U3PWH1 Sulfur carrier protein FdhD n=4 Tax=Pannonib...    50   4e-04
+UniRef90_A0A086MHA4 Sulfur carrier protein FdhD n=1 Tax=Microvir...    50   4e-04
+UniRef90_M5EFR3 Sulfur carrier protein FdhD n=5 Tax=Mesorhizobiu...    50   4e-04
+UniRef90_A0A1E4B3W9 Uncharacterized protein n=1 Tax=Gemmatimonad...    50   4e-04
+UniRef90_UPI0009F8FB79 formate dehydrogenase family accessory pr...    50   4e-04
+UniRef90_A0A0G9MZ68 Sulfur carrier protein FdhD n=1 Tax=Erythrob...    50   4e-04
+UniRef90_J7QSB4 Sulfur carrier protein FdhD n=3 Tax=Methylocysti...    50   4e-04
+UniRef90_A0A0F9UHS9 Uncharacterized protein n=1 Tax=marine sedim...    50   4e-04
+UniRef90_A0A1E7PVT8 Sulfur carrier protein FdhD n=1 Tax=Marinoba...    50   4e-04
+UniRef90_UPI0008E7D83D sulfurtransferase FdhD n=1 Tax=Rugamonas ...    50   4e-04
+UniRef90_UPI000417991F sulfurtransferase FdhD n=1 Tax=Budvicia a...    50   4e-04
+UniRef90_UPI0005B1ECEA sulfurtransferase FdhD n=1 Tax=Aeromonas ...    50   4e-04
+UniRef90_A0A0Q6A0L9 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    50   4e-04
+UniRef90_A0A1M2ZM89 Sulfur carrier protein FdhD n=1 Tax=Afipia s...    50   4e-04
+UniRef90_A0A0B5E1C4 Sulfur carrier protein FdhD n=1 Tax=Celeriba...    50   4e-04
+UniRef90_A0A1W9W6E4 Protein FdhD n=1 Tax=Desulfobacteraceae bact...    50   4e-04
+UniRef90_A5CYX7 Sulfur carrier protein FdhD n=1 Tax=Pelotomaculu...    50   4e-04
+UniRef90_A0A1W9U7I7 Sulfur carrier protein FdhD n=1 Tax=Anaeroli...    50   4e-04
+UniRef90_A0A147EJK1 Sulfur carrier protein FdhD n=1 Tax=Novosphi...    50   4e-04
+UniRef90_M9X956 Sulfur carrier protein FdhD n=6 Tax=Mannheimia h...    50   4e-04
+UniRef90_UPI0009812897 sulfurtransferase FdhD n=1 Tax=Burkholder...    50   4e-04
+UniRef90_A0A0A0EYQ4 Sulfur carrier protein FdhD n=1 Tax=Lysobact...    50   4e-04
+UniRef90_A0A0F9M9M4 Uncharacterized protein n=1 Tax=marine sedim...    50   4e-04
+UniRef90_E6UYJ1 Sulfur carrier protein FdhD n=4 Tax=Variovorax T...    50   4e-04
+UniRef90_A0A157PCP1 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    50   4e-04
+UniRef90_UPI0003FB349B sulfurtransferase FdhD n=1 Tax=Ottowia th...    50   4e-04
+UniRef90_E4PMN1 Sulfur carrier protein FdhD n=1 Tax=Marinobacter...    50   4e-04
+UniRef90_UPI000482CF2B sulfurtransferase FdhD n=1 Tax=Bradyrhizo...    50   4e-04
+UniRef90_UPI000A02CFD4 sulfurtransferase FdhD n=1 Tax=Aeromonas ...    50   4e-04
+UniRef90_D7CNY7 Sulfur carrier protein FdhD n=1 Tax=Syntrophothe...    50   4e-04
+UniRef90_UPI00037654FB sulfurtransferase FdhD n=1 Tax=Enterobact...    50   4e-04
+UniRef90_A6VZP4 Sulfur carrier protein FdhD n=1 Tax=Marinomonas ...    50   4e-04
+UniRef90_A0A0Q8NIA9 Sulfur carrier protein FdhD n=1 Tax=Rhizobiu...    50   4e-04
+UniRef90_A9VZ59 Sulfur carrier protein FdhD n=16 Tax=Methylobact...    50   4e-04
+UniRef90_A0A090GPN5 Sulfur carrier protein FdhD n=1 Tax=Mesorhiz...    50   4e-04
+UniRef90_A0A1G0LNM8 Uncharacterized protein n=1 Tax=Gemmatimonad...    50   4e-04
+UniRef90_UPI0009FB33DF sulfurtransferase FdhD n=1 Tax=Roseomonas...    50   4e-04
+UniRef90_A0A101XB50 Formate dehydrogenase n=3 Tax=Thermoproteace...    50   5e-04
+UniRef90_A0A1B8QP17 Sulfur carrier protein FdhD n=2 Tax=Haemophi...    50   5e-04
+UniRef90_A7ZF90 Sulfur carrier protein FdhD n=10 Tax=Campylobact...    50   5e-04
+UniRef90_UPI0003B76221 sulfurtransferase FdhD n=1 Tax=Methylohal...    50   5e-04
+UniRef90_D3PD15 Sulfur carrier protein FdhD n=1 Tax=Deferribacte...    50   5e-04
+UniRef90_A0A091B4L6 Sulfur carrier protein FdhD n=1 Tax=Arenimon...    50   5e-04
+UniRef90_UPI0008EC6937 sufurtransferase FdhD n=1 Tax=Thermoflavi...    50   5e-04
+UniRef90_A0A0F8VW35 Sulfur carrier protein FdhD n=2 Tax=root Tax...    50   5e-04
+UniRef90_A0A0R3CNG0 Sulfur carrier protein FdhD n=3 Tax=Bradyrhi...    50   5e-04
+UniRef90_A0A1C2DDA3 Sulfur carrier protein FdhD n=2 Tax=Mesorhiz...    50   5e-04
+UniRef90_W9GVR2 Sulfur carrier protein FdhD n=1 Tax=Skermanella ...    50   5e-04
+UniRef90_UPI0008E23A48 sufurtransferase FdhD n=1 Tax=Dyella sp. ...    50   5e-04
+UniRef90_A0A1Y0ISG1 Sulfur carrier protein FdhD n=1 Tax=Tumebaci...    50   5e-04
+UniRef90_A0A0N8GG41 Sulfur carrier protein FdhD n=2 Tax=Prosthec...    50   5e-04
+UniRef90_A0A1A8T8F0 Sulfur carrier protein FdhD n=1 Tax=Marinomo...    50   5e-04
+UniRef90_I0GBC4 Sulfur carrier protein FdhD n=13 Tax=Bradyrhizob...    50   5e-04
+UniRef90_UPI0006B533FA sulfurtransferase FdhD n=1 Tax=Pseudorhod...    50   5e-04
+UniRef90_M7Y538 Sulfur carrier protein FdhD n=1 Tax=Methylobacte...    50   5e-04
+UniRef90_H8GKR3 Sulfur carrier protein FdhD n=2 Tax=Methylomicro...    50   5e-04
+UniRef90_L9PQ58 Sulfur carrier protein FdhD n=3 Tax=Oxalobactera...    50   5e-04
+UniRef90_A0A0M4M5T6 Sulfur carrier protein FdhD n=1 Tax=Alterery...    50   5e-04
+UniRef90_F9ZX63 Sulfur carrier protein FdhD n=1 Tax=Methylomonas...    50   5e-04
+UniRef90_A0A0U4FF19 Sulfur carrier protein FdhD n=1 Tax=Lentibac...    50   5e-04
+UniRef90_J2KNB7 Sulfur carrier protein FdhD n=3 Tax=Enterobacter...    50   5e-04
+UniRef90_A0A1G7BE53 Sulfur carrier protein FdhD n=2 Tax=Kordiimo...    50   5e-04
+UniRef90_F9QAY4 Sulfur carrier protein FdhD n=1 Tax=Haemophilus ...    50   5e-04
+UniRef90_A0A0M5IIU2 Sulfur carrier protein FdhD n=3 Tax=Sphingop...    50   5e-04
+UniRef90_A0A0F5L6H3 Sulfur carrier protein FdhD n=1 Tax=Devosia ...    50   5e-04
+UniRef90_UPI0009499141 sulfurtransferase FdhD n=1 Tax=Rhizobiale...    50   5e-04
+UniRef90_A1JT32 Sulfur carrier protein FdhD n=87 Tax=Yersiniacea...    50   5e-04
+UniRef90_F0LUR2 Sulfur carrier protein FdhD n=3 Tax=Vibrio TaxID...    50   5e-04
+UniRef90_V6M8M4 Sulfur carrier protein FdhD n=1 Tax=Brevibacillu...    50   5e-04
+UniRef90_Q6NBU3 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...    50   5e-04
+UniRef90_A0A101G150 Sulfur carrier protein FdhD n=1 Tax=Actinoba...    50   5e-04
+UniRef90_A0A0J1DA24 Sulfur carrier protein FdhD n=1 Tax=Massilia...    50   5e-04
+UniRef90_UPI000931D7BD sulfurtransferase FdhD n=1 Tax=Erwinia pe...    50   5e-04
+UniRef90_A0A0T6XFL4 Sulfur carrier protein FdhD n=12 Tax=Sinorhi...    50   6e-04
+UniRef90_A0A1Q9XBH0 Sulfur carrier protein FdhD n=3 Tax=Achromob...    50   6e-04
+UniRef90_A0A089LXI7 Sulfur carrier protein FdhD n=1 Tax=Paenibac...    50   6e-04
+UniRef90_A0A074LRN8 Sulfur carrier protein FdhD n=2 Tax=Tumebaci...    50   6e-04
+UniRef90_A0A1J4VG40 Sulfur carrier protein FdhD n=1 Tax=Candidat...    50   6e-04
+UniRef90_UPI0008255849 sulfurtransferase FdhD n=1 Tax=Hydrogenop...    50   6e-04
+UniRef90_A3CUC5 Formate dehydrogenase family accessory protein F...    50   6e-04
+UniRef90_A0A0S2SGI3 Sulfur carrier protein FdhD n=1 Tax=Aeromona...    50   6e-04
+UniRef90_A0A1W6ZIR2 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    50   6e-04
+UniRef90_A0A098RCZ8 Sulfur carrier protein FdhD n=3 Tax=Halomona...    50   6e-04
+UniRef90_UPI000B795D86 formate dehydrogenase family accessory pr...    50   6e-04
+UniRef90_A0A0W1FMJ6 Sulfur carrier protein FdhD n=2 Tax=Sphingom...    50   6e-04
+UniRef90_A0A0Q6N381 Sulfur carrier protein FdhD n=5 Tax=Burkhold...    50   6e-04
+UniRef90_A0A1Z9BVV0 Sulfurtransferase FdhD n=1 Tax=Alteromonadac...    50   6e-04
+UniRef90_A0A1C2IGR2 Sulfur carrier protein FdhD n=7 Tax=Acidithi...    50   6e-04
+UniRef90_Q0B3P0 Sulfur carrier protein FdhD n=32 Tax=Burkholderi...    50   6e-04
+UniRef90_Q67L64 Sulfur carrier protein FdhD n=2 Tax=Symbiobacter...    50   6e-04
+UniRef90_A0A1M4XDP8 Sulfur carrier protein FdhD n=2 Tax=Desulfot...    50   6e-04
+UniRef90_A0A0H4VXD5 Sulfur carrier protein FdhD n=3 Tax=Alcalige...    50   6e-04
+UniRef90_A0A1F4CKV2 Sulfur carrier protein FdhD n=2 Tax=unclassi...    50   6e-04
+UniRef90_A0A1M4XID7 FdhD protein n=1 Tax=Desulfotomaculum austra...    50   6e-04
+UniRef90_A0A1M6Y101 Sulfur carrier protein FdhD n=3 Tax=Halomona...    50   6e-04
+UniRef90_A0A0P6XDW0 Sulfur carrier protein FdhD n=2 Tax=Sphingom...    50   6e-04
+UniRef90_A0A1B4PRV6 Sulfur carrier protein FdhD n=1 Tax=Burkhold...    50   6e-04
+UniRef90_E1W529 Sulfur carrier protein FdhD n=22 Tax=Pasteurella...    50   6e-04
+UniRef90_UPI00059059B0 sulfurtransferase FdhD n=1 Tax=Melaminivo...    50   6e-04
+UniRef90_A0A1J4QCQ5 Sulfur carrier protein FdhD n=1 Tax=Oceanisp...    50   6e-04
+UniRef90_Q608U9 Sulfur carrier protein FdhD n=2 Tax=Methylococcu...    50   6e-04
+UniRef90_A0A095UYY0 Sulfur carrier protein FdhD n=2 Tax=Achromob...    50   6e-04
+UniRef90_UPI0003F6B664 sulfurtransferase FdhD n=1 Tax=Bradyrhizo...    50   6e-04
+UniRef90_A0A160U9E0 Sulfur carrier protein FdhD n=15 Tax=Bradyrh...    50   6e-04
+UniRef90_H1Z2S9 Sulfur carrier protein FdhD n=1 Tax=Methanoplanu...    50   6e-04
+UniRef90_A0A1B7I0U4 Sulfur carrier protein FdhD n=5 Tax=Buttiaux...    50   6e-04
+UniRef90_A0A0M2WVZ7 Sulfur carrier protein FdhD n=14 Tax=Oxaloba...    50   7e-04
+UniRef90_A0A1M3CH18 Sulfur carrier protein FdhD n=1 Tax=Shinella...    50   7e-04
+UniRef90_R8B4S3 Sulfur carrier protein FdhD n=1 Tax=Marinobacter...    50   7e-04
+UniRef90_A0A0G3CNN4 Sulfur carrier protein FdhD n=3 Tax=Pragia f...    50   7e-04
+UniRef90_A0A098SW75 Sulfur carrier protein FdhD n=8 Tax=Pseudomo...    50   7e-04
+UniRef90_A0A1M3MGS2 Sulfur carrier protein FdhD n=1 Tax=Rhizobia...    50   7e-04
+UniRef90_UPI000A030F20 formate dehydrogenase family accessory pr...    50   7e-04
+UniRef90_A0A0Q7N686 Sulfur carrier protein FdhD n=1 Tax=Rhizobiu...    49   7e-04
+
+>UniRef90_A0A1F9NQH9 Sulfur carrier protein FdhD n=1 Tax=Desulfobacterales bacterium
+          GWB2_56_26 TaxID=1797913 RepID=A0A1F9NQH9_9DELT
+          Length = 255
+
+ Score =  117 bits (294), Expect = 2e-24,   Method: Composition-based stats.
+ Identities = 48/58 (82%), Positives = 54/58 (93%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQGRISVYA 58
+          ETPY+IALND  IGSSMVLP+ LEEFGAGFLFGQGYIK+ EEI+EILVCP+GRI+VYA
+Sbjct: 29 ETPYSIALNDETIGSSMVLPIGLEEFGAGFLFGQGYIKRPEEIKEILVCPEGRIAVYA 86
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A0F5EYC0 Sulfur carrier protein FdhD n=3 Tax=Avibacte...   103   3e-20
+UniRef90_A0A1V3JK04 Sulfur carrier protein FdhD n=1 Tax=Rodentib...   100   3e-19
+UniRef90_A0A1B3JIJ3 Sulfur carrier protein FdhD n=7 Tax=Pasteure...   100   3e-19
+UniRef90_A6VNS9 Sulfur carrier protein FdhD n=1 Tax=Actinobacill...   100   4e-19
+UniRef90_A0A1D2SB63 Sulfur carrier protein FdhD n=1 Tax=Comamona...    99   4e-19
+UniRef90_A0A1A7PUD6 Sulfur carrier protein FdhD n=3 Tax=Gallibac...    99   4e-19
+UniRef90_A0A1H5ZL70 Sulfur carrier protein FdhD n=3 Tax=Halomona...   100   5e-19
+UniRef90_UPI0003647827 sulfurtransferase FdhD n=1 Tax=Marinobact...   100   6e-19
+UniRef90_A0A1V3L9J9 Sulfur carrier protein FdhD n=8 Tax=Rodentib...   100   7e-19
+UniRef90_A0A1V4B3I1 Sulfur carrier protein FdhD n=1 Tax=Haemophi...    99   7e-19
+UniRef90_D8MLN6 Sulfur carrier protein FdhD n=2 Tax=Erwinia bill...    99   7e-19
+UniRef90_A0A1V3IYT5 Sulfur carrier protein FdhD n=2 Tax=Rodentib...    99   8e-19
+UniRef90_A0A095TU74 Sulfur carrier protein FdhD n=2 Tax=Tatumell...    99   8e-19
+UniRef90_A0A1B8QP17 Sulfur carrier protein FdhD n=2 Tax=Haemophi...    99   8e-19
+UniRef90_A0A0F7HAD6 Sulfur carrier protein FdhD n=3 Tax=Serratia...    99   9e-19
+UniRef90_P44449 Sulfur carrier protein FdhD n=31 Tax=Bacteria Ta...    98   1e-18
+UniRef90_A0A1A7PUX3 Sulfur carrier protein FdhD n=2 Tax=Gallibac...    98   2e-18
+UniRef90_S2L7K0 Sulfur carrier protein FdhD n=1 Tax=Halomonas an...    98   2e-18
+UniRef90_A0A0Q6SHX8 Sulfur carrier protein FdhD n=1 Tax=Massilia...    98   2e-18
+UniRef90_A0A1H4CN01 Sulfur carrier protein FdhD n=9 Tax=Lonsdale...    98   2e-18
+UniRef90_UPI0009330144 sulfurtransferase FdhD n=1 Tax=Nissabacte...    98   2e-18
+UniRef90_A0A1B8P4Z6 Sulfur carrier protein FdhD n=2 Tax=Halomona...    98   2e-18
+UniRef90_A0A0A0Z0G1 Sulfur carrier protein FdhD n=6 Tax=Erwiniac...    97   3e-18
+UniRef90_A0A1T0AXI7 Sulfur carrier protein FdhD n=1 Tax=[Haemoph...    97   3e-18
+UniRef90_A0A1V3J9I2 Sulfur carrier protein FdhD n=1 Tax=Rodentib...    97   3e-18
+UniRef90_E0SMJ5 Sulfur carrier protein FdhD n=18 Tax=Pectobacter...    97   3e-18
+UniRef90_UPI00037654FB sulfurtransferase FdhD n=1 Tax=Enterobact...    97   3e-18
+UniRef90_K8WVG1 Sulfur carrier protein FdhD n=1 Tax=Providencia ...    97   4e-18
+UniRef90_A0A140NLJ0 Sulfur carrier protein FdhD n=7 Tax=Providen...    97   4e-18
+UniRef90_UPI0009E4D456 sulfurtransferase FdhD n=1 Tax=Rouxiella ...    97   4e-18
+UniRef90_A0A0J8YWZ5 Sulfur carrier protein FdhD n=1 Tax=bacteria...    97   4e-18
+UniRef90_S6HHU2 Sulfur carrier protein FdhD n=1 Tax=Osedax symbi...    96   5e-18
+UniRef90_A0A1V3I8L9 Sulfur carrier protein FdhD n=1 Tax=Rodentib...    96   5e-18
+UniRef90_V3TNH8 Sulfur carrier protein FdhD n=1 Tax=Serratia sp....    96   5e-18
+UniRef90_C9R5K5 Sulfur carrier protein FdhD n=14 Tax=Aggregatiba...    96   5e-18
+UniRef90_V5AEG1 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...    96   5e-18
+UniRef90_F4HDG1 Sulfur carrier protein FdhD n=15 Tax=Gallibacter...    96   6e-18
+UniRef90_K8W1H8 Sulfur carrier protein FdhD n=1 Tax=Providencia ...    96   6e-18
+UniRef90_F9GM54 Sulfur carrier protein FdhD n=12 Tax=Haemophilus...    96   6e-18
+UniRef90_A1JT32 Sulfur carrier protein FdhD n=87 Tax=Yersiniacea...    96   6e-18
+UniRef90_A0A0K1N540 Sulfur carrier protein FdhD n=5 Tax=Aggregat...    96   6e-18
+UniRef90_A0A0M2KH35 Sulfur carrier protein FdhD n=1 Tax=Erwinia ...    96   7e-18
+UniRef90_A0A0Q4MMK6 Sulfur carrier protein FdhD n=2 Tax=Erwinia ...    96   7e-18
+UniRef90_A0A0A3AP99 Sulfur carrier protein FdhD n=2 Tax=Chelonob...    96   8e-18
+UniRef90_A0A1N6MRK1 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...    96   8e-18
+UniRef90_A0A0J1DA24 Sulfur carrier protein FdhD n=1 Tax=Massilia...    96   9e-18
+UniRef90_A0A0U3VJ18 Sulfur carrier protein FdhD n=12 Tax=Enterob...    96   9e-18
+UniRef90_UPI000931D7BD sulfurtransferase FdhD n=1 Tax=Erwinia pe...    96   9e-18
+UniRef90_A0A1K3LE29 Sulfur carrier protein FdhD n=12 Tax=Bacteri...    95   1e-17
+UniRef90_J1GDD0 Sulfur carrier protein FdhD n=10 Tax=cellular or...    95   1e-17
+UniRef90_UPI000509A15A sulfurtransferase FdhD n=1 Tax=Necropsoba...    95   1e-17
+UniRef90_A0A1B7I0U4 Sulfur carrier protein FdhD n=5 Tax=Buttiaux...    95   1e-17
+UniRef90_C3XD23 Sulfur carrier protein FdhD n=2 Tax=Oxalobacter ...    95   1e-17
+UniRef90_A0A1V3ITR7 Sulfur carrier protein FdhD n=2 Tax=Rodentib...    95   1e-17
+UniRef90_A0A1X1DDI8 Sulfur carrier protein FdhD n=1 Tax=Pantoea ...    95   1e-17
+UniRef90_A0A1M3BS76 Sulfur carrier protein FdhD n=2 Tax=Burkhold...    95   1e-17
+UniRef90_A0A0A1B3Z7 Sulfur carrier protein FdhD n=3 Tax=Pantoea ...    95   1e-17
+UniRef90_A0A1W6B3W4 Sulfur carrier protein FdhD n=1 Tax=Pantoea ...    95   1e-17
+UniRef90_UPI0005099F3E sulfurtransferase FdhD n=2 Tax=Pasteurell...    95   1e-17
+UniRef90_A0A1B7JUC0 Sulfur carrier protein FdhD n=9 Tax=Providen...    95   2e-17
+UniRef90_UPI000417991F sulfurtransferase FdhD n=1 Tax=Budvicia a...    95   2e-17
+UniRef90_E6KY28 Sulfur carrier protein FdhD n=2 Tax=Aggregatibac...    95   2e-17
+UniRef90_A0A0L7T7Z6 Sulfur carrier protein FdhD n=1 Tax=Erwinia ...    95   2e-17
+UniRef90_E1W529 Sulfur carrier protein FdhD n=22 Tax=Pasteurella...    95   2e-17
+UniRef90_UPI0008804C03 sufurtransferase FdhD n=1 Tax=Halomonas t...    95   2e-17
+UniRef90_U1S8N9 Sulfur carrier protein FdhD n=1 Tax=Aggregatibac...    95   2e-17
+UniRef90_A0A098RCZ8 Sulfur carrier protein FdhD n=3 Tax=Halomona...    95   2e-17
+UniRef90_Q32A65 Sulfur carrier protein FdhD n=420 Tax=root TaxID...    94   2e-17
+UniRef90_UPI000A0214C2 sulfurtransferase FdhD n=1 Tax=Xylophilus...    94   2e-17
+UniRef90_J3C6V7 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...    94   2e-17
+UniRef90_A0A0G3QER4 Sulfur carrier protein FdhD n=5 Tax=Enteroba...    94   2e-17
+UniRef90_A0A1B8HLN5 Sulfur carrier protein FdhD n=2 Tax=Morganel...    94   3e-17
+UniRef90_UPI0004B317BB sulfurtransferase FdhD n=1 Tax=Bordetella...    94   3e-17
+UniRef90_P57842 Sulfur carrier protein FdhD n=19 Tax=Pasteurella...    94   3e-17
+UniRef90_A0A0N0IBX5 Sulfur carrier protein FdhD n=2 Tax=Moellere...    94   3e-17
+UniRef90_A0A0F6TXV7 Sulfur carrier protein FdhD n=13 Tax=Gammapr...    93   4e-17
+UniRef90_J2KNB7 Sulfur carrier protein FdhD n=3 Tax=Enterobacter...    93   4e-17
+UniRef90_J4KDG7 Sulfur carrier protein FdhD n=1 Tax=Haemophilus ...    93   4e-17
+UniRef90_UPI00068E2A34 sulfurtransferase FdhD n=1 Tax=Enterobact...    93   4e-17
+UniRef90_E6WI26 Sulfur carrier protein FdhD n=4 Tax=Pantoea TaxI...    93   4e-17
+UniRef90_UPI0005C76695 sulfurtransferase FdhD n=1 Tax=Enterobact...    93   5e-17
+UniRef90_UPI00047A0422 sulfurtransferase FdhD n=1 Tax=Bordetella...    93   5e-17
+UniRef90_UPI00058F1E67 sulfurtransferase FdhD n=1 Tax=Ideonella ...    93   5e-17
+UniRef90_UPI0008BDDA37 sufurtransferase FdhD n=1 Tax=Amphritea a...    93   5e-17
+UniRef90_UPI000A044997 sulfurtransferase FdhD n=2 Tax=Marinobact...    93   6e-17
+UniRef90_UPI0003809420 sulfurtransferase FdhD n=1 Tax=Amphritea ...    93   7e-17
+UniRef90_E6VNA1 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...    93   8e-17
+UniRef90_A0A0G3CNN4 Sulfur carrier protein FdhD n=3 Tax=Pragia f...    92   8e-17
+UniRef90_A9I097 Sulfur carrier protein FdhD n=1 Tax=Bordetella p...    92   9e-17
+UniRef90_UPI00036C3B0D sulfurtransferase FdhD n=1 Tax=Hahella ga...    92   9e-17
+UniRef90_A0A1M6Y101 Sulfur carrier protein FdhD n=3 Tax=Halomona...    92   9e-17
+UniRef90_A0A0E3ZSU0 Sulfur carrier protein FdhD n=1 Tax=Pasteure...    92   1e-16
+UniRef90_A0A1I7JS52 Sulfur carrier protein FdhD n=3 Tax=Burkhold...    92   1e-16
+UniRef90_A0A068R8T5 Sulfur carrier protein FdhD n=2 Tax=Xenorhab...    92   1e-16
+UniRef90_F9QAY4 Sulfur carrier protein FdhD n=1 Tax=Haemophilus ...    92   1e-16
+UniRef90_A0A0Q8XHV5 Sulfur carrier protein FdhD n=1 Tax=Achromob...    92   1e-16
+UniRef90_A0A1B7K8E8 Sulfur carrier protein FdhD n=9 Tax=Enteroba...    92   1e-16
+UniRef90_D2TUA1 Sulfur carrier protein FdhD n=4 Tax=Citrobacter ...    92   1e-16
+UniRef90_UPI0009E97E93 sulfurtransferase FdhD n=1 Tax=Erwinia te...    91   1e-16
+UniRef90_A0A0F9U0K0 Uncharacterized protein n=1 Tax=marine sedim...    91   2e-16
+UniRef90_R7IKW0 Sulfur carrier protein FdhD n=2 Tax=Sutterellace...    91   2e-16
+UniRef90_A0A0A1VHU6 Sulfur carrier protein FdhD n=1 Tax=Acidovor...    91   2e-16
+UniRef90_A0A0J6KGY3 Sulfur carrier protein FdhD n=1 Tax=Chromoba...    91   2e-16
+UniRef90_UPI000975204E uncharacterized protein LOC109618173 n=1 ...    91   3e-16
+UniRef90_A0A0S2SGI3 Sulfur carrier protein FdhD n=1 Tax=Aeromona...    91   3e-16
+UniRef90_UPI00088B9058 sufurtransferase FdhD n=1 Tax=Cupriavidus...    91   3e-16
+UniRef90_A0A0L0ASE3 Sulfur carrier protein FdhD n=1 Tax=Klebsiel...    91   3e-16
+UniRef90_A0A1J4QCQ5 Sulfur carrier protein FdhD n=1 Tax=Oceanisp...    91   3e-16
+UniRef90_UPI0003705F76 sulfurtransferase FdhD n=1 Tax=Hyphomicro...    91   3e-16
+UniRef90_D4XI07 Sulfur carrier protein FdhD n=2 Tax=Achromobacte...    91   3e-16
+UniRef90_UPI000930CD93 sulfurtransferase FdhD n=1 Tax=Hyphomicro...    91   3e-16
+UniRef90_A0A0D6EX58 Sulfur carrier protein FdhD n=1 Tax=Candidat...    90   3e-16
+UniRef90_A0A0D6II67 Sulfur carrier protein FdhD n=29 Tax=Alcalig...    90   3e-16
+UniRef90_A0A1N7Q3N5 Sulfur carrier protein FdhD n=2 Tax=Insoliti...    90   3e-16
+UniRef90_UPI0008E2D53B sufurtransferase FdhD n=1 Tax=Cupriavidus...    90   3e-16
+UniRef90_I4YXY2 Sulfur carrier protein FdhD n=1 Tax=Microvirga l...    90   4e-16
+UniRef90_A0A0J6NMN4 Sulfur carrier protein FdhD n=7 Tax=Chromoba...    90   4e-16
+UniRef90_UPI000B6857B2 sufurtransferase FdhD n=1 Tax=Tropicimona...    90   4e-16
+UniRef90_A0A1W1GVB1 Sulfur carrier protein FdhD n=9 Tax=Xanthomo...    90   4e-16
+UniRef90_A0A1E3VDW6 Sulfur carrier protein FdhD n=4 Tax=Ensifer ...    90   4e-16
+UniRef90_A0A1W1UE96 Sulfur carrier protein FdhD n=1 Tax=Pasteure...    90   4e-16
+UniRef90_A0A193G568 Sulfur carrier protein FdhD n=3 Tax=Bordetel...    90   4e-16
+UniRef90_UPI0002ED7D63 sulfurtransferase FdhD n=1 Tax=Cupriavidu...    90   5e-16
+UniRef90_R8B4S3 Sulfur carrier protein FdhD n=1 Tax=Marinobacter...    90   5e-16
+UniRef90_UPI0006920A8E sulfurtransferase FdhD n=1 Tax=Achromobac...    90   5e-16
+UniRef90_UPI0008255849 sulfurtransferase FdhD n=1 Tax=Hydrogenop...    90   5e-16
+UniRef90_A0A1R4B7S7 Sulfur carrier protein FdhD n=1 Tax=Vibrio s...    90   5e-16
+UniRef90_E6UYJ1 Sulfur carrier protein FdhD n=4 Tax=Variovorax T...    90   5e-16
+UniRef90_J3CAZ7 Sulfur carrier protein FdhD n=2 Tax=Herbaspirill...    90   6e-16
+UniRef90_UPI00082FD765 sulfurtransferase FdhD n=2 Tax=Burkholder...    90   6e-16
+UniRef90_A0A086MHA4 Sulfur carrier protein FdhD n=1 Tax=Microvir...    90   6e-16
+UniRef90_A0A0Q8NIA9 Sulfur carrier protein FdhD n=1 Tax=Rhizobiu...    90   6e-16
+UniRef90_A0A0Q8JMJ4 Sulfur carrier protein FdhD n=6 Tax=Achromob...    90   6e-16
+UniRef90_A0A1P8KCR7 Sulfur carrier protein FdhD n=2 Tax=Rhodofer...    90   6e-16
+UniRef90_G9A1M8 Sulfur carrier protein FdhD n=6 Tax=Sinorhizobiu...    90   6e-16
+UniRef90_UPI0004673C6C sulfurtransferase FdhD n=1 Tax=Aliihoefle...    90   6e-16
+UniRef90_D5WBG1 Sulfur carrier protein FdhD n=6 Tax=Burkholderia...    90   7e-16
+UniRef90_I3U9W2 Sulfur carrier protein FdhD n=1 Tax=Advenella ka...    90   7e-16
+UniRef90_UPI00066C574F sulfurtransferase FdhD n=1 Tax=Stenotroph...    90   7e-16
+UniRef90_UPI000B8C0616 sulfurtransferase FdhD n=1 Tax=Zobellella...    90   7e-16
+UniRef90_C3M9P7 Sulfur carrier protein FdhD n=2 Tax=Sinorhizobiu...    89   7e-16
+UniRef90_UPI00059059B0 sulfurtransferase FdhD n=1 Tax=Melaminivo...    89   7e-16
+UniRef90_UPI000931F294 sulfurtransferase FdhD n=1 Tax=Hyphomicro...    89   7e-16
+UniRef90_Q8L3B7 Sulfur carrier protein FdhD n=5 Tax=Azoarcus Tax...    89   7e-16
+UniRef90_UPI000A070D4F sulfurtransferase FdhD n=1 Tax=Derxia gum...    89   7e-16
+UniRef90_UPI0008E7280F sufurtransferase FdhD n=1 Tax=Xenorhabdus...    89   7e-16
+UniRef90_UPI000690C687 sulfurtransferase FdhD n=1 Tax=Andreprevo...    89   8e-16
+UniRef90_A0A1W6ZIR2 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    89   8e-16
+UniRef90_UPI0008E7D83D sulfurtransferase FdhD n=1 Tax=Rugamonas ...    89   8e-16
+UniRef90_Q6AMB9 Sulfur carrier protein FdhD n=2 Tax=Desulfotalea...    89   8e-16
+UniRef90_H3KI18 Sulfur carrier protein FdhD n=1 Tax=Sutterella p...    89   8e-16
+UniRef90_UPI000B51DB30 sulfurtransferase FdhD n=1 Tax=Achromobac...    89   9e-16
+UniRef90_UPI0008386C8C sulfurtransferase FdhD n=1 Tax=Vibrio tri...    89   9e-16
+UniRef90_A0A1M5MXC7 Sulfur carrier protein FdhD n=1 Tax=Bradyrhi...    89   9e-16
+UniRef90_UPI0004AF2F78 sulfurtransferase FdhD n=1 Tax=Microvirga...    89   9e-16
+UniRef90_Q07HL8 Sulfur carrier protein FdhD n=1 Tax=Rhodopseudom...    89   9e-16
+UniRef90_UPI0009A17EFA sulfurtransferase FdhD n=2 Tax=Herbaspiri...    89   9e-16
+UniRef90_A0A085HE45 Sulfur carrier protein FdhD n=1 Tax=Leminore...    89   1e-15
+UniRef90_H0Q5A0 Sulfur carrier protein FdhD n=1 Tax=Azoarcus sp....    89   1e-15
+UniRef90_M7CNG9 Sulfur carrier protein FdhD n=1 Tax=Marinobacter...    89   1e-15
+UniRef90_UPI00045E726F sulfurtransferase FdhD n=1 Tax=Pseudogulb...    89   1e-15
+UniRef90_UPI0009FB968C sulfurtransferase FdhD n=1 Tax=Niveispiri...    89   1e-15
+UniRef90_A0A0M2WVZ7 Sulfur carrier protein FdhD n=14 Tax=Oxaloba...    89   1e-15
+UniRef90_A0A1W6YRC4 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    89   1e-15
+UniRef90_M1FB31 Sulfur carrier protein FdhD n=3 Tax=Marinobacter...    89   1e-15
+UniRef90_Q2J276 Sulfur carrier protein FdhD n=1 Tax=Rhodopseudom...    89   1e-15
+UniRef90_UPI0003FB40AE sulfurtransferase FdhD n=1 Tax=Azohydromo...    89   1e-15
+UniRef90_A0A0J7J4X2 Sulfur carrier protein FdhD n=1 Tax=Marinoba...    89   1e-15
+UniRef90_UPI000B86275C sulfurtransferase FdhD n=1 Tax=Acidovorax...    89   1e-15
+UniRef90_UPI0004B33D91 sulfurtransferase FdhD n=1 Tax=Ensifer so...    89   1e-15
+UniRef90_A0A1I6JER4 Sulfur carrier protein FdhD n=4 Tax=Stenotro...    88   1e-15
+UniRef90_A0A157RM19 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    88   1e-15
+UniRef90_A0A1R3W8I2 Sulfur carrier protein FdhD n=3 Tax=Burkhold...    88   1e-15
+UniRef90_A0A1L3LRM2 Sulfur carrier protein FdhD n=2 Tax=Sinorhiz...    88   1e-15
+UniRef90_A0A0K2Z9Y3 Sulfur carrier protein FdhD n=21 Tax=Stenotr...    88   1e-15
+UniRef90_A0A0L0MAK2 Sulfur carrier protein FdhD n=7 Tax=Burkhold...    88   1e-15
+UniRef90_A0A1B2ENI8 Sulfur carrier protein FdhD n=1 Tax=Microvir...    88   1e-15
+UniRef90_A0A178YFR9 Sulfur carrier protein FdhD n=1 Tax=Sinorhiz...    88   1e-15
+UniRef90_A0A1H5WZE8 Sulfur carrier protein FdhD n=1 Tax=Thauera ...    88   1e-15
+UniRef90_UPI0003FB349B sulfurtransferase FdhD n=1 Tax=Ottowia th...    88   2e-15
+UniRef90_A0A1I9Y0C3 Sulfur carrier protein FdhD n=2 Tax=Janthino...    88   2e-15
+UniRef90_A0A1F4G6H4 Sulfur carrier protein FdhD n=1 Tax=Burkhold...    88   2e-15
+UniRef90_A0A1A9FPH8 Sulfur carrier protein FdhD n=3 Tax=Ochrobac...    88   2e-15
+UniRef90_M9X956 Sulfur carrier protein FdhD n=6 Tax=Mannheimia h...    88   2e-15
+UniRef90_A0A1Q8J374 Sulfur carrier protein FdhD n=1 Tax=Burkhold...    88   2e-15
+UniRef90_UPI000648BAF9 sulfurtransferase FdhD n=1 Tax=Mesorhizob...    88   2e-15
+UniRef90_J4PGN9 Sulfur carrier protein FdhD n=5 Tax=Achromobacte...    88   2e-15
+UniRef90_Q608U9 Sulfur carrier protein FdhD n=2 Tax=Methylococcu...    88   2e-15
+UniRef90_B2FTM6 Sulfur carrier protein FdhD n=43 Tax=Proteobacte...    88   2e-15
+UniRef90_A0A1V2A2G3 Sufurtransferase FdhD (Fragment) n=1 Tax=Ach...    88   2e-15
+UniRef90_E7RZM4 Sulfur carrier protein FdhD n=1 Tax=Lautropia mi...    88   2e-15
+UniRef90_A0A1Q9XBH0 Sulfur carrier protein FdhD n=3 Tax=Achromob...    88   2e-15
+UniRef90_A0A063B851 Sulfur carrier protein FdhD n=2 Tax=Burkhold...    88   2e-15
+UniRef90_W5YP06 Sulfur carrier protein FdhD n=7 Tax=Alteromonada...    88   2e-15
+UniRef90_UPI000B8095F0 sulfurtransferase FdhD n=1 Tax=Variovorax...    88   2e-15
+UniRef90_A0A1W6PY22 Sulfur carrier protein FdhD n=2 Tax=Rhizobiu...    88   2e-15
+UniRef90_F2IYU2 Sulfur carrier protein FdhD n=1 Tax=Polymorphum ...    88   2e-15
+UniRef90_A0A0Q6N9N3 Sulfur carrier protein FdhD n=2 Tax=Mesorhiz...    88   3e-15
+UniRef90_UPI000414EB46 sulfurtransferase FdhD n=1 Tax=Sinorhizob...    87   3e-15
+UniRef90_A0A1B2ETC6 Sulfur carrier protein FdhD n=1 Tax=Microvir...    87   3e-15
+UniRef90_K1ZFH2 Uncharacterized protein (Fragment) n=1 Tax=groun...    87   3e-15
+UniRef90_UPI000881AA59 sufurtransferase FdhD n=1 Tax=Desulforhop...    87   3e-15
+UniRef90_W0QA31 Sulfur carrier protein FdhD n=6 Tax=Mannheimia T...    87   3e-15
+UniRef90_UPI0009A25471 sulfurtransferase FdhD n=1 Tax=Stenotroph...    87   3e-15
+UniRef90_A0A1J5Q7S8 Protein FdhD n=1 Tax=mine drainage metagenom...    87   3e-15
+UniRef90_A0A0F3IJ00 Sulfur carrier protein FdhD n=1 Tax=Methyloc...    87   3e-15
+UniRef90_A0A1B2QZ17 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    87   3e-15
+UniRef90_A0A1F9NQH9 Sulfur carrier protein FdhD n=1 Tax=Desulfob...    87   3e-15
+UniRef90_A0A0M1ERK4 Sulfur carrier protein FdhD n=3 Tax=Gammapro...    87   3e-15
+UniRef90_UPI00088C464E sulfurtransferase FdhD n=1 Tax=Alicycliph...    87   3e-15
+UniRef90_B4EBD9 Sulfur carrier protein FdhD n=187 Tax=Bacteria T...    87   3e-15
+UniRef90_A0A0Q6VPD9 Sulfur carrier protein FdhD n=2 Tax=Massilia...    87   3e-15
+UniRef90_A0A1L8PRU6 Sulfur carrier protein FdhD n=1 Tax=Rhizobiu...    87   3e-15
+UniRef90_A0A1J5RLH1 Protein FdhD n=1 Tax=mine drainage metagenom...    87   3e-15
+UniRef90_A0A0P6XQQ0 Sulfur carrier protein FdhD n=1 Tax=Thermana...    87   3e-15
+UniRef90_A0A0D2UE96 Sulfur carrier protein FdhD n=2 Tax=Skermane...    87   4e-15
+UniRef90_J2VB32 Sulfur carrier protein FdhD n=1 Tax=Phyllobacter...    87   4e-15
+UniRef90_A0A0G3BQ27 Sulfur carrier protein FdhD n=2 Tax=[Polyang...    87   4e-15
+UniRef90_Q2KWI8 Sulfur carrier protein FdhD n=1 Tax=Bordetella a...    87   4e-15
+UniRef90_A0A0Q6N381 Sulfur carrier protein FdhD n=5 Tax=Burkhold...    87   4e-15
+UniRef90_W3RIX3 Sulfur carrier protein FdhD n=1 Tax=Afipia sp. P...    87   4e-15
+UniRef90_A0A1Y6IXR7 Sulfur carrier protein FdhD n=1 Tax=Vibrio m...    87   4e-15
+UniRef90_A0A1M2YXM5 Sulfur carrier protein FdhD n=1 Tax=Rhizobia...    87   4e-15
+UniRef90_F0LUR2 Sulfur carrier protein FdhD n=3 Tax=Vibrio TaxID...    87   4e-15
+UniRef90_A0A1F3C5B4 Sulfur carrier protein FdhD n=1 Tax=Anaeromy...    87   4e-15
+UniRef90_UPI00034B0E3F sulfurtransferase FdhD n=1 Tax=Rhodopseud...    87   4e-15
+UniRef90_B6BWC8 Sulfur carrier protein FdhD n=2 Tax=OM43 clade T...    87   4e-15
+UniRef90_A0A1I2CU64 Sulfur carrier protein FdhD n=1 Tax=Roseiviv...    87   4e-15
+UniRef90_A0A1W6Z7L5 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    87   4e-15
+UniRef90_UPI0008349C29 sulfurtransferase FdhD n=1 Tax=Azohydromo...    87   4e-15
+UniRef90_E3HSP1 Sulfur carrier protein FdhD n=7 Tax=Alcaligenace...    87   4e-15
+UniRef90_A0A0Q7F5I1 Sulfur carrier protein FdhD n=1 Tax=Massilia...    86   5e-15
+UniRef90_A0A1X7ET77 Sulfur carrier protein FdhD n=2 Tax=Paraburk...    86   5e-15
+UniRef90_A0A157PCP1 Sulfur carrier protein FdhD n=2 Tax=Bordetel...    86   5e-15
+UniRef90_V5SDY1 Sulfur carrier protein FdhD n=1 Tax=Hyphomicrobi...    86   5e-15
+UniRef90_A0A1B3M9L7 Sulfur carrier protein FdhD n=1 Tax=Sinorhiz...    86   5e-15
+UniRef90_A0A095VMK1 Sulfur carrier protein FdhD n=1 Tax=Rhizobiu...    86   5e-15
+UniRef90_UPI000462ECBA sulfurtransferase FdhD n=1 Tax=Aminobacte...    86   5e-15
+UniRef90_W0V898 Sulfur carrier protein FdhD n=2 Tax=Janthinobact...    86   5e-15
+UniRef90_A0A0U3PWH1 Sulfur carrier protein FdhD n=4 Tax=Pannonib...    86   5e-15
+UniRef90_UPI000889E736 sufurtransferase FdhD n=1 Tax=Duganella T...    86   5e-15
+UniRef90_A0A1G7BE53 Sulfur carrier protein FdhD n=2 Tax=Kordiimo...    86   5e-15
+UniRef90_A0A149VST1 Protein FdhD n=1 Tax=Ferrovum sp. PN-J185 Ta...    86   5e-15
+UniRef90_A0A1H6C1G5 Sulfur carrier protein FdhD n=1 Tax=Marinoba...    86   6e-15
+UniRef90_A0A1M5YN80 Sulfur carrier protein FdhD n=1 Tax=Vibrio a...    86   6e-15
+UniRef90_A0A1V3YVX0 Sulfur carrier protein FdhD n=1 Tax=Ochrobac...    86   6e-15
+UniRef90_UPI0009499141 sulfurtransferase FdhD n=1 Tax=Rhizobiale...    86   6e-15
+UniRef90_UPI0009E2AF73 sulfurtransferase FdhD n=1 Tax=Methylococ...    86   6e-15
+UniRef90_A0A1E7PVT8 Sulfur carrier protein FdhD n=1 Tax=Marinoba...    86   6e-15
+UniRef90_A0A1C7NZF4 Sulfur carrier protein FdhD n=6 Tax=Rhizobiu...    86   6e-15
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI00082F7BD8 sulfurtransferase FdhD n=1 Tax=Erwinia sp...    99   4e-19
+UniRef90_A0A0U6J639 Sulfur carrier protein FdhD n=56 Tax=Gammapr...    99   7e-19
+UniRef90_W0LD51 Sulfur carrier protein FdhD n=7 Tax=Yersiniaceae...    99   1e-18
+UniRef90_UPI000A00AEFB sulfurtransferase FdhD n=1 Tax=Serratia f...    98   1e-18
+UniRef90_A8G7V2 Sulfur carrier protein FdhD n=17 Tax=Serratia Ta...    98   2e-18
+UniRef90_C6C6H3 Sulfur carrier protein FdhD n=1 Tax=Dickeya para...    97   4e-18
+UniRef90_D4DZR2 Sulfur carrier protein FdhD n=1 Tax=Serratia odo...    96   6e-18
+UniRef90_A0A0A4ABB2 Sulfur carrier protein FdhD n=1 Tax=Erwinia ...    96   6e-18
+UniRef90_A0A1V3KAP8 Sulfur carrier protein FdhD n=2 Tax=Rodentib...    96   8e-18
+UniRef90_UPI00046A4A3E sulfurtransferase FdhD n=1 Tax=Pantoea sp...    96   8e-18
+UniRef90_B1JH20 Sulfur carrier protein FdhD n=25 Tax=Yersinia Ta...    95   1e-17
+UniRef90_A0A0J9B477 Sulfur carrier protein FdhD n=1 Tax=bacteria...    95   1e-17
+UniRef90_A0A068Z8J4 Sulfur carrier protein FdhD n=1 Tax=Serratia...    95   1e-17
+UniRef90_L0MID9 Sulfur carrier protein FdhD n=5 Tax=Serratia Tax...    95   2e-17
+UniRef90_A0A0U5L6V5 Sulfur carrier protein FdhD n=1 Tax=Erwinia ...    95   2e-17
+UniRef90_UPI00039A12E7 sulfurtransferase FdhD n=1 Tax=Dickeya Ta...    95   2e-17
+UniRef90_S3IKE9 Sulfur carrier protein FdhD n=1 Tax=Cedecea davi...    95   2e-17
+UniRef90_D2C0M1 Sulfur carrier protein FdhD n=5 Tax=Dickeya zeae...    94   2e-17
+UniRef90_UPI00088FB3E3 sufurtransferase FdhD n=1 Tax=Halomonas m...    94   3e-17
+UniRef90_Q6DB09 Sulfur carrier protein FdhD n=29 Tax=Pectobacter...    94   3e-17
+UniRef90_G7LTJ3 Sulfur carrier protein FdhD n=2 Tax=Brenneria sp...    94   3e-17
+UniRef90_A0A0G4JTM5 Sulfur carrier protein FdhD n=1 Tax=Brenneri...    94   3e-17
+UniRef90_UPI000907A1E0 sulfurtransferase FdhD n=2 Tax=Erwinia Ta...    94   3e-17
+UniRef90_A0A1D7P9E3 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...    93   4e-17
+UniRef90_A0A1Y2S9I8 Sulfur carrier protein FdhD n=2 Tax=Xenorhab...    93   5e-17
+UniRef90_A0A198FX96 Sulfur carrier protein FdhD n=11 Tax=Enterob...    93   5e-17
+UniRef90_UPI0008CD9A8B sufurtransferase FdhD n=1 Tax=Rosenbergie...    93   6e-17
+UniRef90_I0QWE1 Sulfur carrier protein FdhD n=1 Tax=Serratia sp....    93   6e-17
+UniRef90_A0A1B7JAP1 Sulfur carrier protein FdhD n=20 Tax=Enterob...    93   6e-17
+UniRef90_I2B3V2 Sulfur carrier protein FdhD n=2 Tax=Shimwellia b...    93   7e-17
+UniRef90_D1P7E5 Sulfur carrier protein FdhD n=8 Tax=Providencia ...    93   7e-17
+UniRef90_R8ARM7 Sulfur carrier protein FdhD n=4 Tax=Plesiomonas ...    93   7e-17
+UniRef90_Q7MY11 Sulfur carrier protein FdhD n=9 Tax=Photorhabdus...    93   8e-17
+UniRef90_A0A1X0WC26 Sulfur carrier protein FdhD n=2 Tax=Gammapro...    93   8e-17
+UniRef90_A0A085U8N9 Sulfur carrier protein FdhD n=4 Tax=Yersinia...    92   8e-17
+UniRef90_UPI0009DE6766 sulfurtransferase FdhD n=1 Tax=Massilia s...    92   9e-17
+UniRef90_H2J0F4 Sulfur carrier protein FdhD n=7 Tax=Yersiniaceae...    92   9e-17
+UniRef90_A0A0L0M6X9 Sulfur carrier protein FdhD n=13 Tax=Burkhol...    92   9e-17
+UniRef90_UPI0003723CC4 sulfurtransferase FdhD n=1 Tax=Halomonas ...    92   9e-17
+UniRef90_A0A0Q4M3C3 Sulfur carrier protein FdhD n=2 Tax=Yersinia...    92   9e-17
+UniRef90_E1SK17 Sulfur carrier protein FdhD n=9 Tax=Pantoea TaxI...    92   1e-16
+UniRef90_A0A109YA34 Sulfur carrier protein FdhD n=25 Tax=Enterob...    92   1e-16
+UniRef90_A0A090VXG0 Sulfur carrier protein FdhD n=1 Tax=Escheric...    92   1e-16
+UniRef90_UPI0008E565BE sufurtransferase FdhD n=1 Tax=Enterobacte...    92   1e-16
+UniRef90_UPI00034D090C sulfurtransferase FdhD n=1 Tax=Erwinia to...    92   1e-16
+UniRef90_D4GGH2 Sulfur carrier protein FdhD n=11 Tax=Pantoea Tax...    92   1e-16
+UniRef90_H5V1N4 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...    92   1e-16
+UniRef90_W1J709 Sulfur carrier protein FdhD n=2 Tax=Xenorhabdus ...    92   1e-16
+UniRef90_D2TAT3 Sulfur carrier protein FdhD n=7 Tax=Erwinia TaxI...    91   1e-16
+UniRef90_B3GXN7 Sulfur carrier protein FdhD n=17 Tax=Actinobacil...    91   1e-16
+UniRef90_UPI0005B215C1 sulfurtransferase FdhD n=1 Tax=Aeromonas ...    91   1e-16
+UniRef90_UPI0004A32C09 sulfurtransferase FdhD n=1 Tax=Tatumella ...    91   1e-16
+UniRef90_A0A0A1RKB5 Sulfur carrier protein FdhD n=62 Tax=Enterob...    91   2e-16
+UniRef90_A0A085G4H9 Sulfur carrier protein FdhD n=1 Tax=Ewingell...    91   2e-16
+UniRef90_C9PR65 Sulfur carrier protein FdhD n=1 Tax=Pasteurella ...    91   2e-16
+UniRef90_I3DM46 Sulfur carrier protein FdhD n=3 Tax=Haemophilus ...    91   2e-16
+UniRef90_UPI0005792619 sulfurtransferase FdhD n=1 Tax=Cupriavidu...    91   2e-16
+UniRef90_UPI000948AD07 sulfurtransferase FdhD n=1 Tax=Pantoea sp...    91   2e-16
+UniRef90_A0A0S9N8G2 Sulfur carrier protein FdhD n=1 Tax=Pseudorh...    91   2e-16
+UniRef90_W0SDX5 Sulfur carrier protein FdhD n=1 Tax=Sulfuritalea...    91   2e-16
+UniRef90_F3KRR0 Sulfur carrier protein FdhD n=1 Tax=Hylemonella ...    91   2e-16
+UniRef90_B4F0S5 Sulfur carrier protein FdhD n=8 Tax=Proteus TaxI...    91   2e-16
+UniRef90_A0A060NUE3 Protein FdhD homolog n=1 Tax=Burkholderia sp...    91   2e-16
+UniRef90_A0A0F7LV05 Sulfur carrier protein FdhD n=5 Tax=Photorha...    91   2e-16
+UniRef90_Q65U60 Sulfur carrier protein FdhD n=2 Tax=Basfia TaxID...    91   2e-16
+UniRef90_H3RIQ2 Sulfur carrier protein FdhD n=7 Tax=Pantoea TaxI...    91   2e-16
+UniRef90_R9VMX5 Sulfur carrier protein FdhD n=15 Tax=Enterobacte...    91   2e-16
+UniRef90_U3TZW0 Sulfur carrier protein FdhD n=6 Tax=Enterobacter...    91   2e-16
+UniRef90_A0A0H3DYS3 Sulfur carrier protein FdhD n=7 Tax=Hafniace...    91   2e-16
+UniRef90_A0A0H3FUE4 Sulfur carrier protein FdhD n=22 Tax=Enterob...    91   3e-16
+UniRef90_A0A1S8YMM7 Sulfur carrier protein FdhD n=1 Tax=Izhakiel...    91   3e-16
+UniRef90_A0A132HJB3 Sulfur carrier protein FdhD n=6 Tax=Burkhold...    91   3e-16
+UniRef90_A0A0S9KXX3 Sulfur carrier protein FdhD n=1 Tax=Pseudorh...    91   3e-16
+UniRef90_C7BT46 Sulfur carrier protein FdhD n=4 Tax=Photorhabdus...    91   3e-16
+UniRef90_A0A085JMH3 Sulfur carrier protein FdhD n=1 Tax=Tatumell...    91   3e-16
+UniRef90_O87816 Sulfur carrier protein FdhD n=10 Tax=Burkholderi...    91   3e-16
+UniRef90_Q8Z2U7 Sulfur carrier protein FdhD n=143 Tax=Salmonella...    90   3e-16
+UniRef90_A8AL39 Sulfur carrier protein FdhD n=7 Tax=Enterobacter...    90   3e-16
+UniRef90_A0A0M3F0J3 Sulfur carrier protein FdhD n=2 Tax=Enteroba...    90   3e-16
+UniRef90_A0A0J1CQ83 Sulfur carrier protein FdhD n=10 Tax=Burkhol...    90   3e-16
+UniRef90_D3VG76 Sulfur carrier protein FdhD n=4 Tax=Xenorhabdus ...    90   4e-16
+UniRef90_UPI000B80742F sulfurtransferase FdhD n=1 Tax=Albidifera...    90   4e-16
+UniRef90_A0A1D8MUG8 Sulfur carrier protein FdhD n=4 Tax=Edwardsi...    90   4e-16
+UniRef90_A0A1B7IKK7 Sulfur carrier protein FdhD n=1 Tax=Buttiaux...    90   4e-16
+UniRef90_UPI000B88F132 sulfurtransferase FdhD n=1 Tax=Massilia s...    90   4e-16
+UniRef90_A0A1Y2SJZ6 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...    90   4e-16
+UniRef90_UPI0006691D28 sulfurtransferase FdhD n=1 Tax=Pasteurell...    90   4e-16
+UniRef90_G0EWU3 Sulfur carrier protein FdhD n=6 Tax=Burkholderia...    90   4e-16
+UniRef90_UPI000422DE83 sulfurtransferase FdhD n=1 Tax=Comamonas ...    90   4e-16
+UniRef90_UPI000B538B9D sulfurtransferase FdhD n=1 Tax=Noviherbas...    90   4e-16
+UniRef90_A0A0J5FVS9 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...    90   4e-16
+UniRef90_A0A0F7K4I0 Sulfur carrier protein FdhD n=2 Tax=Sediment...    90   4e-16
+UniRef90_T0QGD2 Sulfur carrier protein FdhD n=1 Tax=Photorhabdus...    90   5e-16
+UniRef90_T2L832 Sulfur carrier protein FdhD n=5 Tax=Halomonadace...    90   5e-16
+UniRef90_A0A1T0AS71 Sulfur carrier protein FdhD n=1 Tax=Haemophi...    90   5e-16
+UniRef90_A0A1B9JZY0 Sulfur carrier protein FdhD n=2 Tax=Gilliame...    90   5e-16
+UniRef90_A0A1A0F2S2 Sulfur carrier protein FdhD n=4 Tax=Halomona...    90   5e-16
+UniRef90_UPI00038294D4 sulfurtransferase FdhD n=1 Tax=Pantoea sp...    90   5e-16
+UniRef90_A0A1C0A1L2 Sulfur carrier protein FdhD n=2 Tax=Gilliame...    90   6e-16
+UniRef90_A0A0M0TBN0 Sulfur carrier protein FdhD n=3 Tax=Xenorhab...    90   6e-16
+UniRef90_UPI0008C26FA5 hypothetical protein n=1 Tax=Rhodospirill...    90   6e-16
+UniRef90_A0A132HJU1 Sulfur carrier protein FdhD n=5 Tax=Burkhold...    90   7e-16
+UniRef90_A0A0F5B5H1 Sulfur carrier protein FdhD n=6 Tax=Salmonel...    90   7e-16
+UniRef90_UPI00077B81D2 sulfurtransferase FdhD n=1 Tax=Enterobact...    90   7e-16
+UniRef90_B2VCF7 Sulfur carrier protein FdhD n=2 Tax=Erwinia TaxI...    90   7e-16
+UniRef90_UPI000686D6B0 sulfurtransferase FdhD n=1 Tax=Marinobact...    90   7e-16
+UniRef90_A0A071LTF5 Sulfur carrier protein FdhD n=2 Tax=Mangrovi...    89   7e-16
+UniRef90_UPI0009535656 sulfurtransferase FdhD n=1 Tax=Massilia p...    89   7e-16
+UniRef90_A0A127K8L6 Sulfur carrier protein FdhD n=2 Tax=Thauera ...    89   7e-16
+UniRef90_A0A089PLZ3 Sulfur carrier protein FdhD n=8 Tax=Pluralib...    89   8e-16
+UniRef90_A9MI95 Sulfur carrier protein FdhD n=25 Tax=Enterobacte...    89   8e-16
+UniRef90_W1H8J0 Formate dehydrogenase chain D n=1 Tax=Escherichi...    89   8e-16
+UniRef90_A0A1N6NUF1 Sulfur carrier protein FdhD n=1 Tax=Aeromona...    89   8e-16
+UniRef90_UPI00089236DB sulfurtransferase FdhD n=1 Tax=Methylophi...    89   8e-16
+UniRef90_UPI00097C2050 sulfurtransferase FdhD n=1 Tax=Variovorax...    89   8e-16
+UniRef90_UPI00088B5E5F sufurtransferase FdhD n=1 Tax=Cupriavidus...    89   9e-16
+UniRef90_A0A0D5AW35 Sulfur carrier protein FdhD n=4 Tax=Ralstoni...    89   9e-16
+UniRef90_A6TG86 Sulfur carrier protein FdhD n=102 Tax=Enterobact...    89   9e-16
+UniRef90_C3X738 Sulfur carrier protein FdhD n=1 Tax=Oxalobacter ...    89   9e-16
+UniRef90_UPI00083477E3 sulfurtransferase FdhD n=1 Tax=Comamonas ...    89   9e-16
+UniRef90_A0A1W1XZK8 Sulfur carrier protein FdhD n=2 Tax=Andrepre...    89   1e-15
+UniRef90_I3DDG5 Sulfur carrier protein FdhD n=3 Tax=Pasteurellac...    89   1e-15
+UniRef90_A0A069P8L8 Sulfur carrier protein FdhD n=1 Tax=Caballer...    89   1e-15
+UniRef90_A0A0B5IEW8 Sulfur carrier protein FdhD n=7 Tax=Enteroba...    89   1e-15
+UniRef90_A0A1J5SKB7 Protein FdhD n=2 Tax=mine drainage metagenom...    89   1e-15
+UniRef90_F5RE01 Sulfur carrier protein FdhD n=3 Tax=Methyloversa...    89   1e-15
+UniRef90_X2GYT6 Sulfur carrier protein FdhD n=11 Tax=Gilliamella...    89   1e-15
+UniRef90_UPI0004648AF0 sulfurtransferase FdhD n=2 Tax=Enterobact...    88   1e-15
+UniRef90_A0A0Q6BMF2 Sulfur carrier protein FdhD n=2 Tax=Methylop...    88   1e-15
+UniRef90_A0A1V2BF12 Sulfur carrier protein FdhD n=2 Tax=Raoultel...    88   1e-15
+UniRef90_A4WGA8 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...    88   1e-15
+UniRef90_A0A069PWG3 Sulfur carrier protein FdhD n=10 Tax=Burkhol...    88   1e-15
+UniRef90_UPI000B5B344A sulfurtransferase FdhD n=1 Tax=Halomonas ...    88   1e-15
+UniRef90_UPI000467EC73 sulfurtransferase FdhD n=3 Tax=Methylophi...    88   1e-15
+UniRef90_A0A1A9FHQ1 Sulfur carrier protein FdhD n=1 Tax=Lelliott...    88   1e-15
+UniRef90_UPI00050D02AD sulfurtransferase FdhD n=2 Tax=Klebsiella...    88   2e-15
+UniRef90_UPI000509B39E sulfurtransferase FdhD n=1 Tax=Arsenophon...    88   2e-15
+UniRef90_A0A016XJ82 Sulfur carrier protein FdhD n=1 Tax=Hylemone...    88   2e-15
+UniRef90_C1D4K4 Sulfur carrier protein FdhD n=3 Tax=Laribacter h...    88   2e-15
+UniRef90_UPI0008E21601 sufurtransferase FdhD n=1 Tax=Paraburkhol...    88   2e-15
+UniRef90_A0A059KK42 Sulfur carrier protein FdhD n=1 Tax=Sphaerot...    88   2e-15
+UniRef90_A0A1W9JF42 Sulfur carrier protein FdhD n=1 Tax=Proteoba...    88   2e-15
+UniRef90_A0A158GYX1 Sulfur carrier protein FdhD n=1 Tax=Caballer...    88   2e-15
+UniRef90_UPI0004916053 sulfurtransferase FdhD n=1 Tax=Sedimentic...    88   2e-15
+UniRef90_A0A1G3HPY8 Sulfur carrier protein FdhD n=1 Tax=Rhodocyc...    88   2e-15
+UniRef90_A0A014P4I7 Sulfur carrier protein FdhD n=2 Tax=Comamona...    88   2e-15
+UniRef90_UPI000375FAF5 sulfurtransferase FdhD n=1 Tax=Methylover...    88   2e-15
+UniRef90_W1J2D4 Sulfur carrier protein FdhD n=1 Tax=Xenorhabdus ...    88   2e-15
+UniRef90_UPI0008E5D8DE sufurtransferase FdhD n=1 Tax=Cupriavidus...    88   2e-15
+UniRef90_UPI0008E8601B sufurtransferase FdhD n=1 Tax=Massilia yu...    88   2e-15
+UniRef90_W0HSM6 Sulfur carrier protein FdhD n=4 Tax=Sodalis TaxI...    88   2e-15
+UniRef90_A0A068QXF8 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...    88   2e-15
+UniRef90_A0A103DYA8 Sulfur carrier protein FdhD n=4 Tax=Burkhold...    88   2e-15
+UniRef90_UPI00046ADFFF sulfurtransferase FdhD n=1 Tax=Ralstonia ...    88   2e-15
+UniRef90_D8IPH3 Sulfur carrier protein FdhD n=10 Tax=Herbaspiril...    88   2e-15
+UniRef90_A0A1R4I4A5 Sulfur carrier protein FdhD n=1 Tax=Halomona...    88   2e-15
+UniRef90_A0A198GYI3 Sulfur carrier protein FdhD n=156 Tax=Bacter...    88   2e-15
+UniRef90_UPI000718ECD4 sulfurtransferase FdhD n=1 Tax=Aquabacter...    88   2e-15
+UniRef90_A0A193GJJ1 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    88   2e-15
+UniRef90_S6HML9 Sulfur carrier protein FdhD n=2 Tax=Bacteria Tax...    88   2e-15
+UniRef90_UPI0008EEE3E9 sufurtransferase FdhD n=1 Tax=Xenorhabdus...    88   2e-15
+UniRef90_A0A1J5S9G0 Protein FdhD n=1 Tax=mine drainage metagenom...    88   2e-15
+UniRef90_UPI0009DEA614 sulfurtransferase FdhD n=1 Tax=Dongia sp....    88   2e-15
+UniRef90_UPI0009FC9CF2 sulfurtransferase FdhD n=1 Tax=Microvirgu...    88   2e-15
+UniRef90_A0A085FYB8 Sulfur carrier protein FdhD n=2 Tax=Massilia...    88   2e-15
+UniRef90_D8VMN2 FdhD formate dehydrogenase family protein n=1 Ta...    88   2e-15
+UniRef90_A0A0C4Y040 Sulfur carrier protein FdhD n=6 Tax=Burkhold...    88   2e-15
+UniRef90_A0A1J5T788 Protein FdhD n=1 Tax=mine drainage metagenom...    88   2e-15
+UniRef90_K7ABE1 Sulfur carrier protein FdhD n=1 Tax=Paraglacieco...    88   2e-15
+UniRef90_A0A0J9DLL1 Sulfur carrier protein FdhD n=1 Tax=Ralstoni...    88   2e-15
+UniRef90_A0A085DUI3 Sulfur carrier protein FdhD n=1 Tax=Halomona...    88   2e-15
+UniRef90_A0A0J8VQS1 Sulfur carrier protein FdhD n=5 Tax=Franconi...    88   3e-15
+UniRef90_A0A084ZQ89 Sulfur carrier protein FdhD n=7 Tax=Enteroba...    88   3e-15
+UniRef90_UPI0009FB4AE7 sulfurtransferase FdhD n=1 Tax=Herbaspiri...    88   3e-15
+UniRef90_UPI00049202C1 sulfurtransferase FdhD n=2 Tax=Methyloten...    87   3e-15
+UniRef90_UPI000B8220F7 sulfurtransferase FdhD n=1 Tax=Izhakiella...    87   3e-15
+UniRef90_C6WYL5 Sulfur carrier protein FdhD n=1 Tax=Methylotener...    87   3e-15
+UniRef90_A0A100HVI4 Sulfur carrier protein FdhD n=3 Tax=Ralstoni...    87   3e-15
+UniRef90_I9KRI0 Sulfur carrier protein FdhD n=1 Tax=Ralstonia sp...    87   3e-15
+UniRef90_Y0KK89 Sulfur carrier protein FdhD n=3 Tax=Methylophila...    87   3e-15
+UniRef90_UPI000363C4BA sulfurtransferase FdhD n=1 Tax=Uliginosib...    87   3e-15
+UniRef90_A0A1N7DPP0 Sulfur carrier protein FdhD n=3 Tax=Enteroba...    87   3e-15
+UniRef90_A0A140IH12 Sulfur carrier protein FdhD n=2 Tax=Enteroba...    87   3e-15
+UniRef90_UPI0003A754C8 sulfurtransferase FdhD n=1 Tax=Burkholder...    87   3e-15
+UniRef90_UPI000887CC61 sufurtransferase FdhD n=1 Tax=Cupriavidus...    87   3e-15
+UniRef90_A0A0Q7EX11 Sulfur carrier protein FdhD n=1 Tax=Massilia...    87   3e-15
+UniRef90_UPI0002D5F78C sulfurtransferase FdhD n=1 Tax=Cupriavidu...    87   3e-15
+UniRef90_A0A072NA25 Sulfur carrier protein FdhD n=2 Tax=Marinoba...    87   3e-15
+UniRef90_A0A0G3S0C8 Sulfur carrier protein FdhD n=25 Tax=Enterob...    87   3e-15
+UniRef90_UPI0007506D41 sulfurtransferase FdhD n=1 Tax=Aquitalea ...    87   3e-15
+UniRef90_E3G5J2 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...    87   3e-15
+UniRef90_UPI0009DE6826 sulfurtransferase FdhD n=1 Tax=Variovorax...    87   3e-15
+UniRef90_A0A1T4RNU5 Sulfur carrier protein FdhD n=1 Tax=Aurantim...    87   3e-15
+UniRef90_A0A0Q6W5I6 Sulfur carrier protein FdhD n=1 Tax=Massilia...    87   3e-15
+UniRef90_F4GQD2 Sulfur carrier protein FdhD n=1 Tax=Pusillimonas...    87   4e-15
+UniRef90_G0AID6 Sulfur carrier protein FdhD n=6 Tax=Collimonas T...    87   4e-15
+UniRef90_A9BUQ3 Sulfur carrier protein FdhD n=17 Tax=Delftia Tax...    87   4e-15
+UniRef90_UPI0007825595 sulfurtransferase FdhD n=1 Tax=Cupriavidu...    87   4e-15
+UniRef90_K9DQB9 Sulfur carrier protein FdhD n=2 Tax=Massilia tim...    87   4e-15
+UniRef90_UPI0009EC5FED sulfurtransferase FdhD n=1 Tax=Rhizobacte...    87   4e-15
+UniRef90_UPI00097C717D sulfurtransferase FdhD n=1 Tax=Variovorax...    87   4e-15
+UniRef90_UPI000B809E12 sulfurtransferase FdhD n=1 Tax=Acidovorax...    87   4e-15
+UniRef90_A0A1F4KH45 Sulfur carrier protein FdhD n=1 Tax=Burkhold...    87   4e-15
+UniRef90_A0A081FZ34 Sulfur carrier protein FdhD n=1 Tax=Marinoba...    87   4e-15
+UniRef90_I5CT29 Sulfur carrier protein FdhD n=5 Tax=Burkholderia...    87   4e-15
+UniRef90_A0A1V0BEM7 Sulfur carrier protein FdhD n=2 Tax=Comamona...    87   4e-15
+UniRef90_D2U393 Sulfur carrier protein FdhD n=1 Tax=Arsenophonus...    87   4e-15
+UniRef90_A0KL55 Sulfur carrier protein FdhD n=41 Tax=Aeromonadac...    87   4e-15
+UniRef90_UPI000366D5B1 sulfurtransferase FdhD n=1 Tax=Dasania ma...    87   4e-15
+UniRef90_A0A1R1MF41 Sulfur carrier protein FdhD n=1 Tax=Motilipr...    87   4e-15
+UniRef90_UPI000417F6FD sulfurtransferase FdhD n=1 Tax=Comamonas ...    87   4e-15
+UniRef90_UPI00051C1070 sulfurtransferase FdhD n=2 Tax=Aeromonada...    87   4e-15
+UniRef90_A0A127PMZ4 Sulfur carrier protein FdhD n=1 Tax=Collimon...    87   4e-15
+UniRef90_A0A175VDX2 Sulfur carrier protein FdhD n=3 Tax=Aeromona...    86   4e-15
+UniRef90_B1XWL1 Sulfur carrier protein FdhD n=1 Tax=Leptothrix c...    86   4e-15
+UniRef90_UPI0004128154 sulfurtransferase FdhD n=1 Tax=Halomonas ...    86   4e-15
+UniRef90_Q62MN2 Sulfur carrier protein FdhD n=49 Tax=Burkholderi...    86   5e-15
+UniRef90_A0A098UF31 Sulfur carrier protein FdhD n=2 Tax=Massilia...    86   5e-15
+UniRef90_A0A066TCB5 Sulfur carrier protein FdhD n=10 Tax=Proteob...    86   5e-15
+UniRef90_A0A1T4JJQ5 Sulfur carrier protein FdhD n=2 Tax=Enhydrob...    86   5e-15
+UniRef90_UPI00041BF0FA sulfurtransferase FdhD n=1 Tax=Marinobact...    86   5e-15
+UniRef90_A0A1F8VIA9 Sulfur carrier protein FdhD n=2 Tax=Curvibac...    86   5e-15
+UniRef90_UPI00048D3637 sulfurtransferase FdhD n=1 Tax=Methylophi...    86   5e-15
+UniRef90_A0A0S1Y447 Sulfur carrier protein FdhD n=1 Tax=Bordetel...    86   5e-15
+UniRef90_A0A142E3H6 Sulfur carrier protein FdhD n=33 Tax=Aeromon...    86   5e-15
+UniRef90_E5ALP8 Sulfur carrier protein FdhD n=2 Tax=Paraburkhold...    86   5e-15
+UniRef90_UPI00082660FF sulfurtransferase FdhD n=1 Tax=Hydrogenop...    86   5e-15
+UniRef90_A0A1V2Z3F0 Sulfur carrier protein FdhD n=3 Tax=Leclerci...    86   5e-15
+UniRef90_A0A0K9JYP4 Sulfur carrier protein FdhD n=1 Tax=Candidat...    86   5e-15
+UniRef90_D7DMN1 Sulfur carrier protein FdhD n=1 Tax=Methylotener...    86   5e-15
+UniRef90_UPI00042213EC sulfurtransferase FdhD n=2 Tax=Rhizobium ...    86   5e-15
+UniRef90_A0A080KH63 Sulfur carrier protein FdhD n=1 Tax=Gilliame...    86   5e-15
+UniRef90_UPI0008261808 sulfurtransferase FdhD n=1 Tax=Methylophi...    86   5e-15
+UniRef90_A0A0A7S7P7 Sulfur carrier protein FdhD n=1 Tax=Frischel...    86   5e-15
+UniRef90_A0A127Q073 Sulfur carrier protein FdhD n=2 Tax=Collimon...    86   5e-15
+UniRef90_A0A0K0SYA4 Sulfur carrier protein FdhD n=2 Tax=Methylop...    86   5e-15
+UniRef90_A0A1B9K0I4 Sulfur carrier protein FdhD n=10 Tax=Orbacea...    86   5e-15
+UniRef90_UPI00040D758D sulfurtransferase FdhD n=1 Tax=Azovibrio ...    86   5e-15
+UniRef90_A0A1E3ZA28 Sulfur carrier protein FdhD n=2 Tax=Burkhold...    86   5e-15
+UniRef90_UPI00034BF199 sulfurtransferase FdhD n=2 Tax=Paraburkho...    86   5e-15
+UniRef90_UPI000B852BF3 sulfurtransferase FdhD n=1 Tax=Burkholder...    86   6e-15
+UniRef90_T0PQ23 Sulfur carrier protein FdhD n=2 Tax=Aeromonas sa...    86   6e-15
+UniRef90_A0A1E7U1K5 Sulfur carrier protein FdhD n=12 Tax=Comamon...    86   6e-15
+UniRef90_A0A0K1JUN7 Sulfur carrier protein FdhD n=1 Tax=Massilia...    86   6e-15
+UniRef90_A0A1M2URQ6 Sulfur carrier protein FdhD n=1 Tax=Marinoba...    86   6e-15
+UniRef90_UPI00088C3A99 sufurtransferase FdhD n=1 Tax=Variovorax ...    86   6e-15
+UniRef90_Q5P0I1 Sulfur carrier protein FdhD n=2 Tax=Rhodocyclale...    86   6e-15
+UniRef90_A0A1C3JYB7 Sulfur carrier protein FdhD n=1 Tax=Orrella ...    86   6e-15
+UniRef90_A4GAJ5 Sulfur carrier protein FdhD n=1 Tax=Herminiimona...    86   6e-15
+UniRef90_UPI0005793078 sulfurtransferase FdhD n=1 Tax=Cupriavidu...    86   6e-15
+
+>UniRef90_A0A0F5EYC0 Sulfur carrier protein FdhD n=3 Tax=Avibacterium paragallinarum
+          TaxID=728 RepID=A0A0F5EYC0_AVIPA
+          Length = 286
+
+ Score =  103 bits (259), Expect = 3e-20,   Method: Composition-based stats.
+ Identities = 21/57 (36%), Positives = 27/57 (47%), Gaps = 1/57 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ-GRISV 56
+          ETP A+  N       M  P DLE+F  GF   +G I+K  +I  I V      I+V
+Sbjct: 37 ETPVALVYNGISHTVMMCSPQDLEDFALGFSLTEGIIEKPADIYGIDVEETCNGIAV 93
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A1V3JK04 Sulfur carrier protein FdhD n=1 Tax=Rodentib...   120   3e-25
+UniRef90_A0A0F5EYC0 Sulfur carrier protein FdhD n=3 Tax=Avibacte...   119   5e-25
+UniRef90_A0A1V4B3I1 Sulfur carrier protein FdhD n=1 Tax=Haemophi...   118   8e-25
+UniRef90_A0A1B3JIJ3 Sulfur carrier protein FdhD n=7 Tax=Pasteure...   118   1e-24
+UniRef90_UPI00082F7BD8 sulfurtransferase FdhD n=1 Tax=Erwinia sp...   117   2e-24
+UniRef90_A0A1V3IYT5 Sulfur carrier protein FdhD n=2 Tax=Rodentib...   117   2e-24
+UniRef90_A0A1V3L9J9 Sulfur carrier protein FdhD n=8 Tax=Rodentib...   117   2e-24
+UniRef90_A0A140NLJ0 Sulfur carrier protein FdhD n=7 Tax=Providen...   117   3e-24
+UniRef90_A6VNS9 Sulfur carrier protein FdhD n=1 Tax=Actinobacill...   116   3e-24
+UniRef90_A0A1B8QP17 Sulfur carrier protein FdhD n=2 Tax=Haemophi...   116   4e-24
+UniRef90_A0A1H4CN01 Sulfur carrier protein FdhD n=9 Tax=Lonsdale...   116   4e-24
+UniRef90_A0A1V3J9I2 Sulfur carrier protein FdhD n=1 Tax=Rodentib...   116   4e-24
+UniRef90_A0A0U6J639 Sulfur carrier protein FdhD n=56 Tax=Gammapr...   116   5e-24
+UniRef90_A0A1A7PUD6 Sulfur carrier protein FdhD n=3 Tax=Gallibac...   116   5e-24
+UniRef90_D8MLN6 Sulfur carrier protein FdhD n=2 Tax=Erwinia bill...   116   6e-24
+UniRef90_C6C6H3 Sulfur carrier protein FdhD n=1 Tax=Dickeya para...   115   7e-24
+UniRef90_A0A095TU74 Sulfur carrier protein FdhD n=2 Tax=Tatumell...   115   8e-24
+UniRef90_UPI000509A15A sulfurtransferase FdhD n=1 Tax=Necropsoba...   115   8e-24
+UniRef90_A0A0A0Z0G1 Sulfur carrier protein FdhD n=6 Tax=Erwiniac...   115   9e-24
+UniRef90_K8W1H8 Sulfur carrier protein FdhD n=1 Tax=Providencia ...   115   9e-24
+UniRef90_UPI0009330144 sulfurtransferase FdhD n=1 Tax=Nissabacte...   115   9e-24
+UniRef90_V3TNH8 Sulfur carrier protein FdhD n=1 Tax=Serratia sp....   115   1e-23
+UniRef90_UPI000A00AEFB sulfurtransferase FdhD n=1 Tax=Serratia f...   115   1e-23
+UniRef90_E0SMJ5 Sulfur carrier protein FdhD n=18 Tax=Pectobacter...   115   1e-23
+UniRef90_F9GM54 Sulfur carrier protein FdhD n=12 Tax=Haemophilus...   114   1e-23
+UniRef90_P44449 Sulfur carrier protein FdhD n=31 Tax=Bacteria Ta...   114   2e-23
+UniRef90_UPI00037654FB sulfurtransferase FdhD n=1 Tax=Enterobact...   114   2e-23
+UniRef90_A0A1V3ITR7 Sulfur carrier protein FdhD n=2 Tax=Rodentib...   114   2e-23
+UniRef90_A0A1V3I8L9 Sulfur carrier protein FdhD n=1 Tax=Rodentib...   114   2e-23
+UniRef90_A0A1A7PUX3 Sulfur carrier protein FdhD n=2 Tax=Gallibac...   114   2e-23
+UniRef90_A0A1D2SB63 Sulfur carrier protein FdhD n=1 Tax=Comamona...   114   2e-23
+UniRef90_A0A0F7HAD6 Sulfur carrier protein FdhD n=3 Tax=Serratia...   114   2e-23
+UniRef90_A8G7V2 Sulfur carrier protein FdhD n=17 Tax=Serratia Ta...   114   2e-23
+UniRef90_A0A1B7JUC0 Sulfur carrier protein FdhD n=9 Tax=Providen...   113   3e-23
+UniRef90_A0A0M2KH35 Sulfur carrier protein FdhD n=1 Tax=Erwinia ...   113   3e-23
+UniRef90_J1GDD0 Sulfur carrier protein FdhD n=10 Tax=cellular or...   113   3e-23
+UniRef90_S3IKE9 Sulfur carrier protein FdhD n=1 Tax=Cedecea davi...   113   3e-23
+UniRef90_K8WVG1 Sulfur carrier protein FdhD n=1 Tax=Providencia ...   113   3e-23
+UniRef90_UPI0005099F3E sulfurtransferase FdhD n=2 Tax=Pasteurell...   113   3e-23
+UniRef90_A0A1N6MRK1 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...   113   3e-23
+UniRef90_W0LD51 Sulfur carrier protein FdhD n=7 Tax=Yersiniaceae...   113   3e-23
+UniRef90_A0A1W6B3W4 Sulfur carrier protein FdhD n=1 Tax=Pantoea ...   113   3e-23
+UniRef90_A1JT32 Sulfur carrier protein FdhD n=87 Tax=Yersiniacea...   113   3e-23
+UniRef90_A0A1V3KAP8 Sulfur carrier protein FdhD n=2 Tax=Rodentib...   113   3e-23
+UniRef90_A0A0G4JTM5 Sulfur carrier protein FdhD n=1 Tax=Brenneri...   113   3e-23
+UniRef90_A0A0A4ABB2 Sulfur carrier protein FdhD n=1 Tax=Erwinia ...   113   3e-23
+UniRef90_UPI00039A12E7 sulfurtransferase FdhD n=1 Tax=Dickeya Ta...   113   4e-23
+UniRef90_A0A0A1B3Z7 Sulfur carrier protein FdhD n=3 Tax=Pantoea ...   113   4e-23
+UniRef90_A0A1X1DDI8 Sulfur carrier protein FdhD n=1 Tax=Pantoea ...   113   5e-23
+UniRef90_A0A1T0AXI7 Sulfur carrier protein FdhD n=1 Tax=[Haemoph...   113   5e-23
+UniRef90_S2L7K0 Sulfur carrier protein FdhD n=1 Tax=Halomonas an...   113   5e-23
+UniRef90_UPI0003647827 sulfurtransferase FdhD n=1 Tax=Marinobact...   113   5e-23
+UniRef90_D1P7E5 Sulfur carrier protein FdhD n=8 Tax=Providencia ...   113   5e-23
+UniRef90_G7LTJ3 Sulfur carrier protein FdhD n=2 Tax=Brenneria sp...   113   5e-23
+UniRef90_A0A1B7I0U4 Sulfur carrier protein FdhD n=5 Tax=Buttiaux...   113   5e-23
+UniRef90_L0MID9 Sulfur carrier protein FdhD n=5 Tax=Serratia Tax...   113   5e-23
+UniRef90_A0A0J9B477 Sulfur carrier protein FdhD n=1 Tax=bacteria...   113   5e-23
+UniRef90_UPI00046A4A3E sulfurtransferase FdhD n=1 Tax=Pantoea sp...   113   6e-23
+UniRef90_F4HDG1 Sulfur carrier protein FdhD n=15 Tax=Gallibacter...   112   6e-23
+UniRef90_C9R5K5 Sulfur carrier protein FdhD n=14 Tax=Aggregatiba...   112   6e-23
+UniRef90_UPI000931D7BD sulfurtransferase FdhD n=1 Tax=Erwinia pe...   112   6e-23
+UniRef90_A0A0U3VJ18 Sulfur carrier protein FdhD n=12 Tax=Enterob...   112   6e-23
+UniRef90_A0A1H5ZL70 Sulfur carrier protein FdhD n=3 Tax=Halomona...   112   6e-23
+UniRef90_UPI0009E4D456 sulfurtransferase FdhD n=1 Tax=Rouxiella ...   112   6e-23
+UniRef90_D2C0M1 Sulfur carrier protein FdhD n=5 Tax=Dickeya zeae...   112   7e-23
+UniRef90_Q32A65 Sulfur carrier protein FdhD n=420 Tax=root TaxID...   112   7e-23
+UniRef90_A0A0A3AP99 Sulfur carrier protein FdhD n=2 Tax=Chelonob...   112   7e-23
+UniRef90_A0A0K1N540 Sulfur carrier protein FdhD n=5 Tax=Aggregat...   112   8e-23
+UniRef90_V5AEG1 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...   112   8e-23
+UniRef90_A0A1K3LE29 Sulfur carrier protein FdhD n=12 Tax=Bacteri...   112   8e-23
+UniRef90_A0A0Q4MMK6 Sulfur carrier protein FdhD n=2 Tax=Erwinia ...   112   8e-23
+UniRef90_A0A0U5L6V5 Sulfur carrier protein FdhD n=1 Tax=Erwinia ...   112   8e-23
+UniRef90_B1JH20 Sulfur carrier protein FdhD n=25 Tax=Yersinia Ta...   112   8e-23
+UniRef90_E6KY28 Sulfur carrier protein FdhD n=2 Tax=Aggregatibac...   112   8e-23
+UniRef90_A0A0F6TXV7 Sulfur carrier protein FdhD n=13 Tax=Gammapr...   112   9e-23
+UniRef90_A0A1B8P4Z6 Sulfur carrier protein FdhD n=2 Tax=Halomona...   112   9e-23
+UniRef90_F9QAY4 Sulfur carrier protein FdhD n=1 Tax=Haemophilus ...   112   9e-23
+UniRef90_E1W529 Sulfur carrier protein FdhD n=22 Tax=Pasteurella...   111   1e-22
+UniRef90_A0A1Y2S9I8 Sulfur carrier protein FdhD n=2 Tax=Xenorhab...   111   1e-22
+UniRef90_W1J709 Sulfur carrier protein FdhD n=2 Tax=Xenorhabdus ...   111   1e-22
+UniRef90_UPI000907A1E0 sulfurtransferase FdhD n=2 Tax=Erwinia Ta...   111   1e-22
+UniRef90_A0A068Z8J4 Sulfur carrier protein FdhD n=1 Tax=Serratia...   111   1e-22
+UniRef90_A0A0J1DA24 Sulfur carrier protein FdhD n=1 Tax=Massilia...   111   1e-22
+UniRef90_J3C6V7 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...   111   1e-22
+UniRef90_A0A1B7JAP1 Sulfur carrier protein FdhD n=20 Tax=Enterob...   111   1e-22
+UniRef90_C3XD23 Sulfur carrier protein FdhD n=2 Tax=Oxalobacter ...   111   1e-22
+UniRef90_A0A068R8T5 Sulfur carrier protein FdhD n=2 Tax=Xenorhab...   111   1e-22
+UniRef90_P57842 Sulfur carrier protein FdhD n=19 Tax=Pasteurella...   111   1e-22
+UniRef90_A0A0L7T7Z6 Sulfur carrier protein FdhD n=1 Tax=Erwinia ...   111   1e-22
+UniRef90_J4KDG7 Sulfur carrier protein FdhD n=1 Tax=Haemophilus ...   111   1e-22
+UniRef90_J2KNB7 Sulfur carrier protein FdhD n=3 Tax=Enterobacter...   111   2e-22
+UniRef90_D4DZR2 Sulfur carrier protein FdhD n=1 Tax=Serratia odo...   111   2e-22
+UniRef90_H5V1N4 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...   111   2e-22
+UniRef90_I2B3V2 Sulfur carrier protein FdhD n=2 Tax=Shimwellia b...   111   2e-22
+UniRef90_UPI0005C76695 sulfurtransferase FdhD n=1 Tax=Enterobact...   111   2e-22
+UniRef90_A0A1D7P9E3 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...   111   2e-22
+UniRef90_UPI00088FB3E3 sufurtransferase FdhD n=1 Tax=Halomonas m...   111   2e-22
+UniRef90_E6WI26 Sulfur carrier protein FdhD n=4 Tax=Pantoea TaxI...   111   2e-22
+UniRef90_A0A1X0WC26 Sulfur carrier protein FdhD n=2 Tax=Gammapro...   110   2e-22
+UniRef90_A0A0J8YWZ5 Sulfur carrier protein FdhD n=1 Tax=bacteria...   110   2e-22
+UniRef90_A0A0Q6SHX8 Sulfur carrier protein FdhD n=1 Tax=Massilia...   110   2e-22
+UniRef90_R8ARM7 Sulfur carrier protein FdhD n=4 Tax=Plesiomonas ...   110   2e-22
+UniRef90_Q6DB09 Sulfur carrier protein FdhD n=29 Tax=Pectobacter...   110   2e-22
+UniRef90_A0A0G3QER4 Sulfur carrier protein FdhD n=5 Tax=Enteroba...   110   2e-22
+UniRef90_B3GXN7 Sulfur carrier protein FdhD n=17 Tax=Actinobacil...   110   3e-22
+UniRef90_A0A085U8N9 Sulfur carrier protein FdhD n=4 Tax=Yersinia...   110   3e-22
+UniRef90_C9PR65 Sulfur carrier protein FdhD n=1 Tax=Pasteurella ...   110   3e-22
+UniRef90_E1SK17 Sulfur carrier protein FdhD n=9 Tax=Pantoea TaxI...   110   3e-22
+UniRef90_A0A0H3FUE4 Sulfur carrier protein FdhD n=22 Tax=Enterob...   110   3e-22
+UniRef90_Q65U60 Sulfur carrier protein FdhD n=2 Tax=Basfia TaxID...   110   3e-22
+UniRef90_A0A109YA34 Sulfur carrier protein FdhD n=25 Tax=Enterob...   110   3e-22
+UniRef90_S6HHU2 Sulfur carrier protein FdhD n=1 Tax=Osedax symbi...   110   4e-22
+UniRef90_UPI0008E565BE sufurtransferase FdhD n=1 Tax=Enterobacte...   110   4e-22
+UniRef90_Q8Z2U7 Sulfur carrier protein FdhD n=143 Tax=Salmonella...   109   4e-22
+UniRef90_A0A0N0IBX5 Sulfur carrier protein FdhD n=2 Tax=Moellere...   109   4e-22
+UniRef90_A0A1B8HLN5 Sulfur carrier protein FdhD n=2 Tax=Morganel...   109   4e-22
+UniRef90_UPI000417991F sulfurtransferase FdhD n=1 Tax=Budvicia a...   109   4e-22
+UniRef90_D2TUA1 Sulfur carrier protein FdhD n=4 Tax=Citrobacter ...   109   4e-22
+UniRef90_UPI0009E97E93 sulfurtransferase FdhD n=1 Tax=Erwinia te...   109   4e-22
+UniRef90_A0A0E3ZSU0 Sulfur carrier protein FdhD n=1 Tax=Pasteure...   109   5e-22
+UniRef90_A0A090VXG0 Sulfur carrier protein FdhD n=1 Tax=Escheric...   109   5e-22
+UniRef90_UPI00068E2A34 sulfurtransferase FdhD n=1 Tax=Enterobact...   109   5e-22
+UniRef90_A0A1B7K8E8 Sulfur carrier protein FdhD n=9 Tax=Enteroba...   109   5e-22
+UniRef90_U1S8N9 Sulfur carrier protein FdhD n=1 Tax=Aggregatibac...   109   5e-22
+UniRef90_A0A0A1RKB5 Sulfur carrier protein FdhD n=62 Tax=Enterob...   109   6e-22
+UniRef90_H2J0F4 Sulfur carrier protein FdhD n=7 Tax=Yersiniaceae...   109   6e-22
+UniRef90_I0QWE1 Sulfur carrier protein FdhD n=1 Tax=Serratia sp....   109   6e-22
+UniRef90_UPI00034D090C sulfurtransferase FdhD n=1 Tax=Erwinia to...   109   6e-22
+UniRef90_D3VG76 Sulfur carrier protein FdhD n=4 Tax=Xenorhabdus ...   109   6e-22
+UniRef90_W0SDX5 Sulfur carrier protein FdhD n=1 Tax=Sulfuritalea...   109   6e-22
+UniRef90_A0A085G4H9 Sulfur carrier protein FdhD n=1 Tax=Ewingell...   109   7e-22
+UniRef90_Q7MY11 Sulfur carrier protein FdhD n=9 Tax=Photorhabdus...   109   8e-22
+UniRef90_A0A198FX96 Sulfur carrier protein FdhD n=11 Tax=Enterob...   108   8e-22
+UniRef90_R9VMX5 Sulfur carrier protein FdhD n=15 Tax=Enterobacte...   108   9e-22
+UniRef90_UPI0004648AF0 sulfurtransferase FdhD n=2 Tax=Enterobact...   108   9e-22
+UniRef90_UPI00077B81D2 sulfurtransferase FdhD n=1 Tax=Enterobact...   108   1e-21
+UniRef90_A0A098RCZ8 Sulfur carrier protein FdhD n=3 Tax=Halomona...   108   1e-21
+UniRef90_I3DM46 Sulfur carrier protein FdhD n=3 Tax=Haemophilus ...   108   1e-21
+UniRef90_D2TAT3 Sulfur carrier protein FdhD n=7 Tax=Erwinia TaxI...   108   1e-21
+UniRef90_D4GGH2 Sulfur carrier protein FdhD n=11 Tax=Pantoea Tax...   108   1e-21
+UniRef90_UPI0008E7280F sufurtransferase FdhD n=1 Tax=Xenorhabdus...   108   1e-21
+UniRef90_A0A0J5FVS9 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...   108   1e-21
+UniRef90_A0A1Y2SJZ6 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...   108   1e-21
+UniRef90_UPI0008804C03 sufurtransferase FdhD n=1 Tax=Halomonas t...   108   1e-21
+UniRef90_A0A0Q4M3C3 Sulfur carrier protein FdhD n=2 Tax=Yersinia...   108   1e-21
+UniRef90_UPI000A0214C2 sulfurtransferase FdhD n=1 Tax=Xylophilus...   108   1e-21
+UniRef90_C6WYL5 Sulfur carrier protein FdhD n=1 Tax=Methylotener...   108   1e-21
+UniRef90_UPI0004A32C09 sulfurtransferase FdhD n=1 Tax=Tatumella ...   108   1e-21
+UniRef90_A0A0M3F0J3 Sulfur carrier protein FdhD n=2 Tax=Enteroba...   108   1e-21
+UniRef90_A0A0L0ASE3 Sulfur carrier protein FdhD n=1 Tax=Klebsiel...   108   1e-21
+UniRef90_U3TZW0 Sulfur carrier protein FdhD n=6 Tax=Enterobacter...   108   1e-21
+UniRef90_A0A0F7LV05 Sulfur carrier protein FdhD n=5 Tax=Photorha...   108   1e-21
+UniRef90_A0A0M0TBN0 Sulfur carrier protein FdhD n=3 Tax=Xenorhab...   108   1e-21
+UniRef90_A8AL39 Sulfur carrier protein FdhD n=7 Tax=Enterobacter...   108   1e-21
+UniRef90_M9X956 Sulfur carrier protein FdhD n=6 Tax=Mannheimia h...   108   1e-21
+UniRef90_A0A1J5S9G0 Protein FdhD n=1 Tax=mine drainage metagenom...   108   1e-21
+UniRef90_A0A1T0AS71 Sulfur carrier protein FdhD n=1 Tax=Haemophi...   108   2e-21
+UniRef90_A0A1B7IKK7 Sulfur carrier protein FdhD n=1 Tax=Buttiaux...   108   2e-21
+UniRef90_UPI0008BDDA37 sufurtransferase FdhD n=1 Tax=Amphritea a...   108   2e-21
+UniRef90_A0A1B9JZY0 Sulfur carrier protein FdhD n=2 Tax=Gilliame...   107   2e-21
+UniRef90_I3DDG5 Sulfur carrier protein FdhD n=3 Tax=Pasteurellac...   107   2e-21
+UniRef90_A0A1M3BS76 Sulfur carrier protein FdhD n=2 Tax=Burkhold...   107   2e-21
+UniRef90_C7BT46 Sulfur carrier protein FdhD n=4 Tax=Photorhabdus...   107   2e-21
+UniRef90_A0A0F5B5H1 Sulfur carrier protein FdhD n=6 Tax=Salmonel...   107   2e-21
+UniRef90_D7DMN1 Sulfur carrier protein FdhD n=1 Tax=Methylotener...   107   2e-21
+UniRef90_UPI0005B215C1 sulfurtransferase FdhD n=1 Tax=Aeromonas ...   107   2e-21
+UniRef90_A0A089PLZ3 Sulfur carrier protein FdhD n=8 Tax=Pluralib...   107   2e-21
+UniRef90_UPI00088B9058 sufurtransferase FdhD n=1 Tax=Cupriavidus...   107   2e-21
+UniRef90_A0A071LTF5 Sulfur carrier protein FdhD n=2 Tax=Mangrovi...   107   2e-21
+UniRef90_A0A0J6NMN4 Sulfur carrier protein FdhD n=7 Tax=Chromoba...   107   2e-21
+UniRef90_UPI0006691D28 sulfurtransferase FdhD n=1 Tax=Pasteurell...   107   2e-21
+UniRef90_A9MI95 Sulfur carrier protein FdhD n=25 Tax=Enterobacte...   107   2e-21
+UniRef90_UPI00049202C1 sulfurtransferase FdhD n=2 Tax=Methyloten...   107   2e-21
+UniRef90_A0A1C0A1L2 Sulfur carrier protein FdhD n=2 Tax=Gilliame...   107   2e-21
+UniRef90_UPI0008CD9A8B sufurtransferase FdhD n=1 Tax=Rosenbergie...   107   2e-21
+UniRef90_W1H8J0 Formate dehydrogenase chain D n=1 Tax=Escherichi...   107   3e-21
+UniRef90_UPI0003723CC4 sulfurtransferase FdhD n=1 Tax=Halomonas ...   107   3e-21
+UniRef90_UPI0008EEE3E9 sufurtransferase FdhD n=1 Tax=Xenorhabdus...   107   3e-21
+UniRef90_UPI000A044997 sulfurtransferase FdhD n=2 Tax=Marinobact...   107   3e-21
+UniRef90_A0A0G3CNN4 Sulfur carrier protein FdhD n=3 Tax=Pragia f...   107   3e-21
+UniRef90_H3RIQ2 Sulfur carrier protein FdhD n=7 Tax=Pantoea TaxI...   107   3e-21
+UniRef90_A0A1M6Y101 Sulfur carrier protein FdhD n=3 Tax=Halomona...   106   3e-21
+UniRef90_B4F0S5 Sulfur carrier protein FdhD n=8 Tax=Proteus TaxI...   106   3e-21
+UniRef90_A0A084ZQ89 Sulfur carrier protein FdhD n=7 Tax=Enteroba...   106   3e-21
+UniRef90_UPI0008C26FA5 hypothetical protein n=1 Tax=Rhodospirill...   106   4e-21
+UniRef90_A0A0D6EX58 Sulfur carrier protein FdhD n=1 Tax=Candidat...   106   4e-21
+UniRef90_A0A085JMH3 Sulfur carrier protein FdhD n=1 Tax=Tatumell...   106   4e-21
+UniRef90_UPI0008255849 sulfurtransferase FdhD n=1 Tax=Hydrogenop...   106   4e-21
+UniRef90_A0A1B9K0I4 Sulfur carrier protein FdhD n=10 Tax=Orbacea...   106   4e-21
+UniRef90_W0QA31 Sulfur carrier protein FdhD n=6 Tax=Mannheimia T...   106   4e-21
+UniRef90_A0A198GYI3 Sulfur carrier protein FdhD n=156 Tax=Bacter...   106   4e-21
+UniRef90_A0A1W1UE96 Sulfur carrier protein FdhD n=1 Tax=Pasteure...   106   4e-21
+UniRef90_UPI0004B317BB sulfurtransferase FdhD n=1 Tax=Bordetella...   106   4e-21
+UniRef90_A0A0H3DYS3 Sulfur carrier protein FdhD n=7 Tax=Hafniace...   106   5e-21
+UniRef90_UPI0009DE6766 sulfurtransferase FdhD n=1 Tax=Massilia s...   106   5e-21
+UniRef90_UPI000B88F132 sulfurtransferase FdhD n=1 Tax=Massilia s...   106   5e-21
+UniRef90_A0A132HJB3 Sulfur carrier protein FdhD n=6 Tax=Burkhold...   106   5e-21
+UniRef90_A0A0J8VQS1 Sulfur carrier protein FdhD n=5 Tax=Franconi...   106   5e-21
+UniRef90_Y0KK89 Sulfur carrier protein FdhD n=3 Tax=Methylophila...   106   5e-21
+UniRef90_B2VCF7 Sulfur carrier protein FdhD n=2 Tax=Erwinia TaxI...   106   5e-21
+UniRef90_UPI00038294D4 sulfurtransferase FdhD n=1 Tax=Pantoea sp...   106   6e-21
+UniRef90_A0A127K8L6 Sulfur carrier protein FdhD n=2 Tax=Thauera ...   106   6e-21
+UniRef90_X2GYT6 Sulfur carrier protein FdhD n=11 Tax=Gilliamella...   106   6e-21
+UniRef90_A0A0G3S0C8 Sulfur carrier protein FdhD n=25 Tax=Enterob...   106   6e-21
+UniRef90_A0A1J4QCQ5 Sulfur carrier protein FdhD n=1 Tax=Oceanisp...   106   6e-21
+UniRef90_UPI000948AD07 sulfurtransferase FdhD n=1 Tax=Pantoea sp...   106   6e-21
+UniRef90_F3KRR0 Sulfur carrier protein FdhD n=1 Tax=Hylemonella ...   106   7e-21
+UniRef90_A0A068QXF8 Sulfur carrier protein FdhD n=1 Tax=Xenorhab...   106   7e-21
+UniRef90_W1J2D4 Sulfur carrier protein FdhD n=1 Tax=Xenorhabdus ...   105   7e-21
+UniRef90_A6TG86 Sulfur carrier protein FdhD n=102 Tax=Enterobact...   105   7e-21
+UniRef90_UPI00082FD765 sulfurtransferase FdhD n=2 Tax=Burkholder...   105   7e-21
+UniRef90_UPI000930CD93 sulfurtransferase FdhD n=1 Tax=Hyphomicro...   105   7e-21
+UniRef90_A0A0B5IEW8 Sulfur carrier protein FdhD n=7 Tax=Enteroba...   105   7e-21
+UniRef90_K7ABE1 Sulfur carrier protein FdhD n=1 Tax=Paraglacieco...   105   7e-21
+UniRef90_UPI0003809420 sulfurtransferase FdhD n=1 Tax=Amphritea ...   105   8e-21
+UniRef90_UPI0005792619 sulfurtransferase FdhD n=1 Tax=Cupriavidu...   105   8e-21
+UniRef90_A0A1S8YMM7 Sulfur carrier protein FdhD n=1 Tax=Izhakiel...   105   8e-21
+UniRef90_A0A080KH63 Sulfur carrier protein FdhD n=1 Tax=Gilliame...   105   8e-21
+UniRef90_UPI00041BF0FA sulfurtransferase FdhD n=1 Tax=Marinobact...   105   8e-21
+UniRef90_A0A1V2BF12 Sulfur carrier protein FdhD n=2 Tax=Raoultel...   105   8e-21
+UniRef90_UPI00050D02AD sulfurtransferase FdhD n=2 Tax=Klebsiella...   105   9e-21
+UniRef90_A0A1D8MUG8 Sulfur carrier protein FdhD n=4 Tax=Edwardsi...   105   9e-21
+UniRef90_A0A100HVI4 Sulfur carrier protein FdhD n=3 Tax=Ralstoni...   105   1e-20
+UniRef90_C3X738 Sulfur carrier protein FdhD n=1 Tax=Oxalobacter ...   105   1e-20
+UniRef90_A0A1N7DPP0 Sulfur carrier protein FdhD n=3 Tax=Enteroba...   105   1e-20
+UniRef90_UPI000B8220F7 sulfurtransferase FdhD n=1 Tax=Izhakiella...   105   1e-20
+UniRef90_UPI0009DE55BE sulfurtransferase FdhD n=1 Tax=Methyloten...   105   1e-20
+UniRef90_A9I097 Sulfur carrier protein FdhD n=1 Tax=Bordetella p...   105   1e-20
+UniRef90_A0A1G3HPY8 Sulfur carrier protein FdhD n=1 Tax=Rhodocyc...   105   1e-20
+UniRef90_A0A1H6C1G5 Sulfur carrier protein FdhD n=1 Tax=Marinoba...   105   1e-20
+UniRef90_UPI0008261808 sulfurtransferase FdhD n=1 Tax=Methylophi...   104   1e-20
+UniRef90_A0A1W9JF42 Sulfur carrier protein FdhD n=1 Tax=Proteoba...   104   1e-20
+UniRef90_UPI000B538B9D sulfurtransferase FdhD n=1 Tax=Noviherbas...   104   1e-20
+UniRef90_A0A1V2Z3F0 Sulfur carrier protein FdhD n=3 Tax=Leclerci...   104   1e-20
+UniRef90_UPI000B80742F sulfurtransferase FdhD n=1 Tax=Albidifera...   104   1e-20
+UniRef90_T0QGD2 Sulfur carrier protein FdhD n=1 Tax=Photorhabdus...   104   1e-20
+UniRef90_A0A1J5SKB7 Protein FdhD n=2 Tax=mine drainage metagenom...   104   1e-20
+UniRef90_UPI00047A0422 sulfurtransferase FdhD n=1 Tax=Bordetella...   104   1e-20
+UniRef90_A0A0J9DLL1 Sulfur carrier protein FdhD n=1 Tax=Ralstoni...   104   1e-20
+UniRef90_A0A0J6KGY3 Sulfur carrier protein FdhD n=1 Tax=Chromoba...   104   1e-20
+UniRef90_A7ML56 Sulfur carrier protein FdhD n=24 Tax=Enterobacte...   104   2e-20
+UniRef90_A4WGA8 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...   104   2e-20
+UniRef90_A0A1G1B763 Sulfur carrier protein FdhD n=1 Tax=Methylot...   104   2e-20
+UniRef90_A0A081FZ34 Sulfur carrier protein FdhD n=1 Tax=Marinoba...   104   2e-20
+UniRef90_H0Q5A0 Sulfur carrier protein FdhD n=1 Tax=Azoarcus sp....   104   2e-20
+UniRef90_UPI00036C3B0D sulfurtransferase FdhD n=1 Tax=Hahella ga...   104   2e-20
+UniRef90_A0A1B9KTW4 Sulfur carrier protein FdhD n=2 Tax=Gilliame...   104   2e-20
+UniRef90_A0A0F9U0K0 Uncharacterized protein n=1 Tax=marine sedim...   104   2e-20
+UniRef90_A0A1A9T5Q1 Sulfur carrier protein FdhD n=1 Tax=Methylov...   104   2e-20
+UniRef90_A0A0D5AW35 Sulfur carrier protein FdhD n=4 Tax=Ralstoni...   104   2e-20
+UniRef90_R7IKW0 Sulfur carrier protein FdhD n=2 Tax=Sutterellace...   104   2e-20
+UniRef90_UPI000B5B344A sulfurtransferase FdhD n=1 Tax=Halomonas ...   104   2e-20
+UniRef90_UPI0002ED7D63 sulfurtransferase FdhD n=1 Tax=Cupriavidu...   104   2e-20
+UniRef90_A0A0Q6BMF2 Sulfur carrier protein FdhD n=2 Tax=Methylop...   104   2e-20
+UniRef90_A0A1A9FHQ1 Sulfur carrier protein FdhD n=1 Tax=Lelliott...   104   2e-20
+UniRef90_UPI000366D5B1 sulfurtransferase FdhD n=1 Tax=Dasania ma...   104   2e-20
+UniRef90_A0A1I7JS52 Sulfur carrier protein FdhD n=3 Tax=Burkhold...   104   2e-20
+UniRef90_A0A1A0F2S2 Sulfur carrier protein FdhD n=4 Tax=Halomona...   104   2e-20
+UniRef90_UPI0007506D41 sulfurtransferase FdhD n=1 Tax=Aquitalea ...   104   2e-20
+UniRef90_A0A0S2SGI3 Sulfur carrier protein FdhD n=1 Tax=Aeromona...   104   3e-20
+UniRef90_UPI00082660FF sulfurtransferase FdhD n=1 Tax=Hydrogenop...   103   3e-20
+UniRef90_A0A085HE45 Sulfur carrier protein FdhD n=1 Tax=Leminore...   103   3e-20
+UniRef90_A0A1N6NUF1 Sulfur carrier protein FdhD n=1 Tax=Aeromona...   103   3e-20
+UniRef90_UPI00097C717D sulfurtransferase FdhD n=1 Tax=Variovorax...   103   3e-20
+UniRef90_A0A0L0M6X9 Sulfur carrier protein FdhD n=13 Tax=Burkhol...   103   3e-20
+UniRef90_A0A0Q7EX11 Sulfur carrier protein FdhD n=1 Tax=Massilia...   103   3e-20
+UniRef90_A0A066TCB5 Sulfur carrier protein FdhD n=10 Tax=Proteob...   103   3e-20
+UniRef90_UPI00040D758D sulfurtransferase FdhD n=1 Tax=Azovibrio ...   103   3e-20
+UniRef90_UPI0008E2D53B sufurtransferase FdhD n=1 Tax=Cupriavidus...   103   3e-20
+UniRef90_A0A0S9N8G2 Sulfur carrier protein FdhD n=1 Tax=Pseudorh...   103   3e-20
+UniRef90_A0A1N7NG87 Sulfur carrier protein FdhD n=2 Tax=Neptunom...   103   3e-20
+UniRef90_M7CNG9 Sulfur carrier protein FdhD n=1 Tax=Marinobacter...   103   3e-20
+UniRef90_D3V776 Sulfur carrier protein FdhD n=13 Tax=Xenorhabdus...   103   3e-20
+UniRef90_O87816 Sulfur carrier protein FdhD n=10 Tax=Burkholderi...   103   4e-20
+UniRef90_UPI000509B39E sulfurtransferase FdhD n=1 Tax=Arsenophon...   103   4e-20
+UniRef90_J3CAZ7 Sulfur carrier protein FdhD n=2 Tax=Herbaspirill...   103   4e-20
+UniRef90_A0A132HJU1 Sulfur carrier protein FdhD n=5 Tax=Burkhold...   103   4e-20
+UniRef90_G0AID6 Sulfur carrier protein FdhD n=6 Tax=Collimonas T...   103   4e-20
+UniRef90_A0A1W1XZK8 Sulfur carrier protein FdhD n=2 Tax=Andrepre...   103   4e-20
+UniRef90_A0A1J5T788 Protein FdhD n=1 Tax=mine drainage metagenom...   103   4e-20
+UniRef90_UPI000931F294 sulfurtransferase FdhD n=1 Tax=Hyphomicro...   103   4e-20
+UniRef90_A0A140IH12 Sulfur carrier protein FdhD n=2 Tax=Enteroba...   103   4e-20
+UniRef90_UPI000690C687 sulfurtransferase FdhD n=1 Tax=Andreprevo...   103   4e-20
+UniRef90_UPI0009A17EFA sulfurtransferase FdhD n=2 Tax=Herbaspiri...   103   4e-20
+UniRef90_UPI00058F1E67 sulfurtransferase FdhD n=1 Tax=Ideonella ...   103   4e-20
+UniRef90_C1D4K4 Sulfur carrier protein FdhD n=3 Tax=Laribacter h...   103   4e-20
+UniRef90_UPI000AFB38A7 sulfurtransferase FdhD n=1 Tax=Methylobac...   103   4e-20
+UniRef90_A0A1E3VDW6 Sulfur carrier protein FdhD n=4 Tax=Ensifer ...   103   4e-20
+UniRef90_G0EWU3 Sulfur carrier protein FdhD n=6 Tax=Burkholderia...   103   4e-20
+UniRef90_F5RE01 Sulfur carrier protein FdhD n=3 Tax=Methyloversa...   103   4e-20
+UniRef90_E3G5J2 Sulfur carrier protein FdhD n=2 Tax=Enterobacter...   103   4e-20
+UniRef90_A0A0K2BG84 Sulfur carrier protein FdhD n=4 Tax=Herbaspi...   103   5e-20
+UniRef90_A0A0A7S7P7 Sulfur carrier protein FdhD n=1 Tax=Frischel...   103   5e-20
+UniRef90_W0HSM6 Sulfur carrier protein FdhD n=4 Tax=Sodalis TaxI...   103   5e-20
+UniRef90_UPI000422DE83 sulfurtransferase FdhD n=1 Tax=Comamonas ...   103   5e-20
+UniRef90_A0A0Q6W5I6 Sulfur carrier protein FdhD n=1 Tax=Massilia...   103   5e-20
+UniRef90_UPI0002D5F78C sulfurtransferase FdhD n=1 Tax=Cupriavidu...   103   5e-20
+UniRef90_UPI000467EC73 sulfurtransferase FdhD n=3 Tax=Methylophi...   103   6e-20
+UniRef90_A0A060NUE3 Protein FdhD homolog n=1 Tax=Burkholderia sp...   102   6e-20
+UniRef90_UPI000B8C0616 sulfurtransferase FdhD n=1 Tax=Zobellella...   102   6e-20
+UniRef90_UPI0009FC9CF2 sulfurtransferase FdhD n=1 Tax=Microvirgu...   102   6e-20
+UniRef90_E7RZM4 Sulfur carrier protein FdhD n=1 Tax=Lautropia mi...   102   6e-20
+UniRef90_UPI0009EC5FED sulfurtransferase FdhD n=1 Tax=Rhizobacte...   102   7e-20
+UniRef90_A0A127Q073 Sulfur carrier protein FdhD n=2 Tax=Collimon...   102   7e-20
+UniRef90_UPI0003705F76 sulfurtransferase FdhD n=1 Tax=Hyphomicro...   102   7e-20
+UniRef90_UPI00059059B0 sulfurtransferase FdhD n=1 Tax=Melaminivo...   102   7e-20
+UniRef90_A0A0J5P3A5 Sulfur carrier protein FdhD n=1 Tax=Muribact...   102   7e-20
+UniRef90_UPI000375FAF5 sulfurtransferase FdhD n=1 Tax=Methylover...   102   7e-20
+UniRef90_A0A0S9KXX3 Sulfur carrier protein FdhD n=1 Tax=Pseudorh...   102   7e-20
+UniRef90_UPI0009DEA614 sulfurtransferase FdhD n=1 Tax=Dongia sp....   102   7e-20
+UniRef90_A0A0A1VHU6 Sulfur carrier protein FdhD n=1 Tax=Acidovor...   102   8e-20
+UniRef90_UPI0003FB349B sulfurtransferase FdhD n=1 Tax=Ottowia th...   102   8e-20
+UniRef90_A0A127PMZ4 Sulfur carrier protein FdhD n=1 Tax=Collimon...   102   8e-20
+UniRef90_D8IPH3 Sulfur carrier protein FdhD n=10 Tax=Herbaspiril...   102   8e-20
+UniRef90_A0A1B9M5J9 Sulfur carrier protein FdhD n=2 Tax=Gilliame...   102   8e-20
+UniRef90_UPI0003FB40AE sulfurtransferase FdhD n=1 Tax=Azohydromo...   102   8e-20
+UniRef90_A0A0J7J4X2 Sulfur carrier protein FdhD n=1 Tax=Marinoba...   102   8e-20
+UniRef90_UPI00088C3A99 sufurtransferase FdhD n=1 Tax=Variovorax ...   102   8e-20
+UniRef90_I9KRI0 Sulfur carrier protein FdhD n=1 Tax=Ralstonia sp...   102   9e-20
+UniRef90_A0A1V3TUU9 Sulfur carrier protein FdhD n=1 Tax=Pasteure...   102   9e-20
+UniRef90_R8B4S3 Sulfur carrier protein FdhD n=1 Tax=Marinobacter...   102   9e-20
+UniRef90_UPI000887CC61 sufurtransferase FdhD n=1 Tax=Cupriavidus...   102   9e-20
+UniRef90_Q8L3B7 Sulfur carrier protein FdhD n=5 Tax=Azoarcus Tax...   102   9e-20
+UniRef90_A0A0Q8XHV5 Sulfur carrier protein FdhD n=1 Tax=Achromob...   102   9e-20
+UniRef90_UPI00097C2050 sulfurtransferase FdhD n=1 Tax=Variovorax...   102   9e-20
+UniRef90_G8QJE1 Sulfur carrier protein FdhD n=1 Tax=Dechlorosoma...   102   1e-19
+UniRef90_A0A1P8KCR7 Sulfur carrier protein FdhD n=2 Tax=Rhodofer...   101   1e-19
+UniRef90_A4GAJ5 Sulfur carrier protein FdhD n=1 Tax=Herminiimona...   101   1e-19
+UniRef90_A0A1W6LCS8 Sulfur carrier protein FdhD n=1 Tax=Rhizobac...   101   1e-19
+UniRef90_A0A016XJ82 Sulfur carrier protein FdhD n=1 Tax=Hylemone...   101   1e-19
+UniRef90_E6UYJ1 Sulfur carrier protein FdhD n=4 Tax=Variovorax T...   101   1e-19
+UniRef90_A0A158GYX1 Sulfur carrier protein FdhD n=1 Tax=Caballer...   101   1e-19
+UniRef90_T2L832 Sulfur carrier protein FdhD n=5 Tax=Halomonadace...   101   1e-19
+UniRef90_A0A0J1CQ83 Sulfur carrier protein FdhD n=10 Tax=Burkhol...   101   1e-19
+UniRef90_UPI000556CA30 sulfurtransferase FdhD n=1 Tax=Enterobact...   101   1e-19
+UniRef90_D4XI07 Sulfur carrier protein FdhD n=2 Tax=Achromobacte...   101   1e-19
+UniRef90_A0A086MHA4 Sulfur carrier protein FdhD n=1 Tax=Microvir...   101   1e-19
+UniRef90_A0KL55 Sulfur carrier protein FdhD n=41 Tax=Aeromonadac...   101   1e-19
+UniRef90_UPI000556BF4D sulfurtransferase FdhD n=1 Tax=Herbaspiri...   101   1e-19
+UniRef90_U3U6X7 Sulfur carrier protein FdhD n=1 Tax=Candidatus P...   101   1e-19
+UniRef90_A0A0H4HR70 Sulfur carrier protein FdhD n=4 Tax=Haemophi...   101   1e-19
+UniRef90_A0A1B9MH27 Sulfur carrier protein FdhD n=6 Tax=Gilliame...   101   1e-19
+UniRef90_K9DQB9 Sulfur carrier protein FdhD n=2 Tax=Massilia tim...   101   1e-19
+UniRef90_D2U393 Sulfur carrier protein FdhD n=1 Tax=Arsenophonus...   101   1e-19
+UniRef90_A0A098UF31 Sulfur carrier protein FdhD n=2 Tax=Massilia...   101   1e-19
+UniRef90_A0A1B9MYL2 Sulfur carrier protein FdhD n=1 Tax=Gilliame...   101   1e-19
+UniRef90_UPI00088B5E5F sufurtransferase FdhD n=1 Tax=Cupriavidus...   101   1e-19
+UniRef90_UPI0008E5D8DE sufurtransferase FdhD n=1 Tax=Cupriavidus...   101   1e-19
+UniRef90_UPI0004673C6C sulfurtransferase FdhD n=1 Tax=Aliihoefle...   101   1e-19
+UniRef90_C5S2L0 Sulfur carrier protein FdhD n=2 Tax=Actinobacill...   101   1e-19
+UniRef90_A0A1W6ZIR2 Sulfur carrier protein FdhD n=1 Tax=Bordetel...   101   1e-19
+UniRef90_UPI00045E726F sulfurtransferase FdhD n=1 Tax=Pseudogulb...   101   1e-19
+UniRef90_UPI0004916053 sulfurtransferase FdhD n=1 Tax=Sedimentic...   101   2e-19
+UniRef90_UPI00089236DB sulfurtransferase FdhD n=1 Tax=Methylophi...   101   2e-19
+UniRef90_UPI0004B33D91 sulfurtransferase FdhD n=1 Tax=Ensifer so...   101   2e-19
+UniRef90_UPI000686D6B0 sulfurtransferase FdhD n=1 Tax=Marinobact...   101   2e-19
+UniRef90_G9A1M8 Sulfur carrier protein FdhD n=6 Tax=Sinorhizobiu...   101   2e-19
+UniRef90_UPI000A06E1F7 sulfurtransferase FdhD n=1 Tax=Neptunomon...   101   2e-19
+UniRef90_A0A1H5WZE8 Sulfur carrier protein FdhD n=1 Tax=Thauera ...   101   2e-19
+UniRef90_C3M9P7 Sulfur carrier protein FdhD n=2 Tax=Sinorhizobiu...   101   2e-19
+UniRef90_Q8XR18 Sulfur carrier protein FdhD n=26 Tax=Ralstonia T...   101   2e-19
+UniRef90_M3A8I8 Formate dehydrogenase accessory protein (Fragmen...   101   2e-19
+UniRef90_A0A157RM19 Sulfur carrier protein FdhD n=2 Tax=Bordetel...   101   2e-19
+UniRef90_UPI00083477E3 sulfurtransferase FdhD n=1 Tax=Comamonas ...   101   2e-19
+UniRef90_UPI000417F6FD sulfurtransferase FdhD n=1 Tax=Comamonas ...   101   2e-19
+UniRef90_UPI000A070D4F sulfurtransferase FdhD n=1 Tax=Derxia gum...   101   2e-19
+UniRef90_UPI0008E21601 sufurtransferase FdhD n=1 Tax=Paraburkhol...   101   2e-19
+UniRef90_Q1H3F0 Sulfur carrier protein FdhD n=1 Tax=Methylobacil...   101   2e-19
+UniRef90_UPI0009FB4AE7 sulfurtransferase FdhD n=1 Tax=Herbaspiri...   101   2e-19
+UniRef90_UPI000B72BEB7 sufurtransferase FdhD n=1 Tax=Methylobaci...   101   2e-19
+UniRef90_M1FB31 Sulfur carrier protein FdhD n=3 Tax=Marinobacter...   101   2e-19
+UniRef90_A0A072NA25 Sulfur carrier protein FdhD n=2 Tax=Marinoba...   101   2e-19
+UniRef90_UPI000975204E uncharacterized protein LOC109618173 n=1 ...   101   2e-19
+UniRef90_T0PQ23 Sulfur carrier protein FdhD n=2 Tax=Aeromonas sa...   101   2e-19
+UniRef90_E6VNA1 Sulfur carrier protein FdhD n=2 Tax=Rhodopseudom...   101   2e-19
+UniRef90_D8VMN2 FdhD formate dehydrogenase family protein n=1 Ta...   101   2e-19
+UniRef90_UPI00048A8832 sulfurtransferase FdhD n=1 Tax=Paludibact...   101   2e-19
+UniRef90_A0A1T4JJQ5 Sulfur carrier protein FdhD n=2 Tax=Enhydrob...   100   2e-19
+UniRef90_T0AX17 Sulfur carrier protein FdhD n=2 Tax=Thauera terp...   100   2e-19
+UniRef90_A0A1Y5ERU4 Sulfur carrier protein FdhD (Fragment) n=1 T...   100   2e-19
+UniRef90_A0A1B9LAJ9 Sulfur carrier protein FdhD n=3 Tax=Gilliame...   100   2e-19
+UniRef90_A0A1V0KWI1 Sulfur carrier protein FdhD n=2 Tax=Colwelli...   100   2e-19
+UniRef90_A0A1N7Q3N5 Sulfur carrier protein FdhD n=2 Tax=Insoliti...   100   2e-19
+UniRef90_A0A1N6N8G5 Sulfur carrier protein FdhD n=2 Tax=Marinoba...   100   2e-19
+UniRef90_A0A0D8CTE0 Sulfur carrier protein FdhD n=1 Tax=Thalasso...   100   3e-19
+UniRef90_UPI0007825595 sulfurtransferase FdhD n=1 Tax=Cupriavidu...   100   3e-19
+UniRef90_A0A0D8DEN3 Sulfur carrier protein FdhD n=2 Tax=Thalasso...   100   3e-19
+UniRef90_A0A1R4I4A5 Sulfur carrier protein FdhD n=1 Tax=Halomona...   100   3e-19
+UniRef90_A0A175VDX2 Sulfur carrier protein FdhD n=3 Tax=Aeromona...   100   3e-19
+UniRef90_Q608U9 Sulfur carrier protein FdhD n=2 Tax=Methylococcu...   100   3e-19
+UniRef90_H3KI18 Sulfur carrier protein FdhD n=1 Tax=Sutterella p...   100   3e-19
+UniRef90_A0A069P8L8 Sulfur carrier protein FdhD n=1 Tax=Caballer...   100   3e-19
+UniRef90_A0A0F7K4I0 Sulfur carrier protein FdhD n=2 Tax=Sediment...   100   3e-19
+UniRef90_S6HML9 Sulfur carrier protein FdhD n=2 Tax=Bacteria Tax...   100   3e-19
+UniRef90_A0A085FYB8 Sulfur carrier protein FdhD n=2 Tax=Massilia...   100   3e-19
+UniRef90_A6T494 Sulfur carrier protein FdhD n=2 Tax=Oxalobactera...   100   3e-19
+UniRef90_A0A014P4I7 Sulfur carrier protein FdhD n=2 Tax=Comamona...   100   3e-19
+UniRef90_UPI0008F2F1A8 sufurtransferase FdhD n=1 Tax=Massilia na...   100   3e-19
+UniRef90_UPI000B5C7C53 sulfurtransferase FdhD n=1 Tax=Aquitalea ...   100   3e-19
+UniRef90_UPI0008E8601B sufurtransferase FdhD n=1 Tax=Massilia yu...   100   3e-19
+UniRef90_A0A142E3H6 Sulfur carrier protein FdhD n=33 Tax=Aeromon...   100   3e-19
+UniRef90_UPI00046ADFFF sulfurtransferase FdhD n=1 Tax=Ralstonia ...   100   3e-19
+UniRef90_A0A0A1F972 Sulfur carrier protein FdhD n=1 Tax=Collimon...   100   3e-19
+UniRef90_A0A0Q8NIA9 Sulfur carrier protein FdhD n=1 Tax=Rhizobiu...   100   3e-19
+UniRef90_A0A1R1MF41 Sulfur carrier protein FdhD n=1 Tax=Motilipr...   100   3e-19
+UniRef90_UPI000B51DB30 sulfurtransferase FdhD n=1 Tax=Achromobac...   100   3e-19
+UniRef90_UPI000360C3CA sulfurtransferase FdhD n=1 Tax=Methyloten...   100   3e-19
+UniRef90_A0A085DUI3 Sulfur carrier protein FdhD n=1 Tax=Halomona...   100   3e-19
+UniRef90_UPI0008E7D83D sulfurtransferase FdhD n=1 Tax=Rugamonas ...   100   3e-19
+UniRef90_A0A0B1YCA1 Sulfur carrier protein FdhD n=1 Tax=Ralstoni...   100   4e-19
+UniRef90_A0A1E3ZA28 Sulfur carrier protein FdhD n=2 Tax=Burkhold...   100   4e-19
+UniRef90_A0A0L0MAK2 Sulfur carrier protein FdhD n=7 Tax=Burkhold...   100   4e-19
+UniRef90_A0A1B2ENI8 Sulfur carrier protein FdhD n=1 Tax=Microvir...   100   4e-19
+UniRef90_A0A0Q6N9N3 Sulfur carrier protein FdhD n=2 Tax=Mesorhiz...    99   4e-19
+UniRef90_A0A1E7PVT8 Sulfur carrier protein FdhD n=1 Tax=Marinoba...    99   4e-19
+UniRef90_A0A1B9LA11 Sulfur carrier protein FdhD n=1 Tax=Gilliame...    99   4e-19
+UniRef90_A0A0D6II67 Sulfur carrier protein FdhD n=29 Tax=Alcalig...    99   4e-19
+UniRef90_A0A0G3BQ27 Sulfur carrier protein FdhD n=2 Tax=[Polyang...    99   4e-19
+UniRef90_UPI0005793078 sulfurtransferase FdhD n=1 Tax=Cupriavidu...    99   4e-19
+UniRef90_A9BUQ3 Sulfur carrier protein FdhD n=17 Tax=Delftia Tax...    99   4e-19
+UniRef90_G4QMZ9 Sulfur carrier protein FdhD n=1 Tax=Glaciecola n...    99   4e-19
+UniRef90_A0A103DYA8 Sulfur carrier protein FdhD n=4 Tax=Burkhold...    99   4e-19
+UniRef90_A0A178YFR9 Sulfur carrier protein FdhD n=1 Tax=Sinorhiz...    99   4e-19
+UniRef90_A0A1R1MIJ4 Sulfur carrier protein FdhD n=2 Tax=Motilipr...    99   4e-19
+UniRef90_W5YP06 Sulfur carrier protein FdhD n=7 Tax=Alteromonada...    99   4e-19
+UniRef90_A0A0Q8JMJ4 Sulfur carrier protein FdhD n=6 Tax=Achromob...    99   4e-19
+UniRef90_W2UEB0 Sulfur carrier protein FdhD n=2 Tax=Gammaproteob...    99   4e-19
+UniRef90_UPI000482B757 sulfurtransferase FdhD n=1 Tax=Paraburkho...    99   5e-19
+UniRef90_UPI0009535656 sulfurtransferase FdhD n=1 Tax=Massilia p...    99   5e-19
+UniRef90_D5WBG1 Sulfur carrier protein FdhD n=6 Tax=Burkholderia...    99   5e-19
+UniRef90_UPI00083784D7 sulfurtransferase FdhD n=2 Tax=Burkholder...    99   5e-19
+UniRef90_UPI000B6857B2 sufurtransferase FdhD n=1 Tax=Tropicimona...    99   5e-19
+UniRef90_UPI000B86275C sulfurtransferase FdhD n=1 Tax=Acidovorax...   100   5e-19
+UniRef90_UPI0009FB968C sulfurtransferase FdhD n=1 Tax=Niveispiri...   100   5e-19
+UniRef90_A0A0K0SYA4 Sulfur carrier protein FdhD n=2 Tax=Methylop...   100   5e-19
+UniRef90_A0A1L3LRM2 Sulfur carrier protein FdhD n=2 Tax=Sinorhiz...   100   5e-19
+UniRef90_Q475D1 Sulfur carrier protein FdhD n=2 Tax=Cupriavidus ...   100   5e-19
+UniRef90_A0A1E7U1K5 Sulfur carrier protein FdhD n=12 Tax=Comamon...   100   5e-19
+UniRef90_A0A0Q6N381 Sulfur carrier protein FdhD n=5 Tax=Burkhold...   100   6e-19
+UniRef90_UPI000B8095F0 sulfurtransferase FdhD n=1 Tax=Variovorax...   100   6e-19
+UniRef90_UPI000414EB46 sulfurtransferase FdhD n=1 Tax=Sinorhizob...   100   6e-19
+UniRef90_A0A1W6PY22 Sulfur carrier protein FdhD n=2 Tax=Rhizobiu...   100   6e-19
+UniRef90_Q07HL8 Sulfur carrier protein FdhD n=1 Tax=Rhodopseudom...    99   6e-19
+UniRef90_A0A1H6E5H7 Sulfur carrier protein FdhD n=6 Tax=Variovor...    99   6e-19
+UniRef90_A0A069PWG3 Sulfur carrier protein FdhD n=10 Tax=Burkhol...    99   6e-19
+UniRef90_A0A1F3AFQ8 Sulfur carrier protein FdhD n=1 Tax=Alphapro...    99   6e-19
+UniRef90_UPI0006920A8E sulfurtransferase FdhD n=1 Tax=Achromobac...    99   6e-19
+UniRef90_Q5P0I1 Sulfur carrier protein FdhD n=2 Tax=Rhodocyclale...    99   7e-19
+UniRef90_UPI00038276CC sulfurtransferase FdhD n=1 Tax=Cupriavidu...    99   7e-19
+UniRef90_N6YYB9 Sulfur carrier protein FdhD n=4 Tax=Proteobacter...    99   7e-19
+UniRef90_UPI00048D3637 sulfurtransferase FdhD n=1 Tax=Methylophi...    99   7e-19
+UniRef90_A0A1X3D365 Sulfur carrier protein FdhD n=1 Tax=Neisseri...    99   7e-19
+UniRef90_A0A0U3KWQ9 Sulfur carrier protein FdhD n=4 Tax=Oxalobac...    99   7e-19
+UniRef90_I5CT29 Sulfur carrier protein FdhD n=5 Tax=Burkholderia...    99   7e-19
+UniRef90_A0A0K9JYP4 Sulfur carrier protein FdhD n=1 Tax=Candidat...    99   7e-19
+UniRef90_W3RIX3 Sulfur carrier protein FdhD n=1 Tax=Afipia sp. P...    99   8e-19
+UniRef90_UPI00037EC44A sulfurtransferase FdhD n=2 Tax=Methylover...    99   8e-19
+UniRef90_UPI0008299422 sulfurtransferase FdhD n=1 Tax=Azohydromo...    99   8e-19
+UniRef90_Q46TT6 Sulfur carrier protein FdhD n=1 Tax=Cupriavidus ...    99   8e-19
+UniRef90_A0A0C4Y040 Sulfur carrier protein FdhD n=6 Tax=Burkhold...    99   8e-19
+UniRef90_A0A1W1GVB1 Sulfur carrier protein FdhD n=9 Tax=Xanthomo...    99   9e-19
+UniRef90_A0A1V0BEM7 Sulfur carrier protein FdhD n=2 Tax=Comamona...    99   9e-19
+UniRef90_A0A0B7IZ92 Sulfur carrier protein FdhD n=1 Tax=Candidat...    99   9e-19
+UniRef90_A0A059KK42 Sulfur carrier protein FdhD n=1 Tax=Sphaerot...    99   9e-19
+UniRef90_A0A069IBV1 Sulfur carrier protein FdhD n=1 Tax=Cupriavi...    99   9e-19
+UniRef90_A0A1E4L4N3 Sulfur carrier protein FdhD n=4 Tax=Proteoba...    99   1e-18
+UniRef90_A0A1V2A2G3 Sufurtransferase FdhD (Fragment) n=1 Tax=Ach...    99   1e-18
+UniRef90_J2VB32 Sulfur carrier protein FdhD n=1 Tax=Phyllobacter...    99   1e-18
+UniRef90_A0A1E4L889 Sulfur carrier protein FdhD n=2 Tax=Thiobaci...    99   1e-18
+UniRef90_UPI000B809E12 sulfurtransferase FdhD n=1 Tax=Acidovorax...    99   1e-18
+UniRef90_A0A1T4W3R2 Sulfur carrier protein FdhD n=1 Tax=Thiothri...    99   1e-18
+UniRef90_UPI0007AB231C sulfurtransferase FdhD n=1 Tax=Cupriavidu...    98   1e-18
+UniRef90_UPI0009EC3E07 sulfurtransferase FdhD n=1 Tax=Lysobacter...    98   1e-18
+UniRef90_A0A0T5PAB9 Sulfur carrier protein FdhD n=3 Tax=Roseovar...    98   1e-18
+UniRef90_F9ZX63 Sulfur carrier protein FdhD n=1 Tax=Methylomonas...    98   1e-18
+UniRef90_UPI000A17030D sulfurtransferase FdhD n=1 Tax=Derxia lac...    98   1e-18
+UniRef90_B1XWL1 Sulfur carrier protein FdhD n=1 Tax=Leptothrix c...    98   1e-18
+UniRef90_A0A0M2WVZ7 Sulfur carrier protein FdhD n=14 Tax=Oxaloba...    98   1e-18
+UniRef90_UPI0009703876 sulfurtransferase FdhD n=1 Tax=Shewanella...    98   1e-18
+UniRef90_C6AY16 Sulfur carrier protein FdhD n=16 Tax=Rhizobium T...    98   1e-18
+UniRef90_UPI00066C574F sulfurtransferase FdhD n=1 Tax=Stenotroph...    98   1e-18
+UniRef90_N6ZR94 Formate dehydrogenase family accessory protein F...    98   1e-18
+UniRef90_UPI0003753913 sulfurtransferase FdhD n=1 Tax=Massilia n...    98   1e-18
+UniRef90_UPI000B3466DA sulfurtransferase FdhD n=1 Tax=Variovorax...    98   1e-18
+UniRef90_F0LUR2 Sulfur carrier protein FdhD n=3 Tax=Vibrio TaxID...    98   1e-18
+UniRef90_A3TTJ6 Sulfur carrier protein FdhD n=1 Tax=Pseudooceani...    98   1e-18
+UniRef90_B7S1P2 Sulfur carrier protein FdhD n=1 Tax=marine gamma...    98   1e-18
+UniRef90_A0A0N8P6A3 Sulfur carrier protein FdhD n=3 Tax=Variovor...    98   1e-18
+UniRef90_UPI000B520F3C sulfurtransferase FdhD n=1 Tax=Marinibact...    98   1e-18
+UniRef90_A0A1S8CY10 Sulfur carrier protein FdhD n=1 Tax=Alkanind...    98   1e-18
+UniRef90_A0A1M2URQ6 Sulfur carrier protein FdhD n=1 Tax=Marinoba...    98   1e-18
+UniRef90_A0A193G568 Sulfur carrier protein FdhD n=3 Tax=Bordetel...    98   1e-18
+UniRef90_UPI000B852BF3 sulfurtransferase FdhD n=1 Tax=Burkholder...    98   1e-18
+UniRef90_A0A1Q3LIF8 Sulfur carrier protein FdhD n=1 Tax=Alphapro...    98   1e-18
+UniRef90_UPI00042213EC sulfurtransferase FdhD n=2 Tax=Rhizobium ...    98   1e-18
+UniRef90_A0A147H225 Sulfur carrier protein FdhD n=4 Tax=Pseudaci...    98   2e-18
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_M4R5G7 Sulfur carrier protein FdhD n=5 Tax=Bibersteinia...   103   3e-20
+UniRef90_UPI000B80EFEF sulfurtransferase FdhD n=1 Tax=Neptunomon...   100   5e-19
+UniRef90_A0A011NEW6 Sulfur carrier protein FdhD n=2 Tax=Mannheim...   100   6e-19
+UniRef90_N9QUI7 Sulfur carrier protein FdhD n=7 Tax=Acinetobacte...    99   1e-18
+
+>UniRef90_A0A1V3JK04 Sulfur carrier protein FdhD n=1 Tax=Rodentibacter myodis
+          TaxID=1907939 RepID=A0A1V3JK04_9PAST
+          Length = 270
+
+ Score =  120 bits (302), Expect = 3e-25,   Method: Composition-based stats.
+ Identities = 20/57 (35%), Positives = 24/57 (42%), Gaps = 1/57 (1%)
+
+Query: 1  ETPYAIALNDRVIGSSMVLPVDLEEFGAGFLFGQGYIKKAEEIREILVCPQ-GRISV 56
+          E P ++  N       M  P DLE+F  GF   +G I K  EI  I V      I V
+Sbjct: 35 EMPVSLVYNGISHAVMMCSPQDLEDFALGFSLTEGIIDKPSEIYGIDVVEVCNGIEV 91
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.312    0.201    0.737 
+
+Lambda     K      H
+   0.267   0.0620    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 16,319,684,140
+Number of Sequences: 61934301
+Number of extensions: 831124614
+Number of successful extensions: 1373964
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 14884
+Number of HSP's successfully gapped in prelim test: 321
+Number of HSP's that attempted gapping in prelim test: 1358838
+Number of HSP's gapped (non-prelim): 15276
+length of query: 58
+length of database: 21,023,703,129
+effective HSP length: 31
+effective length of query: 27
+effective length of database: 19,103,739,798
+effective search space: 515800974546
+effective search space used: 515800974546
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.8 bits)
+S2: 82 (35.6 bits)

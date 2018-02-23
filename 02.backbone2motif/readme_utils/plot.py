@@ -182,6 +182,7 @@ def plot_aa_heatmaps( df, info, base, top=None ):
     contact = contact - motif
     manual  = rstoolbox.components.Selection(base.get_label("picked"))
     aa = [core, query, contact, manual]
+    tl = ["CORE", "QUERY REGION", "MOTIF CONTACT", "MANUAL"]
 
     fig = plt.figure(figsize=(50, 20))
     grid = (1, 4)
@@ -195,6 +196,7 @@ def plot_aa_heatmaps( df, info, base, top=None ):
     count = df.shape[0] if top is None else int(float(df.shape[0]) * top)
     for _, a in enumerate(aa):
         rstoolbox.plot.sequence_frequency_plot( df.head(count), info["design"]["chain"], ax[_], key_residues=a )
+        rstoolbox.utils.add_top_title(ax[_], tl[_])
 
     plt.suptitle("FFL-wauto Sequence Recovery")
     plt.show()
