@@ -1,0 +1,16 @@
+-in:file:fasta          1h4rA.fasta
+-in:path:database       /scratch/lpdi/bin/Rosetta/3.8/main/database/
+-in:file:vall           /scratch/lpdi/bin/Rosetta/tools/fragment_tools/vall.jul19.2011
+-frags:n_candidates     1000
+-frags:n_frags          200
+-frags:frag_sizes       3
+-out:file:frag_prefix   1h4rA
+-frags:scoring:config   1h4rA_scores3.cfg
+#-out:level 2000
+-in:file:checkpoint     1h4rA.checkpoint
+-frags:write_ca_coordinates
+-frags:describe_fragments 1h4rA_frags.3.score
+-spine_x                  1h4rA.fasta.phipsi
+
+
+-frags:ss_pred 1h4rA.psipred_ss2 psipred

@@ -1,0 +1,18 @@
+benchmark:
+  id: T06
+  cath: CATH.2.30.29.30
+  motifs: 1
+structures:
+  reference: 1c1yB.pdb
+  query: 1h4rA.pdb
+design:
+  chain: A
+  motif: 39-59
+  shift: 21
+fragments:
+  - [auto, Automatic fragment generation (sequence + secondary structure)]
+  - [picker, Standard Rosetta fragment generation (sequence-based data)]
+  - [wauto, Automatic fragment generation (secondary structure + angles + sasa)]
+experiments:
+  - abinitio
+  - nubinitio

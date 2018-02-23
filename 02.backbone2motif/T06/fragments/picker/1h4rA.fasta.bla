@@ -1,0 +1,2299 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1h4rA
+         (78 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_G1Q1C2 Neurofibromin 2 n=1 Tax=Myotis lucifugus TaxID=5...   172   7e-41
+UniRef90_UPI0006D70D12 LOW QUALITY PROTEIN: merlin n=1 Tax=Myoti...   171   1e-40
+UniRef90_W5P4J2 Neurofibromin 2 n=2 Tax=Cetartiodactyla TaxID=91...   170   3e-40
+UniRef90_UPI00083BB0C2 LOW QUALITY PROTEIN: merlin n=1 Tax=Rhino...   169   5e-40
+UniRef90_A0A091CZF1 Merlin n=3 Tax=Euarchontoglires TaxID=314146...   168   1e-39
+UniRef90_H2R2J1 Neurofibromin 2 n=7 Tax=Amniota TaxID=32524 RepI...   168   1e-39
+UniRef90_P35240-8 Isoform 8 of Merlin n=8 Tax=Eutheria TaxID=934...   168   2e-39
+UniRef90_UPI0005401FCE merlin isoform X2 n=5 Tax=Theria TaxID=72...   167   2e-39
+UniRef90_UPI00046BC844 merlin n=1 Tax=Eptesicus fuscus TaxID=290...   167   3e-39
+UniRef90_P35240 Merlin n=165 Tax=Amniota TaxID=32524 RepID=MERL_...   166   4e-39
+UniRef90_G3QMH6 Neurofibromin 2 n=10 Tax=Theria TaxID=722675 Rep...   166   8e-39
+UniRef90_Q99K59 Nf2 protein n=8 Tax=Euarchontoglires TaxID=31414...   165   1e-38
+UniRef90_P46662 Merlin n=178 Tax=Amniota TaxID=32524 RepID=MERL_...   164   2e-38
+UniRef90_P35240-7 Isoform 7 of Merlin n=3 Tax=Euarchontoglires T...   164   2e-38
+UniRef90_Q6AZJ7 Nf2-prov protein n=13 Tax=Tetrapoda TaxID=32523 ...   162   1e-37
+UniRef90_UPI00084666D0 merlin isoform X2 n=1 Tax=Xenopus tropica...   159   7e-37
+UniRef90_F6RHZ4 Neurofibromin 2 n=6 Tax=Boreoeutheria TaxID=1437...   158   1e-36
+UniRef90_H0ZJP3 Neurofibromin 2 n=1 Tax=Taeniopygia guttata TaxI...   155   8e-36
+UniRef90_UPI0002B40DE2 merlin n=1 Tax=Taeniopygia guttata TaxID=...   155   1e-35
+UniRef90_M3XLH4 Neurofibromin 2 n=4 Tax=Latimeria chalumnae TaxI...   150   4e-34
+UniRef90_UPI0004571456 merlin n=1 Tax=Callorhinchus milii TaxID=...   145   1e-32
+UniRef90_A0A218V1S5 Merlin n=1 Tax=Lonchura striata domestica Ta...   143   4e-32
+UniRef90_UPI000643F8A9 merlin isoform X2 n=1 Tax=Clupea harengus...   142   6e-32
+UniRef90_M3ZJN5 Neurofibromin 2a (merlin) n=5 Tax=Cyprinodontifo...   142   9e-32
+UniRef90_A0A1S3PGE4 merlin n=5 Tax=Protacanthopterygii TaxID=417...   142   1e-31
+UniRef90_H2L5L7 Neurofibromin 2a (merlin) n=7 Tax=Ovalentaria Ta...   141   1e-31
+UniRef90_I3JWV9 Neurofibromin 2a (merlin) n=12 Tax=Percomorphace...   141   2e-31
+UniRef90_UPI00054ED477 F-box only protein 21 n=1 Tax=Notothenia ...   140   2e-31
+UniRef90_A0A060X7Q7 Uncharacterized protein n=1 Tax=Oncorhynchus...   140   2e-31
+UniRef90_B3DGL5 Neurofibromin 2a (merlin) n=6 Tax=Cyprinidae Tax...   140   3e-31
+UniRef90_H0Z3P8 Uncharacterized protein n=96 Tax=Archelosauria T...   140   3e-31
+UniRef90_UPI000802DDC2 merlin n=1 Tax=Ictalurus punctatus TaxID=...   140   5e-31
+UniRef90_A0A147AP13 Merlin n=2 Tax=Fundulus heteroclitus TaxID=8...   140   5e-31
+UniRef90_UPI0006B3A08A merlin isoform X2 n=1 Tax=Austrofundulus ...   139   5e-31
+UniRef90_UPI0006B72A0E merlin-like n=1 Tax=Zonotrichia albicolli...   138   1e-30
+UniRef90_A0A0Q3LVA8 Uncharacterized protein n=1 Tax=Amazona aest...   138   1e-30
+UniRef90_A0A1U7SCR3 merlin-like isoform X1 n=10 Tax=Archelosauri...   138   2e-30
+UniRef90_A0A1S3L2K9 merlin-like isoform X1 n=7 Tax=Euteleosteomo...   138   2e-30
+UniRef90_A0A091NNX0 Merlin (Fragment) n=6 Tax=Neognathae TaxID=8...   137   2e-30
+UniRef90_F7G4H7 Uncharacterized protein n=1 Tax=Monodelphis dome...   137   2e-30
+UniRef90_UPI00046C3950 merlin-like isoform X3 n=1 Tax=Chrysemys ...   137   2e-30
+UniRef90_UPI0004A4E6D1 merlin-like n=1 Tax=Poecilia reticulata T...   137   2e-30
+UniRef90_UPI0003C4A652 merlin isoform X3 n=1 Tax=Pelodiscus sine...   137   2e-30
+UniRef90_Q6Q413 Neurofibromin 2b (merlin) n=18 Tax=Clupeocephala...   137   3e-30
+UniRef90_U3IQR1 Uncharacterized protein n=7 Tax=Aves TaxID=8782 ...   137   3e-30
+UniRef90_W5K8N6 Neurofibromin 2a (merlin) n=1 Tax=Astyanax mexic...   137   3e-30
+UniRef90_M7CJ93 Merlin n=2 Tax=Chelonia mydas TaxID=8469 RepID=M...   137   4e-30
+UniRef90_A0A1A8NF36 Neurofibromin 2b (Merlin) n=1 Tax=Nothobranc...   137   4e-30
+UniRef90_A0A1A8RN97 Neurofibromin 2b (Merlin) n=22 Tax=Clupeocep...   137   4e-30
+UniRef90_H2UH80 Neurofibromin 2b (merlin) n=22 Tax=Percomorphace...   136   5e-30
+UniRef90_A0A1W4YD13 merlin-like isoform X3 n=1 Tax=Scleropages f...   136   6e-30
+UniRef90_H3BHZ9 Neurofibromin 2b (merlin) n=2 Tax=Latimeria chal...   136   6e-30
+UniRef90_Q4RRW4 Chromosome 7 SCAF15001, whole genome shotgun seq...   136   7e-30
+UniRef90_A0A1W4YCN4 merlin-like isoform X1 n=7 Tax=Neopterygii T...   136   7e-30
+UniRef90_A0A0S7HRC9 MERL (Fragment) n=1 Tax=Poeciliopsis prolifi...   135   7e-30
+UniRef90_UPI0009B4C9E1 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   135   8e-30
+UniRef90_UPI000443464F merlin-like n=1 Tax=Monodelphis domestica...   135   9e-30
+UniRef90_A0A212D7E6 Uncharacterized protein n=1 Tax=Cervus elaph...   135   1e-29
+UniRef90_UPI00076A4C46 merlin-like n=1 Tax=Astyanax mexicanus Ta...   135   1e-29
+UniRef90_V9L4I1 Neurofibromin 2b (Merlin) (Fragment) n=5 Tax=Cho...   135   1e-29
+UniRef90_A0A1A8SGV9 Neurofibromin 2b (Merlin) (Fragment) n=6 Tax...   135   1e-29
+UniRef90_UPI00051E4846 merlin-like n=2 Tax=Aves TaxID=8782 RepID...   134   2e-29
+UniRef90_UPI00093CC6FB merlin-like isoform X3 n=1 Tax=Crocodylus...   134   2e-29
+UniRef90_A0A1W4Z5T3 merlin isoform X1 n=6 Tax=Neopterygii TaxID=...   134   2e-29
+UniRef90_UPI0004F0FCDB merlin-like n=1 Tax=Acanthisitta chloris ...   134   2e-29
+UniRef90_UPI00094E3F46 merlin isoform X1 n=2 Tax=Hippocampus com...   134   2e-29
+UniRef90_F7A6R8 Neurofibromin 2 n=1 Tax=Ornithorhynchus anatinus...   133   4e-29
+UniRef90_UPI000947E4ED merlin isoform X5 n=3 Tax=Amniota TaxID=3...   133   4e-29
+UniRef90_G3W7S5 Uncharacterized protein (Fragment) n=3 Tax=Metat...   133   4e-29
+UniRef90_A0A024R1F6 Neurofibromin 2 (Bilateral acoustic neuroma)...   133   5e-29
+UniRef90_A0A1A7ZRU2 Neurofibromin 2a (Merlin) n=13 Tax=Nothobran...   132   7e-29
+UniRef90_UPI00074FCB14 merlin-like n=1 Tax=Gekko japonicus TaxID...   132   1e-28
+UniRef90_UPI00063C05CD LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   132   1e-28
+UniRef90_UPI000A281AA8 merlin-like isoform X2 n=1 Tax=Phascolarc...   131   1e-28
+UniRef90_E1C9I6 Uncharacterized protein n=1 Tax=Gallus gallus Ta...   131   1e-28
+UniRef90_A0A1A8NZ28 Neurofibromin 2a (Merlin) (Fragment) n=2 Tax...   131   2e-28
+UniRef90_UPI000A2823A1 merlin-like isoform X3 n=1 Tax=Phascolarc...   130   2e-28
+UniRef90_K7G5W0 Uncharacterized protein n=1 Tax=Pelodiscus sinen...   130   3e-28
+UniRef90_UPI000328EF4A merlin-like isoform X1 n=1 Tax=Dasypus no...   130   3e-28
+UniRef90_UPI000A1C7117 merlin n=1 Tax=Boleophthalmus pectinirost...   130   4e-28
+UniRef90_UPI000520C21B merlin-like n=1 Tax=Gavia stellata TaxID=...   129   7e-28
+UniRef90_UPI0006715191 merlin-like n=1 Tax=Anser cygnoides domes...   129   7e-28
+UniRef90_UPI0003F1C2D4 merlin isoform X5 n=5 Tax=Felidae TaxID=9...   129   8e-28
+UniRef90_E9PW99 Merlin (Fragment) n=2 Tax=Mus musculus TaxID=100...   129   8e-28
+UniRef90_UPI000762AD4F merlin n=1 Tax=Marmota marmota marmota Ta...   128   1e-27
+UniRef90_UPI0007AA7B8E merlin-like n=1 Tax=Ornithorhynchus anati...   128   1e-27
+UniRef90_UPI0009812640 merlin-like n=1 Tax=Castor canadensis Tax...   128   1e-27
+UniRef90_A0A0F8CEK5 Merlin n=1 Tax=Larimichthys crocea TaxID=215...   127   2e-27
+UniRef90_A0A146YFB7 Merlin n=2 Tax=Fundulus heteroclitus TaxID=8...   126   5e-27
+UniRef90_M7B646 Merlin n=1 Tax=Chelonia mydas TaxID=8469 RepID=M...   126   6e-27
+UniRef90_UPI0009E2C279 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   126   6e-27
+UniRef90_F6W8H7 Uncharacterized protein n=2 Tax=Ornithorhynchus ...   124   3e-26
+UniRef90_A0A091IET4 Merlin (Fragment) n=9 Tax=Neognathae TaxID=8...   124   3e-26
+UniRef90_Q4RTY3 Chromosome 12 SCAF14996, whole genome shotgun se...   122   1e-25
+UniRef90_UPI000441BA0E merlin-like isoform X1 n=3 Tax=Serpentes ...   122   1e-25
+UniRef90_UPI0009B30631 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   121   2e-25
+UniRef90_UPI00044213FB merlin-like n=1 Tax=Python bivittatus Tax...   120   2e-25
+UniRef90_UPI0006B6FECB merlin-like n=1 Tax=Zonotrichia albicolli...   120   2e-25
+UniRef90_UPI0006B17C05 merlin n=1 Tax=Thamnophis sirtalis TaxID=...   120   3e-25
+UniRef90_UPI00094E5E19 merlin-like isoform X3 n=1 Tax=Hippocampu...   114   2e-23
+UniRef90_A0A099YWN1 Merlin (Fragment) n=2 Tax=Aves TaxID=8782 Re...   114   3e-23
+UniRef90_UPI0005219753 merlin-like n=1 Tax=Picoides pubescens Ta...   114   3e-23
+UniRef90_UPI0009A2B28E merlin-like n=1 Tax=Rhincodon typus TaxID...   112   1e-22
+UniRef90_A0A0P4YV95 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   109   8e-22
+UniRef90_A0A0P6BRX1 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   109   9e-22
+UniRef90_A0A0P5N1U0 Moesin/ezrin/radixin n=19 Tax=Daphnia magna ...   109   9e-22
+UniRef90_W4YAW4 Uncharacterized protein n=1 Tax=Strongylocentrot...   109   9e-22
+UniRef90_R7UTH7 Uncharacterized protein n=1 Tax=Capitella teleta...   108   1e-21
+UniRef90_W4ZL53 Uncharacterized protein n=1 Tax=Strongylocentrot...   108   2e-21
+UniRef90_A0A0P5AIW7 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   108   2e-21
+UniRef90_E9GW23 Uncharacterized protein n=2 Tax=Daphnia TaxID=66...   107   3e-21
+UniRef90_F6ZQJ0 Uncharacterized protein (Fragment) n=4 Tax=Xenop...   107   4e-21
+UniRef90_A0A0P5HV06 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   107   4e-21
+UniRef90_A0A0P5S9G9 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   107   4e-21
+UniRef90_UPI00064CF604 merlin-like isoform X2 n=1 Tax=Xenopus tr...   106   5e-21
+UniRef90_UPI00064D06F6 merlin-like isoform X3 n=1 Tax=Xenopus tr...   106   7e-21
+UniRef90_A0A1D2N746 Merlin n=1 Tax=Orchesella cincta TaxID=48709...   105   8e-21
+UniRef90_UPI0005F04B05 merlin n=1 Tax=Strongylocentrotus purpura...   105   8e-21
+UniRef90_UPI00085459E5 merlin-like n=1 Tax=Nanorana parkeri TaxI...   105   1e-20
+UniRef90_K1QN01 Merlin n=3 Tax=Crassostrea gigas TaxID=29159 Rep...   103   3e-20
+UniRef90_A0A1L8HG68 Uncharacterized protein n=1 Tax=Xenopus laev...   103   4e-20
+UniRef90_UPI0009479019 merlin-like n=1 Tax=Branchiostoma belcher...   103   5e-20
+UniRef90_C3ZHV7 Uncharacterized protein n=1 Tax=Branchiostoma fl...   103   6e-20
+UniRef90_UPI000359E745 merlin-like n=1 Tax=Aplysia californica T...   102   7e-20
+UniRef90_E9QGK2 Neurofibromin 2b (merlin) n=1 Tax=Danio rerio Ta...   102   8e-20
+UniRef90_UPI000719AD9F merlin-like n=1 Tax=Priapulus caudatus Ta...   101   2e-19
+UniRef90_A0A0P7W8H0 Uncharacterized protein (Fragment) n=1 Tax=S...   101   2e-19
+UniRef90_A0A0N8EPW1 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   101   2e-19
+UniRef90_UPI0006743B4E merlin-like n=2 Tax=Biomphalaria glabrata...   100   3e-19
+UniRef90_V4AUR3 Uncharacterized protein n=2 Tax=Lottia gigantea ...   100   3e-19
+UniRef90_A0A087U927 Merlin (Fragment) n=2 Tax=Entelegynae TaxID=...   100   4e-19
+UniRef90_A0A1S3K9E4 merlin-like n=1 Tax=Lingula unguis TaxID=757...   100   5e-19
+UniRef90_L7M2F9 Uncharacterized protein n=6 Tax=Ixodidae TaxID=6...   100   5e-19
+UniRef90_UPI00084B5E07 merlin-like n=1 Tax=Hyalella azteca TaxID...    99   7e-19
+UniRef90_J9JWV8 Uncharacterized protein n=2 Tax=Macrosiphini Tax...    99   9e-19
+UniRef90_A0A1Z5L2Q4 Uncharacterized protein (Fragment) n=1 Tax=O...    99   9e-19
+UniRef90_A0A0L8GLL8 Uncharacterized protein n=2 Tax=Octopus bima...    99   1e-18
+UniRef90_V5HVD9 Putative regulation of hippo signaling cascade n...    99   1e-18
+UniRef90_A0A023GJE6 Putative radixin moesin (Fragment) n=1 Tax=A...    99   1e-18
+UniRef90_A0A195EVJ8 Merlin n=1 Tax=Trachymyrmex septentrionalis ...    98   2e-18
+UniRef90_UPI0002246893 merlin isoform X1 n=2 Tax=Chalcidoidea Ta...    98   3e-18
+UniRef90_UPI0006B10079 merlin-like n=1 Tax=Limulus polyphemus Ta...    98   3e-18
+UniRef90_A0A0P4VYF1 Uncharacterized protein n=2 Tax=Scylla oliva...    97   3e-18
+UniRef90_A0A0C9QAX7 NF2_0 protein n=56 Tax=Hymenoptera TaxID=739...    97   3e-18
+UniRef90_E2BV71 Merlin n=1 Tax=Harpegnathos saltator TaxID=61038...    97   3e-18
+UniRef90_K7IVX0 Uncharacterized protein n=3 Tax=Chalcidoidea Tax...    97   3e-18
+UniRef90_S4RS18 Ezrin a n=1 Tax=Petromyzon marinus TaxID=7757 Re...    97   3e-18
+UniRef90_S4RNZ3 Neurofibromin 2a (merlin) n=1 Tax=Petromyzon mar...    97   4e-18
+UniRef90_A0A0C9R6E3 Mer protein n=2 Tax=Apocrita TaxID=7400 RepI...    97   4e-18
+UniRef90_UPI0005D3D491 merlin n=1 Tax=Pogonomyrmex barbatus TaxI...    97   5e-18
+UniRef90_A0A1S3A5D4 merlin n=1 Tax=Erinaceus europaeus TaxID=936...    97   5e-18
+UniRef90_A0A0K2UTI2 Merlinlike [Acyrthosiphon pisum] (Fragment) ...    96   7e-18
+UniRef90_UPI0008F99292 merlin n=1 Tax=Bemisia tabaci TaxID=7038 ...    96   8e-18
+UniRef90_A0A0A9XV66 Merlin n=7 Tax=Panheteroptera TaxID=33351 Re...    96   1e-17
+UniRef90_A0A1W4WTQ3 merlin n=2 Tax=Polyphaga TaxID=41084 RepID=A...    95   2e-17
+UniRef90_UPI0003EDD4C8 merlin n=1 Tax=Leptonychotes weddellii Ta...    95   2e-17
+UniRef90_A0A0N0BFH1 Merlin n=44 Tax=Hymenoptera TaxID=7399 RepID...    95   2e-17
+UniRef90_A0A067R5E3 Merlin n=2 Tax=Neoptera TaxID=33340 RepID=A0...    94   3e-17
+UniRef90_A0A1A8ELU1 Neurofibromin 2b (Merlin) (Fragment) n=2 Tax...    94   3e-17
+UniRef90_A0A0N1I6Z3 Moesin/ezrin/radixin-like 2 n=4 Tax=Papilio ...    94   4e-17
+UniRef90_A0A085NSY6 Uncharacterized protein n=1 Tax=Trichuris su...    93   5e-17
+UniRef90_H9JY82 Uncharacterized protein n=5 Tax=Ditrysia TaxID=3...    93   8e-17
+UniRef90_UPI000B399762 merlin n=1 Tax=Helicoverpa armigera TaxID...    92   1e-16
+UniRef90_A0A0T6B950 FERM domain containing protein n=1 Tax=Oryct...    92   1e-16
+UniRef90_A0A1Y1LKC2 Uncharacterized protein (Fragment) n=1 Tax=P...    92   2e-16
+UniRef90_A0A1B6C9Z9 Uncharacterized protein (Fragment) n=1 Tax=C...    91   2e-16
+UniRef90_A0A210PVB2 Merlin n=2 Tax=Mizuhopecten yessoensis TaxID...    91   2e-16
+UniRef90_UPI00096B4CAC LOW QUALITY PROTEIN: merlin n=1 Tax=Aethi...    91   2e-16
+UniRef90_A0A085MCW7 Uncharacterized protein n=1 Tax=Trichuris su...    91   3e-16
+UniRef90_A0A1B6F247 Uncharacterized protein n=2 Tax=unclassified...    91   3e-16
+UniRef90_UPI0005D04BE8 merlin-like n=3 Tax=Plutella xylostella T...    91   3e-16
+UniRef90_M5AK70 Merlin n=1 Tax=Gryllus bimaculatus TaxID=6999 Re...    91   3e-16
+UniRef90_A0A0P5TBG1 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...    91   3e-16
+UniRef90_UPI00083C35BC merlin n=1 Tax=Nicrophorus vespilloides T...    91   4e-16
+UniRef90_A0A1B6MNL0 Uncharacterized protein (Fragment) n=1 Tax=G...    90   4e-16
+UniRef90_A0A0N8AM14 Ezrin-moesin-radixin-like protein n=1 Tax=Da...    90   5e-16
+UniRef90_UPI000A2A76E6 merlin-like n=1 Tax=Exaiptasia pallida Ta...    90   5e-16
+UniRef90_A0A087TC60 Radixin (Fragment) n=1 Tax=Stegodyphus mimos...    90   6e-16
+UniRef90_A0A023FS50 Putative moesin/ezrin/radixin protein 1 n=9 ...    90   6e-16
+UniRef90_A0A0P4Z1U9 Ezrin-moesin-radixin n=12 Tax=Daphnia magna ...    90   6e-16
+UniRef90_A0A0N5DYR3 Uncharacterized protein n=2 Tax=Trichuris Ta...    90   6e-16
+UniRef90_E7D1A4 Putative radixin (Fragment) n=2 Tax=Theridiidae ...    90   7e-16
+UniRef90_A0A0P5Y060 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...    90   7e-16
+UniRef90_D2A4B9 Moesin/ezrin/radixin homolog 2-like Protein n=2 ...    89   7e-16
+UniRef90_A0A0P5L9J3 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...    89   9e-16
+UniRef90_A0A0N8BFK6 Ezrin-moesin-radixin n=2 Tax=Daphnia magna T...    89   1e-15
+UniRef90_A0A0P5ULS8 Ezrin-moesin-radixin n=4 Tax=Daphnia magna T...    89   1e-15
+UniRef90_A0A0P5RAU7 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...    89   1e-15
+UniRef90_UPI00067670DC ezrin n=1 Tax=Papilio polytes TaxID=76194...    89   1e-15
+UniRef90_A0A0P4YYP4 Ezrin-moesin-radixin (Fragment) n=2 Tax=Daph...    89   1e-15
+UniRef90_A0A0K8TLS4 Putative moesin/ezrin/radixin protein n=1 Ta...    89   1e-15
+UniRef90_A0A0P5XDR0 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...    89   1e-15
+UniRef90_UPI0009E3389F merlin-like n=1 Tax=Orbicella faveolata T...    89   1e-15
+UniRef90_A0A0P6HX80 Ezrin-moesin-radixin n=29 Tax=Daphnia TaxID=...    89   1e-15
+UniRef90_A0A0P5TWF8 Putative Ezrin-moesin-radixin n=1 Tax=Daphni...    89   1e-15
+UniRef90_T1ILC8 Uncharacterized protein n=1 Tax=Strigamia mariti...    89   1e-15
+UniRef90_A0A0P5TJS9 Ezrin-moesin-radixin (Fragment) n=12 Tax=Dap...    89   2e-15
+UniRef90_A0A0P5D2Z1 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...    89   2e-15
+UniRef90_A0A0N8BSZ8 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...    88   2e-15
+UniRef90_A0A146XR37 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...    88   2e-15
+UniRef90_A0A0P5STV9 Putative Ezrin-moesin-radixin n=2 Tax=Daphni...    88   2e-15
+UniRef90_Q4RTN2 Chromosome 2 SCAF14997, whole genome shotgun seq...    88   2e-15
+UniRef90_A0A0P5DZZ6 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...    88   2e-15
+UniRef90_UPI0006B0A553 moesin/ezrin/radixin homolog 1-like n=2 T...    88   2e-15
+UniRef90_E0VMZ3 Merlin, putative n=1 Tax=Pediculus humanus subsp...    88   2e-15
+UniRef90_UPI0006C9C717 moesin/ezrin/radixin homolog 1-like n=1 T...    88   2e-15
+UniRef90_UPI0008708147 moesin/ezrin/radixin homolog 1 isoform X1...    88   2e-15
+UniRef90_UPI00097DDFED radixin isoform X1 n=1 Tax=Paralichthys o...    88   2e-15
+UniRef90_K1PUJ1 Radixin n=4 Tax=Crassostrea gigas TaxID=29159 Re...    88   3e-15
+UniRef90_A0A0B7BF17 Uncharacterized protein n=1 Tax=Arion vulgar...    88   3e-15
+UniRef90_A0A0P5X9T9 Ezrin-moesin-radixin n=2 Tax=Daphnia magna T...    88   3e-15
+UniRef90_T1FMK3 Uncharacterized protein n=1 Tax=Helobdella robus...    87   3e-15
+UniRef90_A0A0P5RJ99 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...    87   3e-15
+UniRef90_UPI0006D8DF83 moesin n=1 Tax=Latimeria chalumnae TaxID=...    87   3e-15
+UniRef90_B7Q5K4 Radixin, moesin, putative n=5 Tax=Bilateria TaxI...    87   3e-15
+UniRef90_A0A0P7WVX6 Radixin-like (Fragment) n=1 Tax=Scleropages ...    87   3e-15
+UniRef90_A0A1W2VN42 ezrin/radixin/moesin (ERM)-like protein n=3 ...    87   3e-15
+UniRef90_A0A210QE57 Radixin n=1 Tax=Mizuhopecten yessoensis TaxI...    87   3e-15
+UniRef90_A0A0S7GW01 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...    87   3e-15
+UniRef90_W5MXQ3 Radixin n=1 Tax=Lepisosteus oculatus TaxID=7918 ...    87   4e-15
+UniRef90_A0A183IRG8 Uncharacterized protein n=1 Tax=Soboliphyme ...    87   4e-15
+UniRef90_A0A1I8JJ41 Uncharacterized protein n=1 Tax=Macrostomum ...    87   4e-15
+UniRef90_A0A1B6EHS6 Uncharacterized protein n=8 Tax=Cicadomorpha...    87   4e-15
+UniRef90_A0A0P5KP32 Putative Ezrin-moesin-radixin n=1 Tax=Daphni...    87   4e-15
+UniRef90_Q29GR8 Moesin/ezrin/radixin homolog 1 n=50 Tax=Brachyce...    87   4e-15
+UniRef90_E0VSY0 Moesin/ezrin/radixin, putative n=1 Tax=Pediculus...    87   4e-15
+UniRef90_R7UYN1 Uncharacterized protein (Fragment) n=1 Tax=Capit...    87   4e-15
+UniRef90_T1EMA7 Uncharacterized protein n=1 Tax=Helobdella robus...    87   5e-15
+UniRef90_H3DE15 Radixin n=1 Tax=Tetraodon nigroviridis TaxID=998...    87   5e-15
+UniRef90_A0A1D1VD02 Uncharacterized protein n=1 Tax=Ramazzottius...    87   5e-15
+UniRef90_S4PGF9 Moesin (Fragment) n=1 Tax=Pararge aegeria TaxID=...    87   5e-15
+UniRef90_A0A1V9X586 Merlin-like n=1 Tax=Tropilaelaps mercedesae ...    87   5e-15
+UniRef90_W5P4R1 Moesin n=5 Tax=Eutheria TaxID=9347 RepID=W5P4R1_...    87   5e-15
+UniRef90_D2XNI0 Neurofibromin 2 n=1 Tax=Saccoglossus kowalevskii...    87   5e-15
+UniRef90_A0A0P7U2U5 Ezrin-like n=1 Tax=Scleropages formosus TaxI...    86   6e-15
+UniRef90_T1IRN5 Uncharacterized protein n=1 Tax=Strigamia mariti...    86   6e-15
+UniRef90_A0A0V1E9P6 Moesin/ezrin/radixin-like protein 1 (Fragmen...    86   6e-15
+UniRef90_UPI0009479235 radixin-like isoform X1 n=3 Tax=Branchios...    86   6e-15
+UniRef90_A0A1L8E5J0 Putative ezrin/radixin/moesin family n=2 Tax...    86   7e-15
+UniRef90_A0A1W7RA68 Moesin/ezrin/radixin homolog 1 n=1 Tax=Hadru...    86   7e-15
+UniRef90_W5KCX5 Radixin n=1 Tax=Astyanax mexicanus TaxID=7994 Re...    86   7e-15
+UniRef90_UPI000440B75F radixin n=1 Tax=Astyanax mexicanus TaxID=...    86   7e-15
+UniRef90_UPI00083C5BB5 moesin/ezrin/radixin homolog 1 isoform X1...    86   7e-15
+UniRef90_A0A0P5UIE0 Ezrin-moesin-radixin-like protein (Fragment)...    86   7e-15
+UniRef90_UPI000719D2E2 moesin/ezrin/radixin homolog 1-like n=1 T...    86   7e-15
+UniRef90_A0A1Y1M9R2 Uncharacterized protein n=2 Tax=Photinus pyr...    86   8e-15
+UniRef90_Q5F347 Moesin n=2 Tax=Phasianidae TaxID=9005 RepID=Q5F3...    86   8e-15
+UniRef90_A0A1W0WJ32 Moesin/ezrin/radixin-like protein 1 n=1 Tax=...    86   8e-15
+UniRef90_A0A0V1BB96 Moesin/ezrin/radixin-like protein 1 n=13 Tax...    86   8e-15
+UniRef90_A0A0F8AIW6 Radixin n=26 Tax=Euteleosteomorpha TaxID=148...    86   9e-15
+UniRef90_S7NLC0 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 RepI...    86   9e-15
+UniRef90_A0A0U3SXA5 Moesin ezrin radixin 1-like protein isoform ...    86   9e-15
+UniRef90_A0A0P4W4C3 Uncharacterized protein n=2 Tax=Scylla oliva...    86   9e-15
+UniRef90_R4G483 Putative radixin length n=10 Tax=Panheteroptera ...    86   9e-15
+UniRef90_H2SPE5 Radixin n=3 Tax=Tetraodontidae TaxID=31031 RepID...    86   9e-15
+UniRef90_A0A1W5BM71 merlin-like n=1 Tax=Ciona intestinalis TaxID...    86   9e-15
+UniRef90_C0HB84 Moesin n=5 Tax=Clupeocephala TaxID=186625 RepID=...    86   9e-15
+UniRef90_J9KAN2 Uncharacterized protein n=4 Tax=Macrosiphini Tax...    86   1e-14
+UniRef90_A0A084VDA8 AGAP010346-PA-like protein n=29 Tax=Anophele...    86   1e-14
+UniRef90_Q05DU4 Msn protein (Fragment) n=2 Tax=Euarchontoglires ...    86   1e-14
+UniRef90_P26038 Moesin n=139 Tax=Bilateria TaxID=33213 RepID=MOE...    86   1e-14
+UniRef90_UPI00026577F7 merlin n=1 Tax=Galendromus occidentalis T...    86   1e-14
+UniRef90_A0A1E1WCD8 Uncharacterized protein (Fragment) n=3 Tax=D...    86   1e-14
+UniRef90_H2LZD9 Radixin n=70 Tax=Euteleostomi TaxID=117571 RepID...    86   1e-14
+UniRef90_F2U9N9 RDX protein n=1 Tax=Salpingoeca rosetta (strain ...    86   1e-14
+UniRef90_A0A1B6GWG0 Uncharacterized protein n=1 Tax=Cuerna arida...    86   1e-14
+UniRef90_A0A1L8E6M8 Putative moesin/ezrin/radixin protein 1 (Fra...    86   1e-14
+UniRef90_A0A0V1FWG4 Moesin/ezrin/radixin-like protein 1 n=3 Tax=...    85   1e-14
+UniRef90_Q66I42 Moesin a n=17 Tax=Neopterygii TaxID=41665 RepID=...    85   1e-14
+UniRef90_A0A1I7S7B6 Uncharacterized protein n=1 Tax=Bursaphelenc...    85   1e-14
+UniRef90_A0A1W4Z675 ezrin-like n=1 Tax=Scleropages formosus TaxI...    85   1e-14
+UniRef90_UPI00073FBD36 radixin n=1 Tax=Lepisosteus oculatus TaxI...    85   2e-14
+UniRef90_U3KDS7 Ezrin n=4 Tax=Neognathae TaxID=8825 RepID=U3KDS7...    85   2e-14
+UniRef90_Q7ZWC7 Rdx protein (Fragment) n=1 Tax=Danio rerio TaxID...    85   2e-14
+UniRef90_A0A183ICG6 Uncharacterized protein n=1 Tax=Soboliphyme ...    85   2e-14
+UniRef90_A0A0P4Z171 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...    85   2e-14
+UniRef90_V5GHY0 Moesin/ezrin/radixin protein n=15 Tax=Polyphaga ...    85   2e-14
+UniRef90_G3PLV5 Neurofibromin 2a (merlin) n=1 Tax=Gasterosteus a...    85   2e-14
+UniRef90_P46150 Moesin/ezrin/radixin homolog 1 n=69 Tax=Holometa...    85   2e-14
+UniRef90_H2T6H5 Ezrin a n=4 Tax=Tetraodontidae TaxID=31031 RepID...    85   2e-14
+UniRef90_A0A0B7BDF9 Uncharacterized protein n=1 Tax=Arion vulgar...    85   2e-14
+UniRef90_A0A0P5XZU5 Ezrin-moesin-radixin-like protein (Fragment)...    85   2e-14
+UniRef90_A0A0A9VXP1 Uncharacterized protein n=2 Tax=Lygus hesper...    85   2e-14
+UniRef90_UPI0008F9AD30 moesin/ezrin/radixin homolog 1 isoform X1...    85   2e-14
+UniRef90_UPI0009A3D4A3 radixin-like n=2 Tax=Rhincodon typus TaxI...    85   2e-14
+UniRef90_V3ZSA7 Uncharacterized protein (Fragment) n=1 Tax=Lotti...    85   2e-14
+UniRef90_V9KAZ9 Moesin n=3 Tax=Callorhinchus milii TaxID=7868 Re...    84   2e-14
+UniRef90_UPI0009E34314 radixin-like n=1 Tax=Orbicella faveolata ...    84   2e-14
+UniRef90_A0A091CTA4 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 ...    84   3e-14
+UniRef90_H3DYQ9 Uncharacterized protein n=2 Tax=Pristionchus pac...    84   3e-14
+UniRef90_A0A060VVF1 Uncharacterized protein n=1 Tax=Oncorhynchus...    84   3e-14
+UniRef90_A0A0P5X9U4 Ezrin-moesin-radixin-like protein (Fragment)...    84   3e-14
+UniRef90_H2LLJ0 Radixin n=1 Tax=Oryzias latipes TaxID=8090 RepID...    84   3e-14
+UniRef90_I3K4Z0 Moesin a n=42 Tax=Osteoglossocephalai TaxID=1489...    84   3e-14
+UniRef90_A0A0P7V0K8 Moesin-like n=1 Tax=Scleropages formosus Tax...    84   3e-14
+UniRef90_Q5TZG5 Ezrin n=2 Tax=Danio rerio TaxID=7955 RepID=Q5TZG...    84   3e-14
+UniRef90_A0A0P5YVB5 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...    84   3e-14
+UniRef90_A0A0N4ZP34 Uncharacterized protein n=1 Tax=Parastrongyl...    84   3e-14
+UniRef90_A0A1S3K1P2 radixin-like isoform X1 n=1 Tax=Lingula ungu...    84   3e-14
+UniRef90_Q4V7Z2 MGC114910 protein n=8 Tax=Xenopus TaxID=262014 R...    84   3e-14
+UniRef90_F7AKT8 Moesin n=4 Tax=Tetrapoda TaxID=32523 RepID=F7AKT...    84   3e-14
+UniRef90_T1KRM2 Uncharacterized protein n=2 Tax=Tetranychus urti...    84   3e-14
+UniRef90_G5C2E0 Radixin n=3 Tax=Amniota TaxID=32524 RepID=G5C2E0...    84   3e-14
+UniRef90_A0A1I8MI21 Uncharacterized protein n=4 Tax=Calyptratae ...    84   3e-14
+UniRef90_A0A1S3K1V6 moesin/ezrin/radixin homolog 1-like n=1 Tax=...    84   3e-14
+UniRef90_H3AAE0 Ezrin n=2 Tax=Latimeria chalumnae TaxID=7897 Rep...    84   3e-14
+UniRef90_A0A0S7HIS4 MOES n=2 Tax=Cyprinodontoidei TaxID=8087 Rep...    84   3e-14
+UniRef90_UPI0009731BE1 radixin n=1 Tax=Esox lucius TaxID=8010 Re...    84   3e-14
+UniRef90_A0A085N028 Uncharacterized protein n=2 Tax=Trichuris su...    84   3e-14
+UniRef90_F6ZG18 Uncharacterized protein n=1 Tax=Ciona intestinal...    84   3e-14
+UniRef90_A0A0B6YY26 Uncharacterized protein (Fragment) n=1 Tax=A...    84   3e-14
+UniRef90_A0A1D5PY94 Moesin n=1 Tax=Gallus gallus TaxID=9031 RepI...    84   3e-14
+UniRef90_A0A0S7IGC9 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...    84   4e-14
+UniRef90_Q6DBY7 Ezr protein (Fragment) n=2 Tax=Cyprinidae TaxID=...    84   4e-14
+UniRef90_A0A0J7K9U1 Merlin isoform x1 (Fragment) n=1 Tax=Lasius ...    84   4e-14
+UniRef90_H0YX94 Moesin n=112 Tax=Amniota TaxID=32524 RepID=H0YX9...    84   4e-14
+UniRef90_A0A0P6FEA6 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...    84   4e-14
+UniRef90_Q6PKD3 RDX protein (Fragment) n=5 Tax=Tetrapoda TaxID=3...    84   4e-14
+UniRef90_Q24564 Moesin/ezrin/radixin homolog 2 n=28 Tax=Drosophi...    84   4e-14
+UniRef90_A0A1J1HR81 CLUMA_CG004286, isoform A n=2 Tax=Pancrustac...    84   4e-14
+UniRef90_Q45R39 Ezrin/radixin/moesin n=1 Tax=Aplysia californica...    84   4e-14
+UniRef90_P35241 Radixin n=264 Tax=Gnathostomata TaxID=35060 RepI...    84   4e-14
+UniRef90_A0A1U7TEB8 radixin isoform X3 n=3 Tax=Boreoeutheria Tax...    84   4e-14
+UniRef90_A0A0F8C8K1 Ezrin n=2 Tax=Larimichthys crocea TaxID=2153...    84   4e-14
+UniRef90_UPI00084A397D moesin/ezrin/radixin homolog 1-like isofo...    84   4e-14
+UniRef90_K7GIZ7 Ezrin n=8 Tax=Sauria TaxID=32561 RepID=K7GIZ7_PELSI    84   4e-14
+UniRef90_A0A1I8CMV0 Uncharacterized protein n=1 Tax=Rhabditophan...    84   5e-14
+UniRef90_A0A182YZP6 Uncharacterized protein n=2 Tax=Biomphalaria...    84   5e-14
+UniRef90_A0A0Q3PL13 Radixin n=1 Tax=Amazona aestiva TaxID=12930 ...    84   5e-14
+UniRef90_UPI00046CED40 moesin/ezrin/radixin homolog 1-like isofo...    84   5e-14
+UniRef90_A0A0P4X0A2 Ezrin-moesin-radixin-like protein (Fragment)...    84   5e-14
+UniRef90_H2Z109 Uncharacterized protein n=3 Tax=Ciona savignyi T...    84   5e-14
+UniRef90_T2MG47 Radixin n=2 Tax=Hydra vulgaris TaxID=6087 RepID=...    84   5e-14
+UniRef90_B0WM39 Merlin/moesin/ezrin/radixin n=16 Tax=Culicinae T...    83   5e-14
+UniRef90_A0A0G2K095 Radixin n=20 Tax=Euteleostomi TaxID=117571 R...    83   5e-14
+UniRef90_UPI0001CB9D69 radixin n=1 Tax=Saccoglossus kowalevskii ...    83   6e-14
+UniRef90_A0A090LH63 Moesin/ezrin/radixin homolog 1 n=4 Tax=Stron...    83   6e-14
+UniRef90_A0A0K2UFE4 Moesin/ezrin/radixin homolog 1like [Bombyx m...    83   6e-14
+UniRef90_UPI000854BA9B moesin isoform X1 n=2 Tax=Nanorana parker...    83   6e-14
+UniRef90_A0A1S3MS89 radixin-like isoform X1 n=3 Tax=Salmoninae T...    83   6e-14
+UniRef90_UPI0006B3A59D alpha-protein kinase 1-like n=1 Tax=Austr...    83   6e-14
+UniRef90_A0A131ZYS3 Moesin/ezrin/radixin-like protein 1-like pro...    83   6e-14
+UniRef90_A0A0P6EJZ2 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...    83   7e-14
+UniRef90_A0A077Z9Z6 FERM N domain containing protein n=1 Tax=Tri...    83   7e-14
+UniRef90_A0A1B0BCS9 Uncharacterized protein n=5 Tax=Glossina Tax...    83   7e-14
+UniRef90_UPI0009B44A53 ezrin n=1 Tax=Labrus bergylta TaxID=56723...    83   7e-14
+UniRef90_A0A0Q3MAQ5 Ezrin n=2 Tax=Neognathae TaxID=8825 RepID=A0...    83   8e-14
+UniRef90_A0A1X7V0F6 Uncharacterized protein n=1 Tax=Amphimedon q...    83   8e-14
+UniRef90_UPI000811746F moesin/ezrin/radixin homolog 1-like n=1 T...    83   8e-14
+UniRef90_A0A077ZEL8 Merlin:moesin:ezrin:radixin n=2 Tax=Trichuri...    83   9e-14
+UniRef90_A0A0R3PQ49 Uncharacterized protein n=1 Tax=Angiostrongy...    83   9e-14
+UniRef90_UPI000854339B ezrin isoform X1 n=2 Tax=Nanorana parkeri...    83   9e-14
+UniRef90_UPI00097CED72 radixin-like n=1 Tax=Paralichthys olivace...    83   9e-14
+UniRef90_UPI000643F9C3 ezrin n=1 Tax=Clupea harengus TaxID=7950 ...    83   9e-14
+UniRef90_A0A091M0A8 Radixin (Fragment) n=2 Tax=Euteleostomi TaxI...    82   9e-14
+UniRef90_A0A1I8ETU4 Uncharacterized protein n=1 Tax=Wuchereria b...    82   1e-13
+UniRef90_L5MAP7 Ezrin n=2 Tax=Laurasiatheria TaxID=314145 RepID=...    82   1e-13
+UniRef90_UPI000496BE65 ezrin-like n=1 Tax=Cynoglossus semilaevis...    82   1e-13
+UniRef90_UPI0009B3793B ezrin n=1 Tax=Monopterus albus TaxID=4370...    82   1e-13
+UniRef90_I3JFC5 Ezrin b n=9 Tax=Percomorphaceae TaxID=1489872 Re...    82   1e-13
+UniRef90_G1K046 Radixin (Fragment) n=1 Tax=Rhodnius prolixus Tax...    82   1e-13
+UniRef90_A0A0F5D2L2 Erm-1 n=1 Tax=Pristionchus pacificus TaxID=5...    82   1e-13
+UniRef90_UPI00097D8305 ezrin-like n=1 Tax=Paralichthys olivaceus...    82   1e-13
+UniRef90_A0A0K0J3J0 BMA-ERM-1 n=11 Tax=Spirurida TaxID=6274 RepI...    82   1e-13
+UniRef90_P52962 Moesin n=1 Tax=Lytechinus variegatus TaxID=7654 ...    82   1e-13
+UniRef90_C3XTM6 Uncharacterized protein (Fragment) n=1 Tax=Branc...    82   1e-13
+UniRef90_G1NWP5 Uncharacterized protein n=3 Tax=Myotis TaxID=943...    82   1e-13
+UniRef90_UPI0006B3A2FB ezrin isoform X1 n=2 Tax=Rivulidae TaxID=...    82   1e-13
+UniRef90_L9K085 Ezrin n=2 Tax=Boreoeutheria TaxID=1437010 RepID=...    82   1e-13
+UniRef90_UPI000A1C5CA2 ezrin-like n=1 Tax=Boleophthalmus pectini...    82   1e-13
+UniRef90_A0A0N4WXU3 Uncharacterized protein n=1 Tax=Haemonchus p...    82   1e-13
+UniRef90_G3P6K2 Ezrin b n=1 Tax=Gasterosteus aculeatus TaxID=692...    82   1e-13
+UniRef90_A0A1I8I2Z4 Uncharacterized protein n=2 Tax=Macrostomum ...    82   1e-13
+UniRef90_Q6AX84 MGC82058 protein n=3 Tax=Xenopus TaxID=262014 Re...    82   1e-13
+UniRef90_M4ASN9 Ezrin b n=6 Tax=Cyprinodontoidei TaxID=8087 RepI...    82   2e-13
+UniRef90_W5NHV7 Ezrin b n=2 Tax=Lepisosteus oculatus TaxID=7918 ...    82   2e-13
+UniRef90_Q7PS12 Moesin/ezrin/radixin homolog 1 n=21 Tax=Culicoid...    82   2e-13
+UniRef90_A0A0D8Y921 Ezrin/radixin/moesin family protein n=1 Tax=...    82   2e-13
+UniRef90_S9XA25 Ezrin isoform 5-like protein (Fragment) n=1 Tax=...    82   2e-13
+UniRef90_UPI0008FA17F8 ezrin-like n=1 Tax=Cyprinus carpio TaxID=...    82   2e-13
+UniRef90_A0A0S7GQK3 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...    82   2e-13
+UniRef90_A0A182VK54 Uncharacterized protein n=3 Tax=Cellia TaxID...    82   2e-13
+UniRef90_Q7PS12-3 Isoform B of Moesin/ezrin/radixin homolog 1 n=...    82   2e-13
+UniRef90_G3W6E8 Ezrin n=1 Tax=Sarcophilus harrisii TaxID=9305 Re...    82   2e-13
+UniRef90_UPI00071E1E78 moesin-like n=1 Tax=Octopus bimaculoides ...    82   2e-13
+UniRef90_W4YSB8 Uncharacterized protein n=1 Tax=Strongylocentrot...    82   2e-13
+UniRef90_A0A1I7Y0S3 Uncharacterized protein n=2 Tax=Steinernema ...    81   2e-13
+UniRef90_A0A1S3M923 ezrin n=12 Tax=Protacanthopterygii TaxID=417...    81   2e-13
+UniRef90_A0A0N8EDX7 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...    81   2e-13
+UniRef90_I3IVA3 Ezrin a n=5 Tax=Pseudocrenilabrinae TaxID=318546...    81   2e-13
+UniRef90_UPI0005EF28BD moesin/ezrin/radixin homolog 2-like n=1 T...    81   2e-13
+UniRef90_F7DG77 Ezrin n=8 Tax=Euarchontoglires TaxID=314146 RepI...    81   2e-13
+UniRef90_A0A1A7XR63 Moesin b (Fragment) n=1 Tax=Aphyosemion stri...    81   3e-13
+UniRef90_A0A1B0CK50 Uncharacterized protein n=2 Tax=Phlebotomina...    81   3e-13
+UniRef90_H2MV92 Ezrin a n=2 Tax=Oryzias latipes TaxID=8090 RepID...    81   3e-13
+UniRef90_J7M2B1 Tyrosine-protein kinase receptor n=4 Tax=Boreoeu...    81   3e-13
+UniRef90_A0A1W4Y9C9 ezrin-like n=1 Tax=Scleropages formosus TaxI...    81   3e-13
+UniRef90_A0A0N4U7I1 Uncharacterized protein n=1 Tax=Dracunculus ...    81   3e-13
+UniRef90_M3W8S0 Ezrin n=5 Tax=Boreoeutheria TaxID=1437010 RepID=...    81   3e-13
+UniRef90_P31976 Ezrin n=232 Tax=Bilateria TaxID=33213 RepID=EZRI...    81   3e-13
+UniRef90_A0A183C1Y1 Uncharacterized protein n=1 Tax=Globodera pa...    81   3e-13
+UniRef90_V9KAM1 Ezrin n=2 Tax=Callorhinchus milii TaxID=7868 Rep...    81   3e-13
+UniRef90_W8C9W2 Moesin/ezrin/radixin-2 n=8 Tax=Tephritidae TaxID...    81   3e-13
+UniRef90_A0A087XKR8 Moesin b n=9 Tax=Percomorphaceae TaxID=14898...    81   3e-13
+UniRef90_A0A147A135 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...    81   3e-13
+UniRef90_A0A183HZ58 Uncharacterized protein n=1 Tax=Onchocerca f...    80   4e-13
+UniRef90_A0A182ZPG1 Uncharacterized protein n=1 Tax=Biomphalaria...    80   4e-13
+UniRef90_A0A1I7SSX8 Uncharacterized protein n=1 Tax=Bursaphelenc...    80   4e-13
+UniRef90_G1P9M5 Ezrin n=1 Tax=Myotis lucifugus TaxID=59463 RepID...    80   4e-13
+UniRef90_UPI0006446336 ezrin-like isoform X1 n=2 Tax=Clupea hare...    80   4e-13
+UniRef90_A9URX5 Predicted protein n=1 Tax=Monosiga brevicollis T...    80   4e-13
+UniRef90_W5UJG3 Ezrin n=1 Tax=Ictalurus punctatus TaxID=7998 Rep...    80   4e-13
+UniRef90_H3D2P3 Moesin a n=2 Tax=Tetraodon nigroviridis TaxID=99...    80   5e-13
+UniRef90_A7RWH0 Predicted protein n=1 Tax=Nematostella vectensis...    80   5e-13
+UniRef90_H2V8I2 Ezrin b n=2 Tax=Takifugu rubripes TaxID=31033 Re...    80   5e-13
+UniRef90_G3NNC4 Ezrin a n=1 Tax=Gasterosteus aculeatus TaxID=692...    80   5e-13
+UniRef90_UPI0008758ACC ezrin-like n=1 Tax=Lates calcarifer TaxID...    80   5e-13
+UniRef90_U3IY96 Ezrin n=11 Tax=Sauria TaxID=32561 RepID=U3IY96_A...    80   6e-13
+UniRef90_T1K990 Uncharacterized protein n=2 Tax=Tetranychus urti...    80   6e-13
+UniRef90_UPI00094E2AE4 ezrin-like n=1 Tax=Hippocampus comes TaxI...    80   6e-13
+UniRef90_G5EBK3 ERM-1B n=10 Tax=Caenorhabditis TaxID=6237 RepID=...    80   6e-13
+UniRef90_A0A0L8HU31 Uncharacterized protein n=1 Tax=Octopus bima...    80   6e-13
+UniRef90_A0A1I7X6C6 Uncharacterized protein n=1 Tax=Heterorhabdi...    80   7e-13
+UniRef90_UPI0008FA7C34 LOW QUALITY PROTEIN: ezrin-like n=8 Tax=C...    80   7e-13
+UniRef90_A7SXF9 Predicted protein n=1 Tax=Nematostella vectensis...    80   7e-13
+UniRef90_A0A0F5D4B6 Uncharacterized protein (Fragment) n=1 Tax=P...    79   8e-13
+UniRef90_A0A1I8J2Y3 Uncharacterized protein n=3 Tax=Macrostomum ...    79   8e-13
+UniRef90_J9EQ85 Nf2 protein (Fragment) n=1 Tax=Wuchereria bancro...    79   8e-13
+UniRef90_A0A1Y3ETX1 FERM PH-like domain protein n=1 Tax=Trichine...    79   8e-13
+UniRef90_UPI000A1C1B8C ezrin-like n=1 Tax=Boleophthalmus pectini...    79   8e-13
+UniRef90_A0A1Y3EPH8 FERM PH-like domain protein n=1 Tax=Trichine...    79   8e-13
+UniRef90_A4F2N4 Mt-ezrin/radixin/moesin (Fragment) n=1 Tax=Molgu...    79   8e-13
+UniRef90_A0A0V1KTX9 Moesin/ezrin/radixin-like protein 1 n=3 Tax=...    79   9e-13
+UniRef90_W5K4K6 Ezrin a n=2 Tax=Characoidei TaxID=1489739 RepID=...    79   9e-13
+UniRef90_H2M9I6 Ezrin b n=2 Tax=Oryzias latipes TaxID=8090 RepID...    79   9e-13
+UniRef90_UPI0009B4BE4A LOW QUALITY PROTEIN: ezrin-like n=1 Tax=M...    79   1e-12
+UniRef90_A0A0V1ETZ7 Merlin n=2 Tax=Trichinella pseudospiralis Ta...    79   1e-12
+UniRef90_UPI00076FB358 moesin/ezrin/radixin homolog 1 isoform X1...    79   1e-12
+UniRef90_A0A0V1N5F5 Merlin n=2 Tax=Trichinella TaxID=6333 RepID=...    79   1e-12
+UniRef90_A0A151M299 Uncharacterized protein n=1 Tax=Alligator mi...    79   1e-12
+UniRef90_A0A0V1EU77 Merlin n=5 Tax=Trichinella TaxID=6333 RepID=...    79   1e-12
+UniRef90_W5L1D8 Moesin b n=10 Tax=Otophysi TaxID=186626 RepID=W5...    79   1e-12
+UniRef90_UPI00081491D7 moesin-like isoform X3 n=1 Tax=Pygocentru...    79   1e-12
+UniRef90_UPI00077B228F moesin-like n=1 Tax=Acropora digitifera T...    79   1e-12
+UniRef90_G3NND3 Ezrin a n=1 Tax=Gasterosteus aculeatus TaxID=692...    79   1e-12
+UniRef90_G9L0K5 Ezrin (Fragment) n=4 Tax=Laurasiatheria TaxID=31...    79   1e-12
+UniRef90_H2WBW8 Uncharacterized protein n=1 Tax=Caenorhabditis j...    79   1e-12
+UniRef90_A0A0V1HV53 Merlin n=5 Tax=Trichinella TaxID=6333 RepID=...    79   1e-12
+UniRef90_A0A0V1KYN3 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...    79   1e-12
+UniRef90_A0A0V1HUW0 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...    79   1e-12
+UniRef90_A0A1W4YX74 moesin-like isoform X1 n=3 Tax=Scleropages f...    79   1e-12
+UniRef90_A0A0V1KZH7 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...    79   1e-12
+UniRef90_A0A1W4YWV4 moesin-like isoform X3 n=1 Tax=Scleropages f...    79   1e-12
+UniRef90_A0A1D2NEW2 Moesin/ezrin/radixin 1 n=1 Tax=Orchesella ci...    79   1e-12
+UniRef90_U6DQU1 Ezrin (Fragment) n=2 Tax=Laurasiatheria TaxID=31...    79   1e-12
+UniRef90_Q503E6 Ezrin a n=6 Tax=Cyprinidae TaxID=7953 RepID=Q503...    79   2e-12
+UniRef90_H2V8I3 Ezrin b n=1 Tax=Takifugu rubripes TaxID=31033 Re...    79   2e-12
+UniRef90_A0A0V0YN76 Merlin n=1 Tax=Trichinella pseudospiralis Ta...    79   2e-12
+UniRef90_A0A0N5AKM5 Uncharacterized protein n=1 Tax=Syphacia mur...    79   2e-12
+UniRef90_A0A1I8GCG6 Uncharacterized protein n=1 Tax=Macrostomum ...    78   2e-12
+UniRef90_A0A0V0YN71 Merlin n=6 Tax=Trichinella TaxID=6333 RepID=...    78   2e-12
+UniRef90_E3LWN6 CRE-NFM-1 protein n=1 Tax=Caenorhabditis remanei...    78   2e-12
+UniRef90_UPI00002204A7 C. briggsae CBR-ERM-1 protein n=1 Tax=Cae...    78   2e-12
+UniRef90_E7F638 Moesin b n=7 Tax=Cyprinidae TaxID=7953 RepID=E7F...    78   2e-12
+UniRef90_A0A1X7VJU9 Uncharacterized protein n=1 Tax=Amphimedon q...    78   2e-12
+UniRef90_A8XZG8 Protein CBR-NFM-1 n=1 Tax=Caenorhabditis briggsa...    78   2e-12
+UniRef90_A0A1I7TEY2 Uncharacterized protein n=2 Tax=Caenorhabdit...    78   2e-12
+UniRef90_Q7SZ62 Ezrl protein (Fragment) n=2 Tax=Cyprinidae TaxID...    78   2e-12
+UniRef90_A0A1A8LGK1 Ezrin b n=11 Tax=Nothobranchiidae TaxID=4050...    78   2e-12
+UniRef90_A0A0V0WMR0 Merlin n=2 Tax=Trichinella TaxID=6333 RepID=...    78   2e-12
+UniRef90_A0A0S7HKL6 EZRI n=1 Tax=Poeciliopsis prolifica TaxID=18...    78   2e-12
+UniRef90_A4F2N5 Mt-merlin n=1 Tax=Molgula tectiformis TaxID=3028...    78   2e-12
+UniRef90_F7D1B8 Moesin n=2 Tax=Monodelphis domestica TaxID=13616...    78   2e-12
+UniRef90_UPI0005CF3F05 moesin/ezrin/radixin homolog 1 isoform X1...    78   2e-12
+UniRef90_UPI0006B30A74 moesin-like isoform X1 n=4 Tax=Cyprinodon...    78   2e-12
+UniRef90_A0A0V0UI27 Merlin n=5 Tax=Trichinella TaxID=6333 RepID=...    78   2e-12
+UniRef90_H3FV46 Uncharacterized protein n=1 Tax=Pristionchus pac...    78   2e-12
+UniRef90_A0A0V0SCL1 Merlin n=7 Tax=Trichinella TaxID=6333 RepID=...    78   2e-12
+UniRef90_A0A0V0SCK0 Merlin n=1 Tax=Trichinella nelsoni TaxID=633...    78   2e-12
+UniRef90_A0A016S660 Uncharacterized protein n=3 Tax=Ancylostoma ...    78   2e-12
+UniRef90_UPI00094E0E43 ezrin-like n=1 Tax=Hippocampus comes TaxI...    78   2e-12
+UniRef90_A8E569 Ezrl protein (Fragment) n=1 Tax=Danio rerio TaxI...    78   3e-12
+UniRef90_N6TVQ5 Uncharacterized protein (Fragment) n=3 Tax=Dendr...    78   3e-12
+UniRef90_A0A0V0SCI2 Merlin n=4 Tax=Trichinella nelsoni TaxID=633...    78   3e-12
+UniRef90_A0A0V1HVN0 Merlin n=1 Tax=Trichinella zimbabwensis TaxI...    78   3e-12
+UniRef90_F2UG77 Moesin n=1 Tax=Salpingoeca rosetta (strain ATCC ...    78   3e-12
+UniRef90_A0A0V1EU12 Moesin/ezrin/radixin-like protein 2 n=1 Tax=...    77   3e-12
+UniRef90_M4AMR3 Uncharacterized protein n=1 Tax=Xiphophorus macu...    77   3e-12
+UniRef90_A0A0N5C2D8 Uncharacterized protein n=2 Tax=Strongyloide...    77   3e-12
+UniRef90_UPI0004971E0A ezrin-like n=1 Tax=Stegastes partitus Tax...    77   3e-12
+UniRef90_UPI0003832B7A LOW QUALITY PROTEIN: moesin-like n=1 Tax=...    77   4e-12
+UniRef90_A0A0S7HLF5 EZRI (Fragment) n=1 Tax=Poeciliopsis prolifi...    77   4e-12
+UniRef90_Q4RT99 Chromosome 1 SCAF14998, whole genome shotgun seq...    77   4e-12
+UniRef90_H2SLQ8 Moesin b n=3 Tax=Tetraodontidae TaxID=31031 RepI...    77   4e-12
+UniRef90_A0A1S3RQX9 moesin-like n=3 Tax=Protacanthopterygii TaxI...    77   4e-12
+UniRef90_B3RY21 Uncharacterized protein (Fragment) n=1 Tax=Trich...    77   5e-12
+UniRef90_UPI0007AD160A radixin-like isoform X4 n=1 Tax=Sinocyclo...    77   5e-12
+UniRef90_H3DG58 Ezrin b n=2 Tax=Tetraodon nigroviridis TaxID=998...    77   5e-12
+UniRef90_A0A1I7Z9R0 Uncharacterized protein n=1 Tax=Steinernema ...    77   5e-12
+UniRef90_A0A0S7HFW7 EZRI (Fragment) n=2 Tax=Poeciliopsis prolifi...    77   6e-12
+
+>UniRef90_G1Q1C2 Neurofibromin 2 n=1 Tax=Myotis lucifugus TaxID=59463
+          RepID=G1Q1C2_MYOLU
+          Length = 608
+
+ Score =  172 bits (436), Expect = 7e-41,   Method: Composition-based stats.
+ Identities = 77/78 (98%), Positives = 77/78 (98%)
+
+Query: 1  TFTVRIVTMDAEMEFNCEMKWKGKDLFDLVCRTLGLRETWFFGLQYTIKDTVAWLKMDKK 60
+          TFTVRIVTMDAEMEFNCEMKWKGKDLFDLVCRTLGLRETWFFGLQYTIKDTVAWLK DKK
+Sbjct: 21 TFTVRIVTMDAEMEFNCEMKWKGKDLFDLVCRTLGLRETWFFGLQYTIKDTVAWLKTDKK 80
+
+Query: 61 VLDHDVSKEEPVTFHFLA 78
+          VLDHDVSKEEPVTFHFLA
+Sbjct: 81 VLDHDVSKEEPVTFHFLA 98
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A0P7WVX6 Radixin-like (Fragment) n=1 Tax=Scleropages ...   160   4e-37
+UniRef90_A0A085NSY6 Uncharacterized protein n=1 Tax=Trichuris su...   159   7e-37
+UniRef90_G1Q1C2 Neurofibromin 2 n=1 Tax=Myotis lucifugus TaxID=5...   158   8e-37
+UniRef90_UPI0006D70D12 LOW QUALITY PROTEIN: merlin n=1 Tax=Myoti...   158   1e-36
+UniRef90_A0A0P5TBG1 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   157   2e-36
+UniRef90_L9K085 Ezrin n=2 Tax=Boreoeutheria TaxID=1437010 RepID=...   157   2e-36
+UniRef90_A0A0P7U2U5 Ezrin-like n=1 Tax=Scleropages formosus TaxI...   157   2e-36
+UniRef90_S7NLC0 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 RepI...   157   2e-36
+UniRef90_Q4RTN2 Chromosome 2 SCAF14997, whole genome shotgun seq...   157   2e-36
+UniRef90_W5P4J2 Neurofibromin 2 n=2 Tax=Cetartiodactyla TaxID=91...   157   3e-36
+UniRef90_L5MAP7 Ezrin n=2 Tax=Laurasiatheria TaxID=314145 RepID=...   157   4e-36
+UniRef90_H3DE15 Radixin n=1 Tax=Tetraodon nigroviridis TaxID=998...   156   4e-36
+UniRef90_G1NWP5 Uncharacterized protein n=3 Tax=Myotis TaxID=943...   156   5e-36
+UniRef90_A0A0F8C8K1 Ezrin n=2 Tax=Larimichthys crocea TaxID=2153...   156   5e-36
+UniRef90_UPI00083BB0C2 LOW QUALITY PROTEIN: merlin n=1 Tax=Rhino...   156   5e-36
+UniRef90_S9XA25 Ezrin isoform 5-like protein (Fragment) n=1 Tax=...   156   5e-36
+UniRef90_H2R2J1 Neurofibromin 2 n=7 Tax=Amniota TaxID=32524 RepI...   156   5e-36
+UniRef90_A0A091CZF1 Merlin n=3 Tax=Euarchontoglires TaxID=314146...   156   6e-36
+UniRef90_UPI0005401FCE merlin isoform X2 n=5 Tax=Theria TaxID=72...   156   6e-36
+UniRef90_F7DG77 Ezrin n=8 Tax=Euarchontoglires TaxID=314146 RepI...   156   6e-36
+UniRef90_G3W6E8 Ezrin n=1 Tax=Sarcophilus harrisii TaxID=9305 Re...   156   6e-36
+UniRef90_W5MXQ3 Radixin n=1 Tax=Lepisosteus oculatus TaxID=7918 ...   156   7e-36
+UniRef90_I3JFC5 Ezrin b n=9 Tax=Percomorphaceae TaxID=1489872 Re...   156   7e-36
+UniRef90_A0A0F8AIW6 Radixin n=26 Tax=Euteleosteomorpha TaxID=148...   155   7e-36
+UniRef90_A0A085MCW7 Uncharacterized protein n=1 Tax=Trichuris su...   155   8e-36
+UniRef90_UPI00097DDFED radixin isoform X1 n=1 Tax=Paralichthys o...   155   9e-36
+UniRef90_M3W8S0 Ezrin n=5 Tax=Boreoeutheria TaxID=1437010 RepID=...   155   9e-36
+UniRef90_J7M2B1 Tyrosine-protein kinase receptor n=4 Tax=Boreoeu...   155   1e-35
+UniRef90_W5P4R1 Moesin n=5 Tax=Eutheria TaxID=9347 RepID=W5P4R1_...   155   1e-35
+UniRef90_P31976 Ezrin n=232 Tax=Bilateria TaxID=33213 RepID=EZRI...   155   1e-35
+UniRef90_U3KDS7 Ezrin n=4 Tax=Neognathae TaxID=8825 RepID=U3KDS7...   155   1e-35
+UniRef90_A0A0P4Z1U9 Ezrin-moesin-radixin n=12 Tax=Daphnia magna ...   155   1e-35
+UniRef90_P35240-8 Isoform 8 of Merlin n=8 Tax=Eutheria TaxID=934...   155   1e-35
+UniRef90_A0A1W4Z675 ezrin-like n=1 Tax=Scleropages formosus TaxI...   155   1e-35
+UniRef90_UPI00084A397D moesin/ezrin/radixin homolog 1-like isofo...   155   1e-35
+UniRef90_A0A0P5Y060 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   155   1e-35
+UniRef90_UPI000440B75F radixin n=1 Tax=Astyanax mexicanus TaxID=...   155   2e-35
+UniRef90_A0A1D1VD02 Uncharacterized protein n=1 Tax=Ramazzottius...   154   2e-35
+UniRef90_A0A0P5ULS8 Ezrin-moesin-radixin n=4 Tax=Daphnia magna T...   154   2e-35
+UniRef90_A0A1S3K1P2 radixin-like isoform X1 n=1 Tax=Lingula ungu...   154   2e-35
+UniRef90_W5KCX5 Radixin n=1 Tax=Astyanax mexicanus TaxID=7994 Re...   154   2e-35
+UniRef90_Q6AZJ7 Nf2-prov protein n=13 Tax=Tetrapoda TaxID=32523 ...   154   2e-35
+UniRef90_H2LLJ0 Radixin n=1 Tax=Oryzias latipes TaxID=8090 RepID...   154   2e-35
+UniRef90_K1PUJ1 Radixin n=4 Tax=Crassostrea gigas TaxID=29159 Re...   154   2e-35
+UniRef90_Q6AX84 MGC82058 protein n=3 Tax=Xenopus TaxID=262014 Re...   154   2e-35
+UniRef90_UPI0009479235 radixin-like isoform X1 n=3 Tax=Branchios...   154   2e-35
+UniRef90_A0A091CTA4 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 ...   154   2e-35
+UniRef90_P35240 Merlin n=165 Tax=Amniota TaxID=32524 RepID=MERL_...   154   2e-35
+UniRef90_UPI000643F9C3 ezrin n=1 Tax=Clupea harengus TaxID=7950 ...   154   2e-35
+UniRef90_A0A0P4W4C3 Uncharacterized protein n=2 Tax=Scylla oliva...   154   2e-35
+UniRef90_A0A146XR37 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   154   2e-35
+UniRef90_A0A023FS50 Putative moesin/ezrin/radixin protein 1 n=9 ...   153   3e-35
+UniRef90_A0A0P5RAU7 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   153   3e-35
+UniRef90_A0A0P4YYP4 Ezrin-moesin-radixin (Fragment) n=2 Tax=Daph...   153   3e-35
+UniRef90_A0A1W7RA68 Moesin/ezrin/radixin homolog 1 n=1 Tax=Hadru...   153   3e-35
+UniRef90_A0A0P5L9J3 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   153   3e-35
+UniRef90_Q5TZG5 Ezrin n=2 Tax=Danio rerio TaxID=7955 RepID=Q5TZG...   153   3e-35
+UniRef90_UPI000719D2E2 moesin/ezrin/radixin homolog 1-like n=1 T...   153   3e-35
+UniRef90_UPI0009B44A53 ezrin n=1 Tax=Labrus bergylta TaxID=56723...   153   3e-35
+UniRef90_A0A1S3MS89 radixin-like isoform X1 n=3 Tax=Salmoninae T...   153   4e-35
+UniRef90_G3QMH6 Neurofibromin 2 n=10 Tax=Theria TaxID=722675 Rep...   153   4e-35
+UniRef90_A0A1S3K1V6 moesin/ezrin/radixin homolog 1-like n=1 Tax=...   153   4e-35
+UniRef90_P35241 Radixin n=264 Tax=Gnathostomata TaxID=35060 RepI...   153   4e-35
+UniRef90_G5C2E0 Radixin n=3 Tax=Amniota TaxID=32524 RepID=G5C2E0...   153   4e-35
+UniRef90_UPI0009B3793B ezrin n=1 Tax=Monopterus albus TaxID=4370...   153   4e-35
+UniRef90_A0A131ZYS3 Moesin/ezrin/radixin-like protein 1-like pro...   153   4e-35
+UniRef90_A0A0N8BFK6 Ezrin-moesin-radixin n=2 Tax=Daphnia magna T...   153   4e-35
+UniRef90_A0A0P6HX80 Ezrin-moesin-radixin n=29 Tax=Daphnia TaxID=...   153   5e-35
+UniRef90_UPI00073FBD36 radixin n=1 Tax=Lepisosteus oculatus TaxI...   153   5e-35
+UniRef90_K7GIZ7 Ezrin n=8 Tax=Sauria TaxID=32561 RepID=K7GIZ7_PELSI   153   5e-35
+UniRef90_P35240-7 Isoform 7 of Merlin n=3 Tax=Euarchontoglires T...   153   5e-35
+UniRef90_UPI0009A3D4A3 radixin-like n=2 Tax=Rhincodon typus TaxI...   153   5e-35
+UniRef90_R7UYN1 Uncharacterized protein (Fragment) n=1 Tax=Capit...   153   5e-35
+UniRef90_A0A1S3M923 ezrin n=12 Tax=Protacanthopterygii TaxID=417...   153   5e-35
+UniRef90_A0A0P5XDR0 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   153   5e-35
+UniRef90_UPI000854339B ezrin isoform X1 n=2 Tax=Nanorana parkeri...   153   6e-35
+UniRef90_Q45R39 Ezrin/radixin/moesin n=1 Tax=Aplysia californica...   153   6e-35
+UniRef90_A0A0P5DZZ6 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   152   6e-35
+UniRef90_A0A0N5DYR3 Uncharacterized protein n=2 Tax=Trichuris Ta...   152   6e-35
+UniRef90_P46662 Merlin n=178 Tax=Amniota TaxID=32524 RepID=MERL_...   152   6e-35
+UniRef90_A0A0P5D2Z1 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   152   6e-35
+UniRef90_H2LZD9 Radixin n=70 Tax=Euteleostomi TaxID=117571 RepID...   152   7e-35
+UniRef90_A0A1U7TEB8 radixin isoform X3 n=3 Tax=Boreoeutheria Tax...   152   7e-35
+UniRef90_UPI0001CB9D69 radixin n=1 Tax=Saccoglossus kowalevskii ...   152   7e-35
+UniRef90_A0A0P5STV9 Putative Ezrin-moesin-radixin n=2 Tax=Daphni...   152   8e-35
+UniRef90_M3XLH4 Neurofibromin 2 n=4 Tax=Latimeria chalumnae TaxI...   152   8e-35
+UniRef90_I3K4Z0 Moesin a n=42 Tax=Osteoglossocephalai TaxID=1489...   152   8e-35
+UniRef90_UPI00084666D0 merlin isoform X2 n=1 Tax=Xenopus tropica...   152   8e-35
+UniRef90_A0A0Q3MAQ5 Ezrin n=2 Tax=Neognathae TaxID=8825 RepID=A0...   152   9e-35
+UniRef90_A0A0P5TJS9 Ezrin-moesin-radixin (Fragment) n=12 Tax=Dap...   152   9e-35
+UniRef90_A0A0Q3PL13 Radixin n=1 Tax=Amazona aestiva TaxID=12930 ...   152   9e-35
+UniRef90_Q99K59 Nf2 protein n=8 Tax=Euarchontoglires TaxID=31414...   152   1e-34
+UniRef90_A0A0N8BSZ8 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   152   1e-34
+UniRef90_T1ILC8 Uncharacterized protein n=1 Tax=Strigamia mariti...   152   1e-34
+UniRef90_W5NHV7 Ezrin b n=2 Tax=Lepisosteus oculatus TaxID=7918 ...   152   1e-34
+UniRef90_A0A0V1FWG4 Moesin/ezrin/radixin-like protein 1 n=3 Tax=...   152   1e-34
+UniRef90_Q6PKD3 RDX protein (Fragment) n=5 Tax=Tetrapoda TaxID=3...   152   1e-34
+UniRef90_A0A0V1E9P6 Moesin/ezrin/radixin-like protein 1 (Fragmen...   152   1e-34
+UniRef90_A0A0B7BDF9 Uncharacterized protein n=1 Tax=Arion vulgar...   152   1e-34
+UniRef90_B7Q5K4 Radixin, moesin, putative n=5 Tax=Bilateria TaxI...   152   1e-34
+UniRef90_UPI000811746F moesin/ezrin/radixin homolog 1-like n=1 T...   152   1e-34
+UniRef90_Q6DBY7 Ezr protein (Fragment) n=2 Tax=Cyprinidae TaxID=...   152   1e-34
+UniRef90_UPI0006B0A553 moesin/ezrin/radixin homolog 1-like n=2 T...   152   1e-34
+UniRef90_A0A0S7GW01 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   152   1e-34
+UniRef90_A0A0D8Y921 Ezrin/radixin/moesin family protein n=1 Tax=...   151   1e-34
+UniRef90_P26038 Moesin n=139 Tax=Bilateria TaxID=33213 RepID=MOE...   151   1e-34
+UniRef90_A0A0V1BB96 Moesin/ezrin/radixin-like protein 1 n=13 Tax...   151   1e-34
+UniRef90_UPI0009E34314 radixin-like n=1 Tax=Orbicella faveolata ...   151   1e-34
+UniRef90_A0A0G2K095 Radixin n=20 Tax=Euteleostomi TaxID=117571 R...   151   1e-34
+UniRef90_A0A0P5TWF8 Putative Ezrin-moesin-radixin n=1 Tax=Daphni...   151   1e-34
+UniRef90_UPI00046BC844 merlin n=1 Tax=Eptesicus fuscus TaxID=290...   151   2e-34
+UniRef90_A0A0F5D2L2 Erm-1 n=1 Tax=Pristionchus pacificus TaxID=5...   151   2e-34
+UniRef90_A0A218V1S5 Merlin n=1 Tax=Lonchura striata domestica Ta...   151   2e-34
+UniRef90_A0A0S7GQK3 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   151   2e-34
+UniRef90_UPI0006D8DF83 moesin n=1 Tax=Latimeria chalumnae TaxID=...   151   2e-34
+UniRef90_A0A0P7V0K8 Moesin-like n=1 Tax=Scleropages formosus Tax...   151   2e-34
+UniRef90_UPI000A1C5CA2 ezrin-like n=1 Tax=Boleophthalmus pectini...   151   2e-34
+UniRef90_A0A087TC60 Radixin (Fragment) n=1 Tax=Stegodyphus mimos...   151   2e-34
+UniRef90_A0A0N4WXU3 Uncharacterized protein n=1 Tax=Haemonchus p...   151   2e-34
+UniRef90_A0A182YZP6 Uncharacterized protein n=2 Tax=Biomphalaria...   151   2e-34
+UniRef90_Q66I42 Moesin a n=17 Tax=Neopterygii TaxID=41665 RepID=...   150   2e-34
+UniRef90_H3AAE0 Ezrin n=2 Tax=Latimeria chalumnae TaxID=7897 Rep...   150   2e-34
+UniRef90_UPI0009731BE1 radixin n=1 Tax=Esox lucius TaxID=8010 Re...   150   2e-34
+UniRef90_A0A0P5RJ99 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   150   2e-34
+UniRef90_A0A0P5X9T9 Ezrin-moesin-radixin n=2 Tax=Daphnia magna T...   150   2e-34
+UniRef90_Q4V7Z2 MGC114910 protein n=8 Tax=Xenopus TaxID=262014 R...   150   3e-34
+UniRef90_A0A0P5KP32 Putative Ezrin-moesin-radixin n=1 Tax=Daphni...   150   3e-34
+UniRef90_G1P9M5 Ezrin n=1 Tax=Myotis lucifugus TaxID=59463 RepID...   150   3e-34
+UniRef90_A0A091M0A8 Radixin (Fragment) n=2 Tax=Euteleostomi TaxI...   150   3e-34
+UniRef90_G3P6K2 Ezrin b n=1 Tax=Gasterosteus aculeatus TaxID=692...   150   3e-34
+UniRef90_H2SPE5 Radixin n=3 Tax=Tetraodontidae TaxID=31031 RepID...   150   3e-34
+UniRef90_A0A1U7SCR3 merlin-like isoform X1 n=10 Tax=Archelosauri...   150   3e-34
+UniRef90_E7D1A4 Putative radixin (Fragment) n=2 Tax=Theridiidae ...   150   3e-34
+UniRef90_G9L0K5 Ezrin (Fragment) n=4 Tax=Laurasiatheria TaxID=31...   150   4e-34
+UniRef90_UPI00097CED72 radixin-like n=1 Tax=Paralichthys olivace...   150   4e-34
+UniRef90_V3ZSA7 Uncharacterized protein (Fragment) n=1 Tax=Lotti...   150   4e-34
+UniRef90_A0A1B6EHS6 Uncharacterized protein n=8 Tax=Cicadomorpha...   150   4e-34
+UniRef90_M4ASN9 Ezrin b n=6 Tax=Cyprinodontoidei TaxID=8087 RepI...   150   4e-34
+UniRef90_C3XTM6 Uncharacterized protein (Fragment) n=1 Tax=Branc...   150   4e-34
+UniRef90_H0ZJP3 Neurofibromin 2 n=1 Tax=Taeniopygia guttata TaxI...   150   5e-34
+UniRef90_UPI00083C5BB5 moesin/ezrin/radixin homolog 1 isoform X1...   150   5e-34
+UniRef90_A0A0N4ZP34 Uncharacterized protein n=1 Tax=Parastrongyl...   149   5e-34
+UniRef90_A0A0N8AM14 Ezrin-moesin-radixin-like protein n=1 Tax=Da...   149   5e-34
+UniRef90_A0A0U3SXA5 Moesin ezrin radixin 1-like protein isoform ...   149   5e-34
+UniRef90_Q5F347 Moesin n=2 Tax=Phasianidae TaxID=9005 RepID=Q5F3...   149   5e-34
+UniRef90_A0A0B7BF17 Uncharacterized protein n=1 Tax=Arion vulgar...   149   5e-34
+UniRef90_UPI0003C4A652 merlin isoform X3 n=1 Tax=Pelodiscus sine...   149   5e-34
+UniRef90_H0YX94 Moesin n=112 Tax=Amniota TaxID=32524 RepID=H0YX9...   149   5e-34
+UniRef90_UPI0008F9AD30 moesin/ezrin/radixin homolog 1 isoform X1...   149   6e-34
+UniRef90_UPI0002B40DE2 merlin n=1 Tax=Taeniopygia guttata TaxID=...   149   6e-34
+UniRef90_UPI0004571456 merlin n=1 Tax=Callorhinchus milii TaxID=...   149   6e-34
+UniRef90_A0A0K2UFE4 Moesin/ezrin/radixin homolog 1like [Bombyx m...   149   6e-34
+UniRef90_A0A210QE57 Radixin n=1 Tax=Mizuhopecten yessoensis TaxI...   149   7e-34
+UniRef90_UPI0008FA7C34 LOW QUALITY PROTEIN: ezrin-like n=8 Tax=C...   149   7e-34
+UniRef90_Q29GR8 Moesin/ezrin/radixin homolog 1 n=50 Tax=Brachyce...   149   7e-34
+UniRef90_H2V8I2 Ezrin b n=2 Tax=Takifugu rubripes TaxID=31033 Re...   149   7e-34
+UniRef90_UPI00046C3950 merlin-like isoform X3 n=1 Tax=Chrysemys ...   149   7e-34
+UniRef90_M7CJ93 Merlin n=2 Tax=Chelonia mydas TaxID=8469 RepID=M...   149   8e-34
+UniRef90_V9KAZ9 Moesin n=3 Tax=Callorhinchus milii TaxID=7868 Re...   149   8e-34
+UniRef90_A0A151M299 Uncharacterized protein n=1 Tax=Alligator mi...   149   8e-34
+UniRef90_T2MG47 Radixin n=2 Tax=Hydra vulgaris TaxID=6087 RepID=...   148   8e-34
+UniRef90_R4G483 Putative radixin length n=10 Tax=Panheteroptera ...   148   9e-34
+UniRef90_A0A1W0WJ32 Moesin/ezrin/radixin-like protein 1 n=1 Tax=...   148   9e-34
+UniRef90_G5EBK3 ERM-1B n=10 Tax=Caenorhabditis TaxID=6237 RepID=...   148   9e-34
+UniRef90_A0A0R3PQ49 Uncharacterized protein n=1 Tax=Angiostrongy...   148   1e-33
+UniRef90_A0A0Q3LVA8 Uncharacterized protein n=1 Tax=Amazona aest...   148   1e-33
+UniRef90_J9KAN2 Uncharacterized protein n=4 Tax=Macrosiphini Tax...   148   1e-33
+UniRef90_A0A090LH63 Moesin/ezrin/radixin homolog 1 n=4 Tax=Stron...   148   1e-33
+UniRef90_UPI0006C9C717 moesin/ezrin/radixin homolog 1-like n=1 T...   148   1e-33
+UniRef90_UPI0006B3A2FB ezrin isoform X1 n=2 Tax=Rivulidae TaxID=...   148   1e-33
+UniRef90_H0Z3P8 Uncharacterized protein n=96 Tax=Archelosauria T...   148   1e-33
+UniRef90_F7AKT8 Moesin n=4 Tax=Tetrapoda TaxID=32523 RepID=F7AKT...   148   1e-33
+UniRef90_UPI000643F8A9 merlin isoform X2 n=1 Tax=Clupea harengus...   148   1e-33
+UniRef90_C0HB84 Moesin n=5 Tax=Clupeocephala TaxID=186625 RepID=...   148   1e-33
+UniRef90_A0A1I8JJ41 Uncharacterized protein n=1 Tax=Macrostomum ...   148   1e-33
+UniRef90_A0A1L8E5J0 Putative ezrin/radixin/moesin family n=2 Tax...   148   1e-33
+UniRef90_Q7ZWC7 Rdx protein (Fragment) n=1 Tax=Danio rerio TaxID...   148   1e-33
+UniRef90_S4PGF9 Moesin (Fragment) n=1 Tax=Pararge aegeria TaxID=...   148   1e-33
+UniRef90_UPI00074FCB14 merlin-like n=1 Tax=Gekko japonicus TaxID...   148   2e-33
+UniRef90_UPI00077581A7 ezrin n=1 Tax=Protobothrops mucrosquamatu...   148   2e-33
+UniRef90_H0XRZ3 Uncharacterized protein n=1 Tax=Otolemur garnett...   148   2e-33
+UniRef90_A0A0N4U7I1 Uncharacterized protein n=1 Tax=Dracunculus ...   147   2e-33
+UniRef90_UPI000854BA9B moesin isoform X1 n=2 Tax=Nanorana parker...   147   2e-33
+UniRef90_Q6Q413 Neurofibromin 2b (merlin) n=18 Tax=Clupeocephala...   147   2e-33
+UniRef90_F7G4H7 Uncharacterized protein n=1 Tax=Monodelphis dome...   147   2e-33
+UniRef90_I3JWV9 Neurofibromin 2a (merlin) n=12 Tax=Percomorphace...   147   2e-33
+UniRef90_A0A1A8LGK1 Ezrin b n=11 Tax=Nothobranchiidae TaxID=4050...   147   2e-33
+UniRef90_U3IY96 Ezrin n=11 Tax=Sauria TaxID=32561 RepID=U3IY96_A...   147   3e-33
+UniRef90_UPI0008708147 moesin/ezrin/radixin homolog 1 isoform X1...   147   3e-33
+UniRef90_A0A0K0J3J0 BMA-ERM-1 n=11 Tax=Spirurida TaxID=6274 RepI...   147   3e-33
+UniRef90_A0A091NNX0 Merlin (Fragment) n=6 Tax=Neognathae TaxID=8...   147   3e-33
+UniRef90_A0A183ICG6 Uncharacterized protein n=1 Tax=Soboliphyme ...   147   3e-33
+UniRef90_UPI00002204A7 C. briggsae CBR-ERM-1 protein n=1 Tax=Cae...   147   3e-33
+UniRef90_A0A1W2VN42 ezrin/radixin/moesin (ERM)-like protein n=3 ...   147   3e-33
+UniRef90_F2U9N9 RDX protein n=1 Tax=Salpingoeca rosetta (strain ...   147   3e-33
+UniRef90_H3D2P3 Moesin a n=2 Tax=Tetraodon nigroviridis TaxID=99...   147   3e-33
+UniRef90_UPI0006B72A0E merlin-like n=1 Tax=Zonotrichia albicolli...   147   3e-33
+UniRef90_UPI00071E1E78 moesin-like n=1 Tax=Octopus bimaculoides ...   147   3e-33
+UniRef90_T1KRM2 Uncharacterized protein n=2 Tax=Tetranychus urti...   146   3e-33
+UniRef90_A0A1I7S7B6 Uncharacterized protein n=1 Tax=Bursaphelenc...   146   3e-33
+UniRef90_A0A0S7HIS4 MOES n=2 Tax=Cyprinodontoidei TaxID=8087 Rep...   146   4e-33
+UniRef90_A0A1E1WCD8 Uncharacterized protein (Fragment) n=3 Tax=D...   146   4e-33
+UniRef90_A0A0A9VXP1 Uncharacterized protein n=2 Tax=Lygus hesper...   146   4e-33
+UniRef90_P46150 Moesin/ezrin/radixin homolog 1 n=69 Tax=Holometa...   146   4e-33
+UniRef90_UPI00077B228F moesin-like n=1 Tax=Acropora digitifera T...   146   4e-33
+UniRef90_UPI0006B3A08A merlin isoform X2 n=1 Tax=Austrofundulus ...   146   4e-33
+UniRef90_UPI00093CC6FB merlin-like isoform X3 n=1 Tax=Crocodylus...   146   5e-33
+UniRef90_T1FMK3 Uncharacterized protein n=1 Tax=Helobdella robus...   146   5e-33
+UniRef90_UPI00051E4846 merlin-like n=2 Tax=Aves TaxID=8782 RepID...   146   5e-33
+UniRef90_A0A1Y1M9R2 Uncharacterized protein n=2 Tax=Photinus pyr...   146   5e-33
+UniRef90_A0A1B6GWG0 Uncharacterized protein n=1 Tax=Cuerna arida...   146   5e-33
+UniRef90_T1EMA7 Uncharacterized protein n=1 Tax=Helobdella robus...   146   5e-33
+UniRef90_E0VSY0 Moesin/ezrin/radixin, putative n=1 Tax=Pediculus...   146   6e-33
+UniRef90_UPI000443464F merlin-like n=1 Tax=Monodelphis domestica...   146   6e-33
+UniRef90_A0A1I8CMV0 Uncharacterized protein n=1 Tax=Rhabditophan...   146   6e-33
+UniRef90_A0A0S7IGC9 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   146   6e-33
+UniRef90_Q05DU4 Msn protein (Fragment) n=2 Tax=Euarchontoglires ...   146   6e-33
+UniRef90_F6RHZ4 Neurofibromin 2 n=6 Tax=Boreoeutheria TaxID=1437...   146   7e-33
+UniRef90_A0A1I8ETU4 Uncharacterized protein n=1 Tax=Wuchereria b...   146   7e-33
+UniRef90_UPI0008FA17F8 ezrin-like n=1 Tax=Cyprinus carpio TaxID=...   145   7e-33
+UniRef90_H2Z109 Uncharacterized protein n=3 Tax=Ciona savignyi T...   145   7e-33
+UniRef90_H3DG58 Ezrin b n=2 Tax=Tetraodon nigroviridis TaxID=998...   145   8e-33
+UniRef90_H2V8I3 Ezrin b n=1 Tax=Takifugu rubripes TaxID=31033 Re...   145   9e-33
+UniRef90_V9KAM1 Ezrin n=2 Tax=Callorhinchus milii TaxID=7868 Rep...   145   9e-33
+UniRef90_A0A147A135 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   145   9e-33
+UniRef90_E7F638 Moesin b n=7 Tax=Cyprinidae TaxID=7953 RepID=E7F...   145   1e-32
+UniRef90_A0A087XKR8 Moesin b n=9 Tax=Percomorphaceae TaxID=14898...   145   1e-32
+UniRef90_W5L1D8 Moesin b n=10 Tax=Otophysi TaxID=186626 RepID=W5...   145   1e-32
+UniRef90_UPI00081491D7 moesin-like isoform X3 n=1 Tax=Pygocentru...   145   1e-32
+UniRef90_A0A183C1Y1 Uncharacterized protein n=1 Tax=Globodera pa...   145   1e-32
+UniRef90_U3IQR1 Uncharacterized protein n=7 Tax=Aves TaxID=8782 ...   145   1e-32
+UniRef90_UPI0008758ACC ezrin-like n=1 Tax=Lates calcarifer TaxID...   145   1e-32
+UniRef90_W4ZL53 Uncharacterized protein n=1 Tax=Strongylocentrot...   145   1e-32
+UniRef90_H2L5L7 Neurofibromin 2a (merlin) n=7 Tax=Ovalentaria Ta...   145   1e-32
+UniRef90_A0A0P6FEA6 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   145   1e-32
+UniRef90_A0A1D5PY94 Moesin n=1 Tax=Gallus gallus TaxID=9031 RepI...   145   1e-32
+UniRef90_G3W7S5 Uncharacterized protein (Fragment) n=3 Tax=Metat...   145   1e-32
+UniRef90_V5GHY0 Moesin/ezrin/radixin protein n=15 Tax=Polyphaga ...   145   1e-32
+UniRef90_A0A1L8E6M8 Putative moesin/ezrin/radixin protein 1 (Fra...   145   1e-32
+UniRef90_UPI0007AD160A radixin-like isoform X4 n=1 Tax=Sinocyclo...   144   2e-32
+UniRef90_U6DQU1 Ezrin (Fragment) n=2 Tax=Laurasiatheria TaxID=31...   144   2e-32
+UniRef90_A0A1W4YCN4 merlin-like isoform X1 n=7 Tax=Neopterygii T...   144   2e-32
+UniRef90_A0A1I7Z9R0 Uncharacterized protein n=1 Tax=Steinernema ...   144   2e-32
+UniRef90_A0A1A8RN97 Neurofibromin 2b (Merlin) n=22 Tax=Clupeocep...   144   2e-32
+UniRef90_H2UH80 Neurofibromin 2b (merlin) n=22 Tax=Percomorphace...   144   2e-32
+UniRef90_UPI0009B4C9E1 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   144   2e-32
+UniRef90_W5K4K6 Ezrin a n=2 Tax=Characoidei TaxID=1489739 RepID=...   144   2e-32
+UniRef90_A0A0P4Z171 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   144   2e-32
+UniRef90_W5UJG3 Ezrin n=1 Tax=Ictalurus punctatus TaxID=7998 Rep...   144   2e-32
+UniRef90_F7D1B8 Moesin n=2 Tax=Monodelphis domestica TaxID=13616...   144   2e-32
+UniRef90_A4F2N4 Mt-ezrin/radixin/moesin (Fragment) n=1 Tax=Molgu...   144   2e-32
+UniRef90_A0A1A8NF36 Neurofibromin 2b (Merlin) n=1 Tax=Nothobranc...   144   2e-32
+UniRef90_UPI000359E745 merlin-like n=1 Tax=Aplysia californica T...   144   2e-32
+UniRef90_A0A1J1HR81 CLUMA_CG004286, isoform A n=2 Tax=Pancrustac...   144   3e-32
+UniRef90_UPI000802DDC2 merlin n=1 Tax=Ictalurus punctatus TaxID=...   144   3e-32
+UniRef90_A0A1S3L2K9 merlin-like isoform X1 n=7 Tax=Euteleosteomo...   144   3e-32
+UniRef90_UPI000A281AA8 merlin-like isoform X2 n=1 Tax=Phascolarc...   143   3e-32
+UniRef90_A0A0P5UIE0 Ezrin-moesin-radixin-like protein (Fragment)...   143   3e-32
+UniRef90_A0A183HZ58 Uncharacterized protein n=1 Tax=Onchocerca f...   143   3e-32
+UniRef90_A0A0P5YVB5 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   143   3e-32
+UniRef90_A0A146WBW4 Radixin n=3 Tax=Fundulus heteroclitus TaxID=...   143   3e-32
+UniRef90_A0A146WEP9 Radixin n=3 Tax=Fundulus heteroclitus TaxID=...   143   3e-32
+UniRef90_A0A060VVF1 Uncharacterized protein n=1 Tax=Oncorhynchus...   143   3e-32
+UniRef90_Q503E6 Ezrin a n=6 Tax=Cyprinidae TaxID=7953 RepID=Q503...   143   3e-32
+UniRef90_H2M0P3 Moesin a n=1 Tax=Oryzias latipes TaxID=8090 RepI...   143   4e-32
+UniRef90_UPI0003EBF80A ezrin n=1 Tax=Myotis davidii TaxID=225400...   143   4e-32
+UniRef90_A0A0P5X9U4 Ezrin-moesin-radixin-like protein (Fragment)...   143   4e-32
+UniRef90_UPI00046CED40 moesin/ezrin/radixin homolog 1-like isofo...   143   4e-32
+UniRef90_UPI00054ED477 F-box only protein 21 n=1 Tax=Notothenia ...   143   4e-32
+UniRef90_UPI000328EF4A merlin-like isoform X1 n=1 Tax=Dasypus no...   143   4e-32
+UniRef90_A0A1X7V0F6 Uncharacterized protein n=1 Tax=Amphimedon q...   143   4e-32
+UniRef90_A0A1S3PGE4 merlin n=5 Tax=Protacanthopterygii TaxID=417...   143   4e-32
+UniRef90_A0A1S3K9E4 merlin-like n=1 Tax=Lingula unguis TaxID=757...   143   4e-32
+UniRef90_A0A146WF22 Radixin (Fragment) n=1 Tax=Fundulus heterocl...   143   5e-32
+UniRef90_A0A1W4YD13 merlin-like isoform X3 n=1 Tax=Scleropages f...   143   5e-32
+UniRef90_A0A1A8SGV9 Neurofibromin 2b (Merlin) (Fragment) n=6 Tax...   143   5e-32
+UniRef90_A0A0P6EJZ2 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   143   5e-32
+UniRef90_W4YSB8 Uncharacterized protein n=1 Tax=Strongylocentrot...   143   6e-32
+UniRef90_UPI0009E2C279 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   143   6e-32
+UniRef90_A0A0P4X0A2 Ezrin-moesin-radixin-like protein (Fragment)...   142   6e-32
+UniRef90_H3BHZ9 Neurofibromin 2b (merlin) n=2 Tax=Latimeria chal...   142   7e-32
+UniRef90_A0A016S660 Uncharacterized protein n=3 Tax=Ancylostoma ...   142   7e-32
+UniRef90_A0A146MZA0 Radixin (Fragment) n=1 Tax=Fundulus heterocl...   142   7e-32
+UniRef90_P52962 Moesin n=1 Tax=Lytechinus variegatus TaxID=7654 ...   142   8e-32
+UniRef90_A0A0L8HU31 Uncharacterized protein n=1 Tax=Octopus bima...   142   8e-32
+UniRef90_UPI000719AD9F merlin-like n=1 Tax=Priapulus caudatus Ta...   142   8e-32
+UniRef90_H3FV46 Uncharacterized protein n=1 Tax=Pristionchus pac...   142   8e-32
+UniRef90_UPI00094E2AE4 ezrin-like n=1 Tax=Hippocampus comes TaxI...   142   8e-32
+UniRef90_A0A0P5XZU5 Ezrin-moesin-radixin-like protein (Fragment)...   142   9e-32
+UniRef90_UPI0005F04B05 merlin n=1 Tax=Strongylocentrotus purpura...   142   9e-32
+UniRef90_G3NNC4 Ezrin a n=1 Tax=Gasterosteus aculeatus TaxID=692...   142   1e-31
+UniRef90_A0A1W4YX74 moesin-like isoform X1 n=3 Tax=Scleropages f...   142   1e-31
+UniRef90_A0A1W4YWV4 moesin-like isoform X3 n=1 Tax=Scleropages f...   142   1e-31
+UniRef90_UPI000A2823A1 merlin-like isoform X3 n=1 Tax=Phascolarc...   142   1e-31
+UniRef90_B3DGL5 Neurofibromin 2a (merlin) n=6 Tax=Cyprinidae Tax...   142   1e-31
+UniRef90_A0A1D2N746 Merlin n=1 Tax=Orchesella cincta TaxID=48709...   141   1e-31
+UniRef90_A7SXF9 Predicted protein n=1 Tax=Nematostella vectensis...   141   1e-31
+UniRef90_UPI0008FA200F moesin-like n=1 Tax=Cyprinus carpio TaxID...   141   1e-31
+UniRef90_UPI0004F0FCDB merlin-like n=1 Tax=Acanthisitta chloris ...   141   1e-31
+UniRef90_M3ZJN5 Neurofibromin 2a (merlin) n=5 Tax=Cyprinodontifo...   141   1e-31
+UniRef90_A0A1W4Y9C9 ezrin-like n=1 Tax=Scleropages formosus TaxI...   141   1e-31
+UniRef90_Q4RRW4 Chromosome 7 SCAF15001, whole genome shotgun seq...   141   2e-31
+UniRef90_UPI000A1C1B8C ezrin-like n=1 Tax=Boleophthalmus pectini...   141   2e-31
+UniRef90_H2M9I6 Ezrin b n=2 Tax=Oryzias latipes TaxID=8090 RepID...   141   2e-31
+UniRef90_K1QN01 Merlin n=3 Tax=Crassostrea gigas TaxID=29159 Rep...   141   2e-31
+UniRef90_UPI00094E3F46 merlin isoform X1 n=2 Tax=Hippocampus com...   141   2e-31
+UniRef90_V9L4I1 Neurofibromin 2b (Merlin) (Fragment) n=5 Tax=Cho...   141   2e-31
+UniRef90_A0A1A7XR63 Moesin b (Fragment) n=1 Tax=Aphyosemion stri...   141   2e-31
+UniRef90_UPI00076631F2 ezrin n=1 Tax=Panthera tigris altaica Tax...   141   2e-31
+UniRef90_A0A0N5AKM5 Uncharacterized protein n=1 Tax=Syphacia mur...   141   2e-31
+UniRef90_Q7SZ62 Ezrl protein (Fragment) n=2 Tax=Cyprinidae TaxID...   141   2e-31
+UniRef90_UPI0003BBF5FB ezrin n=1 Tax=Myotis brandtii TaxID=10947...   140   2e-31
+UniRef90_V4AUR3 Uncharacterized protein n=2 Tax=Lottia gigantea ...   140   2e-31
+UniRef90_A0A1D2NEW2 Moesin/ezrin/radixin 1 n=1 Tax=Orchesella ci...   140   2e-31
+UniRef90_UPI000A1C7117 merlin n=1 Tax=Boleophthalmus pectinirost...   140   3e-31
+UniRef90_W4YAW4 Uncharacterized protein n=1 Tax=Strongylocentrot...   140   3e-31
+UniRef90_A0A147AP13 Merlin n=2 Tax=Fundulus heteroclitus TaxID=8...   140   3e-31
+UniRef90_UPI0004A4E6D1 merlin-like n=1 Tax=Poecilia reticulata T...   140   3e-31
+UniRef90_A0A060X7Q7 Uncharacterized protein n=1 Tax=Oncorhynchus...   140   3e-31
+UniRef90_UPI00076FB358 moesin/ezrin/radixin homolog 1 isoform X1...   140   3e-31
+UniRef90_A0A0P5L149 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   140   3e-31
+UniRef90_A0A1I8J2Y3 Uncharacterized protein n=3 Tax=Macrostomum ...   140   3e-31
+UniRef90_A0A077Z9Z6 FERM N domain containing protein n=1 Tax=Tri...   140   3e-31
+UniRef90_J9EQ85 Nf2 protein (Fragment) n=1 Tax=Wuchereria bancro...   140   4e-31
+UniRef90_A8E569 Ezrl protein (Fragment) n=1 Tax=Danio rerio TaxI...   140   4e-31
+UniRef90_A0A1Y3ETX1 FERM PH-like domain protein n=1 Tax=Trichine...   140   4e-31
+UniRef90_A0A0V1KTX9 Moesin/ezrin/radixin-like protein 1 n=3 Tax=...   140   4e-31
+UniRef90_UPI000496BE65 ezrin-like n=1 Tax=Cynoglossus semilaevis...   140   4e-31
+UniRef90_A0A1I8I2Z4 Uncharacterized protein n=2 Tax=Macrostomum ...   140   5e-31
+UniRef90_G1K046 Radixin (Fragment) n=1 Tax=Rhodnius prolixus Tax...   140   5e-31
+UniRef90_UPI00063C05CD LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   140   5e-31
+UniRef90_UPI0006B30A74 moesin-like isoform X1 n=4 Tax=Cyprinodon...   139   5e-31
+UniRef90_UPI0009DA6FDE moesin-like n=1 Tax=Oryzias latipes TaxID...   139   5e-31
+UniRef90_F6W8H7 Uncharacterized protein n=2 Tax=Ornithorhynchus ...   139   6e-31
+UniRef90_G3NND3 Ezrin a n=1 Tax=Gasterosteus aculeatus TaxID=692...   139   6e-31
+UniRef90_E1C9I6 Uncharacterized protein n=1 Tax=Gallus gallus Ta...   139   7e-31
+UniRef90_A0A1I8GCG6 Uncharacterized protein n=1 Tax=Macrostomum ...   139   8e-31
+UniRef90_A0A182VK54 Uncharacterized protein n=3 Tax=Cellia TaxID...   139   8e-31
+UniRef90_M4AMR3 Uncharacterized protein n=1 Tax=Xiphophorus macu...   139   8e-31
+UniRef90_S4RS18 Ezrin a n=1 Tax=Petromyzon marinus TaxID=7757 Re...   139   8e-31
+UniRef90_Q4RT99 Chromosome 1 SCAF14998, whole genome shotgun seq...   138   9e-31
+UniRef90_UPI0003832B7A LOW QUALITY PROTEIN: moesin-like n=1 Tax=...   138   9e-31
+UniRef90_Q7PS12 Moesin/ezrin/radixin homolog 1 n=21 Tax=Culicoid...   138   9e-31
+UniRef90_I3KLW7 Moesin b n=22 Tax=Percomorphaceae TaxID=1489872 ...   138   9e-31
+UniRef90_UPI0009479019 merlin-like n=1 Tax=Branchiostoma belcher...   138   9e-31
+UniRef90_UPI0006446336 ezrin-like isoform X1 n=2 Tax=Clupea hare...   138   1e-30
+UniRef90_Q7PS12-3 Isoform B of Moesin/ezrin/radixin homolog 1 n=...   138   1e-30
+UniRef90_UPI0006743B4E merlin-like n=2 Tax=Biomphalaria glabrata...   138   1e-30
+UniRef90_L7M2F9 Uncharacterized protein n=6 Tax=Ixodidae TaxID=6...   138   1e-30
+UniRef90_A0A023GJE6 Putative radixin moesin (Fragment) n=1 Tax=A...   138   1e-30
+UniRef90_A0A1S3RQX9 moesin-like n=3 Tax=Protacanthopterygii TaxI...   138   1e-30
+UniRef90_UPI0006B3A59D alpha-protein kinase 1-like n=1 Tax=Austr...   138   1e-30
+UniRef90_H2LW73 Moesin b n=1 Tax=Oryzias latipes TaxID=8090 RepI...   138   1e-30
+UniRef90_UPI0009B4BE4A LOW QUALITY PROTEIN: ezrin-like n=1 Tax=M...   138   2e-30
+UniRef90_C3ZHV7 Uncharacterized protein n=1 Tax=Branchiostoma fl...   138   2e-30
+UniRef90_A0A087U927 Merlin (Fragment) n=2 Tax=Entelegynae TaxID=...   138   2e-30
+UniRef90_I3NF68 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 RepI...   138   2e-30
+UniRef90_A0A060XWJ2 Uncharacterized protein n=2 Tax=Euteleosteom...   137   2e-30
+UniRef90_UPI000441BA0E merlin-like isoform X1 n=3 Tax=Serpentes ...   137   2e-30
+UniRef90_UPI00076A4C46 merlin-like n=1 Tax=Astyanax mexicanus Ta...   137   2e-30
+UniRef90_H2SLQ8 Moesin b n=3 Tax=Tetraodontidae TaxID=31031 RepI...   137   2e-30
+UniRef90_W5K8N6 Neurofibromin 2a (merlin) n=1 Tax=Astyanax mexic...   137   2e-30
+UniRef90_UPI00094E7ACC moesin-like isoform X1 n=4 Tax=Hippocampu...   137   2e-30
+UniRef90_A0A0P4YV95 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   137   3e-30
+UniRef90_UPI0005CF3F05 moesin/ezrin/radixin homolog 1 isoform X1...   137   3e-30
+UniRef90_A0A0P5N1U0 Moesin/ezrin/radixin n=19 Tax=Daphnia magna ...   136   3e-30
+UniRef90_A0A1Z5L2Q4 Uncharacterized protein (Fragment) n=1 Tax=O...   136   3e-30
+UniRef90_A0A0P6BRX1 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   136   4e-30
+UniRef90_H2MV92 Ezrin a n=2 Tax=Oryzias latipes TaxID=8090 RepID...   136   4e-30
+UniRef90_A0A0L8GLL8 Uncharacterized protein n=2 Tax=Octopus bima...   136   4e-30
+UniRef90_V5HVD9 Putative regulation of hippo signaling cascade n...   136   5e-30
+UniRef90_A0A158P9T3 Uncharacterized protein n=2 Tax=Strongylida ...   136   5e-30
+UniRef90_I3IVA3 Ezrin a n=5 Tax=Pseudocrenilabrinae TaxID=318546...   136   5e-30
+UniRef90_UPI000901D0CA ezrin-like n=1 Tax=Larimichthys crocea Ta...   136   6e-30
+UniRef90_J9JWV8 Uncharacterized protein n=2 Tax=Macrosiphini Tax...   136   7e-30
+UniRef90_H2T6H5 Ezrin a n=4 Tax=Tetraodontidae TaxID=31031 RepID...   136   7e-30
+UniRef90_A0A0P5AIW7 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   136   7e-30
+UniRef90_R7UTH7 Uncharacterized protein n=1 Tax=Capitella teleta...   135   9e-30
+UniRef90_A0A1W4Z5T3 merlin isoform X1 n=6 Tax=Neopterygii TaxID=...   135   9e-30
+UniRef90_A0A1I8G0M1 Uncharacterized protein n=1 Tax=Macrostomum ...   135   1e-29
+UniRef90_UPI0006B17C05 merlin n=1 Tax=Thamnophis sirtalis TaxID=...   135   1e-29
+UniRef90_A0A0P5S9G9 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   135   1e-29
+UniRef90_E9GW23 Uncharacterized protein n=2 Tax=Daphnia TaxID=66...   135   1e-29
+UniRef90_A0A0N8EDX7 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   135   1e-29
+UniRef90_A0A0S7HRC9 MERL (Fragment) n=1 Tax=Poeciliopsis prolifi...   135   1e-29
+UniRef90_A0A1A8NZ28 Neurofibromin 2a (Merlin) (Fragment) n=2 Tax...   135   1e-29
+UniRef90_UPI0007E2D615 moesin/ezrin/radixin homolog 1-like n=2 T...   135   1e-29
+UniRef90_A0A0P5HV06 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   135   2e-29
+UniRef90_UPI00097D8305 ezrin-like n=1 Tax=Paralichthys olivaceus...   134   2e-29
+UniRef90_A0A0P4VYF1 Uncharacterized protein n=2 Tax=Scylla oliva...   134   2e-29
+UniRef90_A0A060VZ82 Uncharacterized protein n=1 Tax=Oncorhynchus...   134   2e-29
+UniRef90_UPI00099F59CE radixin-like n=1 Tax=Oncorhynchus kisutch...   134   2e-29
+UniRef90_UPI0006B10079 merlin-like n=1 Tax=Limulus polyphemus Ta...   134   2e-29
+UniRef90_A9URX5 Predicted protein n=1 Tax=Monosiga brevicollis T...   134   2e-29
+UniRef90_A0A1A7ZRU2 Neurofibromin 2a (Merlin) n=13 Tax=Nothobran...   134   2e-29
+UniRef90_A0A0F8CEK5 Merlin n=1 Tax=Larimichthys crocea TaxID=215...   134   2e-29
+UniRef90_K7IVX0 Uncharacterized protein n=3 Tax=Chalcidoidea Tax...   133   3e-29
+UniRef90_UPI0002246893 merlin isoform X1 n=2 Tax=Chalcidoidea Ta...   133   3e-29
+UniRef90_A0A0N5C2D8 Uncharacterized protein n=2 Tax=Strongyloide...   133   4e-29
+UniRef90_A0A195EVJ8 Merlin n=1 Tax=Trachymyrmex septentrionalis ...   133   4e-29
+UniRef90_UPI000840828B moesin/ezrin/radixin homolog 1 isoform X2...   133   4e-29
+UniRef90_A0A0C9QAX7 NF2_0 protein n=56 Tax=Hymenoptera TaxID=739...   133   5e-29
+UniRef90_A0A1I8BUA1 Uncharacterized protein n=1 Tax=Meloidogyne ...   133   5e-29
+UniRef90_A0A0N4VHF1 Uncharacterized protein n=1 Tax=Enterobius v...   132   7e-29
+UniRef90_A0A0N0BFH1 Merlin n=44 Tax=Hymenoptera TaxID=7399 RepID...   132   7e-29
+UniRef90_E2BV71 Merlin n=1 Tax=Harpegnathos saltator TaxID=61038...   132   9e-29
+UniRef90_UPI0004971E0A ezrin-like n=1 Tax=Stegastes partitus Tax...   132   9e-29
+UniRef90_A0A0C9R6E3 Mer protein n=2 Tax=Apocrita TaxID=7400 RepI...   132   9e-29
+UniRef90_UPI00084B5E07 merlin-like n=1 Tax=Hyalella azteca TaxID...   132   1e-28
+UniRef90_A0A1S3SW70 moesin-like n=1 Tax=Salmo salar TaxID=8030 R...   131   1e-28
+UniRef90_A0A0L7LT85 Moesin n=1 Tax=Operophtera brumata TaxID=104...   131   1e-28
+UniRef90_A0A1W4WTQ3 merlin n=2 Tax=Polyphaga TaxID=41084 RepID=A...   131   1e-28
+UniRef90_B3RY21 Uncharacterized protein (Fragment) n=1 Tax=Trich...   131   1e-28
+UniRef90_UPI0007E65A6D moesin/ezrin/radixin homolog 1-like n=1 T...   131   1e-28
+UniRef90_A0A0A9XV66 Merlin n=7 Tax=Panheteroptera TaxID=33351 Re...   131   2e-28
+UniRef90_A0A146YFB7 Merlin n=2 Tax=Fundulus heteroclitus TaxID=8...   131   2e-28
+UniRef90_A0A0T6B950 FERM domain containing protein n=1 Tax=Oryct...   131   2e-28
+UniRef90_Q503W3 LOC553434 protein (Fragment) n=3 Tax=Cyprinidae ...   130   3e-28
+UniRef90_A0A1Y1LKC2 Uncharacterized protein (Fragment) n=1 Tax=P...   130   4e-28
+UniRef90_UPI0006443C35 moesin-like n=1 Tax=Clupea harengus TaxID...   130   4e-28
+UniRef90_D2A4B9 Moesin/ezrin/radixin homolog 2-like Protein n=2 ...   130   4e-28
+UniRef90_E4WWC4 Uncharacterized protein n=1 Tax=Oikopleura dioic...   129   5e-28
+UniRef90_UPI0005D3D491 merlin n=1 Tax=Pogonomyrmex barbatus TaxI...   129   5e-28
+UniRef90_UPI000A2A7D64 radixin-like n=1 Tax=Exaiptasia pallida T...   129   6e-28
+UniRef90_UPI000495D3EA ezrin n=1 Tax=Cynoglossus semilaevis TaxI...   129   6e-28
+UniRef90_A0A0N8EPW1 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   129   7e-28
+UniRef90_M5AK70 Merlin n=1 Tax=Gryllus bimaculatus TaxID=6999 Re...   129   7e-28
+UniRef90_G5E1T8 Putative villin 2 (Fragment) n=1 Tax=Hymenochiru...   129   8e-28
+UniRef90_A0A0S7HKL6 EZRI n=1 Tax=Poeciliopsis prolifica TaxID=18...   128   9e-28
+UniRef90_UPI000973286E moesin-like n=1 Tax=Esox lucius TaxID=801...   128   9e-28
+UniRef90_A0A154PPQ9 Moesin/ezrin/radixin like protein 1 n=1 Tax=...   128   1e-27
+UniRef90_UPI0008F99292 merlin n=1 Tax=Bemisia tabaci TaxID=7038 ...   128   1e-27
+UniRef90_E2C7G4 Moesin/ezrin/radixin-like protein 1 n=17 Tax=Acu...   128   2e-27
+UniRef90_UPI0006B6FECB merlin-like n=1 Tax=Zonotrichia albicolli...   128   2e-27
+UniRef90_A0A1V9X586 Merlin-like n=1 Tax=Tropilaelaps mercedesae ...   128   2e-27
+UniRef90_A0A210PVB2 Merlin n=2 Tax=Mizuhopecten yessoensis TaxID...   127   2e-27
+UniRef90_F7A6R8 Neurofibromin 2 n=1 Tax=Ornithorhynchus anatinus...   127   2e-27
+UniRef90_A0A024R1F6 Neurofibromin 2 (Bilateral acoustic neuroma)...   127   2e-27
+UniRef90_A0A0K2UTI2 Merlinlike [Acyrthosiphon pisum] (Fragment) ...   127   2e-27
+UniRef90_A0A0M3K1X5 Moesin/ezrin/radixin homolog 1 (inferred by ...   127   3e-27
+UniRef90_A0A0D6LM34 FERM central domain protein n=1 Tax=Ancylost...   127   3e-27
+UniRef90_UPI0009B30631 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   127   3e-27
+UniRef90_H2Z110 Uncharacterized protein n=2 Tax=Ciona savignyi T...   127   3e-27
+UniRef90_A0A146MPM2 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   126   3e-27
+UniRef90_A0A087XN86 Ezrin a n=1 Tax=Poecilia formosa TaxID=48698...   126   3e-27
+UniRef90_UPI00026577F7 merlin n=1 Tax=Galendromus occidentalis T...   126   4e-27
+UniRef90_UPI0007424F27 ezrin-like n=1 Tax=Cyprinodon variegatus ...   126   4e-27
+UniRef90_F4WB39 Moesin/ezrin/radixin-like protein 1 n=1 Tax=Acro...   126   4e-27
+UniRef90_A0A146NLT3 Radixin n=2 Tax=Fundulus heteroclitus TaxID=...   126   4e-27
+UniRef90_A0A0S7HLF5 EZRI (Fragment) n=1 Tax=Poeciliopsis prolifi...   126   4e-27
+UniRef90_A0A0S7HFW7 EZRI (Fragment) n=2 Tax=Poeciliopsis prolifi...   126   4e-27
+UniRef90_W2T4A3 FERM protein n=2 Tax=Ancylostomatidae TaxID=3327...   126   4e-27
+UniRef90_A0A0B2V508 Moesin/ezrin/radixin-like protein 1 n=4 Tax=...   126   5e-27
+UniRef90_A0A146MM39 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   126   7e-27
+UniRef90_UPI00096B4CAC LOW QUALITY PROTEIN: merlin n=1 Tax=Aethi...   126   7e-27
+UniRef90_A0A067R5E3 Merlin n=2 Tax=Neoptera TaxID=33340 RepID=A0...   126   7e-27
+UniRef90_UPI0006715191 merlin-like n=1 Tax=Anser cygnoides domes...   125   9e-27
+UniRef90_UPI000A2A76E6 merlin-like n=1 Tax=Exaiptasia pallida Ta...   125   1e-26
+UniRef90_A0A1B6F247 Uncharacterized protein n=2 Tax=unclassified...   125   1e-26
+UniRef90_A0A067QZ85 Moesin/ezrin/radixin-like protein 1 (Fragmen...   125   1e-26
+UniRef90_UPI00083C35BC merlin n=1 Tax=Nicrophorus vespilloides T...   125   1e-26
+UniRef90_A0A0N1I6Z3 Moesin/ezrin/radixin-like 2 n=4 Tax=Papilio ...   125   1e-26
+UniRef90_Q4RTY3 Chromosome 12 SCAF14996, whole genome shotgun se...   125   1e-26
+UniRef90_UPI00064E5CB7 ezrin isoform X1 n=3 Tax=Eutheria TaxID=9...   125   1e-26
+UniRef90_A0A0N7ZRN3 Ezrin-moesin-radixin n=4 Tax=Daphnia magna T...   125   1e-26
+UniRef90_A0A1A9WVE7 Uncharacterized protein n=1 Tax=Glossina bre...   124   2e-26
+UniRef90_S7MM07 Ezrin n=1 Tax=Myotis brandtii TaxID=109478 RepID...   124   2e-26
+UniRef90_UPI0007BA6704 radixin-like n=1 Tax=Sinocyclocheilus ans...   124   2e-26
+UniRef90_A0A212D7E6 Uncharacterized protein n=1 Tax=Cervus elaph...   124   3e-26
+UniRef90_E0VMZ3 Merlin, putative n=1 Tax=Pediculus humanus subsp...   124   3e-26
+UniRef90_M3ZJX0 Ezrin a n=5 Tax=Poeciliinae TaxID=586240 RepID=M...   123   3e-26
+UniRef90_A0A1B6C9Z9 Uncharacterized protein (Fragment) n=1 Tax=C...   123   3e-26
+UniRef90_UPI0005597D0E moesin-like n=1 Tax=Notothenia coriiceps ...   123   3e-26
+UniRef90_E9PW99 Merlin (Fragment) n=2 Tax=Mus musculus TaxID=100...   123   3e-26
+UniRef90_H9JY82 Uncharacterized protein n=5 Tax=Ditrysia TaxID=3...   123   3e-26
+UniRef90_A0A1I7Y0S3 Uncharacterized protein n=2 Tax=Steinernema ...   123   4e-26
+UniRef90_UPI000762AD4F merlin n=1 Tax=Marmota marmota marmota Ta...   123   5e-26
+UniRef90_UPI0009E3389F merlin-like n=1 Tax=Orbicella faveolata T...   123   5e-26
+UniRef90_UPI000B399762 merlin n=1 Tax=Helicoverpa armigera TaxID...   123   5e-26
+UniRef90_A0A1B6MNL0 Uncharacterized protein (Fragment) n=1 Tax=G...   123   6e-26
+UniRef90_UPI0005D04BE8 merlin-like n=3 Tax=Plutella xylostella T...   123   6e-26
+UniRef90_K7G5W0 Uncharacterized protein n=1 Tax=Pelodiscus sinen...   123   6e-26
+UniRef90_UPI00064CF604 merlin-like isoform X2 n=1 Tax=Xenopus tr...   122   7e-26
+UniRef90_F6ZQJ0 Uncharacterized protein (Fragment) n=4 Tax=Xenop...   122   8e-26
+UniRef90_UPI0003F1C2D4 merlin isoform X5 n=5 Tax=Felidae TaxID=9...   122   8e-26
+UniRef90_UPI000947E4ED merlin isoform X5 n=3 Tax=Amniota TaxID=3...   122   1e-25
+UniRef90_UPI00064D06F6 merlin-like isoform X3 n=1 Tax=Xenopus tr...   122   1e-25
+UniRef90_UPI000B4F7F93 moesin-like n=1 Tax=Oncorhynchus mykiss T...   121   1e-25
+UniRef90_A0A1L8HG68 Uncharacterized protein n=1 Tax=Xenopus laev...   121   1e-25
+UniRef90_F2UG77 Moesin n=1 Tax=Salpingoeca rosetta (strain ATCC ...   121   1e-25
+UniRef90_M7B646 Merlin n=1 Tax=Chelonia mydas TaxID=8469 RepID=M...   121   2e-25
+UniRef90_UPI000520C21B merlin-like n=1 Tax=Gavia stellata TaxID=...   121   2e-25
+UniRef90_UPI00094E0E43 ezrin-like n=1 Tax=Hippocampus comes TaxI...   121   2e-25
+UniRef90_UPI00094E5E19 merlin-like isoform X3 n=1 Tax=Hippocampu...   121   2e-25
+UniRef90_A0A091IET4 Merlin (Fragment) n=9 Tax=Neognathae TaxID=8...   121   2e-25
+UniRef90_K7JC14 Uncharacterized protein n=4 Tax=Nasonia vitripen...   120   3e-25
+UniRef90_UPI00085459E5 merlin-like n=1 Tax=Nanorana parkeri TaxI...   120   3e-25
+UniRef90_UPI00044213FB merlin-like n=1 Tax=Python bivittatus Tax...   120   3e-25
+UniRef90_UPI0007B80258 moesin-like n=1 Tax=Sinocyclocheilus rhin...   120   3e-25
+UniRef90_A0A0V1N5F5 Merlin n=2 Tax=Trichinella TaxID=6333 RepID=...   120   4e-25
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_A0A0P7WVX6 Radixin-like (Fragment) n=1 Tax=Scleropages formosus TaxID=113540
+           RepID=A0A0P7WVX6_9TELE
+          Length = 781
+
+ Score =  160 bits (406), Expect = 4e-37,   Method: Composition-based stats.
+ Identities = 42/78 (53%), Positives = 50/78 (64%), Gaps = 1/78 (1%)
+
+Query: 2   FTVRIVTMDAEMEFNCEMKWKGKDLFDLVCRTLGLRETWFFGLQYTI-KDTVAWLKMDKK 60
+             VR+ TMDAE+EF  +    GK LFD V +T+GLRE WFFGLQY   K    WLK++KK
+Sbjct: 209 INVRVTTMDAELEFAIQPNTTGKQLFDQVVKTVGLREVWFFGLQYVDSKGYSTWLKLNKK 268
+
+Query: 61  VLDHDVSKEEPVTFHFLA 78
+           V   DV KE P+ F F A
+Sbjct: 269 VTQQDVKKENPLQFKFRA 286
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A0P7WVX6 Radixin-like (Fragment) n=1 Tax=Scleropages ...   157   2e-36
+UniRef90_S7NLC0 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 RepI...   155   1e-35
+UniRef90_L9K085 Ezrin n=2 Tax=Boreoeutheria TaxID=1437010 RepID=...   154   2e-35
+UniRef90_Q4RTN2 Chromosome 2 SCAF14997, whole genome shotgun seq...   154   2e-35
+UniRef90_W5P4R1 Moesin n=5 Tax=Eutheria TaxID=9347 RepID=W5P4R1_...   154   2e-35
+UniRef90_S9XA25 Ezrin isoform 5-like protein (Fragment) n=1 Tax=...   154   2e-35
+UniRef90_H3DE15 Radixin n=1 Tax=Tetraodon nigroviridis TaxID=998...   154   3e-35
+UniRef90_A0A085NSY6 Uncharacterized protein n=1 Tax=Trichuris su...   153   3e-35
+UniRef90_L5MAP7 Ezrin n=2 Tax=Laurasiatheria TaxID=314145 RepID=...   153   4e-35
+UniRef90_A0A0P7U2U5 Ezrin-like n=1 Tax=Scleropages formosus TaxI...   153   4e-35
+UniRef90_J7M2B1 Tyrosine-protein kinase receptor n=4 Tax=Boreoeu...   153   5e-35
+UniRef90_A0A0F8AIW6 Radixin n=26 Tax=Euteleosteomorpha TaxID=148...   153   5e-35
+UniRef90_G1NWP5 Uncharacterized protein n=3 Tax=Myotis TaxID=943...   153   6e-35
+UniRef90_W5MXQ3 Radixin n=1 Tax=Lepisosteus oculatus TaxID=7918 ...   152   6e-35
+UniRef90_UPI00097DDFED radixin isoform X1 n=1 Tax=Paralichthys o...   152   7e-35
+UniRef90_A0A0P5TBG1 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   152   8e-35
+UniRef90_F7DG77 Ezrin n=8 Tax=Euarchontoglires TaxID=314146 RepI...   152   8e-35
+UniRef90_G3W6E8 Ezrin n=1 Tax=Sarcophilus harrisii TaxID=9305 Re...   152   9e-35
+UniRef90_A0A0F8C8K1 Ezrin n=2 Tax=Larimichthys crocea TaxID=2153...   152   1e-34
+UniRef90_UPI0009A3D4A3 radixin-like n=2 Tax=Rhincodon typus TaxI...   151   1e-34
+UniRef90_U3KDS7 Ezrin n=4 Tax=Neognathae TaxID=8825 RepID=U3KDS7...   151   1e-34
+UniRef90_M3W8S0 Ezrin n=5 Tax=Boreoeutheria TaxID=1437010 RepID=...   151   1e-34
+UniRef90_A0A146XR37 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   151   1e-34
+UniRef90_UPI000440B75F radixin n=1 Tax=Astyanax mexicanus TaxID=...   151   1e-34
+UniRef90_P31976 Ezrin n=232 Tax=Bilateria TaxID=33213 RepID=EZRI...   151   1e-34
+UniRef90_W5KCX5 Radixin n=1 Tax=Astyanax mexicanus TaxID=7994 Re...   151   1e-34
+UniRef90_H2LLJ0 Radixin n=1 Tax=Oryzias latipes TaxID=8090 RepID...   151   2e-34
+UniRef90_A0A091CTA4 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 ...   151   2e-34
+UniRef90_Q6AX84 MGC82058 protein n=3 Tax=Xenopus TaxID=262014 Re...   150   3e-34
+UniRef90_I3JFC5 Ezrin b n=9 Tax=Percomorphaceae TaxID=1489872 Re...   150   3e-34
+UniRef90_A0A1W4Z675 ezrin-like n=1 Tax=Scleropages formosus TaxI...   150   3e-34
+UniRef90_I3K4Z0 Moesin a n=42 Tax=Osteoglossocephalai TaxID=1489...   150   3e-34
+UniRef90_P35241 Radixin n=264 Tax=Gnathostomata TaxID=35060 RepI...   150   3e-34
+UniRef90_G5C2E0 Radixin n=3 Tax=Amniota TaxID=32524 RepID=G5C2E0...   150   4e-34
+UniRef90_UPI0009B3793B ezrin n=1 Tax=Monopterus albus TaxID=4370...   150   4e-34
+UniRef90_A0A085MCW7 Uncharacterized protein n=1 Tax=Trichuris su...   150   4e-34
+UniRef90_A0A0F5D2L2 Erm-1 n=1 Tax=Pristionchus pacificus TaxID=5...   150   4e-34
+UniRef90_UPI00073FBD36 radixin n=1 Tax=Lepisosteus oculatus TaxI...   150   5e-34
+UniRef90_A0A0P4Z1U9 Ezrin-moesin-radixin n=12 Tax=Daphnia magna ...   150   5e-34
+UniRef90_A0A0Q3PL13 Radixin n=1 Tax=Amazona aestiva TaxID=12930 ...   149   5e-34
+UniRef90_H2LZD9 Radixin n=70 Tax=Euteleostomi TaxID=117571 RepID...   149   5e-34
+UniRef90_UPI000854339B ezrin isoform X1 n=2 Tax=Nanorana parkeri...   149   6e-34
+UniRef90_UPI0006D8DF83 moesin n=1 Tax=Latimeria chalumnae TaxID=...   149   6e-34
+UniRef90_A0A1S3MS89 radixin-like isoform X1 n=3 Tax=Salmoninae T...   149   6e-34
+UniRef90_A0A0S7GW01 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   149   6e-34
+UniRef90_A0A1U7TEB8 radixin isoform X3 n=3 Tax=Boreoeutheria Tax...   149   6e-34
+UniRef90_A0A0D8Y921 Ezrin/radixin/moesin family protein n=1 Tax=...   149   6e-34
+UniRef90_Q6PKD3 RDX protein (Fragment) n=5 Tax=Tetrapoda TaxID=3...   149   6e-34
+UniRef90_P26038 Moesin n=139 Tax=Bilateria TaxID=33213 RepID=MOE...   149   6e-34
+UniRef90_A0A1D1VD02 Uncharacterized protein n=1 Tax=Ramazzottius...   149   6e-34
+UniRef90_A0A1S3K1P2 radixin-like isoform X1 n=1 Tax=Lingula ungu...   149   7e-34
+UniRef90_A0A0P5Y060 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   149   7e-34
+UniRef90_Q66I42 Moesin a n=17 Tax=Neopterygii TaxID=41665 RepID=...   149   7e-34
+UniRef90_A0A0P5ULS8 Ezrin-moesin-radixin n=4 Tax=Daphnia magna T...   149   8e-34
+UniRef90_A0A0P7V0K8 Moesin-like n=1 Tax=Scleropages formosus Tax...   149   8e-34
+UniRef90_A0A023FS50 Putative moesin/ezrin/radixin protein 1 n=9 ...   148   9e-34
+UniRef90_UPI00084A397D moesin/ezrin/radixin homolog 1-like isofo...   148   9e-34
+UniRef90_A0A0Q3MAQ5 Ezrin n=2 Tax=Neognathae TaxID=8825 RepID=A0...   148   1e-33
+UniRef90_A0A131ZYS3 Moesin/ezrin/radixin-like protein 1-like pro...   148   1e-33
+UniRef90_UPI000719D2E2 moesin/ezrin/radixin homolog 1-like n=1 T...   148   1e-33
+UniRef90_K7GIZ7 Ezrin n=8 Tax=Sauria TaxID=32561 RepID=K7GIZ7_PELSI   148   1e-33
+UniRef90_A0A0G2K095 Radixin n=20 Tax=Euteleostomi TaxID=117571 R...   148   1e-33
+UniRef90_A0A0P4YYP4 Ezrin-moesin-radixin (Fragment) n=2 Tax=Daph...   148   1e-33
+UniRef90_A0A1W7RA68 Moesin/ezrin/radixin homolog 1 n=1 Tax=Hadru...   148   1e-33
+UniRef90_Q4V7Z2 MGC114910 protein n=8 Tax=Xenopus TaxID=262014 R...   148   1e-33
+UniRef90_UPI0009B44A53 ezrin n=1 Tax=Labrus bergylta TaxID=56723...   148   1e-33
+UniRef90_Q5TZG5 Ezrin n=2 Tax=Danio rerio TaxID=7955 RepID=Q5TZG...   148   1e-33
+UniRef90_UPI0009479235 radixin-like isoform X1 n=3 Tax=Branchios...   148   1e-33
+UniRef90_A0A1S3K1V6 moesin/ezrin/radixin homolog 1-like n=1 Tax=...   148   1e-33
+UniRef90_UPI000643F9C3 ezrin n=1 Tax=Clupea harengus TaxID=7950 ...   148   1e-33
+UniRef90_R7UYN1 Uncharacterized protein (Fragment) n=1 Tax=Capit...   148   1e-33
+UniRef90_A0A0P4W4C3 Uncharacterized protein n=2 Tax=Scylla oliva...   148   1e-33
+UniRef90_A0A0P5RAU7 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   148   2e-33
+UniRef90_Q5F347 Moesin n=2 Tax=Phasianidae TaxID=9005 RepID=Q5F3...   148   2e-33
+UniRef90_G9L0K5 Ezrin (Fragment) n=4 Tax=Laurasiatheria TaxID=31...   148   2e-33
+UniRef90_UPI000811746F moesin/ezrin/radixin homolog 1-like n=1 T...   148   2e-33
+UniRef90_A0A0P5L9J3 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   148   2e-33
+UniRef90_A0A0N4WXU3 Uncharacterized protein n=1 Tax=Haemonchus p...   148   2e-33
+UniRef90_A0A0S7GQK3 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   148   2e-33
+UniRef90_W5NHV7 Ezrin b n=2 Tax=Lepisosteus oculatus TaxID=7918 ...   148   2e-33
+UniRef90_A0A0P5STV9 Putative Ezrin-moesin-radixin n=2 Tax=Daphni...   148   2e-33
+UniRef90_A0A091M0A8 Radixin (Fragment) n=2 Tax=Euteleostomi TaxI...   148   2e-33
+UniRef90_UPI0006B0A553 moesin/ezrin/radixin homolog 1-like n=2 T...   148   2e-33
+UniRef90_UPI0009731BE1 radixin n=1 Tax=Esox lucius TaxID=8010 Re...   147   2e-33
+UniRef90_V9KAZ9 Moesin n=3 Tax=Callorhinchus milii TaxID=7868 Re...   147   2e-33
+UniRef90_B7Q5K4 Radixin, moesin, putative n=5 Tax=Bilateria TaxI...   147   2e-33
+UniRef90_A0A0N8BFK6 Ezrin-moesin-radixin n=2 Tax=Daphnia magna T...   147   2e-33
+UniRef90_A0A0P6HX80 Ezrin-moesin-radixin n=29 Tax=Daphnia TaxID=...   147   3e-33
+UniRef90_G3P6K2 Ezrin b n=1 Tax=Gasterosteus aculeatus TaxID=692...   147   3e-33
+UniRef90_A0A0P5XDR0 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   147   3e-33
+UniRef90_Q6DBY7 Ezr protein (Fragment) n=2 Tax=Cyprinidae TaxID=...   147   3e-33
+UniRef90_H0YX94 Moesin n=112 Tax=Amniota TaxID=32524 RepID=H0YX9...   147   3e-33
+UniRef90_UPI0001CB9D69 radixin n=1 Tax=Saccoglossus kowalevskii ...   147   3e-33
+UniRef90_T1ILC8 Uncharacterized protein n=1 Tax=Strigamia mariti...   147   3e-33
+UniRef90_A0A087TC60 Radixin (Fragment) n=1 Tax=Stegodyphus mimos...   147   3e-33
+UniRef90_A0A0P5D2Z1 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   147   3e-33
+UniRef90_A0A1I8JJ41 Uncharacterized protein n=1 Tax=Macrostomum ...   147   3e-33
+UniRef90_K1PUJ1 Radixin n=4 Tax=Crassostrea gigas TaxID=29159 Re...   147   3e-33
+UniRef90_F7AKT8 Moesin n=4 Tax=Tetrapoda TaxID=32523 RepID=F7AKT...   146   3e-33
+UniRef90_A0A0N5DYR3 Uncharacterized protein n=2 Tax=Trichuris Ta...   146   3e-33
+UniRef90_Q45R39 Ezrin/radixin/moesin n=1 Tax=Aplysia californica...   146   3e-33
+UniRef90_G5EBK3 ERM-1B n=10 Tax=Caenorhabditis TaxID=6237 RepID=...   146   4e-33
+UniRef90_H0XRZ3 Uncharacterized protein n=1 Tax=Otolemur garnett...   146   4e-33
+UniRef90_E7D1A4 Putative radixin (Fragment) n=2 Tax=Theridiidae ...   146   4e-33
+UniRef90_A0A0P5DZZ6 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   146   4e-33
+UniRef90_UPI00097CED72 radixin-like n=1 Tax=Paralichthys olivace...   146   4e-33
+UniRef90_A0A1S3M923 ezrin n=12 Tax=Protacanthopterygii TaxID=417...   146   4e-33
+UniRef90_A0A0N8AM14 Ezrin-moesin-radixin-like protein n=1 Tax=Da...   146   5e-33
+UniRef90_A0A0P5TJS9 Ezrin-moesin-radixin (Fragment) n=12 Tax=Dap...   146   5e-33
+UniRef90_H2SPE5 Radixin n=3 Tax=Tetraodontidae TaxID=31031 RepID...   146   5e-33
+UniRef90_Q7ZWC7 Rdx protein (Fragment) n=1 Tax=Danio rerio TaxID...   146   5e-33
+UniRef90_UPI0009E34314 radixin-like n=1 Tax=Orbicella faveolata ...   146   5e-33
+UniRef90_A0A0P5KP32 Putative Ezrin-moesin-radixin n=1 Tax=Daphni...   146   5e-33
+UniRef90_UPI000A1C5CA2 ezrin-like n=1 Tax=Boleophthalmus pectini...   146   5e-33
+UniRef90_G1Q1C2 Neurofibromin 2 n=1 Tax=Myotis lucifugus TaxID=5...   146   5e-33
+UniRef90_A0A0N4ZP34 Uncharacterized protein n=1 Tax=Parastrongyl...   146   5e-33
+UniRef90_A0A0K0J3J0 BMA-ERM-1 n=11 Tax=Spirurida TaxID=6274 RepI...   146   6e-33
+UniRef90_C0HB84 Moesin n=5 Tax=Clupeocephala TaxID=186625 RepID=...   146   6e-33
+UniRef90_G1P9M5 Ezrin n=1 Tax=Myotis lucifugus TaxID=59463 RepID...   146   6e-33
+UniRef90_A0A0N8BSZ8 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   146   7e-33
+UniRef90_A0A0P5TWF8 Putative Ezrin-moesin-radixin n=1 Tax=Daphni...   145   8e-33
+UniRef90_H3AAE0 Ezrin n=2 Tax=Latimeria chalumnae TaxID=7897 Rep...   145   8e-33
+UniRef90_A0A0V1E9P6 Moesin/ezrin/radixin-like protein 1 (Fragmen...   145   9e-33
+UniRef90_UPI0006D70D12 LOW QUALITY PROTEIN: merlin n=1 Tax=Myoti...   145   9e-33
+UniRef90_M4ASN9 Ezrin b n=6 Tax=Cyprinodontoidei TaxID=8087 RepI...   145   9e-33
+UniRef90_A0A0N4U7I1 Uncharacterized protein n=1 Tax=Dracunculus ...   145   9e-33
+UniRef90_A0A0V1BB96 Moesin/ezrin/radixin-like protein 1 n=13 Tax...   145   9e-33
+UniRef90_H3D2P3 Moesin a n=2 Tax=Tetraodon nigroviridis TaxID=99...   145   9e-33
+UniRef90_UPI0008FA7C34 LOW QUALITY PROTEIN: ezrin-like n=8 Tax=C...   145   1e-32
+UniRef90_UPI000854BA9B moesin isoform X1 n=2 Tax=Nanorana parker...   145   1e-32
+UniRef90_A0A0B7BDF9 Uncharacterized protein n=1 Tax=Arion vulgar...   145   1e-32
+UniRef90_A0A151M299 Uncharacterized protein n=1 Tax=Alligator mi...   145   1e-32
+UniRef90_A0A0R3PQ49 Uncharacterized protein n=1 Tax=Angiostrongy...   145   1e-32
+UniRef90_A0A090LH63 Moesin/ezrin/radixin homolog 1 n=4 Tax=Stron...   145   1e-32
+UniRef90_A0A0V1FWG4 Moesin/ezrin/radixin-like protein 1 n=3 Tax=...   145   1e-32
+UniRef90_A0A182YZP6 Uncharacterized protein n=2 Tax=Biomphalaria...   145   1e-32
+UniRef90_A0A0P5X9T9 Ezrin-moesin-radixin n=2 Tax=Daphnia magna T...   145   1e-32
+UniRef90_C3XTM6 Uncharacterized protein (Fragment) n=1 Tax=Branc...   145   1e-32
+UniRef90_A0A1I8ETU4 Uncharacterized protein n=1 Tax=Wuchereria b...   145   2e-32
+UniRef90_V3ZSA7 Uncharacterized protein (Fragment) n=1 Tax=Lotti...   145   2e-32
+UniRef90_A0A0S7HIS4 MOES n=2 Tax=Cyprinodontoidei TaxID=8087 Rep...   145   2e-32
+UniRef90_UPI00002204A7 C. briggsae CBR-ERM-1 protein n=1 Tax=Cae...   145   2e-32
+UniRef90_A0A0P5RJ99 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   145   2e-32
+UniRef90_A0A147A135 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   145   2e-32
+UniRef90_A0A210QE57 Radixin n=1 Tax=Mizuhopecten yessoensis TaxI...   144   2e-32
+UniRef90_W5P4J2 Neurofibromin 2 n=2 Tax=Cetartiodactyla TaxID=91...   144   2e-32
+UniRef90_A0A087XKR8 Moesin b n=9 Tax=Percomorphaceae TaxID=14898...   144   2e-32
+UniRef90_A0A1I7S7B6 Uncharacterized protein n=1 Tax=Bursaphelenc...   144   2e-32
+UniRef90_UPI00077581A7 ezrin n=1 Tax=Protobothrops mucrosquamatu...   144   2e-32
+UniRef90_F2U9N9 RDX protein n=1 Tax=Salpingoeca rosetta (strain ...   144   2e-32
+UniRef90_H2V8I2 Ezrin b n=2 Tax=Takifugu rubripes TaxID=31033 Re...   144   2e-32
+UniRef90_A0A1W2VN42 ezrin/radixin/moesin (ERM)-like protein n=3 ...   144   3e-32
+UniRef90_E7F638 Moesin b n=7 Tax=Cyprinidae TaxID=7953 RepID=E7F...   144   3e-32
+UniRef90_Q05DU4 Msn protein (Fragment) n=2 Tax=Euarchontoglires ...   144   3e-32
+UniRef90_A0A0S7IGC9 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   144   3e-32
+UniRef90_A0A183HZ58 Uncharacterized protein n=1 Tax=Onchocerca f...   144   3e-32
+UniRef90_W5L1D8 Moesin b n=10 Tax=Otophysi TaxID=186626 RepID=W5...   143   3e-32
+UniRef90_UPI00081491D7 moesin-like isoform X3 n=1 Tax=Pygocentru...   143   3e-32
+UniRef90_T2MG47 Radixin n=2 Tax=Hydra vulgaris TaxID=6087 RepID=...   143   3e-32
+UniRef90_A0A0K2UFE4 Moesin/ezrin/radixin homolog 1like [Bombyx m...   143   3e-32
+UniRef90_UPI00071E1E78 moesin-like n=1 Tax=Octopus bimaculoides ...   143   3e-32
+UniRef90_UPI0006B3A2FB ezrin isoform X1 n=2 Tax=Rivulidae TaxID=...   143   3e-32
+UniRef90_U3IY96 Ezrin n=11 Tax=Sauria TaxID=32561 RepID=U3IY96_A...   143   3e-32
+UniRef90_UPI0007AD160A radixin-like isoform X4 n=1 Tax=Sinocyclo...   143   4e-32
+UniRef90_UPI0006C9C717 moesin/ezrin/radixin homolog 1-like n=1 T...   143   4e-32
+UniRef90_UPI00083BB0C2 LOW QUALITY PROTEIN: merlin n=1 Tax=Rhino...   143   4e-32
+UniRef90_A0A1B6EHS6 Uncharacterized protein n=8 Tax=Cicadomorpha...   143   4e-32
+UniRef90_UPI00083C5BB5 moesin/ezrin/radixin homolog 1 isoform X1...   143   4e-32
+UniRef90_S4PGF9 Moesin (Fragment) n=1 Tax=Pararge aegeria TaxID=...   143   4e-32
+UniRef90_UPI00077B228F moesin-like n=1 Tax=Acropora digitifera T...   143   4e-32
+UniRef90_V9KAM1 Ezrin n=2 Tax=Callorhinchus milii TaxID=7868 Rep...   143   5e-32
+UniRef90_UPI0008F9AD30 moesin/ezrin/radixin homolog 1 isoform X1...   143   5e-32
+UniRef90_UPI0008708147 moesin/ezrin/radixin homolog 1 isoform X1...   143   5e-32
+UniRef90_A0A091CZF1 Merlin n=3 Tax=Euarchontoglires TaxID=314146...   143   5e-32
+UniRef90_H2R2J1 Neurofibromin 2 n=7 Tax=Amniota TaxID=32524 RepI...   143   5e-32
+UniRef90_Q29GR8 Moesin/ezrin/radixin homolog 1 n=50 Tax=Brachyce...   143   5e-32
+UniRef90_A0A1W0WJ32 Moesin/ezrin/radixin-like protein 1 n=1 Tax=...   143   5e-32
+UniRef90_UPI0005401FCE merlin isoform X2 n=5 Tax=Theria TaxID=72...   143   6e-32
+UniRef90_A0A1D5PY94 Moesin n=1 Tax=Gallus gallus TaxID=9031 RepI...   143   6e-32
+UniRef90_A4F2N4 Mt-ezrin/radixin/moesin (Fragment) n=1 Tax=Molgu...   142   6e-32
+UniRef90_A0A1L8E5J0 Putative ezrin/radixin/moesin family n=2 Tax...   142   6e-32
+UniRef90_H2Z109 Uncharacterized protein n=3 Tax=Ciona savignyi T...   142   7e-32
+UniRef90_A0A0U3SXA5 Moesin ezrin radixin 1-like protein isoform ...   142   7e-32
+UniRef90_R4G483 Putative radixin length n=10 Tax=Panheteroptera ...   142   7e-32
+UniRef90_U6DQU1 Ezrin (Fragment) n=2 Tax=Laurasiatheria TaxID=31...   142   8e-32
+UniRef90_H2M0P3 Moesin a n=1 Tax=Oryzias latipes TaxID=8090 RepI...   142   8e-32
+UniRef90_A0A0B7BF17 Uncharacterized protein n=1 Tax=Arion vulgar...   142   8e-32
+UniRef90_J9KAN2 Uncharacterized protein n=4 Tax=Macrosiphini Tax...   142   9e-32
+UniRef90_F7D1B8 Moesin n=2 Tax=Monodelphis domestica TaxID=13616...   142   9e-32
+UniRef90_P35240-8 Isoform 8 of Merlin n=8 Tax=Eutheria TaxID=934...   142   9e-32
+UniRef90_A0A183ICG6 Uncharacterized protein n=1 Tax=Soboliphyme ...   142   1e-31
+UniRef90_A0A060VVF1 Uncharacterized protein n=1 Tax=Oncorhynchus...   142   1e-31
+UniRef90_A0A1I8CMV0 Uncharacterized protein n=1 Tax=Rhabditophan...   141   1e-31
+UniRef90_A0A0A9VXP1 Uncharacterized protein n=2 Tax=Lygus hesper...   141   1e-31
+UniRef90_A0A1A8LGK1 Ezrin b n=11 Tax=Nothobranchiidae TaxID=4050...   141   1e-31
+UniRef90_A0A1E1WCD8 Uncharacterized protein (Fragment) n=3 Tax=D...   141   1e-31
+UniRef90_T1KRM2 Uncharacterized protein n=2 Tax=Tetranychus urti...   141   1e-31
+UniRef90_T1FMK3 Uncharacterized protein n=1 Tax=Helobdella robus...   141   1e-31
+UniRef90_T1EMA7 Uncharacterized protein n=1 Tax=Helobdella robus...   141   2e-31
+UniRef90_H3FV46 Uncharacterized protein n=1 Tax=Pristionchus pac...   141   2e-31
+UniRef90_Q6AZJ7 Nf2-prov protein n=13 Tax=Tetrapoda TaxID=32523 ...   141   2e-31
+UniRef90_A0A183C1Y1 Uncharacterized protein n=1 Tax=Globodera pa...   141   2e-31
+UniRef90_P35240-7 Isoform 7 of Merlin n=3 Tax=Euarchontoglires T...   141   2e-31
+UniRef90_P35240 Merlin n=165 Tax=Amniota TaxID=32524 RepID=MERL_...   141   2e-31
+UniRef90_H2V8I3 Ezrin b n=1 Tax=Takifugu rubripes TaxID=31033 Re...   141   2e-31
+UniRef90_UPI0008FA17F8 ezrin-like n=1 Tax=Cyprinus carpio TaxID=...   141   2e-31
+UniRef90_A0A1B6GWG0 Uncharacterized protein n=1 Tax=Cuerna arida...   141   2e-31
+UniRef90_A0A016S660 Uncharacterized protein n=3 Tax=Ancylostoma ...   141   2e-31
+UniRef90_A0A0P5UIE0 Ezrin-moesin-radixin-like protein (Fragment)...   140   2e-31
+UniRef90_J9EQ85 Nf2 protein (Fragment) n=1 Tax=Wuchereria bancro...   140   3e-31
+UniRef90_E0VSY0 Moesin/ezrin/radixin, putative n=1 Tax=Pediculus...   140   3e-31
+UniRef90_H3DG58 Ezrin b n=2 Tax=Tetraodon nigroviridis TaxID=998...   140   3e-31
+UniRef90_A0A0P5X9U4 Ezrin-moesin-radixin-like protein (Fragment)...   140   3e-31
+UniRef90_A0A0P4Z171 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   140   3e-31
+UniRef90_UPI0008FA200F moesin-like n=1 Tax=Cyprinus carpio TaxID...   140   3e-31
+UniRef90_P46150 Moesin/ezrin/radixin homolog 1 n=69 Tax=Holometa...   140   3e-31
+UniRef90_A0A1I7Z9R0 Uncharacterized protein n=1 Tax=Steinernema ...   140   3e-31
+UniRef90_G3QMH6 Neurofibromin 2 n=10 Tax=Theria TaxID=722675 Rep...   140   3e-31
+UniRef90_A0A1Y1M9R2 Uncharacterized protein n=2 Tax=Photinus pyr...   140   4e-31
+UniRef90_Q99K59 Nf2 protein n=8 Tax=Euarchontoglires TaxID=31414...   140   4e-31
+UniRef90_A0A1W4YX74 moesin-like isoform X1 n=3 Tax=Scleropages f...   140   4e-31
+UniRef90_A0A0P4X0A2 Ezrin-moesin-radixin-like protein (Fragment)...   140   5e-31
+UniRef90_A0A146WEP9 Radixin n=3 Tax=Fundulus heteroclitus TaxID=...   139   5e-31
+UniRef90_UPI0008758ACC ezrin-like n=1 Tax=Lates calcarifer TaxID...   139   5e-31
+UniRef90_A0A0P5YVB5 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   139   5e-31
+UniRef90_A0A1W4YWV4 moesin-like isoform X3 n=1 Tax=Scleropages f...   139   5e-31
+UniRef90_A0A1I8J2Y3 Uncharacterized protein n=3 Tax=Macrostomum ...   139   5e-31
+UniRef90_P46662 Merlin n=178 Tax=Amniota TaxID=32524 RepID=MERL_...   139   6e-31
+UniRef90_A0A0L8HU31 Uncharacterized protein n=1 Tax=Octopus bima...   139   6e-31
+UniRef90_A0A1A7XR63 Moesin b (Fragment) n=1 Tax=Aphyosemion stri...   139   6e-31
+UniRef90_W4YSB8 Uncharacterized protein n=1 Tax=Strongylocentrot...   139   6e-31
+UniRef90_M3XLH4 Neurofibromin 2 n=4 Tax=Latimeria chalumnae TaxI...   139   6e-31
+UniRef90_UPI00046CED40 moesin/ezrin/radixin homolog 1-like isofo...   139   6e-31
+UniRef90_A0A146WBW4 Radixin n=3 Tax=Fundulus heteroclitus TaxID=...   139   7e-31
+UniRef90_A0A0P5XZU5 Ezrin-moesin-radixin-like protein (Fragment)...   139   7e-31
+UniRef90_W5UJG3 Ezrin n=1 Tax=Ictalurus punctatus TaxID=7998 Rep...   139   7e-31
+UniRef90_W5K4K6 Ezrin a n=2 Tax=Characoidei TaxID=1489739 RepID=...   139   7e-31
+UniRef90_A0A146WF22 Radixin (Fragment) n=1 Tax=Fundulus heterocl...   139   7e-31
+UniRef90_P52962 Moesin n=1 Tax=Lytechinus variegatus TaxID=7654 ...   139   8e-31
+UniRef90_UPI0003EBF80A ezrin n=1 Tax=Myotis davidii TaxID=225400...   139   8e-31
+UniRef90_A0A1L8E6M8 Putative moesin/ezrin/radixin protein 1 (Fra...   139   8e-31
+UniRef90_A0A0P6FEA6 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   139   8e-31
+UniRef90_A0A0N5AKM5 Uncharacterized protein n=1 Tax=Syphacia mur...   139   9e-31
+UniRef90_M4AMR3 Uncharacterized protein n=1 Tax=Xiphophorus macu...   138   9e-31
+UniRef90_Q503E6 Ezrin a n=6 Tax=Cyprinidae TaxID=7953 RepID=Q503...   138   1e-30
+UniRef90_A0A1U7SCR3 merlin-like isoform X1 n=10 Tax=Archelosauri...   138   1e-30
+UniRef90_A0A218V1S5 Merlin n=1 Tax=Lonchura striata domestica Ta...   138   1e-30
+UniRef90_UPI0009DA6FDE moesin-like n=1 Tax=Oryzias latipes TaxID...   138   1e-30
+UniRef90_A0A1X7V0F6 Uncharacterized protein n=1 Tax=Amphimedon q...   138   1e-30
+UniRef90_UPI00046BC844 merlin n=1 Tax=Eptesicus fuscus TaxID=290...   138   1e-30
+UniRef90_I3KLW7 Moesin b n=22 Tax=Percomorphaceae TaxID=1489872 ...   138   1e-30
+UniRef90_Q4RT99 Chromosome 1 SCAF14998, whole genome shotgun seq...   138   1e-30
+UniRef90_A0A146MZA0 Radixin (Fragment) n=1 Tax=Fundulus heterocl...   138   2e-30
+UniRef90_A0A1I8GCG6 Uncharacterized protein n=1 Tax=Macrostomum ...   138   2e-30
+UniRef90_UPI0006B30A74 moesin-like isoform X1 n=4 Tax=Cyprinodon...   138   2e-30
+UniRef90_V5GHY0 Moesin/ezrin/radixin protein n=15 Tax=Polyphaga ...   138   2e-30
+UniRef90_UPI0004571456 merlin n=1 Tax=Callorhinchus milii TaxID=...   138   2e-30
+UniRef90_A0A1J1HR81 CLUMA_CG004286, isoform A n=2 Tax=Pancrustac...   138   2e-30
+UniRef90_UPI00084666D0 merlin isoform X2 n=1 Tax=Xenopus tropica...   137   2e-30
+UniRef90_UPI0003C4A652 merlin isoform X3 n=1 Tax=Pelodiscus sine...   137   2e-30
+UniRef90_A0A1S3RQX9 moesin-like n=3 Tax=Protacanthopterygii TaxI...   137   2e-30
+UniRef90_W4ZL53 Uncharacterized protein n=1 Tax=Strongylocentrot...   137   2e-30
+UniRef90_A0A0Q3LVA8 Uncharacterized protein n=1 Tax=Amazona aest...   137   2e-30
+UniRef90_UPI00094E2AE4 ezrin-like n=1 Tax=Hippocampus comes TaxI...   137   2e-30
+UniRef90_M7CJ93 Merlin n=2 Tax=Chelonia mydas TaxID=8469 RepID=M...   137   3e-30
+UniRef90_H0ZJP3 Neurofibromin 2 n=1 Tax=Taeniopygia guttata TaxI...   137   3e-30
+UniRef90_UPI00046C3950 merlin-like isoform X3 n=1 Tax=Chrysemys ...   137   3e-30
+UniRef90_G3NNC4 Ezrin a n=1 Tax=Gasterosteus aculeatus TaxID=692...   137   3e-30
+UniRef90_UPI000643F8A9 merlin isoform X2 n=1 Tax=Clupea harengus...   137   3e-30
+UniRef90_UPI0003832B7A LOW QUALITY PROTEIN: moesin-like n=1 Tax=...   137   3e-30
+UniRef90_H2LW73 Moesin b n=1 Tax=Oryzias latipes TaxID=8090 RepI...   136   4e-30
+UniRef90_H2SLQ8 Moesin b n=3 Tax=Tetraodontidae TaxID=31031 RepI...   136   4e-30
+UniRef90_A0A1I8I2Z4 Uncharacterized protein n=2 Tax=Macrostomum ...   136   4e-30
+UniRef90_Q7SZ62 Ezrl protein (Fragment) n=2 Tax=Cyprinidae TaxID...   136   4e-30
+UniRef90_A7SXF9 Predicted protein n=1 Tax=Nematostella vectensis...   136   4e-30
+UniRef90_A0A0P6EJZ2 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   136   4e-30
+UniRef90_UPI0002B40DE2 merlin n=1 Tax=Taeniopygia guttata TaxID=...   136   4e-30
+UniRef90_UPI00076631F2 ezrin n=1 Tax=Panthera tigris altaica Tax...   136   4e-30
+UniRef90_F7G4H7 Uncharacterized protein n=1 Tax=Monodelphis dome...   136   5e-30
+UniRef90_I3NF68 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 RepI...   136   5e-30
+UniRef90_UPI00074FCB14 merlin-like n=1 Tax=Gekko japonicus TaxID...   136   5e-30
+UniRef90_A0A077Z9Z6 FERM N domain containing protein n=1 Tax=Tri...   136   6e-30
+UniRef90_UPI000A1C1B8C ezrin-like n=1 Tax=Boleophthalmus pectini...   136   6e-30
+UniRef90_UPI0003BBF5FB ezrin n=1 Tax=Myotis brandtii TaxID=10947...   136   6e-30
+UniRef90_UPI00094E7ACC moesin-like isoform X1 n=4 Tax=Hippocampu...   136   6e-30
+UniRef90_A0A1S3K9E4 merlin-like n=1 Tax=Lingula unguis TaxID=757...   136   7e-30
+UniRef90_UPI0006B3A59D alpha-protein kinase 1-like n=1 Tax=Austr...   136   7e-30
+UniRef90_UPI0006B72A0E merlin-like n=1 Tax=Zonotrichia albicolli...   135   8e-30
+UniRef90_Q6Q413 Neurofibromin 2b (merlin) n=18 Tax=Clupeocephala...   135   8e-30
+UniRef90_H2M9I6 Ezrin b n=2 Tax=Oryzias latipes TaxID=8090 RepID...   135   8e-30
+UniRef90_UPI000443464F merlin-like n=1 Tax=Monodelphis domestica...   135   8e-30
+UniRef90_H0Z3P8 Uncharacterized protein n=96 Tax=Archelosauria T...   135   9e-30
+UniRef90_A8E569 Ezrl protein (Fragment) n=1 Tax=Danio rerio TaxI...   135   9e-30
+UniRef90_G1K046 Radixin (Fragment) n=1 Tax=Rhodnius prolixus Tax...   135   1e-29
+UniRef90_I3JWV9 Neurofibromin 2a (merlin) n=12 Tax=Percomorphace...   135   1e-29
+UniRef90_A0A1W4Y9C9 ezrin-like n=1 Tax=Scleropages formosus TaxI...   135   1e-29
+UniRef90_UPI00093CC6FB merlin-like isoform X3 n=1 Tax=Crocodylus...   135   1e-29
+UniRef90_A0A060XWJ2 Uncharacterized protein n=2 Tax=Euteleosteom...   135   1e-29
+UniRef90_UPI0006446336 ezrin-like isoform X1 n=2 Tax=Clupea hare...   135   2e-29
+UniRef90_UPI000496BE65 ezrin-like n=1 Tax=Cynoglossus semilaevis...   134   2e-29
+UniRef90_A0A1D2NEW2 Moesin/ezrin/radixin 1 n=1 Tax=Orchesella ci...   134   2e-29
+UniRef90_A0A091NNX0 Merlin (Fragment) n=6 Tax=Neognathae TaxID=8...   134   2e-29
+UniRef90_UPI00076FB358 moesin/ezrin/radixin homolog 1 isoform X1...   134   2e-29
+UniRef90_UPI000359E745 merlin-like n=1 Tax=Aplysia californica T...   134   2e-29
+UniRef90_A0A0P5L149 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   134   2e-29
+UniRef90_UPI00051E4846 merlin-like n=2 Tax=Aves TaxID=8782 RepID...   134   2e-29
+UniRef90_F6RHZ4 Neurofibromin 2 n=6 Tax=Boreoeutheria TaxID=1437...   134   2e-29
+UniRef90_G3NND3 Ezrin a n=1 Tax=Gasterosteus aculeatus TaxID=692...   134   2e-29
+UniRef90_UPI0005F04B05 merlin n=1 Tax=Strongylocentrotus purpura...   134   3e-29
+UniRef90_UPI0009B4C9E1 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   134   3e-29
+UniRef90_A0A182VK54 Uncharacterized protein n=3 Tax=Cellia TaxID...   134   3e-29
+UniRef90_A0A1A8RN97 Neurofibromin 2b (Merlin) n=22 Tax=Clupeocep...   133   3e-29
+UniRef90_A0A1Y3ETX1 FERM PH-like domain protein n=1 Tax=Trichine...   133   3e-29
+UniRef90_Q7PS12 Moesin/ezrin/radixin homolog 1 n=21 Tax=Culicoid...   133   3e-29
+UniRef90_A0A0V1KTX9 Moesin/ezrin/radixin-like protein 1 n=3 Tax=...   133   3e-29
+UniRef90_Q7PS12-3 Isoform B of Moesin/ezrin/radixin homolog 1 n=...   133   4e-29
+UniRef90_A0A1I8G0M1 Uncharacterized protein n=1 Tax=Macrostomum ...   133   4e-29
+UniRef90_H2UH80 Neurofibromin 2b (merlin) n=22 Tax=Percomorphace...   133   4e-29
+UniRef90_UPI0009B4BE4A LOW QUALITY PROTEIN: ezrin-like n=1 Tax=M...   133   4e-29
+UniRef90_A0A1W4YCN4 merlin-like isoform X1 n=7 Tax=Neopterygii T...   133   4e-29
+UniRef90_G3W7S5 Uncharacterized protein (Fragment) n=3 Tax=Metat...   133   4e-29
+UniRef90_UPI0006B3A08A merlin isoform X2 n=1 Tax=Austrofundulus ...   133   4e-29
+UniRef90_A0A1S3L2K9 merlin-like isoform X1 n=7 Tax=Euteleosteomo...   133   4e-29
+UniRef90_UPI000328EF4A merlin-like isoform X1 n=1 Tax=Dasypus no...   133   5e-29
+UniRef90_A0A1A8NF36 Neurofibromin 2b (Merlin) n=1 Tax=Nothobranc...   133   5e-29
+UniRef90_U3IQR1 Uncharacterized protein n=7 Tax=Aves TaxID=8782 ...   133   5e-29
+UniRef90_A0A023GJE6 Putative radixin moesin (Fragment) n=1 Tax=A...   133   6e-29
+UniRef90_UPI000A281AA8 merlin-like isoform X2 n=1 Tax=Phascolarc...   132   7e-29
+UniRef90_K1QN01 Merlin n=3 Tax=Crassostrea gigas TaxID=29159 Rep...   132   7e-29
+UniRef90_A0A1W4YD13 merlin-like isoform X3 n=1 Tax=Scleropages f...   132   7e-29
+UniRef90_V4AUR3 Uncharacterized protein n=2 Tax=Lottia gigantea ...   132   8e-29
+UniRef90_H2L5L7 Neurofibromin 2a (merlin) n=7 Tax=Ovalentaria Ta...   132   9e-29
+UniRef90_L7M2F9 Uncharacterized protein n=6 Tax=Ixodidae TaxID=6...   132   9e-29
+UniRef90_H2MV92 Ezrin a n=2 Tax=Oryzias latipes TaxID=8090 RepID...   132   9e-29
+UniRef90_A0A158P9T3 Uncharacterized protein n=2 Tax=Strongylida ...   132   9e-29
+UniRef90_A0A1A8SGV9 Neurofibromin 2b (Merlin) (Fragment) n=6 Tax...   132   1e-28
+UniRef90_A0A060VZ82 Uncharacterized protein n=1 Tax=Oncorhynchus...   132   1e-28
+UniRef90_W4YAW4 Uncharacterized protein n=1 Tax=Strongylocentrot...   131   1e-28
+UniRef90_UPI0005CF3F05 moesin/ezrin/radixin homolog 1 isoform X1...   131   1e-28
+UniRef90_A0A1D2N746 Merlin n=1 Tax=Orchesella cincta TaxID=48709...   131   1e-28
+UniRef90_A0A1S3SW70 moesin-like n=1 Tax=Salmo salar TaxID=8030 R...   131   1e-28
+UniRef90_UPI000802DDC2 merlin n=1 Tax=Ictalurus punctatus TaxID=...   131   1e-28
+UniRef90_UPI0009E2C279 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   131   1e-28
+UniRef90_I3IVA3 Ezrin a n=5 Tax=Pseudocrenilabrinae TaxID=318546...   131   1e-28
+UniRef90_UPI00054ED477 F-box only protein 21 n=1 Tax=Notothenia ...   131   1e-28
+UniRef90_H3BHZ9 Neurofibromin 2b (merlin) n=2 Tax=Latimeria chal...   131   2e-28
+UniRef90_UPI000719AD9F merlin-like n=1 Tax=Priapulus caudatus Ta...   131   2e-28
+UniRef90_A0A0N4VHF1 Uncharacterized protein n=1 Tax=Enterobius v...   131   2e-28
+UniRef90_S4RS18 Ezrin a n=1 Tax=Petromyzon marinus TaxID=7757 Re...   131   2e-28
+UniRef90_UPI000A2823A1 merlin-like isoform X3 n=1 Tax=Phascolarc...   131   2e-28
+UniRef90_A0A1S3PGE4 merlin n=5 Tax=Protacanthopterygii TaxID=417...   130   2e-28
+UniRef90_Q4RRW4 Chromosome 7 SCAF15001, whole genome shotgun seq...   130   3e-28
+UniRef90_UPI000901D0CA ezrin-like n=1 Tax=Larimichthys crocea Ta...   130   3e-28
+UniRef90_B3DGL5 Neurofibromin 2a (merlin) n=6 Tax=Cyprinidae Tax...   130   3e-28
+UniRef90_UPI0007E2D615 moesin/ezrin/radixin homolog 1-like n=2 T...   130   3e-28
+UniRef90_UPI00099F59CE radixin-like n=1 Tax=Oncorhynchus kisutch...   130   4e-28
+UniRef90_V5HVD9 Putative regulation of hippo signaling cascade n...   130   4e-28
+UniRef90_UPI0006743B4E merlin-like n=2 Tax=Biomphalaria glabrata...   130   4e-28
+UniRef90_H2T6H5 Ezrin a n=4 Tax=Tetraodontidae TaxID=31031 RepID...   130   4e-28
+UniRef90_A0A1Z5L2Q4 Uncharacterized protein (Fragment) n=1 Tax=O...   130   4e-28
+UniRef90_V9L4I1 Neurofibromin 2b (Merlin) (Fragment) n=5 Tax=Cho...   130   5e-28
+UniRef90_UPI0004F0FCDB merlin-like n=1 Tax=Acanthisitta chloris ...   130   5e-28
+UniRef90_A0A0L8GLL8 Uncharacterized protein n=2 Tax=Octopus bima...   130   5e-28
+UniRef90_UPI00097D8305 ezrin-like n=1 Tax=Paralichthys olivaceus...   130   5e-28
+UniRef90_A0A087U927 Merlin (Fragment) n=2 Tax=Entelegynae TaxID=...   129   5e-28
+UniRef90_B3RY21 Uncharacterized protein (Fragment) n=1 Tax=Trich...   129   6e-28
+UniRef90_A9URX5 Predicted protein n=1 Tax=Monosiga brevicollis T...   129   6e-28
+UniRef90_A0A1I8BUA1 Uncharacterized protein n=1 Tax=Meloidogyne ...   129   6e-28
+UniRef90_Q503W3 LOC553434 protein (Fragment) n=3 Tax=Cyprinidae ...   129   7e-28
+UniRef90_A0A0N8EDX7 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   129   7e-28
+UniRef90_A0A060X7Q7 Uncharacterized protein n=1 Tax=Oncorhynchus...   129   8e-28
+UniRef90_E1C9I6 Uncharacterized protein n=1 Tax=Gallus gallus Ta...   128   9e-28
+UniRef90_UPI0009479019 merlin-like n=1 Tax=Branchiostoma belcher...   128   1e-27
+UniRef90_C3ZHV7 Uncharacterized protein n=1 Tax=Branchiostoma fl...   128   1e-27
+UniRef90_UPI00094E3F46 merlin isoform X1 n=2 Tax=Hippocampus com...   128   1e-27
+UniRef90_A0A0P4YV95 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   128   1e-27
+UniRef90_F6W8H7 Uncharacterized protein n=2 Tax=Ornithorhynchus ...   128   1e-27
+UniRef90_A0A0P5N1U0 Moesin/ezrin/radixin n=19 Tax=Daphnia magna ...   128   2e-27
+UniRef90_UPI00063C05CD LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   128   2e-27
+UniRef90_UPI0004971E0A ezrin-like n=1 Tax=Stegastes partitus Tax...   128   2e-27
+UniRef90_A0A0P6BRX1 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   128   2e-27
+UniRef90_UPI0006443C35 moesin-like n=1 Tax=Clupea harengus TaxID...   127   2e-27
+UniRef90_UPI000840828B moesin/ezrin/radixin homolog 1 isoform X2...   127   2e-27
+UniRef90_UPI0004A4E6D1 merlin-like n=1 Tax=Poecilia reticulata T...   127   3e-27
+UniRef90_M3ZJN5 Neurofibromin 2a (merlin) n=5 Tax=Cyprinodontifo...   127   3e-27
+UniRef90_UPI0007E65A6D moesin/ezrin/radixin homolog 1-like n=1 T...   127   3e-27
+UniRef90_UPI000A1C7117 merlin n=1 Tax=Boleophthalmus pectinirost...   127   3e-27
+UniRef90_A0A0N5C2D8 Uncharacterized protein n=2 Tax=Strongyloide...   127   3e-27
+UniRef90_A0A0P5AIW7 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   126   3e-27
+UniRef90_A0A0L7LT85 Moesin n=1 Tax=Operophtera brumata TaxID=104...   126   4e-27
+UniRef90_UPI00076A4C46 merlin-like n=1 Tax=Astyanax mexicanus Ta...   126   4e-27
+UniRef90_W5K8N6 Neurofibromin 2a (merlin) n=1 Tax=Astyanax mexic...   126   4e-27
+UniRef90_G5E1T8 Putative villin 2 (Fragment) n=1 Tax=Hymenochiru...   126   4e-27
+UniRef90_A0A147AP13 Merlin n=2 Tax=Fundulus heteroclitus TaxID=8...   126   4e-27
+UniRef90_J9JWV8 Uncharacterized protein n=2 Tax=Macrosiphini Tax...   126   4e-27
+UniRef90_UPI000441BA0E merlin-like isoform X1 n=3 Tax=Serpentes ...   126   5e-27
+UniRef90_A0A0M3K1X5 Moesin/ezrin/radixin homolog 1 (inferred by ...   126   5e-27
+UniRef90_UPI0006B10079 merlin-like n=1 Tax=Limulus polyphemus Ta...   126   5e-27
+UniRef90_UPI000495D3EA ezrin n=1 Tax=Cynoglossus semilaevis TaxI...   126   5e-27
+UniRef90_UPI000973286E moesin-like n=1 Tax=Esox lucius TaxID=801...   126   6e-27
+UniRef90_E9GW23 Uncharacterized protein n=2 Tax=Daphnia TaxID=66...   126   7e-27
+UniRef90_A0A0P5S9G9 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   126   7e-27
+UniRef90_A0A0P5HV06 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   126   7e-27
+UniRef90_UPI00084B5E07 merlin-like n=1 Tax=Hyalella azteca TaxID...   125   9e-27
+UniRef90_E4WWC4 Uncharacterized protein n=1 Tax=Oikopleura dioic...   125   9e-27
+UniRef90_A0A0B2V508 Moesin/ezrin/radixin-like protein 1 n=4 Tax=...   125   1e-26
+UniRef90_A0A0P4VYF1 Uncharacterized protein n=2 Tax=Scylla oliva...   125   1e-26
+UniRef90_A0A0D6LM34 FERM central domain protein n=1 Tax=Ancylost...   125   2e-26
+UniRef90_A0A0F8CEK5 Merlin n=1 Tax=Larimichthys crocea TaxID=215...   124   2e-26
+UniRef90_UPI0006B17C05 merlin n=1 Tax=Thamnophis sirtalis TaxID=...   124   2e-26
+UniRef90_A0A0S7HKL6 EZRI n=1 Tax=Poeciliopsis prolifica TaxID=18...   124   2e-26
+UniRef90_H2Z110 Uncharacterized protein n=2 Tax=Ciona savignyi T...   124   2e-26
+UniRef90_R7UTH7 Uncharacterized protein n=1 Tax=Capitella teleta...   124   3e-26
+UniRef90_A0A1W4Z5T3 merlin isoform X1 n=6 Tax=Neopterygii TaxID=...   123   3e-26
+UniRef90_A0A0C9R6E3 Mer protein n=2 Tax=Apocrita TaxID=7400 RepI...   123   3e-26
+UniRef90_UPI0002246893 merlin isoform X1 n=2 Tax=Chalcidoidea Ta...   123   4e-26
+UniRef90_K7IVX0 Uncharacterized protein n=3 Tax=Chalcidoidea Tax...   123   4e-26
+UniRef90_W2T4A3 FERM protein n=2 Tax=Ancylostomatidae TaxID=3327...   123   4e-26
+UniRef90_A0A0C9QAX7 NF2_0 protein n=56 Tax=Hymenoptera TaxID=739...   123   4e-26
+UniRef90_A0A195EVJ8 Merlin n=1 Tax=Trachymyrmex septentrionalis ...   123   4e-26
+UniRef90_UPI000A2A7D64 radixin-like n=1 Tax=Exaiptasia pallida T...   123   4e-26
+UniRef90_A0A0N0BFH1 Merlin n=44 Tax=Hymenoptera TaxID=7399 RepID...   123   5e-26
+UniRef90_A0A0S7HRC9 MERL (Fragment) n=1 Tax=Poeciliopsis prolifi...   123   5e-26
+UniRef90_E2BV71 Merlin n=1 Tax=Harpegnathos saltator TaxID=61038...   123   5e-26
+UniRef90_A0A0A9XV66 Merlin n=7 Tax=Panheteroptera TaxID=33351 Re...   122   7e-26
+UniRef90_A0A1A8NZ28 Neurofibromin 2a (Merlin) (Fragment) n=2 Tax...   122   8e-26
+UniRef90_A0A154PPQ9 Moesin/ezrin/radixin like protein 1 n=1 Tax=...   122   9e-26
+UniRef90_A0A1W4WTQ3 merlin n=2 Tax=Polyphaga TaxID=41084 RepID=A...   122   9e-26
+UniRef90_A0A087XN86 Ezrin a n=1 Tax=Poecilia formosa TaxID=48698...   122   1e-25
+UniRef90_A0A0S7HLF5 EZRI (Fragment) n=1 Tax=Poeciliopsis prolifi...   122   1e-25
+UniRef90_E2C7G4 Moesin/ezrin/radixin-like protein 1 n=17 Tax=Acu...   122   1e-25
+UniRef90_UPI0005597D0E moesin-like n=1 Tax=Notothenia coriiceps ...   121   1e-25
+UniRef90_F4WB39 Moesin/ezrin/radixin-like protein 1 n=1 Tax=Acro...   121   1e-25
+UniRef90_A0A0S7HFW7 EZRI (Fragment) n=2 Tax=Poeciliopsis prolifi...   121   1e-25
+UniRef90_UPI0007424F27 ezrin-like n=1 Tax=Cyprinodon variegatus ...   121   1e-25
+UniRef90_A0A0T6B950 FERM domain containing protein n=1 Tax=Oryct...   121   2e-25
+UniRef90_A0A146YFB7 Merlin n=2 Tax=Fundulus heteroclitus TaxID=8...   121   2e-25
+UniRef90_A0A146MPM2 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   121   2e-25
+UniRef90_M5AK70 Merlin n=1 Tax=Gryllus bimaculatus TaxID=6999 Re...   121   2e-25
+UniRef90_D2A4B9 Moesin/ezrin/radixin homolog 2-like Protein n=2 ...   121   2e-25
+UniRef90_A0A1A7ZRU2 Neurofibromin 2a (Merlin) n=13 Tax=Nothobran...   121   2e-25
+UniRef90_A0A1V9X586 Merlin-like n=1 Tax=Tropilaelaps mercedesae ...   121   2e-25
+UniRef90_A0A146NLT3 Radixin n=2 Tax=Fundulus heteroclitus TaxID=...   121   2e-25
+UniRef90_UPI00064E5CB7 ezrin isoform X1 n=3 Tax=Eutheria TaxID=9...   120   3e-25
+UniRef90_A0A1Y1LKC2 Uncharacterized protein (Fragment) n=1 Tax=P...   120   3e-25
+UniRef90_UPI0005D3D491 merlin n=1 Tax=Pogonomyrmex barbatus TaxI...   120   3e-25
+UniRef90_A0A0N8EPW1 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   120   3e-25
+UniRef90_A0A146MM39 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   120   3e-25
+UniRef90_UPI0007BA6704 radixin-like n=1 Tax=Sinocyclocheilus ans...   120   4e-25
+UniRef90_S7MM07 Ezrin n=1 Tax=Myotis brandtii TaxID=109478 RepID...   120   4e-25
+UniRef90_UPI00026577F7 merlin n=1 Tax=Galendromus occidentalis T...   120   4e-25
+UniRef90_UPI000B4F7F93 moesin-like n=1 Tax=Oncorhynchus mykiss T...   120   4e-25
+UniRef90_A0A0K2UTI2 Merlinlike [Acyrthosiphon pisum] (Fragment) ...   119   7e-25
+UniRef90_A0A0N7ZRN3 Ezrin-moesin-radixin n=4 Tax=Daphnia magna T...   119   7e-25
+UniRef90_A0A067QZ85 Moesin/ezrin/radixin-like protein 1 (Fragmen...   119   8e-25
+UniRef90_A0A210PVB2 Merlin n=2 Tax=Mizuhopecten yessoensis TaxID...   119   9e-25
+UniRef90_UPI0008F99292 merlin n=1 Tax=Bemisia tabaci TaxID=7038 ...   119   9e-25
+UniRef90_M3ZJX0 Ezrin a n=5 Tax=Poeciliinae TaxID=586240 RepID=M...   119   9e-25
+UniRef90_A0A1A9WVE7 Uncharacterized protein n=1 Tax=Glossina bre...   118   1e-24
+UniRef90_UPI0007B80258 moesin-like n=1 Tax=Sinocyclocheilus rhin...   118   1e-24
+UniRef90_UPI000A2A76E6 merlin-like n=1 Tax=Exaiptasia pallida Ta...   118   2e-24
+UniRef90_UPI0006B6FECB merlin-like n=1 Tax=Zonotrichia albicolli...   118   2e-24
+UniRef90_UPI0009E3389F merlin-like n=1 Tax=Orbicella faveolata T...   117   3e-24
+UniRef90_A0A024R1F6 Neurofibromin 2 (Bilateral acoustic neuroma)...   117   3e-24
+UniRef90_A0A0N1I6Z3 Moesin/ezrin/radixin-like 2 n=4 Tax=Papilio ...   117   3e-24
+UniRef90_K7JC14 Uncharacterized protein n=4 Tax=Nasonia vitripen...   116   4e-24
+UniRef90_UPI00094E0E43 ezrin-like n=1 Tax=Hippocampus comes TaxI...   116   4e-24
+UniRef90_UPI00096B4CAC LOW QUALITY PROTEIN: merlin n=1 Tax=Aethi...   116   4e-24
+UniRef90_A0A1B6F247 Uncharacterized protein n=2 Tax=unclassified...   116   5e-24
+UniRef90_A0A1I7Y0S3 Uncharacterized protein n=2 Tax=Steinernema ...   116   5e-24
+UniRef90_F7A6R8 Neurofibromin 2 n=1 Tax=Ornithorhynchus anatinus...   116   5e-24
+UniRef90_A0A067R5E3 Merlin n=2 Tax=Neoptera TaxID=33340 RepID=A0...   116   6e-24
+UniRef90_UPI0006715191 merlin-like n=1 Tax=Anser cygnoides domes...   116   6e-24
+UniRef90_A0A1B6C9Z9 Uncharacterized protein (Fragment) n=1 Tax=C...   116   6e-24
+UniRef90_Q4T1E5 Chromosome undetermined SCAF10648, whole genome ...   116   7e-24
+UniRef90_H9JY82 Uncharacterized protein n=5 Tax=Ditrysia TaxID=3...   116   8e-24
+UniRef90_A0A1Y3EPH8 FERM PH-like domain protein n=1 Tax=Trichine...   116   8e-24
+UniRef90_UPI00083C35BC merlin n=1 Tax=Nicrophorus vespilloides T...   115   9e-24
+UniRef90_A0A1X7VJU9 Uncharacterized protein n=1 Tax=Amphimedon q...   115   9e-24
+UniRef90_A0A0V1ETZ7 Merlin n=2 Tax=Trichinella pseudospiralis Ta...   115   1e-23
+UniRef90_UPI000640DF5E radixin-like n=1 Tax=Hydra vulgaris TaxID...   115   1e-23
+UniRef90_A0A0V1N5F5 Merlin n=2 Tax=Trichinella TaxID=6333 RepID=...   115   1e-23
+UniRef90_UPI0005D04BE8 merlin-like n=3 Tax=Plutella xylostella T...   115   1e-23
+UniRef90_UPI000B399762 merlin n=1 Tax=Helicoverpa armigera TaxID...   115   1e-23
+UniRef90_F2UG77 Moesin n=1 Tax=Salpingoeca rosetta (strain ATCC ...   115   1e-23
+UniRef90_A0A1B6MNL0 Uncharacterized protein (Fragment) n=1 Tax=G...   115   1e-23
+UniRef90_A0A0V1EU77 Merlin n=5 Tax=Trichinella TaxID=6333 RepID=...   115   1e-23
+UniRef90_A0A085N028 Uncharacterized protein n=2 Tax=Trichuris su...   115   2e-23
+UniRef90_A0A0V1HV53 Merlin n=5 Tax=Trichinella TaxID=6333 RepID=...   114   2e-23
+UniRef90_A0A0V1HVN0 Merlin n=1 Tax=Trichinella zimbabwensis TaxI...   114   2e-23
+UniRef90_A0A060Y1I6 Uncharacterized protein n=1 Tax=Oncorhynchus...   114   2e-23
+UniRef90_A0A0V1HUW0 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...   114   2e-23
+UniRef90_E0VMZ3 Merlin, putative n=1 Tax=Pediculus humanus subsp...   114   2e-23
+UniRef90_A0A0V1KYN3 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...   114   2e-23
+UniRef90_A0A0V1KZH7 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...   114   2e-23
+UniRef90_A0A0V0YN76 Merlin n=1 Tax=Trichinella pseudospiralis Ta...   114   2e-23
+UniRef90_E9PW99 Merlin (Fragment) n=2 Tax=Mus musculus TaxID=100...   114   2e-23
+UniRef90_A0A0V0YN71 Merlin n=6 Tax=Trichinella TaxID=6333 RepID=...   114   3e-23
+UniRef90_Q4RTY3 Chromosome 12 SCAF14996, whole genome shotgun se...   114   3e-23
+UniRef90_A0A212D7E6 Uncharacterized protein n=1 Tax=Cervus elaph...   114   3e-23
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_A0A0P7WVX6 Radixin-like (Fragment) n=1 Tax=Scleropages formosus TaxID=113540
+           RepID=A0A0P7WVX6_9TELE
+          Length = 781
+
+ Score =  157 bits (399), Expect = 2e-36,   Method: Composition-based stats.
+ Identities = 42/78 (53%), Positives = 50/78 (64%), Gaps = 1/78 (1%)
+
+Query: 2   FTVRIVTMDAEMEFNCEMKWKGKDLFDLVCRTLGLRETWFFGLQYTI-KDTVAWLKMDKK 60
+             VR+ TMDAE+EF  +    GK LFD V +T+GLRE WFFGLQY   K    WLK++KK
+Sbjct: 209 INVRVTTMDAELEFAIQPNTTGKQLFDQVVKTVGLREVWFFGLQYVDSKGYSTWLKLNKK 268
+
+Query: 61  VLDHDVSKEEPVTFHFLA 78
+           V   DV KE P+ F F A
+Sbjct: 269 VTQQDVKKENPLQFKFRA 286
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A0P7WVX6 Radixin-like (Fragment) n=1 Tax=Scleropages ...   157   2e-36
+UniRef90_S7NLC0 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 RepI...   155   1e-35
+UniRef90_L9K085 Ezrin n=2 Tax=Boreoeutheria TaxID=1437010 RepID=...   155   1e-35
+UniRef90_H3DE15 Radixin n=1 Tax=Tetraodon nigroviridis TaxID=998...   155   1e-35
+UniRef90_A0A085NSY6 Uncharacterized protein n=1 Tax=Trichuris su...   155   1e-35
+UniRef90_J7M2B1 Tyrosine-protein kinase receptor n=4 Tax=Boreoeu...   154   2e-35
+UniRef90_A0A0P7U2U5 Ezrin-like n=1 Tax=Scleropages formosus TaxI...   154   2e-35
+UniRef90_S9XA25 Ezrin isoform 5-like protein (Fragment) n=1 Tax=...   154   2e-35
+UniRef90_Q4RTN2 Chromosome 2 SCAF14997, whole genome shotgun seq...   154   2e-35
+UniRef90_L5MAP7 Ezrin n=2 Tax=Laurasiatheria TaxID=314145 RepID=...   154   2e-35
+UniRef90_G1NWP5 Uncharacterized protein n=3 Tax=Myotis TaxID=943...   154   3e-35
+UniRef90_A0A0F8C8K1 Ezrin n=2 Tax=Larimichthys crocea TaxID=2153...   153   3e-35
+UniRef90_W5P4R1 Moesin n=5 Tax=Eutheria TaxID=9347 RepID=W5P4R1_...   153   3e-35
+UniRef90_UPI00097DDFED radixin isoform X1 n=1 Tax=Paralichthys o...   153   4e-35
+UniRef90_F7DG77 Ezrin n=8 Tax=Euarchontoglires TaxID=314146 RepI...   153   4e-35
+UniRef90_G3W6E8 Ezrin n=1 Tax=Sarcophilus harrisii TaxID=9305 Re...   153   4e-35
+UniRef90_W5MXQ3 Radixin n=1 Tax=Lepisosteus oculatus TaxID=7918 ...   153   4e-35
+UniRef90_A0A0F8AIW6 Radixin n=26 Tax=Euteleosteomorpha TaxID=148...   153   5e-35
+UniRef90_A0A146XR37 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   153   5e-35
+UniRef90_M3W8S0 Ezrin n=5 Tax=Boreoeutheria TaxID=1437010 RepID=...   153   6e-35
+UniRef90_U3KDS7 Ezrin n=4 Tax=Neognathae TaxID=8825 RepID=U3KDS7...   152   7e-35
+UniRef90_UPI000440B75F radixin n=1 Tax=Astyanax mexicanus TaxID=...   152   7e-35
+UniRef90_P31976 Ezrin n=232 Tax=Bilateria TaxID=33213 RepID=EZRI...   152   8e-35
+UniRef90_W5KCX5 Radixin n=1 Tax=Astyanax mexicanus TaxID=7994 Re...   152   8e-35
+UniRef90_A0A0P5TBG1 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   152   8e-35
+UniRef90_H2LLJ0 Radixin n=1 Tax=Oryzias latipes TaxID=8090 RepID...   152   1e-34
+UniRef90_UPI0009A3D4A3 radixin-like n=2 Tax=Rhincodon typus TaxI...   152   1e-34
+UniRef90_A0A091CTA4 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 ...   151   1e-34
+UniRef90_Q6AX84 MGC82058 protein n=3 Tax=Xenopus TaxID=262014 Re...   151   1e-34
+UniRef90_A0A1W4Z675 ezrin-like n=1 Tax=Scleropages formosus TaxI...   151   1e-34
+UniRef90_I3JFC5 Ezrin b n=9 Tax=Percomorphaceae TaxID=1489872 Re...   151   1e-34
+UniRef90_A0A085MCW7 Uncharacterized protein n=1 Tax=Trichuris su...   151   2e-34
+UniRef90_UPI0009B3793B ezrin n=1 Tax=Monopterus albus TaxID=4370...   151   2e-34
+UniRef90_G5C2E0 Radixin n=3 Tax=Amniota TaxID=32524 RepID=G5C2E0...   151   2e-34
+UniRef90_A0A0S7GW01 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   151   2e-34
+UniRef90_P35241 Radixin n=264 Tax=Gnathostomata TaxID=35060 RepI...   151   2e-34
+UniRef90_UPI000854339B ezrin isoform X1 n=2 Tax=Nanorana parkeri...   151   2e-34
+UniRef90_H2LZD9 Radixin n=70 Tax=Euteleostomi TaxID=117571 RepID...   150   3e-34
+UniRef90_I3K4Z0 Moesin a n=42 Tax=Osteoglossocephalai TaxID=1489...   150   3e-34
+UniRef90_Q6PKD3 RDX protein (Fragment) n=5 Tax=Tetrapoda TaxID=3...   150   4e-34
+UniRef90_UPI00073FBD36 radixin n=1 Tax=Lepisosteus oculatus TaxI...   150   4e-34
+UniRef90_A0A0P4Z1U9 Ezrin-moesin-radixin n=12 Tax=Daphnia magna ...   150   4e-34
+UniRef90_A0A1S3MS89 radixin-like isoform X1 n=3 Tax=Salmoninae T...   150   4e-34
+UniRef90_A0A1U7TEB8 radixin isoform X3 n=3 Tax=Boreoeutheria Tax...   150   4e-34
+UniRef90_G9L0K5 Ezrin (Fragment) n=4 Tax=Laurasiatheria TaxID=31...   150   4e-34
+UniRef90_A0A0Q3PL13 Radixin n=1 Tax=Amazona aestiva TaxID=12930 ...   150   4e-34
+UniRef90_K7GIZ7 Ezrin n=8 Tax=Sauria TaxID=32561 RepID=K7GIZ7_PELSI   150   4e-34
+UniRef90_A0A1S3K1P2 radixin-like isoform X1 n=1 Tax=Lingula ungu...   149   5e-34
+UniRef90_A0A0Q3MAQ5 Ezrin n=2 Tax=Neognathae TaxID=8825 RepID=A0...   149   5e-34
+UniRef90_Q5TZG5 Ezrin n=2 Tax=Danio rerio TaxID=7955 RepID=Q5TZG...   149   5e-34
+UniRef90_A0A0G2K095 Radixin n=20 Tax=Euteleostomi TaxID=117571 R...   149   5e-34
+UniRef90_A0A0P5Y060 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   149   5e-34
+UniRef90_UPI0009B44A53 ezrin n=1 Tax=Labrus bergylta TaxID=56723...   149   6e-34
+UniRef90_UPI0009479235 radixin-like isoform X1 n=3 Tax=Branchios...   149   6e-34
+UniRef90_A0A0S7GQK3 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   149   7e-34
+UniRef90_A0A1S3K1V6 moesin/ezrin/radixin homolog 1-like n=1 Tax=...   149   7e-34
+UniRef90_A0A0P4YYP4 Ezrin-moesin-radixin (Fragment) n=2 Tax=Daph...   149   7e-34
+UniRef90_UPI0006D8DF83 moesin n=1 Tax=Latimeria chalumnae TaxID=...   149   7e-34
+UniRef90_UPI000643F9C3 ezrin n=1 Tax=Clupea harengus TaxID=7950 ...   149   7e-34
+UniRef90_A0A0P5ULS8 Ezrin-moesin-radixin n=4 Tax=Daphnia magna T...   149   7e-34
+UniRef90_P26038 Moesin n=139 Tax=Bilateria TaxID=33213 RepID=MOE...   149   7e-34
+UniRef90_UPI00084A397D moesin/ezrin/radixin homolog 1-like isofo...   149   8e-34
+UniRef90_A0A1D1VD02 Uncharacterized protein n=1 Tax=Ramazzottius...   149   8e-34
+UniRef90_W5NHV7 Ezrin b n=2 Tax=Lepisosteus oculatus TaxID=7918 ...   149   8e-34
+UniRef90_Q66I42 Moesin a n=17 Tax=Neopterygii TaxID=41665 RepID=...   149   8e-34
+UniRef90_G3P6K2 Ezrin b n=1 Tax=Gasterosteus aculeatus TaxID=692...   149   8e-34
+UniRef90_A0A1W7RA68 Moesin/ezrin/radixin homolog 1 n=1 Tax=Hadru...   149   9e-34
+UniRef90_A0A0D8Y921 Ezrin/radixin/moesin family protein n=1 Tax=...   148   9e-34
+UniRef90_UPI0009731BE1 radixin n=1 Tax=Esox lucius TaxID=8010 Re...   148   9e-34
+UniRef90_A0A0F5D2L2 Erm-1 n=1 Tax=Pristionchus pacificus TaxID=5...   148   1e-33
+UniRef90_A0A023FS50 Putative moesin/ezrin/radixin protein 1 n=9 ...   148   1e-33
+UniRef90_A0A131ZYS3 Moesin/ezrin/radixin-like protein 1-like pro...   148   1e-33
+UniRef90_UPI000719D2E2 moesin/ezrin/radixin homolog 1-like n=1 T...   148   1e-33
+UniRef90_Q6DBY7 Ezr protein (Fragment) n=2 Tax=Cyprinidae TaxID=...   148   1e-33
+UniRef90_A0A0P7V0K8 Moesin-like n=1 Tax=Scleropages formosus Tax...   148   1e-33
+UniRef90_H0XRZ3 Uncharacterized protein n=1 Tax=Otolemur garnett...   148   1e-33
+UniRef90_Q5F347 Moesin n=2 Tax=Phasianidae TaxID=9005 RepID=Q5F3...   148   1e-33
+UniRef90_A0A0P5STV9 Putative Ezrin-moesin-radixin n=2 Tax=Daphni...   148   1e-33
+UniRef90_A0A091M0A8 Radixin (Fragment) n=2 Tax=Euteleostomi TaxI...   148   1e-33
+UniRef90_Q4V7Z2 MGC114910 protein n=8 Tax=Xenopus TaxID=262014 R...   148   1e-33
+UniRef90_A0A0P4W4C3 Uncharacterized protein n=2 Tax=Scylla oliva...   148   1e-33
+UniRef90_A0A087TC60 Radixin (Fragment) n=1 Tax=Stegodyphus mimos...   148   1e-33
+UniRef90_UPI0006B0A553 moesin/ezrin/radixin homolog 1-like n=2 T...   148   1e-33
+UniRef90_UPI000811746F moesin/ezrin/radixin homolog 1-like n=1 T...   148   1e-33
+UniRef90_A0A0N4WXU3 Uncharacterized protein n=1 Tax=Haemonchus p...   148   1e-33
+UniRef90_A0A0N5DYR3 Uncharacterized protein n=2 Tax=Trichuris Ta...   148   1e-33
+UniRef90_UPI00097CED72 radixin-like n=1 Tax=Paralichthys olivace...   148   1e-33
+UniRef90_A0A0P5RAU7 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   148   2e-33
+UniRef90_R7UYN1 Uncharacterized protein (Fragment) n=1 Tax=Capit...   148   2e-33
+UniRef90_A0A0P5L9J3 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   148   2e-33
+UniRef90_E7D1A4 Putative radixin (Fragment) n=2 Tax=Theridiidae ...   148   2e-33
+UniRef90_A0A0N8AM14 Ezrin-moesin-radixin-like protein n=1 Tax=Da...   148   2e-33
+UniRef90_A0A0N8BFK6 Ezrin-moesin-radixin n=2 Tax=Daphnia magna T...   148   2e-33
+UniRef90_UPI0001CB9D69 radixin n=1 Tax=Saccoglossus kowalevskii ...   147   2e-33
+UniRef90_T1ILC8 Uncharacterized protein n=1 Tax=Strigamia mariti...   147   2e-33
+UniRef90_A0A0P5XDR0 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   147   2e-33
+UniRef90_V9KAZ9 Moesin n=3 Tax=Callorhinchus milii TaxID=7868 Re...   147   2e-33
+UniRef90_B7Q5K4 Radixin, moesin, putative n=5 Tax=Bilateria TaxI...   147   2e-33
+UniRef90_A0A1S3M923 ezrin n=12 Tax=Protacanthopterygii TaxID=417...   147   2e-33
+UniRef90_A0A0P6HX80 Ezrin-moesin-radixin n=29 Tax=Daphnia TaxID=...   147   2e-33
+UniRef90_A0A0P5KP32 Putative Ezrin-moesin-radixin n=1 Tax=Daphni...   147   2e-33
+UniRef90_UPI000A1C5CA2 ezrin-like n=1 Tax=Boleophthalmus pectini...   147   2e-33
+UniRef90_A0A0P5D2Z1 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   147   3e-33
+UniRef90_G1Q1C2 Neurofibromin 2 n=1 Tax=Myotis lucifugus TaxID=5...   147   3e-33
+UniRef90_H2SPE5 Radixin n=3 Tax=Tetraodontidae TaxID=31031 RepID...   147   3e-33
+UniRef90_G1P9M5 Ezrin n=1 Tax=Myotis lucifugus TaxID=59463 RepID...   147   3e-33
+UniRef90_H0YX94 Moesin n=112 Tax=Amniota TaxID=32524 RepID=H0YX9...   147   3e-33
+UniRef90_F7AKT8 Moesin n=4 Tax=Tetrapoda TaxID=32523 RepID=F7AKT...   146   3e-33
+UniRef90_A0A1I8JJ41 Uncharacterized protein n=1 Tax=Macrostomum ...   146   4e-33
+UniRef90_M4ASN9 Ezrin b n=6 Tax=Cyprinodontoidei TaxID=8087 RepI...   146   4e-33
+UniRef90_H3AAE0 Ezrin n=2 Tax=Latimeria chalumnae TaxID=7897 Rep...   146   4e-33
+UniRef90_K1PUJ1 Radixin n=4 Tax=Crassostrea gigas TaxID=29159 Re...   146   4e-33
+UniRef90_UPI0009E34314 radixin-like n=1 Tax=Orbicella faveolata ...   146   4e-33
+UniRef90_A0A0P5DZZ6 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   146   4e-33
+UniRef90_A0A0P5TJS9 Ezrin-moesin-radixin (Fragment) n=12 Tax=Dap...   146   4e-33
+UniRef90_Q45R39 Ezrin/radixin/moesin n=1 Tax=Aplysia californica...   146   4e-33
+UniRef90_UPI0006D70D12 LOW QUALITY PROTEIN: merlin n=1 Tax=Myoti...   146   5e-33
+UniRef90_UPI0008FA7C34 LOW QUALITY PROTEIN: ezrin-like n=8 Tax=C...   146   5e-33
+UniRef90_A0A0V1E9P6 Moesin/ezrin/radixin-like protein 1 (Fragmen...   146   5e-33
+UniRef90_Q7ZWC7 Rdx protein (Fragment) n=1 Tax=Danio rerio TaxID...   146   5e-33
+UniRef90_A0A0N4ZP34 Uncharacterized protein n=1 Tax=Parastrongyl...   146   5e-33
+UniRef90_A0A0V1BB96 Moesin/ezrin/radixin-like protein 1 n=13 Tax...   146   5e-33
+UniRef90_A0A0S7IGC9 RADI (Fragment) n=1 Tax=Poeciliopsis prolifi...   146   5e-33
+UniRef90_G5EBK3 ERM-1B n=10 Tax=Caenorhabditis TaxID=6237 RepID=...   146   6e-33
+UniRef90_UPI00077581A7 ezrin n=1 Tax=Protobothrops mucrosquamatu...   146   6e-33
+UniRef90_A0A0P5TWF8 Putative Ezrin-moesin-radixin n=1 Tax=Daphni...   146   6e-33
+UniRef90_C0HB84 Moesin n=5 Tax=Clupeocephala TaxID=186625 RepID=...   146   6e-33
+UniRef90_A0A0N8BSZ8 Ezrin-moesin-radixin (Fragment) n=3 Tax=Daph...   146   6e-33
+UniRef90_W5P4J2 Neurofibromin 2 n=2 Tax=Cetartiodactyla TaxID=91...   146   7e-33
+UniRef90_A0A151M299 Uncharacterized protein n=1 Tax=Alligator mi...   145   8e-33
+UniRef90_C3XTM6 Uncharacterized protein (Fragment) n=1 Tax=Branc...   145   9e-33
+UniRef90_H3D2P3 Moesin a n=2 Tax=Tetraodon nigroviridis TaxID=99...   145   9e-33
+UniRef90_A0A0V1FWG4 Moesin/ezrin/radixin-like protein 1 n=3 Tax=...   145   9e-33
+UniRef90_A0A0P5X9T9 Ezrin-moesin-radixin n=2 Tax=Daphnia magna T...   145   1e-32
+UniRef90_A0A0R3PQ49 Uncharacterized protein n=1 Tax=Angiostrongy...   145   1e-32
+UniRef90_UPI0006B3A2FB ezrin isoform X1 n=2 Tax=Rivulidae TaxID=...   145   1e-32
+UniRef90_UPI000854BA9B moesin isoform X1 n=2 Tax=Nanorana parker...   145   1e-32
+UniRef90_V3ZSA7 Uncharacterized protein (Fragment) n=1 Tax=Lotti...   145   1e-32
+UniRef90_A0A0B7BDF9 Uncharacterized protein n=1 Tax=Arion vulgar...   145   1e-32
+UniRef90_A0A182YZP6 Uncharacterized protein n=2 Tax=Biomphalaria...   145   1e-32
+UniRef90_H2V8I2 Ezrin b n=2 Tax=Takifugu rubripes TaxID=31033 Re...   145   1e-32
+UniRef90_UPI00083BB0C2 LOW QUALITY PROTEIN: merlin n=1 Tax=Rhino...   145   1e-32
+UniRef90_A0A210QE57 Radixin n=1 Tax=Mizuhopecten yessoensis TaxI...   145   1e-32
+UniRef90_A0A0P5RJ99 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   145   1e-32
+UniRef90_A0A090LH63 Moesin/ezrin/radixin homolog 1 n=4 Tax=Stron...   145   1e-32
+UniRef90_A0A0S7HIS4 MOES n=2 Tax=Cyprinodontoidei TaxID=8087 Rep...   145   2e-32
+UniRef90_U6DQU1 Ezrin (Fragment) n=2 Tax=Laurasiatheria TaxID=31...   145   2e-32
+UniRef90_A0A0K0J3J0 BMA-ERM-1 n=11 Tax=Spirurida TaxID=6274 RepI...   145   2e-32
+UniRef90_U3IY96 Ezrin n=11 Tax=Sauria TaxID=32561 RepID=U3IY96_A...   144   2e-32
+UniRef90_V9KAM1 Ezrin n=2 Tax=Callorhinchus milii TaxID=7868 Rep...   144   2e-32
+UniRef90_A0A0N4U7I1 Uncharacterized protein n=1 Tax=Dracunculus ...   144   2e-32
+UniRef90_A0A091CZF1 Merlin n=3 Tax=Euarchontoglires TaxID=314146...   144   2e-32
+UniRef90_F2U9N9 RDX protein n=1 Tax=Salpingoeca rosetta (strain ...   144   2e-32
+UniRef90_UPI0006C9C717 moesin/ezrin/radixin homolog 1-like n=1 T...   144   2e-32
+UniRef90_A0A1B6EHS6 Uncharacterized protein n=8 Tax=Cicadomorpha...   144   2e-32
+UniRef90_S4PGF9 Moesin (Fragment) n=1 Tax=Pararge aegeria TaxID=...   144   2e-32
+UniRef90_UPI00002204A7 C. briggsae CBR-ERM-1 protein n=1 Tax=Cae...   144   2e-32
+UniRef90_UPI00083C5BB5 moesin/ezrin/radixin homolog 1 isoform X1...   144   2e-32
+UniRef90_UPI0005401FCE merlin isoform X2 n=5 Tax=Theria TaxID=72...   144   2e-32
+UniRef90_H2R2J1 Neurofibromin 2 n=7 Tax=Amniota TaxID=32524 RepI...   144   2e-32
+UniRef90_A0A1W2VN42 ezrin/radixin/moesin (ERM)-like protein n=3 ...   144   2e-32
+UniRef90_A0A0K2UFE4 Moesin/ezrin/radixin homolog 1like [Bombyx m...   144   2e-32
+UniRef90_T2MG47 Radixin n=2 Tax=Hydra vulgaris TaxID=6087 RepID=...   144   3e-32
+UniRef90_A0A1I7S7B6 Uncharacterized protein n=1 Tax=Bursaphelenc...   144   3e-32
+UniRef90_A0A147A135 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   144   3e-32
+UniRef90_UPI0008F9AD30 moesin/ezrin/radixin homolog 1 isoform X1...   144   3e-32
+UniRef90_A0A087XKR8 Moesin b n=9 Tax=Percomorphaceae TaxID=14898...   143   3e-32
+UniRef90_Q05DU4 Msn protein (Fragment) n=2 Tax=Euarchontoglires ...   143   3e-32
+UniRef90_UPI00077B228F moesin-like n=1 Tax=Acropora digitifera T...   143   3e-32
+UniRef90_P35240-8 Isoform 8 of Merlin n=8 Tax=Eutheria TaxID=934...   143   3e-32
+UniRef90_UPI00071E1E78 moesin-like n=1 Tax=Octopus bimaculoides ...   143   3e-32
+UniRef90_Q29GR8 Moesin/ezrin/radixin homolog 1 n=50 Tax=Brachyce...   143   3e-32
+UniRef90_T1KRM2 Uncharacterized protein n=2 Tax=Tetranychus urti...   143   3e-32
+UniRef90_A0A1D5PY94 Moesin n=1 Tax=Gallus gallus TaxID=9031 RepI...   143   3e-32
+UniRef90_E7F638 Moesin b n=7 Tax=Cyprinidae TaxID=7953 RepID=E7F...   143   4e-32
+UniRef90_R4G483 Putative radixin length n=10 Tax=Panheteroptera ...   143   4e-32
+UniRef90_A0A0U3SXA5 Moesin ezrin radixin 1-like protein isoform ...   143   4e-32
+UniRef90_A0A1L8E5J0 Putative ezrin/radixin/moesin family n=2 Tax...   143   4e-32
+UniRef90_UPI00081491D7 moesin-like isoform X3 n=1 Tax=Pygocentru...   143   4e-32
+UniRef90_A0A0A9VXP1 Uncharacterized protein n=2 Tax=Lygus hesper...   143   4e-32
+UniRef90_W5L1D8 Moesin b n=10 Tax=Otophysi TaxID=186626 RepID=W5...   143   4e-32
+UniRef90_A0A1I8ETU4 Uncharacterized protein n=1 Tax=Wuchereria b...   143   4e-32
+UniRef90_J9KAN2 Uncharacterized protein n=4 Tax=Macrosiphini Tax...   143   4e-32
+UniRef90_UPI0008708147 moesin/ezrin/radixin homolog 1 isoform X1...   143   5e-32
+UniRef90_A0A1A8LGK1 Ezrin b n=11 Tax=Nothobranchiidae TaxID=4050...   143   5e-32
+UniRef90_H2Z109 Uncharacterized protein n=3 Tax=Ciona savignyi T...   143   5e-32
+UniRef90_A0A183HZ58 Uncharacterized protein n=1 Tax=Onchocerca f...   143   6e-32
+UniRef90_P35240-7 Isoform 7 of Merlin n=3 Tax=Euarchontoglires T...   142   6e-32
+UniRef90_UPI0007AD160A radixin-like isoform X4 n=1 Tax=Sinocyclo...   142   6e-32
+UniRef90_A0A060VVF1 Uncharacterized protein n=1 Tax=Oncorhynchus...   142   6e-32
+UniRef90_A0A0B7BF17 Uncharacterized protein n=1 Tax=Arion vulgar...   142   7e-32
+UniRef90_A0A1W0WJ32 Moesin/ezrin/radixin-like protein 1 n=1 Tax=...   142   7e-32
+UniRef90_A4F2N4 Mt-ezrin/radixin/moesin (Fragment) n=1 Tax=Molgu...   142   7e-32
+UniRef90_H2M0P3 Moesin a n=1 Tax=Oryzias latipes TaxID=8090 RepI...   142   7e-32
+UniRef90_A0A1E1WCD8 Uncharacterized protein (Fragment) n=3 Tax=D...   142   7e-32
+UniRef90_UPI0008FA17F8 ezrin-like n=1 Tax=Cyprinus carpio TaxID=...   142   8e-32
+UniRef90_A0A183ICG6 Uncharacterized protein n=1 Tax=Soboliphyme ...   142   8e-32
+UniRef90_T1FMK3 Uncharacterized protein n=1 Tax=Helobdella robus...   142   8e-32
+UniRef90_P35240 Merlin n=165 Tax=Amniota TaxID=32524 RepID=MERL_...   142   8e-32
+UniRef90_Q6AZJ7 Nf2-prov protein n=13 Tax=Tetrapoda TaxID=32523 ...   142   9e-32
+UniRef90_F7D1B8 Moesin n=2 Tax=Monodelphis domestica TaxID=13616...   142   1e-31
+UniRef90_H2V8I3 Ezrin b n=1 Tax=Takifugu rubripes TaxID=31033 Re...   141   1e-31
+UniRef90_A0A1B6GWG0 Uncharacterized protein n=1 Tax=Cuerna arida...   141   1e-31
+UniRef90_A0A0P5UIE0 Ezrin-moesin-radixin-like protein (Fragment)...   141   1e-31
+UniRef90_T1EMA7 Uncharacterized protein n=1 Tax=Helobdella robus...   141   1e-31
+UniRef90_A0A1I8CMV0 Uncharacterized protein n=1 Tax=Rhabditophan...   141   1e-31
+UniRef90_G3QMH6 Neurofibromin 2 n=10 Tax=Theria TaxID=722675 Rep...   141   1e-31
+UniRef90_H3DG58 Ezrin b n=2 Tax=Tetraodon nigroviridis TaxID=998...   141   1e-31
+UniRef90_Q99K59 Nf2 protein n=8 Tax=Euarchontoglires TaxID=31414...   141   1e-31
+UniRef90_A0A016S660 Uncharacterized protein n=3 Tax=Ancylostoma ...   141   2e-31
+UniRef90_E0VSY0 Moesin/ezrin/radixin, putative n=1 Tax=Pediculus...   141   2e-31
+UniRef90_A0A218V1S5 Merlin n=1 Tax=Lonchura striata domestica Ta...   141   2e-31
+UniRef90_A0A1U7SCR3 merlin-like isoform X1 n=10 Tax=Archelosauri...   141   2e-31
+UniRef90_H3FV46 Uncharacterized protein n=1 Tax=Pristionchus pac...   141   2e-31
+UniRef90_M3XLH4 Neurofibromin 2 n=4 Tax=Latimeria chalumnae TaxI...   141   2e-31
+UniRef90_A0A0P5X9U4 Ezrin-moesin-radixin-like protein (Fragment)...   141   2e-31
+UniRef90_P46150 Moesin/ezrin/radixin homolog 1 n=69 Tax=Holometa...   141   2e-31
+UniRef90_A0A1Y1M9R2 Uncharacterized protein n=2 Tax=Photinus pyr...   141   2e-31
+UniRef90_P46662 Merlin n=178 Tax=Amniota TaxID=32524 RepID=MERL_...   141   2e-31
+UniRef90_W5K4K6 Ezrin a n=2 Tax=Characoidei TaxID=1489739 RepID=...   141   2e-31
+UniRef90_A0A0P4X0A2 Ezrin-moesin-radixin-like protein (Fragment)...   140   3e-31
+UniRef90_A0A146WEP9 Radixin n=3 Tax=Fundulus heteroclitus TaxID=...   140   3e-31
+UniRef90_UPI0008758ACC ezrin-like n=1 Tax=Lates calcarifer TaxID...   140   3e-31
+UniRef90_A0A0P4Z171 Ezrin-moesin-radixin n=3 Tax=Daphnia magna T...   140   3e-31
+UniRef90_A0A183C1Y1 Uncharacterized protein n=1 Tax=Globodera pa...   140   3e-31
+UniRef90_UPI0003EBF80A ezrin n=1 Tax=Myotis davidii TaxID=225400...   140   3e-31
+UniRef90_A0A0P5XZU5 Ezrin-moesin-radixin-like protein (Fragment)...   140   3e-31
+UniRef90_A0A1I7Z9R0 Uncharacterized protein n=1 Tax=Steinernema ...   140   3e-31
+UniRef90_UPI00046CED40 moesin/ezrin/radixin homolog 1-like isofo...   140   3e-31
+UniRef90_W5UJG3 Ezrin n=1 Tax=Ictalurus punctatus TaxID=7998 Rep...   140   3e-31
+UniRef90_Q503E6 Ezrin a n=6 Tax=Cyprinidae TaxID=7953 RepID=Q503...   140   3e-31
+UniRef90_J9EQ85 Nf2 protein (Fragment) n=1 Tax=Wuchereria bancro...   140   4e-31
+UniRef90_A0A146WBW4 Radixin n=3 Tax=Fundulus heteroclitus TaxID=...   140   4e-31
+UniRef90_A0A0Q3LVA8 Uncharacterized protein n=1 Tax=Amazona aest...   140   4e-31
+UniRef90_W4YSB8 Uncharacterized protein n=1 Tax=Strongylocentrot...   140   4e-31
+UniRef90_A0A146WF22 Radixin (Fragment) n=1 Tax=Fundulus heterocl...   140   4e-31
+UniRef90_UPI0003C4A652 merlin isoform X3 n=1 Tax=Pelodiscus sine...   140   4e-31
+UniRef90_P52962 Moesin n=1 Tax=Lytechinus variegatus TaxID=7654 ...   140   4e-31
+UniRef90_A0A1W4YX74 moesin-like isoform X1 n=3 Tax=Scleropages f...   140   4e-31
+UniRef90_UPI00046C3950 merlin-like isoform X3 n=1 Tax=Chrysemys ...   140   4e-31
+UniRef90_A0A1L8E6M8 Putative moesin/ezrin/radixin protein 1 (Fra...   140   5e-31
+UniRef90_M7CJ93 Merlin n=2 Tax=Chelonia mydas TaxID=8469 RepID=M...   140   5e-31
+UniRef90_A0A0P6FEA6 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   140   5e-31
+UniRef90_UPI00046BC844 merlin n=1 Tax=Eptesicus fuscus TaxID=290...   140   5e-31
+UniRef90_A0A1A7XR63 Moesin b (Fragment) n=1 Tax=Aphyosemion stri...   140   5e-31
+UniRef90_A0A0P5YVB5 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   139   5e-31
+UniRef90_A0A0L8HU31 Uncharacterized protein n=1 Tax=Octopus bima...   139   5e-31
+UniRef90_W4ZL53 Uncharacterized protein n=1 Tax=Strongylocentrot...   139   6e-31
+UniRef90_A0A1W4YWV4 moesin-like isoform X3 n=1 Tax=Scleropages f...   139   6e-31
+UniRef90_UPI0004571456 merlin n=1 Tax=Callorhinchus milii TaxID=...   139   6e-31
+UniRef90_UPI00084666D0 merlin isoform X2 n=1 Tax=Xenopus tropica...   139   6e-31
+UniRef90_UPI0008FA200F moesin-like n=1 Tax=Cyprinus carpio TaxID...   139   6e-31
+UniRef90_F7G4H7 Uncharacterized protein n=1 Tax=Monodelphis dome...   139   8e-31
+UniRef90_A0A077Z9Z6 FERM N domain containing protein n=1 Tax=Tri...   139   8e-31
+UniRef90_A0A146MZA0 Radixin (Fragment) n=1 Tax=Fundulus heterocl...   139   8e-31
+UniRef90_H0ZJP3 Neurofibromin 2 n=1 Tax=Taeniopygia guttata TaxI...   139   9e-31
+UniRef90_UPI0006B72A0E merlin-like n=1 Tax=Zonotrichia albicolli...   138   1e-30
+UniRef90_A0A1J1HR81 CLUMA_CG004286, isoform A n=2 Tax=Pancrustac...   138   1e-30
+UniRef90_UPI000643F8A9 merlin isoform X2 n=1 Tax=Clupea harengus...   138   1e-30
+UniRef90_Q7SZ62 Ezrl protein (Fragment) n=2 Tax=Cyprinidae TaxID...   138   1e-30
+UniRef90_M4AMR3 Uncharacterized protein n=1 Tax=Xiphophorus macu...   138   1e-30
+UniRef90_V5GHY0 Moesin/ezrin/radixin protein n=15 Tax=Polyphaga ...   138   1e-30
+UniRef90_UPI00094E2AE4 ezrin-like n=1 Tax=Hippocampus comes TaxI...   138   1e-30
+UniRef90_UPI000443464F merlin-like n=1 Tax=Monodelphis domestica...   138   1e-30
+UniRef90_A0A1I8GCG6 Uncharacterized protein n=1 Tax=Macrostomum ...   138   1e-30
+UniRef90_A0A0N5AKM5 Uncharacterized protein n=1 Tax=Syphacia mur...   138   1e-30
+UniRef90_H0Z3P8 Uncharacterized protein n=96 Tax=Archelosauria T...   138   1e-30
+UniRef90_UPI0002B40DE2 merlin n=1 Tax=Taeniopygia guttata TaxID=...   138   2e-30
+UniRef90_G3NNC4 Ezrin a n=1 Tax=Gasterosteus aculeatus TaxID=692...   138   2e-30
+UniRef90_A0A1X7V0F6 Uncharacterized protein n=1 Tax=Amphimedon q...   138   2e-30
+UniRef90_UPI0009DA6FDE moesin-like n=1 Tax=Oryzias latipes TaxID...   138   2e-30
+UniRef90_I3NF68 Radixin n=2 Tax=Boreoeutheria TaxID=1437010 RepI...   138   2e-30
+UniRef90_Q4RT99 Chromosome 1 SCAF14998, whole genome shotgun seq...   138   2e-30
+UniRef90_Q6Q413 Neurofibromin 2b (merlin) n=18 Tax=Clupeocephala...   138   2e-30
+UniRef90_A0A1S3K9E4 merlin-like n=1 Tax=Lingula unguis TaxID=757...   138   2e-30
+UniRef90_UPI00076631F2 ezrin n=1 Tax=Panthera tigris altaica Tax...   138   2e-30
+UniRef90_I3KLW7 Moesin b n=22 Tax=Percomorphaceae TaxID=1489872 ...   137   2e-30
+UniRef90_UPI00074FCB14 merlin-like n=1 Tax=Gekko japonicus TaxID...   137   2e-30
+UniRef90_A0A1I8J2Y3 Uncharacterized protein n=3 Tax=Macrostomum ...   137   2e-30
+UniRef90_UPI00093CC6FB merlin-like isoform X3 n=1 Tax=Crocodylus...   137   2e-30
+UniRef90_A0A091NNX0 Merlin (Fragment) n=6 Tax=Neognathae TaxID=8...   137   3e-30
+UniRef90_UPI0003BBF5FB ezrin n=1 Tax=Myotis brandtii TaxID=10947...   137   3e-30
+UniRef90_UPI0006B30A74 moesin-like isoform X1 n=4 Tax=Cyprinodon...   137   3e-30
+UniRef90_A8E569 Ezrl protein (Fragment) n=1 Tax=Danio rerio TaxI...   137   3e-30
+UniRef90_G1K046 Radixin (Fragment) n=1 Tax=Rhodnius prolixus Tax...   137   3e-30
+UniRef90_A0A1I8I2Z4 Uncharacterized protein n=2 Tax=Macrostomum ...   137   3e-30
+UniRef90_H2M9I6 Ezrin b n=2 Tax=Oryzias latipes TaxID=8090 RepID...   137   3e-30
+UniRef90_A0A1S3RQX9 moesin-like n=3 Tax=Protacanthopterygii TaxI...   137   3e-30
+UniRef90_UPI0003832B7A LOW QUALITY PROTEIN: moesin-like n=1 Tax=...   137   3e-30
+UniRef90_UPI000A1C1B8C ezrin-like n=1 Tax=Boleophthalmus pectini...   136   3e-30
+UniRef90_A0A1W4Y9C9 ezrin-like n=1 Tax=Scleropages formosus TaxI...   136   4e-30
+UniRef90_UPI00051E4846 merlin-like n=2 Tax=Aves TaxID=8782 RepID...   136   4e-30
+UniRef90_H2SLQ8 Moesin b n=3 Tax=Tetraodontidae TaxID=31031 RepI...   136   4e-30
+UniRef90_A0A0P6EJZ2 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   136   4e-30
+UniRef90_UPI0006B3A59D alpha-protein kinase 1-like n=1 Tax=Austr...   136   4e-30
+UniRef90_UPI000359E745 merlin-like n=1 Tax=Aplysia californica T...   136   5e-30
+UniRef90_F6RHZ4 Neurofibromin 2 n=6 Tax=Boreoeutheria TaxID=1437...   136   5e-30
+UniRef90_I3JWV9 Neurofibromin 2a (merlin) n=12 Tax=Percomorphace...   136   5e-30
+UniRef90_A7SXF9 Predicted protein n=1 Tax=Nematostella vectensis...   136   5e-30
+UniRef90_H2LW73 Moesin b n=1 Tax=Oryzias latipes TaxID=8090 RepI...   136   5e-30
+UniRef90_UPI0005F04B05 merlin n=1 Tax=Strongylocentrotus purpura...   136   7e-30
+UniRef90_A0A060XWJ2 Uncharacterized protein n=2 Tax=Euteleosteom...   136   7e-30
+UniRef90_UPI000328EF4A merlin-like isoform X1 n=1 Tax=Dasypus no...   136   8e-30
+UniRef90_UPI000496BE65 ezrin-like n=1 Tax=Cynoglossus semilaevis...   135   8e-30
+UniRef90_U3IQR1 Uncharacterized protein n=7 Tax=Aves TaxID=8782 ...   135   9e-30
+UniRef90_UPI00094E7ACC moesin-like isoform X1 n=4 Tax=Hippocampu...   135   9e-30
+UniRef90_UPI0009B4C9E1 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   135   9e-30
+UniRef90_UPI0006446336 ezrin-like isoform X1 n=2 Tax=Clupea hare...   135   1e-29
+UniRef90_A0A1A8RN97 Neurofibromin 2b (Merlin) n=22 Tax=Clupeocep...   135   1e-29
+UniRef90_UPI00076FB358 moesin/ezrin/radixin homolog 1 isoform X1...   135   1e-29
+UniRef90_A0A023GJE6 Putative radixin moesin (Fragment) n=1 Tax=A...   135   1e-29
+UniRef90_G3W7S5 Uncharacterized protein (Fragment) n=3 Tax=Metat...   135   1e-29
+UniRef90_G3NND3 Ezrin a n=1 Tax=Gasterosteus aculeatus TaxID=692...   135   1e-29
+UniRef90_H2UH80 Neurofibromin 2b (merlin) n=22 Tax=Percomorphace...   135   1e-29
+UniRef90_A0A1W4YCN4 merlin-like isoform X1 n=7 Tax=Neopterygii T...   135   1e-29
+UniRef90_UPI0006B3A08A merlin isoform X2 n=1 Tax=Austrofundulus ...   135   1e-29
+UniRef90_UPI000A281AA8 merlin-like isoform X2 n=1 Tax=Phascolarc...   135   1e-29
+UniRef90_A0A1S3L2K9 merlin-like isoform X1 n=7 Tax=Euteleosteomo...   135   2e-29
+UniRef90_A0A1Y3ETX1 FERM PH-like domain protein n=1 Tax=Trichine...   134   2e-29
+UniRef90_A0A1W4YD13 merlin-like isoform X3 n=1 Tax=Scleropages f...   134   2e-29
+UniRef90_K1QN01 Merlin n=3 Tax=Crassostrea gigas TaxID=29159 Rep...   134   2e-29
+UniRef90_A0A0V1KTX9 Moesin/ezrin/radixin-like protein 1 n=3 Tax=...   134   2e-29
+UniRef90_A0A0P5L149 Ezrin-moesin-radixin n=1 Tax=Daphnia magna T...   134   2e-29
+UniRef90_A0A1A8NF36 Neurofibromin 2b (Merlin) n=1 Tax=Nothobranc...   134   2e-29
+UniRef90_H2MV92 Ezrin a n=2 Tax=Oryzias latipes TaxID=8090 RepID...   134   2e-29
+UniRef90_L7M2F9 Uncharacterized protein n=6 Tax=Ixodidae TaxID=6...   134   2e-29
+UniRef90_A0A182VK54 Uncharacterized protein n=3 Tax=Cellia TaxID...   134   2e-29
+UniRef90_W4YAW4 Uncharacterized protein n=1 Tax=Strongylocentrot...   134   2e-29
+UniRef90_A0A1D2NEW2 Moesin/ezrin/radixin 1 n=1 Tax=Orchesella ci...   134   3e-29
+UniRef90_H2L5L7 Neurofibromin 2a (merlin) n=7 Tax=Ovalentaria Ta...   134   3e-29
+UniRef90_UPI000719AD9F merlin-like n=1 Tax=Priapulus caudatus Ta...   134   3e-29
+UniRef90_V4AUR3 Uncharacterized protein n=2 Tax=Lottia gigantea ...   134   3e-29
+UniRef90_Q7PS12 Moesin/ezrin/radixin homolog 1 n=21 Tax=Culicoid...   134   3e-29
+UniRef90_A0A1D2N746 Merlin n=1 Tax=Orchesella cincta TaxID=48709...   133   3e-29
+UniRef90_Q7PS12-3 Isoform B of Moesin/ezrin/radixin homolog 1 n=...   133   3e-29
+UniRef90_UPI0009B4BE4A LOW QUALITY PROTEIN: ezrin-like n=1 Tax=M...   133   3e-29
+UniRef90_A0A1I8G0M1 Uncharacterized protein n=1 Tax=Macrostomum ...   133   4e-29
+UniRef90_H3BHZ9 Neurofibromin 2b (merlin) n=2 Tax=Latimeria chal...   133   4e-29
+UniRef90_UPI0009E2C279 LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   133   4e-29
+UniRef90_A0A1A8SGV9 Neurofibromin 2b (Merlin) (Fragment) n=6 Tax...   133   4e-29
+UniRef90_UPI00054ED477 F-box only protein 21 n=1 Tax=Notothenia ...   133   4e-29
+UniRef90_UPI000802DDC2 merlin n=1 Tax=Ictalurus punctatus TaxID=...   133   4e-29
+UniRef90_UPI000A2823A1 merlin-like isoform X3 n=1 Tax=Phascolarc...   133   4e-29
+UniRef90_A0A0L8GLL8 Uncharacterized protein n=2 Tax=Octopus bima...   133   5e-29
+UniRef90_UPI0004F0FCDB merlin-like n=1 Tax=Acanthisitta chloris ...   133   6e-29
+UniRef90_I3IVA3 Ezrin a n=5 Tax=Pseudocrenilabrinae TaxID=318546...   132   7e-29
+UniRef90_S4RS18 Ezrin a n=1 Tax=Petromyzon marinus TaxID=7757 Re...   132   7e-29
+UniRef90_UPI0005CF3F05 moesin/ezrin/radixin homolog 1 isoform X1...   132   8e-29
+UniRef90_A0A158P9T3 Uncharacterized protein n=2 Tax=Strongylida ...   132   8e-29
+UniRef90_E1C9I6 Uncharacterized protein n=1 Tax=Gallus gallus Ta...   132   9e-29
+UniRef90_Q4RRW4 Chromosome 7 SCAF15001, whole genome shotgun seq...   132   9e-29
+UniRef90_A0A1S3PGE4 merlin n=5 Tax=Protacanthopterygii TaxID=417...   132   9e-29
+UniRef90_A0A060VZ82 Uncharacterized protein n=1 Tax=Oncorhynchus...   132   1e-28
+UniRef90_A0A1S3SW70 moesin-like n=1 Tax=Salmo salar TaxID=8030 R...   131   1e-28
+UniRef90_V5HVD9 Putative regulation of hippo signaling cascade n...   131   1e-28
+UniRef90_UPI0006743B4E merlin-like n=2 Tax=Biomphalaria glabrata...   131   1e-28
+UniRef90_UPI00099F59CE radixin-like n=1 Tax=Oncorhynchus kisutch...   131   1e-28
+UniRef90_A0A1Z5L2Q4 Uncharacterized protein (Fragment) n=1 Tax=O...   131   1e-28
+UniRef90_H2T6H5 Ezrin a n=4 Tax=Tetraodontidae TaxID=31031 RepID...   131   1e-28
+UniRef90_B3DGL5 Neurofibromin 2a (merlin) n=6 Tax=Cyprinidae Tax...   131   1e-28
+UniRef90_UPI000901D0CA ezrin-like n=1 Tax=Larimichthys crocea Ta...   131   1e-28
+UniRef90_V9L4I1 Neurofibromin 2b (Merlin) (Fragment) n=5 Tax=Cho...   131   2e-28
+UniRef90_UPI00063C05CD LOW QUALITY PROTEIN: merlin-like n=1 Tax=...   131   2e-28
+UniRef90_B3RY21 Uncharacterized protein (Fragment) n=1 Tax=Trich...   131   2e-28
+UniRef90_UPI00097D8305 ezrin-like n=1 Tax=Paralichthys olivaceus...   131   2e-28
+UniRef90_UPI0007E2D615 moesin/ezrin/radixin homolog 1-like n=2 T...   131   2e-28
+UniRef90_A0A087U927 Merlin (Fragment) n=2 Tax=Entelegynae TaxID=...   130   2e-28
+UniRef90_A0A060X7Q7 Uncharacterized protein n=1 Tax=Oncorhynchus...   130   3e-28
+UniRef90_F6W8H7 Uncharacterized protein n=2 Tax=Ornithorhynchus ...   130   3e-28
+UniRef90_A0A0N4VHF1 Uncharacterized protein n=1 Tax=Enterobius v...   130   3e-28
+UniRef90_A0A0P4YV95 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   130   4e-28
+UniRef90_C3ZHV7 Uncharacterized protein n=1 Tax=Branchiostoma fl...   130   4e-28
+UniRef90_UPI00094E3F46 merlin isoform X1 n=2 Tax=Hippocampus com...   129   4e-28
+UniRef90_A0A1I8BUA1 Uncharacterized protein n=1 Tax=Meloidogyne ...   129   4e-28
+UniRef90_UPI0009479019 merlin-like n=1 Tax=Branchiostoma belcher...   129   4e-28
+UniRef90_A0A0P5N1U0 Moesin/ezrin/radixin n=19 Tax=Daphnia magna ...   129   5e-28
+UniRef90_A0A0P6BRX1 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   129   5e-28
+UniRef90_A9URX5 Predicted protein n=1 Tax=Monosiga brevicollis T...   129   6e-28
+UniRef90_W5K8N6 Neurofibromin 2a (merlin) n=1 Tax=Astyanax mexic...   129   7e-28
+UniRef90_A0A0N8EDX7 Ezrin-moesin-radixin (Fragment) n=1 Tax=Daph...   129   7e-28
+UniRef90_Q503W3 LOC553434 protein (Fragment) n=3 Tax=Cyprinidae ...   129   7e-28
+UniRef90_UPI00076A4C46 merlin-like n=1 Tax=Astyanax mexicanus Ta...   129   7e-28
+UniRef90_UPI0004971E0A ezrin-like n=1 Tax=Stegastes partitus Tax...   129   7e-28
+UniRef90_UPI000A1C7117 merlin n=1 Tax=Boleophthalmus pectinirost...   129   9e-28
+UniRef90_M3ZJN5 Neurofibromin 2a (merlin) n=5 Tax=Cyprinodontifo...   128   1e-27
+UniRef90_UPI0004A4E6D1 merlin-like n=1 Tax=Poecilia reticulata T...   128   1e-27
+UniRef90_A0A0P5AIW7 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   128   1e-27
+UniRef90_UPI000441BA0E merlin-like isoform X1 n=3 Tax=Serpentes ...   128   1e-27
+UniRef90_UPI00084B5E07 merlin-like n=1 Tax=Hyalella azteca TaxID...   128   1e-27
+UniRef90_UPI000840828B moesin/ezrin/radixin homolog 1 isoform X2...   128   1e-27
+UniRef90_UPI0006B10079 merlin-like n=1 Tax=Limulus polyphemus Ta...   128   1e-27
+UniRef90_UPI000973286E moesin-like n=1 Tax=Esox lucius TaxID=801...   128   2e-27
+UniRef90_J9JWV8 Uncharacterized protein n=2 Tax=Macrosiphini Tax...   128   2e-27
+UniRef90_E9GW23 Uncharacterized protein n=2 Tax=Daphnia TaxID=66...   128   2e-27
+UniRef90_A0A147AP13 Merlin n=2 Tax=Fundulus heteroclitus TaxID=8...   128   2e-27
+UniRef90_UPI0007E65A6D moesin/ezrin/radixin homolog 1-like n=1 T...   128   2e-27
+UniRef90_A0A0L7LT85 Moesin n=1 Tax=Operophtera brumata TaxID=104...   127   2e-27
+UniRef90_A0A0P5HV06 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   127   2e-27
+UniRef90_A0A0P5S9G9 Moesin/ezrin/radixin n=1 Tax=Daphnia magna T...   127   2e-27
+UniRef90_UPI0006443C35 moesin-like n=1 Tax=Clupea harengus TaxID...   127   3e-27
+UniRef90_A0A0N5C2D8 Uncharacterized protein n=2 Tax=Strongyloide...   126   4e-27
+UniRef90_UPI000495D3EA ezrin n=1 Tax=Cynoglossus semilaevis TaxI...   126   4e-27
+UniRef90_G5E1T8 Putative villin 2 (Fragment) n=1 Tax=Hymenochiru...   126   4e-27
+UniRef90_A0A0F8CEK5 Merlin n=1 Tax=Larimichthys crocea TaxID=215...   126   5e-27
+UniRef90_UPI0006B17C05 merlin n=1 Tax=Thamnophis sirtalis TaxID=...   126   6e-27
+UniRef90_A0A0P4VYF1 Uncharacterized protein n=2 Tax=Scylla oliva...   126   6e-27
+UniRef90_A0A0D6LM34 FERM central domain protein n=1 Tax=Ancylost...   125   8e-27
+UniRef90_R7UTH7 Uncharacterized protein n=1 Tax=Capitella teleta...   125   8e-27
+UniRef90_A0A0S7HKL6 EZRI n=1 Tax=Poeciliopsis prolifica TaxID=18...   125   1e-26
+UniRef90_E4WWC4 Uncharacterized protein n=1 Tax=Oikopleura dioic...   125   1e-26
+UniRef90_W2T4A3 FERM protein n=2 Tax=Ancylostomatidae TaxID=3327...   125   1e-26
+UniRef90_A0A0C9R6E3 Mer protein n=2 Tax=Apocrita TaxID=7400 RepI...   125   1e-26
+UniRef90_UPI0002246893 merlin isoform X1 n=2 Tax=Chalcidoidea Ta...   125   1e-26
+UniRef90_K7IVX0 Uncharacterized protein n=3 Tax=Chalcidoidea Tax...   125   1e-26
+UniRef90_A0A0S7HRC9 MERL (Fragment) n=1 Tax=Poeciliopsis prolifi...   124   1e-26
+UniRef90_A0A1W4Z5T3 merlin isoform X1 n=6 Tax=Neopterygii TaxID=...   124   1e-26
+UniRef90_A0A0C9QAX7 NF2_0 protein n=56 Tax=Hymenoptera TaxID=739...   124   2e-26
+UniRef90_A0A0M3K1X5 Moesin/ezrin/radixin homolog 1 (inferred by ...   124   2e-26
+UniRef90_H2Z110 Uncharacterized protein n=2 Tax=Ciona savignyi T...   124   2e-26
+UniRef90_A0A0N0BFH1 Merlin n=44 Tax=Hymenoptera TaxID=7399 RepID...   124   2e-26
+UniRef90_A0A195EVJ8 Merlin n=1 Tax=Trachymyrmex septentrionalis ...   124   2e-26
+UniRef90_A0A1A8NZ28 Neurofibromin 2a (Merlin) (Fragment) n=2 Tax...   124   2e-26
+UniRef90_E2BV71 Merlin n=1 Tax=Harpegnathos saltator TaxID=61038...   124   2e-26
+UniRef90_A0A1W4WTQ3 merlin n=2 Tax=Polyphaga TaxID=41084 RepID=A...   124   3e-26
+UniRef90_A0A0A9XV66 Merlin n=7 Tax=Panheteroptera TaxID=33351 Re...   124   3e-26
+UniRef90_A0A0B2V508 Moesin/ezrin/radixin-like protein 1 n=4 Tax=...   124   3e-26
+UniRef90_A0A1V9X586 Merlin-like n=1 Tax=Tropilaelaps mercedesae ...   123   3e-26
+UniRef90_A0A087XN86 Ezrin a n=1 Tax=Poecilia formosa TaxID=48698...   123   4e-26
+UniRef90_A0A0S7HLF5 EZRI (Fragment) n=1 Tax=Poeciliopsis prolifi...   123   4e-26
+UniRef90_UPI000A2A7D64 radixin-like n=1 Tax=Exaiptasia pallida T...   123   4e-26
+UniRef90_A0A0T6B950 FERM domain containing protein n=1 Tax=Oryct...   123   4e-26
+UniRef90_UPI00026577F7 merlin n=1 Tax=Galendromus occidentalis T...   123   4e-26
+UniRef90_A0A154PPQ9 Moesin/ezrin/radixin like protein 1 n=1 Tax=...   123   5e-26
+UniRef90_A0A146YFB7 Merlin n=2 Tax=Fundulus heteroclitus TaxID=8...   123   6e-26
+UniRef90_A0A1A7ZRU2 Neurofibromin 2a (Merlin) n=13 Tax=Nothobran...   123   6e-26
+UniRef90_F4WB39 Moesin/ezrin/radixin-like protein 1 n=1 Tax=Acro...   122   7e-26
+UniRef90_A0A0S7HFW7 EZRI (Fragment) n=2 Tax=Poeciliopsis prolifi...   122   7e-26
+UniRef90_E2C7G4 Moesin/ezrin/radixin-like protein 1 n=17 Tax=Acu...   122   7e-26
+UniRef90_UPI0007424F27 ezrin-like n=1 Tax=Cyprinodon variegatus ...   122   8e-26
+UniRef90_A0A1Y1LKC2 Uncharacterized protein (Fragment) n=1 Tax=P...   122   8e-26
+UniRef90_D2A4B9 Moesin/ezrin/radixin homolog 2-like Protein n=2 ...   122   9e-26
+UniRef90_A0A0N8EPW1 Moesin/ezrin/radixin n=2 Tax=Daphnia magna T...   122   1e-25
+UniRef90_UPI00064E5CB7 ezrin isoform X1 n=3 Tax=Eutheria TaxID=9...   122   1e-25
+UniRef90_A0A0K2UTI2 Merlinlike [Acyrthosiphon pisum] (Fragment) ...   122   1e-25
+UniRef90_M5AK70 Merlin n=1 Tax=Gryllus bimaculatus TaxID=6999 Re...   121   1e-25
+UniRef90_A0A146MPM2 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   121   1e-25
+UniRef90_UPI0005D3D491 merlin n=1 Tax=Pogonomyrmex barbatus TaxI...   121   1e-25
+UniRef90_UPI0005597D0E moesin-like n=1 Tax=Notothenia coriiceps ...   121   1e-25
+UniRef90_A0A146NLT3 Radixin n=2 Tax=Fundulus heteroclitus TaxID=...   121   2e-25
+UniRef90_A0A146MM39 Radixin n=1 Tax=Fundulus heteroclitus TaxID=...   121   2e-25
+UniRef90_S7MM07 Ezrin n=1 Tax=Myotis brandtii TaxID=109478 RepID...   121   2e-25
+UniRef90_A0A210PVB2 Merlin n=2 Tax=Mizuhopecten yessoensis TaxID...   120   3e-25
+UniRef90_UPI0006B6FECB merlin-like n=1 Tax=Zonotrichia albicolli...   120   3e-25
+UniRef90_UPI0008F99292 merlin n=1 Tax=Bemisia tabaci TaxID=7038 ...   120   3e-25
+UniRef90_UPI0007BA6704 radixin-like n=1 Tax=Sinocyclocheilus ans...   120   4e-25
+UniRef90_UPI000B4F7F93 moesin-like n=1 Tax=Oncorhynchus mykiss T...   119   5e-25
+UniRef90_A0A067QZ85 Moesin/ezrin/radixin-like protein 1 (Fragmen...   119   5e-25
+UniRef90_M3ZJX0 Ezrin a n=5 Tax=Poeciliinae TaxID=586240 RepID=M...   119   5e-25
+UniRef90_A0A1A9WVE7 Uncharacterized protein n=1 Tax=Glossina bre...   119   6e-25
+UniRef90_A0A0N7ZRN3 Ezrin-moesin-radixin n=4 Tax=Daphnia magna T...   119   1e-24
+UniRef90_A0A1B6C9Z9 Uncharacterized protein (Fragment) n=1 Tax=C...   118   1e-24
+UniRef90_UPI00094E0E43 ezrin-like n=1 Tax=Hippocampus comes TaxI...   118   1e-24
+UniRef90_A0A1I7Y0S3 Uncharacterized protein n=2 Tax=Steinernema ...   118   1e-24
+UniRef90_A0A024R1F6 Neurofibromin 2 (Bilateral acoustic neuroma)...   118   1e-24
+UniRef90_A0A0N1I6Z3 Moesin/ezrin/radixin-like 2 n=4 Tax=Papilio ...   118   1e-24
+UniRef90_UPI0007B80258 moesin-like n=1 Tax=Sinocyclocheilus rhin...   118   1e-24
+UniRef90_A0A1Y3EPH8 FERM PH-like domain protein n=1 Tax=Trichine...   118   1e-24
+UniRef90_UPI000A2A76E6 merlin-like n=1 Tax=Exaiptasia pallida Ta...   118   1e-24
+UniRef90_A0A1B6F247 Uncharacterized protein n=2 Tax=unclassified...   118   1e-24
+UniRef90_A0A0V1ETZ7 Merlin n=2 Tax=Trichinella pseudospiralis Ta...   118   1e-24
+UniRef90_UPI00096B4CAC LOW QUALITY PROTEIN: merlin n=1 Tax=Aethi...   118   1e-24
+UniRef90_A0A1X7VJU9 Uncharacterized protein n=1 Tax=Amphimedon q...   118   2e-24
+UniRef90_A0A0V1N5F5 Merlin n=2 Tax=Trichinella TaxID=6333 RepID=...   118   2e-24
+UniRef90_UPI0009E3389F merlin-like n=1 Tax=Orbicella faveolata T...   118   2e-24
+UniRef90_K7JC14 Uncharacterized protein n=4 Tax=Nasonia vitripen...   118   2e-24
+UniRef90_UPI00083C35BC merlin n=1 Tax=Nicrophorus vespilloides T...   118   2e-24
+UniRef90_A0A0V1EU77 Merlin n=5 Tax=Trichinella TaxID=6333 RepID=...   118   2e-24
+UniRef90_UPI0006715191 merlin-like n=1 Tax=Anser cygnoides domes...   117   2e-24
+UniRef90_A0A067R5E3 Merlin n=2 Tax=Neoptera TaxID=33340 RepID=A0...   117   2e-24
+UniRef90_H9JY82 Uncharacterized protein n=5 Tax=Ditrysia TaxID=3...   117   3e-24
+UniRef90_A0A1B6MNL0 Uncharacterized protein (Fragment) n=1 Tax=G...   117   3e-24
+UniRef90_A0A0V1HV53 Merlin n=5 Tax=Trichinella TaxID=6333 RepID=...   117   3e-24
+UniRef90_A0A0V1HUW0 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...   117   3e-24
+UniRef90_F7A6R8 Neurofibromin 2 n=1 Tax=Ornithorhynchus anatinus...   117   3e-24
+UniRef90_A0A0V1KYN3 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...   117   3e-24
+UniRef90_A0A0V1KZH7 Merlin n=3 Tax=Trichinella TaxID=6333 RepID=...   117   3e-24
+UniRef90_A0A0V0YN76 Merlin n=1 Tax=Trichinella pseudospiralis Ta...   117   3e-24
+UniRef90_A0A0V1HVN0 Merlin n=1 Tax=Trichinella zimbabwensis TaxI...   117   4e-24
+UniRef90_A0A0V0YN71 Merlin n=6 Tax=Trichinella TaxID=6333 RepID=...   117   4e-24
+UniRef90_UPI0005D04BE8 merlin-like n=3 Tax=Plutella xylostella T...   116   4e-24
+UniRef90_UPI00064CF604 merlin-like isoform X2 n=1 Tax=Xenopus tr...   116   4e-24
+UniRef90_UPI000B399762 merlin n=1 Tax=Helicoverpa armigera TaxID...   116   4e-24
+UniRef90_A0A085N028 Uncharacterized protein n=2 Tax=Trichuris su...   116   4e-24
+UniRef90_F6ZQJ0 Uncharacterized protein (Fragment) n=4 Tax=Xenop...   116   4e-24
+UniRef90_A0A0V1EU12 Moesin/ezrin/radixin-like protein 2 n=1 Tax=...   116   5e-24
+UniRef90_A0A1L8HG68 Uncharacterized protein n=1 Tax=Xenopus laev...   116   6e-24
+UniRef90_UPI000640DF5E radixin-like n=1 Tax=Hydra vulgaris TaxID...   116   6e-24
+UniRef90_E0VMZ3 Merlin, putative n=1 Tax=Pediculus humanus subsp...   116   6e-24
+UniRef90_UPI00064D06F6 merlin-like isoform X3 n=1 Tax=Xenopus tr...   116   7e-24
+UniRef90_Q4T1E5 Chromosome undetermined SCAF10648, whole genome ...   116   7e-24
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_A0A0P7WVX6 Radixin-like (Fragment) n=1 Tax=Scleropages formosus TaxID=113540
+           RepID=A0A0P7WVX6_9TELE
+          Length = 781
+
+ Score =  157 bits (399), Expect = 2e-36,   Method: Composition-based stats.
+ Identities = 42/78 (53%), Positives = 50/78 (64%), Gaps = 1/78 (1%)
+
+Query: 2   FTVRIVTMDAEMEFNCEMKWKGKDLFDLVCRTLGLRETWFFGLQYTI-KDTVAWLKMDKK 60
+             VR+ TMDAE+EF  +    GK LFD V +T+GLRE WFFGLQY   K    WLK++KK
+Sbjct: 209 INVRVTTMDAELEFAIQPNTTGKQLFDQVVKTVGLREVWFFGLQYVDSKGYSTWLKLNKK 268
+
+Query: 61  VLDHDVSKEEPVTFHFLA 78
+           V   DV KE P+ F F A
+Sbjct: 269 VTQQDVKKENPLQFKFRA 286
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.316    0.199    0.694 
+
+Lambda     K      H
+   0.267   0.0609    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 21,849,370,488
+Number of Sequences: 61934301
+Number of extensions: 1243432344
+Number of successful extensions: 2431001
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 20151
+Number of HSP's successfully gapped in prelim test: 3551
+Number of HSP's that attempted gapping in prelim test: 2398868
+Number of HSP's gapped (non-prelim): 24476
+length of query: 78
+length of database: 21,023,703,129
+effective HSP length: 49
+effective length of query: 29
+effective length of database: 22,283,889,676
+effective search space: 646232800604
+effective search space used: 646232800604
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.6 bits)
+S2: 83 (36.0 bits)
