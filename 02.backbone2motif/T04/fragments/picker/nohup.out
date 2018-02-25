@@ -1,0 +1,30 @@
+File for psipred not found! Generating from scratch instead.
+picking fragments with options:
+            add_pdbs_to_vall: 
+                       chain: A
+                     cleanup: 1
+             csbuild_profile: 0
+exclude_homologs_by_pdb_date: 0
+                           f: 1lq9A.fa
+                   fastafile: 1lq9A.fasta
+                       frags: 1
+                        homs: 1
+                          id: 1lq9
+                n_candidates: 1000
+                     n_frags: 200
+             old_name_format: 0
+                      porter: 0
+                  porterfile: 
+                     psipred: 1
+                 psipredfile: 
+                      rundir: /scratch/bonet/Sandbox/fflbenchmarknew/picker
+                       runid: 1lq9A
+                         sam: 0
+                     samfile: 
+                 torsion_bin: 0
+--------------------------------------------------------------------------------
+
+running psiblast for sequence: 1lq9A.fasta
+[blastpgp] WARNING: a standard checkpoint file should have extension ".chk".
+
+Fragment files have correct number of positions
