@@ -1,0 +1,18 @@
+benchmark:
+  id: T07
+  cath: CATH.3.10.20.90
+  motifs: 1
+structures:
+  reference: 2bkfA.pdb
+  query: 2al6B.pdb
+design:
+  chain: B
+  motif: 115-119
+  shift: 33
+fragments:
+  - [auto, Automatic fragment generation (sequence + secondary structure)]
+  - [picker, Standard Rosetta fragment generation (sequence-based data)]
+  - [wauto, Automatic fragment generation (secondary structure + angles + sasa)]
+experiments:
+  - abinitio
+  - nubinitio

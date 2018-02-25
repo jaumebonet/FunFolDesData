@@ -1,0 +1,2290 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2al6B
+         (95 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_A0A091IJF5 Focal adhesion kinase 1 (Fragment) n=1 Tax=C...   205   1e-50
+UniRef90_R7VT98 Focal adhesion kinase 1 (Fragment) n=1 Tax=Colum...   205   1e-50
+UniRef90_UPI0004C021E4 focal adhesion kinase 1 n=2 Tax=Amniota T...   204   2e-50
+UniRef90_UPI000A368D7F focal adhesion kinase 1 n=1 Tax=Columba l...   204   3e-50
+UniRef90_A0A0Q3PEV4 Focal adhesion kinase 1 isoform 1 n=1 Tax=Am...   202   6e-50
+UniRef90_A0A091QFR9 Focal adhesion kinase 1 (Fragment) n=3 Tax=S...   200   3e-49
+UniRef90_UPI0004F0BE72 focal adhesion kinase 1 n=2 Tax=Neognatha...   199   4e-49
+UniRef90_UPI00072E8D51 LOW QUALITY PROTEIN: focal adhesion kinas...   198   1e-48
+UniRef90_A0A1S3WR85 focal adhesion kinase 1 isoform X6 n=10 Tax=...   197   2e-48
+UniRef90_UPI0009485127 focal adhesion kinase 1 isoform X1 n=5 Ta...   197   3e-48
+UniRef90_UPI0005B909B2 focal adhesion kinase 1 n=1 Tax=Pteropus ...   195   1e-47
+UniRef90_UPI00062B5901 focal adhesion kinase 1 n=1 Tax=Orcinus o...   194   1e-47
+UniRef90_G3I7E2 Focal adhesion kinase 1 n=7 Tax=Euarchontoglires...   194   2e-47
+UniRef90_A0A1U8CXX9 focal adhesion kinase 1 n=2 Tax=Mesocricetus...   193   4e-47
+UniRef90_P34152-7 Isoform 7 of Focal adhesion kinase 1 n=2 Tax=E...   193   4e-47
+UniRef90_V8NDK2 Focal adhesion kinase 1 (Fragment) n=1 Tax=Ophio...   193   4e-47
+UniRef90_UPI00054023F0 focal adhesion kinase 1 isoform X10 n=2 T...   192   7e-47
+UniRef90_P34152 Focal adhesion kinase 1 n=336 Tax=Amniota TaxID=...   192   7e-47
+UniRef90_UPI0007A6B8DC focal adhesion kinase 1 isoform X3 n=1 Ta...   192   9e-47
+UniRef90_UPI0007A6D75F focal adhesion kinase 1 isoform X1 n=2 Ta...   192   9e-47
+UniRef90_P34152-4 Isoform 4 of Focal adhesion kinase 1 n=599 Tax...   192   9e-47
+UniRef90_F7C660 Protein tyrosine kinase 2 n=7 Tax=Boreoeutheria ...   192   9e-47
+UniRef90_UPI00065736D1 focal adhesion kinase 1 isoform X17 n=5 T...   192   1e-46
+UniRef90_P34152-5 Isoform 5 of Focal adhesion kinase 1 n=21 Tax=...   192   1e-46
+UniRef90_P34152-6 Isoform 6 of Focal adhesion kinase 1 n=12 Tax=...   191   1e-46
+UniRef90_UPI0005F46EBB focal adhesion kinase 1 n=1 Tax=Cercocebu...   191   1e-46
+UniRef90_UPI000981BFC3 focal adhesion kinase 1 isoform X7 n=3 Ta...   191   1e-46
+UniRef90_UPI000A2B997D focal adhesion kinase 1 isoform X25 n=2 T...   191   2e-46
+UniRef90_UPI000A2B6A46 focal adhesion kinase 1 isoform X24 n=2 T...   191   2e-46
+UniRef90_Q05397-7 Isoform 7 of Focal adhesion kinase 1 n=34 Tax=...   191   2e-46
+UniRef90_UPI00080A2370 focal adhesion kinase 1 isoform X7 n=1 Ta...   191   2e-46
+UniRef90_UPI00042C2E45 Focal adhesion kinase 1 n=5 Tax=Amniota T...   191   2e-46
+UniRef90_A0A1S3FW28 focal adhesion kinase 1 n=4 Tax=Amniota TaxI...   191   2e-46
+UniRef90_UPI000387C30F focal adhesion kinase 1 isoform X6 n=6 Ta...   191   2e-46
+UniRef90_UPI000A2B2DE2 focal adhesion kinase 1 isoform X16 n=5 T...   191   2e-46
+UniRef90_UPI0007DC55F5 focal adhesion kinase 1 isoform r n=24 Ta...   191   2e-46
+UniRef90_UPI0007DC5666 focal adhesion kinase 1 isoform u n=2 Tax...   191   2e-46
+UniRef90_UPI00074FF87A focal adhesion kinase 1 n=1 Tax=Gekko jap...   190   4e-46
+UniRef90_UPI00051246EE focal adhesion kinase 1 isoform X20 n=2 T...   190   4e-46
+UniRef90_UPI00081373A1 focal adhesion kinase 1-like isoform X1 n...   185   1e-44
+UniRef90_Q0VC86 PTK2 protein tyrosine kinase 2 n=2 Tax=Laurasiat...   183   4e-44
+UniRef90_L5KLL4 Focal adhesion kinase 1 n=1 Tax=Pteropus alecto ...   178   9e-43
+UniRef90_F7CW18 Protein tyrosine kinase 2 n=33 Tax=Tetrapoda Tax...   176   4e-42
+UniRef90_W5MLW0 Protein tyrosine kinase 2ab n=1 Tax=Lepisosteus ...   176   6e-42
+UniRef90_F7CW93 Protein tyrosine kinase 2 n=21 Tax=Tetrapoda Tax...   176   7e-42
+UniRef90_V9K9P6 PTK2 protein tyrosine kinase 2 n=8 Tax=Callorhin...   174   2e-41
+UniRef90_A0A1L8G031 Uncharacterized protein n=1 Tax=Xenopus laev...   174   3e-41
+UniRef90_UPI0006D90540 focal adhesion kinase 1 n=1 Tax=Latimeria...   174   3e-41
+UniRef90_A0A1W4YGE9 focal adhesion kinase 1 isoform X5 n=18 Tax=...   169   9e-40
+UniRef90_A0A1W4Y6N3 focal adhesion kinase 1 isoform X1 n=5 Tax=S...   168   1e-39
+UniRef90_UPI000440AC53 focal adhesion kinase 1 isoform X5 n=3 Ta...   168   1e-39
+UniRef90_W5LH73 Protein tyrosine kinase 2ab n=8 Tax=Characoidei ...   168   2e-39
+UniRef90_UPI00076A2B2C focal adhesion kinase 1 isoform X1 n=5 Ta...   168   2e-39
+UniRef90_UPI000440CBE0 focal adhesion kinase 1 isoform X11 n=3 T...   167   2e-39
+UniRef90_UPI00076AC0CB focal adhesion kinase 1 isoform X10 n=1 T...   167   2e-39
+UniRef90_UPI00076A2E78 focal adhesion kinase 1 isoform X9 n=1 Ta...   167   3e-39
+UniRef90_UPI000803AE75 focal adhesion kinase 1-like isoform X8 n...   166   5e-39
+UniRef90_UPI0008033656 focal adhesion kinase 1-like isoform X1 n...   166   7e-39
+UniRef90_UPI00064337C8 focal adhesion kinase 1-like n=1 Tax=Cond...   164   3e-38
+UniRef90_UPI0007B962D3 focal adhesion kinase 1-like n=1 Tax=Sino...   163   4e-38
+UniRef90_UPI0009A332F4 focal adhesion kinase 1-like n=1 Tax=Rhin...   161   1e-37
+UniRef90_UPI000B445FF9 focal adhesion kinase 1 isoform X1 n=19 T...   161   1e-37
+UniRef90_F1QT14 Protein tyrosine kinase 2ab n=14 Tax=Cyprinidae ...   161   2e-37
+UniRef90_UPI000B44BA20 focal adhesion kinase 1 isoform X9 n=1 Ta...   161   2e-37
+UniRef90_UPI0007B8D904 focal adhesion kinase 1-like n=1 Tax=Sino...   161   2e-37
+UniRef90_Q98SN4 Focal adhesion kinase 1a n=6 Tax=Cyprinidae TaxI...   160   2e-37
+UniRef90_UPI0007B8CE52 focal adhesion kinase 1-like isoform X1 n...   160   3e-37
+UniRef90_UPI0005762666 focal adhesion kinase 1 isoform X1 n=6 Ta...   157   3e-36
+UniRef90_A0A1S3QHQ0 focal adhesion kinase 1-like n=2 Tax=Salmo s...   156   4e-36
+UniRef90_UPI0008148C7B focal adhesion kinase 1-like isoform X8 n...   156   5e-36
+UniRef90_UPI0007F90A06 focal adhesion kinase 1 isoform X10 n=1 T...   154   2e-35
+UniRef90_UPI0007BA24CC focal adhesion kinase 1-like n=2 Tax=Sino...   154   3e-35
+UniRef90_A0A1S3Q299 focal adhesion kinase 1-like isoform X1 n=24...   154   3e-35
+UniRef90_UPI000B4F9CA9 focal adhesion kinase 1-like n=1 Tax=Onco...   154   3e-35
+UniRef90_UPI0009DAB6D2 focal adhesion kinase 1 n=1 Tax=Oryzias l...   153   3e-35
+UniRef90_UPI0007F9179D focal adhesion kinase 1 isoform X7 n=2 Ta...   153   3e-35
+UniRef90_A0A1S3M595 focal adhesion kinase 1-like isoform X13 n=8...   153   4e-35
+UniRef90_A0A1S3M4G8 focal adhesion kinase 1-like isoform X1 n=20...   153   4e-35
+UniRef90_UPI0009A0119C LOW QUALITY PROTEIN: focal adhesion kinas...   153   4e-35
+UniRef90_UPI0007F93BA1 focal adhesion kinase 1 isoform X1 n=7 Ta...   153   4e-35
+UniRef90_A0A1A8NVS5 Uncharacterized protein n=21 Tax=Percomorpha...   153   5e-35
+UniRef90_UPI0006B3B7A3 focal adhesion kinase 1-like isoform X7 n...   153   5e-35
+UniRef90_A0A1A8PGU4 Uncharacterized protein n=8 Tax=Percomorphac...   153   5e-35
+UniRef90_I3JID5 Protein tyrosine kinase 2ab n=5 Tax=Percomorphac...   152   6e-35
+UniRef90_A0A1A8R493 Uncharacterized protein n=66 Tax=Percomorpha...   152   6e-35
+UniRef90_UPI0007AD0EAA focal adhesion kinase 1-like isoform X1 n...   152   8e-35
+UniRef90_H2LIZ5 Protein tyrosine kinase 2ab n=1 Tax=Oryzias lati...   152   8e-35
+UniRef90_UPI0007B8206A focal adhesion kinase 1 isoform X8 n=4 Ta...   151   2e-34
+UniRef90_Q7T2V4 Focal adhesion kinase 1b n=9 Tax=Cyprinidae TaxI...   151   2e-34
+UniRef90_UPI0004952F62 focal adhesion kinase 1-like n=1 Tax=Steg...   150   2e-34
+UniRef90_A0A146NAS3 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   150   2e-34
+UniRef90_UPI000644336A focal adhesion kinase 1 isoform X5 n=1 Ta...   150   2e-34
+UniRef90_UPI000901921F focal adhesion kinase 1-like isoform X7 n...   150   3e-34
+UniRef90_UPI000900B889 focal adhesion kinase 1-like isoform X8 n...   150   3e-34
+UniRef90_UPI0006444C67 focal adhesion kinase 1 isoform X1 n=2 Ta...   150   3e-34
+UniRef90_UPI000901CB43 focal adhesion kinase 1-like isoform X1 n...   150   3e-34
+UniRef90_UPI00054E4FB6 focal adhesion kinase 1 isoform X1 n=1 Ta...   150   4e-34
+UniRef90_UPI000B377C09 focal adhesion kinase 1 n=1 Tax=Fundulus ...   150   4e-34
+UniRef90_UPI00064427BB focal adhesion kinase 1 isoform X6 n=1 Ta...   150   4e-34
+UniRef90_A0A146Y6T5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   149   5e-34
+UniRef90_A0A1A8KAB8 Uncharacterized protein (Fragment) n=10 Tax=...   149   5e-34
+UniRef90_A0A146Y6Q5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   149   6e-34
+UniRef90_A0A146Y8K5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   149   9e-34
+UniRef90_A0A146VNH1 Focal adhesion kinase 1 n=5 Tax=Fundulus het...   149   1e-33
+UniRef90_A0A1W5AYV2 focal adhesion kinase 1-like isoform X1 n=10...   148   2e-33
+UniRef90_A0A146Y8F9 Focal adhesion kinase 1 n=2 Tax=Cyprinodonti...   148   2e-33
+UniRef90_UPI0009B33809 focal adhesion kinase 1-like isoform X1 n...   145   9e-33
+UniRef90_A0A146NYN2 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   145   9e-33
+UniRef90_H3CW78 Protein tyrosine kinase 2ab n=2 Tax=Tetraodon ni...   145   1e-32
+UniRef90_H2TU33 Protein tyrosine kinase 2ab n=4 Tax=Percomorphac...   145   1e-32
+UniRef90_H2TU31 Protein tyrosine kinase 2ab n=66 Tax=Percomorpha...   144   2e-32
+UniRef90_UPI0008FA704B focal adhesion kinase 1-like n=1 Tax=Cypr...   140   3e-31
+UniRef90_M4AM58 Protein tyrosine kinase 2ab n=15 Tax=Cyprinodont...   140   4e-31
+UniRef90_UPI0007B8B95F focal adhesion kinase 1-like n=2 Tax=Poec...   139   9e-31
+UniRef90_UPI00072E66AD focal adhesion kinase 1-like isoform X3 n...   139   9e-31
+UniRef90_A0A096M506 Protein tyrosine kinase 2ab n=1 Tax=Poecilia...   139   9e-31
+UniRef90_UPI00080387AE focal adhesion kinase 1 isoform X1 n=5 Ta...   139   1e-30
+UniRef90_UPI00072E4A9B focal adhesion kinase 1-like isoform X7 n...   139   1e-30
+UniRef90_UPI00074261E6 focal adhesion kinase 1-like isoform X1 n...   138   1e-30
+UniRef90_Q4SJ18 Chromosome 21 SCAF14577, whole genome shotgun se...   138   1e-30
+UniRef90_H2T0L5 Protein tyrosine kinase 2ab n=1 Tax=Takifugu rub...   138   1e-30
+UniRef90_H2T0L2 Protein tyrosine kinase 2ab n=15 Tax=Percomorpha...   138   2e-30
+UniRef90_H2T0L0 Protein tyrosine kinase 2ab n=86 Tax=Percomorpha...   137   2e-30
+UniRef90_A0A146VNL6 Focal adhesion kinase 1 n=2 Tax=Fundulus het...   137   2e-30
+UniRef90_A0A146VNE5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   137   2e-30
+UniRef90_H2T0L3 Protein tyrosine kinase 2ab n=25 Tax=Percomorpha...   137   3e-30
+UniRef90_H2T0L1 Protein tyrosine kinase 2ab n=5 Tax=Takifugu rub...   137   3e-30
+UniRef90_A0A146ZU95 Focal adhesion kinase 1 n=8 Tax=Cyprinodonto...   137   3e-30
+UniRef90_G1NJW7 Uncharacterized protein n=1 Tax=Meleagris gallop...   137   3e-30
+UniRef90_UPI0003EC2ADF focal adhesion kinase 1-like n=1 Tax=Neol...   136   7e-30
+UniRef90_UPI000B4F12C2 focal adhesion kinase 1-like isoform X1 n...   135   1e-29
+UniRef90_A0A094K9V8 Focal adhesion kinase 1 (Fragment) n=3 Tax=N...   134   2e-29
+UniRef90_A0A1A8M718 Uncharacterized protein n=2 Tax=Nothobranchi...   134   2e-29
+UniRef90_A0A1A8JXA3 Uncharacterized protein n=5 Tax=Nothobranchi...   134   2e-29
+UniRef90_A0A1A8I3Q0 Uncharacterized protein (Fragment) n=1 Tax=N...   134   2e-29
+UniRef90_UPI0005280664 focal adhesion kinase 1 n=2 Tax=Amniota T...   134   2e-29
+UniRef90_UPI0003EBC838 focal adhesion kinase 1-like n=1 Tax=Neol...   134   3e-29
+UniRef90_UPI00052929F3 focal adhesion kinase 1-like n=1 Tax=Mesi...   132   8e-29
+UniRef90_G3NIV8 Uncharacterized protein n=1 Tax=Gasterosteus acu...   130   5e-28
+UniRef90_UPI000A1C67B0 focal adhesion kinase 1-like n=1 Tax=Bole...   128   2e-27
+UniRef90_G5C8Y8 Focal adhesion kinase 1 n=1 Tax=Heterocephalus g...   125   8e-27
+UniRef90_A0A0S7FDT4 FAK1 n=4 Tax=Percomorphaceae TaxID=1489872 R...   122   1e-25
+UniRef90_A0A1V4KCM6 Uncharacterized protein n=1 Tax=Patagioenas ...   115   1e-23
+UniRef90_A0A0P7ZGT0 Uncharacterized protein (Fragment) n=1 Tax=S...   109   9e-22
+UniRef90_G3UCQ3 Protein tyrosine kinase 2 n=1 Tax=Loxodonta afri...   101   1e-19
+UniRef90_G3UMP3 Protein tyrosine kinase 2 n=1 Tax=Loxodonta afri...   100   3e-19
+UniRef90_W5KAN2 Protein tyrosine kinase 2 n=1 Tax=Astyanax mexic...    94   3e-17
+UniRef90_UPI000B4E904D PHD finger protein 20-like protein 1 n=1 ...    90   5e-16
+UniRef90_UPI0006B07803 focal adhesion kinase 1-like n=1 Tax=Limu...    81   3e-13
+UniRef90_UPI00084D53B0 protein-tyrosine kinase 2-beta-like isofo...    79   1e-12
+UniRef90_A0A1L8G5K3 Uncharacterized protein n=5 Tax=Xenopus TaxI...    79   1e-12
+UniRef90_K1PKI5 Focal adhesion kinase 1 n=8 Tax=Crassostrea giga...    78   2e-12
+UniRef90_A0A0R4ICT0 Protein tyrosine kinase 2aa n=1 Tax=Danio re...    78   2e-12
+UniRef90_UPI0009750FE7 focal adhesion kinase 1 isoform X10 n=1 T...    78   2e-12
+UniRef90_UPI0005C368A2 focal adhesion kinase 1 isoform X1 n=7 Ta...    78   3e-12
+UniRef90_UPI00071DDE28 protein-tyrosine kinase 2-beta-like n=1 T...    77   3e-12
+UniRef90_UPI000644498F protein-tyrosine kinase 2-beta-like n=1 T...    77   5e-12
+UniRef90_H2T8R1 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...    77   6e-12
+UniRef90_A0A1V4KN77 Uncharacterized protein n=1 Tax=Patagioenas ...    77   6e-12
+UniRef90_UPI0006446F37 focal adhesion kinase 1-like n=1 Tax=Clup...    77   6e-12
+UniRef90_UPI0006442525 protein-tyrosine kinase 2-beta n=1 Tax=Cl...    76   7e-12
+UniRef90_H2T8Q6 Protein tyrosine kinase 2 beta, b n=5 Tax=Takifu...    76   1e-11
+UniRef90_UPI0008144AA7 protein-tyrosine kinase 2-beta-like isofo...    76   1e-11
+UniRef90_UPI0008147926 protein-tyrosine kinase 2-beta-like isofo...    75   1e-11
+UniRef90_H2T8Q8 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...    75   1e-11
+UniRef90_A0A210R109 Focal adhesion kinase 1 n=5 Tax=Mizuhopecten...    75   1e-11
+UniRef90_A0A212CE58 PTK2 n=1 Tax=Cervus elaphus hippelaphus TaxI...    75   1e-11
+UniRef90_UPI0007AC59AF protein-tyrosine kinase 2-beta isoform X1...    75   2e-11
+UniRef90_UPI0007AC6044 protein-tyrosine kinase 2-beta isoform X3...    75   2e-11
+UniRef90_UPI00071DAE22 focal adhesion kinase 1-like isoform X1 n...    75   2e-11
+UniRef90_Q14289-2 Isoform 2 of Protein-tyrosine kinase 2-beta n=...    74   2e-11
+UniRef90_Q14289 Protein-tyrosine kinase 2-beta n=149 Tax=Eutheri...    74   3e-11
+UniRef90_UPI000549DA3C focal adhesion kinase 1-like n=1 Tax=Mele...    74   3e-11
+UniRef90_R7TYU7 Uncharacterized protein n=1 Tax=Capitella teleta...    74   3e-11
+UniRef90_A3KNV4 Ptk2bb protein (Fragment) n=2 Tax=Cyprinidae Tax...    74   3e-11
+UniRef90_A0A1D5RKE2 Protein tyrosine kinase 2 beta n=6 Tax=Euthe...    74   3e-11
+UniRef90_H9G6F2 Protein tyrosine kinase 2 beta n=1 Tax=Anolis ca...    74   3e-11
+UniRef90_UPI000803AB6A protein-tyrosine kinase 2-beta-like isofo...    74   3e-11
+UniRef90_A0A1B6E257 Uncharacterized protein n=1 Tax=Clastoptera ...    74   3e-11
+UniRef90_S9XF48 Protein-tyrosine kinase 2-beta isoform 1 n=1 Tax...    74   3e-11
+UniRef90_UPI000802B334 protein-tyrosine kinase 2-beta-like isofo...    74   4e-11
+UniRef90_A0A0L8GY73 Uncharacterized protein n=3 Tax=Octopus bima...    74   4e-11
+UniRef90_UPI0008FA61F6 protein-tyrosine kinase 2-beta-like n=1 T...    74   4e-11
+UniRef90_UPI0005B970F6 protein-tyrosine kinase 2-beta n=1 Tax=Pt...    74   4e-11
+UniRef90_A0A1B6DTP2 Uncharacterized protein (Fragment) n=1 Tax=C...    74   4e-11
+UniRef90_A0A1B6D3T2 Uncharacterized protein n=2 Tax=Clastoptera ...    74   4e-11
+UniRef90_UPI0004BDD6B8 protein-tyrosine kinase 2-beta n=1 Tax=Eq...    74   4e-11
+UniRef90_UPI000905C92A protein-tyrosine kinase 2-beta n=1 Tax=Ap...    74   4e-11
+UniRef90_A0A091S430 Protein-tyrosine kinase 2-beta n=13 Tax=Neog...    74   4e-11
+UniRef90_Q7T2P8 Proline-rich tyrosine kinase 2 n=9 Tax=Cyprinida...    74   5e-11
+UniRef90_UPI0008543A07 protein-tyrosine kinase 2-beta-like n=1 T...    74   5e-11
+UniRef90_A0A0F7Z474 Protein-tyrosine kinase 2-beta n=2 Tax=Crota...    74   5e-11
+UniRef90_A0A1V4J976 Protein-tyrosine kinase 2-beta isoform A n=1...    74   5e-11
+UniRef90_A0A087QU33 Protein-tyrosine kinase 2-beta n=1 Tax=Apten...    74   5e-11
+UniRef90_A0A1V4J815 Protein-tyrosine kinase 2-beta isoform B n=1...    74   5e-11
+UniRef90_UPI0007B91975 protein-tyrosine kinase 2-beta-like n=1 T...    74   5e-11
+UniRef90_J3SFJ4 Protein-tyrosine kinase 2-beta n=10 Tax=Bifurcat...    74   5e-11
+UniRef90_UPI00051E3165 protein-tyrosine kinase 2-beta n=1 Tax=St...    73   6e-11
+UniRef90_UPI0006B1D2E9 protein-tyrosine kinase 2-beta isoform X8...    73   6e-11
+UniRef90_UPI00035A03D0 protein-tyrosine kinase 2-beta n=1 Tax=Fi...    73   6e-11
+UniRef90_G1PGQ8 Protein tyrosine kinase 2 beta n=14 Tax=Bilateri...    73   6e-11
+UniRef90_A0A0Q3MEP3 Protein-tyrosine kinase 2-beta n=1 Tax=Amazo...    73   6e-11
+UniRef90_V3ZMB0 Uncharacterized protein n=1 Tax=Lottia gigantea ...    73   7e-11
+UniRef90_UPI000521A143 protein-tyrosine kinase 2-beta n=1 Tax=Ch...    73   7e-11
+UniRef90_Q8C9L4 Uncharacterized protein n=3 Tax=Euarchontoglires...    73   9e-11
+UniRef90_UPI000523D0FE protein-tyrosine kinase 2-beta n=2 Tax=Ne...    73   9e-11
+UniRef90_A0A1S3GYK4 focal adhesion kinase 1-like n=1 Tax=Lingula...    73   9e-11
+UniRef90_UPI0007DC9CDB protein-tyrosine kinase 2-beta-like n=1 T...    72   1e-10
+UniRef90_S7MU75 Protein-tyrosine kinase 2-beta n=1 Tax=Myotis br...    72   1e-10
+UniRef90_A0A1B6IZC4 Uncharacterized protein (Fragment) n=1 Tax=H...    72   1e-10
+UniRef90_U3JM74 Protein tyrosine kinase 2 beta n=1 Tax=Ficedula ...    72   1e-10
+UniRef90_UPI000762B900 protein-tyrosine kinase 2-beta isoform X3...    72   1e-10
+UniRef90_UPI0007385162 focal adhesion kinase 1 isoform X1 n=4 Ta...    72   1e-10
+UniRef90_UPI0008033437 protein-tyrosine kinase 2-beta-like isofo...    72   1e-10
+UniRef90_U6CYV5 PTK2 protein tyrosine kinase 2 (Fragment) n=2 Ta...    72   1e-10
+UniRef90_UPI0006D8E602 protein-tyrosine kinase 2-beta-like n=1 T...    72   1e-10
+UniRef90_U6DH79 PTK2B protein tyrosine kinase 2 beta (Fragment) ...    72   1e-10
+UniRef90_A0A069DZP2 Putative focal adhesion kinase (Fragment) n=...    72   1e-10
+UniRef90_E5RJP0 Focal adhesion kinase 1 (Fragment) n=1 Tax=Homo ...    72   1e-10
+UniRef90_A0A091E139 Protein-tyrosine kinase 2-beta n=1 Tax=Fukom...    72   1e-10
+UniRef90_UPI0006B22CB2 protein-tyrosine kinase 2-beta-like n=1 T...    72   1e-10
+UniRef90_F6Z395 Protein tyrosine kinase 2 beta n=2 Tax=Monodelph...    72   2e-10
+UniRef90_UPI0008165EA5 protein-tyrosine kinase 2-beta n=1 Tax=Co...    72   2e-10
+UniRef90_G3R6D4 Protein tyrosine kinase 2 n=2 Tax=Catarrhini Tax...    72   2e-10
+UniRef90_A0A061INV5 Protein-tyrosine kinase 2-beta isoform 1 n=3...    72   2e-10
+UniRef90_UPI0009A337A8 protein-tyrosine kinase 2-beta-like n=1 T...    72   2e-10
+UniRef90_K7DYJ3 Protein tyrosine kinase 2 beta, a n=2 Tax=Danio ...    72   2e-10
+UniRef90_UPI000812E964 protein-tyrosine kinase 2-beta isoform X1...    72   2e-10
+UniRef90_UPI0007AC7F87 protein-tyrosine kinase 2-beta-like isofo...    72   2e-10
+UniRef90_UPI00065740BD protein-tyrosine kinase 2-beta isoform X2...    72   2e-10
+UniRef90_UPI00064321D0 LOW QUALITY PROTEIN: protein-tyrosine kin...    72   2e-10
+UniRef90_A0A1B6GEL6 Uncharacterized protein (Fragment) n=1 Tax=C...    72   2e-10
+UniRef90_G3P8W6 Protein tyrosine kinase 2 beta, b n=1 Tax=Gaster...    72   2e-10
+UniRef90_UPI000575EABA protein-tyrosine kinase 2-beta isoform X1...    71   2e-10
+UniRef90_A0A1A6HTD4 Uncharacterized protein n=1 Tax=Neotoma lepi...    71   2e-10
+UniRef90_UPI00097D33D1 protein-tyrosine kinase 2-beta-like n=1 T...    71   2e-10
+UniRef90_A0A1S3J825 focal adhesion kinase 1-like n=1 Tax=Lingula...    71   2e-10
+UniRef90_UPI00051F0C87 protein-tyrosine kinase 2-beta n=1 Tax=Eg...    71   2e-10
+UniRef90_UPI00073828EE focal adhesion kinase 1 isoform X5 n=1 Ta...    71   3e-10
+UniRef90_A0A1W4WMU1 LOW QUALITY PROTEIN: focal adhesion kinase 1...    71   3e-10
+UniRef90_UPI0004CD25C3 uncharacterized protein LOC103577529 n=1 ...    71   3e-10
+UniRef90_UPI0006619996 protein-tyrosine kinase 2-beta n=1 Tax=Es...    71   3e-10
+UniRef90_UPI000771D904 uncharacterized protein LOC107273475 isof...    71   3e-10
+UniRef90_UPI000771B1D2 uncharacterized protein LOC107273475 isof...    71   3e-10
+UniRef90_UPI000552B5BC protein-tyrosine kinase 2-beta isoform X1...    70   4e-10
+UniRef90_A0A1B6LWH8 Uncharacterized protein (Fragment) n=2 Tax=G...    70   4e-10
+UniRef90_UPI000947A100 focal adhesion kinase 1-like isoform X9 n...    70   4e-10
+UniRef90_UPI000B4C8D86 protein-tyrosine kinase 2-beta n=1 Tax=Lo...    70   4e-10
+UniRef90_E5RG54 Focal adhesion kinase 1 n=1 Tax=Homo sapiens Tax...    70   4e-10
+UniRef90_A0A1W4YQR2 protein-tyrosine kinase 2-beta-like isoform ...    70   4e-10
+UniRef90_UPI000551F19D protein-tyrosine kinase 2-beta isoform X2...    70   4e-10
+UniRef90_A0A1W4YGS6 protein-tyrosine kinase 2-beta-like isoform ...    70   5e-10
+UniRef90_A0A0P7YF56 Protein-tyrosine kinase 2-beta-like n=1 Tax=...    70   5e-10
+UniRef90_W5LJ64 Protein tyrosine kinase 2 beta, b n=1 Tax=Astyan...    70   5e-10
+UniRef90_A0A0C9RQQ4 PTK2_0 protein (Fragment) n=1 Tax=Fopius ari...    70   5e-10
+UniRef90_E1BTC3 Protein tyrosine kinase 2 beta n=34 Tax=Aves Tax...    70   5e-10
+UniRef90_A0A218UD32 Protein-tyrosine kinase 2-beta n=1 Tax=Lonch...    70   5e-10
+UniRef90_UPI0006C9D952 focal adhesion kinase 1 isoform X1 n=1 Ta...    70   5e-10
+UniRef90_UPI0006C9E2CF focal adhesion kinase 1 isoform X1 n=5 Ta...    70   6e-10
+UniRef90_A0A067R8A5 Focal adhesion kinase 1 n=1 Tax=Zootermopsis...    70   6e-10
+UniRef90_A0A0J7LAY4 Focal adhesion kinase 1 n=1 Tax=Lasius niger...    70   6e-10
+UniRef90_A0A158NYB0 Uncharacterized protein n=5 Tax=Attini TaxID...    70   6e-10
+UniRef90_UPI000580ECFF LOW QUALITY PROTEIN: uncharacterized prot...    70   6e-10
+UniRef90_L5LTI7 Protein-tyrosine kinase 2-beta n=3 Tax=Myotis Ta...    70   6e-10
+UniRef90_E2AKA8 Focal adhesion kinase 1 n=9 Tax=Formicidae TaxID...    70   6e-10
+UniRef90_A0A1Y1N5Z8 Uncharacterized protein n=3 Tax=Photinus pyr...    70   6e-10
+UniRef90_UPI00052EA221 protein-tyrosine kinase 2-beta-like n=1 T...    70   6e-10
+UniRef90_UPI000874A308 protein-tyrosine kinase 2-beta-like n=1 T...    70   7e-10
+UniRef90_UPI00074259F2 protein-tyrosine kinase 2-beta-like isofo...    70   7e-10
+UniRef90_UPI0005BAC55E focal adhesion kinase 1 isoform X5 n=1 Ta...    70   7e-10
+UniRef90_W5JZQ4 Protein tyrosine kinase 2 beta, a n=2 Tax=Astyan...    70   7e-10
+UniRef90_T1IYC0 Uncharacterized protein n=1 Tax=Strigamia mariti...    70   7e-10
+UniRef90_UPI000A0EDCC8 focal adhesion kinase 1 isoform X1 n=3 Ta...    69   8e-10
+UniRef90_UPI0005D3ED82 uncharacterized protein LOC105433628 n=1 ...    69   8e-10
+UniRef90_A0A1D5PGU1 Protein tyrosine kinase 2 beta n=2 Tax=Neogn...    69   9e-10
+UniRef90_UPI0005ACD4B3 protein-tyrosine kinase 2-beta isoform X3...    69   9e-10
+UniRef90_A0A151WIK7 Focal adhesion kinase 1 n=2 Tax=Trachymyrmex...    69   9e-10
+UniRef90_UPI0006C94501 focal adhesion kinase 1 isoform X2 n=1 Ta...    69   9e-10
+UniRef90_A0A1W5BB02 focal adhesion kinase 1 n=1 Tax=Ciona intest...    69   9e-10
+UniRef90_UPI00042BFC94 LOW QUALITY PROTEIN: protein-tyrosine kin...    69   9e-10
+UniRef90_UPI0003EC5977 protein-tyrosine kinase 2-beta-like n=1 T...    69   9e-10
+UniRef90_UPI0005ABC58B protein-tyrosine kinase 2-beta isoform X1...    69   9e-10
+UniRef90_UPI0008468962 protein-tyrosine kinase 2-beta n=1 Tax=Ma...    69   1e-09
+UniRef90_UPI000A1C7115 protein-tyrosine kinase 2-beta n=1 Tax=Bo...    69   1e-09
+UniRef90_A0A0L7RDW5 Focal adhesion kinase 1 n=3 Tax=Apidae TaxID...    69   1e-09
+UniRef90_UPI000440F1D9 protein-tyrosine kinase 2-beta isoform X3...    69   1e-09
+UniRef90_A0A0C9RR47 PTK2_1 protein (Fragment) n=8 Tax=Fopius ari...    69   1e-09
+UniRef90_K7G0E4 Protein tyrosine kinase 2 beta n=5 Tax=Cryptodir...    69   1e-09
+UniRef90_H2YTK3 Uncharacterized protein n=1 Tax=Ciona savignyi T...    69   1e-09
+UniRef90_A0A154PBB2 Focal adhesion kinase 1 n=2 Tax=Dufourea nov...    69   1e-09
+UniRef90_UPI00076F97C4 focal adhesion kinase 1 isoform X1 n=1 Ta...    69   1e-09
+UniRef90_F6WUP4 Uncharacterized protein n=1 Tax=Ciona intestinal...    69   1e-09
+UniRef90_UPI0008146208 protein-tyrosine kinase 2-beta-like isofo...    69   1e-09
+UniRef90_T1I867 Tyrosine-protein kinase Fak56D (Fragment) n=1 Ta...    69   1e-09
+UniRef90_C3Y1A6 Uncharacterized protein (Fragment) n=9 Tax=Branc...    69   1e-09
+UniRef90_UPI000771D8B7 focal adhesion kinase 1 isoform X8 n=2 Ta...    69   1e-09
+UniRef90_UPI000A1C5F73 LOW QUALITY PROTEIN: protein-tyrosine kin...    69   1e-09
+UniRef90_UPI00090763DB protein-tyrosine kinase 2-beta isoform X5...    69   2e-09
+UniRef90_I3KDQ5 Protein tyrosine kinase 2 beta, b n=7 Tax=Pseudo...    69   2e-09
+UniRef90_E9JCV7 Uncharacterized protein (Fragment) n=11 Tax=Form...    69   2e-09
+UniRef90_UPI0006C985BA focal adhesion kinase 1 isoform X6 n=2 Ta...    69   2e-09
+UniRef90_UPI0009B35C6D protein-tyrosine kinase 2-beta n=1 Tax=La...    69   2e-09
+UniRef90_A0A1U8DNY3 protein-tyrosine kinase 2-beta isoform X1 n=...    69   2e-09
+UniRef90_A0A091K102 Protein-tyrosine kinase 2-beta (Fragment) n=...    69   2e-09
+UniRef90_A0A151P4J0 Uncharacterized protein n=3 Tax=Crocodylia T...    69   2e-09
+UniRef90_UPI000718FE96 focal adhesion kinase 1 isoform X1 n=10 T...    69   2e-09
+UniRef90_UPI000904EDEA protein-tyrosine kinase 2-beta isoform X3...    68   2e-09
+UniRef90_UPI000B4F6BB9 protein-tyrosine kinase 2-beta-like n=1 T...    68   2e-09
+UniRef90_UPI0006B2F16D protein-tyrosine kinase 2-beta-like n=1 T...    68   2e-09
+UniRef90_A0A151IX42 Focal adhesion kinase 1 n=1 Tax=Trachymyrmex...    68   2e-09
+UniRef90_A0A0A0A169 Protein-tyrosine kinase 2-beta (Fragment) n=...    68   2e-09
+UniRef90_UPI000874A160 focal adhesion kinase 1 isoform X1 n=1 Ta...    68   2e-09
+UniRef90_UPI000873BCCB focal adhesion kinase 1 isoform X5 n=1 Ta...    68   2e-09
+UniRef90_UPI00097D9BA8 protein-tyrosine kinase 2-beta-like isofo...    68   2e-09
+UniRef90_H2T8R0 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...    68   2e-09
+UniRef90_UPI000874CBFF focal adhesion kinase 1 isoform X2 n=5 Ta...    68   2e-09
+UniRef90_UPI0009949FB5 focal adhesion kinase 1 isoform X1 n=2 Ta...    68   2e-09
+UniRef90_UPI0008740149 protein-tyrosine kinase 2-beta-like n=2 T...    68   2e-09
+UniRef90_UPI0008524021 focal adhesion kinase 1 n=1 Tax=Cyphomyrm...    68   2e-09
+UniRef90_H2T8R3 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...    68   2e-09
+UniRef90_UPI00059588A0 focal adhesion kinase 1 n=2 Tax=Myrmicina...    68   2e-09
+UniRef90_UPI0004C1DFC1 protein-tyrosine kinase 2-beta n=1 Tax=Ca...    68   2e-09
+UniRef90_A0A1A7ZZK5 Protein tyrosine kinase 2 beta, b (Fragment)...    68   3e-09
+UniRef90_UPI0006254D47 focal adhesion kinase 1 isoform X1 n=2 Ta...    68   3e-09
+UniRef90_UPI00076FAFCA focal adhesion kinase 1 isoform X2 n=2 Ta...    67   3e-09
+UniRef90_UPI00046D517C LOW QUALITY PROTEIN: focal adhesion kinas...    67   3e-09
+UniRef90_D6WQS4 Focal adhesion kinase 1-like Protein n=9 Tax=Tri...    67   4e-09
+UniRef90_UPI00077DCB0F focal adhesion kinase 1 isoform X8 n=1 Ta...    67   4e-09
+UniRef90_A0A1S3M7G7 protein-tyrosine kinase 2-beta n=1 Tax=Salmo...    67   5e-09
+UniRef90_A0A1S3RLL1 protein-tyrosine kinase 2-beta-like n=1 Tax=...    67   5e-09
+UniRef90_UPI00071165DE focal adhesion kinase 1 isoform X5 n=1 Ta...    67   6e-09
+UniRef90_I3KDA5 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...    67   6e-09
+UniRef90_UPI000900BAE9 protein-tyrosine kinase 2-beta n=1 Tax=La...    66   7e-09
+UniRef90_UPI0003940B37 protein-tyrosine kinase 2-beta isoform X1...    66   7e-09
+UniRef90_A0A088AN13 Uncharacterized protein n=19 Tax=Apidae TaxI...    66   8e-09
+UniRef90_UPI00020648A6 uncharacterized protein LOC724973 isoform...    66   8e-09
+UniRef90_A0A0F8BK25 Focal adhesion kinase 1 n=2 Tax=Larimichthys...    66   8e-09
+UniRef90_G1S2N7 Protein tyrosine kinase 2 beta n=1 Tax=Nomascus ...    66   8e-09
+UniRef90_UPI00096B3C3F focal adhesion kinase 1 isoform X1 n=8 Ta...    66   8e-09
+UniRef90_UPI0006B32C9E protein-tyrosine kinase 2-beta isoform X1...    66   8e-09
+UniRef90_H2MY81 Uncharacterized protein n=5 Tax=Oryzias latipes ...    66   9e-09
+UniRef90_H2LYR2 Protein tyrosine kinase 2 beta, b n=2 Tax=Oryzia...    66   9e-09
+UniRef90_I3KDA3 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...    66   9e-09
+UniRef90_G1S2N5 Protein tyrosine kinase 2 beta n=1 Tax=Nomascus ...    66   9e-09
+UniRef90_A0A146P628 Uncharacterized protein n=3 Tax=Fundulus het...    66   9e-09
+UniRef90_A0A146XYJ4 Tyrosine kinase 2-beta n=3 Tax=Fundulus hete...    66   9e-09
+UniRef90_UPI0005CE86FE focal adhesion kinase 1 n=1 Tax=Ceratosol...    66   9e-09
+UniRef90_A0A147AQY6 Tyrosine kinase 2-beta n=2 Tax=Fundulus hete...    66   9e-09
+UniRef90_UPI000840806E focal adhesion kinase 1 isoform X1 n=2 Ta...    66   1e-08
+UniRef90_A0A0A9XYV5 Focal adhesion kinase 1 n=4 Tax=Lygus hesper...    66   1e-08
+UniRef90_UPI0006B30AE1 protein-tyrosine kinase 2-beta isoform X2...    66   1e-08
+UniRef90_M3ZPG9 Protein tyrosine kinase 2 beta, b n=3 Tax=Poecil...    65   1e-08
+UniRef90_UPI0007B79F8D protein-tyrosine kinase 2-beta-like isofo...    65   1e-08
+UniRef90_UPI00094E82DB protein-tyrosine kinase 2-beta-like isofo...    65   1e-08
+UniRef90_UPI0006236BC4 LOW QUALITY PROTEIN: uncharacterized prot...    65   1e-08
+UniRef90_A0A096LYM5 Uncharacterized protein n=3 Tax=Poecilia Tax...    65   1e-08
+UniRef90_I3KDA4 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...    65   1e-08
+UniRef90_A0A087XT17 Protein tyrosine kinase 2 beta, b n=10 Tax=C...    65   1e-08
+UniRef90_UPI0003EBD8AA protein-tyrosine kinase 2-beta-like n=1 T...    65   1e-08
+UniRef90_UPI000719C443 focal adhesion kinase 1-like n=1 Tax=Pria...    65   1e-08
+UniRef90_UPI0004958A5A protein-tyrosine kinase 2-beta-like n=1 T...    65   1e-08
+UniRef90_M3ZQJ6 Protein tyrosine kinase 2 beta, a n=7 Tax=Cyprin...    65   1e-08
+UniRef90_UPI0007114031 focal adhesion kinase 1 isoform X1 n=4 Ta...    65   1e-08
+UniRef90_A0A0S7IK24 FAK2 (Fragment) n=2 Tax=Poeciliopsis prolifi...    65   2e-08
+UniRef90_UPI000614D1D4 uncharacterized protein LOC100876637 isof...    65   2e-08
+UniRef90_Q7Z1D3 Focal adhesion kinase n=1 Tax=Lytechinus variega...    65   2e-08
+UniRef90_B3GBX7 Focal adhesion kinase (Fragment) n=1 Tax=Sus scr...    65   2e-08
+UniRef90_UPI0009B48C65 protein-tyrosine kinase 2-beta-like n=1 T...    65   2e-08
+UniRef90_UPI0003DF792F focal adhesion kinase 1-like n=1 Tax=Apis...    65   2e-08
+UniRef90_H2LYR3 Protein tyrosine kinase 2 beta, b n=2 Tax=Oryzia...    65   2e-08
+UniRef90_Q4RR57 Chromosome 14 SCAF15003, whole genome shotgun se...    65   2e-08
+UniRef90_UPI0007D89695 focal adhesion kinase 1 isoform X7 n=6 Ta...    65   2e-08
+UniRef90_W4YV37 Uncharacterized protein n=1 Tax=Strongylocentrot...    65   3e-08
+UniRef90_H3DFZ9 Protein tyrosine kinase 2 beta, b n=2 Tax=Tetrao...    65   3e-08
+UniRef90_A0A212CMD3 PTK2B (Fragment) n=1 Tax=Cervus elaphus hipp...    64   3e-08
+UniRef90_A0A146XTS3 Tyrosine kinase 2-beta n=1 Tax=Fundulus hete...    64   3e-08
+UniRef90_UPI00062A6A1D protein-tyrosine kinase 2-beta-like n=1 T...    64   3e-08
+UniRef90_UPI00094EEAE3 protein-tyrosine kinase 2-beta n=1 Tax=Hi...    64   3e-08
+UniRef90_A0A1W5A6F7 protein-tyrosine kinase 2-beta-like n=1 Tax=...    64   4e-08
+UniRef90_A0A1A8G1H8 Name:protein tyrosine kinase 2 beta, a (Frag...    64   4e-08
+UniRef90_UPI0005EF976A focal adhesion kinase 1-like n=1 Tax=Stro...    64   4e-08
+UniRef90_UPI0005908BE0 LOW QUALITY PROTEIN: uncharacterized prot...    64   5e-08
+UniRef90_UPI00083C691F focal adhesion kinase 1 isoform X4 n=2 Ta...    64   5e-08
+UniRef90_W5NL16 Protein tyrosine kinase 2 beta, b n=3 Tax=Lepiso...    64   5e-08
+UniRef90_UPI00083C825E focal adhesion kinase 1 isoform X1 n=3 Ta...    64   5e-08
+UniRef90_UPI000522DCA2 protein-tyrosine kinase 2-beta-like n=1 T...    64   5e-08
+UniRef90_H2YTL0 Uncharacterized protein n=1 Tax=Ciona savignyi T...    64   5e-08
+UniRef90_E2BTJ2 Focal adhesion kinase 1 n=1 Tax=Harpegnathos sal...    64   6e-08
+UniRef90_UPI00073FEE4F protein-tyrosine kinase 2-beta isoform X3...    63   6e-08
+UniRef90_A0A1S3SBF4 protein-tyrosine kinase 2-beta-like n=1 Tax=...    63   6e-08
+UniRef90_UPI00077D526E protein-tyrosine kinase 2-beta-like isofo...    63   6e-08
+UniRef90_H2YTK9 Uncharacterized protein n=1 Tax=Ciona savignyi T...    63   7e-08
+UniRef90_H2YTK7 Uncharacterized protein n=3 Tax=Ciona savignyi T...    63   8e-08
+UniRef90_V9KBT7 Protein-tyrosine kinase 2-beta n=2 Tax=Callorhin...    63   8e-08
+UniRef90_A0A1A8B3H0 Name:protein tyrosine kinase 2 beta, a n=5 T...    63   9e-08
+UniRef90_H2YTK4 Uncharacterized protein n=1 Tax=Ciona savignyi T...    63   9e-08
+UniRef90_UPI00077D6C7C protein-tyrosine kinase 2-beta-like isofo...    63   9e-08
+UniRef90_Q866G6 Non-receptor tyrosine kinase Pyk2 (Fragment) n=1...    63   9e-08
+UniRef90_A0A0P7UI84 Protein-tyrosine kinase 2-beta-like n=1 Tax=...    63   9e-08
+UniRef90_UPI0009DAB407 protein-tyrosine kinase 2-beta-like isofo...    62   1e-07
+UniRef90_H2YTK6 Uncharacterized protein n=2 Tax=Ciona savignyi T...    62   1e-07
+UniRef90_UPI0007F8DAAB protein-tyrosine kinase 2-beta-like isofo...    62   1e-07
+UniRef90_UPI0009B3B387 protein-tyrosine kinase 2-beta-like isofo...    62   2e-07
+UniRef90_A0A0M8ZYC2 Focal adhesion kinase 1 n=1 Tax=Melipona qua...    62   2e-07
+UniRef90_H2LMY3 Protein tyrosine kinase 2 beta, a n=1 Tax=Oryzia...    61   2e-07
+UniRef90_H2V5D8 Protein tyrosine kinase 2 beta, a n=1 Tax=Takifu...    61   3e-07
+UniRef90_UPI0009008B0E protein-tyrosine kinase 2-beta-like n=1 T...    61   3e-07
+UniRef90_UPI0005D24D5D protein-tyrosine kinase 2-beta-like n=1 T...    60   4e-07
+UniRef90_H2V5E0 Protein tyrosine kinase 2 beta, a n=2 Tax=Takifu...    60   4e-07
+UniRef90_H2YTL1 Uncharacterized protein n=1 Tax=Ciona savignyi T...    59   8e-07
+UniRef90_G3PPR1 Protein tyrosine kinase 2 beta, a n=1 Tax=Gaster...    59   9e-07
+UniRef90_UPI000A2A51C0 focal adhesion kinase 1-like isoform X3 n...    59   1e-06
+UniRef90_UPI000A2A5583 focal adhesion kinase 1-like isoform X1 n...    59   1e-06
+UniRef90_UPI00046B89CD focal adhesion kinase 1 isoform X1 n=8 Ta...    59   2e-06
+UniRef90_N6TQ25 Uncharacterized protein (Fragment) n=1 Tax=Dendr...    58   2e-06
+UniRef90_U4U150 Uncharacterized protein (Fragment) n=2 Tax=Dendr...    58   2e-06
+UniRef90_J9JPR2 Uncharacterized protein n=3 Tax=Macrosiphini Tax...    58   2e-06
+UniRef90_UPI0003F0EEBD focal adhesion kinase 1-like n=1 Tax=Sacc...    58   2e-06
+UniRef90_UPI0008FA6C25 focal adhesion kinase 1-like isoform X1 n...    57   3e-06
+UniRef90_A0A0B7BAE7 Uncharacterized protein n=2 Tax=Arion vulgar...    57   5e-06
+UniRef90_A0A1V9XHT5 Focal adhesion kinase 1-like n=1 Tax=Tropila...    57   6e-06
+UniRef90_A0A1A8Q6D7 Name:protein tyrosine kinase 2 beta, a (Frag...    57   6e-06
+UniRef90_A0A0B7B9S6 Uncharacterized protein n=1 Tax=Arion vulgar...    57   6e-06
+UniRef90_H3DAJ0 Protein tyrosine kinase 2 beta, a n=2 Tax=Tetrao...    57   6e-06
+UniRef90_UPI0009B485A9 LOW QUALITY PROTEIN: protein-tyrosine kin...    56   8e-06
+UniRef90_E5RG86 Focal adhesion kinase 1 (Fragment) n=7 Tax=Boreo...    56   8e-06
+UniRef90_UPI00054F69A3 protein-tyrosine kinase 2-beta-like n=1 T...    56   1e-05
+UniRef90_UPI0006743F31 focal adhesion kinase 1-like isoform X5 n...    56   1e-05
+UniRef90_UPI0006744FC1 focal adhesion kinase 1-like isoform X1 n...    56   1e-05
+UniRef90_UPI0007DC97F4 protein-tyrosine kinase 2-beta-like n=1 T...    55   1e-05
+UniRef90_A0A0T6BD26 FERM domain containing protein (Fragment) n=...    55   2e-05
+UniRef90_UPI0006804DD1 LOW QUALITY PROTEIN: protein-tyrosine kin...    55   2e-05
+UniRef90_B9UPG7 Focal adhesion kinase n=1 Tax=Marsupenaeus japon...    54   4e-05
+UniRef90_UPI00076AAB98 focal adhesion kinase 1-like n=1 Tax=Asty...    54   4e-05
+UniRef90_UPI0008708D78 LOW QUALITY PROTEIN: focal adhesion kinas...    54   4e-05
+UniRef90_F4WDN4 Focal adhesion kinase 1 n=1 Tax=Acromyrmex echin...    54   6e-05
+UniRef90_L7MI74 Uncharacterized protein (Fragment) n=1 Tax=Rhipi...    53   7e-05
+UniRef90_A0A131YUV2 Focal adhesion kinase 1 n=3 Tax=Ixodidae Tax...    53   7e-05
+UniRef90_A0A1A6GQW4 Uncharacterized protein n=1 Tax=Neotoma lepi...    53   7e-05
+UniRef90_UPI0008F9DBB0 focal adhesion kinase 1 isoform X1 n=2 Ta...    53   9e-05
+UniRef90_Q5MCM8 Protein-tyrosine kinase (Fragment) n=1 Tax=Hydra...    52   2e-04
+UniRef90_UPI000A2BFD98 focal adhesion kinase 1 n=1 Tax=Parasteat...    51   2e-04
+UniRef90_UPI0003AF811C protein-tyrosine kinase 2-beta-like n=1 T...    51   3e-04
+UniRef90_UPI00077F9E73 focal adhesion kinase 1 n=1 Tax=Parasteat...    50   4e-04
+UniRef90_A0A0F8AQ78 Protein-tyrosine kinase 2-beta n=1 Tax=Larim...    50   5e-04
+UniRef90_V8P4C4 Protein-tyrosine kinase 2-beta (Fragment) n=1 Ta...    50   5e-04
+UniRef90_UPI0009E272F6 focal adhesion kinase 1-like n=1 Tax=Orbi...    49   0.001
+UniRef90_T1E1S3 Putative focal adhesion protein kinase n=1 Tax=C...    49   0.002
+UniRef90_H3CUU3 Uncharacterized protein n=1 Tax=Tetraodon nigrov...    49   0.002
+UniRef90_A0A1S3QFS9 focal adhesion kinase 1-like n=1 Tax=Salmo s...    48   0.002
+UniRef90_Q7SXQ6 Ptk2.1 protein n=2 Tax=Danio rerio TaxID=7955 Re...    47   0.005
+UniRef90_A0A087U867 Focal adhesion kinase 1 (Fragment) n=1 Tax=S...    47   0.005
+UniRef90_C1BUC9 Focal adhesion kinase 1 n=1 Tax=Lepeophtheirus s...    47   0.006
+UniRef90_UPI0006CF14B6 focal adhesion kinase 1 isoform X1 n=4 Ta...    47   0.007
+UniRef90_UPI0006411943 focal adhesion kinase 1-like n=2 Tax=Hydr...    45   0.014
+UniRef90_Q5MB01 Protein-tyrosine kinase (Fragment) n=1 Tax=Hydra...    45   0.014
+UniRef90_A0A1S4ET38 uncharacterized protein LOC103504814 isoform...    44   0.035
+UniRef90_UPI00063C8474 LOW QUALITY PROTEIN: protein-tyrosine kin...    44   0.037
+UniRef90_A0A194QQA5 Focal adhesion kinase 1 n=1 Tax=Papilio mach...    44   0.038
+UniRef90_UPI0006D5259B focal adhesion kinase 1 n=1 Tax=Halyomorp...    44   0.044
+UniRef90_UPI0006EB0F7C LOW QUALITY PROTEIN: focal adhesion kinas...    44   0.053
+UniRef90_UPI0007B85339 focal adhesion kinase 1-like isoform X2 n...    44   0.057
+UniRef90_E0W0G7 Protein tyrosine kinase 2 beta, putative n=1 Tax...    43   0.090
+UniRef90_A0A194QFF4 Focal adhesion kinase 1 n=1 Tax=Papilio xuth...    43   0.098
+UniRef90_UPI0005D045C4 uncharacterized protein LOC105388640 isof...    43   0.10 
+UniRef90_UPI0006B0F188 focal adhesion kinase 1-like n=1 Tax=Limu...    42   0.11 
+UniRef90_A0A1L8DL69 Protein tyrosine kinase (Fragment) n=1 Tax=N...    42   0.11 
+UniRef90_UPI000B39F24F LOW QUALITY PROTEIN: uncharacterized prot...    42   0.12 
+UniRef90_UPI0006762957 focal adhesion kinase 1-like n=1 Tax=Papi...    42   0.14 
+UniRef90_A0A212FAB3 Focal adhesion kinase 1 n=2 Tax=Danaus plexi...    42   0.16 
+UniRef90_UPI00067BF62F focal adhesion kinase 1 isoform X1 n=4 Ta...    42   0.17 
+UniRef90_UPI000678B0FE focal adhesion kinase 1 isoform X1 n=4 Ta...    42   0.21 
+UniRef90_B7PFN0 Focal adhesion kinase, putative (Fragment) n=1 T...    41   0.30 
+UniRef90_A0A1L8DKQ1 Protein tyrosine kinase (Fragment) n=2 Tax=N...    41   0.32 
+UniRef90_UPI0009379A1F focal adhesion kinase 1-like isoform X1 n...    40   0.51 
+UniRef90_UPI00093575B4 uncharacterized protein LOC109401644 n=4 ...    40   0.52 
+UniRef90_Q17C76 AAEL004666-PA (Fragment) n=1 Tax=Aedes aegypti T...    40   0.83 
+UniRef90_A0A182Q8Z5 Uncharacterized protein n=1 Tax=Anopheles fa...    40   0.83 
+UniRef90_A0A1S4F8A3 Focal adhesion kinase n=1 Tax=Aedes aegypti ...    39   0.88 
+UniRef90_UPI000B7774D9 focal adhesion kinase 1 isoform X3 n=2 Ta...    39   0.88 
+UniRef90_W5J275 Uncharacterized protein n=1 Tax=Anopheles darlin...    39   1.1  
+UniRef90_A0A182FBZ8 Uncharacterized protein n=1 Tax=Anopheles al...    39   1.1  
+UniRef90_A0A182N274 Uncharacterized protein n=1 Tax=Anopheles di...    39   1.1  
+UniRef90_A0A182K8Y9 Uncharacterized protein n=1 Tax=Anopheles ch...    39   1.5  
+UniRef90_A0A1D2MXY5 Focal adhesion kinase 1 n=1 Tax=Orchesella c...    39   1.6  
+UniRef90_A0A1Q3G2P4 Putative focal adhesion kinase 1 (Fragment) ...    39   1.7  
+UniRef90_B0XFT0 Focal adhesion kinase n=1 Tax=Culex quinquefasci...    38   2.0  
+UniRef90_A0A147BGU6 Protein tyrosine kinase (Fragment) n=2 Tax=I...    38   2.6  
+UniRef90_A0A1E1W0N6 Uncharacterized protein (Fragment) n=2 Tax=P...    38   2.7  
+UniRef90_V5IK96 Protein tyrosine kinase (Fragment) n=1 Tax=Ixode...    38   3.3  
+
+>UniRef90_A0A091IJF5 Focal adhesion kinase 1 (Fragment) n=1 Tax=Calypte anna TaxID=9244
+           RepID=A0A091IJF5_CALAN
+          Length = 1055
+
+ Score =  205 bits (521), Expect = 1e-50,   Method: Composition-based stats.
+ Identities = 94/95 (98%), Positives = 94/95 (98%)
+
+Query: 1   MERVLKVFHYFENSSEPTTWASIIRHGDATDVRGIIQKIVDCHKVKNVACYGLRLSHLQS 60
+           MERVLKVFHYFENSSEPTTWASIIRHGDATDVRGIIQKIVD HKVKNVACYGLRLSHLQS
+Sbjct: 44  MERVLKVFHYFENSSEPTTWASIIRHGDATDVRGIIQKIVDSHKVKNVACYGLRLSHLQS 103
+
+Query: 61  EEVHWLHLDMGVSNVREKFELAHPPEEWKYELRIR 95
+           EEVHWLHLDMGVSNVREKFELAHPPEEWKYELRIR
+Sbjct: 104 EEVHWLHLDMGVSNVREKFELAHPPEEWKYELRIR 138
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_W5MLW0 Protein tyrosine kinase 2ab n=1 Tax=Lepisosteus ...   182   7e-44
+UniRef90_UPI00072E8D51 LOW QUALITY PROTEIN: focal adhesion kinas...   182   1e-43
+UniRef90_UPI000440AC53 focal adhesion kinase 1 isoform X5 n=3 Ta...   181   2e-43
+UniRef90_UPI0009485127 focal adhesion kinase 1 isoform X1 n=5 Ta...   180   2e-43
+UniRef90_W5LH73 Protein tyrosine kinase 2ab n=8 Tax=Characoidei ...   180   2e-43
+UniRef90_UPI00076A2B2C focal adhesion kinase 1 isoform X1 n=5 Ta...   180   2e-43
+UniRef90_UPI000440CBE0 focal adhesion kinase 1 isoform X11 n=3 T...   180   3e-43
+UniRef90_UPI00076AC0CB focal adhesion kinase 1 isoform X10 n=1 T...   180   3e-43
+UniRef90_A0A1S3WR85 focal adhesion kinase 1 isoform X6 n=10 Tax=...   180   4e-43
+UniRef90_UPI00076A2E78 focal adhesion kinase 1 isoform X9 n=1 Ta...   179   5e-43
+UniRef90_UPI00062B5901 focal adhesion kinase 1 n=1 Tax=Orcinus o...   179   5e-43
+UniRef90_UPI000803AE75 focal adhesion kinase 1-like isoform X8 n...   179   5e-43
+UniRef90_R7VT98 Focal adhesion kinase 1 (Fragment) n=1 Tax=Colum...   179   5e-43
+UniRef90_G3I7E2 Focal adhesion kinase 1 n=7 Tax=Euarchontoglires...   179   5e-43
+UniRef90_A0A0Q3PEV4 Focal adhesion kinase 1 isoform 1 n=1 Tax=Am...   179   6e-43
+UniRef90_UPI0008033656 focal adhesion kinase 1-like isoform X1 n...   179   6e-43
+UniRef90_A0A091IJF5 Focal adhesion kinase 1 (Fragment) n=1 Tax=C...   179   6e-43
+UniRef90_UPI0005B909B2 focal adhesion kinase 1 n=1 Tax=Pteropus ...   179   7e-43
+UniRef90_A0A1W4YGE9 focal adhesion kinase 1 isoform X5 n=18 Tax=...   179   9e-43
+UniRef90_UPI00054023F0 focal adhesion kinase 1 isoform X10 n=2 T...   179   9e-43
+UniRef90_UPI000981BFC3 focal adhesion kinase 1 isoform X7 n=3 Ta...   178   1e-42
+UniRef90_A0A1U8CXX9 focal adhesion kinase 1 n=2 Tax=Mesocricetus...   178   1e-42
+UniRef90_A0A1W4Y6N3 focal adhesion kinase 1 isoform X1 n=5 Tax=S...   178   1e-42
+UniRef90_UPI000A368D7F focal adhesion kinase 1 n=1 Tax=Columba l...   178   1e-42
+UniRef90_UPI0004C021E4 focal adhesion kinase 1 n=2 Tax=Amniota T...   178   1e-42
+UniRef90_F7C660 Protein tyrosine kinase 2 n=7 Tax=Boreoeutheria ...   178   1e-42
+UniRef90_UPI00080A2370 focal adhesion kinase 1 isoform X7 n=1 Ta...   178   1e-42
+UniRef90_UPI00074FF87A focal adhesion kinase 1 n=1 Tax=Gekko jap...   178   1e-42
+UniRef90_UPI00065736D1 focal adhesion kinase 1 isoform X17 n=5 T...   178   1e-42
+UniRef90_A0A1S3FW28 focal adhesion kinase 1 n=4 Tax=Amniota TaxI...   178   1e-42
+UniRef90_Q05397-7 Isoform 7 of Focal adhesion kinase 1 n=34 Tax=...   178   1e-42
+UniRef90_UPI0005F46EBB focal adhesion kinase 1 n=1 Tax=Cercocebu...   178   1e-42
+UniRef90_UPI0007DC55F5 focal adhesion kinase 1 isoform r n=24 Ta...   178   1e-42
+UniRef90_P34152 Focal adhesion kinase 1 n=336 Tax=Amniota TaxID=...   178   1e-42
+UniRef90_P34152-4 Isoform 4 of Focal adhesion kinase 1 n=599 Tax...   178   1e-42
+UniRef90_UPI0007DC5666 focal adhesion kinase 1 isoform u n=2 Tax...   178   1e-42
+UniRef90_UPI000387C30F focal adhesion kinase 1 isoform X6 n=6 Ta...   178   2e-42
+UniRef90_P34152-7 Isoform 7 of Focal adhesion kinase 1 n=2 Tax=E...   178   2e-42
+UniRef90_UPI000A2B6A46 focal adhesion kinase 1 isoform X24 n=2 T...   177   2e-42
+UniRef90_UPI000A2B2DE2 focal adhesion kinase 1 isoform X16 n=5 T...   177   2e-42
+UniRef90_UPI000A2B997D focal adhesion kinase 1 isoform X25 n=2 T...   177   2e-42
+UniRef90_UPI0007A6D75F focal adhesion kinase 1 isoform X1 n=2 Ta...   177   2e-42
+UniRef90_UPI0007A6B8DC focal adhesion kinase 1 isoform X3 n=1 Ta...   177   3e-42
+UniRef90_P34152-5 Isoform 5 of Focal adhesion kinase 1 n=21 Tax=...   177   3e-42
+UniRef90_P34152-6 Isoform 6 of Focal adhesion kinase 1 n=12 Tax=...   177   3e-42
+UniRef90_V8NDK2 Focal adhesion kinase 1 (Fragment) n=1 Tax=Ophio...   177   4e-42
+UniRef90_V9K9P6 PTK2 protein tyrosine kinase 2 n=8 Tax=Callorhin...   176   4e-42
+UniRef90_UPI00051246EE focal adhesion kinase 1 isoform X20 n=2 T...   176   4e-42
+UniRef90_UPI0008148C7B focal adhesion kinase 1-like isoform X8 n...   175   8e-42
+UniRef90_A0A091QFR9 Focal adhesion kinase 1 (Fragment) n=3 Tax=S...   175   9e-42
+UniRef90_UPI00042C2E45 Focal adhesion kinase 1 n=5 Tax=Amniota T...   175   9e-42
+UniRef90_UPI0007B962D3 focal adhesion kinase 1-like n=1 Tax=Sino...   175   9e-42
+UniRef90_UPI0007B8D904 focal adhesion kinase 1-like n=1 Tax=Sino...   175   1e-41
+UniRef90_UPI0004F0BE72 focal adhesion kinase 1 n=2 Tax=Neognatha...   175   1e-41
+UniRef90_UPI000B445FF9 focal adhesion kinase 1 isoform X1 n=19 T...   174   2e-41
+UniRef90_F1QT14 Protein tyrosine kinase 2ab n=14 Tax=Cyprinidae ...   174   2e-41
+UniRef90_UPI000B44BA20 focal adhesion kinase 1 isoform X9 n=1 Ta...   174   2e-41
+UniRef90_UPI0007BA24CC focal adhesion kinase 1-like n=2 Tax=Sino...   174   2e-41
+UniRef90_UPI0006D90540 focal adhesion kinase 1 n=1 Tax=Latimeria...   174   2e-41
+UniRef90_F7CW18 Protein tyrosine kinase 2 n=33 Tax=Tetrapoda Tax...   174   3e-41
+UniRef90_F7CW93 Protein tyrosine kinase 2 n=21 Tax=Tetrapoda Tax...   173   3e-41
+UniRef90_A0A1S3Q299 focal adhesion kinase 1-like isoform X1 n=24...   173   3e-41
+UniRef90_Q98SN4 Focal adhesion kinase 1a n=6 Tax=Cyprinidae TaxI...   173   3e-41
+UniRef90_UPI0007AD0EAA focal adhesion kinase 1-like isoform X1 n...   173   5e-41
+UniRef90_UPI0007B8CE52 focal adhesion kinase 1-like isoform X1 n...   172   7e-41
+UniRef90_Q7T2V4 Focal adhesion kinase 1b n=9 Tax=Cyprinidae TaxI...   172   8e-41
+UniRef90_A0A1S3M4G8 focal adhesion kinase 1-like isoform X1 n=20...   172   9e-41
+UniRef90_UPI0005762666 focal adhesion kinase 1 isoform X1 n=6 Ta...   172   9e-41
+UniRef90_A0A1S3M595 focal adhesion kinase 1-like isoform X13 n=8...   172   9e-41
+UniRef90_UPI000644336A focal adhesion kinase 1 isoform X5 n=1 Ta...   172   1e-40
+UniRef90_UPI000B4F9CA9 focal adhesion kinase 1-like n=1 Tax=Onco...   172   1e-40
+UniRef90_UPI0009A0119C LOW QUALITY PROTEIN: focal adhesion kinas...   171   1e-40
+UniRef90_UPI0006444C67 focal adhesion kinase 1 isoform X1 n=2 Ta...   171   1e-40
+UniRef90_UPI00064427BB focal adhesion kinase 1 isoform X6 n=1 Ta...   171   2e-40
+UniRef90_A0A1L8G031 Uncharacterized protein n=1 Tax=Xenopus laev...   171   2e-40
+UniRef90_UPI00081373A1 focal adhesion kinase 1-like isoform X1 n...   169   9e-40
+UniRef90_UPI0007F90A06 focal adhesion kinase 1 isoform X10 n=1 T...   169   9e-40
+UniRef90_UPI0007F9179D focal adhesion kinase 1 isoform X7 n=2 Ta...   168   1e-39
+UniRef90_UPI0007F93BA1 focal adhesion kinase 1 isoform X1 n=7 Ta...   167   2e-39
+UniRef90_UPI0009DAB6D2 focal adhesion kinase 1 n=1 Tax=Oryzias l...   167   3e-39
+UniRef90_UPI000B377C09 focal adhesion kinase 1 n=1 Tax=Fundulus ...   167   4e-39
+UniRef90_Q0VC86 PTK2 protein tyrosine kinase 2 n=2 Tax=Laurasiat...   166   4e-39
+UniRef90_A0A146NAS3 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   166   4e-39
+UniRef90_A0A1A8NVS5 Uncharacterized protein n=21 Tax=Percomorpha...   166   4e-39
+UniRef90_A0A1A8PGU4 Uncharacterized protein n=8 Tax=Percomorphac...   166   4e-39
+UniRef90_I3JID5 Protein tyrosine kinase 2ab n=5 Tax=Percomorphac...   166   5e-39
+UniRef90_A0A1A8R493 Uncharacterized protein n=66 Tax=Percomorpha...   166   5e-39
+UniRef90_UPI0009A332F4 focal adhesion kinase 1-like n=1 Tax=Rhin...   166   5e-39
+UniRef90_A0A146Y6T5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   166   6e-39
+UniRef90_A0A146Y6Q5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   165   6e-39
+UniRef90_H2LIZ5 Protein tyrosine kinase 2ab n=1 Tax=Oryzias lati...   165   8e-39
+UniRef90_UPI0006B3B7A3 focal adhesion kinase 1-like isoform X7 n...   165   8e-39
+UniRef90_A0A146VNH1 Focal adhesion kinase 1 n=5 Tax=Fundulus het...   165   1e-38
+UniRef90_A0A146Y8K5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   165   1e-38
+UniRef90_UPI0007B8206A focal adhesion kinase 1 isoform X8 n=4 Ta...   164   2e-38
+UniRef90_A0A1S3QHQ0 focal adhesion kinase 1-like n=2 Tax=Salmo s...   164   2e-38
+UniRef90_UPI0004952F62 focal adhesion kinase 1-like n=1 Tax=Steg...   164   2e-38
+UniRef90_UPI00080387AE focal adhesion kinase 1 isoform X1 n=5 Ta...   164   2e-38
+UniRef90_UPI000901921F focal adhesion kinase 1-like isoform X7 n...   163   5e-38
+UniRef90_UPI00054E4FB6 focal adhesion kinase 1 isoform X1 n=1 Ta...   162   6e-38
+UniRef90_A0A146Y8F9 Focal adhesion kinase 1 n=2 Tax=Cyprinodonti...   162   6e-38
+UniRef90_UPI000901CB43 focal adhesion kinase 1-like isoform X1 n...   162   6e-38
+UniRef90_UPI000900B889 focal adhesion kinase 1-like isoform X8 n...   162   6e-38
+UniRef90_A0A146NYN2 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   162   6e-38
+UniRef90_H3CW78 Protein tyrosine kinase 2ab n=2 Tax=Tetraodon ni...   162   8e-38
+UniRef90_H2TU31 Protein tyrosine kinase 2ab n=66 Tax=Percomorpha...   162   9e-38
+UniRef90_H2TU33 Protein tyrosine kinase 2ab n=4 Tax=Percomorphac...   162   9e-38
+UniRef90_UPI00071DDE28 protein-tyrosine kinase 2-beta-like n=1 T...   161   2e-37
+UniRef90_A0A1A8KAB8 Uncharacterized protein (Fragment) n=10 Tax=...   160   3e-37
+UniRef90_UPI000803AB6A protein-tyrosine kinase 2-beta-like isofo...   160   3e-37
+UniRef90_UPI000802B334 protein-tyrosine kinase 2-beta-like isofo...   160   4e-37
+UniRef90_A0A1W5AYV2 focal adhesion kinase 1-like isoform X1 n=10...   160   4e-37
+UniRef90_UPI0006442525 protein-tyrosine kinase 2-beta n=1 Tax=Cl...   158   1e-36
+UniRef90_UPI0007AC59AF protein-tyrosine kinase 2-beta isoform X1...   158   1e-36
+UniRef90_UPI0009B33809 focal adhesion kinase 1-like isoform X1 n...   158   2e-36
+UniRef90_M4AM58 Protein tyrosine kinase 2ab n=15 Tax=Cyprinodont...   157   2e-36
+UniRef90_L5KLL4 Focal adhesion kinase 1 n=1 Tax=Pteropus alecto ...   157   2e-36
+UniRef90_UPI0007AC6044 protein-tyrosine kinase 2-beta isoform X3...   157   2e-36
+UniRef90_A0A1L8G5K3 Uncharacterized protein n=5 Tax=Xenopus TaxI...   157   2e-36
+UniRef90_UPI0008144AA7 protein-tyrosine kinase 2-beta-like isofo...   157   3e-36
+UniRef90_UPI00084D53B0 protein-tyrosine kinase 2-beta-like isofo...   157   3e-36
+UniRef90_H9G6F2 Protein tyrosine kinase 2 beta n=1 Tax=Anolis ca...   157   3e-36
+UniRef90_UPI00035A03D0 protein-tyrosine kinase 2-beta n=1 Tax=Fi...   157   3e-36
+UniRef90_UPI0003EBC838 focal adhesion kinase 1-like n=1 Tax=Neol...   157   3e-36
+UniRef90_UPI0008147926 protein-tyrosine kinase 2-beta-like isofo...   156   4e-36
+UniRef90_A0A0F7Z474 Protein-tyrosine kinase 2-beta n=2 Tax=Crota...   156   5e-36
+UniRef90_A0A091S430 Protein-tyrosine kinase 2-beta n=13 Tax=Neog...   156   5e-36
+UniRef90_UPI000905C92A protein-tyrosine kinase 2-beta n=1 Tax=Ap...   156   6e-36
+UniRef90_A0A1V4J815 Protein-tyrosine kinase 2-beta isoform B n=1...   156   6e-36
+UniRef90_U3JM74 Protein tyrosine kinase 2 beta n=1 Tax=Ficedula ...   156   6e-36
+UniRef90_UPI000874A308 protein-tyrosine kinase 2-beta-like n=1 T...   156   6e-36
+UniRef90_J3SFJ4 Protein-tyrosine kinase 2-beta n=10 Tax=Bifurcat...   156   6e-36
+UniRef90_A0A1V4J976 Protein-tyrosine kinase 2-beta isoform A n=1...   156   6e-36
+UniRef90_UPI0007B8B95F focal adhesion kinase 1-like n=2 Tax=Poec...   156   7e-36
+UniRef90_A0A087QU33 Protein-tyrosine kinase 2-beta n=1 Tax=Apten...   155   7e-36
+UniRef90_A0A146VNE5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   155   7e-36
+UniRef90_UPI0008165EA5 protein-tyrosine kinase 2-beta n=1 Tax=Co...   155   7e-36
+UniRef90_W5NL16 Protein tyrosine kinase 2 beta, b n=3 Tax=Lepiso...   155   8e-36
+UniRef90_H2T0L2 Protein tyrosine kinase 2ab n=15 Tax=Percomorpha...   155   8e-36
+UniRef90_A0A146ZU95 Focal adhesion kinase 1 n=8 Tax=Cyprinodonto...   155   8e-36
+UniRef90_Q4SJ18 Chromosome 21 SCAF14577, whole genome shotgun se...   155   8e-36
+UniRef90_H2T0L5 Protein tyrosine kinase 2ab n=1 Tax=Takifugu rub...   155   8e-36
+UniRef90_A0A1W4YQR2 protein-tyrosine kinase 2-beta-like isoform ...   155   9e-36
+UniRef90_UPI00072E66AD focal adhesion kinase 1-like isoform X3 n...   155   9e-36
+UniRef90_UPI00074261E6 focal adhesion kinase 1-like isoform X1 n...   155   9e-36
+UniRef90_UPI000521A143 protein-tyrosine kinase 2-beta n=1 Tax=Ch...   155   1e-35
+UniRef90_A0A096M506 Protein tyrosine kinase 2ab n=1 Tax=Poecilia...   155   1e-35
+UniRef90_H2T0L0 Protein tyrosine kinase 2ab n=86 Tax=Percomorpha...   155   1e-35
+UniRef90_UPI00073FEE4F protein-tyrosine kinase 2-beta isoform X3...   155   1e-35
+UniRef90_A0A1W4YGS6 protein-tyrosine kinase 2-beta-like isoform ...   155   1e-35
+UniRef90_H2T0L1 Protein tyrosine kinase 2ab n=5 Tax=Takifugu rub...   155   1e-35
+UniRef90_UPI00072E4A9B focal adhesion kinase 1-like isoform X7 n...   155   1e-35
+UniRef90_UPI000523D0FE protein-tyrosine kinase 2-beta n=2 Tax=Ne...   155   1e-35
+UniRef90_H2T0L3 Protein tyrosine kinase 2ab n=25 Tax=Percomorpha...   155   1e-35
+UniRef90_UPI0006B2F16D protein-tyrosine kinase 2-beta-like n=1 T...   155   1e-35
+UniRef90_A0A146VNL6 Focal adhesion kinase 1 n=2 Tax=Fundulus het...   154   2e-35
+UniRef90_A0A0P7YF56 Protein-tyrosine kinase 2-beta-like n=1 Tax=...   154   2e-35
+UniRef90_UPI0004958A5A protein-tyrosine kinase 2-beta-like n=1 T...   154   2e-35
+UniRef90_UPI00074259F2 protein-tyrosine kinase 2-beta-like isofo...   154   2e-35
+UniRef90_Q7T2P8 Proline-rich tyrosine kinase 2 n=9 Tax=Cyprinida...   154   2e-35
+UniRef90_A0A1A8M718 Uncharacterized protein n=2 Tax=Nothobranchi...   154   2e-35
+UniRef90_UPI00097D9BA8 protein-tyrosine kinase 2-beta-like isofo...   154   2e-35
+UniRef90_Q14289-2 Isoform 2 of Protein-tyrosine kinase 2-beta n=...   154   2e-35
+UniRef90_A3KNV4 Ptk2bb protein (Fragment) n=2 Tax=Cyprinidae Tax...   154   2e-35
+UniRef90_A0A0Q3MEP3 Protein-tyrosine kinase 2-beta n=1 Tax=Amazo...   154   2e-35
+UniRef90_F6Z395 Protein tyrosine kinase 2 beta n=2 Tax=Monodelph...   154   3e-35
+UniRef90_UPI000762B900 protein-tyrosine kinase 2-beta isoform X3...   154   3e-35
+UniRef90_A0A1D5RKE2 Protein tyrosine kinase 2 beta n=6 Tax=Euthe...   154   3e-35
+UniRef90_Q14289 Protein-tyrosine kinase 2-beta n=149 Tax=Eutheri...   154   3e-35
+UniRef90_UPI00051E3165 protein-tyrosine kinase 2-beta n=1 Tax=St...   154   3e-35
+UniRef90_M3ZQJ6 Protein tyrosine kinase 2 beta, a n=7 Tax=Cyprin...   153   3e-35
+UniRef90_UPI0005B970F6 protein-tyrosine kinase 2-beta n=1 Tax=Pt...   153   4e-35
+UniRef90_A0A1A8JXA3 Uncharacterized protein n=5 Tax=Nothobranchi...   153   4e-35
+UniRef90_A0A146XTS3 Tyrosine kinase 2-beta n=1 Tax=Fundulus hete...   153   4e-35
+UniRef90_UPI0008543A07 protein-tyrosine kinase 2-beta-like n=1 T...   153   4e-35
+UniRef90_Q8C9L4 Uncharacterized protein n=3 Tax=Euarchontoglires...   153   5e-35
+UniRef90_A0A091E139 Protein-tyrosine kinase 2-beta n=1 Tax=Fukom...   153   5e-35
+UniRef90_UPI0004BDD6B8 protein-tyrosine kinase 2-beta n=1 Tax=Eq...   153   5e-35
+UniRef90_K7DYJ3 Protein tyrosine kinase 2 beta, a n=2 Tax=Danio ...   153   5e-35
+UniRef90_UPI00042BFC94 LOW QUALITY PROTEIN: protein-tyrosine kin...   153   5e-35
+UniRef90_UPI0003940B37 protein-tyrosine kinase 2-beta isoform X1...   152   6e-35
+UniRef90_UPI00077D526E protein-tyrosine kinase 2-beta-like isofo...   152   6e-35
+UniRef90_UPI0009A337A8 protein-tyrosine kinase 2-beta-like n=1 T...   152   6e-35
+UniRef90_UPI0007B91975 protein-tyrosine kinase 2-beta-like n=1 T...   152   7e-35
+UniRef90_UPI0007AC7F87 protein-tyrosine kinase 2-beta-like isofo...   152   7e-35
+UniRef90_UPI0003EBD8AA protein-tyrosine kinase 2-beta-like n=1 T...   152   7e-35
+UniRef90_A0A1U8DNY3 protein-tyrosine kinase 2-beta isoform X1 n=...   152   7e-35
+UniRef90_UPI00090763DB protein-tyrosine kinase 2-beta isoform X5...   152   7e-35
+UniRef90_S9XF48 Protein-tyrosine kinase 2-beta isoform 1 n=1 Tax...   152   7e-35
+UniRef90_UPI00065740BD protein-tyrosine kinase 2-beta isoform X2...   152   7e-35
+UniRef90_A0A061INV5 Protein-tyrosine kinase 2-beta isoform 1 n=3...   152   8e-35
+UniRef90_UPI000644498F protein-tyrosine kinase 2-beta-like n=1 T...   152   8e-35
+UniRef90_K7G0E4 Protein tyrosine kinase 2 beta n=5 Tax=Cryptodir...   152   8e-35
+UniRef90_A0A151P4J0 Uncharacterized protein n=3 Tax=Crocodylia T...   152   8e-35
+UniRef90_A0A1A8I3Q0 Uncharacterized protein (Fragment) n=1 Tax=N...   152   9e-35
+UniRef90_A0A1A8B3H0 Name:protein tyrosine kinase 2 beta, a n=5 T...   152   9e-35
+UniRef90_UPI0006B22CB2 protein-tyrosine kinase 2-beta-like n=1 T...   152   9e-35
+UniRef90_E1BTC3 Protein tyrosine kinase 2 beta n=34 Tax=Aves Tax...   152   1e-34
+UniRef90_A0A1A8G1H8 Name:protein tyrosine kinase 2 beta, a (Frag...   152   1e-34
+UniRef90_UPI00077D6C7C protein-tyrosine kinase 2-beta-like isofo...   152   1e-34
+UniRef90_UPI000A1C5F73 LOW QUALITY PROTEIN: protein-tyrosine kin...   152   1e-34
+UniRef90_W5JZQ4 Protein tyrosine kinase 2 beta, a n=2 Tax=Astyan...   152   1e-34
+UniRef90_UPI0008468962 protein-tyrosine kinase 2-beta n=1 Tax=Ma...   151   1e-34
+UniRef90_UPI0006B1D2E9 protein-tyrosine kinase 2-beta isoform X8...   151   2e-34
+UniRef90_UPI000B4C8D86 protein-tyrosine kinase 2-beta n=1 Tax=Lo...   151   2e-34
+UniRef90_UPI000440F1D9 protein-tyrosine kinase 2-beta isoform X3...   151   2e-34
+UniRef90_UPI0006B32C9E protein-tyrosine kinase 2-beta isoform X1...   151   2e-34
+UniRef90_UPI0009B3B387 protein-tyrosine kinase 2-beta-like isofo...   150   2e-34
+UniRef90_UPI0008033437 protein-tyrosine kinase 2-beta-like isofo...   150   2e-34
+UniRef90_UPI000B4F6BB9 protein-tyrosine kinase 2-beta-like n=1 T...   150   2e-34
+UniRef90_H2T8R1 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...   150   3e-34
+UniRef90_UPI0009008B0E protein-tyrosine kinase 2-beta-like n=1 T...   150   3e-34
+UniRef90_I3KDA3 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   150   3e-34
+UniRef90_A0A096LYM5 Uncharacterized protein n=3 Tax=Poecilia Tax...   150   3e-34
+UniRef90_UPI0004C1DFC1 protein-tyrosine kinase 2-beta n=1 Tax=Ca...   150   3e-34
+UniRef90_UPI00097D33D1 protein-tyrosine kinase 2-beta-like n=1 T...   150   3e-34
+UniRef90_UPI0009B48C65 protein-tyrosine kinase 2-beta-like n=1 T...   150   3e-34
+UniRef90_I3KDA5 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   150   3e-34
+UniRef90_UPI0006B30AE1 protein-tyrosine kinase 2-beta isoform X2...   150   3e-34
+UniRef90_U6DH79 PTK2B protein tyrosine kinase 2 beta (Fragment) ...   150   3e-34
+UniRef90_UPI0005ACD4B3 protein-tyrosine kinase 2-beta isoform X3...   150   4e-34
+UniRef90_UPI0008FA61F6 protein-tyrosine kinase 2-beta-like n=1 T...   150   4e-34
+UniRef90_UPI00051F0C87 protein-tyrosine kinase 2-beta n=1 Tax=Eg...   150   4e-34
+UniRef90_A0A1D5PGU1 Protein tyrosine kinase 2 beta n=2 Tax=Neogn...   150   4e-34
+UniRef90_UPI00064337C8 focal adhesion kinase 1-like n=1 Tax=Cond...   150   4e-34
+UniRef90_G1PGQ8 Protein tyrosine kinase 2 beta n=14 Tax=Bilateri...   150   4e-34
+UniRef90_UPI0005ABC58B protein-tyrosine kinase 2-beta isoform X1...   150   5e-34
+UniRef90_G3P8W6 Protein tyrosine kinase 2 beta, b n=1 Tax=Gaster...   149   5e-34
+UniRef90_UPI000552B5BC protein-tyrosine kinase 2-beta isoform X1...   149   5e-34
+UniRef90_H2T8Q6 Protein tyrosine kinase 2 beta, b n=5 Tax=Takifu...   149   5e-34
+UniRef90_UPI000551F19D protein-tyrosine kinase 2-beta isoform X2...   149   5e-34
+UniRef90_UPI000A1C7115 protein-tyrosine kinase 2-beta n=1 Tax=Bo...   149   5e-34
+UniRef90_G3PPR1 Protein tyrosine kinase 2 beta, a n=1 Tax=Gaster...   149   6e-34
+UniRef90_I3KDA4 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   149   6e-34
+UniRef90_A0A218UD32 Protein-tyrosine kinase 2-beta n=1 Tax=Lonch...   149   6e-34
+UniRef90_G3NIV8 Uncharacterized protein n=1 Tax=Gasterosteus acu...   149   6e-34
+UniRef90_UPI0007DC9CDB protein-tyrosine kinase 2-beta-like n=1 T...   149   7e-34
+UniRef90_H2T8Q8 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...   149   7e-34
+UniRef90_UPI00094E82DB protein-tyrosine kinase 2-beta-like isofo...   149   7e-34
+UniRef90_UPI000812E964 protein-tyrosine kinase 2-beta isoform X1...   149   7e-34
+UniRef90_UPI000A1C67B0 focal adhesion kinase 1-like n=1 Tax=Bole...   149   8e-34
+UniRef90_H2V5D8 Protein tyrosine kinase 2 beta, a n=1 Tax=Takifu...   149   8e-34
+UniRef90_UPI0005D24D5D protein-tyrosine kinase 2-beta-like n=1 T...   149   8e-34
+UniRef90_A0A0S7IK24 FAK2 (Fragment) n=2 Tax=Poeciliopsis prolifi...   149   9e-34
+UniRef90_UPI0009B35C6D protein-tyrosine kinase 2-beta n=1 Tax=La...   149   9e-34
+UniRef90_A0A1S3M7G7 protein-tyrosine kinase 2-beta n=1 Tax=Salmo...   149   1e-33
+UniRef90_UPI00064321D0 LOW QUALITY PROTEIN: protein-tyrosine kin...   149   1e-33
+UniRef90_UPI000900BAE9 protein-tyrosine kinase 2-beta n=1 Tax=La...   149   1e-33
+UniRef90_UPI0003EC5977 protein-tyrosine kinase 2-beta-like n=1 T...   149   1e-33
+UniRef90_UPI0009DAB407 protein-tyrosine kinase 2-beta-like isofo...   149   1e-33
+UniRef90_A0A0F8BK25 Focal adhesion kinase 1 n=2 Tax=Larimichthys...   148   1e-33
+UniRef90_A0A1S3RLL1 protein-tyrosine kinase 2-beta-like n=1 Tax=...   148   1e-33
+UniRef90_A0A146XYJ4 Tyrosine kinase 2-beta n=3 Tax=Fundulus hete...   148   1e-33
+UniRef90_A0A147AQY6 Tyrosine kinase 2-beta n=2 Tax=Fundulus hete...   148   2e-33
+UniRef90_S7MU75 Protein-tyrosine kinase 2-beta n=1 Tax=Myotis br...   148   2e-33
+UniRef90_A0A146P628 Uncharacterized protein n=3 Tax=Fundulus het...   147   2e-33
+UniRef90_UPI0006D8E602 protein-tyrosine kinase 2-beta-like n=1 T...   147   2e-33
+UniRef90_UPI0006619996 protein-tyrosine kinase 2-beta n=1 Tax=Es...   147   2e-33
+UniRef90_UPI0007F8DAAB protein-tyrosine kinase 2-beta-like isofo...   147   3e-33
+UniRef90_I3KDQ5 Protein tyrosine kinase 2 beta, b n=7 Tax=Pseudo...   147   3e-33
+UniRef90_UPI000904EDEA protein-tyrosine kinase 2-beta isoform X3...   147   3e-33
+UniRef90_UPI0007B79F8D protein-tyrosine kinase 2-beta-like isofo...   147   3e-33
+UniRef90_UPI0008740149 protein-tyrosine kinase 2-beta-like n=2 T...   147   3e-33
+UniRef90_A0A087XT17 Protein tyrosine kinase 2 beta, b n=10 Tax=C...   147   3e-33
+UniRef90_L5LTI7 Protein-tyrosine kinase 2-beta n=3 Tax=Myotis Ta...   146   5e-33
+UniRef90_M3ZPG9 Protein tyrosine kinase 2 beta, b n=3 Tax=Poecil...   146   5e-33
+UniRef90_A0A1W5A6F7 protein-tyrosine kinase 2-beta-like n=1 Tax=...   146   5e-33
+UniRef90_UPI00052EA221 protein-tyrosine kinase 2-beta-like n=1 T...   144   2e-32
+UniRef90_H3DFZ9 Protein tyrosine kinase 2 beta, b n=2 Tax=Tetrao...   144   2e-32
+UniRef90_Q4RR57 Chromosome 14 SCAF15003, whole genome shotgun se...   144   2e-32
+UniRef90_UPI0008FA704B focal adhesion kinase 1-like n=1 Tax=Cypr...   144   2e-32
+UniRef90_A0A1S3SBF4 protein-tyrosine kinase 2-beta-like n=1 Tax=...   144   3e-32
+UniRef90_UPI0008146208 protein-tyrosine kinase 2-beta-like isofo...   144   3e-32
+UniRef90_H2LYR2 Protein tyrosine kinase 2 beta, b n=2 Tax=Oryzia...   143   4e-32
+UniRef90_UPI0003EC2ADF focal adhesion kinase 1-like n=1 Tax=Neol...   143   4e-32
+UniRef90_W5LJ64 Protein tyrosine kinase 2 beta, b n=1 Tax=Astyan...   142   1e-31
+UniRef90_UPI000575EABA protein-tyrosine kinase 2-beta isoform X1...   140   4e-31
+UniRef90_UPI000B4F12C2 focal adhesion kinase 1-like isoform X1 n...   139   9e-31
+UniRef90_UPI00054F69A3 protein-tyrosine kinase 2-beta-like n=1 T...   138   2e-30
+UniRef90_H3DAJ0 Protein tyrosine kinase 2 beta, a n=2 Tax=Tetrao...   138   2e-30
+UniRef90_UPI0007DC97F4 protein-tyrosine kinase 2-beta-like n=1 T...   137   2e-30
+UniRef90_UPI0009B485A9 LOW QUALITY PROTEIN: protein-tyrosine kin...   137   2e-30
+UniRef90_A0A0F8AQ78 Protein-tyrosine kinase 2-beta n=1 Tax=Larim...   135   1e-29
+UniRef90_UPI000A0EDCC8 focal adhesion kinase 1 isoform X1 n=3 Ta...   134   2e-29
+UniRef90_R7TYU7 Uncharacterized protein n=1 Tax=Capitella teleta...   134   2e-29
+UniRef90_UPI0004CD25C3 uncharacterized protein LOC103577529 n=1 ...   134   2e-29
+UniRef90_UPI000771D904 uncharacterized protein LOC107273475 isof...   134   2e-29
+UniRef90_A0A0S7FDT4 FAK1 n=4 Tax=Percomorphaceae TaxID=1489872 R...   133   3e-29
+UniRef90_UPI000771B1D2 uncharacterized protein LOC107273475 isof...   133   3e-29
+UniRef90_V9KBT7 Protein-tyrosine kinase 2-beta n=2 Tax=Callorhin...   133   3e-29
+UniRef90_A0A0J7LAY4 Focal adhesion kinase 1 n=1 Tax=Lasius niger...   133   4e-29
+UniRef90_UPI0005BAC55E focal adhesion kinase 1 isoform X5 n=1 Ta...   133   4e-29
+UniRef90_UPI00046D517C LOW QUALITY PROTEIN: focal adhesion kinas...   133   4e-29
+UniRef90_E2AKA8 Focal adhesion kinase 1 n=9 Tax=Formicidae TaxID...   133   5e-29
+UniRef90_E9JCV7 Uncharacterized protein (Fragment) n=11 Tax=Form...   133   5e-29
+UniRef90_UPI0009949FB5 focal adhesion kinase 1 isoform X1 n=2 Ta...   133   5e-29
+UniRef90_UPI000718FE96 focal adhesion kinase 1 isoform X1 n=10 T...   133   5e-29
+UniRef90_UPI00071165DE focal adhesion kinase 1 isoform X5 n=1 Ta...   133   6e-29
+UniRef90_A0A158NYB0 Uncharacterized protein n=5 Tax=Attini TaxID...   133   6e-29
+UniRef90_UPI000580ECFF LOW QUALITY PROTEIN: uncharacterized prot...   132   6e-29
+UniRef90_UPI0006C9E2CF focal adhesion kinase 1 isoform X1 n=5 Ta...   132   6e-29
+UniRef90_UPI0008524021 focal adhesion kinase 1 n=1 Tax=Cyphomyrm...   132   6e-29
+UniRef90_A0A0L7RDW5 Focal adhesion kinase 1 n=3 Tax=Apidae TaxID...   132   7e-29
+UniRef90_UPI000840806E focal adhesion kinase 1 isoform X1 n=2 Ta...   132   8e-29
+UniRef90_UPI00059588A0 focal adhesion kinase 1 n=2 Tax=Myrmicina...   132   8e-29
+UniRef90_UPI0007385162 focal adhesion kinase 1 isoform X1 n=4 Ta...   132   8e-29
+UniRef90_A0A151WIK7 Focal adhesion kinase 1 n=2 Tax=Trachymyrmex...   132   9e-29
+UniRef90_UPI00076F97C4 focal adhesion kinase 1 isoform X1 n=1 Ta...   132   9e-29
+UniRef90_UPI0005D3ED82 uncharacterized protein LOC105433628 n=1 ...   132   1e-28
+UniRef90_UPI0005CE86FE focal adhesion kinase 1 n=1 Tax=Ceratosol...   132   1e-28
+UniRef90_A0A1S3GYK4 focal adhesion kinase 1-like n=1 Tax=Lingula...   131   1e-28
+UniRef90_UPI000614D1D4 uncharacterized protein LOC100876637 isof...   131   1e-28
+UniRef90_A0A067R8A5 Focal adhesion kinase 1 n=1 Tax=Zootermopsis...   131   2e-28
+UniRef90_UPI0006C9D952 focal adhesion kinase 1 isoform X1 n=1 Ta...   131   2e-28
+UniRef90_UPI00020648A6 uncharacterized protein LOC724973 isoform...   131   2e-28
+UniRef90_A0A088AN13 Uncharacterized protein n=19 Tax=Apidae TaxI...   130   2e-28
+UniRef90_UPI00073828EE focal adhesion kinase 1 isoform X5 n=1 Ta...   130   3e-28
+UniRef90_UPI000771D8B7 focal adhesion kinase 1 isoform X8 n=2 Ta...   130   4e-28
+UniRef90_A0A151IX42 Focal adhesion kinase 1 n=1 Tax=Trachymyrmex...   130   4e-28
+UniRef90_A0A154PBB2 Focal adhesion kinase 1 n=2 Tax=Dufourea nov...   130   4e-28
+UniRef90_UPI0006254D47 focal adhesion kinase 1 isoform X1 n=2 Ta...   130   5e-28
+UniRef90_UPI0007114031 focal adhesion kinase 1 isoform X1 n=4 Ta...   129   5e-28
+UniRef90_A0A1W4WMU1 LOW QUALITY PROTEIN: focal adhesion kinase 1...   129   6e-28
+UniRef90_UPI0006C985BA focal adhesion kinase 1 isoform X6 n=2 Ta...   129   6e-28
+UniRef90_UPI0006C94501 focal adhesion kinase 1 isoform X2 n=1 Ta...   129   6e-28
+UniRef90_UPI00076FAFCA focal adhesion kinase 1 isoform X2 n=2 Ta...   129   7e-28
+UniRef90_A0A1B6E257 Uncharacterized protein n=1 Tax=Clastoptera ...   128   1e-27
+UniRef90_UPI0005908BE0 LOW QUALITY PROTEIN: uncharacterized prot...   128   1e-27
+UniRef90_A0A1B6D3T2 Uncharacterized protein n=2 Tax=Clastoptera ...   128   2e-27
+UniRef90_A0A0C9RQQ4 PTK2_0 protein (Fragment) n=1 Tax=Fopius ari...   127   2e-27
+UniRef90_A0A1B6DTP2 Uncharacterized protein (Fragment) n=1 Tax=C...   127   2e-27
+UniRef90_UPI0007D89695 focal adhesion kinase 1 isoform X7 n=6 Ta...   127   2e-27
+UniRef90_D6WQS4 Focal adhesion kinase 1-like Protein n=9 Tax=Tri...   127   3e-27
+UniRef90_A0A0C9RR47 PTK2_1 protein (Fragment) n=8 Tax=Fopius ari...   127   3e-27
+UniRef90_UPI0003DF792F focal adhesion kinase 1-like n=1 Tax=Apis...   127   3e-27
+UniRef90_UPI0006236BC4 LOW QUALITY PROTEIN: uncharacterized prot...   127   4e-27
+UniRef90_UPI00077DCB0F focal adhesion kinase 1 isoform X8 n=1 Ta...   127   4e-27
+UniRef90_E2BTJ2 Focal adhesion kinase 1 n=1 Tax=Harpegnathos sal...   127   4e-27
+UniRef90_A0A1S3J825 focal adhesion kinase 1-like n=1 Tax=Lingula...   126   7e-27
+UniRef90_A0A210R109 Focal adhesion kinase 1 n=5 Tax=Mizuhopecten...   126   7e-27
+UniRef90_V3ZMB0 Uncharacterized protein n=1 Tax=Lottia gigantea ...   125   1e-26
+UniRef90_UPI0003AF811C protein-tyrosine kinase 2-beta-like n=1 T...   124   2e-26
+UniRef90_A0A1Y1N5Z8 Uncharacterized protein n=3 Tax=Photinus pyr...   124   2e-26
+UniRef90_K1PKI5 Focal adhesion kinase 1 n=8 Tax=Crassostrea giga...   124   2e-26
+UniRef90_UPI0005C368A2 focal adhesion kinase 1 isoform X1 n=7 Ta...   124   2e-26
+UniRef90_UPI0009750FE7 focal adhesion kinase 1 isoform X10 n=1 T...   124   2e-26
+UniRef90_A0A1A7ZZK5 Protein tyrosine kinase 2 beta, b (Fragment)...   123   6e-26
+UniRef90_G5C8Y8 Focal adhesion kinase 1 n=1 Tax=Heterocephalus g...   123   6e-26
+UniRef90_UPI00096B3C3F focal adhesion kinase 1 isoform X1 n=8 Ta...   122   1e-25
+UniRef90_UPI00071DAE22 focal adhesion kinase 1-like isoform X1 n...   122   1e-25
+UniRef90_UPI000874A160 focal adhesion kinase 1 isoform X1 n=1 Ta...   122   1e-25
+UniRef90_Q7Z1D3 Focal adhesion kinase n=1 Tax=Lytechinus variega...   121   1e-25
+UniRef90_A0A0R4ICT0 Protein tyrosine kinase 2aa n=1 Tax=Danio re...   121   2e-25
+UniRef90_UPI000873BCCB focal adhesion kinase 1 isoform X5 n=1 Ta...   121   2e-25
+UniRef90_UPI000874CBFF focal adhesion kinase 1 isoform X2 n=5 Ta...   121   2e-25
+UniRef90_A0A0M8ZYC2 Focal adhesion kinase 1 n=1 Tax=Melipona qua...   120   2e-25
+UniRef90_W5KAN2 Protein tyrosine kinase 2 n=1 Tax=Astyanax mexic...   120   3e-25
+UniRef90_A0A1B6IZC4 Uncharacterized protein (Fragment) n=1 Tax=H...   120   3e-25
+UniRef90_A0A0L8GY73 Uncharacterized protein n=3 Tax=Octopus bima...   120   3e-25
+UniRef90_A0A0P7UI84 Protein-tyrosine kinase 2-beta-like n=1 Tax=...   120   3e-25
+UniRef90_W4YV37 Uncharacterized protein n=1 Tax=Strongylocentrot...   120   4e-25
+UniRef90_T1IYC0 Uncharacterized protein n=1 Tax=Strigamia mariti...   120   5e-25
+UniRef90_UPI000947A100 focal adhesion kinase 1-like isoform X9 n...   120   5e-25
+UniRef90_A0A0P7ZGT0 Uncharacterized protein (Fragment) n=1 Tax=S...   120   5e-25
+UniRef90_A0A094K9V8 Focal adhesion kinase 1 (Fragment) n=3 Tax=N...   119   6e-25
+UniRef90_UPI00083C825E focal adhesion kinase 1 isoform X1 n=3 Ta...   119   7e-25
+UniRef90_UPI0005280664 focal adhesion kinase 1 n=2 Tax=Amniota T...   119   8e-25
+UniRef90_A0A1A8Q6D7 Name:protein tyrosine kinase 2 beta, a (Frag...   119   8e-25
+UniRef90_UPI00083C691F focal adhesion kinase 1 isoform X4 n=2 Ta...   118   1e-24
+UniRef90_A0A1A6GQW4 Uncharacterized protein n=1 Tax=Neotoma lepi...   118   1e-24
+UniRef90_UPI0005EF976A focal adhesion kinase 1-like n=1 Tax=Stro...   118   1e-24
+UniRef90_G1NJW7 Uncharacterized protein n=1 Tax=Meleagris gallop...   118   2e-24
+UniRef90_C3Y1A6 Uncharacterized protein (Fragment) n=9 Tax=Branc...   117   2e-24
+UniRef90_UPI00052929F3 focal adhesion kinase 1-like n=1 Tax=Mesi...   116   7e-24
+UniRef90_V8P4C4 Protein-tyrosine kinase 2-beta (Fragment) n=1 Ta...   115   9e-24
+UniRef90_A0A1B6LWH8 Uncharacterized protein (Fragment) n=2 Tax=G...   115   1e-23
+UniRef90_A0A1B6GEL6 Uncharacterized protein (Fragment) n=1 Tax=C...   115   1e-23
+UniRef90_UPI0006B07803 focal adhesion kinase 1-like n=1 Tax=Limu...   113   3e-23
+UniRef90_UPI0003F0EEBD focal adhesion kinase 1-like n=1 Tax=Sacc...   112   1e-22
+UniRef90_N6TQ25 Uncharacterized protein (Fragment) n=1 Tax=Dendr...   111   2e-22
+UniRef90_A0A069DZP2 Putative focal adhesion kinase (Fragment) n=...   110   3e-22
+UniRef90_UPI00094EEAE3 protein-tyrosine kinase 2-beta n=1 Tax=Hi...   110   5e-22
+UniRef90_UPI000719C443 focal adhesion kinase 1-like n=1 Tax=Pria...   110   5e-22
+UniRef90_U4U150 Uncharacterized protein (Fragment) n=2 Tax=Dendr...   109   6e-22
+UniRef90_G1S2N7 Protein tyrosine kinase 2 beta n=1 Tax=Nomascus ...   109   8e-22
+UniRef90_UPI00046B89CD focal adhesion kinase 1 isoform X1 n=8 Ta...   109   9e-22
+UniRef90_A0A1W5BB02 focal adhesion kinase 1 n=1 Tax=Ciona intest...   108   9e-22
+UniRef90_G1S2N5 Protein tyrosine kinase 2 beta n=1 Tax=Nomascus ...   108   1e-21
+UniRef90_F6WUP4 Uncharacterized protein n=1 Tax=Ciona intestinal...   108   1e-21
+UniRef90_J9JPR2 Uncharacterized protein n=3 Tax=Macrosiphini Tax...   108   1e-21
+UniRef90_H2YTK3 Uncharacterized protein n=1 Tax=Ciona savignyi T...   108   2e-21
+UniRef90_T1I867 Tyrosine-protein kinase Fak56D (Fragment) n=1 Ta...   107   2e-21
+UniRef90_UPI0006743F31 focal adhesion kinase 1-like isoform X5 n...   107   3e-21
+UniRef90_UPI0006744FC1 focal adhesion kinase 1-like isoform X1 n...   106   5e-21
+UniRef90_A0A0B7BAE7 Uncharacterized protein n=2 Tax=Arion vulgar...   106   5e-21
+UniRef90_A0A0B7B9S6 Uncharacterized protein n=1 Tax=Arion vulgar...   106   6e-21
+UniRef90_UPI0008F9DBB0 focal adhesion kinase 1 isoform X1 n=2 Ta...   105   1e-20
+UniRef90_UPI00062A6A1D protein-tyrosine kinase 2-beta-like n=1 T...   105   1e-20
+UniRef90_A0A0T6BD26 FERM domain containing protein (Fragment) n=...   104   2e-20
+UniRef90_A0A131YUV2 Focal adhesion kinase 1 n=3 Tax=Ixodidae Tax...   104   2e-20
+UniRef90_L7MI74 Uncharacterized protein (Fragment) n=1 Tax=Rhipi...   104   2e-20
+UniRef90_A0A0A9XYV5 Focal adhesion kinase 1 n=4 Tax=Lygus hesper...   104   3e-20
+UniRef90_B9UPG7 Focal adhesion kinase n=1 Tax=Marsupenaeus japon...   104   3e-20
+UniRef90_A0A0A0A169 Protein-tyrosine kinase 2-beta (Fragment) n=...   103   4e-20
+UniRef90_A0A091K102 Protein-tyrosine kinase 2-beta (Fragment) n=...   103   4e-20
+UniRef90_A0A212CMD3 PTK2B (Fragment) n=1 Tax=Cervus elaphus hipp...   103   5e-20
+UniRef90_UPI0008708D78 LOW QUALITY PROTEIN: focal adhesion kinas...   103   5e-20
+UniRef90_H2T8R0 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...   102   1e-19
+UniRef90_H2T8R3 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...   102   1e-19
+UniRef90_UPI000522DCA2 protein-tyrosine kinase 2-beta-like n=1 T...   101   2e-19
+UniRef90_A0A1V9XHT5 Focal adhesion kinase 1-like n=1 Tax=Tropila...   100   6e-19
+UniRef90_UPI000B4E904D PHD finger protein 20-like protein 1 n=1 ...    99   8e-19
+UniRef90_H2LMY3 Protein tyrosine kinase 2 beta, a n=1 Tax=Oryzia...    99   1e-18
+UniRef90_G3UCQ3 Protein tyrosine kinase 2 n=1 Tax=Loxodonta afri...    99   1e-18
+UniRef90_UPI000A2A51C0 focal adhesion kinase 1-like isoform X3 n...    98   2e-18
+UniRef90_UPI000A2A5583 focal adhesion kinase 1-like isoform X1 n...    98   2e-18
+UniRef90_H2V5E0 Protein tyrosine kinase 2 beta, a n=2 Tax=Takifu...    98   2e-18
+UniRef90_G3UMP3 Protein tyrosine kinase 2 n=1 Tax=Loxodonta afri...    97   3e-18
+UniRef90_H2LYR3 Protein tyrosine kinase 2 beta, b n=2 Tax=Oryzia...    97   4e-18
+UniRef90_Q866G6 Non-receptor tyrosine kinase Pyk2 (Fragment) n=1...    94   4e-17
+UniRef90_A0A1V4KCM6 Uncharacterized protein n=1 Tax=Patagioenas ...    94   4e-17
+UniRef90_UPI000A2BFD98 focal adhesion kinase 1 n=1 Tax=Parasteat...    92   1e-16
+UniRef90_F4WDN4 Focal adhesion kinase 1 n=1 Tax=Acromyrmex echin...    90   7e-16
+UniRef90_T1E1S3 Putative focal adhesion protein kinase n=1 Tax=C...    89   9e-16
+UniRef90_UPI0006804DD1 LOW QUALITY PROTEIN: protein-tyrosine kin...    89   1e-15
+UniRef90_UPI00077F9E73 focal adhesion kinase 1 n=1 Tax=Parasteat...    88   2e-15
+UniRef90_UPI0009E272F6 focal adhesion kinase 1-like n=1 Tax=Orbi...    86   8e-15
+UniRef90_Q5MCM8 Protein-tyrosine kinase (Fragment) n=1 Tax=Hydra...    85   2e-14
+UniRef90_H2YTK4 Uncharacterized protein n=1 Tax=Ciona savignyi T...    84   4e-14
+UniRef90_H2YTK9 Uncharacterized protein n=1 Tax=Ciona savignyi T...    84   4e-14
+UniRef90_H2YTL0 Uncharacterized protein n=1 Tax=Ciona savignyi T...    84   4e-14
+UniRef90_H2YTK7 Uncharacterized protein n=3 Tax=Ciona savignyi T...    84   4e-14
+UniRef90_H2YTK6 Uncharacterized protein n=2 Tax=Ciona savignyi T...    84   5e-14
+UniRef90_H2YTL1 Uncharacterized protein n=1 Tax=Ciona savignyi T...    80   4e-13
+UniRef90_UPI0006446F37 focal adhesion kinase 1-like n=1 Tax=Clup...    75   2e-11
+UniRef90_UPI000549DA3C focal adhesion kinase 1-like n=1 Tax=Mele...    68   2e-09
+UniRef90_A0A1V4KN77 Uncharacterized protein n=1 Tax=Patagioenas ...    68   2e-09
+UniRef90_H2MY81 Uncharacterized protein n=5 Tax=Oryzias latipes ...    67   6e-09
+UniRef90_A0A212CE58 PTK2 n=1 Tax=Cervus elaphus hippelaphus TaxI...    65   2e-08
+UniRef90_A0A1A6HTD4 Uncharacterized protein n=1 Tax=Neotoma lepi...    63   8e-08
+UniRef90_U6CYV5 PTK2 protein tyrosine kinase 2 (Fragment) n=2 Ta...    63   9e-08
+UniRef90_E5RJP0 Focal adhesion kinase 1 (Fragment) n=1 Tax=Homo ...    63   9e-08
+UniRef90_G3R6D4 Protein tyrosine kinase 2 n=2 Tax=Catarrhini Tax...    63   9e-08
+UniRef90_E5RG54 Focal adhesion kinase 1 n=1 Tax=Homo sapiens Tax...    62   2e-07
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI00063C8474 LOW QUALITY PROTEIN: protein-tyrosine kin...   120   3e-25
+UniRef90_UPI00080A24ED protein-tyrosine kinase 2-beta n=1 Tax=Ce...    84   3e-14
+UniRef90_UPI0006CF14B6 focal adhesion kinase 1 isoform X1 n=4 Ta...    83   7e-14
+UniRef90_UPI000A3659E1 LOW QUALITY PROTEIN: protein-tyrosine kin...    82   2e-13
+UniRef90_UPI0006411943 focal adhesion kinase 1-like n=2 Tax=Hydr...    79   1e-12
+UniRef90_Q5MB01 Protein-tyrosine kinase (Fragment) n=1 Tax=Hydra...    79   1e-12
+UniRef90_UPI0006D5259B focal adhesion kinase 1 n=1 Tax=Halyomorp...    74   3e-11
+UniRef90_U3IPQ3 Protein tyrosine kinase 2 beta n=1 Tax=Anas plat...    74   4e-11
+UniRef90_UPI0006B0F188 focal adhesion kinase 1-like n=1 Tax=Limu...    73   6e-11
+UniRef90_A0A212FAB3 Focal adhesion kinase 1 n=2 Tax=Danaus plexi...    73   7e-11
+UniRef90_C1BUC9 Focal adhesion kinase 1 n=1 Tax=Lepeophtheirus s...    72   2e-10
+UniRef90_B7PFN0 Focal adhesion kinase, putative (Fragment) n=1 T...    71   3e-10
+UniRef90_A0A1L8DL69 Protein tyrosine kinase (Fragment) n=1 Tax=N...    70   4e-10
+UniRef90_UPI000B39F24F LOW QUALITY PROTEIN: uncharacterized prot...    69   1e-09
+UniRef90_A0A182Q8Z5 Uncharacterized protein n=1 Tax=Anopheles fa...    69   2e-09
+UniRef90_W5J275 Uncharacterized protein n=1 Tax=Anopheles darlin...    68   2e-09
+UniRef90_A0A182FBZ8 Uncharacterized protein n=1 Tax=Anopheles al...    68   2e-09
+UniRef90_UPI0009379A1F focal adhesion kinase 1-like isoform X1 n...    68   2e-09
+UniRef90_UPI00067BF62F focal adhesion kinase 1 isoform X1 n=4 Ta...    68   2e-09
+UniRef90_A0A1Q3G2P4 Putative focal adhesion kinase 1 (Fragment) ...    68   2e-09
+UniRef90_A0A182N274 Uncharacterized protein n=1 Tax=Anopheles di...    68   2e-09
+UniRef90_UPI00093575B4 uncharacterized protein LOC109401644 n=4 ...    68   2e-09
+UniRef90_A0A182K8Y9 Uncharacterized protein n=1 Tax=Anopheles ch...    68   3e-09
+UniRef90_A0A182HW81 Uncharacterized protein n=1 Tax=Anopheles ar...    68   3e-09
+UniRef90_A0A182X5R5 Uncharacterized protein n=1 Tax=Anopheles qu...    68   3e-09
+UniRef90_A0A182TD43 Uncharacterized protein n=1 Tax=Anopheles me...    68   3e-09
+UniRef90_A0A182KKY8 Uncharacterized protein n=1 Tax=Anopheles co...    68   3e-09
+UniRef90_Q7QHB8 AGAP011118-PA (Fragment) n=1 Tax=Anopheles gambi...    68   3e-09
+UniRef90_A0A194QFF4 Focal adhesion kinase 1 n=1 Tax=Papilio xuth...    68   3e-09
+UniRef90_A0A194QQA5 Focal adhesion kinase 1 n=1 Tax=Papilio mach...    67   3e-09
+UniRef90_A0A087U867 Focal adhesion kinase 1 (Fragment) n=1 Tax=S...    67   3e-09
+UniRef90_UPI0006EB0F7C LOW QUALITY PROTEIN: focal adhesion kinas...    67   4e-09
+UniRef90_A0A1L8DKQ1 Protein tyrosine kinase (Fragment) n=2 Tax=N...    67   4e-09
+UniRef90_B0XFT0 Focal adhesion kinase n=1 Tax=Culex quinquefasci...    67   6e-09
+UniRef90_UPI000B7774D9 focal adhesion kinase 1 isoform X3 n=2 Ta...    67   6e-09
+UniRef90_A0A1S4F8A3 Focal adhesion kinase n=1 Tax=Aedes aegypti ...    67   7e-09
+UniRef90_UPI0006762957 focal adhesion kinase 1-like n=1 Tax=Papi...    67   7e-09
+UniRef90_Q17C76 AAEL004666-PA (Fragment) n=1 Tax=Aedes aegypti T...    67   7e-09
+UniRef90_A0A182MV34 Uncharacterized protein n=1 Tax=Anopheles cu...    66   7e-09
+UniRef90_A0A182YAY9 Uncharacterized protein n=1 Tax=Anopheles st...    66   8e-09
+UniRef90_A0A1A9U5U4 Uncharacterized protein n=1 Tax=Anopheles st...    66   8e-09
+UniRef90_A0A182SW91 Uncharacterized protein n=1 Tax=Anopheles ma...    66   8e-09
+UniRef90_A0A182RAR1 Uncharacterized protein n=1 Tax=Anopheles fu...    66   9e-09
+UniRef90_A0A182WDM7 Uncharacterized protein n=1 Tax=Anopheles mi...    66   9e-09
+UniRef90_A0A182PJM9 Uncharacterized protein n=1 Tax=Anopheles ep...    66   9e-09
+UniRef90_UPI000678B0FE focal adhesion kinase 1 isoform X1 n=4 Ta...    66   1e-08
+UniRef90_E0W0G7 Protein tyrosine kinase 2 beta, putative n=1 Tax...    65   1e-08
+UniRef90_A0A1E1W0N6 Uncharacterized protein (Fragment) n=2 Tax=P...    64   3e-08
+UniRef90_A0A147BGU6 Protein tyrosine kinase (Fragment) n=2 Tax=I...    64   4e-08
+UniRef90_A0A1S4ET38 uncharacterized protein LOC103504814 isoform...    63   6e-08
+UniRef90_A0A182JHN4 Uncharacterized protein n=1 Tax=Anopheles at...    63   8e-08
+UniRef90_V5IK96 Protein tyrosine kinase (Fragment) n=1 Tax=Ixode...    63   9e-08
+UniRef90_UPI0005D045C4 uncharacterized protein LOC105388640 isof...    62   1e-07
+UniRef90_A0A0B2V5S5 Focal adhesion kinase 1 n=1 Tax=Toxocara can...    61   3e-07
+UniRef90_A0A0P5PC59 Focal adhesion kinase (Fragment) n=1 Tax=Dap...    60   5e-07
+UniRef90_A0A0P5PIZ8 Focal adhesion kinase (Fragment) n=1 Tax=Dap...    60   5e-07
+
+>UniRef90_W5MLW0 Protein tyrosine kinase 2ab n=1 Tax=Lepisosteus oculatus TaxID=7918
+           RepID=W5MLW0_LEPOC
+          Length = 1079
+
+ Score =  182 bits (463), Expect = 7e-44,   Method: Composition-based stats.
+ Identities = 79/95 (83%), Positives = 89/95 (93%)
+
+Query: 1   MERVLKVFHYFENSSEPTTWASIIRHGDATDVRGIIQKIVDCHKVKNVACYGLRLSHLQS 60
+           ++RVLKVFHYFE++SEP+TWAS IRHGDATDVRGIIQKIVD HKVK V+CYGLRLSHLQS
+Sbjct: 55  LDRVLKVFHYFESNSEPSTWASNIRHGDATDVRGIIQKIVDIHKVKCVSCYGLRLSHLQS 114
+
+Query: 61  EEVHWLHLDMGVSNVREKFELAHPPEEWKYELRIR 95
+           EE+HWLH DMGVS+VREK+EL HP EEW+YELRIR
+Sbjct: 115 EEIHWLHPDMGVSHVREKYELNHPQEEWRYELRIR 149
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_W5MLW0 Protein tyrosine kinase 2ab n=1 Tax=Lepisosteus ...   160   3e-37
+UniRef90_W5LH73 Protein tyrosine kinase 2ab n=8 Tax=Characoidei ...   157   2e-36
+UniRef90_UPI000440AC53 focal adhesion kinase 1 isoform X5 n=3 Ta...   157   2e-36
+UniRef90_A0A1W4YGE9 focal adhesion kinase 1 isoform X5 n=18 Tax=...   157   2e-36
+UniRef90_UPI00076A2B2C focal adhesion kinase 1 isoform X1 n=5 Ta...   157   3e-36
+UniRef90_UPI000440CBE0 focal adhesion kinase 1 isoform X11 n=3 T...   157   3e-36
+UniRef90_A0A1W4Y6N3 focal adhesion kinase 1 isoform X1 n=5 Tax=S...   157   3e-36
+UniRef90_UPI00076AC0CB focal adhesion kinase 1 isoform X10 n=1 T...   157   3e-36
+UniRef90_UPI000803AE75 focal adhesion kinase 1-like isoform X8 n...   157   3e-36
+UniRef90_UPI0008033656 focal adhesion kinase 1-like isoform X1 n...   156   4e-36
+UniRef90_UPI00076A2E78 focal adhesion kinase 1 isoform X9 n=1 Ta...   156   4e-36
+UniRef90_UPI00072E8D51 LOW QUALITY PROTEIN: focal adhesion kinas...   156   6e-36
+UniRef90_UPI0009485127 focal adhesion kinase 1 isoform X1 n=5 Ta...   155   1e-35
+UniRef90_G3I7E2 Focal adhesion kinase 1 n=7 Tax=Euarchontoglires...   155   1e-35
+UniRef90_UPI00062B5901 focal adhesion kinase 1 n=1 Tax=Orcinus o...   154   1e-35
+UniRef90_A0A1S3WR85 focal adhesion kinase 1 isoform X6 n=10 Tax=...   154   2e-35
+UniRef90_A0A1U8CXX9 focal adhesion kinase 1 n=2 Tax=Mesocricetus...   154   2e-35
+UniRef90_UPI000981BFC3 focal adhesion kinase 1 isoform X7 n=3 Ta...   154   2e-35
+UniRef90_UPI0008148C7B focal adhesion kinase 1-like isoform X8 n...   154   2e-35
+UniRef90_UPI00080A2370 focal adhesion kinase 1 isoform X7 n=1 Ta...   154   2e-35
+UniRef90_P34152-7 Isoform 7 of Focal adhesion kinase 1 n=2 Tax=E...   154   2e-35
+UniRef90_UPI0005B909B2 focal adhesion kinase 1 n=1 Tax=Pteropus ...   154   2e-35
+UniRef90_UPI00054023F0 focal adhesion kinase 1 isoform X10 n=2 T...   154   2e-35
+UniRef90_UPI000A2B6A46 focal adhesion kinase 1 isoform X24 n=2 T...   154   2e-35
+UniRef90_UPI0007BA24CC focal adhesion kinase 1-like n=2 Tax=Sino...   154   2e-35
+UniRef90_UPI0007DC55F5 focal adhesion kinase 1 isoform r n=24 Ta...   154   2e-35
+UniRef90_UPI00065736D1 focal adhesion kinase 1 isoform X17 n=5 T...   154   3e-35
+UniRef90_P34152 Focal adhesion kinase 1 n=336 Tax=Amniota TaxID=...   154   3e-35
+UniRef90_A0A1S3FW28 focal adhesion kinase 1 n=4 Tax=Amniota TaxI...   154   3e-35
+UniRef90_F7C660 Protein tyrosine kinase 2 n=7 Tax=Boreoeutheria ...   154   3e-35
+UniRef90_P34152-4 Isoform 4 of Focal adhesion kinase 1 n=599 Tax...   154   3e-35
+UniRef90_UPI000A2B2DE2 focal adhesion kinase 1 isoform X16 n=5 T...   154   3e-35
+UniRef90_V9K9P6 PTK2 protein tyrosine kinase 2 n=8 Tax=Callorhin...   154   3e-35
+UniRef90_Q05397-7 Isoform 7 of Focal adhesion kinase 1 n=34 Tax=...   154   3e-35
+UniRef90_UPI0007DC5666 focal adhesion kinase 1 isoform u n=2 Tax...   154   3e-35
+UniRef90_UPI000A2B997D focal adhesion kinase 1 isoform X25 n=2 T...   154   3e-35
+UniRef90_UPI000387C30F focal adhesion kinase 1 isoform X6 n=6 Ta...   154   3e-35
+UniRef90_UPI000B445FF9 focal adhesion kinase 1 isoform X1 n=19 T...   153   3e-35
+UniRef90_UPI0005F46EBB focal adhesion kinase 1 n=1 Tax=Cercocebu...   153   3e-35
+UniRef90_F1QT14 Protein tyrosine kinase 2ab n=14 Tax=Cyprinidae ...   153   4e-35
+UniRef90_UPI000B44BA20 focal adhesion kinase 1 isoform X9 n=1 Ta...   153   4e-35
+UniRef90_UPI0007B962D3 focal adhesion kinase 1-like n=1 Tax=Sino...   153   4e-35
+UniRef90_A0A1S3Q299 focal adhesion kinase 1-like isoform X1 n=24...   153   4e-35
+UniRef90_UPI0006D90540 focal adhesion kinase 1 n=1 Tax=Latimeria...   153   4e-35
+UniRef90_UPI0007A6D75F focal adhesion kinase 1 isoform X1 n=2 Ta...   153   5e-35
+UniRef90_UPI00074FF87A focal adhesion kinase 1 n=1 Tax=Gekko jap...   153   5e-35
+UniRef90_UPI0007AD0EAA focal adhesion kinase 1-like isoform X1 n...   153   5e-35
+UniRef90_R7VT98 Focal adhesion kinase 1 (Fragment) n=1 Tax=Colum...   153   5e-35
+UniRef90_A0A0Q3PEV4 Focal adhesion kinase 1 isoform 1 n=1 Tax=Am...   152   5e-35
+UniRef90_UPI0007A6B8DC focal adhesion kinase 1 isoform X3 n=1 Ta...   152   5e-35
+UniRef90_P34152-5 Isoform 5 of Focal adhesion kinase 1 n=21 Tax=...   152   6e-35
+UniRef90_P34152-6 Isoform 6 of Focal adhesion kinase 1 n=12 Tax=...   152   6e-35
+UniRef90_UPI0005762666 focal adhesion kinase 1 isoform X1 n=6 Ta...   152   6e-35
+UniRef90_A0A091IJF5 Focal adhesion kinase 1 (Fragment) n=1 Tax=C...   152   7e-35
+UniRef90_UPI000B4F9CA9 focal adhesion kinase 1-like n=1 Tax=Onco...   152   7e-35
+UniRef90_Q98SN4 Focal adhesion kinase 1a n=6 Tax=Cyprinidae TaxI...   152   7e-35
+UniRef90_UPI00051246EE focal adhesion kinase 1 isoform X20 n=2 T...   152   8e-35
+UniRef90_UPI0007B8D904 focal adhesion kinase 1-like n=1 Tax=Sino...   152   8e-35
+UniRef90_UPI0009A0119C LOW QUALITY PROTEIN: focal adhesion kinas...   152   8e-35
+UniRef90_A0A1S3M4G8 focal adhesion kinase 1-like isoform X1 n=20...   152   1e-34
+UniRef90_A0A1S3M595 focal adhesion kinase 1-like isoform X13 n=8...   152   1e-34
+UniRef90_UPI000A368D7F focal adhesion kinase 1 n=1 Tax=Columba l...   152   1e-34
+UniRef90_UPI0004C021E4 focal adhesion kinase 1 n=2 Tax=Amniota T...   152   1e-34
+UniRef90_UPI00042C2E45 Focal adhesion kinase 1 n=5 Tax=Amniota T...   151   1e-34
+UniRef90_V8NDK2 Focal adhesion kinase 1 (Fragment) n=1 Tax=Ophio...   151   1e-34
+UniRef90_UPI000644336A focal adhesion kinase 1 isoform X5 n=1 Ta...   151   1e-34
+UniRef90_UPI0006444C67 focal adhesion kinase 1 isoform X1 n=2 Ta...   151   2e-34
+UniRef90_UPI00064427BB focal adhesion kinase 1 isoform X6 n=1 Ta...   151   2e-34
+UniRef90_Q7T2V4 Focal adhesion kinase 1b n=9 Tax=Cyprinidae TaxI...   151   3e-34
+UniRef90_UPI00071DDE28 protein-tyrosine kinase 2-beta-like n=1 T...   150   4e-34
+UniRef90_A0A091QFR9 Focal adhesion kinase 1 (Fragment) n=3 Tax=S...   150   4e-34
+UniRef90_F7CW18 Protein tyrosine kinase 2 n=33 Tax=Tetrapoda Tax...   149   5e-34
+UniRef90_UPI0004F0BE72 focal adhesion kinase 1 n=2 Tax=Neognatha...   149   5e-34
+UniRef90_UPI0007B8CE52 focal adhesion kinase 1-like isoform X1 n...   149   5e-34
+UniRef90_F7CW93 Protein tyrosine kinase 2 n=21 Tax=Tetrapoda Tax...   149   6e-34
+UniRef90_UPI0007F90A06 focal adhesion kinase 1 isoform X10 n=1 T...   148   1e-33
+UniRef90_UPI0007F9179D focal adhesion kinase 1 isoform X7 n=2 Ta...   148   1e-33
+UniRef90_UPI000B377C09 focal adhesion kinase 1 n=1 Tax=Fundulus ...   148   2e-33
+UniRef90_UPI0009DAB6D2 focal adhesion kinase 1 n=1 Tax=Oryzias l...   148   2e-33
+UniRef90_UPI000803AB6A protein-tyrosine kinase 2-beta-like isofo...   148   2e-33
+UniRef90_A0A1L8G031 Uncharacterized protein n=1 Tax=Xenopus laev...   147   2e-33
+UniRef90_UPI0007F93BA1 focal adhesion kinase 1 isoform X1 n=7 Ta...   147   2e-33
+UniRef90_UPI000802B334 protein-tyrosine kinase 2-beta-like isofo...   147   2e-33
+UniRef90_A0A146NAS3 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   147   2e-33
+UniRef90_A0A146Y6T5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   147   2e-33
+UniRef90_UPI0006442525 protein-tyrosine kinase 2-beta n=1 Tax=Cl...   147   2e-33
+UniRef90_A0A146Y6Q5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   147   3e-33
+UniRef90_H9G6F2 Protein tyrosine kinase 2 beta n=1 Tax=Anolis ca...   147   3e-33
+UniRef90_UPI0009A337A8 protein-tyrosine kinase 2-beta-like n=1 T...   147   3e-33
+UniRef90_H2LIZ5 Protein tyrosine kinase 2ab n=1 Tax=Oryzias lati...   147   4e-33
+UniRef90_A0A146Y8K5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   146   4e-33
+UniRef90_A0A1A8NVS5 Uncharacterized protein n=21 Tax=Percomorpha...   146   4e-33
+UniRef90_A0A1A8PGU4 Uncharacterized protein n=8 Tax=Percomorphac...   146   5e-33
+UniRef90_A0A1A8R493 Uncharacterized protein n=66 Tax=Percomorpha...   146   5e-33
+UniRef90_A0A146VNH1 Focal adhesion kinase 1 n=5 Tax=Fundulus het...   146   5e-33
+UniRef90_W5NL16 Protein tyrosine kinase 2 beta, b n=3 Tax=Lepiso...   146   5e-33
+UniRef90_UPI000905C92A protein-tyrosine kinase 2-beta n=1 Tax=Ap...   146   6e-33
+UniRef90_UPI0008165EA5 protein-tyrosine kinase 2-beta n=1 Tax=Co...   146   6e-33
+UniRef90_UPI00035A03D0 protein-tyrosine kinase 2-beta n=1 Tax=Fi...   146   6e-33
+UniRef90_UPI0009A332F4 focal adhesion kinase 1-like n=1 Tax=Rhin...   146   6e-33
+UniRef90_A0A0F7Z474 Protein-tyrosine kinase 2-beta n=2 Tax=Crota...   146   6e-33
+UniRef90_A0A091S430 Protein-tyrosine kinase 2-beta n=13 Tax=Neog...   146   6e-33
+UniRef90_UPI00073FEE4F protein-tyrosine kinase 2-beta isoform X3...   146   7e-33
+UniRef90_A0A087QU33 Protein-tyrosine kinase 2-beta n=1 Tax=Apten...   146   7e-33
+UniRef90_UPI00081373A1 focal adhesion kinase 1-like isoform X1 n...   146   7e-33
+UniRef90_A0A1V4J815 Protein-tyrosine kinase 2-beta isoform B n=1...   146   7e-33
+UniRef90_UPI0008144AA7 protein-tyrosine kinase 2-beta-like isofo...   146   7e-33
+UniRef90_J3SFJ4 Protein-tyrosine kinase 2-beta n=10 Tax=Bifurcat...   146   8e-33
+UniRef90_UPI000874A308 protein-tyrosine kinase 2-beta-like n=1 T...   146   8e-33
+UniRef90_A0A1V4J976 Protein-tyrosine kinase 2-beta isoform A n=1...   146   8e-33
+UniRef90_U3JM74 Protein tyrosine kinase 2 beta n=1 Tax=Ficedula ...   146   8e-33
+UniRef90_A0A1L8G5K3 Uncharacterized protein n=5 Tax=Xenopus TaxI...   145   9e-33
+UniRef90_UPI0007B8206A focal adhesion kinase 1 isoform X8 n=4 Ta...   145   9e-33
+UniRef90_A0A1S3QHQ0 focal adhesion kinase 1-like n=2 Tax=Salmo s...   145   9e-33
+UniRef90_UPI0006B3B7A3 focal adhesion kinase 1-like isoform X7 n...   145   9e-33
+UniRef90_UPI000521A143 protein-tyrosine kinase 2-beta n=1 Tax=Ch...   145   1e-32
+UniRef90_UPI0008147926 protein-tyrosine kinase 2-beta-like isofo...   145   1e-32
+UniRef90_I3JID5 Protein tyrosine kinase 2ab n=5 Tax=Percomorphac...   145   1e-32
+UniRef90_UPI000523D0FE protein-tyrosine kinase 2-beta n=2 Tax=Ne...   144   2e-32
+UniRef90_A0A146NYN2 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   144   2e-32
+UniRef90_Q0VC86 PTK2 protein tyrosine kinase 2 n=2 Tax=Laurasiat...   144   2e-32
+UniRef90_UPI0004952F62 focal adhesion kinase 1-like n=1 Tax=Steg...   144   2e-32
+UniRef90_A0A146Y8F9 Focal adhesion kinase 1 n=2 Tax=Cyprinodonti...   144   2e-32
+UniRef90_UPI00080387AE focal adhesion kinase 1 isoform X1 n=5 Ta...   144   2e-32
+UniRef90_UPI00097D9BA8 protein-tyrosine kinase 2-beta-like isofo...   144   2e-32
+UniRef90_UPI0007AC59AF protein-tyrosine kinase 2-beta isoform X1...   144   2e-32
+UniRef90_UPI00084D53B0 protein-tyrosine kinase 2-beta-like isofo...   144   2e-32
+UniRef90_Q14289-2 Isoform 2 of Protein-tyrosine kinase 2-beta n=...   144   2e-32
+UniRef90_UPI0005B970F6 protein-tyrosine kinase 2-beta n=1 Tax=Pt...   144   3e-32
+UniRef90_UPI000762B900 protein-tyrosine kinase 2-beta isoform X3...   144   3e-32
+UniRef90_H3CW78 Protein tyrosine kinase 2ab n=2 Tax=Tetraodon ni...   144   3e-32
+UniRef90_UPI0007AC6044 protein-tyrosine kinase 2-beta isoform X3...   144   3e-32
+UniRef90_A0A1W4YQR2 protein-tyrosine kinase 2-beta-like isoform ...   144   3e-32
+UniRef90_Q14289 Protein-tyrosine kinase 2-beta n=149 Tax=Eutheri...   143   3e-32
+UniRef90_F6Z395 Protein tyrosine kinase 2 beta n=2 Tax=Monodelph...   143   3e-32
+UniRef90_H2TU31 Protein tyrosine kinase 2ab n=66 Tax=Percomorpha...   143   4e-32
+UniRef90_A0A1D5RKE2 Protein tyrosine kinase 2 beta n=6 Tax=Euthe...   143   4e-32
+UniRef90_UPI00042BFC94 LOW QUALITY PROTEIN: protein-tyrosine kin...   143   4e-32
+UniRef90_UPI00051E3165 protein-tyrosine kinase 2-beta n=1 Tax=St...   143   4e-32
+UniRef90_A0A1W4YGS6 protein-tyrosine kinase 2-beta-like isoform ...   143   4e-32
+UniRef90_UPI000901921F focal adhesion kinase 1-like isoform X7 n...   143   4e-32
+UniRef90_UPI0004BDD6B8 protein-tyrosine kinase 2-beta n=1 Tax=Eq...   143   4e-32
+UniRef90_UPI0004958A5A protein-tyrosine kinase 2-beta-like n=1 T...   143   5e-32
+UniRef90_UPI000901CB43 focal adhesion kinase 1-like isoform X1 n...   143   5e-32
+UniRef90_H2TU33 Protein tyrosine kinase 2ab n=4 Tax=Percomorphac...   143   5e-32
+UniRef90_UPI000900B889 focal adhesion kinase 1-like isoform X8 n...   143   5e-32
+UniRef90_A0A0P7YF56 Protein-tyrosine kinase 2-beta-like n=1 Tax=...   143   5e-32
+UniRef90_Q7T2P8 Proline-rich tyrosine kinase 2 n=9 Tax=Cyprinida...   143   5e-32
+UniRef90_A0A091E139 Protein-tyrosine kinase 2-beta n=1 Tax=Fukom...   143   5e-32
+UniRef90_Q8C9L4 Uncharacterized protein n=3 Tax=Euarchontoglires...   143   5e-32
+UniRef90_UPI0006B2F16D protein-tyrosine kinase 2-beta-like n=1 T...   143   5e-32
+UniRef90_S9XF48 Protein-tyrosine kinase 2-beta isoform 1 n=1 Tax...   142   6e-32
+UniRef90_A3KNV4 Ptk2bb protein (Fragment) n=2 Tax=Cyprinidae Tax...   142   6e-32
+UniRef90_A0A1W5AYV2 focal adhesion kinase 1-like isoform X1 n=10...   142   6e-32
+UniRef90_UPI0008468962 protein-tyrosine kinase 2-beta n=1 Tax=Ma...   142   6e-32
+UniRef90_M3ZQJ6 Protein tyrosine kinase 2 beta, a n=7 Tax=Cyprin...   142   6e-32
+UniRef90_UPI0006B22CB2 protein-tyrosine kinase 2-beta-like n=1 T...   142   6e-32
+UniRef90_UPI00065740BD protein-tyrosine kinase 2-beta isoform X2...   142   7e-32
+UniRef90_A0A061INV5 Protein-tyrosine kinase 2-beta isoform 1 n=3...   142   7e-32
+UniRef90_UPI0006B32C9E protein-tyrosine kinase 2-beta isoform X1...   142   7e-32
+UniRef90_A0A0Q3MEP3 Protein-tyrosine kinase 2-beta n=1 Tax=Amazo...   142   9e-32
+UniRef90_UPI00054E4FB6 focal adhesion kinase 1 isoform X1 n=1 Ta...   142   9e-32
+UniRef90_UPI0006B30AE1 protein-tyrosine kinase 2-beta isoform X2...   142   1e-31
+UniRef90_UPI0006B1D2E9 protein-tyrosine kinase 2-beta isoform X8...   142   1e-31
+UniRef90_K7G0E4 Protein tyrosine kinase 2 beta n=5 Tax=Cryptodir...   142   1e-31
+UniRef90_UPI00074259F2 protein-tyrosine kinase 2-beta-like isofo...   142   1e-31
+UniRef90_E1BTC3 Protein tyrosine kinase 2 beta n=34 Tax=Aves Tax...   142   1e-31
+UniRef90_UPI0004C1DFC1 protein-tyrosine kinase 2-beta n=1 Tax=Ca...   142   1e-31
+UniRef90_U6DH79 PTK2B protein tyrosine kinase 2 beta (Fragment) ...   142   1e-31
+UniRef90_A0A151P4J0 Uncharacterized protein n=3 Tax=Crocodylia T...   141   1e-31
+UniRef90_A0A146XTS3 Tyrosine kinase 2-beta n=1 Tax=Fundulus hete...   141   1e-31
+UniRef90_UPI000552B5BC protein-tyrosine kinase 2-beta isoform X1...   141   1e-31
+UniRef90_A0A1U8DNY3 protein-tyrosine kinase 2-beta isoform X1 n=...   141   1e-31
+UniRef90_UPI000551F19D protein-tyrosine kinase 2-beta isoform X2...   141   1e-31
+UniRef90_UPI00097D33D1 protein-tyrosine kinase 2-beta-like n=1 T...   141   1e-31
+UniRef90_UPI000B4C8D86 protein-tyrosine kinase 2-beta n=1 Tax=Lo...   141   1e-31
+UniRef90_UPI0003EBD8AA protein-tyrosine kinase 2-beta-like n=1 T...   141   1e-31
+UniRef90_UPI00094E82DB protein-tyrosine kinase 2-beta-like isofo...   141   1e-31
+UniRef90_A0A1A8KAB8 Uncharacterized protein (Fragment) n=10 Tax=...   141   1e-31
+UniRef90_UPI0007B91975 protein-tyrosine kinase 2-beta-like n=1 T...   141   1e-31
+UniRef90_UPI00090763DB protein-tyrosine kinase 2-beta isoform X5...   141   1e-31
+UniRef90_A0A146XYJ4 Tyrosine kinase 2-beta n=3 Tax=Fundulus hete...   141   2e-31
+UniRef90_UPI0009008B0E protein-tyrosine kinase 2-beta-like n=1 T...   141   2e-31
+UniRef90_UPI00077D526E protein-tyrosine kinase 2-beta-like isofo...   141   2e-31
+UniRef90_A0A147AQY6 Tyrosine kinase 2-beta n=2 Tax=Fundulus hete...   141   2e-31
+UniRef90_UPI0005ACD4B3 protein-tyrosine kinase 2-beta isoform X3...   141   2e-31
+UniRef90_UPI0003940B37 protein-tyrosine kinase 2-beta isoform X1...   141   2e-31
+UniRef90_UPI0003EBC838 focal adhesion kinase 1-like n=1 Tax=Neol...   141   3e-31
+UniRef90_H2V5D8 Protein tyrosine kinase 2 beta, a n=1 Tax=Takifu...   141   3e-31
+UniRef90_A0A1A8B3H0 Name:protein tyrosine kinase 2 beta, a n=5 T...   141   3e-31
+UniRef90_UPI000B4F6BB9 protein-tyrosine kinase 2-beta-like n=1 T...   141   3e-31
+UniRef90_UPI0005D24D5D protein-tyrosine kinase 2-beta-like n=1 T...   141   3e-31
+UniRef90_A0A146P628 Uncharacterized protein n=3 Tax=Fundulus het...   140   3e-31
+UniRef90_W5JZQ4 Protein tyrosine kinase 2 beta, a n=2 Tax=Astyan...   140   3e-31
+UniRef90_M4AM58 Protein tyrosine kinase 2ab n=15 Tax=Cyprinodont...   140   3e-31
+UniRef90_G1PGQ8 Protein tyrosine kinase 2 beta n=14 Tax=Bilateri...   140   3e-31
+UniRef90_UPI00077D6C7C protein-tyrosine kinase 2-beta-like isofo...   140   3e-31
+UniRef90_UPI00064321D0 LOW QUALITY PROTEIN: protein-tyrosine kin...   140   3e-31
+UniRef90_UPI0006D8E602 protein-tyrosine kinase 2-beta-like n=1 T...   140   3e-31
+UniRef90_UPI0005ABC58B protein-tyrosine kinase 2-beta isoform X1...   140   3e-31
+UniRef90_UPI0008033437 protein-tyrosine kinase 2-beta-like isofo...   140   3e-31
+UniRef90_G3P8W6 Protein tyrosine kinase 2 beta, b n=1 Tax=Gaster...   140   3e-31
+UniRef90_UPI0009B48C65 protein-tyrosine kinase 2-beta-like n=1 T...   140   3e-31
+UniRef90_UPI000812E964 protein-tyrosine kinase 2-beta isoform X1...   140   4e-31
+UniRef90_A0A218UD32 Protein-tyrosine kinase 2-beta n=1 Tax=Lonch...   140   4e-31
+UniRef90_A0A1A8G1H8 Name:protein tyrosine kinase 2 beta, a (Frag...   140   4e-31
+UniRef90_UPI0009B3B387 protein-tyrosine kinase 2-beta-like isofo...   140   4e-31
+UniRef90_A0A096LYM5 Uncharacterized protein n=3 Tax=Poecilia Tax...   140   4e-31
+UniRef90_A0A1D5PGU1 Protein tyrosine kinase 2 beta n=2 Tax=Neogn...   140   4e-31
+UniRef90_UPI00051F0C87 protein-tyrosine kinase 2-beta n=1 Tax=Eg...   140   4e-31
+UniRef90_UPI0008543A07 protein-tyrosine kinase 2-beta-like n=1 T...   140   5e-31
+UniRef90_UPI000440F1D9 protein-tyrosine kinase 2-beta isoform X3...   139   5e-31
+UniRef90_UPI000900BAE9 protein-tyrosine kinase 2-beta n=1 Tax=La...   139   5e-31
+UniRef90_A0A0F8BK25 Focal adhesion kinase 1 n=2 Tax=Larimichthys...   139   5e-31
+UniRef90_UPI000A1C5F73 LOW QUALITY PROTEIN: protein-tyrosine kin...   139   5e-31
+UniRef90_UPI0007DC9CDB protein-tyrosine kinase 2-beta-like n=1 T...   139   6e-31
+UniRef90_UPI000A1C7115 protein-tyrosine kinase 2-beta n=1 Tax=Bo...   139   6e-31
+UniRef90_G3PPR1 Protein tyrosine kinase 2 beta, a n=1 Tax=Gaster...   139   6e-31
+UniRef90_A0A146VNE5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   139   6e-31
+UniRef90_A0A087XT17 Protein tyrosine kinase 2 beta, b n=10 Tax=C...   139   7e-31
+UniRef90_UPI0007B79F8D protein-tyrosine kinase 2-beta-like isofo...   139   7e-31
+UniRef90_UPI0009B35C6D protein-tyrosine kinase 2-beta n=1 Tax=La...   139   7e-31
+UniRef90_Q4SJ18 Chromosome 21 SCAF14577, whole genome shotgun se...   139   7e-31
+UniRef90_A0A146ZU95 Focal adhesion kinase 1 n=8 Tax=Cyprinodonto...   139   7e-31
+UniRef90_H2T8R1 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...   139   7e-31
+UniRef90_UPI0006619996 protein-tyrosine kinase 2-beta n=1 Tax=Es...   139   7e-31
+UniRef90_H2T0L2 Protein tyrosine kinase 2ab n=15 Tax=Percomorpha...   139   7e-31
+UniRef90_UPI0009DAB407 protein-tyrosine kinase 2-beta-like isofo...   139   8e-31
+UniRef90_UPI0003EC5977 protein-tyrosine kinase 2-beta-like n=1 T...   139   8e-31
+UniRef90_H2T0L5 Protein tyrosine kinase 2ab n=1 Tax=Takifugu rub...   139   8e-31
+UniRef90_A0A1S3M7G7 protein-tyrosine kinase 2-beta n=1 Tax=Salmo...   139   8e-31
+UniRef90_I3KDA3 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   139   8e-31
+UniRef90_UPI0008FA61F6 protein-tyrosine kinase 2-beta-like n=1 T...   139   8e-31
+UniRef90_H2T0L0 Protein tyrosine kinase 2ab n=86 Tax=Percomorpha...   139   8e-31
+UniRef90_UPI0009B33809 focal adhesion kinase 1-like isoform X1 n...   139   1e-30
+UniRef90_H2T8Q6 Protein tyrosine kinase 2 beta, b n=5 Tax=Takifu...   139   1e-30
+UniRef90_H2T0L1 Protein tyrosine kinase 2ab n=5 Tax=Takifugu rub...   139   1e-30
+UniRef90_UPI0007B8B95F focal adhesion kinase 1-like n=2 Tax=Poec...   139   1e-30
+UniRef90_H2T0L3 Protein tyrosine kinase 2ab n=25 Tax=Percomorpha...   139   1e-30
+UniRef90_I3KDA5 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   139   1e-30
+UniRef90_UPI000644498F protein-tyrosine kinase 2-beta-like n=1 T...   139   1e-30
+UniRef90_S7MU75 Protein-tyrosine kinase 2-beta n=1 Tax=Myotis br...   138   1e-30
+UniRef90_M3ZPG9 Protein tyrosine kinase 2 beta, b n=3 Tax=Poecil...   138   1e-30
+UniRef90_H2T8Q8 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...   138   1e-30
+UniRef90_UPI00072E66AD focal adhesion kinase 1-like isoform X3 n...   138   1e-30
+UniRef90_A0A1S3RLL1 protein-tyrosine kinase 2-beta-like n=1 Tax=...   138   1e-30
+UniRef90_UPI00074261E6 focal adhesion kinase 1-like isoform X1 n...   138   1e-30
+UniRef90_A0A146VNL6 Focal adhesion kinase 1 n=2 Tax=Fundulus het...   138   1e-30
+UniRef90_A0A1W5A6F7 protein-tyrosine kinase 2-beta-like n=1 Tax=...   138   1e-30
+UniRef90_A0A096M506 Protein tyrosine kinase 2ab n=1 Tax=Poecilia...   138   1e-30
+UniRef90_UPI0007AC7F87 protein-tyrosine kinase 2-beta-like isofo...   138   1e-30
+UniRef90_UPI000904EDEA protein-tyrosine kinase 2-beta isoform X3...   138   1e-30
+UniRef90_I3KDQ5 Protein tyrosine kinase 2 beta, b n=7 Tax=Pseudo...   138   1e-30
+UniRef90_A0A0S7IK24 FAK2 (Fragment) n=2 Tax=Poeciliopsis prolifi...   138   1e-30
+UniRef90_I3KDA4 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   138   2e-30
+UniRef90_UPI00072E4A9B focal adhesion kinase 1-like isoform X7 n...   137   2e-30
+UniRef90_UPI0007F8DAAB protein-tyrosine kinase 2-beta-like isofo...   137   2e-30
+UniRef90_A0A1A8M718 Uncharacterized protein n=2 Tax=Nothobranchi...   137   2e-30
+UniRef90_K7DYJ3 Protein tyrosine kinase 2 beta, a n=2 Tax=Danio ...   137   3e-30
+UniRef90_UPI0008740149 protein-tyrosine kinase 2-beta-like n=2 T...   137   3e-30
+UniRef90_L5LTI7 Protein-tyrosine kinase 2-beta n=3 Tax=Myotis Ta...   137   4e-30
+UniRef90_A0A1A8JXA3 Uncharacterized protein n=5 Tax=Nothobranchi...   137   4e-30
+UniRef90_A0A1A8I3Q0 Uncharacterized protein (Fragment) n=1 Tax=N...   135   8e-30
+UniRef90_H2LYR2 Protein tyrosine kinase 2 beta, b n=2 Tax=Oryzia...   135   8e-30
+UniRef90_UPI00052EA221 protein-tyrosine kinase 2-beta-like n=1 T...   135   9e-30
+UniRef90_H3DFZ9 Protein tyrosine kinase 2 beta, b n=2 Tax=Tetrao...   135   1e-29
+UniRef90_Q4RR57 Chromosome 14 SCAF15003, whole genome shotgun se...   135   1e-29
+UniRef90_UPI0008146208 protein-tyrosine kinase 2-beta-like isofo...   135   1e-29
+UniRef90_A0A1S3SBF4 protein-tyrosine kinase 2-beta-like n=1 Tax=...   135   1e-29
+UniRef90_UPI000A1C67B0 focal adhesion kinase 1-like n=1 Tax=Bole...   134   2e-29
+UniRef90_UPI00071165DE focal adhesion kinase 1 isoform X5 n=1 Ta...   134   2e-29
+UniRef90_UPI000718FE96 focal adhesion kinase 1 isoform X1 n=10 T...   134   2e-29
+UniRef90_UPI0005BAC55E focal adhesion kinase 1 isoform X5 n=1 Ta...   134   2e-29
+UniRef90_UPI0004CD25C3 uncharacterized protein LOC103577529 n=1 ...   134   3e-29
+UniRef90_A0A0J7LAY4 Focal adhesion kinase 1 n=1 Tax=Lasius niger...   134   3e-29
+UniRef90_L5KLL4 Focal adhesion kinase 1 n=1 Tax=Pteropus alecto ...   134   3e-29
+UniRef90_UPI000771D904 uncharacterized protein LOC107273475 isof...   134   3e-29
+UniRef90_UPI000771B1D2 uncharacterized protein LOC107273475 isof...   133   3e-29
+UniRef90_E9JCV7 Uncharacterized protein (Fragment) n=11 Tax=Form...   133   3e-29
+UniRef90_G3NIV8 Uncharacterized protein n=1 Tax=Gasterosteus acu...   133   3e-29
+UniRef90_A0A067R8A5 Focal adhesion kinase 1 n=1 Tax=Zootermopsis...   133   4e-29
+UniRef90_E2AKA8 Focal adhesion kinase 1 n=9 Tax=Formicidae TaxID...   133   4e-29
+UniRef90_UPI0009949FB5 focal adhesion kinase 1 isoform X1 n=2 Ta...   133   4e-29
+UniRef90_UPI00046D517C LOW QUALITY PROTEIN: focal adhesion kinas...   133   4e-29
+UniRef90_UPI000A0EDCC8 focal adhesion kinase 1 isoform X1 n=3 Ta...   133   4e-29
+UniRef90_UPI0008524021 focal adhesion kinase 1 n=1 Tax=Cyphomyrm...   133   4e-29
+UniRef90_A0A0L7RDW5 Focal adhesion kinase 1 n=3 Tax=Apidae TaxID...   133   4e-29
+UniRef90_A0A158NYB0 Uncharacterized protein n=5 Tax=Attini TaxID...   133   5e-29
+UniRef90_UPI000840806E focal adhesion kinase 1 isoform X1 n=2 Ta...   133   5e-29
+UniRef90_UPI000580ECFF LOW QUALITY PROTEIN: uncharacterized prot...   133   5e-29
+UniRef90_W5LJ64 Protein tyrosine kinase 2 beta, b n=1 Tax=Astyan...   133   5e-29
+UniRef90_UPI00059588A0 focal adhesion kinase 1 n=2 Tax=Myrmicina...   133   6e-29
+UniRef90_UPI0006C9E2CF focal adhesion kinase 1 isoform X1 n=5 Ta...   132   7e-29
+UniRef90_A0A151WIK7 Focal adhesion kinase 1 n=2 Tax=Trachymyrmex...   132   7e-29
+UniRef90_UPI0005D3ED82 uncharacterized protein LOC105433628 n=1 ...   132   8e-29
+UniRef90_UPI000614D1D4 uncharacterized protein LOC100876637 isof...   132   1e-28
+UniRef90_A0A088AN13 Uncharacterized protein n=19 Tax=Apidae TaxI...   132   1e-28
+UniRef90_UPI00020648A6 uncharacterized protein LOC724973 isoform...   132   1e-28
+UniRef90_UPI0005CE86FE focal adhesion kinase 1 n=1 Tax=Ceratosol...   132   1e-28
+UniRef90_UPI0007385162 focal adhesion kinase 1 isoform X1 n=4 Ta...   131   1e-28
+UniRef90_UPI00076F97C4 focal adhesion kinase 1 isoform X1 n=1 Ta...   131   1e-28
+UniRef90_UPI0006C9D952 focal adhesion kinase 1 isoform X1 n=1 Ta...   131   2e-28
+UniRef90_UPI00054F69A3 protein-tyrosine kinase 2-beta-like n=1 T...   131   2e-28
+UniRef90_A0A1W4WMU1 LOW QUALITY PROTEIN: focal adhesion kinase 1...   131   2e-28
+UniRef90_UPI0007114031 focal adhesion kinase 1 isoform X1 n=4 Ta...   130   2e-28
+UniRef90_UPI0009B485A9 LOW QUALITY PROTEIN: protein-tyrosine kin...   130   3e-28
+UniRef90_UPI0005908BE0 LOW QUALITY PROTEIN: uncharacterized prot...   130   3e-28
+UniRef90_A0A154PBB2 Focal adhesion kinase 1 n=2 Tax=Dufourea nov...   130   3e-28
+UniRef90_A0A151IX42 Focal adhesion kinase 1 n=1 Tax=Trachymyrmex...   130   3e-28
+UniRef90_UPI0006254D47 focal adhesion kinase 1 isoform X1 n=2 Ta...   129   5e-28
+UniRef90_UPI00073828EE focal adhesion kinase 1 isoform X5 n=1 Ta...   129   5e-28
+UniRef90_UPI000771D8B7 focal adhesion kinase 1 isoform X8 n=2 Ta...   129   6e-28
+UniRef90_UPI0006C94501 focal adhesion kinase 1 isoform X2 n=1 Ta...   129   6e-28
+UniRef90_UPI00064337C8 focal adhesion kinase 1-like n=1 Tax=Cond...   129   7e-28
+UniRef90_UPI0006C985BA focal adhesion kinase 1 isoform X6 n=2 Ta...   129   8e-28
+UniRef90_UPI000575EABA protein-tyrosine kinase 2-beta isoform X1...   129   8e-28
+UniRef90_H3DAJ0 Protein tyrosine kinase 2 beta, a n=2 Tax=Tetrao...   129   8e-28
+UniRef90_A0A0C9RQQ4 PTK2_0 protein (Fragment) n=1 Tax=Fopius ari...   129   8e-28
+UniRef90_R7TYU7 Uncharacterized protein n=1 Tax=Capitella teleta...   128   1e-27
+UniRef90_A0A0C9RR47 PTK2_1 protein (Fragment) n=8 Tax=Fopius ari...   128   1e-27
+UniRef90_UPI00076FAFCA focal adhesion kinase 1 isoform X2 n=2 Ta...   128   1e-27
+UniRef90_UPI0007D89695 focal adhesion kinase 1 isoform X7 n=6 Ta...   128   2e-27
+UniRef90_UPI0006236BC4 LOW QUALITY PROTEIN: uncharacterized prot...   128   2e-27
+UniRef90_UPI0007DC97F4 protein-tyrosine kinase 2-beta-like n=1 T...   127   2e-27
+UniRef90_UPI0003DF792F focal adhesion kinase 1-like n=1 Tax=Apis...   127   2e-27
+UniRef90_A0A1Y1N5Z8 Uncharacterized protein n=3 Tax=Photinus pyr...   127   3e-27
+UniRef90_A0A1S3GYK4 focal adhesion kinase 1-like n=1 Tax=Lingula...   127   3e-27
+UniRef90_V9KBT7 Protein-tyrosine kinase 2-beta n=2 Tax=Callorhin...   126   5e-27
+UniRef90_E2BTJ2 Focal adhesion kinase 1 n=1 Tax=Harpegnathos sal...   126   6e-27
+UniRef90_A0A0F8AQ78 Protein-tyrosine kinase 2-beta n=1 Tax=Larim...   125   7e-27
+UniRef90_D6WQS4 Focal adhesion kinase 1-like Protein n=9 Tax=Tri...   125   9e-27
+UniRef90_A0A1B6E257 Uncharacterized protein n=1 Tax=Clastoptera ...   125   1e-26
+UniRef90_UPI00077DCB0F focal adhesion kinase 1 isoform X8 n=1 Ta...   125   1e-26
+UniRef90_A0A1B6D3T2 Uncharacterized protein n=2 Tax=Clastoptera ...   125   1e-26
+UniRef90_A0A1B6DTP2 Uncharacterized protein (Fragment) n=1 Tax=C...   125   2e-26
+UniRef90_UPI0008FA704B focal adhesion kinase 1-like n=1 Tax=Cypr...   124   2e-26
+UniRef90_UPI0003EC2ADF focal adhesion kinase 1-like n=1 Tax=Neol...   124   3e-26
+UniRef90_A0A1S3J825 focal adhesion kinase 1-like n=1 Tax=Lingula...   122   1e-25
+UniRef90_A0A210R109 Focal adhesion kinase 1 n=5 Tax=Mizuhopecten...   122   1e-25
+UniRef90_A0A0M8ZYC2 Focal adhesion kinase 1 n=1 Tax=Melipona qua...   122   1e-25
+UniRef90_UPI000B4F12C2 focal adhesion kinase 1-like isoform X1 n...   121   2e-25
+UniRef90_UPI000874A160 focal adhesion kinase 1 isoform X1 n=1 Ta...   120   3e-25
+UniRef90_UPI00096B3C3F focal adhesion kinase 1 isoform X1 n=8 Ta...   120   3e-25
+UniRef90_V3ZMB0 Uncharacterized protein n=1 Tax=Lottia gigantea ...   120   4e-25
+UniRef90_UPI000873BCCB focal adhesion kinase 1 isoform X5 n=1 Ta...   120   4e-25
+UniRef90_UPI000874CBFF focal adhesion kinase 1 isoform X2 n=5 Ta...   120   4e-25
+UniRef90_K1PKI5 Focal adhesion kinase 1 n=8 Tax=Crassostrea giga...   119   5e-25
+UniRef90_UPI0005C368A2 focal adhesion kinase 1 isoform X1 n=7 Ta...   119   6e-25
+UniRef90_UPI0009750FE7 focal adhesion kinase 1 isoform X10 n=1 T...   119   6e-25
+UniRef90_A0A0S7FDT4 FAK1 n=4 Tax=Percomorphaceae TaxID=1489872 R...   119   9e-25
+UniRef90_UPI00071DAE22 focal adhesion kinase 1-like isoform X1 n...   118   1e-24
+UniRef90_Q7Z1D3 Focal adhesion kinase n=1 Tax=Lytechinus variega...   118   1e-24
+UniRef90_UPI000947A100 focal adhesion kinase 1-like isoform X9 n...   117   2e-24
+UniRef90_W4YV37 Uncharacterized protein n=1 Tax=Strongylocentrot...   117   2e-24
+UniRef90_UPI00083C825E focal adhesion kinase 1 isoform X1 n=3 Ta...   117   3e-24
+UniRef90_T1IYC0 Uncharacterized protein n=1 Tax=Strigamia mariti...   117   3e-24
+UniRef90_A0A0L8GY73 Uncharacterized protein n=3 Tax=Octopus bima...   117   3e-24
+UniRef90_UPI00083C691F focal adhesion kinase 1 isoform X4 n=2 Ta...   116   5e-24
+UniRef90_UPI0005EF976A focal adhesion kinase 1-like n=1 Tax=Stro...   116   6e-24
+UniRef90_UPI00063C8474 LOW QUALITY PROTEIN: protein-tyrosine kin...   116   6e-24
+UniRef90_C3Y1A6 Uncharacterized protein (Fragment) n=9 Tax=Branc...   115   8e-24
+UniRef90_A0A1B6IZC4 Uncharacterized protein (Fragment) n=1 Tax=H...   115   1e-23
+UniRef90_UPI0003AF811C protein-tyrosine kinase 2-beta-like n=1 T...   115   1e-23
+UniRef90_UPI0006B07803 focal adhesion kinase 1-like n=1 Tax=Limu...   114   2e-23
+UniRef90_A0A0P7UI84 Protein-tyrosine kinase 2-beta-like n=1 Tax=...   114   3e-23
+UniRef90_A0A1B6GEL6 Uncharacterized protein (Fragment) n=1 Tax=C...   113   6e-23
+UniRef90_A0A1B6LWH8 Uncharacterized protein (Fragment) n=2 Tax=G...   112   7e-23
+UniRef90_A0A1A7ZZK5 Protein tyrosine kinase 2 beta, b (Fragment)...   112   1e-22
+UniRef90_A0A1A6GQW4 Uncharacterized protein n=1 Tax=Neotoma lepi...   111   1e-22
+UniRef90_A0A1A8Q6D7 Name:protein tyrosine kinase 2 beta, a (Frag...   110   4e-22
+UniRef90_V8P4C4 Protein-tyrosine kinase 2-beta (Fragment) n=1 Ta...   110   4e-22
+UniRef90_A0A0T6BD26 FERM domain containing protein (Fragment) n=...   108   2e-21
+UniRef90_A0A0R4ICT0 Protein tyrosine kinase 2aa n=1 Tax=Danio re...   106   5e-21
+UniRef90_G5C8Y8 Focal adhesion kinase 1 n=1 Tax=Heterocephalus g...   106   7e-21
+UniRef90_A0A069DZP2 Putative focal adhesion kinase (Fragment) n=...   105   9e-21
+UniRef90_UPI0003F0EEBD focal adhesion kinase 1-like n=1 Tax=Sacc...   105   1e-20
+UniRef90_W5KAN2 Protein tyrosine kinase 2 n=1 Tax=Astyanax mexic...   105   1e-20
+UniRef90_A0A0B7BAE7 Uncharacterized protein n=2 Tax=Arion vulgar...   105   2e-20
+UniRef90_A0A0P7ZGT0 Uncharacterized protein (Fragment) n=1 Tax=S...   105   2e-20
+UniRef90_A0A0B7B9S6 Uncharacterized protein n=1 Tax=Arion vulgar...   104   2e-20
+UniRef90_UPI00046B89CD focal adhesion kinase 1 isoform X1 n=8 Ta...   104   2e-20
+UniRef90_N6TQ25 Uncharacterized protein (Fragment) n=1 Tax=Dendr...   104   2e-20
+UniRef90_J9JPR2 Uncharacterized protein n=3 Tax=Macrosiphini Tax...   104   3e-20
+UniRef90_U4U150 Uncharacterized protein (Fragment) n=2 Tax=Dendr...   104   3e-20
+UniRef90_B9UPG7 Focal adhesion kinase n=1 Tax=Marsupenaeus japon...   103   4e-20
+UniRef90_F6WUP4 Uncharacterized protein n=1 Tax=Ciona intestinal...   103   6e-20
+UniRef90_UPI0006743F31 focal adhesion kinase 1-like isoform X5 n...   103   6e-20
+UniRef90_A0A1W5BB02 focal adhesion kinase 1 n=1 Tax=Ciona intest...   103   6e-20
+UniRef90_T1I867 Tyrosine-protein kinase Fak56D (Fragment) n=1 Ta...   102   6e-20
+UniRef90_UPI0006744FC1 focal adhesion kinase 1-like isoform X1 n...   102   7e-20
+UniRef90_UPI00094EEAE3 protein-tyrosine kinase 2-beta n=1 Tax=Hi...   102   8e-20
+UniRef90_UPI000719C443 focal adhesion kinase 1-like n=1 Tax=Pria...   102   1e-19
+UniRef90_UPI0008708D78 LOW QUALITY PROTEIN: focal adhesion kinas...   101   1e-19
+UniRef90_A0A094K9V8 Focal adhesion kinase 1 (Fragment) n=3 Tax=N...   101   2e-19
+UniRef90_L7MI74 Uncharacterized protein (Fragment) n=1 Tax=Rhipi...   101   2e-19
+UniRef90_A0A131YUV2 Focal adhesion kinase 1 n=3 Tax=Ixodidae Tax...   101   2e-19
+UniRef90_UPI0005280664 focal adhesion kinase 1 n=2 Tax=Amniota T...   101   2e-19
+UniRef90_H2YTK3 Uncharacterized protein n=1 Tax=Ciona savignyi T...   100   2e-19
+UniRef90_G1S2N7 Protein tyrosine kinase 2 beta n=1 Tax=Nomascus ...   100   4e-19
+UniRef90_G1NJW7 Uncharacterized protein n=1 Tax=Meleagris gallop...   100   4e-19
+UniRef90_G1S2N5 Protein tyrosine kinase 2 beta n=1 Tax=Nomascus ...   100   5e-19
+UniRef90_A0A0A9XYV5 Focal adhesion kinase 1 n=4 Tax=Lygus hesper...   100   6e-19
+UniRef90_UPI0008F9DBB0 focal adhesion kinase 1 isoform X1 n=2 Ta...    99   1e-18
+UniRef90_UPI00052929F3 focal adhesion kinase 1-like n=1 Tax=Mesi...    99   1e-18
+UniRef90_A0A1V9XHT5 Focal adhesion kinase 1-like n=1 Tax=Tropila...    99   1e-18
+UniRef90_UPI00062A6A1D protein-tyrosine kinase 2-beta-like n=1 T...    97   5e-18
+UniRef90_A0A212CMD3 PTK2B (Fragment) n=1 Tax=Cervus elaphus hipp...    96   6e-18
+UniRef90_UPI000522DCA2 protein-tyrosine kinase 2-beta-like n=1 T...    94   4e-17
+UniRef90_A0A091K102 Protein-tyrosine kinase 2-beta (Fragment) n=...    92   9e-17
+UniRef90_A0A0A0A169 Protein-tyrosine kinase 2-beta (Fragment) n=...    92   1e-16
+UniRef90_H2T8R0 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...    92   1e-16
+UniRef90_H2T8R3 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...    92   2e-16
+UniRef90_T1E1S3 Putative focal adhesion protein kinase n=1 Tax=C...    90   5e-16
+UniRef90_UPI000A2BFD98 focal adhesion kinase 1 n=1 Tax=Parasteat...    90   5e-16
+UniRef90_UPI000A2A5583 focal adhesion kinase 1-like isoform X1 n...    90   5e-16
+UniRef90_UPI000A2A51C0 focal adhesion kinase 1-like isoform X3 n...    90   5e-16
+UniRef90_H2V5E0 Protein tyrosine kinase 2 beta, a n=2 Tax=Takifu...    89   7e-16
+UniRef90_UPI000B4E904D PHD finger protein 20-like protein 1 n=1 ...    88   2e-15
+UniRef90_A0A212FAB3 Focal adhesion kinase 1 n=2 Tax=Danaus plexi...    88   2e-15
+UniRef90_G3UCQ3 Protein tyrosine kinase 2 n=1 Tax=Loxodonta afri...    87   3e-15
+UniRef90_UPI00077F9E73 focal adhesion kinase 1 n=1 Tax=Parasteat...    87   3e-15
+UniRef90_H2LYR3 Protein tyrosine kinase 2 beta, b n=2 Tax=Oryzia...    87   3e-15
+UniRef90_H2LMY3 Protein tyrosine kinase 2 beta, a n=1 Tax=Oryzia...    87   4e-15
+UniRef90_UPI0006B0F188 focal adhesion kinase 1-like n=1 Tax=Limu...    87   5e-15
+UniRef90_F4WDN4 Focal adhesion kinase 1 n=1 Tax=Acromyrmex echin...    87   5e-15
+UniRef90_UPI0006411943 focal adhesion kinase 1-like n=2 Tax=Hydr...    87   6e-15
+UniRef90_C1BUC9 Focal adhesion kinase 1 n=1 Tax=Lepeophtheirus s...    86   7e-15
+UniRef90_G3UMP3 Protein tyrosine kinase 2 n=1 Tax=Loxodonta afri...    86   7e-15
+UniRef90_Q5MB01 Protein-tyrosine kinase (Fragment) n=1 Tax=Hydra...    86   8e-15
+UniRef90_Q866G6 Non-receptor tyrosine kinase Pyk2 (Fragment) n=1...    86   1e-14
+UniRef90_UPI0006CF14B6 focal adhesion kinase 1 isoform X1 n=4 Ta...    86   1e-14
+UniRef90_UPI00080A24ED protein-tyrosine kinase 2-beta n=1 Tax=Ce...    85   2e-14
+UniRef90_UPI000B39F24F LOW QUALITY PROTEIN: uncharacterized prot...    84   3e-14
+UniRef90_Q5MCM8 Protein-tyrosine kinase (Fragment) n=1 Tax=Hydra...    84   4e-14
+UniRef90_UPI0006D5259B focal adhesion kinase 1 n=1 Tax=Halyomorp...    83   7e-14
+UniRef90_UPI0006804DD1 LOW QUALITY PROTEIN: protein-tyrosine kin...    82   1e-13
+UniRef90_A0A182HW81 Uncharacterized protein n=1 Tax=Anopheles ar...    82   1e-13
+UniRef90_A0A182X5R5 Uncharacterized protein n=1 Tax=Anopheles qu...    82   1e-13
+UniRef90_A0A182TD43 Uncharacterized protein n=1 Tax=Anopheles me...    82   1e-13
+UniRef90_A0A182KKY8 Uncharacterized protein n=1 Tax=Anopheles co...    82   1e-13
+UniRef90_UPI00067BF62F focal adhesion kinase 1 isoform X1 n=4 Ta...    82   1e-13
+UniRef90_A0A182MV34 Uncharacterized protein n=1 Tax=Anopheles cu...    82   1e-13
+UniRef90_Q7QHB8 AGAP011118-PA (Fragment) n=1 Tax=Anopheles gambi...    82   1e-13
+UniRef90_A0A182N274 Uncharacterized protein n=1 Tax=Anopheles di...    82   1e-13
+UniRef90_A0A182SW91 Uncharacterized protein n=1 Tax=Anopheles ma...    82   1e-13
+UniRef90_A0A182RAR1 Uncharacterized protein n=1 Tax=Anopheles fu...    82   2e-13
+UniRef90_A0A182WDM7 Uncharacterized protein n=1 Tax=Anopheles mi...    82   2e-13
+UniRef90_A0A194QFF4 Focal adhesion kinase 1 n=1 Tax=Papilio xuth...    82   2e-13
+UniRef90_A0A182K8Y9 Uncharacterized protein n=1 Tax=Anopheles ch...    82   2e-13
+UniRef90_A0A1L8DL69 Protein tyrosine kinase (Fragment) n=1 Tax=N...    82   2e-13
+UniRef90_A0A182Q8Z5 Uncharacterized protein n=1 Tax=Anopheles fa...    82   2e-13
+UniRef90_A0A1Q3G2P4 Putative focal adhesion kinase 1 (Fragment) ...    81   2e-13
+UniRef90_A0A182YAY9 Uncharacterized protein n=1 Tax=Anopheles st...    81   2e-13
+UniRef90_A0A1A9U5U4 Uncharacterized protein n=1 Tax=Anopheles st...    81   2e-13
+UniRef90_W5J275 Uncharacterized protein n=1 Tax=Anopheles darlin...    81   2e-13
+UniRef90_A0A182FBZ8 Uncharacterized protein n=1 Tax=Anopheles al...    81   2e-13
+UniRef90_UPI0009379A1F focal adhesion kinase 1-like isoform X1 n...    81   2e-13
+UniRef90_UPI0009E272F6 focal adhesion kinase 1-like n=1 Tax=Orbi...    81   2e-13
+UniRef90_A0A194QQA5 Focal adhesion kinase 1 n=1 Tax=Papilio mach...    81   3e-13
+UniRef90_UPI00093575B4 uncharacterized protein LOC109401644 n=4 ...    81   3e-13
+UniRef90_UPI0006EB0F7C LOW QUALITY PROTEIN: focal adhesion kinas...    81   4e-13
+UniRef90_H2YTK4 Uncharacterized protein n=1 Tax=Ciona savignyi T...    81   4e-13
+UniRef90_A0A182PJM9 Uncharacterized protein n=1 Tax=Anopheles ep...    81   4e-13
+UniRef90_H2YTK6 Uncharacterized protein n=2 Tax=Ciona savignyi T...    81   4e-13
+UniRef90_A0A1E1W0N6 Uncharacterized protein (Fragment) n=2 Tax=P...    80   7e-13
+UniRef90_UPI000678B0FE focal adhesion kinase 1 isoform X1 n=4 Ta...    79   8e-13
+UniRef90_UPI000A3659E1 LOW QUALITY PROTEIN: protein-tyrosine kin...    79   9e-13
+UniRef90_UPI0006762957 focal adhesion kinase 1-like n=1 Tax=Papi...    79   9e-13
+UniRef90_B0XFT0 Focal adhesion kinase n=1 Tax=Culex quinquefasci...    79   1e-12
+UniRef90_A0A0B2V5S5 Focal adhesion kinase 1 n=1 Tax=Toxocara can...    79   1e-12
+UniRef90_H2YTK9 Uncharacterized protein n=1 Tax=Ciona savignyi T...    79   1e-12
+UniRef90_H2YTL0 Uncharacterized protein n=1 Tax=Ciona savignyi T...    79   1e-12
+UniRef90_H2YTK7 Uncharacterized protein n=3 Tax=Ciona savignyi T...    79   1e-12
+UniRef90_UPI000B7774D9 focal adhesion kinase 1 isoform X3 n=2 Ta...    79   1e-12
+UniRef90_Q17C76 AAEL004666-PA (Fragment) n=1 Tax=Aedes aegypti T...    79   1e-12
+UniRef90_A0A1S4F8A3 Focal adhesion kinase n=1 Tax=Aedes aegypti ...    79   2e-12
+UniRef90_A0A1L8DKQ1 Protein tyrosine kinase (Fragment) n=2 Tax=N...    78   2e-12
+UniRef90_A0A182JHN4 Uncharacterized protein n=1 Tax=Anopheles at...    78   2e-12
+UniRef90_A0A1S4ET38 uncharacterized protein LOC103504814 isoform...    78   2e-12
+UniRef90_A0A1V4KCM6 Uncharacterized protein n=1 Tax=Patagioenas ...    78   2e-12
+UniRef90_A0A183UDT3 Uncharacterized protein n=1 Tax=Toxocara can...    77   4e-12
+UniRef90_UPI0005D045C4 uncharacterized protein LOC105388640 isof...    77   5e-12
+UniRef90_H2YTL1 Uncharacterized protein n=1 Tax=Ciona savignyi T...    76   8e-12
+UniRef90_A0A158RAN9 Uncharacterized protein n=1 Tax=Thelazia cal...    76   8e-12
+UniRef90_A0A1I7VE43 TK/FAK protein kinase n=1 Tax=Loa loa TaxID=...    75   2e-11
+UniRef90_A0A093CHY1 Protein-tyrosine kinase 2-beta (Fragment) n=...    74   4e-11
+UniRef90_A0A182EDC2 Uncharacterized protein n=1 Tax=Onchocerca o...    73   9e-11
+UniRef90_A0A1I7ZGA3 Uncharacterized protein n=1 Tax=Steinernema ...    72   1e-10
+UniRef90_A0A0N5DMM9 Uncharacterized protein n=1 Tax=Trichuris mu...    72   2e-10
+UniRef90_B7PFN0 Focal adhesion kinase, putative (Fragment) n=1 T...    72   2e-10
+UniRef90_A0A0N5AUT8 Uncharacterized protein n=1 Tax=Syphacia mur...    72   2e-10
+UniRef90_U3IPQ3 Protein tyrosine kinase 2 beta n=1 Tax=Anas plat...    71   2e-10
+UniRef90_A0A0N4UFK0 Uncharacterized protein n=1 Tax=Dracunculus ...    71   3e-10
+UniRef90_A0A0R3RQA2 Uncharacterized protein n=1 Tax=Elaeophora e...    70   5e-10
+UniRef90_E9FR36 Uncharacterized protein n=3 Tax=Daphnia pulex Ta...    69   8e-10
+UniRef90_A0A0P5PIZ8 Focal adhesion kinase (Fragment) n=1 Tax=Dap...    69   1e-09
+UniRef90_A0A0P5PC59 Focal adhesion kinase (Fragment) n=1 Tax=Dap...    69   1e-09
+UniRef90_A0A0P6F2H5 Focal adhesion kinase n=1 Tax=Daphnia magna ...    69   1e-09
+UniRef90_A0A0P6FTJ7 Focal adhesion kinase n=1 Tax=Daphnia magna ...    69   1e-09
+UniRef90_A0A0P5PK22 Focal adhesion kinase n=5 Tax=Daphnia magna ...    69   1e-09
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_W5MLW0 Protein tyrosine kinase 2ab n=1 Tax=Lepisosteus oculatus TaxID=7918
+           RepID=W5MLW0_LEPOC
+          Length = 1079
+
+ Score =  160 bits (406), Expect = 3e-37,   Method: Composition-based stats.
+ Identities = 79/95 (83%), Positives = 89/95 (93%)
+
+Query: 1   MERVLKVFHYFENSSEPTTWASIIRHGDATDVRGIIQKIVDCHKVKNVACYGLRLSHLQS 60
+           ++RVLKVFHYFE++SEP+TWAS IRHGDATDVRGIIQKIVD HKVK V+CYGLRLSHLQS
+Sbjct: 55  LDRVLKVFHYFESNSEPSTWASNIRHGDATDVRGIIQKIVDIHKVKCVSCYGLRLSHLQS 114
+
+Query: 61  EEVHWLHLDMGVSNVREKFELAHPPEEWKYELRIR 95
+           EE+HWLH DMGVS+VREK+EL HP EEW+YELRIR
+Sbjct: 115 EEIHWLHPDMGVSHVREKYELNHPQEEWRYELRIR 149
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_W5MLW0 Protein tyrosine kinase 2ab n=1 Tax=Lepisosteus ...   158   1e-36
+UniRef90_A0A1W4YGE9 focal adhesion kinase 1 isoform X5 n=18 Tax=...   156   6e-36
+UniRef90_A0A1W4Y6N3 focal adhesion kinase 1 isoform X1 n=5 Tax=S...   156   7e-36
+UniRef90_UPI000803AE75 focal adhesion kinase 1-like isoform X8 n...   155   9e-36
+UniRef90_W5LH73 Protein tyrosine kinase 2ab n=8 Tax=Characoidei ...   155   1e-35
+UniRef90_UPI0008033656 focal adhesion kinase 1-like isoform X1 n...   155   1e-35
+UniRef90_UPI000440AC53 focal adhesion kinase 1 isoform X5 n=3 Ta...   155   1e-35
+UniRef90_UPI00076A2B2C focal adhesion kinase 1 isoform X1 n=5 Ta...   155   1e-35
+UniRef90_UPI000440CBE0 focal adhesion kinase 1 isoform X11 n=3 T...   155   1e-35
+UniRef90_UPI00076AC0CB focal adhesion kinase 1 isoform X10 n=1 T...   155   1e-35
+UniRef90_UPI00076A2E78 focal adhesion kinase 1 isoform X9 n=1 Ta...   154   2e-35
+UniRef90_UPI0008148C7B focal adhesion kinase 1-like isoform X8 n...   154   3e-35
+UniRef90_UPI0007BA24CC focal adhesion kinase 1-like n=2 Tax=Sino...   153   5e-35
+UniRef90_UPI0007AD0EAA focal adhesion kinase 1-like isoform X1 n...   152   7e-35
+UniRef90_UPI000B445FF9 focal adhesion kinase 1 isoform X1 n=19 T...   152   9e-35
+UniRef90_A0A1S3Q299 focal adhesion kinase 1-like isoform X1 n=24...   152   1e-34
+UniRef90_F1QT14 Protein tyrosine kinase 2ab n=14 Tax=Cyprinidae ...   152   1e-34
+UniRef90_UPI000B44BA20 focal adhesion kinase 1 isoform X9 n=1 Ta...   151   1e-34
+UniRef90_UPI0006D90540 focal adhesion kinase 1 n=1 Tax=Latimeria...   151   2e-34
+UniRef90_UPI0007B962D3 focal adhesion kinase 1-like n=1 Tax=Sino...   151   2e-34
+UniRef90_UPI000B4F9CA9 focal adhesion kinase 1-like n=1 Tax=Onco...   151   2e-34
+UniRef90_Q98SN4 Focal adhesion kinase 1a n=6 Tax=Cyprinidae TaxI...   151   2e-34
+UniRef90_UPI0009A0119C LOW QUALITY PROTEIN: focal adhesion kinas...   151   2e-34
+UniRef90_A0A1S3M4G8 focal adhesion kinase 1-like isoform X1 n=20...   151   2e-34
+UniRef90_A0A1S3M595 focal adhesion kinase 1-like isoform X13 n=8...   150   3e-34
+UniRef90_UPI0005762666 focal adhesion kinase 1 isoform X1 n=6 Ta...   150   3e-34
+UniRef90_UPI00072E8D51 LOW QUALITY PROTEIN: focal adhesion kinas...   150   3e-34
+UniRef90_UPI000644336A focal adhesion kinase 1 isoform X5 n=1 Ta...   150   4e-34
+UniRef90_UPI0007B8D904 focal adhesion kinase 1-like n=1 Tax=Sino...   150   4e-34
+UniRef90_UPI0006444C67 focal adhesion kinase 1 isoform X1 n=2 Ta...   150   4e-34
+UniRef90_V9K9P6 PTK2 protein tyrosine kinase 2 n=8 Tax=Callorhin...   150   4e-34
+UniRef90_UPI00074FF87A focal adhesion kinase 1 n=1 Tax=Gekko jap...   150   4e-34
+UniRef90_R7VT98 Focal adhesion kinase 1 (Fragment) n=1 Tax=Colum...   149   5e-34
+UniRef90_UPI0009485127 focal adhesion kinase 1 isoform X1 n=5 Ta...   149   5e-34
+UniRef90_UPI00064427BB focal adhesion kinase 1 isoform X6 n=1 Ta...   149   5e-34
+UniRef90_A0A0Q3PEV4 Focal adhesion kinase 1 isoform 1 n=1 Tax=Am...   149   6e-34
+UniRef90_G3I7E2 Focal adhesion kinase 1 n=7 Tax=Euarchontoglires...   149   7e-34
+UniRef90_UPI00062B5901 focal adhesion kinase 1 n=1 Tax=Orcinus o...   149   7e-34
+UniRef90_A0A1S3WR85 focal adhesion kinase 1 isoform X6 n=10 Tax=...   149   7e-34
+UniRef90_A0A091IJF5 Focal adhesion kinase 1 (Fragment) n=1 Tax=C...   149   8e-34
+UniRef90_Q7T2V4 Focal adhesion kinase 1b n=9 Tax=Cyprinidae TaxI...   149   8e-34
+UniRef90_UPI000981BFC3 focal adhesion kinase 1 isoform X7 n=3 Ta...   149   9e-34
+UniRef90_A0A1U8CXX9 focal adhesion kinase 1 n=2 Tax=Mesocricetus...   149   1e-33
+UniRef90_UPI0005B909B2 focal adhesion kinase 1 n=1 Tax=Pteropus ...   148   1e-33
+UniRef90_UPI00080A2370 focal adhesion kinase 1 isoform X7 n=1 Ta...   148   1e-33
+UniRef90_UPI000A2B6A46 focal adhesion kinase 1 isoform X24 n=2 T...   148   1e-33
+UniRef90_UPI00054023F0 focal adhesion kinase 1 isoform X10 n=2 T...   148   1e-33
+UniRef90_UPI0007DC55F5 focal adhesion kinase 1 isoform r n=24 Ta...   148   1e-33
+UniRef90_A0A1S3FW28 focal adhesion kinase 1 n=4 Tax=Amniota TaxI...   148   1e-33
+UniRef90_P34152-7 Isoform 7 of Focal adhesion kinase 1 n=2 Tax=E...   148   1e-33
+UniRef90_UPI000A368D7F focal adhesion kinase 1 n=1 Tax=Columba l...   148   1e-33
+UniRef90_P34152 Focal adhesion kinase 1 n=336 Tax=Amniota TaxID=...   148   1e-33
+UniRef90_P34152-4 Isoform 4 of Focal adhesion kinase 1 n=599 Tax...   148   1e-33
+UniRef90_UPI000A2B2DE2 focal adhesion kinase 1 isoform X16 n=5 T...   148   1e-33
+UniRef90_UPI00065736D1 focal adhesion kinase 1 isoform X17 n=5 T...   148   1e-33
+UniRef90_UPI00071DDE28 protein-tyrosine kinase 2-beta-like n=1 T...   148   1e-33
+UniRef90_UPI000A2B997D focal adhesion kinase 1 isoform X25 n=2 T...   148   1e-33
+UniRef90_V8NDK2 Focal adhesion kinase 1 (Fragment) n=1 Tax=Ophio...   148   1e-33
+UniRef90_UPI0007DC5666 focal adhesion kinase 1 isoform u n=2 Tax...   148   1e-33
+UniRef90_F7C660 Protein tyrosine kinase 2 n=7 Tax=Boreoeutheria ...   148   1e-33
+UniRef90_UPI000387C30F focal adhesion kinase 1 isoform X6 n=6 Ta...   148   1e-33
+UniRef90_UPI0004C021E4 focal adhesion kinase 1 n=2 Tax=Amniota T...   148   1e-33
+UniRef90_Q05397-7 Isoform 7 of Focal adhesion kinase 1 n=34 Tax=...   148   1e-33
+UniRef90_UPI0005F46EBB focal adhesion kinase 1 n=1 Tax=Cercocebu...   148   2e-33
+UniRef90_UPI0007B8CE52 focal adhesion kinase 1-like isoform X1 n...   148   2e-33
+UniRef90_UPI00042C2E45 Focal adhesion kinase 1 n=5 Tax=Amniota T...   148   2e-33
+UniRef90_UPI0007A6D75F focal adhesion kinase 1 isoform X1 n=2 Ta...   147   2e-33
+UniRef90_P34152-5 Isoform 5 of Focal adhesion kinase 1 n=21 Tax=...   147   2e-33
+UniRef90_P34152-6 Isoform 6 of Focal adhesion kinase 1 n=12 Tax=...   147   2e-33
+UniRef90_UPI0007A6B8DC focal adhesion kinase 1 isoform X3 n=1 Ta...   147   3e-33
+UniRef90_UPI00051246EE focal adhesion kinase 1 isoform X20 n=2 T...   147   3e-33
+UniRef90_UPI0007F90A06 focal adhesion kinase 1 isoform X10 n=1 T...   146   4e-33
+UniRef90_F7CW18 Protein tyrosine kinase 2 n=33 Tax=Tetrapoda Tax...   146   4e-33
+UniRef90_UPI000B377C09 focal adhesion kinase 1 n=1 Tax=Fundulus ...   146   4e-33
+UniRef90_F7CW93 Protein tyrosine kinase 2 n=21 Tax=Tetrapoda Tax...   146   4e-33
+UniRef90_UPI0007F9179D focal adhesion kinase 1 isoform X7 n=2 Ta...   146   4e-33
+UniRef90_A0A091QFR9 Focal adhesion kinase 1 (Fragment) n=3 Tax=S...   146   5e-33
+UniRef90_UPI0009DAB6D2 focal adhesion kinase 1 n=1 Tax=Oryzias l...   146   5e-33
+UniRef90_UPI0007F93BA1 focal adhesion kinase 1 isoform X1 n=7 Ta...   146   6e-33
+UniRef90_UPI0004F0BE72 focal adhesion kinase 1 n=2 Tax=Neognatha...   146   6e-33
+UniRef90_A0A146NAS3 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   146   7e-33
+UniRef90_A0A146Y6T5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   146   7e-33
+UniRef90_A0A146Y6Q5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   146   8e-33
+UniRef90_UPI0008165EA5 protein-tyrosine kinase 2-beta n=1 Tax=Co...   145   9e-33
+UniRef90_H9G6F2 Protein tyrosine kinase 2 beta n=1 Tax=Anolis ca...   145   9e-33
+UniRef90_H2LIZ5 Protein tyrosine kinase 2ab n=1 Tax=Oryzias lati...   145   1e-32
+UniRef90_A0A146Y8K5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   145   1e-32
+UniRef90_A0A146VNH1 Focal adhesion kinase 1 n=5 Tax=Fundulus het...   145   1e-32
+UniRef90_UPI00035A03D0 protein-tyrosine kinase 2-beta n=1 Tax=Fi...   145   1e-32
+UniRef90_UPI000803AB6A protein-tyrosine kinase 2-beta-like isofo...   144   2e-32
+UniRef90_A0A1A8NVS5 Uncharacterized protein n=21 Tax=Percomorpha...   144   2e-32
+UniRef90_A0A1A8PGU4 Uncharacterized protein n=8 Tax=Percomorphac...   144   2e-32
+UniRef90_A0A1A8R493 Uncharacterized protein n=66 Tax=Percomorpha...   144   2e-32
+UniRef90_UPI0009A337A8 protein-tyrosine kinase 2-beta-like n=1 T...   144   2e-32
+UniRef90_UPI000802B334 protein-tyrosine kinase 2-beta-like isofo...   144   2e-32
+UniRef90_UPI0006442525 protein-tyrosine kinase 2-beta n=1 Tax=Cl...   144   2e-32
+UniRef90_A0A1L8G5K3 Uncharacterized protein n=5 Tax=Xenopus TaxI...   144   2e-32
+UniRef90_A0A1L8G031 Uncharacterized protein n=1 Tax=Xenopus laev...   144   2e-32
+UniRef90_U3JM74 Protein tyrosine kinase 2 beta n=1 Tax=Ficedula ...   144   2e-32
+UniRef90_A0A1V4J815 Protein-tyrosine kinase 2-beta isoform B n=1...   144   2e-32
+UniRef90_I3JID5 Protein tyrosine kinase 2ab n=5 Tax=Percomorphac...   144   2e-32
+UniRef90_UPI000905C92A protein-tyrosine kinase 2-beta n=1 Tax=Ap...   144   2e-32
+UniRef90_A0A0F7Z474 Protein-tyrosine kinase 2-beta n=2 Tax=Crota...   144   2e-32
+UniRef90_A0A087QU33 Protein-tyrosine kinase 2-beta n=1 Tax=Apten...   144   2e-32
+UniRef90_UPI0004952F62 focal adhesion kinase 1-like n=1 Tax=Steg...   144   2e-32
+UniRef90_A0A091S430 Protein-tyrosine kinase 2-beta n=13 Tax=Neog...   144   3e-32
+UniRef90_UPI0007B8206A focal adhesion kinase 1 isoform X8 n=4 Ta...   144   3e-32
+UniRef90_A0A1V4J976 Protein-tyrosine kinase 2-beta isoform A n=1...   144   3e-32
+UniRef90_UPI0004BDD6B8 protein-tyrosine kinase 2-beta n=1 Tax=Eq...   144   3e-32
+UniRef90_UPI0006B3B7A3 focal adhesion kinase 1-like isoform X7 n...   144   3e-32
+UniRef90_J3SFJ4 Protein-tyrosine kinase 2-beta n=10 Tax=Bifurcat...   144   3e-32
+UniRef90_UPI000521A143 protein-tyrosine kinase 2-beta n=1 Tax=Ch...   143   3e-32
+UniRef90_W5NL16 Protein tyrosine kinase 2 beta, b n=3 Tax=Lepiso...   143   4e-32
+UniRef90_UPI00080387AE focal adhesion kinase 1 isoform X1 n=5 Ta...   143   4e-32
+UniRef90_UPI0005B970F6 protein-tyrosine kinase 2-beta n=1 Tax=Pt...   143   4e-32
+UniRef90_A0A146NYN2 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   143   5e-32
+UniRef90_UPI00073FEE4F protein-tyrosine kinase 2-beta isoform X3...   143   5e-32
+UniRef90_Q14289-2 Isoform 2 of Protein-tyrosine kinase 2-beta n=...   143   5e-32
+UniRef90_UPI0006B1D2E9 protein-tyrosine kinase 2-beta isoform X8...   143   5e-32
+UniRef90_UPI000762B900 protein-tyrosine kinase 2-beta isoform X3...   143   5e-32
+UniRef90_H2TU31 Protein tyrosine kinase 2ab n=66 Tax=Percomorpha...   142   6e-32
+UniRef90_UPI000901921F focal adhesion kinase 1-like isoform X7 n...   142   6e-32
+UniRef90_UPI000901CB43 focal adhesion kinase 1-like isoform X1 n...   142   6e-32
+UniRef90_A0A146Y8F9 Focal adhesion kinase 1 n=2 Tax=Cyprinodonti...   142   6e-32
+UniRef90_F6Z395 Protein tyrosine kinase 2 beta n=2 Tax=Monodelph...   142   7e-32
+UniRef90_UPI000900B889 focal adhesion kinase 1-like isoform X8 n...   142   7e-32
+UniRef90_H3CW78 Protein tyrosine kinase 2ab n=2 Tax=Tetraodon ni...   142   7e-32
+UniRef90_UPI00084D53B0 protein-tyrosine kinase 2-beta-like isofo...   142   7e-32
+UniRef90_H2TU33 Protein tyrosine kinase 2ab n=4 Tax=Percomorphac...   142   8e-32
+UniRef90_UPI000523D0FE protein-tyrosine kinase 2-beta n=2 Tax=Ne...   142   8e-32
+UniRef90_UPI0009A332F4 focal adhesion kinase 1-like n=1 Tax=Rhin...   142   8e-32
+UniRef90_Q14289 Protein-tyrosine kinase 2-beta n=149 Tax=Eutheri...   142   8e-32
+UniRef90_A0A1W5AYV2 focal adhesion kinase 1-like isoform X1 n=10...   142   8e-32
+UniRef90_A0A1S3QHQ0 focal adhesion kinase 1-like n=2 Tax=Salmo s...   142   9e-32
+UniRef90_A0A1D5RKE2 Protein tyrosine kinase 2 beta n=6 Tax=Euthe...   142   1e-31
+UniRef90_S9XF48 Protein-tyrosine kinase 2-beta isoform 1 n=1 Tax...   142   1e-31
+UniRef90_UPI00081373A1 focal adhesion kinase 1-like isoform X1 n...   142   1e-31
+UniRef90_A0A091E139 Protein-tyrosine kinase 2-beta n=1 Tax=Fukom...   142   1e-31
+UniRef90_UPI00054E4FB6 focal adhesion kinase 1 isoform X1 n=1 Ta...   142   1e-31
+UniRef90_UPI0008144AA7 protein-tyrosine kinase 2-beta-like isofo...   141   1e-31
+UniRef90_UPI000874A308 protein-tyrosine kinase 2-beta-like n=1 T...   141   1e-31
+UniRef90_UPI00042BFC94 LOW QUALITY PROTEIN: protein-tyrosine kin...   141   1e-31
+UniRef90_Q8C9L4 Uncharacterized protein n=3 Tax=Euarchontoglires...   141   1e-31
+UniRef90_UPI00051E3165 protein-tyrosine kinase 2-beta n=1 Tax=St...   141   1e-31
+UniRef90_A0A061INV5 Protein-tyrosine kinase 2-beta isoform 1 n=3...   141   1e-31
+UniRef90_UPI00065740BD protein-tyrosine kinase 2-beta isoform X2...   141   2e-31
+UniRef90_UPI0008147926 protein-tyrosine kinase 2-beta-like isofo...   141   2e-31
+UniRef90_K7G0E4 Protein tyrosine kinase 2 beta n=5 Tax=Cryptodir...   141   2e-31
+UniRef90_A0A151P4J0 Uncharacterized protein n=3 Tax=Crocodylia T...   140   2e-31
+UniRef90_UPI00090763DB protein-tyrosine kinase 2-beta isoform X5...   140   2e-31
+UniRef90_A0A1U8DNY3 protein-tyrosine kinase 2-beta isoform X1 n=...   140   3e-31
+UniRef90_Q7T2P8 Proline-rich tyrosine kinase 2 n=9 Tax=Cyprinida...   140   3e-31
+UniRef90_U6DH79 PTK2B protein tyrosine kinase 2 beta (Fragment) ...   140   3e-31
+UniRef90_A0A1W4YQR2 protein-tyrosine kinase 2-beta-like isoform ...   140   3e-31
+UniRef90_UPI0007AC59AF protein-tyrosine kinase 2-beta isoform X1...   140   3e-31
+UniRef90_UPI00064321D0 LOW QUALITY PROTEIN: protein-tyrosine kin...   140   3e-31
+UniRef90_UPI0006B22CB2 protein-tyrosine kinase 2-beta-like n=1 T...   140   3e-31
+UniRef90_A0A0Q3MEP3 Protein-tyrosine kinase 2-beta n=1 Tax=Amazo...   140   3e-31
+UniRef90_A3KNV4 Ptk2bb protein (Fragment) n=2 Tax=Cyprinidae Tax...   140   4e-31
+UniRef90_A0A1W4YGS6 protein-tyrosine kinase 2-beta-like isoform ...   140   4e-31
+UniRef90_UPI0003EBC838 focal adhesion kinase 1-like n=1 Tax=Neol...   140   4e-31
+UniRef90_UPI00097D9BA8 protein-tyrosine kinase 2-beta-like isofo...   140   4e-31
+UniRef90_UPI0007AC6044 protein-tyrosine kinase 2-beta isoform X3...   140   4e-31
+UniRef90_UPI00097D33D1 protein-tyrosine kinase 2-beta-like n=1 T...   140   4e-31
+UniRef90_E1BTC3 Protein tyrosine kinase 2 beta n=34 Tax=Aves Tax...   140   4e-31
+UniRef90_G1PGQ8 Protein tyrosine kinase 2 beta n=14 Tax=Bilateri...   140   4e-31
+UniRef90_M4AM58 Protein tyrosine kinase 2ab n=15 Tax=Cyprinodont...   140   5e-31
+UniRef90_A0A0P7YF56 Protein-tyrosine kinase 2-beta-like n=1 Tax=...   140   5e-31
+UniRef90_UPI0005ACD4B3 protein-tyrosine kinase 2-beta isoform X3...   139   5e-31
+UniRef90_UPI0008468962 protein-tyrosine kinase 2-beta n=1 Tax=Ma...   139   5e-31
+UniRef90_UPI000B4C8D86 protein-tyrosine kinase 2-beta n=1 Tax=Lo...   139   5e-31
+UniRef90_UPI0006B2F16D protein-tyrosine kinase 2-beta-like n=1 T...   139   5e-31
+UniRef90_UPI0006B32C9E protein-tyrosine kinase 2-beta isoform X1...   139   6e-31
+UniRef90_UPI00094E82DB protein-tyrosine kinase 2-beta-like isofo...   139   7e-31
+UniRef90_UPI0005ABC58B protein-tyrosine kinase 2-beta isoform X1...   139   7e-31
+UniRef90_A0A1A8KAB8 Uncharacterized protein (Fragment) n=10 Tax=...   139   7e-31
+UniRef90_UPI0004C1DFC1 protein-tyrosine kinase 2-beta n=1 Tax=Ca...   139   7e-31
+UniRef90_UPI0009008B0E protein-tyrosine kinase 2-beta-like n=1 T...   139   7e-31
+UniRef90_UPI0006B30AE1 protein-tyrosine kinase 2-beta isoform X2...   139   7e-31
+UniRef90_UPI0003EBD8AA protein-tyrosine kinase 2-beta-like n=1 T...   139   8e-31
+UniRef90_M3ZQJ6 Protein tyrosine kinase 2 beta, a n=7 Tax=Cyprin...   139   8e-31
+UniRef90_UPI000812E964 protein-tyrosine kinase 2-beta isoform X1...   139   8e-31
+UniRef90_UPI0004958A5A protein-tyrosine kinase 2-beta-like n=1 T...   139   9e-31
+UniRef90_UPI000551F19D protein-tyrosine kinase 2-beta isoform X2...   139   9e-31
+UniRef90_UPI000552B5BC protein-tyrosine kinase 2-beta isoform X1...   139   9e-31
+UniRef90_Q0VC86 PTK2 protein tyrosine kinase 2 n=2 Tax=Laurasiat...   139   9e-31
+UniRef90_UPI0007B91975 protein-tyrosine kinase 2-beta-like n=1 T...   139   1e-30
+UniRef90_A0A146XYJ4 Tyrosine kinase 2-beta n=3 Tax=Fundulus hete...   138   1e-30
+UniRef90_G3P8W6 Protein tyrosine kinase 2 beta, b n=1 Tax=Gaster...   138   1e-30
+UniRef90_UPI0007DC9CDB protein-tyrosine kinase 2-beta-like n=1 T...   138   1e-30
+UniRef90_A0A147AQY6 Tyrosine kinase 2-beta n=2 Tax=Fundulus hete...   138   1e-30
+UniRef90_UPI00051F0C87 protein-tyrosine kinase 2-beta n=1 Tax=Eg...   138   1e-30
+UniRef90_A0A146XTS3 Tyrosine kinase 2-beta n=1 Tax=Fundulus hete...   138   1e-30
+UniRef90_A0A146VNE5 Focal adhesion kinase 1 n=1 Tax=Fundulus het...   138   1e-30
+UniRef90_A0A1D5PGU1 Protein tyrosine kinase 2 beta n=2 Tax=Neogn...   138   1e-30
+UniRef90_UPI0003940B37 protein-tyrosine kinase 2-beta isoform X1...   138   1e-30
+UniRef90_S7MU75 Protein-tyrosine kinase 2-beta n=1 Tax=Myotis br...   138   1e-30
+UniRef90_UPI0007B8B95F focal adhesion kinase 1-like n=2 Tax=Poec...   138   1e-30
+UniRef90_H2T0L2 Protein tyrosine kinase 2ab n=15 Tax=Percomorpha...   138   1e-30
+UniRef90_A0A146ZU95 Focal adhesion kinase 1 n=8 Tax=Cyprinodonto...   138   2e-30
+UniRef90_UPI0009B33809 focal adhesion kinase 1-like isoform X1 n...   138   2e-30
+UniRef90_A0A218UD32 Protein-tyrosine kinase 2-beta n=1 Tax=Lonch...   138   2e-30
+UniRef90_UPI0009B3B387 protein-tyrosine kinase 2-beta-like isofo...   138   2e-30
+UniRef90_H2T0L5 Protein tyrosine kinase 2ab n=1 Tax=Takifugu rub...   138   2e-30
+UniRef90_UPI0005D24D5D protein-tyrosine kinase 2-beta-like n=1 T...   138   2e-30
+UniRef90_H2V5D8 Protein tyrosine kinase 2 beta, a n=1 Tax=Takifu...   137   2e-30
+UniRef90_A0A146P628 Uncharacterized protein n=3 Tax=Fundulus het...   137   2e-30
+UniRef90_UPI00074259F2 protein-tyrosine kinase 2-beta-like isofo...   137   2e-30
+UniRef90_H2T0L0 Protein tyrosine kinase 2ab n=86 Tax=Percomorpha...   137   2e-30
+UniRef90_UPI00072E66AD focal adhesion kinase 1-like isoform X3 n...   137   2e-30
+UniRef90_H2T0L1 Protein tyrosine kinase 2ab n=5 Tax=Takifugu rub...   137   2e-30
+UniRef90_H2T0L3 Protein tyrosine kinase 2ab n=25 Tax=Percomorpha...   137   2e-30
+UniRef90_UPI0008033437 protein-tyrosine kinase 2-beta-like isofo...   137   2e-30
+UniRef90_UPI0006D8E602 protein-tyrosine kinase 2-beta-like n=1 T...   137   2e-30
+UniRef90_Q4SJ18 Chromosome 21 SCAF14577, whole genome shotgun se...   137   2e-30
+UniRef90_UPI000A1C7115 protein-tyrosine kinase 2-beta n=1 Tax=Bo...   137   2e-30
+UniRef90_A0A0F8BK25 Focal adhesion kinase 1 n=2 Tax=Larimichthys...   137   2e-30
+UniRef90_A0A096M506 Protein tyrosine kinase 2ab n=1 Tax=Poecilia...   137   2e-30
+UniRef90_UPI0006619996 protein-tyrosine kinase 2-beta n=1 Tax=Es...   137   3e-30
+UniRef90_A0A087XT17 Protein tyrosine kinase 2 beta, b n=10 Tax=C...   137   3e-30
+UniRef90_UPI00074261E6 focal adhesion kinase 1-like isoform X1 n...   137   3e-30
+UniRef90_UPI0007B79F8D protein-tyrosine kinase 2-beta-like isofo...   137   3e-30
+UniRef90_UPI000900BAE9 protein-tyrosine kinase 2-beta n=1 Tax=La...   137   3e-30
+UniRef90_UPI00072E4A9B focal adhesion kinase 1-like isoform X7 n...   137   3e-30
+UniRef90_UPI0009B35C6D protein-tyrosine kinase 2-beta n=1 Tax=La...   137   3e-30
+UniRef90_A0A1S3M7G7 protein-tyrosine kinase 2-beta n=1 Tax=Salmo...   137   3e-30
+UniRef90_UPI000B4F6BB9 protein-tyrosine kinase 2-beta-like n=1 T...   137   3e-30
+UniRef90_A0A146VNL6 Focal adhesion kinase 1 n=2 Tax=Fundulus het...   137   3e-30
+UniRef90_H2T8R1 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...   137   3e-30
+UniRef90_UPI000644498F protein-tyrosine kinase 2-beta-like n=1 T...   137   4e-30
+UniRef90_H2T8Q6 Protein tyrosine kinase 2 beta, b n=5 Tax=Takifu...   136   4e-30
+UniRef90_UPI00077D526E protein-tyrosine kinase 2-beta-like isofo...   136   4e-30
+UniRef90_UPI000A1C5F73 LOW QUALITY PROTEIN: protein-tyrosine kin...   136   4e-30
+UniRef90_UPI0003EC5977 protein-tyrosine kinase 2-beta-like n=1 T...   136   4e-30
+UniRef90_H2T8Q8 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...   136   4e-30
+UniRef90_A0A1A8B3H0 Name:protein tyrosine kinase 2 beta, a n=5 T...   136   5e-30
+UniRef90_M3ZPG9 Protein tyrosine kinase 2 beta, b n=3 Tax=Poecil...   136   5e-30
+UniRef90_L5LTI7 Protein-tyrosine kinase 2-beta n=3 Tax=Myotis Ta...   136   5e-30
+UniRef90_A0A1A8M718 Uncharacterized protein n=2 Tax=Nothobranchi...   136   5e-30
+UniRef90_UPI0009B48C65 protein-tyrosine kinase 2-beta-like n=1 T...   136   6e-30
+UniRef90_W5JZQ4 Protein tyrosine kinase 2 beta, a n=2 Tax=Astyan...   136   6e-30
+UniRef90_I3KDA3 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   136   6e-30
+UniRef90_UPI00077D6C7C protein-tyrosine kinase 2-beta-like isofo...   136   6e-30
+UniRef90_A0A096LYM5 Uncharacterized protein n=3 Tax=Poecilia Tax...   136   6e-30
+UniRef90_I3KDQ5 Protein tyrosine kinase 2 beta, b n=7 Tax=Pseudo...   135   7e-30
+UniRef90_UPI000904EDEA protein-tyrosine kinase 2-beta isoform X3...   135   7e-30
+UniRef90_I3KDA5 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   135   7e-30
+UniRef90_UPI0008543A07 protein-tyrosine kinase 2-beta-like n=1 T...   135   7e-30
+UniRef90_UPI0009DAB407 protein-tyrosine kinase 2-beta-like isofo...   135   7e-30
+UniRef90_UPI0008FA61F6 protein-tyrosine kinase 2-beta-like n=1 T...   135   8e-30
+UniRef90_UPI000440F1D9 protein-tyrosine kinase 2-beta isoform X3...   135   8e-30
+UniRef90_A0A1A8G1H8 Name:protein tyrosine kinase 2 beta, a (Frag...   135   1e-29
+UniRef90_A0A1S3RLL1 protein-tyrosine kinase 2-beta-like n=1 Tax=...   135   1e-29
+UniRef90_A0A1A8JXA3 Uncharacterized protein n=5 Tax=Nothobranchi...   135   1e-29
+UniRef90_I3KDA4 Protein tyrosine kinase 2 beta, a n=1 Tax=Oreoch...   135   1e-29
+UniRef90_A0A1W5A6F7 protein-tyrosine kinase 2-beta-like n=1 Tax=...   135   1e-29
+UniRef90_UPI0008740149 protein-tyrosine kinase 2-beta-like n=2 T...   135   1e-29
+UniRef90_A0A0S7IK24 FAK2 (Fragment) n=2 Tax=Poeciliopsis prolifi...   134   2e-29
+UniRef90_UPI0007AC7F87 protein-tyrosine kinase 2-beta-like isofo...   134   2e-29
+UniRef90_A0A1A8I3Q0 Uncharacterized protein (Fragment) n=1 Tax=N...   134   2e-29
+UniRef90_UPI000A0EDCC8 focal adhesion kinase 1 isoform X1 n=3 Ta...   134   2e-29
+UniRef90_UPI0004CD25C3 uncharacterized protein LOC103577529 n=1 ...   134   3e-29
+UniRef90_UPI0005BAC55E focal adhesion kinase 1 isoform X5 n=1 Ta...   134   3e-29
+UniRef90_UPI000718FE96 focal adhesion kinase 1 isoform X1 n=10 T...   134   3e-29
+UniRef90_A0A067R8A5 Focal adhesion kinase 1 n=1 Tax=Zootermopsis...   134   3e-29
+UniRef90_H2LYR2 Protein tyrosine kinase 2 beta, b n=2 Tax=Oryzia...   134   3e-29
+UniRef90_UPI000A1C67B0 focal adhesion kinase 1-like n=1 Tax=Bole...   134   3e-29
+UniRef90_K7DYJ3 Protein tyrosine kinase 2 beta, a n=2 Tax=Danio ...   134   3e-29
+UniRef90_A0A0J7LAY4 Focal adhesion kinase 1 n=1 Tax=Lasius niger...   133   3e-29
+UniRef90_G3PPR1 Protein tyrosine kinase 2 beta, a n=1 Tax=Gaster...   133   3e-29
+UniRef90_UPI000771D904 uncharacterized protein LOC107273475 isof...   133   3e-29
+UniRef90_UPI000840806E focal adhesion kinase 1 isoform X1 n=2 Ta...   133   4e-29
+UniRef90_A0A1S3SBF4 protein-tyrosine kinase 2-beta-like n=1 Tax=...   133   4e-29
+UniRef90_UPI00071165DE focal adhesion kinase 1 isoform X5 n=1 Ta...   133   4e-29
+UniRef90_UPI000771B1D2 uncharacterized protein LOC107273475 isof...   133   4e-29
+UniRef90_E9JCV7 Uncharacterized protein (Fragment) n=11 Tax=Form...   133   4e-29
+UniRef90_E2AKA8 Focal adhesion kinase 1 n=9 Tax=Formicidae TaxID...   133   4e-29
+UniRef90_UPI00052EA221 protein-tyrosine kinase 2-beta-like n=1 T...   133   4e-29
+UniRef90_UPI0009949FB5 focal adhesion kinase 1 isoform X1 n=2 Ta...   133   4e-29
+UniRef90_UPI0008524021 focal adhesion kinase 1 n=1 Tax=Cyphomyrm...   133   5e-29
+UniRef90_UPI0007F8DAAB protein-tyrosine kinase 2-beta-like isofo...   133   5e-29
+UniRef90_UPI0008146208 protein-tyrosine kinase 2-beta-like isofo...   133   5e-29
+UniRef90_H3DFZ9 Protein tyrosine kinase 2 beta, b n=2 Tax=Tetrao...   133   6e-29
+UniRef90_A0A158NYB0 Uncharacterized protein n=5 Tax=Attini TaxID...   132   6e-29
+UniRef90_UPI000580ECFF LOW QUALITY PROTEIN: uncharacterized prot...   132   6e-29
+UniRef90_Q4RR57 Chromosome 14 SCAF15003, whole genome shotgun se...   132   6e-29
+UniRef90_UPI00059588A0 focal adhesion kinase 1 n=2 Tax=Myrmicina...   132   7e-29
+UniRef90_A0A0L7RDW5 Focal adhesion kinase 1 n=3 Tax=Apidae TaxID...   132   8e-29
+UniRef90_G3NIV8 Uncharacterized protein n=1 Tax=Gasterosteus acu...   132   8e-29
+UniRef90_A0A151WIK7 Focal adhesion kinase 1 n=2 Tax=Trachymyrmex...   132   8e-29
+UniRef90_UPI00046D517C LOW QUALITY PROTEIN: focal adhesion kinas...   132   8e-29
+UniRef90_UPI00076F97C4 focal adhesion kinase 1 isoform X1 n=1 Ta...   132   8e-29
+UniRef90_UPI000614D1D4 uncharacterized protein LOC100876637 isof...   132   9e-29
+UniRef90_UPI0005D3ED82 uncharacterized protein LOC105433628 n=1 ...   132   1e-28
+UniRef90_UPI0006C9E2CF focal adhesion kinase 1 isoform X1 n=5 Ta...   131   1e-28
+UniRef90_W5LJ64 Protein tyrosine kinase 2 beta, b n=1 Tax=Astyan...   131   2e-28
+UniRef90_A0A1W4WMU1 LOW QUALITY PROTEIN: focal adhesion kinase 1...   131   2e-28
+UniRef90_UPI0005CE86FE focal adhesion kinase 1 n=1 Tax=Ceratosol...   131   2e-28
+UniRef90_A0A088AN13 Uncharacterized protein n=19 Tax=Apidae TaxI...   130   2e-28
+UniRef90_UPI00020648A6 uncharacterized protein LOC724973 isoform...   130   3e-28
+UniRef90_UPI0005908BE0 LOW QUALITY PROTEIN: uncharacterized prot...   130   4e-28
+UniRef90_UPI0006C9D952 focal adhesion kinase 1 isoform X1 n=1 Ta...   130   4e-28
+UniRef90_A0A151IX42 Focal adhesion kinase 1 n=1 Tax=Trachymyrmex...   130   4e-28
+UniRef90_UPI0007114031 focal adhesion kinase 1 isoform X1 n=4 Ta...   130   5e-28
+UniRef90_UPI0007385162 focal adhesion kinase 1 isoform X1 n=4 Ta...   130   5e-28
+UniRef90_A0A154PBB2 Focal adhesion kinase 1 n=2 Tax=Dufourea nov...   129   5e-28
+UniRef90_UPI000771D8B7 focal adhesion kinase 1 isoform X8 n=2 Ta...   129   8e-28
+UniRef90_UPI00076FAFCA focal adhesion kinase 1 isoform X2 n=2 Ta...   129   9e-28
+UniRef90_UPI0006254D47 focal adhesion kinase 1 isoform X1 n=2 Ta...   129   1e-27
+UniRef90_A0A1S3GYK4 focal adhesion kinase 1-like n=1 Tax=Lingula...   129   1e-27
+UniRef90_L5KLL4 Focal adhesion kinase 1 n=1 Tax=Pteropus alecto ...   128   1e-27
+UniRef90_UPI0006C94501 focal adhesion kinase 1 isoform X2 n=1 Ta...   128   2e-27
+UniRef90_UPI0006C985BA focal adhesion kinase 1 isoform X6 n=2 Ta...   128   2e-27
+UniRef90_UPI00073828EE focal adhesion kinase 1 isoform X5 n=1 Ta...   128   2e-27
+UniRef90_R7TYU7 Uncharacterized protein n=1 Tax=Capitella teleta...   127   2e-27
+UniRef90_UPI0009B485A9 LOW QUALITY PROTEIN: protein-tyrosine kin...   127   2e-27
+UniRef90_A0A1Y1N5Z8 Uncharacterized protein n=3 Tax=Photinus pyr...   127   3e-27
+UniRef90_A0A0C9RQQ4 PTK2_0 protein (Fragment) n=1 Tax=Fopius ari...   127   3e-27
+UniRef90_UPI00054F69A3 protein-tyrosine kinase 2-beta-like n=1 T...   127   3e-27
+UniRef90_A0A0C9RR47 PTK2_1 protein (Fragment) n=8 Tax=Fopius ari...   127   4e-27
+UniRef90_UPI0007D89695 focal adhesion kinase 1 isoform X7 n=6 Ta...   127   4e-27
+UniRef90_UPI0006236BC4 LOW QUALITY PROTEIN: uncharacterized prot...   126   4e-27
+UniRef90_V9KBT7 Protein-tyrosine kinase 2-beta n=2 Tax=Callorhin...   126   4e-27
+UniRef90_UPI0003DF792F focal adhesion kinase 1-like n=1 Tax=Apis...   126   6e-27
+UniRef90_UPI000575EABA protein-tyrosine kinase 2-beta isoform X1...   126   6e-27
+UniRef90_A0A1B6E257 Uncharacterized protein n=1 Tax=Clastoptera ...   125   7e-27
+UniRef90_A0A1B6D3T2 Uncharacterized protein n=2 Tax=Clastoptera ...   125   1e-26
+UniRef90_H3DAJ0 Protein tyrosine kinase 2 beta, a n=2 Tax=Tetrao...   125   1e-26
+UniRef90_A0A1B6DTP2 Uncharacterized protein (Fragment) n=1 Tax=C...   125   1e-26
+UniRef90_A0A0F8AQ78 Protein-tyrosine kinase 2-beta n=1 Tax=Larim...   124   2e-26
+UniRef90_D6WQS4 Focal adhesion kinase 1-like Protein n=9 Tax=Tri...   124   2e-26
+UniRef90_UPI0007DC97F4 protein-tyrosine kinase 2-beta-like n=1 T...   124   3e-26
+UniRef90_UPI00077DCB0F focal adhesion kinase 1 isoform X8 n=1 Ta...   124   3e-26
+UniRef90_UPI00064337C8 focal adhesion kinase 1-like n=1 Tax=Cond...   123   4e-26
+UniRef90_E2BTJ2 Focal adhesion kinase 1 n=1 Tax=Harpegnathos sal...   123   4e-26
+UniRef90_UPI0003EC2ADF focal adhesion kinase 1-like n=1 Tax=Neol...   123   5e-26
+UniRef90_A0A1S3J825 focal adhesion kinase 1-like n=1 Tax=Lingula...   122   7e-26
+UniRef90_UPI0008FA704B focal adhesion kinase 1-like n=1 Tax=Cypr...   122   8e-26
+UniRef90_A0A210R109 Focal adhesion kinase 1 n=5 Tax=Mizuhopecten...   122   8e-26
+UniRef90_UPI000874A160 focal adhesion kinase 1 isoform X1 n=1 Ta...   122   1e-25
+UniRef90_UPI000874CBFF focal adhesion kinase 1 isoform X2 n=5 Ta...   122   1e-25
+UniRef90_UPI000873BCCB focal adhesion kinase 1 isoform X5 n=1 Ta...   122   1e-25
+UniRef90_A0A0M8ZYC2 Focal adhesion kinase 1 n=1 Tax=Melipona qua...   121   2e-25
+UniRef90_K1PKI5 Focal adhesion kinase 1 n=8 Tax=Crassostrea giga...   120   3e-25
+UniRef90_UPI0005C368A2 focal adhesion kinase 1 isoform X1 n=7 Ta...   120   3e-25
+UniRef90_UPI0009750FE7 focal adhesion kinase 1 isoform X10 n=1 T...   120   3e-25
+UniRef90_UPI00096B3C3F focal adhesion kinase 1 isoform X1 n=8 Ta...   120   4e-25
+UniRef90_V3ZMB0 Uncharacterized protein n=1 Tax=Lottia gigantea ...   120   4e-25
+UniRef90_UPI00071DAE22 focal adhesion kinase 1-like isoform X1 n...   119   6e-25
+UniRef90_UPI00083C825E focal adhesion kinase 1 isoform X1 n=3 Ta...   118   1e-24
+UniRef90_UPI000B4F12C2 focal adhesion kinase 1-like isoform X1 n...   118   1e-24
+UniRef90_A0A0L8GY73 Uncharacterized protein n=3 Tax=Octopus bima...   118   2e-24
+UniRef90_UPI00083C691F focal adhesion kinase 1 isoform X4 n=2 Ta...   117   2e-24
+UniRef90_A0A0S7FDT4 FAK1 n=4 Tax=Percomorphaceae TaxID=1489872 R...   117   3e-24
+UniRef90_T1IYC0 Uncharacterized protein n=1 Tax=Strigamia mariti...   116   5e-24
+UniRef90_UPI000947A100 focal adhesion kinase 1-like isoform X9 n...   116   6e-24
+UniRef90_Q7Z1D3 Focal adhesion kinase n=1 Tax=Lytechinus variega...   115   1e-23
+UniRef90_C3Y1A6 Uncharacterized protein (Fragment) n=9 Tax=Branc...   114   2e-23
+UniRef90_W4YV37 Uncharacterized protein n=1 Tax=Strongylocentrot...   114   3e-23
+UniRef90_UPI0003AF811C protein-tyrosine kinase 2-beta-like n=1 T...   114   3e-23
+UniRef90_A0A1B6GEL6 Uncharacterized protein (Fragment) n=1 Tax=C...   113   4e-23
+UniRef90_UPI0006B07803 focal adhesion kinase 1-like n=1 Tax=Limu...   113   5e-23
+UniRef90_A0A1B6IZC4 Uncharacterized protein (Fragment) n=1 Tax=H...   113   5e-23
+UniRef90_UPI0005EF976A focal adhesion kinase 1-like n=1 Tax=Stro...   112   7e-23
+UniRef90_A0A1B6LWH8 Uncharacterized protein (Fragment) n=2 Tax=G...   112   1e-22
+UniRef90_A0A1A6GQW4 Uncharacterized protein n=1 Tax=Neotoma lepi...   112   1e-22
+UniRef90_UPI00063C8474 LOW QUALITY PROTEIN: protein-tyrosine kin...   111   1e-22
+UniRef90_A0A0P7UI84 Protein-tyrosine kinase 2-beta-like n=1 Tax=...   110   3e-22
+UniRef90_A0A1A7ZZK5 Protein tyrosine kinase 2 beta, b (Fragment)...   110   4e-22
+UniRef90_V8P4C4 Protein-tyrosine kinase 2-beta (Fragment) n=1 Ta...   109   9e-22
+UniRef90_A0A0T6BD26 FERM domain containing protein (Fragment) n=...   108   1e-21
+UniRef90_A0A1A8Q6D7 Name:protein tyrosine kinase 2 beta, a (Frag...   107   3e-21
+UniRef90_A0A0B7BAE7 Uncharacterized protein n=2 Tax=Arion vulgar...   106   6e-21
+UniRef90_UPI0006743F31 focal adhesion kinase 1-like isoform X5 n...   106   6e-21
+UniRef90_A0A0B7B9S6 Uncharacterized protein n=1 Tax=Arion vulgar...   106   6e-21
+UniRef90_UPI0006744FC1 focal adhesion kinase 1-like isoform X1 n...   105   8e-21
+UniRef90_A0A0P7ZGT0 Uncharacterized protein (Fragment) n=1 Tax=S...   105   1e-20
+UniRef90_A0A069DZP2 Putative focal adhesion kinase (Fragment) n=...   105   1e-20
+UniRef90_A0A0R4ICT0 Protein tyrosine kinase 2aa n=1 Tax=Danio re...   104   2e-20
+UniRef90_UPI0003F0EEBD focal adhesion kinase 1-like n=1 Tax=Sacc...   104   4e-20
+UniRef90_A0A1W5BB02 focal adhesion kinase 1 n=1 Tax=Ciona intest...   104   4e-20
+UniRef90_F6WUP4 Uncharacterized protein n=1 Tax=Ciona intestinal...   104   4e-20
+UniRef90_UPI0008708D78 LOW QUALITY PROTEIN: focal adhesion kinas...   103   4e-20
+UniRef90_UPI00046B89CD focal adhesion kinase 1 isoform X1 n=8 Ta...   103   5e-20
+UniRef90_J9JPR2 Uncharacterized protein n=3 Tax=Macrosiphini Tax...   102   7e-20
+UniRef90_G5C8Y8 Focal adhesion kinase 1 n=1 Tax=Heterocephalus g...   102   8e-20
+UniRef90_T1I867 Tyrosine-protein kinase Fak56D (Fragment) n=1 Ta...   102   1e-19
+UniRef90_N6TQ25 Uncharacterized protein (Fragment) n=1 Tax=Dendr...   102   1e-19
+UniRef90_B9UPG7 Focal adhesion kinase n=1 Tax=Marsupenaeus japon...   102   1e-19
+UniRef90_U4U150 Uncharacterized protein (Fragment) n=2 Tax=Dendr...   102   1e-19
+UniRef90_W5KAN2 Protein tyrosine kinase 2 n=1 Tax=Astyanax mexic...   101   2e-19
+UniRef90_UPI00094EEAE3 protein-tyrosine kinase 2-beta n=1 Tax=Hi...   101   2e-19
+UniRef90_UPI0008F9DBB0 focal adhesion kinase 1 isoform X1 n=2 Ta...   100   3e-19
+UniRef90_A0A094K9V8 Focal adhesion kinase 1 (Fragment) n=3 Tax=N...   100   4e-19
+UniRef90_A0A1V9XHT5 Focal adhesion kinase 1-like n=1 Tax=Tropila...   100   4e-19
+UniRef90_H2YTK3 Uncharacterized protein n=1 Tax=Ciona savignyi T...   100   4e-19
+UniRef90_UPI0005280664 focal adhesion kinase 1 n=2 Tax=Amniota T...   100   5e-19
+UniRef90_UPI000719C443 focal adhesion kinase 1-like n=1 Tax=Pria...   100   5e-19
+UniRef90_G1S2N7 Protein tyrosine kinase 2 beta n=1 Tax=Nomascus ...   100   6e-19
+UniRef90_G1S2N5 Protein tyrosine kinase 2 beta n=1 Tax=Nomascus ...    99   7e-19
+UniRef90_L7MI74 Uncharacterized protein (Fragment) n=1 Tax=Rhipi...    99   1e-18
+UniRef90_A0A0A9XYV5 Focal adhesion kinase 1 n=4 Tax=Lygus hesper...    99   1e-18
+UniRef90_A0A131YUV2 Focal adhesion kinase 1 n=3 Tax=Ixodidae Tax...    99   1e-18
+UniRef90_G1NJW7 Uncharacterized protein n=1 Tax=Meleagris gallop...    99   1e-18
+UniRef90_UPI00052929F3 focal adhesion kinase 1-like n=1 Tax=Mesi...    98   3e-18
+UniRef90_A0A212CMD3 PTK2B (Fragment) n=1 Tax=Cervus elaphus hipp...    97   5e-18
+UniRef90_UPI00062A6A1D protein-tyrosine kinase 2-beta-like n=1 T...    96   7e-18
+UniRef90_UPI000522DCA2 protein-tyrosine kinase 2-beta-like n=1 T...    93   6e-17
+UniRef90_A0A091K102 Protein-tyrosine kinase 2-beta (Fragment) n=...    93   8e-17
+UniRef90_A0A0A0A169 Protein-tyrosine kinase 2-beta (Fragment) n=...    92   9e-17
+UniRef90_H2T8R0 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...    92   1e-16
+UniRef90_H2T8R3 Protein tyrosine kinase 2 beta, b n=1 Tax=Takifu...    92   2e-16
+UniRef90_UPI000A2BFD98 focal adhesion kinase 1 n=1 Tax=Parasteat...    91   4e-16
+UniRef90_UPI000A2A5583 focal adhesion kinase 1-like isoform X1 n...    90   6e-16
+UniRef90_UPI000A2A51C0 focal adhesion kinase 1-like isoform X3 n...    90   7e-16
+UniRef90_UPI0006411943 focal adhesion kinase 1-like n=2 Tax=Hydr...    90   7e-16
+UniRef90_A0A212FAB3 Focal adhesion kinase 1 n=2 Tax=Danaus plexi...    89   8e-16
+UniRef90_Q5MB01 Protein-tyrosine kinase (Fragment) n=1 Tax=Hydra...    89   1e-15
+UniRef90_T1E1S3 Putative focal adhesion protein kinase n=1 Tax=C...    89   1e-15
+UniRef90_UPI000B39F24F LOW QUALITY PROTEIN: uncharacterized prot...    88   2e-15
+UniRef90_UPI000B4E904D PHD finger protein 20-like protein 1 n=1 ...    88   2e-15
+UniRef90_H2V5E0 Protein tyrosine kinase 2 beta, a n=2 Tax=Takifu...    88   2e-15
+UniRef90_H2LYR3 Protein tyrosine kinase 2 beta, b n=2 Tax=Oryzia...    87   3e-15
+UniRef90_A0A182MV34 Uncharacterized protein n=1 Tax=Anopheles cu...    87   4e-15
+UniRef90_A0A182RAR1 Uncharacterized protein n=1 Tax=Anopheles fu...    87   4e-15
+UniRef90_A0A182WDM7 Uncharacterized protein n=1 Tax=Anopheles mi...    87   4e-15
+UniRef90_A0A182SW91 Uncharacterized protein n=1 Tax=Anopheles ma...    87   5e-15
+UniRef90_UPI0006B0F188 focal adhesion kinase 1-like n=1 Tax=Limu...    87   5e-15
+UniRef90_A0A182N274 Uncharacterized protein n=1 Tax=Anopheles di...    87   5e-15
+UniRef90_Q5MCM8 Protein-tyrosine kinase (Fragment) n=1 Tax=Hydra...    87   6e-15
+UniRef90_A0A1A9U5U4 Uncharacterized protein n=1 Tax=Anopheles st...    86   7e-15
+UniRef90_UPI00067BF62F focal adhesion kinase 1 isoform X1 n=4 Ta...    86   7e-15
+UniRef90_UPI0006CF14B6 focal adhesion kinase 1 isoform X1 n=4 Ta...    86   7e-15
+UniRef90_A0A182YAY9 Uncharacterized protein n=1 Tax=Anopheles st...    86   7e-15
+UniRef90_A0A1L8DL69 Protein tyrosine kinase (Fragment) n=1 Tax=N...    86   8e-15
+UniRef90_C1BUC9 Focal adhesion kinase 1 n=1 Tax=Lepeophtheirus s...    86   9e-15
+UniRef90_A0A1Q3G2P4 Putative focal adhesion kinase 1 (Fragment) ...    86   9e-15
+UniRef90_F4WDN4 Focal adhesion kinase 1 n=1 Tax=Acromyrmex echin...    86   1e-14
+UniRef90_Q866G6 Non-receptor tyrosine kinase Pyk2 (Fragment) n=1...    86   1e-14
+UniRef90_G3UCQ3 Protein tyrosine kinase 2 n=1 Tax=Loxodonta afri...    86   1e-14
+UniRef90_H2LMY3 Protein tyrosine kinase 2 beta, a n=1 Tax=Oryzia...    86   1e-14
+UniRef90_UPI0009379A1F focal adhesion kinase 1-like isoform X1 n...    86   1e-14
+UniRef90_A0A182Q8Z5 Uncharacterized protein n=1 Tax=Anopheles fa...    86   1e-14
+UniRef90_A0A182HW81 Uncharacterized protein n=1 Tax=Anopheles ar...    85   1e-14
+UniRef90_A0A182X5R5 Uncharacterized protein n=1 Tax=Anopheles qu...    85   1e-14
+UniRef90_A0A182TD43 Uncharacterized protein n=1 Tax=Anopheles me...    85   1e-14
+UniRef90_UPI00080A24ED protein-tyrosine kinase 2-beta n=1 Tax=Ce...    85   1e-14
+UniRef90_UPI00077F9E73 focal adhesion kinase 1 n=1 Tax=Parasteat...    85   2e-14
+UniRef90_UPI00093575B4 uncharacterized protein LOC109401644 n=4 ...    85   2e-14
+UniRef90_A0A194QFF4 Focal adhesion kinase 1 n=1 Tax=Papilio xuth...    85   2e-14
+UniRef90_A0A182KKY8 Uncharacterized protein n=1 Tax=Anopheles co...    84   2e-14
+UniRef90_G3UMP3 Protein tyrosine kinase 2 n=1 Tax=Loxodonta afri...    84   3e-14
+UniRef90_A0A182K8Y9 Uncharacterized protein n=1 Tax=Anopheles ch...    84   3e-14
+UniRef90_Q7QHB8 AGAP011118-PA (Fragment) n=1 Tax=Anopheles gambi...    84   3e-14
+UniRef90_A0A194QQA5 Focal adhesion kinase 1 n=1 Tax=Papilio mach...    84   3e-14
+UniRef90_A0A182PJM9 Uncharacterized protein n=1 Tax=Anopheles ep...    84   3e-14
+UniRef90_UPI0006EB0F7C LOW QUALITY PROTEIN: focal adhesion kinas...    84   4e-14
+UniRef90_UPI0006D5259B focal adhesion kinase 1 n=1 Tax=Halyomorp...    83   6e-14
+UniRef90_A0A1E1W0N6 Uncharacterized protein (Fragment) n=2 Tax=P...    83   6e-14
+UniRef90_B0XFT0 Focal adhesion kinase n=1 Tax=Culex quinquefasci...    83   6e-14
+UniRef90_W5J275 Uncharacterized protein n=1 Tax=Anopheles darlin...    83   7e-14
+UniRef90_A0A182FBZ8 Uncharacterized protein n=1 Tax=Anopheles al...    83   7e-14
+UniRef90_A0A182JHN4 Uncharacterized protein n=1 Tax=Anopheles at...    83   7e-14
+UniRef90_UPI0006804DD1 LOW QUALITY PROTEIN: protein-tyrosine kin...    83   9e-14
+UniRef90_A0A1L8DKQ1 Protein tyrosine kinase (Fragment) n=2 Tax=N...    82   1e-13
+UniRef90_UPI000678B0FE focal adhesion kinase 1 isoform X1 n=4 Ta...    82   1e-13
+UniRef90_UPI000B7774D9 focal adhesion kinase 1 isoform X3 n=2 Ta...    82   1e-13
+UniRef90_Q17C76 AAEL004666-PA (Fragment) n=1 Tax=Aedes aegypti T...    82   1e-13
+UniRef90_A0A1S4F8A3 Focal adhesion kinase n=1 Tax=Aedes aegypti ...    82   1e-13
+UniRef90_UPI0006762957 focal adhesion kinase 1-like n=1 Tax=Papi...    82   2e-13
+UniRef90_UPI0009E272F6 focal adhesion kinase 1-like n=1 Tax=Orbi...    82   2e-13
+UniRef90_H2YTK4 Uncharacterized protein n=1 Tax=Ciona savignyi T...    81   3e-13
+UniRef90_A0A0B2V5S5 Focal adhesion kinase 1 n=1 Tax=Toxocara can...    81   3e-13
+UniRef90_H2YTK6 Uncharacterized protein n=2 Tax=Ciona savignyi T...    81   3e-13
+UniRef90_H2YTK9 Uncharacterized protein n=1 Tax=Ciona savignyi T...    80   5e-13
+UniRef90_A0A158RAN9 Uncharacterized protein n=1 Tax=Thelazia cal...    80   5e-13
+UniRef90_H2YTL0 Uncharacterized protein n=1 Tax=Ciona savignyi T...    80   6e-13
+UniRef90_UPI0005D045C4 uncharacterized protein LOC105388640 isof...    80   6e-13
+UniRef90_H2YTK7 Uncharacterized protein n=3 Tax=Ciona savignyi T...    80   6e-13
+UniRef90_UPI000A3659E1 LOW QUALITY PROTEIN: protein-tyrosine kin...    79   1e-12
+UniRef90_A0A1I7VE43 TK/FAK protein kinase n=1 Tax=Loa loa TaxID=...    79   1e-12
+UniRef90_A0A1I7ZGA3 Uncharacterized protein n=1 Tax=Steinernema ...    79   1e-12
+UniRef90_A0A183UDT3 Uncharacterized protein n=1 Tax=Toxocara can...    79   2e-12
+UniRef90_H2YTL1 Uncharacterized protein n=1 Tax=Ciona savignyi T...    77   5e-12
+UniRef90_A0A1V4KCM6 Uncharacterized protein n=1 Tax=Patagioenas ...    77   6e-12
+UniRef90_A0A0N5AUT8 Uncharacterized protein n=1 Tax=Syphacia mur...    76   1e-11
+UniRef90_A0A182EDC2 Uncharacterized protein n=1 Tax=Onchocerca o...    75   2e-11
+UniRef90_A0A1S4ET38 uncharacterized protein LOC103504814 isoform...    74   4e-11
+UniRef90_A0A0R3RQA2 Uncharacterized protein n=1 Tax=Elaeophora e...    73   6e-11
+UniRef90_U3IPQ3 Protein tyrosine kinase 2 beta n=1 Tax=Anas plat...    72   2e-10
+UniRef90_A0A0N4UFK0 Uncharacterized protein n=1 Tax=Dracunculus ...    71   3e-10
+UniRef90_A0A0P5PIZ8 Focal adhesion kinase (Fragment) n=1 Tax=Dap...    71   3e-10
+UniRef90_A0A0P5PC59 Focal adhesion kinase (Fragment) n=1 Tax=Dap...    71   3e-10
+UniRef90_A0A0P6F2H5 Focal adhesion kinase n=1 Tax=Daphnia magna ...    71   4e-10
+UniRef90_A0A0P6FTJ7 Focal adhesion kinase n=1 Tax=Daphnia magna ...    71   4e-10
+UniRef90_A0A0P5PK22 Focal adhesion kinase n=5 Tax=Daphnia magna ...    71   4e-10
+UniRef90_A0A0P5FTJ9 Focal adhesion kinase n=13 Tax=Daphnia magna...    71   4e-10
+UniRef90_A0A0P5H7R1 Focal adhesion kinase n=12 Tax=Daphnia magna...    71   5e-10
+UniRef90_A0A0P6FL50 Focal adhesion kinase n=5 Tax=Daphnia magna ...    70   5e-10
+UniRef90_B7PFN0 Focal adhesion kinase, putative (Fragment) n=1 T...    70   5e-10
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_W5MLW0 Protein tyrosine kinase 2ab n=1 Tax=Lepisosteus oculatus TaxID=7918
+           RepID=W5MLW0_LEPOC
+          Length = 1079
+
+ Score =  158 bits (400), Expect = 1e-36,   Method: Composition-based stats.
+ Identities = 79/95 (83%), Positives = 89/95 (93%)
+
+Query: 1   MERVLKVFHYFENSSEPTTWASIIRHGDATDVRGIIQKIVDCHKVKNVACYGLRLSHLQS 60
+           ++RVLKVFHYFE++SEP+TWAS IRHGDATDVRGIIQKIVD HKVK V+CYGLRLSHLQS
+Sbjct: 55  LDRVLKVFHYFESNSEPSTWASNIRHGDATDVRGIIQKIVDIHKVKCVSCYGLRLSHLQS 114
+
+Query: 61  EEVHWLHLDMGVSNVREKFELAHPPEEWKYELRIR 95
+           EE+HWLH DMGVS+VREK+EL HP EEW+YELRIR
+Sbjct: 115 EEIHWLHPDMGVSHVREKYELNHPQEEWRYELRIR 149
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.319    0.172    0.555 
+
+Lambda     K      H
+   0.267   0.0524    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 20,915,584,234
+Number of Sequences: 61934301
+Number of extensions: 895880160
+Number of successful extensions: 1949146
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 2079
+Number of HSP's successfully gapped in prelim test: 348
+Number of HSP's that attempted gapping in prelim test: 1944727
+Number of HSP's gapped (non-prelim): 2570
+length of query: 95
+length of database: 21,023,703,129
+effective HSP length: 64
+effective length of query: 31
+effective length of database: 21,354,875,161
+effective search space: 662001129991
+effective search space used: 662001129991
+T: 11
+A: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.4 bits)
+S2: 83 (36.2 bits)
