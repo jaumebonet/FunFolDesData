@@ -1,0 +1,2299 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2pkoA
+         (99 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_B3LTL7 Ubiquitin-related modifier 1 n=9 Tax=Saccharomyc...   172   5e-41
+UniRef90_J5P883 Ubiquitin-related modifier 1 n=3 Tax=Saccharomyc...   160   4e-37
+UniRef90_C5DLF4 Ubiquitin-related modifier 1 n=2 Tax=Lachancea T...   140   4e-31
+UniRef90_G0VJK5 Ubiquitin-related modifier 1 n=1 Tax=Naumovozyma...   137   3e-30
+UniRef90_A0A0C7MY58 Ubiquitin-related modifier 1 n=2 Tax=Lachanc...   136   6e-30
+UniRef90_A0A1G4JFX7 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   135   8e-30
+UniRef90_Q75AD1 Ubiquitin-related modifier 1 n=2 Tax=Saccharomyc...   135   2e-29
+UniRef90_A7TQ77 Ubiquitin-related modifier 1 n=1 Tax=Vanderwalto...   133   4e-29
+UniRef90_A0A1G4KNH5 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   133   5e-29
+UniRef90_A0A1G4MI88 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   133   5e-29
+UniRef90_J7SB37 Ubiquitin-related modifier 1 n=1 Tax=Kazachstani...   131   1e-28
+UniRef90_A0A1G4JLL3 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   129   6e-28
+UniRef90_A0A1G4JUH5 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   129   7e-28
+UniRef90_G8JU35 Ubiquitin-related modifier 1 n=1 Tax=Eremotheciu...   128   2e-27
+UniRef90_G8ZZV7 Ubiquitin-related modifier 1 n=1 Tax=Torulaspora...   127   3e-27
+UniRef90_A0A120K285 Ubiquitin-related modifier 1 n=1 Tax=Eremoth...   125   7e-27
+UniRef90_G8BZU5 Ubiquitin-related modifier 1 n=1 Tax=Tetrapisisp...   125   1e-26
+UniRef90_C4Y2E3 Ubiquitin-related modifier 1 n=1 Tax=Clavispora ...   124   2e-26
+UniRef90_A0A1S7HNZ1 Ubiquitin-related modifier 1 n=3 Tax=Zygosac...   121   2e-25
+UniRef90_G0W5D4 Ubiquitin-related modifier 1 n=1 Tax=Naumovozyma...   120   2e-25
+UniRef90_H2B207 Ubiquitin-related modifier 1 n=1 Tax=Kazachstani...   120   3e-25
+UniRef90_Q6CQU4 Ubiquitin-related modifier 1 n=3 Tax=Kluyveromyc...   119   1e-24
+UniRef90_Q6FWQ3 Ubiquitin-related modifier 1 n=2 Tax=Candida gla...   117   3e-24
+UniRef90_A0A1E5R562 Ubiquitin-related modifier 1 n=1 Tax=Hanseni...   115   8e-24
+UniRef90_W1QKU6 Ubiquitin-related modifier 1 n=2 Tax=Ogataea Tax...   114   2e-23
+UniRef90_I2H5N3 Ubiquitin-related modifier 1 n=1 Tax=Tetrapisisp...   114   3e-23
+UniRef90_C5DT43 Ubiquitin-related modifier 1 n=3 Tax=Zygosacchar...   113   5e-23
+UniRef90_A0A1A0H7W8 Ubiquitin-related modifier 1 n=1 Tax=Metschn...   113   6e-23
+UniRef90_A0A1E4T505 Ubiquitin-related modifier 1 n=1 Tax=Candida...   111   2e-22
+UniRef90_A0A1E4RPS4 Ubiquitin-related modifier 1 n=1 Tax=Hyphopi...   110   5e-22
+UniRef90_A3GFM6 Ubiquitin-related modifier 1 n=1 Tax=Scheffersom...   109   6e-22
+UniRef90_A0A099NUE6 Ubiquitin-related modifier 1 n=1 Tax=Pichia ...   109   7e-22
+UniRef90_C5MD24 Ubiquitin-related modifier 1 n=1 Tax=Candida tro...   109   8e-22
+UniRef90_G3AGB5 Ubiquitin-related modifier 1 n=1 Tax=Spathaspora...   108   1e-21
+UniRef90_A0A1E3QIV4 Ubiquitin-related modifier 1 n=1 Tax=Babjevi...   108   2e-21
+UniRef90_A0A1E4SPB9 Ubiquitin-related modifier 1 n=1 Tax=Candida...   107   3e-21
+UniRef90_Q6BVZ7 Ubiquitin-related modifier 1 n=3 Tax=Debaryomyce...   107   3e-21
+UniRef90_A0A1L0BY06 Ubiquitin-related modifier 1 n=1 Tax=[Candid...   105   1e-20
+UniRef90_Q59WK2 Ubiquitin-related modifier 1 n=3 Tax=Candida Tax...   105   1e-20
+UniRef90_A0A1E5RG00 Ubiquitin-related modifier 1 n=3 Tax=Hanseni...   105   2e-20
+UniRef90_H8WYB1 Ubiquitin-related modifier 1 n=3 Tax=cellular or...   104   2e-20
+UniRef90_A0A1B7THZ0 Ubiquitin-related modifier 1 n=1 Tax=Hanseni...   104   2e-20
+UniRef90_A0A1E3NFB1 Ubiquitin-related modifier 1 n=1 Tax=Pichia ...   104   2e-20
+UniRef90_A0A0L0NZB8 Ubiquitin-related modifier 1 n=1 Tax=[Candid...   103   4e-20
+UniRef90_F2QT59 Ubiquitin-related modifier 1 n=2 Tax=Komagataell...   103   5e-20
+UniRef90_G3BAA3 Ubiquitin-related modifier 1 n=1 Tax=Candida ten...   102   1e-19
+UniRef90_A5DTV4 Ubiquitin-related modifier 1 n=1 Tax=Lodderomyce...   102   1e-19
+UniRef90_A0A1V2KZR9 Ubiquitin-related modifier 1 n=1 Tax=Cyberli...   101   2e-19
+UniRef90_G8YPM5 Ubiquitin-related modifier 1 n=2 Tax=Pichia sorb...   100   4e-19
+UniRef90_A0A1B2JB19 Ubiquitin-related modifier 1 n=1 Tax=Komagat...   100   7e-19
+UniRef90_A0A061BCL8 Ubiquitin-related modifier 1 n=1 Tax=Cyberli...   100   7e-19
+UniRef90_A0A1E4TNR8 Ubiquitin-related modifier 1 n=1 Tax=Pachyso...    99   1e-18
+UniRef90_D5GA60 Ubiquitin-related modifier 1 n=1 Tax=Tuber melan...    98   2e-18
+UniRef90_A0A0G4N3V4 Ubiquitin-related modifier 1 (Fragment) n=1 ...    96   7e-18
+UniRef90_A0A0G2IGB0 Ubiquitin-related modifier 1 n=2 Tax=Diaport...    95   2e-17
+UniRef90_J4UN14 Ubiquitin-related modifier 1 n=1 Tax=Beauveria b...    94   5e-17
+UniRef90_A7ETU4 Ubiquitin-related modifier 1 n=3 Tax=Sclerotinia...    93   7e-17
+UniRef90_G3JGJ0 Ubiquitin-related modifier 1 n=2 Tax=Cordyceps T...    93   8e-17
+UniRef90_F9X499 Ubiquitin-related modifier 1 n=4 Tax=Zymoseptori...    92   9e-17
+UniRef90_A0A074RIF6 Ubiquitin-related modifier 1 n=2 Tax=Rhizoct...    91   2e-16
+UniRef90_M2NHD7 Ubiquitin-related modifier 1 n=1 Tax=Baudoinia c...    91   2e-16
+UniRef90_W4JUV6 Ubiquitin-related modifier 1 n=1 Tax=Heterobasid...    91   2e-16
+UniRef90_C1GXR9 Ubiquitin-related modifier 1 n=4 Tax=Paracoccidi...    91   4e-16
+UniRef90_A0A1E1L6H3 Ubiquitin-related modifier 1 n=3 Tax=Rhyncho...    91   4e-16
+UniRef90_A0A136J6Z8 Ubiquitin-related modifier 1 n=1 Tax=Microdo...    90   7e-16
+UniRef90_A6S5X1 Ubiquitin-related modifier 1 n=3 Tax=Botryotinia...    89   8e-16
+UniRef90_L0PFH5 Ubiquitin-related modifier 1 n=2 Tax=Pneumocysti...    89   8e-16
+UniRef90_A0A1Y2EJJ6 Ubiquitin-related modifier 1 n=1 Tax=Pseudom...    89   8e-16
+UniRef90_E4UYV7 Ubiquitin-related modifier 1 n=1 Tax=Arthroderma...    89   8e-16
+UniRef90_F0XRF0 Ubiquitin-related modifier 1 n=1 Tax=Grosmannia ...    89   8e-16
+UniRef90_A0A0L6X1F3 Ubiquitin-related modifier 1 n=1 Tax=Termito...    89   8e-16
+UniRef90_A0A0G4KGU3 Ubiquitin-related modifier 1 n=1 Tax=Vertici...    89   9e-16
+UniRef90_A0A1S9S113 Ubiquitin-related modifier 1 n=3 Tax=Penicil...    89   9e-16
+UniRef90_A0A0N8H4Y6 Ubiquitin-related modifier 1 n=1 Tax=Neonect...    89   1e-15
+UniRef90_Q1E493 Ubiquitin-related modifier 1 n=7 Tax=Coccidioide...    89   1e-15
+UniRef90_A0A165FRB6 Ubiquitin-related modifier 1 n=1 Tax=Xylona ...    89   1e-15
+UniRef90_K5WYL5 Ubiquitin-related modifier 1 n=2 Tax=Agaricus bi...    89   1e-15
+UniRef90_M5BY56 Ubiquitin-related modifier 1 n=2 Tax=Thanatephor...    89   1e-15
+UniRef90_G0SE11 Ubiquitin-related modifier 1 n=1 Tax=Chaetomium ...    89   1e-15
+UniRef90_A0A167BRK1 Ubiquitin-related modifier 1 n=1 Tax=Metarhi...    89   1e-15
+UniRef90_A0A0D7BET9 Ubiquitin-related modifier 1 n=1 Tax=Cylindr...    89   2e-15
+UniRef90_UPI000440C425 ubiquitin-like modifier 1 n=1 Tax=Stereum...    88   2e-15
+UniRef90_A0A1V1SVX9 Ubiquitin-related modifier 1 n=1 Tax=fungal ...    88   2e-15
+UniRef90_A0A059IYB3 Ubiquitin-related modifier 1 n=1 Tax=Trichop...    88   2e-15
+UniRef90_A8P008 Ubiquitin-related modifier 1 n=1 Tax=Coprinopsis...    88   2e-15
+UniRef90_A0A0C3GIE2 Ubiquitin-related modifier 1 n=1 Tax=Oidiode...    88   2e-15
+UniRef90_S8AW36 Ubiquitin-related modifier 1 n=1 Tax=Penicillium...    88   2e-15
+UniRef90_G2Q7Q2 Ubiquitin-related modifier 1 n=1 Tax=Myceliophth...    88   3e-15
+UniRef90_C5FRC6 Ubiquitin-related modifier 1 n=1 Tax=Arthroderma...    88   3e-15
+UniRef90_A0A1Y2UTN2 Ubiquitin-related modifier 1 n=1 Tax=Hypoxyl...    88   3e-15
+UniRef90_A0A074X3A7 Ubiquitin-related modifier 1 n=4 Tax=Aureoba...    88   3e-15
+UniRef90_A0A1Y2X6X7 Ubiquitin-related modifier 1 n=1 Tax=Daldini...    88   3e-15
+UniRef90_A0A0F7SQD5 Ubiquitin-related modifier 1 n=1 Tax=Phaffia...    87   3e-15
+UniRef90_A0A0F8A4U4 Ubiquitin-related modifier 1 n=1 Tax=Hirsute...    87   3e-15
+UniRef90_A0A1V6QAM5 Ubiquitin-related modifier 1 n=1 Tax=Penicil...    87   3e-15
+UniRef90_K1XM57 Ubiquitin-related modifier 1 n=1 Tax=Marssonina ...    87   3e-15
+UniRef90_Q9C245 Ubiquitin-related modifier 1 n=5 Tax=Sordariacea...    87   3e-15
+UniRef90_G4NGZ8 Ubiquitin-related modifier 1 n=1 Tax=Magnaporthe...    87   4e-15
+UniRef90_A0A0M3J2V7 Ubiquitin-related modifier 1 homolog n=1 Tax...    87   4e-15
+UniRef90_A0A178AR90 Ubiquitin-related modifier 1 n=1 Tax=Stagono...    87   4e-15
+UniRef90_A0A1W2TLB3 Ubiquitin-related modifier 1 n=1 Tax=Roselli...    87   4e-15
+UniRef90_A0A1Y2W7Y5 Ubiquitin-related modifier 1 n=1 Tax=Hypoxyl...    87   4e-15
+UniRef90_F2PUZ0 Ubiquitin-related modifier 1 n=7 Tax=Trichophyto...    87   4e-15
+UniRef90_A0A0K6GAW8 Ubiquitin-related modifier 1 n=1 Tax=Rhizoct...    87   5e-15
+UniRef90_A0A0G2DVU7 Ubiquitin-related modifier 1 n=3 Tax=Diplodi...    87   5e-15
+UniRef90_A0A168LTT3 Ubiquitin-related modifier 1 n=2 Tax=Absidia...    87   5e-15
+UniRef90_A0A167Y8S5 Ubiquitin-related modifier 1 n=1 Tax=Ascosph...    87   5e-15
+UniRef90_A0A146H8J7 Ubiquitin-related modifier 1 n=1 Tax=Mycena ...    87   5e-15
+UniRef90_M3CQH7 Ubiquitin-related modifier 1 n=1 Tax=Sphaerulina...    87   5e-15
+UniRef90_A0A1Z5T4Y6 Ubiquitin-related modifier 1 n=2 Tax=Hortaea...    87   5e-15
+UniRef90_M3ANF9 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...    87   6e-15
+UniRef90_A0A0I9X7G1 Ubiquitin-related modifier 1 n=3 Tax=Fusariu...    87   6e-15
+UniRef90_A0A0D2XCE2 Ubiquitin-related modifier 1 n=15 Tax=Fusari...    87   6e-15
+UniRef90_A0A1E4RU51 Ubiquitin-related modifier 1 n=2 Tax=Cyberli...    86   6e-15
+UniRef90_A0A0N1H7M9 Ubiquitin-related modifier 1 n=1 Tax=Phialop...    86   7e-15
+UniRef90_A0A164YJ44 Ubiquitin-related modifier 1 n=1 Tax=Sistotr...    86   9e-15
+UniRef90_A0A067MBC4 Ubiquitin-related modifier 1 n=1 Tax=Botryob...    86   9e-15
+UniRef90_S7R6P2 Ubiquitin-related modifier 1 n=1 Tax=Gloeophyllu...    86   1e-14
+UniRef90_A0A0L9SJT4 Ubiquitin-related modifier 1 n=1 Tax=Ophioco...    86   1e-14
+UniRef90_D8Q7Q0 Ubiquitin-related modifier 1 n=1 Tax=Schizophyll...    86   1e-14
+UniRef90_A0A0B7KE40 Ubiquitin-related modifier 1 n=1 Tax=Bionect...    86   1e-14
+UniRef90_A0A067Q2A1 Ubiquitin-related modifier 1 n=1 Tax=Jaapia ...    86   1e-14
+UniRef90_A0A0C2XV71 Ubiquitin-related modifier 1 n=1 Tax=Hebelom...    86   1e-14
+UniRef90_W6QL97 Ubiquitin-related modifier 1 n=16 Tax=Penicilliu...    86   1e-14
+UniRef90_A0A1M2V9F9 Ubiquitin-related modifier 1 n=2 Tax=Tramete...    86   1e-14
+UniRef90_A0A1X6MLY0 Ubiquitin-related modifier 1 n=1 Tax=Postia ...    85   1e-14
+UniRef90_UPI0009829277 Ubiquitin-related modifier 1 n=1 Tax=Tala...    85   1e-14
+UniRef90_J3P3A4 Ubiquitin-related modifier 1 n=1 Tax=Gaeumannomy...    85   1e-14
+UniRef90_M7PJ08 Ubiquitin-related modifier 1 n=1 Tax=Pneumocysti...    85   1e-14
+UniRef90_A0A0C3RYV7 Ubiquitin-related modifier 1 n=1 Tax=Phlebio...    85   1e-14
+UniRef90_V5FMT8 Ubiquitin-related modifier 1 n=1 Tax=Byssochlamy...    85   2e-14
+UniRef90_J4I9W0 Ubiquitin-related modifier 1 n=1 Tax=Fibroporia ...    85   2e-14
+UniRef90_A0A0C3AZK2 Ubiquitin-related modifier 1 (Fragment) n=1 ...    85   2e-14
+UniRef90_A0A1V6T3U5 Ubiquitin-related modifier 1 n=1 Tax=Penicil...    85   2e-14
+UniRef90_K2RE67 Ubiquitin-related modifier 1 n=1 Tax=Macrophomin...    85   2e-14
+UniRef90_A0A175W288 Ubiquitin-related modifier 1 n=1 Tax=Madurel...    85   2e-14
+UniRef90_A0A166TMW3 Ubiquitin-related modifier 1 n=1 Tax=Fibular...    85   2e-14
+UniRef90_A0A0N4UKN8 Ubiquitin-related modifier 1 homolog n=1 Tax...    84   2e-14
+UniRef90_A0A0D1YHF2 Ubiquitin-related modifier 1 n=1 Tax=Verruco...    84   2e-14
+UniRef90_A0A0C4E5L5 Ubiquitin-related modifier 1 n=1 Tax=Magnapo...    84   3e-14
+UniRef90_R1FYH7 Ubiquitin-related modifier 1 n=1 Tax=Botryosphae...    84   3e-14
+UniRef90_A0A194VFD5 Ubiquitin-related modifier 1 n=2 Tax=Valsa m...    84   3e-14
+UniRef90_A0A1V8V2Y1 Ubiquitin-related modifier 1 n=4 Tax=Rachicl...    84   3e-14
+UniRef90_A0A0F2M6D2 Ubiquitin-related modifier 1 n=3 Tax=Sporoth...    84   3e-14
+UniRef90_K3VLY2 Ubiquitin-related modifier 1 n=1 Tax=Fusarium ps...    84   3e-14
+UniRef90_A0A1Y2M6W2 Ubiquitin-related modifier 1 n=1 Tax=Epicocc...    84   3e-14
+UniRef90_A0A1B5L1B2 Ubiquitin-related modifier 1 n=1 Tax=Ustilag...    84   3e-14
+UniRef90_A0A0G2ES14 Ubiquitin-related modifier 1 n=1 Tax=Phaeomo...    84   3e-14
+UniRef90_M7SL00 Ubiquitin-related modifier 1 n=1 Tax=Eutypa lata...    84   4e-14
+UniRef90_A0A0D8XZM9 Ubiquitin-related modifier 1 homolog n=1 Tax...    84   4e-14
+UniRef90_W2RW73 Ubiquitin-related modifier 1 n=1 Tax=Cyphellopho...    84   4e-14
+UniRef90_G2QS24 Ubiquitin-related modifier 1 n=1 Tax=Thielavia t...    84   4e-14
+UniRef90_I0ZAE4 Ubiquitin-related modifier 1 homolog n=1 Tax=Coc...    84   4e-14
+UniRef90_A0A0N4VF19 Ubiquitin-related modifier 1 homolog n=1 Tax...    84   5e-14
+UniRef90_A0A1X2H7T9 Ubiquitin-related modifier 1 n=1 Tax=Synceph...    84   5e-14
+UniRef90_A0A194XK49 Ubiquitin-related modifier 1 n=1 Tax=Phialoc...    84   5e-14
+UniRef90_T5AFD3 Ubiquitin-related modifier 1 n=1 Tax=Ophiocordyc...    83   5e-14
+UniRef90_A0A016UUE4 Ubiquitin-related modifier 1 homolog n=3 Tax...    83   5e-14
+UniRef90_UPI0004414060 ubiquitin-related modifier 1 n=1 Tax=Auri...    83   6e-14
+UniRef90_A0A0H5R8Y8 Ubiquitin-related modifier 1 (Fragment) n=1 ...    83   6e-14
+UniRef90_A0A1S1VHC1 Ubiquitin-related modifier 1 n=2 Tax=Colleto...    83   6e-14
+UniRef90_F4PGQ4 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...    83   6e-14
+UniRef90_R0K833 Ubiquitin-related modifier 1 n=1 Tax=Setosphaeri...    83   7e-14
+UniRef90_Q9P3U9 Ubiquitin-related modifier 1 n=1 Tax=Schizosacch...    83   7e-14
+UniRef90_K5V3E0 Ubiquitin-related modifier 1 n=1 Tax=Phanerochae...    83   8e-14
+UniRef90_A6R989 Ubiquitin-related modifier 1 n=5 Tax=Ajellomycet...    83   8e-14
+UniRef90_A0A0H2S177 Ubiquitin-related modifier 1 n=1 Tax=Schizop...    83   8e-14
+UniRef90_A0A010RE10 Ubiquitin-related modifier 1 n=7 Tax=Colleto...    83   9e-14
+UniRef90_A0A1E3PXS6 Ubiquitin-related modifier 1 n=1 Tax=Lipomyc...    83   9e-14
+UniRef90_A0A060SI28 Ubiquitin-related modifier 1 n=1 Tax=Pycnopo...    82   9e-14
+UniRef90_A0A0C9MT34 Ubiquitin-related modifier 1 n=3 Tax=Mucor T...    82   1e-13
+UniRef90_A0A150V3S6 Ubiquitin-related modifier 1 n=1 Tax=Acidomy...    82   1e-13
+UniRef90_A0A179GHU3 Ubiquitin-related modifier 1 n=1 Tax=Purpure...    82   1e-13
+UniRef90_A0A165F1C9 Ubiquitin-related modifier 1 n=1 Tax=Laetipo...    82   1e-13
+UniRef90_C5GXV7 Ubiquitin-related modifier 1 n=5 Tax=Blastomyces...    82   1e-13
+UniRef90_U6PK78 Ubiquitin-related modifier 1 homolog n=1 Tax=Hae...    82   1e-13
+UniRef90_A0A1L7X1Q3 Ubiquitin-related modifier 1 n=1 Tax=Phialoc...    82   1e-13
+UniRef90_A0A086TE31 Ubiquitin-related modifier 1 n=1 Tax=Acremon...    82   1e-13
+UniRef90_A0A166I4Q1 Ubiquitin-related modifier 1 n=1 Tax=Sistotr...    82   1e-13
+UniRef90_E5A4L2 Ubiquitin-related modifier 1 n=1 Tax=Leptosphaer...    82   1e-13
+UniRef90_A0A060TAC5 Ubiquitin-related modifier 1 n=1 Tax=Blastob...    82   1e-13
+UniRef90_A0A0C2WPN9 Ubiquitin-related modifier 1 n=1 Tax=Amanita...    82   1e-13
+UniRef90_A0A0C9WG41 Ubiquitin-related modifier 1 n=1 Tax=Hydnome...    82   1e-13
+UniRef90_A0A158PH61 Ubiquitin-related modifier 1 homolog n=1 Tax...    82   1e-13
+UniRef90_I2FYX3 Ubiquitin-related modifier 1 n=2 Tax=Ustilago Ta...    82   2e-13
+UniRef90_A0A1W5CY17 Ubiquitin-related modifier 1 n=1 Tax=Umbilic...    82   2e-13
+UniRef90_A0A1Y1UC27 Ubiquitin-related modifier 1 n=1 Tax=Kockova...    82   2e-13
+UniRef90_A0A1J7JIE2 Ubiquitin-related modifier 1 (Fragment) n=1 ...    82   2e-13
+UniRef90_A0A1V6PNC8 Ubiquitin-related modifier 1 n=1 Tax=Penicil...    82   2e-13
+UniRef90_A0A1Y2FVD8 Ubiquitin-related modifier 1 n=1 Tax=Protomy...    82   2e-13
+UniRef90_A0A0D2MMY9 Ubiquitin-related modifier 1 n=1 Tax=Hypholo...    82   2e-13
+UniRef90_A0A0J5PIJ0 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...    81   2e-13
+UniRef90_I4YGS6 Ubiquitin-related modifier 1 n=1 Tax=Wallemia me...    81   2e-13
+UniRef90_UPI0008464CE3 ubiquitin-related modifier 1 n=1 Tax=Mana...    81   2e-13
+UniRef90_A0A139HQ37 Ubiquitin-related modifier 1 n=1 Tax=Mycosph...    81   2e-13
+UniRef90_A0A0D2CB74 Ubiquitin-related modifier 1 n=2 Tax=Exophia...    81   2e-13
+UniRef90_A0A0J1AUM8 Ubiquitin-related modifier 1 n=1 Tax=Cutaneo...    81   2e-13
+UniRef90_A0A0C3KM43 Ubiquitin-related modifier 1 n=1 Tax=Tulasne...    81   2e-13
+UniRef90_S9X8A1 Ubiquitin-related modifier 1 n=2 Tax=Schizosacch...    81   3e-13
+UniRef90_S8EFK7 Ubiquitin-related modifier 1 n=1 Tax=Fomitopsis ...    81   3e-13
+UniRef90_A0A1Y3BG87 Ubiquitin-related modifier 1 homolog n=1 Tax...    81   3e-13
+UniRef90_M9MAY7 Ubiquitin-related modifier 1 n=3 Tax=Moesziomyce...    81   3e-13
+UniRef90_R4XD12 Ubiquitin-related modifier 1 n=1 Tax=Taphrina de...    81   3e-13
+UniRef90_A0A218YXS0 Uncharacterized protein n=1 Tax=Marssonina c...    81   3e-13
+UniRef90_B5FVI0 Ubiquitin-related modifier 1 n=2 Tax=Yarrowia li...    81   3e-13
+UniRef90_S4RT91 Ubiquitin-related modifier 1 n=1 Tax=Petromyzon ...    81   3e-13
+UniRef90_S7RHE8 Ubiquitin-related modifier 1 (Fragment) n=3 Tax=...    81   3e-13
+UniRef90_A0A0V0QSS3 Ubiquitin-related modifier 1 homolog n=1 Tax...    81   3e-13
+UniRef90_W6MIZ8 Ubiquitin-related modifier 1 n=1 Tax=Kuraishia c...    81   3e-13
+UniRef90_V5GFM5 Ubiquitin-related modifier 1 n=1 Tax=Kalmanozyma...    81   3e-13
+UniRef90_A0A165LER0 Ubiquitin-related modifier 1 n=1 Tax=Daedale...    80   3e-13
+UniRef90_A0A0C9M925 Ubiquitin-related modifier 1 n=1 Tax=fungal ...    80   3e-13
+UniRef90_A0A1Y2IEW1 Ubiquitin-related modifier 1 n=1 Tax=Pycnopo...    80   4e-13
+UniRef90_A0A0K0FCC5 Ubiquitin-related modifier 1 homolog n=2 Tax...    80   4e-13
+UniRef90_B8MSR1 Ubiquitin-related modifier 1 n=1 Tax=Talaromyces...    80   4e-13
+UniRef90_A0A1Y2TNJ4 Ubiquitin-related modifier 1 (Fragment) n=1 ...    80   4e-13
+UniRef90_A0A1E3BHS7 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...    80   4e-13
+UniRef90_A0A0F8UR25 Ubiquitin-related modifier 1 n=3 Tax=Aspergi...    80   4e-13
+UniRef90_Q9D2P4 Ubiquitin-related modifier 1 n=2 Tax=Mus musculu...    80   4e-13
+UniRef90_R9APP6 Ubiquitin-related modifier 1 n=1 Tax=Wallemia ic...    80   4e-13
+UniRef90_A0A1Y1YPB5 Ubiquitin-related modifier 1 n=1 Tax=Clohesy...    80   4e-13
+UniRef90_M2XYP2 Ubiquitin-related modifier 1 homolog n=1 Tax=Gal...    80   5e-13
+UniRef90_I1RT45 Ubiquitin-related modifier 1 n=1 Tax=Gibberella ...    80   5e-13
+UniRef90_A0A0W4ZJJ5 Ubiquitin-related modifier 1 n=1 Tax=Pneumoc...    80   5e-13
+UniRef90_A0A137QR80 Ubiquitin-related modifier 1 n=1 Tax=Leucoag...    80   5e-13
+UniRef90_S3DBU7 Ubiquitin-related modifier 1 n=1 Tax=Glarea lozo...    80   5e-13
+UniRef90_A8IC48 Ubiquitin-related modifier 1 homolog n=1 Tax=Chl...    80   5e-13
+UniRef90_W9XJL9 Ubiquitin-related modifier 1 n=1 Tax=Capronia co...    80   5e-13
+UniRef90_H6BYC7 Ubiquitin-related modifier 1 n=1 Tax=Exophiala d...    80   5e-13
+UniRef90_A0A0D0CH52 Ubiquitin-related modifier 1 n=1 Tax=Paxillu...    80   6e-13
+UniRef90_B0D4J6 Ubiquitin-related modifier 1 n=2 Tax=Laccaria Ta...    80   6e-13
+UniRef90_A0A0D2DDH7 Ubiquitin-related modifier 1 n=8 Tax=Herpotr...    80   6e-13
+UniRef90_G7XZ86 Ubiquitin-related modifier 1 n=3 Tax=Aspergillus...    80   6e-13
+UniRef90_A0A0C9UIS6 Ubiquitin-related modifier 1 n=1 Tax=Sphaero...    80   6e-13
+UniRef90_A0A1R3R9C7 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...    80   7e-13
+UniRef90_A0A177CQY5 Ubiquitin-related modifier 1 n=1 Tax=Parapha...    80   7e-13
+UniRef90_A0A0G4EHZ3 Ubiquitin-related modifier 1 homolog n=1 Tax...    80   7e-13
+UniRef90_B2WIC3 Ubiquitin-related modifier 1 n=2 Tax=Pyrenophora...    80   7e-13
+UniRef90_B6QV90 Ubiquitin-related modifier 1 n=2 Tax=Talaromyces...    80   7e-13
+UniRef90_A0A167ULN7 Ubiquitin-related modifier 1 n=1 Tax=Sporoth...    80   7e-13
+UniRef90_G4T8H2 Ubiquitin-related modifier 1 n=1 Tax=Serendipita...    80   7e-13
+UniRef90_A0A1E4TFI7 Ubiquitin-related modifier 1 n=1 Tax=Tortisp...    80   7e-13
+UniRef90_U4KYB0 Ubiquitin-related modifier 1 n=1 Tax=Pyronema om...    80   7e-13
+UniRef90_R8BBM2 Ubiquitin-related modifier 1 n=1 Tax=Togninia mi...    80   7e-13
+UniRef90_A0A084RJD8 Ubiquitin-related modifier 1 n=3 Tax=Stachyb...    79   8e-13
+UniRef90_A0A0L1J1X4 Ubiquitin-related modifier 1 n=2 Tax=Aspergi...    79   8e-13
+UniRef90_A0A176W5L5 Ubiquitin-related modifier 1 homolog n=1 Tax...    79   9e-13
+UniRef90_A0A0G4I5S6 Ubiquitin-related modifier 1 homolog n=1 Tax...    79   1e-12
+UniRef90_Q2U9H6 Ubiquitin-related modifier 1 n=4 Tax=Aspergillus...    79   1e-12
+UniRef90_A0A177DSP5 Ubiquitin-related modifier 1 (Fragment) n=1 ...    79   1e-12
+UniRef90_A0A087ZTP1 Ubiquitin-related modifier 1 homolog n=5 Tax...    79   1e-12
+UniRef90_A0A023F8A1 Ubiquitin-related modifier 1 homolog n=1 Tax...    79   1e-12
+UniRef90_A0A0D6EPI5 Ubiquitin-related modifier 1 (Fragment) n=1 ...    79   1e-12
+UniRef90_A0A0N4YTX3 Ubiquitin-related modifier 1 homolog n=1 Tax...    79   1e-12
+UniRef90_UPI000661D675 ubiquitin-related modifier 1 n=1 Tax=Melo...    79   1e-12
+UniRef90_A0A136IIC6 Ubiquitin-related modifier 1 n=1 Tax=Microdo...    79   1e-12
+UniRef90_A0A0D2BYH5 Ubiquitin-related modifier 1 n=1 Tax=Exophia...    79   1e-12
+UniRef90_Q54QN0 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...    79   1e-12
+UniRef90_A0A177UK76 Ubiquitin-related modifier 1 n=2 Tax=Tilleti...    79   1e-12
+UniRef90_A0A162VK75 Ubiquitin-related modifier 1 n=1 Tax=Didymel...    79   2e-12
+UniRef90_A0A1Y1HN13 Ubiquitin-related modifier 1 homolog n=1 Tax...    79   2e-12
+UniRef90_A0A0D1XRP8 Ubiquitin-related modifier 1 n=1 Tax=Exophia...    79   2e-12
+UniRef90_A0A165UIG9 Ubiquitin-related modifier 1 n=1 Tax=Neolent...    79   2e-12
+UniRef90_D8UAY3 Ubiquitin-related modifier 1 homolog n=1 Tax=Vol...    79   2e-12
+UniRef90_R4FKQ2 Ubiquitin-related modifier 1 homolog n=3 Tax=Tri...    79   2e-12
+UniRef90_A0A178E0E4 Ubiquitin-related modifier 1 n=1 Tax=Pyrenoc...    78   2e-12
+UniRef90_UPI000718C3AE ubiquitin-related modifier 1 n=1 Tax=Poli...    78   2e-12
+UniRef90_A0A177VCP3 Ubiquitin-related modifier 1 n=2 Tax=Tilleti...    78   2e-12
+UniRef90_UPI000644B363 hypothetical protein n=1 Tax=Acytostelium...    78   2e-12
+UniRef90_R7YQ21 Ubiquitin-related modifier 1 n=1 Tax=Coniosporiu...    78   2e-12
+UniRef90_L2G6X6 Ubiquitin-related modifier 1 n=6 Tax=Colletotric...    78   2e-12
+UniRef90_K0KCK4 Ubiquitin-related modifier 1 n=1 Tax=Wickerhamom...    78   2e-12
+UniRef90_A0A165K9V8 Ubiquitin-related modifier 1 n=2 Tax=Exidia ...    78   2e-12
+UniRef90_A0A1A8UKC5 Ubiquitin-related modifier 1 n=8 Tax=Nothobr...    78   2e-12
+UniRef90_A0A0D0C2P8 Ubiquitin-related modifier 1 n=1 Tax=Gymnopu...    78   3e-12
+UniRef90_A0A182YJA1 Ubiquitin-related modifier 1 homolog n=1 Tax...    78   3e-12
+UniRef90_UPI0007DCAE8B ubiquitin-related modifier 1 isoform X1 n...    78   3e-12
+UniRef90_U6D0H0 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...    78   3e-12
+UniRef90_A0A0A9Y1B2 Ubiquitin-related modifier 1 homolog n=1 Tax...    78   3e-12
+UniRef90_A0A0M8MPT1 Ubiquitin-related modifier 1 n=1 Tax=Malasse...    77   3e-12
+UniRef90_Q9BTM9 Ubiquitin-related modifier 1 n=72 Tax=Theria Tax...    77   3e-12
+UniRef90_W9WDS0 Ubiquitin-related modifier 1 n=1 Tax=Cladophialo...    77   3e-12
+UniRef90_A0A077R850 Ubiquitin-related modifier 1 (Fragment) n=1 ...    77   3e-12
+UniRef90_A0A0F7RW47 Ubiquitin-related modifier 1 n=1 Tax=Sporiso...    77   3e-12
+UniRef90_K7J611 Ubiquitin-related modifier 1 homolog n=1 Tax=Nas...    77   3e-12
+UniRef90_A0A061H3A0 Ubiquitin-related modifier 1 n=1 Tax=Anthrac...    77   4e-12
+UniRef90_UPI00073D310C ubiquitin-related modifier 1 n=1 Tax=Poli...    77   4e-12
+UniRef90_A0A0D1YQZ3 Ubiquitin-related modifier 1 n=1 Tax=Exophia...    77   4e-12
+UniRef90_R9NZV7 Ubiquitin-related modifier 1 n=2 Tax=Ustilaginac...    77   4e-12
+UniRef90_A0A0B7NWL8 Ubiquitin-related modifier 1 n=1 Tax=Parasit...    77   4e-12
+UniRef90_A0A1B8CNB2 Ubiquitin-related modifier 1 n=1 Tax=Pseudog...    77   4e-12
+UniRef90_A0A1C7N086 Ubiquitin-related modifier 1 n=1 Tax=Choanep...    77   5e-12
+UniRef90_M2S935 Ubiquitin-related modifier 1 n=6 Tax=Bipolaris T...    77   5e-12
+UniRef90_A0A0C9YS26 Ubiquitin-related modifier 1 n=1 Tax=Pisolit...    77   5e-12
+UniRef90_UPI0006C9C7ED ubiquitin-related modifier 1 homolog n=1 ...    77   5e-12
+UniRef90_Q148F0 Ubiquitin-related modifier 1 n=4 Tax=Bovidae Tax...    77   5e-12
+UniRef90_A0A210R4X4 Ubiquitin-related modifier 1-like n=1 Tax=Mi...    77   5e-12
+UniRef90_A0A1J1IK19 Ubiquitin-related modifier 1 homolog n=1 Tax...    77   5e-12
+UniRef90_A0A061SJN3 Ubiquitin-related modifier 1 (Fragment) n=2 ...    77   6e-12
+UniRef90_B6K4Q4 Ubiquitin-related modifier 1 n=1 Tax=Schizosacch...    77   6e-12
+UniRef90_T2M6C6 Ubiquitin-related modifier 1 (Fragment) n=2 Tax=...    77   6e-12
+UniRef90_H3FNE2 Ubiquitin-related modifier 1 homolog n=1 Tax=Pri...    77   6e-12
+UniRef90_P0CT26 Ubiquitin-related modifier 1 n=1 Tax=Ustilago ma...    76   7e-12
+UniRef90_A0A1B8E7N9 Ubiquitin-related modifier 1 n=1 Tax=Pseudog...    76   7e-12
+UniRef90_A0A0Q3RJX9 Ubiquitin-related modifier 1 n=1 Tax=Amazona...    76   7e-12
+UniRef90_W8C181 Ubiquitin-related modifier 1 homolog n=4 Tax=Tep...    76   7e-12
+UniRef90_W9XQN3 Ubiquitin-related modifier 1 n=1 Tax=Capronia ep...    76   7e-12
+UniRef90_A0A1D5YSK9 Ubiquitin-related modifier 1 homolog n=1 Tax...    76   7e-12
+UniRef90_A0A182PIF5 Ubiquitin-related modifier 1 homolog n=1 Tax...    76   8e-12
+UniRef90_A0A1V4J751 Ubiquitin-related modifier 1 n=22 Tax=Neogna...    76   8e-12
+UniRef90_A0A0K8RKX7 Ubiquitin-related modifier 1 homolog n=3 Tax...    76   9e-12
+UniRef90_UPI0008400B03 ubiquitin-related modifier 1 n=1 Tax=Cera...    76   9e-12
+UniRef90_UPI0004F4648B ubiquitin-related modifier 1 n=1 Tax=Pong...    76   9e-12
+UniRef90_A0A162PQT3 Ubiquitin-related modifier 1 n=1 Tax=Phycomy...    76   9e-12
+UniRef90_Q5ZJU4 Ubiquitin-related modifier 1 n=26 Tax=Aves TaxID...    76   9e-12
+UniRef90_A0A085M6W7 Ubiquitin-related modifier 1 (Fragment) n=1 ...    76   1e-11
+UniRef90_UPI0004CD64D2 ubiquitin-related modifier 1 homolog n=1 ...    76   1e-11
+UniRef90_A0A183VA23 Ubiquitin-related modifier 1 homolog n=1 Tax...    76   1e-11
+UniRef90_W4Z502 Ubiquitin-related modifier 1 homolog n=1 Tax=Str...    75   1e-11
+UniRef90_A0A1B6C9N0 Ubiquitin-related modifier 1 homolog n=2 Tax...    75   1e-11
+UniRef90_A0A1R2C744 Ubiquitin-related modifier 1 homolog n=2 Tax...    75   1e-11
+UniRef90_UPI00096AE200 ubiquitin-related modifier 1 n=1 Tax=Aeth...    75   1e-11
+UniRef90_F0ZXI3 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...    75   1e-11
+UniRef90_A0A068RK90 Ubiquitin-related modifier 1 n=2 Tax=Lichthe...    75   1e-11
+UniRef90_S2JFC9 Ubiquitin-related modifier 1 n=2 Tax=Mucor circi...    75   1e-11
+UniRef90_UPI000873BF5C ubiquitin-related modifier 1 n=1 Tax=Anop...    75   1e-11
+UniRef90_H9GGD9 Ubiquitin-related modifier 1 n=1 Tax=Anolis caro...    75   1e-11
+UniRef90_A0A0D7AG12 Ubiquitin-related modifier 1 n=1 Tax=Fistuli...    75   1e-11
+UniRef90_Q7Q6I6 Ubiquitin-related modifier 1 homolog n=22 Tax=Cu...    75   2e-11
+UniRef90_A0A1M8A172 Ubiquitin-related modifier 1 n=1 Tax=Malasse...    75   2e-11
+UniRef90_D7U7Q9 Ubiquitin-related modifier 1 homolog n=2 Tax=Vit...    75   2e-11
+UniRef90_UPI00083C725E ubiquitin-related modifier 1 n=1 Tax=Eufr...    75   2e-11
+UniRef90_A0A1L8DSD2 Ubiquitin-related modifier 1 homolog n=1 Tax...    75   2e-11
+UniRef90_A0A183DV48 Ubiquitin-related modifier 1 homolog n=1 Tax...    75   2e-11
+UniRef90_UPI0009010E2B ubiquitin-related modifier 1 homolog 2 n=...    75   2e-11
+UniRef90_UPI00021A6DD5 ubiquitin-related modifier 1 n=2 Tax=Bomb...    75   2e-11
+UniRef90_T1G9M8 Ubiquitin-related modifier 1 homolog n=1 Tax=Hel...    75   2e-11
+UniRef90_A0A1I8AWT7 Ubiquitin-related modifier 1 homolog n=1 Tax...    75   2e-11
+UniRef90_UPI0007EE428E ubiquitin-related modifier 1 isoform X1 n...    75   2e-11
+UniRef90_A0A1Z5KXU3 Ubiquitin-related modifier 1 (Fragment) n=1 ...    75   2e-11
+UniRef90_A0A1R0GSM2 Ubiquitin-related modifier 1 n=1 Tax=Smittiu...    75   2e-11
+UniRef90_UPI0009523DFE ubiquitin-related modifier 1 n=1 Tax=Turs...    75   2e-11
+UniRef90_V9DBV8 Ubiquitin-related modifier 1 n=3 Tax=Herpotrichi...    75   2e-11
+UniRef90_A0A0A1WXX8 Ubiquitin-related modifier 1 homolog n=2 Tax...    75   2e-11
+UniRef90_A0A0C3I803 Ubiquitin-related modifier 1 n=2 Tax=Pisolit...    75   2e-11
+UniRef90_UPI0006B3996D ubiquitin-related modifier 1 n=1 Tax=Aust...    75   2e-11
+UniRef90_A0A1Y2AUV7 Ubiquitin-related modifier 1 n=1 Tax=Naemate...    75   2e-11
+UniRef90_A0A1S3KR45 Ubiquitin-related modifier 1 n=10 Tax=Osteog...    75   2e-11
+UniRef90_A0A0A1PEB1 Ubiquitin-related modifier 1 n=7 Tax=Rhizopu...    75   2e-11
+UniRef90_A0A0B8RVK3 Ubiquitin-related modifier 1 n=4 Tax=Serpent...    75   2e-11
+UniRef90_A0A183B5H9 Ubiquitin-related modifier 1 homolog n=1 Tax...    74   2e-11
+UniRef90_L8GY50 Ubiquitin-related modifier 1 homolog n=1 Tax=Aca...    74   3e-11
+UniRef90_A0A1L8F1D4 Ubiquitin-related modifier 1 n=2 Tax=Xenopus...    74   3e-11
+UniRef90_D3AVN0 Ubiquitin-related modifier 1 homolog n=1 Tax=Pol...    74   3e-11
+UniRef90_A0A0C3CRB7 Ubiquitin-related modifier 1 n=1 Tax=Piloder...    74   3e-11
+UniRef90_A0A034WTT0 Ubiquitin-related modifier 1 homolog n=2 Tax...    74   3e-11
+UniRef90_A0A1I7SLY8 Ubiquitin-related modifier 1 homolog n=1 Tax...    74   3e-11
+UniRef90_A0A165I1C0 Ubiquitin-related modifier 1 n=1 Tax=Calocer...    74   3e-11
+UniRef90_UPI00094804EB ubiquitin-related modifier 1-like n=1 Tax...    74   3e-11
+UniRef90_A0A183T9B9 Ubiquitin-related modifier 1 homolog n=1 Tax...    74   3e-11
+UniRef90_A0A1B0D3G4 Ubiquitin-related modifier 1 homolog n=1 Tax...    74   3e-11
+UniRef90_A0A084FX55 Ubiquitin-related modifier 1 n=1 Tax=Scedosp...    74   3e-11
+UniRef90_A0A044R541 Ubiquitin-related modifier 1 homolog n=3 Tax...    74   3e-11
+UniRef90_UPI00053C2145 ubiquitin-related modifier 1 homolog 1 n=...    74   3e-11
+UniRef90_UPI00053FECF6 ubiquitin-related modifier 1 homolog 1 n=...    74   3e-11
+UniRef90_A0A1I7WJ44 Ubiquitin-related modifier 1 homolog n=1 Tax...    74   3e-11
+UniRef90_A0A103YN58 Ubiquitin-related modifier 1 homolog n=1 Tax...    74   3e-11
+UniRef90_U6J1F9 Ubiquitin-related modifier 1 homolog n=4 Tax=Tae...    74   4e-11
+UniRef90_UPI000441829A ubiquitin-like modifier 1 n=1 Tax=Punctul...    74   4e-11
+UniRef90_A0A0J9X6Y7 Ubiquitin-related modifier 1 n=1 Tax=Geotric...    74   4e-11
+UniRef90_UPI000771D092 ubiquitin-related modifier 1 n=1 Tax=Ceph...    74   4e-11
+UniRef90_A8E072 Ubiquitin-related modifier 1 homolog n=1 Tax=Pla...    74   5e-11
+UniRef90_I1CSV6 Ubiquitin-related modifier 1 n=1 Tax=Rhizopus de...    74   5e-11
+UniRef90_A0A0P6BSU3 Ubiquitin-related modifier 1 homolog n=1 Tax...    74   5e-11
+UniRef90_UPI000A37B10A ubiquitin-related modifier 1 n=1 Tax=Anas...    74   5e-11
+UniRef90_G3PZD9 Ubiquitin-related modifier 1 n=1 Tax=Gasterosteu...    74   5e-11
+UniRef90_A0A023FU26 Ubiquitin-related modifier 1 homolog n=3 Tax...    74   5e-11
+UniRef90_A0A098VM25 Ubiquitin-related modifier 1 n=1 Tax=Mitospo...    74   5e-11
+UniRef90_L9KLK6 Ubiquitin-related modifier 1 n=2 Tax=Tupaia chin...    74   5e-11
+UniRef90_A0A1S8VUB1 Ubiquitin-related modifier 1 n=1 Tax=Batrach...    74   5e-11
+UniRef90_A0A0D3GQR1 Ubiquitin-related modifier 1 homolog n=1 Tax...    74   5e-11
+UniRef90_UPI00083BEB01 ubiquitin-related modifier 1 n=1 Tax=Nicr...    74   5e-11
+UniRef90_A0A094AEL2 Ubiquitin-related modifier 1 n=2 Tax=Pseudog...    74   5e-11
+UniRef90_E0VWI4 Ubiquitin-related modifier 1 homolog n=1 Tax=Ped...    74   5e-11
+UniRef90_J9K2L7 Ubiquitin-related modifier 1 homolog n=2 Tax=Mac...    74   5e-11
+UniRef90_B9RDI8 Ubiquitin-related modifier 1 homolog n=6 Tax=fab...    74   5e-11
+UniRef90_UPI0006C95E65 ubiquitin-related modifier 1 homolog n=1 ...    74   5e-11
+UniRef90_UPI000776C370 ubiquitin-related modifier 1 isoform X2 n...    74   5e-11
+UniRef90_A0A0L8GF44 Ubiquitin-related modifier 1 homolog n=1 Tax...    73   6e-11
+UniRef90_U4TXP6 Ubiquitin-related modifier 1 homolog n=2 Tax=Den...    73   6e-11
+UniRef90_M5XHG4 Ubiquitin-related modifier 1 homolog n=4 Tax=fab...    73   6e-11
+UniRef90_UPI000A1C1D2D ubiquitin-related modifier 1 n=1 Tax=Bole...    73   6e-11
+UniRef90_A0A151ZDP2 Ubiquitin-related modifier 1 homolog n=1 Tax...    73   6e-11
+UniRef90_A0A0L0CQ63 Ubiquitin-related modifier 1 homolog n=1 Tax...    73   6e-11
+UniRef90_F4PAJ3 Ubiquitin-related modifier 1 n=2 Tax=Batrachochy...    73   6e-11
+UniRef90_Q7KU86 Ubiquitin-related modifier 1 homolog n=22 Tax=me...    73   6e-11
+UniRef90_A0A139AQX9 Ubiquitin-related modifier 1 n=1 Tax=Gonapod...    73   6e-11
+UniRef90_UPI0009B48FD2 ubiquitin-related modifier 1 n=1 Tax=Mono...    73   6e-11
+UniRef90_A0A0U1LZL7 Ubiquitin-related modifier 1 n=1 Tax=Talarom...    73   6e-11
+UniRef90_A0A1Y1WR16 Ubiquitin-related modifier 1 n=1 Tax=Anaerom...    73   7e-11
+UniRef90_T1L3S0 Ubiquitin-related modifier 1 homolog n=1 Tax=Tet...    73   7e-11
+UniRef90_I3J7T7 Ubiquitin-related modifier 1 n=13 Tax=Clupeoceph...    73   7e-11
+UniRef90_UPI0005C3C513 ubiquitin-related modifier 1-like n=1 Tax...    73   7e-11
+UniRef90_F2Z4T6 Ubiquitin-related modifier 1 n=7 Tax=Otophysi Ta...    73   7e-11
+UniRef90_UPI00052EA624 ubiquitin-related modifier 1 n=1 Tax=Tina...    73   7e-11
+UniRef90_A0A059C4M0 Ubiquitin-related modifier 1 homolog n=2 Tax...    73   7e-11
+UniRef90_T1JNE3 Ubiquitin-related modifier 1 homolog n=1 Tax=Str...    73   7e-11
+UniRef90_UPI0005CE75DE ubiquitin-related modifier 1 isoform X2 n...    73   7e-11
+UniRef90_A0A1S4D7I6 Ubiquitin-related modifier 1 homolog n=1 Tax...    73   7e-11
+UniRef90_A0A1I8G7D7 Ubiquitin-related modifier 1 homolog n=1 Tax...    73   8e-11
+UniRef90_UPI00074FDB89 ubiquitin-related modifier 1 n=1 Tax=Gekk...    73   8e-11
+UniRef90_B4LE67 Ubiquitin-related modifier 1 homolog n=6 Tax=Dro...    73   8e-11
+UniRef90_A0A167KIW1 Ubiquitin-related modifier 1 n=1 Tax=Calocer...    73   8e-11
+UniRef90_A9SNV5 Ubiquitin-related modifier 1 homolog n=1 Tax=Phy...    73   8e-11
+UniRef90_UPI000802C08E ubiquitin-related modifier 1 isoform X1 n...    73   8e-11
+UniRef90_UPI0009E1BAA8 ubiquitin-related modifier 1-like n=1 Tax...    73   8e-11
+UniRef90_G7E712 Ubiquitin-related modifier 1 n=1 Tax=Mixia osmun...    73   8e-11
+UniRef90_A0A078IS56 Ubiquitin-related modifier 1 homolog n=7 Tax...    73   8e-11
+UniRef90_UPI000258DB0E ubiquitin-related modifier 1 n=1 Tax=Mega...    73   8e-11
+UniRef90_K7G7E2 Ubiquitin-related modifier 1 n=6 Tax=Archelosaur...    73   9e-11
+UniRef90_UPI0008478FAA ubiquitin-related modifier 1 isoform X1 n...    73   9e-11
+UniRef90_A0A177A0M7 Ubiquitin-related modifier 1 n=2 Tax=Pseudog...    72   9e-11
+UniRef90_H3BBL8 Ubiquitin-related modifier 1 n=1 Tax=Latimeria c...    72   9e-11
+UniRef90_A0A0R3U8I2 Ubiquitin-related modifier 1 homolog n=1 Tax...    72   9e-11
+UniRef90_UPI00083DD311 ubiquitin-related modifier 1 n=1 Tax=Habr...    72   9e-11
+UniRef90_A0A1U8AWM7 Ubiquitin-related modifier 1 homolog n=1 Tax...    72   1e-10
+UniRef90_UPI0007119D13 ubiquitin-related modifier 1 n=1 Tax=Dino...    72   1e-10
+UniRef90_A0A022Q5L2 Ubiquitin-related modifier 1 homolog n=1 Tax...    72   1e-10
+UniRef90_A0A1D1ZLZ2 Ubiquitin-related modifier 1 homolog n=2 Tax...    72   1e-10
+UniRef90_S8C0G8 Ubiquitin-related modifier 1 n=1 Tax=Dactylellin...    72   1e-10
+UniRef90_B3H7G2 Ubiquitin-related modifier 1 homolog 2 n=5 Tax=C...    72   1e-10
+UniRef90_V2XID8 Ubiquitin-related modifier 1 n=3 Tax=Moniliophth...    72   1e-10
+UniRef90_L7M3H2 Ubiquitin-related modifier 1 homolog n=3 Tax=Ixo...    72   1e-10
+UniRef90_E9HTI9 Ubiquitin-related modifier 1 homolog n=1 Tax=Dap...    72   1e-10
+UniRef90_UPI0006CEE2C6 ubiquitin-related modifier 1 homolog isof...    72   1e-10
+UniRef90_A0A1S3CCC7 Ubiquitin-related modifier 1 homolog n=3 Tax...    72   1e-10
+UniRef90_UPI000511A565 ubiquitin-related modifier 1 n=1 Tax=Nipp...    72   1e-10
+UniRef90_A0A0L0HIE7 Ubiquitin-related modifier 1 n=1 Tax=Spizell...    72   1e-10
+UniRef90_A0A066WGM0 Ubiquitin-related modifier 1 n=1 Tax=Tilleti...    72   1e-10
+UniRef90_UPI000521BF6D ubiquitin-related modifier 1 n=3 Tax=Neog...    72   1e-10
+UniRef90_S3BSL5 Ubiquitin-related modifier 1 n=1 Tax=Ophiostoma ...    72   1e-10
+UniRef90_UPI0004E5B69F ubiquitin-related modifier 1 homolog 2-li...    72   1e-10
+UniRef90_U5HGZ7 Ubiquitin-related modifier 1 n=1 Tax=Microbotryu...    72   1e-10
+UniRef90_A0A1I7V5K3 Ubiquitin-related modifier 1 homolog n=1 Tax...    72   1e-10
+UniRef90_I1KIJ0 Ubiquitin-related modifier 1 homolog n=12 Tax=Pa...    72   1e-10
+UniRef90_UPI00026599CD ubiquitin-related modifier 1 n=1 Tax=Gale...    72   1e-10
+UniRef90_A0MDQ1 Ubiquitin-related modifier 1 homolog 1 n=10 Tax=...    72   1e-10
+UniRef90_A0A090LIH7 Ubiquitin-related modifier 1 homolog n=2 Tax...    72   1e-10
+UniRef90_A0A0E9NFG2 Ubiquitin-related modifier 1 n=1 Tax=Saitoel...    72   1e-10
+UniRef90_UPI0006D4DD0B ubiquitin-related modifier 1 homolog n=1 ...    72   2e-10
+UniRef90_A0A0L0SUX6 Ubiquitin-related modifier 1 n=2 Tax=Allomyc...    72   2e-10
+UniRef90_UPI000A2C050E ubiquitin-related modifier 1-like n=1 Tax...    72   2e-10
+UniRef90_M2RDY2 Ubiquitin-related modifier 1 n=1 Tax=Ceriporiops...    72   2e-10
+UniRef90_C1C497 Ubiquitin-related modifier 1 n=2 Tax=Ranoidea Ta...    72   2e-10
+UniRef90_UPI00098E5F82 ubiquitin-related modifier 1 homolog 1-li...    72   2e-10
+UniRef90_UPI00035A2DF2 ubiquitin-related modifier 1-like n=1 Tax...    72   2e-10
+UniRef90_UPI0009E2C183 ubiquitin-related modifier 1 n=1 Tax=Pogo...    72   2e-10
+UniRef90_A0A093HXT8 Ubiquitin-related modifier 1 (Fragment) n=2 ...    72   2e-10
+UniRef90_A0A200QPI4 Ubiquitin-related modifier 1 n=1 Tax=Macleay...    71   2e-10
+UniRef90_UPI000B8CD318 ubiquitin-related modifier 1 homolog 2 n=...    71   2e-10
+UniRef90_UPI0003959135 ubiquitin-related modifier 1 n=1 Tax=Geos...    71   2e-10
+UniRef90_A0A1I8D3Q5 Ubiquitin-related modifier 1 homolog n=1 Tax...    71   2e-10
+UniRef90_B4MLV0 Ubiquitin-related modifier 1 homolog n=1 Tax=Dro...    71   2e-10
+UniRef90_A0A0N5AFZ8 Ubiquitin-related modifier 1 homolog n=1 Tax...    71   2e-10
+UniRef90_M1V599 Ubiquitin-related modifier 1 homolog n=1 Tax=Cya...    71   2e-10
+UniRef90_UPI0007384B34 ubiquitin-related modifier 1 isoform X2 n...    71   2e-10
+UniRef90_UPI00053CC0C5 ubiquitin-related modifier 1 n=1 Tax=Hali...    71   3e-10
+UniRef90_I1EH13 Ubiquitin-related modifier 1 homolog n=3 Tax=Amp...    71   3e-10
+UniRef90_A0A1X6PFP1 Ubiquitin-related modifier 1 homolog n=1 Tax...    71   3e-10
+UniRef90_E2BGU4 Ubiquitin-related modifier 1 homolog n=1 Tax=Har...    71   3e-10
+UniRef90_A0A0P5B1G6 Ubiquitin-related modifier 1 homolog n=1 Tax...    71   3e-10
+UniRef90_A9NQG8 Ubiquitin-related modifier 1 homolog n=2 Tax=Pic...    71   3e-10
+UniRef90_A0A068UK41 Ubiquitin-related modifier 1 homolog n=1 Tax...    71   3e-10
+UniRef90_A0A1E5V233 Ubiquitin-related modifier 1 homolog n=1 Tax...    71   3e-10
+UniRef90_A0A1Y1YY69 Ubiquitin-related modifier 1 n=1 Tax=Basidio...    71   3e-10
+UniRef90_A0A162NQ80 Ubiquitin-related modifier 1 homolog n=5 Tax...    71   3e-10
+UniRef90_A0A1V9XL90 Ubiquitin-related modifier 1 homolog n=1 Tax...    71   3e-10
+UniRef90_A0A0B7AZB5 Ubiquitin-related modifier 1 homolog n=2 Tax...    71   3e-10
+UniRef90_G9MDW1 Ubiquitin-related modifier 1 n=3 Tax=Trichoderma...    71   3e-10
+UniRef90_A0A0K9QZM0 Ubiquitin-related modifier 1 homolog n=3 Tax...    71   3e-10
+UniRef90_UPI0003F0BBC3 ubiquitin-related modifier 1-like n=1 Tax...    71   3e-10
+UniRef90_A0A146FYM9 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...    71   3e-10
+UniRef90_K7KCA0 Ubiquitin-related modifier 1 homolog n=3 Tax=Soj...    71   3e-10
+UniRef90_R7Q6Y1 Ubiquitin-related modifier 1 homolog n=1 Tax=Cho...    71   3e-10
+UniRef90_B4GUT1 Ubiquitin-related modifier 1 homolog n=2 Tax=pse...    71   3e-10
+UniRef90_G3MN56 Ubiquitin-related modifier 1 homolog n=2 Tax=Amb...    71   3e-10
+UniRef90_L7JM35 Ubiquitin-related modifier 1 n=2 Tax=Magnaporthe...    70   4e-10
+UniRef90_A0A1S3HHT5 Ubiquitin-related modifier 1 homolog n=1 Tax...    70   4e-10
+UniRef90_UPI000A3749FC ubiquitin-related modifier 1 n=4 Tax=Aves...    70   4e-10
+UniRef90_A0A1U8PAS3 Ubiquitin-related modifier 1 homolog n=9 Tax...    70   4e-10
+UniRef90_A0A0E0LKC5 Ubiquitin-related modifier 1 homolog n=1 Tax...    70   4e-10
+UniRef90_UPI00044080BE ubiquitin-related modifier 1 n=1 Tax=Fomi...    70   4e-10
+UniRef90_B9IC87 Ubiquitin-related modifier 1 homolog n=2 Tax=Pop...    70   4e-10
+UniRef90_UPI00067142C7 ubiquitin-related modifier 1 n=1 Tax=Anse...    70   4e-10
+UniRef90_K4AZC9 Ubiquitin-related modifier 1 homolog n=7 Tax=Sol...    70   4e-10
+UniRef90_UPI000812E807 ubiquitin-related modifier 1 n=1 Tax=Mani...    70   4e-10
+UniRef90_E1ZE18 Ubiquitin-related modifier 1 homolog n=1 Tax=Chl...    70   4e-10
+UniRef90_B6ABX4 Ubiquitin-related modifier 1 homolog n=2 Tax=Cry...    70   4e-10
+UniRef90_W5M4E8 Ubiquitin-related modifier 1 n=1 Tax=Lepisosteus...    70   4e-10
+UniRef90_A0A0N4Z4S4 Ubiquitin-related modifier 1 homolog n=1 Tax...    70   5e-10
+
+>UniRef90_B3LTL7 Ubiquitin-related modifier 1 n=9 Tax=Saccharomyces TaxID=4930
+          RepID=URM1_YEAS1
+          Length = 99
+
+ Score =  172 bits (437), Expect = 5e-41,   Method: Composition-based stats.
+ Identities = 99/99 (100%), Positives = 99/99 (100%)
+
+Query: 1  MVNVKVEFLGGLDAIFGKQRVHKIKMDKEDPVTVGDLIDHIVSTMINNPNDVSIFIEDDS 60
+          MVNVKVEFLGGLDAIFGKQRVHKIKMDKEDPVTVGDLIDHIVSTMINNPNDVSIFIEDDS
+Sbjct: 1  MVNVKVEFLGGLDAIFGKQRVHKIKMDKEDPVTVGDLIDHIVSTMINNPNDVSIFIEDDS 60
+
+Query: 61 IRPGIITLINDTDWELEGEKDYILEDGDIISFTSTLHGG 99
+          IRPGIITLINDTDWELEGEKDYILEDGDIISFTSTLHGG
+Sbjct: 61 IRPGIITLINDTDWELEGEKDYILEDGDIISFTSTLHGG 99
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_UPI0008464CE3 ubiquitin-related modifier 1 n=1 Tax=Mana...   168   2e-39
+UniRef90_A0A0G4N3V4 Ubiquitin-related modifier 1 (Fragment) n=1 ...   160   4e-37
+UniRef90_UPI000661D675 ubiquitin-related modifier 1 n=1 Tax=Melo...   158   1e-36
+UniRef90_A0A1L8F1D4 Ubiquitin-related modifier 1 n=2 Tax=Xenopus...   157   3e-36
+UniRef90_K7G7E2 Ubiquitin-related modifier 1 n=6 Tax=Archelosaur...   157   3e-36
+UniRef90_UPI000802C08E ubiquitin-related modifier 1 isoform X1 n...   156   5e-36
+UniRef90_A0A0L0CQ63 Ubiquitin-related modifier 1 homolog n=1 Tax...   156   5e-36
+UniRef90_A0A1V4J751 Ubiquitin-related modifier 1 n=22 Tax=Neogna...   156   6e-36
+UniRef90_Q5ZJU4 Ubiquitin-related modifier 1 n=26 Tax=Aves TaxID...   155   7e-36
+UniRef90_UPI0007DCAE8B ubiquitin-related modifier 1 isoform X1 n...   155   1e-35
+UniRef90_M3CQH7 Ubiquitin-related modifier 1 n=1 Tax=Sphaerulina...   155   2e-35
+UniRef90_A0A1S3KR45 Ubiquitin-related modifier 1 n=10 Tax=Osteog...   153   3e-35
+UniRef90_A0A1A8UKC5 Ubiquitin-related modifier 1 n=8 Tax=Nothobr...   153   3e-35
+UniRef90_UPI000A1C1D2D ubiquitin-related modifier 1 n=1 Tax=Bole...   153   3e-35
+UniRef90_I3J7T7 Ubiquitin-related modifier 1 n=13 Tax=Clupeoceph...   153   3e-35
+UniRef90_F9X499 Ubiquitin-related modifier 1 n=4 Tax=Zymoseptori...   153   4e-35
+UniRef90_A0A0Q3RJX9 Ubiquitin-related modifier 1 n=1 Tax=Amazona...   153   4e-35
+UniRef90_UPI000A37B10A ubiquitin-related modifier 1 n=1 Tax=Anas...   153   4e-35
+UniRef90_UPI0009B48FD2 ubiquitin-related modifier 1 n=1 Tax=Mono...   153   4e-35
+UniRef90_UPI000776C370 ubiquitin-related modifier 1 isoform X2 n...   153   4e-35
+UniRef90_A0A0N1H7M9 Ubiquitin-related modifier 1 n=1 Tax=Phialop...   153   6e-35
+UniRef90_Q9D2P4 Ubiquitin-related modifier 1 n=2 Tax=Mus musculu...   152   6e-35
+UniRef90_G2Q7Q2 Ubiquitin-related modifier 1 n=1 Tax=Myceliophth...   152   6e-35
+UniRef90_A0A146H8J7 Ubiquitin-related modifier 1 n=1 Tax=Mycena ...   152   8e-35
+UniRef90_UPI0005C3C513 ubiquitin-related modifier 1-like n=1 Tax...   152   9e-35
+UniRef90_Q148F0 Ubiquitin-related modifier 1 n=4 Tax=Bovidae Tax...   152   1e-34
+UniRef90_K7J611 Ubiquitin-related modifier 1 homolog n=1 Tax=Nas...   151   1e-34
+UniRef90_A0A167Y8S5 Ubiquitin-related modifier 1 n=1 Tax=Ascosph...   151   2e-34
+UniRef90_Q9BTM9 Ubiquitin-related modifier 1 n=72 Tax=Theria Tax...   151   2e-34
+UniRef90_F2Z4T6 Ubiquitin-related modifier 1 n=7 Tax=Otophysi Ta...   151   2e-34
+UniRef90_A0A074RIF6 Ubiquitin-related modifier 1 n=2 Tax=Rhizoct...   151   2e-34
+UniRef90_G3PZD9 Ubiquitin-related modifier 1 n=1 Tax=Gasterosteu...   151   2e-34
+UniRef90_A0A1W5CY17 Ubiquitin-related modifier 1 n=1 Tax=Umbilic...   151   2e-34
+UniRef90_C1C497 Ubiquitin-related modifier 1 n=2 Tax=Ranoidea Ta...   151   2e-34
+UniRef90_Q1E493 Ubiquitin-related modifier 1 n=7 Tax=Coccidioide...   151   2e-34
+UniRef90_A0A0P6BSU3 Ubiquitin-related modifier 1 homolog n=1 Tax...   151   2e-34
+UniRef90_H9GGD9 Ubiquitin-related modifier 1 n=1 Tax=Anolis caro...   150   2e-34
+UniRef90_UPI00021A6DD5 ubiquitin-related modifier 1 n=2 Tax=Bomb...   150   2e-34
+UniRef90_G0SE11 Ubiquitin-related modifier 1 n=1 Tax=Chaetomium ...   150   2e-34
+UniRef90_A0A1S9S113 Ubiquitin-related modifier 1 n=3 Tax=Penicil...   150   3e-34
+UniRef90_W5M4E8 Ubiquitin-related modifier 1 n=1 Tax=Lepisosteus...   150   3e-34
+UniRef90_UPI0007384B34 ubiquitin-related modifier 1 isoform X2 n...   150   3e-34
+UniRef90_UPI00094804EB ubiquitin-related modifier 1-like n=1 Tax...   150   3e-34
+UniRef90_K2RE67 Ubiquitin-related modifier 1 n=1 Tax=Macrophomin...   150   3e-34
+UniRef90_S7R6P2 Ubiquitin-related modifier 1 n=1 Tax=Gloeophyllu...   150   3e-34
+UniRef90_A0A060SI28 Ubiquitin-related modifier 1 n=1 Tax=Pycnopo...   150   4e-34
+UniRef90_W4JUV6 Ubiquitin-related modifier 1 n=1 Tax=Heterobasid...   150   4e-34
+UniRef90_UPI00052EA624 ubiquitin-related modifier 1 n=1 Tax=Tina...   150   4e-34
+UniRef90_A0A0G2IGB0 Ubiquitin-related modifier 1 n=2 Tax=Diaport...   150   4e-34
+UniRef90_A0A1V8V2Y1 Ubiquitin-related modifier 1 n=4 Tax=Rachicl...   150   4e-34
+UniRef90_M3ANF9 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   150   5e-34
+UniRef90_A0A0B8RVK3 Ubiquitin-related modifier 1 n=4 Tax=Serpent...   150   5e-34
+UniRef90_UPI000511A565 ubiquitin-related modifier 1 n=1 Tax=Nipp...   150   5e-34
+UniRef90_H3BBL8 Ubiquitin-related modifier 1 n=1 Tax=Latimeria c...   149   5e-34
+UniRef90_UPI000440C425 ubiquitin-like modifier 1 n=1 Tax=Stereum...   149   6e-34
+UniRef90_UPI000521BF6D ubiquitin-related modifier 1 n=3 Tax=Neog...   149   6e-34
+UniRef90_M2NHD7 Ubiquitin-related modifier 1 n=1 Tax=Baudoinia c...   149   8e-34
+UniRef90_A0A0C3AZK2 Ubiquitin-related modifier 1 (Fragment) n=1 ...   149   8e-34
+UniRef90_UPI00083DD311 ubiquitin-related modifier 1 n=1 Tax=Habr...   149   8e-34
+UniRef90_A0A0G2DVU7 Ubiquitin-related modifier 1 n=3 Tax=Diplodi...   148   9e-34
+UniRef90_A0A1Z5T4Y6 Ubiquitin-related modifier 1 n=2 Tax=Hortaea...   148   9e-34
+UniRef90_S8AW36 Ubiquitin-related modifier 1 n=1 Tax=Penicillium...   148   9e-34
+UniRef90_A0A1S3HHT5 Ubiquitin-related modifier 1 homolog n=1 Tax...   148   1e-33
+UniRef90_UPI00094EBCAD ubiquitin-related modifier 1 n=1 Tax=Hipp...   148   1e-33
+UniRef90_UPI00067142C7 ubiquitin-related modifier 1 n=1 Tax=Anse...   148   1e-33
+UniRef90_UPI00074FDB89 ubiquitin-related modifier 1 n=1 Tax=Gekk...   148   1e-33
+UniRef90_A0A1Y2X6X7 Ubiquitin-related modifier 1 n=1 Tax=Daldini...   148   1e-33
+UniRef90_A0A136J6Z8 Ubiquitin-related modifier 1 n=1 Tax=Microdo...   148   1e-33
+UniRef90_UPI000994E51B ubiquitin-related modifier 1 isoform X1 n...   148   1e-33
+UniRef90_A0A139HQ37 Ubiquitin-related modifier 1 n=1 Tax=Mycosph...   148   2e-33
+UniRef90_UPI0007B89838 ubiquitin-related modifier 1-like isoform...   148   2e-33
+UniRef90_G4T8H2 Ubiquitin-related modifier 1 n=1 Tax=Serendipita...   148   2e-33
+UniRef90_UPI0006B3996D ubiquitin-related modifier 1 n=1 Tax=Aust...   148   2e-33
+UniRef90_A0A0C3RYV7 Ubiquitin-related modifier 1 n=1 Tax=Phlebio...   148   2e-33
+UniRef90_A0A1I8MXP6 Ubiquitin-related modifier 1 homolog n=1 Tax...   147   2e-33
+UniRef90_E2BGU4 Ubiquitin-related modifier 1 homolog n=1 Tax=Har...   147   2e-33
+UniRef90_UPI0007EE428E ubiquitin-related modifier 1 isoform X1 n...   147   2e-33
+UniRef90_R1FYH7 Ubiquitin-related modifier 1 n=1 Tax=Botryosphae...   147   2e-33
+UniRef90_D5GA60 Ubiquitin-related modifier 1 n=1 Tax=Tuber melan...   147   3e-33
+UniRef90_J4I9W0 Ubiquitin-related modifier 1 n=1 Tax=Fibroporia ...   147   3e-33
+UniRef90_A0A0K6GAW8 Ubiquitin-related modifier 1 n=1 Tax=Rhizoct...   147   3e-33
+UniRef90_UPI0009E2C183 ubiquitin-related modifier 1 n=1 Tax=Pogo...   147   3e-33
+UniRef90_K3VLY2 Ubiquitin-related modifier 1 n=1 Tax=Fusarium ps...   147   3e-33
+UniRef90_UPI000A2A6684 ubiquitin-related modifier 1-like n=1 Tax...   147   3e-33
+UniRef90_A0A1Y2W7Y5 Ubiquitin-related modifier 1 n=1 Tax=Hypoxyl...   147   3e-33
+UniRef90_A0A1E3BHS7 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   147   3e-33
+UniRef90_A0A164YJ44 Ubiquitin-related modifier 1 n=1 Tax=Sistotr...   147   4e-33
+UniRef90_A0A175W288 Ubiquitin-related modifier 1 n=1 Tax=Madurel...   147   4e-33
+UniRef90_A0A1X2H7T9 Ubiquitin-related modifier 1 n=1 Tax=Synceph...   147   4e-33
+UniRef90_S4RT91 Ubiquitin-related modifier 1 n=1 Tax=Petromyzon ...   147   4e-33
+UniRef90_UPI000718C3AE ubiquitin-related modifier 1 n=1 Tax=Poli...   147   4e-33
+UniRef90_UPI000771D092 ubiquitin-related modifier 1 n=1 Tax=Ceph...   147   4e-33
+UniRef90_UPI000258DB0E ubiquitin-related modifier 1 n=1 Tax=Mega...   147   4e-33
+UniRef90_A0A1V6PNC8 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   147   4e-33
+UniRef90_UPI00083C725E ubiquitin-related modifier 1 n=1 Tax=Eufr...   147   4e-33
+UniRef90_A0A1Y2IEW1 Ubiquitin-related modifier 1 n=1 Tax=Pycnopo...   146   4e-33
+UniRef90_A0A0P5B1G6 Ubiquitin-related modifier 1 homolog n=1 Tax...   146   4e-33
+UniRef90_C5GXV7 Ubiquitin-related modifier 1 n=5 Tax=Blastomyces...   146   5e-33
+UniRef90_UPI00053CC0C5 ubiquitin-related modifier 1 n=1 Tax=Hali...   146   5e-33
+UniRef90_A0A168LTT3 Ubiquitin-related modifier 1 n=2 Tax=Absidia...   146   5e-33
+UniRef90_UPI000521C200 ubiquitin-related modifier 1 n=1 Tax=Apal...   146   5e-33
+UniRef90_C5DLF4 Ubiquitin-related modifier 1 n=2 Tax=Lachancea T...   146   6e-33
+UniRef90_A0A093HXT8 Ubiquitin-related modifier 1 (Fragment) n=2 ...   146   6e-33
+UniRef90_A0A0B7AZB5 Ubiquitin-related modifier 1 homolog n=2 Tax...   146   6e-33
+UniRef90_UPI0004F45776 ubiquitin-related modifier 1 n=18 Tax=Neo...   146   6e-33
+UniRef90_UPI0009E1BAA8 ubiquitin-related modifier 1-like n=1 Tax...   146   6e-33
+UniRef90_UPI0004CD64D2 ubiquitin-related modifier 1 homolog n=1 ...   146   6e-33
+UniRef90_Q9C245 Ubiquitin-related modifier 1 n=5 Tax=Sordariacea...   146   7e-33
+UniRef90_K5V3E0 Ubiquitin-related modifier 1 n=1 Tax=Phanerochae...   146   7e-33
+UniRef90_R7YQ21 Ubiquitin-related modifier 1 n=1 Tax=Coniosporiu...   145   7e-33
+UniRef90_A0A1S1VHC1 Ubiquitin-related modifier 1 n=2 Tax=Colleto...   145   7e-33
+UniRef90_A0A177VCP3 Ubiquitin-related modifier 1 n=2 Tax=Tilleti...   145   7e-33
+UniRef90_A0A0B7KE40 Ubiquitin-related modifier 1 n=1 Tax=Bionect...   145   8e-33
+UniRef90_UPI00059E064C ubiquitin-related modifier 1 n=1 Tax=Camp...   145   8e-33
+UniRef90_UPI0003F0BBC3 ubiquitin-related modifier 1-like n=1 Tax...   145   9e-33
+UniRef90_I1RT45 Ubiquitin-related modifier 1 n=1 Tax=Gibberella ...   145   1e-32
+UniRef90_A0A1V1SVX9 Ubiquitin-related modifier 1 n=1 Tax=fungal ...   145   1e-32
+UniRef90_M5BY56 Ubiquitin-related modifier 1 n=2 Tax=Thanatephor...   145   1e-32
+UniRef90_UPI0004414060 ubiquitin-related modifier 1 n=1 Tax=Auri...   145   1e-32
+UniRef90_J3P3A4 Ubiquitin-related modifier 1 n=1 Tax=Gaeumannomy...   145   1e-32
+UniRef90_A0A0J5PIJ0 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   145   1e-32
+UniRef90_A0A1R3R9C7 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   145   1e-32
+UniRef90_A0A0I9X7G1 Ubiquitin-related modifier 1 n=3 Tax=Fusariu...   145   1e-32
+UniRef90_A0A087ZTP1 Ubiquitin-related modifier 1 homolog n=5 Tax...   145   1e-32
+UniRef90_D8Q7Q0 Ubiquitin-related modifier 1 n=1 Tax=Schizophyll...   145   1e-32
+UniRef90_A0A210R4X4 Ubiquitin-related modifier 1-like n=1 Tax=Mi...   145   1e-32
+UniRef90_UPI0008478FAA ubiquitin-related modifier 1 isoform X1 n...   145   1e-32
+UniRef90_S4PI46 Ubiquitin-related modifier 1 homolog n=1 Tax=Par...   145   1e-32
+UniRef90_A0A151X1Y3 Ubiquitin-related modifier 1 homolog n=6 Tax...   145   1e-32
+UniRef90_L9KLK6 Ubiquitin-related modifier 1 n=2 Tax=Tupaia chin...   145   1e-32
+UniRef90_UPI0006C95E65 ubiquitin-related modifier 1 homolog n=1 ...   145   1e-32
+UniRef90_A0A166I4Q1 Ubiquitin-related modifier 1 n=1 Tax=Sistotr...   145   2e-32
+UniRef90_A0A0L8GF44 Ubiquitin-related modifier 1 homolog n=1 Tax...   145   2e-32
+UniRef90_A0A0C4E5L5 Ubiquitin-related modifier 1 n=1 Tax=Magnapo...   145   2e-32
+UniRef90_UPI000A2C050E ubiquitin-related modifier 1-like n=1 Tax...   145   2e-32
+UniRef90_A0A165LER0 Ubiquitin-related modifier 1 n=1 Tax=Daedale...   145   2e-32
+UniRef90_A0A1V6T3U5 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   144   2e-32
+UniRef90_UPI0004F4648B ubiquitin-related modifier 1 n=1 Tax=Pong...   144   2e-32
+UniRef90_UPI0009523DFE ubiquitin-related modifier 1 n=1 Tax=Turs...   144   2e-32
+UniRef90_UPI00035A2DF2 ubiquitin-related modifier 1-like n=1 Tax...   144   2e-32
+UniRef90_UPI000626E3C9 ubiquitin-related modifier 1 n=1 Tax=Orus...   144   2e-32
+UniRef90_A0A074X3A7 Ubiquitin-related modifier 1 n=4 Tax=Aureoba...   144   2e-32
+UniRef90_A0A1Y1YPB5 Ubiquitin-related modifier 1 n=1 Tax=Clohesy...   144   2e-32
+UniRef90_A0A0D2XCE2 Ubiquitin-related modifier 1 n=15 Tax=Fusari...   144   2e-32
+UniRef90_A0A0D1YHF2 Ubiquitin-related modifier 1 n=1 Tax=Verruco...   144   2e-32
+UniRef90_UPI000A3749FC ubiquitin-related modifier 1 n=4 Tax=Aves...   144   2e-32
+UniRef90_A0A1M2V9F9 Ubiquitin-related modifier 1 n=2 Tax=Tramete...   144   2e-32
+UniRef90_A0A179GHU3 Ubiquitin-related modifier 1 n=1 Tax=Purpure...   144   2e-32
+UniRef90_UPI0006C9C7ED ubiquitin-related modifier 1 homolog n=1 ...   144   2e-32
+UniRef90_A0A0C9MT34 Ubiquitin-related modifier 1 n=3 Tax=Mucor T...   144   2e-32
+UniRef90_U6D0H0 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   144   2e-32
+UniRef90_C5FRC6 Ubiquitin-related modifier 1 n=1 Tax=Arthroderma...   144   2e-32
+UniRef90_A0A1W2TLB3 Ubiquitin-related modifier 1 n=1 Tax=Roselli...   144   2e-32
+UniRef90_A0A1X6MLY0 Ubiquitin-related modifier 1 n=1 Tax=Postia ...   144   2e-32
+UniRef90_W4Z502 Ubiquitin-related modifier 1 homolog n=1 Tax=Str...   144   2e-32
+UniRef90_UPI0003959135 ubiquitin-related modifier 1 n=1 Tax=Geos...   144   3e-32
+UniRef90_W8C181 Ubiquitin-related modifier 1 homolog n=4 Tax=Tep...   144   3e-32
+UniRef90_A0A086TE31 Ubiquitin-related modifier 1 n=1 Tax=Acremon...   143   3e-32
+UniRef90_A0A165F1C9 Ubiquitin-related modifier 1 n=1 Tax=Laetipo...   143   3e-32
+UniRef90_A0A1Y2AUV7 Ubiquitin-related modifier 1 n=1 Tax=Naemate...   143   3e-32
+UniRef90_A0A1Y2UTN2 Ubiquitin-related modifier 1 n=1 Tax=Hypoxyl...   143   3e-32
+UniRef90_A0A067Q2A1 Ubiquitin-related modifier 1 n=1 Tax=Jaapia ...   143   3e-32
+UniRef90_B3LTL7 Ubiquitin-related modifier 1 n=9 Tax=Saccharomyc...   143   3e-32
+UniRef90_UPI00073D310C ubiquitin-related modifier 1 n=1 Tax=Poli...   143   3e-32
+UniRef90_A8P008 Ubiquitin-related modifier 1 n=1 Tax=Coprinopsis...   143   4e-32
+UniRef90_R0K833 Ubiquitin-related modifier 1 n=1 Tax=Setosphaeri...   143   4e-32
+UniRef90_A0A023F8A1 Ubiquitin-related modifier 1 homolog n=1 Tax...   143   4e-32
+UniRef90_A0A0L6X1F3 Ubiquitin-related modifier 1 n=1 Tax=Termito...   143   4e-32
+UniRef90_A0A059C4M0 Ubiquitin-related modifier 1 homolog n=2 Tax...   143   4e-32
+UniRef90_B8MSR1 Ubiquitin-related modifier 1 n=1 Tax=Talaromyces...   143   4e-32
+UniRef90_C1GXR9 Ubiquitin-related modifier 1 n=4 Tax=Paracoccidi...   143   4e-32
+UniRef90_A0A139WLE8 Ubiquitin-related modifier 1 homolog n=1 Tax...   143   4e-32
+UniRef90_A0A162NQ80 Ubiquitin-related modifier 1 homolog n=5 Tax...   143   4e-32
+UniRef90_A0A010RE10 Ubiquitin-related modifier 1 n=7 Tax=Colleto...   143   4e-32
+UniRef90_R4FKQ2 Ubiquitin-related modifier 1 homolog n=3 Tax=Tri...   143   5e-32
+UniRef90_V5FMT8 Ubiquitin-related modifier 1 n=1 Tax=Byssochlamy...   143   5e-32
+UniRef90_A0A1V6QAM5 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   143   5e-32
+UniRef90_G0VJK5 Ubiquitin-related modifier 1 n=1 Tax=Naumovozyma...   143   5e-32
+UniRef90_A0A0C3GIE2 Ubiquitin-related modifier 1 n=1 Tax=Oidiode...   143   5e-32
+UniRef90_F2PUZ0 Ubiquitin-related modifier 1 n=7 Tax=Trichophyto...   143   6e-32
+UniRef90_UPI0006D4DD0B ubiquitin-related modifier 1 homolog n=1 ...   143   6e-32
+UniRef90_UPI0005ACF99B ubiquitin-related modifier 1 homolog n=1 ...   143   6e-32
+UniRef90_A0A034WTT0 Ubiquitin-related modifier 1 homolog n=2 Tax...   143   6e-32
+UniRef90_A0A1E1W1W1 Ubiquitin-related modifier 1 homolog n=2 Tax...   143   6e-32
+UniRef90_A0A1Y3BG87 Ubiquitin-related modifier 1 homolog n=1 Tax...   143   6e-32
+UniRef90_Q2U9H6 Ubiquitin-related modifier 1 n=4 Tax=Aspergillus...   142   6e-32
+UniRef90_T5AFD3 Ubiquitin-related modifier 1 n=1 Tax=Ophiocordyc...   142   6e-32
+UniRef90_A6S5X1 Ubiquitin-related modifier 1 n=3 Tax=Botryotinia...   142   6e-32
+UniRef90_E4UYV7 Ubiquitin-related modifier 1 n=1 Tax=Arthroderma...   142   7e-32
+UniRef90_A0A1B6H6I1 Ubiquitin-related modifier 1 homolog n=3 Tax...   142   7e-32
+UniRef90_A0A0G4KGU3 Ubiquitin-related modifier 1 n=1 Tax=Vertici...   142   7e-32
+UniRef90_A0A218YXS0 Uncharacterized protein n=1 Tax=Marssonina c...   142   7e-32
+UniRef90_A0A1L8EIR2 Ubiquitin-related modifier 1 homolog n=1 Tax...   142   7e-32
+UniRef90_Q7KU86 Ubiquitin-related modifier 1 homolog n=22 Tax=me...   142   7e-32
+UniRef90_J5P883 Ubiquitin-related modifier 1 n=3 Tax=Saccharomyc...   142   7e-32
+UniRef90_A0A165FRB6 Ubiquitin-related modifier 1 n=1 Tax=Xylona ...   142   7e-32
+UniRef90_E0VWI4 Ubiquitin-related modifier 1 homolog n=1 Tax=Ped...   142   7e-32
+UniRef90_A0A0C2WPN9 Ubiquitin-related modifier 1 n=1 Tax=Amanita...   142   7e-32
+UniRef90_A0A158NTQ3 Ubiquitin-related modifier 1 homolog n=4 Tax...   142   7e-32
+UniRef90_M7SL00 Ubiquitin-related modifier 1 n=1 Tax=Eutypa lata...   142   7e-32
+UniRef90_W2RW73 Ubiquitin-related modifier 1 n=1 Tax=Cyphellopho...   142   8e-32
+UniRef90_A0A0K8RKX7 Ubiquitin-related modifier 1 homolog n=3 Tax...   142   8e-32
+UniRef90_H0YZM3 Ubiquitin-related modifier 1 n=3 Tax=Passeriform...   142   8e-32
+UniRef90_A0A1I8G7D7 Ubiquitin-related modifier 1 homolog n=1 Tax...   142   8e-32
+UniRef90_K5WYL5 Ubiquitin-related modifier 1 n=2 Tax=Agaricus bi...   142   8e-32
+UniRef90_A0A178E0E4 Ubiquitin-related modifier 1 n=1 Tax=Pyrenoc...   142   8e-32
+UniRef90_UPI0005F56B6B ubiquitin-related modifier 1 n=1 Tax=Voll...   142   9e-32
+UniRef90_A0A091F690 Ubiquitin-related modifier 1 (Fragment) n=2 ...   142   9e-32
+UniRef90_A0A0L9SJT4 Ubiquitin-related modifier 1 n=1 Tax=Ophioco...   142   9e-32
+UniRef90_T2M6C6 Ubiquitin-related modifier 1 (Fragment) n=2 Tax=...   142   1e-31
+UniRef90_A0A1E1L6H3 Ubiquitin-related modifier 1 n=3 Tax=Rhyncho...   142   1e-31
+UniRef90_UPI0009829277 Ubiquitin-related modifier 1 n=1 Tax=Tala...   142   1e-31
+UniRef90_B2WIC3 Ubiquitin-related modifier 1 n=2 Tax=Pyrenophora...   142   1e-31
+UniRef90_G3JGJ0 Ubiquitin-related modifier 1 n=2 Tax=Cordyceps T...   142   1e-31
+UniRef90_A0A1J1IK19 Ubiquitin-related modifier 1 homolog n=1 Tax...   142   1e-31
+UniRef90_A0A178AR90 Ubiquitin-related modifier 1 n=1 Tax=Stagono...   142   1e-31
+UniRef90_A0A150V3S6 Ubiquitin-related modifier 1 n=1 Tax=Acidomy...   142   1e-31
+UniRef90_A0A0E0LKC5 Ubiquitin-related modifier 1 homolog n=1 Tax...   142   1e-31
+UniRef90_UPI00083BEB01 ubiquitin-related modifier 1 n=1 Tax=Nicr...   142   1e-31
+UniRef90_E9HTI9 Ubiquitin-related modifier 1 homolog n=1 Tax=Dap...   142   1e-31
+UniRef90_A0A0D0CH52 Ubiquitin-related modifier 1 n=1 Tax=Paxillu...   142   1e-31
+UniRef90_W6QL97 Ubiquitin-related modifier 1 n=16 Tax=Penicilliu...   142   1e-31
+UniRef90_A0A0N1IHF7 Ubiquitin-related modifier 1 homolog n=4 Tax...   142   1e-31
+UniRef90_A9NQG8 Ubiquitin-related modifier 1 homolog n=2 Tax=Pic...   142   1e-31
+UniRef90_M2S935 Ubiquitin-related modifier 1 n=6 Tax=Bipolaris T...   142   1e-31
+UniRef90_A0A1B6C9N0 Ubiquitin-related modifier 1 homolog n=2 Tax...   142   1e-31
+UniRef90_S7RHE8 Ubiquitin-related modifier 1 (Fragment) n=3 Tax=...   142   1e-31
+UniRef90_A0A068RK90 Ubiquitin-related modifier 1 n=2 Tax=Lichthe...   142   1e-31
+UniRef90_H3D6P6 Ubiquitin-related modifier 1 n=3 Tax=Eupercaria ...   141   1e-31
+UniRef90_A0A137QR80 Ubiquitin-related modifier 1 n=1 Tax=Leucoag...   141   1e-31
+UniRef90_B6QV90 Ubiquitin-related modifier 1 n=2 Tax=Talaromyces...   141   1e-31
+UniRef90_A0A1Y2EJJ6 Ubiquitin-related modifier 1 n=1 Tax=Pseudom...   141   1e-31
+UniRef90_H6BYC7 Ubiquitin-related modifier 1 n=1 Tax=Exophiala d...   141   2e-31
+UniRef90_UPI0006B0C0A8 ubiquitin-related modifier 1-like n=1 Tax...   141   2e-31
+UniRef90_A0A0F8UR25 Ubiquitin-related modifier 1 n=3 Tax=Aspergi...   141   2e-31
+UniRef90_A0A166TMW3 Ubiquitin-related modifier 1 n=1 Tax=Fibular...   141   2e-31
+UniRef90_A0A0C3KM43 Ubiquitin-related modifier 1 n=1 Tax=Tulasne...   141   2e-31
+UniRef90_U4TXP6 Ubiquitin-related modifier 1 homolog n=2 Tax=Den...   141   2e-31
+UniRef90_F0XRF0 Ubiquitin-related modifier 1 n=1 Tax=Grosmannia ...   141   2e-31
+UniRef90_U9T6V8 Ubiquitin-related modifier 1 n=2 Tax=Rhizophagus...   141   2e-31
+UniRef90_A0A1Y1UC27 Ubiquitin-related modifier 1 n=1 Tax=Kockova...   141   2e-31
+UniRef90_K1XM57 Ubiquitin-related modifier 1 n=1 Tax=Marssonina ...   141   2e-31
+UniRef90_UPI00074032F4 ubiquitin-related modifier 1 isoform X3 n...   141   2e-31
+UniRef90_S8EFK7 Ubiquitin-related modifier 1 n=1 Tax=Fomitopsis ...   141   2e-31
+UniRef90_A0A183T9B9 Ubiquitin-related modifier 1 homolog n=1 Tax...   141   2e-31
+UniRef90_A0A1S3KR54 Ubiquitin-related modifier 1 n=3 Tax=Salmoni...   140   2e-31
+UniRef90_A0A0C9UIS6 Ubiquitin-related modifier 1 n=1 Tax=Sphaero...   140   3e-31
+UniRef90_A0A023FU26 Ubiquitin-related modifier 1 homolog n=3 Tax...   140   3e-31
+UniRef90_J4UN14 Ubiquitin-related modifier 1 n=1 Tax=Beauveria b...   140   3e-31
+UniRef90_A0A177CQY5 Ubiquitin-related modifier 1 n=1 Tax=Parapha...   140   3e-31
+UniRef90_A0A1Y2M6W2 Ubiquitin-related modifier 1 n=1 Tax=Epicocc...   140   3e-31
+UniRef90_A0A0F7SQD5 Ubiquitin-related modifier 1 n=1 Tax=Phaffia...   140   3e-31
+UniRef90_A0A1W4ZMF8 Ubiquitin-related modifier 1 n=1 Tax=Sclerop...   140   3e-31
+UniRef90_A0A162PQT3 Ubiquitin-related modifier 1 n=1 Tax=Phycomy...   140   3e-31
+UniRef90_T1JNE3 Ubiquitin-related modifier 1 homolog n=1 Tax=Str...   140   4e-31
+UniRef90_E5A4L2 Ubiquitin-related modifier 1 n=1 Tax=Leptosphaer...   140   4e-31
+UniRef90_L2G6X6 Ubiquitin-related modifier 1 n=6 Tax=Colletotric...   140   4e-31
+UniRef90_A0A0A9Y1B2 Ubiquitin-related modifier 1 homolog n=1 Tax...   140   4e-31
+UniRef90_UPI0005330486 ubiquitin-related modifier 1 isoform X1 n...   140   4e-31
+UniRef90_A0A0G2ES14 Ubiquitin-related modifier 1 n=1 Tax=Phaeomo...   140   4e-31
+UniRef90_A7ETU4 Ubiquitin-related modifier 1 n=3 Tax=Sclerotinia...   140   4e-31
+UniRef90_R8BBM2 Ubiquitin-related modifier 1 n=1 Tax=Togninia mi...   140   4e-31
+UniRef90_V3ZY87 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   140   4e-31
+UniRef90_UPI0007119D13 ubiquitin-related modifier 1 n=1 Tax=Dino...   140   4e-31
+UniRef90_A0A0D2WT70 Ubiquitin-related modifier 1 homolog n=1 Tax...   140   5e-31
+UniRef90_A0A0L1J1X4 Ubiquitin-related modifier 1 n=2 Tax=Aspergi...   139   5e-31
+UniRef90_A0A0D2CB74 Ubiquitin-related modifier 1 n=2 Tax=Exophia...   139   5e-31
+UniRef90_G7XZ86 Ubiquitin-related modifier 1 n=3 Tax=Aspergillus...   139   5e-31
+UniRef90_A0A1G4JLL3 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   139   5e-31
+UniRef90_A0A165UIG9 Ubiquitin-related modifier 1 n=1 Tax=Neolent...   139   5e-31
+UniRef90_UPI0006CEE2C6 ubiquitin-related modifier 1 homolog isof...   139   6e-31
+UniRef90_A0A165K9V8 Ubiquitin-related modifier 1 n=2 Tax=Exidia ...   139   6e-31
+UniRef90_A0A0A1WXX8 Ubiquitin-related modifier 1 homolog n=2 Tax...   139   6e-31
+UniRef90_UPI00067D3614 ubiquitin-related modifier 1 n=1 Tax=Amye...   139   7e-31
+UniRef90_UPI0008400B03 ubiquitin-related modifier 1 n=1 Tax=Cera...   139   7e-31
+UniRef90_A0A1G4KNH5 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   139   8e-31
+UniRef90_B4LE67 Ubiquitin-related modifier 1 homolog n=6 Tax=Dro...   139   8e-31
+UniRef90_A0A0D6EPI5 Ubiquitin-related modifier 1 (Fragment) n=1 ...   139   8e-31
+UniRef90_A0A1L7X1Q3 Ubiquitin-related modifier 1 n=1 Tax=Phialoc...   139   8e-31
+UniRef90_A8IC48 Ubiquitin-related modifier 1 homolog n=1 Tax=Chl...   139   8e-31
+UniRef90_A0A177UK76 Ubiquitin-related modifier 1 n=2 Tax=Tilleti...   139   8e-31
+UniRef90_A0A1Y1HN13 Ubiquitin-related modifier 1 homolog n=1 Tax...   139   8e-31
+UniRef90_A0A0N4UKN8 Ubiquitin-related modifier 1 homolog n=1 Tax...   139   9e-31
+UniRef90_V9L9Y9 Ubiquitin-related modifier 1 n=2 Tax=Callorhinch...   139   9e-31
+UniRef90_A0A0J1AUM8 Ubiquitin-related modifier 1 n=1 Tax=Cutaneo...   139   9e-31
+UniRef90_M0SPN9 Ubiquitin-related modifier 1 homolog n=2 Tax=Mus...   138   9e-31
+UniRef90_E9J3I8 Ubiquitin-related modifier 1 (Fragment) n=3 Tax=...   138   9e-31
+UniRef90_F2TZU6 Ubiquitin-related modifier 1 homolog n=1 Tax=Sal...   138   1e-30
+UniRef90_UPI00096AE200 ubiquitin-related modifier 1 n=1 Tax=Aeth...   138   1e-30
+UniRef90_A0A1Z5KXU3 Ubiquitin-related modifier 1 (Fragment) n=1 ...   138   1e-30
+UniRef90_A0A0N8H4Y6 Ubiquitin-related modifier 1 n=1 Tax=Neonect...   138   1e-30
+UniRef90_G3MN56 Ubiquitin-related modifier 1 homolog n=2 Tax=Amb...   138   1e-30
+UniRef90_F4PAJ3 Ubiquitin-related modifier 1 n=2 Tax=Batrachochy...   138   1e-30
+UniRef90_C4Y2E3 Ubiquitin-related modifier 1 n=1 Tax=Clavispora ...   138   1e-30
+UniRef90_UPI000777DEAC ubiquitin-related modifier 1 isoform X3 n...   138   1e-30
+UniRef90_A0A0D2MMY9 Ubiquitin-related modifier 1 n=1 Tax=Hypholo...   138   1e-30
+UniRef90_A0A0N4Z4S4 Ubiquitin-related modifier 1 homolog n=1 Tax...   138   1e-30
+UniRef90_B4GUT1 Ubiquitin-related modifier 1 homolog n=2 Tax=pse...   138   1e-30
+UniRef90_A0A0D2DDH7 Ubiquitin-related modifier 1 n=8 Tax=Herpotr...   138   1e-30
+UniRef90_I1EH13 Ubiquitin-related modifier 1 homolog n=3 Tax=Amp...   138   1e-30
+UniRef90_A0A167BRK1 Ubiquitin-related modifier 1 n=1 Tax=Metarhi...   138   1e-30
+UniRef90_A0A0D7BET9 Ubiquitin-related modifier 1 n=1 Tax=Cylindr...   138   1e-30
+UniRef90_A0A1E3QIV4 Ubiquitin-related modifier 1 n=1 Tax=Babjevi...   138   1e-30
+UniRef90_A0A1D5QLE1 Ubiquitin-related modifier 1 n=4 Tax=Boreoeu...   138   1e-30
+UniRef90_UPI000B36A021 ubiquitin-related modifier 1 homolog n=1 ...   138   1e-30
+UniRef90_UPI000873BF5C ubiquitin-related modifier 1 n=1 Tax=Anop...   138   1e-30
+UniRef90_A0A0A1PEB1 Ubiquitin-related modifier 1 n=7 Tax=Rhizopu...   138   1e-30
+UniRef90_A0A103YN58 Ubiquitin-related modifier 1 homolog n=1 Tax...   138   1e-30
+UniRef90_A0A194XK49 Ubiquitin-related modifier 1 n=1 Tax=Phialoc...   138   2e-30
+UniRef90_UPI0009010E2B ubiquitin-related modifier 1 homolog 2 n=...   138   2e-30
+UniRef90_UPI00053C2145 ubiquitin-related modifier 1 homolog 1 n=...   138   2e-30
+UniRef90_B9RDI8 Ubiquitin-related modifier 1 homolog n=6 Tax=fab...   138   2e-30
+UniRef90_A0A1V9XL90 Ubiquitin-related modifier 1 homolog n=1 Tax...   138   2e-30
+UniRef90_A0A0H2S177 Ubiquitin-related modifier 1 n=1 Tax=Schizop...   138   2e-30
+UniRef90_UPI00077AC8C1 ubiquitin-related modifier 1-like isoform...   138   2e-30
+UniRef90_A0A0D1YQZ3 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   138   2e-30
+UniRef90_S8C0G8 Ubiquitin-related modifier 1 n=1 Tax=Dactylellin...   138   2e-30
+UniRef90_A0A0C3CRB7 Ubiquitin-related modifier 1 n=1 Tax=Piloder...   137   2e-30
+UniRef90_M5XHG4 Ubiquitin-related modifier 1 homolog n=4 Tax=fab...   137   2e-30
+UniRef90_G4NGZ8 Ubiquitin-related modifier 1 n=1 Tax=Magnaporthe...   137   2e-30
+UniRef90_U5DA85 Ubiquitin-related modifier 1 homolog n=1 Tax=Amb...   137   2e-30
+UniRef90_Q75AD1 Ubiquitin-related modifier 1 n=2 Tax=Saccharomyc...   137   2e-30
+UniRef90_A0A1B5L1B2 Ubiquitin-related modifier 1 n=1 Tax=Ustilag...   137   2e-30
+UniRef90_A0A1G4JFX7 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   137   2e-30
+UniRef90_L0PFH5 Ubiquitin-related modifier 1 n=2 Tax=Pneumocysti...   137   2e-30
+UniRef90_A0A0F8A4U4 Ubiquitin-related modifier 1 n=1 Tax=Hirsute...   137   2e-30
+UniRef90_A0A176W5L5 Ubiquitin-related modifier 1 homolog n=1 Tax...   137   2e-30
+UniRef90_V2XID8 Ubiquitin-related modifier 1 n=3 Tax=Moniliophth...   137   2e-30
+UniRef90_A0A059IYB3 Ubiquitin-related modifier 1 n=1 Tax=Trichop...   137   2e-30
+UniRef90_A0A0D3GQR1 Ubiquitin-related modifier 1 homolog n=1 Tax...   137   2e-30
+UniRef90_F6U0B5 Ubiquitin-related modifier 1 n=2 Tax=Ornithorhyn...   137   2e-30
+UniRef90_A0A165I1C0 Ubiquitin-related modifier 1 n=1 Tax=Calocer...   137   3e-30
+UniRef90_A0A167ULN7 Ubiquitin-related modifier 1 n=1 Tax=Sporoth...   137   3e-30
+UniRef90_A0A1G4JUH5 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   137   3e-30
+UniRef90_D7U7Q9 Ubiquitin-related modifier 1 homolog n=2 Tax=Vit...   137   3e-30
+UniRef90_A0A0C7MY58 Ubiquitin-related modifier 1 n=2 Tax=Lachanc...   137   3e-30
+UniRef90_UPI0005816357 ubiquitin-related modifier 1 homolog 1 n=...   137   3e-30
+UniRef90_A0A1G4MI88 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   137   3e-30
+UniRef90_A0MDQ1 Ubiquitin-related modifier 1 homolog 1 n=10 Tax=...   137   3e-30
+UniRef90_A0A139AQX9 Ubiquitin-related modifier 1 n=1 Tax=Gonapod...   137   3e-30
+UniRef90_A0A061SJN3 Ubiquitin-related modifier 1 (Fragment) n=2 ...   137   3e-30
+UniRef90_A0A1I7WJ44 Ubiquitin-related modifier 1 homolog n=1 Tax...   136   3e-30
+UniRef90_A0A068UK41 Ubiquitin-related modifier 1 homolog n=1 Tax...   136   3e-30
+UniRef90_G2QS24 Ubiquitin-related modifier 1 n=1 Tax=Thielavia t...   136   3e-30
+UniRef90_A0A0D0C2P8 Ubiquitin-related modifier 1 n=1 Tax=Gymnopu...   136   3e-30
+UniRef90_A0A0D2BYH5 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   136   4e-30
+UniRef90_A0A0U1LZL7 Ubiquitin-related modifier 1 n=1 Tax=Talarom...   136   4e-30
+UniRef90_A0A016UUE4 Ubiquitin-related modifier 1 homolog n=3 Tax...   136   4e-30
+UniRef90_A0A0D7AG12 Ubiquitin-related modifier 1 n=1 Tax=Fistuli...   136   4e-30
+UniRef90_A0A1D5YSK9 Ubiquitin-related modifier 1 homolog n=1 Tax...   136   4e-30
+UniRef90_D8UAY3 Ubiquitin-related modifier 1 homolog n=1 Tax=Vol...   136   4e-30
+UniRef90_A0A0C9S2N9 Ubiquitin-related modifier 1 homolog n=2 Tax...   136   4e-30
+UniRef90_A6R989 Ubiquitin-related modifier 1 n=5 Tax=Ajellomycet...   136   4e-30
+UniRef90_W9XJL9 Ubiquitin-related modifier 1 n=1 Tax=Capronia co...   136   4e-30
+UniRef90_K4AZC9 Ubiquitin-related modifier 1 homolog n=7 Tax=Sol...   136   5e-30
+UniRef90_UPI0005CE75DE ubiquitin-related modifier 1 isoform X2 n...   136   5e-30
+UniRef90_A0A120K285 Ubiquitin-related modifier 1 n=1 Tax=Eremoth...   136   6e-30
+UniRef90_UPI0005D090EC ubiquitin-related modifier 1 homolog n=1 ...   136   6e-30
+UniRef90_G8JU35 Ubiquitin-related modifier 1 n=1 Tax=Eremotheciu...   136   6e-30
+UniRef90_UPI00098E5F82 ubiquitin-related modifier 1 homolog 1-li...   136   6e-30
+UniRef90_A0A1I8D3Q5 Ubiquitin-related modifier 1 homolog n=1 Tax...   136   6e-30
+UniRef90_L7M3H2 Ubiquitin-related modifier 1 homolog n=3 Tax=Ixo...   136   7e-30
+UniRef90_A0A0L0HIE7 Ubiquitin-related modifier 1 n=1 Tax=Spizell...   136   7e-30
+UniRef90_A0A0D1XRP8 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   136   7e-30
+UniRef90_UPI00063F2D6D ubiquitin-related modifier 1 isoform X1 n...   136   7e-30
+UniRef90_A0A0C2XV71 Ubiquitin-related modifier 1 n=1 Tax=Hebelom...   136   7e-30
+UniRef90_A0A0C9WG41 Ubiquitin-related modifier 1 n=1 Tax=Hydnome...   135   7e-30
+UniRef90_A0A1L8DSD2 Ubiquitin-related modifier 1 homolog n=1 Tax...   135   8e-30
+UniRef90_V9DBV8 Ubiquitin-related modifier 1 n=3 Tax=Herpotrichi...   135   8e-30
+UniRef90_A0A200QPI4 Ubiquitin-related modifier 1 n=1 Tax=Macleay...   135   8e-30
+UniRef90_B4MLV0 Ubiquitin-related modifier 1 homolog n=1 Tax=Dro...   135   8e-30
+UniRef90_M9MAY7 Ubiquitin-related modifier 1 n=3 Tax=Moesziomyce...   135   8e-30
+UniRef90_A0A1S3CCC7 Ubiquitin-related modifier 1 homolog n=3 Tax...   135   8e-30
+UniRef90_B9IC87 Ubiquitin-related modifier 1 homolog n=2 Tax=Pop...   135   9e-30
+UniRef90_A0A1Y1WR16 Ubiquitin-related modifier 1 n=1 Tax=Anaerom...   135   9e-30
+UniRef90_A0A1U8AWM7 Ubiquitin-related modifier 1 homolog n=1 Tax...   135   1e-29
+UniRef90_A0A0B7NWL8 Ubiquitin-related modifier 1 n=1 Tax=Parasit...   135   1e-29
+UniRef90_UPI0006768A43 ubiquitin-related modifier 1 homolog n=1 ...   135   1e-29
+UniRef90_A7TQ77 Ubiquitin-related modifier 1 n=1 Tax=Vanderwalto...   135   1e-29
+UniRef90_A0A1U7LHY4 Ubiquitin-related modifier 1 n=1 Tax=Neolect...   135   1e-29
+UniRef90_UPI000441829A ubiquitin-like modifier 1 n=1 Tax=Punctul...   135   1e-29
+UniRef90_S8D3T2 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   135   1e-29
+UniRef90_W9XQN3 Ubiquitin-related modifier 1 n=1 Tax=Capronia ep...   135   1e-29
+UniRef90_S3DBU7 Ubiquitin-related modifier 1 n=1 Tax=Glarea lozo...   135   1e-29
+UniRef90_UPI000776F739 ubiquitin-related modifier 1 isoform X1 n...   135   1e-29
+UniRef90_UPI00076FCEA3 ubiquitin-related modifier 1 n=1 Tax=Neod...   135   1e-29
+UniRef90_G7E712 Ubiquitin-related modifier 1 n=1 Tax=Mixia osmun...   135   1e-29
+UniRef90_A0A167KIW1 Ubiquitin-related modifier 1 n=1 Tax=Calocer...   135   1e-29
+UniRef90_A0A1U8PAS3 Ubiquitin-related modifier 1 homolog n=9 Tax...   135   2e-29
+UniRef90_UPI0004E5B69F ubiquitin-related modifier 1 homolog 2-li...   135   2e-29
+UniRef90_A0A1Y1YY69 Ubiquitin-related modifier 1 n=1 Tax=Basidio...   134   2e-29
+UniRef90_A0A078IS56 Ubiquitin-related modifier 1 homolog n=7 Tax...   134   2e-29
+UniRef90_G8ZZV7 Ubiquitin-related modifier 1 n=1 Tax=Torulaspora...   134   2e-29
+UniRef90_A0A1Y1NIH1 Ubiquitin-related modifier 1 homolog n=1 Tax...   134   2e-29
+UniRef90_B3H7G2 Ubiquitin-related modifier 1 homolog 2 n=5 Tax=C...   134   2e-29
+UniRef90_I1CSV6 Ubiquitin-related modifier 1 n=1 Tax=Rhizopus de...   134   2e-29
+UniRef90_A0A0L0SUX6 Ubiquitin-related modifier 1 n=2 Tax=Allomyc...   134   2e-29
+UniRef90_A0A0C9YS26 Ubiquitin-related modifier 1 n=1 Tax=Pisolit...   134   2e-29
+UniRef90_K7KCA0 Ubiquitin-related modifier 1 homolog n=3 Tax=Soj...   134   2e-29
+UniRef90_A0A0N4YTX3 Ubiquitin-related modifier 1 homolog n=1 Tax...   134   2e-29
+UniRef90_UPI00053FECF6 ubiquitin-related modifier 1 homolog 1 n=...   134   2e-29
+UniRef90_A0A067MBC4 Ubiquitin-related modifier 1 n=1 Tax=Botryob...   134   3e-29
+UniRef90_J9K2L7 Ubiquitin-related modifier 1 homolog n=2 Tax=Mac...   134   3e-29
+UniRef90_A0A0K0FCC5 Ubiquitin-related modifier 1 homolog n=2 Tax...   134   3e-29
+UniRef90_A0A022Q5L2 Ubiquitin-related modifier 1 homolog n=1 Tax...   133   3e-29
+UniRef90_A0A0K8TRY0 Ubiquitin-related modifier 1 (Fragment) n=1 ...   133   3e-29
+UniRef90_L8GY50 Ubiquitin-related modifier 1 homolog n=1 Tax=Aca...   133   3e-29
+UniRef90_UPI000B8CD318 ubiquitin-related modifier 1 homolog 2 n=...   133   3e-29
+UniRef90_A0A162VK75 Ubiquitin-related modifier 1 n=1 Tax=Didymel...   133   3e-29
+UniRef90_UPI000674A483 ubiquitin-related modifier 1-like n=1 Tax...   133   3e-29
+UniRef90_A0A1E5V233 Ubiquitin-related modifier 1 homolog n=1 Tax...   133   4e-29
+UniRef90_A0A1C7N086 Ubiquitin-related modifier 1 n=1 Tax=Choanep...   133   4e-29
+UniRef90_A0A1J7JIE2 Ubiquitin-related modifier 1 (Fragment) n=1 ...   133   4e-29
+UniRef90_A0A0K9QZM0 Ubiquitin-related modifier 1 homolog n=3 Tax...   133   4e-29
+UniRef90_I1KIJ0 Ubiquitin-related modifier 1 homolog n=12 Tax=Pa...   133   5e-29
+UniRef90_M0TE73 Ubiquitin-related modifier 1 homolog n=1 Tax=Mus...   133   5e-29
+UniRef90_UPI00026599CD ubiquitin-related modifier 1 n=1 Tax=Gale...   133   5e-29
+UniRef90_A0A1D1ZLZ2 Ubiquitin-related modifier 1 homolog n=2 Tax...   133   5e-29
+UniRef90_W9WDS0 Ubiquitin-related modifier 1 n=1 Tax=Cladophialo...   133   5e-29
+UniRef90_W1QKU6 Ubiquitin-related modifier 1 n=2 Tax=Ogataea Tax...   133   6e-29
+UniRef90_UPI000626ACF6 ubiquitin-related modifier 1 n=1 Tax=Atha...   133   6e-29
+UniRef90_A0A158PH61 Ubiquitin-related modifier 1 homolog n=1 Tax...   132   6e-29
+UniRef90_H8WYB1 Ubiquitin-related modifier 1 n=3 Tax=cellular or...   132   6e-29
+UniRef90_S2JFC9 Ubiquitin-related modifier 1 n=2 Tax=Mucor circi...   132   7e-29
+UniRef90_A0A1D2NJU9 Multifunctional fusion protein n=1 Tax=Orche...   132   7e-29
+UniRef90_A0A0C3I803 Ubiquitin-related modifier 1 n=2 Tax=Pisolit...   132   8e-29
+UniRef90_A0A1S8VUB1 Ubiquitin-related modifier 1 n=1 Tax=Batrach...   132   8e-29
+UniRef90_A0A1R0GSM2 Ubiquitin-related modifier 1 n=1 Tax=Smittiu...   132   8e-29
+UniRef90_A0A1S7HNZ1 Ubiquitin-related modifier 1 n=3 Tax=Zygosac...   132   9e-29
+UniRef90_A0A1B0D3G4 Ubiquitin-related modifier 1 homolog n=1 Tax...   132   9e-29
+UniRef90_A0A0K9P8R1 Ubiquitin-related modifier 1 homolog n=1 Tax...   132   1e-28
+UniRef90_J7SB37 Ubiquitin-related modifier 1 n=1 Tax=Kazachstani...   132   1e-28
+UniRef90_A0A1E5R562 Ubiquitin-related modifier 1 n=1 Tax=Hanseni...   132   1e-28
+UniRef90_H2B207 Ubiquitin-related modifier 1 n=1 Tax=Kazachstani...   131   1e-28
+UniRef90_A0A068X5E3 Ubiquitin-related modifier 1 homolog n=2 Tax...   131   1e-28
+UniRef90_UPI0007EF6677 ubiquitin-related modifier 1 homolog 2-li...   131   1e-28
+UniRef90_A0A146FYM9 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   131   1e-28
+UniRef90_UPI0008F9C945 ubiquitin-related modifier 1 n=1 Tax=Bemi...   131   1e-28
+UniRef90_B6SXH2 Ubiquitin-related modifier 1 homolog n=3 Tax=And...   131   1e-28
+UniRef90_A0A194VFD5 Ubiquitin-related modifier 1 n=2 Tax=Valsa m...   131   1e-28
+UniRef90_A0A136IIC6 Ubiquitin-related modifier 1 n=1 Tax=Microdo...   131   2e-28
+UniRef90_F0ZXI3 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...   131   2e-28
+UniRef90_UPI0009E1A740 ubiquitin-related modifier 1 homolog n=2 ...   131   2e-28
+UniRef90_A0A1L0BY06 Ubiquitin-related modifier 1 n=1 Tax=[Candid...   131   2e-28
+UniRef90_Q54QN0 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...   131   2e-28
+UniRef90_A0A0M3J2V7 Ubiquitin-related modifier 1 homolog n=1 Tax...   131   2e-28
+UniRef90_A0A0M8MPT1 Ubiquitin-related modifier 1 n=1 Tax=Malasse...   131   2e-28
+UniRef90_T1GVD4 Ubiquitin-related modifier 1 homolog n=1 Tax=Meg...   131   2e-28
+UniRef90_A0A084RJD8 Ubiquitin-related modifier 1 n=3 Tax=Stachyb...   131   2e-28
+UniRef90_A0A1Y2TNJ4 Ubiquitin-related modifier 1 (Fragment) n=1 ...   131   2e-28
+UniRef90_A0A090LIH7 Ubiquitin-related modifier 1 homolog n=2 Tax...   131   2e-28
+UniRef90_A0A183B5H9 Ubiquitin-related modifier 1 homolog n=1 Tax...   131   2e-28
+UniRef90_V5GFM5 Ubiquitin-related modifier 1 n=1 Tax=Kalmanozyma...   130   2e-28
+UniRef90_A0A0F2M6D2 Ubiquitin-related modifier 1 n=3 Tax=Sporoth...   130   2e-28
+UniRef90_U6J1F9 Ubiquitin-related modifier 1 homolog n=4 Tax=Tae...   130   3e-28
+UniRef90_UPI00077E74CF ubiquitin-related modifier 1 homolog 2 n=...   130   3e-28
+UniRef90_C5MD24 Ubiquitin-related modifier 1 n=1 Tax=Candida tro...   130   3e-28
+UniRef90_A0A194S7C0 Ubiquitin-related modifier 1 n=1 Tax=Rhodoto...   130   3e-28
+UniRef90_A0A1E4RPS4 Ubiquitin-related modifier 1 n=1 Tax=Hyphopi...   130   3e-28
+UniRef90_A0A0R3U8I2 Ubiquitin-related modifier 1 homolog n=1 Tax...   130   3e-28
+UniRef90_A0A0K3CRM3 Ubiquitin-related modifier 1 n=3 Tax=Rhodosp...   130   3e-28
+UniRef90_A0A0N4VF19 Ubiquitin-related modifier 1 homolog n=1 Tax...   130   3e-28
+UniRef90_T1G9M8 Ubiquitin-related modifier 1 homolog n=1 Tax=Hel...   130   4e-28
+UniRef90_A0A137P6N7 Ubiquitin-related modifier 1 n=1 Tax=Conidio...   130   4e-28
+UniRef90_A0A151ZDP2 Ubiquitin-related modifier 1 homolog n=1 Tax...   130   4e-28
+UniRef90_A0A067HDP3 Ubiquitin-related modifier 1 homolog n=2 Tax...   130   4e-28
+UniRef90_I4YGS6 Ubiquitin-related modifier 1 n=1 Tax=Wallemia me...   130   4e-28
+UniRef90_A0A0D2JM14 Ubiquitin-related modifier 1 n=1 Tax=Rhinocl...   130   4e-28
+UniRef90_Q59WK2 Ubiquitin-related modifier 1 n=3 Tax=Candida Tax...   130   4e-28
+UniRef90_R9NZV7 Ubiquitin-related modifier 1 n=2 Tax=Ustilaginac...   130   4e-28
+UniRef90_A0A177DSP5 Ubiquitin-related modifier 1 (Fragment) n=1 ...   130   5e-28
+UniRef90_UPI000579DC61 ubiquitin-related modifier 1 homolog 2 is...   129   6e-28
+UniRef90_F2QT59 Ubiquitin-related modifier 1 n=2 Tax=Komagataell...   129   6e-28
+UniRef90_I1GWB6 Ubiquitin-related modifier 1 homolog n=6 Tax=Poa...   129   6e-28
+UniRef90_A0A0D8XZM9 Ubiquitin-related modifier 1 homolog n=1 Tax...   129   7e-28
+UniRef90_A0A1S4D7I6 Ubiquitin-related modifier 1 homolog n=1 Tax...   129   7e-28
+UniRef90_A0A084FX55 Ubiquitin-related modifier 1 n=1 Tax=Scedosp...   129   7e-28
+UniRef90_A0A1E3PXS6 Ubiquitin-related modifier 1 n=1 Tax=Lipomyc...   129   7e-28
+UniRef90_U6PK78 Ubiquitin-related modifier 1 homolog n=1 Tax=Hae...   129   9e-28
+UniRef90_G3BAA3 Ubiquitin-related modifier 1 n=1 Tax=Candida ten...   129   9e-28
+UniRef90_G8BZU5 Ubiquitin-related modifier 1 n=1 Tax=Tetrapisisp...   129   9e-28
+UniRef90_A0A0D0AHI5 Ubiquitin-related modifier 1 n=1 Tax=Suillus...   128   9e-28
+UniRef90_A0A1D1W7E5 Ubiquitin-related modifier 1 homolog n=1 Tax...   128   9e-28
+UniRef90_A0A1B7MLD4 Ubiquitin-related modifier 1 n=2 Tax=Rhizopo...   128   1e-27
+UniRef90_A0A0G4I5S6 Ubiquitin-related modifier 1 homolog n=1 Tax...   128   1e-27
+UniRef90_Q7GBC8 Ubiquitin-related modifier 1 homolog n=6 Tax=Ory...   128   1e-27
+UniRef90_A0A059C3W1 Ubiquitin-related modifier 1 homolog n=1 Tax...   128   2e-27
+UniRef90_M5FXU5 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   128   2e-27
+UniRef90_M8A131 Ubiquitin-related modifier 1 homolog n=1 Tax=Tri...   128   2e-27
+UniRef90_Q6FWQ3 Ubiquitin-related modifier 1 n=2 Tax=Candida gla...   128   2e-27
+UniRef90_M2RDY2 Ubiquitin-related modifier 1 n=1 Tax=Ceriporiops...   128   2e-27
+UniRef90_A0A0F7RW47 Ubiquitin-related modifier 1 n=1 Tax=Sporiso...   128   2e-27
+UniRef90_A0A1Y2CQK2 Ubiquitin-related modifier 1 n=2 Tax=Neocall...   127   2e-27
+UniRef90_I2FYX3 Ubiquitin-related modifier 1 n=2 Tax=Ustilago Ta...   127   2e-27
+UniRef90_A0A182YJA1 Ubiquitin-related modifier 1 homolog n=1 Tax...   127   2e-27
+UniRef90_D3AVN0 Ubiquitin-related modifier 1 homolog n=1 Tax=Pol...   127   2e-27
+UniRef90_UPI000644B363 hypothetical protein n=1 Tax=Acytostelium...   127   2e-27
+UniRef90_E1ZE18 Ubiquitin-related modifier 1 homolog n=1 Tax=Chl...   127   3e-27
+UniRef90_A9SNV5 Ubiquitin-related modifier 1 homolog n=1 Tax=Phy...   127   3e-27
+UniRef90_G0W5D4 Ubiquitin-related modifier 1 n=1 Tax=Naumovozyma...   127   3e-27
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_UPI0008464CE3 ubiquitin-related modifier 1 n=1 Tax=Manacus vitellinus
+           TaxID=328815 RepID=UPI0008464CE3
+          Length = 149
+
+ Score =  168 bits (426), Expect = 2e-39,   Method: Composition-based stats.
+ Identities = 40/99 (40%), Positives = 64/99 (64%), Gaps = 3/99 (3%)
+
+Query: 2   VNVKVEFLGGLDAIFGKQRVHKIKMD-KEDPVTVGDLIDHIVSTMINNPNDVSIFIEDDS 60
+           V+++VEF GG + +F   + H++ +  + +P  + +L+  I   M+    +  +F++ +S
+Sbjct: 53  VSLQVEFGGGAELLFDGVKKHQVTLPCQPEPWDIRNLLKWIKQNMLKERPE--LFMQGES 110
+
+Query: 61  IRPGIITLINDTDWELEGEKDYILEDGDIISFTSTLHGG 99
+           +RPGI+ LIND DWEL GE DY L+D D + F STLHGG
+Sbjct: 111 VRPGILVLINDADWELMGELDYKLQDQDNVVFISTLHGG 149
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_UPI0008464CE3 ubiquitin-related modifier 1 n=1 Tax=Mana...   153   4e-35
+UniRef90_A0A0G4N3V4 Ubiquitin-related modifier 1 (Fragment) n=1 ...   146   4e-33
+UniRef90_K7G7E2 Ubiquitin-related modifier 1 n=6 Tax=Archelosaur...   142   6e-32
+UniRef90_UPI000661D675 ubiquitin-related modifier 1 n=1 Tax=Melo...   142   9e-32
+UniRef90_A0A0L0CQ63 Ubiquitin-related modifier 1 homolog n=1 Tax...   142   1e-31
+UniRef90_A0A1L8F1D4 Ubiquitin-related modifier 1 n=2 Tax=Xenopus...   141   1e-31
+UniRef90_UPI000802C08E ubiquitin-related modifier 1 isoform X1 n...   141   1e-31
+UniRef90_Q5ZJU4 Ubiquitin-related modifier 1 n=26 Tax=Aves TaxID...   141   2e-31
+UniRef90_A0A1V4J751 Ubiquitin-related modifier 1 n=22 Tax=Neogna...   140   2e-31
+UniRef90_A0A0N1H7M9 Ubiquitin-related modifier 1 n=1 Tax=Phialop...   140   4e-31
+UniRef90_UPI000776C370 ubiquitin-related modifier 1 isoform X2 n...   140   4e-31
+UniRef90_K7J611 Ubiquitin-related modifier 1 homolog n=1 Tax=Nas...   140   4e-31
+UniRef90_UPI0007DCAE8B ubiquitin-related modifier 1 isoform X1 n...   139   5e-31
+UniRef90_UPI000A1C1D2D ubiquitin-related modifier 1 n=1 Tax=Bole...   139   5e-31
+UniRef90_I3J7T7 Ubiquitin-related modifier 1 n=13 Tax=Clupeoceph...   139   6e-31
+UniRef90_Q148F0 Ubiquitin-related modifier 1 n=4 Tax=Bovidae Tax...   139   6e-31
+UniRef90_Q9D2P4 Ubiquitin-related modifier 1 n=2 Tax=Mus musculu...   139   8e-31
+UniRef90_UPI000A37B10A ubiquitin-related modifier 1 n=1 Tax=Anas...   139   8e-31
+UniRef90_UPI0007384B34 ubiquitin-related modifier 1 isoform X2 n...   139   9e-31
+UniRef90_G2Q7Q2 Ubiquitin-related modifier 1 n=1 Tax=Myceliophth...   139   1e-30
+UniRef90_UPI0009B48FD2 ubiquitin-related modifier 1 n=1 Tax=Mono...   139   1e-30
+UniRef90_UPI0005C3C513 ubiquitin-related modifier 1-like n=1 Tax...   139   1e-30
+UniRef90_A0A1S3KR45 Ubiquitin-related modifier 1 n=10 Tax=Osteog...   138   1e-30
+UniRef90_G3PZD9 Ubiquitin-related modifier 1 n=1 Tax=Gasterosteu...   138   1e-30
+UniRef90_A0A146H8J7 Ubiquitin-related modifier 1 n=1 Tax=Mycena ...   138   1e-30
+UniRef90_UPI00052EA624 ubiquitin-related modifier 1 n=1 Tax=Tina...   138   1e-30
+UniRef90_A0A0Q3RJX9 Ubiquitin-related modifier 1 n=1 Tax=Amazona...   138   2e-30
+UniRef90_A0A060SI28 Ubiquitin-related modifier 1 n=1 Tax=Pycnopo...   137   2e-30
+UniRef90_Q9BTM9 Ubiquitin-related modifier 1 n=72 Tax=Theria Tax...   137   2e-30
+UniRef90_H9GGD9 Ubiquitin-related modifier 1 n=1 Tax=Anolis caro...   137   3e-30
+UniRef90_A0A1V8V2Y1 Ubiquitin-related modifier 1 n=4 Tax=Rachicl...   137   3e-30
+UniRef90_UPI000994E51B ubiquitin-related modifier 1 isoform X1 n...   137   3e-30
+UniRef90_A0A1A8UKC5 Ubiquitin-related modifier 1 n=8 Tax=Nothobr...   137   4e-30
+UniRef90_UPI000440C425 ubiquitin-like modifier 1 n=1 Tax=Stereum...   137   4e-30
+UniRef90_C1C497 Ubiquitin-related modifier 1 n=2 Tax=Ranoidea Ta...   136   4e-30
+UniRef90_UPI0006C95E65 ubiquitin-related modifier 1 homolog n=1 ...   136   4e-30
+UniRef90_M2NHD7 Ubiquitin-related modifier 1 n=1 Tax=Baudoinia c...   136   4e-30
+UniRef90_A0A0P6BSU3 Ubiquitin-related modifier 1 homolog n=1 Tax...   136   5e-30
+UniRef90_H3BBL8 Ubiquitin-related modifier 1 n=1 Tax=Latimeria c...   136   5e-30
+UniRef90_UPI0009E2C183 ubiquitin-related modifier 1 n=1 Tax=Pogo...   136   5e-30
+UniRef90_M3CQH7 Ubiquitin-related modifier 1 n=1 Tax=Sphaerulina...   136   6e-30
+UniRef90_A0A1I8MXP6 Ubiquitin-related modifier 1 homolog n=1 Tax...   136   7e-30
+UniRef90_F2Z4T6 Ubiquitin-related modifier 1 n=7 Tax=Otophysi Ta...   136   7e-30
+UniRef90_A0A1W5CY17 Ubiquitin-related modifier 1 n=1 Tax=Umbilic...   135   7e-30
+UniRef90_A0A1S9S113 Ubiquitin-related modifier 1 n=3 Tax=Penicil...   135   7e-30
+UniRef90_UPI00074FDB89 ubiquitin-related modifier 1 n=1 Tax=Gekk...   135   8e-30
+UniRef90_A0A167Y8S5 Ubiquitin-related modifier 1 n=1 Tax=Ascosph...   135   8e-30
+UniRef90_UPI00021A6DD5 ubiquitin-related modifier 1 n=2 Tax=Bomb...   135   8e-30
+UniRef90_A0A0B8RVK3 Ubiquitin-related modifier 1 n=4 Tax=Serpent...   135   8e-30
+UniRef90_A0A1Y2IEW1 Ubiquitin-related modifier 1 n=1 Tax=Pycnopo...   135   9e-30
+UniRef90_W4JUV6 Ubiquitin-related modifier 1 n=1 Tax=Heterobasid...   135   1e-29
+UniRef90_J4I9W0 Ubiquitin-related modifier 1 n=1 Tax=Fibroporia ...   135   1e-29
+UniRef90_UPI000511A565 ubiquitin-related modifier 1 n=1 Tax=Nipp...   135   1e-29
+UniRef90_UPI00094804EB ubiquitin-related modifier 1-like n=1 Tax...   135   1e-29
+UniRef90_E2BGU4 Ubiquitin-related modifier 1 homolog n=1 Tax=Har...   135   1e-29
+UniRef90_F9X499 Ubiquitin-related modifier 1 n=4 Tax=Zymoseptori...   135   1e-29
+UniRef90_A0A164YJ44 Ubiquitin-related modifier 1 n=1 Tax=Sistotr...   135   1e-29
+UniRef90_UPI000A2A6684 ubiquitin-related modifier 1-like n=1 Tax...   135   1e-29
+UniRef90_UPI0007EE428E ubiquitin-related modifier 1 isoform X1 n...   135   1e-29
+UniRef90_A0A074RIF6 Ubiquitin-related modifier 1 n=2 Tax=Rhizoct...   134   2e-29
+UniRef90_UPI000521BF6D ubiquitin-related modifier 1 n=3 Tax=Neog...   134   2e-29
+UniRef90_A0A1V6PNC8 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   134   2e-29
+UniRef90_S7R6P2 Ubiquitin-related modifier 1 n=1 Tax=Gloeophyllu...   134   2e-29
+UniRef90_UPI00067142C7 ubiquitin-related modifier 1 n=1 Tax=Anse...   134   2e-29
+UniRef90_UPI00083DD311 ubiquitin-related modifier 1 n=1 Tax=Habr...   134   2e-29
+UniRef90_W5M4E8 Ubiquitin-related modifier 1 n=1 Tax=Lepisosteus...   134   2e-29
+UniRef90_S8AW36 Ubiquitin-related modifier 1 n=1 Tax=Penicillium...   134   2e-29
+UniRef90_A0A1S3HHT5 Ubiquitin-related modifier 1 homolog n=1 Tax...   134   2e-29
+UniRef90_G0SE11 Ubiquitin-related modifier 1 n=1 Tax=Chaetomium ...   134   2e-29
+UniRef90_A0A139HQ37 Ubiquitin-related modifier 1 n=1 Tax=Mycosph...   134   3e-29
+UniRef90_UPI000258DB0E ubiquitin-related modifier 1 n=1 Tax=Mega...   134   3e-29
+UniRef90_C5GXV7 Ubiquitin-related modifier 1 n=5 Tax=Blastomyces...   134   3e-29
+UniRef90_A0A1M2V9F9 Ubiquitin-related modifier 1 n=2 Tax=Tramete...   134   3e-29
+UniRef90_A0A0G2IGB0 Ubiquitin-related modifier 1 n=2 Tax=Diaport...   134   3e-29
+UniRef90_UPI0009E1BAA8 ubiquitin-related modifier 1-like n=1 Tax...   134   3e-29
+UniRef90_R7YQ21 Ubiquitin-related modifier 1 n=1 Tax=Coniosporiu...   134   3e-29
+UniRef90_UPI000718C3AE ubiquitin-related modifier 1 n=1 Tax=Poli...   133   3e-29
+UniRef90_A0A165F1C9 Ubiquitin-related modifier 1 n=1 Tax=Laetipo...   133   4e-29
+UniRef90_K2RE67 Ubiquitin-related modifier 1 n=1 Tax=Macrophomin...   133   4e-29
+UniRef90_A0A067Q2A1 Ubiquitin-related modifier 1 n=1 Tax=Jaapia ...   133   4e-29
+UniRef90_A0A1E3BHS7 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   133   4e-29
+UniRef90_D8Q7Q0 Ubiquitin-related modifier 1 n=1 Tax=Schizophyll...   133   4e-29
+UniRef90_UPI0007B89838 ubiquitin-related modifier 1-like isoform...   133   4e-29
+UniRef90_A0A0B7AZB5 Ubiquitin-related modifier 1 homolog n=2 Tax...   133   4e-29
+UniRef90_A0A151X1Y3 Ubiquitin-related modifier 1 homolog n=6 Tax...   133   4e-29
+UniRef90_L9KLK6 Ubiquitin-related modifier 1 n=2 Tax=Tupaia chin...   133   4e-29
+UniRef90_UPI00059E064C ubiquitin-related modifier 1 n=1 Tax=Camp...   133   4e-29
+UniRef90_UPI000771D092 ubiquitin-related modifier 1 n=1 Tax=Ceph...   133   5e-29
+UniRef90_R4FKQ2 Ubiquitin-related modifier 1 homolog n=3 Tax=Tri...   133   5e-29
+UniRef90_UPI00094EBCAD ubiquitin-related modifier 1 n=1 Tax=Hipp...   133   5e-29
+UniRef90_UPI000626E3C9 ubiquitin-related modifier 1 n=1 Tax=Orus...   133   5e-29
+UniRef90_A0A0G2DVU7 Ubiquitin-related modifier 1 n=3 Tax=Diplodi...   133   5e-29
+UniRef90_UPI0003F0BBC3 ubiquitin-related modifier 1-like n=1 Tax...   133   5e-29
+UniRef90_A0A0P5B1G6 Ubiquitin-related modifier 1 homolog n=1 Tax...   133   6e-29
+UniRef90_Q1E493 Ubiquitin-related modifier 1 n=7 Tax=Coccidioide...   132   6e-29
+UniRef90_A0A166I4Q1 Ubiquitin-related modifier 1 n=1 Tax=Sistotr...   132   6e-29
+UniRef90_A0A1I8G7D7 Ubiquitin-related modifier 1 homolog n=1 Tax...   132   6e-29
+UniRef90_S4RT91 Ubiquitin-related modifier 1 n=1 Tax=Petromyzon ...   132   6e-29
+UniRef90_A0A1R3R9C7 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   132   7e-29
+UniRef90_UPI0004CD64D2 ubiquitin-related modifier 1 homolog n=1 ...   132   7e-29
+UniRef90_UPI000521C200 ubiquitin-related modifier 1 n=1 Tax=Apal...   132   7e-29
+UniRef90_A0A0D1YHF2 Ubiquitin-related modifier 1 n=1 Tax=Verruco...   132   7e-29
+UniRef90_A0A0C3RYV7 Ubiquitin-related modifier 1 n=1 Tax=Phlebio...   132   7e-29
+UniRef90_K5V3E0 Ubiquitin-related modifier 1 n=1 Tax=Phanerochae...   132   7e-29
+UniRef90_A0A1X2H7T9 Ubiquitin-related modifier 1 n=1 Tax=Synceph...   132   7e-29
+UniRef90_A0A0L6X1F3 Ubiquitin-related modifier 1 n=1 Tax=Termito...   132   7e-29
+UniRef90_A0A1Y2W7Y5 Ubiquitin-related modifier 1 n=1 Tax=Hypoxyl...   132   8e-29
+UniRef90_A0A165LER0 Ubiquitin-related modifier 1 n=1 Tax=Daedale...   132   8e-29
+UniRef90_A0A1V6QAM5 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   132   8e-29
+UniRef90_UPI0006B3996D ubiquitin-related modifier 1 n=1 Tax=Aust...   132   8e-29
+UniRef90_A0A1Z5T4Y6 Ubiquitin-related modifier 1 n=2 Tax=Hortaea...   132   8e-29
+UniRef90_A0A1L8EIR2 Ubiquitin-related modifier 1 homolog n=1 Tax...   132   9e-29
+UniRef90_UPI000A2C050E ubiquitin-related modifier 1-like n=1 Tax...   132   9e-29
+UniRef90_A0A177VCP3 Ubiquitin-related modifier 1 n=2 Tax=Tilleti...   132   1e-28
+UniRef90_UPI0005F56B6B ubiquitin-related modifier 1 n=1 Tax=Voll...   132   1e-28
+UniRef90_A0A0J5PIJ0 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   132   1e-28
+UniRef90_A0A1S1VHC1 Ubiquitin-related modifier 1 n=2 Tax=Colleto...   132   1e-28
+UniRef90_K3VLY2 Ubiquitin-related modifier 1 n=1 Tax=Fusarium ps...   132   1e-28
+UniRef90_UPI00083C725E ubiquitin-related modifier 1 n=1 Tax=Eufr...   132   1e-28
+UniRef90_A0A0K6GAW8 Ubiquitin-related modifier 1 n=1 Tax=Rhizoct...   132   1e-28
+UniRef90_I1RT45 Ubiquitin-related modifier 1 n=1 Tax=Gibberella ...   132   1e-28
+UniRef90_A0A0K8RKX7 Ubiquitin-related modifier 1 homolog n=3 Tax...   132   1e-28
+UniRef90_A0A093HXT8 Ubiquitin-related modifier 1 (Fragment) n=2 ...   132   1e-28
+UniRef90_UPI00053CC0C5 ubiquitin-related modifier 1 n=1 Tax=Hali...   132   1e-28
+UniRef90_UPI0005ACF99B ubiquitin-related modifier 1 homolog n=1 ...   132   1e-28
+UniRef90_UPI0006C9C7ED ubiquitin-related modifier 1 homolog n=1 ...   132   1e-28
+UniRef90_A0A087ZTP1 Ubiquitin-related modifier 1 homolog n=5 Tax...   132   1e-28
+UniRef90_UPI00035A2DF2 ubiquitin-related modifier 1-like n=1 Tax...   132   1e-28
+UniRef90_A0A1V6T3U5 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   131   1e-28
+UniRef90_A0A1Y2X6X7 Ubiquitin-related modifier 1 n=1 Tax=Daldini...   131   1e-28
+UniRef90_UPI0009523DFE ubiquitin-related modifier 1 n=1 Tax=Turs...   131   1e-28
+UniRef90_A8P008 Ubiquitin-related modifier 1 n=1 Tax=Coprinopsis...   131   1e-28
+UniRef90_A0A136J6Z8 Ubiquitin-related modifier 1 n=1 Tax=Microdo...   131   2e-28
+UniRef90_A0A023FU26 Ubiquitin-related modifier 1 homolog n=3 Tax...   131   2e-28
+UniRef90_G3MN56 Ubiquitin-related modifier 1 homolog n=2 Tax=Amb...   131   2e-28
+UniRef90_A0A179GHU3 Ubiquitin-related modifier 1 n=1 Tax=Purpure...   131   2e-28
+UniRef90_E9HTI9 Ubiquitin-related modifier 1 homolog n=1 Tax=Dap...   131   2e-28
+UniRef90_S4PI46 Ubiquitin-related modifier 1 homolog n=1 Tax=Par...   131   2e-28
+UniRef90_A0A0C3AZK2 Ubiquitin-related modifier 1 (Fragment) n=1 ...   131   2e-28
+UniRef90_A0A1B6H6I1 Ubiquitin-related modifier 1 homolog n=3 Tax...   131   2e-28
+UniRef90_R1FYH7 Ubiquitin-related modifier 1 n=1 Tax=Botryosphae...   131   2e-28
+UniRef90_UPI0004F45776 ubiquitin-related modifier 1 n=18 Tax=Neo...   130   2e-28
+UniRef90_A0A158NTQ3 Ubiquitin-related modifier 1 homolog n=4 Tax...   130   2e-28
+UniRef90_UPI0004414060 ubiquitin-related modifier 1 n=1 Tax=Auri...   130   2e-28
+UniRef90_U6D0H0 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   130   3e-28
+UniRef90_Q2U9H6 Ubiquitin-related modifier 1 n=4 Tax=Aspergillus...   130   3e-28
+UniRef90_M3ANF9 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   130   3e-28
+UniRef90_A0A023F8A1 Ubiquitin-related modifier 1 homolog n=1 Tax...   130   3e-28
+UniRef90_W6QL97 Ubiquitin-related modifier 1 n=16 Tax=Penicilliu...   130   3e-28
+UniRef90_C5DLF4 Ubiquitin-related modifier 1 n=2 Tax=Lachancea T...   130   3e-28
+UniRef90_A0A1X6MLY0 Ubiquitin-related modifier 1 n=1 Tax=Postia ...   130   3e-28
+UniRef90_B8MSR1 Ubiquitin-related modifier 1 n=1 Tax=Talaromyces...   130   3e-28
+UniRef90_A0A1V1SVX9 Ubiquitin-related modifier 1 n=1 Tax=fungal ...   130   3e-28
+UniRef90_UPI0004F4648B ubiquitin-related modifier 1 n=1 Tax=Pong...   130   3e-28
+UniRef90_A0A0B7KE40 Ubiquitin-related modifier 1 n=1 Tax=Bionect...   130   4e-28
+UniRef90_UPI0007119D13 ubiquitin-related modifier 1 n=1 Tax=Dino...   130   4e-28
+UniRef90_Q9C245 Ubiquitin-related modifier 1 n=5 Tax=Sordariacea...   130   4e-28
+UniRef90_D5GA60 Ubiquitin-related modifier 1 n=1 Tax=Tuber melan...   130   4e-28
+UniRef90_V5FMT8 Ubiquitin-related modifier 1 n=1 Tax=Byssochlamy...   130   4e-28
+UniRef90_UPI0003959135 ubiquitin-related modifier 1 n=1 Tax=Geos...   130   4e-28
+UniRef90_A0A0F8UR25 Ubiquitin-related modifier 1 n=3 Tax=Aspergi...   130   4e-28
+UniRef90_A0A1Y2AUV7 Ubiquitin-related modifier 1 n=1 Tax=Naemate...   130   4e-28
+UniRef90_A0A059C4M0 Ubiquitin-related modifier 1 homolog n=2 Tax...   130   4e-28
+UniRef90_A0A210R4X4 Ubiquitin-related modifier 1-like n=1 Tax=Mi...   130   4e-28
+UniRef90_A0A162NQ80 Ubiquitin-related modifier 1 homolog n=5 Tax...   130   4e-28
+UniRef90_A0A0L8GF44 Ubiquitin-related modifier 1 homolog n=1 Tax...   130   4e-28
+UniRef90_UPI000A3749FC ubiquitin-related modifier 1 n=4 Tax=Aves...   130   4e-28
+UniRef90_A0A010RE10 Ubiquitin-related modifier 1 n=7 Tax=Colleto...   130   5e-28
+UniRef90_A0A0I9X7G1 Ubiquitin-related modifier 1 n=3 Tax=Fusariu...   130   5e-28
+UniRef90_A0A1Y1YPB5 Ubiquitin-related modifier 1 n=1 Tax=Clohesy...   130   5e-28
+UniRef90_A0A086TE31 Ubiquitin-related modifier 1 n=1 Tax=Acremon...   130   5e-28
+UniRef90_A0A0C4E5L5 Ubiquitin-related modifier 1 n=1 Tax=Magnapo...   130   5e-28
+UniRef90_G4T8H2 Ubiquitin-related modifier 1 n=1 Tax=Serendipita...   129   5e-28
+UniRef90_A0A175W288 Ubiquitin-related modifier 1 n=1 Tax=Madurel...   129   6e-28
+UniRef90_A0A218YXS0 Uncharacterized protein n=1 Tax=Marssonina c...   129   6e-28
+UniRef90_A0A1Y2UTN2 Ubiquitin-related modifier 1 n=1 Tax=Hypoxyl...   129   6e-28
+UniRef90_A0A0D2XCE2 Ubiquitin-related modifier 1 n=15 Tax=Fusari...   129   6e-28
+UniRef90_W8C181 Ubiquitin-related modifier 1 homolog n=4 Tax=Tep...   129   6e-28
+UniRef90_A0A168LTT3 Ubiquitin-related modifier 1 n=2 Tax=Absidia...   129   6e-28
+UniRef90_H0YZM3 Ubiquitin-related modifier 1 n=3 Tax=Passeriform...   129   7e-28
+UniRef90_J3P3A4 Ubiquitin-related modifier 1 n=1 Tax=Gaeumannomy...   129   7e-28
+UniRef90_A0A0L1J1X4 Ubiquitin-related modifier 1 n=2 Tax=Aspergi...   129   7e-28
+UniRef90_Q7KU86 Ubiquitin-related modifier 1 homolog n=22 Tax=me...   129   7e-28
+UniRef90_G7XZ86 Ubiquitin-related modifier 1 n=3 Tax=Aspergillus...   129   7e-28
+UniRef90_A0A1Y2EJJ6 Ubiquitin-related modifier 1 n=1 Tax=Pseudom...   129   7e-28
+UniRef90_B6QV90 Ubiquitin-related modifier 1 n=2 Tax=Talaromyces...   129   7e-28
+UniRef90_K5WYL5 Ubiquitin-related modifier 1 n=2 Tax=Agaricus bi...   129   8e-28
+UniRef90_A0A1Y1UC27 Ubiquitin-related modifier 1 n=1 Tax=Kockova...   129   8e-28
+UniRef90_M7SL00 Ubiquitin-related modifier 1 n=1 Tax=Eutypa lata...   129   8e-28
+UniRef90_A0A1W2TLB3 Ubiquitin-related modifier 1 n=1 Tax=Roselli...   129   8e-28
+UniRef90_A0A0N4UKN8 Ubiquitin-related modifier 1 homolog n=1 Tax...   129   8e-28
+UniRef90_UPI0008478FAA ubiquitin-related modifier 1 isoform X1 n...   129   8e-28
+UniRef90_UPI00073D310C ubiquitin-related modifier 1 n=1 Tax=Poli...   129   9e-28
+UniRef90_T2M6C6 Ubiquitin-related modifier 1 (Fragment) n=2 Tax=...   129   9e-28
+UniRef90_W2RW73 Ubiquitin-related modifier 1 n=1 Tax=Cyphellopho...   129   9e-28
+UniRef90_A0A1E1W1W1 Ubiquitin-related modifier 1 homolog n=2 Tax...   129   9e-28
+UniRef90_A0A0L9SJT4 Ubiquitin-related modifier 1 n=1 Tax=Ophioco...   129   1e-27
+UniRef90_C1GXR9 Ubiquitin-related modifier 1 n=4 Tax=Paracoccidi...   129   1e-27
+UniRef90_A0A0C9MT34 Ubiquitin-related modifier 1 n=3 Tax=Mucor T...   128   1e-27
+UniRef90_T1JNE3 Ubiquitin-related modifier 1 homolog n=1 Tax=Str...   128   1e-27
+UniRef90_A0A091F690 Ubiquitin-related modifier 1 (Fragment) n=2 ...   128   1e-27
+UniRef90_E0VWI4 Ubiquitin-related modifier 1 homolog n=1 Tax=Ped...   128   1e-27
+UniRef90_F2TZU6 Ubiquitin-related modifier 1 homolog n=1 Tax=Sal...   128   1e-27
+UniRef90_A0A1J1IK19 Ubiquitin-related modifier 1 homolog n=1 Tax...   128   1e-27
+UniRef90_H3D6P6 Ubiquitin-related modifier 1 n=3 Tax=Eupercaria ...   128   1e-27
+UniRef90_T5AFD3 Ubiquitin-related modifier 1 n=1 Tax=Ophiocordyc...   128   1e-27
+UniRef90_A0A068RK90 Ubiquitin-related modifier 1 n=2 Tax=Lichthe...   128   1e-27
+UniRef90_A0A0G4KGU3 Ubiquitin-related modifier 1 n=1 Tax=Vertici...   128   1e-27
+UniRef90_A0A0C3KM43 Ubiquitin-related modifier 1 n=1 Tax=Tulasne...   128   1e-27
+UniRef90_A0A0C2WPN9 Ubiquitin-related modifier 1 n=1 Tax=Amanita...   128   1e-27
+UniRef90_W4Z502 Ubiquitin-related modifier 1 homolog n=1 Tax=Str...   128   1e-27
+UniRef90_M5BY56 Ubiquitin-related modifier 1 n=2 Tax=Thanatephor...   128   1e-27
+UniRef90_G0VJK5 Ubiquitin-related modifier 1 n=1 Tax=Naumovozyma...   128   2e-27
+UniRef90_UPI0009829277 Ubiquitin-related modifier 1 n=1 Tax=Tala...   128   2e-27
+UniRef90_UPI0005330486 ubiquitin-related modifier 1 isoform X1 n...   128   2e-27
+UniRef90_A0A0N4Z4S4 Ubiquitin-related modifier 1 homolog n=1 Tax...   128   2e-27
+UniRef90_A0A034WTT0 Ubiquitin-related modifier 1 homolog n=2 Tax...   128   2e-27
+UniRef90_L2G6X6 Ubiquitin-related modifier 1 n=6 Tax=Colletotric...   128   2e-27
+UniRef90_A0A137QR80 Ubiquitin-related modifier 1 n=1 Tax=Leucoag...   127   2e-27
+UniRef90_A0A1U7LHY4 Ubiquitin-related modifier 1 n=1 Tax=Neolect...   127   2e-27
+UniRef90_UPI0008400B03 ubiquitin-related modifier 1 n=1 Tax=Cera...   127   2e-27
+UniRef90_R8BBM2 Ubiquitin-related modifier 1 n=1 Tax=Togninia mi...   127   2e-27
+UniRef90_UPI0006D4DD0B ubiquitin-related modifier 1 homolog n=1 ...   127   2e-27
+UniRef90_A0A1Y1HN13 Ubiquitin-related modifier 1 homolog n=1 Tax...   127   2e-27
+UniRef90_U9T6V8 Ubiquitin-related modifier 1 n=2 Tax=Rhizophagus...   127   2e-27
+UniRef90_A0A0N1IHF7 Ubiquitin-related modifier 1 homolog n=4 Tax...   127   2e-27
+UniRef90_A0A166TMW3 Ubiquitin-related modifier 1 n=1 Tax=Fibular...   127   2e-27
+UniRef90_S8EFK7 Ubiquitin-related modifier 1 n=1 Tax=Fomitopsis ...   127   2e-27
+UniRef90_C5FRC6 Ubiquitin-related modifier 1 n=1 Tax=Arthroderma...   127   2e-27
+UniRef90_A0A1W4ZMF8 Ubiquitin-related modifier 1 n=1 Tax=Sclerop...   127   3e-27
+UniRef90_UPI00083BEB01 ubiquitin-related modifier 1 n=1 Tax=Nicr...   127   3e-27
+UniRef90_UPI00067D3614 ubiquitin-related modifier 1 n=1 Tax=Amye...   127   3e-27
+UniRef90_A0A0C3GIE2 Ubiquitin-related modifier 1 n=1 Tax=Oidiode...   127   3e-27
+UniRef90_R0K833 Ubiquitin-related modifier 1 n=1 Tax=Setosphaeri...   127   3e-27
+UniRef90_A0A165UIG9 Ubiquitin-related modifier 1 n=1 Tax=Neolent...   127   3e-27
+UniRef90_F0XRF0 Ubiquitin-related modifier 1 n=1 Tax=Grosmannia ...   127   3e-27
+UniRef90_A0A0E0LKC5 Ubiquitin-related modifier 1 homolog n=1 Tax...   127   3e-27
+UniRef90_A0A165FRB6 Ubiquitin-related modifier 1 n=1 Tax=Xylona ...   127   3e-27
+UniRef90_M2S935 Ubiquitin-related modifier 1 n=6 Tax=Bipolaris T...   127   3e-27
+UniRef90_S7RHE8 Ubiquitin-related modifier 1 (Fragment) n=3 Tax=...   127   3e-27
+UniRef90_A0A074X3A7 Ubiquitin-related modifier 1 n=4 Tax=Aureoba...   127   3e-27
+UniRef90_A0A0D6EPI5 Ubiquitin-related modifier 1 (Fragment) n=1 ...   127   4e-27
+UniRef90_V9L9Y9 Ubiquitin-related modifier 1 n=2 Tax=Callorhinch...   127   4e-27
+UniRef90_A0A0H2S177 Ubiquitin-related modifier 1 n=1 Tax=Schizop...   127   4e-27
+UniRef90_A8IC48 Ubiquitin-related modifier 1 homolog n=1 Tax=Chl...   127   4e-27
+UniRef90_E9J3I8 Ubiquitin-related modifier 1 (Fragment) n=3 Tax=...   127   4e-27
+UniRef90_A0A1E1L6H3 Ubiquitin-related modifier 1 n=3 Tax=Rhyncho...   127   4e-27
+UniRef90_A0A150V3S6 Ubiquitin-related modifier 1 n=1 Tax=Acidomy...   127   4e-27
+UniRef90_A0A1I8D3Q5 Ubiquitin-related modifier 1 homolog n=1 Tax...   127   4e-27
+UniRef90_A0A0D2WT70 Ubiquitin-related modifier 1 homolog n=1 Tax...   126   4e-27
+UniRef90_A0A183T9B9 Ubiquitin-related modifier 1 homolog n=1 Tax...   126   4e-27
+UniRef90_I1EH13 Ubiquitin-related modifier 1 homolog n=3 Tax=Amp...   126   5e-27
+UniRef90_A9NQG8 Ubiquitin-related modifier 1 homolog n=2 Tax=Pic...   126   5e-27
+UniRef90_UPI0006B0C0A8 ubiquitin-related modifier 1-like n=1 Tax...   126   5e-27
+UniRef90_A0A178E0E4 Ubiquitin-related modifier 1 n=1 Tax=Pyrenoc...   126   5e-27
+UniRef90_S8C0G8 Ubiquitin-related modifier 1 n=1 Tax=Dactylellin...   126   5e-27
+UniRef90_A0A139WLE8 Ubiquitin-related modifier 1 homolog n=1 Tax...   126   5e-27
+UniRef90_A0A1S3KR54 Ubiquitin-related modifier 1 n=3 Tax=Salmoni...   126   5e-27
+UniRef90_A0A177UK76 Ubiquitin-related modifier 1 n=2 Tax=Tilleti...   126   5e-27
+UniRef90_J4UN14 Ubiquitin-related modifier 1 n=1 Tax=Beauveria b...   126   6e-27
+UniRef90_A0A162PQT3 Ubiquitin-related modifier 1 n=1 Tax=Phycomy...   126   6e-27
+UniRef90_UPI0006CEE2C6 ubiquitin-related modifier 1 homolog isof...   126   6e-27
+UniRef90_A0A0D7AG12 Ubiquitin-related modifier 1 n=1 Tax=Fistuli...   126   6e-27
+UniRef90_G3JGJ0 Ubiquitin-related modifier 1 n=2 Tax=Cordyceps T...   126   6e-27
+UniRef90_A0A0D0CH52 Ubiquitin-related modifier 1 n=1 Tax=Paxillu...   126   6e-27
+UniRef90_A0A1B6C9N0 Ubiquitin-related modifier 1 homolog n=2 Tax...   126   6e-27
+UniRef90_UPI0008F9C945 ubiquitin-related modifier 1 n=1 Tax=Bemi...   126   6e-27
+UniRef90_A0A165I1C0 Ubiquitin-related modifier 1 n=1 Tax=Calocer...   126   6e-27
+UniRef90_A0A0C9UIS6 Ubiquitin-related modifier 1 n=1 Tax=Sphaero...   126   6e-27
+UniRef90_UPI00076FCEA3 ubiquitin-related modifier 1 n=1 Tax=Neod...   126   6e-27
+UniRef90_A0A0A1WXX8 Ubiquitin-related modifier 1 homolog n=2 Tax...   126   7e-27
+UniRef90_A0A0A9Y1B2 Ubiquitin-related modifier 1 homolog n=1 Tax...   126   7e-27
+UniRef90_UPI000777DEAC ubiquitin-related modifier 1 isoform X3 n...   125   7e-27
+UniRef90_K1XM57 Ubiquitin-related modifier 1 n=1 Tax=Marssonina ...   125   7e-27
+UniRef90_A0A1Z5KXU3 Ubiquitin-related modifier 1 (Fragment) n=1 ...   125   7e-27
+UniRef90_A0A165K9V8 Ubiquitin-related modifier 1 n=2 Tax=Exidia ...   125   8e-27
+UniRef90_A0A1Y3BG87 Ubiquitin-related modifier 1 homolog n=1 Tax...   125   8e-27
+UniRef90_D8UAY3 Ubiquitin-related modifier 1 homolog n=1 Tax=Vol...   125   8e-27
+UniRef90_E4UYV7 Ubiquitin-related modifier 1 n=1 Tax=Arthroderma...   125   8e-27
+UniRef90_B4LE67 Ubiquitin-related modifier 1 homolog n=6 Tax=Dro...   125   8e-27
+UniRef90_H6BYC7 Ubiquitin-related modifier 1 n=1 Tax=Exophiala d...   125   8e-27
+UniRef90_A0A0F7SQD5 Ubiquitin-related modifier 1 n=1 Tax=Phaffia...   125   8e-27
+UniRef90_A0A1G4JLL3 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   125   9e-27
+UniRef90_L8GY50 Ubiquitin-related modifier 1 homolog n=1 Tax=Aca...   125   9e-27
+UniRef90_A0A1V9XL90 Ubiquitin-related modifier 1 homolog n=1 Tax...   125   9e-27
+UniRef90_A0A194XK49 Ubiquitin-related modifier 1 n=1 Tax=Phialoc...   125   9e-27
+UniRef90_A0A139AQX9 Ubiquitin-related modifier 1 n=1 Tax=Gonapod...   125   9e-27
+UniRef90_A0A0D2MMY9 Ubiquitin-related modifier 1 n=1 Tax=Hypholo...   125   9e-27
+UniRef90_A0A1D5QLE1 Ubiquitin-related modifier 1 n=4 Tax=Boreoeu...   125   9e-27
+UniRef90_A0A0C9WG41 Ubiquitin-related modifier 1 n=1 Tax=Hydnome...   125   9e-27
+UniRef90_F4PAJ3 Ubiquitin-related modifier 1 n=2 Tax=Batrachochy...   125   9e-27
+UniRef90_UPI00074032F4 ubiquitin-related modifier 1 isoform X3 n...   125   1e-26
+UniRef90_B2WIC3 Ubiquitin-related modifier 1 n=2 Tax=Pyrenophora...   125   1e-26
+UniRef90_A0A061SJN3 Ubiquitin-related modifier 1 (Fragment) n=2 ...   125   1e-26
+UniRef90_A0A178AR90 Ubiquitin-related modifier 1 n=1 Tax=Stagono...   125   1e-26
+UniRef90_V3ZY87 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   125   1e-26
+UniRef90_A0A0C3CRB7 Ubiquitin-related modifier 1 n=1 Tax=Piloder...   125   1e-26
+UniRef90_A0A0U1LZL7 Ubiquitin-related modifier 1 n=1 Tax=Talarom...   125   1e-26
+UniRef90_A0A0J1AUM8 Ubiquitin-related modifier 1 n=1 Tax=Cutaneo...   125   1e-26
+UniRef90_A0A0L0HIE7 Ubiquitin-related modifier 1 n=1 Tax=Spizell...   125   1e-26
+UniRef90_A0A1Y1WR16 Ubiquitin-related modifier 1 n=1 Tax=Anaerom...   125   1e-26
+UniRef90_L7M3H2 Ubiquitin-related modifier 1 homolog n=3 Tax=Ixo...   125   1e-26
+UniRef90_A6S5X1 Ubiquitin-related modifier 1 n=3 Tax=Botryotinia...   125   1e-26
+UniRef90_A0A1L7X1Q3 Ubiquitin-related modifier 1 n=1 Tax=Phialoc...   125   1e-26
+UniRef90_A0A0A1PEB1 Ubiquitin-related modifier 1 n=7 Tax=Rhizopu...   125   2e-26
+UniRef90_F2PUZ0 Ubiquitin-related modifier 1 n=7 Tax=Trichophyto...   125   2e-26
+UniRef90_UPI000626ACF6 ubiquitin-related modifier 1 n=1 Tax=Atha...   125   2e-26
+UniRef90_UPI00063F2D6D ubiquitin-related modifier 1 isoform X1 n...   124   2e-26
+UniRef90_A0A1S7HNZ1 Ubiquitin-related modifier 1 n=3 Tax=Zygosac...   124   2e-26
+UniRef90_U4TXP6 Ubiquitin-related modifier 1 homolog n=2 Tax=Den...   124   2e-26
+UniRef90_G7E712 Ubiquitin-related modifier 1 n=1 Tax=Mixia osmun...   124   2e-26
+UniRef90_F6U0B5 Ubiquitin-related modifier 1 n=2 Tax=Ornithorhyn...   124   2e-26
+UniRef90_A0A0G2ES14 Ubiquitin-related modifier 1 n=1 Tax=Phaeomo...   124   2e-26
+UniRef90_A0A0D7BET9 Ubiquitin-related modifier 1 n=1 Tax=Cylindr...   124   2e-26
+UniRef90_V2XID8 Ubiquitin-related modifier 1 n=3 Tax=Moniliophth...   124   2e-26
+UniRef90_UPI000B36A021 ubiquitin-related modifier 1 homolog n=1 ...   124   2e-26
+UniRef90_A0A0D0C2P8 Ubiquitin-related modifier 1 n=1 Tax=Gymnopu...   124   2e-26
+UniRef90_A0A016UUE4 Ubiquitin-related modifier 1 homolog n=3 Tax...   124   3e-26
+UniRef90_A0A0F8A4U4 Ubiquitin-related modifier 1 n=1 Tax=Hirsute...   124   3e-26
+UniRef90_UPI000873BF5C ubiquitin-related modifier 1 n=1 Tax=Anop...   124   3e-26
+UniRef90_B4GUT1 Ubiquitin-related modifier 1 homolog n=2 Tax=pse...   124   3e-26
+UniRef90_B4MLV0 Ubiquitin-related modifier 1 homolog n=1 Tax=Dro...   124   3e-26
+UniRef90_Q75AD1 Ubiquitin-related modifier 1 n=2 Tax=Saccharomyc...   124   3e-26
+UniRef90_E5A4L2 Ubiquitin-related modifier 1 n=1 Tax=Leptosphaer...   124   3e-26
+UniRef90_A0A177CQY5 Ubiquitin-related modifier 1 n=1 Tax=Parapha...   124   3e-26
+UniRef90_A6R989 Ubiquitin-related modifier 1 n=5 Tax=Ajellomycet...   124   3e-26
+UniRef90_A0A0D2CB74 Ubiquitin-related modifier 1 n=2 Tax=Exophia...   124   3e-26
+UniRef90_UPI0005CE75DE ubiquitin-related modifier 1 isoform X2 n...   124   3e-26
+UniRef90_A0A1G4KNH5 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   123   4e-26
+UniRef90_A0A167KIW1 Ubiquitin-related modifier 1 n=1 Tax=Calocer...   123   4e-26
+UniRef90_A0A1Y1YY69 Ubiquitin-related modifier 1 n=1 Tax=Basidio...   123   4e-26
+UniRef90_M0SPN9 Ubiquitin-related modifier 1 homolog n=2 Tax=Mus...   123   4e-26
+UniRef90_M9MAY7 Ubiquitin-related modifier 1 n=3 Tax=Moesziomyce...   123   4e-26
+UniRef90_G4NGZ8 Ubiquitin-related modifier 1 n=1 Tax=Magnaporthe...   123   4e-26
+UniRef90_A0A1L8DSD2 Ubiquitin-related modifier 1 homolog n=1 Tax...   123   4e-26
+UniRef90_A0A0N8H4Y6 Ubiquitin-related modifier 1 n=1 Tax=Neonect...   123   4e-26
+UniRef90_G2QS24 Ubiquitin-related modifier 1 n=1 Tax=Thielavia t...   123   4e-26
+UniRef90_A0A1Y2M6W2 Ubiquitin-related modifier 1 n=1 Tax=Epicocc...   123   4e-26
+UniRef90_A0A0D3GQR1 Ubiquitin-related modifier 1 homolog n=1 Tax...   123   4e-26
+UniRef90_A0A167ULN7 Ubiquitin-related modifier 1 n=1 Tax=Sporoth...   123   4e-26
+UniRef90_UPI000776F739 ubiquitin-related modifier 1 isoform X1 n...   123   4e-26
+UniRef90_UPI0005816357 ubiquitin-related modifier 1 homolog 1 n=...   123   5e-26
+UniRef90_A0A0C7MY58 Ubiquitin-related modifier 1 n=2 Tax=Lachanc...   123   5e-26
+UniRef90_A0A1G4MI88 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   123   5e-26
+UniRef90_A0A0D1YQZ3 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   123   5e-26
+UniRef90_M5XHG4 Ubiquitin-related modifier 1 homolog n=4 Tax=fab...   123   5e-26
+UniRef90_UPI00096AE200 ubiquitin-related modifier 1 n=1 Tax=Aeth...   123   5e-26
+UniRef90_A0A0K0FCC5 Ubiquitin-related modifier 1 homolog n=2 Tax...   123   5e-26
+UniRef90_A0A167BRK1 Ubiquitin-related modifier 1 n=1 Tax=Metarhi...   123   5e-26
+UniRef90_UPI00077AC8C1 ubiquitin-related modifier 1-like isoform...   123   5e-26
+UniRef90_UPI0009010E2B ubiquitin-related modifier 1 homolog 2 n=...   123   6e-26
+UniRef90_A0MDQ1 Ubiquitin-related modifier 1 homolog 1 n=10 Tax=...   122   6e-26
+UniRef90_A0A1I7WJ44 Ubiquitin-related modifier 1 homolog n=1 Tax...   122   6e-26
+UniRef90_A0A1E3QIV4 Ubiquitin-related modifier 1 n=1 Tax=Babjevi...   122   6e-26
+UniRef90_C4Y2E3 Ubiquitin-related modifier 1 n=1 Tax=Clavispora ...   122   7e-26
+UniRef90_A0A1B0D3G4 Ubiquitin-related modifier 1 homolog n=1 Tax...   122   7e-26
+UniRef90_UPI0005D090EC ubiquitin-related modifier 1 homolog n=1 ...   122   7e-26
+UniRef90_UPI00053C2145 ubiquitin-related modifier 1 homolog 1 n=...   122   7e-26
+UniRef90_A0A103YN58 Ubiquitin-related modifier 1 homolog n=1 Tax...   122   7e-26
+UniRef90_A7ETU4 Ubiquitin-related modifier 1 n=3 Tax=Sclerotinia...   122   8e-26
+UniRef90_A0A176W5L5 Ubiquitin-related modifier 1 homolog n=1 Tax...   122   8e-26
+UniRef90_K4AZC9 Ubiquitin-related modifier 1 homolog n=7 Tax=Sol...   122   8e-26
+UniRef90_J5P883 Ubiquitin-related modifier 1 n=3 Tax=Saccharomyc...   122   9e-26
+UniRef90_A0A0D2DDH7 Ubiquitin-related modifier 1 n=8 Tax=Herpotr...   122   1e-25
+UniRef90_UPI000441829A ubiquitin-like modifier 1 n=1 Tax=Punctul...   122   1e-25
+UniRef90_A0A1B5L1B2 Ubiquitin-related modifier 1 n=1 Tax=Ustilag...   122   1e-25
+UniRef90_B3LTL7 Ubiquitin-related modifier 1 n=9 Tax=Saccharomyc...   122   1e-25
+UniRef90_A0A1G4JUH5 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   122   1e-25
+UniRef90_S3DBU7 Ubiquitin-related modifier 1 n=1 Tax=Glarea lozo...   122   1e-25
+UniRef90_G8JU35 Ubiquitin-related modifier 1 n=1 Tax=Eremotheciu...   122   1e-25
+UniRef90_J9K2L7 Ubiquitin-related modifier 1 homolog n=2 Tax=Mac...   122   1e-25
+UniRef90_A0A1G4JFX7 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   122   1e-25
+UniRef90_A0A090LIH7 Ubiquitin-related modifier 1 homolog n=2 Tax...   122   1e-25
+UniRef90_B9RDI8 Ubiquitin-related modifier 1 homolog n=6 Tax=fab...   121   1e-25
+UniRef90_A0A1D2NJU9 Multifunctional fusion protein n=1 Tax=Orche...   121   1e-25
+UniRef90_B9IC87 Ubiquitin-related modifier 1 homolog n=2 Tax=Pop...   121   1e-25
+UniRef90_G8ZZV7 Ubiquitin-related modifier 1 n=1 Tax=Torulaspora...   121   1e-25
+UniRef90_W9XQN3 Ubiquitin-related modifier 1 n=1 Tax=Capronia ep...   121   1e-25
+UniRef90_A0A0D1XRP8 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   121   2e-25
+UniRef90_A0A0N4YTX3 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   2e-25
+UniRef90_A0A1S8VUB1 Ubiquitin-related modifier 1 n=1 Tax=Batrach...   121   2e-25
+UniRef90_U5DA85 Ubiquitin-related modifier 1 homolog n=1 Tax=Amb...   121   2e-25
+UniRef90_A0A068UK41 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   2e-25
+UniRef90_UPI0006768A43 ubiquitin-related modifier 1 homolog n=1 ...   121   2e-25
+UniRef90_A0A0M3J2V7 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   2e-25
+UniRef90_U6J1F9 Ubiquitin-related modifier 1 homolog n=4 Tax=Tae...   121   2e-25
+UniRef90_D7U7Q9 Ubiquitin-related modifier 1 homolog n=2 Tax=Vit...   121   2e-25
+UniRef90_A0A1R0GSM2 Ubiquitin-related modifier 1 n=1 Tax=Smittiu...   121   2e-25
+UniRef90_A0A1D5YSK9 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   2e-25
+UniRef90_A0A0L0SUX6 Ubiquitin-related modifier 1 n=2 Tax=Allomyc...   121   2e-25
+UniRef90_A0A0D2BYH5 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   121   2e-25
+UniRef90_A0A0N5AFZ8 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   2e-25
+UniRef90_A0A146FYM9 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   120   2e-25
+UniRef90_W9XJL9 Ubiquitin-related modifier 1 n=1 Tax=Capronia co...   120   2e-25
+UniRef90_A0A1E5V233 Ubiquitin-related modifier 1 homolog n=1 Tax...   120   3e-25
+UniRef90_A0A200QPI4 Ubiquitin-related modifier 1 n=1 Tax=Macleay...   120   3e-25
+UniRef90_A0A194S7C0 Ubiquitin-related modifier 1 n=1 Tax=Rhodoto...   120   3e-25
+UniRef90_UPI00026599CD ubiquitin-related modifier 1 n=1 Tax=Gale...   120   3e-25
+UniRef90_A0A0K8TRY0 Ubiquitin-related modifier 1 (Fragment) n=1 ...   120   3e-25
+UniRef90_A0A0C9YS26 Ubiquitin-related modifier 1 n=1 Tax=Pisolit...   120   3e-25
+UniRef90_A0A078IS56 Ubiquitin-related modifier 1 homolog n=7 Tax...   120   4e-25
+UniRef90_A0A1S3CCC7 Ubiquitin-related modifier 1 homolog n=3 Tax...   120   4e-25
+UniRef90_V9DBV8 Ubiquitin-related modifier 1 n=3 Tax=Herpotrichi...   120   4e-25
+UniRef90_A0A120K285 Ubiquitin-related modifier 1 n=1 Tax=Eremoth...   120   4e-25
+UniRef90_A0A0R3U8I2 Ubiquitin-related modifier 1 homolog n=1 Tax...   120   4e-25
+UniRef90_A0A158PH61 Ubiquitin-related modifier 1 homolog n=1 Tax...   120   4e-25
+UniRef90_T1GVD4 Ubiquitin-related modifier 1 homolog n=1 Tax=Meg...   120   4e-25
+UniRef90_S8D3T2 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   120   4e-25
+UniRef90_A0A1Y1NIH1 Ubiquitin-related modifier 1 homolog n=1 Tax...   120   4e-25
+UniRef90_A0A022Q5L2 Ubiquitin-related modifier 1 homolog n=1 Tax...   120   4e-25
+UniRef90_UPI00098E5F82 ubiquitin-related modifier 1 homolog 1-li...   120   5e-25
+UniRef90_W1QKU6 Ubiquitin-related modifier 1 n=2 Tax=Ogataea Tax...   120   5e-25
+UniRef90_B3H7G2 Ubiquitin-related modifier 1 homolog 2 n=5 Tax=C...   120   5e-25
+UniRef90_A0A0C9S2N9 Ubiquitin-related modifier 1 homolog n=2 Tax...   120   5e-25
+UniRef90_A0A067MBC4 Ubiquitin-related modifier 1 n=1 Tax=Botryob...   120   5e-25
+UniRef90_A0A0C2XV71 Ubiquitin-related modifier 1 n=1 Tax=Hebelom...   120   5e-25
+UniRef90_A0A183B5H9 Ubiquitin-related modifier 1 homolog n=1 Tax...   119   5e-25
+UniRef90_A7TQ77 Ubiquitin-related modifier 1 n=1 Tax=Vanderwalto...   119   6e-25
+UniRef90_A0A1L0BY06 Ubiquitin-related modifier 1 n=1 Tax=[Candid...   119   6e-25
+UniRef90_A0A1J7JIE2 Ubiquitin-related modifier 1 (Fragment) n=1 ...   119   6e-25
+UniRef90_A0A059IYB3 Ubiquitin-related modifier 1 n=1 Tax=Trichop...   119   6e-25
+UniRef90_A0A1U8AWM7 Ubiquitin-related modifier 1 homolog n=1 Tax...   119   6e-25
+UniRef90_F0ZXI3 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...   119   6e-25
+UniRef90_UPI00053FECF6 ubiquitin-related modifier 1 homolog 1 n=...   119   7e-25
+UniRef90_A0A1U8PAS3 Ubiquitin-related modifier 1 homolog n=9 Tax...   119   7e-25
+UniRef90_K7KCA0 Ubiquitin-related modifier 1 homolog n=3 Tax=Soj...   119   7e-25
+UniRef90_A0A0B7NWL8 Ubiquitin-related modifier 1 n=1 Tax=Parasit...   119   8e-25
+UniRef90_A0A068X5E3 Ubiquitin-related modifier 1 homolog n=2 Tax...   119   8e-25
+UniRef90_A0A162VK75 Ubiquitin-related modifier 1 n=1 Tax=Didymel...   119   8e-25
+UniRef90_I1CSV6 Ubiquitin-related modifier 1 n=1 Tax=Rhizopus de...   118   9e-25
+UniRef90_V5GFM5 Ubiquitin-related modifier 1 n=1 Tax=Kalmanozyma...   118   9e-25
+UniRef90_A0A1Y2CQK2 Ubiquitin-related modifier 1 n=2 Tax=Neocall...   118   1e-24
+UniRef90_A0A151ZDP2 Ubiquitin-related modifier 1 homolog n=1 Tax...   118   1e-24
+UniRef90_Q54QN0 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...   118   1e-24
+UniRef90_A0A0D2JM14 Ubiquitin-related modifier 1 n=1 Tax=Rhinocl...   118   1e-24
+UniRef90_A0A1E5R562 Ubiquitin-related modifier 1 n=1 Tax=Hanseni...   118   1e-24
+UniRef90_T1G9M8 Ubiquitin-related modifier 1 homolog n=1 Tax=Hel...   118   1e-24
+UniRef90_R9NZV7 Ubiquitin-related modifier 1 n=2 Tax=Ustilaginac...   118   1e-24
+UniRef90_A0A0K3CRM3 Ubiquitin-related modifier 1 n=3 Tax=Rhodosp...   118   1e-24
+UniRef90_A0A0M8MPT1 Ubiquitin-related modifier 1 n=1 Tax=Malasse...   118   1e-24
+UniRef90_A0A0D0AHI5 Ubiquitin-related modifier 1 n=1 Tax=Suillus...   118   1e-24
+UniRef90_A0A0N4VF19 Ubiquitin-related modifier 1 homolog n=1 Tax...   118   1e-24
+UniRef90_UPI000B8CD318 ubiquitin-related modifier 1 homolog 2 n=...   118   1e-24
+UniRef90_UPI0004E5B69F ubiquitin-related modifier 1 homolog 2-li...   118   1e-24
+UniRef90_H8WYB1 Ubiquitin-related modifier 1 n=3 Tax=cellular or...   118   1e-24
+UniRef90_H2B207 Ubiquitin-related modifier 1 n=1 Tax=Kazachstani...   118   2e-24
+UniRef90_S2JFC9 Ubiquitin-related modifier 1 n=2 Tax=Mucor circi...   118   2e-24
+UniRef90_L0PFH5 Ubiquitin-related modifier 1 n=2 Tax=Pneumocysti...   117   2e-24
+UniRef90_M5FXU5 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   117   2e-24
+UniRef90_A0A0K9QZM0 Ubiquitin-related modifier 1 homolog n=3 Tax...   117   2e-24
+UniRef90_W9WDS0 Ubiquitin-related modifier 1 n=1 Tax=Cladophialo...   117   2e-24
+UniRef90_Q59WK2 Ubiquitin-related modifier 1 n=3 Tax=Candida Tax...   117   2e-24
+UniRef90_A0A0F7RW47 Ubiquitin-related modifier 1 n=1 Tax=Sporiso...   117   2e-24
+UniRef90_U6PK78 Ubiquitin-related modifier 1 homolog n=1 Tax=Hae...   117   3e-24
+UniRef90_I1KIJ0 Ubiquitin-related modifier 1 homolog n=12 Tax=Pa...   117   3e-24
+UniRef90_J7SB37 Ubiquitin-related modifier 1 n=1 Tax=Kazachstani...   117   3e-24
+UniRef90_A0A136IIC6 Ubiquitin-related modifier 1 n=1 Tax=Microdo...   117   3e-24
+UniRef90_A0A1D1ZLZ2 Ubiquitin-related modifier 1 homolog n=2 Tax...   117   3e-24
+UniRef90_A0A1C7N086 Ubiquitin-related modifier 1 n=1 Tax=Choanep...   117   3e-24
+UniRef90_A0A067HDP3 Ubiquitin-related modifier 1 homolog n=2 Tax...   117   3e-24
+UniRef90_Q6FWQ3 Ubiquitin-related modifier 1 n=2 Tax=Candida gla...   117   3e-24
+UniRef90_UPI0007EF6677 ubiquitin-related modifier 1 homolog 2-li...   117   3e-24
+UniRef90_UPI0009E1A740 ubiquitin-related modifier 1 homolog n=2 ...   117   3e-24
+UniRef90_A0A0G4I5S6 Ubiquitin-related modifier 1 homolog n=1 Tax...   117   4e-24
+UniRef90_UPI00077E74CF ubiquitin-related modifier 1 homolog 2 n=...   117   4e-24
+UniRef90_A0A137P6N7 Ubiquitin-related modifier 1 n=1 Tax=Conidio...   117   4e-24
+UniRef90_A0A194VFD5 Ubiquitin-related modifier 1 n=2 Tax=Valsa m...   117   4e-24
+UniRef90_C5MD24 Ubiquitin-related modifier 1 n=1 Tax=Candida tro...   116   4e-24
+UniRef90_A0A1D1W7E5 Ubiquitin-related modifier 1 homolog n=1 Tax...   116   4e-24
+UniRef90_A0A0C3I803 Ubiquitin-related modifier 1 n=2 Tax=Pisolit...   116   4e-24
+UniRef90_A0A084RJD8 Ubiquitin-related modifier 1 n=3 Tax=Stachyb...   116   5e-24
+UniRef90_G8BZU5 Ubiquitin-related modifier 1 n=1 Tax=Tetrapisisp...   116   5e-24
+UniRef90_A0A1E4RPS4 Ubiquitin-related modifier 1 n=1 Tax=Hyphopi...   116   5e-24
+UniRef90_B6SXH2 Ubiquitin-related modifier 1 homolog n=3 Tax=And...   116   5e-24
+UniRef90_A0A1Y2TNJ4 Ubiquitin-related modifier 1 (Fragment) n=1 ...   116   5e-24
+UniRef90_A0A1W0WGH4 Ubiquitin-related modifier 1 homolog n=1 Tax...   116   5e-24
+UniRef90_A0A0F2M6D2 Ubiquitin-related modifier 1 n=3 Tax=Sporoth...   116   6e-24
+UniRef90_A0A0D8XZM9 Ubiquitin-related modifier 1 homolog n=1 Tax...   116   6e-24
+UniRef90_I2H5N3 Ubiquitin-related modifier 1 n=1 Tax=Tetrapisisp...   116   6e-24
+UniRef90_A0A1Y3E4R9 Multifunctional fusion protein n=2 Tax=Trich...   116   7e-24
+UniRef90_A0A1B8CNB2 Ubiquitin-related modifier 1 n=1 Tax=Pseudog...   116   7e-24
+UniRef90_A0A0K9P8R1 Ubiquitin-related modifier 1 homolog n=1 Tax...   116   7e-24
+UniRef90_UPI000674A483 ubiquitin-related modifier 1-like n=1 Tax...   116   7e-24
+UniRef90_F2QT59 Ubiquitin-related modifier 1 n=2 Tax=Komagataell...   116   7e-24
+UniRef90_S3BSL5 Ubiquitin-related modifier 1 n=1 Tax=Ophiostoma ...   115   8e-24
+UniRef90_UPI000644B363 hypothetical protein n=1 Tax=Acytostelium...   115   8e-24
+UniRef90_I4YGS6 Ubiquitin-related modifier 1 n=1 Tax=Wallemia me...   115   8e-24
+UniRef90_G3BAA3 Ubiquitin-related modifier 1 n=1 Tax=Candida ten...   115   9e-24
+UniRef90_A0A1B7MLD4 Ubiquitin-related modifier 1 n=2 Tax=Rhizopo...   115   9e-24
+UniRef90_A0A1E3PXS6 Ubiquitin-related modifier 1 n=1 Tax=Lipomyc...   115   9e-24
+UniRef90_P0CT26 Ubiquitin-related modifier 1 n=1 Tax=Ustilago ma...   115   9e-24
+UniRef90_E1ZE18 Ubiquitin-related modifier 1 homolog n=1 Tax=Chl...   115   9e-24
+UniRef90_A0A1B0ATC9 Ubiquitin-related modifier 1 homolog n=2 Tax...   115   1e-23
+UniRef90_A0A182YJA1 Ubiquitin-related modifier 1 homolog n=1 Tax...   115   1e-23
+UniRef90_A0A0R3SJU2 Ubiquitin-related modifier 1 homolog n=1 Tax...   115   1e-23
+UniRef90_I1GWB6 Ubiquitin-related modifier 1 homolog n=6 Tax=Poa...   115   1e-23
+UniRef90_F4PGQ4 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...   115   1e-23
+UniRef90_D3AVN0 Ubiquitin-related modifier 1 homolog n=1 Tax=Pol...   115   1e-23
+UniRef90_UPI00062AC044 LOW QUALITY PROTEIN: uncharacterized prot...   115   1e-23
+UniRef90_A0A1A9UPG9 Ubiquitin-related modifier 1 homolog n=1 Tax...   115   1e-23
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_UPI0008464CE3 ubiquitin-related modifier 1 n=1 Tax=Manacus vitellinus
+           TaxID=328815 RepID=UPI0008464CE3
+          Length = 149
+
+ Score =  153 bits (388), Expect = 4e-35,   Method: Composition-based stats.
+ Identities = 40/99 (40%), Positives = 63/99 (63%), Gaps = 3/99 (3%)
+
+Query: 2   VNVKVEFLGGLDAIFGKQRVHKIKMDKE-DPVTVGDLIDHIVSTMINNPNDVSIFIEDDS 60
+           V+++VEF GG + +F   + H++ +  + +P  + +L+  I   M+       +F++ +S
+Sbjct: 53  VSLQVEFGGGAELLFDGVKKHQVTLPCQPEPWDIRNLLKWIKQNMLKERP--ELFMQGES 110
+
+Query: 61  IRPGIITLINDTDWELEGEKDYILEDGDIISFTSTLHGG 99
+           +RPGI+ LIND DWEL GE DY L+D D + F STLHGG
+Sbjct: 111 VRPGILVLINDADWELMGELDYKLQDQDNVVFISTLHGG 149
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_UPI0008464CE3 ubiquitin-related modifier 1 n=1 Tax=Mana...   149   6e-34
+UniRef90_A0A0G4N3V4 Ubiquitin-related modifier 1 (Fragment) n=1 ...   141   2e-31
+UniRef90_K7G7E2 Ubiquitin-related modifier 1 n=6 Tax=Archelosaur...   139   5e-31
+UniRef90_Q5ZJU4 Ubiquitin-related modifier 1 n=26 Tax=Aves TaxID...   138   1e-30
+UniRef90_UPI000661D675 ubiquitin-related modifier 1 n=1 Tax=Melo...   138   1e-30
+UniRef90_A0A1V4J751 Ubiquitin-related modifier 1 n=22 Tax=Neogna...   138   2e-30
+UniRef90_A0A0L0CQ63 Ubiquitin-related modifier 1 homolog n=1 Tax...   138   2e-30
+UniRef90_A0A1L8F1D4 Ubiquitin-related modifier 1 n=2 Tax=Xenopus...   137   3e-30
+UniRef90_UPI000776C370 ubiquitin-related modifier 1 isoform X2 n...   137   4e-30
+UniRef90_UPI000802C08E ubiquitin-related modifier 1 isoform X1 n...   137   4e-30
+UniRef90_UPI0007DCAE8B ubiquitin-related modifier 1 isoform X1 n...   136   4e-30
+UniRef90_UPI000A37B10A ubiquitin-related modifier 1 n=1 Tax=Anas...   136   4e-30
+UniRef90_Q148F0 Ubiquitin-related modifier 1 n=4 Tax=Bovidae Tax...   136   5e-30
+UniRef90_A0A0N1H7M9 Ubiquitin-related modifier 1 n=1 Tax=Phialop...   136   7e-30
+UniRef90_Q9D2P4 Ubiquitin-related modifier 1 n=2 Tax=Mus musculu...   135   9e-30
+UniRef90_A0A0Q3RJX9 Ubiquitin-related modifier 1 n=1 Tax=Amazona...   135   1e-29
+UniRef90_A0A146H8J7 Ubiquitin-related modifier 1 n=1 Tax=Mycena ...   135   1e-29
+UniRef90_UPI000A1C1D2D ubiquitin-related modifier 1 n=1 Tax=Bole...   135   1e-29
+UniRef90_UPI00052EA624 ubiquitin-related modifier 1 n=1 Tax=Tina...   134   2e-29
+UniRef90_H9GGD9 Ubiquitin-related modifier 1 n=1 Tax=Anolis caro...   134   2e-29
+UniRef90_Q9BTM9 Ubiquitin-related modifier 1 n=72 Tax=Theria Tax...   134   2e-29
+UniRef90_I3J7T7 Ubiquitin-related modifier 1 n=13 Tax=Clupeoceph...   134   2e-29
+UniRef90_UPI0007384B34 ubiquitin-related modifier 1 isoform X2 n...   134   3e-29
+UniRef90_G2Q7Q2 Ubiquitin-related modifier 1 n=1 Tax=Myceliophth...   134   3e-29
+UniRef90_A0A1S9S113 Ubiquitin-related modifier 1 n=3 Tax=Penicil...   134   3e-29
+UniRef90_A0A060SI28 Ubiquitin-related modifier 1 n=1 Tax=Pycnopo...   133   4e-29
+UniRef90_M3CQH7 Ubiquitin-related modifier 1 n=1 Tax=Sphaerulina...   133   4e-29
+UniRef90_G3PZD9 Ubiquitin-related modifier 1 n=1 Tax=Gasterosteu...   133   4e-29
+UniRef90_A0A1A8UKC5 Ubiquitin-related modifier 1 n=8 Tax=Nothobr...   133   4e-29
+UniRef90_UPI0009B48FD2 ubiquitin-related modifier 1 n=1 Tax=Mono...   133   5e-29
+UniRef90_K7J611 Ubiquitin-related modifier 1 homolog n=1 Tax=Nas...   133   5e-29
+UniRef90_UPI000440C425 ubiquitin-like modifier 1 n=1 Tax=Stereum...   133   5e-29
+UniRef90_A0A1S3KR45 Ubiquitin-related modifier 1 n=10 Tax=Osteog...   133   6e-29
+UniRef90_H3BBL8 Ubiquitin-related modifier 1 n=1 Tax=Latimeria c...   132   6e-29
+UniRef90_J4I9W0 Ubiquitin-related modifier 1 n=1 Tax=Fibroporia ...   132   7e-29
+UniRef90_A0A1Z5T4Y6 Ubiquitin-related modifier 1 n=2 Tax=Hortaea...   132   7e-29
+UniRef90_A0A1V8V2Y1 Ubiquitin-related modifier 1 n=4 Tax=Rachicl...   132   8e-29
+UniRef90_UPI0007EE428E ubiquitin-related modifier 1 isoform X1 n...   132   1e-28
+UniRef90_UPI000511A565 ubiquitin-related modifier 1 n=1 Tax=Nipp...   132   1e-28
+UniRef90_A0A0B8RVK3 Ubiquitin-related modifier 1 n=4 Tax=Serpent...   132   1e-28
+UniRef90_S8AW36 Ubiquitin-related modifier 1 n=1 Tax=Penicillium...   132   1e-28
+UniRef90_UPI0005C3C513 ubiquitin-related modifier 1-like n=1 Tax...   132   1e-28
+UniRef90_C1C497 Ubiquitin-related modifier 1 n=2 Tax=Ranoidea Ta...   131   1e-28
+UniRef90_M2NHD7 Ubiquitin-related modifier 1 n=1 Tax=Baudoinia c...   131   2e-28
+UniRef90_UPI0009E2C183 ubiquitin-related modifier 1 n=1 Tax=Pogo...   131   2e-28
+UniRef90_A0A1W5CY17 Ubiquitin-related modifier 1 n=1 Tax=Umbilic...   131   2e-28
+UniRef90_UPI000521BF6D ubiquitin-related modifier 1 n=3 Tax=Neog...   131   2e-28
+UniRef90_F9X499 Ubiquitin-related modifier 1 n=4 Tax=Zymoseptori...   131   2e-28
+UniRef90_S4RT91 Ubiquitin-related modifier 1 n=1 Tax=Petromyzon ...   131   2e-28
+UniRef90_UPI0006C95E65 ubiquitin-related modifier 1 homolog n=1 ...   131   2e-28
+UniRef90_UPI00074FDB89 ubiquitin-related modifier 1 n=1 Tax=Gekk...   131   2e-28
+UniRef90_UPI00067142C7 ubiquitin-related modifier 1 n=1 Tax=Anse...   130   2e-28
+UniRef90_A0A167Y8S5 Ubiquitin-related modifier 1 n=1 Tax=Ascosph...   130   2e-28
+UniRef90_A0A1Y2IEW1 Ubiquitin-related modifier 1 n=1 Tax=Pycnopo...   130   2e-28
+UniRef90_F2Z4T6 Ubiquitin-related modifier 1 n=7 Tax=Otophysi Ta...   130   3e-28
+UniRef90_A0A1I8MXP6 Ubiquitin-related modifier 1 homolog n=1 Tax...   130   3e-28
+UniRef90_W4JUV6 Ubiquitin-related modifier 1 n=1 Tax=Heterobasid...   130   3e-28
+UniRef90_A0A164YJ44 Ubiquitin-related modifier 1 n=1 Tax=Sistotr...   130   3e-28
+UniRef90_A0A1V6PNC8 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   130   3e-28
+UniRef90_A0A1X2H7T9 Ubiquitin-related modifier 1 n=1 Tax=Synceph...   130   4e-28
+UniRef90_S7R6P2 Ubiquitin-related modifier 1 n=1 Tax=Gloeophyllu...   130   4e-28
+UniRef90_UPI000994E51B ubiquitin-related modifier 1 isoform X1 n...   130   4e-28
+UniRef90_UPI00094804EB ubiquitin-related modifier 1-like n=1 Tax...   130   4e-28
+UniRef90_A0A0G2IGB0 Ubiquitin-related modifier 1 n=2 Tax=Diaport...   130   5e-28
+UniRef90_A0A1Y2W7Y5 Ubiquitin-related modifier 1 n=1 Tax=Hypoxyl...   130   5e-28
+UniRef90_A0A139HQ37 Ubiquitin-related modifier 1 n=1 Tax=Mycosph...   129   5e-28
+UniRef90_K3VLY2 Ubiquitin-related modifier 1 n=1 Tax=Fusarium ps...   129   5e-28
+UniRef90_A0A1I8G7D7 Ubiquitin-related modifier 1 homolog n=1 Tax...   129   6e-28
+UniRef90_A0A0N4UKN8 Ubiquitin-related modifier 1 homolog n=1 Tax...   129   6e-28
+UniRef90_UPI00083DD311 ubiquitin-related modifier 1 n=1 Tax=Habr...   129   7e-28
+UniRef90_I1RT45 Ubiquitin-related modifier 1 n=1 Tax=Gibberella ...   129   8e-28
+UniRef90_A0A1M2V9F9 Ubiquitin-related modifier 1 n=2 Tax=Tramete...   129   8e-28
+UniRef90_A0A1Y2X6X7 Ubiquitin-related modifier 1 n=1 Tax=Daldini...   128   9e-28
+UniRef90_L9KLK6 Ubiquitin-related modifier 1 n=2 Tax=Tupaia chin...   128   9e-28
+UniRef90_A0A1S1VHC1 Ubiquitin-related modifier 1 n=2 Tax=Colleto...   128   1e-27
+UniRef90_UPI000521C200 ubiquitin-related modifier 1 n=1 Tax=Apal...   128   1e-27
+UniRef90_A0A0K8RKX7 Ubiquitin-related modifier 1 homolog n=3 Tax...   128   1e-27
+UniRef90_UPI0009523DFE ubiquitin-related modifier 1 n=1 Tax=Turs...   128   1e-27
+UniRef90_UPI000258DB0E ubiquitin-related modifier 1 n=1 Tax=Mega...   128   1e-27
+UniRef90_C5GXV7 Ubiquitin-related modifier 1 n=5 Tax=Blastomyces...   128   1e-27
+UniRef90_A0A093HXT8 Ubiquitin-related modifier 1 (Fragment) n=2 ...   128   1e-27
+UniRef90_A0A0P6BSU3 Ubiquitin-related modifier 1 homolog n=1 Tax...   128   1e-27
+UniRef90_G0SE11 Ubiquitin-related modifier 1 n=1 Tax=Chaetomium ...   128   1e-27
+UniRef90_UPI00021A6DD5 ubiquitin-related modifier 1 n=2 Tax=Bomb...   128   1e-27
+UniRef90_UPI00053CC0C5 ubiquitin-related modifier 1 n=1 Tax=Hali...   128   1e-27
+UniRef90_A0A1R3R9C7 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   128   1e-27
+UniRef90_A0A168LTT3 Ubiquitin-related modifier 1 n=2 Tax=Absidia...   128   1e-27
+UniRef90_UPI0004F4648B ubiquitin-related modifier 1 n=1 Tax=Pong...   128   1e-27
+UniRef90_K2RE67 Ubiquitin-related modifier 1 n=1 Tax=Macrophomin...   128   1e-27
+UniRef90_A0A1V6T3U5 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   128   1e-27
+UniRef90_UPI000A2A6684 ubiquitin-related modifier 1-like n=1 Tax...   128   1e-27
+UniRef90_R4FKQ2 Ubiquitin-related modifier 1 homolog n=3 Tax=Tri...   128   1e-27
+UniRef90_A0A0B7AZB5 Ubiquitin-related modifier 1 homolog n=2 Tax...   128   1e-27
+UniRef90_UPI0004CD64D2 ubiquitin-related modifier 1 homolog n=1 ...   128   1e-27
+UniRef90_A0A1V6QAM5 Ubiquitin-related modifier 1 n=1 Tax=Penicil...   128   1e-27
+UniRef90_UPI0009E1BAA8 ubiquitin-related modifier 1-like n=1 Tax...   128   1e-27
+UniRef90_R7YQ21 Ubiquitin-related modifier 1 n=1 Tax=Coniosporiu...   128   1e-27
+UniRef90_W5M4E8 Ubiquitin-related modifier 1 n=1 Tax=Lepisosteus...   128   1e-27
+UniRef90_A0A0C3RYV7 Ubiquitin-related modifier 1 n=1 Tax=Phlebio...   128   1e-27
+UniRef90_A0A059C4M0 Ubiquitin-related modifier 1 homolog n=2 Tax...   128   1e-27
+UniRef90_A0A166I4Q1 Ubiquitin-related modifier 1 n=1 Tax=Sistotr...   128   1e-27
+UniRef90_K5V3E0 Ubiquitin-related modifier 1 n=1 Tax=Phanerochae...   128   2e-27
+UniRef90_A0A136J6Z8 Ubiquitin-related modifier 1 n=1 Tax=Microdo...   128   2e-27
+UniRef90_A0A1E3BHS7 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   128   2e-27
+UniRef90_D8Q7Q0 Ubiquitin-related modifier 1 n=1 Tax=Schizophyll...   128   2e-27
+UniRef90_A0A074RIF6 Ubiquitin-related modifier 1 n=2 Tax=Rhizoct...   128   2e-27
+UniRef90_UPI000718C3AE ubiquitin-related modifier 1 n=1 Tax=Poli...   127   2e-27
+UniRef90_UPI000626E3C9 ubiquitin-related modifier 1 n=1 Tax=Orus...   127   2e-27
+UniRef90_UPI0007B89838 ubiquitin-related modifier 1-like isoform...   127   2e-27
+UniRef90_UPI00083C725E ubiquitin-related modifier 1 n=1 Tax=Eufr...   127   2e-27
+UniRef90_UPI0006B3996D ubiquitin-related modifier 1 n=1 Tax=Aust...   127   2e-27
+UniRef90_A0A165F1C9 Ubiquitin-related modifier 1 n=1 Tax=Laetipo...   127   2e-27
+UniRef90_Q1E493 Ubiquitin-related modifier 1 n=7 Tax=Coccidioide...   127   2e-27
+UniRef90_C5DLF4 Ubiquitin-related modifier 1 n=2 Tax=Lachancea T...   127   2e-27
+UniRef90_A0A023FU26 Ubiquitin-related modifier 1 homolog n=3 Tax...   127   2e-27
+UniRef90_UPI0003959135 ubiquitin-related modifier 1 n=1 Tax=Geos...   127   3e-27
+UniRef90_UPI0004F45776 ubiquitin-related modifier 1 n=18 Tax=Neo...   127   3e-27
+UniRef90_UPI000A2C050E ubiquitin-related modifier 1-like n=1 Tax...   127   3e-27
+UniRef90_U6D0H0 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   127   3e-27
+UniRef90_Q9C245 Ubiquitin-related modifier 1 n=5 Tax=Sordariacea...   127   3e-27
+UniRef90_E2BGU4 Ubiquitin-related modifier 1 homolog n=1 Tax=Har...   127   3e-27
+UniRef90_A0A1L8EIR2 Ubiquitin-related modifier 1 homolog n=1 Tax...   127   3e-27
+UniRef90_A0A0G2DVU7 Ubiquitin-related modifier 1 n=3 Tax=Diplodi...   127   3e-27
+UniRef90_J3P3A4 Ubiquitin-related modifier 1 n=1 Tax=Gaeumannomy...   127   3e-27
+UniRef90_A0A165LER0 Ubiquitin-related modifier 1 n=1 Tax=Daedale...   127   3e-27
+UniRef90_A0A087ZTP1 Ubiquitin-related modifier 1 homolog n=5 Tax...   127   3e-27
+UniRef90_UPI000A3749FC ubiquitin-related modifier 1 n=4 Tax=Aves...   127   3e-27
+UniRef90_D5GA60 Ubiquitin-related modifier 1 n=1 Tax=Tuber melan...   127   3e-27
+UniRef90_A0A151X1Y3 Ubiquitin-related modifier 1 homolog n=6 Tax...   127   4e-27
+UniRef90_UPI00094EBCAD ubiquitin-related modifier 1 n=1 Tax=Hipp...   127   4e-27
+UniRef90_A0A010RE10 Ubiquitin-related modifier 1 n=7 Tax=Colleto...   127   4e-27
+UniRef90_A0A1S3HHT5 Ubiquitin-related modifier 1 homolog n=1 Tax...   127   4e-27
+UniRef90_UPI00059E064C ubiquitin-related modifier 1 n=1 Tax=Camp...   127   4e-27
+UniRef90_M3ANF9 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   127   4e-27
+UniRef90_A0A1Y2UTN2 Ubiquitin-related modifier 1 n=1 Tax=Hypoxyl...   127   4e-27
+UniRef90_A0A067Q2A1 Ubiquitin-related modifier 1 n=1 Tax=Jaapia ...   127   4e-27
+UniRef90_G3MN56 Ubiquitin-related modifier 1 homolog n=2 Tax=Amb...   127   4e-27
+UniRef90_W6QL97 Ubiquitin-related modifier 1 n=16 Tax=Penicilliu...   126   5e-27
+UniRef90_A0A023F8A1 Ubiquitin-related modifier 1 homolog n=1 Tax...   126   5e-27
+UniRef90_A0A0J5PIJ0 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   126   5e-27
+UniRef90_A0A0D1YHF2 Ubiquitin-related modifier 1 n=1 Tax=Verruco...   126   5e-27
+UniRef90_H3D6P6 Ubiquitin-related modifier 1 n=3 Tax=Eupercaria ...   126   5e-27
+UniRef90_UPI000771D092 ubiquitin-related modifier 1 n=1 Tax=Ceph...   126   5e-27
+UniRef90_H0YZM3 Ubiquitin-related modifier 1 n=3 Tax=Passeriform...   126   6e-27
+UniRef90_A0A0C4E5L5 Ubiquitin-related modifier 1 n=1 Tax=Magnapo...   126   6e-27
+UniRef90_UPI0006C9C7ED ubiquitin-related modifier 1 homolog n=1 ...   126   6e-27
+UniRef90_UPI0003F0BBC3 ubiquitin-related modifier 1-like n=1 Tax...   126   7e-27
+UniRef90_W8C181 Ubiquitin-related modifier 1 homolog n=4 Tax=Tep...   126   7e-27
+UniRef90_A8P008 Ubiquitin-related modifier 1 n=1 Tax=Coprinopsis...   126   7e-27
+UniRef90_A0A179GHU3 Ubiquitin-related modifier 1 n=1 Tax=Purpure...   126   7e-27
+UniRef90_A0A1V1SVX9 Ubiquitin-related modifier 1 n=1 Tax=fungal ...   126   7e-27
+UniRef90_S4PI46 Ubiquitin-related modifier 1 homolog n=1 Tax=Par...   125   7e-27
+UniRef90_A0A0N4Z4S4 Ubiquitin-related modifier 1 homolog n=1 Tax...   125   8e-27
+UniRef90_UPI0004414060 ubiquitin-related modifier 1 n=1 Tax=Auri...   125   8e-27
+UniRef90_UPI0005ACF99B ubiquitin-related modifier 1 homolog n=1 ...   125   9e-27
+UniRef90_C1GXR9 Ubiquitin-related modifier 1 n=4 Tax=Paracoccidi...   125   9e-27
+UniRef90_E0VWI4 Ubiquitin-related modifier 1 homolog n=1 Tax=Ped...   125   9e-27
+UniRef90_A0A1B6H6I1 Ubiquitin-related modifier 1 homolog n=3 Tax...   125   9e-27
+UniRef90_A0A086TE31 Ubiquitin-related modifier 1 n=1 Tax=Acremon...   125   9e-27
+UniRef90_A0A0B7KE40 Ubiquitin-related modifier 1 n=1 Tax=Bionect...   125   9e-27
+UniRef90_R1FYH7 Ubiquitin-related modifier 1 n=1 Tax=Botryosphae...   125   1e-26
+UniRef90_A0A218YXS0 Uncharacterized protein n=1 Tax=Marssonina c...   125   1e-26
+UniRef90_A0A0L6X1F3 Ubiquitin-related modifier 1 n=1 Tax=Termito...   125   1e-26
+UniRef90_A0A0C9MT34 Ubiquitin-related modifier 1 n=3 Tax=Mucor T...   125   1e-26
+UniRef90_A0A0K6GAW8 Ubiquitin-related modifier 1 n=1 Tax=Rhizoct...   125   1e-26
+UniRef90_UPI0005F56B6B ubiquitin-related modifier 1 n=1 Tax=Voll...   125   1e-26
+UniRef90_A0A0D2XCE2 Ubiquitin-related modifier 1 n=15 Tax=Fusari...   125   1e-26
+UniRef90_A0A1G4JLL3 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   125   1e-26
+UniRef90_UPI0005330486 ubiquitin-related modifier 1 isoform X1 n...   125   1e-26
+UniRef90_V5FMT8 Ubiquitin-related modifier 1 n=1 Tax=Byssochlamy...   125   1e-26
+UniRef90_UPI0008478FAA ubiquitin-related modifier 1 isoform X1 n...   125   1e-26
+UniRef90_G0VJK5 Ubiquitin-related modifier 1 n=1 Tax=Naumovozyma...   125   1e-26
+UniRef90_Q7KU86 Ubiquitin-related modifier 1 homolog n=22 Tax=me...   125   1e-26
+UniRef90_A0A0H2S177 Ubiquitin-related modifier 1 n=1 Tax=Schizop...   125   1e-26
+UniRef90_A0A1I8D3Q5 Ubiquitin-related modifier 1 homolog n=1 Tax...   125   1e-26
+UniRef90_A0A0P5B1G6 Ubiquitin-related modifier 1 homolog n=1 Tax...   125   1e-26
+UniRef90_T5AFD3 Ubiquitin-related modifier 1 n=1 Tax=Ophiocordyc...   125   1e-26
+UniRef90_UPI0007119D13 ubiquitin-related modifier 1 n=1 Tax=Dino...   125   1e-26
+UniRef90_A0A1X6MLY0 Ubiquitin-related modifier 1 n=1 Tax=Postia ...   125   1e-26
+UniRef90_A0A091F690 Ubiquitin-related modifier 1 (Fragment) n=2 ...   125   1e-26
+UniRef90_F0XRF0 Ubiquitin-related modifier 1 n=1 Tax=Grosmannia ...   125   1e-26
+UniRef90_A0A0D6EPI5 Ubiquitin-related modifier 1 (Fragment) n=1 ...   125   2e-26
+UniRef90_A0A165FRB6 Ubiquitin-related modifier 1 n=1 Tax=Xylona ...   125   2e-26
+UniRef90_A0A0L9SJT4 Ubiquitin-related modifier 1 n=1 Tax=Ophioco...   124   2e-26
+UniRef90_A0A0K0FCC5 Ubiquitin-related modifier 1 homolog n=2 Tax...   124   2e-26
+UniRef90_A0A034WTT0 Ubiquitin-related modifier 1 homolog n=2 Tax...   124   2e-26
+UniRef90_A0A0G4KGU3 Ubiquitin-related modifier 1 n=1 Tax=Vertici...   124   2e-26
+UniRef90_A0A175W288 Ubiquitin-related modifier 1 n=1 Tax=Madurel...   124   2e-26
+UniRef90_F2TZU6 Ubiquitin-related modifier 1 homolog n=1 Tax=Sal...   124   2e-26
+UniRef90_G7XZ86 Ubiquitin-related modifier 1 n=3 Tax=Aspergillus...   124   2e-26
+UniRef90_A0A0C3GIE2 Ubiquitin-related modifier 1 n=1 Tax=Oidiode...   124   2e-26
+UniRef90_A0A1Y3BG87 Ubiquitin-related modifier 1 homolog n=1 Tax...   124   2e-26
+UniRef90_A0A0I9X7G1 Ubiquitin-related modifier 1 n=3 Tax=Fusariu...   124   2e-26
+UniRef90_W2RW73 Ubiquitin-related modifier 1 n=1 Tax=Cyphellopho...   124   2e-26
+UniRef90_A0A158NTQ3 Ubiquitin-related modifier 1 homolog n=4 Tax...   124   2e-26
+UniRef90_A0A0C3AZK2 Ubiquitin-related modifier 1 (Fragment) n=1 ...   124   2e-26
+UniRef90_UPI00035A2DF2 ubiquitin-related modifier 1-like n=1 Tax...   124   2e-26
+UniRef90_A0A1E1L6H3 Ubiquitin-related modifier 1 n=3 Tax=Rhyncho...   124   2e-26
+UniRef90_A0A1J1IK19 Ubiquitin-related modifier 1 homolog n=1 Tax...   124   2e-26
+UniRef90_UPI0006D4DD0B ubiquitin-related modifier 1 homolog n=1 ...   124   3e-26
+UniRef90_S8EFK7 Ubiquitin-related modifier 1 n=1 Tax=Fomitopsis ...   124   3e-26
+UniRef90_A0A1Y1UC27 Ubiquitin-related modifier 1 n=1 Tax=Kockova...   124   3e-26
+UniRef90_A0A1Y2EJJ6 Ubiquitin-related modifier 1 n=1 Tax=Pseudom...   123   3e-26
+UniRef90_A0A0L8GF44 Ubiquitin-related modifier 1 homolog n=1 Tax...   123   3e-26
+UniRef90_A0A1Y1HN13 Ubiquitin-related modifier 1 homolog n=1 Tax...   123   3e-26
+UniRef90_M7SL00 Ubiquitin-related modifier 1 n=1 Tax=Eutypa lata...   123   3e-26
+UniRef90_A0A0F8UR25 Ubiquitin-related modifier 1 n=3 Tax=Aspergi...   123   3e-26
+UniRef90_A0A162PQT3 Ubiquitin-related modifier 1 n=1 Tax=Phycomy...   123   3e-26
+UniRef90_A6S5X1 Ubiquitin-related modifier 1 n=3 Tax=Botryotinia...   123   3e-26
+UniRef90_A0A1W2TLB3 Ubiquitin-related modifier 1 n=1 Tax=Roselli...   123   3e-26
+UniRef90_A0A1E1W1W1 Ubiquitin-related modifier 1 homolog n=2 Tax...   123   3e-26
+UniRef90_G3JGJ0 Ubiquitin-related modifier 1 n=2 Tax=Cordyceps T...   123   3e-26
+UniRef90_Q2U9H6 Ubiquitin-related modifier 1 n=4 Tax=Aspergillus...   123   4e-26
+UniRef90_UPI0006B0C0A8 ubiquitin-related modifier 1-like n=1 Tax...   123   4e-26
+UniRef90_A0A137QR80 Ubiquitin-related modifier 1 n=1 Tax=Leucoag...   123   4e-26
+UniRef90_B4LE67 Ubiquitin-related modifier 1 homolog n=6 Tax=Dro...   123   4e-26
+UniRef90_A0A090LIH7 Ubiquitin-related modifier 1 homolog n=2 Tax...   123   4e-26
+UniRef90_A0A068RK90 Ubiquitin-related modifier 1 n=2 Tax=Lichthe...   123   4e-26
+UniRef90_T2M6C6 Ubiquitin-related modifier 1 (Fragment) n=2 Tax=...   123   4e-26
+UniRef90_A0A0C2WPN9 Ubiquitin-related modifier 1 n=1 Tax=Amanita...   123   4e-26
+UniRef90_B8MSR1 Ubiquitin-related modifier 1 n=1 Tax=Talaromyces...   123   4e-26
+UniRef90_L2G6X6 Ubiquitin-related modifier 1 n=6 Tax=Colletotric...   123   4e-26
+UniRef90_A0A177VCP3 Ubiquitin-related modifier 1 n=2 Tax=Tilleti...   123   4e-26
+UniRef90_A0A0L1J1X4 Ubiquitin-related modifier 1 n=2 Tax=Aspergi...   123   4e-26
+UniRef90_J4UN14 Ubiquitin-related modifier 1 n=1 Tax=Beauveria b...   123   5e-26
+UniRef90_K1XM57 Ubiquitin-related modifier 1 n=1 Tax=Marssonina ...   123   5e-26
+UniRef90_A0A1U7LHY4 Ubiquitin-related modifier 1 n=1 Tax=Neolect...   123   5e-26
+UniRef90_A0A210R4X4 Ubiquitin-related modifier 1-like n=1 Tax=Mi...   123   5e-26
+UniRef90_A0A0A1WXX8 Ubiquitin-related modifier 1 homolog n=2 Tax...   123   5e-26
+UniRef90_A0A162NQ80 Ubiquitin-related modifier 1 homolog n=5 Tax...   123   5e-26
+UniRef90_A0A0C7MY58 Ubiquitin-related modifier 1 n=2 Tax=Lachanc...   123   5e-26
+UniRef90_A8IC48 Ubiquitin-related modifier 1 homolog n=1 Tax=Chl...   123   5e-26
+UniRef90_T1JNE3 Ubiquitin-related modifier 1 homolog n=1 Tax=Str...   123   6e-26
+UniRef90_UPI00073D310C ubiquitin-related modifier 1 n=1 Tax=Poli...   123   6e-26
+UniRef90_A0A166TMW3 Ubiquitin-related modifier 1 n=1 Tax=Fibular...   123   6e-26
+UniRef90_C5FRC6 Ubiquitin-related modifier 1 n=1 Tax=Arthroderma...   122   6e-26
+UniRef90_A0A074X3A7 Ubiquitin-related modifier 1 n=4 Tax=Aureoba...   122   6e-26
+UniRef90_K5WYL5 Ubiquitin-related modifier 1 n=2 Tax=Agaricus bi...   122   6e-26
+UniRef90_A0A167ULN7 Ubiquitin-related modifier 1 n=1 Tax=Sporoth...   122   7e-26
+UniRef90_A0A1Y1YPB5 Ubiquitin-related modifier 1 n=1 Tax=Clohesy...   122   7e-26
+UniRef90_UPI0006CEE2C6 ubiquitin-related modifier 1 homolog isof...   122   7e-26
+UniRef90_A0A1D5QLE1 Ubiquitin-related modifier 1 n=4 Tax=Boreoeu...   122   7e-26
+UniRef90_C4Y2E3 Ubiquitin-related modifier 1 n=1 Tax=Clavispora ...   122   7e-26
+UniRef90_Q75AD1 Ubiquitin-related modifier 1 n=2 Tax=Saccharomyc...   122   8e-26
+UniRef90_UPI00083BEB01 ubiquitin-related modifier 1 n=1 Tax=Nicr...   122   8e-26
+UniRef90_M5BY56 Ubiquitin-related modifier 1 n=2 Tax=Thanatephor...   122   8e-26
+UniRef90_A0A0A9Y1B2 Ubiquitin-related modifier 1 homolog n=1 Tax...   122   8e-26
+UniRef90_E9HTI9 Ubiquitin-related modifier 1 homolog n=1 Tax=Dap...   122   8e-26
+UniRef90_A0A0C9UIS6 Ubiquitin-related modifier 1 n=1 Tax=Sphaero...   122   8e-26
+UniRef90_A0A061SJN3 Ubiquitin-related modifier 1 (Fragment) n=2 ...   122   1e-25
+UniRef90_A0A0C3KM43 Ubiquitin-related modifier 1 n=1 Tax=Tulasne...   122   1e-25
+UniRef90_A0A1E3QIV4 Ubiquitin-related modifier 1 n=1 Tax=Babjevi...   122   1e-25
+UniRef90_A0A1G4MI88 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   122   1e-25
+UniRef90_A0A1V9XL90 Ubiquitin-related modifier 1 homolog n=1 Tax...   122   1e-25
+UniRef90_D8UAY3 Ubiquitin-related modifier 1 homolog n=1 Tax=Vol...   122   1e-25
+UniRef90_M5XHG4 Ubiquitin-related modifier 1 homolog n=4 Tax=fab...   122   1e-25
+UniRef90_A0A150V3S6 Ubiquitin-related modifier 1 n=1 Tax=Acidomy...   122   1e-25
+UniRef90_UPI00053C2145 ubiquitin-related modifier 1 homolog 1 n=...   122   1e-25
+UniRef90_UPI0008F9C945 ubiquitin-related modifier 1 n=1 Tax=Bemi...   122   1e-25
+UniRef90_U4TXP6 Ubiquitin-related modifier 1 homolog n=2 Tax=Den...   122   1e-25
+UniRef90_G4T8H2 Ubiquitin-related modifier 1 n=1 Tax=Serendipita...   122   1e-25
+UniRef90_A0A0N1IHF7 Ubiquitin-related modifier 1 homolog n=4 Tax...   122   1e-25
+UniRef90_M2S935 Ubiquitin-related modifier 1 n=6 Tax=Bipolaris T...   122   1e-25
+UniRef90_A0A016UUE4 Ubiquitin-related modifier 1 homolog n=3 Tax...   122   1e-25
+UniRef90_S7RHE8 Ubiquitin-related modifier 1 (Fragment) n=3 Tax=...   122   1e-25
+UniRef90_A0A0D7BET9 Ubiquitin-related modifier 1 n=1 Tax=Cylindr...   122   1e-25
+UniRef90_B6QV90 Ubiquitin-related modifier 1 n=2 Tax=Talaromyces...   122   1e-25
+UniRef90_A0A194XK49 Ubiquitin-related modifier 1 n=1 Tax=Phialoc...   122   1e-25
+UniRef90_A0A1I7WJ44 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   1e-25
+UniRef90_A0A139AQX9 Ubiquitin-related modifier 1 n=1 Tax=Gonapod...   121   1e-25
+UniRef90_A0A0F7SQD5 Ubiquitin-related modifier 1 n=1 Tax=Phaffia...   121   1e-25
+UniRef90_G2QS24 Ubiquitin-related modifier 1 n=1 Tax=Thielavia t...   121   1e-25
+UniRef90_A9NQG8 Ubiquitin-related modifier 1 homolog n=2 Tax=Pic...   121   1e-25
+UniRef90_M0SPN9 Ubiquitin-related modifier 1 homolog n=2 Tax=Mus...   121   1e-25
+UniRef90_A7ETU4 Ubiquitin-related modifier 1 n=3 Tax=Sclerotinia...   121   1e-25
+UniRef90_R8BBM2 Ubiquitin-related modifier 1 n=1 Tax=Togninia mi...   121   1e-25
+UniRef90_A0A0D2WT70 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   1e-25
+UniRef90_A0A1Y2AUV7 Ubiquitin-related modifier 1 n=1 Tax=Naemate...   121   2e-25
+UniRef90_UPI00067D3614 ubiquitin-related modifier 1 n=1 Tax=Amye...   121   2e-25
+UniRef90_A0A0M3J2V7 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   2e-25
+UniRef90_L7M3H2 Ubiquitin-related modifier 1 homolog n=3 Tax=Ixo...   121   2e-25
+UniRef90_UPI00076FCEA3 ubiquitin-related modifier 1 n=1 Tax=Neod...   121   2e-25
+UniRef90_R0K833 Ubiquitin-related modifier 1 n=1 Tax=Setosphaeri...   121   2e-25
+UniRef90_A0A1S3KR54 Ubiquitin-related modifier 1 n=3 Tax=Salmoni...   121   2e-25
+UniRef90_F6U0B5 Ubiquitin-related modifier 1 n=2 Tax=Ornithorhyn...   121   2e-25
+UniRef90_UPI0008400B03 ubiquitin-related modifier 1 n=1 Tax=Cera...   121   2e-25
+UniRef90_B4MLV0 Ubiquitin-related modifier 1 homolog n=1 Tax=Dro...   121   2e-25
+UniRef90_A0MDQ1 Ubiquitin-related modifier 1 homolog 1 n=10 Tax=...   121   2e-25
+UniRef90_A0A1G4KNH5 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   121   2e-25
+UniRef90_H6BYC7 Ubiquitin-related modifier 1 n=1 Tax=Exophiala d...   121   2e-25
+UniRef90_UPI000777DEAC ubiquitin-related modifier 1 isoform X3 n...   121   2e-25
+UniRef90_A0A0A1PEB1 Ubiquitin-related modifier 1 n=7 Tax=Rhizopu...   121   2e-25
+UniRef90_A0A139WLE8 Ubiquitin-related modifier 1 homolog n=1 Tax...   121   2e-25
+UniRef90_B4GUT1 Ubiquitin-related modifier 1 homolog n=2 Tax=pse...   121   2e-25
+UniRef90_G4NGZ8 Ubiquitin-related modifier 1 n=1 Tax=Magnaporthe...   120   2e-25
+UniRef90_I1EH13 Ubiquitin-related modifier 1 homolog n=3 Tax=Amp...   120   2e-25
+UniRef90_A0A1W4ZMF8 Ubiquitin-related modifier 1 n=1 Tax=Sclerop...   120   2e-25
+UniRef90_U9T6V8 Ubiquitin-related modifier 1 n=2 Tax=Rhizophagus...   120   3e-25
+UniRef90_UPI00026599CD ubiquitin-related modifier 1 n=1 Tax=Gale...   120   3e-25
+UniRef90_UPI0009010E2B ubiquitin-related modifier 1 homolog 2 n=...   120   3e-25
+UniRef90_A0A1L7X1Q3 Ubiquitin-related modifier 1 n=1 Tax=Phialoc...   120   3e-25
+UniRef90_UPI0005816357 ubiquitin-related modifier 1 homolog 1 n=...   120   3e-25
+UniRef90_A0A178E0E4 Ubiquitin-related modifier 1 n=1 Tax=Pyrenoc...   120   3e-25
+UniRef90_A0A165K9V8 Ubiquitin-related modifier 1 n=2 Tax=Exidia ...   120   3e-25
+UniRef90_A0A165UIG9 Ubiquitin-related modifier 1 n=1 Tax=Neolent...   120   3e-25
+UniRef90_A0A0J1AUM8 Ubiquitin-related modifier 1 n=1 Tax=Cutaneo...   120   3e-25
+UniRef90_F4PAJ3 Ubiquitin-related modifier 1 n=2 Tax=Batrachochy...   120   3e-25
+UniRef90_A0A1Y2M6W2 Ubiquitin-related modifier 1 n=1 Tax=Epicocc...   120   3e-25
+UniRef90_UPI000626ACF6 ubiquitin-related modifier 1 n=1 Tax=Atha...   120   3e-25
+UniRef90_A0A0D7AG12 Ubiquitin-related modifier 1 n=1 Tax=Fistuli...   120   3e-25
+UniRef90_V9L9Y9 Ubiquitin-related modifier 1 n=2 Tax=Callorhinch...   120   3e-25
+UniRef90_A0A165I1C0 Ubiquitin-related modifier 1 n=1 Tax=Calocer...   120   3e-25
+UniRef90_E9J3I8 Ubiquitin-related modifier 1 (Fragment) n=3 Tax=...   120   3e-25
+UniRef90_UPI0009829277 Ubiquitin-related modifier 1 n=1 Tax=Tala...   120   3e-25
+UniRef90_A0A183T9B9 Ubiquitin-related modifier 1 homolog n=1 Tax...   120   4e-25
+UniRef90_B2WIC3 Ubiquitin-related modifier 1 n=2 Tax=Pyrenophora...   120   4e-25
+UniRef90_A0A1G4JUH5 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   120   4e-25
+UniRef90_A0A0D0CH52 Ubiquitin-related modifier 1 n=1 Tax=Paxillu...   120   4e-25
+UniRef90_K4AZC9 Ubiquitin-related modifier 1 homolog n=7 Tax=Sol...   120   4e-25
+UniRef90_A0A0G2ES14 Ubiquitin-related modifier 1 n=1 Tax=Phaeomo...   120   4e-25
+UniRef90_G7E712 Ubiquitin-related modifier 1 n=1 Tax=Mixia osmun...   120   4e-25
+UniRef90_F2PUZ0 Ubiquitin-related modifier 1 n=7 Tax=Trichophyto...   120   4e-25
+UniRef90_A0A1S7HNZ1 Ubiquitin-related modifier 1 n=3 Tax=Zygosac...   120   4e-25
+UniRef90_A0A0N8H4Y6 Ubiquitin-related modifier 1 n=1 Tax=Neonect...   120   4e-25
+UniRef90_A0A0E0LKC5 Ubiquitin-related modifier 1 homolog n=1 Tax...   120   5e-25
+UniRef90_B9RDI8 Ubiquitin-related modifier 1 homolog n=6 Tax=fab...   120   5e-25
+UniRef90_A0A167BRK1 Ubiquitin-related modifier 1 n=1 Tax=Metarhi...   120   5e-25
+UniRef90_A0A1B0D3G4 Ubiquitin-related modifier 1 homolog n=1 Tax...   120   5e-25
+UniRef90_A0A1B5L1B2 Ubiquitin-related modifier 1 n=1 Tax=Ustilag...   120   5e-25
+UniRef90_A0A200QPI4 Ubiquitin-related modifier 1 n=1 Tax=Macleay...   120   5e-25
+UniRef90_B3LTL7 Ubiquitin-related modifier 1 n=9 Tax=Saccharomyc...   120   5e-25
+UniRef90_G8JU35 Ubiquitin-related modifier 1 n=1 Tax=Eremotheciu...   119   5e-25
+UniRef90_A0A068UK41 Ubiquitin-related modifier 1 homolog n=1 Tax...   119   5e-25
+UniRef90_A0A1B6C9N0 Ubiquitin-related modifier 1 homolog n=2 Tax...   119   5e-25
+UniRef90_A0A1G4JFX7 Ubiquitin-related modifier 1 n=1 Tax=Lachanc...   119   5e-25
+UniRef90_A0A103YN58 Ubiquitin-related modifier 1 homolog n=1 Tax...   119   5e-25
+UniRef90_B9IC87 Ubiquitin-related modifier 1 homolog n=2 Tax=Pop...   119   6e-25
+UniRef90_UPI000B36A021 ubiquitin-related modifier 1 homolog n=1 ...   119   6e-25
+UniRef90_A6R989 Ubiquitin-related modifier 1 n=5 Tax=Ajellomycet...   119   6e-25
+UniRef90_S8C0G8 Ubiquitin-related modifier 1 n=1 Tax=Dactylellin...   119   6e-25
+UniRef90_J5P883 Ubiquitin-related modifier 1 n=3 Tax=Saccharomyc...   119   6e-25
+UniRef90_E4UYV7 Ubiquitin-related modifier 1 n=1 Tax=Arthroderma...   119   6e-25
+UniRef90_L8GY50 Ubiquitin-related modifier 1 homolog n=1 Tax=Aca...   119   6e-25
+UniRef90_A0A1R0GSM2 Ubiquitin-related modifier 1 n=1 Tax=Smittiu...   119   6e-25
+UniRef90_A0A1Z5KXU3 Ubiquitin-related modifier 1 (Fragment) n=1 ...   119   7e-25
+UniRef90_A0A176W5L5 Ubiquitin-related modifier 1 homolog n=1 Tax...   119   7e-25
+UniRef90_UPI00074032F4 ubiquitin-related modifier 1 isoform X3 n...   119   7e-25
+UniRef90_W4Z502 Ubiquitin-related modifier 1 homolog n=1 Tax=Str...   119   7e-25
+UniRef90_A7TQ77 Ubiquitin-related modifier 1 n=1 Tax=Vanderwalto...   119   7e-25
+UniRef90_A0A078IS56 Ubiquitin-related modifier 1 homolog n=7 Tax...   119   7e-25
+UniRef90_A0A0N4YTX3 Ubiquitin-related modifier 1 homolog n=1 Tax...   119   8e-25
+UniRef90_D7U7Q9 Ubiquitin-related modifier 1 homolog n=2 Tax=Vit...   119   8e-25
+UniRef90_A0A0D2MMY9 Ubiquitin-related modifier 1 n=1 Tax=Hypholo...   119   8e-25
+UniRef90_A0A178AR90 Ubiquitin-related modifier 1 n=1 Tax=Stagono...   119   8e-25
+UniRef90_UPI0005CE75DE ubiquitin-related modifier 1 isoform X2 n...   119   9e-25
+UniRef90_A0A158PH61 Ubiquitin-related modifier 1 homolog n=1 Tax...   119   9e-25
+UniRef90_V3ZY87 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   118   9e-25
+UniRef90_A0A0D2CB74 Ubiquitin-related modifier 1 n=2 Tax=Exophia...   118   9e-25
+UniRef90_UPI000873BF5C ubiquitin-related modifier 1 n=1 Tax=Anop...   118   9e-25
+UniRef90_E5A4L2 Ubiquitin-related modifier 1 n=1 Tax=Leptosphaer...   118   1e-24
+UniRef90_A0A0D0C2P8 Ubiquitin-related modifier 1 n=1 Tax=Gymnopu...   118   1e-24
+UniRef90_A0A0D2DDH7 Ubiquitin-related modifier 1 n=8 Tax=Herpotr...   118   1e-24
+UniRef90_A0A0C9WG41 Ubiquitin-related modifier 1 n=1 Tax=Hydnome...   118   1e-24
+UniRef90_UPI00096AE200 ubiquitin-related modifier 1 n=1 Tax=Aeth...   118   1e-24
+UniRef90_A0A0N4VF19 Ubiquitin-related modifier 1 homolog n=1 Tax...   118   1e-24
+UniRef90_A0A1D5YSK9 Ubiquitin-related modifier 1 homolog n=1 Tax...   118   1e-24
+UniRef90_V2XID8 Ubiquitin-related modifier 1 n=3 Tax=Moniliophth...   118   1e-24
+UniRef90_A0A0U1LZL7 Ubiquitin-related modifier 1 n=1 Tax=Talarom...   118   1e-24
+UniRef90_A0A1L8DSD2 Ubiquitin-related modifier 1 homolog n=1 Tax...   118   1e-24
+UniRef90_A0A067MBC4 Ubiquitin-related modifier 1 n=1 Tax=Botryob...   118   1e-24
+UniRef90_A0A0F8A4U4 Ubiquitin-related modifier 1 n=1 Tax=Hirsute...   118   2e-24
+UniRef90_A0A120K285 Ubiquitin-related modifier 1 n=1 Tax=Eremoth...   118   2e-24
+UniRef90_A0A1D2NJU9 Multifunctional fusion protein n=1 Tax=Orche...   118   2e-24
+UniRef90_A0A177UK76 Ubiquitin-related modifier 1 n=2 Tax=Tilleti...   118   2e-24
+UniRef90_T1G9M8 Ubiquitin-related modifier 1 homolog n=1 Tax=Hel...   118   2e-24
+UniRef90_A0A0F2M6D2 Ubiquitin-related modifier 1 n=3 Tax=Sporoth...   118   2e-24
+UniRef90_A0A1U8AWM7 Ubiquitin-related modifier 1 homolog n=1 Tax...   117   2e-24
+UniRef90_A0A1U8PAS3 Ubiquitin-related modifier 1 homolog n=9 Tax...   117   2e-24
+UniRef90_UPI000776F739 ubiquitin-related modifier 1 isoform X1 n...   117   2e-24
+UniRef90_A0A1Y1WR16 Ubiquitin-related modifier 1 n=1 Tax=Anaerom...   117   2e-24
+UniRef90_S8D3T2 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   117   2e-24
+UniRef90_G8ZZV7 Ubiquitin-related modifier 1 n=1 Tax=Torulaspora...   117   2e-24
+UniRef90_S3DBU7 Ubiquitin-related modifier 1 n=1 Tax=Glarea lozo...   117   2e-24
+UniRef90_J9K2L7 Ubiquitin-related modifier 1 homolog n=2 Tax=Mac...   117   2e-24
+UniRef90_A0A022Q5L2 Ubiquitin-related modifier 1 homolog n=1 Tax...   117   2e-24
+UniRef90_U6J1F9 Ubiquitin-related modifier 1 homolog n=4 Tax=Tae...   117   2e-24
+UniRef90_A0A0N5AFZ8 Ubiquitin-related modifier 1 homolog n=1 Tax...   117   2e-24
+UniRef90_A0A1S8VUB1 Ubiquitin-related modifier 1 n=1 Tax=Batrach...   117   3e-24
+UniRef90_W1QKU6 Ubiquitin-related modifier 1 n=2 Tax=Ogataea Tax...   117   3e-24
+UniRef90_A0A0D3GQR1 Ubiquitin-related modifier 1 homolog n=1 Tax...   117   3e-24
+UniRef90_K7KCA0 Ubiquitin-related modifier 1 homolog n=3 Tax=Soj...   117   3e-24
+UniRef90_I1CSV6 Ubiquitin-related modifier 1 n=1 Tax=Rhizopus de...   117   3e-24
+UniRef90_A0A167KIW1 Ubiquitin-related modifier 1 n=1 Tax=Calocer...   117   3e-24
+UniRef90_UPI00063F2D6D ubiquitin-related modifier 1 isoform X1 n...   117   3e-24
+UniRef90_A0A0G4I5S6 Ubiquitin-related modifier 1 homolog n=1 Tax...   117   3e-24
+UniRef90_B3H7G2 Ubiquitin-related modifier 1 homolog 2 n=5 Tax=C...   117   3e-24
+UniRef90_A0A1S3CCC7 Ubiquitin-related modifier 1 homolog n=3 Tax...   117   3e-24
+UniRef90_A0A194S7C0 Ubiquitin-related modifier 1 n=1 Tax=Rhodoto...   117   4e-24
+UniRef90_V9DBV8 Ubiquitin-related modifier 1 n=3 Tax=Herpotrichi...   117   4e-24
+UniRef90_A0A177CQY5 Ubiquitin-related modifier 1 n=1 Tax=Parapha...   117   4e-24
+UniRef90_W9XJL9 Ubiquitin-related modifier 1 n=1 Tax=Capronia co...   117   4e-24
+UniRef90_UPI00098E5F82 ubiquitin-related modifier 1 homolog 1-li...   117   4e-24
+UniRef90_UPI0005D090EC ubiquitin-related modifier 1 homolog n=1 ...   117   4e-24
+UniRef90_A0A0L0SUX6 Ubiquitin-related modifier 1 n=2 Tax=Allomyc...   117   4e-24
+UniRef90_A0A0C3CRB7 Ubiquitin-related modifier 1 n=1 Tax=Piloder...   117   4e-24
+UniRef90_A0A0D1YQZ3 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   116   5e-24
+UniRef90_A0A0L0HIE7 Ubiquitin-related modifier 1 n=1 Tax=Spizell...   116   5e-24
+UniRef90_A0A0R3U8I2 Ubiquitin-related modifier 1 homolog n=1 Tax...   116   5e-24
+UniRef90_A0A0C9S2N9 Ubiquitin-related modifier 1 homolog n=2 Tax...   116   5e-24
+UniRef90_A0A0D1XRP8 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   116   5e-24
+UniRef90_U6PK78 Ubiquitin-related modifier 1 homolog n=1 Tax=Hae...   116   5e-24
+UniRef90_U5DA85 Ubiquitin-related modifier 1 homolog n=1 Tax=Amb...   116   5e-24
+UniRef90_UPI000441829A ubiquitin-like modifier 1 n=1 Tax=Punctul...   116   5e-24
+UniRef90_A0A146FYM9 Ubiquitin-related modifier 1 n=1 Tax=Aspergi...   116   6e-24
+UniRef90_A0A1E5V233 Ubiquitin-related modifier 1 homolog n=1 Tax...   116   6e-24
+UniRef90_A0A1E5R562 Ubiquitin-related modifier 1 n=1 Tax=Hanseni...   116   6e-24
+UniRef90_A0A1E3PXS6 Ubiquitin-related modifier 1 n=1 Tax=Lipomyc...   116   6e-24
+UniRef90_UPI0004E5B69F ubiquitin-related modifier 1 homolog 2-li...   116   6e-24
+UniRef90_W9XQN3 Ubiquitin-related modifier 1 n=1 Tax=Capronia ep...   116   6e-24
+UniRef90_A0A0D2BYH5 Ubiquitin-related modifier 1 n=1 Tax=Exophia...   116   6e-24
+UniRef90_L0PFH5 Ubiquitin-related modifier 1 n=2 Tax=Pneumocysti...   116   6e-24
+UniRef90_A0A0B7NWL8 Ubiquitin-related modifier 1 n=1 Tax=Parasit...   116   6e-24
+UniRef90_UPI00077AC8C1 ubiquitin-related modifier 1-like isoform...   116   7e-24
+UniRef90_I1KIJ0 Ubiquitin-related modifier 1 homolog n=12 Tax=Pa...   116   7e-24
+UniRef90_UPI000B8CD318 ubiquitin-related modifier 1 homolog 2 n=...   116   7e-24
+UniRef90_F0ZXI3 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...   115   8e-24
+UniRef90_M9MAY7 Ubiquitin-related modifier 1 n=3 Tax=Moesziomyce...   115   8e-24
+UniRef90_A0A0K9QZM0 Ubiquitin-related modifier 1 homolog n=3 Tax...   115   8e-24
+UniRef90_A0A1D1ZLZ2 Ubiquitin-related modifier 1 homolog n=2 Tax...   115   8e-24
+UniRef90_S2JFC9 Ubiquitin-related modifier 1 n=2 Tax=Mucor circi...   115   8e-24
+UniRef90_A0A183DV48 Ubiquitin-related modifier 1 homolog n=1 Tax...   115   9e-24
+UniRef90_A0A1L0BY06 Ubiquitin-related modifier 1 n=1 Tax=[Candid...   115   9e-24
+UniRef90_A0A1Y1YY69 Ubiquitin-related modifier 1 n=1 Tax=Basidio...   115   9e-24
+UniRef90_A0A1I7SLY8 Ubiquitin-related modifier 1 homolog n=1 Tax...   115   1e-23
+UniRef90_A0A1Y1NIH1 Ubiquitin-related modifier 1 homolog n=1 Tax...   115   1e-23
+UniRef90_T1GVD4 Ubiquitin-related modifier 1 homolog n=1 Tax=Meg...   115   1e-23
+UniRef90_A0A084RJD8 Ubiquitin-related modifier 1 n=3 Tax=Stachyb...   115   1e-23
+UniRef90_A0A1J7JIE2 Ubiquitin-related modifier 1 (Fragment) n=1 ...   115   1e-23
+UniRef90_A0A162VK75 Ubiquitin-related modifier 1 n=1 Tax=Didymel...   115   1e-23
+UniRef90_UPI00053FECF6 ubiquitin-related modifier 1 homolog 1 n=...   115   1e-23
+UniRef90_B6SXH2 Ubiquitin-related modifier 1 homolog n=3 Tax=And...   115   1e-23
+UniRef90_H2B207 Ubiquitin-related modifier 1 n=1 Tax=Kazachstani...   115   1e-23
+UniRef90_A0A0K3CRM3 Ubiquitin-related modifier 1 n=3 Tax=Rhodosp...   115   1e-23
+UniRef90_UPI0007EF6677 ubiquitin-related modifier 1 homolog 2-li...   115   2e-23
+UniRef90_A0A0D8XZM9 Ubiquitin-related modifier 1 homolog n=1 Tax...   115   2e-23
+UniRef90_W9WDS0 Ubiquitin-related modifier 1 n=1 Tax=Cladophialo...   115   2e-23
+UniRef90_H3FNE2 Ubiquitin-related modifier 1 homolog n=1 Tax=Pri...   115   2e-23
+UniRef90_A0A0C2XV71 Ubiquitin-related modifier 1 n=1 Tax=Hebelom...   114   2e-23
+UniRef90_G8BZU5 Ubiquitin-related modifier 1 n=1 Tax=Tetrapisisp...   114   2e-23
+UniRef90_A0A1E4RPS4 Ubiquitin-related modifier 1 n=1 Tax=Hyphopi...   114   2e-23
+UniRef90_UPI0009E1A740 ubiquitin-related modifier 1 homolog n=2 ...   114   2e-23
+UniRef90_A0A059IYB3 Ubiquitin-related modifier 1 n=1 Tax=Trichop...   114   2e-23
+UniRef90_A0A1I8AWT7 Ubiquitin-related modifier 1 homolog n=1 Tax...   114   2e-23
+UniRef90_A0A1Y2TNJ4 Ubiquitin-related modifier 1 (Fragment) n=1 ...   114   2e-23
+UniRef90_M0TE73 Ubiquitin-related modifier 1 homolog n=1 Tax=Mus...   114   3e-23
+UniRef90_A0A1C7N086 Ubiquitin-related modifier 1 n=1 Tax=Choanep...   114   3e-23
+UniRef90_F2QT59 Ubiquitin-related modifier 1 n=2 Tax=Komagataell...   113   3e-23
+UniRef90_A0A0K8TRY0 Ubiquitin-related modifier 1 (Fragment) n=1 ...   113   3e-23
+UniRef90_Q59WK2 Ubiquitin-related modifier 1 n=3 Tax=Candida Tax...   113   3e-23
+UniRef90_UPI00077E74CF ubiquitin-related modifier 1 homolog 2 n=...   113   3e-23
+UniRef90_A0A067HDP3 Ubiquitin-related modifier 1 homolog n=2 Tax...   113   4e-23
+UniRef90_A9SNV5 Ubiquitin-related modifier 1 homolog n=1 Tax=Phy...   113   4e-23
+UniRef90_G3BAA3 Ubiquitin-related modifier 1 n=1 Tax=Candida ten...   113   4e-23
+UniRef90_A0A183B5H9 Ubiquitin-related modifier 1 homolog n=1 Tax...   113   4e-23
+UniRef90_UPI0006768A43 ubiquitin-related modifier 1 homolog n=1 ...   113   4e-23
+UniRef90_Q54QN0 Ubiquitin-related modifier 1 homolog n=1 Tax=Dic...   113   4e-23
+UniRef90_I4YGS6 Ubiquitin-related modifier 1 n=1 Tax=Wallemia me...   113   4e-23
+UniRef90_Q6FWQ3 Ubiquitin-related modifier 1 n=2 Tax=Candida gla...   113   4e-23
+UniRef90_H8WYB1 Ubiquitin-related modifier 1 n=3 Tax=cellular or...   113   4e-23
+UniRef90_A0A1D1W7E5 Ubiquitin-related modifier 1 homolog n=1 Tax...   113   4e-23
+UniRef90_A0A1B8CNB2 Ubiquitin-related modifier 1 n=1 Tax=Pseudog...   113   5e-23
+UniRef90_A0A136IIC6 Ubiquitin-related modifier 1 n=1 Tax=Microdo...   113   5e-23
+UniRef90_C5MD24 Ubiquitin-related modifier 1 n=1 Tax=Candida tro...   113   5e-23
+UniRef90_J7SB37 Ubiquitin-related modifier 1 n=1 Tax=Kazachstani...   113   6e-23
+UniRef90_A0A0K9P8R1 Ubiquitin-related modifier 1 homolog n=1 Tax...   113   6e-23
+UniRef90_A0A0C9YS26 Ubiquitin-related modifier 1 n=1 Tax=Pisolit...   112   7e-23
+UniRef90_A0A068X5E3 Ubiquitin-related modifier 1 homolog n=2 Tax...   112   7e-23
+UniRef90_A0A151ZDP2 Ubiquitin-related modifier 1 homolog n=1 Tax...   112   7e-23
+UniRef90_A0A084FX55 Ubiquitin-related modifier 1 n=1 Tax=Scedosp...   112   8e-23
+UniRef90_A5DTV4 Ubiquitin-related modifier 1 n=1 Tax=Lodderomyce...   112   8e-23
+UniRef90_M5FXU5 Ubiquitin-related modifier 1 (Fragment) n=1 Tax=...   112   8e-23
+UniRef90_A0A059C3W1 Ubiquitin-related modifier 1 homolog n=1 Tax...   112   8e-23
+UniRef90_G0W5D4 Ubiquitin-related modifier 1 n=1 Tax=Naumovozyma...   112   9e-23
+UniRef90_A0A0L0NZB8 Ubiquitin-related modifier 1 n=1 Tax=[Candid...   112   9e-23
+UniRef90_A0A1W0WGH4 Ubiquitin-related modifier 1 homolog n=1 Tax...   112   1e-22
+UniRef90_I1GWB6 Ubiquitin-related modifier 1 homolog n=6 Tax=Poa...   112   1e-22
+UniRef90_E1ZE18 Ubiquitin-related modifier 1 homolog n=1 Tax=Chl...   112   1e-22
+UniRef90_A0A194VFD5 Ubiquitin-related modifier 1 n=2 Tax=Valsa m...   112   1e-22
+UniRef90_A0A1S4D7I6 Ubiquitin-related modifier 1 homolog n=1 Tax...   111   2e-22
+UniRef90_A0A1B8E7N9 Ubiquitin-related modifier 1 n=1 Tax=Pseudog...   111   2e-22
+UniRef90_G8YPM5 Ubiquitin-related modifier 1 n=2 Tax=Pichia sorb...   111   2e-22
+UniRef90_A0A182YJA1 Ubiquitin-related modifier 1 homolog n=1 Tax...   111   2e-22
+UniRef90_A0A177A0M7 Ubiquitin-related modifier 1 n=2 Tax=Pseudog...   111   2e-22
+UniRef90_A0A1Y2CQK2 Ubiquitin-related modifier 1 n=2 Tax=Neocall...   111   2e-22
+UniRef90_R9APP6 Ubiquitin-related modifier 1 n=1 Tax=Wallemia ic...   111   2e-22
+UniRef90_D3AVN0 Ubiquitin-related modifier 1 homolog n=1 Tax=Pol...   111   2e-22
+UniRef90_G9NFK0 Ubiquitin-related modifier 1 n=2 Tax=Trichoderma...   111   2e-22
+UniRef90_B0D4J6 Ubiquitin-related modifier 1 n=2 Tax=Laccaria Ta...   111   2e-22
+UniRef90_A0A1Y3E4R9 Multifunctional fusion protein n=2 Tax=Trich...   111   2e-22
+UniRef90_M8A131 Ubiquitin-related modifier 1 homolog n=1 Tax=Tri...   111   2e-22
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_UPI0008464CE3 ubiquitin-related modifier 1 n=1 Tax=Manacus vitellinus
+           TaxID=328815 RepID=UPI0008464CE3
+          Length = 149
+
+ Score =  149 bits (378), Expect = 6e-34,   Method: Composition-based stats.
+ Identities = 40/99 (40%), Positives = 63/99 (63%), Gaps = 3/99 (3%)
+
+Query: 2   VNVKVEFLGGLDAIFGKQRVHKIKMD-KEDPVTVGDLIDHIVSTMINNPNDVSIFIEDDS 60
+           V+++VEF GG + +F   + H++ +  + +P  + +L+  I   M+       +F++ +S
+Sbjct: 53  VSLQVEFGGGAELLFDGVKKHQVTLPCQPEPWDIRNLLKWIKQNMLKERP--ELFMQGES 110
+
+Query: 61  IRPGIITLINDTDWELEGEKDYILEDGDIISFTSTLHGG 99
+           +RPGI+ LIND DWEL GE DY L+D D + F STLHGG
+Sbjct: 111 VRPGILVLINDADWELMGELDYKLQDQDNVVFISTLHGG 149
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.315    0.179    0.550 
+
+Lambda     K      H
+   0.267   0.0547    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 23,836,585,228
+Number of Sequences: 61934301
+Number of extensions: 1119978707
+Number of successful extensions: 2853635
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 7131
+Number of HSP's successfully gapped in prelim test: 2240
+Number of HSP's that attempted gapping in prelim test: 2840660
+Number of HSP's gapped (non-prelim): 9556
+length of query: 99
+length of database: 21,023,703,129
+effective HSP length: 68
+effective length of query: 31
+effective length of database: 21,107,137,957
+effective search space: 654321276667
+effective search space used: 654321276667
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.1 bits)
+S2: 83 (36.2 bits)
