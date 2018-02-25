@@ -1,0 +1,10 @@
+<ROSETTASCRIPTS>
+  <MOVERS>
+    <StructFragmentMover name="FragmentPicker" prefix="wauto"
+        vall_file="../../database/vall.jul19.2011.gz" output_frag_files="1"
+      small_frag_file="wauto.200.3mers" large_frag_file="wauto.200.9mers" frag_weight_file="scores.cfg" />
+  </MOVERS>
+  <PROTOCOLS>
+    <Add mover="FragmentPicker" />
+  </PROTOCOLS>
+</ROSETTASCRIPTS>

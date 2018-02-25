@@ -1,0 +1,2101 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1mw7A
+         (75 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_O24970 Probable transcriptional regulatory protein HP_0...   134   2e-29
+UniRef90_T2SRM7 Transcriptional regulator n=1 Tax=Helicobacter p...   123   4e-26
+UniRef90_A0A0K2XCA0 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_E7G4C4 Probable transcriptional regulatory protein HSUH...    91   2e-16
+UniRef90_T2SD49 Uncharacterized protein n=1 Tax=Helicobacter pyl...    88   2e-15
+UniRef90_F8KRZ2 Probable transcriptional regulatory protein HBZC...    83   5e-14
+UniRef90_A0A1B1U4R1 Probable transcriptional regulatory protein ...    69   1e-09
+UniRef90_T1D079 Probable transcriptional regulatory protein HFN_...    69   2e-09
+UniRef90_A0A099DMB6 Probable transcriptional regulatory protein ...    67   4e-09
+UniRef90_UPI0008343CD9 YebC/PmpR family DNA-binding transcriptio...    67   5e-09
+UniRef90_D3UI59 Probable transcriptional regulatory protein HMU0...    66   1e-08
+UniRef90_A0A099UIN9 Probable transcriptional regulatory protein ...    65   1e-08
+UniRef90_A0A1F3EBC4 Probable transcriptional regulatory protein ...    65   1e-08
+UniRef90_A0A099TLE3 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_A0A1S6U7P1 Probable transcriptional regulatory protein ...    63   9e-08
+UniRef90_A0A0C2V5Z3 Probable transcriptional regulatory protein ...    62   1e-07
+UniRef90_UPI0004809B6E YebC/PmpR family DNA-binding transcriptio...    62   1e-07
+UniRef90_A0A1F3EB43 Probable transcriptional regulatory protein ...    62   2e-07
+UniRef90_A0A0K2XK02 Probable transcriptional regulatory protein ...    62   2e-07
+UniRef90_A7ZC85 Probable transcriptional regulatory protein Ccon...    61   2e-07
+UniRef90_Q7MRV4 Probable transcriptional regulatory protein WS10...    61   3e-07
+UniRef90_A0A1G0CKN6 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_A0A0L8VE36 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_A0A1Q3ZFI9 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_D5V562 Probable transcriptional regulatory protein Arni...    60   4e-07
+UniRef90_V8CFD6 Probable transcriptional regulatory protein HMPR...    60   6e-07
+UniRef90_D1B115 Probable transcriptional regulatory protein Sdel...    59   9e-07
+UniRef90_A7I377 Probable transcriptional regulatory protein CHAB...    59   1e-06
+UniRef90_A0A1B8J7E3 Probable transcriptional regulatory protein ...    59   2e-06
+UniRef90_B9D0E0 Probable transcriptional regulatory protein CAMR...    58   2e-06
+UniRef90_A0A1J5F8V9 Probable transcriptional regulatory protein ...    57   3e-06
+UniRef90_A0A1F3E912 Probable transcriptional regulatory protein ...    57   3e-06
+UniRef90_F2IB76 Probable transcriptional regulatory protein Flut...    57   3e-06
+UniRef90_A0RN42 Probable transcriptional regulatory protein CFF8...    57   4e-06
+UniRef90_A7GX97 Probable transcriptional regulatory protein Ccur...    57   5e-06
+UniRef90_UPI0008EA293A YebC/PmpR family DNA-binding regulatory p...    56   8e-06
+UniRef90_E0UR99 Probable transcriptional regulatory protein Saut...    55   2e-05
+UniRef90_B6BMS2 Probable transcriptional regulatory protein SMGD...    55   2e-05
+UniRef90_A0A1Z9SDE9 YebC/PmpR family DNA-binding transcriptional...    54   4e-05
+UniRef90_V8C841 Probable transcriptional regulatory protein HMPR...    54   4e-05
+UniRef90_C3XN28 Probable transcriptional regulatory protein HWAG...    54   6e-05
+UniRef90_A0A1F3LNB7 Probable transcriptional regulatory protein ...    53   6e-05
+UniRef90_A0A099BSP8 Probable transcriptional regulatory protein ...    53   8e-05
+UniRef90_A0A0C2ZM06 Probable transcriptional regulatory protein ...    53   9e-05
+UniRef90_Q7VFS1 Probable transcriptional regulatory protein HH_1...    53   9e-05
+UniRef90_E7ACD6 Probable transcriptional regulatory protein Hfel...    52   1e-04
+UniRef90_S3XF21 Probable transcriptional regulatory protein HMPR...    52   1e-04
+UniRef90_UPI00053BE415 YebC/PmpR family DNA-binding transcriptio...    52   1e-04
+UniRef90_UPI000B6F2994 YebC/PmpR family DNA-binding regulatory p...    52   1e-04
+UniRef90_A0A099VQ91 Probable transcriptional regulatory protein ...    52   2e-04
+UniRef90_A0A128ELY3 Probable transcriptional regulatory protein ...    52   2e-04
+UniRef90_T0KF94 Probable transcriptional regulatory protein M947...    52   2e-04
+UniRef90_A0A0B0Q1I9 Probable transcriptional regulatory protein ...    51   2e-04
+UniRef90_A0A1G3SR67 Probable transcriptional regulatory protein ...    51   3e-04
+UniRef90_A0A0S2HZA6 Probable transcriptional regulatory protein ...    51   3e-04
+UniRef90_A0A0K8QZ78 Probable transcriptional regulatory protein ...    51   3e-04
+UniRef90_A0A1F3W5K0 Probable transcriptional regulatory protein ...    51   3e-04
+UniRef90_E6LAA5 Probable transcriptional regulatory protein HMPR...    51   3e-04
+UniRef90_A0A136MRF0 Probable transcriptional regulatory protein ...    51   4e-04
+UniRef90_A0A1X9STJ7 Probable transcriptional regulatory protein ...    50   5e-04
+UniRef90_A0A1G3UZZ8 Probable transcriptional regulatory protein ...    50   5e-04
+UniRef90_A0A1M6I503 Probable transcriptional regulatory protein ...    50   5e-04
+UniRef90_A0A071LAQ3 Probable transcriptional regulatory protein ...    50   7e-04
+UniRef90_E4TQU0 Probable transcriptional regulatory protein Ftra...    50   7e-04
+UniRef90_A0A1W1CGU5 Uncharacterized protein n=1 Tax=hydrothermal...    49   9e-04
+UniRef90_A0A1V5VYJ7 Probable transcriptional regulatory protein ...    49   0.001
+UniRef90_C8PJK5 Probable transcriptional regulatory protein CAMG...    49   0.001
+UniRef90_Q30QR5 Probable transcriptional regulatory protein Sude...    49   0.001
+UniRef90_A0A1M4S7T3 Probable transcriptional regulatory protein ...    49   0.002
+UniRef90_A0A1W1CJ36 Uncharacterized protein n=1 Tax=hydrothermal...    49   0.002
+UniRef90_UPI0004264078 YebC/PmpR family DNA-binding transcriptio...    49   0.002
+UniRef90_A0A1Q6EG39 Probable transcriptional regulatory protein ...    48   0.002
+UniRef90_A0A1V5YPL9 Probable transcriptional regulatory protein ...    48   0.002
+UniRef90_L8JPX1 Probable transcriptional regulatory protein C900...    48   0.002
+UniRef90_UPI00046FFB27 YebC/PmpR family DNA-binding transcriptio...    48   0.003
+UniRef90_A0A1V5G8I6 Probable transcriptional regulatory protein ...    48   0.003
+UniRef90_A0A136PA74 Probable transcriptional regulatory protein ...    47   0.004
+UniRef90_A0A1J4TNH6 Probable transcriptional regulatory protein ...    47   0.004
+UniRef90_C7PUA6 Probable transcriptional regulatory protein Cpin...    47   0.004
+UniRef90_A0A136N657 Probable transcriptional regulatory protein ...    47   0.004
+UniRef90_A0A1V5MW31 Probable transcriptional regulatory protein ...    47   0.004
+UniRef90_UPI0003710813 YebC/PmpR family DNA-binding transcriptio...    47   0.004
+UniRef90_A0A1W1D3I9 Uncharacterized protein n=1 Tax=hydrothermal...    47   0.004
+UniRef90_A0A1F3MCH3 Probable transcriptional regulatory protein ...    47   0.005
+UniRef90_A0A1W1E8S7 Uncharacterized protein n=1 Tax=hydrothermal...    47   0.005
+UniRef90_A0A1M3MBG7 Probable transcriptional regulatory protein ...    47   0.006
+UniRef90_A0A1C2BRV8 Probable transcriptional regulatory protein ...    47   0.006
+UniRef90_UPI00082A954A YebC/PmpR family DNA-binding transcriptio...    46   0.009
+UniRef90_R5AUU2 Probable transcriptional regulatory protein BN45...    46   0.009
+UniRef90_A0A1J5HX87 Probable transcriptional regulatory protein ...    46   0.010
+UniRef90_A0A1G4GAA8 Probable transcriptional regulatory protein ...    46   0.011
+UniRef90_A0A1Y5DPL2 Probable transcriptional regulatory protein ...    46   0.012
+UniRef90_UPI00047DB54B YebC/PmpR family DNA-binding transcriptio...    45   0.012
+UniRef90_A0A150X890 Probable transcriptional regulatory protein ...    45   0.012
+UniRef90_G9RZW9 Probable transcriptional regulatory protein HMPR...    45   0.014
+UniRef90_A0A0Q4B689 Probable transcriptional regulatory protein ...    45   0.015
+UniRef90_A0A1Y1R9J0 Probable transcriptional regulatory protein ...    45   0.015
+UniRef90_T0PTH2 Probable transcriptional regulatory protein C874...    45   0.016
+UniRef90_A0A1R3SSP7 Probable transcriptional regulatory protein ...    45   0.017
+UniRef90_A0A1G3TG01 Probable transcriptional regulatory protein ...    45   0.018
+UniRef90_A0A1W1CYI4 Uncharacterized protein n=1 Tax=hydrothermal...    45   0.021
+UniRef90_A0A091B5V0 Probable transcriptional regulatory protein ...    45   0.022
+UniRef90_A0A1W9QX34 Probable transcriptional regulatory protein ...    45   0.022
+UniRef90_UPI000469BFFF YebC/PmpR family DNA-binding transcriptio...    45   0.023
+UniRef90_A7HAS0 Probable transcriptional regulatory protein Anae...    45   0.023
+UniRef90_UPI0008DEDA09 YebC/PmpR family DNA-binding regulatory p...    45   0.023
+UniRef90_A0A1B3WGG6 Probable transcriptional regulatory protein ...    45   0.024
+UniRef90_R5Z178 Probable transcriptional regulatory protein BN49...    44   0.027
+UniRef90_I2ETG1 Probable transcriptional regulatory protein Emto...    44   0.027
+UniRef90_A0A1Z9UTT9 YebC/PmpR family DNA-binding transcriptional...    44   0.034
+UniRef90_A6EFS8 Probable transcriptional regulatory protein PBAL...    44   0.035
+UniRef90_A0A1Q3QCR0 Probable transcriptional regulatory protein ...    44   0.036
+UniRef90_A0A0H4W8R6 Probable transcriptional regulatory protein ...    44   0.036
+UniRef90_A0A1W1C7Z7 Uncharacterized protein n=1 Tax=hydrothermal...    44   0.043
+UniRef90_G8R2N8 Probable transcriptional regulatory protein Oweh...    44   0.050
+UniRef90_F5J414 Probable transcriptional regulatory protein HMPR...    44   0.056
+UniRef90_Q7MXR6 Probable transcriptional regulatory protein PG_0...    43   0.068
+UniRef90_A0A1W1BTQ7 Uncharacterized protein n=1 Tax=hydrothermal...    43   0.068
+UniRef90_UPI0007168692 YebC/PmpR family DNA-binding transcriptio...    43   0.076
+UniRef90_UPI00088EF672 YebC/PmpR family DNA-binding regulatory p...    43   0.077
+UniRef90_UPI00098D2BFD YebC/PmpR family DNA-binding regulatory p...    43   0.077
+UniRef90_R7ZWM9 Probable transcriptional regulatory protein ADIS...    43   0.078
+UniRef90_UPI00055850E8 YebC/PmpR family DNA-binding transcriptio...    43   0.079
+UniRef90_A6QAR3 Probable transcriptional regulatory protein SUN_...    43   0.083
+UniRef90_A0A1Y1RA13 Probable transcriptional regulatory protein ...    43   0.087
+UniRef90_A0A1W9SPF4 Probable transcriptional regulatory protein ...    43   0.087
+UniRef90_K7SC53 Probable transcriptional regulatory protein B649...    43   0.092
+UniRef90_A3XNS2 Probable transcriptional regulatory protein MED2...    43   0.095
+UniRef90_A0A1M3CYF3 Probable transcriptional regulatory protein ...    42   0.11 
+UniRef90_A0A1N6GUU9 Probable transcriptional regulatory protein ...    42   0.11 
+UniRef90_UPI0007D8B466 YebC/PmpR family DNA-binding transcriptio...    42   0.11 
+UniRef90_UPI0004DF7D58 YebC/PmpR family DNA-binding transcriptio...    42   0.11 
+UniRef90_A0A1J4TUJ8 Probable transcriptional regulatory protein ...    42   0.11 
+UniRef90_W0ESR1 Probable transcriptional regulatory protein BARV...    42   0.11 
+UniRef90_W2UR49 Probable transcriptional regulatory protein P278...    42   0.12 
+UniRef90_A0A085KZT0 Probable transcriptional regulatory protein ...    42   0.12 
+UniRef90_E6WYG5 Probable transcriptional regulatory protein Nits...    42   0.12 
+UniRef90_UPI00087EC986 YebC/PmpR family DNA-binding regulatory p...    42   0.12 
+UniRef90_A0A085BPS0 Probable transcriptional regulatory protein ...    42   0.13 
+UniRef90_A0A1V6CXC7 Probable transcriptional regulatory protein ...    42   0.14 
+UniRef90_A0A1H5UU69 Probable transcriptional regulatory protein ...    42   0.14 
+UniRef90_UPI0008310221 YebC/PmpR family DNA-binding transcriptio...    42   0.14 
+UniRef90_UPI0003FA7927 YebC/PmpR family DNA-binding transcriptio...    42   0.14 
+UniRef90_A0A1N7KMU1 Probable transcriptional regulatory protein ...    42   0.16 
+UniRef90_A0A0A2E7H1 Probable transcriptional regulatory protein ...    42   0.16 
+UniRef90_A0A136L4V7 Probable transcriptional regulatory protein ...    42   0.18 
+UniRef90_UPI000472B2A1 YebC/PmpR family DNA-binding transcriptio...    42   0.19 
+UniRef90_A5FGS7 Probable transcriptional regulatory protein Fjoh...    42   0.20 
+UniRef90_G8LQW2 Uncharacterized protein n=1 Tax=Blattabacterium ...    42   0.21 
+UniRef90_L0FY07 Probable transcriptional regulatory protein Echv...    42   0.21 
+UniRef90_A0A172U0G6 Probable transcriptional regulatory protein ...    42   0.22 
+UniRef90_A0A098BWI3 Probable transcriptional regulatory protein ...    42   0.22 
+UniRef90_I0KBS2 Probable transcriptional regulatory protein FAES...    41   0.23 
+UniRef90_A0A1E5SZF8 Probable transcriptional regulatory protein ...    41   0.23 
+UniRef90_A0A098S2U5 Probable transcriptional regulatory protein ...    41   0.24 
+UniRef90_A0A1V6EMZ9 Probable transcriptional regulatory protein ...    41   0.24 
+UniRef90_A0A0R2QXY4 Probable transcriptional regulatory protein ...    41   0.25 
+UniRef90_A0A1J0LHL0 Probable transcriptional regulatory protein ...    41   0.25 
+UniRef90_A0A1F3BP17 Probable transcriptional regulatory protein ...    41   0.26 
+UniRef90_A0A081SGJ8 Probable transcriptional regulatory protein ...    41   0.27 
+UniRef90_UPI0008E63FD5 YebC/PmpR family DNA-binding regulatory p...    41   0.27 
+UniRef90_A0A1T5G1I4 Probable transcriptional regulatory protein ...    41   0.27 
+UniRef90_UPI0002EA9899 YebC/PmpR family DNA-binding transcriptio...    41   0.28 
+UniRef90_A0A0R2VH77 Probable transcriptional regulatory protein ...    41   0.28 
+UniRef90_A8EUS3 Probable transcriptional regulatory protein Abu_...    41   0.28 
+UniRef90_A0A0C1XE98 Transcriptional regulator (Fragment) n=1 Tax...    41   0.28 
+UniRef90_A0A1V5S1R6 Probable transcriptional regulatory protein ...    41   0.30 
+UniRef90_A0A1M4W8W4 Probable transcriptional regulatory protein ...    41   0.30 
+UniRef90_UPI0008C7E562 YebC/PmpR family DNA-binding regulatory p...    41   0.34 
+UniRef90_UPI00048360A9 YebC/PmpR family DNA-binding transcriptio...    41   0.35 
+UniRef90_UPI000761EF73 YebC/PmpR family DNA-binding transcriptio...    41   0.36 
+UniRef90_UPI0008E14221 YebC/PmpR family DNA-binding regulatory p...    41   0.36 
+UniRef90_A0A1B9XYZ9 Probable transcriptional regulatory protein ...    41   0.36 
+UniRef90_A0A1B1SAZ2 Probable transcriptional regulatory protein ...    40   0.39 
+UniRef90_A0A1J5ERQ3 Probable transcriptional regulatory protein ...    40   0.40 
+UniRef90_A6GXW2 Probable transcriptional regulatory protein FP08...    40   0.44 
+UniRef90_A0A0U1CG30 Probable transcriptional regulatory protein ...    40   0.54 
+UniRef90_N1WXP7 Probable transcriptional regulatory protein pgon...    40   0.55 
+UniRef90_C6W2L6 Probable transcriptional regulatory protein Dfer...    40   0.57 
+UniRef90_UPI0004266667 YebC/PmpR family DNA-binding transcriptio...    40   0.59 
+UniRef90_UPI000A1CCDC4 YebC/PmpR family DNA-binding regulatory p...    40   0.59 
+UniRef90_X5DDC5 Probable transcriptional regulatory protein FH5T...    40   0.62 
+UniRef90_E4U1E5 Probable transcriptional regulatory protein Sulk...    40   0.64 
+UniRef90_UPI00029AB20F YebC/PmpR family DNA-binding transcriptio...    40   0.66 
+UniRef90_UPI0008E47D40 YebC/PmpR family DNA-binding regulatory p...    40   0.67 
+UniRef90_A0A142EJ36 Probable transcriptional regulatory protein ...    40   0.68 
+UniRef90_UPI0008E0F960 YebC/PmpR family DNA-binding transcriptio...    40   0.72 
+UniRef90_Q9PNC3 Probable transcriptional regulatory protein Cj11...    40   0.76 
+UniRef90_A0A0F6W9R2 Probable transcriptional regulatory protein ...    40   0.76 
+UniRef90_A0A060R9Z4 Probable transcriptional regulatory protein ...    40   0.80 
+UniRef90_A0A1D7Y234 Probable transcriptional regulatory protein ...    40   0.81 
+UniRef90_A0A1Q3N0Q2 Probable transcriptional regulatory protein ...    40   0.81 
+UniRef90_UPI0008D8E303 YebC/PmpR family DNA-binding transcriptio...    40   0.84 
+UniRef90_A0A1J4TC16 Probable transcriptional regulatory protein ...    40   0.85 
+UniRef90_A0A1F3PQ55 Probable transcriptional regulatory protein ...    39   0.89 
+UniRef90_UPI000428A3DE YebC/PmpR family DNA-binding transcriptio...    39   0.89 
+UniRef90_UPI0003826083 YebC/PmpR family DNA-binding transcriptio...    39   0.90 
+UniRef90_A0A1G0SMU3 Probable transcriptional regulatory protein ...    39   0.93 
+UniRef90_A0A1S9PD59 Probable transcriptional regulatory protein ...    39   0.94 
+UniRef90_A0A1F3KUM7 Probable transcriptional regulatory protein ...    39   0.98 
+UniRef90_A0A1W1YZ63 Probable transcriptional regulatory protein ...    39   1.0  
+UniRef90_R5B5R2 Probable transcriptional regulatory protein BN81...    39   1.0  
+UniRef90_A0A1W1CDA4 Uncharacterized protein n=1 Tax=hydrothermal...    39   1.0  
+UniRef90_UPI0005CA2C7A YebC/PmpR family DNA-binding transcriptio...    39   1.0  
+UniRef90_A0A1E4ANI6 Probable transcriptional regulatory protein ...    39   1.1  
+UniRef90_A0A1M5A3Y2 Probable transcriptional regulatory protein ...    39   1.2  
+UniRef90_UPI0004039913 YebC/PmpR family DNA-binding transcriptio...    39   1.2  
+UniRef90_E6XDP6 Probable transcriptional regulatory protein Cela...    39   1.2  
+UniRef90_UPI0003FDA43D YebC/PmpR family DNA-binding transcriptio...    39   1.2  
+UniRef90_A0A1L3JIL7 Probable transcriptional regulatory protein ...    39   1.3  
+UniRef90_A3J7J9 Probable transcriptional regulatory protein FBBA...    39   1.3  
+UniRef90_F0NZG1 Probable transcriptional regulatory protein Weev...    39   1.3  
+UniRef90_A0A0C1D7F6 Probable transcriptional regulatory protein ...    39   1.4  
+UniRef90_A0A1F3JMF1 Probable transcriptional regulatory protein ...    39   1.4  
+UniRef90_A0A1Q6A2S0 Probable transcriptional regulatory protein ...    39   1.4  
+UniRef90_A0A1M5CEL0 Probable transcriptional regulatory protein ...    39   1.4  
+UniRef90_A0A023BV26 Probable transcriptional regulatory protein ...    39   1.4  
+UniRef90_K4IIM4 Probable transcriptional regulatory protein P700...    39   1.5  
+UniRef90_A0A1M3II56 Probable transcriptional regulatory protein ...    39   1.5  
+UniRef90_A0A1Y1CPG1 Probable transcriptional regulatory protein ...    39   1.6  
+UniRef90_C6X235 Probable transcriptional regulatory protein FIC_...    39   1.6  
+UniRef90_A0A0P7AW63 Probable transcriptional regulatory protein ...    39   1.6  
+UniRef90_A0A098LFV7 Probable transcriptional regulatory protein ...    39   1.8  
+UniRef90_K1LX02 Probable transcriptional regulatory protein HMPR...    39   1.8  
+UniRef90_A0A142HN49 Probable transcriptional regulatory protein ...    39   1.8  
+UniRef90_UPI000248F872 YebC/PmpR family DNA-binding transcriptio...    39   1.8  
+UniRef90_A0A1M3DZQ6 Probable transcriptional regulatory protein ...    39   1.8  
+UniRef90_A0A1M5D804 Probable transcriptional regulatory protein ...    39   1.8  
+UniRef90_A0A1Y3W5N9 Probable transcriptional regulatory protein ...    39   1.9  
+UniRef90_A0A125S3R1 Probable transcriptional regulatory protein ...    39   1.9  
+UniRef90_UPI000930591B YebC/PmpR family DNA-binding transcriptio...    38   2.0  
+UniRef90_A0A074L0X7 Probable transcriptional regulatory protein ...    38   2.0  
+UniRef90_UPI0008EECC01 YebC/PmpR family DNA-binding regulatory p...    38   2.0  
+UniRef90_A0A0E9LSF0 Probable transcriptional regulatory protein ...    38   2.0  
+UniRef90_A0A1F3K5Q5 Probable transcriptional regulatory protein ...    38   2.1  
+UniRef90_A0A1L7I3E9 Probable transcriptional regulatory protein ...    38   2.1  
+UniRef90_UPI000887C417 YebC/PmpR family DNA-binding transcriptio...    38   2.1  
+UniRef90_A0A1F3DMI8 Probable transcriptional regulatory protein ...    38   2.2  
+UniRef90_A0A1M3E5H8 Probable transcriptional regulatory protein ...    38   2.2  
+UniRef90_A0A1R4IKG9 Probable transcriptional regulatory protein ...    38   2.2  
+UniRef90_A0A1F3IUQ7 Probable transcriptional regulatory protein ...    38   2.3  
+UniRef90_A0A085WRI5 Probable transcriptional regulatory protein ...    38   2.3  
+UniRef90_UPI00089957D0 YebC/PmpR family DNA-binding regulatory p...    38   2.4  
+UniRef90_D5BEE9 Probable transcriptional regulatory protein ZPR_...    38   2.4  
+UniRef90_A0A1W1EKU4 Uncharacterized protein n=1 Tax=hydrothermal...    38   2.4  
+UniRef90_UPI0003479E45 YebC/PmpR family DNA-binding transcriptio...    38   2.5  
+UniRef90_A0A1M4ZXS5 Probable transcriptional regulatory protein ...    38   2.6  
+UniRef90_A0A180EQM5 Probable transcriptional regulatory protein ...    38   2.6  
+UniRef90_UPI00094F89AC YebC/PmpR family DNA-binding transcriptio...    38   2.7  
+UniRef90_A0A0B5RHM5 Probable transcriptional regulatory protein ...    38   2.8  
+UniRef90_A9E3T2 Probable transcriptional regulatory protein KAOT...    38   2.8  
+UniRef90_R9GWD1 Probable transcriptional regulatory protein ADIA...    38   2.8  
+UniRef90_A0A1Q6G0Y5 Probable transcriptional regulatory protein ...    38   3.0  
+UniRef90_A0A1Q3Q8Q2 Probable transcriptional regulatory protein ...    38   3.0  
+UniRef90_W7QMT9 Probable transcriptional regulatory protein KLA_...    38   3.1  
+UniRef90_L1NZ16 Probable transcriptional regulatory protein HMPR...    38   3.2  
+UniRef90_A0A1M6LQM4 Probable transcriptional regulatory protein ...    38   3.2  
+UniRef90_A0A0P7YHY9 Probable transcriptional regulatory protein ...    37   3.4  
+UniRef90_A0A1M4ZHR5 Probable transcriptional regulatory protein ...    37   3.5  
+UniRef90_H8KY50 Probable transcriptional regulatory protein Solc...    37   3.5  
+UniRef90_A0A0C2YZJ7 Probable transcriptional regulatory protein ...    37   3.6  
+UniRef90_A0A0R2SEA1 Probable transcriptional regulatory protein ...    37   3.6  
+UniRef90_F4KT53 Probable transcriptional regulatory protein Halh...    37   3.7  
+UniRef90_D2MYT5 Probable transcriptional regulatory protein C414...    37   3.7  
+UniRef90_A0A1Z9DIG3 YebC/PmpR family DNA-binding transcriptional...    37   3.9  
+UniRef90_H1Y9G7 Probable transcriptional regulatory protein Mucp...    37   4.2  
+UniRef90_UPI000896668B YebC/PmpR family DNA-binding regulatory p...    37   4.6  
+UniRef90_A0A1F4XLX2 Probable transcriptional regulatory protein ...    37   4.7  
+UniRef90_A0A1M7BJ76 Probable transcriptional regulatory protein ...    37   4.8  
+UniRef90_A0A1E4HBD7 Probable transcriptional regulatory protein ...    37   5.0  
+UniRef90_UPI000470BA67 YebC/PmpR family DNA-binding transcriptio...    37   5.1  
+UniRef90_A0A132HZY3 Probable transcriptional regulatory protein ...    37   5.2  
+UniRef90_A0A1M6K7L6 Probable transcriptional regulatory protein ...    37   5.2  
+UniRef90_A0A0J7LNS2 Probable transcriptional regulatory protein ...    37   5.6  
+UniRef90_A4AQY7 Probable transcriptional regulatory protein FB21...    37   5.6  
+UniRef90_A0A1V5GH04 Probable transcriptional regulatory protein ...    37   5.7  
+UniRef90_I0WG37 Probable transcriptional regulatory protein W5A_...    37   5.7  
+UniRef90_A0A1Q3XAA6 Probable transcriptional regulatory protein ...    37   5.8  
+UniRef90_A0A1V5F4Y9 Probable transcriptional regulatory protein ...    37   5.8  
+UniRef90_A0A180FK25 Probable transcriptional regulatory protein ...    37   5.8  
+UniRef90_A0A1J5F1L0 Probable transcriptional regulatory protein ...    37   6.1  
+UniRef90_A0A1B1FR76 Probable transcriptional regulatory protein ...    37   6.1  
+UniRef90_A0A0F2P1C3 Probable transcriptional regulatory protein ...    37   6.5  
+UniRef90_A0A1J1ECR7 Probable transcriptional regulatory protein ...    37   6.7  
+UniRef90_D0J8S7 Probable transcriptional regulatory protein BPLA...    37   6.8  
+UniRef90_A0A1V6BVD0 Probable transcriptional regulatory protein ...    37   7.0  
+UniRef90_C0BH80 Probable transcriptional regulatory protein Flav...    37   7.2  
+UniRef90_UPI000A19E52B YebC/PmpR family DNA-binding transcriptio...    36   7.6  
+UniRef90_A0A0C1ESE6 Probable transcriptional regulatory protein ...    36   7.9  
+UniRef90_A0A1E4EDI3 Probable transcriptional regulatory protein ...    36   8.0  
+UniRef90_A0A1Q3PN24 Probable transcriptional regulatory protein ...    36   8.6  
+UniRef90_A0A1M4UP39 Probable transcriptional regulatory protein ...    36   8.8  
+UniRef90_A0A1T5BHS4 Probable transcriptional regulatory protein ...    36   8.8  
+UniRef90_UPI0002D973FC hypothetical protein n=1 Tax=Ureibacillus...    36   8.9  
+UniRef90_U5Q5V8 Probable transcriptional regulatory protein BRDC...    36   9.0  
+UniRef90_A0A0C1KPN2 Probable transcriptional regulatory protein ...    36   9.2  
+UniRef90_A0A0E0KQ19 Uncharacterized protein n=1 Tax=Oryza puncta...    36   9.5  
+
+>UniRef90_O24970 Probable transcriptional regulatory protein HP_0162 n=342
+           Tax=Helicobacter TaxID=209 RepID=Y162_HELPY
+          Length = 240
+
+ Score =  134 bits (337), Expect = 2e-29,   Method: Composition-based stats.
+ Identities = 75/75 (100%), Positives = 75/75 (100%)
+
+Query: 1   FNRKSVFECLKNEVENLKLSLEDLEFALIDYGLEELEEVEDKIIIRGDYNSFKLLNEGFE 60
+           FNRKSVFECLKNEVENLKLSLEDLEFALIDYGLEELEEVEDKIIIRGDYNSFKLLNEGFE
+Sbjct: 131 FNRKSVFECLKNEVENLKLSLEDLEFALIDYGLEELEEVEDKIIIRGDYNSFKLLNEGFE 190
+
+Query: 61  SLKLPILKASLQRIA 75
+           SLKLPILKASLQRIA
+Sbjct: 191 SLKLPILKASLQRIA 205
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A1F3EB43 Probable transcriptional regulatory protein ...   119   7e-25
+UniRef90_A0A0C2V5Z3 Probable transcriptional regulatory protein ...   118   2e-24
+UniRef90_A0A0L8VE36 Probable transcriptional regulatory protein ...   116   6e-24
+UniRef90_O24970 Probable transcriptional regulatory protein HP_0...   115   8e-24
+UniRef90_D1B115 Probable transcriptional regulatory protein Sdel...   115   1e-23
+UniRef90_A0RN42 Probable transcriptional regulatory protein CFF8...   114   3e-23
+UniRef90_A0A1F3LNB7 Probable transcriptional regulatory protein ...   113   4e-23
+UniRef90_A0A0K2XCA0 Probable transcriptional regulatory protein ...   113   4e-23
+UniRef90_A0A1S6U7P1 Probable transcriptional regulatory protein ...   113   4e-23
+UniRef90_D5V562 Probable transcriptional regulatory protein Arni...   113   5e-23
+UniRef90_A0A0K8QZ78 Probable transcriptional regulatory protein ...   113   6e-23
+UniRef90_A0A1F3E912 Probable transcriptional regulatory protein ...   112   7e-23
+UniRef90_A7GX97 Probable transcriptional regulatory protein Ccur...   112   7e-23
+UniRef90_A0A1F3EBC4 Probable transcriptional regulatory protein ...   112   1e-22
+UniRef90_A0A136MRF0 Probable transcriptional regulatory protein ...   112   1e-22
+UniRef90_A0A1G0CKN6 Probable transcriptional regulatory protein ...   111   2e-22
+UniRef90_Q7MRV4 Probable transcriptional regulatory protein WS10...   110   3e-22
+UniRef90_E0UR99 Probable transcriptional regulatory protein Saut...   110   5e-22
+UniRef90_B9D0E0 Probable transcriptional regulatory protein CAMR...   109   7e-22
+UniRef90_A0A1J5F8V9 Probable transcriptional regulatory protein ...   109   7e-22
+UniRef90_UPI000B6F2994 YebC/PmpR family DNA-binding regulatory p...   108   1e-21
+UniRef90_T2SRM7 Transcriptional regulator n=1 Tax=Helicobacter p...   108   2e-21
+UniRef90_A0A0S2HZA6 Probable transcriptional regulatory protein ...   107   2e-21
+UniRef90_B6BMS2 Probable transcriptional regulatory protein SMGD...   107   2e-21
+UniRef90_D3UI59 Probable transcriptional regulatory protein HMU0...   107   3e-21
+UniRef90_T1D079 Probable transcriptional regulatory protein HFN_...   107   4e-21
+UniRef90_T0KF94 Probable transcriptional regulatory protein M947...   107   4e-21
+UniRef90_A0A1M6I503 Probable transcriptional regulatory protein ...   107   4e-21
+UniRef90_A0A1G3UZZ8 Probable transcriptional regulatory protein ...   107   4e-21
+UniRef90_E4TQU0 Probable transcriptional regulatory protein Ftra...   106   5e-21
+UniRef90_E7G4C4 Probable transcriptional regulatory protein HSUH...   106   6e-21
+UniRef90_A0A1Q3ZFI9 Probable transcriptional regulatory protein ...   105   8e-21
+UniRef90_A7ZC85 Probable transcriptional regulatory protein Ccon...   105   8e-21
+UniRef90_UPI0008343CD9 YebC/PmpR family DNA-binding transcriptio...   105   1e-20
+UniRef90_A0A1B1U4R1 Probable transcriptional regulatory protein ...   105   1e-20
+UniRef90_F2IB76 Probable transcriptional regulatory protein Flut...   103   3e-20
+UniRef90_UPI0008EA293A YebC/PmpR family DNA-binding regulatory p...   103   7e-20
+UniRef90_A0A099VQ91 Probable transcriptional regulatory protein ...   102   8e-20
+UniRef90_A0A1V5VYJ7 Probable transcriptional regulatory protein ...   101   2e-19
+UniRef90_C3XN28 Probable transcriptional regulatory protein HWAG...   101   2e-19
+UniRef90_A0A0B0Q1I9 Probable transcriptional regulatory protein ...   100   5e-19
+UniRef90_A0A0C2ZM06 Probable transcriptional regulatory protein ...   100   5e-19
+UniRef90_A0A1F3W5K0 Probable transcriptional regulatory protein ...   100   5e-19
+UniRef90_A0A1B8J7E3 Probable transcriptional regulatory protein ...   100   6e-19
+UniRef90_F8KRZ2 Probable transcriptional regulatory protein HBZC...   100   7e-19
+UniRef90_V8CFD6 Probable transcriptional regulatory protein HMPR...   100   7e-19
+UniRef90_UPI0004809B6E YebC/PmpR family DNA-binding transcriptio...    99   1e-18
+UniRef90_UPI00053BE415 YebC/PmpR family DNA-binding transcriptio...    99   1e-18
+UniRef90_A0A099DMB6 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A1W1CGU5 Uncharacterized protein n=1 Tax=hydrothermal...    98   2e-18
+UniRef90_A7I377 Probable transcriptional regulatory protein CHAB...    97   3e-18
+UniRef90_A0A1Z9SDE9 YebC/PmpR family DNA-binding transcriptional...    97   4e-18
+UniRef90_A0A1G3SR67 Probable transcriptional regulatory protein ...    96   1e-17
+UniRef90_A0A1W1CJ36 Uncharacterized protein n=1 Tax=hydrothermal...    95   2e-17
+UniRef90_A0A128ELY3 Probable transcriptional regulatory protein ...    94   2e-17
+UniRef90_E6LAA5 Probable transcriptional regulatory protein HMPR...    94   4e-17
+UniRef90_A0A071LAQ3 Probable transcriptional regulatory protein ...    94   5e-17
+UniRef90_A0A099TLE3 Probable transcriptional regulatory protein ...    94   5e-17
+UniRef90_S3XF21 Probable transcriptional regulatory protein HMPR...    92   9e-17
+UniRef90_UPI0004264078 YebC/PmpR family DNA-binding transcriptio...    92   2e-16
+UniRef90_Q30QR5 Probable transcriptional regulatory protein Sude...    90   4e-16
+UniRef90_A0A099UIN9 Probable transcriptional regulatory protein ...    90   4e-16
+UniRef90_V8C841 Probable transcriptional regulatory protein HMPR...    90   5e-16
+UniRef90_C8PJK5 Probable transcriptional regulatory protein CAMG...    89   1e-15
+UniRef90_A0A1X9STJ7 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A0K2XK02 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_A0A1M4S7T3 Probable transcriptional regulatory protein ...    86   9e-15
+UniRef90_A0A099BSP8 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_Q7VFS1 Probable transcriptional regulatory protein HH_1...    84   3e-14
+UniRef90_T2SD49 Uncharacterized protein n=1 Tax=Helicobacter pyl...    81   3e-13
+UniRef90_E7ACD6 Probable transcriptional regulatory protein Hfel...    67   4e-09
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1F3MCH3 Probable transcriptional regulatory protein ...   106   6e-21
+UniRef90_L8JPX1 Probable transcriptional regulatory protein C900...   105   2e-20
+UniRef90_A0A1W1D3I9 Uncharacterized protein n=1 Tax=hydrothermal...   103   4e-20
+UniRef90_A0A1W1E8S7 Uncharacterized protein n=1 Tax=hydrothermal...    97   3e-18
+UniRef90_A0A1W1C7Z7 Uncharacterized protein n=1 Tax=hydrothermal...    97   5e-18
+UniRef90_A6QAR3 Probable transcriptional regulatory protein SUN_...    95   1e-17
+UniRef90_L0FY07 Probable transcriptional regulatory protein Echv...    94   3e-17
+UniRef90_A0A1W9QX34 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_A0A1W1BTQ7 Uncharacterized protein n=1 Tax=hydrothermal...    93   7e-17
+UniRef90_A0A150X890 Probable transcriptional regulatory protein ...    92   2e-16
+UniRef90_A0A1Y5DPL2 Probable transcriptional regulatory protein ...    92   2e-16
+UniRef90_A0A1J4TUJ8 Probable transcriptional regulatory protein ...    90   4e-16
+UniRef90_R7ZWM9 Probable transcriptional regulatory protein ADIS...    90   4e-16
+UniRef90_A0A1W1CYI4 Uncharacterized protein n=1 Tax=hydrothermal...    90   5e-16
+UniRef90_A0A1Y1RA13 Probable transcriptional regulatory protein ...    90   6e-16
+UniRef90_A0A1V6CXC7 Probable transcriptional regulatory protein ...    89   8e-16
+UniRef90_G8R2N8 Probable transcriptional regulatory protein Oweh...    89   8e-16
+UniRef90_A0A142EJ36 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A0A1M5A3Y2 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A0A1E5SZF8 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A0A136PA74 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A8EUS3 Probable transcriptional regulatory protein Abu_...    88   2e-15
+UniRef90_A0A1M6K7L6 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_UPI000469BFFF YebC/PmpR family DNA-binding transcriptio...    87   3e-15
+UniRef90_UPI0007168692 YebC/PmpR family DNA-binding transcriptio...    87   3e-15
+UniRef90_A0A0P7YHY9 Probable transcriptional regulatory protein ...    87   3e-15
+UniRef90_A0A0R2QXY4 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_A0A1G3TG01 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A074L0X7 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_UPI0005CA2C7A YebC/PmpR family DNA-binding transcriptio...    87   5e-15
+UniRef90_A0A1S9PD59 Probable transcriptional regulatory protein ...    87   6e-15
+UniRef90_A0A1W1CDA4 Uncharacterized protein n=1 Tax=hydrothermal...    85   1e-14
+UniRef90_X5DDC5 Probable transcriptional regulatory protein FH5T...    85   2e-14
+UniRef90_UPI00098D2BFD YebC/PmpR family DNA-binding regulatory p...    85   2e-14
+UniRef90_UPI00046FFB27 YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_UPI0008DEDA09 YebC/PmpR family DNA-binding regulatory p...    84   3e-14
+UniRef90_E6WYG5 Probable transcriptional regulatory protein Nits...    84   3e-14
+UniRef90_UPI0003FA7927 YebC/PmpR family DNA-binding transcriptio...    84   4e-14
+UniRef90_A0A132HZY3 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_A0A1F3IUQ7 Probable transcriptional regulatory protein ...    84   5e-14
+UniRef90_A0A1N7KMU1 Probable transcriptional regulatory protein ...    83   6e-14
+UniRef90_A0A1W9SPF4 Probable transcriptional regulatory protein ...    83   6e-14
+UniRef90_A0A091B5V0 Probable transcriptional regulatory protein ...    83   7e-14
+UniRef90_A0A1Q6EG39 Probable transcriptional regulatory protein ...    83   8e-14
+UniRef90_A0A0Q4B689 Probable transcriptional regulatory protein ...    83   8e-14
+UniRef90_K7SC53 Probable transcriptional regulatory protein B649...    82   1e-13
+UniRef90_UPI0008833292 YebC/PmpR family DNA-binding transcriptio...    82   1e-13
+UniRef90_A0A142HN49 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_A0A1V6I400 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_A0A1R3SSP7 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_E4U1E5 Probable transcriptional regulatory protein Sulk...    82   2e-13
+UniRef90_A0A1J0LHL0 Probable transcriptional regulatory protein ...    82   2e-13
+UniRef90_A0A1Q3QCR0 Probable transcriptional regulatory protein ...    82   2e-13
+UniRef90_I2K677 Probable transcriptional regulatory protein SULA...    82   2e-13
+UniRef90_A0A1G4GAA8 Probable transcriptional regulatory protein ...    82   2e-13
+UniRef90_K1LX02 Probable transcriptional regulatory protein HMPR...    81   2e-13
+UniRef90_I2ETG1 Probable transcriptional regulatory protein Emto...    81   2e-13
+UniRef90_A0A1Y1R9J0 Probable transcriptional regulatory protein ...    81   2e-13
+UniRef90_UPI0008E14221 YebC/PmpR family DNA-binding regulatory p...    81   2e-13
+UniRef90_R5Z178 Probable transcriptional regulatory protein BN49...    81   3e-13
+UniRef90_A0A1E4ANI6 Probable transcriptional regulatory protein ...    81   3e-13
+UniRef90_T0PTH2 Probable transcriptional regulatory protein C874...    81   3e-13
+UniRef90_G9RZW9 Probable transcriptional regulatory protein HMPR...    81   3e-13
+UniRef90_A0A1B1FR76 Probable transcriptional regulatory protein ...    81   3e-13
+UniRef90_H1Y9G7 Probable transcriptional regulatory protein Mucp...    81   3e-13
+UniRef90_UPI00048360A9 YebC/PmpR family DNA-binding transcriptio...    81   3e-13
+UniRef90_A0A1C2BRV8 Probable transcriptional regulatory protein ...    80   4e-13
+UniRef90_A0A150X4J8 Probable transcriptional regulatory protein ...    80   4e-13
+UniRef90_UPI00047DB54B YebC/PmpR family DNA-binding transcriptio...    80   4e-13
+UniRef90_A0A1V5MW31 Probable transcriptional regulatory protein ...    80   4e-13
+UniRef90_R5AUU2 Probable transcriptional regulatory protein BN45...    80   5e-13
+UniRef90_A0A0A2E7H1 Probable transcriptional regulatory protein ...    80   5e-13
+UniRef90_A0A1J4TNH6 Probable transcriptional regulatory protein ...    80   6e-13
+UniRef90_UPI000472B2A1 YebC/PmpR family DNA-binding transcriptio...    80   7e-13
+UniRef90_Q9PNC3 Probable transcriptional regulatory protein Cj11...    80   7e-13
+UniRef90_A6EFS8 Probable transcriptional regulatory protein PBAL...    80   7e-13
+UniRef90_A0A136NGE1 Probable transcriptional regulatory protein ...    80   8e-13
+UniRef90_UPI000A19E52B YebC/PmpR family DNA-binding transcriptio...    80   8e-13
+UniRef90_R9GWD1 Probable transcriptional regulatory protein ADIA...    79   8e-13
+UniRef90_C7PUA6 Probable transcriptional regulatory protein Cpin...    79   8e-13
+UniRef90_UPI0008E47D40 YebC/PmpR family DNA-binding regulatory p...    79   9e-13
+UniRef90_I0KBS2 Probable transcriptional regulatory protein FAES...    79   1e-12
+UniRef90_A0A0H4W8R6 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_A0A1V5G8I6 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_A0A1V5YPL9 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_A0A1B3WGG6 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_A0A081SGJ8 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_A0A1M3MBG7 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_A0A1F3PQ55 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_A0A0J7LNS2 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_UPI00036220FE YebC/PmpR family DNA-binding transcriptio...    79   1e-12
+UniRef90_A0A1J5HX87 Probable transcriptional regulatory protein ...    79   2e-12
+UniRef90_A9QVV6 Probable transcriptional regulatory protein P25 ...    79   2e-12
+UniRef90_A0A1F3K5Q5 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A0C2VDD4 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A1Q6A2S0 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A1R4IKG9 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A1F3JMF1 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A1V6JPC8 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_UPI0008310221 YebC/PmpR family DNA-binding transcriptio...    78   2e-12
+UniRef90_G0IUS0 Probable transcriptional regulatory protein Cycm...    78   2e-12
+UniRef90_UPI0003826083 YebC/PmpR family DNA-binding transcriptio...    78   2e-12
+UniRef90_A0A1L7I3E9 Probable transcriptional regulatory protein ...    78   3e-12
+UniRef90_W2UR49 Probable transcriptional regulatory protein P278...    77   3e-12
+UniRef90_A0A1M7NG73 Probable transcriptional regulatory protein ...    77   3e-12
+UniRef90_UPI0003FDA43D YebC/PmpR family DNA-binding transcriptio...    77   3e-12
+UniRef90_A0A1T5G1I4 Probable transcriptional regulatory protein ...    77   3e-12
+UniRef90_UPI0003479E45 YebC/PmpR family DNA-binding transcriptio...    77   3e-12
+UniRef90_F5J414 Probable transcriptional regulatory protein HMPR...    77   3e-12
+UniRef90_A0A1W9QYN5 Probable transcriptional regulatory protein ...    77   3e-12
+UniRef90_A0A1V6EMZ9 Probable transcriptional regulatory protein ...    77   4e-12
+UniRef90_UPI0008C7E562 YebC/PmpR family DNA-binding regulatory p...    77   4e-12
+UniRef90_A0A1V5JLQ2 Probable transcriptional regulatory protein ...    77   4e-12
+UniRef90_UPI00055850E8 YebC/PmpR family DNA-binding transcriptio...    77   5e-12
+UniRef90_A0A1J1ECR7 Probable transcriptional regulatory protein ...    77   5e-12
+UniRef90_UPI000887C417 YebC/PmpR family DNA-binding transcriptio...    77   5e-12
+UniRef90_F4KT53 Probable transcriptional regulatory protein Halh...    77   5e-12
+UniRef90_R5CRW0 Probable transcriptional regulatory protein BN45...    77   5e-12
+UniRef90_A0A1V5S1R6 Probable transcriptional regulatory protein ...    77   5e-12
+UniRef90_H1PZI0 Probable transcriptional regulatory protein HMPR...    77   5e-12
+UniRef90_UPI000698E3D9 YebC/PmpR family DNA-binding transcriptio...    77   5e-12
+UniRef90_UPI00094F89AC YebC/PmpR family DNA-binding transcriptio...    77   5e-12
+UniRef90_A0A1M3DZQ6 Probable transcriptional regulatory protein ...    77   6e-12
+UniRef90_A0A1L3J6K6 Probable transcriptional regulatory protein ...    77   6e-12
+UniRef90_A0A085KZT0 Probable transcriptional regulatory protein ...    77   6e-12
+UniRef90_R5ICA6 Probable transcriptional regulatory protein BN79...    76   7e-12
+UniRef90_A0A1T5BHS4 Probable transcriptional regulatory protein ...    76   7e-12
+UniRef90_A3XPB1 Probable transcriptional regulatory protein MED2...    76   7e-12
+UniRef90_UPI0002EA9899 YebC/PmpR family DNA-binding transcriptio...    76   7e-12
+UniRef90_UPI00087EC986 YebC/PmpR family DNA-binding regulatory p...    76   8e-12
+UniRef90_UPI0008D8E303 YebC/PmpR family DNA-binding transcriptio...    76   8e-12
+UniRef90_A0A1Y3W5N9 Probable transcriptional regulatory protein ...    76   8e-12
+UniRef90_A0A1H5UU69 Probable transcriptional regulatory protein ...    76   8e-12
+UniRef90_A0A0R2VH77 Probable transcriptional regulatory protein ...    76   9e-12
+UniRef90_H8KY50 Probable transcriptional regulatory protein Solc...    76   9e-12
+UniRef90_UPI0008AB898F YebC/PmpR family DNA-binding regulatory p...    76   9e-12
+UniRef90_A0A136L4V7 Probable transcriptional regulatory protein ...    76   9e-12
+UniRef90_UPI00082A954A YebC/PmpR family DNA-binding transcriptio...    76   1e-11
+UniRef90_U5Q5V8 Probable transcriptional regulatory protein BRDC...    76   1e-11
+UniRef90_A0A1M5KQ68 Probable transcriptional regulatory protein ...    76   1e-11
+UniRef90_N1WXP7 Probable transcriptional regulatory protein pgon...    76   1e-11
+UniRef90_A0A098BWI3 Probable transcriptional regulatory protein ...    75   1e-11
+UniRef90_A0A1F3KUM7 Probable transcriptional regulatory protein ...    75   1e-11
+UniRef90_A0A1J5ERQ3 Probable transcriptional regulatory protein ...    75   1e-11
+UniRef90_Q7MXR6 Probable transcriptional regulatory protein PG_0...    75   2e-11
+UniRef90_A0A1M4ZXS5 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A085BPS0 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A1F3DMI8 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A0S8JU01 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A060R9Z4 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A1M4WL79 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_UPI0003710813 YebC/PmpR family DNA-binding transcriptio...    75   2e-11
+UniRef90_A0A174QEH6 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A1J5FSP0 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A1T4ZZ94 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A0C1D7F6 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_UPI000930591B YebC/PmpR family DNA-binding transcriptio...    75   2e-11
+UniRef90_D2QCI2 Probable transcriptional regulatory protein Slin...    75   2e-11
+UniRef90_A0A1Y4C0K6 Probable transcriptional regulatory protein ...    74   3e-11
+UniRef90_A0A1W9QW61 Probable transcriptional regulatory protein ...    74   3e-11
+UniRef90_R5BJQ9 Probable transcriptional regulatory protein BN45...    74   3e-11
+UniRef90_W0ESR1 Probable transcriptional regulatory protein BARV...    74   3e-11
+UniRef90_UPI00047DAC5E YebC/PmpR family DNA-binding transcriptio...    74   3e-11
+UniRef90_A0A179DLN4 Probable transcriptional regulatory protein ...    74   3e-11
+UniRef90_A0A0S7BX90 Probable transcriptional regulatory protein ...    74   4e-11
+UniRef90_A0A1Q3Q8Q2 Probable transcriptional regulatory protein ...    74   4e-11
+UniRef90_A0A1M6N691 Probable transcriptional regulatory protein ...    74   4e-11
+UniRef90_A0A1J5AQZ0 Probable transcriptional regulatory protein ...    74   5e-11
+UniRef90_UPI0004039913 YebC/PmpR family DNA-binding transcriptio...    74   5e-11
+UniRef90_C6X235 Probable transcriptional regulatory protein FIC_...    74   5e-11
+UniRef90_A0A0C1ESE6 Probable transcriptional regulatory protein ...    74   5e-11
+UniRef90_A0A1Z9UTT9 YebC/PmpR family DNA-binding transcriptional...    74   5e-11
+UniRef90_H1DKN8 Probable transcriptional regulatory protein HMPR...    74   5e-11
+UniRef90_UPI000761EF73 YebC/PmpR family DNA-binding transcriptio...    74   5e-11
+UniRef90_K1Z198 Uncharacterized protein n=1 Tax=groundwater meta...    74   5e-11
+UniRef90_UPI0008E0F960 YebC/PmpR family DNA-binding transcriptio...    73   6e-11
+UniRef90_UPI000470BA67 YebC/PmpR family DNA-binding transcriptio...    73   6e-11
+UniRef90_A0A1W1YZ63 Probable transcriptional regulatory protein ...    73   6e-11
+UniRef90_A6GXW2 Probable transcriptional regulatory protein FP08...    73   6e-11
+UniRef90_A0A1V5GH04 Probable transcriptional regulatory protein ...    73   7e-11
+UniRef90_UPI0007D8B466 YebC/PmpR family DNA-binding transcriptio...    73   7e-11
+UniRef90_A0A0E9LSF0 Probable transcriptional regulatory protein ...    73   8e-11
+UniRef90_I3ZYQ1 Probable transcriptional regulatory protein Ornr...    73   8e-11
+UniRef90_UPI00047CADFD YebC/PmpR family DNA-binding transcriptio...    73   8e-11
+UniRef90_A0A1V6BDN2 Probable transcriptional regulatory protein ...    73   8e-11
+UniRef90_A0A1W2GGV0 Probable transcriptional regulatory protein ...    73   9e-11
+UniRef90_UPI0004DF7D58 YebC/PmpR family DNA-binding transcriptio...    73   9e-11
+UniRef90_W7QMT9 Probable transcriptional regulatory protein KLA_...    72   1e-10
+UniRef90_UPI000A1CCDC4 YebC/PmpR family DNA-binding regulatory p...    72   1e-10
+UniRef90_A0A0D0I4P7 Probable transcriptional regulatory protein ...    72   1e-10
+UniRef90_D2MYT5 Probable transcriptional regulatory protein C414...    72   1e-10
+UniRef90_A0A1F3CZD4 Probable transcriptional regulatory protein ...    72   1e-10
+UniRef90_A0A1M3CYF3 Probable transcriptional regulatory protein ...    72   1e-10
+UniRef90_A0A0S8HLE8 Probable transcriptional regulatory protein ...    72   1e-10
+UniRef90_R5CP28 Probable transcriptional regulatory protein BN56...    72   1e-10
+UniRef90_A0A098S2U5 Probable transcriptional regulatory protein ...    72   1e-10
+UniRef90_A0A1H1MY03 Probable transcriptional regulatory protein ...    72   1e-10
+UniRef90_A0A098LFV7 Probable transcriptional regulatory protein ...    72   1e-10
+UniRef90_A5FGS7 Probable transcriptional regulatory protein Fjoh...    72   2e-10
+UniRef90_A0A136N657 Probable transcriptional regulatory protein ...    72   2e-10
+UniRef90_A0A1B9FDG1 Probable transcriptional regulatory protein ...    72   2e-10
+UniRef90_A0A1Y1CPG1 Probable transcriptional regulatory protein ...    72   2e-10
+UniRef90_G5HB76 Probable transcriptional regulatory protein HMPR...    72   2e-10
+UniRef90_UPI0008FC296E YebC/PmpR family DNA-binding transcriptio...    72   2e-10
+UniRef90_A0A1Q3N0Q2 Probable transcriptional regulatory protein ...    71   2e-10
+UniRef90_A0A0C2YZJ7 Probable transcriptional regulatory protein ...    71   2e-10
+UniRef90_A3J7J9 Probable transcriptional regulatory protein FBBA...    71   2e-10
+UniRef90_A0A1W1CCG0 Uncharacterized protein n=1 Tax=hydrothermal...    71   3e-10
+UniRef90_UPI00088EF672 YebC/PmpR family DNA-binding regulatory p...    71   3e-10
+UniRef90_A0A0C1XE98 Transcriptional regulator (Fragment) n=1 Tax...    71   3e-10
+UniRef90_A0A1V6HVS9 Probable transcriptional regulatory protein ...    71   3e-10
+UniRef90_A0A1W1BGF8 Uncharacterized protein n=1 Tax=hydrothermal...    71   3e-10
+UniRef90_UPI0008E63FD5 YebC/PmpR family DNA-binding regulatory p...    71   3e-10
+UniRef90_R5B5R2 Probable transcriptional regulatory protein BN81...    71   3e-10
+UniRef90_A0A1J4TC16 Probable transcriptional regulatory protein ...    71   3e-10
+UniRef90_C6W2L6 Probable transcriptional regulatory protein Dfer...    71   3e-10
+UniRef90_A0A0C2VU14 Probable transcriptional regulatory protein ...    71   3e-10
+UniRef90_A0A132HRU1 Probable transcriptional regulatory protein ...    71   3e-10
+UniRef90_A0A1Z9DIG3 YebC/PmpR family DNA-binding transcriptional...    71   4e-10
+UniRef90_A0A101VZ00 Probable transcriptional regulatory protein ...    70   4e-10
+UniRef90_A0A1B1SAZ2 Probable transcriptional regulatory protein ...    70   4e-10
+UniRef90_E0NUU2 Probable transcriptional regulatory protein HMPR...    70   4e-10
+UniRef90_A3XNS2 Probable transcriptional regulatory protein MED2...    70   4e-10
+UniRef90_UPI000B53C56F YebC/PmpR family DNA-binding regulatory p...    70   4e-10
+UniRef90_A0A1F3LZM6 Probable transcriptional regulatory protein ...    70   5e-10
+UniRef90_A0A1M3II56 Probable transcriptional regulatory protein ...    70   5e-10
+UniRef90_A0A1V6HSF3 Probable transcriptional regulatory protein ...    70   5e-10
+UniRef90_UPI00064586A5 YebC/PmpR family DNA-binding transcriptio...    70   5e-10
+UniRef90_A0A1M4W8W4 Probable transcriptional regulatory protein ...    70   5e-10
+UniRef90_UPI0004084459 YebC/PmpR family DNA-binding transcriptio...    70   5e-10
+UniRef90_UPI000428A3DE YebC/PmpR family DNA-binding transcriptio...    70   6e-10
+UniRef90_C3XDI5 Probable transcriptional regulatory protein HRAG...    70   6e-10
+UniRef90_A0A1G1BJJ6 Probable transcriptional regulatory protein ...    70   6e-10
+UniRef90_A0A1F3ENL2 Probable transcriptional regulatory protein ...    70   6e-10
+UniRef90_A0A1E4HBD7 Probable transcriptional regulatory protein ...    70   7e-10
+UniRef90_A0A0B5RHM5 Probable transcriptional regulatory protein ...    70   7e-10
+UniRef90_E4RT52 Probable transcriptional regulatory protein Lbys...    70   7e-10
+UniRef90_A4AQY7 Probable transcriptional regulatory protein FB21...    70   7e-10
+UniRef90_UPI000248F872 YebC/PmpR family DNA-binding transcriptio...    70   8e-10
+UniRef90_A0A0U1CG30 Probable transcriptional regulatory protein ...    70   8e-10
+UniRef90_D3IDY8 Probable transcriptional regulatory protein HMPR...    69   8e-10
+UniRef90_UPI000945CB06 YebC/PmpR family DNA-binding transcriptio...    69   8e-10
+UniRef90_A0A1I1YMG8 Probable transcriptional regulatory protein ...    69   8e-10
+UniRef90_A0A0F9RA65 Uncharacterized protein n=2 Tax=root TaxID=1...    69   8e-10
+UniRef90_A0A1V5F4Y9 Probable transcriptional regulatory protein ...    69   9e-10
+UniRef90_D5BEE9 Probable transcriptional regulatory protein ZPR_...    69   9e-10
+UniRef90_UPI00029AB20F YebC/PmpR family DNA-binding transcriptio...    69   9e-10
+UniRef90_A0A0W8EF85 Probable transcriptional regulatory protein ...    69   9e-10
+UniRef90_A0A1M6LQM4 Probable transcriptional regulatory protein ...    69   1e-09
+UniRef90_A0A1W1EKU4 Uncharacterized protein n=1 Tax=hydrothermal...    69   1e-09
+UniRef90_F8NA88 Probable transcriptional regulatory protein Prem...    69   1e-09
+UniRef90_UPI000237CFE5 YebC/PmpR family DNA-binding transcriptio...    69   1e-09
+UniRef90_UPI000371DF52 YebC/PmpR family DNA-binding transcriptio...    69   1e-09
+UniRef90_F0NZG1 Probable transcriptional regulatory protein Weev...    69   1e-09
+UniRef90_A0A1Q6G0Y5 Probable transcriptional regulatory protein ...    69   1e-09
+UniRef90_UPI0006A98BA6 YebC/PmpR family DNA-binding transcriptio...    69   1e-09
+UniRef90_L1NZ16 Probable transcriptional regulatory protein HMPR...    69   1e-09
+UniRef90_D9PMF3 Uncharacterized protein yebC n=1 Tax=sediment me...    69   1e-09
+UniRef90_A0A1M5D804 Probable transcriptional regulatory protein ...    69   1e-09
+UniRef90_A0A1D7XV06 Probable transcriptional regulatory protein ...    69   2e-09
+UniRef90_F0FAW5 Probable transcriptional regulatory protein HMPR...    69   2e-09
+UniRef90_I4AHM0 Probable transcriptional regulatory protein Flel...    69   2e-09
+UniRef90_A0A1Q3PN24 Probable transcriptional regulatory protein ...    69   2e-09
+UniRef90_A0A0P7AW63 Probable transcriptional regulatory protein ...    69   2e-09
+UniRef90_I0WG37 Probable transcriptional regulatory protein W5A_...    68   2e-09
+UniRef90_A0A1B9XYZ9 Probable transcriptional regulatory protein ...    68   2e-09
+UniRef90_A0A1D7Y234 Probable transcriptional regulatory protein ...    68   2e-09
+UniRef90_A0A1F3PY66 Probable transcriptional regulatory protein ...    68   2e-09
+UniRef90_E1GVS2 Probable transcriptional regulatory protein HMPR...    68   2e-09
+UniRef90_UPI000347E64A YebC/PmpR family DNA-binding transcriptio...    68   3e-09
+UniRef90_T0CBF2 Probable transcriptional regulatory protein M902...    68   3e-09
+UniRef90_UPI00088B0D6A YebC/PmpR family DNA-binding transcriptio...    68   3e-09
+UniRef90_A0A1S2VFT7 Probable transcriptional regulatory protein ...    68   3e-09
+UniRef90_A0A161LXA3 Probable transcriptional regulatory protein ...    68   3e-09
+UniRef90_A0A1T4KAG6 Probable transcriptional regulatory protein ...    68   3e-09
+UniRef90_E6XDP6 Probable transcriptional regulatory protein Cela...    68   3e-09
+UniRef90_A0A1M5CEL0 Probable transcriptional regulatory protein ...    67   3e-09
+UniRef90_A0A1M3E5H8 Probable transcriptional regulatory protein ...    67   3e-09
+UniRef90_A0A1V6HPC6 Probable transcriptional regulatory protein ...    67   3e-09
+UniRef90_A0A173MME1 Probable transcriptional regulatory protein ...    67   3e-09
+UniRef90_A0A1L3JIL7 Probable transcriptional regulatory protein ...    67   3e-09
+UniRef90_UPI000B762029 YebC/PmpR family DNA-binding regulatory p...    67   3e-09
+UniRef90_R7J3F1 Probable transcriptional regulatory protein BN79...    67   3e-09
+UniRef90_A0A133PZ87 Probable transcriptional regulatory protein ...    67   3e-09
+UniRef90_R7PAX4 Probable transcriptional regulatory protein BN73...    67   3e-09
+UniRef90_A0A1M5P660 Probable transcriptional regulatory protein ...    67   4e-09
+UniRef90_F4AXX6 Probable transcriptional regulatory protein Krod...    67   4e-09
+UniRef90_A0A125S3R1 Probable transcriptional regulatory protein ...    67   4e-09
+UniRef90_A0A180FK25 Probable transcriptional regulatory protein ...    67   4e-09
+UniRef90_A1ZW92 Probable transcriptional regulatory protein M231...    67   4e-09
+UniRef90_A0A1F3IIC8 Probable transcriptional regulatory protein ...    67   5e-09
+UniRef90_S2DQ84 Probable transcriptional regulatory protein A33Q...    67   5e-09
+UniRef90_UPI00041B9342 YebC/PmpR family DNA-binding transcriptio...    67   5e-09
+UniRef90_A0A1F3LKD8 Probable transcriptional regulatory protein ...    67   5e-09
+UniRef90_A0A1F3CBR3 Probable transcriptional regulatory protein ...    67   5e-09
+UniRef90_A0A1F3KBQ4 Probable transcriptional regulatory protein ...    67   5e-09
+UniRef90_A0A1M3G1H2 Probable transcriptional regulatory protein ...    67   6e-09
+UniRef90_A9E3T2 Probable transcriptional regulatory protein KAOT...    67   6e-09
+UniRef90_A0A1F3GN98 Probable transcriptional regulatory protein ...    67   6e-09
+UniRef90_A0A1V6BVD0 Probable transcriptional regulatory protein ...    67   6e-09
+UniRef90_A0A023BV26 Probable transcriptional regulatory protein ...    67   6e-09
+UniRef90_A0A1Q3XAA6 Probable transcriptional regulatory protein ...    67   6e-09
+UniRef90_T0RKZ1 Probable transcriptional regulatory protein M900...    67   7e-09
+UniRef90_A7HAS0 Probable transcriptional regulatory protein Anae...    67   7e-09
+UniRef90_A0A1M7BJ76 Probable transcriptional regulatory protein ...    66   7e-09
+UniRef90_UPI0004266667 YebC/PmpR family DNA-binding transcriptio...    66   7e-09
+UniRef90_E4M8E8 Probable transcriptional regulatory protein HMPR...    66   8e-09
+UniRef90_C0BH80 Probable transcriptional regulatory protein Flav...    66   8e-09
+UniRef90_A0A142L4D8 Probable transcriptional regulatory protein ...    66   8e-09
+UniRef90_A0A142HJZ1 Probable transcriptional regulatory protein ...    66   8e-09
+UniRef90_R6X499 Probable transcriptional regulatory protein BN67...    66   8e-09
+UniRef90_F6GHN3 Probable transcriptional regulatory protein Laca...    66   9e-09
+UniRef90_UPI000884A1FD YebC/PmpR family DNA-binding transcriptio...    66   9e-09
+UniRef90_E1X4B8 Probable transcriptional regulatory protein BMS_...    66   9e-09
+UniRef90_A0A1W1BM38 Uncharacterized protein n=1 Tax=hydrothermal...    66   1e-08
+UniRef90_A0A1M6BCI5 Probable transcriptional regulatory protein ...    66   1e-08
+UniRef90_A0A0F7BQI4 Probable transcriptional regulatory protein ...    66   1e-08
+UniRef90_A0A1F3N5D4 Probable transcriptional regulatory protein ...    66   1e-08
+UniRef90_A0A1M3L5L4 Probable transcriptional regulatory protein ...    66   1e-08
+UniRef90_A0A132HZ62 Probable transcriptional regulatory protein ...    66   1e-08
+UniRef90_A0A1F3C900 Probable transcriptional regulatory protein ...    66   1e-08
+UniRef90_E1X5F2 Probable transcriptional regulatory protein BMS_...    65   1e-08
+UniRef90_UPI00089CEF53 YebC/PmpR family DNA-binding regulatory p...    65   1e-08
+UniRef90_UPI0006CF8B90 YebC/PmpR family DNA-binding transcriptio...    65   1e-08
+UniRef90_A0A0C1KPN2 Probable transcriptional regulatory protein ...    65   1e-08
+UniRef90_A0A0M9DSW0 Probable transcriptional regulatory protein ...    65   1e-08
+UniRef90_I5C779 Probable transcriptional regulatory protein A3SI...    65   1e-08
+UniRef90_A0A1J5KKB9 Probable transcriptional regulatory protein ...    65   1e-08
+UniRef90_UPI000A041A2E hypothetical protein n=1 Tax=Sulfurospiri...    65   1e-08
+UniRef90_A0A0D5YUQ2 Probable transcriptional regulatory protein ...    65   1e-08
+UniRef90_A0A0M9UER1 Probable transcriptional regulatory protein ...    65   1e-08
+UniRef90_UPI00082C5E67 YebC/PmpR family DNA-binding transcriptio...    65   1e-08
+UniRef90_A0A1J5F1L0 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_G2PPH8 Probable transcriptional regulatory protein Murr...    65   2e-08
+UniRef90_W0EZU2 Probable transcriptional regulatory protein NIAS...    65   2e-08
+UniRef90_K4IIM4 Probable transcriptional regulatory protein P700...    65   2e-08
+UniRef90_UPI00063F47B8 YebC/PmpR family DNA-binding transcriptio...    65   2e-08
+UniRef90_A0A0D3LKA9 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_A0A1B2YU79 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_UPI00089036CC YebC/PmpR family DNA-binding regulatory p...    65   2e-08
+UniRef90_R6XXJ5 Probable transcriptional regulatory protein BN59...    65   2e-08
+UniRef90_A0A191THD7 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_A0A0E3ZFM6 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_A0A1M5G0N4 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_A0M1H3 Probable transcriptional regulatory protein GFO_...    65   2e-08
+UniRef90_A0A1V6JEG9 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_UPI00036E107C YebC/PmpR family DNA-binding transcriptio...    65   2e-08
+UniRef90_UPI00089957D0 YebC/PmpR family DNA-binding regulatory p...    65   2e-08
+UniRef90_A0A1G0SMU3 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_A0A133Y2B7 Probable transcriptional regulatory protein ...    65   2e-08
+UniRef90_UPI0008EF4766 YebC/PmpR family DNA-binding regulatory p...    65   2e-08
+UniRef90_UPI000896668B YebC/PmpR family DNA-binding regulatory p...    65   2e-08
+UniRef90_G1W9Z3 Probable transcriptional regulatory protein HMPR...    65   2e-08
+UniRef90_A0A1F3MFD9 Probable transcriptional regulatory protein ...    65   3e-08
+UniRef90_G8TP86 Probable transcriptional regulatory protein Niak...    64   3e-08
+UniRef90_UPI00041E048B YebC/PmpR family DNA-binding transcriptio...    64   3e-08
+UniRef90_D0J8S7 Probable transcriptional regulatory protein BPLA...    64   3e-08
+UniRef90_D7VWA3 Probable transcriptional regulatory protein HMPR...    64   3e-08
+UniRef90_F8EBV3 Probable transcriptional regulatory protein Runs...    64   3e-08
+UniRef90_E6MLX4 Probable transcriptional regulatory protein HMPR...    64   3e-08
+UniRef90_A0A1G4G749 Probable transcriptional regulatory protein ...    64   3e-08
+UniRef90_A0A1F9F0C8 Probable transcriptional regulatory protein ...    64   3e-08
+UniRef90_UPI00056ECBB5 YebC/PmpR family DNA-binding transcriptio...    64   3e-08
+UniRef90_UPI0003B34EFC YebC/PmpR family DNA-binding transcriptio...    64   4e-08
+UniRef90_A0A1F3PB65 Probable transcriptional regulatory protein ...    64   4e-08
+UniRef90_G5GEF7 Probable transcriptional regulatory protein HMPR...    64   4e-08
+UniRef90_D7VLI5 Probable transcriptional regulatory protein HMPR...    64   4e-08
+UniRef90_A0A180EQM5 Probable transcriptional regulatory protein ...    63   5e-08
+UniRef90_A0A1G0BEP3 Probable transcriptional regulatory protein ...    63   5e-08
+UniRef90_D5EZ85 Probable transcriptional regulatory protein PRU_...    63   5e-08
+UniRef90_A0A1X9YMZ3 Probable transcriptional regulatory protein ...    63   5e-08
+UniRef90_A0A0R2SEA1 Probable transcriptional regulatory protein ...    63   5e-08
+UniRef90_Q094I1 Probable transcriptional regulatory protein STAU...    63   6e-08
+UniRef90_A0A1J5APP9 Probable transcriptional regulatory protein ...    63   6e-08
+UniRef90_A0A172U0G6 Probable transcriptional regulatory protein ...    63   6e-08
+UniRef90_A0A1G3J246 Probable transcriptional regulatory protein ...    63   6e-08
+UniRef90_C9LFP8 Probable transcriptional regulatory protein GCWU...    63   6e-08
+UniRef90_R6A176 Probable transcriptional regulatory protein BN69...    63   6e-08
+UniRef90_T0SJQ3 Probable transcriptional regulatory protein M901...    63   6e-08
+UniRef90_C6XU40 Probable transcriptional regulatory protein Phep...    63   7e-08
+UniRef90_A0A098YTL9 Probable transcriptional regulatory protein ...    63   7e-08
+UniRef90_A0A1F3T9B8 Probable transcriptional regulatory protein ...    63   7e-08
+UniRef90_E6K8M9 Probable transcriptional regulatory protein HMPR...    63   8e-08
+UniRef90_A0A085WRI5 Probable transcriptional regulatory protein ...    63   8e-08
+UniRef90_H6L4Q5 Probable transcriptional regulatory protein SGRA...    63   8e-08
+UniRef90_T0T0G5 Probable transcriptional regulatory protein M899...    63   9e-08
+UniRef90_UPI000B72B2FD YebC/PmpR family DNA-binding transcriptio...    63   9e-08
+UniRef90_UPI0008B6070D YebC/PmpR family DNA-binding transcriptio...    63   9e-08
+UniRef90_A0A077KCK9 Probable transcriptional regulatory protein ...    63   9e-08
+UniRef90_A0A1F3NL19 Probable transcriptional regulatory protein ...    63   9e-08
+UniRef90_A0A1M7FPX2 Probable transcriptional regulatory protein ...    63   1e-07
+UniRef90_A0A1Q3W8J0 Probable transcriptional regulatory protein ...    62   1e-07
+UniRef90_A0A0U4C875 Probable transcriptional regulatory protein ...    62   1e-07
+UniRef90_A0A1M5E133 Probable transcriptional regulatory protein ...    62   1e-07
+UniRef90_A0A0X3APJ1 Probable transcriptional regulatory protein ...    62   1e-07
+UniRef90_A0A099B8G4 Probable transcriptional regulatory protein ...    62   1e-07
+UniRef90_UPI00036CC2DC YebC/PmpR family DNA-binding transcriptio...    62   1e-07
+UniRef90_U2LFJ4 Probable transcriptional regulatory protein HMPR...    62   1e-07
+UniRef90_Q64T66 Probable transcriptional regulatory protein BF25...    62   1e-07
+UniRef90_A0A101GFD7 Uncharacterized protein (Fragment) n=1 Tax=B...    62   1e-07
+UniRef90_A0A1F1DZ11 Probable transcriptional regulatory protein ...    62   1e-07
+UniRef90_UPI0003778AFC YebC/PmpR family DNA-binding transcriptio...    62   1e-07
+UniRef90_A0A1F3KLD1 Probable transcriptional regulatory protein ...    62   1e-07
+UniRef90_A0A0M2Y0W0 Probable transcriptional regulatory protein ...    62   2e-07
+UniRef90_K5ZMD0 Probable transcriptional regulatory protein HMPR...    62   2e-07
+UniRef90_Q2IJX6 Probable transcriptional regulatory protein Adeh...    62   2e-07
+UniRef90_G8LQW2 Uncharacterized protein n=1 Tax=Blattabacterium ...    62   2e-07
+UniRef90_L1MCL0 Probable transcriptional regulatory protein HMPR...    62   2e-07
+UniRef90_UPI0004684619 YebC/PmpR family DNA-binding transcriptio...    61   2e-07
+UniRef90_U5C2R6 Probable transcriptional regulatory protein P872...    61   2e-07
+UniRef90_A0A1P9WXJ8 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_A0A0F2P1C3 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_A0A136M9A6 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_J9GKQ5 Protein containing DUF28 n=2 Tax=gut metagenome ...    61   3e-07
+UniRef90_A0A1T5CSP9 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_A0A0E3UUQ9 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_A0A133Y1H8 Probable transcriptional regulatory protein ...    61   3e-07
+UniRef90_UPI00036EE12B YebC/PmpR family DNA-binding transcriptio...    61   3e-07
+UniRef90_UPI00089C86AA YebC/PmpR family DNA-binding transcriptio...    60   4e-07
+UniRef90_R7HKG9 Probable transcriptional regulatory protein BN58...    60   4e-07
+UniRef90_A0A0S2HXV3 Probable transcriptional regulatory protein ...    60   4e-07
+UniRef90_A0A1F3P347 Probable transcriptional regulatory protein ...    60   5e-07
+UniRef90_R5FRE8 Probable transcriptional regulatory protein BN81...    60   5e-07
+UniRef90_A0A069CZ88 Probable transcriptional regulatory protein ...    60   5e-07
+UniRef90_UPI0006BBE61F YebC/PmpR family DNA-binding transcriptio...    60   5e-07
+UniRef90_R6X1Z6 Probable transcriptional regulatory protein BN67...    60   6e-07
+UniRef90_S9P2K8 Probable transcriptional regulatory protein D187...    60   6e-07
+UniRef90_U2IYK6 Probable transcriptional regulatory protein M472...    60   6e-07
+UniRef90_A0A1T5M322 Probable transcriptional regulatory protein ...    60   7e-07
+
+>UniRef90_A0A1F3EB43 Probable transcriptional regulatory protein A2066_21665 n=1
+           Tax=Bacteroidetes bacterium GWB2_41_8 TaxID=1797322
+           RepID=A0A1F3EB43_9BACT
+          Length = 236
+
+ Score =  119 bits (300), Expect = 7e-25,   Method: Composition-based stats.
+ Identities = 35/74 (47%), Positives = 49/74 (66%), Gaps = 4/74 (5%)
+
+Query: 1   FNRKSVFECLKNEVENLKLSLEDLEFALIDYGLEELEEVEDKIIIRGDYNSFKLLNEGFE 60
+           F+RK+VFE  K +     +++EDLE  LID GLEE+EE +  I   GDY +F  L+   E
+Sbjct: 131 FSRKAVFEFQKKD----GMNIEDLELELIDAGLEEIEENDGVIYASGDYTNFGSLSHALE 186
+
+Query: 61  SLKLPILKASLQRI 74
+           +LK+ + KA+LQRI
+Sbjct: 187 ALKIEVTKANLQRI 200
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_L0FY07 Probable transcriptional regulatory protein Echv...   104   2e-20
+UniRef90_R7ZWM9 Probable transcriptional regulatory protein ADIS...   101   1e-19
+UniRef90_A0A1E4ANI6 Probable transcriptional regulatory protein ...   101   2e-19
+UniRef90_A0A1T5BHS4 Probable transcriptional regulatory protein ...   101   2e-19
+UniRef90_A0A1W9QW61 Probable transcriptional regulatory protein ...   101   2e-19
+UniRef90_A0A136PA74 Probable transcriptional regulatory protein ...   101   3e-19
+UniRef90_A0A0L8VE36 Probable transcriptional regulatory protein ...   100   4e-19
+UniRef90_D5V562 Probable transcriptional regulatory protein Arni...   100   5e-19
+UniRef90_A0A1W9QYN5 Probable transcriptional regulatory protein ...   100   5e-19
+UniRef90_A0A1Q6EG39 Probable transcriptional regulatory protein ...   100   5e-19
+UniRef90_W2UR49 Probable transcriptional regulatory protein P278...    99   5e-19
+UniRef90_A0A074L0X7 Probable transcriptional regulatory protein ...    99   6e-19
+UniRef90_A0A1G4GAA8 Probable transcriptional regulatory protein ...   100   6e-19
+UniRef90_R5CRW0 Probable transcriptional regulatory protein BN45...   100   8e-19
+UniRef90_UPI0003479E45 YebC/PmpR family DNA-binding transcriptio...   100   8e-19
+UniRef90_A0A1M3MBG7 Probable transcriptional regulatory protein ...    99   1e-18
+UniRef90_A0A1C2BRV8 Probable transcriptional regulatory protein ...    99   1e-18
+UniRef90_A0A0Q4B689 Probable transcriptional regulatory protein ...    99   1e-18
+UniRef90_A0A1F3EB43 Probable transcriptional regulatory protein ...    99   1e-18
+UniRef90_A0A1F3JMF1 Probable transcriptional regulatory protein ...    99   1e-18
+UniRef90_A0A174QEH6 Probable transcriptional regulatory protein ...    99   1e-18
+UniRef90_K1LX02 Probable transcriptional regulatory protein HMPR...    99   1e-18
+UniRef90_T0PTH2 Probable transcriptional regulatory protein C874...    98   1e-18
+UniRef90_A0A1J5ERQ3 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A0S7BX90 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A0S8JU01 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A1F3KUM7 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A0C2V5Z3 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A1B3WGG6 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A1J5HX87 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A0A2E7H1 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_R5Z178 Probable transcriptional regulatory protein BN49...    98   3e-18
+UniRef90_W7QMT9 Probable transcriptional regulatory protein KLA_...    98   3e-18
+UniRef90_H8KY50 Probable transcriptional regulatory protein Solc...    98   3e-18
+UniRef90_G9RZW9 Probable transcriptional regulatory protein HMPR...    98   3e-18
+UniRef90_UPI0008EA293A YebC/PmpR family DNA-binding regulatory p...    98   3e-18
+UniRef90_A0A1Q3QCR0 Probable transcriptional regulatory protein ...    98   3e-18
+UniRef90_UPI00047CADFD YebC/PmpR family DNA-binding transcriptio...    97   4e-18
+UniRef90_A0A1R3SSP7 Probable transcriptional regulatory protein ...    97   4e-18
+UniRef90_A0A1B9XYZ9 Probable transcriptional regulatory protein ...    97   4e-18
+UniRef90_UPI000930591B YebC/PmpR family DNA-binding transcriptio...    97   4e-18
+UniRef90_A0A1M6LQM4 Probable transcriptional regulatory protein ...    97   4e-18
+UniRef90_H1PZI0 Probable transcriptional regulatory protein HMPR...    97   4e-18
+UniRef90_A0A1F3LNB7 Probable transcriptional regulatory protein ...    97   5e-18
+UniRef90_UPI0004039913 YebC/PmpR family DNA-binding transcriptio...    96   5e-18
+UniRef90_D1B115 Probable transcriptional regulatory protein Sdel...    96   5e-18
+UniRef90_UPI0003826083 YebC/PmpR family DNA-binding transcriptio...    96   6e-18
+UniRef90_A9QVV6 Probable transcriptional regulatory protein P25 ...    96   6e-18
+UniRef90_A0A0P7YHY9 Probable transcriptional regulatory protein ...    96   6e-18
+UniRef90_A0A0C1D7F6 Probable transcriptional regulatory protein ...    96   6e-18
+UniRef90_R5AUU2 Probable transcriptional regulatory protein BN45...    96   6e-18
+UniRef90_A0A1V6JPC8 Probable transcriptional regulatory protein ...    96   7e-18
+UniRef90_A0A0R2QXY4 Probable transcriptional regulatory protein ...    96   7e-18
+UniRef90_UPI00088B0D6A YebC/PmpR family DNA-binding transcriptio...    96   7e-18
+UniRef90_D5BEE9 Probable transcriptional regulatory protein ZPR_...    96   7e-18
+UniRef90_A0A1F3CZD4 Probable transcriptional regulatory protein ...    96   7e-18
+UniRef90_A0A1M4S7T3 Probable transcriptional regulatory protein ...    96   7e-18
+UniRef90_A0A0J7LNS2 Probable transcriptional regulatory protein ...    96   7e-18
+UniRef90_UPI00088EF672 YebC/PmpR family DNA-binding regulatory p...    96   7e-18
+UniRef90_A0A0E9LSF0 Probable transcriptional regulatory protein ...    96   7e-18
+UniRef90_UPI00094F89AC YebC/PmpR family DNA-binding transcriptio...    96   7e-18
+UniRef90_A0A1V5G8I6 Probable transcriptional regulatory protein ...    96   8e-18
+UniRef90_A0A1G0CKN6 Probable transcriptional regulatory protein ...    96   8e-18
+UniRef90_A0A136MRF0 Probable transcriptional regulatory protein ...    96   9e-18
+UniRef90_UPI000248F872 YebC/PmpR family DNA-binding transcriptio...    96   9e-18
+UniRef90_UPI0008E14221 YebC/PmpR family DNA-binding regulatory p...    96   9e-18
+UniRef90_A6GXW2 Probable transcriptional regulatory protein FP08...    96   9e-18
+UniRef90_UPI00098D2BFD YebC/PmpR family DNA-binding regulatory p...    96   9e-18
+UniRef90_A0A1F3LZM6 Probable transcriptional regulatory protein ...    96   1e-17
+UniRef90_A4AQY7 Probable transcriptional regulatory protein FB21...    96   1e-17
+UniRef90_UPI000A19E52B YebC/PmpR family DNA-binding transcriptio...    96   1e-17
+UniRef90_A0A1V5JLQ2 Probable transcriptional regulatory protein ...    96   1e-17
+UniRef90_A0A1V5MW31 Probable transcriptional regulatory protein ...    96   1e-17
+UniRef90_A0A1V5YPL9 Probable transcriptional regulatory protein ...    96   1e-17
+UniRef90_R5CP28 Probable transcriptional regulatory protein BN56...    96   1e-17
+UniRef90_A0A1F3E912 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_UPI00082A954A YebC/PmpR family DNA-binding transcriptio...    95   1e-17
+UniRef90_A0A1V5S1R6 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A0F9RA65 Uncharacterized protein n=2 Tax=root TaxID=1...    95   1e-17
+UniRef90_G5HB76 Probable transcriptional regulatory protein HMPR...    95   1e-17
+UniRef90_A0A1M4W8W4 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_I0WG37 Probable transcriptional regulatory protein W5A_...    95   1e-17
+UniRef90_A0A132HZY3 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1G3UZZ8 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1V6HVS9 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1J5F8V9 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_R5ICA6 Probable transcriptional regulatory protein BN79...    95   1e-17
+UniRef90_A0A1V6I400 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1Y3W5N9 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1J0LHL0 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1Q3ZFI9 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1W9SPF4 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1V6EMZ9 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_A5FGS7 Probable transcriptional regulatory protein Fjoh...    95   2e-17
+UniRef90_UPI0004266667 YebC/PmpR family DNA-binding transcriptio...    95   2e-17
+UniRef90_A0A1W1YZ63 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_A0A0C2ZM06 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_A0A1T5G1I4 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_UPI0004DF7D58 YebC/PmpR family DNA-binding transcriptio...    95   2e-17
+UniRef90_A0A142EJ36 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_A0A098BWI3 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_A0A1M4ZXS5 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_U5Q5V8 Probable transcriptional regulatory protein BRDC...    95   2e-17
+UniRef90_A0A1N7KMU1 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_F5J414 Probable transcriptional regulatory protein HMPR...    94   3e-17
+UniRef90_A3XNS2 Probable transcriptional regulatory protein MED2...    94   3e-17
+UniRef90_A0A0K8QZ78 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_A0A0P7AW63 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_A0A1J5AQZ0 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_L1NZ16 Probable transcriptional regulatory protein HMPR...    94   3e-17
+UniRef90_UPI0003710813 YebC/PmpR family DNA-binding transcriptio...    94   3e-17
+UniRef90_A0A0B5RHM5 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_A0A085BPS0 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_A0A1L7I3E9 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_A0A081SGJ8 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_UPI00064586A5 YebC/PmpR family DNA-binding transcriptio...    94   4e-17
+UniRef90_A0A1V5F4Y9 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_UPI00087EC986 YebC/PmpR family DNA-binding regulatory p...    94   4e-17
+UniRef90_E4TQU0 Probable transcriptional regulatory protein Ftra...    94   4e-17
+UniRef90_A0A1M3DZQ6 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_A0A1M3CYF3 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_W0ESR1 Probable transcriptional regulatory protein BARV...    94   4e-17
+UniRef90_UPI0007168692 YebC/PmpR family DNA-binding transcriptio...    94   4e-17
+UniRef90_H1DKN8 Probable transcriptional regulatory protein HMPR...    94   4e-17
+UniRef90_A0A1J4TC16 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_UPI000472B2A1 YebC/PmpR family DNA-binding transcriptio...    94   4e-17
+UniRef90_A0A1V6BDN2 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_UPI0008D8E303 YebC/PmpR family DNA-binding transcriptio...    94   4e-17
+UniRef90_K1Z198 Uncharacterized protein n=1 Tax=groundwater meta...    94   4e-17
+UniRef90_I0KBS2 Probable transcriptional regulatory protein FAES...    94   4e-17
+UniRef90_A0A1D7XV06 Probable transcriptional regulatory protein ...    93   5e-17
+UniRef90_E0UR99 Probable transcriptional regulatory protein Saut...    93   5e-17
+UniRef90_A0A1H5UU69 Probable transcriptional regulatory protein ...    93   5e-17
+UniRef90_A3J7J9 Probable transcriptional regulatory protein FBBA...    93   5e-17
+UniRef90_UPI000A1CCDC4 YebC/PmpR family DNA-binding regulatory p...    93   5e-17
+UniRef90_UPI00047DB54B YebC/PmpR family DNA-binding transcriptio...    93   5e-17
+UniRef90_A0A1F3EBC4 Probable transcriptional regulatory protein ...    93   5e-17
+UniRef90_A0A098LFV7 Probable transcriptional regulatory protein ...    93   6e-17
+UniRef90_A0A060R9Z4 Probable transcriptional regulatory protein ...    93   6e-17
+UniRef90_A0A1F3DMI8 Probable transcriptional regulatory protein ...    93   6e-17
+UniRef90_F4KT53 Probable transcriptional regulatory protein Halh...    93   6e-17
+UniRef90_A0A1D7Y234 Probable transcriptional regulatory protein ...    93   7e-17
+UniRef90_A0A1M6I503 Probable transcriptional regulatory protein ...    93   7e-17
+UniRef90_UPI0008833292 YebC/PmpR family DNA-binding transcriptio...    93   7e-17
+UniRef90_A0A1M3II56 Probable transcriptional regulatory protein ...    93   7e-17
+UniRef90_UPI000B6F2994 YebC/PmpR family DNA-binding regulatory p...    93   7e-17
+UniRef90_A1ZW92 Probable transcriptional regulatory protein M231...    93   7e-17
+UniRef90_A0A1S6U7P1 Probable transcriptional regulatory protein ...    93   8e-17
+UniRef90_A0A0C1ESE6 Probable transcriptional regulatory protein ...    93   8e-17
+UniRef90_F2IB76 Probable transcriptional regulatory protein Flut...    93   8e-17
+UniRef90_A0A0D5YUQ2 Probable transcriptional regulatory protein ...    93   8e-17
+UniRef90_C7PUA6 Probable transcriptional regulatory protein Cpin...    93   9e-17
+UniRef90_A0A125S3R1 Probable transcriptional regulatory protein ...    93   9e-17
+UniRef90_UPI0004264078 YebC/PmpR family DNA-binding transcriptio...    93   9e-17
+UniRef90_Q7MRV4 Probable transcriptional regulatory protein WS10...    93   1e-16
+UniRef90_UPI00089957D0 YebC/PmpR family DNA-binding regulatory p...    93   1e-16
+UniRef90_A0M1H3 Probable transcriptional regulatory protein GFO_...    92   1e-16
+UniRef90_E6XDP6 Probable transcriptional regulatory protein Cela...    92   1e-16
+UniRef90_UPI0008C7E562 YebC/PmpR family DNA-binding regulatory p...    92   1e-16
+UniRef90_UPI00048360A9 YebC/PmpR family DNA-binding transcriptio...    92   1e-16
+UniRef90_A0RN42 Probable transcriptional regulatory protein CFF8...    92   1e-16
+UniRef90_A0A0S8HLE8 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A1J5APP9 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_UPI000371DF52 YebC/PmpR family DNA-binding transcriptio...    92   1e-16
+UniRef90_B6BMS2 Probable transcriptional regulatory protein SMGD...    92   1e-16
+UniRef90_A0A1L3JIL7 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A1W1D3I9 Uncharacterized protein n=1 Tax=hydrothermal...    92   1e-16
+UniRef90_UPI0008E47D40 YebC/PmpR family DNA-binding regulatory p...    92   1e-16
+UniRef90_A0A1V5VYJ7 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A1F3PQ55 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_R5BJQ9 Probable transcriptional regulatory protein BN45...    92   1e-16
+UniRef90_A0A1M5CEL0 Probable transcriptional regulatory protein ...    92   2e-16
+UniRef90_A0A1S9PD59 Probable transcriptional regulatory protein ...    92   2e-16
+UniRef90_A0A1M5P660 Probable transcriptional regulatory protein ...    92   2e-16
+UniRef90_D9PMF3 Uncharacterized protein yebC n=1 Tax=sediment me...    92   2e-16
+UniRef90_I2ETG1 Probable transcriptional regulatory protein Emto...    91   2e-16
+UniRef90_A0A1W1E8S7 Uncharacterized protein n=1 Tax=hydrothermal...    91   2e-16
+UniRef90_A0A1F3MCH3 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_UPI0004084459 YebC/PmpR family DNA-binding transcriptio...    91   2e-16
+UniRef90_E4RT52 Probable transcriptional regulatory protein Lbys...    91   2e-16
+UniRef90_A0A1J5F1L0 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_A0A1J4TNH6 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_F6GHN3 Probable transcriptional regulatory protein Laca...    91   2e-16
+UniRef90_A0A0D0I4P7 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_Q7MXR6 Probable transcriptional regulatory protein PG_0...    91   2e-16
+UniRef90_UPI000887C417 YebC/PmpR family DNA-binding transcriptio...    91   2e-16
+UniRef90_G2PPH8 Probable transcriptional regulatory protein Murr...    91   2e-16
+UniRef90_A9E3T2 Probable transcriptional regulatory protein KAOT...    91   2e-16
+UniRef90_A0A1B1FR76 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_A0A023BV26 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_C6X235 Probable transcriptional regulatory protein FIC_...    91   3e-16
+UniRef90_L8JPX1 Probable transcriptional regulatory protein C900...    91   3e-16
+UniRef90_UPI00047DAC5E YebC/PmpR family DNA-binding transcriptio...    91   3e-16
+UniRef90_A0A1F3IUQ7 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A136NGE1 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_F4AXX6 Probable transcriptional regulatory protein Krod...    91   3e-16
+UniRef90_A0A0H4W8R6 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A1J5FSP0 Probable transcriptional regulatory protein ...    91   4e-16
+UniRef90_A0A1J5KKB9 Probable transcriptional regulatory protein ...    90   4e-16
+UniRef90_F0NZG1 Probable transcriptional regulatory protein Weev...    90   4e-16
+UniRef90_A0A1B1SAZ2 Probable transcriptional regulatory protein ...    90   4e-16
+UniRef90_T0KF94 Probable transcriptional regulatory protein M947...    90   4e-16
+UniRef90_F8NA88 Probable transcriptional regulatory protein Prem...    90   5e-16
+UniRef90_A0A1M5KQ68 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_A0A1W1C7Z7 Uncharacterized protein n=1 Tax=hydrothermal...    90   5e-16
+UniRef90_R5B5R2 Probable transcriptional regulatory protein BN81...    90   5e-16
+UniRef90_A0A1W1CGU5 Uncharacterized protein n=1 Tax=hydrothermal...    90   5e-16
+UniRef90_D2QCI2 Probable transcriptional regulatory protein Slin...    90   5e-16
+UniRef90_R7PAX4 Probable transcriptional regulatory protein BN73...    90   6e-16
+UniRef90_A0A0S2HZA6 Probable transcriptional regulatory protein ...    90   6e-16
+UniRef90_UPI000428A3DE YebC/PmpR family DNA-binding transcriptio...    90   7e-16
+UniRef90_A0A1W2GGV0 Probable transcriptional regulatory protein ...    90   7e-16
+UniRef90_A0A1Y1CPG1 Probable transcriptional regulatory protein ...    90   7e-16
+UniRef90_A0A085KZT0 Probable transcriptional regulatory protein ...    90   7e-16
+UniRef90_A0A1F3GN98 Probable transcriptional regulatory protein ...    90   7e-16
+UniRef90_A7GX97 Probable transcriptional regulatory protein Ccur...    90   8e-16
+UniRef90_E4M8E8 Probable transcriptional regulatory protein HMPR...    90   8e-16
+UniRef90_A0A1F3ENL2 Probable transcriptional regulatory protein ...    90   8e-16
+UniRef90_A0A1L3J6K6 Probable transcriptional regulatory protein ...    90   8e-16
+UniRef90_B9D0E0 Probable transcriptional regulatory protein CAMR...    90   8e-16
+UniRef90_UPI00056ECBB5 YebC/PmpR family DNA-binding transcriptio...    90   8e-16
+UniRef90_A0A1V5GH04 Probable transcriptional regulatory protein ...    90   8e-16
+UniRef90_H1Y9G7 Probable transcriptional regulatory protein Mucp...    89   9e-16
+UniRef90_A0A1Q3N0Q2 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A3XPB1 Probable transcriptional regulatory protein MED2...    89   1e-15
+UniRef90_E0NUU2 Probable transcriptional regulatory protein HMPR...    89   1e-15
+UniRef90_UPI000761EF73 YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_A0A099VQ91 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A0A0R2VH77 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A0A0W8EF85 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_UPI000347E64A YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_A0A1B2YU79 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_UPI00082C5E67 YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_R7J3F1 Probable transcriptional regulatory protein BN79...    88   1e-15
+UniRef90_A0A1F3CBR3 Probable transcriptional regulatory protein ...    88   1e-15
+UniRef90_A6QAR3 Probable transcriptional regulatory protein SUN_...    88   2e-15
+UniRef90_UPI000896668B YebC/PmpR family DNA-binding regulatory p...    88   2e-15
+UniRef90_A0A1F3IIC8 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A1Y4C0K6 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_R9GWD1 Probable transcriptional regulatory protein ADIA...    88   2e-15
+UniRef90_G0IUS0 Probable transcriptional regulatory protein Cycm...    88   2e-15
+UniRef90_A0A101VZ00 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_O24970 Probable transcriptional regulatory protein HP_0...    88   2e-15
+UniRef90_UPI0003B34EFC YebC/PmpR family DNA-binding transcriptio...    88   2e-15
+UniRef90_UPI0006CF8B90 YebC/PmpR family DNA-binding transcriptio...    88   2e-15
+UniRef90_E1X4B8 Probable transcriptional regulatory protein BMS_...    88   2e-15
+UniRef90_UPI0008310221 YebC/PmpR family DNA-binding transcriptio...    88   2e-15
+UniRef90_A0A1G0BEP3 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A180FK25 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_N1WXP7 Probable transcriptional regulatory protein pgon...    88   2e-15
+UniRef90_UPI0003FA7927 YebC/PmpR family DNA-binding transcriptio...    88   3e-15
+UniRef90_UPI00036220FE YebC/PmpR family DNA-binding transcriptio...    88   3e-15
+UniRef90_R6XXJ5 Probable transcriptional regulatory protein BN59...    88   3e-15
+UniRef90_A0A1F3KBQ4 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_UPI000945CB06 YebC/PmpR family DNA-binding transcriptio...    88   3e-15
+UniRef90_A0A1M6N691 Probable transcriptional regulatory protein ...    87   3e-15
+UniRef90_A0A1H1MY03 Probable transcriptional regulatory protein ...    87   3e-15
+UniRef90_D3UI59 Probable transcriptional regulatory protein HMU0...    87   3e-15
+UniRef90_K4IIM4 Probable transcriptional regulatory protein P700...    87   3e-15
+UniRef90_A0A1M3L5L4 Probable transcriptional regulatory protein ...    87   3e-15
+UniRef90_UPI000470BA67 YebC/PmpR family DNA-binding transcriptio...    87   3e-15
+UniRef90_A0A1Q3XAA6 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_UPI0008E63FD5 YebC/PmpR family DNA-binding regulatory p...    87   4e-15
+UniRef90_UPI00063F47B8 YebC/PmpR family DNA-binding transcriptio...    87   4e-15
+UniRef90_A0A1M7BJ76 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_A0A1F3T9B8 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_L8JK86 Probable transcriptional regulatory protein C900...    87   4e-15
+UniRef90_A0A1J1ECR7 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_A0A1V6JEG9 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A1M3E5H8 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A1Q6A2S0 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A136L4V7 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A1T4KAG6 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_UPI00041B9342 YebC/PmpR family DNA-binding transcriptio...    87   5e-15
+UniRef90_A0A1M7NG73 Probable transcriptional regulatory protein ...    86   5e-15
+UniRef90_T0T0G5 Probable transcriptional regulatory protein M899...    86   6e-15
+UniRef90_UPI0007D8B466 YebC/PmpR family DNA-binding transcriptio...    86   6e-15
+UniRef90_UPI0008EF4766 YebC/PmpR family DNA-binding regulatory p...    86   6e-15
+UniRef90_A0A1F3C900 Probable transcriptional regulatory protein ...    86   6e-15
+UniRef90_A0A1M6BCI5 Probable transcriptional regulatory protein ...    86   6e-15
+UniRef90_A0A1M4WL79 Probable transcriptional regulatory protein ...    86   6e-15
+UniRef90_UPI000884A1FD YebC/PmpR family DNA-binding transcriptio...    86   7e-15
+UniRef90_A0A1W9QX34 Probable transcriptional regulatory protein ...    86   7e-15
+UniRef90_A0A1E4HBD7 Probable transcriptional regulatory protein ...    86   7e-15
+UniRef90_A0A1M5D804 Probable transcriptional regulatory protein ...    86   7e-15
+UniRef90_F0FAW5 Probable transcriptional regulatory protein HMPR...    86   7e-15
+UniRef90_UPI00036E107C YebC/PmpR family DNA-binding transcriptio...    86   7e-15
+UniRef90_R5FRE8 Probable transcriptional regulatory protein BN81...    86   7e-15
+UniRef90_R6X499 Probable transcriptional regulatory protein BN67...    86   7e-15
+UniRef90_C3XN28 Probable transcriptional regulatory protein HWAG...    86   7e-15
+UniRef90_A0A142HN49 Probable transcriptional regulatory protein ...    86   8e-15
+UniRef90_A0A0E3ZFM6 Probable transcriptional regulatory protein ...    86   8e-15
+UniRef90_A0A1W1CJ36 Uncharacterized protein n=1 Tax=hydrothermal...    86   8e-15
+UniRef90_A0A1W1BTQ7 Uncharacterized protein n=1 Tax=hydrothermal...    86   8e-15
+UniRef90_A0A133Y1H8 Probable transcriptional regulatory protein ...    86   9e-15
+UniRef90_UPI000698E3D9 YebC/PmpR family DNA-binding transcriptio...    86   9e-15
+UniRef90_R7HKG9 Probable transcriptional regulatory protein BN58...    86   9e-15
+UniRef90_A0A133PZ87 Probable transcriptional regulatory protein ...    86   1e-14
+UniRef90_A0A132HZ62 Probable transcriptional regulatory protein ...    86   1e-14
+UniRef90_UPI000B762029 YebC/PmpR family DNA-binding regulatory p...    86   1e-14
+UniRef90_E1GVS2 Probable transcriptional regulatory protein HMPR...    85   1e-14
+UniRef90_A6EFS8 Probable transcriptional regulatory protein PBAL...    85   1e-14
+UniRef90_UPI000237D5EE YebC/PmpR family DNA-binding transcriptio...    85   1e-14
+UniRef90_T0RKZ1 Probable transcriptional regulatory protein M900...    85   1e-14
+UniRef90_E6K8M9 Probable transcriptional regulatory protein HMPR...    85   1e-14
+UniRef90_A0A1G1BJJ6 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_A0A0F2P1C3 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_UPI0006A98BA6 YebC/PmpR family DNA-binding transcriptio...    85   1e-14
+UniRef90_A0A0U1CG30 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_UPI0008E0F960 YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_A0A1V6BVD0 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A1Q6G0Y5 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A1M5G0N4 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_C0BH80 Probable transcriptional regulatory protein Flav...    85   2e-14
+UniRef90_UPI0003FDA43D YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_A0A1X9YMZ3 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_UPI00089CEF53 YebC/PmpR family DNA-binding regulatory p...    85   2e-14
+UniRef90_G1W9Z3 Probable transcriptional regulatory protein HMPR...    85   2e-14
+UniRef90_A0A1F3PY66 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_UPI0003778AFC YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_A0A1F3MFD9 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A1F3N5D4 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A142HJZ1 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A1F3LKD8 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A0D3LKA9 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_U2LFJ4 Probable transcriptional regulatory protein HMPR...    85   2e-14
+UniRef90_C9LFP8 Probable transcriptional regulatory protein GCWU...    85   2e-14
+UniRef90_F8EBV3 Probable transcriptional regulatory protein Runs...    85   3e-14
+UniRef90_A0A1Z9SDE9 YebC/PmpR family DNA-binding transcriptional...    85   3e-14
+UniRef90_V8CFD6 Probable transcriptional regulatory protein HMPR...    84   3e-14
+UniRef90_C6W2L6 Probable transcriptional regulatory protein Dfer...    84   3e-14
+UniRef90_A0A101GFD7 Uncharacterized protein (Fragment) n=1 Tax=B...    84   3e-14
+UniRef90_A0A1F3PB65 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_D3IDY8 Probable transcriptional regulatory protein HMPR...    84   3e-14
+UniRef90_A0A1R4IKG9 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_A0A161LXA3 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_A0A179DLN4 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_UPI000237CFE5 YebC/PmpR family DNA-binding transcriptio...    84   4e-14
+UniRef90_R6A176 Probable transcriptional regulatory protein BN69...    84   4e-14
+UniRef90_T0CBF2 Probable transcriptional regulatory protein M902...    84   4e-14
+UniRef90_A0A1M3G1H2 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_F9D053 Probable transcriptional regulatory protein Pred...    84   4e-14
+UniRef90_A0A173MME1 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_G8TP86 Probable transcriptional regulatory protein Niak...    84   4e-14
+UniRef90_A0A142L4D8 Probable transcriptional regulatory protein ...    83   5e-14
+UniRef90_D5EZ85 Probable transcriptional regulatory protein PRU_...    83   5e-14
+UniRef90_A0A1F9F0C8 Probable transcriptional regulatory protein ...    83   5e-14
+UniRef90_A0A0K2XCA0 Probable transcriptional regulatory protein ...    83   5e-14
+UniRef90_A0A150X890 Probable transcriptional regulatory protein ...    83   5e-14
+UniRef90_D7VWA3 Probable transcriptional regulatory protein HMPR...    83   6e-14
+UniRef90_E1X5F2 Probable transcriptional regulatory protein BMS_...    83   6e-14
+UniRef90_A0A0C1KPN2 Probable transcriptional regulatory protein ...    83   6e-14
+UniRef90_A0A098YTL9 Probable transcriptional regulatory protein ...    83   6e-14
+UniRef90_A7ZC85 Probable transcriptional regulatory protein Ccon...    83   6e-14
+UniRef90_A0A1W1CYI4 Uncharacterized protein n=1 Tax=hydrothermal...    83   6e-14
+UniRef90_A0A0B0Q1I9 Probable transcriptional regulatory protein ...    83   6e-14
+UniRef90_A0A1F3KLD1 Probable transcriptional regulatory protein ...    83   7e-14
+UniRef90_A0A1M5E133 Probable transcriptional regulatory protein ...    83   7e-14
+UniRef90_UPI00029AB20F YebC/PmpR family DNA-binding transcriptio...    83   8e-14
+UniRef90_A0A0S2HXV3 Probable transcriptional regulatory protein ...    83   8e-14
+UniRef90_A0A1F3W5K0 Probable transcriptional regulatory protein ...    83   9e-14
+UniRef90_G5GEF7 Probable transcriptional regulatory protein HMPR...    83   9e-14
+UniRef90_A0A0G0D8H5 Probable transcriptional regulatory protein ...    83   1e-13
+UniRef90_T2SRM7 Transcriptional regulator n=1 Tax=Helicobacter p...    83   1e-13
+UniRef90_A0A1F3NL19 Probable transcriptional regulatory protein ...    83   1e-13
+UniRef90_A0A1Q3PN24 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_A0A1I2FAM5 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_J9GKQ5 Protein containing DUF28 n=2 Tax=gut metagenome ...    82   1e-13
+UniRef90_A0A1F3P347 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_A0A1Z9DIG3 YebC/PmpR family DNA-binding transcriptional...    82   1e-13
+UniRef90_UPI000B53C56F YebC/PmpR family DNA-binding regulatory p...    82   1e-13
+UniRef90_W0EZU2 Probable transcriptional regulatory protein NIAS...    82   1e-13
+UniRef90_A0A0M9UER1 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_A0A1V6HPC6 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_L1MCL0 Probable transcriptional regulatory protein HMPR...    82   1e-13
+UniRef90_A0A1Y0MSK4 Probable transcriptional regulatory protein ...    82   1e-13
+UniRef90_I3ZYQ1 Probable transcriptional regulatory protein Ornr...    82   1e-13
+UniRef90_A0A1G3J246 Probable transcriptional regulatory protein ...    82   2e-13
+UniRef90_A0A1M3HRD5 Probable transcriptional regulatory protein ...    82   2e-13
+UniRef90_A0A0R2SEA1 Probable transcriptional regulatory protein ...    81   2e-13
+UniRef90_E6LAA5 Probable transcriptional regulatory protein HMPR...    81   2e-13
+UniRef90_A0A098S2U5 Probable transcriptional regulatory protein ...    81   2e-13
+UniRef90_A0A191THD7 Probable transcriptional regulatory protein ...    81   2e-13
+UniRef90_T1D079 Probable transcriptional regulatory protein HFN_...    81   2e-13
+UniRef90_A0A1I1YMG8 Probable transcriptional regulatory protein ...    81   2e-13
+UniRef90_A0A1Y5DPL2 Probable transcriptional regulatory protein ...    81   2e-13
+UniRef90_A0A077KCK9 Probable transcriptional regulatory protein ...    81   2e-13
+UniRef90_A0A1B1U4R1 Probable transcriptional regulatory protein ...    81   3e-13
+UniRef90_A0A0E3UUQ9 Probable transcriptional regulatory protein ...    81   3e-13
+UniRef90_A0A1V6HSF3 Probable transcriptional regulatory protein ...    81   3e-13
+UniRef90_Q30QR5 Probable transcriptional regulatory protein Sude...    81   3e-13
+UniRef90_E7RSA6 Probable transcriptional regulatory protein HMPR...    81   3e-13
+UniRef90_A0A1K1LY26 Probable transcriptional regulatory protein ...    81   3e-13
+UniRef90_E6MLX4 Probable transcriptional regulatory protein HMPR...    81   3e-13
+UniRef90_T0SJQ3 Probable transcriptional regulatory protein M901...    81   4e-13
+UniRef90_A0A0F7BQI4 Probable transcriptional regulatory protein ...    81   4e-13
+UniRef90_A0A1F5TR20 Probable transcriptional regulatory protein ...    81   4e-13
+UniRef90_UPI000B72B2FD YebC/PmpR family DNA-binding transcriptio...    80   4e-13
+UniRef90_A0A1G4G749 Probable transcriptional regulatory protein ...    80   4e-13
+UniRef90_H2BYJ8 Probable transcriptional regulatory protein Gill...    80   5e-13
+UniRef90_A0A0U4C875 Probable transcriptional regulatory protein ...    80   5e-13
+UniRef90_I4AHM0 Probable transcriptional regulatory protein Flel...    80   5e-13
+UniRef90_S9P2K8 Probable transcriptional regulatory protein D187...    80   5e-13
+UniRef90_A0A085WRI5 Probable transcriptional regulatory protein ...    80   5e-13
+UniRef90_UPI0008343CD9 YebC/PmpR family DNA-binding transcriptio...    80   5e-13
+UniRef90_UPI0006BBE61F YebC/PmpR family DNA-binding transcriptio...    80   5e-13
+UniRef90_A0A1J4T978 Probable transcriptional regulatory protein ...    80   5e-13
+UniRef90_A0A136N657 Probable transcriptional regulatory protein ...    80   6e-13
+UniRef90_A0A128ELY3 Probable transcriptional regulatory protein ...    80   7e-13
+UniRef90_A0A1F3GDY5 Probable transcriptional regulatory protein ...    80   7e-13
+UniRef90_Q094I1 Probable transcriptional regulatory protein STAU...    80   7e-13
+UniRef90_Q2IJX6 Probable transcriptional regulatory protein Adeh...    80   8e-13
+UniRef90_A0A136M9A6 Probable transcriptional regulatory protein ...    80   8e-13
+UniRef90_A0A1B8TXW7 Probable transcriptional regulatory protein ...    80   9e-13
+UniRef90_A0A1F3SMU5 Probable transcriptional regulatory protein ...    79   9e-13
+UniRef90_UPI00089036CC YebC/PmpR family DNA-binding regulatory p...    79   1e-12
+UniRef90_F3QQ85 Probable transcriptional regulatory protein HMPR...    79   1e-12
+UniRef90_G8R2N8 Probable transcriptional regulatory protein Oweh...    79   1e-12
+UniRef90_A8EUS3 Probable transcriptional regulatory protein Abu_...    79   1e-12
+UniRef90_H6L4Q5 Probable transcriptional regulatory protein SGRA...    79   1e-12
+UniRef90_A0A172U0G6 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_A0A0C1XE98 Transcriptional regulator (Fragment) n=1 Tax...    79   1e-12
+UniRef90_S2DQ84 Probable transcriptional regulatory protein A33Q...    79   1e-12
+UniRef90_R6T117 Probable transcriptional regulatory protein BN77...    79   1e-12
+UniRef90_A0A1F5TMJ4 Probable transcriptional regulatory protein ...    79   1e-12
+UniRef90_D1PY56 Probable transcriptional regulatory protein HMPR...    78   1e-12
+UniRef90_A0A133Y2B7 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A1Q3W8J0 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A1S2VFT7 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A127F8W4 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A1W2G9A4 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_UPI00053BE415 YebC/PmpR family DNA-binding transcriptio...    78   2e-12
+UniRef90_A0A1Y1RA13 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_A0A1G3SR67 Probable transcriptional regulatory protein ...    78   2e-12
+UniRef90_K5ZMD0 Probable transcriptional regulatory protein HMPR...    78   2e-12
+UniRef90_A2U314 Probable transcriptional regulatory protein MED1...    78   2e-12
+UniRef90_B5Y8Y9 Probable transcriptional regulatory protein COPR...    78   2e-12
+UniRef90_UPI00036EE12B YebC/PmpR family DNA-binding transcriptio...    78   2e-12
+UniRef90_UPI0005CA2C7A YebC/PmpR family DNA-binding transcriptio...    78   3e-12
+UniRef90_A0A0U3J3U1 Probable transcriptional regulatory protein ...    78   3e-12
+UniRef90_R6X1Z6 Probable transcriptional regulatory protein BN67...    78   3e-12
+UniRef90_R7F207 Probable transcriptional regulatory protein BN67...    78   3e-12
+UniRef90_UPI00036E7E6F YebC/PmpR family DNA-binding transcriptio...    78   3e-12
+UniRef90_A0A095Y714 Probable transcriptional regulatory protein ...    78   3e-12
+UniRef90_Q64T66 Probable transcriptional regulatory protein BF25...    77   3e-12
+UniRef90_A0A1K1PER6 Probable transcriptional regulatory protein ...    77   3e-12
+UniRef90_A0A1Q6HBB0 Probable transcriptional regulatory protein ...    77   3e-12
+UniRef90_A0A0D7WAT7 Probable transcriptional regulatory protein ...    77   4e-12
+UniRef90_A0A0R2S2K1 Probable transcriptional regulatory protein ...    77   4e-12
+UniRef90_A0A1M6N0K3 Probable transcriptional regulatory protein ...    77   4e-12
+UniRef90_E7G4C4 Probable transcriptional regulatory protein HSUH...    77   4e-12
+UniRef90_I2K677 Probable transcriptional regulatory protein SULA...    77   4e-12
+UniRef90_A0A1T5M322 Probable transcriptional regulatory protein ...    77   4e-12
+UniRef90_A0A1V6HKK8 Probable transcriptional regulatory protein ...    77   4e-12
+UniRef90_A0A1B8J7E3 Probable transcriptional regulatory protein ...    77   5e-12
+UniRef90_A0A1Q6WQ19 Probable transcriptional regulatory protein ...    77   5e-12
+UniRef90_R5W5A0 Probable transcriptional regulatory protein BN50...    77   5e-12
+UniRef90_L1NGK3 Probable transcriptional regulatory protein HMPR...    76   6e-12
+UniRef90_A0A1E5SZF8 Probable transcriptional regulatory protein ...    76   6e-12
+UniRef90_A0A1F1DZ11 Probable transcriptional regulatory protein ...    76   6e-12
+UniRef90_A0A0R2X7T7 Transcriptional regulator (Fragment) n=1 Tax...    76   6e-12
+UniRef90_S8FGP0 Probable transcriptional regulatory protein HMPR...    76   6e-12
+UniRef90_UPI0008DEDA09 YebC/PmpR family DNA-binding regulatory p...    76   6e-12
+UniRef90_A0A1G3TG01 Probable transcriptional regulatory protein ...    76   6e-12
+UniRef90_A0A1F3GQN4 Probable transcriptional regulatory protein ...    76   7e-12
+UniRef90_T0RMW9 Probable transcriptional regulatory protein M900...    76   7e-12
+UniRef90_D0J8S7 Probable transcriptional regulatory protein BPLA...    76   7e-12
+UniRef90_A0A0M9DSW0 Probable transcriptional regulatory protein ...    76   7e-12
+UniRef90_UPI000469BFFF YebC/PmpR family DNA-binding transcriptio...    76   7e-12
+UniRef90_W7YA96 Probable transcriptional regulatory protein JCM2...    76   7e-12
+UniRef90_B0MTZ6 Probable transcriptional regulatory protein ALIP...    76   8e-12
+UniRef90_I5C779 Probable transcriptional regulatory protein A3SI...    76   9e-12
+UniRef90_M7N404 Probable transcriptional regulatory protein ADIC...    76   9e-12
+UniRef90_B3ES20 Probable transcriptional regulatory protein Aasi...    76   1e-11
+UniRef90_A7I377 Probable transcriptional regulatory protein CHAB...    76   1e-11
+UniRef90_A0A1J4TUJ8 Probable transcriptional regulatory protein ...    76   1e-11
+UniRef90_A7HAS0 Probable transcriptional regulatory protein Anae...    76   1e-11
+UniRef90_A0A167HUH8 Probable transcriptional regulatory protein ...    76   1e-11
+UniRef90_A0A0X3APJ1 Probable transcriptional regulatory protein ...    76   1e-11
+UniRef90_A0A1V6CXC7 Probable transcriptional regulatory protein ...    76   1e-11
+UniRef90_A0A136MK82 Probable transcriptional regulatory protein ...    76   1e-11
+UniRef90_A0A1G0SMU3 Probable transcriptional regulatory protein ...    76   1e-11
+UniRef90_K7SC53 Probable transcriptional regulatory protein B649...    75   1e-11
+UniRef90_A0A0C1U3F6 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A1M6K7L6 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A0F6W9R2 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A1F5S2T2 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_UPI0004809B6E YebC/PmpR family DNA-binding transcriptio...    75   2e-11
+UniRef90_UPI0004684619 YebC/PmpR family DNA-binding transcriptio...    75   2e-11
+UniRef90_A0A099DMB6 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A099TLE3 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_E6WYG5 Probable transcriptional regulatory protein Nits...    75   2e-11
+UniRef90_A0A1G1XMP5 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_UPI000837CB1E YebC/PmpR family DNA-binding transcriptio...    75   2e-11
+UniRef90_A0A0S7C4Z8 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A0A1J5KGC3 Probable transcriptional regulatory protein ...    75   3e-11
+UniRef90_UPI00041E048B YebC/PmpR family DNA-binding transcriptio...    75   3e-11
+UniRef90_A0A1M5A3Y2 Probable transcriptional regulatory protein ...    75   3e-11
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A0F0A0C2 Probable transcriptional regulatory protein ...    75   2e-11
+UniRef90_A3UAM7 Probable transcriptional regulatory protein CA25...    75   2e-11
+
+>UniRef90_L0FY07 Probable transcriptional regulatory protein Echvi_1239 n=2
+           Tax=Echinicola TaxID=390846 RepID=L0FY07_ECHVK
+          Length = 235
+
+ Score =  104 bits (262), Expect = 2e-20,   Method: Composition-based stats.
+ Identities = 24/74 (32%), Positives = 39/74 (52%), Gaps = 5/74 (6%)
+
+Query: 1   FNRKSVFECLKNEVENLKLSLEDLEFALIDYGLEELEEVEDKIIIRGDYNSFKLLNEGFE 60
+           F+ K+VF   K E       +E+LE  LID+GLE+++E E +I I  ++  F  + +  E
+Sbjct: 131 FDHKAVFRFPKGEH-----DMEELELELIDFGLEDIDENEGEIFIYTEFEDFGNMQKALE 185
+
+Query: 61  SLKLPILKASLQRI 74
+              + +  A  QR 
+Sbjct: 186 DKNIEVTSADFQRF 199
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A1W9QW61 Probable transcriptional regulatory protein ...    99   5e-19
+UniRef90_L0FY07 Probable transcriptional regulatory protein Echv...    99   1e-18
+UniRef90_A0A173UQZ0 Probable transcriptional regulatory protein ...    99   1e-18
+UniRef90_A0A136PA74 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A0S8JU01 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A0Q4B689 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A1V6HVS9 Probable transcriptional regulatory protein ...    98   2e-18
+UniRef90_A0A1E4ANI6 Probable transcriptional regulatory protein ...    98   3e-18
+UniRef90_C4ZBH1 Probable transcriptional regulatory protein EUBR...    97   3e-18
+UniRef90_R5FXG3 Probable transcriptional regulatory protein BN78...    97   4e-18
+UniRef90_A0A1T5BHS4 Probable transcriptional regulatory protein ...    97   4e-18
+UniRef90_A0A0S7BX90 Probable transcriptional regulatory protein ...    97   4e-18
+UniRef90_R5JW63 Probable transcriptional regulatory protein BN74...    97   5e-18
+UniRef90_A0A1W9QYN5 Probable transcriptional regulatory protein ...    97   5e-18
+UniRef90_A0A1C6J6Z3 Probable transcriptional regulatory protein ...    96   5e-18
+UniRef90_A0A1C6EAE8 Probable transcriptional regulatory protein ...    96   6e-18
+UniRef90_A0A1C6FJS3 Probable transcriptional regulatory protein ...    96   8e-18
+UniRef90_A0A1D3TPD5 Probable transcriptional regulatory protein ...    96   9e-18
+UniRef90_D4J8H8 Probable transcriptional regulatory protein CC1_...    96   1e-17
+UniRef90_A0A1Y4IHI0 Probable transcriptional regulatory protein ...    96   1e-17
+UniRef90_A0A1M4ZHR5 Probable transcriptional regulatory protein ...    96   1e-17
+UniRef90_W2UR49 Probable transcriptional regulatory protein P278...    95   1e-17
+UniRef90_F2JRJ1 Probable transcriptional regulatory protein Clol...    95   1e-17
+UniRef90_A0A1C5X919 Probable transcriptional regulatory protein ...    95   1e-17
+UniRef90_A0A1C5LZQ2 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_R7ZWM9 Probable transcriptional regulatory protein ADIS...    95   2e-17
+UniRef90_A0A1Q6EG39 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_UPI0003479E45 YebC/PmpR family DNA-binding transcriptio...    95   2e-17
+UniRef90_A0A1F3JMF1 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_R5CRW0 Probable transcriptional regulatory protein BN45...    95   2e-17
+UniRef90_A0A174JWP4 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_A0A1T4K235 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_A0A1Q9JWW5 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_D4LTF1 Probable transcriptional regulatory protein CK5_...    95   2e-17
+UniRef90_A0A1C5SL34 Probable transcriptional regulatory protein ...    95   2e-17
+UniRef90_K1LX02 Probable transcriptional regulatory protein HMPR...    95   2e-17
+UniRef90_W7QMT9 Probable transcriptional regulatory protein KLA_...    94   3e-17
+UniRef90_R5XXB7 Probable transcriptional regulatory protein BN71...    94   3e-17
+UniRef90_A0A1C5Z703 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_T0PTH2 Probable transcriptional regulatory protein C874...    94   3e-17
+UniRef90_A0A1G4GAA8 Probable transcriptional regulatory protein ...    94   3e-17
+UniRef90_H8KY50 Probable transcriptional regulatory protein Solc...    94   3e-17
+UniRef90_UPI00088B0D6A YebC/PmpR family DNA-binding transcriptio...    94   3e-17
+UniRef90_R6VWQ3 Probable transcriptional regulatory protein BN80...    94   3e-17
+UniRef90_A0A1M6LQM4 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_A0A1V6JPC8 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_A0A1F3KUM7 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_R7F6P8 Probable transcriptional regulatory protein BN62...    94   4e-17
+UniRef90_A0A1J5ERQ3 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_A0A074L0X7 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_UPI0003F9F7DB YebC/PmpR family DNA-binding transcriptio...    94   4e-17
+UniRef90_A0A1F3CZD4 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_UPI0004039913 YebC/PmpR family DNA-binding transcriptio...    94   4e-17
+UniRef90_UPI00047CADFD YebC/PmpR family DNA-binding transcriptio...    94   4e-17
+UniRef90_A0A1B9XYZ9 Probable transcriptional regulatory protein ...    94   4e-17
+UniRef90_D9PMF3 Uncharacterized protein yebC n=1 Tax=sediment me...    93   5e-17
+UniRef90_A0A1M3MBG7 Probable transcriptional regulatory protein ...    93   5e-17
+UniRef90_F3B9N0 Probable transcriptional regulatory protein HMPR...    93   5e-17
+UniRef90_C6LCF1 Probable transcriptional regulatory protein BRYF...    93   5e-17
+UniRef90_R5Z178 Probable transcriptional regulatory protein BN49...    93   5e-17
+UniRef90_A0A1W9SPF4 Probable transcriptional regulatory protein ...    93   5e-17
+UniRef90_A0A174QEH6 Probable transcriptional regulatory protein ...    93   5e-17
+UniRef90_A0A1T4XFP7 Probable transcriptional regulatory protein ...    93   6e-17
+UniRef90_A0A173YUR0 Probable transcriptional regulatory protein ...    93   6e-17
+UniRef90_A0A1V5JLQ2 Probable transcriptional regulatory protein ...    93   6e-17
+UniRef90_A0A132HZY3 Probable transcriptional regulatory protein ...    93   6e-17
+UniRef90_UPI00088697D4 YebC/PmpR family DNA-binding transcriptio...    93   6e-17
+UniRef90_UPI0003826083 YebC/PmpR family DNA-binding transcriptio...    93   7e-17
+UniRef90_UPI0008E14221 YebC/PmpR family DNA-binding regulatory p...    93   7e-17
+UniRef90_R5M484 Probable transcriptional regulatory protein BN50...    93   7e-17
+UniRef90_H1HWA0 Probable transcriptional regulatory protein HMPR...    93   7e-17
+UniRef90_A0A0C1D7F6 Probable transcriptional regulatory protein ...    93   7e-17
+UniRef90_A0A1F3LZM6 Probable transcriptional regulatory protein ...    93   7e-17
+UniRef90_B8I4L5 Probable transcriptional regulatory protein Ccel...    93   8e-17
+UniRef90_G9RZW9 Probable transcriptional regulatory protein HMPR...    93   8e-17
+UniRef90_R7RQH5 Probable transcriptional regulatory protein TCEL...    93   8e-17
+UniRef90_A0A174RHH7 Probable transcriptional regulatory protein ...    93   8e-17
+UniRef90_A0A0R2QXY4 Probable transcriptional regulatory protein ...    93   9e-17
+UniRef90_A0A1C2BRV8 Probable transcriptional regulatory protein ...    93   9e-17
+UniRef90_H1PZI0 Probable transcriptional regulatory protein HMPR...    93   9e-17
+UniRef90_A0A0J7LNS2 Probable transcriptional regulatory protein ...    93   9e-17
+UniRef90_A0A1R3SSP7 Probable transcriptional regulatory protein ...    93   9e-17
+UniRef90_UPI0004DF7D58 YebC/PmpR family DNA-binding transcriptio...    93   9e-17
+UniRef90_UPI000248F872 YebC/PmpR family DNA-binding transcriptio...    93   9e-17
+UniRef90_C5EUB6 Probable transcriptional regulatory protein CBFG...    93   1e-16
+UniRef90_UPI000930591B YebC/PmpR family DNA-binding transcriptio...    93   1e-16
+UniRef90_A0A1L7I3E9 Probable transcriptional regulatory protein ...    93   1e-16
+UniRef90_A0A1J5APP9 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_UPI00088EF672 YebC/PmpR family DNA-binding regulatory p...    92   1e-16
+UniRef90_A0A0S8HLE8 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A4AQY7 Probable transcriptional regulatory protein FB21...    92   1e-16
+UniRef90_D5BEE9 Probable transcriptional regulatory protein ZPR_...    92   1e-16
+UniRef90_A0A1M6AF05 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A1V6BDN2 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A9QVV6 Probable transcriptional regulatory protein P25 ...    92   1e-16
+UniRef90_A0A1M4N7W5 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A1M3CYF3 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_F7KA82 Probable transcriptional regulatory protein HMPR...    92   1e-16
+UniRef90_R5JGF5 Probable transcriptional regulatory protein BN78...    92   1e-16
+UniRef90_A0A1F3DMI8 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A1C5KFS2 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_R6DDA5 Probable transcriptional regulatory protein BN54...    92   1e-16
+UniRef90_A0A1Q9K0P2 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A6GXW2 Probable transcriptional regulatory protein FP08...    92   1e-16
+UniRef90_A0A1M3DZQ6 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A1Y3W5N9 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A0F9RA65 Uncharacterized protein n=2 Tax=root TaxID=1...    92   1e-16
+UniRef90_A0A1Y4TRB0 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_R5AUU2 Probable transcriptional regulatory protein BN45...    92   1e-16
+UniRef90_A0A1J5HX87 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A1V6EMZ9 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_A0A0E9LSF0 Probable transcriptional regulatory protein ...    92   1e-16
+UniRef90_I0WG37 Probable transcriptional regulatory protein W5A_...    92   1e-16
+UniRef90_R5CYL4 Probable transcriptional regulatory protein BN79...    92   1e-16
+UniRef90_B6FN87 Probable transcriptional regulatory protein CLON...    92   2e-16
+UniRef90_A0A174ISP7 Probable transcriptional regulatory protein ...    92   2e-16
+UniRef90_UPI000B358DEA YebC/PmpR family DNA-binding transcriptio...    92   2e-16
+UniRef90_A5FGS7 Probable transcriptional regulatory protein Fjoh...    92   2e-16
+UniRef90_D5V562 Probable transcriptional regulatory protein Arni...    92   2e-16
+UniRef90_A3XNS2 Probable transcriptional regulatory protein MED2...    91   2e-16
+UniRef90_D4M634 Probable transcriptional regulatory protein RTO_...    91   2e-16
+UniRef90_R6C133 Probable transcriptional regulatory protein HMPR...    91   2e-16
+UniRef90_F3B050 Probable transcriptional regulatory protein HMPR...    91   2e-16
+UniRef90_A0A1M4W8W4 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_A0A1T4VZU6 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_UPI00054F52C3 YebC/PmpR family DNA-binding transcriptio...    91   2e-16
+UniRef90_A0A1Q3QCR0 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_UPI0004266667 YebC/PmpR family DNA-binding transcriptio...    91   2e-16
+UniRef90_R5T5R7 Probable transcriptional regulatory protein BN77...    91   2e-16
+UniRef90_UPI000472B2A1 YebC/PmpR family DNA-binding transcriptio...    91   2e-16
+UniRef90_A0A1V5MW31 Probable transcriptional regulatory protein ...    91   2e-16
+UniRef90_A0A1H3FBC2 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_UPI0003FDAEC0 YebC/PmpR family DNA-binding transcriptio...    91   3e-16
+UniRef90_UPI00094F89AC YebC/PmpR family DNA-binding transcriptio...    91   3e-16
+UniRef90_UPI0008EA293A YebC/PmpR family DNA-binding regulatory p...    91   3e-16
+UniRef90_A0A081SGJ8 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A1H9PSM2 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A1M4S7T3 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A0H5SE45 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A1D7XV06 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_R6LSQ0 Probable transcriptional regulatory protein BN55...    91   3e-16
+UniRef90_A0A0L8VE36 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A0A2E7H1 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A0P7AW63 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A1D7Y234 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_A0A1Y4RVU2 Probable transcriptional regulatory protein ...    91   3e-16
+UniRef90_UPI00087EC986 YebC/PmpR family DNA-binding regulatory p...    91   4e-16
+UniRef90_L1NZ16 Probable transcriptional regulatory protein HMPR...    91   4e-16
+UniRef90_R5CP28 Probable transcriptional regulatory protein BN56...    91   4e-16
+UniRef90_R5ICA6 Probable transcriptional regulatory protein BN79...    91   4e-16
+UniRef90_A0A174KPP9 Probable transcriptional regulatory protein ...    91   4e-16
+UniRef90_U5Q5V8 Probable transcriptional regulatory protein BRDC...    91   4e-16
+UniRef90_A0A136WFX0 Probable transcriptional regulatory protein ...    91   4e-16
+UniRef90_A0A0R2H4R5 Probable transcriptional regulatory protein ...    91   4e-16
+UniRef90_A0A1C7I7M1 Probable transcriptional regulatory protein ...    91   4e-16
+UniRef90_A0A1J0LHL0 Probable transcriptional regulatory protein ...    91   4e-16
+UniRef90_R6ZCD8 Probable transcriptional regulatory protein BN69...    90   4e-16
+UniRef90_A0A1W1YZ63 Probable transcriptional regulatory protein ...    90   4e-16
+UniRef90_R9MDU4 Probable transcriptional regulatory protein C818...    90   4e-16
+UniRef90_A0A1B3WGG6 Probable transcriptional regulatory protein ...    90   4e-16
+UniRef90_A0A1V5G8I6 Probable transcriptional regulatory protein ...    90   4e-16
+UniRef90_UPI00064586A5 YebC/PmpR family DNA-binding transcriptio...    90   4e-16
+UniRef90_B0MCI8 Probable transcriptional regulatory protein ANAC...    90   4e-16
+UniRef90_A0A1M3II56 Probable transcriptional regulatory protein ...    90   4e-16
+UniRef90_A0A1V6I400 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_A0A0K8J6Y1 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_K1Z198 Uncharacterized protein n=1 Tax=groundwater meta...    90   5e-16
+UniRef90_UPI0004084459 YebC/PmpR family DNA-binding transcriptio...    90   5e-16
+UniRef90_UPI00098D2BFD YebC/PmpR family DNA-binding regulatory p...    90   5e-16
+UniRef90_UPI000B880270 YebC/PmpR family DNA-binding transcriptio...    90   5e-16
+UniRef90_A0A0Q1FV00 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_A0A1V5S1R6 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_A0A1F3GN98 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_A0A0C1ESE6 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_G5HB76 Probable transcriptional regulatory protein HMPR...    90   5e-16
+UniRef90_A0A1T5G1I4 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_A0A0P7YHY9 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_A0A098BWI3 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_UPI00082A954A YebC/PmpR family DNA-binding transcriptio...    90   6e-16
+UniRef90_Q03EU1 Probable transcriptional regulatory protein PEPE...    90   6e-16
+UniRef90_UPI000A19E52B YebC/PmpR family DNA-binding transcriptio...    90   6e-16
+UniRef90_UPI000B35219B YebC/PmpR family DNA-binding transcriptio...    90   6e-16
+UniRef90_A0A1W1XBA1 Probable transcriptional regulatory protein ...    90   6e-16
+UniRef90_UPI000887C417 YebC/PmpR family DNA-binding transcriptio...    90   6e-16
+UniRef90_UPI00089957D0 YebC/PmpR family DNA-binding regulatory p...    90   6e-16
+UniRef90_UPI0008D8E303 YebC/PmpR family DNA-binding transcriptio...    90   6e-16
+UniRef90_UPI0004E15720 YebC/PmpR family DNA-binding transcriptio...    90   6e-16
+UniRef90_A0A0B5RHM5 Probable transcriptional regulatory protein ...    90   6e-16
+UniRef90_UPI0003710813 YebC/PmpR family DNA-binding transcriptio...    90   6e-16
+UniRef90_A0A161X2P6 Probable transcriptional regulatory protein ...    90   6e-16
+UniRef90_UPI00047DB54B YebC/PmpR family DNA-binding transcriptio...    90   6e-16
+UniRef90_A0A1F3ENL2 Probable transcriptional regulatory protein ...    90   6e-16
+UniRef90_H1DKN8 Probable transcriptional regulatory protein HMPR...    90   7e-16
+UniRef90_F4KT53 Probable transcriptional regulatory protein Halh...    90   7e-16
+UniRef90_C9L5N8 Probable transcriptional regulatory protein BLAH...    90   7e-16
+UniRef90_R5I8W8 Probable transcriptional regulatory protein BN72...    90   7e-16
+UniRef90_D9RAA9 Probable transcriptional regulatory protein Clos...    90   7e-16
+UniRef90_A0A1J4TNH6 Probable transcriptional regulatory protein ...    90   7e-16
+UniRef90_UPI0008E93650 YebC/PmpR family DNA-binding transcriptio...    90   7e-16
+UniRef90_R9JBS1 Probable transcriptional regulatory protein C807...    90   8e-16
+UniRef90_A0A098LFV7 Probable transcriptional regulatory protein ...    90   8e-16
+UniRef90_A0A1J5F1L0 Probable transcriptional regulatory protein ...    90   8e-16
+UniRef90_A0A151AR50 Probable transcriptional regulatory protein ...    90   8e-16
+UniRef90_A0A1H5UU69 Probable transcriptional regulatory protein ...    90   8e-16
+UniRef90_A0A1V4IU74 Probable transcriptional regulatory protein ...    90   8e-16
+UniRef90_I7LHQ2 Probable transcriptional regulatory protein CAAU...    90   8e-16
+UniRef90_R9IWC2 Probable transcriptional regulatory protein C806...    90   8e-16
+UniRef90_R6C1P7 Probable transcriptional regulatory protein BN55...    90   8e-16
+UniRef90_A0A0D5YUQ2 Probable transcriptional regulatory protein ...    89   8e-16
+UniRef90_A0A125S3R1 Probable transcriptional regulatory protein ...    89   9e-16
+UniRef90_UPI00047CE701 YebC/PmpR family DNA-binding transcriptio...    89   9e-16
+UniRef90_A0A1L3J6K6 Probable transcriptional regulatory protein ...    89   9e-16
+UniRef90_A0A085BPS0 Probable transcriptional regulatory protein ...    89   9e-16
+UniRef90_UPI0004264078 YebC/PmpR family DNA-binding transcriptio...    89   9e-16
+UniRef90_R4KBC1 Probable transcriptional regulatory protein Clop...    89   1e-15
+UniRef90_A0A1V5F4Y9 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A0A1Y4EX00 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_F0Z180 Probable transcriptional regulatory protein HMPR...    89   1e-15
+UniRef90_A0M1H3 Probable transcriptional regulatory protein GFO_...    89   1e-15
+UniRef90_UPI0008833292 YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_A0A0D0I4P7 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_UPI00082F68CF YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_R7IUT0 Probable transcriptional regulatory protein BN57...    89   1e-15
+UniRef90_A0A1V5YPL9 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_U2CJQ2 Probable transcriptional regulatory protein HMPR...    89   1e-15
+UniRef90_UPI00058C8932 YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_UPI0004E1697E YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_UPI0004812DA6 YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_E6XDP6 Probable transcriptional regulatory protein Cela...    89   1e-15
+UniRef90_A3J7J9 Probable transcriptional regulatory protein FBBA...    89   1e-15
+UniRef90_UPI0008F44E70 YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_A0A0R1R305 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A0A0D0QLY7 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_A0A1J5AQZ0 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_R7M895 Probable transcriptional regulatory protein BN71...    89   1e-15
+UniRef90_A0A1J4TC16 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_R6XYE5 Probable transcriptional regulatory protein BN66...    89   1e-15
+UniRef90_A1ZW92 Probable transcriptional regulatory protein M231...    89   1e-15
+UniRef90_A0A1L3JIL7 Probable transcriptional regulatory protein ...    89   1e-15
+UniRef90_C6X235 Probable transcriptional regulatory protein FIC_...    89   1e-15
+UniRef90_UPI0004810CEB YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_A5Z6P8 Probable transcriptional regulatory protein EUBV...    89   1e-15
+UniRef90_UPI0003757074 YebC/PmpR family DNA-binding transcriptio...    89   1e-15
+UniRef90_F5J414 Probable transcriptional regulatory protein HMPR...    89   1e-15
+UniRef90_A0PZU0 Probable transcriptional regulatory protein NT01...    88   1e-15
+UniRef90_A3XPB1 Probable transcriptional regulatory protein MED2...    88   1e-15
+UniRef90_A5I6F4 Probable transcriptional regulatory protein CBO3...    88   2e-15
+UniRef90_A0A1Q6UXD1 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_R5ZND6 Probable transcriptional regulatory protein BN68...    88   2e-15
+UniRef90_A0A1M5CEL0 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A212JVU5 Putative transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A1M4ZXS5 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A1A5VD46 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_W0ESR1 Probable transcriptional regulatory protein BARV...    88   2e-15
+UniRef90_A0A060R9Z4 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_I0KBS2 Probable transcriptional regulatory protein FAES...    88   2e-15
+UniRef90_R7A144 Probable transcriptional regulatory protein BN62...    88   2e-15
+UniRef90_A0A1F3CBR3 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_R8W1K1 Probable transcriptional regulatory protein HMPR...    88   2e-15
+UniRef90_A0A1M3L5L4 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_UPI000555FEA3 YebC/PmpR family DNA-binding transcriptio...    88   2e-15
+UniRef90_A0A084J939 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A1M5KQ68 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_F6GHN3 Probable transcriptional regulatory protein Laca...    88   2e-15
+UniRef90_A0A1T4WUM0 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A0C2V5Z3 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A142EJ36 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_K1SIN0 Protein containing DUF28 (Fragment) n=1 Tax=huma...    88   2e-15
+UniRef90_A0A1M5P660 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_UPI0008C7E562 YebC/PmpR family DNA-binding regulatory p...    88   2e-15
+UniRef90_A0A151B590 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_A0A1N7KMU1 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_G8M3B0 Probable transcriptional regulatory protein Cloc...    88   3e-15
+UniRef90_A0A1V6AJU4 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_G2PPH8 Probable transcriptional regulatory protein Murr...    88   3e-15
+UniRef90_A0A017RYZ5 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_G5GGZ1 Probable transcriptional regulatory protein HMPR...    88   3e-15
+UniRef90_UPI0004E0F0FC YebC/PmpR family DNA-binding transcriptio...    88   3e-15
+UniRef90_A0A1F3EB43 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_C6PXP4 Probable transcriptional regulatory protein Ccar...    88   3e-15
+UniRef90_R6FXA5 Probable transcriptional regulatory protein BN52...    88   3e-15
+UniRef90_A0A1F3IUQ7 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_R7PAX4 Probable transcriptional regulatory protein BN73...    88   3e-15
+UniRef90_E4RT52 Probable transcriptional regulatory protein Lbys...    88   3e-15
+UniRef90_A0A1F3PQ55 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_A0A1Y3WF17 Probable transcriptional regulatory protein ...    88   3e-15
+UniRef90_C7PUA6 Probable transcriptional regulatory protein Cpin...    88   3e-15
+UniRef90_E1X4B8 Probable transcriptional regulatory protein BMS_...    87   3e-15
+UniRef90_D4MXV5 Probable transcriptional regulatory protein CL2_...    87   3e-15
+UniRef90_A0A1Q3ZFI9 Probable transcriptional regulatory protein ...    87   3e-15
+UniRef90_A0A168MHT3 Probable transcriptional regulatory protein ...    87   3e-15
+UniRef90_A0A0A2TIK3 Probable transcriptional regulatory protein ...    87   3e-15
+UniRef90_A0A1J5KKB9 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_A0A1M6CV18 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_R5XZJ2 Probable transcriptional regulatory protein BN53...    87   4e-15
+UniRef90_Q97GS1 Probable transcriptional regulatory protein CA_C...    87   4e-15
+UniRef90_A0A1S9PD59 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_UPI0003640D36 YebC/PmpR family DNA-binding transcriptio...    87   4e-15
+UniRef90_F4AXX6 Probable transcriptional regulatory protein Krod...    87   4e-15
+UniRef90_A0A1M6TQN5 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_A9E3T2 Probable transcriptional regulatory protein KAOT...    87   4e-15
+UniRef90_A0A023BV26 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_A0A1B1FR76 Probable transcriptional regulatory protein ...    87   4e-15
+UniRef90_B7ATJ8 Probable transcriptional regulatory protein BACP...    87   4e-15
+UniRef90_D2QCI2 Probable transcriptional regulatory protein Slin...    87   4e-15
+UniRef90_UPI00048360A9 YebC/PmpR family DNA-binding transcriptio...    87   4e-15
+UniRef90_UPI0007168692 YebC/PmpR family DNA-binding transcriptio...    87   4e-15
+UniRef90_UPI000371DF52 YebC/PmpR family DNA-binding transcriptio...    87   4e-15
+UniRef90_UPI000A1CCDC4 YebC/PmpR family DNA-binding regulatory p...    87   4e-15
+UniRef90_UPI00085CAD9E YebC/PmpR family DNA-binding transcriptio...    87   5e-15
+UniRef90_A0A1J5FSP0 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A1G3UZZ8 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_R7GBT7 Probable transcriptional regulatory protein BN65...    87   5e-15
+UniRef90_F8NA88 Probable transcriptional regulatory protein Prem...    87   5e-15
+UniRef90_A0A0C2ZM06 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_W6RXK2 Probable transcriptional regulatory protein CM24...    87   5e-15
+UniRef90_UPI00049662F8 YebC/PmpR family DNA-binding transcriptio...    87   5e-15
+UniRef90_R7IHS4 Probable transcriptional regulatory protein BN77...    87   5e-15
+UniRef90_A0A1H1MY03 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A1F3IIC8 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A1C6IS18 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A1J5F8V9 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_A0A1M5YDJ0 Probable transcriptional regulatory protein ...    87   5e-15
+UniRef90_Q65GN7 Probable transcriptional regulatory protein BLi0...    86   6e-15
+UniRef90_A0A0P8YYX4 Probable transcriptional regulatory protein ...    86   6e-15
+UniRef90_A0A1J4T978 Probable transcriptional regulatory protein ...    86   6e-15
+UniRef90_A0A1F3LNB7 Probable transcriptional regulatory protein ...    86   6e-15
+UniRef90_A0A1F3E912 Probable transcriptional regulatory protein ...    86   6e-15
+UniRef90_R5DS26 Probable transcriptional regulatory protein BN79...    86   6e-15
+UniRef90_E9RTQ5 Uncharacterized protein (Fragment) n=1 Tax=Lachn...    86   6e-15
+UniRef90_F0NZG1 Probable transcriptional regulatory protein Weev...    86   6e-15
+UniRef90_UPI0004E1A115 YebC/PmpR family DNA-binding transcriptio...    86   6e-15
+UniRef90_R9N625 Probable transcriptional regulatory protein C819...    86   6e-15
+UniRef90_UPI000428A3DE YebC/PmpR family DNA-binding transcriptio...    86   6e-15
+UniRef90_R6HBG0 Probable transcriptional regulatory protein BN57...    86   6e-15
+UniRef90_UPI000884A1FD YebC/PmpR family DNA-binding transcriptio...    86   6e-15
+UniRef90_N1WXP7 Probable transcriptional regulatory protein pgon...    86   6e-15
+UniRef90_A0A1M6EPT4 Probable transcriptional regulatory protein ...    86   7e-15
+UniRef90_A0A1V5GH04 Probable transcriptional regulatory protein ...    86   7e-15
+UniRef90_D1B115 Probable transcriptional regulatory protein Sdel...    86   7e-15
+UniRef90_UPI000880427E YebC/PmpR family DNA-binding transcriptio...    86   7e-15
+UniRef90_UPI00048267BC YebC/PmpR family DNA-binding transcriptio...    86   7e-15
+UniRef90_UPI000731BBE7 YebC/PmpR family DNA-binding transcriptio...    86   8e-15
+UniRef90_A0A1G0CKN6 Probable transcriptional regulatory protein ...    86   8e-15
+UniRef90_UPI0008E47D40 YebC/PmpR family DNA-binding regulatory p...    86   8e-15
+UniRef90_A0A136MRF0 Probable transcriptional regulatory protein ...    86   9e-15
+UniRef90_A0A136NGE1 Probable transcriptional regulatory protein ...    86   9e-15
+UniRef90_A0A0R2VH77 Probable transcriptional regulatory protein ...    86   9e-15
+UniRef90_A0A1F3T9B8 Probable transcriptional regulatory protein ...    86   9e-15
+UniRef90_UPI00098864F4 YebC/PmpR family DNA-binding transcriptio...    86   9e-15
+UniRef90_A0A101VZ00 Probable transcriptional regulatory protein ...    86   9e-15
+UniRef90_A3DH53 Probable transcriptional regulatory protein Cthe...    86   9e-15
+UniRef90_R9JSZ5 Probable transcriptional regulatory protein C804...    86   9e-15
+UniRef90_UPI000876519A YebC/PmpR family DNA-binding transcriptio...    86   1e-14
+UniRef90_A0A1Q3N0Q2 Probable transcriptional regulatory protein ...    86   1e-14
+UniRef90_R6PC43 Probable transcriptional regulatory protein BN58...    86   1e-14
+UniRef90_F2IB76 Probable transcriptional regulatory protein Flut...    86   1e-14
+UniRef90_Q7MXR6 Probable transcriptional regulatory protein PG_0...    86   1e-14
+UniRef90_E0NUU2 Probable transcriptional regulatory protein HMPR...    86   1e-14
+UniRef90_UPI000761EF73 YebC/PmpR family DNA-binding transcriptio...    86   1e-14
+UniRef90_E4M8E8 Probable transcriptional regulatory protein HMPR...    86   1e-14
+UniRef90_I2ETG1 Probable transcriptional regulatory protein Emto...    86   1e-14
+UniRef90_A0A1W2GGV0 Probable transcriptional regulatory protein ...    86   1e-14
+UniRef90_C5D5F1 Probable transcriptional regulatory protein GWCH...    86   1e-14
+UniRef90_A0A0K8QZ78 Probable transcriptional regulatory protein ...    86   1e-14
+UniRef90_A0A1S6U7P1 Probable transcriptional regulatory protein ...    86   1e-14
+UniRef90_UPI00056ECBB5 YebC/PmpR family DNA-binding transcriptio...    86   1e-14
+UniRef90_A0A1F3MFD9 Probable transcriptional regulatory protein ...    86   1e-14
+UniRef90_UPI00047DAC5E YebC/PmpR family DNA-binding transcriptio...    86   1e-14
+UniRef90_T0T0G5 Probable transcriptional regulatory protein M899...    85   1e-14
+UniRef90_A0A085KZT0 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_A0A1Q3XAA6 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_E0UR99 Probable transcriptional regulatory protein Saut...    85   1e-14
+UniRef90_A0A0E3ZFM6 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_R6HD25 Probable transcriptional regulatory protein BN71...    85   1e-14
+UniRef90_A0A1F3KBQ4 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_UPI00063F47B8 YebC/PmpR family DNA-binding transcriptio...    85   1e-14
+UniRef90_R5B5R2 Probable transcriptional regulatory protein BN81...    85   1e-14
+UniRef90_UPI00036E107C YebC/PmpR family DNA-binding transcriptio...    85   1e-14
+UniRef90_A0A1V5VYJ7 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_S6ES88 Probable transcriptional regulatory protein CCH0...    85   1e-14
+UniRef90_A0A0H4W8R6 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_R5BJQ9 Probable transcriptional regulatory protein BN45...    85   1e-14
+UniRef90_UPI000896668B YebC/PmpR family DNA-binding regulatory p...    85   1e-14
+UniRef90_G9QQ40 Probable transcriptional regulatory protein HMPR...    85   1e-14
+UniRef90_A0A1J1ECR7 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A1C6ALU8 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_R9GWD1 Probable transcriptional regulatory protein ADIA...    85   2e-14
+UniRef90_B6BMS2 Probable transcriptional regulatory protein SMGD...    85   2e-14
+UniRef90_A0A1F3EBC4 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_H1Y9G7 Probable transcriptional regulatory protein Mucp...    85   2e-14
+UniRef90_A0A1B1SAZ2 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A1M4WL79 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_UPI0006E39399 YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_A6M152 Probable transcriptional regulatory protein Cbei...    85   2e-14
+UniRef90_A0A0P8VTR6 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_Q5KWQ7 Probable transcriptional regulatory protein GK25...    85   2e-14
+UniRef90_A0A1M4UAP2 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A1F3C900 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_W4VIK6 Probable transcriptional regulatory protein JCM2...    85   2e-14
+UniRef90_UPI00041B9342 YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_A0A1W1E8S7 Uncharacterized protein n=1 Tax=hydrothermal...    85   2e-14
+UniRef90_UPI000824F825 YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_A0A0W8EF85 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_I3ECY3 Probable transcriptional regulatory protein BMMG...    85   2e-14
+UniRef90_A0A1Y1CPG1 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_R5CL91 Probable transcriptional regulatory protein BN78...    85   2e-14
+UniRef90_K0AVZ2 Probable transcriptional regulatory protein Curi...    85   2e-14
+UniRef90_G0IUS0 Probable transcriptional regulatory protein Cycm...    85   2e-14
+UniRef90_UPI000945CB06 YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_R5AHD0 Probable transcriptional regulatory protein BN45...    85   2e-14
+UniRef90_UPI0008E63FD5 YebC/PmpR family DNA-binding regulatory p...    85   3e-14
+UniRef90_UPI00082C5E67 YebC/PmpR family DNA-binding transcriptio...    85   3e-14
+UniRef90_A0A0A7FTP0 Probable transcriptional regulatory protein ...    85   3e-14
+UniRef90_E4TQU0 Probable transcriptional regulatory protein Ftra...    85   3e-14
+UniRef90_A0A1V5LS76 Probable transcriptional regulatory protein ...    85   3e-14
+UniRef90_R6RT34 Probable transcriptional regulatory protein HMPR...    85   3e-14
+UniRef90_UPI0003B34EFC YebC/PmpR family DNA-binding transcriptio...    85   3e-14
+UniRef90_A0A1E4HBD7 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_A0A069CTB4 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_A0A1S8LJV3 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_A0A1F5TMJ4 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_V2Z9T6 Probable transcriptional regulatory protein GCWU...    84   3e-14
+UniRef90_W3ARD3 Probable transcriptional regulatory protein UYO_...    84   3e-14
+UniRef90_A0A1M5QL07 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_UPI0006B4D722 YebC/PmpR family DNA-binding transcriptio...    84   3e-14
+UniRef90_A0A1W1D3I9 Uncharacterized protein n=1 Tax=hydrothermal...    84   3e-14
+UniRef90_I0JPC2 Probable transcriptional regulatory protein HBHA...    84   3e-14
+UniRef90_F7Z030 Probable transcriptional regulatory protein BCO2...    84   3e-14
+UniRef90_A0A117SI14 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_Q9ZNK0 Probable transcriptional regulatory protein ORF2...    84   3e-14
+UniRef90_T0RKZ1 Probable transcriptional regulatory protein M900...    84   3e-14
+UniRef90_A0A1G0BEP3 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_L8JK86 Probable transcriptional regulatory protein C900...    84   3e-14
+UniRef90_UPI0003FA7927 YebC/PmpR family DNA-binding transcriptio...    84   3e-14
+UniRef90_A0A1B2YU79 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_F6CQJ5 Probable transcriptional regulatory protein Desk...    84   3e-14
+UniRef90_UPI00088439A7 YebC/PmpR family DNA-binding transcriptio...    84   4e-14
+UniRef90_A0A1M6N691 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_A0A1M6P953 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_UPI0008F66703 YebC/PmpR family DNA-binding transcriptio...    84   4e-14
+UniRef90_A0A1M6BCI5 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_F2I8V4 Probable transcriptional regulatory protein HMPR...    84   4e-14
+UniRef90_UPI0008E46BAE YebC/PmpR family DNA-binding transcriptio...    84   4e-14
+UniRef90_A0A1V6JEG9 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_A0A133Y1H8 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_R6XXJ5 Probable transcriptional regulatory protein BN59...    84   4e-14
+UniRef90_Q7MRV4 Probable transcriptional regulatory protein WS10...    84   4e-14
+UniRef90_R7J3F1 Probable transcriptional regulatory protein BN79...    84   4e-14
+UniRef90_UPI0006CF8B90 YebC/PmpR family DNA-binding transcriptio...    84   4e-14
+UniRef90_G8TP86 Probable transcriptional regulatory protein Niak...    84   4e-14
+UniRef90_A0A1M3E5H8 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_A0A1V4R8B1 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_A0A1M6I503 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_T0N9Q2 Probable transcriptional regulatory protein M918...    84   5e-14
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1M6I8V7 Probable transcriptional regulatory protein ...    90   5e-16
+UniRef90_A0A0M6WHP2 Probable transcriptional regulatory protein ...    90   6e-16
+UniRef90_R5ELN7 Probable transcriptional regulatory protein BN72...    90   6e-16
+UniRef90_C0FYH0 Probable transcriptional regulatory protein ROSE...    89   1e-15
+UniRef90_UPI00087147E6 YebC/PmpR family DNA-binding transcriptio...    88   2e-15
+UniRef90_R5QKZ2 Probable transcriptional regulatory protein BN52...    88   2e-15
+UniRef90_A0A143XH15 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_A0A173QZ01 Probable transcriptional regulatory protein ...    88   2e-15
+UniRef90_R5YZ25 Probable transcriptional regulatory protein BN50...    88   3e-15
+UniRef90_R6GFG2 Probable transcriptional regulatory protein BN69...    88   3e-15
+UniRef90_UPI0008E25E5F YebC/PmpR family DNA-binding transcriptio...    87   4e-15
+UniRef90_R5P2A0 Probable transcriptional regulatory protein BN48...    87   5e-15
+UniRef90_R6BN18 Probable transcriptional regulatory protein BN70...    86   6e-15
+UniRef90_R5HD02 Probable transcriptional regulatory protein BN46...    86   7e-15
+UniRef90_A0A174G399 Probable transcriptional regulatory protein ...    86   7e-15
+UniRef90_R6YAK8 Probable transcriptional regulatory protein BN78...    86   7e-15
+UniRef90_A0A0K9NF89 Probable transcriptional regulatory protein ...    86   8e-15
+UniRef90_R7K2R6 Probable transcriptional regulatory protein BN58...    86   8e-15
+UniRef90_A0A173XKT8 Probable transcriptional regulatory protein ...    86   8e-15
+UniRef90_F7V6E5 Probable transcriptional regulatory protein CXIV...    86   9e-15
+UniRef90_A6NV05 Probable transcriptional regulatory protein BACC...    86   1e-14
+UniRef90_UPI000483C992 YebC/PmpR family DNA-binding transcriptio...    86   1e-14
+UniRef90_A9KMB4 Probable transcriptional regulatory protein Cphy...    85   1e-14
+UniRef90_A0A1M6NC54 Probable transcriptional regulatory protein ...    85   1e-14
+UniRef90_UPI0004112DEC YebC/PmpR family DNA-binding transcriptio...    85   1e-14
+UniRef90_E0S2C7 Probable transcriptional regulatory protein bpr_...    85   2e-14
+UniRef90_A0A0R3JVB0 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_A0A1I2MQQ7 Probable transcriptional regulatory protein ...    85   2e-14
+UniRef90_R6HVH3 Probable transcriptional regulatory protein BN49...    85   2e-14
+UniRef90_UPI0005D27184 YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_R7HAX9 Probable transcriptional regulatory protein BN63...    85   2e-14
+UniRef90_UPI00054DA6CB YebC/PmpR family DNA-binding transcriptio...    85   2e-14
+UniRef90_R7R039 Probable transcriptional regulatory protein BN52...    85   3e-14
+UniRef90_V7I550 Probable transcriptional regulatory protein T472...    85   3e-14
+UniRef90_R5W707 Probable transcriptional regulatory protein BN51...    84   3e-14
+UniRef90_R5NR34 Probable transcriptional regulatory protein BN78...    84   3e-14
+UniRef90_UPI00088D49B6 YebC/PmpR family DNA-binding transcriptio...    84   3e-14
+UniRef90_N2BFL7 Probable transcriptional regulatory protein C823...    84   3e-14
+UniRef90_D4RZY3 Probable transcriptional regulatory protein BUTY...    84   3e-14
+UniRef90_A0A1Y3YQX9 Probable transcriptional regulatory protein ...    84   3e-14
+UniRef90_A0A1C5M0T6 Probable transcriptional regulatory protein ...    84   4e-14
+UniRef90_UPI00047C12A3 YebC/PmpR family DNA-binding transcriptio...    84   4e-14
+UniRef90_Q891Z5 Probable transcriptional regulatory protein CTC_...    84   4e-14
+UniRef90_D9SN48 Probable transcriptional regulatory protein Cloc...    84   4e-14
+UniRef90_UPI0008F42C9E YebC/PmpR family DNA-binding transcriptio...    84   5e-14
+
+>UniRef90_A0A1W9QW61 Probable transcriptional regulatory protein B6D61_08655 n=1
+           Tax=Bacteroidetes bacterium 4484_249 TaxID=1970778
+           RepID=A0A1W9QW61_9BACT
+          Length = 246
+
+ Score =   99 bits (249), Expect = 5e-19,   Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 33/74 (44%), Gaps = 5/74 (6%)
+
+Query: 1   FNRKSVFECLKNEVENLKLSLEDLEFALIDYGLEELEEVEDKIIIRGDYNSFKLLNEGFE 60
+           F RK +F   K E     L  ++ E  +ID G E++E  ++   I      F  + +  E
+Sbjct: 133 FERKGIFTVPKGE-----LDADEFELEMIDAGAEDIEMEDEFFSITTAMEDFGNMQKKLE 187
+
+Query: 61  SLKLPILKASLQRI 74
+            + +    A LQRI
+Sbjct: 188 EMGIEPESAELQRI 201
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.315    0.203    0.636 
+
+Lambda     K      H
+   0.267   0.0624    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 19,509,655,585
+Number of Sequences: 61934301
+Number of extensions: 1148663116
+Number of successful extensions: 3971273
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 12218
+Number of HSP's successfully gapped in prelim test: 4883
+Number of HSP's that attempted gapping in prelim test: 3941571
+Number of HSP's gapped (non-prelim): 21760
+length of query: 75
+length of database: 21,023,703,129
+effective HSP length: 46
+effective length of query: 29
+effective length of database: 22,469,692,579
+effective search space: 651621084791
+effective search space used: 651621084791
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.9 bits)
+S2: 83 (36.0 bits)

@@ -1,0 +1,16 @@
+-in:file:fasta          1mw7A.fasta
+-in:path:database       /scratch/lpdi/bin/Rosetta/3.8/main/database/
+-in:file:vall           /scratch/lpdi/bin/Rosetta/tools/fragment_tools/vall.jul19.2011
+-frags:n_candidates     1000
+-frags:n_frags          200
+-frags:frag_sizes       9
+-out:file:frag_prefix   1mw7A
+-frags:scoring:config   1mw7A_scores9.cfg
+#-out:level 2000
+-in:file:checkpoint     1mw7A.checkpoint
+-frags:write_ca_coordinates
+-frags:describe_fragments 1mw7A_frags.9.score
+-spine_x                  1mw7A.fasta.phipsi
+
+
+-frags:ss_pred 1mw7A.psipred_ss2 psipred
