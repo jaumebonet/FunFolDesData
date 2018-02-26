@@ -1,0 +1,2299 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2pjhB
+         (79 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_L9L6K9 Transitional endoplasmic reticulum ATPase n=1 Ta...   177   3e-42
+UniRef90_A0A091DYJ0 Transitional endoplasmic reticulum ATPase n=...   177   3e-42
+UniRef90_G3HN14 Transitional endoplasmic reticulum ATPase n=1 Ta...   177   3e-42
+UniRef90_M7BUG3 Transitional endoplasmic reticulum ATPase n=10 T...   177   3e-42
+UniRef90_A0A0Q3UT71 Transitional endoplasmic reticulum ATPase n=...   177   3e-42
+UniRef90_S9WQY9 Uncharacterized protein n=2 Tax=Amniota TaxID=32...   176   4e-42
+UniRef90_UPI0006B200BB transitional endoplasmic reticulum ATPase...   175   1e-41
+UniRef90_UPI0007ACF483 transitional endoplasmic reticulum ATPase...   174   2e-41
+UniRef90_UPI0007040D96 transitional endoplasmic reticulum ATPase...   174   2e-41
+UniRef90_UPI0006D940A1 transitional endoplasmic reticulum ATPase...   173   3e-41
+UniRef90_UPI0008DB65B4 transitional endoplasmic reticulum ATPase...   173   4e-41
+UniRef90_UPI000766E109 Transitional endoplasmic reticulum ATPase...   173   4e-41
+UniRef90_P55072 Transitional endoplasmic reticulum ATPase n=86 T...   173   5e-41
+UniRef90_A0A1S3KY43 transitional endoplasmic reticulum ATPase-li...   172   5e-41
+UniRef90_UPI0005296D71 transitional endoplasmic reticulum ATPase...   172   5e-41
+UniRef90_P23787 Transitional endoplasmic reticulum ATPase n=168 ...   172   6e-41
+UniRef90_H3AWB6 Valosin containing protein n=2 Tax=Euteleostomi ...   172   6e-41
+UniRef90_A0A087V2G0 Transitional endoplasmic reticulum ATPase (F...   172   7e-41
+UniRef90_UPI00062AB731 transitional endoplasmic reticulum ATPase...   172   8e-41
+UniRef90_A0A060XT88 Uncharacterized protein n=1 Tax=Oncorhynchus...   172   8e-41
+UniRef90_M3VW05 Valosin containing protein n=6 Tax=Boreoeutheria...   172   8e-41
+UniRef90_A0A091KS87 Transitional endoplasmic reticulum ATPase (F...   172   8e-41
+UniRef90_A0A1V4K4Q5 Uncharacterized protein n=1 Tax=Patagioenas ...   171   2e-40
+UniRef90_A0A146WZ95 Transitional endoplasmic reticulum ATPase n=...   170   3e-40
+UniRef90_UPI0005549C97 transitional endoplasmic reticulum ATPase...   170   3e-40
+UniRef90_T1G9T6 Uncharacterized protein n=1 Tax=Helobdella robus...   169   8e-40
+UniRef90_UPI000511A1A1 LOW QUALITY PROTEIN: transitional endopla...   169   8e-40
+UniRef90_A0A0L8GAT1 Uncharacterized protein n=1 Tax=Octopus bima...   168   9e-40
+UniRef90_K1PVA1 Transitional endoplasmic reticulum ATPase n=6 Ta...   168   1e-39
+UniRef90_UPI000528ADA6 transitional endoplasmic reticulum ATPase...   168   1e-39
+UniRef90_UPI0001CBBDEA transitional endoplasmic reticulum ATPase...   167   2e-39
+UniRef90_UPI0005117377 transitional endoplasmic reticulum ATPase...   167   3e-39
+UniRef90_Q9HAP1 Valosin-containing protein (Fragment) n=1 Tax=Ho...   167   3e-39
+UniRef90_Q5CD25 Valosin containing protein-1 n=3 Tax=Bilateria T...   167   3e-39
+UniRef90_D6R706 Valosin-containing protein (Fragment) n=6 Tax=Eu...   167   4e-39
+UniRef90_C1BF87 Transitional endoplasmic reticulum ATPase n=4 Ta...   165   9e-39
+UniRef90_UPI0007BACC42 transitional endoplasmic reticulum ATPase...   164   2e-38
+UniRef90_UPI0005235547 transitional endoplasmic reticulum ATPase...   164   2e-38
+UniRef90_A7SJ61 Predicted protein n=5 Tax=Hexacorallia TaxID=610...   164   3e-38
+UniRef90_S4R8Y2 Uncharacterized protein n=6 Tax=Bilateria TaxID=...   163   3e-38
+UniRef90_A0A0P5YIG9 Transitional endoplasmic reticulum ATPase TE...   163   3e-38
+UniRef90_A0A0P6A4P4 Transitional endoplasmic reticulum ATPase TE...   163   4e-38
+UniRef90_A0A090XC75 Putative aaa+-type atpase (Fragment) n=3 Tax...   163   5e-38
+UniRef90_UPI000719D151 transitional endoplasmic reticulum ATPase...   163   5e-38
+UniRef90_A0A163LTG4 Uncharacterized protein n=11 Tax=Mucorales T...   163   5e-38
+UniRef90_W5LJN2 Zgc:136908 n=1 Tax=Astyanax mexicanus TaxID=7994...   162   5e-38
+UniRef90_A0A0N8DIU4 Transitional endoplasmic reticulum ATPase TE...   162   6e-38
+UniRef90_A0A0D2ULD9 Valosin-containing protein n=1 Tax=Capsaspor...   162   7e-38
+UniRef90_T1K516 Uncharacterized protein n=1 Tax=Tetranychus urti...   162   8e-38
+UniRef90_UPI0007195733 transitional endoplasmic reticulum ATPase...   162   8e-38
+UniRef90_A0A0P5SUW3 Transitional endoplasmic reticulum ATPase TE...   162   9e-38
+UniRef90_A0A0P5SKH7 Transitional endoplasmic reticulum ATPase TE...   162   9e-38
+UniRef90_Q20AI9 Cell division cycle CDC48 (Fragment) n=1 Tax=Ict...   162   9e-38
+UniRef90_G1KTE0 Uncharacterized protein n=16 Tax=Euteleostomi Ta...   162   9e-38
+UniRef90_A0A197JZ26 Transitional endoplasmic reticulum ATPase n=...   162   9e-38
+UniRef90_R7TPA8 Uncharacterized protein (Fragment) n=1 Tax=Capit...   162   9e-38
+UniRef90_UPI000440C35B transitional endoplasmic reticulum ATPase...   162   1e-37
+UniRef90_N6T9W3 Uncharacterized protein (Fragment) n=1 Tax=Dendr...   161   1e-37
+UniRef90_A7BFI9 Valosin containing protein n=19 Tax=Chelicerata ...   161   1e-37
+UniRef90_A0A1X7TSM5 Uncharacterized protein n=3 Tax=Amphimedon q...   161   1e-37
+UniRef90_A0A194QYV6 Transitional endoplasmic reticulum ATPase TE...   161   1e-37
+UniRef90_Q29RA2 Zgc:136908 n=7 Tax=Osteoglossocephalai TaxID=148...   161   1e-37
+UniRef90_A0A0P5R5P7 Transitional endoplasmic reticulum ATPase TE...   161   1e-37
+UniRef90_A0A1S3IKZ6 transitional endoplasmic reticulum ATPase is...   161   2e-37
+UniRef90_A0A1D2NH57 Transitional endoplasmic reticulum ATPase TE...   161   2e-37
+UniRef90_A0A0P5VG62 Transitional endoplasmic reticulum ATPase TE...   161   2e-37
+UniRef90_A0A0B7AKA6 Uncharacterized protein n=4 Tax=Euthyneura T...   161   2e-37
+UniRef90_A0A0P6GNJ8 Putative Transitional endoplasmic reticulum ...   160   2e-37
+UniRef90_V8NV43 Transitional endoplasmic reticulum ATPase (Fragm...   160   2e-37
+UniRef90_UPI0006B084A8 transitional endoplasmic reticulum ATPase...   160   3e-37
+UniRef90_A0A1D1UD02 Uncharacterized protein n=3 Tax=Hypsibiidae ...   160   3e-37
+UniRef90_A0A194QE63 Transitional endoplasmic reticulum ATPase TE...   160   3e-37
+UniRef90_A0A1D1YHL1 Transitional endoplasmic reticulum ATPase n=...   160   3e-37
+UniRef90_A0A0M0J3Z4 Transitional endoplasmic reticulum ATPase n=...   160   3e-37
+UniRef90_I1CHG1 Transitional endoplasmic reticulum ATPase n=6 Ta...   160   3e-37
+UniRef90_UPI00046BFE64 transitional endoplasmic reticulum ATPase...   160   3e-37
+UniRef90_A0A0L7LT18 Transitional endoplasmic reticulum ATPase TE...   160   4e-37
+UniRef90_A9V9M3 Predicted protein n=1 Tax=Monosiga brevicollis T...   159   5e-37
+UniRef90_A0A139A9D0 Transitional endoplasmic reticulum ATPase TE...   159   5e-37
+UniRef90_A0A0P4W3V4 Uncharacterized protein n=1 Tax=Scylla oliva...   159   8e-37
+UniRef90_B3S3Z3 Uncharacterized protein n=1 Tax=Trichoplax adhae...   159   9e-37
+UniRef90_UPI00042BC22F transitional endoplasmic reticulum ATPase...   159   9e-37
+UniRef90_A0A0L0HJQ5 Transitional endoplasmic reticulum ATPase n=...   158   1e-36
+UniRef90_A0A1V9X4H1 Transitional endoplasmic reticulum ATPase TE...   158   1e-36
+UniRef90_U5TQQ5 Valosin-containing protein n=1 Tax=Penaeus monod...   158   1e-36
+UniRef90_J9JPU1 Uncharacterized protein n=2 Tax=Macrosiphini Tax...   158   2e-36
+UniRef90_A0A147B8H9 Transitional endoplasmic reticulum atpase (F...   157   2e-36
+UniRef90_A0A0L0D4R6 Uncharacterized protein n=1 Tax=Thecamonas t...   157   2e-36
+UniRef90_P90532 Cell division cycle protein 48 n=5 Tax=Dictyoste...   157   2e-36
+UniRef90_A0A1S3L489 transitional endoplasmic reticulum ATPase-li...   157   2e-36
+UniRef90_G8FUG7 Cell division cycle protein 48 n=1 Tax=Dictyoste...   157   2e-36
+UniRef90_A0A182ZQM8 Uncharacterized protein n=2 Tax=Biomphalaria...   157   2e-36
+UniRef90_A0A0T6B0B0 AAA protein (Fragment) n=1 Tax=Oryctes borbo...   157   2e-36
+UniRef90_T1JGY4 Uncharacterized protein n=1 Tax=Strigamia mariti...   157   2e-36
+UniRef90_A0A0P6IJW6 Transitional endoplasmic reticulum ATPase TE...   157   3e-36
+UniRef90_UPI0006D8E11F LOW QUALITY PROTEIN: transitional endopla...   156   4e-36
+UniRef90_UPI00064180F9 LOW QUALITY PROTEIN: transitional endopla...   156   5e-36
+UniRef90_T2MFM1 Transitional endoplasmic reticulum ATPase (Fragm...   156   5e-36
+UniRef90_A0A069DWX9 Putative aaa+-type atpase n=5 Tax=Panheterop...   156   5e-36
+UniRef90_K7FMD5 Uncharacterized protein n=2 Tax=Pelodiscus sinen...   156   6e-36
+UniRef90_UPI00084AA9B3 LOW QUALITY PROTEIN: transitional endopla...   156   6e-36
+UniRef90_A0A0B7N6V2 Uncharacterized protein n=2 Tax=Mucorineae T...   156   6e-36
+UniRef90_UPI0006CEED63 transitional endoplasmic reticulum ATPase...   155   6e-36
+UniRef90_A0A067CZD3 Cell division cycle protein 48 n=5 Tax=Sapro...   155   7e-36
+UniRef90_UPI000A1C57C0 transitional endoplasmic reticulum ATPase...   155   8e-36
+UniRef90_A0A1B6H391 Uncharacterized protein (Fragment) n=1 Tax=C...   155   1e-35
+UniRef90_A0A182GAA5 Uncharacterized protein n=3 Tax=Aedes albopi...   155   1e-35
+UniRef90_D2VSC1 Predicted protein n=1 Tax=Naegleria gruberi TaxI...   155   1e-35
+UniRef90_I3KHR3 Zgc:136908 n=30 Tax=Percomorphaceae TaxID=148987...   155   1e-35
+UniRef90_A0A0A1NBT2 Putative Cell division control protein Cdc48...   155   1e-35
+UniRef90_A0A182NGU8 Uncharacterized protein n=3 Tax=Anopheles Ta...   154   2e-35
+UniRef90_A0A1Y2CX91 AAA ATPase n=1 Tax=Rhizoclosmatium globosum ...   154   2e-35
+UniRef90_A0A1J1I3P4 CLUMA_CG006478, isoform A n=13 Tax=Holometab...   154   2e-35
+UniRef90_H2KU37 Transitional endoplasmic reticulum ATPase (Fragm...   154   2e-35
+UniRef90_A0A0K2TQE3 Transitional endoplasmic reticulum ATPase TE...   154   2e-35
+UniRef90_A0A060Z2Q6 Uncharacterized protein (Fragment) n=1 Tax=O...   154   2e-35
+UniRef90_UPI00064507CF hypothetical protein n=1 Tax=Acytostelium...   154   2e-35
+UniRef90_A0A1Y1XA59 AAA ATPase n=3 Tax=Basidiobolus meristosporu...   154   3e-35
+UniRef90_UPI00099FA327 transitional endoplasmic reticulum ATPase...   154   3e-35
+UniRef90_C3YTH4 Uncharacterized protein n=3 Tax=Branchiostoma Ta...   154   3e-35
+UniRef90_A0A1Y2FA26 AAA ATPase n=4 Tax=Neocallimastigaceae TaxID...   153   3e-35
+UniRef90_A0A1D1YE28 Cell division cycle protein 48 (Fragment) n=...   153   4e-35
+UniRef90_A0A0V0IS27 Putative cell division cycle protein-like n=...   153   4e-35
+UniRef90_A0A1D6KUI9 Cell division control protein 48 homolog D n...   153   4e-35
+UniRef90_A0A0P0YUY9 Host cell division cycle protein n=7 Tax=Bac...   153   4e-35
+UniRef90_UPI000811A28F transitional endoplasmic reticulum ATPase...   153   4e-35
+UniRef90_UPI0006D4CC67 transitional endoplasmic reticulum ATPase...   153   4e-35
+UniRef90_L1IB53 CDC48-like protein n=2 Tax=Guillardia theta TaxI...   153   4e-35
+UniRef90_P54609 Cell division control protein 48 homolog A n=311...   153   5e-35
+UniRef90_A0A074Z8E9 Uncharacterized protein n=1 Tax=Opisthorchis...   153   5e-35
+UniRef90_A0A1Y1IHJ4 AAA family ATPase n=1 Tax=Klebsormidium flac...   153   5e-35
+UniRef90_UPI0004CCA088 transitional endoplasmic reticulum ATPase...   152   6e-35
+UniRef90_M4CNE5 Acylphosphatase n=2 Tax=Brassica campestris TaxI...   152   6e-35
+UniRef90_A0A0E0EYB5 Uncharacterized protein n=2 Tax=Mesangiosper...   152   7e-35
+UniRef90_UPI000B4E9DBC transitional endoplasmic reticulum ATPase...   152   7e-35
+UniRef90_A9SSY8 Predicted protein n=4 Tax=Embryophyta TaxID=3193...   152   8e-35
+UniRef90_A9TF08 Predicted protein n=3 Tax=Physcomitrella patens ...   152   8e-35
+UniRef90_A0A1D6KUJ0 Cell division control protein 48 homolog D n...   152   8e-35
+UniRef90_I0YZZ5 AAA ATPase n=1 Tax=Coccomyxa subellipsoidea (str...   152   8e-35
+UniRef90_M2WWD9 AAA-type ATPase n=1 Tax=Galdieria sulphuraria Ta...   152   9e-35
+UniRef90_A0A1D6PJZ1 Cell division control protein 48 homolog D n...   152   9e-35
+UniRef90_A0A0E0K8W0 Uncharacterized protein n=4 Tax=commelinids ...   152   1e-34
+UniRef90_A0A1S8WPB3 Cell division control protein 48 n=2 Tax=Dig...   152   1e-34
+UniRef90_F2TZJ8 Cell division cycle protein 48 n=1 Tax=Salpingoe...   152   1e-34
+UniRef90_A0A1D6GQ41 Cell division cycle protein 48 n=2 Tax=Zea m...   152   1e-34
+UniRef90_A8HW56 Flagellar associated protein n=4 Tax=Chlorophyce...   152   1e-34
+UniRef90_A0A0D2MBS1 Uncharacterized protein n=1 Tax=Gossypium ra...   152   1e-34
+UniRef90_UPI000B426AEA cell division control protein 48 homolog ...   152   1e-34
+UniRef90_A0A1S3QHX4 transitional endoplasmic reticulum ATPase-li...   151   1e-34
+UniRef90_A0A1R3JD30 Uncharacterized protein n=1 Tax=Corchorus ol...   151   1e-34
+UniRef90_A0A1X6PIQ3 Uncharacterized protein n=2 Tax=Porphyra umb...   151   1e-34
+UniRef90_A0A1U7YS63 cell division cycle protein 48 homolog n=44 ...   151   1e-34
+UniRef90_A0A0P5ZS79 Transitional endoplasmic reticulum ATPase TE...   151   2e-34
+UniRef90_A0A1B0CLN3 Uncharacterized protein n=1 Tax=Lutzomyia lo...   151   2e-34
+UniRef90_A0A0D9XK40 Uncharacterized protein n=1 Tax=Leersia perr...   151   2e-34
+UniRef90_A0A1D6JNX7 Cell division control protein 48 homolog D n...   151   2e-34
+UniRef90_A0A078C946 BnaC08g24320D protein n=2 Tax=Brassica napus...   150   2e-34
+UniRef90_A0A1D6GQ45 Cell division cycle protein 48 n=5 Tax=Mesan...   150   2e-34
+UniRef90_A0A1D6PJZ2 Cell division control protein 48 homolog D n...   150   2e-34
+UniRef90_A0A1D6PJZ3 Cell division control protein 48 homolog D n...   150   2e-34
+UniRef90_A0A1J7GJJ2 Uncharacterized protein n=1 Tax=Lupinus angu...   150   2e-34
+UniRef90_M0TEP4 Uncharacterized protein n=1 Tax=Musa acuminata s...   150   3e-34
+UniRef90_K4A7D3 Uncharacterized protein n=2 Tax=Mesangiospermae ...   150   3e-34
+UniRef90_A0A0D3DSQ0 Uncharacterized protein n=1 Tax=Brassica ole...   150   3e-34
+UniRef90_A0A0A9Y2M0 Transitional endoplasmic reticulum ATPase TE...   150   3e-34
+UniRef90_A0A1J3DSS6 Cell division control protein 48-like protei...   150   3e-34
+UniRef90_A0A0F7SSW6 Aaa atpase n=1 Tax=Phaffia rhodozyma TaxID=2...   150   3e-34
+UniRef90_F0XYY5 Uncharacterized protein n=1 Tax=Aureococcus anop...   150   3e-34
+UniRef90_A0A023EU80 Putative ter94 (Fragment) n=1 Tax=Aedes albo...   150   4e-34
+UniRef90_A0A1D5Y3Q4 Uncharacterized protein n=4 Tax=Embryophyta ...   150   4e-34
+UniRef90_A0A1Y3BJP4 Transitional endoplasmic reticulum ATPase TE...   150   4e-34
+UniRef90_A0A061QXF2 Transitional endoplasmic reticulum ATPase n=...   150   4e-34
+UniRef90_A0A0F8AMQ9 Transitional endoplasmic reticulum ATPase n=...   150   4e-34
+UniRef90_A0A1I8IKM7 Uncharacterized protein n=1 Tax=Macrostomum ...   150   4e-34
+UniRef90_D8LBW0 Uncharacterized protein n=1 Tax=Ectocarpus silic...   150   4e-34
+UniRef90_A0A078BX76 BnaA07g16030D protein n=1 Tax=Brassica napus...   150   4e-34
+UniRef90_A0A146KNX9 Transitional endoplasmic reticulum ATPase TE...   150   4e-34
+UniRef90_A0A0F7S837 Uncharacterized protein n=12 Tax=Ustilaginac...   149   5e-34
+UniRef90_A0A068XZ47 Transitional endoplasmic reticulum atpase n=...   149   5e-34
+UniRef90_A0A1U8G4N4 cell division cycle protein 48 homolog n=7 T...   149   5e-34
+UniRef90_G3Q4U8 Zgc:136908 n=1 Tax=Gasterosteus aculeatus TaxID=...   149   5e-34
+UniRef90_A0A1D6RWC4 Uncharacterized protein n=1 Tax=Triticum aes...   149   7e-34
+UniRef90_A4RRG4 Uncharacterized protein n=2 Tax=Ostreococcus Tax...   149   7e-34
+UniRef90_A0A0V0IPE3 Putative cell division cycle protein 48-like...   149   8e-34
+UniRef90_D0P0N7 Cell division control protein 48 n=17 Tax=Oomyce...   149   8e-34
+UniRef90_A0A132AIJ4 Transitional endoplasmic reticulum ATPase TE...   149   8e-34
+UniRef90_W8P5K0 Cell division cycle 48 protein n=2 Tax=Chromera ...   149   8e-34
+UniRef90_A0A072VC98 ATPase, AAA-type, CDC48 protein n=1 Tax=Medi...   149   9e-34
+UniRef90_A0A1D1Z1T8 Cell division cycle protein 48 n=1 Tax=Anthu...   149   1e-33
+UniRef90_A0A1X2GLT5 Transitional endoplasmic reticulum ATPase n=...   149   1e-33
+UniRef90_A0A1Y5I1M4 P-loop containing nucleoside triphosphate hy...   148   1e-33
+UniRef90_A0A1Y1WMM7 AAA ATPase n=1 Tax=Linderina pennispora TaxI...   148   1e-33
+UniRef90_A0A0N5DFM1 Uncharacterized protein n=1 Tax=Trichuris mu...   148   1e-33
+UniRef90_UPI0009D6F198 cell division cycle protein 48 homolog is...   148   1e-33
+UniRef90_A0A183IM98 Uncharacterized protein n=1 Tax=Soboliphyme ...   148   1e-33
+UniRef90_A0A0P1BPZ6 Valosin-containing protein n=1 Tax=Ceraceoso...   148   1e-33
+UniRef90_T1IE68 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   148   2e-33
+UniRef90_M5C3I2 MMS2 protein n=3 Tax=Cantharellales TaxID=36064 ...   148   2e-33
+UniRef90_U6G3N5 Cell division protein 48, putative n=1 Tax=Eimer...   147   2e-33
+UniRef90_A0A170Y4G2 Transitional endoplasmic reticulum atpase te...   147   2e-33
+UniRef90_C0PAT5 Uncharacterized protein n=1 Tax=Zea mays TaxID=4...   147   2e-33
+UniRef90_G4M0P7 Cell division control protein 48 aaa family prot...   147   2e-33
+UniRef90_M0U2W2 Uncharacterized protein n=1 Tax=Musa acuminata s...   147   2e-33
+UniRef90_A0A067G1F3 Uncharacterized protein (Fragment) n=2 Tax=C...   147   2e-33
+UniRef90_UPI00087070F5 uncharacterized protein LOC103964820 isof...   147   2e-33
+UniRef90_L8WIB7 Cell division cycle protein 48 n=1 Tax=Thanateph...   147   3e-33
+UniRef90_A0A0L0SGL6 Transitional endoplasmic reticulum ATPase n=...   147   3e-33
+UniRef90_A0A077ZLV1 Cell division cycle protein n=1 Tax=Trichuri...   147   3e-33
+UniRef90_F4PC08 Uncharacterized protein n=5 Tax=Batrachochytrium...   147   3e-33
+UniRef90_A0A0G4GAH1 Uncharacterized protein n=1 Tax=Vitrella bra...   147   3e-33
+UniRef90_C1FDN1 Cell division cycle protein 48-like protein, exp...   147   3e-33
+UniRef90_F6VLN4 Uncharacterized protein n=5 Tax=Ciona TaxID=7718...   147   3e-33
+UniRef90_A0A0C3QAJ5 Uncharacterized protein n=1 Tax=Tulasnella c...   147   3e-33
+UniRef90_U6L852 Cell division protein 48, putative n=1 Tax=Eimer...   147   3e-33
+UniRef90_A0A1D5XF29 Uncharacterized protein n=1 Tax=Triticum aes...   147   3e-33
+UniRef90_K8E910 Uncharacterized protein n=1 Tax=Bathycoccus pras...   147   3e-33
+UniRef90_G4TFJ6 Probable CDC48-Microsomal protein of CDC48/PAS1/...   147   3e-33
+UniRef90_UPI0004F1B04A cell division control protein 48 homolog ...   147   3e-33
+UniRef90_A0A170Y4J0 Transitional endoplasmic reticulum atpase te...   147   4e-33
+UniRef90_A0A087ST05 Cell division control protein 48-like protei...   146   4e-33
+UniRef90_A0A1D2A9P0 Uncharacterized protein (Fragment) n=1 Tax=A...   146   4e-33
+UniRef90_A0A146WN27 Transitional endoplasmic reticulum ATPase n=...   146   4e-33
+UniRef90_G4M0P6 Cell division control protein 48 aaa family prot...   146   4e-33
+UniRef90_E1Z5R3 Uncharacterized protein n=1 Tax=Chlorella variab...   146   4e-33
+UniRef90_U6KXE0 Uncharacterized protein n=3 Tax=Eimeria TaxID=58...   146   4e-33
+UniRef90_A0A066W3A6 Uncharacterized protein (Fragment) n=1 Tax=R...   146   5e-33
+UniRef90_A0A165KJL1 AAA ATPase n=2 Tax=Auriculariales TaxID=5226...   146   5e-33
+UniRef90_A0A1I8A1E7 Uncharacterized protein n=1 Tax=Steinernema ...   146   6e-33
+UniRef90_A0A066WIJ9 AAA ATPase n=1 Tax=Tilletiaria anomala UBC 9...   145   7e-33
+UniRef90_A0A0H2S4Y3 AAA ATPase n=2 Tax=Schizopora paradoxa TaxID...   145   7e-33
+UniRef90_A0A164XIL5 Uncharacterized protein n=1 Tax=Daucus carot...   145   7e-33
+UniRef90_A0A0D7A2C1 AAA ATPase n=1 Tax=Fistulina hepatica ATCC 6...   145   8e-33
+UniRef90_A0A1M8A5S3 AAA ATPase n=4 Tax=Malassezia TaxID=55193 Re...   145   8e-33
+UniRef90_K5WJX5 Uncharacterized protein n=27 Tax=Agaricomycotina...   145   8e-33
+UniRef90_A0A1C7MAV5 Cell division control protein 48 n=1 Tax=Gri...   145   8e-33
+UniRef90_A0A176WK41 Uncharacterized protein n=1 Tax=Marchantia p...   145   8e-33
+UniRef90_UPI000A2B68EA cell division cycle protein 48 homolog n=...   145   8e-33
+UniRef90_A0A183T643 Uncharacterized protein n=1 Tax=Schistocepha...   145   9e-33
+UniRef90_A0A1Q9DKI8 Cell division cycle protein 48-like n=1 Tax=...   145   9e-33
+UniRef90_T1I4A1 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   145   1e-32
+UniRef90_M1VI15 Transitional endoplasmic reticulum ATPase n=1 Ta...   145   1e-32
+UniRef90_A0A0L1KPK6 Transitional endoplasmic reticulum ATPase n=...   145   1e-32
+UniRef90_A0A0K0CXC1 Uncharacterized protein n=1 Tax=Angiostrongy...   145   1e-32
+UniRef90_Q5BZ78 SJCHGC02986 protein (Fragment) n=1 Tax=Schistoso...   145   1e-32
+UniRef90_A0A0C4ELI9 Cell division cycle protein 48 n=5 Tax=Pucci...   145   1e-32
+UniRef90_A0A1E3HH29 Transitional endoplasmic reticulum ATPase n=...   145   1e-32
+UniRef90_W7TK84 ATPase, AAA-type, core n=1 Tax=Nannochloropsis g...   144   1e-32
+UniRef90_C5LAB2 Cell division cycle protein, putative n=2 Tax=Pe...   144   2e-32
+UniRef90_G7DXY7 Uncharacterized protein n=2 Tax=Mixia osmundae (...   144   2e-32
+UniRef90_A0A177UTZ7 Cell division control protein 48 n=4 Tax=Til...   144   2e-32
+UniRef90_A0A0N5A9U8 Uncharacterized protein n=1 Tax=Syphacia mur...   144   2e-32
+UniRef90_A0A151VHE3 Cell division cycle protein 48 n=27 Tax=Agar...   144   2e-32
+UniRef90_A0A1S3DQC3 transitional endoplasmic reticulum ATPase-li...   144   2e-32
+UniRef90_A0A0L6WTS7 Cell division cycle protein 48 like protein ...   144   2e-32
+UniRef90_A0A165Y9J9 AAA ATPase n=1 Tax=Peniophora sp. CONT TaxID...   144   2e-32
+UniRef90_Q5CT24 CDC48 like AAA ATPase ortholog (Fragment) n=5 Ta...   144   2e-32
+UniRef90_UPI0003F48C10 hypothetical protein n=1 Tax=Tremella mes...   144   2e-32
+UniRef90_A0A0R3WM70 Uncharacterized protein n=1 Tax=Hydatigena t...   144   2e-32
+UniRef90_A0A016UJ38 Uncharacterized protein n=3 Tax=Strongylida ...   144   2e-32
+UniRef90_A0A1R3KWA9 Uncharacterized protein n=2 Tax=Corchorus ol...   144   2e-32
+UniRef90_A0A0P4X1E5 Transitional endoplasmic reticulum ATPase TE...   144   2e-32
+UniRef90_F0WD79 Uncharacterized protein AlNc14C64G4599 n=1 Tax=A...   144   2e-32
+UniRef90_A0A1Q9DHE0 Cell division cycle protein 48-like n=1 Tax=...   144   2e-32
+UniRef90_A0A0C3CKS5 Uncharacterized protein n=1 Tax=Hebeloma cyl...   144   3e-32
+UniRef90_A0A075AZX6 Transitional endoplasmic reticulum ATPase n=...   144   3e-32
+UniRef90_A0A1R2C3K4 Uncharacterized protein n=4 Tax=Stentor coer...   144   3e-32
+UniRef90_UPI000A2B2BCC cell division cycle protein 48 homolog n=...   144   3e-32
+UniRef90_A0A059LHR1 AAA+ ATPase (Fragment) n=1 Tax=Helicosporidi...   143   3e-32
+UniRef90_A0A0B7G0Q9 Cell division cycle protein 48 homolog OS=Gl...   143   3e-32
+UniRef90_M0SAJ4 Uncharacterized protein n=1 Tax=Musa acuminata s...   143   3e-32
+UniRef90_R9AKB4 Cell division control protein 48 n=2 Tax=Wallemi...   143   4e-32
+UniRef90_A0A068XDX3 Transitional endoplasmic reticulum atpase n=...   143   4e-32
+UniRef90_A0A1A7XPU0 Uncharacterized protein (Fragment) n=1 Tax=A...   143   5e-32
+UniRef90_UPI00092E6B05 cell division cycle protein 48 homolog n=...   142   6e-32
+UniRef90_A0A0H2R2B9 AAA ATPase (Fragment) n=1 Tax=Schizopora par...   142   6e-32
+UniRef90_UPI000498EA97 uncharacterized protein LOC103407783 n=5 ...   142   6e-32
+UniRef90_A0A0K6FWU3 Transitional endoplasmic reticulum ATPase n=...   142   6e-32
+UniRef90_UPI00044089BF AAA ATPase n=1 Tax=Fomitiporia mediterran...   142   6e-32
+UniRef90_A0A0J9XXY9 Bm1994, isoform a n=19 Tax=Chromadorea TaxID...   142   7e-32
+UniRef90_A0A1R1XPK1 Transitional endoplasmic reticulum ATPase n=...   142   8e-32
+UniRef90_A0A0K9PB18 Cell division control protein 48 n=1 Tax=Zos...   142   8e-32
+UniRef90_A0A218WFT3 Uncharacterized protein n=1 Tax=Punica grana...   142   8e-32
+UniRef90_A0A1Q9DKN5 Cell division cycle protein 48-like n=1 Tax=...   142   8e-32
+UniRef90_A0A072VMP1 ATPase, AAA-type, CDC48 protein n=1 Tax=Medi...   142   9e-32
+UniRef90_M8D498 Cell division control 48-E-like protein n=1 Tax=...   142   1e-31
+UniRef90_A0A183UJ11 Uncharacterized protein n=1 Tax=Toxocara can...   142   1e-31
+UniRef90_A0A1S4DSB2 cell division cycle protein 48 homolog n=5 T...   142   1e-31
+UniRef90_A0A1D3D5E1 Uncharacterized protein n=1 Tax=Cyclospora c...   142   1e-31
+UniRef90_W8P5K5 Cell division cycle 48 protein n=1 Tax=Prorocent...   142   1e-31
+UniRef90_M5WTB9 Uncharacterized protein n=1 Tax=Prunus persica T...   142   1e-31
+UniRef90_A0A139Y6F9 Cell division protein CDC48CY n=15 Tax=Sarco...   142   1e-31
+UniRef90_A0A086QGF2 Putative transitional endoplasmic reticulum ...   142   1e-31
+UniRef90_A0A068UYE7 Uncharacterized protein n=1 Tax=Coffea canep...   141   1e-31
+UniRef90_H3EEN1 Uncharacterized protein n=5 Tax=Chromadorea TaxI...   141   1e-31
+UniRef90_A0A1I8AIC4 Uncharacterized protein n=2 Tax=Steinernema ...   141   1e-31
+UniRef90_A0A146X0Y9 Transitional endoplasmic reticulum ATPase n=...   141   2e-31
+UniRef90_A0A0B1TW71 Cell division protein 48 domain protein n=1 ...   141   2e-31
+UniRef90_A0A0J9XY76 Bm1994, isoform b n=2 Tax=Spirurida TaxID=62...   141   2e-31
+UniRef90_A0A1I7ZD38 Uncharacterized protein n=1 Tax=Steinernema ...   141   2e-31
+UniRef90_A0A1R3HZN1 Uncharacterized protein n=1 Tax=Corchorus ol...   140   2e-31
+UniRef90_U6KJH4 AGAP005630-PA, related n=1 Tax=Eimeria mitis Tax...   140   2e-31
+UniRef90_A0A0K8RS69 Putative valosin (Fragment) n=1 Tax=Ixodes r...   140   2e-31
+UniRef90_A0A0X3NKF7 Uncharacterized protein (Fragment) n=1 Tax=S...   140   2e-31
+UniRef90_A0A0R3QYK5 Uncharacterized protein n=1 Tax=Brugia timor...   140   3e-31
+UniRef90_A0A0D0A941 Unplaced genomic scaffold CY34scaffold_589, ...   140   3e-31
+UniRef90_A0A0F5CP33 AAA protein n=2 Tax=Pristionchus pacificus T...   140   3e-31
+UniRef90_F1LCZ2 Transitional endoplasmic reticulum ATPase 1 (Fra...   140   3e-31
+UniRef90_A0A023B919 Putative cell division protein 48 n=1 Tax=Gr...   140   3e-31
+UniRef90_UPI000498E7BC cell division cycle protein 48 homolog n=...   140   4e-31
+UniRef90_P54812 Transitional endoplasmic reticulum ATPase homolo...   140   4e-31
+UniRef90_A0A0R3NSK5 Uncharacterized protein, isoform B n=9 Tax=D...   140   4e-31
+UniRef90_A0A068V8G8 Uncharacterized protein n=1 Tax=Coffea canep...   139   5e-31
+UniRef90_A0A0K9QT32 Uncharacterized protein n=3 Tax=Chenopodioid...   139   5e-31
+UniRef90_J5TFH4 MMS2 protein n=11 Tax=Tremellomycetes TaxID=1556...   139   6e-31
+UniRef90_E4XE81 Uncharacterized protein n=1 Tax=Oikopleura dioic...   139   6e-31
+UniRef90_A0A1I8C511 Uncharacterized protein n=2 Tax=Rhabditophan...   139   6e-31
+UniRef90_B4GB87 GL11509 n=1 Tax=Drosophila persimilis TaxID=7234...   139   6e-31
+UniRef90_V4LVQ9 Uncharacterized protein n=1 Tax=Eutrema salsugin...   139   6e-31
+UniRef90_C5LTK6 Cell division cycle protein, putative (Fragment)...   139   7e-31
+UniRef90_A0A059A042 Uncharacterized protein n=1 Tax=Eucalyptus g...   139   7e-31
+UniRef90_A0A1A9ZDZ6 Uncharacterized protein n=6 Tax=Holometabola...   139   7e-31
+UniRef90_UPI000455EBA7 AAA-domain-containing protein n=1 Tax=Con...   139   8e-31
+UniRef90_M7X2W2 Transitional endoplasmic reticulum ATPase n=7 Ta...   139   8e-31
+UniRef90_U5GXW5 Transitional endoplasmic reticulum ATPase n=1 Ta...   139   9e-31
+UniRef90_A0A1I7SWW1 Uncharacterized protein n=1 Tax=Bursaphelenc...   139   1e-30
+UniRef90_A0A1I7UG09 Uncharacterized protein n=2 Tax=Caenorhabdit...   138   1e-30
+UniRef90_M8CGS3 Cell division control 48-E-like protein n=2 Tax=...   138   1e-30
+UniRef90_A0A0S4JI00 Cell division cycle protein, putative n=1 Ta...   138   2e-30
+UniRef90_A0A1I8J6R1 Uncharacterized protein n=2 Tax=Macrostomum ...   138   2e-30
+UniRef90_A0A0H2QVZ9 Valosin-containing protein (Fragment) n=1 Ta...   138   2e-30
+UniRef90_G0MVN9 CBN-CDC-48.1 protein n=1 Tax=Caenorhabditis bren...   137   2e-30
+UniRef90_W6UQD3 Transitional endoplasmic reticulum ATPase n=1 Ta...   137   2e-30
+UniRef90_V5B4G8 Cell division cycle protein n=1 Tax=Trypanosoma ...   137   2e-30
+UniRef90_P54811 Transitional endoplasmic reticulum ATPase homolo...   137   3e-30
+UniRef90_M7NRZ4 Cell division control protein 48 n=3 Tax=Pneumoc...   137   3e-30
+UniRef90_Q4DWB5 Transitional endoplasmic reticulum ATPase, putat...   137   3e-30
+UniRef90_A0A0V1E3M1 Transitional endoplasmic reticulum ATPase-li...   137   3e-30
+UniRef90_I1H9V8 Uncharacterized protein n=1 Tax=Brachypodium dis...   137   3e-30
+UniRef90_A0A0N5ADI0 Uncharacterized protein n=1 Tax=Syphacia mur...   137   4e-30
+UniRef90_A0A0V1IT25 Transitional endoplasmic reticulum ATPase-li...   137   4e-30
+UniRef90_A0A165XA66 Valosin-containing protein n=1 Tax=Fibularhi...   137   4e-30
+UniRef90_U4LY19 Similar to Cell division control protein 48 acc....   136   4e-30
+UniRef90_A0A090L355 Transitional endoplasmic reticulum ATPase n=...   136   4e-30
+UniRef90_Q7KN62 Transitional endoplasmic reticulum ATPase TER94 ...   136   4e-30
+UniRef90_U5FPL0 Uncharacterized protein n=1 Tax=Populus trichoca...   136   5e-30
+UniRef90_A0A0N4VFP7 Uncharacterized protein n=1 Tax=Enterobius v...   136   5e-30
+UniRef90_UPI000498A0D0 cell division cycle protein 48 homolog n=...   136   5e-30
+UniRef90_G3B345 Uncharacterized protein n=1 Tax=Candida tenuis (...   136   6e-30
+UniRef90_A0A1E4U3I4 Uncharacterized protein n=1 Tax=Pachysolen t...   136   6e-30
+UniRef90_A0A1D5SQ64 Uncharacterized protein n=12 Tax=Pooideae Ta...   136   7e-30
+UniRef90_A0A1D5ZCD5 Uncharacterized protein n=1 Tax=Triticum aes...   135   8e-30
+UniRef90_E5SR09 Putative ATPase, AAA family n=1 Tax=Trichinella ...   135   8e-30
+UniRef90_A0A0V1HYL2 Transitional endoplasmic reticulum ATPase-li...   135   9e-30
+UniRef90_A0A1D6B644 Uncharacterized protein n=1 Tax=Triticum aes...   135   1e-29
+UniRef90_A0A0V1HXT7 Transitional endoplasmic reticulum ATPase-li...   135   1e-29
+UniRef90_A0A1I7YZE1 Uncharacterized protein n=1 Tax=Steinernema ...   135   1e-29
+UniRef90_M8B415 Cell division cycle 48-like protein n=13 Tax=Tri...   135   1e-29
+UniRef90_A0A0V1HY55 Transitional endoplasmic reticulum ATPase n=...   135   1e-29
+UniRef90_W7I964 Cell division control protein 48 n=3 Tax=Orbilia...   135   1e-29
+UniRef90_A0A077RV04 Uncharacterized protein n=1 Tax=Triticum aes...   135   1e-29
+UniRef90_A0A0G4E879 Uncharacterized protein n=1 Tax=Vitrella bra...   135   1e-29
+UniRef90_A0A0G4IHT8 Uncharacterized protein n=1 Tax=Plasmodiopho...   135   1e-29
+UniRef90_A0A1I8B9L5 Uncharacterized protein n=1 Tax=Meloidogyne ...   135   1e-29
+UniRef90_K8YS88 Transitional endoplasmic reticulum ATPase n=1 Ta...   135   1e-29
+UniRef90_A0A1D5WVP7 Uncharacterized protein n=2 Tax=Triticum Tax...   134   2e-29
+UniRef90_B8C373 Transitional endoplasmic reticulum (Fragment) n=...   134   2e-29
+UniRef90_A0A1E3QXN4 Uncharacterized protein n=1 Tax=Babjeviella ...   134   3e-29
+UniRef90_A0A1E3QEX2 Uncharacterized protein n=1 Tax=Lipomyces st...   134   3e-29
+UniRef90_UPI0002C37151 cell division control protein 48 homolog ...   134   3e-29
+UniRef90_A3LQG9 Cell division control protein 48 n=18 Tax=Saccha...   134   3e-29
+UniRef90_M8ATS8 Cell division cycle 48-like protein n=1 Tax=Aegi...   133   4e-29
+UniRef90_S9TM90 Transitional endoplasmic reticulum ATPase n=2 Ta...   133   4e-29
+UniRef90_A0A0N4VL56 Uncharacterized protein n=1 Tax=Enterobius v...   133   4e-29
+UniRef90_G0UWF3 Putative Transitional endoplasmic reticulum ATPa...   133   4e-29
+UniRef90_A0A0L0NPN3 Cell division control protein 48 n=3 Tax=Sac...   133   4e-29
+UniRef90_A0A1E3PEM1 AAA ATPase n=1 Tax=Nadsonia fulvescens var. ...   133   4e-29
+UniRef90_A0A060SYS4 ARAD1A19316p n=1 Tax=Blastobotrys adeninivor...   133   5e-29
+UniRef90_K0KQM0 Cell division control protein n=5 Tax=Phaffomyce...   133   5e-29
+UniRef90_UPI0008676B22 AAA ATPase n=1 Tax=Saitoella complicata N...   133   6e-29
+UniRef90_A0A059A132 Uncharacterized protein n=1 Tax=Eucalyptus g...   132   6e-29
+UniRef90_A0A1W2TLZ4 Putative cell division control protein Cdc48...   132   7e-29
+UniRef90_A0A1D5S825 Uncharacterized protein n=1 Tax=Triticum aes...   132   7e-29
+UniRef90_A0A077RY74 Uncharacterized protein n=1 Tax=Triticum aes...   132   7e-29
+UniRef90_A0A0E9NK06 Uncharacterized protein n=1 Tax=Saitoella co...   132   7e-29
+UniRef90_A0A0L0FS01 Transitional endoplasmic reticulum ATPase n=...   132   8e-29
+UniRef90_W6MXZ3 Uncharacterized protein n=1 Tax=Kuraishia capsul...   132   8e-29
+UniRef90_A0A183C1N4 Uncharacterized protein n=1 Tax=Globodera pa...   132   8e-29
+UniRef90_Q4Q1T9 Putative Transitional endoplasmic reticulum ATPa...   132   9e-29
+UniRef90_A0A167MP04 Uncharacterized protein n=1 Tax=Phycomyces b...   132   1e-28
+UniRef90_A4ICJ9 Putative Transitional endoplasmic reticulum ATPa...   132   1e-28
+UniRef90_M8AQ44 Cell division control 48-D-like protein n=1 Tax=...   132   1e-28
+UniRef90_Q38B27 Valosin-containing protein homolog n=4 Tax=Trypa...   132   1e-28
+UniRef90_A0A098VRQ4 Valosin domain-containing protein n=1 Tax=Mi...   132   1e-28
+UniRef90_A0A0L0NDU2 Cell division control protein 48 (Fragment) ...   132   1e-28
+UniRef90_Q6C1Z3 YALI0F12155p n=2 Tax=Yarrowia lipolytica TaxID=4...   131   1e-28
+UniRef90_F0XCQ1 Cell division control protein cdc48 n=6 Tax=Sord...   131   1e-28
+UniRef90_M8CP09 Cell division control 48-D-like protein n=1 Tax=...   131   2e-28
+UniRef90_A0A1W5D4J6 Cell division control protein 48 n=1 Tax=Umb...   131   2e-28
+UniRef90_A0A124GQ30 Cell division control protein 48 n=8 Tax=Eur...   131   2e-28
+UniRef90_C9SZ92 Cell division cycle protein (Fragment) n=1 Tax=V...   131   2e-28
+UniRef90_K1XIA4 Cell division control protein Cdc48 n=39 Tax=Leo...   131   2e-28
+UniRef90_F2DSA2 Predicted protein n=1 Tax=Hordeum vulgare subsp....   130   2e-28
+UniRef90_U6GIG7 Cell division protein 48, putative n=1 Tax=Eimer...   130   2e-28
+UniRef90_A0A0M8P880 Cell division control protein 48 n=49 Tax=Eu...   130   2e-28
+UniRef90_A0A0J9XGM2 Similar to Saccharomyces cerevisiae YDL126C ...   130   2e-28
+UniRef90_UPI000718AB85 Transitional endoplasmic reticulum ATPase...   130   3e-28
+UniRef90_W6KRQ6 Uncharacterized protein n=2 Tax=unclassified Phy...   130   3e-28
+UniRef90_G7KP28 26S proteasome subunit RPN7 n=1 Tax=Medicago tru...   130   4e-28
+UniRef90_R7QAA8 Transitional endoplasmic reticulum ATPase (Valos...   130   5e-28
+UniRef90_A0A1V2L339 Cell division control protein 48 n=1 Tax=Cyb...   129   5e-28
+UniRef90_A0A1R4ACF9 Transitional endoplasmic reticulum ATPase n=...   129   6e-28
+UniRef90_A0A0D9WPS8 Uncharacterized protein n=1 Tax=Leersia perr...   128   1e-27
+UniRef90_A0A0C7N300 LALA0S05e04346g1_1 n=4 Tax=Lachancea TaxID=3...   128   1e-27
+UniRef90_UPI0008FA52AA transitional endoplasmic reticulum ATPase...   128   1e-27
+UniRef90_A0A0P5LAA2 Transitional endoplasmic reticulum ATPase TE...   128   1e-27
+UniRef90_W0TEJ2 Cell division control protein 48 n=4 Tax=Sacchar...   128   1e-27
+UniRef90_F6GWA3 Uncharacterized protein n=2 Tax=Vitis vinifera T...   128   2e-27
+UniRef90_P25694 Cell division control protein 48 n=33 Tax=Saccha...   128   2e-27
+UniRef90_C5WYU4 Uncharacterized protein n=2 Tax=Sorghum bicolor ...   128   2e-27
+UniRef90_A0A1U7LT10 Cell division control protein 48 (Fragment) ...   128   2e-27
+UniRef90_I2H1M8 Uncharacterized protein n=1 Tax=Tetrapisispora b...   127   2e-27
+UniRef90_A0A074WZC7 AAA ATPase n=5 Tax=Fungi TaxID=4751 RepID=A0...   127   2e-27
+UniRef90_A0A1B6KYR0 Uncharacterized protein (Fragment) n=1 Tax=G...   127   2e-27
+UniRef90_A0A0L1I1Z8 Cell division control protein 48 n=20 Tax=Do...   127   2e-27
+UniRef90_A7ARM1 Cell division control protein 48, putative n=3 T...   127   2e-27
+UniRef90_F2QXS9 AAA ATPase n=3 Tax=Komagataella TaxID=460517 Rep...   127   3e-27
+UniRef90_Q4N783 Cell division cycle protein 48, putative n=2 Tax...   127   3e-27
+UniRef90_A0A0U5CF34 Putative Cell division cycle protein 48 n=1 ...   127   3e-27
+UniRef90_A0A0D1Z0H6 Cell division control protein 48 n=1 Tax=Exo...   127   4e-27
+UniRef90_A0A1S7HNB4 CDC48 (YDL126C) n=2 Tax=Zygosaccharomyces Ta...   127   4e-27
+UniRef90_G0W3S3 Uncharacterized protein n=1 Tax=Naumovozyma dair...   126   4e-27
+UniRef90_C1H425 Cell division cycle protein n=57 Tax=leotiomycet...   126   5e-27
+UniRef90_A0A0D2AX77 Cell division control protein 48 n=1 Tax=Ver...   126   5e-27
+UniRef90_Q754B2 AFR158Wp n=4 Tax=Saccharomycetaceae TaxID=4893 R...   126   5e-27
+UniRef90_A0A1E4TBI5 Uncharacterized protein n=1 Tax=Tortispora c...   126   5e-27
+UniRef90_A0A0D6EFG1 SPOSA6832_00207-mRNA-1:cds n=1 Tax=Sporidiob...   126   6e-27
+UniRef90_F0UGQ1 Cell division control protein n=1 Tax=Ajellomyce...   126   7e-27
+UniRef90_L1LFE7 Cell division cycle protein 48, putative n=1 Tax...   126   7e-27
+UniRef90_A0A0F8CSQ8 Cell division control protein 48 n=2 Tax=Cer...   125   7e-27
+UniRef90_A0A0K9PPD0 Uncharacterized protein n=1 Tax=Zostera mari...   125   7e-27
+UniRef90_Q5AWS6 Cell division control protein 48 n=12 Tax=Asperg...   125   7e-27
+UniRef90_C0NF61 Cell division control protein n=1 Tax=Ajellomyce...   125   8e-27
+UniRef90_J4D694 Transitional endoplasmic reticulum ATPase n=1 Ta...   125   9e-27
+UniRef90_B0E9H9 Transitional endoplasmic reticulum ATPase, putat...   125   1e-26
+UniRef90_I2H9L2 Uncharacterized protein n=1 Tax=Tetrapisispora b...   125   1e-26
+UniRef90_A0A1E1XHP0 Putative aaa+-type atpase (Fragment) n=1 Tax...   125   1e-26
+UniRef90_UPI000674F95E LOW QUALITY PROTEIN: transitional endopla...   124   2e-26
+UniRef90_A0A1A6GPF3 Uncharacterized protein n=1 Tax=Neotoma lepi...   124   2e-26
+UniRef90_A0A0A1U1N9 Cdc48 family protein, putative (Fragment) n=...   124   2e-26
+UniRef90_A0A1I8IY76 Uncharacterized protein n=2 Tax=Macrostomum ...   123   4e-26
+UniRef90_A0A099NZN3 Cell division control protein 48 n=3 Tax=Pic...   123   4e-26
+UniRef90_D8S303 Uncharacterized protein n=2 Tax=Selaginella moel...   123   5e-26
+UniRef90_M3B5I3 Cell division control protein n=26 Tax=leotiomyc...   123   5e-26
+UniRef90_V4T1Y7 Uncharacterized protein n=2 Tax=Citrus TaxID=270...   122   7e-26
+UniRef90_R4XE58 Cell division cycle protein 48 n=2 Tax=Taphrinal...   122   7e-26
+UniRef90_W1Q7D0 Cell division control protein 48 n=3 Tax=Ogataea...   122   8e-26
+UniRef90_A0A1J1H827 Cell division cycle protein 48 homologue, pu...   122   1e-25
+UniRef90_Q9P3A7 Cell division cycle protein 48 n=4 Tax=Schizosac...   122   1e-25
+UniRef90_A0A1E5RSD9 Cell division control protein 48 n=3 Tax=Han...   122   1e-25
+UniRef90_J9HJQ1 AAA family ATPase, CDC48 subfamily protein n=2 T...   121   2e-25
+UniRef90_A0A058ZIT9 Cell division cycle protein 48 n=1 Tax=Fonti...   121   2e-25
+UniRef90_A0A060RV58 Cell division cycle protein 48 homologue, pu...   120   2e-25
+UniRef90_UPI0008FA6908 transitional endoplasmic reticulum ATPase...   120   2e-25
+UniRef90_A0A1B7T7V7 YDL126Cp-like protein (Fragment) n=2 Tax=Han...   120   2e-25
+UniRef90_A0A0N4UVW4 Uncharacterized protein n=1 Tax=Enterobius v...   120   3e-25
+UniRef90_M8AZV9 Cell division control 48-A-like protein n=1 Tax=...   120   4e-25
+UniRef90_I2JT03 Cell division control protein 48 n=1 Tax=Brettan...   120   4e-25
+UniRef90_UPI0004413C20 AAA-domain-containing protein n=1 Tax=Aur...   120   4e-25
+UniRef90_K4AJI6 Uncharacterized protein n=3 Tax=Paniceae TaxID=1...   119   6e-25
+UniRef90_Q4YXK4 Cell division cycle protein 48 homologue, putati...   119   7e-25
+UniRef90_F2HHQ2 Cell division control protein 48 n=1 Tax=Cryptom...   117   2e-24
+UniRef90_A0A146PRN4 Spermatogenesis-associated 5 protein 1-like ...   115   9e-24
+UniRef90_A0A146Q1L0 Spermatogenesis-associated 5 protein 1-like ...   115   9e-24
+UniRef90_Q98S05 Cell division cycle protein 48 homolog n=1 Tax=G...   115   9e-24
+UniRef90_S8DWI9 Uncharacterized protein (Fragment) n=2 Tax=Penta...   115   9e-24
+UniRef90_G0U679 Putative Transitional endoplasmic reticulum ATPa...   115   1e-23
+UniRef90_A0A1D2VPA3 AAA ATPase n=1 Tax=Ascoidea rubescens DSM 19...   115   1e-23
+UniRef90_A0A0M8ZXS9 Transitional endoplasmic reticulum ATPase TE...   115   1e-23
+UniRef90_W4YUC0 Uncharacterized protein n=2 Tax=Strongylocentrot...   114   2e-23
+UniRef90_A0A192ZHH3 Cell division control protein 48-like protei...   114   2e-23
+UniRef90_M5WC73 Uncharacterized protein n=1 Tax=Prunus persica T...   114   2e-23
+UniRef90_A0A196SFH2 Cell division control protein 48 n=2 Tax=Bla...   112   8e-23
+UniRef90_UPI0005EFE94F transitional endoplasmic reticulum ATPase...   112   9e-23
+UniRef90_A0A1I8H2U1 Uncharacterized protein n=1 Tax=Macrostomum ...   112   1e-22
+UniRef90_A0A1I8AQG7 Uncharacterized protein n=1 Tax=Steinernema ...   111   1e-22
+UniRef90_D8M4H7 Uncharacterized protein n=1 Tax=Blastocystis hom...   110   2e-22
+UniRef90_A0A1X7VPK0 Uncharacterized protein n=2 Tax=Amphimedon q...   108   1e-21
+UniRef90_F0VIV4 Uncharacterized protein n=1 Tax=Neospora caninum...   108   1e-21
+UniRef90_A0A1Q9BS57 Cell division cycle protein 48-like (Fragmen...   108   1e-21
+UniRef90_J7G6G3 Cell division control protein 48 n=1 Tax=Chroomo...   107   3e-21
+UniRef90_A0A0D0AE64 Unplaced genomic scaffold CY34scaffold_397, ...   107   3e-21
+UniRef90_A0A0A9ZFH5 Transitional endoplasmic reticulum ATPase n=...   107   3e-21
+UniRef90_X6NIF1 Cell division cycle protein n=1 Tax=Reticulomyxa...   107   4e-21
+UniRef90_A9BKG5 Cdc48b n=1 Tax=Hemiselmis andersenii TaxID=46498...   107   4e-21
+UniRef90_A0A086L4Y7 Cell division protein CDC48CY (Fragment) n=1...   106   5e-21
+UniRef90_G0QWK4 Transitional endoplasmic reticulum ATPase, putat...   106   5e-21
+UniRef90_A0A0A1UA45 Transitional endoplasmic reticulum atpase, p...   105   1e-20
+UniRef90_V2X1M7 Cell division control protein cdc48 n=2 Tax=Moni...   105   1e-20
+UniRef90_A0A0V0WIS0 Transitional endoplasmic reticulum ATPase TE...   105   1e-20
+UniRef90_A0A0H2RYJ1 Cdc48 domain 2-like protein (Fragment) n=1 T...   104   2e-20
+
+>UniRef90_L9L6K9 Transitional endoplasmic reticulum ATPase n=1 Tax=Tupaia chinensis
+           TaxID=246437 RepID=L9L6K9_TUPCH
+          Length = 1258
+
+ Score =  177 bits (448), Expect = 3e-42,   Method: Composition-based stats.
+ Identities = 79/79 (100%), Positives = 79/79 (100%)
+
+Query: 1   VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE 60
+           VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE
+Sbjct: 561 VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE 620
+
+Query: 61  TDPSPYCIVAPDTVIHCEG 79
+           TDPSPYCIVAPDTVIHCEG
+Sbjct: 621 TDPSPYCIVAPDTVIHCEG 639
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_S9WQY9 Uncharacterized protein n=2 Tax=Amniota TaxID=32...   172   8e-41
+UniRef90_L9L6K9 Transitional endoplasmic reticulum ATPase n=1 Ta...   172   8e-41
+UniRef90_A0A091DYJ0 Transitional endoplasmic reticulum ATPase n=...   172   8e-41
+UniRef90_G3HN14 Transitional endoplasmic reticulum ATPase n=1 Ta...   172   8e-41
+UniRef90_M7BUG3 Transitional endoplasmic reticulum ATPase n=10 T...   172   8e-41
+UniRef90_A0A0Q3UT71 Transitional endoplasmic reticulum ATPase n=...   172   8e-41
+UniRef90_UPI0006B200BB transitional endoplasmic reticulum ATPase...   171   1e-40
+UniRef90_T1G9T6 Uncharacterized protein n=1 Tax=Helobdella robus...   168   9e-40
+UniRef90_UPI0007040D96 transitional endoplasmic reticulum ATPase...   167   2e-39
+UniRef90_Q5CD25 Valosin containing protein-1 n=3 Tax=Bilateria T...   167   2e-39
+UniRef90_UPI0006D940A1 transitional endoplasmic reticulum ATPase...   167   3e-39
+UniRef90_UPI000766E109 Transitional endoplasmic reticulum ATPase...   167   3e-39
+UniRef90_A0A1S3KY43 transitional endoplasmic reticulum ATPase-li...   167   4e-39
+UniRef90_UPI0008DB65B4 transitional endoplasmic reticulum ATPase...   167   4e-39
+UniRef90_P55072 Transitional endoplasmic reticulum ATPase n=86 T...   166   4e-39
+UniRef90_UPI0007ACF483 transitional endoplasmic reticulum ATPase...   166   4e-39
+UniRef90_A0A087V2G0 Transitional endoplasmic reticulum ATPase (F...   166   5e-39
+UniRef90_H3AWB6 Valosin containing protein n=2 Tax=Euteleostomi ...   166   5e-39
+UniRef90_UPI0005296D71 transitional endoplasmic reticulum ATPase...   166   5e-39
+UniRef90_P23787 Transitional endoplasmic reticulum ATPase n=168 ...   166   6e-39
+UniRef90_M3VW05 Valosin containing protein n=6 Tax=Boreoeutheria...   165   7e-39
+UniRef90_UPI00062AB731 transitional endoplasmic reticulum ATPase...   165   8e-39
+UniRef90_A0A091KS87 Transitional endoplasmic reticulum ATPase (F...   165   8e-39
+UniRef90_A0A060XT88 Uncharacterized protein n=1 Tax=Oncorhynchus...   165   1e-38
+UniRef90_UPI0007BACC42 transitional endoplasmic reticulum ATPase...   165   1e-38
+UniRef90_A0A0P5YIG9 Transitional endoplasmic reticulum ATPase TE...   165   1e-38
+UniRef90_UPI0001CBBDEA transitional endoplasmic reticulum ATPase...   164   2e-38
+UniRef90_A0A146WZ95 Transitional endoplasmic reticulum ATPase n=...   164   2e-38
+UniRef90_A9SSY8 Predicted protein n=4 Tax=Embryophyta TaxID=3193...   164   2e-38
+UniRef90_A0A0L8GAT1 Uncharacterized protein n=1 Tax=Octopus bima...   164   2e-38
+UniRef90_A0A1V4K4Q5 Uncharacterized protein n=1 Tax=Patagioenas ...   164   2e-38
+UniRef90_UPI0005549C97 transitional endoplasmic reticulum ATPase...   164   2e-38
+UniRef90_A0A0N8DIU4 Transitional endoplasmic reticulum ATPase TE...   164   2e-38
+UniRef90_A0A1D1UD02 Uncharacterized protein n=3 Tax=Hypsibiidae ...   164   2e-38
+UniRef90_K1PVA1 Transitional endoplasmic reticulum ATPase n=6 Ta...   164   2e-38
+UniRef90_A7SJ61 Predicted protein n=5 Tax=Hexacorallia TaxID=610...   164   2e-38
+UniRef90_A0A0P5SKH7 Transitional endoplasmic reticulum ATPase TE...   164   2e-38
+UniRef90_UPI000511A1A1 LOW QUALITY PROTEIN: transitional endopla...   163   3e-38
+UniRef90_UPI0006B084A8 transitional endoplasmic reticulum ATPase...   163   3e-38
+UniRef90_A0A0P5SUW3 Transitional endoplasmic reticulum ATPase TE...   163   3e-38
+UniRef90_A0A194QYV6 Transitional endoplasmic reticulum ATPase TE...   163   3e-38
+UniRef90_A9TF08 Predicted protein n=3 Tax=Physcomitrella patens ...   163   3e-38
+UniRef90_I1CHG1 Transitional endoplasmic reticulum ATPase n=6 Ta...   163   3e-38
+UniRef90_A0A163LTG4 Uncharacterized protein n=11 Tax=Mucorales T...   163   4e-38
+UniRef90_A0A090XC75 Putative aaa+-type atpase (Fragment) n=3 Tax...   163   4e-38
+UniRef90_A0A0P5R5P7 Transitional endoplasmic reticulum ATPase TE...   163   5e-38
+UniRef90_A0A194QE63 Transitional endoplasmic reticulum ATPase TE...   162   6e-38
+UniRef90_T1K516 Uncharacterized protein n=1 Tax=Tetranychus urti...   162   6e-38
+UniRef90_A0A0P6A4P4 Transitional endoplasmic reticulum ATPase TE...   162   6e-38
+UniRef90_A0A1D1YHL1 Transitional endoplasmic reticulum ATPase n=...   162   6e-38
+UniRef90_UPI000719D151 transitional endoplasmic reticulum ATPase...   162   6e-38
+UniRef90_Q29RA2 Zgc:136908 n=7 Tax=Osteoglossocephalai TaxID=148...   162   7e-38
+UniRef90_A0A0E0EYB5 Uncharacterized protein n=2 Tax=Mesangiosper...   162   7e-38
+UniRef90_A0A0P6GNJ8 Putative Transitional endoplasmic reticulum ...   162   8e-38
+UniRef90_A0A0P5VG62 Transitional endoplasmic reticulum ATPase TE...   162   8e-38
+UniRef90_UPI000528ADA6 transitional endoplasmic reticulum ATPase...   162   8e-38
+UniRef90_A0A067CZD3 Cell division cycle protein 48 n=5 Tax=Sapro...   162   9e-38
+UniRef90_W5LJN2 Zgc:136908 n=1 Tax=Astyanax mexicanus TaxID=7994...   162   9e-38
+UniRef90_K5WJX5 Uncharacterized protein n=27 Tax=Agaricomycotina...   162   9e-38
+UniRef90_A0A1D6KUI9 Cell division control protein 48 homolog D n...   162   9e-38
+UniRef90_UPI000440C35B transitional endoplasmic reticulum ATPase...   162   9e-38
+UniRef90_N6T9W3 Uncharacterized protein (Fragment) n=1 Tax=Dendr...   162   9e-38
+UniRef90_V8NV43 Transitional endoplasmic reticulum ATPase (Fragm...   162   1e-37
+UniRef90_E1Z5R3 Uncharacterized protein n=1 Tax=Chlorella variab...   162   1e-37
+UniRef90_A0A0D7A2C1 AAA ATPase n=1 Tax=Fistulina hepatica ATCC 6...   162   1e-37
+UniRef90_A0A139A9D0 Transitional endoplasmic reticulum ATPase TE...   162   1e-37
+UniRef90_A0A1D1YE28 Cell division cycle protein 48 (Fragment) n=...   162   1e-37
+UniRef90_G1KTE0 Uncharacterized protein n=16 Tax=Euteleostomi Ta...   162   1e-37
+UniRef90_UPI00046BFE64 transitional endoplasmic reticulum ATPase...   162   1e-37
+UniRef90_A0A0E0K8W0 Uncharacterized protein n=4 Tax=commelinids ...   162   1e-37
+UniRef90_A0A197JZ26 Transitional endoplasmic reticulum ATPase n=...   161   1e-37
+UniRef90_A0A0D2ULD9 Valosin-containing protein n=1 Tax=Capsaspor...   161   1e-37
+UniRef90_UPI00042BC22F transitional endoplasmic reticulum ATPase...   161   1e-37
+UniRef90_A0A0P6IJW6 Transitional endoplasmic reticulum ATPase TE...   161   1e-37
+UniRef90_A0A1S3IKZ6 transitional endoplasmic reticulum ATPase is...   161   1e-37
+UniRef90_A0A165Y9J9 AAA ATPase n=1 Tax=Peniophora sp. CONT TaxID...   161   1e-37
+UniRef90_P90532 Cell division cycle protein 48 n=5 Tax=Dictyoste...   161   1e-37
+UniRef90_Q9HAP1 Valosin-containing protein (Fragment) n=1 Tax=Ho...   161   2e-37
+UniRef90_A0A0P0YUY9 Host cell division cycle protein n=7 Tax=Bac...   161   2e-37
+UniRef90_K7FMD5 Uncharacterized protein n=2 Tax=Pelodiscus sinen...   161   2e-37
+UniRef90_R7TPA8 Uncharacterized protein (Fragment) n=1 Tax=Capit...   161   2e-37
+UniRef90_D2VSC1 Predicted protein n=1 Tax=Naegleria gruberi TaxI...   161   2e-37
+UniRef90_A0A1D6KUJ0 Cell division control protein 48 homolog D n...   161   2e-37
+UniRef90_A0A0L7LT18 Transitional endoplasmic reticulum ATPase TE...   161   2e-37
+UniRef90_A0A0F7S837 Uncharacterized protein n=12 Tax=Ustilaginac...   161   2e-37
+UniRef90_A8HW56 Flagellar associated protein n=4 Tax=Chlorophyce...   161   2e-37
+UniRef90_A0A0V0IS27 Putative cell division cycle protein-like n=...   161   2e-37
+UniRef90_A0A0B7AKA6 Uncharacterized protein n=4 Tax=Euthyneura T...   161   2e-37
+UniRef90_A0A1C7MAV5 Cell division control protein 48 n=1 Tax=Gri...   161   2e-37
+UniRef90_A0A1U8G4N4 cell division cycle protein 48 homolog n=7 T...   161   2e-37
+UniRef90_A0A1X7TSM5 Uncharacterized protein n=3 Tax=Amphimedon q...   161   2e-37
+UniRef90_A0A0A1NBT2 Putative Cell division control protein Cdc48...   161   2e-37
+UniRef90_A0A0M0J3Z4 Transitional endoplasmic reticulum ATPase n=...   160   2e-37
+UniRef90_A0A0L0HJQ5 Transitional endoplasmic reticulum ATPase n=...   160   2e-37
+UniRef90_A0A0B7N6V2 Uncharacterized protein n=2 Tax=Mucorineae T...   160   2e-37
+UniRef90_A0A1Y1XA59 AAA ATPase n=3 Tax=Basidiobolus meristosporu...   160   2e-37
+UniRef90_A0A0F7SSW6 Aaa atpase n=1 Tax=Phaffia rhodozyma TaxID=2...   160   2e-37
+UniRef90_A0A1D2NH57 Transitional endoplasmic reticulum ATPase TE...   160   2e-37
+UniRef90_A0A165KJL1 AAA ATPase n=2 Tax=Auriculariales TaxID=5226...   160   3e-37
+UniRef90_A7BFI9 Valosin containing protein n=19 Tax=Chelicerata ...   160   3e-37
+UniRef90_A0A182NGU8 Uncharacterized protein n=3 Tax=Anopheles Ta...   160   3e-37
+UniRef90_A0A1D6PJZ1 Cell division control protein 48 homolog D n...   160   3e-37
+UniRef90_A0A1R3JD30 Uncharacterized protein n=1 Tax=Corchorus ol...   160   3e-37
+UniRef90_G8FUG7 Cell division cycle protein 48 n=1 Tax=Dictyoste...   160   3e-37
+UniRef90_M4CNE5 Acylphosphatase n=2 Tax=Brassica campestris TaxI...   160   3e-37
+UniRef90_A0A0P1BPZ6 Valosin-containing protein n=1 Tax=Ceraceoso...   160   3e-37
+UniRef90_M2WWD9 AAA-type ATPase n=1 Tax=Galdieria sulphuraria Ta...   160   3e-37
+UniRef90_A0A1Y5I1M4 P-loop containing nucleoside triphosphate hy...   160   3e-37
+UniRef90_UPI000B426AEA cell division control protein 48 homolog ...   160   3e-37
+UniRef90_A0A151VHE3 Cell division cycle protein 48 n=27 Tax=Agar...   160   3e-37
+UniRef90_A9V9M3 Predicted protein n=1 Tax=Monosiga brevicollis T...   160   3e-37
+UniRef90_A0A0L6WTS7 Cell division cycle protein 48 like protein ...   160   3e-37
+UniRef90_A0A0P4W3V4 Uncharacterized protein n=1 Tax=Scylla oliva...   160   4e-37
+UniRef90_I0YZZ5 AAA ATPase n=1 Tax=Coccomyxa subellipsoidea (str...   160   4e-37
+UniRef90_A0A0D9XK40 Uncharacterized protein n=1 Tax=Leersia perr...   160   4e-37
+UniRef90_A0A066WIJ9 AAA ATPase n=1 Tax=Tilletiaria anomala UBC 9...   160   4e-37
+UniRef90_UPI0006CEED63 transitional endoplasmic reticulum ATPase...   160   4e-37
+UniRef90_A0A1J1I3P4 CLUMA_CG006478, isoform A n=13 Tax=Holometab...   160   4e-37
+UniRef90_UPI0005235547 transitional endoplasmic reticulum ATPase...   160   4e-37
+UniRef90_K4A7D3 Uncharacterized protein n=2 Tax=Mesangiospermae ...   160   4e-37
+UniRef90_A0A0H2S4Y3 AAA ATPase n=2 Tax=Schizopora paradoxa TaxID...   160   4e-37
+UniRef90_A0A0T6B0B0 AAA protein (Fragment) n=1 Tax=Oryctes borbo...   160   4e-37
+UniRef90_J9JPU1 Uncharacterized protein n=2 Tax=Macrosiphini Tax...   160   4e-37
+UniRef90_A0A1D6GQ41 Cell division cycle protein 48 n=2 Tax=Zea m...   160   4e-37
+UniRef90_UPI0005117377 transitional endoplasmic reticulum ATPase...   160   4e-37
+UniRef90_A0A0C3QAJ5 Uncharacterized protein n=1 Tax=Tulasnella c...   160   4e-37
+UniRef90_I3KHR3 Zgc:136908 n=30 Tax=Percomorphaceae TaxID=148987...   160   5e-37
+UniRef90_P54609 Cell division control protein 48 homolog A n=311...   159   5e-37
+UniRef90_A4RRG4 Uncharacterized protein n=2 Tax=Ostreococcus Tax...   159   5e-37
+UniRef90_A0A0V0IPE3 Putative cell division cycle protein 48-like...   159   5e-37
+UniRef90_A0A1D6GQ45 Cell division cycle protein 48 n=5 Tax=Mesan...   159   5e-37
+UniRef90_A0A1J3DSS6 Cell division control protein 48-like protei...   159   5e-37
+UniRef90_UPI0009D6F198 cell division cycle protein 48 homolog is...   159   5e-37
+UniRef90_M0TEP4 Uncharacterized protein n=1 Tax=Musa acuminata s...   159   5e-37
+UniRef90_A0A0L0D4R6 Uncharacterized protein n=1 Tax=Thecamonas t...   159   5e-37
+UniRef90_A0A1D6JNX7 Cell division control protein 48 homolog D n...   159   5e-37
+UniRef90_A0A1Y1WMM7 AAA ATPase n=1 Tax=Linderina pennispora TaxI...   159   6e-37
+UniRef90_A0A182GAA5 Uncharacterized protein n=3 Tax=Aedes albopi...   159   6e-37
+UniRef90_C3YTH4 Uncharacterized protein n=3 Tax=Branchiostoma Ta...   159   6e-37
+UniRef90_T1JGY4 Uncharacterized protein n=1 Tax=Strigamia mariti...   159   7e-37
+UniRef90_UPI00064507CF hypothetical protein n=1 Tax=Acytostelium...   159   7e-37
+UniRef90_D0P0N7 Cell division control protein 48 n=17 Tax=Oomyce...   159   7e-37
+UniRef90_UPI00064180F9 LOW QUALITY PROTEIN: transitional endopla...   159   7e-37
+UniRef90_A0A1D6PJZ2 Cell division control protein 48 homolog D n...   159   7e-37
+UniRef90_A0A1D6PJZ3 Cell division control protein 48 homolog D n...   159   7e-37
+UniRef90_D6R706 Valosin-containing protein (Fragment) n=6 Tax=Eu...   159   8e-37
+UniRef90_A0A069DWX9 Putative aaa+-type atpase n=5 Tax=Panheterop...   158   8e-37
+UniRef90_C1BF87 Transitional endoplasmic reticulum ATPase n=4 Ta...   158   8e-37
+UniRef90_A0A1S3L489 transitional endoplasmic reticulum ATPase-li...   158   9e-37
+UniRef90_U5TQQ5 Valosin-containing protein n=1 Tax=Penaeus monod...   158   9e-37
+UniRef90_A0A0D2MBS1 Uncharacterized protein n=1 Tax=Gossypium ra...   158   9e-37
+UniRef90_A0A1V9X4H1 Transitional endoplasmic reticulum ATPase TE...   158   9e-37
+UniRef90_A0A1U7YS63 cell division cycle protein 48 homolog n=44 ...   158   9e-37
+UniRef90_UPI00084AA9B3 LOW QUALITY PROTEIN: transitional endopla...   158   9e-37
+UniRef90_A0A0K2TQE3 Transitional endoplasmic reticulum ATPase TE...   158   9e-37
+UniRef90_F2TZJ8 Cell division cycle protein 48 n=1 Tax=Salpingoe...   158   1e-36
+UniRef90_A0A1Y1IHJ4 AAA family ATPase n=1 Tax=Klebsormidium flac...   158   1e-36
+UniRef90_C5LAB2 Cell division cycle protein, putative n=2 Tax=Pe...   158   1e-36
+UniRef90_C0PAT5 Uncharacterized protein n=1 Tax=Zea mays TaxID=4...   158   1e-36
+UniRef90_A0A1B6H391 Uncharacterized protein (Fragment) n=1 Tax=C...   158   1e-36
+UniRef90_T2MFM1 Transitional endoplasmic reticulum ATPase (Fragm...   158   1e-36
+UniRef90_A0A061QXF2 Transitional endoplasmic reticulum ATPase n=...   158   1e-36
+UniRef90_A0A1D5Y3Q4 Uncharacterized protein n=4 Tax=Embryophyta ...   158   1e-36
+UniRef90_R9AKB4 Cell division control protein 48 n=2 Tax=Wallemi...   158   1e-36
+UniRef90_A0A1Y2CX91 AAA ATPase n=1 Tax=Rhizoclosmatium globosum ...   158   1e-36
+UniRef90_A0A1X6PIQ3 Uncharacterized protein n=2 Tax=Porphyra umb...   158   1e-36
+UniRef90_L8WIB7 Cell division cycle protein 48 n=1 Tax=Thanateph...   158   1e-36
+UniRef90_W7TK84 ATPase, AAA-type, core n=1 Tax=Nannochloropsis g...   158   1e-36
+UniRef90_S4R8Y2 Uncharacterized protein n=6 Tax=Bilateria TaxID=...   158   1e-36
+UniRef90_A0A072VC98 ATPase, AAA-type, CDC48 protein n=1 Tax=Medi...   158   1e-36
+UniRef90_D8LBW0 Uncharacterized protein n=1 Tax=Ectocarpus silic...   158   2e-36
+UniRef90_A0A1D5XF29 Uncharacterized protein n=1 Tax=Triticum aes...   158   2e-36
+UniRef90_A0A078BX76 BnaA07g16030D protein n=1 Tax=Brassica napus...   158   2e-36
+UniRef90_A0A087ST05 Cell division control protein 48-like protei...   158   2e-36
+UniRef90_Q20AI9 Cell division cycle CDC48 (Fragment) n=1 Tax=Ict...   158   2e-36
+UniRef90_A0A068V8G8 Uncharacterized protein n=1 Tax=Coffea canep...   157   2e-36
+UniRef90_A0A0D3DSQ0 Uncharacterized protein n=1 Tax=Brassica ole...   157   2e-36
+UniRef90_A0A078C946 BnaC08g24320D protein n=2 Tax=Brassica napus...   157   2e-36
+UniRef90_A0A059LHR1 AAA+ ATPase (Fragment) n=1 Tax=Helicosporidi...   157   2e-36
+UniRef90_M0U2W2 Uncharacterized protein n=1 Tax=Musa acuminata s...   157   2e-36
+UniRef90_A0A0C3CKS5 Uncharacterized protein n=1 Tax=Hebeloma cyl...   157   2e-36
+UniRef90_UPI0004CCA088 transitional endoplasmic reticulum ATPase...   157   2e-36
+UniRef90_UPI0006D8E11F LOW QUALITY PROTEIN: transitional endopla...   157   2e-36
+UniRef90_A0A1D1Z1T8 Cell division cycle protein 48 n=1 Tax=Anthu...   157   3e-36
+UniRef90_M5C3I2 MMS2 protein n=3 Tax=Cantharellales TaxID=36064 ...   157   3e-36
+UniRef90_UPI00044089BF AAA ATPase n=1 Tax=Fomitiporia mediterran...   157   3e-36
+UniRef90_L1IB53 CDC48-like protein n=2 Tax=Guillardia theta TaxI...   157   3e-36
+UniRef90_F0WD79 Uncharacterized protein AlNc14C64G4599 n=1 Tax=A...   157   3e-36
+UniRef90_A0A177UTZ7 Cell division control protein 48 n=4 Tax=Til...   157   3e-36
+UniRef90_A0A147B8H9 Transitional endoplasmic reticulum atpase (F...   157   3e-36
+UniRef90_K8E910 Uncharacterized protein n=1 Tax=Bathycoccus pras...   157   3e-36
+UniRef90_C1FDN1 Cell division cycle protein 48-like protein, exp...   157   3e-36
+UniRef90_A0A1D6RWC4 Uncharacterized protein n=1 Tax=Triticum aes...   157   4e-36
+UniRef90_F0XYY5 Uncharacterized protein n=1 Tax=Aureococcus anop...   156   4e-36
+UniRef90_UPI00087070F5 uncharacterized protein LOC103964820 isof...   156   4e-36
+UniRef90_A0A1M8A5S3 AAA ATPase n=4 Tax=Malassezia TaxID=55193 Re...   156   4e-36
+UniRef90_A0A0H2R2B9 AAA ATPase (Fragment) n=1 Tax=Schizopora par...   156   5e-36
+UniRef90_A0A060Z2Q6 Uncharacterized protein (Fragment) n=1 Tax=O...   156   5e-36
+UniRef90_UPI000A2B68EA cell division cycle protein 48 homolog n=...   156   5e-36
+UniRef90_B3S3Z3 Uncharacterized protein n=1 Tax=Trichoplax adhae...   156   5e-36
+UniRef90_A0A176WK41 Uncharacterized protein n=1 Tax=Marchantia p...   156   5e-36
+UniRef90_G3Q4U8 Zgc:136908 n=1 Tax=Gasterosteus aculeatus TaxID=...   156   5e-36
+UniRef90_A0A1R3KWA9 Uncharacterized protein n=2 Tax=Corchorus ol...   156   6e-36
+UniRef90_A0A1E3HH29 Transitional endoplasmic reticulum ATPase n=...   156   6e-36
+UniRef90_A0A1D2A9P0 Uncharacterized protein (Fragment) n=1 Tax=A...   156   6e-36
+UniRef90_UPI0007195733 transitional endoplasmic reticulum ATPase...   156   6e-36
+UniRef90_UPI000A1C57C0 transitional endoplasmic reticulum ATPase...   156   6e-36
+UniRef90_G7DXY7 Uncharacterized protein n=2 Tax=Mixia osmundae (...   156   6e-36
+UniRef90_A0A1I8IKM7 Uncharacterized protein n=1 Tax=Macrostomum ...   155   7e-36
+UniRef90_G4TFJ6 Probable CDC48-Microsomal protein of CDC48/PAS1/...   155   7e-36
+UniRef90_UPI0006D4CC67 transitional endoplasmic reticulum ATPase...   155   7e-36
+UniRef90_UPI000811A28F transitional endoplasmic reticulum ATPase...   155   8e-36
+UniRef90_A0A067G1F3 Uncharacterized protein (Fragment) n=2 Tax=C...   155   8e-36
+UniRef90_A0A165XA66 Valosin-containing protein n=1 Tax=Fibularhi...   155   9e-36
+UniRef90_W8P5K0 Cell division cycle 48 protein n=2 Tax=Chromera ...   155   1e-35
+UniRef90_A0A1J7GJJ2 Uncharacterized protein n=1 Tax=Lupinus angu...   155   1e-35
+UniRef90_A0A066W3A6 Uncharacterized protein (Fragment) n=1 Tax=R...   155   1e-35
+UniRef90_P54812 Transitional endoplasmic reticulum ATPase homolo...   155   1e-35
+UniRef90_M1VI15 Transitional endoplasmic reticulum ATPase n=1 Ta...   155   1e-35
+UniRef90_A0A0D0A941 Unplaced genomic scaffold CY34scaffold_589, ...   155   1e-35
+UniRef90_A0A0C4ELI9 Cell division cycle protein 48 n=5 Tax=Pucci...   155   1e-35
+UniRef90_A0A1Y3BJP4 Transitional endoplasmic reticulum ATPase TE...   155   1e-35
+UniRef90_UPI000498EA97 uncharacterized protein LOC103407783 n=5 ...   155   1e-35
+UniRef90_UPI0003F48C10 hypothetical protein n=1 Tax=Tremella mes...   155   1e-35
+UniRef90_A0A0N5DFM1 Uncharacterized protein n=1 Tax=Trichuris mu...   155   1e-35
+UniRef90_A0A164XIL5 Uncharacterized protein n=1 Tax=Daucus carot...   154   2e-35
+UniRef90_A0A1B0CLN3 Uncharacterized protein n=1 Tax=Lutzomyia lo...   154   2e-35
+UniRef90_A0A1X2GLT5 Transitional endoplasmic reticulum ATPase n=...   154   2e-35
+UniRef90_A0A183IM98 Uncharacterized protein n=1 Tax=Soboliphyme ...   154   2e-35
+UniRef90_A0A023EU80 Putative ter94 (Fragment) n=1 Tax=Aedes albo...   154   2e-35
+UniRef90_A0A132AIJ4 Transitional endoplasmic reticulum ATPase TE...   154   2e-35
+UniRef90_UPI000A2B2BCC cell division cycle protein 48 homolog n=...   154   2e-35
+UniRef90_A0A0B7G0Q9 Cell division cycle protein 48 homolog OS=Gl...   154   2e-35
+UniRef90_UPI0004F1B04A cell division control protein 48 homolog ...   154   2e-35
+UniRef90_A0A077ZLV1 Cell division cycle protein n=1 Tax=Trichuri...   154   3e-35
+UniRef90_A0A0L0SGL6 Transitional endoplasmic reticulum ATPase n=...   153   3e-35
+UniRef90_A0A0P5ZS79 Transitional endoplasmic reticulum ATPase TE...   153   3e-35
+UniRef90_A0A0F5CP33 AAA protein n=2 Tax=Pristionchus pacificus T...   153   3e-35
+UniRef90_A0A0K0CXC1 Uncharacterized protein n=1 Tax=Angiostrongy...   153   3e-35
+UniRef90_UPI00099FA327 transitional endoplasmic reticulum ATPase...   153   3e-35
+UniRef90_A0A016UJ38 Uncharacterized protein n=3 Tax=Strongylida ...   153   3e-35
+UniRef90_A0A1S3QHX4 transitional endoplasmic reticulum ATPase-li...   153   3e-35
+UniRef90_H3EEN1 Uncharacterized protein n=5 Tax=Chromadorea TaxI...   153   4e-35
+UniRef90_F4PC08 Uncharacterized protein n=5 Tax=Batrachochytrium...   153   4e-35
+UniRef90_UPI000455EBA7 AAA-domain-containing protein n=1 Tax=Con...   153   4e-35
+UniRef90_M7X2W2 Transitional endoplasmic reticulum ATPase n=7 Ta...   153   5e-35
+UniRef90_H2KU37 Transitional endoplasmic reticulum ATPase (Fragm...   153   5e-35
+UniRef90_A0A0K6FWU3 Transitional endoplasmic reticulum ATPase n=...   153   5e-35
+UniRef90_UPI000498E7BC cell division cycle protein 48 homolog n=...   153   5e-35
+UniRef90_A0A1R3HZN1 Uncharacterized protein n=1 Tax=Corchorus ol...   153   5e-35
+UniRef90_A0A074Z8E9 Uncharacterized protein n=1 Tax=Opisthorchis...   153   5e-35
+UniRef90_A0A0F8AMQ9 Transitional endoplasmic reticulum ATPase n=...   152   6e-35
+UniRef90_A0A1Y2FA26 AAA ATPase n=4 Tax=Neocallimastigaceae TaxID...   152   6e-35
+UniRef90_A0A0A9Y2M0 Transitional endoplasmic reticulum ATPase TE...   152   7e-35
+UniRef90_U5GXW5 Transitional endoplasmic reticulum ATPase n=1 Ta...   152   7e-35
+UniRef90_C5LTK6 Cell division cycle protein, putative (Fragment)...   152   8e-35
+UniRef90_M8D498 Cell division control 48-E-like protein n=1 Tax=...   152   8e-35
+UniRef90_A0A068XZ47 Transitional endoplasmic reticulum atpase n=...   152   8e-35
+UniRef90_A0A183T643 Uncharacterized protein n=1 Tax=Schistocepha...   152   8e-35
+UniRef90_A0A218WFT3 Uncharacterized protein n=1 Tax=Punica grana...   152   9e-35
+UniRef90_A0A068UYE7 Uncharacterized protein n=1 Tax=Coffea canep...   152   1e-34
+UniRef90_A0A1S8WPB3 Cell division control protein 48 n=2 Tax=Dig...   152   1e-34
+UniRef90_U6G3N5 Cell division protein 48, putative n=1 Tax=Eimer...   151   1e-34
+UniRef90_A0A1R2C3K4 Uncharacterized protein n=4 Tax=Stentor coer...   151   1e-34
+UniRef90_M5WTB9 Uncharacterized protein n=1 Tax=Prunus persica T...   151   1e-34
+UniRef90_A0A1Q9DKI8 Cell division cycle protein 48-like n=1 Tax=...   151   2e-34
+UniRef90_UPI000B4E9DBC transitional endoplasmic reticulum ATPase...   151   2e-34
+UniRef90_A0A182ZQM8 Uncharacterized protein n=2 Tax=Biomphalaria...   151   2e-34
+UniRef90_Q5CT24 CDC48 like AAA ATPase ortholog (Fragment) n=5 Ta...   151   2e-34
+UniRef90_A0A0B1TW71 Cell division protein 48 domain protein n=1 ...   151   2e-34
+UniRef90_U6L852 Cell division protein 48, putative n=1 Tax=Eimer...   150   2e-34
+UniRef90_A0A0L1KPK6 Transitional endoplasmic reticulum ATPase n=...   150   2e-34
+UniRef90_A0A0N5A9U8 Uncharacterized protein n=1 Tax=Syphacia mur...   150   2e-34
+UniRef90_U6KXE0 Uncharacterized protein n=3 Tax=Eimeria TaxID=58...   150   2e-34
+UniRef90_A0A0G4GAH1 Uncharacterized protein n=1 Tax=Vitrella bra...   150   2e-34
+UniRef90_A0A1S4DSB2 cell division cycle protein 48 homolog n=5 T...   150   2e-34
+UniRef90_V4LVQ9 Uncharacterized protein n=1 Tax=Eutrema salsugin...   150   3e-34
+UniRef90_A0A0R3NSK5 Uncharacterized protein, isoform B n=9 Tax=D...   150   4e-34
+UniRef90_A0A072VMP1 ATPase, AAA-type, CDC48 protein n=1 Tax=Medi...   150   4e-34
+UniRef90_A0A1Q9DHE0 Cell division cycle protein 48-like n=1 Tax=...   150   4e-34
+UniRef90_A0A146WN27 Transitional endoplasmic reticulum ATPase n=...   150   4e-34
+UniRef90_A0A1I8A1E7 Uncharacterized protein n=1 Tax=Steinernema ...   150   5e-34
+UniRef90_A0A0S4JI00 Cell division cycle protein, putative n=1 Ta...   149   5e-34
+UniRef90_G4M0P7 Cell division control protein 48 aaa family prot...   149   5e-34
+UniRef90_A0A023B919 Putative cell division protein 48 n=1 Tax=Gr...   149   5e-34
+UniRef90_A0A0K9QT32 Uncharacterized protein n=3 Tax=Chenopodioid...   149   6e-34
+UniRef90_A0A1A9ZDZ6 Uncharacterized protein n=6 Tax=Holometabola...   149   6e-34
+UniRef90_M8CGS3 Cell division control 48-E-like protein n=2 Tax=...   149   7e-34
+UniRef90_J5TFH4 MMS2 protein n=11 Tax=Tremellomycetes TaxID=1556...   149   7e-34
+UniRef90_A0A1I7SWW1 Uncharacterized protein n=1 Tax=Bursaphelenc...   148   8e-34
+UniRef90_A0A1I7UG09 Uncharacterized protein n=2 Tax=Caenorhabdit...   148   8e-34
+UniRef90_A0A0J9XXY9 Bm1994, isoform a n=19 Tax=Chromadorea TaxID...   148   9e-34
+UniRef90_A0A1R1XPK1 Transitional endoplasmic reticulum ATPase n=...   148   9e-34
+UniRef90_K8YS88 Transitional endoplasmic reticulum ATPase n=1 Ta...   148   1e-33
+UniRef90_B4GB87 GL11509 n=1 Tax=Drosophila persimilis TaxID=7234...   148   1e-33
+UniRef90_A0A183UJ11 Uncharacterized protein n=1 Tax=Toxocara can...   148   1e-33
+UniRef90_G0MVN9 CBN-CDC-48.1 protein n=1 Tax=Caenorhabditis bren...   148   1e-33
+UniRef90_UPI00092E6B05 cell division cycle protein 48 homolog n=...   148   1e-33
+UniRef90_G4M0P6 Cell division control protein 48 aaa family prot...   148   2e-33
+UniRef90_A0A1Q9DKN5 Cell division cycle protein 48-like n=1 Tax=...   148   2e-33
+UniRef90_P54811 Transitional endoplasmic reticulum ATPase homolo...   148   2e-33
+UniRef90_A0A1D5ZCD5 Uncharacterized protein n=1 Tax=Triticum aes...   148   2e-33
+UniRef90_A0A0K9PB18 Cell division control protein 48 n=1 Tax=Zos...   148   2e-33
+UniRef90_A0A170Y4G2 Transitional endoplasmic reticulum atpase te...   148   2e-33
+UniRef90_W7I964 Cell division control protein 48 n=3 Tax=Orbilia...   148   2e-33
+UniRef90_A0A146KNX9 Transitional endoplasmic reticulum ATPase TE...   147   2e-33
+UniRef90_W8P5K5 Cell division cycle 48 protein n=1 Tax=Prorocent...   147   2e-33
+UniRef90_Q4DWB5 Transitional endoplasmic reticulum ATPase, putat...   147   2e-33
+UniRef90_M0SAJ4 Uncharacterized protein n=1 Tax=Musa acuminata s...   147   2e-33
+UniRef90_A0A1D3D5E1 Uncharacterized protein n=1 Tax=Cyclospora c...   147   2e-33
+UniRef90_A0A0X3NKF7 Uncharacterized protein (Fragment) n=1 Tax=S...   147   2e-33
+UniRef90_A0A1D5SQ64 Uncharacterized protein n=12 Tax=Pooideae Ta...   147   2e-33
+UniRef90_F2DSA2 Predicted protein n=1 Tax=Hordeum vulgare subsp....   147   3e-33
+UniRef90_F1LCZ2 Transitional endoplasmic reticulum ATPase 1 (Fra...   147   3e-33
+UniRef90_U4LY19 Similar to Cell division control protein 48 acc....   147   3e-33
+UniRef90_A0A1S3DQC3 transitional endoplasmic reticulum ATPase-li...   147   3e-33
+UniRef90_V5B4G8 Cell division cycle protein n=1 Tax=Trypanosoma ...   147   3e-33
+UniRef90_T1IE68 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   147   3e-33
+UniRef90_A0A139Y6F9 Cell division protein CDC48CY n=15 Tax=Sarco...   147   3e-33
+UniRef90_T1I4A1 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   147   3e-33
+UniRef90_A0A068XDX3 Transitional endoplasmic reticulum atpase n=...   147   3e-33
+UniRef90_A0A170Y4J0 Transitional endoplasmic reticulum atpase te...   147   3e-33
+UniRef90_U5FPL0 Uncharacterized protein n=1 Tax=Populus trichoca...   147   4e-33
+UniRef90_F6VLN4 Uncharacterized protein n=5 Tax=Ciona TaxID=7718...   147   4e-33
+UniRef90_UPI0002C37151 cell division control protein 48 homolog ...   147   4e-33
+UniRef90_M7NRZ4 Cell division control protein 48 n=3 Tax=Pneumoc...   147   4e-33
+UniRef90_W6KRQ6 Uncharacterized protein n=2 Tax=unclassified Phy...   146   4e-33
+UniRef90_A0A1I8J6R1 Uncharacterized protein n=2 Tax=Macrostomum ...   146   4e-33
+UniRef90_A0A0R3QYK5 Uncharacterized protein n=1 Tax=Brugia timor...   146   4e-33
+UniRef90_A0A1E4U3I4 Uncharacterized protein n=1 Tax=Pachysolen t...   146   5e-33
+UniRef90_A0A1I8C511 Uncharacterized protein n=2 Tax=Rhabditophan...   146   5e-33
+UniRef90_G0UWF3 Putative Transitional endoplasmic reticulum ATPa...   146   5e-33
+UniRef90_I1H9V8 Uncharacterized protein n=1 Tax=Brachypodium dis...   146   6e-33
+UniRef90_Q7KN62 Transitional endoplasmic reticulum ATPase TER94 ...   146   6e-33
+UniRef90_G3B345 Uncharacterized protein n=1 Tax=Candida tenuis (...   146   6e-33
+UniRef90_A0A059A042 Uncharacterized protein n=1 Tax=Eucalyptus g...   146   6e-33
+UniRef90_A0A0H2QVZ9 Valosin-containing protein (Fragment) n=1 Ta...   146   7e-33
+UniRef90_A0A1W5D4J6 Cell division control protein 48 n=1 Tax=Umb...   146   7e-33
+UniRef90_A0A0G4E879 Uncharacterized protein n=1 Tax=Vitrella bra...   145   7e-33
+UniRef90_A0A0N5ADI0 Uncharacterized protein n=1 Tax=Syphacia mur...   145   8e-33
+UniRef90_K1XIA4 Cell division control protein Cdc48 n=39 Tax=Leo...   145   8e-33
+UniRef90_A0A077RY74 Uncharacterized protein n=1 Tax=Triticum aes...   145   9e-33
+UniRef90_A0A0L0NDU2 Cell division control protein 48 (Fragment) ...   145   1e-32
+UniRef90_A0A086QGF2 Putative transitional endoplasmic reticulum ...   145   1e-32
+UniRef90_B8C373 Transitional endoplasmic reticulum (Fragment) n=...   145   1e-32
+UniRef90_A0A077RV04 Uncharacterized protein n=1 Tax=Triticum aes...   145   1e-32
+UniRef90_A0A0J9XY76 Bm1994, isoform b n=2 Tax=Spirurida TaxID=62...   145   1e-32
+UniRef90_A0A1W2TLZ4 Putative cell division control protein Cdc48...   145   1e-32
+UniRef90_A0A1A7XPU0 Uncharacterized protein (Fragment) n=1 Tax=A...   145   1e-32
+UniRef90_F0XCQ1 Cell division control protein cdc48 n=6 Tax=Sord...   145   1e-32
+UniRef90_C9SZ92 Cell division cycle protein (Fragment) n=1 Tax=V...   145   1e-32
+UniRef90_A0A075AZX6 Transitional endoplasmic reticulum ATPase n=...   145   1e-32
+UniRef90_A0A1I7ZD38 Uncharacterized protein n=1 Tax=Steinernema ...   145   1e-32
+UniRef90_A0A167MP04 Uncharacterized protein n=1 Tax=Phycomyces b...   145   1e-32
+UniRef90_A0A059A132 Uncharacterized protein n=1 Tax=Eucalyptus g...   144   2e-32
+UniRef90_A0A0P4X1E5 Transitional endoplasmic reticulum ATPase TE...   144   2e-32
+UniRef90_A0A124GQ30 Cell division control protein 48 n=8 Tax=Eur...   144   2e-32
+UniRef90_S9TM90 Transitional endoplasmic reticulum ATPase n=2 Ta...   144   2e-32
+UniRef90_E4XE81 Uncharacterized protein n=1 Tax=Oikopleura dioic...   144   2e-32
+UniRef90_A0A0G4IHT8 Uncharacterized protein n=1 Tax=Plasmodiopho...   144   2e-32
+UniRef90_A0A0N4VFP7 Uncharacterized protein n=1 Tax=Enterobius v...   144   2e-32
+UniRef90_A0A1D5WVP7 Uncharacterized protein n=2 Tax=Triticum Tax...   144   2e-32
+UniRef90_A0A060SYS4 ARAD1A19316p n=1 Tax=Blastobotrys adeninivor...   144   2e-32
+UniRef90_A0A0D1Z0H6 Cell division control protein 48 n=1 Tax=Exo...   144   2e-32
+UniRef90_A0A0R3WM70 Uncharacterized protein n=1 Tax=Hydatigena t...   144   2e-32
+UniRef90_A0A1D6B644 Uncharacterized protein n=1 Tax=Triticum aes...   144   2e-32
+UniRef90_M8B415 Cell division cycle 48-like protein n=13 Tax=Tri...   144   2e-32
+UniRef90_A0A1I8B9L5 Uncharacterized protein n=1 Tax=Meloidogyne ...   144   2e-32
+UniRef90_A0A0J9XGM2 Similar to Saccharomyces cerevisiae YDL126C ...   144   2e-32
+UniRef90_A0A1E3QEX2 Uncharacterized protein n=1 Tax=Lipomyces st...   144   2e-32
+UniRef90_U6KJH4 AGAP005630-PA, related n=1 Tax=Eimeria mitis Tax...   144   2e-32
+UniRef90_A0A0M8P880 Cell division control protein 48 n=49 Tax=Eu...   144   2e-32
+UniRef90_A0A0D2AX77 Cell division control protein 48 n=1 Tax=Ver...   144   3e-32
+UniRef90_A0A090L355 Transitional endoplasmic reticulum ATPase n=...   144   3e-32
+UniRef90_A0A1E3QXN4 Uncharacterized protein n=1 Tax=Babjeviella ...   143   3e-32
+UniRef90_Q38B27 Valosin-containing protein homolog n=4 Tax=Trypa...   143   3e-32
+UniRef90_C0NF61 Cell division control protein n=1 Tax=Ajellomyce...   143   4e-32
+UniRef90_A0A1I8AIC4 Uncharacterized protein n=2 Tax=Steinernema ...   143   4e-32
+UniRef90_A0A0N4VL56 Uncharacterized protein n=1 Tax=Enterobius v...   143   4e-32
+UniRef90_K0KQM0 Cell division control protein n=5 Tax=Phaffomyce...   143   4e-32
+UniRef90_A0A1D5S825 Uncharacterized protein n=1 Tax=Triticum aes...   143   4e-32
+UniRef90_C1H425 Cell division cycle protein n=57 Tax=leotiomycet...   143   5e-32
+UniRef90_A0A0K9PPD0 Uncharacterized protein n=1 Tax=Zostera mari...   143   6e-32
+UniRef90_A0A074WZC7 AAA ATPase n=5 Tax=Fungi TaxID=4751 RepID=A0...   142   6e-32
+UniRef90_F0UGQ1 Cell division control protein n=1 Tax=Ajellomyce...   142   7e-32
+UniRef90_A3LQG9 Cell division control protein 48 n=18 Tax=Saccha...   142   7e-32
+UniRef90_Q6C1Z3 YALI0F12155p n=2 Tax=Yarrowia lipolytica TaxID=4...   142   7e-32
+UniRef90_UPI000498A0D0 cell division cycle protein 48 homolog n=...   142   8e-32
+UniRef90_M8CP09 Cell division control 48-D-like protein n=1 Tax=...   142   1e-31
+UniRef90_M8ATS8 Cell division cycle 48-like protein n=1 Tax=Aegi...   142   1e-31
+UniRef90_A0A1E3PEM1 AAA ATPase n=1 Tax=Nadsonia fulvescens var. ...   141   1e-31
+UniRef90_Q5BZ78 SJCHGC02986 protein (Fragment) n=1 Tax=Schistoso...   141   1e-31
+UniRef90_A4ICJ9 Putative Transitional endoplasmic reticulum ATPa...   141   2e-31
+UniRef90_W0TEJ2 Cell division control protein 48 n=4 Tax=Sacchar...   141   2e-31
+UniRef90_Q4Q1T9 Putative Transitional endoplasmic reticulum ATPa...   141   2e-31
+UniRef90_A0A0V1E3M1 Transitional endoplasmic reticulum ATPase-li...   141   2e-31
+UniRef90_A0A0V1IT25 Transitional endoplasmic reticulum ATPase-li...   141   2e-31
+UniRef90_G0W3S3 Uncharacterized protein n=1 Tax=Naumovozyma dair...   141   2e-31
+UniRef90_M8AQ44 Cell division control 48-D-like protein n=1 Tax=...   141   2e-31
+UniRef90_A0A0L0NPN3 Cell division control protein 48 n=3 Tax=Sac...   141   2e-31
+UniRef90_A0A0L1I1Z8 Cell division control protein 48 n=20 Tax=Do...   140   2e-31
+UniRef90_W6MXZ3 Uncharacterized protein n=1 Tax=Kuraishia capsul...   140   2e-31
+UniRef90_A0A0V1HYL2 Transitional endoplasmic reticulum ATPase-li...   140   2e-31
+UniRef90_A0A0V1HXT7 Transitional endoplasmic reticulum ATPase-li...   140   2e-31
+UniRef90_P25694 Cell division control protein 48 n=33 Tax=Saccha...   140   2e-31
+UniRef90_M3B5I3 Cell division control protein n=26 Tax=leotiomyc...   140   3e-31
+UniRef90_E5SR09 Putative ATPase, AAA family n=1 Tax=Trichinella ...   140   3e-31
+UniRef90_A0A0V1HY55 Transitional endoplasmic reticulum ATPase n=...   140   3e-31
+UniRef90_I2H1M8 Uncharacterized protein n=1 Tax=Tetrapisispora b...   140   3e-31
+UniRef90_R7QAA8 Transitional endoplasmic reticulum ATPase (Valos...   140   4e-31
+UniRef90_A0A1S7HNB4 CDC48 (YDL126C) n=2 Tax=Zygosaccharomyces Ta...   140   4e-31
+UniRef90_A0A1R4ACF9 Transitional endoplasmic reticulum ATPase n=...   140   4e-31
+UniRef90_A0A0D6EFG1 SPOSA6832_00207-mRNA-1:cds n=1 Tax=Sporidiob...   140   4e-31
+UniRef90_A0A0C7N300 LALA0S05e04346g1_1 n=4 Tax=Lachancea TaxID=3...   140   5e-31
+UniRef90_A0A0D9WPS8 Uncharacterized protein n=1 Tax=Leersia perr...   140   5e-31
+UniRef90_A0A0U5CF34 Putative Cell division cycle protein 48 n=1 ...   140   5e-31
+UniRef90_UPI0008676B22 AAA ATPase n=1 Tax=Saitoella complicata N...   140   5e-31
+UniRef90_A0A0E9NK06 Uncharacterized protein n=1 Tax=Saitoella co...   139   6e-31
+UniRef90_A0A1V2L339 Cell division control protein 48 n=1 Tax=Cyb...   139   6e-31
+UniRef90_A0A1U7LT10 Cell division control protein 48 (Fragment) ...   139   7e-31
+UniRef90_A0A0F8CSQ8 Cell division control protein 48 n=2 Tax=Cer...   139   8e-31
+UniRef90_A0A183C1N4 Uncharacterized protein n=1 Tax=Globodera pa...   139   8e-31
+UniRef90_F6GWA3 Uncharacterized protein n=2 Tax=Vitis vinifera T...   138   8e-31
+UniRef90_A0A1I8IY76 Uncharacterized protein n=2 Tax=Macrostomum ...   138   1e-30
+UniRef90_A0A1E4TBI5 Uncharacterized protein n=1 Tax=Tortispora c...   138   1e-30
+UniRef90_F2QXS9 AAA ATPase n=3 Tax=Komagataella TaxID=460517 Rep...   138   1e-30
+UniRef90_Q5AWS6 Cell division control protein 48 n=12 Tax=Asperg...   138   1e-30
+UniRef90_J4D694 Transitional endoplasmic reticulum ATPase n=1 Ta...   138   1e-30
+UniRef90_W6UQD3 Transitional endoplasmic reticulum ATPase n=1 Ta...   138   1e-30
+UniRef90_A0A0L0FS01 Transitional endoplasmic reticulum ATPase n=...   138   2e-30
+UniRef90_A7ARM1 Cell division control protein 48, putative n=3 T...   138   2e-30
+UniRef90_Q754B2 AFR158Wp n=4 Tax=Saccharomycetaceae TaxID=4893 R...   137   2e-30
+UniRef90_C5WYU4 Uncharacterized protein n=2 Tax=Sorghum bicolor ...   137   2e-30
+UniRef90_D8S303 Uncharacterized protein n=2 Tax=Selaginella moel...   137   2e-30
+UniRef90_I2H9L2 Uncharacterized protein n=1 Tax=Tetrapisispora b...   137   2e-30
+UniRef90_A0A0K8RS69 Putative valosin (Fragment) n=1 Tax=Ixodes r...   137   2e-30
+UniRef90_A0A098VRQ4 Valosin domain-containing protein n=1 Tax=Mi...   137   3e-30
+UniRef90_UPI000718AB85 Transitional endoplasmic reticulum ATPase...   137   3e-30
+UniRef90_Q4N783 Cell division cycle protein 48, putative n=2 Tax...   137   4e-30
+UniRef90_L1LFE7 Cell division cycle protein 48, putative n=1 Tax...   136   5e-30
+UniRef90_I2JT03 Cell division control protein 48 n=1 Tax=Brettan...   136   5e-30
+UniRef90_A0A099NZN3 Cell division control protein 48 n=3 Tax=Pic...   136   6e-30
+UniRef90_A0A192ZHH3 Cell division control protein 48-like protei...   135   8e-30
+UniRef90_U6GIG7 Cell division protein 48, putative n=1 Tax=Eimer...   135   1e-29
+UniRef90_A0A058ZIT9 Cell division cycle protein 48 n=1 Tax=Fonti...   135   1e-29
+UniRef90_W1Q7D0 Cell division control protein 48 n=3 Tax=Ogataea...   134   2e-29
+UniRef90_A0A1E1XHP0 Putative aaa+-type atpase (Fragment) n=1 Tax...   134   3e-29
+UniRef90_A0A1I7YZE1 Uncharacterized protein n=1 Tax=Steinernema ...   134   3e-29
+UniRef90_A0A1J1H827 Cell division cycle protein 48 homologue, pu...   133   3e-29
+UniRef90_A0A1E5RSD9 Cell division control protein 48 n=3 Tax=Han...   133   3e-29
+UniRef90_A0A0A1U1N9 Cdc48 family protein, putative (Fragment) n=...   133   3e-29
+UniRef90_B0E9H9 Transitional endoplasmic reticulum ATPase, putat...   133   4e-29
+UniRef90_J9HJQ1 AAA family ATPase, CDC48 subfamily protein n=2 T...   133   4e-29
+UniRef90_G7KP28 26S proteasome subunit RPN7 n=1 Tax=Medicago tru...   132   8e-29
+UniRef90_A0A060RV58 Cell division cycle protein 48 homologue, pu...   132   8e-29
+UniRef90_A0A1B7T7V7 YDL126Cp-like protein (Fragment) n=2 Tax=Han...   132   1e-28
+UniRef90_A0A1D2VPA3 AAA ATPase n=1 Tax=Ascoidea rubescens DSM 19...   132   1e-28
+UniRef90_A0A146Q1L0 Spermatogenesis-associated 5 protein 1-like ...   131   2e-28
+UniRef90_A0A146PRN4 Spermatogenesis-associated 5 protein 1-like ...   131   2e-28
+UniRef90_UPI0004413C20 AAA-domain-containing protein n=1 Tax=Aur...   131   2e-28
+UniRef90_Q9P3A7 Cell division cycle protein 48 n=4 Tax=Schizosac...   131   2e-28
+UniRef90_G0U679 Putative Transitional endoplasmic reticulum ATPa...   131   2e-28
+UniRef90_A0A146X0Y9 Transitional endoplasmic reticulum ATPase n=...   130   3e-28
+UniRef90_R4XE58 Cell division cycle protein 48 n=2 Tax=Taphrinal...   130   3e-28
+UniRef90_A0A0N4UVW4 Uncharacterized protein n=1 Tax=Enterobius v...   130   3e-28
+UniRef90_M8AZV9 Cell division control 48-A-like protein n=1 Tax=...   130   5e-28
+UniRef90_Q4YXK4 Cell division cycle protein 48 homologue, putati...   129   5e-28
+UniRef90_F2HHQ2 Cell division control protein 48 n=1 Tax=Cryptom...   129   5e-28
+UniRef90_Q98S05 Cell division cycle protein 48 homolog n=1 Tax=G...   128   9e-28
+UniRef90_V4T1Y7 Uncharacterized protein n=2 Tax=Citrus TaxID=270...   128   1e-27
+UniRef90_A0A196SFH2 Cell division control protein 48 n=2 Tax=Bla...   127   2e-27
+UniRef90_A0A0B2NUK0 Cell division cycle protein 48 like n=2 Tax=...   127   2e-27
+UniRef90_A0A1I8H2U1 Uncharacterized protein n=1 Tax=Macrostomum ...   127   4e-27
+UniRef90_K4AJI6 Uncharacterized protein n=3 Tax=Paniceae TaxID=1...   125   8e-27
+UniRef90_D8M4H7 Uncharacterized protein n=1 Tax=Blastocystis hom...   125   1e-26
+UniRef90_A0A0A1UA45 Transitional endoplasmic reticulum atpase, p...   123   3e-26
+UniRef90_A0A0P5LAA2 Transitional endoplasmic reticulum ATPase TE...   122   7e-26
+UniRef90_A0A0C2XFL4 Uncharacterized protein n=1 Tax=Amanita musc...   122   8e-26
+UniRef90_A0A1B6KYR0 Uncharacterized protein (Fragment) n=1 Tax=G...   122   8e-26
+UniRef90_G0QWK4 Transitional endoplasmic reticulum ATPase, putat...   122   9e-26
+UniRef90_S8DWI9 Uncharacterized protein (Fragment) n=2 Tax=Penta...   122   1e-25
+UniRef90_J7G6G3 Cell division control protein 48 n=1 Tax=Chroomo...   122   1e-25
+UniRef90_V2X1M7 Cell division control protein cdc48 n=2 Tax=Moni...   122   1e-25
+UniRef90_A0A1X7VPK0 Uncharacterized protein n=2 Tax=Amphimedon q...   122   1e-25
+UniRef90_A0A0C2T8S6 Uncharacterized protein n=1 Tax=Amanita musc...   122   1e-25
+UniRef90_A9BKG5 Cdc48b n=1 Tax=Hemiselmis andersenii TaxID=46498...   120   4e-25
+UniRef90_A0A0V0R3D5 p-loop containing nucleoside triphosphate hy...   120   5e-25
+UniRef90_A0A0D2MMT9 Uncharacterized protein (Fragment) n=1 Tax=G...   120   5e-25
+UniRef90_A0A0A9ZFH5 Transitional endoplasmic reticulum ATPase n=...   119   7e-25
+UniRef90_B0EE56 Transitional endoplasmic reticulum ATPase, putat...   119   7e-25
+UniRef90_UPI0008FA52AA transitional endoplasmic reticulum ATPase...   117   3e-24
+UniRef90_UPI000674F95E LOW QUALITY PROTEIN: transitional endopla...   116   4e-24
+UniRef90_X6NIF1 Cell division cycle protein n=1 Tax=Reticulomyxa...   115   8e-24
+UniRef90_A0A0P0XFK3 Os08g0413000 protein n=10 Tax=Oryza TaxID=45...   115   9e-24
+UniRef90_I1I708 Uncharacterized protein n=1 Tax=Brachypodium dis...   115   1e-23
+UniRef90_A0A0M8ZXS9 Transitional endoplasmic reticulum ATPase TE...   115   1e-23
+UniRef90_W5BQB0 Uncharacterized protein n=4 Tax=Triticeae TaxID=...   115   1e-23
+UniRef90_M5WC73 Uncharacterized protein n=1 Tax=Prunus persica T...   114   2e-23
+UniRef90_T1M068 Uncharacterized protein n=1 Tax=Triticum urartu ...   114   2e-23
+UniRef90_A0A0Q3M186 Uncharacterized protein n=1 Tax=Brachypodium...   114   3e-23
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_S9WQY9 Uncharacterized protein n=2 Tax=Amniota TaxID=32524
+            RepID=S9WQY9_CAMFR
+          Length = 2192
+
+ Score =  172 bits (437), Expect = 8e-41,   Method: Composition-based stats.
+ Identities = 79/79 (100%), Positives = 79/79 (100%)
+
+Query: 1    VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE 60
+            VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE
+Sbjct: 1488 VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE 1547
+
+Query: 61   TDPSPYCIVAPDTVIHCEG 79
+            TDPSPYCIVAPDTVIHCEG
+Sbjct: 1548 TDPSPYCIVAPDTVIHCEG 1566
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_S9WQY9 Uncharacterized protein n=2 Tax=Amniota TaxID=32...   157   3e-36
+UniRef90_L9L6K9 Transitional endoplasmic reticulum ATPase n=1 Ta...   157   3e-36
+UniRef90_A0A091DYJ0 Transitional endoplasmic reticulum ATPase n=...   157   3e-36
+UniRef90_G3HN14 Transitional endoplasmic reticulum ATPase n=1 Ta...   157   3e-36
+UniRef90_M7BUG3 Transitional endoplasmic reticulum ATPase n=10 T...   157   3e-36
+UniRef90_A0A0Q3UT71 Transitional endoplasmic reticulum ATPase n=...   157   3e-36
+UniRef90_UPI0006B200BB transitional endoplasmic reticulum ATPase...   157   3e-36
+UniRef90_T1G9T6 Uncharacterized protein n=1 Tax=Helobdella robus...   156   4e-36
+UniRef90_UPI0007040D96 transitional endoplasmic reticulum ATPase...   155   1e-35
+UniRef90_Q5CD25 Valosin containing protein-1 n=3 Tax=Bilateria T...   155   1e-35
+UniRef90_UPI0006D940A1 transitional endoplasmic reticulum ATPase...   154   2e-35
+UniRef90_UPI000766E109 Transitional endoplasmic reticulum ATPase...   154   2e-35
+UniRef90_A0A1S3KY43 transitional endoplasmic reticulum ATPase-li...   154   2e-35
+UniRef90_UPI0008DB65B4 transitional endoplasmic reticulum ATPase...   154   2e-35
+UniRef90_P55072 Transitional endoplasmic reticulum ATPase n=86 T...   154   2e-35
+UniRef90_UPI0005296D71 transitional endoplasmic reticulum ATPase...   154   2e-35
+UniRef90_UPI0007BACC42 transitional endoplasmic reticulum ATPase...   154   3e-35
+UniRef90_UPI0007ACF483 transitional endoplasmic reticulum ATPase...   154   3e-35
+UniRef90_P23787 Transitional endoplasmic reticulum ATPase n=168 ...   154   3e-35
+UniRef90_A0A087V2G0 Transitional endoplasmic reticulum ATPase (F...   154   3e-35
+UniRef90_A0A194QYV6 Transitional endoplasmic reticulum ATPase TE...   154   3e-35
+UniRef90_A0A091KS87 Transitional endoplasmic reticulum ATPase (F...   153   3e-35
+UniRef90_A0A0P5YIG9 Transitional endoplasmic reticulum ATPase TE...   153   3e-35
+UniRef90_H3AWB6 Valosin containing protein n=2 Tax=Euteleostomi ...   153   3e-35
+UniRef90_A7SJ61 Predicted protein n=5 Tax=Hexacorallia TaxID=610...   153   3e-35
+UniRef90_M3VW05 Valosin containing protein n=6 Tax=Boreoeutheria...   153   4e-35
+UniRef90_UPI00062AB731 transitional endoplasmic reticulum ATPase...   153   4e-35
+UniRef90_A0A0L8GAT1 Uncharacterized protein n=1 Tax=Octopus bima...   153   4e-35
+UniRef90_A0A060XT88 Uncharacterized protein n=1 Tax=Oncorhynchus...   153   5e-35
+UniRef90_A0A0N8DIU4 Transitional endoplasmic reticulum ATPase TE...   153   5e-35
+UniRef90_A9SSY8 Predicted protein n=4 Tax=Embryophyta TaxID=3193...   153   5e-35
+UniRef90_UPI000719D151 transitional endoplasmic reticulum ATPase...   152   6e-35
+UniRef90_A0A194QE63 Transitional endoplasmic reticulum ATPase TE...   152   6e-35
+UniRef90_A0A0P5SKH7 Transitional endoplasmic reticulum ATPase TE...   152   6e-35
+UniRef90_K1PVA1 Transitional endoplasmic reticulum ATPase n=6 Ta...   152   7e-35
+UniRef90_A0A1D6KUI9 Cell division control protein 48 homolog D n...   152   7e-35
+UniRef90_A0A1D1YE28 Cell division cycle protein 48 (Fragment) n=...   152   7e-35
+UniRef90_UPI0005549C97 transitional endoplasmic reticulum ATPase...   152   7e-35
+UniRef90_A0A1D1UD02 Uncharacterized protein n=3 Tax=Hypsibiidae ...   152   8e-35
+UniRef90_A0A0P5SUW3 Transitional endoplasmic reticulum ATPase TE...   152   8e-35
+UniRef90_A9TF08 Predicted protein n=3 Tax=Physcomitrella patens ...   152   8e-35
+UniRef90_A0A146WZ95 Transitional endoplasmic reticulum ATPase n=...   152   8e-35
+UniRef90_E1Z5R3 Uncharacterized protein n=1 Tax=Chlorella variab...   152   9e-35
+UniRef90_A0A0E0K8W0 Uncharacterized protein n=4 Tax=commelinids ...   152   9e-35
+UniRef90_A0A0P5R5P7 Transitional endoplasmic reticulum ATPase TE...   152   1e-34
+UniRef90_A0A0E0EYB5 Uncharacterized protein n=2 Tax=Mesangiosper...   152   1e-34
+UniRef90_A0A0M0J3Z4 Transitional endoplasmic reticulum ATPase n=...   152   1e-34
+UniRef90_A0A1V4K4Q5 Uncharacterized protein n=1 Tax=Patagioenas ...   152   1e-34
+UniRef90_A0A1X7TSM5 Uncharacterized protein n=3 Tax=Amphimedon q...   151   1e-34
+UniRef90_A0A0P6GNJ8 Putative Transitional endoplasmic reticulum ...   151   1e-34
+UniRef90_R7TPA8 Uncharacterized protein (Fragment) n=1 Tax=Capit...   151   1e-34
+UniRef90_A0A0P6A4P4 Transitional endoplasmic reticulum ATPase TE...   151   1e-34
+UniRef90_A0A0P5VG62 Transitional endoplasmic reticulum ATPase TE...   151   1e-34
+UniRef90_I1CHG1 Transitional endoplasmic reticulum ATPase n=6 Ta...   151   2e-34
+UniRef90_A0A1D6KUJ0 Cell division control protein 48 homolog D n...   151   2e-34
+UniRef90_A0A1D6PJZ1 Cell division control protein 48 homolog D n...   151   2e-34
+UniRef90_UPI0001CBBDEA transitional endoplasmic reticulum ATPase...   151   2e-34
+UniRef90_A0A0D9XK40 Uncharacterized protein n=1 Tax=Leersia perr...   151   2e-34
+UniRef90_K5WJX5 Uncharacterized protein n=27 Tax=Agaricomycotina...   151   2e-34
+UniRef90_A0A0P6IJW6 Transitional endoplasmic reticulum ATPase TE...   151   2e-34
+UniRef90_A0A1U8G4N4 cell division cycle protein 48 homolog n=7 T...   151   2e-34
+UniRef90_UPI000B426AEA cell division control protein 48 homolog ...   151   2e-34
+UniRef90_A0A0D7A2C1 AAA ATPase n=1 Tax=Fistulina hepatica ATCC 6...   150   2e-34
+UniRef90_M4CNE5 Acylphosphatase n=2 Tax=Brassica campestris TaxI...   150   2e-34
+UniRef90_Q29RA2 Zgc:136908 n=7 Tax=Osteoglossocephalai TaxID=148...   150   2e-34
+UniRef90_A8HW56 Flagellar associated protein n=4 Tax=Chlorophyce...   150   2e-34
+UniRef90_A0A0L7LT18 Transitional endoplasmic reticulum ATPase TE...   150   2e-34
+UniRef90_K4A7D3 Uncharacterized protein n=2 Tax=Mesangiospermae ...   150   2e-34
+UniRef90_A0A1D1YHL1 Transitional endoplasmic reticulum ATPase n=...   150   2e-34
+UniRef90_N6T9W3 Uncharacterized protein (Fragment) n=1 Tax=Dendr...   150   2e-34
+UniRef90_A0A163LTG4 Uncharacterized protein n=11 Tax=Mucorales T...   150   2e-34
+UniRef90_UPI0006B084A8 transitional endoplasmic reticulum ATPase...   150   2e-34
+UniRef90_UPI0006CEED63 transitional endoplasmic reticulum ATPase...   150   2e-34
+UniRef90_A0A1D6GQ41 Cell division cycle protein 48 n=2 Tax=Zea m...   150   3e-34
+UniRef90_A0A1D6JNX7 Cell division control protein 48 homolog D n...   150   3e-34
+UniRef90_A0A139A9D0 Transitional endoplasmic reticulum ATPase TE...   150   3e-34
+UniRef90_A0A0V0IS27 Putative cell division cycle protein-like n=...   150   3e-34
+UniRef90_T1K516 Uncharacterized protein n=1 Tax=Tetranychus urti...   150   3e-34
+UniRef90_A0A0L0HJQ5 Transitional endoplasmic reticulum ATPase n=...   150   3e-34
+UniRef90_A0A090XC75 Putative aaa+-type atpase (Fragment) n=3 Tax...   150   3e-34
+UniRef90_I0YZZ5 AAA ATPase n=1 Tax=Coccomyxa subellipsoidea (str...   150   3e-34
+UniRef90_P90532 Cell division cycle protein 48 n=5 Tax=Dictyoste...   150   3e-34
+UniRef90_W5LJN2 Zgc:136908 n=1 Tax=Astyanax mexicanus TaxID=7994...   150   3e-34
+UniRef90_A0A1D6GQ45 Cell division cycle protein 48 n=5 Tax=Mesan...   150   3e-34
+UniRef90_C0PAT5 Uncharacterized protein n=1 Tax=Zea mays TaxID=4...   150   3e-34
+UniRef90_A0A197JZ26 Transitional endoplasmic reticulum ATPase n=...   150   3e-34
+UniRef90_M0TEP4 Uncharacterized protein n=1 Tax=Musa acuminata s...   150   3e-34
+UniRef90_D2VSC1 Predicted protein n=1 Tax=Naegleria gruberi TaxI...   150   3e-34
+UniRef90_A0A1R3JD30 Uncharacterized protein n=1 Tax=Corchorus ol...   150   4e-34
+UniRef90_UPI00064180F9 LOW QUALITY PROTEIN: transitional endopla...   150   4e-34
+UniRef90_A0A1D6PJZ3 Cell division control protein 48 homolog D n...   150   4e-34
+UniRef90_A0A0T6B0B0 AAA protein (Fragment) n=1 Tax=Oryctes borbo...   150   4e-34
+UniRef90_UPI000440C35B transitional endoplasmic reticulum ATPase...   150   4e-34
+UniRef90_A0A182NGU8 Uncharacterized protein n=3 Tax=Anopheles Ta...   150   4e-34
+UniRef90_A0A165KJL1 AAA ATPase n=2 Tax=Auriculariales TaxID=5226...   150   4e-34
+UniRef90_V8NV43 Transitional endoplasmic reticulum ATPase (Fragm...   150   4e-34
+UniRef90_A0A1C7MAV5 Cell division control protein 48 n=1 Tax=Gri...   150   4e-34
+UniRef90_A0A1D6PJZ2 Cell division control protein 48 homolog D n...   150   4e-34
+UniRef90_UPI000528ADA6 transitional endoplasmic reticulum ATPase...   150   4e-34
+UniRef90_M0U2W2 Uncharacterized protein n=1 Tax=Musa acuminata s...   150   4e-34
+UniRef90_G1KTE0 Uncharacterized protein n=16 Tax=Euteleostomi Ta...   150   4e-34
+UniRef90_P54609 Cell division control protein 48 homolog A n=311...   150   4e-34
+UniRef90_A0A165Y9J9 AAA ATPase n=1 Tax=Peniophora sp. CONT TaxID...   149   5e-34
+UniRef90_A0A1R3KWA9 Uncharacterized protein n=2 Tax=Corchorus ol...   149   5e-34
+UniRef90_UPI00046BFE64 transitional endoplasmic reticulum ATPase...   149   5e-34
+UniRef90_UPI00042BC22F transitional endoplasmic reticulum ATPase...   149   5e-34
+UniRef90_A0A0B7AKA6 Uncharacterized protein n=4 Tax=Euthyneura T...   149   5e-34
+UniRef90_A0A0F7S837 Uncharacterized protein n=12 Tax=Ustilaginac...   149   5e-34
+UniRef90_A0A0V0IPE3 Putative cell division cycle protein 48-like...   149   5e-34
+UniRef90_A0A1D5XF29 Uncharacterized protein n=1 Tax=Triticum aes...   149   5e-34
+UniRef90_A0A1J3DSS6 Cell division control protein 48-like protei...   149   5e-34
+UniRef90_I3KHR3 Zgc:136908 n=30 Tax=Percomorphaceae TaxID=148987...   149   5e-34
+UniRef90_A0A072VC98 ATPase, AAA-type, CDC48 protein n=1 Tax=Medi...   149   6e-34
+UniRef90_A0A0F7SSW6 Aaa atpase n=1 Tax=Phaffia rhodozyma TaxID=2...   149   6e-34
+UniRef90_T2MFM1 Transitional endoplasmic reticulum ATPase (Fragm...   149   6e-34
+UniRef90_A0A0A1NBT2 Putative Cell division control protein Cdc48...   149   6e-34
+UniRef90_A0A1Y1XA59 AAA ATPase n=3 Tax=Basidiobolus meristosporu...   149   6e-34
+UniRef90_A0A1J1I3P4 CLUMA_CG006478, isoform A n=13 Tax=Holometab...   149   6e-34
+UniRef90_A0A1S3IKZ6 transitional endoplasmic reticulum ATPase is...   149   6e-34
+UniRef90_UPI0009D6F198 cell division cycle protein 48 homolog is...   149   6e-34
+UniRef90_A0A151VHE3 Cell division cycle protein 48 n=27 Tax=Agar...   149   6e-34
+UniRef90_A0A0D2MBS1 Uncharacterized protein n=1 Tax=Gossypium ra...   149   7e-34
+UniRef90_UPI00064507CF hypothetical protein n=1 Tax=Acytostelium...   149   8e-34
+UniRef90_A0A0L6WTS7 Cell division cycle protein 48 like protein ...   149   8e-34
+UniRef90_A0A1D5Y3Q4 Uncharacterized protein n=4 Tax=Embryophyta ...   149   8e-34
+UniRef90_UPI00087070F5 uncharacterized protein LOC103964820 isof...   149   8e-34
+UniRef90_A0A1U7YS63 cell division cycle protein 48 homolog n=44 ...   149   8e-34
+UniRef90_A0A0P0YUY9 Host cell division cycle protein n=7 Tax=Bac...   149   8e-34
+UniRef90_A0A087ST05 Cell division control protein 48-like protei...   149   8e-34
+UniRef90_G8FUG7 Cell division cycle protein 48 n=1 Tax=Dictyoste...   149   8e-34
+UniRef90_A0A182GAA5 Uncharacterized protein n=3 Tax=Aedes albopi...   149   8e-34
+UniRef90_A0A0D2ULD9 Valosin-containing protein n=1 Tax=Capsaspor...   149   8e-34
+UniRef90_A0A1D2NH57 Transitional endoplasmic reticulum ATPase TE...   149   9e-34
+UniRef90_K7FMD5 Uncharacterized protein n=2 Tax=Pelodiscus sinen...   149   9e-34
+UniRef90_C5LAB2 Cell division cycle protein, putative n=2 Tax=Pe...   149   9e-34
+UniRef90_A0A0B7N6V2 Uncharacterized protein n=2 Tax=Mucorineae T...   149   9e-34
+UniRef90_A9V9M3 Predicted protein n=1 Tax=Monosiga brevicollis T...   149   9e-34
+UniRef90_Q9HAP1 Valosin-containing protein (Fragment) n=1 Tax=Ho...   149   9e-34
+UniRef90_A0A0C3QAJ5 Uncharacterized protein n=1 Tax=Tulasnella c...   149   9e-34
+UniRef90_A0A061QXF2 Transitional endoplasmic reticulum ATPase n=...   149   9e-34
+UniRef90_UPI000511A1A1 LOW QUALITY PROTEIN: transitional endopla...   149   9e-34
+UniRef90_A0A066WIJ9 AAA ATPase n=1 Tax=Tilletiaria anomala UBC 9...   149   1e-33
+UniRef90_A0A0P1BPZ6 Valosin-containing protein n=1 Tax=Ceraceoso...   148   1e-33
+UniRef90_J9JPU1 Uncharacterized protein n=2 Tax=Macrosiphini Tax...   148   1e-33
+UniRef90_A0A067G1F3 Uncharacterized protein (Fragment) n=2 Tax=C...   148   1e-33
+UniRef90_A0A067CZD3 Cell division cycle protein 48 n=5 Tax=Sapro...   148   1e-33
+UniRef90_A0A0P4W3V4 Uncharacterized protein n=1 Tax=Scylla oliva...   148   1e-33
+UniRef90_UPI0005235547 transitional endoplasmic reticulum ATPase...   148   1e-33
+UniRef90_M2WWD9 AAA-type ATPase n=1 Tax=Galdieria sulphuraria Ta...   148   1e-33
+UniRef90_A4RRG4 Uncharacterized protein n=2 Tax=Ostreococcus Tax...   148   1e-33
+UniRef90_R9AKB4 Cell division control protein 48 n=2 Tax=Wallemi...   148   1e-33
+UniRef90_A0A0H2S4Y3 AAA ATPase n=2 Tax=Schizopora paradoxa TaxID...   148   1e-33
+UniRef90_A0A1D1Z1T8 Cell division cycle protein 48 n=1 Tax=Anthu...   148   1e-33
+UniRef90_A0A1Y5I1M4 P-loop containing nucleoside triphosphate hy...   148   1e-33
+UniRef90_A0A1S3L489 transitional endoplasmic reticulum ATPase-li...   148   1e-33
+UniRef90_A0A176WK41 Uncharacterized protein n=1 Tax=Marchantia p...   147   2e-33
+UniRef90_UPI0005117377 transitional endoplasmic reticulum ATPase...   147   2e-33
+UniRef90_C3YTH4 Uncharacterized protein n=3 Tax=Branchiostoma Ta...   147   2e-33
+UniRef90_A0A1D2A9P0 Uncharacterized protein (Fragment) n=1 Tax=A...   147   2e-33
+UniRef90_A0A069DWX9 Putative aaa+-type atpase n=5 Tax=Panheterop...   147   2e-33
+UniRef90_D0P0N7 Cell division control protein 48 n=17 Tax=Oomyce...   147   2e-33
+UniRef90_A0A1Y2CX91 AAA ATPase n=1 Tax=Rhizoclosmatium globosum ...   147   2e-33
+UniRef90_UPI00084AA9B3 LOW QUALITY PROTEIN: transitional endopla...   147   2e-33
+UniRef90_A7BFI9 Valosin containing protein n=19 Tax=Chelicerata ...   147   2e-33
+UniRef90_A0A1Y1WMM7 AAA ATPase n=1 Tax=Linderina pennispora TaxI...   147   2e-33
+UniRef90_L1IB53 CDC48-like protein n=2 Tax=Guillardia theta TaxI...   147   2e-33
+UniRef90_UPI000A2B68EA cell division cycle protein 48 homolog n=...   147   3e-33
+UniRef90_A0A0L0D4R6 Uncharacterized protein n=1 Tax=Thecamonas t...   147   3e-33
+UniRef90_T1JGY4 Uncharacterized protein n=1 Tax=Strigamia mariti...   147   3e-33
+UniRef90_A0A059LHR1 AAA+ ATPase (Fragment) n=1 Tax=Helicosporidi...   147   3e-33
+UniRef90_A0A1D6RWC4 Uncharacterized protein n=1 Tax=Triticum aes...   147   3e-33
+UniRef90_U5TQQ5 Valosin-containing protein n=1 Tax=Penaeus monod...   147   3e-33
+UniRef90_A0A1Y1IHJ4 AAA family ATPase n=1 Tax=Klebsormidium flac...   147   3e-33
+UniRef90_S4R8Y2 Uncharacterized protein n=6 Tax=Bilateria TaxID=...   147   3e-33
+UniRef90_C1BF87 Transitional endoplasmic reticulum ATPase n=4 Ta...   147   3e-33
+UniRef90_A0A078BX76 BnaA07g16030D protein n=1 Tax=Brassica napus...   147   3e-33
+UniRef90_UPI00044089BF AAA ATPase n=1 Tax=Fomitiporia mediterran...   147   3e-33
+UniRef90_D6R706 Valosin-containing protein (Fragment) n=6 Tax=Eu...   147   3e-33
+UniRef90_A0A1B6H391 Uncharacterized protein (Fragment) n=1 Tax=C...   147   4e-33
+UniRef90_K8E910 Uncharacterized protein n=1 Tax=Bathycoccus pras...   146   4e-33
+UniRef90_F2TZJ8 Cell division cycle protein 48 n=1 Tax=Salpingoe...   146   4e-33
+UniRef90_A0A0D3DSQ0 Uncharacterized protein n=1 Tax=Brassica ole...   146   4e-33
+UniRef90_UPI000498EA97 uncharacterized protein LOC103407783 n=5 ...   146   4e-33
+UniRef90_UPI0006D8E11F LOW QUALITY PROTEIN: transitional endopla...   146   4e-33
+UniRef90_A0A078C946 BnaC08g24320D protein n=2 Tax=Brassica napus...   146   5e-33
+UniRef90_G3Q4U8 Zgc:136908 n=1 Tax=Gasterosteus aculeatus TaxID=...   146   5e-33
+UniRef90_A0A0K2TQE3 Transitional endoplasmic reticulum ATPase TE...   146   5e-33
+UniRef90_A0A1V9X4H1 Transitional endoplasmic reticulum ATPase TE...   146   5e-33
+UniRef90_C1FDN1 Cell division cycle protein 48-like protein, exp...   146   5e-33
+UniRef90_F0WD79 Uncharacterized protein AlNc14C64G4599 n=1 Tax=A...   146   5e-33
+UniRef90_UPI0004CCA088 transitional endoplasmic reticulum ATPase...   146   5e-33
+UniRef90_A0A177UTZ7 Cell division control protein 48 n=4 Tax=Til...   146   5e-33
+UniRef90_A0A1J7GJJ2 Uncharacterized protein n=1 Tax=Lupinus angu...   146   6e-33
+UniRef90_A0A1R3HZN1 Uncharacterized protein n=1 Tax=Corchorus ol...   146   6e-33
+UniRef90_Q20AI9 Cell division cycle CDC48 (Fragment) n=1 Tax=Ict...   146   6e-33
+UniRef90_L8WIB7 Cell division cycle protein 48 n=1 Tax=Thanateph...   146   6e-33
+UniRef90_A0A060Z2Q6 Uncharacterized protein (Fragment) n=1 Tax=O...   146   6e-33
+UniRef90_A0A0H2R2B9 AAA ATPase (Fragment) n=1 Tax=Schizopora par...   145   7e-33
+UniRef90_A0A1M8A5S3 AAA ATPase n=4 Tax=Malassezia TaxID=55193 Re...   145   7e-33
+UniRef90_A0A068V8G8 Uncharacterized protein n=1 Tax=Coffea canep...   145   7e-33
+UniRef90_F4PC08 Uncharacterized protein n=5 Tax=Batrachochytrium...   145   7e-33
+UniRef90_D8LBW0 Uncharacterized protein n=1 Tax=Ectocarpus silic...   145   7e-33
+UniRef90_M5C3I2 MMS2 protein n=3 Tax=Cantharellales TaxID=36064 ...   145   8e-33
+UniRef90_A0A0C3CKS5 Uncharacterized protein n=1 Tax=Hebeloma cyl...   145   8e-33
+UniRef90_UPI0006D4CC67 transitional endoplasmic reticulum ATPase...   145   8e-33
+UniRef90_W7TK84 ATPase, AAA-type, core n=1 Tax=Nannochloropsis g...   145   8e-33
+UniRef90_UPI000A2B2BCC cell division cycle protein 48 homolog n=...   145   8e-33
+UniRef90_U6G3N5 Cell division protein 48, putative n=1 Tax=Eimer...   145   9e-33
+UniRef90_A0A147B8H9 Transitional endoplasmic reticulum atpase (F...   145   9e-33
+UniRef90_UPI0003F48C10 hypothetical protein n=1 Tax=Tremella mes...   145   1e-32
+UniRef90_UPI000A1C57C0 transitional endoplasmic reticulum ATPase...   145   1e-32
+UniRef90_A0A1E3HH29 Transitional endoplasmic reticulum ATPase n=...   145   1e-32
+UniRef90_G4TFJ6 Probable CDC48-Microsomal protein of CDC48/PAS1/...   145   1e-32
+UniRef90_A0A1X6PIQ3 Uncharacterized protein n=2 Tax=Porphyra umb...   145   1e-32
+UniRef90_A0A164XIL5 Uncharacterized protein n=1 Tax=Daucus carot...   145   1e-32
+UniRef90_A0A023EU80 Putative ter94 (Fragment) n=1 Tax=Aedes albo...   145   1e-32
+UniRef90_A0A0N5DFM1 Uncharacterized protein n=1 Tax=Trichuris mu...   145   1e-32
+UniRef90_W8P5K0 Cell division cycle 48 protein n=2 Tax=Chromera ...   145   1e-32
+UniRef90_B3S3Z3 Uncharacterized protein n=1 Tax=Trichoplax adhae...   145   1e-32
+UniRef90_UPI000498E7BC cell division cycle protein 48 homolog n=...   145   1e-32
+UniRef90_A0A1R2C3K4 Uncharacterized protein n=4 Tax=Stentor coer...   144   2e-32
+UniRef90_U6KXE0 Uncharacterized protein n=3 Tax=Eimeria TaxID=58...   144   2e-32
+UniRef90_A0A077ZLV1 Cell division cycle protein n=1 Tax=Trichuri...   144   2e-32
+UniRef90_A0A066W3A6 Uncharacterized protein (Fragment) n=1 Tax=R...   144   2e-32
+UniRef90_A0A165XA66 Valosin-containing protein n=1 Tax=Fibularhi...   144   2e-32
+UniRef90_A0A132AIJ4 Transitional endoplasmic reticulum ATPase TE...   144   3e-32
+UniRef90_U6L852 Cell division protein 48, putative n=1 Tax=Eimer...   144   3e-32
+UniRef90_P54812 Transitional endoplasmic reticulum ATPase homolo...   144   3e-32
+UniRef90_A0A0D0A941 Unplaced genomic scaffold CY34scaffold_589, ...   144   3e-32
+UniRef90_G7DXY7 Uncharacterized protein n=2 Tax=Mixia osmundae (...   144   3e-32
+UniRef90_UPI0004F1B04A cell division control protein 48 homolog ...   144   3e-32
+UniRef90_A0A0C4ELI9 Cell division cycle protein 48 n=5 Tax=Pucci...   144   3e-32
+UniRef90_A0A0L0SGL6 Transitional endoplasmic reticulum ATPase n=...   144   3e-32
+UniRef90_A0A068UYE7 Uncharacterized protein n=1 Tax=Coffea canep...   144   3e-32
+UniRef90_A0A0F8AMQ9 Transitional endoplasmic reticulum ATPase n=...   144   3e-32
+UniRef90_A0A183IM98 Uncharacterized protein n=1 Tax=Soboliphyme ...   143   3e-32
+UniRef90_A0A1B0CLN3 Uncharacterized protein n=1 Tax=Lutzomyia lo...   143   3e-32
+UniRef90_UPI00099FA327 transitional endoplasmic reticulum ATPase...   143   4e-32
+UniRef90_A0A0F5CP33 AAA protein n=2 Tax=Pristionchus pacificus T...   143   4e-32
+UniRef90_C5LTK6 Cell division cycle protein, putative (Fragment)...   143   4e-32
+UniRef90_F0XYY5 Uncharacterized protein n=1 Tax=Aureococcus anop...   143   4e-32
+UniRef90_UPI0007195733 transitional endoplasmic reticulum ATPase...   143   4e-32
+UniRef90_UPI000811A28F transitional endoplasmic reticulum ATPase...   143   5e-32
+UniRef90_A0A1Y3BJP4 Transitional endoplasmic reticulum ATPase TE...   143   5e-32
+UniRef90_A0A0B7G0Q9 Cell division cycle protein 48 homolog OS=Gl...   143   5e-32
+UniRef90_M5WTB9 Uncharacterized protein n=1 Tax=Prunus persica T...   143   5e-32
+UniRef90_A0A0P5ZS79 Transitional endoplasmic reticulum ATPase TE...   142   6e-32
+UniRef90_A0A1S3QHX4 transitional endoplasmic reticulum ATPase-li...   142   7e-32
+UniRef90_A0A218WFT3 Uncharacterized protein n=1 Tax=Punica grana...   142   7e-32
+UniRef90_H2KU37 Transitional endoplasmic reticulum ATPase (Fragm...   142   7e-32
+UniRef90_H3EEN1 Uncharacterized protein n=5 Tax=Chromadorea TaxI...   142   8e-32
+UniRef90_M8D498 Cell division control 48-E-like protein n=1 Tax=...   142   8e-32
+UniRef90_A0A074Z8E9 Uncharacterized protein n=1 Tax=Opisthorchis...   142   8e-32
+UniRef90_A0A0A9Y2M0 Transitional endoplasmic reticulum ATPase TE...   142   8e-32
+UniRef90_A0A0K9QT32 Uncharacterized protein n=3 Tax=Chenopodioid...   142   9e-32
+UniRef90_M7X2W2 Transitional endoplasmic reticulum ATPase n=7 Ta...   142   1e-31
+UniRef90_A0A1X2GLT5 Transitional endoplasmic reticulum ATPase n=...   142   1e-31
+UniRef90_A0A1I8IKM7 Uncharacterized protein n=1 Tax=Macrostomum ...   142   1e-31
+UniRef90_A0A072VMP1 ATPase, AAA-type, CDC48 protein n=1 Tax=Medi...   142   1e-31
+UniRef90_A0A0K6FWU3 Transitional endoplasmic reticulum ATPase n=...   141   1e-31
+UniRef90_A0A1S4DSB2 cell division cycle protein 48 homolog n=5 T...   141   1e-31
+UniRef90_A0A1S8WPB3 Cell division control protein 48 n=2 Tax=Dig...   141   1e-31
+UniRef90_A0A182ZQM8 Uncharacterized protein n=2 Tax=Biomphalaria...   141   1e-31
+UniRef90_M1VI15 Transitional endoplasmic reticulum ATPase n=1 Ta...   141   1e-31
+UniRef90_UPI000455EBA7 AAA-domain-containing protein n=1 Tax=Con...   141   2e-31
+UniRef90_A0A0K0CXC1 Uncharacterized protein n=1 Tax=Angiostrongy...   141   2e-31
+UniRef90_A0A016UJ38 Uncharacterized protein n=3 Tax=Strongylida ...   141   2e-31
+UniRef90_U5GXW5 Transitional endoplasmic reticulum ATPase n=1 Ta...   141   2e-31
+UniRef90_A0A1Y2FA26 AAA ATPase n=4 Tax=Neocallimastigaceae TaxID...   141   2e-31
+UniRef90_A0A0G4GAH1 Uncharacterized protein n=1 Tax=Vitrella bra...   140   2e-31
+UniRef90_V4LVQ9 Uncharacterized protein n=1 Tax=Eutrema salsugin...   140   2e-31
+UniRef90_UPI000B4E9DBC transitional endoplasmic reticulum ATPase...   140   3e-31
+UniRef90_Q5CT24 CDC48 like AAA ATPase ortholog (Fragment) n=5 Ta...   140   3e-31
+UniRef90_A0A1Q9DKI8 Cell division cycle protein 48-like n=1 Tax=...   140   3e-31
+UniRef90_A0A1Q9DHE0 Cell division cycle protein 48-like n=1 Tax=...   140   3e-31
+UniRef90_W8P5K5 Cell division cycle 48 protein n=1 Tax=Prorocent...   140   3e-31
+UniRef90_A0A0K9PB18 Cell division control protein 48 n=1 Tax=Zos...   140   4e-31
+UniRef90_UPI00092E6B05 cell division cycle protein 48 homolog n=...   140   4e-31
+UniRef90_A0A0S4JI00 Cell division cycle protein, putative n=1 Ta...   139   5e-31
+UniRef90_A0A1D3D5E1 Uncharacterized protein n=1 Tax=Cyclospora c...   139   5e-31
+UniRef90_A0A0L1KPK6 Transitional endoplasmic reticulum ATPase n=...   139   6e-31
+UniRef90_A0A139Y6F9 Cell division protein CDC48CY n=15 Tax=Sarco...   139   6e-31
+UniRef90_M8CGS3 Cell division control 48-E-like protein n=2 Tax=...   139   6e-31
+UniRef90_M0SAJ4 Uncharacterized protein n=1 Tax=Musa acuminata s...   139   6e-31
+UniRef90_A0A146WN27 Transitional endoplasmic reticulum ATPase n=...   139   6e-31
+UniRef90_U5FPL0 Uncharacterized protein n=1 Tax=Populus trichoca...   139   6e-31
+UniRef90_W7I964 Cell division control protein 48 n=3 Tax=Orbilia...   139   7e-31
+UniRef90_A0A183T643 Uncharacterized protein n=1 Tax=Schistocepha...   139   7e-31
+UniRef90_A0A0B1TW71 Cell division protein 48 domain protein n=1 ...   139   7e-31
+UniRef90_A0A068XZ47 Transitional endoplasmic reticulum atpase n=...   139   7e-31
+UniRef90_J5TFH4 MMS2 protein n=11 Tax=Tremellomycetes TaxID=1556...   139   7e-31
+UniRef90_Q4DWB5 Transitional endoplasmic reticulum ATPase, putat...   139   7e-31
+UniRef90_A0A0N5A9U8 Uncharacterized protein n=1 Tax=Syphacia mur...   139   8e-31
+UniRef90_A0A1D5ZCD5 Uncharacterized protein n=1 Tax=Triticum aes...   139   8e-31
+UniRef90_A0A1Q9DKN5 Cell division cycle protein 48-like n=1 Tax=...   139   9e-31
+UniRef90_U6KJH4 AGAP005630-PA, related n=1 Tax=Eimeria mitis Tax...   139   9e-31
+UniRef90_A0A1I8A1E7 Uncharacterized protein n=1 Tax=Steinernema ...   139   1e-30
+UniRef90_V5B4G8 Cell division cycle protein n=1 Tax=Trypanosoma ...   138   1e-30
+UniRef90_UPI0002C37151 cell division control protein 48 homolog ...   138   1e-30
+UniRef90_A0A1E4U3I4 Uncharacterized protein n=1 Tax=Pachysolen t...   138   1e-30
+UniRef90_A0A1R1XPK1 Transitional endoplasmic reticulum ATPase n=...   138   1e-30
+UniRef90_K1XIA4 Cell division control protein Cdc48 n=39 Tax=Leo...   138   1e-30
+UniRef90_A0A0L0NDU2 Cell division control protein 48 (Fragment) ...   138   1e-30
+UniRef90_A0A1W5D4J6 Cell division control protein 48 n=1 Tax=Umb...   138   1e-30
+UniRef90_A0A1W2TLZ4 Putative cell division control protein Cdc48...   138   1e-30
+UniRef90_T1IE68 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   138   1e-30
+UniRef90_A0A086QGF2 Putative transitional endoplasmic reticulum ...   138   2e-30
+UniRef90_M7NRZ4 Cell division control protein 48 n=3 Tax=Pneumoc...   138   2e-30
+UniRef90_U4LY19 Similar to Cell division control protein 48 acc....   138   2e-30
+UniRef90_F0XCQ1 Cell division control protein cdc48 n=6 Tax=Sord...   138   2e-30
+UniRef90_A0A1S3DQC3 transitional endoplasmic reticulum ATPase-li...   138   2e-30
+UniRef90_A0A059A042 Uncharacterized protein n=1 Tax=Eucalyptus g...   137   2e-30
+UniRef90_G4M0P7 Cell division control protein 48 aaa family prot...   137   2e-30
+UniRef90_A0A1D5SQ64 Uncharacterized protein n=12 Tax=Pooideae Ta...   137   2e-30
+UniRef90_C9SZ92 Cell division cycle protein (Fragment) n=1 Tax=V...   137   2e-30
+UniRef90_A0A1I7UG09 Uncharacterized protein n=2 Tax=Caenorhabdit...   137   2e-30
+UniRef90_G0UWF3 Putative Transitional endoplasmic reticulum ATPa...   137   3e-30
+UniRef90_A0A0G4E879 Uncharacterized protein n=1 Tax=Vitrella bra...   137   3e-30
+UniRef90_A0A170Y4G2 Transitional endoplasmic reticulum atpase te...   137   3e-30
+UniRef90_A0A1I7SWW1 Uncharacterized protein n=1 Tax=Bursaphelenc...   137   3e-30
+UniRef90_A0A0R3NSK5 Uncharacterized protein, isoform B n=9 Tax=D...   137   3e-30
+UniRef90_A0A124GQ30 Cell division control protein 48 n=8 Tax=Eur...   137   3e-30
+UniRef90_G3B345 Uncharacterized protein n=1 Tax=Candida tenuis (...   137   3e-30
+UniRef90_W6KRQ6 Uncharacterized protein n=2 Tax=unclassified Phy...   137   3e-30
+UniRef90_A0A1I8C511 Uncharacterized protein n=2 Tax=Rhabditophan...   137   4e-30
+UniRef90_A0A023B919 Putative cell division protein 48 n=1 Tax=Gr...   136   4e-30
+UniRef90_G0MVN9 CBN-CDC-48.1 protein n=1 Tax=Caenorhabditis bren...   136   4e-30
+UniRef90_A0A1A9ZDZ6 Uncharacterized protein n=6 Tax=Holometabola...   136   4e-30
+UniRef90_A0A0D2AX77 Cell division control protein 48 n=1 Tax=Ver...   136   4e-30
+UniRef90_G4M0P6 Cell division control protein 48 aaa family prot...   136   4e-30
+UniRef90_A0A0M8P880 Cell division control protein 48 n=49 Tax=Eu...   136   5e-30
+UniRef90_P54811 Transitional endoplasmic reticulum ATPase homolo...   136   5e-30
+UniRef90_A0A1E3QEX2 Uncharacterized protein n=1 Tax=Lipomyces st...   136   5e-30
+UniRef90_A0A0J9XXY9 Bm1994, isoform a n=19 Tax=Chromadorea TaxID...   136   5e-30
+UniRef90_T1I4A1 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   136   5e-30
+UniRef90_A0A170Y4J0 Transitional endoplasmic reticulum atpase te...   136   5e-30
+UniRef90_A0A183UJ11 Uncharacterized protein n=1 Tax=Toxocara can...   136   5e-30
+UniRef90_I1H9V8 Uncharacterized protein n=1 Tax=Brachypodium dis...   136   6e-30
+UniRef90_A0A0K9PPD0 Uncharacterized protein n=1 Tax=Zostera mari...   136   6e-30
+UniRef90_K8YS88 Transitional endoplasmic reticulum ATPase n=1 Ta...   136   6e-30
+UniRef90_A0A074WZC7 AAA ATPase n=5 Tax=Fungi TaxID=4751 RepID=A0...   136   6e-30
+UniRef90_A0A068XDX3 Transitional endoplasmic reticulum atpase n=...   136   6e-30
+UniRef90_E4XE81 Uncharacterized protein n=1 Tax=Oikopleura dioic...   135   7e-30
+UniRef90_A0A0D1Z0H6 Cell division control protein 48 n=1 Tax=Exo...   135   7e-30
+UniRef90_B4GB87 GL11509 n=1 Tax=Drosophila persimilis TaxID=7234...   135   7e-30
+UniRef90_F6VLN4 Uncharacterized protein n=5 Tax=Ciona TaxID=7718...   135   8e-30
+UniRef90_A0A0X3NKF7 Uncharacterized protein (Fragment) n=1 Tax=S...   135   8e-30
+UniRef90_F1LCZ2 Transitional endoplasmic reticulum ATPase 1 (Fra...   135   8e-30
+UniRef90_A0A077RV04 Uncharacterized protein n=1 Tax=Triticum aes...   135   8e-30
+UniRef90_A0A059A132 Uncharacterized protein n=1 Tax=Eucalyptus g...   135   9e-30
+UniRef90_A0A1E3QXN4 Uncharacterized protein n=1 Tax=Babjeviella ...   135   9e-30
+UniRef90_A0A1D6B644 Uncharacterized protein n=1 Tax=Triticum aes...   135   9e-30
+UniRef90_A0A060SYS4 ARAD1A19316p n=1 Tax=Blastobotrys adeninivor...   135   9e-30
+UniRef90_A0A1I7ZD38 Uncharacterized protein n=1 Tax=Steinernema ...   135   1e-29
+UniRef90_A0A090L355 Transitional endoplasmic reticulum ATPase n=...   135   1e-29
+UniRef90_A0A077RY74 Uncharacterized protein n=1 Tax=Triticum aes...   135   1e-29
+UniRef90_C0NF61 Cell division control protein n=1 Tax=Ajellomyce...   135   1e-29
+UniRef90_F2DSA2 Predicted protein n=1 Tax=Hordeum vulgare subsp....   135   1e-29
+UniRef90_S9TM90 Transitional endoplasmic reticulum ATPase n=2 Ta...   135   1e-29
+UniRef90_A0A1A7XPU0 Uncharacterized protein (Fragment) n=1 Tax=A...   135   1e-29
+UniRef90_A0A1D5WVP7 Uncharacterized protein n=2 Tax=Triticum Tax...   135   1e-29
+UniRef90_C1H425 Cell division cycle protein n=57 Tax=leotiomycet...   135   1e-29
+UniRef90_A0A0J9XGM2 Similar to Saccharomyces cerevisiae YDL126C ...   135   1e-29
+UniRef90_A0A0N5ADI0 Uncharacterized protein n=1 Tax=Syphacia mur...   135   1e-29
+UniRef90_A0A1I8B9L5 Uncharacterized protein n=1 Tax=Meloidogyne ...   135   1e-29
+UniRef90_A0A0F8CSQ8 Cell division control protein 48 n=2 Tax=Cer...   135   1e-29
+UniRef90_A0A075AZX6 Transitional endoplasmic reticulum ATPase n=...   134   2e-29
+UniRef90_F0UGQ1 Cell division control protein n=1 Tax=Ajellomyce...   134   2e-29
+UniRef90_A0A0R3QYK5 Uncharacterized protein n=1 Tax=Brugia timor...   134   2e-29
+UniRef90_M8B415 Cell division cycle 48-like protein n=13 Tax=Tri...   134   2e-29
+UniRef90_A0A1E3PEM1 AAA ATPase n=1 Tax=Nadsonia fulvescens var. ...   134   2e-29
+UniRef90_Q6C1Z3 YALI0F12155p n=2 Tax=Yarrowia lipolytica TaxID=4...   134   2e-29
+UniRef90_A3LQG9 Cell division control protein 48 n=18 Tax=Saccha...   134   2e-29
+UniRef90_A0A1R4ACF9 Transitional endoplasmic reticulum ATPase n=...   134   2e-29
+UniRef90_K0KQM0 Cell division control protein n=5 Tax=Phaffomyce...   134   2e-29
+UniRef90_A0A167MP04 Uncharacterized protein n=1 Tax=Phycomyces b...   134   2e-29
+UniRef90_A0A0L1I1Z8 Cell division control protein 48 n=20 Tax=Do...   134   2e-29
+UniRef90_A0A146KNX9 Transitional endoplasmic reticulum ATPase TE...   134   2e-29
+UniRef90_Q38B27 Valosin-containing protein homolog n=4 Tax=Trypa...   134   2e-29
+UniRef90_A0A1E4TBI5 Uncharacterized protein n=1 Tax=Tortispora c...   134   2e-29
+UniRef90_A0A0H2QVZ9 Valosin-containing protein (Fragment) n=1 Ta...   134   2e-29
+UniRef90_UPI000498A0D0 cell division cycle protein 48 homolog n=...   134   2e-29
+UniRef90_B8C373 Transitional endoplasmic reticulum (Fragment) n=...   134   3e-29
+UniRef90_A0A0J9XY76 Bm1994, isoform b n=2 Tax=Spirurida TaxID=62...   134   3e-29
+UniRef90_A0A0N4VFP7 Uncharacterized protein n=1 Tax=Enterobius v...   134   3e-29
+UniRef90_A0A1D5S825 Uncharacterized protein n=1 Tax=Triticum aes...   134   3e-29
+UniRef90_A0A0P4X1E5 Transitional endoplasmic reticulum ATPase TE...   134   3e-29
+UniRef90_UPI0008676B22 AAA ATPase n=1 Tax=Saitoella complicata N...   134   3e-29
+UniRef90_W6MXZ3 Uncharacterized protein n=1 Tax=Kuraishia capsul...   133   4e-29
+UniRef90_A0A1I8AIC4 Uncharacterized protein n=2 Tax=Steinernema ...   133   4e-29
+UniRef90_W0TEJ2 Cell division control protein 48 n=4 Tax=Sacchar...   133   4e-29
+UniRef90_G0W3S3 Uncharacterized protein n=1 Tax=Naumovozyma dair...   133   4e-29
+UniRef90_P25694 Cell division control protein 48 n=33 Tax=Saccha...   133   4e-29
+UniRef90_A0A0L0NPN3 Cell division control protein 48 n=3 Tax=Sac...   133   4e-29
+UniRef90_A0A1I8J6R1 Uncharacterized protein n=2 Tax=Macrostomum ...   133   4e-29
+UniRef90_A0A0V1HYL2 Transitional endoplasmic reticulum ATPase-li...   133   5e-29
+UniRef90_A0A0V1E3M1 Transitional endoplasmic reticulum ATPase-li...   133   5e-29
+UniRef90_A0A0V1HY55 Transitional endoplasmic reticulum ATPase n=...   133   5e-29
+UniRef90_A0A0V1HXT7 Transitional endoplasmic reticulum ATPase-li...   133   5e-29
+UniRef90_M8CP09 Cell division control 48-D-like protein n=1 Tax=...   133   5e-29
+UniRef90_A0A0V1IT25 Transitional endoplasmic reticulum ATPase-li...   133   5e-29
+UniRef90_A0A0E9NK06 Uncharacterized protein n=1 Tax=Saitoella co...   133   5e-29
+UniRef90_A0A0G4IHT8 Uncharacterized protein n=1 Tax=Plasmodiopho...   133   5e-29
+UniRef90_Q7KN62 Transitional endoplasmic reticulum ATPase TER94 ...   133   6e-29
+UniRef90_E5SR09 Putative ATPase, AAA family n=1 Tax=Trichinella ...   132   6e-29
+UniRef90_A0A1U7LT10 Cell division control protein 48 (Fragment) ...   132   6e-29
+UniRef90_A0A1V2L339 Cell division control protein 48 n=1 Tax=Cyb...   132   7e-29
+UniRef90_A4ICJ9 Putative Transitional endoplasmic reticulum ATPa...   132   8e-29
+UniRef90_M3B5I3 Cell division control protein n=26 Tax=leotiomyc...   132   9e-29
+UniRef90_A0A0D9WPS8 Uncharacterized protein n=1 Tax=Leersia perr...   132   9e-29
+UniRef90_M8ATS8 Cell division cycle 48-like protein n=1 Tax=Aegi...   132   9e-29
+UniRef90_A0A0R3WM70 Uncharacterized protein n=1 Tax=Hydatigena t...   132   9e-29
+UniRef90_Q4Q1T9 Putative Transitional endoplasmic reticulum ATPa...   132   9e-29
+UniRef90_A0A0U5CF34 Putative Cell division cycle protein 48 n=1 ...   132   1e-28
+UniRef90_I2H1M8 Uncharacterized protein n=1 Tax=Tetrapisispora b...   132   1e-28
+UniRef90_A0A1S7HNB4 CDC48 (YDL126C) n=2 Tax=Zygosaccharomyces Ta...   132   1e-28
+UniRef90_A0A0C7N300 LALA0S05e04346g1_1 n=4 Tax=Lachancea TaxID=3...   132   1e-28
+UniRef90_A0A0N4VL56 Uncharacterized protein n=1 Tax=Enterobius v...   131   1e-28
+UniRef90_M8AQ44 Cell division control 48-D-like protein n=1 Tax=...   131   1e-28
+UniRef90_Q5BZ78 SJCHGC02986 protein (Fragment) n=1 Tax=Schistoso...   131   1e-28
+UniRef90_D8S303 Uncharacterized protein n=2 Tax=Selaginella moel...   131   2e-28
+UniRef90_I2H9L2 Uncharacterized protein n=1 Tax=Tetrapisispora b...   131   2e-28
+UniRef90_Q5AWS6 Cell division control protein 48 n=12 Tax=Asperg...   131   2e-28
+UniRef90_F6GWA3 Uncharacterized protein n=2 Tax=Vitis vinifera T...   130   2e-28
+UniRef90_A0A183C1N4 Uncharacterized protein n=1 Tax=Globodera pa...   130   3e-28
+UniRef90_A0A0L0FS01 Transitional endoplasmic reticulum ATPase n=...   130   4e-28
+UniRef90_A0A0A1U1N9 Cdc48 family protein, putative (Fragment) n=...   130   4e-28
+UniRef90_A0A1I8IY76 Uncharacterized protein n=2 Tax=Macrostomum ...   129   5e-28
+UniRef90_J4D694 Transitional endoplasmic reticulum ATPase n=1 Ta...   129   6e-28
+UniRef90_F2QXS9 AAA ATPase n=3 Tax=Komagataella TaxID=460517 Rep...   129   7e-28
+UniRef90_Q754B2 AFR158Wp n=4 Tax=Saccharomycetaceae TaxID=4893 R...   129   7e-28
+UniRef90_I2JT03 Cell division control protein 48 n=1 Tax=Brettan...   129   7e-28
+UniRef90_A0A0D6EFG1 SPOSA6832_00207-mRNA-1:cds n=1 Tax=Sporidiob...   129   8e-28
+UniRef90_U6GIG7 Cell division protein 48, putative n=1 Tax=Eimer...   129   8e-28
+UniRef90_R7QAA8 Transitional endoplasmic reticulum ATPase (Valos...   129   1e-27
+UniRef90_A0A098VRQ4 Valosin domain-containing protein n=1 Tax=Mi...   129   1e-27
+UniRef90_W1Q7D0 Cell division control protein 48 n=3 Tax=Ogataea...   129   1e-27
+UniRef90_R4XE58 Cell division cycle protein 48 n=2 Tax=Taphrinal...   128   1e-27
+UniRef90_A0A1E5RSD9 Cell division control protein 48 n=3 Tax=Han...   128   1e-27
+UniRef90_A0A099NZN3 Cell division control protein 48 n=3 Tax=Pic...   128   1e-27
+UniRef90_Q4N783 Cell division cycle protein 48, putative n=2 Tax...   128   2e-27
+UniRef90_A7ARM1 Cell division control protein 48, putative n=3 T...   127   2e-27
+UniRef90_A0A058ZIT9 Cell division cycle protein 48 n=1 Tax=Fonti...   127   2e-27
+UniRef90_C5WYU4 Uncharacterized protein n=2 Tax=Sorghum bicolor ...   127   2e-27
+UniRef90_L1LFE7 Cell division cycle protein 48, putative n=1 Tax...   127   3e-27
+UniRef90_A0A192ZHH3 Cell division control protein 48-like protei...   127   3e-27
+UniRef90_A0A1D2VPA3 AAA ATPase n=1 Tax=Ascoidea rubescens DSM 19...   127   4e-27
+UniRef90_A0A1B7T7V7 YDL126Cp-like protein (Fragment) n=2 Tax=Han...   126   4e-27
+UniRef90_B0E9H9 Transitional endoplasmic reticulum ATPase, putat...   126   4e-27
+UniRef90_J9HJQ1 AAA family ATPase, CDC48 subfamily protein n=2 T...   126   5e-27
+UniRef90_A0A0K8RS69 Putative valosin (Fragment) n=1 Tax=Ixodes r...   125   7e-27
+UniRef90_W6UQD3 Transitional endoplasmic reticulum ATPase n=1 Ta...   125   7e-27
+UniRef90_V4T1Y7 Uncharacterized protein n=2 Tax=Citrus TaxID=270...   125   8e-27
+UniRef90_A0A1E1XHP0 Putative aaa+-type atpase (Fragment) n=1 Tax...   125   9e-27
+UniRef90_G7KP28 26S proteasome subunit RPN7 n=1 Tax=Medicago tru...   125   9e-27
+UniRef90_A0A146PRN4 Spermatogenesis-associated 5 protein 1-like ...   125   1e-26
+UniRef90_UPI000718AB85 Transitional endoplasmic reticulum ATPase...   125   1e-26
+UniRef90_A0A146Q1L0 Spermatogenesis-associated 5 protein 1-like ...   125   1e-26
+UniRef90_UPI0004413C20 AAA-domain-containing protein n=1 Tax=Aur...   124   2e-26
+UniRef90_A0A1J1H827 Cell division cycle protein 48 homologue, pu...   124   2e-26
+UniRef90_Q9P3A7 Cell division cycle protein 48 n=4 Tax=Schizosac...   124   2e-26
+UniRef90_A0A1I7YZE1 Uncharacterized protein n=1 Tax=Steinernema ...   123   4e-26
+UniRef90_A0A060RV58 Cell division cycle protein 48 homologue, pu...   123   4e-26
+UniRef90_G0U679 Putative Transitional endoplasmic reticulum ATPa...   122   9e-26
+UniRef90_A0A0B2NUK0 Cell division cycle protein 48 like n=2 Tax=...   122   9e-26
+UniRef90_Q98S05 Cell division cycle protein 48 homolog n=1 Tax=G...   121   1e-25
+UniRef90_F2HHQ2 Cell division control protein 48 n=1 Tax=Cryptom...   120   2e-25
+UniRef90_A0A0N4UVW4 Uncharacterized protein n=1 Tax=Enterobius v...   120   3e-25
+UniRef90_Q4YXK4 Cell division cycle protein 48 homologue, putati...   120   3e-25
+UniRef90_K4AJI6 Uncharacterized protein n=3 Tax=Paniceae TaxID=1...   119   6e-25
+UniRef90_A0A146X0Y9 Transitional endoplasmic reticulum ATPase n=...   119   9e-25
+UniRef90_M8AZV9 Cell division control 48-A-like protein n=1 Tax=...   119   9e-25
+UniRef90_A9BKG5 Cdc48b n=1 Tax=Hemiselmis andersenii TaxID=46498...   118   2e-24
+UniRef90_A0A196SFH2 Cell division control protein 48 n=2 Tax=Bla...   118   2e-24
+UniRef90_A0A0C2XFL4 Uncharacterized protein n=1 Tax=Amanita musc...   118   2e-24
+UniRef90_A0A0A1UA45 Transitional endoplasmic reticulum atpase, p...   117   2e-24
+UniRef90_J7G6G3 Cell division control protein 48 n=1 Tax=Chroomo...   117   2e-24
+UniRef90_V2X1M7 Cell division control protein cdc48 n=2 Tax=Moni...   117   2e-24
+UniRef90_A0A1I8H2U1 Uncharacterized protein n=1 Tax=Macrostomum ...   117   3e-24
+UniRef90_D8M4H7 Uncharacterized protein n=1 Tax=Blastocystis hom...   117   4e-24
+UniRef90_A0A0C2T8S6 Uncharacterized protein n=1 Tax=Amanita musc...   117   4e-24
+UniRef90_A0A1X7VPK0 Uncharacterized protein n=2 Tax=Amphimedon q...   116   5e-24
+UniRef90_A0A0P5LAA2 Transitional endoplasmic reticulum ATPase TE...   116   6e-24
+UniRef90_G0QWK4 Transitional endoplasmic reticulum ATPase, putat...   115   9e-24
+UniRef90_A0A0D2MMT9 Uncharacterized protein (Fragment) n=1 Tax=G...   113   3e-23
+UniRef90_S8DWI9 Uncharacterized protein (Fragment) n=2 Tax=Penta...   113   4e-23
+UniRef90_A0A0A9ZFH5 Transitional endoplasmic reticulum ATPase n=...   113   4e-23
+UniRef90_B0EE56 Transitional endoplasmic reticulum ATPase, putat...   112   7e-23
+UniRef90_A0A1B6KYR0 Uncharacterized protein (Fragment) n=1 Tax=G...   112   9e-23
+UniRef90_A0A0V0R3D5 p-loop containing nucleoside triphosphate hy...   112   1e-22
+UniRef90_A0A0P0XFK3 Os08g0413000 protein n=10 Tax=Oryza TaxID=45...   110   3e-22
+UniRef90_UPI0008FA52AA transitional endoplasmic reticulum ATPase...   110   5e-22
+UniRef90_I1I708 Uncharacterized protein n=1 Tax=Brachypodium dis...   109   5e-22
+UniRef90_A0A0Q3M186 Uncharacterized protein n=1 Tax=Brachypodium...   108   9e-22
+UniRef90_A0A177B3X4 Cell division control protein 48 n=1 Tax=Int...   108   1e-21
+UniRef90_W5BQB0 Uncharacterized protein n=4 Tax=Triticeae TaxID=...   108   1e-21
+UniRef90_T1M068 Uncharacterized protein n=1 Tax=Triticum urartu ...   107   2e-21
+UniRef90_M5WC73 Uncharacterized protein n=1 Tax=Prunus persica T...   107   4e-21
+UniRef90_A0A0D9X7S6 Uncharacterized protein n=1 Tax=Leersia perr...   106   5e-21
+UniRef90_A0A1E5WN12 Cell division control protein 48-like protei...   106   6e-21
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_S9WQY9 Uncharacterized protein n=2 Tax=Amniota TaxID=32524
+            RepID=S9WQY9_CAMFR
+          Length = 2192
+
+ Score =  157 bits (398), Expect = 3e-36,   Method: Composition-based stats.
+ Identities = 79/79 (100%), Positives = 79/79 (100%)
+
+Query: 1    VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE 60
+            VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE
+Sbjct: 1488 VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE 1547
+
+Query: 61   TDPSPYCIVAPDTVIHCEG 79
+            TDPSPYCIVAPDTVIHCEG
+Sbjct: 1548 TDPSPYCIVAPDTVIHCEG 1566
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_S9WQY9 Uncharacterized protein n=2 Tax=Amniota TaxID=32...   156   4e-36
+UniRef90_L9L6K9 Transitional endoplasmic reticulum ATPase n=1 Ta...   156   4e-36
+UniRef90_A0A091DYJ0 Transitional endoplasmic reticulum ATPase n=...   156   4e-36
+UniRef90_G3HN14 Transitional endoplasmic reticulum ATPase n=1 Ta...   156   4e-36
+UniRef90_M7BUG3 Transitional endoplasmic reticulum ATPase n=10 T...   156   4e-36
+UniRef90_A0A0Q3UT71 Transitional endoplasmic reticulum ATPase n=...   156   4e-36
+UniRef90_UPI0006B200BB transitional endoplasmic reticulum ATPase...   155   1e-35
+UniRef90_T1G9T6 Uncharacterized protein n=1 Tax=Helobdella robus...   152   8e-35
+UniRef90_UPI0007040D96 transitional endoplasmic reticulum ATPase...   151   2e-34
+UniRef90_Q5CD25 Valosin containing protein-1 n=3 Tax=Bilateria T...   150   2e-34
+UniRef90_UPI0006D940A1 transitional endoplasmic reticulum ATPase...   150   2e-34
+UniRef90_A0A1S3KY43 transitional endoplasmic reticulum ATPase-li...   150   3e-34
+UniRef90_A0A0P5YIG9 Transitional endoplasmic reticulum ATPase TE...   150   3e-34
+UniRef90_P55072 Transitional endoplasmic reticulum ATPase n=86 T...   150   3e-34
+UniRef90_UPI0008DB65B4 transitional endoplasmic reticulum ATPase...   150   3e-34
+UniRef90_UPI000766E109 Transitional endoplasmic reticulum ATPase...   150   3e-34
+UniRef90_A0A087V2G0 Transitional endoplasmic reticulum ATPase (F...   150   3e-34
+UniRef90_P23787 Transitional endoplasmic reticulum ATPase n=168 ...   150   4e-34
+UniRef90_UPI0005296D71 transitional endoplasmic reticulum ATPase...   150   4e-34
+UniRef90_UPI0007ACF483 transitional endoplasmic reticulum ATPase...   150   4e-34
+UniRef90_H3AWB6 Valosin containing protein n=2 Tax=Euteleostomi ...   150   4e-34
+UniRef90_A0A0P5SKH7 Transitional endoplasmic reticulum ATPase TE...   149   5e-34
+UniRef90_A0A0N8DIU4 Transitional endoplasmic reticulum ATPase TE...   149   5e-34
+UniRef90_M3VW05 Valosin containing protein n=6 Tax=Boreoeutheria...   149   5e-34
+UniRef90_UPI00062AB731 transitional endoplasmic reticulum ATPase...   149   5e-34
+UniRef90_UPI0007BACC42 transitional endoplasmic reticulum ATPase...   149   5e-34
+UniRef90_A0A091KS87 Transitional endoplasmic reticulum ATPase (F...   149   5e-34
+UniRef90_A0A0P5SUW3 Transitional endoplasmic reticulum ATPase TE...   149   6e-34
+UniRef90_A0A060XT88 Uncharacterized protein n=1 Tax=Oncorhynchus...   149   7e-34
+UniRef90_A0A0P5R5P7 Transitional endoplasmic reticulum ATPase TE...   149   9e-34
+UniRef90_A0A194QYV6 Transitional endoplasmic reticulum ATPase TE...   149   1e-33
+UniRef90_UPI0005549C97 transitional endoplasmic reticulum ATPase...   148   1e-33
+UniRef90_A9SSY8 Predicted protein n=4 Tax=Embryophyta TaxID=3193...   148   1e-33
+UniRef90_A0A1D1UD02 Uncharacterized protein n=3 Tax=Hypsibiidae ...   148   1e-33
+UniRef90_A0A146WZ95 Transitional endoplasmic reticulum ATPase n=...   148   1e-33
+UniRef90_A0A0L8GAT1 Uncharacterized protein n=1 Tax=Octopus bima...   148   1e-33
+UniRef90_UPI000719D151 transitional endoplasmic reticulum ATPase...   148   1e-33
+UniRef90_UPI000511A1A1 LOW QUALITY PROTEIN: transitional endopla...   148   1e-33
+UniRef90_A0A0P6A4P4 Transitional endoplasmic reticulum ATPase TE...   148   1e-33
+UniRef90_A0A1V4K4Q5 Uncharacterized protein n=1 Tax=Patagioenas ...   148   1e-33
+UniRef90_A0A0P6GNJ8 Putative Transitional endoplasmic reticulum ...   148   2e-33
+UniRef90_A0A0P5VG62 Transitional endoplasmic reticulum ATPase TE...   148   2e-33
+UniRef90_A9TF08 Predicted protein n=3 Tax=Physcomitrella patens ...   148   2e-33
+UniRef90_A0A194QE63 Transitional endoplasmic reticulum ATPase TE...   147   2e-33
+UniRef90_K1PVA1 Transitional endoplasmic reticulum ATPase n=6 Ta...   147   2e-33
+UniRef90_A0A0P6IJW6 Transitional endoplasmic reticulum ATPase TE...   147   2e-33
+UniRef90_A0A1D6KUI9 Cell division control protein 48 homolog D n...   147   2e-33
+UniRef90_I1CHG1 Transitional endoplasmic reticulum ATPase n=6 Ta...   147   2e-33
+UniRef90_A0A1D1YE28 Cell division cycle protein 48 (Fragment) n=...   147   2e-33
+UniRef90_A7SJ61 Predicted protein n=5 Tax=Hexacorallia TaxID=610...   147   2e-33
+UniRef90_A0A182NGU8 Uncharacterized protein n=3 Tax=Anopheles Ta...   147   2e-33
+UniRef90_UPI0001CBBDEA transitional endoplasmic reticulum ATPase...   147   2e-33
+UniRef90_Q29RA2 Zgc:136908 n=7 Tax=Osteoglossocephalai TaxID=148...   147   3e-33
+UniRef90_N6T9W3 Uncharacterized protein (Fragment) n=1 Tax=Dendr...   147   3e-33
+UniRef90_UPI0006B084A8 transitional endoplasmic reticulum ATPase...   147   3e-33
+UniRef90_E1Z5R3 Uncharacterized protein n=1 Tax=Chlorella variab...   147   3e-33
+UniRef90_A0A0E0K8W0 Uncharacterized protein n=4 Tax=commelinids ...   147   3e-33
+UniRef90_A0A0E0EYB5 Uncharacterized protein n=2 Tax=Mesangiosper...   147   3e-33
+UniRef90_V8NV43 Transitional endoplasmic reticulum ATPase (Fragm...   147   3e-33
+UniRef90_A0A163LTG4 Uncharacterized protein n=11 Tax=Mucorales T...   147   3e-33
+UniRef90_T1K516 Uncharacterized protein n=1 Tax=Tetranychus urti...   147   3e-33
+UniRef90_W5LJN2 Zgc:136908 n=1 Tax=Astyanax mexicanus TaxID=7994...   147   3e-33
+UniRef90_UPI00046BFE64 transitional endoplasmic reticulum ATPase...   147   3e-33
+UniRef90_A0A090XC75 Putative aaa+-type atpase (Fragment) n=3 Tax...   147   3e-33
+UniRef90_P90532 Cell division cycle protein 48 n=5 Tax=Dictyoste...   147   3e-33
+UniRef90_K7FMD5 Uncharacterized protein n=2 Tax=Pelodiscus sinen...   147   4e-33
+UniRef90_UPI00042BC22F transitional endoplasmic reticulum ATPase...   147   4e-33
+UniRef90_UPI0006CEED63 transitional endoplasmic reticulum ATPase...   147   4e-33
+UniRef90_UPI000440C35B transitional endoplasmic reticulum ATPase...   147   4e-33
+UniRef90_R7TPA8 Uncharacterized protein (Fragment) n=1 Tax=Capit...   146   4e-33
+UniRef90_A0A0M0J3Z4 Transitional endoplasmic reticulum ATPase n=...   146   4e-33
+UniRef90_G1KTE0 Uncharacterized protein n=16 Tax=Euteleostomi Ta...   146   4e-33
+UniRef90_A0A139A9D0 Transitional endoplasmic reticulum ATPase TE...   146   4e-33
+UniRef90_A0A1J1I3P4 CLUMA_CG006478, isoform A n=13 Tax=Holometab...   146   4e-33
+UniRef90_A0A1U8G4N4 cell division cycle protein 48 homolog n=7 T...   146   4e-33
+UniRef90_UPI000528ADA6 transitional endoplasmic reticulum ATPase...   146   4e-33
+UniRef90_K5WJX5 Uncharacterized protein n=27 Tax=Agaricomycotina...   146   4e-33
+UniRef90_A0A1D1YHL1 Transitional endoplasmic reticulum ATPase n=...   146   4e-33
+UniRef90_A8HW56 Flagellar associated protein n=4 Tax=Chlorophyce...   146   5e-33
+UniRef90_A0A0D7A2C1 AAA ATPase n=1 Tax=Fistulina hepatica ATCC 6...   146   5e-33
+UniRef90_A0A0L0HJQ5 Transitional endoplasmic reticulum ATPase n=...   146   5e-33
+UniRef90_A0A1X7TSM5 Uncharacterized protein n=3 Tax=Amphimedon q...   146   5e-33
+UniRef90_A0A182GAA5 Uncharacterized protein n=3 Tax=Aedes albopi...   146   5e-33
+UniRef90_A0A0T6B0B0 AAA protein (Fragment) n=1 Tax=Oryctes borbo...   146   5e-33
+UniRef90_A0A1D6KUJ0 Cell division control protein 48 homolog D n...   146   5e-33
+UniRef90_M4CNE5 Acylphosphatase n=2 Tax=Brassica campestris TaxI...   146   6e-33
+UniRef90_UPI000B426AEA cell division control protein 48 homolog ...   146   6e-33
+UniRef90_A0A0L7LT18 Transitional endoplasmic reticulum ATPase TE...   146   6e-33
+UniRef90_A0A0D9XK40 Uncharacterized protein n=1 Tax=Leersia perr...   146   6e-33
+UniRef90_I3KHR3 Zgc:136908 n=30 Tax=Percomorphaceae TaxID=148987...   146   6e-33
+UniRef90_I0YZZ5 AAA ATPase n=1 Tax=Coccomyxa subellipsoidea (str...   146   6e-33
+UniRef90_A0A1D6PJZ1 Cell division control protein 48 homolog D n...   146   6e-33
+UniRef90_A0A1S3IKZ6 transitional endoplasmic reticulum ATPase is...   146   6e-33
+UniRef90_D2VSC1 Predicted protein n=1 Tax=Naegleria gruberi TaxI...   145   7e-33
+UniRef90_A0A1R3JD30 Uncharacterized protein n=1 Tax=Corchorus ol...   145   7e-33
+UniRef90_G8FUG7 Cell division cycle protein 48 n=1 Tax=Dictyoste...   145   7e-33
+UniRef90_K4A7D3 Uncharacterized protein n=2 Tax=Mesangiospermae ...   145   8e-33
+UniRef90_A0A1D6GQ41 Cell division cycle protein 48 n=2 Tax=Zea m...   145   8e-33
+UniRef90_A0A197JZ26 Transitional endoplasmic reticulum ATPase n=...   145   8e-33
+UniRef90_A0A0B7AKA6 Uncharacterized protein n=4 Tax=Euthyneura T...   145   8e-33
+UniRef90_A0A1D2NH57 Transitional endoplasmic reticulum ATPase TE...   145   8e-33
+UniRef90_A0A0V0IS27 Putative cell division cycle protein-like n=...   145   8e-33
+UniRef90_M0TEP4 Uncharacterized protein n=1 Tax=Musa acuminata s...   145   9e-33
+UniRef90_A0A1Y1XA59 AAA ATPase n=3 Tax=Basidiobolus meristosporu...   145   9e-33
+UniRef90_A0A165Y9J9 AAA ATPase n=1 Tax=Peniophora sp. CONT TaxID...   145   9e-33
+UniRef90_UPI00064507CF hypothetical protein n=1 Tax=Acytostelium...   145   9e-33
+UniRef90_A0A1C7MAV5 Cell division control protein 48 n=1 Tax=Gri...   145   9e-33
+UniRef90_A0A0P0YUY9 Host cell division cycle protein n=7 Tax=Bac...   145   1e-32
+UniRef90_A0A0A1NBT2 Putative Cell division control protein Cdc48...   145   1e-32
+UniRef90_A0A1D6JNX7 Cell division control protein 48 homolog D n...   145   1e-32
+UniRef90_A0A1D6GQ45 Cell division cycle protein 48 n=5 Tax=Mesan...   145   1e-32
+UniRef90_A0A0F7S837 Uncharacterized protein n=12 Tax=Ustilaginac...   145   1e-32
+UniRef90_UPI0005235547 transitional endoplasmic reticulum ATPase...   145   1e-32
+UniRef90_A0A0D2ULD9 Valosin-containing protein n=1 Tax=Capsaspor...   145   1e-32
+UniRef90_C0PAT5 Uncharacterized protein n=1 Tax=Zea mays TaxID=4...   145   1e-32
+UniRef90_Q9HAP1 Valosin-containing protein (Fragment) n=1 Tax=Ho...   145   1e-32
+UniRef90_J9JPU1 Uncharacterized protein n=2 Tax=Macrosiphini Tax...   145   1e-32
+UniRef90_A0A067CZD3 Cell division cycle protein 48 n=5 Tax=Sapro...   145   1e-32
+UniRef90_C5LAB2 Cell division cycle protein, putative n=2 Tax=Pe...   145   1e-32
+UniRef90_A0A1D6PJZ3 Cell division control protein 48 homolog D n...   145   1e-32
+UniRef90_UPI0009D6F198 cell division cycle protein 48 homolog is...   145   1e-32
+UniRef90_A0A0B7N6V2 Uncharacterized protein n=2 Tax=Mucorineae T...   145   1e-32
+UniRef90_A0A0F7SSW6 Aaa atpase n=1 Tax=Phaffia rhodozyma TaxID=2...   145   1e-32
+UniRef90_P54609 Cell division control protein 48 homolog A n=311...   145   1e-32
+UniRef90_A0A151VHE3 Cell division cycle protein 48 n=27 Tax=Agar...   145   1e-32
+UniRef90_A0A165KJL1 AAA ATPase n=2 Tax=Auriculariales TaxID=5226...   144   1e-32
+UniRef90_A0A1S3L489 transitional endoplasmic reticulum ATPase-li...   144   1e-32
+UniRef90_A0A1D6PJZ2 Cell division control protein 48 homolog D n...   144   2e-32
+UniRef90_A0A1D5XF29 Uncharacterized protein n=1 Tax=Triticum aes...   144   2e-32
+UniRef90_A0A1J3DSS6 Cell division control protein 48-like protei...   144   2e-32
+UniRef90_A9V9M3 Predicted protein n=1 Tax=Monosiga brevicollis T...   144   2e-32
+UniRef90_A0A0P4W3V4 Uncharacterized protein n=1 Tax=Scylla oliva...   144   2e-32
+UniRef90_A0A0L6WTS7 Cell division cycle protein 48 like protein ...   144   2e-32
+UniRef90_A0A0C3QAJ5 Uncharacterized protein n=1 Tax=Tulasnella c...   144   2e-32
+UniRef90_A0A1Y5I1M4 P-loop containing nucleoside triphosphate hy...   144   2e-32
+UniRef90_A0A0V0IPE3 Putative cell division cycle protein 48-like...   144   2e-32
+UniRef90_R9AKB4 Cell division control protein 48 n=2 Tax=Wallemi...   144   2e-32
+UniRef90_M0U2W2 Uncharacterized protein n=1 Tax=Musa acuminata s...   144   2e-32
+UniRef90_A0A0D2MBS1 Uncharacterized protein n=1 Tax=Gossypium ra...   144   2e-32
+UniRef90_A0A069DWX9 Putative aaa+-type atpase n=5 Tax=Panheterop...   144   2e-32
+UniRef90_M2WWD9 AAA-type ATPase n=1 Tax=Galdieria sulphuraria Ta...   144   2e-32
+UniRef90_A0A1D5Y3Q4 Uncharacterized protein n=4 Tax=Embryophyta ...   144   2e-32
+UniRef90_A0A0P1BPZ6 Valosin-containing protein n=1 Tax=Ceraceoso...   144   2e-32
+UniRef90_A7BFI9 Valosin containing protein n=19 Tax=Chelicerata ...   144   2e-32
+UniRef90_A0A0L0D4R6 Uncharacterized protein n=1 Tax=Thecamonas t...   144   2e-32
+UniRef90_A0A1U7YS63 cell division cycle protein 48 homolog n=44 ...   144   3e-32
+UniRef90_A4RRG4 Uncharacterized protein n=2 Tax=Ostreococcus Tax...   144   3e-32
+UniRef90_A0A087ST05 Cell division control protein 48-like protei...   144   3e-32
+UniRef90_A0A1Y2CX91 AAA ATPase n=1 Tax=Rhizoclosmatium globosum ...   144   3e-32
+UniRef90_A0A0H2S4Y3 AAA ATPase n=2 Tax=Schizopora paradoxa TaxID...   144   3e-32
+UniRef90_UPI0005117377 transitional endoplasmic reticulum ATPase...   144   3e-32
+UniRef90_UPI00064180F9 LOW QUALITY PROTEIN: transitional endopla...   144   3e-32
+UniRef90_A0A066WIJ9 AAA ATPase n=1 Tax=Tilletiaria anomala UBC 9...   144   3e-32
+UniRef90_A0A072VC98 ATPase, AAA-type, CDC48 protein n=1 Tax=Medi...   143   3e-32
+UniRef90_UPI00084AA9B3 LOW QUALITY PROTEIN: transitional endopla...   143   3e-32
+UniRef90_F2TZJ8 Cell division cycle protein 48 n=1 Tax=Salpingoe...   143   3e-32
+UniRef90_U5TQQ5 Valosin-containing protein n=1 Tax=Penaeus monod...   143   4e-32
+UniRef90_UPI0006D8E11F LOW QUALITY PROTEIN: transitional endopla...   143   4e-32
+UniRef90_UPI00087070F5 uncharacterized protein LOC103964820 isof...   143   4e-32
+UniRef90_A0A0K2TQE3 Transitional endoplasmic reticulum ATPase TE...   143   4e-32
+UniRef90_A0A1D1Z1T8 Cell division cycle protein 48 n=1 Tax=Anthu...   143   4e-32
+UniRef90_D0P0N7 Cell division control protein 48 n=17 Tax=Oomyce...   143   4e-32
+UniRef90_A0A059LHR1 AAA+ ATPase (Fragment) n=1 Tax=Helicosporidi...   143   4e-32
+UniRef90_T1JGY4 Uncharacterized protein n=1 Tax=Strigamia mariti...   143   4e-32
+UniRef90_A0A1B6H391 Uncharacterized protein (Fragment) n=1 Tax=C...   143   4e-32
+UniRef90_A0A1Y1WMM7 AAA ATPase n=1 Tax=Linderina pennispora TaxI...   143   4e-32
+UniRef90_C1BF87 Transitional endoplasmic reticulum ATPase n=4 Ta...   143   5e-32
+UniRef90_A0A176WK41 Uncharacterized protein n=1 Tax=Marchantia p...   143   5e-32
+UniRef90_T2MFM1 Transitional endoplasmic reticulum ATPase (Fragm...   143   5e-32
+UniRef90_C3YTH4 Uncharacterized protein n=3 Tax=Branchiostoma Ta...   143   5e-32
+UniRef90_A0A1V9X4H1 Transitional endoplasmic reticulum ATPase TE...   143   5e-32
+UniRef90_A0A1Y1IHJ4 AAA family ATPase n=1 Tax=Klebsormidium flac...   143   5e-32
+UniRef90_L1IB53 CDC48-like protein n=2 Tax=Guillardia theta TaxI...   143   6e-32
+UniRef90_A0A060Z2Q6 Uncharacterized protein (Fragment) n=1 Tax=O...   142   6e-32
+UniRef90_UPI0006D4CC67 transitional endoplasmic reticulum ATPase...   142   6e-32
+UniRef90_A0A061QXF2 Transitional endoplasmic reticulum ATPase n=...   142   6e-32
+UniRef90_D6R706 Valosin-containing protein (Fragment) n=6 Tax=Eu...   142   6e-32
+UniRef90_UPI00044089BF AAA ATPase n=1 Tax=Fomitiporia mediterran...   142   6e-32
+UniRef90_S4R8Y2 Uncharacterized protein n=6 Tax=Bilateria TaxID=...   142   7e-32
+UniRef90_A0A1D6RWC4 Uncharacterized protein n=1 Tax=Triticum aes...   142   7e-32
+UniRef90_D8LBW0 Uncharacterized protein n=1 Tax=Ectocarpus silic...   142   7e-32
+UniRef90_A0A1R3KWA9 Uncharacterized protein n=2 Tax=Corchorus ol...   142   7e-32
+UniRef90_W7TK84 ATPase, AAA-type, core n=1 Tax=Nannochloropsis g...   142   8e-32
+UniRef90_A0A078BX76 BnaA07g16030D protein n=1 Tax=Brassica napus...   142   8e-32
+UniRef90_L8WIB7 Cell division cycle protein 48 n=1 Tax=Thanateph...   142   9e-32
+UniRef90_G3Q4U8 Zgc:136908 n=1 Tax=Gasterosteus aculeatus TaxID=...   142   9e-32
+UniRef90_K8E910 Uncharacterized protein n=1 Tax=Bathycoccus pras...   142   9e-32
+UniRef90_UPI000A2B68EA cell division cycle protein 48 homolog n=...   142   9e-32
+UniRef90_A0A1D2A9P0 Uncharacterized protein (Fragment) n=1 Tax=A...   142   9e-32
+UniRef90_Q20AI9 Cell division cycle CDC48 (Fragment) n=1 Tax=Ict...   142   1e-31
+UniRef90_UPI000A1C57C0 transitional endoplasmic reticulum ATPase...   142   1e-31
+UniRef90_F0WD79 Uncharacterized protein AlNc14C64G4599 n=1 Tax=A...   142   1e-31
+UniRef90_A0A023EU80 Putative ter94 (Fragment) n=1 Tax=Aedes albo...   142   1e-31
+UniRef90_A0A0D3DSQ0 Uncharacterized protein n=1 Tax=Brassica ole...   142   1e-31
+UniRef90_A0A078C946 BnaC08g24320D protein n=2 Tax=Brassica napus...   142   1e-31
+UniRef90_A0A0H2R2B9 AAA ATPase (Fragment) n=1 Tax=Schizopora par...   142   1e-31
+UniRef90_C1FDN1 Cell division cycle protein 48-like protein, exp...   142   1e-31
+UniRef90_W8P5K0 Cell division cycle 48 protein n=2 Tax=Chromera ...   142   1e-31
+UniRef90_UPI0004CCA088 transitional endoplasmic reticulum ATPase...   141   1e-31
+UniRef90_A0A147B8H9 Transitional endoplasmic reticulum atpase (F...   141   1e-31
+UniRef90_F4PC08 Uncharacterized protein n=5 Tax=Batrachochytrium...   141   1e-31
+UniRef90_A0A067G1F3 Uncharacterized protein (Fragment) n=2 Tax=C...   141   1e-31
+UniRef90_A0A1M8A5S3 AAA ATPase n=4 Tax=Malassezia TaxID=55193 Re...   141   1e-31
+UniRef90_A0A1X6PIQ3 Uncharacterized protein n=2 Tax=Porphyra umb...   141   1e-31
+UniRef90_A0A1J7GJJ2 Uncharacterized protein n=1 Tax=Lupinus angu...   141   1e-31
+UniRef90_A0A0C3CKS5 Uncharacterized protein n=1 Tax=Hebeloma cyl...   141   2e-31
+UniRef90_A0A068V8G8 Uncharacterized protein n=1 Tax=Coffea canep...   141   2e-31
+UniRef90_A0A177UTZ7 Cell division control protein 48 n=4 Tax=Til...   141   2e-31
+UniRef90_U6G3N5 Cell division protein 48, putative n=1 Tax=Eimer...   141   2e-31
+UniRef90_M5C3I2 MMS2 protein n=3 Tax=Cantharellales TaxID=36064 ...   141   2e-31
+UniRef90_G4TFJ6 Probable CDC48-Microsomal protein of CDC48/PAS1/...   141   2e-31
+UniRef90_A0A164XIL5 Uncharacterized protein n=1 Tax=Daucus carot...   140   2e-31
+UniRef90_A0A1E3HH29 Transitional endoplasmic reticulum ATPase n=...   140   2e-31
+UniRef90_A0A0F8AMQ9 Transitional endoplasmic reticulum ATPase n=...   140   2e-31
+UniRef90_A0A1B0CLN3 Uncharacterized protein n=1 Tax=Lutzomyia lo...   140   3e-31
+UniRef90_P54812 Transitional endoplasmic reticulum ATPase homolo...   140   3e-31
+UniRef90_UPI000A2B2BCC cell division cycle protein 48 homolog n=...   140   3e-31
+UniRef90_A0A1I8IKM7 Uncharacterized protein n=1 Tax=Macrostomum ...   140   3e-31
+UniRef90_UPI000498EA97 uncharacterized protein LOC103407783 n=5 ...   140   3e-31
+UniRef90_A0A183IM98 Uncharacterized protein n=1 Tax=Soboliphyme ...   140   3e-31
+UniRef90_U6KXE0 Uncharacterized protein n=3 Tax=Eimeria TaxID=58...   140   3e-31
+UniRef90_A0A1Q9DKI8 Cell division cycle protein 48-like n=1 Tax=...   140   3e-31
+UniRef90_A0A132AIJ4 Transitional endoplasmic reticulum ATPase TE...   140   4e-31
+UniRef90_F0XYY5 Uncharacterized protein n=1 Tax=Aureococcus anop...   140   4e-31
+UniRef90_B3S3Z3 Uncharacterized protein n=1 Tax=Trichoplax adhae...   140   4e-31
+UniRef90_UPI00099FA327 transitional endoplasmic reticulum ATPase...   140   4e-31
+UniRef90_U6L852 Cell division protein 48, putative n=1 Tax=Eimer...   140   4e-31
+UniRef90_UPI0003F48C10 hypothetical protein n=1 Tax=Tremella mes...   140   4e-31
+UniRef90_G7DXY7 Uncharacterized protein n=2 Tax=Mixia osmundae (...   140   4e-31
+UniRef90_UPI000811A28F transitional endoplasmic reticulum ATPase...   140   5e-31
+UniRef90_A0A0L0SGL6 Transitional endoplasmic reticulum ATPase n=...   140   5e-31
+UniRef90_A0A0N5DFM1 Uncharacterized protein n=1 Tax=Trichuris mu...   139   5e-31
+UniRef90_UPI0007195733 transitional endoplasmic reticulum ATPase...   139   5e-31
+UniRef90_A0A0C4ELI9 Cell division cycle protein 48 n=5 Tax=Pucci...   139   5e-31
+UniRef90_A0A066W3A6 Uncharacterized protein (Fragment) n=1 Tax=R...   139   5e-31
+UniRef90_A0A1Y3BJP4 Transitional endoplasmic reticulum ATPase TE...   139   5e-31
+UniRef90_A0A1S3QHX4 transitional endoplasmic reticulum ATPase-li...   139   6e-31
+UniRef90_C5LTK6 Cell division cycle protein, putative (Fragment)...   139   6e-31
+UniRef90_A0A0P5ZS79 Transitional endoplasmic reticulum ATPase TE...   139   6e-31
+UniRef90_UPI000498E7BC cell division cycle protein 48 homolog n=...   139   6e-31
+UniRef90_A0A1R2C3K4 Uncharacterized protein n=4 Tax=Stentor coer...   139   6e-31
+UniRef90_A0A165XA66 Valosin-containing protein n=1 Tax=Fibularhi...   139   6e-31
+UniRef90_A0A0F5CP33 AAA protein n=2 Tax=Pristionchus pacificus T...   139   6e-31
+UniRef90_UPI0004F1B04A cell division control protein 48 homolog ...   139   6e-31
+UniRef90_A0A0D0A941 Unplaced genomic scaffold CY34scaffold_589, ...   139   6e-31
+UniRef90_A0A0A9Y2M0 Transitional endoplasmic reticulum ATPase TE...   139   7e-31
+UniRef90_A0A1R3HZN1 Uncharacterized protein n=1 Tax=Corchorus ol...   139   7e-31
+UniRef90_A0A077ZLV1 Cell division cycle protein n=1 Tax=Trichuri...   139   8e-31
+UniRef90_A0A1X2GLT5 Transitional endoplasmic reticulum ATPase n=...   139   8e-31
+UniRef90_M8D498 Cell division control 48-E-like protein n=1 Tax=...   139   9e-31
+UniRef90_H3EEN1 Uncharacterized protein n=5 Tax=Chromadorea TaxI...   139   1e-30
+UniRef90_A0A068UYE7 Uncharacterized protein n=1 Tax=Coffea canep...   138   1e-30
+UniRef90_A0A0B7G0Q9 Cell division cycle protein 48 homolog OS=Gl...   138   1e-30
+UniRef90_A0A1Q9DHE0 Cell division cycle protein 48-like n=1 Tax=...   138   1e-30
+UniRef90_H2KU37 Transitional endoplasmic reticulum ATPase (Fragm...   138   1e-30
+UniRef90_M7X2W2 Transitional endoplasmic reticulum ATPase n=7 Ta...   138   1e-30
+UniRef90_A0A016UJ38 Uncharacterized protein n=3 Tax=Strongylida ...   137   2e-30
+UniRef90_A0A218WFT3 Uncharacterized protein n=1 Tax=Punica grana...   137   2e-30
+UniRef90_A0A0K0CXC1 Uncharacterized protein n=1 Tax=Angiostrongy...   137   2e-30
+UniRef90_A0A074Z8E9 Uncharacterized protein n=1 Tax=Opisthorchis...   137   2e-30
+UniRef90_A0A1Y2FA26 AAA ATPase n=4 Tax=Neocallimastigaceae TaxID...   137   2e-30
+UniRef90_A0A072VMP1 ATPase, AAA-type, CDC48 protein n=1 Tax=Medi...   137   2e-30
+UniRef90_Q5CT24 CDC48 like AAA ATPase ortholog (Fragment) n=5 Ta...   137   2e-30
+UniRef90_A0A0K6FWU3 Transitional endoplasmic reticulum ATPase n=...   137   2e-30
+UniRef90_UPI000B4E9DBC transitional endoplasmic reticulum ATPase...   137   2e-30
+UniRef90_M1VI15 Transitional endoplasmic reticulum ATPase n=1 Ta...   137   3e-30
+UniRef90_U5GXW5 Transitional endoplasmic reticulum ATPase n=1 Ta...   137   3e-30
+UniRef90_UPI000455EBA7 AAA-domain-containing protein n=1 Tax=Con...   137   3e-30
+UniRef90_W8P5K5 Cell division cycle 48 protein n=1 Tax=Prorocent...   137   3e-30
+UniRef90_A0A0K9QT32 Uncharacterized protein n=3 Tax=Chenopodioid...   137   3e-30
+UniRef90_A0A0G4GAH1 Uncharacterized protein n=1 Tax=Vitrella bra...   137   3e-30
+UniRef90_A0A1S4DSB2 cell division cycle protein 48 homolog n=5 T...   137   4e-30
+UniRef90_A0A182ZQM8 Uncharacterized protein n=2 Tax=Biomphalaria...   137   4e-30
+UniRef90_A0A1S8WPB3 Cell division control protein 48 n=2 Tax=Dig...   137   4e-30
+UniRef90_M5WTB9 Uncharacterized protein n=1 Tax=Prunus persica T...   136   4e-30
+UniRef90_A0A183T643 Uncharacterized protein n=1 Tax=Schistocepha...   136   4e-30
+UniRef90_A0A0N5A9U8 Uncharacterized protein n=1 Tax=Syphacia mur...   136   5e-30
+UniRef90_A0A0S4JI00 Cell division cycle protein, putative n=1 Ta...   136   5e-30
+UniRef90_A0A1Q9DKN5 Cell division cycle protein 48-like n=1 Tax=...   136   6e-30
+UniRef90_A0A146WN27 Transitional endoplasmic reticulum ATPase n=...   136   6e-30
+UniRef90_A0A1R1XPK1 Transitional endoplasmic reticulum ATPase n=...   136   6e-30
+UniRef90_A0A1D3D5E1 Uncharacterized protein n=1 Tax=Cyclospora c...   136   7e-30
+UniRef90_V4LVQ9 Uncharacterized protein n=1 Tax=Eutrema salsugin...   136   7e-30
+UniRef90_A0A0B1TW71 Cell division protein 48 domain protein n=1 ...   135   8e-30
+UniRef90_A0A0L1KPK6 Transitional endoplasmic reticulum ATPase n=...   135   9e-30
+UniRef90_W7I964 Cell division control protein 48 n=3 Tax=Orbilia...   135   1e-29
+UniRef90_A0A068XZ47 Transitional endoplasmic reticulum atpase n=...   135   1e-29
+UniRef90_A0A0R3NSK5 Uncharacterized protein, isoform B n=9 Tax=D...   135   1e-29
+UniRef90_Q4DWB5 Transitional endoplasmic reticulum ATPase, putat...   135   1e-29
+UniRef90_A0A139Y6F9 Cell division protein CDC48CY n=15 Tax=Sarco...   135   1e-29
+UniRef90_M8CGS3 Cell division control 48-E-like protein n=2 Tax=...   135   1e-29
+UniRef90_V5B4G8 Cell division cycle protein n=1 Tax=Trypanosoma ...   135   1e-29
+UniRef90_T1IE68 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   135   1e-29
+UniRef90_A0A1I8A1E7 Uncharacterized protein n=1 Tax=Steinernema ...   135   1e-29
+UniRef90_A0A1A9ZDZ6 Uncharacterized protein n=6 Tax=Holometabola...   135   1e-29
+UniRef90_A0A1I7UG09 Uncharacterized protein n=2 Tax=Caenorhabdit...   135   1e-29
+UniRef90_M0SAJ4 Uncharacterized protein n=1 Tax=Musa acuminata s...   134   2e-29
+UniRef90_U4LY19 Similar to Cell division control protein 48 acc....   134   2e-29
+UniRef90_U5FPL0 Uncharacterized protein n=1 Tax=Populus trichoca...   134   2e-29
+UniRef90_U6KJH4 AGAP005630-PA, related n=1 Tax=Eimeria mitis Tax...   134   2e-29
+UniRef90_A0A0K9PB18 Cell division control protein 48 n=1 Tax=Zos...   134   2e-29
+UniRef90_A0A1D5SQ64 Uncharacterized protein n=12 Tax=Pooideae Ta...   134   2e-29
+UniRef90_A0A023B919 Putative cell division protein 48 n=1 Tax=Gr...   134   2e-29
+UniRef90_UPI00092E6B05 cell division cycle protein 48 homolog n=...   134   2e-29
+UniRef90_G0MVN9 CBN-CDC-48.1 protein n=1 Tax=Caenorhabditis bren...   134   2e-29
+UniRef90_A0A0L0NDU2 Cell division control protein 48 (Fragment) ...   134   2e-29
+UniRef90_G0UWF3 Putative Transitional endoplasmic reticulum ATPa...   134   2e-29
+UniRef90_B4GB87 GL11509 n=1 Tax=Drosophila persimilis TaxID=7234...   134   3e-29
+UniRef90_G4M0P7 Cell division control protein 48 aaa family prot...   134   3e-29
+UniRef90_A0A170Y4G2 Transitional endoplasmic reticulum atpase te...   134   3e-29
+UniRef90_A0A1W2TLZ4 Putative cell division control protein Cdc48...   134   3e-29
+UniRef90_A0A1W5D4J6 Cell division control protein 48 n=1 Tax=Umb...   134   3e-29
+UniRef90_A0A1D5ZCD5 Uncharacterized protein n=1 Tax=Triticum aes...   134   3e-29
+UniRef90_P54811 Transitional endoplasmic reticulum ATPase homolo...   134   3e-29
+UniRef90_K1XIA4 Cell division control protein Cdc48 n=39 Tax=Leo...   134   3e-29
+UniRef90_J5TFH4 MMS2 protein n=11 Tax=Tremellomycetes TaxID=1556...   134   3e-29
+UniRef90_A0A1S3DQC3 transitional endoplasmic reticulum ATPase-li...   134   3e-29
+UniRef90_UPI0002C37151 cell division control protein 48 homolog ...   134   3e-29
+UniRef90_A0A086QGF2 Putative transitional endoplasmic reticulum ...   134   3e-29
+UniRef90_W6KRQ6 Uncharacterized protein n=2 Tax=unclassified Phy...   134   3e-29
+UniRef90_A0A1E4U3I4 Uncharacterized protein n=1 Tax=Pachysolen t...   134   3e-29
+UniRef90_A0A0G4E879 Uncharacterized protein n=1 Tax=Vitrella bra...   134   3e-29
+UniRef90_A0A183UJ11 Uncharacterized protein n=1 Tax=Toxocara can...   133   3e-29
+UniRef90_A0A1I7SWW1 Uncharacterized protein n=1 Tax=Bursaphelenc...   133   4e-29
+UniRef90_A0A0J9XXY9 Bm1994, isoform a n=19 Tax=Chromadorea TaxID...   133   4e-29
+UniRef90_C9SZ92 Cell division cycle protein (Fragment) n=1 Tax=V...   133   4e-29
+UniRef90_A0A059A042 Uncharacterized protein n=1 Tax=Eucalyptus g...   133   4e-29
+UniRef90_A0A1I8C511 Uncharacterized protein n=2 Tax=Rhabditophan...   133   4e-29
+UniRef90_F0XCQ1 Cell division control protein cdc48 n=6 Tax=Sord...   133   4e-29
+UniRef90_I1H9V8 Uncharacterized protein n=1 Tax=Brachypodium dis...   133   5e-29
+UniRef90_T1I4A1 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   133   5e-29
+UniRef90_K8YS88 Transitional endoplasmic reticulum ATPase n=1 Ta...   132   6e-29
+UniRef90_F6VLN4 Uncharacterized protein n=5 Tax=Ciona TaxID=7718...   132   6e-29
+UniRef90_G4M0P6 Cell division control protein 48 aaa family prot...   132   7e-29
+UniRef90_A0A170Y4J0 Transitional endoplasmic reticulum atpase te...   132   7e-29
+UniRef90_A0A0X3NKF7 Uncharacterized protein (Fragment) n=1 Tax=S...   132   7e-29
+UniRef90_A0A090L355 Transitional endoplasmic reticulum ATPase n=...   132   7e-29
+UniRef90_A0A124GQ30 Cell division control protein 48 n=8 Tax=Eur...   132   8e-29
+UniRef90_A0A068XDX3 Transitional endoplasmic reticulum atpase n=...   132   8e-29
+UniRef90_F1LCZ2 Transitional endoplasmic reticulum ATPase 1 (Fra...   132   8e-29
+UniRef90_A0A075AZX6 Transitional endoplasmic reticulum ATPase n=...   132   8e-29
+UniRef90_A0A0N5ADI0 Uncharacterized protein n=1 Tax=Syphacia mur...   132   9e-29
+UniRef90_M7NRZ4 Cell division control protein 48 n=3 Tax=Pneumoc...   132   9e-29
+UniRef90_S9TM90 Transitional endoplasmic reticulum ATPase n=2 Ta...   132   9e-29
+UniRef90_G3B345 Uncharacterized protein n=1 Tax=Candida tenuis (...   132   1e-28
+UniRef90_E4XE81 Uncharacterized protein n=1 Tax=Oikopleura dioic...   132   1e-28
+UniRef90_B8C373 Transitional endoplasmic reticulum (Fragment) n=...   132   1e-28
+UniRef90_A0A167MP04 Uncharacterized protein n=1 Tax=Phycomyces b...   132   1e-28
+UniRef90_A0A0M8P880 Cell division control protein 48 n=49 Tax=Eu...   132   1e-28
+UniRef90_A0A0D2AX77 Cell division control protein 48 n=1 Tax=Ver...   132   1e-28
+UniRef90_A0A1E3QEX2 Uncharacterized protein n=1 Tax=Lipomyces st...   131   1e-28
+UniRef90_A0A0D1Z0H6 Cell division control protein 48 n=1 Tax=Exo...   131   1e-28
+UniRef90_A0A059A132 Uncharacterized protein n=1 Tax=Eucalyptus g...   131   1e-28
+UniRef90_A0A0K9PPD0 Uncharacterized protein n=1 Tax=Zostera mari...   131   1e-28
+UniRef90_A0A074WZC7 AAA ATPase n=5 Tax=Fungi TaxID=4751 RepID=A0...   131   2e-28
+UniRef90_Q7KN62 Transitional endoplasmic reticulum ATPase TER94 ...   131   2e-28
+UniRef90_F2DSA2 Predicted protein n=1 Tax=Hordeum vulgare subsp....   131   2e-28
+UniRef90_A0A0R3QYK5 Uncharacterized protein n=1 Tax=Brugia timor...   131   2e-28
+UniRef90_A0A1A7XPU0 Uncharacterized protein (Fragment) n=1 Tax=A...   131   2e-28
+UniRef90_A0A077RY74 Uncharacterized protein n=1 Tax=Triticum aes...   131   2e-28
+UniRef90_Q38B27 Valosin-containing protein homolog n=4 Tax=Trypa...   131   2e-28
+UniRef90_A0A146KNX9 Transitional endoplasmic reticulum ATPase TE...   131   2e-28
+UniRef90_C0NF61 Cell division control protein n=1 Tax=Ajellomyce...   131   2e-28
+UniRef90_A0A1I8B9L5 Uncharacterized protein n=1 Tax=Meloidogyne ...   131   2e-28
+UniRef90_A0A0P4X1E5 Transitional endoplasmic reticulum ATPase TE...   131   2e-28
+UniRef90_A0A1D6B644 Uncharacterized protein n=1 Tax=Triticum aes...   130   2e-28
+UniRef90_A0A1I7ZD38 Uncharacterized protein n=1 Tax=Steinernema ...   130   2e-28
+UniRef90_A0A1E3QXN4 Uncharacterized protein n=1 Tax=Babjeviella ...   130   2e-28
+UniRef90_A0A060SYS4 ARAD1A19316p n=1 Tax=Blastobotrys adeninivor...   130   3e-28
+UniRef90_A0A1I8AIC4 Uncharacterized protein n=2 Tax=Steinernema ...   130   3e-28
+UniRef90_A0A077RV04 Uncharacterized protein n=1 Tax=Triticum aes...   130   3e-28
+UniRef90_A0A0N4VFP7 Uncharacterized protein n=1 Tax=Enterobius v...   130   3e-28
+UniRef90_C1H425 Cell division cycle protein n=57 Tax=leotiomycet...   130   3e-28
+UniRef90_A0A0G4IHT8 Uncharacterized protein n=1 Tax=Plasmodiopho...   130   3e-28
+UniRef90_A0A0H2QVZ9 Valosin-containing protein (Fragment) n=1 Ta...   130   3e-28
+UniRef90_F0UGQ1 Cell division control protein n=1 Tax=Ajellomyce...   130   3e-28
+UniRef90_A0A1I8J6R1 Uncharacterized protein n=2 Tax=Macrostomum ...   130   3e-28
+UniRef90_A0A1E3PEM1 AAA ATPase n=1 Tax=Nadsonia fulvescens var. ...   130   3e-28
+UniRef90_M8B415 Cell division cycle 48-like protein n=13 Tax=Tri...   130   3e-28
+UniRef90_A3LQG9 Cell division control protein 48 n=18 Tax=Saccha...   130   4e-28
+UniRef90_A0A0J9XY76 Bm1994, isoform b n=2 Tax=Spirurida TaxID=62...   130   4e-28
+UniRef90_A0A0L1I1Z8 Cell division control protein 48 n=20 Tax=Do...   130   5e-28
+UniRef90_Q6C1Z3 YALI0F12155p n=2 Tax=Yarrowia lipolytica TaxID=4...   129   5e-28
+UniRef90_A0A1D5WVP7 Uncharacterized protein n=2 Tax=Triticum Tax...   129   5e-28
+UniRef90_A0A0J9XGM2 Similar to Saccharomyces cerevisiae YDL126C ...   129   6e-28
+UniRef90_K0KQM0 Cell division control protein n=5 Tax=Phaffomyce...   129   6e-28
+UniRef90_A0A0F8CSQ8 Cell division control protein 48 n=2 Tax=Cer...   129   7e-28
+UniRef90_A0A1E4TBI5 Uncharacterized protein n=1 Tax=Tortispora c...   129   8e-28
+UniRef90_A0A0N4VL56 Uncharacterized protein n=1 Tax=Enterobius v...   128   9e-28
+UniRef90_A4ICJ9 Putative Transitional endoplasmic reticulum ATPa...   128   9e-28
+UniRef90_A0A1D5S825 Uncharacterized protein n=1 Tax=Triticum aes...   128   1e-27
+UniRef90_W6MXZ3 Uncharacterized protein n=1 Tax=Kuraishia capsul...   128   1e-27
+UniRef90_M3B5I3 Cell division control protein n=26 Tax=leotiomyc...   128   1e-27
+UniRef90_A0A1U7LT10 Cell division control protein 48 (Fragment) ...   128   1e-27
+UniRef90_Q4Q1T9 Putative Transitional endoplasmic reticulum ATPa...   128   1e-27
+UniRef90_A0A0L0NPN3 Cell division control protein 48 n=3 Tax=Sac...   128   1e-27
+UniRef90_W0TEJ2 Cell division control protein 48 n=4 Tax=Sacchar...   128   1e-27
+UniRef90_G0W3S3 Uncharacterized protein n=1 Tax=Naumovozyma dair...   128   1e-27
+UniRef90_M8CP09 Cell division control 48-D-like protein n=1 Tax=...   128   1e-27
+UniRef90_UPI000498A0D0 cell division cycle protein 48 homolog n=...   128   1e-27
+UniRef90_P25694 Cell division control protein 48 n=33 Tax=Saccha...   128   2e-27
+UniRef90_A0A1R4ACF9 Transitional endoplasmic reticulum ATPase n=...   128   2e-27
+UniRef90_A0A0R3WM70 Uncharacterized protein n=1 Tax=Hydatigena t...   128   2e-27
+UniRef90_A0A0D9WPS8 Uncharacterized protein n=1 Tax=Leersia perr...   128   2e-27
+UniRef90_A0A0V1E3M1 Transitional endoplasmic reticulum ATPase-li...   127   2e-27
+UniRef90_M8ATS8 Cell division cycle 48-like protein n=1 Tax=Aegi...   127   2e-27
+UniRef90_UPI0008676B22 AAA ATPase n=1 Tax=Saitoella complicata N...   127   2e-27
+UniRef90_Q5BZ78 SJCHGC02986 protein (Fragment) n=1 Tax=Schistoso...   127   2e-27
+UniRef90_A0A1V2L339 Cell division control protein 48 n=1 Tax=Cyb...   127   2e-27
+UniRef90_A0A0V1IT25 Transitional endoplasmic reticulum ATPase-li...   127   2e-27
+UniRef90_E5SR09 Putative ATPase, AAA family n=1 Tax=Trichinella ...   127   3e-27
+UniRef90_A0A0V1HYL2 Transitional endoplasmic reticulum ATPase-li...   127   3e-27
+UniRef90_A0A0V1HXT7 Transitional endoplasmic reticulum ATPase-li...   127   3e-27
+UniRef90_A0A0V1HY55 Transitional endoplasmic reticulum ATPase n=...   127   3e-27
+UniRef90_A0A0E9NK06 Uncharacterized protein n=1 Tax=Saitoella co...   127   3e-27
+UniRef90_A0A0U5CF34 Putative Cell division cycle protein 48 n=1 ...   127   3e-27
+UniRef90_A0A0C7N300 LALA0S05e04346g1_1 n=4 Tax=Lachancea TaxID=3...   127   3e-27
+UniRef90_A0A1S7HNB4 CDC48 (YDL126C) n=2 Tax=Zygosaccharomyces Ta...   127   4e-27
+UniRef90_D8S303 Uncharacterized protein n=2 Tax=Selaginella moel...   127   4e-27
+UniRef90_A0A1I8IY76 Uncharacterized protein n=2 Tax=Macrostomum ...   126   4e-27
+UniRef90_A0A098VRQ4 Valosin domain-containing protein n=1 Tax=Mi...   126   5e-27
+UniRef90_Q5AWS6 Cell division control protein 48 n=12 Tax=Asperg...   126   5e-27
+UniRef90_M8AQ44 Cell division control 48-D-like protein n=1 Tax=...   126   5e-27
+UniRef90_R7QAA8 Transitional endoplasmic reticulum ATPase (Valos...   126   5e-27
+UniRef90_A0A183C1N4 Uncharacterized protein n=1 Tax=Globodera pa...   126   5e-27
+UniRef90_I2H1M8 Uncharacterized protein n=1 Tax=Tetrapisispora b...   126   5e-27
+UniRef90_F6GWA3 Uncharacterized protein n=2 Tax=Vitis vinifera T...   126   5e-27
+UniRef90_A0A0L0FS01 Transitional endoplasmic reticulum ATPase n=...   126   6e-27
+UniRef90_J4D694 Transitional endoplasmic reticulum ATPase n=1 Ta...   126   7e-27
+UniRef90_I2H9L2 Uncharacterized protein n=1 Tax=Tetrapisispora b...   125   1e-26
+UniRef90_A0A0A1U1N9 Cdc48 family protein, putative (Fragment) n=...   125   1e-26
+UniRef90_A0A0D6EFG1 SPOSA6832_00207-mRNA-1:cds n=1 Tax=Sporidiob...   125   1e-26
+UniRef90_I2JT03 Cell division control protein 48 n=1 Tax=Brettan...   125   1e-26
+UniRef90_U6GIG7 Cell division protein 48, putative n=1 Tax=Eimer...   125   1e-26
+UniRef90_C5WYU4 Uncharacterized protein n=2 Tax=Sorghum bicolor ...   124   2e-26
+UniRef90_Q754B2 AFR158Wp n=4 Tax=Saccharomycetaceae TaxID=4893 R...   124   2e-26
+UniRef90_A0A192ZHH3 Cell division control protein 48-like protei...   124   2e-26
+UniRef90_W1Q7D0 Cell division control protein 48 n=3 Tax=Ogataea...   124   2e-26
+UniRef90_Q4N783 Cell division cycle protein 48, putative n=2 Tax...   124   2e-26
+UniRef90_A7ARM1 Cell division control protein 48, putative n=3 T...   124   2e-26
+UniRef90_F2QXS9 AAA ATPase n=3 Tax=Komagataella TaxID=460517 Rep...   124   2e-26
+UniRef90_L1LFE7 Cell division cycle protein 48, putative n=1 Tax...   123   3e-26
+UniRef90_B0E9H9 Transitional endoplasmic reticulum ATPase, putat...   123   3e-26
+UniRef90_A0A099NZN3 Cell division control protein 48 n=3 Tax=Pic...   123   3e-26
+UniRef90_A0A0K8RS69 Putative valosin (Fragment) n=1 Tax=Ixodes r...   123   5e-26
+UniRef90_J9HJQ1 AAA family ATPase, CDC48 subfamily protein n=2 T...   123   6e-26
+UniRef90_UPI000718AB85 Transitional endoplasmic reticulum ATPase...   123   6e-26
+UniRef90_V4T1Y7 Uncharacterized protein n=2 Tax=Citrus TaxID=270...   122   7e-26
+UniRef90_A0A1E5RSD9 Cell division control protein 48 n=3 Tax=Han...   122   7e-26
+UniRef90_W6UQD3 Transitional endoplasmic reticulum ATPase n=1 Ta...   122   7e-26
+UniRef90_A0A058ZIT9 Cell division cycle protein 48 n=1 Tax=Fonti...   122   8e-26
+UniRef90_A0A1E1XHP0 Putative aaa+-type atpase (Fragment) n=1 Tax...   122   1e-25
+UniRef90_A0A1I7YZE1 Uncharacterized protein n=1 Tax=Steinernema ...   122   1e-25
+UniRef90_A0A1D2VPA3 AAA ATPase n=1 Tax=Ascoidea rubescens DSM 19...   121   2e-25
+UniRef90_G7KP28 26S proteasome subunit RPN7 n=1 Tax=Medicago tru...   120   2e-25
+UniRef90_A0A1B7T7V7 YDL126Cp-like protein (Fragment) n=2 Tax=Han...   120   3e-25
+UniRef90_R4XE58 Cell division cycle protein 48 n=2 Tax=Taphrinal...   120   3e-25
+UniRef90_A0A1J1H827 Cell division cycle protein 48 homologue, pu...   120   3e-25
+UniRef90_A0A146PRN4 Spermatogenesis-associated 5 protein 1-like ...   120   4e-25
+UniRef90_A0A146Q1L0 Spermatogenesis-associated 5 protein 1-like ...   120   4e-25
+UniRef90_G0U679 Putative Transitional endoplasmic reticulum ATPa...   120   4e-25
+UniRef90_Q9P3A7 Cell division cycle protein 48 n=4 Tax=Schizosac...   120   5e-25
+UniRef90_A0A060RV58 Cell division cycle protein 48 homologue, pu...   119   7e-25
+UniRef90_A0A0N4UVW4 Uncharacterized protein n=1 Tax=Enterobius v...   118   1e-24
+UniRef90_Q98S05 Cell division cycle protein 48 homolog n=1 Tax=G...   117   2e-24
+UniRef90_UPI0004413C20 AAA-domain-containing protein n=1 Tax=Aur...   117   3e-24
+UniRef90_A0A146X0Y9 Transitional endoplasmic reticulum ATPase n=...   117   3e-24
+UniRef90_F2HHQ2 Cell division control protein 48 n=1 Tax=Cryptom...   117   3e-24
+UniRef90_A0A196SFH2 Cell division control protein 48 n=2 Tax=Bla...   117   4e-24
+UniRef90_A0A0B2NUK0 Cell division cycle protein 48 like n=2 Tax=...   116   4e-24
+UniRef90_Q4YXK4 Cell division cycle protein 48 homologue, putati...   116   5e-24
+UniRef90_M8AZV9 Cell division control 48-A-like protein n=1 Tax=...   115   9e-24
+UniRef90_A0A0A1UA45 Transitional endoplasmic reticulum atpase, p...   115   1e-23
+UniRef90_K4AJI6 Uncharacterized protein n=3 Tax=Paniceae TaxID=1...   115   1e-23
+UniRef90_D8M4H7 Uncharacterized protein n=1 Tax=Blastocystis hom...   114   2e-23
+UniRef90_V2X1M7 Cell division control protein cdc48 n=2 Tax=Moni...   114   2e-23
+UniRef90_A0A1I8H2U1 Uncharacterized protein n=1 Tax=Macrostomum ...   113   3e-23
+UniRef90_G0QWK4 Transitional endoplasmic reticulum ATPase, putat...   113   4e-23
+UniRef90_J7G6G3 Cell division control protein 48 n=1 Tax=Chroomo...   113   5e-23
+UniRef90_A9BKG5 Cdc48b n=1 Tax=Hemiselmis andersenii TaxID=46498...   113   5e-23
+UniRef90_A0A1X7VPK0 Uncharacterized protein n=2 Tax=Amphimedon q...   112   6e-23
+UniRef90_A0A0C2XFL4 Uncharacterized protein n=1 Tax=Amanita musc...   112   7e-23
+UniRef90_A0A0P5LAA2 Transitional endoplasmic reticulum ATPase TE...   112   1e-22
+UniRef90_UPI0008FA52AA transitional endoplasmic reticulum ATPase...   112   1e-22
+UniRef90_A0A0C2T8S6 Uncharacterized protein n=1 Tax=Amanita musc...   111   2e-22
+UniRef90_S8DWI9 Uncharacterized protein (Fragment) n=2 Tax=Penta...   110   3e-22
+UniRef90_A0A0D2MMT9 Uncharacterized protein (Fragment) n=1 Tax=G...   110   4e-22
+UniRef90_A0A1B6KYR0 Uncharacterized protein (Fragment) n=1 Tax=G...   110   4e-22
+UniRef90_A0A0V0R3D5 p-loop containing nucleoside triphosphate hy...   109   7e-22
+UniRef90_B0EE56 Transitional endoplasmic reticulum ATPase, putat...   109   7e-22
+UniRef90_A0A0A9ZFH5 Transitional endoplasmic reticulum ATPase n=...   109   8e-22
+UniRef90_I1I708 Uncharacterized protein n=1 Tax=Brachypodium dis...   108   1e-21
+UniRef90_A0A0Q3M186 Uncharacterized protein n=1 Tax=Brachypodium...   107   3e-21
+UniRef90_A0A0P0XFK3 Os08g0413000 protein n=10 Tax=Oryza TaxID=45...   105   8e-21
+UniRef90_A0A177B3X4 Cell division control protein 48 n=1 Tax=Int...   105   1e-20
+UniRef90_W5BQB0 Uncharacterized protein n=4 Tax=Triticeae TaxID=...   105   2e-20
+UniRef90_M5WC73 Uncharacterized protein n=1 Tax=Prunus persica T...   104   2e-20
+UniRef90_T1M068 Uncharacterized protein n=1 Tax=Triticum urartu ...   104   2e-20
+UniRef90_A0A1A6GPF3 Uncharacterized protein n=1 Tax=Neotoma lepi...   104   3e-20
+UniRef90_A0A0D9X7S6 Uncharacterized protein n=1 Tax=Leersia perr...   103   3e-20
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_S9WQY9 Uncharacterized protein n=2 Tax=Amniota TaxID=32524
+            RepID=S9WQY9_CAMFR
+          Length = 2192
+
+ Score =  156 bits (396), Expect = 4e-36,   Method: Composition-based stats.
+ Identities = 79/79 (100%), Positives = 79/79 (100%)
+
+Query: 1    VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE 60
+            VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE
+Sbjct: 1488 VKYGKRIHVLPIDDTVEGITGNLFEVYLKPYFLEAYRPIRKGDIFLVRGGMRAVEFKVVE 1547
+
+Query: 61   TDPSPYCIVAPDTVIHCEG 79
+            TDPSPYCIVAPDTVIHCEG
+Sbjct: 1548 TDPSPYCIVAPDTVIHCEG 1566
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.320    0.179    0.565 
+
+Lambda     K      H
+   0.267   0.0541    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 18,392,499,545
+Number of Sequences: 61934301
+Number of extensions: 764349091
+Number of successful extensions: 1531360
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 2578
+Number of HSP's successfully gapped in prelim test: 298
+Number of HSP's that attempted gapping in prelim test: 1527874
+Number of HSP's gapped (non-prelim): 3052
+length of query: 79
+length of database: 21,023,703,129
+effective HSP length: 50
+effective length of query: 29
+effective length of database: 22,221,955,375
+effective search space: 644436705875
+effective search space used: 644436705875
+T: 11
+A: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.4 bits)
+S2: 83 (36.2 bits)

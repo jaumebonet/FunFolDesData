@@ -1,0 +1,16 @@
+-in:file:fasta          2pjhB.fasta
+-in:path:database       /scratch/lpdi/bin/Rosetta/3.8/main/database/
+-in:file:vall           /scratch/lpdi/bin/Rosetta/tools/fragment_tools/vall.jul19.2011
+-frags:n_candidates     1000
+-frags:n_frags          200
+-frags:frag_sizes       9
+-out:file:frag_prefix   2pjhB
+-frags:scoring:config   2pjhB_scores9.cfg
+#-out:level 2000
+-in:file:checkpoint     2pjhB.checkpoint
+-frags:write_ca_coordinates
+-frags:describe_fragments 2pjhB_frags.9.score
+-spine_x                  2pjhB.fasta.phipsi
+
+
+-frags:ss_pred 2pjhB.psipred_ss2 psipred
