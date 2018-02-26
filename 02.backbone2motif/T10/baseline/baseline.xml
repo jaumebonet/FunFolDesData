@@ -1,0 +1,33 @@
+<ROSETTASCRIPTS>
+	<RESIDUE_SELECTORS>
+		<Layer name="core1" select_core="true" use_sidechain_neighbors="false" />
+    <Layer name="core2" select_core="true" use_sidechain_neighbors="true" />
+		<Or name="core" selectors="core1,core2" />
+
+    <Index name="picked" resnums="97A,99A,130A,133A,135A,140A,141A,151A,153A,155A,165A,167A,169A" />
+
+    <Index name="motif" resnums="103A-121A" />
+		<Index name="query" resnums="122A-146A" />
+
+	</RESIDUE_SELECTORS>
+	<FILTERS>
+	</FILTERS>
+	<MOVERS>
+    <WriteSSEMover dssp="1" name="writesse" />
+    <LabelPoseFromResidueSelectorMover name="corelab" property="CORE" residue_selector="core" />
+		<LabelPoseFromResidueSelectorMover name="pickedlab" property="PICKED" residue_selector="picked" />
+		<LabelPoseFromResidueSelectorMover name="motiflab" property="MOTIF" residue_selector="motif" />
+    <LabelPoseFromResidueSelectorMover name="querylab" property="QUERY" residue_selector="query" />
+    <DisplayPoseLabelsMover name="write" write="true" />
+    <ContactMap name="contacts" prefix="contacts_" />
+	</MOVERS>
+	<PROTOCOLS>
+    <Add mover="writesse" />
+    <Add mover="corelab" />
+		<Add mover="pickedlab" />
+		<Add mover="motiflab" />
+    <Add mover="querylab" />
+    <Add mover="write" />
+    <Add mover="contacts" />
+	</PROTOCOLS>
+</ROSETTASCRIPTS>

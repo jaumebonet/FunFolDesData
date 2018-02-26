@@ -1,0 +1,2315 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2qdfA
+         (83 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_UPI00098346A4 outer membrane protein assembly factor Ba...   160   4e-37
+UniRef90_A0A1S2B650 Outer membrane protein assembly factor BamA ...   160   4e-37
+UniRef90_D5CHY0 Outer membrane protein assembly factor BamA n=82...   159   5e-37
+UniRef90_W1EYK3 Outer membrane protein assembly factor YaeT n=3 ...   159   6e-37
+UniRef90_A7MGT7 Outer membrane protein assembly factor BamA n=70...   159   6e-37
+UniRef90_A4W6S2 Outer membrane protein assembly factor BamA n=12...   159   6e-37
+UniRef90_A0A0D5WQ59 Outer membrane protein assembly factor BamA ...   159   7e-37
+UniRef90_UPI0001889A98 Outer membrane protein assembly factor ya...   159   8e-37
+UniRef90_I2BCJ7 Outer membrane protein assembly factor BamA n=1 ...   159   8e-37
+UniRef90_UPI00017543C7 OUTER MEMBRANE PROTEIN ASSEMBLY FACTOR YA...   158   1e-36
+UniRef90_A0A071LWM9 Outer membrane protein assembly factor BamA ...   157   3e-36
+UniRef90_A8GID8 Outer membrane protein assembly factor BamA n=57...   154   1e-35
+UniRef90_UPI00093422DE outer membrane protein assembly factor Ba...   153   3e-35
+UniRef90_A0A084A4C5 Outer membrane protein assembly factor BamA ...   152   7e-35
+UniRef90_A7FFH7 Outer membrane protein assembly factor BamA n=81...   152   8e-35
+UniRef90_W0LAA0 Outer membrane protein assembly factor BamA n=2 ...   152   9e-35
+UniRef90_A0A0M2KDR4 Outer membrane protein assembly factor BamA ...   151   2e-34
+UniRef90_A0A085G5W6 Outer membrane protein assembly factor BamA ...   150   2e-34
+UniRef90_A0A1E7Z115 Outer membrane protein assembly factor BamA ...   150   3e-34
+UniRef90_B2VE18 Outer membrane protein assembly factor BamA n=12...   150   3e-34
+UniRef90_A0A085JJR4 Outer membrane protein assembly factor BamA ...   149   5e-34
+UniRef90_A0A1H3WEF4 Outer membrane protein assembly factor BamA ...   149   1e-33
+UniRef90_A0A0G3CQR7 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_Q6D8D5 Outer membrane protein assembly factor BamA n=30...   148   1e-33
+UniRef90_A0A0J5FSC6 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_C5B7R5 Outer membrane protein assembly factor BamA n=13...   148   2e-33
+UniRef90_A0A0R4FQL7 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_I0QP41 Outer membrane protein assembly factor BamA n=5 ...   147   2e-33
+UniRef90_A0A1D7PAY2 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_C6CBY7 Outer membrane protein assembly factor BamA n=1 ...   147   2e-33
+UniRef90_A0A0U5L3I7 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_A0A085GNH0 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_Q9S341 Outer membrane protein assembly factor BamA n=19...   147   2e-33
+UniRef90_UPI000420F9DA outer membrane protein assembly factor Ba...   147   3e-33
+UniRef90_A0A1S8YLA8 Outer membrane protein assembly factor BamA ...   147   3e-33
+UniRef90_UPI0004AFD240 outer membrane protein assembly factor Ba...   147   3e-33
+UniRef90_A0A0M0TBX4 Outer membrane protein assembly factor BamA ...   146   5e-33
+UniRef90_H2J1R2 Outer membrane protein assembly factor BamA n=4 ...   146   6e-33
+UniRef90_E1SDY5 Outer membrane protein assembly factor BamA n=55...   146   6e-33
+UniRef90_V3V9E3 Outer membrane protein assembly factor BamA n=1 ...   146   7e-33
+UniRef90_E0SCD7 Outer membrane protein assembly factor BamA n=25...   145   9e-33
+UniRef90_A0A0J9BLJ8 Outer membrane protein assembly protein YaeT...   145   9e-33
+UniRef90_A0A068R5W3 Outer membrane protein assembly factor BamA ...   145   9e-33
+UniRef90_B2PWD6 Outer membrane protein assembly factor BamA n=17...   145   1e-32
+UniRef90_D2U257 Outer membrane protein assembly factor BamA n=21...   145   1e-32
+UniRef90_A0A0H2QE38 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_W1ILJ4 Outer membrane protein assembly factor BamA n=3 ...   144   2e-32
+UniRef90_A0A095T163 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_Q2NRL5 Outer membrane protein assembly factor BamA n=6 ...   144   2e-32
+UniRef90_UPI000932F8C4 outer membrane protein assembly factor Ba...   143   5e-32
+UniRef90_A0A085HMX3 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_A0A1A9AZ62 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_UPI000B81B963 outer membrane protein assembly factor Ba...   142   7e-32
+UniRef90_A0A172MFN9 Outer membrane protein assembly factor (Frag...   142   1e-31
+UniRef90_A0A1N6MTF8 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_J2V5K7 Outer membrane protein assembly factor BamA n=2 ...   141   1e-31
+UniRef90_B4F262 Outer membrane protein assembly factor BamA n=26...   141   1e-31
+UniRef90_S0AHF7 Outer membrane protein assembly factor BamA n=11...   141   2e-31
+UniRef90_A0A0F3LRH8 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_J7TNX3 Outer membrane protein assembly factor BamA n=13...   140   3e-31
+UniRef90_D3UWG7 Outer membrane protein assembly factor BamA n=16...   140   5e-31
+UniRef90_C0ASX4 Surface antigen variable number repeat protein n...   139   5e-31
+UniRef90_E0WTD2 Outer membrane protein assembly factor BamA n=2 ...   139   5e-31
+UniRef90_UPI000490CB43 outer membrane protein assembly factor Ba...   139   7e-31
+UniRef90_W1IUL4 Outer membrane protein assembly factor BamA n=2 ...   139   8e-31
+UniRef90_E6WK30 Outer membrane protein assembly factor BamA n=2 ...   137   2e-30
+UniRef90_A0A0H5XQU2 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_B8KCL3 Outer membrane protein assembly factor BamA n=7 ...   137   3e-30
+UniRef90_C9P318 Outer membrane protein assembly factor BamA n=4 ...   137   4e-30
+UniRef90_A0A0A0STX4 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_A0A0J1GIL4 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_F9T5K8 Outer membrane protein assembly factor BamA n=10...   136   6e-30
+UniRef90_E3BLL6 Outer membrane protein assembly factor BamA n=1 ...   136   6e-30
+UniRef90_E6WNK5 Outer membrane protein assembly factor BamA n=1 ...   136   7e-30
+UniRef90_A0A087IPK1 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_UPI0003753B42 outer membrane protein assembly factor Ba...   135   7e-30
+UniRef90_UPI00063C9346 outer membrane protein assembly factor Ba...   135   7e-30
+UniRef90_U2ZJF4 Outer membrane protein assembly factor BamA n=1 ...   135   1e-29
+UniRef90_A0A1V9DR56 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A6BBF4 Surface antigen n=1 Tax=Vibrio parahaemolyticus ...   135   1e-29
+UniRef90_A0A0A7S2S1 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A0B7JA99 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_F0LUJ1 Outer membrane protein assembly factor BamA n=8 ...   134   2e-29
+UniRef90_A0A0L7YW17 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A0M0HKD3 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_UPI0005A80DF1 outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_A0A071M043 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1X1MTN3 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_K5TW27 Outer membrane protein assembly factor BamA n=95...   134   2e-29
+UniRef90_A0A090RBN3 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1B9R159 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A0T7D4D9 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1E5CYN4 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A0F5ARV8 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_A0A0F5V8J7 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_UPI000B8A0035 outer membrane protein assembly factor Ba...   134   3e-29
+UniRef90_UPI000578045D outer membrane protein assembly factor Ba...   134   3e-29
+UniRef90_U4E3F3 Outer membrane protein assembly factor BamA n=6 ...   133   4e-29
+UniRef90_A0A1Q9HNH8 Outer membrane protein assembly factor BamA ...   133   4e-29
+UniRef90_U3CBX6 Outer membrane protein assembly factor BamA n=2 ...   133   4e-29
+UniRef90_A0A090P687 Outer membrane protein assembly factor YaeT ...   133   4e-29
+UniRef90_UPI000B35AB31 outer membrane protein assembly factor Ba...   133   5e-29
+UniRef90_A0A0C5WMT7 Outer membrane protein assembly factor BamA ...   133   5e-29
+UniRef90_L8J606 Outer membrane protein assembly factor BamA n=3 ...   133   5e-29
+UniRef90_C4K441 Outer membrane protein assembly factor BamA n=3 ...   133   6e-29
+UniRef90_A0A0W8JDV1 Outer membrane protein assembly factor BamA ...   133   6e-29
+UniRef90_Q5E3E7 Outer membrane protein assembly factor BamA n=16...   132   6e-29
+UniRef90_A0A1C3DVK1 Outer membrane protein assembly factor BamA ...   132   7e-29
+UniRef90_A0A1B1NLX1 Outer membrane protein assembly factor BamA ...   132   7e-29
+UniRef90_UPI00087F8FE7 outer membrane protein assembly factor Ba...   132   9e-29
+UniRef90_X2H6V3 Outer membrane protein assembly factor BamA n=11...   132   1e-28
+UniRef90_Z2EIA2 Outer membrane assembly complex, YaeT protein (F...   132   1e-28
+UniRef90_F2P5T1 Outer membrane protein assembly factor BamA n=12...   131   1e-28
+UniRef90_UPI00083883ED outer membrane protein assembly factor Ba...   131   1e-28
+UniRef90_A0A0B5INW0 Outer membrane protein assembly factor BamA ...   131   1e-28
+UniRef90_A0A090SWM1 Outer membrane protein assembly factor YaeT ...   131   2e-28
+UniRef90_UPI0005658479 outer membrane protein assembly factor Ba...   131   2e-28
+UniRef90_UPI000988FFED outer membrane protein assembly factor Ba...   131   2e-28
+UniRef90_A6D8P4 Outer membrane protein assembly factor BamA n=7 ...   131   2e-28
+UniRef90_UPI000B35864C outer membrane protein assembly factor Ba...   130   2e-28
+UniRef90_A0A1B9LDK4 Outer membrane protein assembly factor BamA ...   130   2e-28
+UniRef90_A0A066TBZ2 Outer membrane protein assembly factor BamA ...   130   3e-28
+UniRef90_A0A1C0A025 Outer membrane protein assembly factor BamA ...   130   3e-28
+UniRef90_A0A143WU31 Outer membrane protein assembly factor BamA ...   130   3e-28
+UniRef90_A0A090S2C6 Outer membrane protein assembly factor YaeT ...   130   4e-28
+UniRef90_A0A0A1E9R6 Outer membrane protein assembly factor BamA ...   130   4e-28
+UniRef90_A0A193KDV5 Outer membrane protein assembly factor BamA ...   130   4e-28
+UniRef90_A0A1E5E114 Outer membrane protein assembly factor BamA ...   129   5e-28
+UniRef90_A0A1E5CJT1 Outer membrane protein assembly factor BamA ...   129   5e-28
+UniRef90_A0A0J8VA58 Outer membrane protein assembly factor BamA ...   129   5e-28
+UniRef90_A0A1B9JRB7 Outer membrane protein assembly factor BamA ...   129   6e-28
+UniRef90_A0A127L6H5 Outer membrane protein assembly factor BamA ...   129   6e-28
+UniRef90_Q6LN32 Outer membrane protein assembly factor BamA n=2 ...   129   1e-27
+UniRef90_A0A1M5WGU9 Outer membrane protein assembly factor BamA ...   128   1e-27
+UniRef90_A0A080K6K9 Outer membrane protein/protective antigen OM...   128   1e-27
+UniRef90_A0A080K9F7 Outer membrane protein/protective antigen OM...   128   1e-27
+UniRef90_A0A074TVW8 Uncharacterized protein n=1 Tax=Microbacteri...   128   1e-27
+UniRef90_R4Y4P7 Outer membrane protein assembly factor BamA n=22...   128   1e-27
+UniRef90_UPI000B3ECC5E outer membrane protein assembly factor Ba...   128   1e-27
+UniRef90_W1H088 Outer membrane protein assembly factor YaeT n=1 ...   128   1e-27
+UniRef90_J6HGX8 Outer membrane protein assembly factor BamA n=35...   128   2e-27
+UniRef90_A0A1B9K845 Outer membrane protein assembly factor BamA ...   128   2e-27
+UniRef90_D0ICM5 Outer membrane protein assembly factor BamA n=7 ...   127   2e-27
+UniRef90_A0A181Y2G1 Outer membrane protein assembly factor BamA ...   127   2e-27
+UniRef90_A0A0B8P1Z8 Outer membrane protein assembly factor yaeT ...   127   3e-27
+UniRef90_W1DIJ7 Outer membrane protein assembly factor YaeT n=3 ...   127   3e-27
+UniRef90_A0A0B8P6V0 Outer membrane protein assembly factor yaeT ...   127   3e-27
+UniRef90_A0A1B9MNU3 Outer membrane protein assembly factor BamA ...   126   5e-27
+UniRef90_A0A1R4B007 Outer membrane protein assembly factor BamA ...   126   5e-27
+UniRef90_UPI000486DA76 outer membrane protein assembly factor Ba...   126   5e-27
+UniRef90_A0A0S2SP22 Outer membrane protein assembly factor BamA ...   125   1e-26
+UniRef90_UPI0005AA1ABC outer membrane protein assembly factor Ba...   125   1e-26
+UniRef90_A0A135I6G3 Outer membrane protein assembly factor BamA ...   125   1e-26
+UniRef90_UPI000B35D31A outer membrane protein assembly factor Ba...   123   4e-26
+UniRef90_A0A1Y0D2J8 Outer membrane protein assembly factor BamA ...   123   5e-26
+UniRef90_A0A1V0LHJ4 Outer membrane protein assembly factor BamA ...   123   5e-26
+UniRef90_UPI00040B679C outer membrane protein assembly factor Ba...   122   6e-26
+UniRef90_A0A1N6WF61 Outer membrane protein assembly factor BamA ...   122   1e-25
+UniRef90_F7XXY9 Outer membrane protein assembly factor BamA n=1 ...   122   1e-25
+UniRef90_H2FXL1 Outer membrane protein assembly factor BamA n=3 ...   122   1e-25
+UniRef90_A4SQH4 Outer membrane protein assembly factor BamA n=46...   122   1e-25
+UniRef90_A0A143WT03 Outer membrane protein assembly factor BamA ...   121   1e-25
+UniRef90_A0A1Y0CVD6 Outer membrane protein assembly factor BamA ...   121   2e-25
+UniRef90_A0A142E7H0 Outer membrane protein assembly factor BamA ...   120   4e-25
+UniRef90_UPI000B8BC184 outer membrane protein assembly factor Ba...   120   4e-25
+UniRef90_C4L856 Outer membrane protein assembly factor BamA n=2 ...   120   5e-25
+UniRef90_UPI0005D40A47 outer membrane protein assembly factor Ba...   119   1e-24
+UniRef90_A0A1C3EI78 Outer membrane protein assembly factor BamA ...   118   1e-24
+UniRef90_A0A143WSD3 Outer membrane protein assembly factor BamA ...   117   3e-24
+UniRef90_J3YSN3 Outer membrane protein assembly factor BamA n=1 ...   117   3e-24
+UniRef90_A0A146TEX6 Outer membrane assembly complex, YaeT protei...   116   5e-24
+UniRef90_R9PJ94 Outer membrane protein assembly factor BamA n=1 ...   116   5e-24
+UniRef90_K2JF27 Outer membrane protein assembly factor BamA n=2 ...   116   6e-24
+UniRef90_UPI000B3CA645 outer membrane protein assembly factor Ba...   115   8e-24
+UniRef90_UPI0004663A1C outer membrane protein assembly factor Ba...   115   1e-23
+UniRef90_A0A094LPS7 Outer membrane protein assembly factor BamA ...   114   2e-23
+UniRef90_G3ADQ2 Outer membrane protein assembly factor BamA n=1 ...   114   3e-23
+UniRef90_UPI0006EC0F53 outer membrane protein assembly factor Ba...   114   4e-23
+UniRef90_A0A0U3AXQ5 Outer membrane protein assembly factor BamA ...   113   5e-23
+UniRef90_UPI00067F708D outer membrane protein assembly factor Ba...   113   6e-23
+UniRef90_A8H6K8 Outer membrane protein assembly factor BamA n=4 ...   113   6e-23
+UniRef90_UPI00037BDAE2 outer membrane protein assembly factor Ba...   112   7e-23
+UniRef90_H5TB72 Outer membrane protein assembly factor BamA n=1 ...   112   1e-22
+UniRef90_A0A1E7DG33 Outer membrane protein assembly factor BamA ...   111   1e-22
+UniRef90_A0A1E7Z694 Outer membrane protein assembly factor BamA ...   111   2e-22
+UniRef90_UPI000932A295 outer membrane protein assembly factor Ba...   111   2e-22
+UniRef90_UPI000489A1CA outer membrane protein assembly factor Ba...   111   2e-22
+UniRef90_UPI0009501EF0 outer membrane protein assembly factor Ba...   110   3e-22
+UniRef90_A0A1E8FE60 Outer membrane protein assembly factor BamA ...   109   5e-22
+UniRef90_Q8EGG7 Outer membrane protein assembly factor BamA n=21...   109   6e-22
+UniRef90_UPI00046E8D9B outer membrane protein assembly factor Ba...   109   7e-22
+UniRef90_A0A1S2THC2 Outer membrane protein assembly factor BamA ...   109   7e-22
+UniRef90_A0A1M5GUA8 Outer membrane protein assembly factor BamA ...   109   7e-22
+UniRef90_A0A148KMJ8 Outer membrane protein assembly factor BamA ...   108   9e-22
+UniRef90_UPI00082DD4CA outer membrane protein assembly factor Ba...   108   1e-21
+UniRef90_A0A1J5N4L7 Outer membrane protein assembly factor BamA ...   108   1e-21
+UniRef90_G4QI13 Outer membrane protein assembly factor BamA n=2 ...   108   1e-21
+UniRef90_K6X148 Outer membrane protein assembly factor BamA n=1 ...   108   2e-21
+UniRef90_Q12NX9 Outer membrane protein assembly factor BamA n=1 ...   107   2e-21
+UniRef90_E1SU22 Outer membrane protein assembly factor BamA n=1 ...   107   2e-21
+UniRef90_UPI00042A1A1F outer membrane protein assembly factor Ba...   107   2e-21
+UniRef90_A1S4P8 Outer membrane protein assembly factor BamA n=2 ...   107   2e-21
+UniRef90_K6ZXZ7 Outer membrane protein assembly factor BamA n=6 ...   107   3e-21
+UniRef90_UPI000406321F outer membrane protein assembly factor Ba...   107   4e-21
+UniRef90_UPI0000E0E5EB outer membrane protein assembly factor Ba...   106   5e-21
+UniRef90_K2KDN5 Outer membrane protein assembly factor BamA n=1 ...   106   6e-21
+UniRef90_Q085D4 Outer membrane protein assembly factor BamA n=3 ...   105   8e-21
+UniRef90_A0A1M5YFT8 Outer membrane protein assembly factor BamA ...   105   9e-21
+UniRef90_A0A0Q0PD20 Outer membrane protein assembly factor BamA ...   105   9e-21
+UniRef90_UPI000406F3E3 outer membrane protein assembly factor Ba...   105   1e-20
+UniRef90_B1KNT5 Outer membrane protein assembly factor BamA n=7 ...   105   1e-20
+UniRef90_A3QG95 Outer membrane protein assembly factor BamA n=5 ...   105   1e-20
+UniRef90_A0A0W1SCY8 Outer membrane protein assembly factor BamA ...   104   3e-20
+UniRef90_A0A0H8RMX4 Outer membrane protein assembly factor YaeT ...   103   4e-20
+UniRef90_A0A1E4ZAR1 Uncharacterized protein n=1 Tax=Klebsiella q...   103   5e-20
+UniRef90_F7RXC5 Outer membrane protein assembly factor BamA n=2 ...   103   6e-20
+UniRef90_UPI000379FBDC outer membrane protein assembly factor Ba...   102   1e-19
+UniRef90_UPI000B5C19BD outer membrane protein assembly factor Ba...   102   1e-19
+UniRef90_A0A1Q6CIZ9 Outer membrane protein assembly factor BamA ...   102   1e-19
+UniRef90_A0A090IHG3 Outer membrane protein assembly factor BamA ...   102   1e-19
+UniRef90_UPI0008CA6824 outer membrane protein assembly factor Ba...   101   2e-19
+UniRef90_Q5R0Z1 Outer membrane protein assembly factor BamA n=2 ...   101   2e-19
+UniRef90_A0A1V0KV85 Outer membrane protein assembly factor BamA ...   101   2e-19
+UniRef90_A0A1Y5CUE0 Outer membrane protein assembly factor BamA ...   100   3e-19
+UniRef90_UPI0008EA238C outer membrane protein assembly factor Ba...   100   4e-19
+UniRef90_W7QHF9 Outer membrane protein assembly factor BamA n=2 ...   100   5e-19
+UniRef90_A0A084CNY2 Outer membrane protein assembly factor BamA ...   100   5e-19
+UniRef90_UPI000985B54E outer membrane protein assembly factor Ba...   100   5e-19
+UniRef90_A1SYV5 Outer membrane protein assembly factor BamA n=1 ...   100   5e-19
+UniRef90_K6XGW8 Outer membrane protein assembly factor BamA n=2 ...   100   5e-19
+UniRef90_A0A0X9VI50 Outer membrane protein assembly factor BamA ...   100   6e-19
+UniRef90_R4I0N8 Outer membrane protein assembly factor BamA n=1 ...   100   7e-19
+UniRef90_A0A0N1KNM2 Outer membrane protein assembly factor BamA ...    99   8e-19
+UniRef90_A0A139C3F4 Outer membrane protein assembly factor BamA ...    99   8e-19
+UniRef90_A0A0S2JKR8 Outer membrane protein assembly factor BamA ...    99   1e-18
+UniRef90_UPI00041B773A outer membrane protein assembly factor Ba...    99   1e-18
+UniRef90_UPI00088DB8DF outer membrane protein assembly factor Ba...    99   1e-18
+UniRef90_A0A0D8D704 Outer membrane protein assembly factor BamA ...    99   1e-18
+UniRef90_UPI00035F5457 outer membrane protein assembly factor Ba...    99   1e-18
+UniRef90_A0A1D8RS76 Outer membrane protein assembly factor BamA ...    98   2e-18
+UniRef90_UPI0004133A21 outer membrane protein assembly factor Ba...    98   3e-18
+UniRef90_A0A0S2K3W3 Outer membrane protein assembly factor BamA ...    97   3e-18
+UniRef90_M4U6V1 Outer membrane protein assembly factor BamA n=1 ...    97   3e-18
+UniRef90_UPI0009708C41 outer membrane protein assembly factor Ba...    97   4e-18
+UniRef90_UPI0003B5538C outer membrane protein assembly factor Ba...    97   4e-18
+UniRef90_UPI00035EE1A0 outer membrane protein assembly factor Ba...    97   5e-18
+UniRef90_UPI0008398E7F outer membrane protein assembly factor Ba...    97   6e-18
+UniRef90_U3U7M0 Outer membrane protein assembly factor BamA n=2 ...    97   6e-18
+UniRef90_A0A099KMD3 Outer membrane protein assembly factor BamA ...    97   6e-18
+UniRef90_A0A088N2A3 Outer membrane protein assembly factor BamA ...    96   6e-18
+UniRef90_A0A1S1MUG6 Outer membrane protein assembly factor BamA ...    96   6e-18
+UniRef90_A0A0U3I4H3 Outer membrane protein assembly factor BamA ...    96   6e-18
+UniRef90_Q485G2 Outer membrane protein assembly factor BamA n=4 ...    96   8e-18
+UniRef90_A0A0M2VHX2 Outer membrane protein assembly factor BamA ...    96   9e-18
+UniRef90_A0A099L5C0 Outer membrane protein assembly factor BamA ...    96   9e-18
+UniRef90_A0A0J8GRI9 Outer membrane protein assembly factor BamA ...    96   9e-18
+UniRef90_A0A0F6AFR5 Outer membrane protein assembly factor BamA ...    96   9e-18
+UniRef90_UPI0004206B96 outer membrane protein assembly factor Ba...    95   2e-17
+UniRef90_A0A1C3L3X8 Outer membrane protein assembly factor BamA ...    95   2e-17
+UniRef90_A0A0F4NYP8 Outer membrane protein assembly factor BamA ...    95   2e-17
+UniRef90_L8D1Y3 Outer membrane protein assembly factor BamA n=1 ...    94   2e-17
+UniRef90_UPI00035C193C outer membrane protein assembly factor Ba...    94   3e-17
+UniRef90_Q3IIY2 Outer membrane protein assembly factor BamA n=68...    94   3e-17
+UniRef90_U1KUJ1 Outer membrane protein assembly factor BamA n=2 ...    94   3e-17
+UniRef90_UPI0005A91989 outer membrane protein assembly factor Ba...    94   5e-17
+UniRef90_S3DHL1 Outer membrane protein assembly factor BamA n=2 ...    93   6e-17
+UniRef90_J3YTK5 Outer membrane protein assembly factor BamA n=1 ...    93   8e-17
+UniRef90_A0A0F4PPU9 Outer membrane protein assembly factor BamA ...    92   1e-16
+UniRef90_A0A0M2V952 Outer membrane protein assembly factor BamA ...    92   1e-16
+UniRef90_A0A094IX53 Outer membrane protein assembly factor BamA ...    92   1e-16
+UniRef90_A4C5Z5 Outer membrane protein assembly factor BamA n=2 ...    92   1e-16
+UniRef90_A0A1Y6EPA0 Outer membrane protein assembly factor BamA ...    92   1e-16
+UniRef90_A0A0K6GWL4 Outer membrane protein assembly factor BamA ...    92   2e-16
+UniRef90_A0A0X3Y831 Outer membrane protein assembly factor BamA ...    92   2e-16
+UniRef90_I1DZB2 Outer membrane protein assembly factor BamA n=2 ...    91   3e-16
+UniRef90_A0A0F9NG71 Uncharacterized protein (Fragment) n=1 Tax=m...    91   3e-16
+UniRef90_UPI000487BA26 outer membrane protein assembly factor Ba...    91   4e-16
+UniRef90_UPI000B83A5EC outer membrane protein assembly factor Ba...    91   4e-16
+UniRef90_F7P148 Outer membrane protein assembly factor BamA n=4 ...    90   6e-16
+UniRef90_A0A094IUR8 Outer membrane protein assembly factor BamA ...    89   1e-15
+UniRef90_E8LJJ0 Outer membrane protein assembly factor BamA n=1 ...    89   1e-15
+UniRef90_UPI0008DEDDAA outer membrane protein assembly factor Ba...    89   1e-15
+UniRef90_A0A0P9I325 Outer membrane protein assembly factor BamA ...    89   1e-15
+UniRef90_I8U7C6 Outer membrane protein assembly factor BamA n=6 ...    89   2e-15
+UniRef90_UPI0009FC3922 outer membrane protein assembly factor Ba...    88   2e-15
+UniRef90_A0A1E7Q8Z5 Outer membrane protein assembly factor BamA ...    87   3e-15
+UniRef90_A0A0U4UWF4 Outer membrane protein assembly factor BamA ...    86   1e-14
+UniRef90_A0A0E3Y864 Outer membrane protein assembly factor BamA ...    86   1e-14
+UniRef90_UPI0004E1242A outer membrane protein assembly factor Ba...    86   1e-14
+UniRef90_A0A1B7UMC6 Outer membrane protein assembly factor BamA ...    86   1e-14
+UniRef90_R5EJ91 Outer membrane protein assembly factor BamA n=1 ...    84   3e-14
+UniRef90_A0A1T4VIB9 Outer membrane protein assembly factor BamA ...    84   3e-14
+UniRef90_UPI00025562A7 outer membrane protein assembly factor Ba...    84   3e-14
+UniRef90_A0A0N8KBY4 Outer membrane protein assembly factor BamA ...    84   4e-14
+UniRef90_A0A0M6W8Z2 Outer membrane protein assembly factor BamA ...    82   2e-13
+UniRef90_E6KVT7 Outer membrane protein assembly factor BamA n=2 ...    82   2e-13
+UniRef90_Q1LSU9 Outer membrane protein assembly factor BamA n=2 ...    81   2e-13
+UniRef90_UPI0006673408 outer membrane protein assembly protein Y...    81   3e-13
+UniRef90_A0A0K2BLK7 Outer membrane protein assembly factor BamA ...    81   3e-13
+UniRef90_A0A0E3Y6E7 Outer membrane protein assembly factor BamA ...    80   4e-13
+UniRef90_A0A0E3V3Y1 Outer membrane protein assembly factor BamA ...    79   9e-13
+UniRef90_UPI00036C8433 outer membrane protein assembly factor Ba...    79   1e-12
+UniRef90_C9PNE1 Outer membrane protein assembly factor BamA n=1 ...    77   3e-12
+UniRef90_A0A160SY76 Outer membrane protein assembly factor BamA ...    75   1e-11
+UniRef90_Q8GBX8 Outer membrane protein assembly factor BamA n=23...    75   2e-11
+UniRef90_L0MUL8 Outer membrane protein assembly factor BamA n=2 ...    74   3e-11
+UniRef90_A0A0K1MZS8 Outer membrane protein assembly factor BamA ...    74   3e-11
+UniRef90_U5T3V0 Outer membrane protein assembly factor BamA n=1 ...    74   4e-11
+UniRef90_U1QI18 Outer membrane protein assembly factor BamA n=1 ...    74   4e-11
+UniRef90_A6VQR4 Outer membrane protein assembly factor BamA n=1 ...    74   4e-11
+UniRef90_K0C9K2 Outer membrane protein assembly factor BamA n=4 ...    74   4e-11
+UniRef90_UPI00067B4385 outer membrane protein assembly factor Ba...    74   4e-11
+UniRef90_S6BWU5 Outer membrane protein assembly factor BamA n=2 ...    73   7e-11
+UniRef90_H8YL82 Outer membrane protein assembly factor (Fragment...    73   8e-11
+UniRef90_E8Q6T3 Outer membrane protein assembly factor BamA n=1 ...    72   1e-10
+UniRef90_A0A1J5QQ22 Outer membrane protein assembly factor BamA ...    72   1e-10
+UniRef90_A0A0D6EVK4 Outer membrane protein assembly factor BamA ...    72   1e-10
+UniRef90_A0A0C5VK77 Outer membrane protein assembly factor BamA ...    72   1e-10
+UniRef90_Q65R79 Outer membrane protein assembly factor BamA n=2 ...    72   2e-10
+UniRef90_R4VFF7 Outer membrane protein assembly factor BamA n=1 ...    72   2e-10
+UniRef90_A0A095TTF3 Outer membrane protein assembly factor BamA ...    72   2e-10
+UniRef90_A0A0F5ESS3 Outer membrane protein assembly factor BamA ...    71   2e-10
+UniRef90_D3SAD8 Outer membrane protein assembly factor BamA n=13...    71   2e-10
+UniRef90_I3D6F0 Outer membrane protein assembly factor BamA n=2 ...    70   5e-10
+UniRef90_A0A1G0HPR0 Outer membrane protein assembly factor BamA ...    70   6e-10
+UniRef90_J6CHJ9 Uncharacterized protein (Fragment) n=1 Tax=Paste...    69   9e-10
+UniRef90_A1WX13 Outer membrane protein assembly factor BamA n=1 ...    69   1e-09
+UniRef90_A0A0U4WF68 Outer membrane protein assembly factor BamA ...    69   1e-09
+UniRef90_A0A0P9RGR4 OMP85 family outer membrane protein n=4 Tax=...    69   1e-09
+UniRef90_A0A095SEZ3 Outer membrane protein assembly factor BamA ...    69   1e-09
+UniRef90_C3JZJ2 Outer membrane protein assembly factor BamA n=23...    69   1e-09
+UniRef90_A0A1H5SRM0 Outer membrane protein assembly factor BamA ...    69   1e-09
+UniRef90_A0A1V4B0M6 Outer membrane protein assembly factor BamA ...    69   1e-09
+UniRef90_UPI000B5B1F7D outer membrane protein assembly factor Ba...    69   1e-09
+UniRef90_L7HMX2 Outer membrane protein assembly factor BamA n=5 ...    69   2e-09
+UniRef90_A0A1G1AP52 Outer membrane protein assembly factor BamA ...    69   2e-09
+UniRef90_UPI0009911E4D outer membrane protein assembly factor Ba...    68   2e-09
+UniRef90_A0A1H1X732 Outer membrane protein assembly factor BamA ...    68   2e-09
+UniRef90_A0A090BV09 Outer membrane protein assembly factor BamA ...    68   2e-09
+UniRef90_A0A0P9WRU4 Outer membrane protein assembly factor BamA ...    68   2e-09
+UniRef90_A0A139CEU5 Outer membrane protein assembly factor BamA ...    68   2e-09
+UniRef90_UPI0003815A19 outer membrane protein assembly factor Ba...    68   2e-09
+UniRef90_D5BVW9 Outer membrane protein assembly factor BamA n=1 ...    68   2e-09
+UniRef90_UPI00046F3AF4 outer membrane protein assembly factor Ba...    68   2e-09
+UniRef90_UPI0008D6E28F outer membrane protein assembly factor Ba...    68   3e-09
+UniRef90_N2IWF8 Outer membrane protein assembly factor BamA n=4 ...    68   3e-09
+UniRef90_V4IW07 Outer membrane protein assembly factor BamA n=1 ...    68   3e-09
+UniRef90_A0A1S8CU88 Outer membrane protein assembly factor BamA ...    68   3e-09
+UniRef90_A0A1A9NNM4 Outer membrane protein assembly factor BamA ...    68   3e-09
+UniRef90_Y0KGG3 Outer membrane protein assembly factor BamA n=3 ...    67   3e-09
+UniRef90_Q4KHG8 Outer membrane protein assembly factor BamA n=33...    67   3e-09
+UniRef90_UPI000B7FF22C outer membrane protein assembly factor Ba...    67   3e-09
+UniRef90_K1ZH28 Uncharacterized protein n=1 Tax=groundwater meta...    67   3e-09
+UniRef90_D7DI18 Outer membrane protein assembly factor BamA n=1 ...    67   4e-09
+UniRef90_UPI00088DD2D0 outer membrane protein assembly factor Ba...    67   4e-09
+UniRef90_A0A1A9T4S4 Outer membrane protein assembly factor BamA ...    67   4e-09
+UniRef90_A0A0G3G1W6 Outer membrane protein assembly factor BamA ...    67   4e-09
+UniRef90_UPI000A61FED2 outer membrane protein assembly factor Ba...    67   4e-09
+UniRef90_A0A1B8Q4B0 Outer membrane protein assembly factor BamA ...    67   4e-09
+UniRef90_C6XDM3 Outer membrane protein assembly factor BamA n=1 ...    67   4e-09
+UniRef90_A0A0G9H7M1 Outer membrane protein assembly factor BamA ...    67   5e-09
+UniRef90_A0A0X8X8C6 Outer membrane protein assembly factor BamA ...    67   5e-09
+UniRef90_E1VNL9 Outer membrane protein assembly factor BamA n=1 ...    67   5e-09
+UniRef90_A0A1Q2SLV8 Outer membrane protein assembly factor BamA ...    67   5e-09
+UniRef90_V2UQG0 Outer membrane protein assembly factor BamA n=3 ...    67   5e-09
+UniRef90_A0A1B3JFD6 Outer membrane protein assembly factor BamA ...    67   5e-09
+UniRef90_UPI0009E66FC9 outer membrane protein assembly factor Ba...    67   6e-09
+UniRef90_F9Q7B6 Outer membrane protein assembly factor BamA n=1 ...    67   6e-09
+UniRef90_A0A0Q6BR65 Outer membrane protein assembly factor BamA ...    67   6e-09
+UniRef90_UPI000A34A572 outer membrane protein assembly factor Ba...    67   6e-09
+UniRef90_A0A1J5TA65 Outer membrane protein assembly factor BamA ...    67   6e-09
+UniRef90_D0SDV0 Outer membrane protein assembly factor BamA n=13...    67   6e-09
+UniRef90_UPI0005097B78 outer membrane protein assembly factor Ba...    66   7e-09
+UniRef90_G2DAH7 Outer membrane protein assembly factor BamA n=3 ...    66   7e-09
+UniRef90_A0A0P9PGI7 Outer membrane protein assembly factor BamA ...    66   7e-09
+UniRef90_UPI000A3669E6 outer membrane protein assembly factor Ba...    66   7e-09
+UniRef90_A0A1L5Z590 Outer membrane protein assembly factor BamA ...    66   7e-09
+UniRef90_L0WG32 Outer membrane protein assembly factor BamA n=2 ...    66   7e-09
+UniRef90_A0A1V3PW67 Outer membrane protein assembly factor BamA ...    66   8e-09
+UniRef90_A0A1V3K3Z4 Outer membrane protein assembly factor BamA ...    66   8e-09
+UniRef90_A0A0M4R685 Outer membrane protein assembly factor BamA ...    66   9e-09
+UniRef90_A0A1V3IZ68 Outer membrane protein assembly factor BamA ...    66   1e-08
+UniRef90_C1DST8 Outer membrane protein assembly factor BamA n=7 ...    66   1e-08
+UniRef90_A0A1C7Z9Y2 Outer membrane protein assembly factor BamA ...    66   1e-08
+UniRef90_UPI00037107B9 outer membrane protein assembly factor Ba...    66   1e-08
+UniRef90_I4WNP1 Outer membrane protein assembly factor BamA n=10...    66   1e-08
+UniRef90_A0A1Y5GJ86 Outer membrane protein assembly factor BamA ...    66   1e-08
+UniRef90_UPI000463407B outer membrane protein assembly factor Ba...    66   1e-08
+UniRef90_F0EVC6 Outer membrane protein assembly factor BamA n=26...    65   1e-08
+UniRef90_UPI000648481C outer membrane protein assembly factor Ba...    65   1e-08
+UniRef90_Q3JCW7 Outer membrane protein assembly factor BamA n=4 ...    65   1e-08
+UniRef90_UPI00047B5773 outer membrane protein assembly factor Ba...    65   1e-08
+UniRef90_A0A1V3IB20 Outer membrane protein assembly factor BamA ...    65   1e-08
+UniRef90_Q0VQE9 Outer membrane protein assembly factor BamA n=3 ...    65   1e-08
+UniRef90_A0A1T2L7V8 Outer membrane protein assembly factor BamA ...    65   1e-08
+UniRef90_F6ACE0 Outer membrane protein assembly factor BamA n=15...    65   1e-08
+UniRef90_A0A0Q9YHF4 Outer membrane protein assembly factor BamA ...    65   1e-08
+UniRef90_A0A090ARI9 Outer membrane protein assembly factor BamA ...    65   1e-08
+UniRef90_Q1R025 Outer membrane protein assembly factor BamA n=5 ...    65   1e-08
+UniRef90_A0A1E4K3K1 Outer membrane protein assembly factor BamA ...    65   1e-08
+UniRef90_I4N2Q8 Outer membrane protein assembly factor BamA n=3 ...    65   1e-08
+UniRef90_A0A1A8T7S7 Outer membrane protein assembly factor BamA ...    65   2e-08
+UniRef90_UPI0008898C83 outer membrane protein assembly factor Ba...    65   2e-08
+UniRef90_A0A1E4Q6W4 Outer membrane protein assembly factor BamA ...    65   2e-08
+UniRef90_I3V4Y4 Surface antigen n=1 Tax=Pseudomonas putida ND6 T...    65   2e-08
+UniRef90_R4YL72 Outer membrane protein assembly factor BamA n=1 ...    65   2e-08
+UniRef90_A0A1G3Y331 Outer membrane protein assembly factor BamA ...    65   2e-08
+UniRef90_J2YH14 Outer membrane protein assembly factor BamA n=1 ...    65   2e-08
+UniRef90_UPI00066FD139 outer membrane protein assembly factor Ba...    65   2e-08
+UniRef90_N6VTF6 Outer membrane protein assembly factor BamA n=2 ...    65   2e-08
+UniRef90_UPI00089A6C10 outer membrane protein assembly factor Ba...    65   2e-08
+UniRef90_A0A0S8A5W3 Outer membrane protein assembly factor BamA ...    65   2e-08
+UniRef90_A0A127MV84 Outer membrane protein assembly factor BamA ...    65   2e-08
+UniRef90_UPI0007D0B076 outer membrane protein assembly factor Ba...    65   2e-08
+UniRef90_A0A217EDP1 Beta-barrel assembly machine subunit BamA n=...    65   2e-08
+UniRef90_A0A139SUM9 Outer membrane protein assembly factor BamA ...    65   2e-08
+UniRef90_UPI000369DA49 outer membrane protein assembly factor Ba...    65   2e-08
+UniRef90_L0GUB4 Outer membrane protein assembly factor BamA n=1 ...    65   2e-08
+UniRef90_C6WVW7 Outer membrane protein assembly factor BamA n=3 ...    64   3e-08
+UniRef90_A0A1G1AYU4 Outer membrane protein assembly factor BamA ...    64   3e-08
+UniRef90_UPI000B8C466E outer membrane protein assembly factor Ba...    64   3e-08
+UniRef90_I4N8Q1 Outer membrane protein assembly factor BamA n=2 ...    64   3e-08
+UniRef90_UPI0008C75D7B outer membrane protein assembly factor Ba...    64   3e-08
+UniRef90_A4BS30 Outer membrane protein assembly factor BamA n=1 ...    64   3e-08
+UniRef90_Q7VRD8 Outer membrane protein assembly factor BamA n=1 ...    64   3e-08
+UniRef90_UPI000B3C79E6 outer membrane protein assembly factor Ba...    64   3e-08
+UniRef90_A0A0Q0BEB7 Outer membrane protein assembly factor BamA ...    64   3e-08
+UniRef90_W0TMN8 Outer membrane protein assembly factor BamA n=1 ...    64   3e-08
+UniRef90_A0A0T6UWM4 Outer membrane protein assembly factor BamA ...    64   3e-08
+UniRef90_A0A1H5WZ12 Outer membrane protein assembly factor BamA ...    64   3e-08
+UniRef90_A0A0M4H0P3 Outer membrane protein assembly factor BamA ...    64   3e-08
+UniRef90_Q88HI4 Outer membrane protein assembly factor BamA n=54...    64   3e-08
+UniRef90_UPI00048A2931 outer membrane protein assembly factor Ba...    64   3e-08
+UniRef90_F2JU06 Outer membrane protein assembly factor BamA n=1 ...    64   3e-08
+UniRef90_A0A1E7PZ13 Outer membrane protein assembly factor BamA ...    64   3e-08
+UniRef90_J2WFY0 Outer membrane protein/protective antigen OMA87 ...    64   3e-08
+UniRef90_G8Q7I8 Outer membrane protein assembly factor BamA n=20...    64   3e-08
+UniRef90_A0A1G0KP38 Outer membrane protein assembly factor BamA ...    64   3e-08
+UniRef90_B1JBQ2 Outer membrane protein assembly factor BamA n=74...    64   3e-08
+UniRef90_B6BTV6 Outer membrane protein assembly factor BamA n=1 ...    64   3e-08
+UniRef90_Q3SF00 Outer membrane protein assembly factor BamA n=2 ...    64   3e-08
+UniRef90_A0A0S6Z035 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_Q88MH2 Outer membrane protein assembly factor BamA n=21...    64   4e-08
+UniRef90_A0A136GPF8 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_A0A1H7ITS6 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_UPI00048026F4 outer membrane protein assembly factor Ba...    64   4e-08
+UniRef90_N8QAV1 Outer membrane protein assembly factor BamA n=3 ...    64   4e-08
+UniRef90_J1IS96 Outer membrane protein assembly factor BamA n=4 ...    64   4e-08
+UniRef90_UPI0006859D6D outer membrane protein assembly factor Ba...    64   4e-08
+UniRef90_A0A0L1MF56 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_N6XKB2 Outer membrane protein assembly factor BamA n=1 ...    64   4e-08
+UniRef90_A0A1G3E520 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_V2UMP2 Outer membrane protein assembly factor BamA n=5 ...    64   4e-08
+UniRef90_A0A1G3E2J6 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_M4WW27 Outer membrane protein assembly factor BamA n=18...    64   4e-08
+UniRef90_A0A1Y3CG15 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_A0A1Y1R0D3 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_A0A0K1XBT3 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_S6AVH7 Outer membrane protein assembly factor BamA n=18...    64   4e-08
+UniRef90_A0A1Q3VI26 Outer membrane protein assembly factor BamA ...    64   4e-08
+UniRef90_A0A1X0Z4H1 Outer membrane protein assembly factor BamA ...    64   5e-08
+UniRef90_A0A086D508 Outer membrane protein assembly factor BamA ...    64   5e-08
+UniRef90_UPI0003722AC9 outer membrane protein assembly factor Ba...    64   5e-08
+UniRef90_A0A1E4Q0G1 Outer membrane protein assembly factor BamA ...    64   5e-08
+UniRef90_A0A1V3Q7N8 Outer membrane protein assembly factor BamA ...    64   5e-08
+UniRef90_A0A161J226 Outer membrane protein assembly factor BamA ...    64   5e-08
+UniRef90_UPI000B8B898E outer membrane protein assembly factor Ba...    64   5e-08
+UniRef90_A0A1V2DTQ9 Outer membrane protein assembly factor BamA ...    64   5e-08
+UniRef90_UPI0004765651 outer membrane protein assembly factor Ba...    64   5e-08
+UniRef90_A6V1E0 Outer membrane protein assembly factor BamA n=77...    64   5e-08
+UniRef90_R8AWU5 Outer membrane protein assembly factor BamA n=2 ...    64   5e-08
+UniRef90_A0A1I7Y4V1 Uncharacterized protein n=1 Tax=Steinernema ...    64   6e-08
+UniRef90_A0A0Q9YYC1 Outer membrane protein assembly factor BamA ...    64   6e-08
+UniRef90_UPI00058DAA89 outer membrane protein assembly factor Ba...    63   6e-08
+UniRef90_F9UAI1 Outer membrane protein assembly factor BamA n=4 ...    63   6e-08
+UniRef90_A0A0B0HBV4 Outer membrane protein assembly factor BamA ...    63   6e-08
+UniRef90_A0A142BBM4 Outer membrane protein assembly factor BamA ...    63   6e-08
+UniRef90_A0A1G0K118 Outer membrane protein assembly factor BamA ...    63   6e-08
+UniRef90_UPI00058E5A50 outer membrane protein assembly factor Ba...    63   6e-08
+UniRef90_A0A1M4WU90 Outer membrane protein assembly factor BamA ...    63   6e-08
+UniRef90_A0A1E4NEI5 Outer membrane protein assembly factor BamA ...    63   6e-08
+UniRef90_N9S995 Outer membrane protein assembly factor BamA n=6 ...    63   7e-08
+UniRef90_A0A1Q4EFS9 Outer membrane protein assembly factor BamA ...    63   7e-08
+UniRef90_UPI0009E9565C outer membrane protein assembly factor Ba...    63   7e-08
+UniRef90_UPI00099757DC outer membrane protein assembly factor Ba...    63   8e-08
+UniRef90_A0A0M1JFL6 Outer membrane protein assembly factor BamA ...    63   8e-08
+UniRef90_A0A1Q3SD60 Outer membrane protein assembly factor BamA ...    63   8e-08
+UniRef90_A0A099CV19 Outer membrane protein assembly factor BamA ...    63   8e-08
+UniRef90_UPI00084A2C08 outer membrane protein assembly factor Ba...    63   8e-08
+UniRef90_A0A067A778 Outer membrane protein assembly factor BamA ...    63   8e-08
+UniRef90_A0A0F3GBF2 Outer membrane protein assembly factor BamA ...    63   8e-08
+UniRef90_A0A061CZI9 Outer membrane protein assembly factor BamA ...    63   8e-08
+UniRef90_A0A0F9Q3M5 Uncharacterized protein (Fragment) n=1 Tax=m...    63   8e-08
+UniRef90_UPI0008E42A7F outer membrane protein assembly factor Ba...    63   8e-08
+UniRef90_A0A1G0NFQ4 Outer membrane protein assembly factor BamA ...    63   8e-08
+UniRef90_A0A1M4V5R3 Outer membrane protein assembly factor BamA ...    63   9e-08
+UniRef90_A0A1B8PKL8 Outer membrane protein assembly factor BamA ...    63   9e-08
+UniRef90_A0A143HKG5 Outer membrane protein assembly factor BamA ...    63   9e-08
+UniRef90_A0A0B4XKL4 Outer membrane protein assembly factor BamA ...    63   9e-08
+UniRef90_UPI0003633AF5 outer membrane protein assembly factor Ba...    63   9e-08
+
+>UniRef90_UPI00098346A4 outer membrane protein assembly factor BamA n=2 Tax=Klebsiella
+           pneumoniae TaxID=573 RepID=UPI00098346A4
+          Length = 555
+
+ Score =  160 bits (404), Expect = 4e-37,   Method: Composition-based stats.
+ Identities = 83/83 (100%), Positives = 83/83 (100%)
+
+Query: 1   PTIASITFSGNKSVKDDMLKQNLEASGVRVGESLDRTTIADIEKGLEDFYYSVGKYSASV 60
+           PTIASITFSGNKSVKDDMLKQNLEASGVRVGESLDRTTIADIEKGLEDFYYSVGKYSASV
+Sbjct: 39  PTIASITFSGNKSVKDDMLKQNLEASGVRVGESLDRTTIADIEKGLEDFYYSVGKYSASV 98
+
+Query: 61  KAVVTPLPRNRVDLKLVFQEGVS 83
+           KAVVTPLPRNRVDLKLVFQEGVS
+Sbjct: 99  KAVVTPLPRNRVDLKLVFQEGVS 121
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_H2J1R2 Outer membrane protein assembly factor BamA n=4 ...   159   6e-37
+UniRef90_C5B7R5 Outer membrane protein assembly factor BamA n=13...   158   1e-36
+UniRef90_UPI00093422DE outer membrane protein assembly factor Ba...   157   2e-36
+UniRef90_A0A1S8YLA8 Outer membrane protein assembly factor BamA ...   157   3e-36
+UniRef90_D5CHY0 Outer membrane protein assembly factor BamA n=82...   157   3e-36
+UniRef90_A0A085GNH0 Outer membrane protein assembly factor BamA ...   157   3e-36
+UniRef90_A0A1C3DVK1 Outer membrane protein assembly factor BamA ...   157   3e-36
+UniRef90_E0SCD7 Outer membrane protein assembly factor BamA n=25...   157   3e-36
+UniRef90_A7MGT7 Outer membrane protein assembly factor BamA n=70...   156   4e-36
+UniRef90_A0A085G5W6 Outer membrane protein assembly factor BamA ...   156   4e-36
+UniRef90_B2VE18 Outer membrane protein assembly factor BamA n=12...   156   4e-36
+UniRef90_A0A0F3LRH8 Outer membrane protein assembly factor BamA ...   156   4e-36
+UniRef90_A4W6S2 Outer membrane protein assembly factor BamA n=12...   156   5e-36
+UniRef90_I2BCJ7 Outer membrane protein assembly factor BamA n=1 ...   156   5e-36
+UniRef90_A0A0B7JA99 Outer membrane protein assembly factor BamA ...   156   5e-36
+UniRef90_A0A087IPK1 Outer membrane protein assembly factor BamA ...   156   6e-36
+UniRef90_A7FFH7 Outer membrane protein assembly factor BamA n=81...   156   6e-36
+UniRef90_C6CBY7 Outer membrane protein assembly factor BamA n=1 ...   156   7e-36
+UniRef90_A0A084A4C5 Outer membrane protein assembly factor BamA ...   156   7e-36
+UniRef90_A8GID8 Outer membrane protein assembly factor BamA n=57...   156   7e-36
+UniRef90_A0A0M2KDR4 Outer membrane protein assembly factor BamA ...   155   8e-36
+UniRef90_E6WK30 Outer membrane protein assembly factor BamA n=2 ...   155   8e-36
+UniRef90_A0A071LWM9 Outer membrane protein assembly factor BamA ...   155   8e-36
+UniRef90_B4F262 Outer membrane protein assembly factor BamA n=26...   155   8e-36
+UniRef90_A0A0T7D4D9 Outer membrane protein assembly factor BamA ...   155   8e-36
+UniRef90_A0A1H3WEF4 Outer membrane protein assembly factor BamA ...   155   9e-36
+UniRef90_V3V9E3 Outer membrane protein assembly factor BamA n=1 ...   155   9e-36
+UniRef90_A0A085JJR4 Outer membrane protein assembly factor BamA ...   155   9e-36
+UniRef90_L8J606 Outer membrane protein assembly factor BamA n=3 ...   155   9e-36
+UniRef90_A0A1D7PAY2 Outer membrane protein assembly factor BamA ...   155   1e-35
+UniRef90_W1ILJ4 Outer membrane protein assembly factor BamA n=3 ...   155   1e-35
+UniRef90_F0LUJ1 Outer membrane protein assembly factor BamA n=8 ...   155   1e-35
+UniRef90_A0A0F5ARV8 Outer membrane protein assembly factor BamA ...   155   1e-35
+UniRef90_F9T5K8 Outer membrane protein assembly factor BamA n=10...   155   1e-35
+UniRef90_E3BLL6 Outer membrane protein assembly factor BamA n=1 ...   154   1e-35
+UniRef90_UPI0004AFD240 outer membrane protein assembly factor Ba...   154   1e-35
+UniRef90_A6BBF4 Surface antigen n=1 Tax=Vibrio parahaemolyticus ...   154   2e-35
+UniRef90_Q2NRL5 Outer membrane protein assembly factor BamA n=6 ...   154   2e-35
+UniRef90_K5TW27 Outer membrane protein assembly factor BamA n=95...   154   2e-35
+UniRef90_A0A1E7Z115 Outer membrane protein assembly factor BamA ...   154   2e-35
+UniRef90_A0A1S2B650 Outer membrane protein assembly factor BamA ...   154   2e-35
+UniRef90_A0A0D5WQ59 Outer membrane protein assembly factor BamA ...   154   2e-35
+UniRef90_J2V5K7 Outer membrane protein assembly factor BamA n=2 ...   154   2e-35
+UniRef90_E1SDY5 Outer membrane protein assembly factor BamA n=55...   154   2e-35
+UniRef90_A0A0J9BLJ8 Outer membrane protein assembly protein YaeT...   154   2e-35
+UniRef90_U3CBX6 Outer membrane protein assembly factor BamA n=2 ...   154   2e-35
+UniRef90_UPI000988FFED outer membrane protein assembly factor Ba...   154   2e-35
+UniRef90_A0A085HMX3 Outer membrane protein assembly factor BamA ...   154   2e-35
+UniRef90_UPI00083883ED outer membrane protein assembly factor Ba...   154   2e-35
+UniRef90_I0QP41 Outer membrane protein assembly factor BamA n=5 ...   154   3e-35
+UniRef90_UPI00087F8FE7 outer membrane protein assembly factor Ba...   154   3e-35
+UniRef90_UPI000420F9DA outer membrane protein assembly factor Ba...   153   3e-35
+UniRef90_A0A0A0STX4 Outer membrane protein assembly factor BamA ...   153   3e-35
+UniRef90_A0A0H2QE38 Outer membrane protein assembly factor BamA ...   153   3e-35
+UniRef90_A0A0J5FSC6 Outer membrane protein assembly factor BamA ...   153   3e-35
+UniRef90_A0A0R4FQL7 Outer membrane protein assembly factor BamA ...   153   3e-35
+UniRef90_A0A0J1GIL4 Outer membrane protein assembly factor BamA ...   153   3e-35
+UniRef90_E6WNK5 Outer membrane protein assembly factor BamA n=1 ...   153   3e-35
+UniRef90_A0A066TBZ2 Outer membrane protein assembly factor BamA ...   153   3e-35
+UniRef90_Q9S341 Outer membrane protein assembly factor BamA n=19...   153   3e-35
+UniRef90_A0A1V9DR56 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_A0A0H5XQU2 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_X2H6V3 Outer membrane protein assembly factor BamA n=11...   153   4e-35
+UniRef90_A0A0F5V8J7 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_A0A1B9MNU3 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_J7TNX3 Outer membrane protein assembly factor BamA n=13...   153   4e-35
+UniRef90_A0A1A9AZ62 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_A0A0W8JDV1 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_A0A0M0TBX4 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_Q6D8D5 Outer membrane protein assembly factor BamA n=30...   153   4e-35
+UniRef90_A0A1C0A025 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_A0A0C5WMT7 Outer membrane protein assembly factor BamA ...   153   4e-35
+UniRef90_A0A0U5L3I7 Outer membrane protein assembly factor BamA ...   153   5e-35
+UniRef90_A0A1B9JRB7 Outer membrane protein assembly factor BamA ...   153   5e-35
+UniRef90_A0A0J8VA58 Outer membrane protein assembly factor BamA ...   153   5e-35
+UniRef90_A0A068R5W3 Outer membrane protein assembly factor BamA ...   153   5e-35
+UniRef90_C9P318 Outer membrane protein assembly factor BamA n=4 ...   153   5e-35
+UniRef90_W0LAA0 Outer membrane protein assembly factor BamA n=2 ...   153   5e-35
+UniRef90_U2ZJF4 Outer membrane protein assembly factor BamA n=1 ...   153   5e-35
+UniRef90_A0A1N6MTF8 Outer membrane protein assembly factor BamA ...   153   5e-35
+UniRef90_C0ASX4 Surface antigen variable number repeat protein n...   153   6e-35
+UniRef90_A0A095T163 Outer membrane protein assembly factor BamA ...   153   6e-35
+UniRef90_F2P5T1 Outer membrane protein assembly factor BamA n=12...   153   6e-35
+UniRef90_UPI000B35AB31 outer membrane protein assembly factor Ba...   152   7e-35
+UniRef90_UPI0005A80DF1 outer membrane protein assembly factor Ba...   152   8e-35
+UniRef90_A0A0G3CQR7 Outer membrane protein assembly factor BamA ...   152   9e-35
+UniRef90_A0A1B9K845 Outer membrane protein assembly factor BamA ...   151   1e-34
+UniRef90_A0A1B9R159 Outer membrane protein assembly factor BamA ...   151   1e-34
+UniRef90_UPI000490CB43 outer membrane protein assembly factor Ba...   151   1e-34
+UniRef90_UPI00017543C7 OUTER MEMBRANE PROTEIN ASSEMBLY FACTOR YA...   151   1e-34
+UniRef90_S6BWU5 Outer membrane protein assembly factor BamA n=2 ...   151   1e-34
+UniRef90_U4E3F3 Outer membrane protein assembly factor BamA n=6 ...   151   1e-34
+UniRef90_B8KCL3 Outer membrane protein assembly factor BamA n=7 ...   151   2e-34
+UniRef90_A0A0L7YW17 Outer membrane protein assembly factor BamA ...   151   2e-34
+UniRef90_UPI0003753B42 outer membrane protein assembly factor Ba...   151   2e-34
+UniRef90_UPI00098346A4 outer membrane protein assembly factor Ba...   151   2e-34
+UniRef90_Q6LN32 Outer membrane protein assembly factor BamA n=2 ...   151   2e-34
+UniRef90_B2PWD6 Outer membrane protein assembly factor BamA n=17...   151   2e-34
+UniRef90_A6D8P4 Outer membrane protein assembly factor BamA n=7 ...   151   2e-34
+UniRef90_W1EYK3 Outer membrane protein assembly factor YaeT n=3 ...   151   2e-34
+UniRef90_UPI000578045D outer membrane protein assembly factor Ba...   150   3e-34
+UniRef90_A0A0M0HKD3 Outer membrane protein assembly factor BamA ...   150   3e-34
+UniRef90_A0A090S2C6 Outer membrane protein assembly factor YaeT ...   150   3e-34
+UniRef90_A4SQH4 Outer membrane protein assembly factor BamA n=46...   150   3e-34
+UniRef90_UPI000B81B963 outer membrane protein assembly factor Ba...   150   4e-34
+UniRef90_A0A090SWM1 Outer membrane protein assembly factor YaeT ...   150   4e-34
+UniRef90_A0A1E5CYN4 Outer membrane protein assembly factor BamA ...   149   5e-34
+UniRef90_A0A0S2SP22 Outer membrane protein assembly factor BamA ...   149   5e-34
+UniRef90_UPI0001889A98 Outer membrane protein assembly factor ya...   149   5e-34
+UniRef90_Q5E3E7 Outer membrane protein assembly factor BamA n=16...   149   5e-34
+UniRef90_UPI0005AA1ABC outer membrane protein assembly factor Ba...   149   6e-34
+UniRef90_A0A0A7S2S1 Outer membrane protein assembly factor BamA ...   149   6e-34
+UniRef90_A0A1N6WF61 Outer membrane protein assembly factor BamA ...   149   6e-34
+UniRef90_D3UWG7 Outer membrane protein assembly factor BamA n=16...   149   6e-34
+UniRef90_A0A080K6K9 Outer membrane protein/protective antigen OM...   149   6e-34
+UniRef90_A0A1Q9HNH8 Outer membrane protein assembly factor BamA ...   149   6e-34
+UniRef90_L0GUB4 Outer membrane protein assembly factor BamA n=1 ...   149   8e-34
+UniRef90_A0A090RBN3 Outer membrane protein assembly factor BamA ...   149   8e-34
+UniRef90_UPI000932F8C4 outer membrane protein assembly factor Ba...   149   9e-34
+UniRef90_S0AHF7 Outer membrane protein assembly factor BamA n=11...   149   9e-34
+UniRef90_C4L856 Outer membrane protein assembly factor BamA n=2 ...   148   1e-33
+UniRef90_A0A0A1E9R6 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_W1IUL4 Outer membrane protein assembly factor BamA n=2 ...   148   1e-33
+UniRef90_A0A1B1NLX1 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_Z2EIA2 Outer membrane assembly complex, YaeT protein (F...   148   1e-33
+UniRef90_A0A1E5E114 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A135I6G3 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A193KDV5 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A142E7H0 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A1M5WGU9 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_E0WTD2 Outer membrane protein assembly factor BamA n=2 ...   148   1e-33
+UniRef90_A0A1R4B007 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A1B9LDK4 Outer membrane protein assembly factor BamA ...   148   2e-33
+UniRef90_D2U257 Outer membrane protein assembly factor BamA n=21...   148   2e-33
+UniRef90_UPI00063C9346 outer membrane protein assembly factor Ba...   148   2e-33
+UniRef90_D0ICM5 Outer membrane protein assembly factor BamA n=7 ...   147   2e-33
+UniRef90_J6HGX8 Outer membrane protein assembly factor BamA n=35...   147   3e-33
+UniRef90_M4WW27 Outer membrane protein assembly factor BamA n=18...   147   3e-33
+UniRef90_UPI0009911E4D outer membrane protein assembly factor Ba...   147   3e-33
+UniRef90_A0A080K9F7 Outer membrane protein/protective antigen OM...   147   3e-33
+UniRef90_G2DAH7 Outer membrane protein assembly factor BamA n=3 ...   147   3e-33
+UniRef90_A0A090P687 Outer membrane protein assembly factor YaeT ...   146   4e-33
+UniRef90_A0A127MV84 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_UPI0008898C83 outer membrane protein assembly factor Ba...   146   4e-33
+UniRef90_UPI0005658479 outer membrane protein assembly factor Ba...   146   4e-33
+UniRef90_A0A1X1MTN3 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_K2JF27 Outer membrane protein assembly factor BamA n=2 ...   146   5e-33
+UniRef90_UPI00040B679C outer membrane protein assembly factor Ba...   146   5e-33
+UniRef90_I4N2Q8 Outer membrane protein assembly factor BamA n=3 ...   146   6e-33
+UniRef90_H2FXL1 Outer membrane protein assembly factor BamA n=3 ...   146   6e-33
+UniRef90_A0A1J5QQ22 Outer membrane protein assembly factor BamA ...   146   6e-33
+UniRef90_UPI00067F708D outer membrane protein assembly factor Ba...   146   7e-33
+UniRef90_A0A071M043 Outer membrane protein assembly factor BamA ...   145   8e-33
+UniRef90_A6V1E0 Outer membrane protein assembly factor BamA n=77...   145   8e-33
+UniRef90_A0A1E5CJT1 Outer membrane protein assembly factor BamA ...   145   8e-33
+UniRef90_R9PJ94 Outer membrane protein assembly factor BamA n=1 ...   145   9e-33
+UniRef90_UPI0004765651 outer membrane protein assembly factor Ba...   145   9e-33
+UniRef90_F6ACE0 Outer membrane protein assembly factor BamA n=15...   145   9e-33
+UniRef90_A0A1V0LHJ4 Outer membrane protein assembly factor BamA ...   145   9e-33
+UniRef90_A0A0B5INW0 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_A0A1C3EI78 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_G8Q7I8 Outer membrane protein assembly factor BamA n=20...   145   1e-32
+UniRef90_A0A1W9NJX0 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_Q88HI4 Outer membrane protein assembly factor BamA n=54...   145   1e-32
+UniRef90_S6AVH7 Outer membrane protein assembly factor BamA n=18...   145   1e-32
+UniRef90_A0A1Y0D2J8 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_A0A0T6UWM4 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_C1DST8 Outer membrane protein assembly factor BamA n=7 ...   145   1e-32
+UniRef90_B1JBQ2 Outer membrane protein assembly factor BamA n=74...   144   1e-32
+UniRef90_Q88MH2 Outer membrane protein assembly factor BamA n=21...   144   1e-32
+UniRef90_UPI000B35864C outer membrane protein assembly factor Ba...   144   1e-32
+UniRef90_I4N8Q1 Outer membrane protein assembly factor BamA n=2 ...   144   2e-32
+UniRef90_C3JZJ2 Outer membrane protein assembly factor BamA n=23...   144   2e-32
+UniRef90_A0A1A9NNM4 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A8H6K8 Outer membrane protein assembly factor BamA n=4 ...   144   2e-32
+UniRef90_A0A1E5XDK5 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A143WU31 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A1S4P8 Outer membrane protein assembly factor BamA n=2 ...   144   2e-32
+UniRef90_K0C9K2 Outer membrane protein assembly factor BamA n=4 ...   144   2e-32
+UniRef90_A0A1Y0CVD6 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A1G3E2J6 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_UPI00058E5A50 outer membrane protein assembly factor Ba...   144   2e-32
+UniRef90_A0A067A778 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_Q4KHG8 Outer membrane protein assembly factor BamA n=33...   144   2e-32
+UniRef90_UPI00089A6C10 outer membrane protein assembly factor Ba...   144   3e-32
+UniRef90_A0A181Y2G1 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_UPI0004663A1C outer membrane protein assembly factor Ba...   144   3e-32
+UniRef90_W1H088 Outer membrane protein assembly factor YaeT n=1 ...   143   3e-32
+UniRef90_A0A1G3E520 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_UPI000486DA76 outer membrane protein assembly factor Ba...   143   3e-32
+UniRef90_A0A1H5SRM0 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_UPI0005BB8A62 outer membrane protein assembly factor Ba...   143   3e-32
+UniRef90_A1K6R3 Outer membrane protein assembly factor BamA n=2 ...   143   4e-32
+UniRef90_A0A127L6H5 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_UPI000363ED32 outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_A0A172MFN9 Outer membrane protein assembly factor (Frag...   143   4e-32
+UniRef90_UPI00058DAA89 outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_UPI000B8A0035 outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_I3V4Y4 Surface antigen n=1 Tax=Pseudomonas putida ND6 T...   143   4e-32
+UniRef90_A0A1C7Z9Y2 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A0U4WF68 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A1Y1R0D3 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_UPI0006EC0F53 outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_A0A098SU46 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_UPI000B8BC184 outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_N6XKB2 Outer membrane protein assembly factor BamA n=1 ...   143   5e-32
+UniRef90_A0A1S2THC2 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_H8Z810 Outer membrane protein assembly factor BamA n=1 ...   143   5e-32
+UniRef90_A0A0M4R685 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_G2E5G9 Outer membrane protein assembly factor BamA n=2 ...   143   5e-32
+UniRef90_UPI0009A222FB outer membrane protein assembly factor Ba...   143   5e-32
+UniRef90_N2IWF8 Outer membrane protein assembly factor BamA n=4 ...   143   5e-32
+UniRef90_R4Y4P7 Outer membrane protein assembly factor BamA n=22...   143   5e-32
+UniRef90_A0A061CZI9 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_A0A089YK65 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_UPI0007D0B076 outer membrane protein assembly factor Ba...   143   6e-32
+UniRef90_B1KNT5 Outer membrane protein assembly factor BamA n=7 ...   143   6e-32
+UniRef90_A0A094LPS7 Outer membrane protein assembly factor BamA ...   143   6e-32
+UniRef90_A0A0L1MF56 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_J1IS96 Outer membrane protein assembly factor BamA n=4 ...   142   7e-32
+UniRef90_UPI000B8B898E outer membrane protein assembly factor Ba...   142   7e-32
+UniRef90_A0A0F3GBF2 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_G8QPD5 Outer membrane protein assembly factor BamA n=1 ...   142   8e-32
+UniRef90_A0A0B8P6V0 Outer membrane protein assembly factor yaeT ...   142   8e-32
+UniRef90_Q8EGG7 Outer membrane protein assembly factor BamA n=21...   142   9e-32
+UniRef90_A0A176HQW8 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_UPI00048026F4 outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_UPI000648481C outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_UPI000408DCC3 outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_E1SU22 Outer membrane protein assembly factor BamA n=1 ...   142   1e-31
+UniRef90_A0A0K1J5S5 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_A0A0B8P1Z8 Outer membrane protein assembly factor yaeT ...   142   1e-31
+UniRef90_UPI00046E8D9B outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_UPI000478F4C4 outer membrane protein assembly factor Ba...   141   1e-31
+UniRef90_F8H4K6 Outer membrane protein assembly factor BamA n=48...   141   1e-31
+UniRef90_A0A0K1XBT3 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A0S6Z035 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A0P9WRU4 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A0P9RGR4 OMP85 family outer membrane protein n=4 Tax=...   141   1e-31
+UniRef90_A0A1Z4VSR9 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_K2KDN5 Outer membrane protein assembly factor BamA n=1 ...   141   1e-31
+UniRef90_C6WVW7 Outer membrane protein assembly factor BamA n=3 ...   141   1e-31
+UniRef90_A0A0G9H7M1 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_I4WNP1 Outer membrane protein assembly factor BamA n=10...   141   2e-31
+UniRef90_UPI000489A1CA outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A1G1AYU4 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_Q5NZG7 Outer membrane protein assembly factor BamA n=2 ...   141   2e-31
+UniRef90_E6WRL9 Outer membrane protein assembly factor BamA n=4 ...   141   2e-31
+UniRef90_H0Q1U8 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_A0A1H7ITS6 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_F9UAI1 Outer membrane protein assembly factor BamA n=4 ...   141   2e-31
+UniRef90_UPI0006CE673C outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A0Q0PD20 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_C4K441 Outer membrane protein assembly factor BamA n=3 ...   141   2e-31
+UniRef90_S9ZK79 Outer membrane protein assembly factor BamA n=5 ...   141   2e-31
+UniRef90_UPI000406F3E3 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_W0TMN8 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_A0A1J5TA65 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_C6XDM3 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_A0A0Q6BR65 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI0008D6E28F outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A095TTF3 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_F5RAD1 Outer membrane protein assembly factor BamA n=4 ...   140   3e-31
+UniRef90_A0A1M5YFT8 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1E2V1L7 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_W1DIJ7 Outer membrane protein assembly factor YaeT n=3 ...   140   3e-31
+UniRef90_UPI000B5B1F7D outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A0Q9Q6G3 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A0M4R342 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A0A2WKK6 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI000406321F outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_D7DI18 Outer membrane protein assembly factor BamA n=1 ...   140   3e-31
+UniRef90_UPI000B3ECC5E outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A0C3REH7 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI00089070C8 outer membrane protein assembly factor Ba...   140   4e-31
+UniRef90_A0A1H1X732 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_L8D1Y3 Outer membrane protein assembly factor BamA n=1 ...   140   4e-31
+UniRef90_A0A075K5V2 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A1V3PW67 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A0R0CHU0 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A0Q8FID8 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A1X0Z4H1 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_J2YH14 Outer membrane protein assembly factor BamA n=1 ...   140   4e-31
+UniRef90_A0A1G1AP52 Outer membrane protein assembly factor BamA ...   139   4e-31
+UniRef90_UPI0005D40A47 outer membrane protein assembly factor Ba...   139   4e-31
+UniRef90_A0A1X7AHX1 Outer membrane protein assembly factor BamA ...   139   4e-31
+UniRef90_UPI00082DD4CA outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_UPI000B35D31A outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_A0A1H1T5L6 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A136GPF8 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_A0A011QJS7 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_A0A1K1M4W3 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A3QG95 Outer membrane protein assembly factor BamA n=5 ...   139   7e-31
+UniRef90_UPI00066FD139 outer membrane protein assembly factor Ba...   139   7e-31
+UniRef90_U2ZNS3 Outer membrane protein assembly factor BamA n=5 ...   139   7e-31
+UniRef90_UPI0004650FB0 outer membrane protein assembly factor Ba...   139   7e-31
+UniRef90_A0A1Y5GJ86 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A1G0K118 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_UPI0008CA6332 outer membrane protein assembly factor Ba...   139   7e-31
+UniRef90_A0A1J5BKV1 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_W0E259 Outer membrane protein assembly factor BamA n=2 ...   139   7e-31
+UniRef90_A0A0U3AXQ5 Outer membrane protein assembly factor BamA ...   139   8e-31
+UniRef90_UPI0003B6457C outer membrane protein assembly factor Ba...   139   8e-31
+UniRef90_Q085D4 Outer membrane protein assembly factor BamA n=3 ...   139   8e-31
+UniRef90_A0A1E4K3K1 Outer membrane protein assembly factor BamA ...   139   8e-31
+UniRef90_K6X148 Outer membrane protein assembly factor BamA n=1 ...   139   8e-31
+UniRef90_Y0KGG3 Outer membrane protein assembly factor BamA n=3 ...   139   9e-31
+UniRef90_UPI0009E9565C outer membrane protein assembly factor Ba...   139   9e-31
+UniRef90_A0A1Q4BNB2 Outer membrane protein assembly factor BamA ...   139   9e-31
+UniRef90_A0A1I7Y4V1 Uncharacterized protein n=1 Tax=Steinernema ...   139   9e-31
+UniRef90_UPI0008D1289F outer membrane protein assembly factor Ba...   139   9e-31
+UniRef90_UPI0000E0E5EB outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_UPI00048A2931 outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_V2UQG0 Outer membrane protein assembly factor BamA n=3 ...   138   1e-30
+UniRef90_A0A1T2L7V8 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_D5BVW9 Outer membrane protein assembly factor BamA n=1 ...   138   1e-30
+UniRef90_UPI000B8C466E outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_D3RV42 Outer membrane protein assembly factor BamA n=1 ...   138   1e-30
+UniRef90_UPI000406EDBB outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_A0A095SEZ3 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_H5TB72 Outer membrane protein assembly factor BamA n=1 ...   138   1e-30
+UniRef90_A0A0M1JID5 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A0Q0BEB7 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_UPI00042A1A1F outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_UPI00037BDAE2 outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_UPI0009E66FC9 outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_A0A161J226 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_I3YCF3 Outer membrane protein assembly factor BamA n=1 ...   138   1e-30
+UniRef90_A0A1G3Y331 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_UPI0008E50D0F outer membrane protein assembly factor Ba...   138   2e-30
+UniRef90_Q12NX9 Outer membrane protein assembly factor BamA n=1 ...   138   2e-30
+UniRef90_A0A0B2D9P0 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_J2WFY0 Outer membrane protein/protective antigen OMA87 ...   138   2e-30
+UniRef90_A0A1A9T4S4 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_UPI000883ECD1 outer membrane protein assembly factor Ba...   138   2e-30
+UniRef90_UPI0008CA6824 outer membrane protein assembly factor Ba...   138   2e-30
+UniRef90_A0A1M5GUA8 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_UPI0003633AF5 outer membrane protein assembly factor Ba...   138   2e-30
+UniRef90_UPI00036D7A56 outer membrane protein assembly factor Ba...   138   2e-30
+UniRef90_UPI0008E42A7F outer membrane protein assembly factor Ba...   138   2e-30
+UniRef90_A0A1E4Q0G1 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_UPI000A61FED2 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_UPI0008374A11 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_E1VNL9 Outer membrane protein assembly factor BamA n=1 ...   137   2e-30
+UniRef90_J3YSN3 Outer membrane protein assembly factor BamA n=1 ...   137   2e-30
+UniRef90_UPI0008E150A9 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_UPI0006859D6D outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_Q1H147 Outer membrane protein assembly factor BamA n=2 ...   137   3e-30
+UniRef90_A0A1E4NEI5 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_T1AWA8 Outer membrane protein assembly complex, YaeT pr...   137   3e-30
+UniRef90_A0A165S428 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1M4WU90 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A0S2K3W3 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1E8FE60 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1E2ZDY4 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1I4S6F9 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1I5A4Y8 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_Q0VQE9 Outer membrane protein assembly factor BamA n=3 ...   137   3e-30
+UniRef90_A0A0A0M7X3 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1M7CF64 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_UPI000B3CA645 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A0S8F585 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A0P9PGI7 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1B3WB40 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_UPI0008760D48 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A1H2GT01 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1Q4EFS9 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_V4IW07 Outer membrane protein assembly factor BamA n=1 ...   137   3e-30
+UniRef90_A4ACZ5 Outer membrane protein assembly factor BamA n=3 ...   137   3e-30
+UniRef90_A0A148KMJ8 Outer membrane protein assembly factor BamA ...   137   4e-30
+UniRef90_A0A1A8XVU0 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A0A1V3NQD5 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A0A0N1KNM2 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A0A0U3I4H3 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A0A0S8A5W3 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A0A1E7DG33 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A0A0F7KBS1 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_G4QI13 Outer membrane protein assembly factor BamA n=2 ...   136   4e-30
+UniRef90_A0A0F2P1F6 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_I4W9F3 Outer membrane protein assembly factor BamA n=2 ...   136   5e-30
+UniRef90_A0A1G3GHY7 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_A0A1Q2SLV8 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_G7UPI1 Outer membrane protein assembly factor BamA n=1 ...   136   5e-30
+UniRef90_A0A090IHG3 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_A0A1H2EDE4 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_A0A142BBM4 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_A0A0G3G1W6 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_I4VZD7 Outer membrane protein assembly factor BamA n=3 ...   136   5e-30
+UniRef90_A0A143HKG5 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_B7RSL8 Outer membrane protein assembly factor BamA n=1 ...   136   5e-30
+UniRef90_L7HMX2 Outer membrane protein assembly factor BamA n=5 ...   136   5e-30
+UniRef90_A0A1L5Z590 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A1E7Z694 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_B8GQ58 Outer membrane protein assembly factor BamA n=2 ...   136   6e-30
+UniRef90_A0A1V0B021 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A139SUM9 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0YE75 Outer membrane protein assembly factor BamA n=1 ...   136   6e-30
+UniRef90_A0A0F4PPU9 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A1Q3VI26 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A1E4NPT0 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A1Q2M613 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_A0A1T2KWA4 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_L0WG32 Outer membrane protein assembly factor BamA n=2 ...   136   7e-30
+UniRef90_A0A0D0RYE2 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_N6VTF6 Outer membrane protein assembly factor BamA n=2 ...   136   7e-30
+UniRef90_A0A1D2SJ30 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_UPI000484EBD5 outer membrane protein assembly factor Ba...   136   7e-30
+UniRef90_Q3JCW7 Outer membrane protein assembly factor BamA n=4 ...   136   8e-30
+UniRef90_UPI0004206B96 outer membrane protein assembly factor Ba...   136   8e-30
+UniRef90_A0A0A0F6R9 Outer membrane protein assembly factor BamA ...   136   8e-30
+UniRef90_A0A1Y6D779 Outer membrane protein assembly factor BamA ...   136   8e-30
+UniRef90_UPI0004906B37 outer membrane protein assembly factor Ba...   136   8e-30
+UniRef90_Q5R0Z1 Outer membrane protein assembly factor BamA n=2 ...   135   8e-30
+UniRef90_Q0AEI2 Outer membrane protein assembly factor BamA n=5 ...   135   8e-30
+UniRef90_Q2YB99 Outer membrane protein assembly factor BamA n=6 ...   135   8e-30
+UniRef90_A0A1F4DLR1 Outer membrane protein assembly factor BamA ...   135   8e-30
+UniRef90_A0A1F6UNX4 Outer membrane protein assembly factor BamA ...   135   9e-30
+UniRef90_UPI0008BD0A0E outer membrane protein assembly factor Ba...   135   9e-30
+UniRef90_UPI0008E92DEA outer membrane protein assembly factor Ba...   135   9e-30
+UniRef90_A0A0S8B5C0 Outer membrane protein assembly factor BamA ...   135   9e-30
+UniRef90_A0A0F6AFR5 Outer membrane protein assembly factor BamA ...   135   9e-30
+UniRef90_A0A1E4L5Y9 Outer membrane protein assembly factor BamA ...   135   9e-30
+UniRef90_A0A217EDP1 Beta-barrel assembly machine subunit BamA n=...   135   9e-30
+UniRef90_UPI0004133BA3 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_A0A0B4XKL4 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_W7QHF9 Outer membrane protein assembly factor BamA n=2 ...   135   1e-29
+UniRef90_UPI000463407B outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_A0A1Q3YN03 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A1T5J7V9 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A133XP96 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_UPI00087F4289 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_A0A1C9WBI3 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_UPI000369DA49 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_UPI000A3669E6 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_A0A106BJ07 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_D3SAD8 Outer membrane protein assembly factor BamA n=13...   135   1e-29
+UniRef90_Q604T9 Outer membrane protein assembly factor BamA n=2 ...   135   1e-29
+UniRef90_C7RTY4 Outer membrane protein assembly factor BamA n=2 ...   135   1e-29
+UniRef90_A0A1G0KP38 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A0S2F951 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_W6LYL1 Outer membrane protein assembly factor BamA n=2 ...   135   1e-29
+UniRef90_A0A1V3Q7N8 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A0F7JVF4 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_Q2SBQ5 Outer membrane protein assembly factor BamA n=1 ...   135   1e-29
+UniRef90_A0A1E4Q6W4 Outer membrane protein assembly factor BamA ...   134   1e-29
+UniRef90_UPI0009501EF0 outer membrane protein assembly factor Ba...   134   1e-29
+UniRef90_F3KYQ1 Outer membrane protein assembly factor BamA n=1 ...   134   1e-29
+UniRef90_A0A0P7DUM2 Outer membrane protein assembly factor BamA ...   134   1e-29
+UniRef90_G3ADQ2 Outer membrane protein assembly factor BamA n=1 ...   134   2e-29
+UniRef90_A0A148N4S8 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A078MHD1 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_R4YL72 Outer membrane protein assembly factor BamA n=1 ...   134   2e-29
+UniRef90_A0A011RNL7 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1J5N4L7 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1G0IDD3 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1E7REL8 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A0C5J8E9 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_UPI00035C193C outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_K4KWG8 Outer membrane protein assembly factor BamA n=1 ...   134   2e-29
+UniRef90_UPI0008EB30EF outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_Q3SF00 Outer membrane protein assembly factor BamA n=2 ...   134   2e-29
+UniRef90_UPI000372C36F outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_A0A1B4XGK7 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1Y5CUE0 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_UPI0009708C41 outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_UPI000A02BB4D outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_UPI00046344E4 outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_K6ZXZ7 Outer membrane protein assembly factor BamA n=6 ...   134   2e-29
+UniRef90_A0A1G3HDP7 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A139C3F4 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A023Y5H6 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1X9ND67 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A166VWU7 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1G0QCP4 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_UPI00037107B9 outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_A0A094IUR8 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_A0A1F6U092 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_UPI0003A06FA8 outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_A0A1F4FI82 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_UPI000367A81D outer membrane protein assembly factor Ba...   134   3e-29
+UniRef90_A0A0W1SCY8 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_A0A1V2DTQ9 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_A0A1Z9BWI0 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_A0A094IX53 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_W0SGI3 Outer membrane protein assembly factor BamA n=2 ...   134   3e-29
+UniRef90_A0A1F6T989 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_A0A099KMD3 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_G4E459 Outer membrane protein assembly factor BamA n=1 ...   134   3e-29
+UniRef90_A0A1E4L0T7 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_A0A081KD51 Outer membrane protein assembly factor BamA ...   134   3e-29
+UniRef90_Q3IIY2 Outer membrane protein assembly factor BamA n=68...   134   3e-29
+UniRef90_M5E5T5 Outer membrane protein assembly factor BamA n=4 ...   134   3e-29
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1N6FC14 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A0E3Z2J9 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_UPI0009A4AD88 outer membrane protein assembly factor Ba...   136   7e-30
+UniRef90_A0A0H1ASH8 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A0Q7PYK2 Outer membrane protein assembly factor BamA ...   134   1e-29
+UniRef90_A0A0A0F3U6 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_F8GDJ3 Outer membrane protein assembly factor BamA n=1 ...   134   2e-29
+UniRef90_UPI00089BC1EF outer membrane protein assembly factor Ba...   134   2e-29
+
+>UniRef90_H2J1R2 Outer membrane protein assembly factor BamA n=4 Tax=Rahnella
+           TaxID=34037 RepID=H2J1R2_RAHAC
+          Length = 807
+
+ Score =  159 bits (404), Expect = 6e-37,   Method: Composition-based stats.
+ Identities = 73/83 (87%), Positives = 81/83 (97%)
+
+Query: 1   PTIASITFSGNKSVKDDMLKQNLEASGVRVGESLDRTTIADIEKGLEDFYYSVGKYSASV 60
+           PTIASITFSGNK++KD+ML+QNLEASG+RVGE+LDRTTI+ IEKGLEDFYYSVGKYSASV
+Sbjct: 92  PTIASITFSGNKAIKDEMLQQNLEASGIRVGEALDRTTISSIEKGLEDFYYSVGKYSASV 151
+
+Query: 61  KAVVTPLPRNRVDLKLVFQEGVS 83
+           KAVVTPLPRNRVD+KLVF EGVS
+Sbjct: 152 KAVVTPLPRNRVDVKLVFTEGVS 174
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_S6BWU5 Outer membrane protein assembly factor BamA n=2 ...   152   7e-35
+UniRef90_L0GUB4 Outer membrane protein assembly factor BamA n=1 ...   152   8e-35
+UniRef90_G8QPD5 Outer membrane protein assembly factor BamA n=1 ...   151   2e-34
+UniRef90_UPI0009911E4D outer membrane protein assembly factor Ba...   151   2e-34
+UniRef90_C5B7R5 Outer membrane protein assembly factor BamA n=13...   149   5e-34
+UniRef90_A1K6R3 Outer membrane protein assembly factor BamA n=2 ...   149   5e-34
+UniRef90_H2J1R2 Outer membrane protein assembly factor BamA n=4 ...   149   6e-34
+UniRef90_A0A0B7JA99 Outer membrane protein assembly factor BamA ...   149   8e-34
+UniRef90_G2DAH7 Outer membrane protein assembly factor BamA n=3 ...   149   9e-34
+UniRef90_A0A085GNH0 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A1C3DVK1 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A0F3LRH8 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A0T7D4D9 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A1J5QQ22 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A1Z4VSR9 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A087IPK1 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A1S8YLA8 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_UPI000363ED32 outer membrane protein assembly factor Ba...   148   2e-33
+UniRef90_UPI00093422DE outer membrane protein assembly factor Ba...   148   2e-33
+UniRef90_A0A066TBZ2 Outer membrane protein assembly factor BamA ...   148   2e-33
+UniRef90_K5TW27 Outer membrane protein assembly factor BamA n=95...   148   2e-33
+UniRef90_E0SCD7 Outer membrane protein assembly factor BamA n=25...   147   2e-33
+UniRef90_N6XKB2 Outer membrane protein assembly factor BamA n=1 ...   147   2e-33
+UniRef90_A0A127MV84 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_A0A0K1J5S5 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_A0A1W9NJX0 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_UPI0006CE673C outer membrane protein assembly factor Ba...   147   3e-33
+UniRef90_E3BLL6 Outer membrane protein assembly factor BamA n=1 ...   147   3e-33
+UniRef90_A6BBF4 Surface antigen n=1 Tax=Vibrio parahaemolyticus ...   147   3e-33
+UniRef90_U3CBX6 Outer membrane protein assembly factor BamA n=2 ...   147   3e-33
+UniRef90_M4WW27 Outer membrane protein assembly factor BamA n=18...   147   3e-33
+UniRef90_A0A085G5W6 Outer membrane protein assembly factor BamA ...   147   3e-33
+UniRef90_F9T5K8 Outer membrane protein assembly factor BamA n=10...   147   3e-33
+UniRef90_E6WK30 Outer membrane protein assembly factor BamA n=2 ...   147   3e-33
+UniRef90_L8J606 Outer membrane protein assembly factor BamA n=3 ...   147   3e-33
+UniRef90_UPI0008898C83 outer membrane protein assembly factor Ba...   147   4e-33
+UniRef90_A0A011QJS7 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_A0A0F5ARV8 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_A0A1N6FC14 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_D5CHY0 Outer membrane protein assembly factor BamA n=82...   146   4e-33
+UniRef90_A0A1B9MNU3 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_H0Q1U8 Outer membrane protein assembly factor BamA n=1 ...   146   4e-33
+UniRef90_A0A084A4C5 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_J2V5K7 Outer membrane protein assembly factor BamA n=2 ...   146   5e-33
+UniRef90_S9ZK79 Outer membrane protein assembly factor BamA n=5 ...   146   5e-33
+UniRef90_A8GID8 Outer membrane protein assembly factor BamA n=57...   146   5e-33
+UniRef90_B2VE18 Outer membrane protein assembly factor BamA n=12...   146   5e-33
+UniRef90_A0A1B9JRB7 Outer membrane protein assembly factor BamA ...   146   5e-33
+UniRef90_Q5NZG7 Outer membrane protein assembly factor BamA n=2 ...   146   5e-33
+UniRef90_W1ILJ4 Outer membrane protein assembly factor BamA n=3 ...   146   5e-33
+UniRef90_A7FFH7 Outer membrane protein assembly factor BamA n=81...   146   5e-33
+UniRef90_A7MGT7 Outer membrane protein assembly factor BamA n=70...   146   5e-33
+UniRef90_C6CBY7 Outer membrane protein assembly factor BamA n=1 ...   146   5e-33
+UniRef90_A0A1V9DR56 Outer membrane protein assembly factor BamA ...   146   6e-33
+UniRef90_A4SQH4 Outer membrane protein assembly factor BamA n=46...   146   6e-33
+UniRef90_UPI000988FFED outer membrane protein assembly factor Ba...   146   6e-33
+UniRef90_I4N2Q8 Outer membrane protein assembly factor BamA n=3 ...   146   6e-33
+UniRef90_A0A1H3WEF4 Outer membrane protein assembly factor BamA ...   146   6e-33
+UniRef90_A0A0W8JDV1 Outer membrane protein assembly factor BamA ...   146   6e-33
+UniRef90_A0A1A9NNM4 Outer membrane protein assembly factor BamA ...   146   6e-33
+UniRef90_A4W6S2 Outer membrane protein assembly factor BamA n=12...   146   6e-33
+UniRef90_I2BCJ7 Outer membrane protein assembly factor BamA n=1 ...   146   7e-33
+UniRef90_A0A1D7PAY2 Outer membrane protein assembly factor BamA ...   146   7e-33
+UniRef90_A0A0A0STX4 Outer membrane protein assembly factor BamA ...   146   7e-33
+UniRef90_A0A1C0A025 Outer membrane protein assembly factor BamA ...   146   7e-33
+UniRef90_G8Q7I8 Outer membrane protein assembly factor BamA n=20...   146   7e-33
+UniRef90_H8Z810 Outer membrane protein assembly factor BamA n=1 ...   146   7e-33
+UniRef90_A0A085HMX3 Outer membrane protein assembly factor BamA ...   146   7e-33
+UniRef90_C3JZJ2 Outer membrane protein assembly factor BamA n=23...   146   7e-33
+UniRef90_X2H6V3 Outer membrane protein assembly factor BamA n=11...   146   8e-33
+UniRef90_Q88HI4 Outer membrane protein assembly factor BamA n=54...   146   8e-33
+UniRef90_E6WRL9 Outer membrane protein assembly factor BamA n=4 ...   146   8e-33
+UniRef90_B4F262 Outer membrane protein assembly factor BamA n=26...   145   8e-33
+UniRef90_F0LUJ1 Outer membrane protein assembly factor BamA n=8 ...   145   8e-33
+UniRef90_A0A1T2L7V8 Outer membrane protein assembly factor BamA ...   145   8e-33
+UniRef90_A0A085JJR4 Outer membrane protein assembly factor BamA ...   145   9e-33
+UniRef90_A0A0J9BLJ8 Outer membrane protein assembly protein YaeT...   145   9e-33
+UniRef90_V3V9E3 Outer membrane protein assembly factor BamA n=1 ...   145   9e-33
+UniRef90_G2E5G9 Outer membrane protein assembly factor BamA n=2 ...   145   9e-33
+UniRef90_A0A071LWM9 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_A0A0M2KDR4 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_F5RAD1 Outer membrane protein assembly factor BamA n=4 ...   145   1e-32
+UniRef90_UPI000478F4C4 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_UPI00089070C8 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_UPI0009A4AD88 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_A0A1J5BKV1 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_A0A0J1GIL4 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_UPI000420F9DA outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_A6V1E0 Outer membrane protein assembly factor BamA n=77...   145   1e-32
+UniRef90_W0LAA0 Outer membrane protein assembly factor BamA n=2 ...   145   1e-32
+UniRef90_UPI00087F8FE7 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_UPI0008CA6332 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_Q88MH2 Outer membrane protein assembly factor BamA n=21...   145   1e-32
+UniRef90_A0A0A2WKK6 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_W0TMN8 Outer membrane protein assembly factor BamA n=1 ...   145   1e-32
+UniRef90_B1JBQ2 Outer membrane protein assembly factor BamA n=74...   145   1e-32
+UniRef90_UPI0005AA1ABC outer membrane protein assembly factor Ba...   144   1e-32
+UniRef90_E6WNK5 Outer membrane protein assembly factor BamA n=1 ...   144   1e-32
+UniRef90_F2P5T1 Outer membrane protein assembly factor BamA n=12...   144   1e-32
+UniRef90_A0A0J5FSC6 Outer membrane protein assembly factor BamA ...   144   1e-32
+UniRef90_A0A1K1M4W3 Outer membrane protein assembly factor BamA ...   144   1e-32
+UniRef90_UPI0004765651 outer membrane protein assembly factor Ba...   144   2e-32
+UniRef90_A0A0F5V8J7 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A1B9K845 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_UPI0004AFD240 outer membrane protein assembly factor Ba...   144   2e-32
+UniRef90_A0A0G9H7M1 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A1Q4BNB2 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A1S2B650 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A0H5XQU2 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A1E7Z115 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A1A8XVU0 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_UPI0008E50D0F outer membrane protein assembly factor Ba...   144   2e-32
+UniRef90_E1SDY5 Outer membrane protein assembly factor BamA n=55...   144   2e-32
+UniRef90_A0A1G1AYU4 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A0S2SP22 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A0T6UWM4 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A0R4FQL7 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A0C3REH7 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_C6WVW7 Outer membrane protein assembly factor BamA n=3 ...   144   2e-32
+UniRef90_U4E3F3 Outer membrane protein assembly factor BamA n=6 ...   144   2e-32
+UniRef90_A0A0Q6BR65 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_F6ACE0 Outer membrane protein assembly factor BamA n=15...   144   2e-32
+UniRef90_A0A142E7H0 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A0D5WQ59 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A1G3E2J6 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_UPI0005A80DF1 outer membrane protein assembly factor Ba...   144   2e-32
+UniRef90_A0A0Q8FID8 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_I4N8Q1 Outer membrane protein assembly factor BamA n=2 ...   144   2e-32
+UniRef90_A0A0C5WMT7 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_C1DST8 Outer membrane protein assembly factor BamA n=7 ...   144   2e-32
+UniRef90_U2ZJF4 Outer membrane protein assembly factor BamA n=1 ...   144   2e-32
+UniRef90_F9UAI1 Outer membrane protein assembly factor BamA n=4 ...   144   2e-32
+UniRef90_A0A067A778 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A1B9R159 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_S6AVH7 Outer membrane protein assembly factor BamA n=18...   144   2e-32
+UniRef90_Q9S341 Outer membrane protein assembly factor BamA n=19...   144   2e-32
+UniRef90_Q6LN32 Outer membrane protein assembly factor BamA n=2 ...   144   2e-32
+UniRef90_I4WNP1 Outer membrane protein assembly factor BamA n=10...   144   3e-32
+UniRef90_A0A0M0TBX4 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_Q2NRL5 Outer membrane protein assembly factor BamA n=6 ...   144   3e-32
+UniRef90_A0A068R5W3 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_A0A098SU46 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_Q6D8D5 Outer membrane protein assembly factor BamA n=30...   144   3e-32
+UniRef90_UPI00083883ED outer membrane protein assembly factor Ba...   144   3e-32
+UniRef90_A0A0J8VA58 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_A0A1N6MTF8 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_A0A1E2V1L7 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_UPI000B35AB31 outer membrane protein assembly factor Ba...   144   3e-32
+UniRef90_A0A1A9AZ62 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_A0A1N6WF61 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_A0A1Y1R0D3 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_Q4KHG8 Outer membrane protein assembly factor BamA n=33...   143   3e-32
+UniRef90_A0A1C7Z9Y2 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_UPI00058E5A50 outer membrane protein assembly factor Ba...   143   3e-32
+UniRef90_A0A0H2QE38 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_UPI000648481C outer membrane protein assembly factor Ba...   143   3e-32
+UniRef90_A0A1I4S6F9 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_A0A1E5XDK5 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_C6XDM3 Outer membrane protein assembly factor BamA n=1 ...   143   4e-32
+UniRef90_A0A0G3CQR7 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A1J5TA65 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A0P9WRU4 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_UPI0007D0B076 outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_A0A0U5L3I7 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A095T163 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_C9P318 Outer membrane protein assembly factor BamA n=4 ...   143   4e-32
+UniRef90_A0A089YK65 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_I0QP41 Outer membrane protein assembly factor BamA n=5 ...   143   4e-32
+UniRef90_K2JF27 Outer membrane protein assembly factor BamA n=2 ...   143   4e-32
+UniRef90_UPI00089A6C10 outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_A0A0L1MF56 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A0F7KBS1 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_B8KCL3 Outer membrane protein assembly factor BamA n=7 ...   143   5e-32
+UniRef90_C0ASX4 Surface antigen variable number repeat protein n...   143   5e-32
+UniRef90_D7DI18 Outer membrane protein assembly factor BamA n=1 ...   143   5e-32
+UniRef90_UPI000490CB43 outer membrane protein assembly factor Ba...   143   5e-32
+UniRef90_A0A1G3Y331 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_A0A0P9RGR4 OMP85 family outer membrane protein n=4 Tax=...   143   5e-32
+UniRef90_A0A0M4R685 Outer membrane protein assembly factor BamA ...   142   5e-32
+UniRef90_A0A0R0CHU0 Outer membrane protein assembly factor BamA ...   142   5e-32
+UniRef90_J1IS96 Outer membrane protein assembly factor BamA n=4 ...   142   5e-32
+UniRef90_A0A1E4NEI5 Outer membrane protein assembly factor BamA ...   142   6e-32
+UniRef90_UPI0005BB8A62 outer membrane protein assembly factor Ba...   142   6e-32
+UniRef90_I3V4Y4 Surface antigen n=1 Tax=Pseudomonas putida ND6 T...   142   6e-32
+UniRef90_A0A0L7YW17 Outer membrane protein assembly factor BamA ...   142   6e-32
+UniRef90_UPI000578045D outer membrane protein assembly factor Ba...   142   6e-32
+UniRef90_UPI00058DAA89 outer membrane protein assembly factor Ba...   142   6e-32
+UniRef90_J7TNX3 Outer membrane protein assembly factor BamA n=13...   142   7e-32
+UniRef90_A6D8P4 Outer membrane protein assembly factor BamA n=7 ...   142   7e-32
+UniRef90_UPI000406EDBB outer membrane protein assembly factor Ba...   142   7e-32
+UniRef90_A0A1G3E520 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_UPI0009A222FB outer membrane protein assembly factor Ba...   142   7e-32
+UniRef90_A0A1I5A4Y8 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_UPI0004650FB0 outer membrane protein assembly factor Ba...   142   7e-32
+UniRef90_UPI0003753B42 outer membrane protein assembly factor Ba...   142   8e-32
+UniRef90_A0A0Q9Q6G3 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_A0A075K5V2 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_UPI000B81B963 outer membrane protein assembly factor Ba...   142   8e-32
+UniRef90_A0A090S2C6 Outer membrane protein assembly factor YaeT ...   142   8e-32
+UniRef90_A0A080K6K9 Outer membrane protein/protective antigen OM...   142   8e-32
+UniRef90_A0A176HQW8 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_UPI0008E92DEA outer membrane protein assembly factor Ba...   142   8e-32
+UniRef90_A0A0U4WF68 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_A0A1E5CYN4 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_A0A0A1E9R6 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_H2FXL1 Outer membrane protein assembly factor BamA n=3 ...   142   9e-32
+UniRef90_Z2EIA2 Outer membrane assembly complex, YaeT protein (F...   142   9e-32
+UniRef90_A0A1E4Q0G1 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_A0A1G1AP52 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_UPI000B8B898E outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_A0A090SWM1 Outer membrane protein assembly factor YaeT ...   142   1e-31
+UniRef90_A0A0S6Z035 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_C4L856 Outer membrane protein assembly factor BamA n=2 ...   142   1e-31
+UniRef90_A0A061CZI9 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_UPI0004133BA3 outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_A0A1H7ITS6 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_UPI00048026F4 outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_W0E259 Outer membrane protein assembly factor BamA n=2 ...   142   1e-31
+UniRef90_UPI0008D1289F outer membrane protein assembly factor Ba...   141   1e-31
+UniRef90_UPI00036D7A56 outer membrane protein assembly factor Ba...   141   1e-31
+UniRef90_Q0AEI2 Outer membrane protein assembly factor BamA n=5 ...   141   1e-31
+UniRef90_A0A1G0K118 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A1H5SRM0 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_Q1H147 Outer membrane protein assembly factor BamA n=2 ...   141   1e-31
+UniRef90_C7RTY4 Outer membrane protein assembly factor BamA n=2 ...   141   1e-31
+UniRef90_UPI00067F708D outer membrane protein assembly factor Ba...   141   1e-31
+UniRef90_UPI00066FD139 outer membrane protein assembly factor Ba...   141   1e-31
+UniRef90_F8GDJ3 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_A0A1Q4EFS9 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A0K1XBT3 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI000883ECD1 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A0F3GBF2 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A0M0HKD3 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1M7CF64 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1V3PW67 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_Q2YB99 Outer membrane protein assembly factor BamA n=6 ...   141   2e-31
+UniRef90_A0A1Q2SLV8 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1E2ZDY4 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1A9T4S4 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI000932F8C4 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A1Q9HNH8 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A0M4R342 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_T1AWA8 Outer membrane protein assembly complex, YaeT pr...   141   2e-31
+UniRef90_UPI00087F4289 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A090RBN3 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_S6ACC0 Outer membrane protein assembly factor BamA n=2 ...   141   2e-31
+UniRef90_UPI0006859D6D outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_I3YCF3 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_A0A133XP96 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1X7AHX1 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI00098346A4 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_K0C9K2 Outer membrane protein assembly factor BamA n=4 ...   141   2e-31
+UniRef90_D3UWG7 Outer membrane protein assembly factor BamA n=16...   141   2e-31
+UniRef90_A0A193KDV5 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_Y0KGG3 Outer membrane protein assembly factor BamA n=3 ...   141   2e-31
+UniRef90_A0A080K9F7 Outer membrane protein/protective antigen OM...   141   2e-31
+UniRef90_G7UPI1 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_Q5E3E7 Outer membrane protein assembly factor BamA n=16...   141   3e-31
+UniRef90_B2PWD6 Outer membrane protein assembly factor BamA n=17...   141   3e-31
+UniRef90_A0A1E4L5Y9 Outer membrane protein assembly factor BamA ...   141   3e-31
+UniRef90_F8H4K6 Outer membrane protein assembly factor BamA n=48...   140   3e-31
+UniRef90_J2YH14 Outer membrane protein assembly factor BamA n=1 ...   140   3e-31
+UniRef90_D8IU23 Outer membrane protein assembly factor BamA n=17...   140   3e-31
+UniRef90_UPI000408DCC3 outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A1X0Z4H1 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A0A0M7X3 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1M5WGU9 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI00063C9346 outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A0A7S2S1 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1F4DLR1 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI0008EB30EF outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A1G3HDP7 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1B1NLX1 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_D3RV42 Outer membrane protein assembly factor BamA n=1 ...   140   3e-31
+UniRef90_A0A0S8A5W3 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI00089BC1EF outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_UPI0008E42A7F outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_UPI00041E80E2 outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A0S8B5C0 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_N2IWF8 Outer membrane protein assembly factor BamA n=4 ...   140   4e-31
+UniRef90_A0A1E4K3K1 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A1E5E114 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A106BJ07 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_UPI0004906B37 outer membrane protein assembly factor Ba...   140   4e-31
+UniRef90_A0A011RNL7 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_UPI00017543C7 OUTER MEMBRANE PROTEIN ASSEMBLY FACTOR YA...   140   4e-31
+UniRef90_A0A1Y0D2J8 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_W6LYL1 Outer membrane protein assembly factor BamA n=2 ...   140   4e-31
+UniRef90_A0A1B9LDK4 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_W1EYK3 Outer membrane protein assembly factor YaeT n=3 ...   140   4e-31
+UniRef90_D5BVW9 Outer membrane protein assembly factor BamA n=1 ...   140   4e-31
+UniRef90_A0A0C1Y6J5 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A0A0F6R9 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A6SZP3 Outer membrane protein assembly factor BamA n=2 ...   140   4e-31
+UniRef90_A0A1R4B007 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_UPI0003B6457C outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_S0AHF7 Outer membrane protein assembly factor BamA n=11...   139   5e-31
+UniRef90_A0A0M1JID5 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A0S8F585 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A8H6K8 Outer membrane protein assembly factor BamA n=4 ...   139   5e-31
+UniRef90_UPI00089151B3 outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_I4W9F3 Outer membrane protein assembly factor BamA n=2 ...   139   5e-31
+UniRef90_UPI0008D6E28F outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_A0A0Q0BEB7 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_UPI00048A2931 outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_UPI000A61FED2 outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_A0A161J226 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_A0A0D0RYE2 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_A0A1Y0CVD6 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_W1IUL4 Outer membrane protein assembly factor BamA n=2 ...   139   6e-31
+UniRef90_A1S4P8 Outer membrane protein assembly factor BamA n=2 ...   139   7e-31
+UniRef90_A0A1B3WB40 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A1W9KCL8 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A090P687 Outer membrane protein assembly factor YaeT ...   139   7e-31
+UniRef90_UPI0008BD0A0E outer membrane protein assembly factor Ba...   139   7e-31
+UniRef90_UPI000B8C466E outer membrane protein assembly factor Ba...   139   7e-31
+UniRef90_D0ICM5 Outer membrane protein assembly factor BamA n=7 ...   139   7e-31
+UniRef90_A0A135I6G3 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A1H1T5L6 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A1Y5GJ86 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A1I7Y4V1 Uncharacterized protein n=1 Tax=Steinernema ...   139   8e-31
+UniRef90_A0A0F7JVF4 Outer membrane protein assembly factor BamA ...   139   8e-31
+UniRef90_UPI0009E9565C outer membrane protein assembly factor Ba...   139   8e-31
+UniRef90_UPI0005658479 outer membrane protein assembly factor Ba...   139   8e-31
+UniRef90_E0WTD2 Outer membrane protein assembly factor BamA n=2 ...   139   8e-31
+UniRef90_UPI000A3669E6 outer membrane protein assembly factor Ba...   139   8e-31
+UniRef90_A0A0E3Z2J9 Outer membrane protein assembly factor BamA ...   139   8e-31
+UniRef90_Q3SF00 Outer membrane protein assembly factor BamA n=2 ...   139   8e-31
+UniRef90_UPI0009E66FC9 outer membrane protein assembly factor Ba...   139   8e-31
+UniRef90_UPI0008760D48 outer membrane protein assembly factor Ba...   139   8e-31
+UniRef90_A0A1R1I8K3 Outer membrane protein assembly factor BamA ...   139   9e-31
+UniRef90_Q604T9 Outer membrane protein assembly factor BamA n=2 ...   139   9e-31
+UniRef90_A0A1S2THC2 Outer membrane protein assembly factor BamA ...   139   9e-31
+UniRef90_A0A1G0KP38 Outer membrane protein assembly factor BamA ...   139   9e-31
+UniRef90_UPI00040B679C outer membrane protein assembly factor Ba...   139   9e-31
+UniRef90_A0A1E5CJT1 Outer membrane protein assembly factor BamA ...   139   1e-30
+UniRef90_A0A1B4XGK7 Outer membrane protein assembly factor BamA ...   139   1e-30
+UniRef90_A0A0S2F951 Outer membrane protein assembly factor BamA ...   139   1e-30
+UniRef90_A0A1T5J7V9 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1Q3YN03 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1T2KWA4 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A095TTF3 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_J6HGX8 Outer membrane protein assembly factor BamA n=35...   138   1e-30
+UniRef90_A0A0A0F3U6 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1F6U092 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1G0QCP4 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_UPI000423235C outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_A0A1F4DJ18 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1Y6D779 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_UPI0008374A11 outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_A0A1Q3VI26 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1H1X732 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_UPI000372C36F outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_B2I7P2 Outer membrane protein assembly factor BamA n=15...   138   1e-30
+UniRef90_UPI0001889A98 Outer membrane protein assembly factor ya...   138   1e-30
+UniRef90_A0A0H1ASH8 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A0K2BDZ8 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_Q3JCW7 Outer membrane protein assembly factor BamA n=4 ...   138   1e-30
+UniRef90_R9PJ94 Outer membrane protein assembly factor BamA n=1 ...   138   1e-30
+UniRef90_A0A1X1MTN3 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_W0SGI3 Outer membrane protein assembly factor BamA n=2 ...   138   1e-30
+UniRef90_A0A1D2SJ30 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_U2ZNS3 Outer membrane protein assembly factor BamA n=5 ...   138   1e-30
+UniRef90_A9U727 Predicted protein (Fragment) n=1 Tax=Physcomitre...   138   1e-30
+UniRef90_A0A1F4C6X7 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_J2WFY0 Outer membrane protein/protective antigen OMA87 ...   138   1e-30
+UniRef90_A0A1F4DK37 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1F6UNX4 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_UPI000B8BC184 outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_UPI00046E8D9B outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_A0A0P9PGI7 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_B1KNT5 Outer membrane protein assembly factor BamA n=7 ...   138   1e-30
+UniRef90_V4IW07 Outer membrane protein assembly factor BamA n=1 ...   138   1e-30
+UniRef90_UPI00030C38B8 outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_UPI0003633AF5 outer membrane protein assembly factor Ba...   138   2e-30
+UniRef90_A0A1G0NFQ4 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_UPI0004663A1C outer membrane protein assembly factor Ba...   138   2e-30
+UniRef90_UPI0008E150A9 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_I4VZD7 Outer membrane protein assembly factor BamA n=3 ...   137   2e-30
+UniRef90_A0A0C5J8E9 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A1H2GT01 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_UPI000B5B1F7D outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_A0A023Y5H6 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A1C3EI78 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_E1SU22 Outer membrane protein assembly factor BamA n=1 ...   137   2e-30
+UniRef90_Q47F84 Outer membrane protein assembly factor BamA n=2 ...   137   2e-30
+UniRef90_Q8EGG7 Outer membrane protein assembly factor BamA n=21...   137   2e-30
+UniRef90_UPI000B72F941 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_A0A1F4CJM4 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A142BBM4 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_UPI0008AE5CDB outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_UPI000489A1CA outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_UPI000B5173A6 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A0F2P1F6 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_F9ZJC7 Outer membrane protein assembly factor BamA n=3 ...   137   3e-30
+UniRef90_A0A094LPS7 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A148N4S8 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A0B2D9P0 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_UPI000B532723 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_B7RSL8 Outer membrane protein assembly factor BamA n=1 ...   137   3e-30
+UniRef90_I1XHV5 Outer membrane protein assembly factor BamA n=3 ...   137   3e-30
+UniRef90_A0A095SEZ3 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A136GPF8 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1F4FI82 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_W6M706 Outer membrane protein assembly factor BamA n=2 ...   137   3e-30
+UniRef90_D2U257 Outer membrane protein assembly factor BamA n=21...   137   3e-30
+UniRef90_A0A1Q4GN76 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A0R0LVY6 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_E1VNL9 Outer membrane protein assembly factor BamA n=1 ...   137   3e-30
+UniRef90_UPI0008EFFB36 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A1L5Z590 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_UPI00067DE2C3 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_UPI00046344E4 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A165S428 Outer membrane protein assembly factor BamA ...   137   4e-30
+UniRef90_A0A181Y2G1 Outer membrane protein assembly factor BamA ...   137   4e-30
+UniRef90_A0A071M043 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_I1YG43 Outer membrane protein assembly factor BamA n=1 ...   136   4e-30
+UniRef90_V2UQG0 Outer membrane protein assembly factor BamA n=3 ...   136   4e-30
+UniRef90_UPI00082DD4CA outer membrane protein assembly factor Ba...   136   4e-30
+UniRef90_A0A1E4Q6W4 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_D2UEF6 Outer membrane protein assembly factor BamA n=3 ...   136   4e-30
+UniRef90_A0A0Q0PD20 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_UPI000369DA49 outer membrane protein assembly factor Ba...   136   4e-30
+UniRef90_A0A1E4NPT0 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_UPI000486DA76 outer membrane protein assembly factor Ba...   136   5e-30
+UniRef90_X0SI19 Uncharacterized protein (Fragment) n=1 Tax=marin...   136   5e-30
+UniRef90_UPI000B35864C outer membrane protein assembly factor Ba...   136   5e-30
+UniRef90_A0A1V3Q7N8 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_A0A1H2EDE4 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_A0A1F3WXY8 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_A0A1G3GHY7 Outer membrane protein assembly factor BamA ...   136   5e-30
+UniRef90_UPI000463407B outer membrane protein assembly factor Ba...   136   6e-30
+UniRef90_A0A1G0EZV5 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A1M4WU90 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A1F4E8U9 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A1Q4F8I5 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A1T4MZX2 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_A0A0Q7PYK2 Outer membrane protein assembly factor BamA ...   136   6e-30
+UniRef90_UPI0006EC0F53 outer membrane protein assembly factor Ba...   136   7e-30
+UniRef90_A0A149W099 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_UPI00047F83A5 outer membrane protein assembly factor Ba...   136   7e-30
+UniRef90_UPI000406321F outer membrane protein assembly factor Ba...   136   7e-30
+UniRef90_A0A1V0LHJ4 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_A4ACZ5 Outer membrane protein assembly factor BamA n=3 ...   136   7e-30
+UniRef90_A0A1U9JKV5 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_A0A0G3LMI4 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_A0A1G4A605 Outer membrane protein assembly factor BamA ...   136   7e-30
+UniRef90_Q0VQE9 Outer membrane protein assembly factor BamA n=3 ...   136   7e-30
+UniRef90_L8D1Y3 Outer membrane protein assembly factor BamA n=1 ...   136   8e-30
+UniRef90_A0A0R0AA90 Outer membrane protein assembly factor BamA ...   136   8e-30
+UniRef90_A0A0B5INW0 Outer membrane protein assembly factor BamA ...   136   8e-30
+UniRef90_A0A1J5SFR1 Outer membrane protein assembly factor BamA ...   136   8e-30
+UniRef90_UPI000824036F outer membrane protein assembly factor Ba...   136   8e-30
+UniRef90_A0A0B8P6V0 Outer membrane protein assembly factor yaeT ...   136   8e-30
+UniRef90_A0A0B8P1Z8 Outer membrane protein assembly factor yaeT ...   136   8e-30
+UniRef90_A0A1Q7WTA9 Outer membrane protein assembly factor BamA ...   136   8e-30
+UniRef90_A0A1G0IDD3 Outer membrane protein assembly factor BamA ...   136   8e-30
+UniRef90_A0YE75 Outer membrane protein assembly factor BamA n=1 ...   136   8e-30
+UniRef90_A0A1F6T989 Outer membrane protein assembly factor BamA ...   136   8e-30
+UniRef90_A0A0S8C921 Outer membrane protein assembly factor BamA ...   135   8e-30
+UniRef90_C3X1F9 Outer membrane protein assembly factor BamA n=2 ...   135   9e-30
+UniRef90_A0A1M5YFT8 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A090BV09 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A0S1B1I4 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_UPI000B87FF24 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_A0A1Q7IR65 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_UPI00042A1A1F outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_UPI0003FE6D70 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_UPI0004DF5A21 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_K2KDN5 Outer membrane protein assembly factor BamA n=1 ...   135   1e-29
+UniRef90_UPI000484EBD5 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_A0A1Q2M613 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_G4T349 Outer membrane protein assembly factor BamA n=2 ...   135   1e-29
+UniRef90_F9ZYC3 Outer membrane protein assembly factor BamA n=1 ...   135   1e-29
+UniRef90_UPI00035C1DE3 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_A0A143HKG5 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A1W9J7T5 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A1X9ND67 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A0F3KRX5 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A1V0B021 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A1P8FPU0 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_UPI000A02BB4D outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_B8GQ58 Outer membrane protein assembly factor BamA n=2 ...   135   1e-29
+UniRef90_A0A1V3NQD5 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_C3X7S0 Outer membrane protein assembly factor BamA n=2 ...   135   1e-29
+UniRef90_A0A1E4L0T7 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_A0A1F4CNZ2 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_UPI0008DFB815 outer membrane protein assembly factor Ba...   135   1e-29
+UniRef90_A0A0U3AXQ5 Outer membrane protein assembly factor BamA ...   135   1e-29
+UniRef90_UPI0008CA6824 outer membrane protein assembly factor Ba...   134   1e-29
+UniRef90_A0A166VWU7 Outer membrane protein assembly factor BamA ...   134   1e-29
+UniRef90_L7HMX2 Outer membrane protein assembly factor BamA n=5 ...   134   1e-29
+UniRef90_A0A127L6H5 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_M7P3P0 Outer membrane protein assembly factor BamA n=1 ...   134   2e-29
+UniRef90_A0A193GG25 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_UPI000406F3E3 outer membrane protein assembly factor Ba...   134   2e-29
+UniRef90_A0A1M4V8Y8 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_D4T7T2 Outer membrane protein assembly factor BamA n=12...   134   2e-29
+UniRef90_A0A147GZX2 Outer membrane protein assembly factor BamA ...   134   2e-29
+UniRef90_UPI0008259FBB outer membrane protein assembly factor Ba...   134   2e-29
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_S6BWU5 Outer membrane protein assembly factor BamA n=2 Tax=endosymbiont of
+           unidentified scaly snail isolate Monju TaxID=1248727
+           RepID=S6BWU5_9GAMM
+          Length = 760
+
+ Score =  152 bits (386), Expect = 7e-35,   Method: Composition-based stats.
+ Identities = 36/83 (43%), Positives = 53/83 (63%)
+
+Query: 1   PTIASITFSGNKSVKDDMLKQNLEASGVRVGESLDRTTIADIEKGLEDFYYSVGKYSASV 60
+           P IA I FSGNKS++ D LK+ L+ +G+  G + +R+ +  IE+ LE  Y++ GKY   +
+Sbjct: 93  PAIAEINFSGNKSIETDALKEGLKDAGLAEGRTFNRSVLDGIERELERQYFNQGKYGVKL 152
+
+Query: 61  KAVVTPLPRNRVDLKLVFQEGVS 83
+           K  VTPL RNRV + +   EG +
+Sbjct: 153 KTTVTPLERNRVAIDIDIVEGET 175
+
+
+
+ Score = 40.9 bits (96), Expect = 0.33,   Method: Composition-based stats.
+ Identities = 20/92 (21%), Positives = 33/92 (35%), Gaps = 16/92 (17%)
+
+Query: 3   IASITFSGNKSVKDDMLKQNLEASGVRVGESLDRTTIA------DIEKGLEDF---YYSV 53
+           I  I   GNK+  ++ L   L+   +  G    R T         +   LE     Y   
+Sbjct: 178 IRGINIVGNKAFDEEDL---LDQFKLSTGGWFSRFTKDDQYSRQKLAGDLETLRSWYLDR 234
+
+Query: 54  GKYSASVKA---VVTPLPRNRVDLKLVFQEGV 82
+           G  +  VK+    +TP  +  + + +   EG 
+Sbjct: 235 GYVNFRVKSTQVTITP-DKKDIYVTINIHEGD 265
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_G8QPD5 Outer membrane protein assembly factor BamA n=1 ...   158   2e-36
+UniRef90_A1K6R3 Outer membrane protein assembly factor BamA n=2 ...   156   7e-36
+UniRef90_L0GUB4 Outer membrane protein assembly factor BamA n=1 ...   154   2e-35
+UniRef90_UPI0009911E4D outer membrane protein assembly factor Ba...   154   3e-35
+UniRef90_S6BWU5 Outer membrane protein assembly factor BamA n=2 ...   153   3e-35
+UniRef90_UPI000363ED32 outer membrane protein assembly factor Ba...   153   4e-35
+UniRef90_A0A0K1J5S5 Outer membrane protein assembly factor BamA ...   153   5e-35
+UniRef90_S9ZK79 Outer membrane protein assembly factor BamA n=5 ...   152   5e-35
+UniRef90_UPI0006CE673C outer membrane protein assembly factor Ba...   152   5e-35
+UniRef90_H0Q1U8 Outer membrane protein assembly factor BamA n=1 ...   152   6e-35
+UniRef90_UPI0009A4AD88 outer membrane protein assembly factor Ba...   152   7e-35
+UniRef90_N6XKB2 Outer membrane protein assembly factor BamA n=1 ...   152   7e-35
+UniRef90_Q5NZG7 Outer membrane protein assembly factor BamA n=2 ...   152   9e-35
+UniRef90_A0A011QJS7 Outer membrane protein assembly factor BamA ...   151   1e-34
+UniRef90_A0A1J5BKV1 Outer membrane protein assembly factor BamA ...   151   1e-34
+UniRef90_F5RAD1 Outer membrane protein assembly factor BamA n=4 ...   151   2e-34
+UniRef90_A0A1N6FC14 Outer membrane protein assembly factor BamA ...   150   3e-34
+UniRef90_G2DAH7 Outer membrane protein assembly factor BamA n=3 ...   150   4e-34
+UniRef90_A0A1A8XVU0 Outer membrane protein assembly factor BamA ...   150   4e-34
+UniRef90_A0A1J5QQ22 Outer membrane protein assembly factor BamA ...   150   4e-34
+UniRef90_A0A1Z4VSR9 Outer membrane protein assembly factor BamA ...   149   4e-34
+UniRef90_A9U727 Predicted protein (Fragment) n=1 Tax=Physcomitre...   149   5e-34
+UniRef90_UPI0008CA6332 outer membrane protein assembly factor Ba...   149   9e-34
+UniRef90_UPI00089070C8 outer membrane protein assembly factor Ba...   148   1e-33
+UniRef90_A0A1K1M4W3 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_A0A1W9NJX0 Outer membrane protein assembly factor BamA ...   148   1e-33
+UniRef90_UPI0004133BA3 outer membrane protein assembly factor Ba...   148   1e-33
+UniRef90_A0A1Q4BNB2 Outer membrane protein assembly factor BamA ...   148   2e-33
+UniRef90_A0A0C1Y6J5 Outer membrane protein assembly factor BamA ...   148   2e-33
+UniRef90_A0A1A9NNM4 Outer membrane protein assembly factor BamA ...   148   2e-33
+UniRef90_UPI0008E50D0F outer membrane protein assembly factor Ba...   147   2e-33
+UniRef90_W0TMN8 Outer membrane protein assembly factor BamA n=1 ...   147   2e-33
+UniRef90_D8IU23 Outer membrane protein assembly factor BamA n=17...   147   2e-33
+UniRef90_A6SZP3 Outer membrane protein assembly factor BamA n=2 ...   147   2e-33
+UniRef90_A0A0Q6BR65 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_A0A1I4S6F9 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_A0A1T2L7V8 Outer membrane protein assembly factor BamA ...   147   2e-33
+UniRef90_E6WRL9 Outer membrane protein assembly factor BamA n=4 ...   147   2e-33
+UniRef90_G2E5G9 Outer membrane protein assembly factor BamA n=2 ...   147   2e-33
+UniRef90_A0A0F7KBS1 Outer membrane protein assembly factor BamA ...   147   3e-33
+UniRef90_S6ACC0 Outer membrane protein assembly factor BamA n=2 ...   147   3e-33
+UniRef90_A0A0C3REH7 Outer membrane protein assembly factor BamA ...   147   3e-33
+UniRef90_UPI000478F4C4 outer membrane protein assembly factor Ba...   147   3e-33
+UniRef90_C7RTY4 Outer membrane protein assembly factor BamA n=2 ...   147   3e-33
+UniRef90_C6WVW7 Outer membrane protein assembly factor BamA n=3 ...   147   4e-33
+UniRef90_H8Z810 Outer membrane protein assembly factor BamA n=1 ...   146   4e-33
+UniRef90_UPI00041E80E2 outer membrane protein assembly factor Ba...   146   4e-33
+UniRef90_A0A1G1AYU4 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_A0A0A2WKK6 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_A0A133XP96 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_A0A1G3Y331 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_A0A1E4NEI5 Outer membrane protein assembly factor BamA ...   146   4e-33
+UniRef90_UPI00030C38B8 outer membrane protein assembly factor Ba...   146   5e-33
+UniRef90_A0A127MV84 Outer membrane protein assembly factor BamA ...   146   5e-33
+UniRef90_F9UAI1 Outer membrane protein assembly factor BamA n=4 ...   146   5e-33
+UniRef90_A0A0B7JA99 Outer membrane protein assembly factor BamA ...   146   6e-33
+UniRef90_UPI0008E92DEA outer membrane protein assembly factor Ba...   146   6e-33
+UniRef90_A0A1E4Q0G1 Outer membrane protein assembly factor BamA ...   146   6e-33
+UniRef90_A0A0S8B5C0 Outer membrane protein assembly factor BamA ...   146   6e-33
+UniRef90_A0A011RNL7 Outer membrane protein assembly factor BamA ...   146   7e-33
+UniRef90_H2J1R2 Outer membrane protein assembly factor BamA n=4 ...   146   7e-33
+UniRef90_A0A0K2BDZ8 Outer membrane protein assembly factor BamA ...   146   7e-33
+UniRef90_C3JZJ2 Outer membrane protein assembly factor BamA n=23...   146   7e-33
+UniRef90_A0A0G9H7M1 Outer membrane protein assembly factor BamA ...   146   7e-33
+UniRef90_M4WW27 Outer membrane protein assembly factor BamA n=18...   146   7e-33
+UniRef90_F8GDJ3 Outer membrane protein assembly factor BamA n=1 ...   146   8e-33
+UniRef90_C5B7R5 Outer membrane protein assembly factor BamA n=13...   146   8e-33
+UniRef90_UPI000648481C outer membrane protein assembly factor Ba...   146   8e-33
+UniRef90_UPI0008898C83 outer membrane protein assembly factor Ba...   146   8e-33
+UniRef90_A0A0Q8FID8 Outer membrane protein assembly factor BamA ...   146   8e-33
+UniRef90_A0A1I5A4Y8 Outer membrane protein assembly factor BamA ...   145   8e-33
+UniRef90_A0A1C3DVK1 Outer membrane protein assembly factor BamA ...   145   8e-33
+UniRef90_Q0AEI2 Outer membrane protein assembly factor BamA n=5 ...   145   8e-33
+UniRef90_A4SQH4 Outer membrane protein assembly factor BamA n=46...   145   9e-33
+UniRef90_A0A1F4DLR1 Outer membrane protein assembly factor BamA ...   145   9e-33
+UniRef90_C6XDM3 Outer membrane protein assembly factor BamA n=1 ...   145   9e-33
+UniRef90_A0A1J5TA65 Outer membrane protein assembly factor BamA ...   145   9e-33
+UniRef90_A0A1G3HDP7 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_A0A1F4DJ18 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_D7DI18 Outer membrane protein assembly factor BamA n=1 ...   145   1e-32
+UniRef90_UPI00087F4289 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_UPI000B532723 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_UPI000B72F941 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_A0A1R1I8K3 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_UPI00089151B3 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_A0A1Q4EFS9 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_A0A0F3LRH8 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_A0A1E2V1L7 Outer membrane protein assembly factor BamA ...   145   1e-32
+UniRef90_UPI00067DE2C3 outer membrane protein assembly factor Ba...   145   1e-32
+UniRef90_Q88HI4 Outer membrane protein assembly factor BamA n=54...   144   1e-32
+UniRef90_A0A1F4DK37 Outer membrane protein assembly factor BamA ...   144   1e-32
+UniRef90_I4N2Q8 Outer membrane protein assembly factor BamA n=3 ...   144   1e-32
+UniRef90_A0A014NM07 Outer membrane protein assembly factor BamA ...   144   1e-32
+UniRef90_A0A085GNH0 Outer membrane protein assembly factor BamA ...   144   1e-32
+UniRef90_Q2YB99 Outer membrane protein assembly factor BamA n=6 ...   144   2e-32
+UniRef90_G8Q7I8 Outer membrane protein assembly factor BamA n=20...   144   2e-32
+UniRef90_A0A1F4C6X7 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_A0A066TBZ2 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_I4WNP1 Outer membrane protein assembly factor BamA n=10...   144   2e-32
+UniRef90_A0A1S8YLA8 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_UPI0006859D6D outer membrane protein assembly factor Ba...   144   2e-32
+UniRef90_K5TW27 Outer membrane protein assembly factor BamA n=95...   144   2e-32
+UniRef90_A0A0T7D4D9 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_Q1H147 Outer membrane protein assembly factor BamA n=2 ...   144   2e-32
+UniRef90_A6V1E0 Outer membrane protein assembly factor BamA n=77...   144   2e-32
+UniRef90_A0A087IPK1 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_Q47F84 Outer membrane protein assembly factor BamA n=2 ...   144   2e-32
+UniRef90_A0A1E4L5Y9 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_Q21WY2 Outer membrane protein assembly factor BamA n=3 ...   144   2e-32
+UniRef90_UPI0008EB30EF outer membrane protein assembly factor Ba...   144   2e-32
+UniRef90_A0A1G1AP52 Outer membrane protein assembly factor BamA ...   144   2e-32
+UniRef90_UPI00089BC1EF outer membrane protein assembly factor Ba...   144   2e-32
+UniRef90_U3CBX6 Outer membrane protein assembly factor BamA n=2 ...   144   2e-32
+UniRef90_Q88MH2 Outer membrane protein assembly factor BamA n=21...   144   2e-32
+UniRef90_A0A1Q2SLV8 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_UPI00093422DE outer membrane protein assembly factor Ba...   144   3e-32
+UniRef90_A6BBF4 Surface antigen n=1 Tax=Vibrio parahaemolyticus ...   144   3e-32
+UniRef90_UPI0004650FB0 outer membrane protein assembly factor Ba...   144   3e-32
+UniRef90_A0A142E7H0 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_UPI000406EDBB outer membrane protein assembly factor Ba...   144   3e-32
+UniRef90_A0A0R0CHU0 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_B1JBQ2 Outer membrane protein assembly factor BamA n=74...   144   3e-32
+UniRef90_E6WK30 Outer membrane protein assembly factor BamA n=2 ...   144   3e-32
+UniRef90_UPI0004765651 outer membrane protein assembly factor Ba...   144   3e-32
+UniRef90_A0A0F5ARV8 Outer membrane protein assembly factor BamA ...   144   3e-32
+UniRef90_A0A147GZX2 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_A0A0W7Z156 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_A0A085G5W6 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_A0A1B9MNU3 Outer membrane protein assembly factor BamA ...   143   3e-32
+UniRef90_E3BLL6 Outer membrane protein assembly factor BamA n=1 ...   143   4e-32
+UniRef90_A0A106BJ07 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_W0E259 Outer membrane protein assembly factor BamA n=2 ...   143   4e-32
+UniRef90_A0A085HMX3 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A1W9KCL8 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_E0SCD7 Outer membrane protein assembly factor BamA n=25...   143   4e-32
+UniRef90_A0A1C6QDI2 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A1Q3YN03 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_L8J606 Outer membrane protein assembly factor BamA n=3 ...   143   4e-32
+UniRef90_UPI0005AA1ABC outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_A0A0T6UWM4 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A1F4CJM4 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_UPI000988FFED outer membrane protein assembly factor Ba...   143   4e-32
+UniRef90_A0A1A9T4S4 Outer membrane protein assembly factor BamA ...   143   4e-32
+UniRef90_A0A0W8JDV1 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_A0A1C7Z9Y2 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_A0A067A778 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_C3X1F9 Outer membrane protein assembly factor BamA n=2 ...   143   5e-32
+UniRef90_W0SGI3 Outer membrane protein assembly factor BamA n=2 ...   143   5e-32
+UniRef90_F6ACE0 Outer membrane protein assembly factor BamA n=15...   143   5e-32
+UniRef90_A0A098SU46 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_A0A1B9JRB7 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_A0A0E9LP44 Outer membrane protein assembly complex, Yae...   143   5e-32
+UniRef90_A0A1G3E2J6 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_A0A0Q9Q6G3 Outer membrane protein assembly factor BamA ...   143   5e-32
+UniRef90_Y0KGG3 Outer membrane protein assembly factor BamA n=3 ...   143   5e-32
+UniRef90_A0A1E2ZDY4 Outer membrane protein assembly factor BamA ...   142   5e-32
+UniRef90_A0A1M7CF64 Outer membrane protein assembly factor BamA ...   142   6e-32
+UniRef90_F9T5K8 Outer membrane protein assembly factor BamA n=10...   142   6e-32
+UniRef90_A0A075K5V2 Outer membrane protein assembly factor BamA ...   142   6e-32
+UniRef90_A9BMM4 Outer membrane protein assembly factor BamA n=11...   142   6e-32
+UniRef90_J2V5K7 Outer membrane protein assembly factor BamA n=2 ...   142   6e-32
+UniRef90_S6AVH7 Outer membrane protein assembly factor BamA n=18...   142   6e-32
+UniRef90_UPI00036D7A56 outer membrane protein assembly factor Ba...   142   6e-32
+UniRef90_UPI0008392BB9 outer membrane protein assembly factor Ba...   142   6e-32
+UniRef90_C3X7S0 Outer membrane protein assembly factor BamA n=2 ...   142   6e-32
+UniRef90_A0A0P9WRU4 Outer membrane protein assembly factor BamA ...   142   6e-32
+UniRef90_UPI0008D1289F outer membrane protein assembly factor Ba...   142   6e-32
+UniRef90_A0A1J5SFR1 Outer membrane protein assembly factor BamA ...   142   6e-32
+UniRef90_UPI000883ECD1 outer membrane protein assembly factor Ba...   142   6e-32
+UniRef90_A0A084A4C5 Outer membrane protein assembly factor BamA ...   142   6e-32
+UniRef90_G7UPI1 Outer membrane protein assembly factor BamA n=1 ...   142   6e-32
+UniRef90_A8GID8 Outer membrane protein assembly factor BamA n=57...   142   6e-32
+UniRef90_A0A0S2SP22 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_C1DST8 Outer membrane protein assembly factor BamA n=7 ...   142   7e-32
+UniRef90_W1ILJ4 Outer membrane protein assembly factor BamA n=3 ...   142   7e-32
+UniRef90_W6LYL1 Outer membrane protein assembly factor BamA n=2 ...   142   7e-32
+UniRef90_I4N8Q1 Outer membrane protein assembly factor BamA n=2 ...   142   7e-32
+UniRef90_A0A1V9DR56 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_UPI0004735634 outer membrane protein assembly factor Ba...   142   7e-32
+UniRef90_UPI000824F53D outer membrane protein assembly factor Ba...   142   7e-32
+UniRef90_A0A1F8VN05 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_Q4KHG8 Outer membrane protein assembly factor BamA n=33...   142   7e-32
+UniRef90_A0A1Y1R0D3 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_I3YCF3 Outer membrane protein assembly factor BamA n=1 ...   142   7e-32
+UniRef90_A0A1D2SJ30 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_A0A0A0M7X3 Outer membrane protein assembly factor BamA ...   142   7e-32
+UniRef90_A0A1F4FI82 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_J1IS96 Outer membrane protein assembly factor BamA n=4 ...   142   8e-32
+UniRef90_T1AWA8 Outer membrane protein assembly complex, YaeT pr...   142   8e-32
+UniRef90_UPI0007D0B076 outer membrane protein assembly factor Ba...   142   8e-32
+UniRef90_A0A0P9RGR4 OMP85 family outer membrane protein n=4 Tax=...   142   8e-32
+UniRef90_D5CHY0 Outer membrane protein assembly factor BamA n=82...   142   8e-32
+UniRef90_A0A1G0QCP4 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_UPI00089A6C10 outer membrane protein assembly factor Ba...   142   8e-32
+UniRef90_A0A1C0A025 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_A0A0Q4YCI9 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_A0A1Q7IR65 Outer membrane protein assembly factor BamA ...   142   8e-32
+UniRef90_A7FFH7 Outer membrane protein assembly factor BamA n=81...   142   9e-32
+UniRef90_A0A0L1MF56 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_Q3SF00 Outer membrane protein assembly factor BamA n=2 ...   142   9e-32
+UniRef90_A0A0S6Z035 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_A0A1E5XDK5 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_A0A1H3WEF4 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_A0A1N6WF61 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_UPI00066FD139 outer membrane protein assembly factor Ba...   142   9e-32
+UniRef90_UPI000423235C outer membrane protein assembly factor Ba...   142   9e-32
+UniRef90_A0A1F4K8Q6 Outer membrane protein assembly factor BamA ...   142   9e-32
+UniRef90_B2VE18 Outer membrane protein assembly factor BamA n=12...   142   9e-32
+UniRef90_UPI00058E5A50 outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_UPI00039EB7A3 outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_A0A1Q7WTA9 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_A0A1G0NFQ4 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_C6CBY7 Outer membrane protein assembly factor BamA n=1 ...   142   1e-31
+UniRef90_UPI0004906B37 outer membrane protein assembly factor Ba...   142   1e-31
+UniRef90_E6V106 Outer membrane protein assembly factor BamA n=3 ...   142   1e-31
+UniRef90_A7MGT7 Outer membrane protein assembly factor BamA n=70...   142   1e-31
+UniRef90_A0A0Q8R5V6 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_A0A1I7HTK3 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_A0A085JJR4 Outer membrane protein assembly factor BamA ...   142   1e-31
+UniRef90_X2H6V3 Outer membrane protein assembly factor BamA n=11...   142   1e-31
+UniRef90_I3V4Y4 Surface antigen n=1 Tax=Pseudomonas putida ND6 T...   142   1e-31
+UniRef90_A0A0A0STX4 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_F2P5T1 Outer membrane protein assembly factor BamA n=12...   141   1e-31
+UniRef90_A0A1D7PAY2 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A0C5J8E9 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A4W6S2 Outer membrane protein assembly factor BamA n=12...   141   1e-31
+UniRef90_I2BCJ7 Outer membrane protein assembly factor BamA n=1 ...   141   1e-31
+UniRef90_A0A0S8A5W3 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A0J9BLJ8 Outer membrane protein assembly protein YaeT...   141   1e-31
+UniRef90_UPI000420F9DA outer membrane protein assembly factor Ba...   141   1e-31
+UniRef90_A0A089YK65 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A176HQW8 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_UPI0005BB8A62 outer membrane protein assembly factor Ba...   141   1e-31
+UniRef90_D5BVW9 Outer membrane protein assembly factor BamA n=1 ...   141   1e-31
+UniRef90_A0A0M2KDR4 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A1W910 Outer membrane protein assembly factor BamA n=13...   141   1e-31
+UniRef90_A0A0F5V8J7 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A0U4WF68 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_UPI000A3669E6 outer membrane protein assembly factor Ba...   141   1e-31
+UniRef90_A0A0M4R685 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_A0A1G0K118 Outer membrane protein assembly factor BamA ...   141   1e-31
+UniRef90_H2FXL1 Outer membrane protein assembly factor BamA n=3 ...   141   1e-31
+UniRef90_A0A0R0LVY6 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI0009A222FB outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A0K1JUS1 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_D3RV42 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_UPI000B8B898E outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_UPI000570FD62 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_K2JF27 Outer membrane protein assembly factor BamA n=2 ...   141   2e-31
+UniRef90_F0LUJ1 Outer membrane protein assembly factor BamA n=8 ...   141   2e-31
+UniRef90_A0A0P9ALK2 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A0J1GIL4 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1H7ITS6 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1B4XGK7 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI000A61FED2 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A1F6U092 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A071LWM9 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI00087F8FE7 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A1G3E520 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_W0LAA0 Outer membrane protein assembly factor BamA n=2 ...   141   2e-31
+UniRef90_A0A1B9K845 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1V3PW67 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1J5CME8 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_V3V9E3 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_A0A0A0F6R9 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1F3WXY8 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI0008BD0A0E outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_UPI0008760D48 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_F9ZJC7 Outer membrane protein assembly factor BamA n=3 ...   141   2e-31
+UniRef90_A0A1Q4GN76 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI00058DAA89 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_B2I7P2 Outer membrane protein assembly factor BamA n=15...   141   2e-31
+UniRef90_UPI0008EFFB36 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A1B3WB40 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A168JY39 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_UPI0008E42A7F outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_E1SDY5 Outer membrane protein assembly factor BamA n=55...   141   2e-31
+UniRef90_UPI0008AE5CDB outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_E6WNK5 Outer membrane protein assembly factor BamA n=1 ...   141   2e-31
+UniRef90_UPI00047F83A5 outer membrane protein assembly factor Ba...   141   2e-31
+UniRef90_A0A1E7Z115 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1G0KP38 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A0F7JVF4 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A0M1JID5 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_A0A1F4E8U9 Outer membrane protein assembly factor BamA ...   141   2e-31
+UniRef90_Q6D8D5 Outer membrane protein assembly factor BamA n=30...   141   2e-31
+UniRef90_I4W9F3 Outer membrane protein assembly factor BamA n=2 ...   141   2e-31
+UniRef90_A0A0J5FSC6 Outer membrane protein assembly factor BamA ...   141   3e-31
+UniRef90_B4F262 Outer membrane protein assembly factor BamA n=26...   141   3e-31
+UniRef90_A0A061CZI9 Outer membrane protein assembly factor BamA ...   141   3e-31
+UniRef90_UPI000835D8F4 outer membrane protein assembly factor Ba...   141   3e-31
+UniRef90_A0A0D0RYE2 Outer membrane protein assembly factor BamA ...   141   3e-31
+UniRef90_UPI00048026F4 outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A4G4S9 Outer membrane protein assembly factor BamA n=1 ...   140   3e-31
+UniRef90_A0A1T1AXG4 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_U4E3F3 Outer membrane protein assembly factor BamA n=6 ...   140   3e-31
+UniRef90_A0A0M4R342 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1F4CNZ2 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A0A0F3U6 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_Q604T9 Outer membrane protein assembly factor BamA n=2 ...   140   3e-31
+UniRef90_Q6LN32 Outer membrane protein assembly factor BamA n=2 ...   140   3e-31
+UniRef90_A0A1H5SRM0 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1S2B650 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_U2ZJF4 Outer membrane protein assembly factor BamA n=1 ...   140   3e-31
+UniRef90_A0A0H5XQU2 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1F4ASF1 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_Q3JCW7 Outer membrane protein assembly factor BamA n=4 ...   140   3e-31
+UniRef90_A0A0R4FQL7 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A0E3Z2J9 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1B9R159 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A0J8VA58 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI000490CB43 outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A0S2F951 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI0005A80DF1 outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A1F4NFE3 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A1E4K3K1 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_D0J267 Outer membrane protein assembly factor BamA n=16...   140   3e-31
+UniRef90_A0A0C5WMT7 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_A0A0S8F585 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_F1W2M9 Outer membrane protein assembly factor BamA n=1 ...   140   3e-31
+UniRef90_A0A1P8K8L8 Outer membrane protein assembly factor BamA ...   140   3e-31
+UniRef90_UPI00083392E6 outer membrane protein assembly factor Ba...   140   3e-31
+UniRef90_A0A1T2KWA4 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A1F6UNX4 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A0F3GBF2 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A149W099 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A095T163 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A068R5W3 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A1T5J7V9 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A1N6MTF8 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_UPI000372C36F outer membrane protein assembly factor Ba...   140   4e-31
+UniRef90_A0A161J226 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_J3CXB1 Outer membrane protein assembly factor BamA n=13...   140   4e-31
+UniRef90_A0A0K1XBT3 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A0D5WQ59 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_A0A1X0Z4H1 Outer membrane protein assembly factor BamA ...   140   4e-31
+UniRef90_UPI000B35AB31 outer membrane protein assembly factor Ba...   140   4e-31
+UniRef90_A0A0M0TBX4 Outer membrane protein assembly factor BamA ...   139   4e-31
+UniRef90_A0A023Y5H6 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A0U5L3I7 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A120D6G6 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A0G3CQR7 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A1A9AZ62 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A127Q7J3 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A1Y6D779 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_UPI00083883ED outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_A0A0S9NG46 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_A0A193GG25 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_UPI00067F708D outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_C9P318 Outer membrane protein assembly factor BamA n=4 ...   139   5e-31
+UniRef90_A0A0A1E9R6 Outer membrane protein assembly factor BamA ...   139   5e-31
+UniRef90_UPI0004AFD240 outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_W6M706 Outer membrane protein assembly factor BamA n=2 ...   139   5e-31
+UniRef90_UPI0003B6457C outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_UPI0008800B69 outer membrane protein assembly factor Ba...   139   5e-31
+UniRef90_A0A0H2LVL0 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_UPI0003753B42 outer membrane protein assembly factor Ba...   139   6e-31
+UniRef90_A0A1F4JM14 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_UPI0009E66FC9 outer membrane protein assembly factor Ba...   139   6e-31
+UniRef90_A0A1A6DYV3 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_A0A0H1ASH8 Outer membrane protein assembly factor BamA ...   139   6e-31
+UniRef90_Z2EIA2 Outer membrane assembly complex, YaeT protein (F...   139   6e-31
+UniRef90_E6VB55 Outer membrane protein assembly factor BamA n=23...   139   6e-31
+UniRef90_UPI0008D6E28F outer membrane protein assembly factor Ba...   139   6e-31
+UniRef90_I0QP41 Outer membrane protein assembly factor BamA n=5 ...   139   6e-31
+UniRef90_UPI000408DCC3 outer membrane protein assembly factor Ba...   139   6e-31
+UniRef90_UPI000578045D outer membrane protein assembly factor Ba...   139   6e-31
+UniRef90_Q9S341 Outer membrane protein assembly factor BamA n=19...   139   6e-31
+UniRef90_A0A1P8FPU0 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A0H2QE38 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A1G0EZV5 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_J2YH14 Outer membrane protein assembly factor BamA n=1 ...   139   7e-31
+UniRef90_A0A1Y5GJ86 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_Q2NRL5 Outer membrane protein assembly factor BamA n=6 ...   139   7e-31
+UniRef90_A0A1X7AHX1 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A0Q0BEB7 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_A0A0S8C921 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_UPI00048A2931 outer membrane protein assembly factor Ba...   139   7e-31
+UniRef90_A0A0Q4G5C3 Outer membrane protein assembly factor BamA ...   139   7e-31
+UniRef90_B8KCL3 Outer membrane protein assembly factor BamA n=7 ...   139   7e-31
+UniRef90_C4L856 Outer membrane protein assembly factor BamA n=2 ...   139   8e-31
+UniRef90_A0A090S2C6 Outer membrane protein assembly factor YaeT ...   139   8e-31
+UniRef90_A0A1E4IEK3 Outer membrane protein assembly factor BamA ...   139   8e-31
+UniRef90_A0A080K6K9 Outer membrane protein/protective antigen OM...   139   8e-31
+UniRef90_K0C9K2 Outer membrane protein assembly factor BamA n=4 ...   139   8e-31
+UniRef90_N2IWF8 Outer membrane protein assembly factor BamA n=4 ...   139   8e-31
+UniRef90_A0A1J5C2N3 Outer membrane protein assembly factor BamA ...   139   8e-31
+UniRef90_UPI000B81B963 outer membrane protein assembly factor Ba...   139   9e-31
+UniRef90_A6D8P4 Outer membrane protein assembly factor BamA n=7 ...   139   9e-31
+UniRef90_UPI0008E150A9 outer membrane protein assembly factor Ba...   139   9e-31
+UniRef90_A0A090SWM1 Outer membrane protein assembly factor YaeT ...   139   9e-31
+UniRef90_V4IW07 Outer membrane protein assembly factor BamA n=1 ...   139   9e-31
+UniRef90_A0A1Y0D2J8 Outer membrane protein assembly factor BamA ...   139   1e-30
+UniRef90_D2UEF6 Outer membrane protein assembly factor BamA n=3 ...   139   1e-30
+UniRef90_A0A0F3KRX5 Outer membrane protein assembly factor BamA ...   139   1e-30
+UniRef90_A0A1Q3VI26 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1U9JKV5 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_UPI000B5173A6 outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_I1YG43 Outer membrane protein assembly factor BamA n=1 ...   138   1e-30
+UniRef90_H3KHN3 Outer membrane protein assembly factor BamA n=1 ...   138   1e-30
+UniRef90_A0A1D2S5U7 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1Y0CVD6 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_F8H4K6 Outer membrane protein assembly factor BamA n=48...   138   1e-30
+UniRef90_I1XHV5 Outer membrane protein assembly factor BamA n=3 ...   138   1e-30
+UniRef90_UPI000369DA49 outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_A0A1I7Y4V1 Uncharacterized protein n=1 Tax=Steinernema ...   138   1e-30
+UniRef90_I4VZD7 Outer membrane protein assembly factor BamA n=3 ...   138   1e-30
+UniRef90_UPI000B8C466E outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_C0ASX4 Surface antigen variable number repeat protein n...   138   1e-30
+UniRef90_A0A0L7YW17 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A1E5CYN4 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A0A0Q6TQQ4 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_A1TN77 Outer membrane protein assembly factor BamA n=5 ...   138   1e-30
+UniRef90_A0A1F4GFZ8 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_UPI0009E9565C outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_A0A1G0BVP4 Outer membrane protein assembly factor BamA ...   138   1e-30
+UniRef90_UPI000B8396EE outer membrane protein assembly factor Ba...   138   1e-30
+UniRef90_A0A1T4MZX2 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_A0A1F6T989 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_A0A0L6VY27 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_J7TNX3 Outer membrane protein assembly factor BamA n=13...   138   2e-30
+UniRef90_A0A1G4A605 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_A0A148N4S8 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_A0A1Q8YBG0 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_A0A0R0AA90 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_A0A0F2P1F6 Outer membrane protein assembly factor BamA ...   138   2e-30
+UniRef90_A0A0G3LMI4 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A1C6MWP9 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A080K9F7 Outer membrane protein/protective antigen OM...   137   2e-30
+UniRef90_UPI00055E9F74 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_A0A139BTD2 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A0P9PGI7 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A0Q8QIA7 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_UPI000824036F outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_UPI00039593A9 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_A0A1F3Z9Y6 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A1F3WXY0 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A1Q3VUF6 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A1E4Q6W4 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A0Q6VRV1 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A126ZGC3 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A142LL75 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A193KDV5 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_UPI00046344E4 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_A0A171KQU3 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A1E7WV07 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_UPI000932F8C4 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_J2WFY0 Outer membrane protein/protective antigen OMA87 ...   137   2e-30
+UniRef90_UPI000B8BC184 outer membrane protein assembly factor Ba...   137   2e-30
+UniRef90_A8H6K8 Outer membrane protein assembly factor BamA n=4 ...   137   2e-30
+UniRef90_A0A1J4RW33 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A0M0HKD3 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A090BV09 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_A0A090RBN3 Outer membrane protein assembly factor BamA ...   137   2e-30
+UniRef90_U2ZNS3 Outer membrane protein assembly factor BamA n=5 ...   137   2e-30
+UniRef90_A0A0S1B1I4 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_UPI00097BF4ED outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A1M5WGU9 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A0U2ULW4 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_D3UWG7 Outer membrane protein assembly factor BamA n=16...   137   3e-30
+UniRef90_A0A1K2HRD5 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_X0SI19 Uncharacterized protein (Fragment) n=1 Tax=marin...   137   3e-30
+UniRef90_A0A1Q9HNH8 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_UPI000488CFFB outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A1H1X732 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1D2U8F6 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_Q7NVY6 Outer membrane protein assembly factor BamA n=7 ...   137   3e-30
+UniRef90_A0A1H2GT01 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1W9H1Q2 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A1W9J7T5 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_UPI0008259FBB outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A1F6VHD5 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_A0A0K6IWC0 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_U5N7J0 Outer membrane protein assembly factor BamA n=2 ...   137   3e-30
+UniRef90_A0A0Q7DP54 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_UPI0007502CB8 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_A0A1V3Q7N8 Outer membrane protein assembly factor BamA ...   137   3e-30
+UniRef90_G2J5N0 Outer membrane protein assembly factor BamA n=5 ...   137   3e-30
+UniRef90_UPI0003FE6D70 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_UPI0008374A11 outer membrane protein assembly factor Ba...   137   3e-30
+UniRef90_M7P3P0 Outer membrane protein assembly factor BamA n=1 ...   137   3e-30
+UniRef90_L9PCN5 Outer membrane protein assembly factor BamA n=8 ...   137   4e-30
+UniRef90_UPI00098346A4 outer membrane protein assembly factor Ba...   137   4e-30
+UniRef90_UPI0003633AF5 outer membrane protein assembly factor Ba...   137   4e-30
+UniRef90_D4T7T2 Outer membrane protein assembly factor BamA n=12...   137   4e-30
+UniRef90_A0A1H1T5L6 Outer membrane protein assembly factor BamA ...   137   4e-30
+UniRef90_A0A095TTF3 Outer membrane protein assembly factor BamA ...   137   4e-30
+UniRef90_E1VNL9 Outer membrane protein assembly factor BamA n=1 ...   137   4e-30
+UniRef90_A0A0A7S2S1 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_Q5E3E7 Outer membrane protein assembly factor BamA n=16...   136   4e-30
+UniRef90_A0A1H2EDE4 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A0A1R4B007 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A0A1F4BGH7 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_D5CSE0 Outer membrane protein assembly factor BamA n=1 ...   136   4e-30
+UniRef90_A0A0P9C793 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_A1S4P8 Outer membrane protein assembly factor BamA n=2 ...   136   4e-30
+UniRef90_A0A1F4J8R3 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_UPI00035C1DE3 outer membrane protein assembly factor Ba...   136   4e-30
+UniRef90_A0A1V3S9S2 Outer membrane protein assembly factor BamA ...   136   4e-30
+UniRef90_UPI00082DD4CA outer membrane protein assembly factor Ba...   136   4e-30
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_G8QPD5 Outer membrane protein assembly factor BamA n=1 Tax=Dechlorosoma
+           suillum (strain ATCC BAA-33 / DSM 13638 / PS)
+           TaxID=640081 RepID=G8QPD5_DECSP
+          Length = 764
+
+ Score =  158 bits (400), Expect = 2e-36,   Method: Composition-based stats.
+ Identities = 31/83 (37%), Positives = 42/83 (50%)
+
+Query: 1   PTIASITFSGNKSVKDDMLKQNLEASGVRVGESLDRTTIADIEKGLEDFYYSVGKYSASV 60
+           P I+ I F G K    D LK+ L+  G+      DR  +   E+ L+  Y S GKY+  +
+Sbjct: 92  PAISQIDFVGLKEFDKDQLKKGLKDVGLAESRIFDRALLDKAEQELKRQYLSRGKYAVEI 151
+
+Query: 61  KAVVTPLPRNRVDLKLVFQEGVS 83
+           K  VTPL RNRV +     EG +
+Sbjct: 152 KTTVTPLERNRVAINFTIDEGDA 174
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.315    0.215    0.726 
+
+Lambda     K      H
+   0.267   0.0659    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 26,403,584,832
+Number of Sequences: 61934301
+Number of extensions: 1905199393
+Number of successful extensions: 2503542
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 10026
+Number of HSP's successfully gapped in prelim test: 5806
+Number of HSP's that attempted gapping in prelim test: 2460288
+Number of HSP's gapped (non-prelim): 39398
+length of query: 83
+length of database: 21,023,703,129
+effective HSP length: 53
+effective length of query: 30
+effective length of database: 22,036,152,472
+effective search space: 661084574160
+effective search space used: 661084574160
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.3 bits)
+S2: 84 (36.3 bits)
