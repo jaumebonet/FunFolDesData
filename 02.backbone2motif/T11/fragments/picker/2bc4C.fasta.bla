@@ -1,0 +1,823 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2bc4C
+         (71 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 ...   149   6e-34
+UniRef90_G1R4X6 Major histocompatibility complex, class II, DM a...   149   9e-34
+UniRef90_P28067 HLA class II histocompatibility antigen, DM alph...   148   1e-33
+UniRef90_UPI0002AA2D40 HLA class II histocompatibility antigen, ...   147   3e-33
+UniRef90_Q5SP00 HLA class II histocompatibility antigen, DM alph...   147   4e-33
+UniRef90_UPI0008F45CDB HLA class II histocompatibility antigen, ...   146   4e-33
+UniRef90_G3RV19 Major histocompatibility complex, class II, DM a...   144   2e-32
+UniRef90_B7Z4Y5 cDNA FLJ51553, highly similar to HLA class II hi...   142   9e-32
+UniRef90_V5SJ36 MHC class II protein (Fragment) n=8 Tax=Macaca T...   134   3e-29
+UniRef90_L8Y8L3 HLA class II histocompatibility antigen, DM alph...   126   5e-27
+UniRef90_UPI0001954657 HLA class II histocompatibility antigen, ...   125   1e-26
+UniRef90_G3SWT3 Major histocompatibility complex, class II, DM a...   125   1e-26
+UniRef90_A0A061IH88 Class II histocompatibility antigen, M alpha...   124   2e-26
+UniRef90_UPI0003C8F41A HLA class II histocompatibility antigen, ...   124   2e-26
+UniRef90_UPI0003F0CC13 HLA class II histocompatibility antigen, ...   124   2e-26
+UniRef90_UPI0006438E32 HLA class II histocompatibility antigen, ...   123   4e-26
+UniRef90_UPI000812D09C HLA class II histocompatibility antigen, ...   122   7e-26
+UniRef90_G5BB05 HLA class II histocompatibility antigen, DM alph...   122   8e-26
+UniRef90_G1P4W4 Major histocompatibility complex, class II, DM a...   122   8e-26
+UniRef90_UPI000A33238D HLA class II histocompatibility antigen, ...   122   8e-26
+UniRef90_UPI00093DA83B HLA class II histocompatibility antigen, ...   122   1e-25
+UniRef90_UPI0006D723CC HLA class II histocompatibility antigen, ...   121   1e-25
+UniRef90_UPI000980E798 HLA class II histocompatibility antigen, ...   121   1e-25
+UniRef90_UPI0009824895 HLA class II histocompatibility antigen, ...   121   2e-25
+UniRef90_UPI000333E631 HLA class II histocompatibility antigen, ...   121   2e-25
+UniRef90_UPI000B534CC7 HLA class II histocompatibility antigen, ...   120   2e-25
+UniRef90_H0WTC2 Major histocompatibility complex, class II, DM a...   120   3e-25
+UniRef90_UPI000A33CE36 HLA class II histocompatibility antigen, ...   120   4e-25
+UniRef90_UPI0004D0A68A HLA class II histocompatibility antigen, ...   120   4e-25
+UniRef90_A0A0P6J7G1 HLA class II histocompatibility antigen, DM ...   119   5e-25
+UniRef90_G3HQS6 Class II histocompatibility antigen, M alpha cha...   119   7e-25
+UniRef90_M3WBG0 Major histocompatibility complex, class II, DM a...   119   8e-25
+UniRef90_I3MD72 Major histocompatibility complex, class II, DM a...   119   1e-24
+UniRef90_UPI00067C0E38 class II histocompatibility antigen, M al...   118   1e-24
+UniRef90_UPI0002C59C17 HLA class II histocompatibility antigen, ...   118   1e-24
+UniRef90_A0A1U7UP27 HLA class II histocompatibility antigen, DM ...   118   1e-24
+UniRef90_UPI00033338ED HLA class II histocompatibility antigen, ...   118   1e-24
+UniRef90_UPI00045D5D07 HLA class II histocompatibility antigen, ...   118   1e-24
+UniRef90_F7A6I1 Major histocompatibility complex, class II, DM a...   118   2e-24
+UniRef90_UPI000944F644 HLA class II histocompatibility antigen, ...   117   2e-24
+UniRef90_UPI0005FB5877 HLA class II histocompatibility antigen, ...   117   3e-24
+UniRef90_Q5TJG7 MHC class II antigen DM alpha (Fragment) n=1 Tax...   117   3e-24
+UniRef90_H0VSG0 Major histocompatibility complex, class II, DM a...   117   3e-24
+UniRef90_UPI00042C385B HLA class II histocompatibility antigen, ...   117   3e-24
+UniRef90_S9YA11 HLA class II histocompatibility antigen, DM alph...   116   4e-24
+UniRef90_UPI00042AEEA8 class II histocompatibility antigen, M al...   116   5e-24
+UniRef90_L5KZ13 HLA class II histocompatibility antigen, DM beta...   116   6e-24
+UniRef90_M3XS77 Major histocompatibility complex, class II, DM a...   116   6e-24
+UniRef90_UPI0007A7096A HLA class II histocompatibility antigen, ...   115   8e-24
+UniRef90_Q5TJG8 MHC class II antigen DM alpha n=4 Tax=Caniformia...   115   9e-24
+UniRef90_W5PDP1 Major histocompatibility complex, class II, DM a...   115   1e-23
+UniRef90_UPI0007687483 HLA class II histocompatibility antigen, ...   114   2e-23
+UniRef90_A0A091CWQ1 HLA class II histocompatibility antigen, DM ...   114   2e-23
+UniRef90_UPI0002C657D1 HLA class II histocompatibility antigen, ...   114   2e-23
+UniRef90_G1L591 Major histocompatibility complex, class II, DM a...   114   3e-23
+UniRef90_L7MRN6 Uncharacterized protein n=4 Tax=Equus TaxID=3551...   113   4e-23
+UniRef90_UPI0003F18991 HLA class II histocompatibility antigen, ...   113   5e-23
+UniRef90_UPI00038EBA15 HLA class II histocompatibility antigen, ...   112   7e-23
+UniRef90_A0A1S3GNF8 HLA class II histocompatibility antigen, DM ...   112   9e-23
+UniRef90_F1MLV2 Major histocompatibility complex, class II, DM a...   112   1e-22
+UniRef90_UPI0004ED1FCC HLA class II histocompatibility antigen, ...   112   1e-22
+UniRef90_UPI00064B98D3 HLA class II histocompatibility antigen, ...   111   1e-22
+UniRef90_Q24K20 Major histocompatibility complex, class II, DM a...   111   2e-22
+UniRef90_Q95574 Class II histocompatibility antigen, M alpha cha...   110   2e-22
+UniRef90_P28078 Class II histocompatibility antigen, M alpha cha...   109   6e-22
+UniRef90_G9L0T4 HLA class II histocompatibility antigen, DM alph...   109   8e-22
+UniRef90_Q31096 H2-Mb1 beta chain (Fragment) n=2 Tax=Mus TaxID=8...   109   8e-22
+UniRef90_A5D9K9 Major histocompatibility complex, class II, DM a...   108   1e-21
+UniRef90_UPI0004400EA1 HLA class II histocompatibility antigen, ...   108   1e-21
+UniRef90_K7GRZ3 Major histocompatibility complex, class II, DM a...   108   2e-21
+UniRef90_UPI000B4EAC51 class II histocompatibility antigen, M al...   108   2e-21
+UniRef90_A0A0R9CWL6 MHC class II antigen n=7 Tax=Cetacea TaxID=9...   107   3e-21
+UniRef90_UPI0003F13DB7 HLA class II histocompatibility antigen, ...   107   3e-21
+UniRef90_O02872 Histocompatibility antigen DM heterodimer heavy ...   106   7e-21
+UniRef90_A0A1S3WH29 HLA class II histocompatibility antigen, DM ...   105   7e-21
+UniRef90_UPI00062AA60B HLA class II histocompatibility antigen, ...   105   1e-20
+UniRef90_UPI000642A101 HLA class II histocompatibility antigen, ...   103   6e-20
+UniRef90_A0A1A6GK86 Uncharacterized protein n=1 Tax=Neotoma lepi...   102   1e-19
+UniRef90_UPI0003316E96 HLA class II histocompatibility antigen, ...    98   2e-18
+UniRef90_A0A0U4GH26 MHC class II alpha chain antigen n=3 Tax=Pha...    88   2e-15
+UniRef90_K7E3A8 Major histocompatibility complex, class II, DM a...    84   5e-14
+UniRef90_G3VMH2 Major histocompatibility complex, class II, DM a...    80   4e-13
+UniRef90_G1TG75 Major histocompatibility complex, class II, DM a...    59   1e-06
+UniRef90_A0A0B5JLK4 DMA n=2 Tax=Nipponia nippon TaxID=128390 Rep...    56   7e-06
+UniRef90_A0A151MRQ7 Class II histocompatibility antigen, M alpha...    56   9e-06
+UniRef90_A0A1L7N0D0 MHC class II M alpha chain n=1 Tax=Ciconia b...    56   1e-05
+UniRef90_UPI00052941EE class II histocompatibility antigen, M al...    55   1e-05
+UniRef90_UPI00071E026A class II histocompatibility antigen, M al...    53   6e-05
+UniRef90_UPI00042BF0CF class II histocompatibility antigen, M al...    53   6e-05
+UniRef90_UPI00046C1DE0 class II histocompatibility antigen, M al...    51   3e-04
+UniRef90_U3IFQ8 Major histocompatibility complex, class II, DM a...    50   5e-04
+UniRef90_UPI0007773073 class II histocompatibility antigen, M al...    50   6e-04
+UniRef90_Q76LJ4 MHC class II A family peptide loading n=1 Tax=Co...    50   6e-04
+UniRef90_A0A1L1RWS7 Uncharacterized protein n=1 Tax=Gallus gallu...    50   7e-04
+UniRef90_F7EMH0 Major histocompatibility complex class II alpha ...    49   9e-04
+UniRef90_UPI000B3E23BB class II histocompatibility antigen, M al...    49   0.001
+UniRef90_A5HUL6 MHC class II M alpha chain n=10 Tax=Gallus gallu...    49   0.001
+UniRef90_Q6P7G2 MGC68534 protein n=2 Tax=Xenopus laevis TaxID=83...    48   0.002
+UniRef90_UPI0009E31125 class II histocompatibility antigen, M al...    44   0.042
+UniRef90_UPI00074FC3E1 class II histocompatibility antigen, M al...    44   0.045
+UniRef90_UPI0008543855 class II histocompatibility antigen, M al...    42   0.11 
+UniRef90_UPI000739DBE2 HLA class II histocompatibility antigen, ...    42   0.16 
+UniRef90_B1N1D5 MHC class II antigen M alpha chain n=5 Tax=Phasi...    42   0.18 
+UniRef90_UPI000462B1B2 class II histocompatibility antigen, M al...    39   1.2  
+UniRef90_UPI0007B40AB6 LOW QUALITY PROTEIN: H-2 class II histoco...    39   1.8  
+UniRef90_W5MK71 Uncharacterized protein n=2 Tax=Lepisosteus ocul...    38   2.4  
+UniRef90_Q9MX55 MHC class II protein alpha chain (Fragment) n=3 ...    38   2.8  
+UniRef90_A0A091EW08 Class II histocompatibility antigen, M alpha...    37   3.5  
+UniRef90_K4G6J7 MHC class II protein alpha chain n=6 Tax=Callorh...    37   3.7  
+UniRef90_Q31397 MHC class II protein n=4 Tax=Ginglymostoma cirra...    37   5.4  
+UniRef90_Q9MX65 MHC class II protein alpha chain (Fragment) n=3 ...    37   5.5  
+UniRef90_W5LWC2 Uncharacterized protein n=1 Tax=Lepisosteus ocul...    37   6.7  
+UniRef90_UPI000442090C class II histocompatibility antigen, M al...    36   7.3  
+
+>UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 RepID=Q29878_HUMAN
+          Length = 257
+
+ Score =  149 bits (377), Expect = 6e-34,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 39  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 98
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 99  EFCEWMIQQIG 109
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_M3WBG0 Major histocompatibility complex, class II, DM a...   148   1e-33
+UniRef90_M3XS77 Major histocompatibility complex, class II, DM a...   147   3e-33
+UniRef90_G1R4X6 Major histocompatibility complex, class II, DM a...   146   4e-33
+UniRef90_UPI000812D09C HLA class II histocompatibility antigen, ...   145   7e-33
+UniRef90_G3SWT3 Major histocompatibility complex, class II, DM a...   145   8e-33
+UniRef90_L5KZ13 HLA class II histocompatibility antigen, DM beta...   145   1e-32
+UniRef90_UPI00093DA83B HLA class II histocompatibility antigen, ...   145   1e-32
+UniRef90_G1P4W4 Major histocompatibility complex, class II, DM a...   144   2e-32
+UniRef90_UPI0008F45CDB HLA class II histocompatibility antigen, ...   144   2e-32
+UniRef90_UPI0005FB5877 HLA class II histocompatibility antigen, ...   144   2e-32
+UniRef90_S9YA11 HLA class II histocompatibility antigen, DM alph...   144   2e-32
+UniRef90_UPI0001954657 HLA class II histocompatibility antigen, ...   144   2e-32
+UniRef90_Q5TJG7 MHC class II antigen DM alpha (Fragment) n=1 Tax...   144   3e-32
+UniRef90_UPI0006D723CC HLA class II histocompatibility antigen, ...   143   3e-32
+UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 ...   143   3e-32
+UniRef90_A0A061IH88 Class II histocompatibility antigen, M alpha...   143   3e-32
+UniRef90_UPI0002C59C17 HLA class II histocompatibility antigen, ...   143   4e-32
+UniRef90_F7A6I1 Major histocompatibility complex, class II, DM a...   143   5e-32
+UniRef90_UPI0007687483 HLA class II histocompatibility antigen, ...   143   6e-32
+UniRef90_P28067 HLA class II histocompatibility antigen, DM alph...   142   6e-32
+UniRef90_UPI0006438E32 HLA class II histocompatibility antigen, ...   142   7e-32
+UniRef90_Q5SP00 HLA class II histocompatibility antigen, DM alph...   142   8e-32
+UniRef90_L8Y8L3 HLA class II histocompatibility antigen, DM alph...   142   8e-32
+UniRef90_UPI00067C0E38 class II histocompatibility antigen, M al...   142   9e-32
+UniRef90_G5BB05 HLA class II histocompatibility antigen, DM alph...   142   1e-31
+UniRef90_G3RV19 Major histocompatibility complex, class II, DM a...   142   1e-31
+UniRef90_Q5TJG8 MHC class II antigen DM alpha n=4 Tax=Caniformia...   142   1e-31
+UniRef90_UPI0007A7096A HLA class II histocompatibility antigen, ...   141   1e-31
+UniRef90_G1L591 Major histocompatibility complex, class II, DM a...   141   1e-31
+UniRef90_UPI0003F0CC13 HLA class II histocompatibility antigen, ...   141   1e-31
+UniRef90_UPI0004D0A68A HLA class II histocompatibility antigen, ...   141   1e-31
+UniRef90_I3MD72 Major histocompatibility complex, class II, DM a...   141   2e-31
+UniRef90_UPI00033338ED HLA class II histocompatibility antigen, ...   141   2e-31
+UniRef90_UPI0003F18991 HLA class II histocompatibility antigen, ...   141   2e-31
+UniRef90_W5PDP1 Major histocompatibility complex, class II, DM a...   141   2e-31
+UniRef90_UPI0002AA2D40 HLA class II histocompatibility antigen, ...   141   2e-31
+UniRef90_UPI000B534CC7 HLA class II histocompatibility antigen, ...   140   2e-31
+UniRef90_UPI0009824895 HLA class II histocompatibility antigen, ...   140   3e-31
+UniRef90_UPI000944F644 HLA class II histocompatibility antigen, ...   140   4e-31
+UniRef90_G9L0T4 HLA class II histocompatibility antigen, DM alph...   140   4e-31
+UniRef90_UPI000980E798 HLA class II histocompatibility antigen, ...   140   5e-31
+UniRef90_UPI00045D5D07 HLA class II histocompatibility antigen, ...   140   5e-31
+UniRef90_UPI0003C8F41A HLA class II histocompatibility antigen, ...   139   5e-31
+UniRef90_A0A1U7UP27 HLA class II histocompatibility antigen, DM ...   139   6e-31
+UniRef90_H0WTC2 Major histocompatibility complex, class II, DM a...   139   6e-31
+UniRef90_A0A0P6J7G1 HLA class II histocompatibility antigen, DM ...   138   9e-31
+UniRef90_F1MLV2 Major histocompatibility complex, class II, DM a...   138   1e-30
+UniRef90_L7MRN6 Uncharacterized protein n=4 Tax=Equus TaxID=3551...   138   1e-30
+UniRef90_UPI000A33238D HLA class II histocompatibility antigen, ...   138   1e-30
+UniRef90_Q24K20 Major histocompatibility complex, class II, DM a...   138   1e-30
+UniRef90_UPI000A33CE36 HLA class II histocompatibility antigen, ...   138   2e-30
+UniRef90_B7Z4Y5 cDNA FLJ51553, highly similar to HLA class II hi...   137   2e-30
+UniRef90_UPI000333E631 HLA class II histocompatibility antigen, ...   137   3e-30
+UniRef90_A0A091CWQ1 HLA class II histocompatibility antigen, DM ...   137   3e-30
+UniRef90_G3HQS6 Class II histocompatibility antigen, M alpha cha...   137   3e-30
+UniRef90_UPI00042C385B HLA class II histocompatibility antigen, ...   136   5e-30
+UniRef90_K7GRZ3 Major histocompatibility complex, class II, DM a...   135   8e-30
+UniRef90_V5SJ36 MHC class II protein (Fragment) n=8 Tax=Macaca T...   135   1e-29
+UniRef90_A5D9K9 Major histocompatibility complex, class II, DM a...   135   1e-29
+UniRef90_UPI0002C657D1 HLA class II histocompatibility antigen, ...   135   2e-29
+UniRef90_A0A0R9CWL6 MHC class II antigen n=7 Tax=Cetacea TaxID=9...   134   2e-29
+UniRef90_UPI0004400EA1 HLA class II histocompatibility antigen, ...   134   2e-29
+UniRef90_H0VSG0 Major histocompatibility complex, class II, DM a...   134   2e-29
+UniRef90_UPI00042AEEA8 class II histocompatibility antigen, M al...   134   2e-29
+UniRef90_A0A1S3WH29 HLA class II histocompatibility antigen, DM ...   132   7e-29
+UniRef90_UPI00038EBA15 HLA class II histocompatibility antigen, ...   132   7e-29
+UniRef90_UPI0004ED1FCC HLA class II histocompatibility antigen, ...   132   8e-29
+UniRef90_P28078 Class II histocompatibility antigen, M alpha cha...   132   1e-28
+UniRef90_Q31096 H2-Mb1 beta chain (Fragment) n=2 Tax=Mus TaxID=8...   132   1e-28
+UniRef90_Q95574 Class II histocompatibility antigen, M alpha cha...   131   2e-28
+UniRef90_A0A1S3GNF8 HLA class II histocompatibility antigen, DM ...   131   2e-28
+UniRef90_UPI000642A101 HLA class II histocompatibility antigen, ...   130   4e-28
+UniRef90_O02872 Histocompatibility antigen DM heterodimer heavy ...   129   6e-28
+UniRef90_UPI0003316E96 HLA class II histocompatibility antigen, ...   129   7e-28
+UniRef90_UPI000B4EAC51 class II histocompatibility antigen, M al...   128   2e-27
+UniRef90_UPI00064B98D3 HLA class II histocompatibility antigen, ...   127   2e-27
+UniRef90_UPI00062AA60B HLA class II histocompatibility antigen, ...   127   3e-27
+UniRef90_UPI0003F13DB7 HLA class II histocompatibility antigen, ...   127   3e-27
+UniRef90_A0A0U4GH26 MHC class II alpha chain antigen n=3 Tax=Pha...   118   2e-24
+UniRef90_G3VMH2 Major histocompatibility complex, class II, DM a...   115   8e-24
+UniRef90_UPI00052941EE class II histocompatibility antigen, M al...   115   9e-24
+UniRef90_A0A1A6GK86 Uncharacterized protein n=1 Tax=Neotoma lepi...   115   1e-23
+UniRef90_A0A1L7N0D0 MHC class II M alpha chain n=1 Tax=Ciconia b...   113   4e-23
+UniRef90_K7E3A8 Major histocompatibility complex, class II, DM a...   113   4e-23
+UniRef90_U3IFQ8 Major histocompatibility complex, class II, DM a...   111   2e-22
+UniRef90_A0A1L1RWS7 Uncharacterized protein n=1 Tax=Gallus gallu...   111   2e-22
+UniRef90_A5HUL6 MHC class II M alpha chain n=10 Tax=Gallus gallu...   109   7e-22
+UniRef90_A0A151MRQ7 Class II histocompatibility antigen, M alpha...   108   1e-21
+UniRef90_A0A0B5JLK4 DMA n=2 Tax=Nipponia nippon TaxID=128390 Rep...   108   1e-21
+UniRef90_UPI000B3E23BB class II histocompatibility antigen, M al...   107   2e-21
+UniRef90_UPI00071E026A class II histocompatibility antigen, M al...   107   3e-21
+UniRef90_UPI00042BF0CF class II histocompatibility antigen, M al...   107   3e-21
+UniRef90_UPI0007773073 class II histocompatibility antigen, M al...   106   4e-21
+UniRef90_Q76LJ4 MHC class II A family peptide loading n=1 Tax=Co...   105   1e-20
+UniRef90_UPI00046C1DE0 class II histocompatibility antigen, M al...    90   6e-16
+UniRef90_F7EMH0 Major histocompatibility complex class II alpha ...    88   2e-15
+UniRef90_G1TG75 Major histocompatibility complex, class II, DM a...    72   1e-10
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_B1N1D5 MHC class II antigen M alpha chain n=5 Tax=Phasi...    97   4e-18
+UniRef90_UPI000739DBE2 HLA class II histocompatibility antigen, ...    88   2e-15
+UniRef90_A0A091EW08 Class II histocompatibility antigen, M alpha...    84   3e-14
+UniRef90_Q6P7G2 MGC68534 protein n=2 Tax=Xenopus laevis TaxID=83...    81   3e-13
+UniRef90_UPI00051B134D class II histocompatibility antigen, M al...    79   8e-13
+UniRef90_UPI00074FC3E1 class II histocompatibility antigen, M al...    73   4e-11
+UniRef90_UPI0006B7D2F9 elastin-like n=1 Tax=Pseudopodoces humili...    71   3e-10
+UniRef90_UPI0009E31125 class II histocompatibility antigen, M al...    70   5e-10
+UniRef90_UPI000442090C class II histocompatibility antigen, M al...    64   3e-08
+UniRef90_UPI0008543855 class II histocompatibility antigen, M al...    62   1e-07
+UniRef90_UPI00038348BA uncharacterized protein LOC101876857 n=1 ...    62   2e-07
+UniRef90_UPI000462B1B2 class II histocompatibility antigen, M al...    59   1e-06
+UniRef90_UPI0005281C8F HLA class II histocompatibility antigen, ...    45   0.013
+UniRef90_W5MK71 Uncharacterized protein n=2 Tax=Lepisosteus ocul...    45   0.025
+UniRef90_A0A091HTQ8 Class II histocompatibility antigen, M alpha...    41   0.22 
+UniRef90_H2ZYC5 Uncharacterized protein n=2 Tax=Latimeria chalum...    41   0.35 
+UniRef90_Q30761 MHC class II DR alpha protein n=1 Tax=Notamacrop...    41   0.37 
+UniRef90_UPI0006D8E0DF HLA class II histocompatibility antigen, ...    40   0.55 
+UniRef90_Q31397 MHC class II protein n=4 Tax=Ginglymostoma cirra...    40   0.60 
+UniRef90_Q9MX67 MHC class II protein alpha chain (Fragment) n=1 ...    40   0.87 
+UniRef90_B3U2C4 MHC class II antigen (Fragment) n=5 Tax=Trichosu...    39   0.93 
+UniRef90_UPI000846A297 HLA class II histocompatibility antigen, ...    39   1.2  
+UniRef90_P06340 HLA class II histocompatibility antigen, DO alph...    38   1.6  
+UniRef90_G3VKC5 Major histocompatibility complex, class II, DR a...    38   1.9  
+UniRef90_Q9MX55 MHC class II protein alpha chain (Fragment) n=3 ...    38   2.3  
+UniRef90_UPI000B7B13BE HLA class II histocompatibility antigen, ...    38   2.3  
+UniRef90_H2ZTM7 Uncharacterized protein n=1 Tax=Latimeria chalum...    38   2.7  
+UniRef90_UPI00080A6E6C HLA class II histocompatibility antigen, ...    38   3.0  
+UniRef90_UPI0006D93372 HLA class II histocompatibility antigen, ...    38   3.1  
+UniRef90_UPI0006258DD4 HLA class II histocompatibility antigen, ...    38   3.3  
+UniRef90_B4DW77 cDNA FLJ50891, highly similar to HLA class II hi...    37   3.4  
+UniRef90_UPI0003C91474 HLA class II histocompatibility antigen, ...    37   3.4  
+UniRef90_K7EUP3 Major histocompatibility complex, class II, DO a...    37   3.5  
+UniRef90_L8YC82 HLA class II histocompatibility antigen, DO alph...    37   3.5  
+UniRef90_V9NC01 MHC class II antigen n=3 Tax=Salmo salar TaxID=8...    37   3.5  
+UniRef90_I3WAB4 MHC class II antigen (Fragment) n=17 Tax=Cercopi...    37   4.2  
+UniRef90_UPI0003F16C15 HLA class II histocompatibility antigen, ...    37   4.2  
+UniRef90_UPI00087491EF H-2 class II histocompatibility antigen, ...    37   4.3  
+UniRef90_UPI0004F1FA7A HLA class II histocompatibility antigen, ...    37   4.6  
+UniRef90_A0A0U4G588 MHC class II alpha chain antigen n=3 Tax=Pha...    37   4.6  
+UniRef90_UPI00064314CA LOW QUALITY PROTEIN: HLA class II histoco...    37   4.8  
+UniRef90_Q9MX65 MHC class II protein alpha chain (Fragment) n=3 ...    37   5.2  
+UniRef90_Q6MGB0 RT1 class II, DO alpha n=4 Tax=Rattus TaxID=1011...    37   5.3  
+UniRef90_H0XBR0 Major histocompatibility complex, class II, DO a...    37   5.3  
+UniRef90_W5LWC2 Uncharacterized protein n=1 Tax=Lepisosteus ocul...    37   5.8  
+UniRef90_UPI0007B40AB6 LOW QUALITY PROTEIN: H-2 class II histoco...    36   6.1  
+UniRef90_I7AHY3 MHC class II alpha chain (Fragment) n=1 Tax=Ging...    36   6.5  
+UniRef90_A0A1S3PCJ4 H-2 class II histocompatibility antigen, A-U...    36   6.7  
+UniRef90_UPI00063F2329 HLA class II histocompatibility antigen, ...    36   7.7  
+UniRef90_I3WAA5 MHC class II antigen (Fragment) n=4 Tax=Macaca f...    36   9.2  
+
+>UniRef90_M3WBG0 Major histocompatibility complex, class II, DM alpha n=6
+           Tax=Felidae TaxID=9681 RepID=M3WBG0_FELCA
+          Length = 261
+
+ Score =  148 bits (374), Expect = 1e-33,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SP++GLSE YD DQLF FDFSQNTRVPRLPEFADWAQ+ GD  AI FDK
+Sbjct: 43  TFLHTMYCQDWSPNIGLSETYDGDQLFSFDFSQNTRVPRLPEFADWAQKLGDTSAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 AFCQAMIQEIG 113
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_M3WBG0 Major histocompatibility complex, class II, DM a...   139   6e-31
+UniRef90_M3XS77 Major histocompatibility complex, class II, DM a...   138   1e-30
+UniRef90_G1R4X6 Major histocompatibility complex, class II, DM a...   138   2e-30
+UniRef90_G3SWT3 Major histocompatibility complex, class II, DM a...   137   2e-30
+UniRef90_UPI00093DA83B HLA class II histocompatibility antigen, ...   137   3e-30
+UniRef90_L5KZ13 HLA class II histocompatibility antigen, DM beta...   137   4e-30
+UniRef90_UPI0008F45CDB HLA class II histocompatibility antigen, ...   137   4e-30
+UniRef90_UPI0001954657 HLA class II histocompatibility antigen, ...   136   4e-30
+UniRef90_UPI0005FB5877 HLA class II histocompatibility antigen, ...   136   4e-30
+UniRef90_F7A6I1 Major histocompatibility complex, class II, DM a...   136   5e-30
+UniRef90_Q5TJG7 MHC class II antigen DM alpha (Fragment) n=1 Tax...   136   6e-30
+UniRef90_UPI000812D09C HLA class II histocompatibility antigen, ...   136   6e-30
+UniRef90_A0A061IH88 Class II histocompatibility antigen, M alpha...   136   7e-30
+UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 ...   135   1e-29
+UniRef90_UPI0002C59C17 HLA class II histocompatibility antigen, ...   135   1e-29
+UniRef90_G1P4W4 Major histocompatibility complex, class II, DM a...   135   2e-29
+UniRef90_G5BB05 HLA class II histocompatibility antigen, DM alph...   134   2e-29
+UniRef90_UPI0007687483 HLA class II histocompatibility antigen, ...   134   2e-29
+UniRef90_P28067 HLA class II histocompatibility antigen, DM alph...   134   2e-29
+UniRef90_UPI0006D723CC HLA class II histocompatibility antigen, ...   134   2e-29
+UniRef90_Q5SP00 HLA class II histocompatibility antigen, DM alph...   134   2e-29
+UniRef90_Q5TJG8 MHC class II antigen DM alpha n=4 Tax=Caniformia...   134   2e-29
+UniRef90_S9YA11 HLA class II histocompatibility antigen, DM alph...   134   2e-29
+UniRef90_UPI0009824895 HLA class II histocompatibility antigen, ...   133   3e-29
+UniRef90_G3RV19 Major histocompatibility complex, class II, DM a...   133   3e-29
+UniRef90_UPI0006438E32 HLA class II histocompatibility antigen, ...   133   3e-29
+UniRef90_W5PDP1 Major histocompatibility complex, class II, DM a...   133   3e-29
+UniRef90_UPI00045D5D07 HLA class II histocompatibility antigen, ...   133   3e-29
+UniRef90_UPI0004D0A68A HLA class II histocompatibility antigen, ...   133   4e-29
+UniRef90_UPI00067C0E38 class II histocompatibility antigen, M al...   133   4e-29
+UniRef90_UPI0007A7096A HLA class II histocompatibility antigen, ...   133   4e-29
+UniRef90_UPI000980E798 HLA class II histocompatibility antigen, ...   133   5e-29
+UniRef90_L8Y8L3 HLA class II histocompatibility antigen, DM alph...   133   5e-29
+UniRef90_I3MD72 Major histocompatibility complex, class II, DM a...   133   6e-29
+UniRef90_H0WTC2 Major histocompatibility complex, class II, DM a...   133   6e-29
+UniRef90_G1L591 Major histocompatibility complex, class II, DM a...   133   6e-29
+UniRef90_UPI000B534CC7 HLA class II histocompatibility antigen, ...   133   6e-29
+UniRef90_UPI0003F18991 HLA class II histocompatibility antigen, ...   132   6e-29
+UniRef90_UPI0002AA2D40 HLA class II histocompatibility antigen, ...   132   7e-29
+UniRef90_UPI000944F644 HLA class II histocompatibility antigen, ...   132   9e-29
+UniRef90_UPI00033338ED HLA class II histocompatibility antigen, ...   132   9e-29
+UniRef90_A0A1U7UP27 HLA class II histocompatibility antigen, DM ...   132   1e-28
+UniRef90_G9L0T4 HLA class II histocompatibility antigen, DM alph...   132   1e-28
+UniRef90_UPI0003F0CC13 HLA class II histocompatibility antigen, ...   132   1e-28
+UniRef90_L7MRN6 Uncharacterized protein n=4 Tax=Equus TaxID=3551...   131   1e-28
+UniRef90_A0A0P6J7G1 HLA class II histocompatibility antigen, DM ...   131   1e-28
+UniRef90_UPI000333E631 HLA class II histocompatibility antigen, ...   131   2e-28
+UniRef90_UPI000A33CE36 HLA class II histocompatibility antigen, ...   130   3e-28
+UniRef90_UPI0003C8F41A HLA class II histocompatibility antigen, ...   130   3e-28
+UniRef90_UPI000A33238D HLA class II histocompatibility antigen, ...   130   3e-28
+UniRef90_F1MLV2 Major histocompatibility complex, class II, DM a...   130   4e-28
+UniRef90_A0A091CWQ1 HLA class II histocompatibility antigen, DM ...   130   4e-28
+UniRef90_Q24K20 Major histocompatibility complex, class II, DM a...   129   5e-28
+UniRef90_UPI0002C657D1 HLA class II histocompatibility antigen, ...   129   7e-28
+UniRef90_G3HQS6 Class II histocompatibility antigen, M alpha cha...   129   8e-28
+UniRef90_B7Z4Y5 cDNA FLJ51553, highly similar to HLA class II hi...   128   9e-28
+UniRef90_H0VSG0 Major histocompatibility complex, class II, DM a...   128   1e-27
+UniRef90_UPI00042C385B HLA class II histocompatibility antigen, ...   128   1e-27
+UniRef90_UPI00038EBA15 HLA class II histocompatibility antigen, ...   128   2e-27
+UniRef90_UPI0004400EA1 HLA class II histocompatibility antigen, ...   127   2e-27
+UniRef90_A0A1S3WH29 HLA class II histocompatibility antigen, DM ...   127   3e-27
+UniRef90_V5SJ36 MHC class II protein (Fragment) n=8 Tax=Macaca T...   127   3e-27
+UniRef90_K7GRZ3 Major histocompatibility complex, class II, DM a...   126   4e-27
+UniRef90_UPI00042AEEA8 class II histocompatibility antigen, M al...   126   4e-27
+UniRef90_A0A0R9CWL6 MHC class II antigen n=7 Tax=Cetacea TaxID=9...   126   7e-27
+UniRef90_A5D9K9 Major histocompatibility complex, class II, DM a...   126   7e-27
+UniRef90_Q95574 Class II histocompatibility antigen, M alpha cha...   125   1e-26
+UniRef90_UPI00052941EE class II histocompatibility antigen, M al...   125   2e-26
+UniRef90_UPI0004ED1FCC HLA class II histocompatibility antigen, ...   125   2e-26
+UniRef90_Q31096 H2-Mb1 beta chain (Fragment) n=2 Tax=Mus TaxID=8...   124   2e-26
+UniRef90_P28078 Class II histocompatibility antigen, M alpha cha...   123   3e-26
+UniRef90_UPI000B4EAC51 class II histocompatibility antigen, M al...   123   4e-26
+UniRef90_UPI000642A101 HLA class II histocompatibility antigen, ...   123   4e-26
+UniRef90_O02872 Histocompatibility antigen DM heterodimer heavy ...   123   4e-26
+UniRef90_A0A1S3GNF8 HLA class II histocompatibility antigen, DM ...   123   5e-26
+UniRef90_UPI00064B98D3 HLA class II histocompatibility antigen, ...   121   1e-25
+UniRef90_UPI00062AA60B HLA class II histocompatibility antigen, ...   121   1e-25
+UniRef90_A0A1L7N0D0 MHC class II M alpha chain n=1 Tax=Ciconia b...   121   1e-25
+UniRef90_UPI0003316E96 HLA class II histocompatibility antigen, ...   121   2e-25
+UniRef90_UPI0003F13DB7 HLA class II histocompatibility antigen, ...   118   1e-24
+UniRef90_A0A0B5JLK4 DMA n=2 Tax=Nipponia nippon TaxID=128390 Rep...   117   2e-24
+UniRef90_UPI00071E026A class II histocompatibility antigen, M al...   116   4e-24
+UniRef90_U3IFQ8 Major histocompatibility complex, class II, DM a...   116   6e-24
+UniRef90_A0A1L1RWS7 Uncharacterized protein n=1 Tax=Gallus gallu...   115   1e-23
+UniRef90_A0A0U4GH26 MHC class II alpha chain antigen n=3 Tax=Pha...   114   3e-23
+UniRef90_UPI000B3E23BB class II histocompatibility antigen, M al...   113   6e-23
+UniRef90_A5HUL6 MHC class II M alpha chain n=10 Tax=Gallus gallu...   113   6e-23
+UniRef90_K7E3A8 Major histocompatibility complex, class II, DM a...   112   1e-22
+UniRef90_A0A151MRQ7 Class II histocompatibility antigen, M alpha...   112   1e-22
+UniRef90_G3VMH2 Major histocompatibility complex, class II, DM a...   111   1e-22
+UniRef90_UPI0007773073 class II histocompatibility antigen, M al...   110   3e-22
+UniRef90_UPI00042BF0CF class II histocompatibility antigen, M al...   110   3e-22
+UniRef90_Q76LJ4 MHC class II A family peptide loading n=1 Tax=Co...   109   8e-22
+UniRef90_A0A1A6GK86 Uncharacterized protein n=1 Tax=Neotoma lepi...   108   1e-21
+UniRef90_B1N1D5 MHC class II antigen M alpha chain n=5 Tax=Phasi...   106   7e-21
+UniRef90_A0A091EW08 Class II histocompatibility antigen, M alpha...   105   1e-20
+UniRef90_UPI0006B7D2F9 elastin-like n=1 Tax=Pseudopodoces humili...    99   1e-18
+UniRef90_UPI00074FC3E1 class II histocompatibility antigen, M al...    98   2e-18
+UniRef90_UPI0009E31125 class II histocompatibility antigen, M al...    97   3e-18
+UniRef90_UPI00051B134D class II histocompatibility antigen, M al...    97   5e-18
+UniRef90_UPI0008543855 class II histocompatibility antigen, M al...    94   2e-17
+UniRef90_UPI000442090C class II histocompatibility antigen, M al...    93   6e-17
+UniRef90_UPI00046C1DE0 class II histocompatibility antigen, M al...    92   1e-16
+UniRef90_F7EMH0 Major histocompatibility complex class II alpha ...    92   1e-16
+UniRef90_Q6P7G2 MGC68534 protein n=2 Tax=Xenopus laevis TaxID=83...    92   2e-16
+UniRef90_UPI000462B1B2 class II histocompatibility antigen, M al...    88   3e-15
+UniRef90_UPI000739DBE2 HLA class II histocompatibility antigen, ...    88   3e-15
+UniRef90_UPI00038348BA uncharacterized protein LOC101876857 n=1 ...    74   3e-11
+UniRef90_G1TG75 Major histocompatibility complex, class II, DM a...    69   1e-09
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI0005281C8F HLA class II histocompatibility antigen, ...    50   8e-04
+UniRef90_A0A091HTQ8 Class II histocompatibility antigen, M alpha...    48   0.003
+UniRef90_H2ZYC5 Uncharacterized protein n=2 Tax=Latimeria chalum...    45   0.018
+UniRef90_UPI000846A297 HLA class II histocompatibility antigen, ...    45   0.019
+UniRef90_W5MK71 Uncharacterized protein n=2 Tax=Lepisosteus ocul...    44   0.046
+UniRef90_UPI0006D8E0DF HLA class II histocompatibility antigen, ...    41   0.38 
+UniRef90_B3U2C4 MHC class II antigen (Fragment) n=5 Tax=Trichosu...    40   0.52 
+UniRef90_Q30761 MHC class II DR alpha protein n=1 Tax=Notamacrop...    40   0.57 
+UniRef90_Q31397 MHC class II protein n=4 Tax=Ginglymostoma cirra...    40   0.73 
+UniRef90_Q9MX67 MHC class II protein alpha chain (Fragment) n=1 ...    40   0.81 
+UniRef90_H2ZTM7 Uncharacterized protein n=1 Tax=Latimeria chalum...    38   2.2  
+UniRef90_UPI0006D93372 HLA class II histocompatibility antigen, ...    38   2.4  
+UniRef90_V9NC01 MHC class II antigen n=3 Tax=Salmo salar TaxID=8...    38   3.1  
+UniRef90_Q9MX55 MHC class II protein alpha chain (Fragment) n=3 ...    38   3.3  
+UniRef90_UPI000A28CE14 LOW QUALITY PROTEIN: antigen WC1.1-like n...    37   5.5  
+UniRef90_D3CWW0 Phospholipase C, phosphocholine-specific n=4 Tax...    36   6.2  
+UniRef90_A0A1S3PCJ4 H-2 class II histocompatibility antigen, A-U...    36   6.6  
+UniRef90_P06340 HLA class II histocompatibility antigen, DO alph...    36   7.4  
+UniRef90_A0A0U4GH72 MHC class II alpha chain antigen (Fragment) ...    36   7.5  
+UniRef90_Q9MX65 MHC class II protein alpha chain (Fragment) n=3 ...    36   8.0  
+UniRef90_UPI00051F0B26 class II histocompatibility antigen, M al...    36   8.0  
+
+>UniRef90_M3WBG0 Major histocompatibility complex, class II, DM alpha n=6
+           Tax=Felidae TaxID=9681 RepID=M3WBG0_FELCA
+          Length = 261
+
+ Score =  139 bits (352), Expect = 6e-31,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SP++GLSE YD DQLF FDFSQNTRVPRLPEFADWAQ+ GD  AI FDK
+Sbjct: 43  TFLHTMYCQDWSPNIGLSETYDGDQLFSFDFSQNTRVPRLPEFADWAQKLGDTSAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 AFCQAMIQEIG 113
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_M3WBG0 Major histocompatibility complex, class II, DM a...   140   3e-31
+UniRef90_M3XS77 Major histocompatibility complex, class II, DM a...   139   7e-31
+UniRef90_G1R4X6 Major histocompatibility complex, class II, DM a...   138   9e-31
+UniRef90_G3SWT3 Major histocompatibility complex, class II, DM a...   138   1e-30
+UniRef90_UPI0005FB5877 HLA class II histocompatibility antigen, ...   138   2e-30
+UniRef90_UPI00093DA83B HLA class II histocompatibility antigen, ...   138   2e-30
+UniRef90_UPI0008F45CDB HLA class II histocompatibility antigen, ...   138   2e-30
+UniRef90_UPI0001954657 HLA class II histocompatibility antigen, ...   137   2e-30
+UniRef90_L5KZ13 HLA class II histocompatibility antigen, DM beta...   137   2e-30
+UniRef90_F7A6I1 Major histocompatibility complex, class II, DM a...   137   2e-30
+UniRef90_Q5TJG7 MHC class II antigen DM alpha (Fragment) n=1 Tax...   137   3e-30
+UniRef90_A0A061IH88 Class II histocompatibility antigen, M alpha...   137   3e-30
+UniRef90_UPI000812D09C HLA class II histocompatibility antigen, ...   137   3e-30
+UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 ...   136   6e-30
+UniRef90_UPI0002C59C17 HLA class II histocompatibility antigen, ...   135   7e-30
+UniRef90_G1P4W4 Major histocompatibility complex, class II, DM a...   135   9e-30
+UniRef90_G5BB05 HLA class II histocompatibility antigen, DM alph...   135   1e-29
+UniRef90_Q5TJG8 MHC class II antigen DM alpha n=4 Tax=Caniformia...   135   1e-29
+UniRef90_UPI0007687483 HLA class II histocompatibility antigen, ...   135   1e-29
+UniRef90_P28067 HLA class II histocompatibility antigen, DM alph...   135   1e-29
+UniRef90_S9YA11 HLA class II histocompatibility antigen, DM alph...   135   1e-29
+UniRef90_UPI0006D723CC HLA class II histocompatibility antigen, ...   135   1e-29
+UniRef90_Q5SP00 HLA class II histocompatibility antigen, DM alph...   135   1e-29
+UniRef90_UPI0009824895 HLA class II histocompatibility antigen, ...   135   1e-29
+UniRef90_W5PDP1 Major histocompatibility complex, class II, DM a...   135   1e-29
+UniRef90_G3RV19 Major histocompatibility complex, class II, DM a...   135   1e-29
+UniRef90_UPI0006438E32 HLA class II histocompatibility antigen, ...   135   2e-29
+UniRef90_UPI00045D5D07 HLA class II histocompatibility antigen, ...   134   2e-29
+UniRef90_UPI0004D0A68A HLA class II histocompatibility antigen, ...   134   2e-29
+UniRef90_UPI00067C0E38 class II histocompatibility antigen, M al...   134   2e-29
+UniRef90_UPI000980E798 HLA class II histocompatibility antigen, ...   134   2e-29
+UniRef90_UPI0007A7096A HLA class II histocompatibility antigen, ...   134   2e-29
+UniRef90_L8Y8L3 HLA class II histocompatibility antigen, DM alph...   134   3e-29
+UniRef90_H0WTC2 Major histocompatibility complex, class II, DM a...   133   3e-29
+UniRef90_UPI0003F18991 HLA class II histocompatibility antigen, ...   133   3e-29
+UniRef90_G1L591 Major histocompatibility complex, class II, DM a...   133   3e-29
+UniRef90_UPI000B534CC7 HLA class II histocompatibility antigen, ...   133   3e-29
+UniRef90_I3MD72 Major histocompatibility complex, class II, DM a...   133   3e-29
+UniRef90_UPI0002AA2D40 HLA class II histocompatibility antigen, ...   133   4e-29
+UniRef90_UPI000944F644 HLA class II histocompatibility antigen, ...   133   4e-29
+UniRef90_UPI00033338ED HLA class II histocompatibility antigen, ...   133   5e-29
+UniRef90_A0A1U7UP27 HLA class II histocompatibility antigen, DM ...   133   6e-29
+UniRef90_L7MRN6 Uncharacterized protein n=4 Tax=Equus TaxID=3551...   133   6e-29
+UniRef90_G9L0T4 HLA class II histocompatibility antigen, DM alph...   132   6e-29
+UniRef90_UPI0003F0CC13 HLA class II histocompatibility antigen, ...   132   8e-29
+UniRef90_A0A0P6J7G1 HLA class II histocompatibility antigen, DM ...   132   8e-29
+UniRef90_UPI000333E631 HLA class II histocompatibility antigen, ...   132   1e-28
+UniRef90_UPI0003C8F41A HLA class II histocompatibility antigen, ...   131   1e-28
+UniRef90_UPI000A33CE36 HLA class II histocompatibility antigen, ...   131   1e-28
+UniRef90_F1MLV2 Major histocompatibility complex, class II, DM a...   131   2e-28
+UniRef90_UPI000A33238D HLA class II histocompatibility antigen, ...   131   2e-28
+UniRef90_Q24K20 Major histocompatibility complex, class II, DM a...   131   2e-28
+UniRef90_A0A091CWQ1 HLA class II histocompatibility antigen, DM ...   130   2e-28
+UniRef90_UPI0002C657D1 HLA class II histocompatibility antigen, ...   130   3e-28
+UniRef90_G3HQS6 Class II histocompatibility antigen, M alpha cha...   130   3e-28
+UniRef90_B7Z4Y5 cDNA FLJ51553, highly similar to HLA class II hi...   130   4e-28
+UniRef90_H0VSG0 Major histocompatibility complex, class II, DM a...   129   6e-28
+UniRef90_UPI00042C385B HLA class II histocompatibility antigen, ...   129   7e-28
+UniRef90_UPI00038EBA15 HLA class II histocompatibility antigen, ...   128   1e-27
+UniRef90_UPI0004400EA1 HLA class II histocompatibility antigen, ...   128   1e-27
+UniRef90_A0A1S3WH29 HLA class II histocompatibility antigen, DM ...   128   1e-27
+UniRef90_V5SJ36 MHC class II protein (Fragment) n=8 Tax=Macaca T...   128   1e-27
+UniRef90_K7GRZ3 Major histocompatibility complex, class II, DM a...   128   2e-27
+UniRef90_UPI00042AEEA8 class II histocompatibility antigen, M al...   127   2e-27
+UniRef90_A5D9K9 Major histocompatibility complex, class II, DM a...   127   3e-27
+UniRef90_A0A0R9CWL6 MHC class II antigen n=7 Tax=Cetacea TaxID=9...   126   4e-27
+UniRef90_Q95574 Class II histocompatibility antigen, M alpha cha...   126   5e-27
+UniRef90_UPI00052941EE class II histocompatibility antigen, M al...   126   7e-27
+UniRef90_UPI0004ED1FCC HLA class II histocompatibility antigen, ...   125   9e-27
+UniRef90_Q31096 H2-Mb1 beta chain (Fragment) n=2 Tax=Mus TaxID=8...   125   1e-26
+UniRef90_UPI000B4EAC51 class II histocompatibility antigen, M al...   124   2e-26
+UniRef90_UPI000642A101 HLA class II histocompatibility antigen, ...   124   2e-26
+UniRef90_P28078 Class II histocompatibility antigen, M alpha cha...   124   2e-26
+UniRef90_A0A1S3GNF8 HLA class II histocompatibility antigen, DM ...   124   2e-26
+UniRef90_O02872 Histocompatibility antigen DM heterodimer heavy ...   124   3e-26
+UniRef90_UPI0003316E96 HLA class II histocompatibility antigen, ...   123   5e-26
+UniRef90_UPI00064B98D3 HLA class II histocompatibility antigen, ...   123   6e-26
+UniRef90_UPI00062AA60B HLA class II histocompatibility antigen, ...   122   7e-26
+UniRef90_A0A1L7N0D0 MHC class II M alpha chain n=1 Tax=Ciconia b...   122   7e-26
+UniRef90_UPI0003F13DB7 HLA class II histocompatibility antigen, ...   120   5e-25
+UniRef90_A0A0B5JLK4 DMA n=2 Tax=Nipponia nippon TaxID=128390 Rep...   118   9e-25
+UniRef90_UPI00071E026A class II histocompatibility antigen, M al...   117   2e-24
+UniRef90_U3IFQ8 Major histocompatibility complex, class II, DM a...   117   3e-24
+UniRef90_A0A1L1RWS7 Uncharacterized protein n=1 Tax=Gallus gallu...   116   5e-24
+UniRef90_A0A0U4GH26 MHC class II alpha chain antigen n=3 Tax=Pha...   114   2e-23
+UniRef90_A5HUL6 MHC class II M alpha chain n=10 Tax=Gallus gallu...   114   2e-23
+UniRef90_UPI000B3E23BB class II histocompatibility antigen, M al...   114   2e-23
+UniRef90_K7E3A8 Major histocompatibility complex, class II, DM a...   113   5e-23
+UniRef90_A0A151MRQ7 Class II histocompatibility antigen, M alpha...   113   6e-23
+UniRef90_G3VMH2 Major histocompatibility complex, class II, DM a...   112   8e-23
+UniRef90_UPI00042BF0CF class II histocompatibility antigen, M al...   111   1e-22
+UniRef90_UPI0007773073 class II histocompatibility antigen, M al...   111   2e-22
+UniRef90_Q76LJ4 MHC class II A family peptide loading n=1 Tax=Co...   110   5e-22
+UniRef90_A0A1A6GK86 Uncharacterized protein n=1 Tax=Neotoma lepi...   109   6e-22
+UniRef90_B1N1D5 MHC class II antigen M alpha chain n=5 Tax=Phasi...   107   2e-21
+UniRef90_A0A091EW08 Class II histocompatibility antigen, M alpha...   105   8e-21
+UniRef90_UPI0009E31125 class II histocompatibility antigen, M al...   100   6e-19
+UniRef90_UPI0006B7D2F9 elastin-like n=1 Tax=Pseudopodoces humili...    99   1e-18
+UniRef90_UPI00074FC3E1 class II histocompatibility antigen, M al...    99   1e-18
+UniRef90_UPI00051B134D class II histocompatibility antigen, M al...    97   3e-18
+UniRef90_Q6P7G2 MGC68534 protein n=2 Tax=Xenopus laevis TaxID=83...    96   7e-18
+UniRef90_UPI0008543855 class II histocompatibility antigen, M al...    95   1e-17
+UniRef90_F7EMH0 Major histocompatibility complex class II alpha ...    95   2e-17
+UniRef90_UPI000442090C class II histocompatibility antigen, M al...    94   3e-17
+UniRef90_UPI00046C1DE0 class II histocompatibility antigen, M al...    93   8e-17
+UniRef90_UPI000739DBE2 HLA class II histocompatibility antigen, ...    89   1e-15
+UniRef90_UPI000462B1B2 class II histocompatibility antigen, M al...    88   2e-15
+UniRef90_UPI00038348BA uncharacterized protein LOC101876857 n=1 ...    75   2e-11
+UniRef90_G1TG75 Major histocompatibility complex, class II, DM a...    70   7e-10
+UniRef90_UPI0005281C8F HLA class II histocompatibility antigen, ...    50   4e-04
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A091HTQ8 Class II histocompatibility antigen, M alpha...    48   0.002
+UniRef90_UPI000846A297 HLA class II histocompatibility antigen, ...    46   0.011
+UniRef90_H2ZYC5 Uncharacterized protein n=2 Tax=Latimeria chalum...    45   0.016
+UniRef90_W5MK71 Uncharacterized protein n=2 Tax=Lepisosteus ocul...    44   0.036
+UniRef90_UPI0006D8E0DF HLA class II histocompatibility antigen, ...    41   0.30 
+UniRef90_B3U2C4 MHC class II antigen (Fragment) n=5 Tax=Trichosu...    40   0.50 
+UniRef90_Q30761 MHC class II DR alpha protein n=1 Tax=Notamacrop...    40   0.52 
+UniRef90_Q31397 MHC class II protein n=4 Tax=Ginglymostoma cirra...    40   0.62 
+UniRef90_Q9MX67 MHC class II protein alpha chain (Fragment) n=1 ...    40   0.71 
+UniRef90_H2ZTM7 Uncharacterized protein n=1 Tax=Latimeria chalum...    38   1.7  
+UniRef90_UPI0006D93372 HLA class II histocompatibility antigen, ...    38   2.0  
+UniRef90_Q9MX55 MHC class II protein alpha chain (Fragment) n=3 ...    38   2.7  
+UniRef90_V9NC01 MHC class II antigen n=3 Tax=Salmo salar TaxID=8...    38   3.2  
+UniRef90_UPI000A28CE14 LOW QUALITY PROTEIN: antigen WC1.1-like n...    37   4.7  
+UniRef90_D3CWW0 Phospholipase C, phosphocholine-specific n=4 Tax...    37   5.4  
+UniRef90_UPI00051F0B26 class II histocompatibility antigen, M al...    37   5.4  
+UniRef90_A0A0U4GH72 MHC class II alpha chain antigen (Fragment) ...    36   6.2  
+UniRef90_P06340 HLA class II histocompatibility antigen, DO alph...    36   6.4  
+UniRef90_A0A1S3PCJ4 H-2 class II histocompatibility antigen, A-U...    36   6.7  
+UniRef90_Q9MX65 MHC class II protein alpha chain (Fragment) n=3 ...    36   6.9  
+
+
+CONVERGED!
+>UniRef90_M3WBG0 Major histocompatibility complex, class II, DM alpha n=6
+           Tax=Felidae TaxID=9681 RepID=M3WBG0_FELCA
+          Length = 261
+
+ Score =  140 bits (354), Expect = 3e-31,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SP++GLSE YD DQLF FDFSQNTRVPRLPEFADWAQ+ GD  AI FDK
+Sbjct: 43  TFLHTMYCQDWSPNIGLSETYDGDQLFSFDFSQNTRVPRLPEFADWAQKLGDTSAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 AFCQAMIQEIG 113
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.312    0.188    0.683 
+
+Lambda     K      H
+   0.267   0.0574    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 18,990,814,586
+Number of Sequences: 61934301
+Number of extensions: 953205059
+Number of successful extensions: 1593292
+Number of sequences better than 10.0: 141
+Number of HSP's better than 10.0 without gapping: 515
+Number of HSP's successfully gapped in prelim test: 36
+Number of HSP's that attempted gapping in prelim test: 1592752
+Number of HSP's gapped (non-prelim): 552
+length of query: 71
+length of database: 21,023,703,129
+effective HSP length: 43
+effective length of query: 28
+effective length of database: 22,655,495,482
+effective search space: 634353873496
+effective search space used: 634353873496
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.9 bits)
+S2: 83 (36.1 bits)

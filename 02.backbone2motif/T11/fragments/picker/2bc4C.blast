@@ -1,0 +1,3675 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 2bc4C
+         (71 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 ...   149   6e-34
+UniRef90_G1R4X6 Major histocompatibility complex, class II, DM a...   149   9e-34
+UniRef90_P28067 HLA class II histocompatibility antigen, DM alph...   148   1e-33
+UniRef90_UPI0002AA2D40 HLA class II histocompatibility antigen, ...   147   3e-33
+UniRef90_Q5SP00 HLA class II histocompatibility antigen, DM alph...   147   4e-33
+UniRef90_UPI0008F45CDB HLA class II histocompatibility antigen, ...   146   4e-33
+UniRef90_G3RV19 Major histocompatibility complex, class II, DM a...   144   2e-32
+UniRef90_B7Z4Y5 cDNA FLJ51553, highly similar to HLA class II hi...   142   9e-32
+UniRef90_V5SJ36 MHC class II protein (Fragment) n=8 Tax=Macaca T...   134   3e-29
+UniRef90_L8Y8L3 HLA class II histocompatibility antigen, DM alph...   126   5e-27
+UniRef90_UPI0001954657 HLA class II histocompatibility antigen, ...   125   1e-26
+UniRef90_G3SWT3 Major histocompatibility complex, class II, DM a...   125   1e-26
+UniRef90_A0A061IH88 Class II histocompatibility antigen, M alpha...   124   2e-26
+UniRef90_UPI0003C8F41A HLA class II histocompatibility antigen, ...   124   2e-26
+UniRef90_UPI0003F0CC13 HLA class II histocompatibility antigen, ...   124   2e-26
+UniRef90_UPI0006438E32 HLA class II histocompatibility antigen, ...   123   4e-26
+UniRef90_UPI000812D09C HLA class II histocompatibility antigen, ...   122   7e-26
+UniRef90_G5BB05 HLA class II histocompatibility antigen, DM alph...   122   8e-26
+UniRef90_G1P4W4 Major histocompatibility complex, class II, DM a...   122   8e-26
+UniRef90_UPI000A33238D HLA class II histocompatibility antigen, ...   122   8e-26
+UniRef90_UPI00093DA83B HLA class II histocompatibility antigen, ...   122   1e-25
+UniRef90_UPI0006D723CC HLA class II histocompatibility antigen, ...   121   1e-25
+UniRef90_UPI000980E798 HLA class II histocompatibility antigen, ...   121   1e-25
+UniRef90_UPI0009824895 HLA class II histocompatibility antigen, ...   121   2e-25
+UniRef90_UPI000333E631 HLA class II histocompatibility antigen, ...   121   2e-25
+UniRef90_UPI000B534CC7 HLA class II histocompatibility antigen, ...   120   2e-25
+UniRef90_H0WTC2 Major histocompatibility complex, class II, DM a...   120   3e-25
+UniRef90_UPI000A33CE36 HLA class II histocompatibility antigen, ...   120   4e-25
+UniRef90_UPI0004D0A68A HLA class II histocompatibility antigen, ...   120   4e-25
+UniRef90_A0A0P6J7G1 HLA class II histocompatibility antigen, DM ...   119   5e-25
+UniRef90_G3HQS6 Class II histocompatibility antigen, M alpha cha...   119   7e-25
+UniRef90_M3WBG0 Major histocompatibility complex, class II, DM a...   119   8e-25
+UniRef90_I3MD72 Major histocompatibility complex, class II, DM a...   119   1e-24
+UniRef90_UPI00067C0E38 class II histocompatibility antigen, M al...   118   1e-24
+UniRef90_UPI0002C59C17 HLA class II histocompatibility antigen, ...   118   1e-24
+UniRef90_A0A1U7UP27 HLA class II histocompatibility antigen, DM ...   118   1e-24
+UniRef90_UPI00033338ED HLA class II histocompatibility antigen, ...   118   1e-24
+UniRef90_UPI00045D5D07 HLA class II histocompatibility antigen, ...   118   1e-24
+UniRef90_F7A6I1 Major histocompatibility complex, class II, DM a...   118   2e-24
+UniRef90_UPI000944F644 HLA class II histocompatibility antigen, ...   117   2e-24
+UniRef90_UPI0005FB5877 HLA class II histocompatibility antigen, ...   117   3e-24
+UniRef90_Q5TJG7 MHC class II antigen DM alpha (Fragment) n=1 Tax...   117   3e-24
+UniRef90_H0VSG0 Major histocompatibility complex, class II, DM a...   117   3e-24
+UniRef90_UPI00042C385B HLA class II histocompatibility antigen, ...   117   3e-24
+UniRef90_S9YA11 HLA class II histocompatibility antigen, DM alph...   116   4e-24
+UniRef90_UPI00042AEEA8 class II histocompatibility antigen, M al...   116   5e-24
+UniRef90_L5KZ13 HLA class II histocompatibility antigen, DM beta...   116   6e-24
+UniRef90_M3XS77 Major histocompatibility complex, class II, DM a...   116   6e-24
+UniRef90_UPI0007A7096A HLA class II histocompatibility antigen, ...   115   8e-24
+UniRef90_Q5TJG8 MHC class II antigen DM alpha n=4 Tax=Caniformia...   115   9e-24
+UniRef90_W5PDP1 Major histocompatibility complex, class II, DM a...   115   1e-23
+UniRef90_UPI0007687483 HLA class II histocompatibility antigen, ...   114   2e-23
+UniRef90_A0A091CWQ1 HLA class II histocompatibility antigen, DM ...   114   2e-23
+UniRef90_UPI0002C657D1 HLA class II histocompatibility antigen, ...   114   2e-23
+UniRef90_G1L591 Major histocompatibility complex, class II, DM a...   114   3e-23
+UniRef90_L7MRN6 Uncharacterized protein n=4 Tax=Equus TaxID=3551...   113   4e-23
+UniRef90_UPI0003F18991 HLA class II histocompatibility antigen, ...   113   5e-23
+UniRef90_UPI00038EBA15 HLA class II histocompatibility antigen, ...   112   7e-23
+UniRef90_A0A1S3GNF8 HLA class II histocompatibility antigen, DM ...   112   9e-23
+UniRef90_F1MLV2 Major histocompatibility complex, class II, DM a...   112   1e-22
+UniRef90_UPI0004ED1FCC HLA class II histocompatibility antigen, ...   112   1e-22
+UniRef90_UPI00064B98D3 HLA class II histocompatibility antigen, ...   111   1e-22
+UniRef90_Q24K20 Major histocompatibility complex, class II, DM a...   111   2e-22
+UniRef90_Q95574 Class II histocompatibility antigen, M alpha cha...   110   2e-22
+UniRef90_P28078 Class II histocompatibility antigen, M alpha cha...   109   6e-22
+UniRef90_G9L0T4 HLA class II histocompatibility antigen, DM alph...   109   8e-22
+UniRef90_Q31096 H2-Mb1 beta chain (Fragment) n=2 Tax=Mus TaxID=8...   109   8e-22
+UniRef90_A5D9K9 Major histocompatibility complex, class II, DM a...   108   1e-21
+UniRef90_UPI0004400EA1 HLA class II histocompatibility antigen, ...   108   1e-21
+UniRef90_K7GRZ3 Major histocompatibility complex, class II, DM a...   108   2e-21
+UniRef90_UPI000B4EAC51 class II histocompatibility antigen, M al...   108   2e-21
+UniRef90_A0A0R9CWL6 MHC class II antigen n=7 Tax=Cetacea TaxID=9...   107   3e-21
+UniRef90_UPI0003F13DB7 HLA class II histocompatibility antigen, ...   107   3e-21
+UniRef90_O02872 Histocompatibility antigen DM heterodimer heavy ...   106   7e-21
+UniRef90_A0A1S3WH29 HLA class II histocompatibility antigen, DM ...   105   7e-21
+UniRef90_UPI00062AA60B HLA class II histocompatibility antigen, ...   105   1e-20
+UniRef90_UPI000642A101 HLA class II histocompatibility antigen, ...   103   6e-20
+UniRef90_A0A1A6GK86 Uncharacterized protein n=1 Tax=Neotoma lepi...   102   1e-19
+UniRef90_UPI0003316E96 HLA class II histocompatibility antigen, ...    98   2e-18
+UniRef90_A0A0U4GH26 MHC class II alpha chain antigen n=3 Tax=Pha...    88   2e-15
+UniRef90_K7E3A8 Major histocompatibility complex, class II, DM a...    84   5e-14
+UniRef90_G3VMH2 Major histocompatibility complex, class II, DM a...    80   4e-13
+UniRef90_G1TG75 Major histocompatibility complex, class II, DM a...    59   1e-06
+UniRef90_A0A0B5JLK4 DMA n=2 Tax=Nipponia nippon TaxID=128390 Rep...    56   7e-06
+UniRef90_A0A151MRQ7 Class II histocompatibility antigen, M alpha...    56   9e-06
+UniRef90_A0A1L7N0D0 MHC class II M alpha chain n=1 Tax=Ciconia b...    56   1e-05
+UniRef90_UPI00052941EE class II histocompatibility antigen, M al...    55   1e-05
+UniRef90_UPI00071E026A class II histocompatibility antigen, M al...    53   6e-05
+UniRef90_UPI00042BF0CF class II histocompatibility antigen, M al...    53   6e-05
+UniRef90_UPI00046C1DE0 class II histocompatibility antigen, M al...    51   3e-04
+UniRef90_U3IFQ8 Major histocompatibility complex, class II, DM a...    50   5e-04
+UniRef90_UPI0007773073 class II histocompatibility antigen, M al...    50   6e-04
+UniRef90_Q76LJ4 MHC class II A family peptide loading n=1 Tax=Co...    50   6e-04
+UniRef90_A0A1L1RWS7 Uncharacterized protein n=1 Tax=Gallus gallu...    50   7e-04
+
+>UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 RepID=Q29878_HUMAN
+          Length = 257
+
+ Score =  149 bits (377), Expect = 6e-34,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 39  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 98
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 99  EFCEWMIQQIG 109
+
+
+>UniRef90_G1R4X6 Major histocompatibility complex, class II, DM alpha n=28
+           Tax=Catarrhini TaxID=9526 RepID=G1R4X6_NOMLE
+          Length = 291
+
+ Score =  149 bits (375), Expect = 9e-34,   Method: Composition-based stats.
+ Identities = 70/71 (98%), Positives = 70/71 (98%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 73  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 132
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQQIG
+Sbjct: 133 EFCESMIQQIG 143
+
+
+>UniRef90_P28067 HLA class II histocompatibility antigen, DM alpha chain n=50
+           Tax=Simiiformes TaxID=314293 RepID=DMA_HUMAN
+          Length = 261
+
+ Score =  148 bits (373), Expect = 1e-33,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 43  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 103 EFCEWMIQQIG 113
+
+
+>UniRef90_UPI0002AA2D40 HLA class II histocompatibility antigen, DM alpha chain n=2
+          Tax=Homo sapiens TaxID=9606 RepID=UPI0002AA2D40
+          Length = 203
+
+ Score =  147 bits (370), Expect = 3e-33,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 17 TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 76
+
+Query: 61 EFCEWMIQQIG 71
+          EFCEWMIQQIG
+Sbjct: 77 EFCEWMIQQIG 87
+
+
+>UniRef90_Q5SP00 HLA class II histocompatibility antigen, DM alpha chain n=12
+           Tax=Catarrhini TaxID=9526 RepID=Q5SP00_HUMAN
+          Length = 227
+
+ Score =  147 bits (370), Expect = 4e-33,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 43  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 103 EFCEWMIQQIG 113
+
+
+>UniRef90_UPI0008F45CDB HLA class II histocompatibility antigen, DM alpha chain isoform X3
+           n=1 Tax=Gorilla gorilla gorilla TaxID=9595
+           RepID=UPI0008F45CDB
+          Length = 328
+
+ Score =  146 bits (369), Expect = 4e-33,   Method: Composition-based stats.
+ Identities = 68/71 (95%), Positives = 69/71 (97%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSP VGLSEAYDEDQLFFF+FSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 144 TFLHTVYCQDGSPGVGLSEAYDEDQLFFFNFSQNTRVPRLPEFADWAQEQGDAPAILFDK 203
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQQIG
+Sbjct: 204 EFCESMIQQIG 214
+
+
+>UniRef90_G3RV19 Major histocompatibility complex, class II, DM alpha n=8
+           Tax=Homininae TaxID=207598 RepID=G3RV19_GORGO
+          Length = 291
+
+ Score =  144 bits (363), Expect = 2e-32,   Method: Composition-based stats.
+ Identities = 68/71 (95%), Positives = 69/71 (97%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSP VGLSEAYDEDQLFFF+FSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 73  TFLHTVYCQDGSPGVGLSEAYDEDQLFFFNFSQNTRVPRLPEFADWAQEQGDAPAILFDK 132
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQQIG
+Sbjct: 133 EFCESMIQQIG 143
+
+
+>UniRef90_B7Z4Y5 cDNA FLJ51553, highly similar to HLA class II histocompatibility
+           antigen, DMalpha chain n=1 Tax=Homo sapiens TaxID=9606
+           RepID=B7Z4Y5_HUMAN
+          Length = 123
+
+ Score =  142 bits (358), Expect = 9e-32,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 35  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 94
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 95  EFCEWMIQQIG 105
+
+
+>UniRef90_V5SJ36 MHC class II protein (Fragment) n=8 Tax=Macaca TaxID=9539
+          RepID=V5SJ36_MACMU
+          Length = 94
+
+ Score =  134 bits (336), Expect = 3e-29,   Method: Composition-based stats.
+ Identities = 67/71 (94%), Positives = 69/71 (97%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TFLHTVYCQDGSPS+GLSEAYD+DQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 13 TFLHTVYCQDGSPSMGLSEAYDKDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 72
+
+Query: 61 EFCEWMIQQIG 71
+           FCE MIQQIG
+Sbjct: 73 AFCEMMIQQIG 83
+
+
+>UniRef90_L8Y8L3 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Tupaia chinensis TaxID=246437 RepID=L8Y8L3_TUPCH
+          Length = 375
+
+ Score =  126 bits (317), Expect = 5e-27,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDG P++GL E YDEDQLF FDFSQN RVPRLPEFA+WAQEQGD PAI+FDK
+Sbjct: 43  TFLHTVYCQDGHPTMGLFETYDEDQLFSFDFSQNIRVPRLPEFAEWAQEQGDIPAIVFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ M+Q+IG
+Sbjct: 103 NFCQMMVQKIG 113
+
+
+>UniRef90_UPI0001954657 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Dasypus novemcinctus TaxID=9361 RepID=UPI0001954657
+          Length = 261
+
+ Score =  125 bits (313), Expect = 1e-26,   Method: Composition-based stats.
+ Identities = 58/71 (81%), Positives = 64/71 (90%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPS+GLSEAYDEDQLF FDFSQN RVPRLP+FA WAQEQGDA AI FDK
+Sbjct: 43  TFLHTVYCQDGSPSLGLSEAYDEDQLFSFDFSQNVRVPRLPDFAYWAQEQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC  +I+++G
+Sbjct: 103 EFCRELIEEVG 113
+
+
+>UniRef90_G3SWT3 Major histocompatibility complex, class II, DM alpha n=5
+           Tax=Afrotheria TaxID=311790 RepID=G3SWT3_LOXAF
+          Length = 261
+
+ Score =  125 bits (313), Expect = 1e-26,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 65/71 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+G+PS+GLSEAYDEDQLF FDFSQN+RVPRLPEFADWA++QGD  AI FDK
+Sbjct: 43  TFLHTMYCQNGTPSLGLSEAYDEDQLFSFDFSQNSRVPRLPEFADWAKDQGDVSAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQ IG
+Sbjct: 103 EFCQSMIQDIG 113
+
+
+>UniRef90_A0A061IH88 Class II histocompatibility antigen, M alpha chain-like protein n=1
+           Tax=Cricetulus griseus TaxID=10029
+           RepID=A0A061IH88_CRIGR
+          Length = 530
+
+ Score =  124 bits (312), Expect = 2e-26,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 65/71 (91%), Gaps = 1/71 (1%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQDG+PS+GLSE+YDEDQLF+ DFSQNTRVPRLP+FADWAQEQGDA AI FDK
+Sbjct: 44  TFRHTVFCQDGNPSIGLSESYDEDQLFY-DFSQNTRVPRLPDFADWAQEQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC  +IQ+IG
+Sbjct: 103 EFCNMLIQEIG 113
+
+
+>UniRef90_UPI0003C8F41A HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Tupaia chinensis TaxID=246437 RepID=UPI0003C8F41A
+          Length = 261
+
+ Score =  124 bits (312), Expect = 2e-26,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDG P++GL E YDEDQLF FDFSQN RVPRLPEFA+WAQEQGD PAI+FDK
+Sbjct: 43  TFLHTVYCQDGHPTMGLFETYDEDQLFSFDFSQNIRVPRLPEFAEWAQEQGDIPAIVFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ M+Q+IG
+Sbjct: 103 NFCQMMVQKIG 113
+
+
+>UniRef90_UPI0003F0CC13 HLA class II histocompatibility antigen, DM alpha chain-like n=1
+           Tax=Elephantulus edwardii TaxID=28737
+           RepID=UPI0003F0CC13
+          Length = 295
+
+ Score =  124 bits (311), Expect = 2e-26,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 65/71 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDG PS+GLSE+YDEDQLF +DFSQNTR+PRL EFADWA+++GDA AI FDK
+Sbjct: 43  TFLHTVYCQDGYPSLGLSESYDEDQLFSYDFSQNTRLPRLAEFADWAKDEGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQQIG
+Sbjct: 103 EFCQGMIQQIG 113
+
+
+>UniRef90_UPI0006438E32 HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=4 Tax=Lemuriformes TaxID=376915 RepID=UPI0006438E32
+          Length = 274
+
+ Score =  123 bits (309), Expect = 4e-26,   Method: Composition-based stats.
+ Identities = 58/71 (81%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQ GSP VGLSEAYDEDQLF FDFS+NTRVPRLPEFA W +EQ DA AILFD 
+Sbjct: 43  TFLHTVYCQYGSPGVGLSEAYDEDQLFSFDFSRNTRVPRLPEFAKWTEEQSDASAILFDA 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQQIG
+Sbjct: 103 GFCQMMIQQIG 113
+
+
+>UniRef90_UPI000812D09C HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=2 Tax=Manis javanica TaxID=9974 RepID=UPI000812D09C
+          Length = 283
+
+ Score =  122 bits (307), Expect = 7e-26,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSP+VGLSE YDEDQLF FDFSQN RVPRLPEFADWAQ+ GD   I FDK
+Sbjct: 65  TFLHTVYCQDGSPTVGLSETYDEDQLFSFDFSQNIRVPRLPEFADWAQKPGDTSTIFFDK 124
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 125 GFCQAMIQEIG 135
+
+
+>UniRef90_G5BB05 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Heterocephalus glaber TaxID=10181 RepID=G5BB05_HETGA
+          Length = 358
+
+ Score =  122 bits (306), Expect = 8e-26,   Method: Composition-based stats.
+ Identities = 53/70 (75%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDED LF FDFS+NTRVPRLP+FADWAQ+Q DAPAI FDK
+Sbjct: 94  TFRHTVFCQEGTPSIGLSESYDEDLLFSFDFSKNTRVPRLPDFADWAQDQSDAPAIAFDK 153
+
+Query: 61  EFCEWMIQQI 70
+           +FCE M+QQ+
+Sbjct: 154 QFCEMMVQQL 163
+
+
+>UniRef90_G1P4W4 Major histocompatibility complex, class II, DM alpha n=6
+          Tax=Vespertilionidae TaxID=9431 RepID=G1P4W4_MYOLU
+          Length = 252
+
+ Score =  122 bits (306), Expect = 8e-26,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 60/71 (84%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TF HTVYCQD SP VGLSE YDEDQLF FDFSQNTRVPRLPEFADWAQ+ GDA  I FDK
+Sbjct: 29 TFQHTVYCQDWSPDVGLSEVYDEDQLFSFDFSQNTRVPRLPEFADWAQKSGDASTIFFDK 88
+
+Query: 61 EFCEWMIQQIG 71
+           FC+ M+Q++G
+Sbjct: 89 AFCQAMVQEVG 99
+
+
+>UniRef90_UPI000A33238D HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=4 Tax=Heterocephalus glaber TaxID=10181
+           RepID=UPI000A33238D
+          Length = 392
+
+ Score =  122 bits (306), Expect = 8e-26,   Method: Composition-based stats.
+ Identities = 53/70 (75%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDED LF FDFS+NTRVPRLP+FADWAQ+Q DAPAI FDK
+Sbjct: 150 TFRHTVFCQEGTPSIGLSESYDEDLLFSFDFSKNTRVPRLPDFADWAQDQSDAPAIAFDK 209
+
+Query: 61  EFCEWMIQQI 70
+           +FCE M+QQ+
+Sbjct: 210 QFCEIMVQQL 219
+
+
+>UniRef90_UPI00093DA83B HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Hipposideros armiger TaxID=186990
+           RepID=UPI00093DA83B
+          Length = 261
+
+ Score =  122 bits (305), Expect = 1e-25,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT++CQ+ SPSVGLSEAYD DQLF FDFSQNTRVPRLPEFADWAQ+ GD P ILFDK
+Sbjct: 43  TFLHTMFCQNASPSVGLSEAYDGDQLFSFDFSQNTRVPRLPEFADWAQKSGDTPNILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 GFCQAMIQEIG 113
+
+
+>UniRef90_UPI0006D723CC HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Myotis lucifugus TaxID=59463 RepID=UPI0006D723CC
+          Length = 262
+
+ Score =  121 bits (304), Expect = 1e-25,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTVYCQD SP VGLSE YDEDQLF FDFSQNTRVPRLPEFADWAQ+ GDA  I FDK
+Sbjct: 44  TFQHTVYCQDWSPDVGLSEVYDEDQLFSFDFSQNTRVPRLPEFADWAQKSGDASTIFFDK 103
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ M+Q++G
+Sbjct: 104 AFCQAMVQEVG 114
+
+
+>UniRef90_UPI000980E798 HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=2 Tax=Castor canadensis TaxID=51338
+           RepID=UPI000980E798
+          Length = 260
+
+ Score =  121 bits (304), Expect = 1e-25,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQDGSPS+GLSE+Y EDQLF F+FSQN RVPRLPEFADWAQE GD+ AI FDK
+Sbjct: 42  TFRHTMFCQDGSPSIGLSESYGEDQLFSFNFSQNMRVPRLPEFADWAQEHGDSLAISFDK 101
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQ+IG
+Sbjct: 102 EFCEIMIQEIG 112
+
+
+>UniRef90_UPI0009824895 HLA class II histocompatibility antigen, DM alpha chain isoform X3
+           n=1 Tax=Castor canadensis TaxID=51338
+           RepID=UPI0009824895
+          Length = 226
+
+ Score =  121 bits (304), Expect = 2e-25,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQDGSPS+GLSE+Y EDQLF F+FSQN RVPRLPEFADWAQE GD+ AI FDK
+Sbjct: 42  TFRHTMFCQDGSPSIGLSESYGEDQLFSFNFSQNMRVPRLPEFADWAQEHGDSLAISFDK 101
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQ+IG
+Sbjct: 102 EFCEIMIQEIG 112
+
+
+>UniRef90_UPI000333E631 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Echinops telfairi TaxID=9371 RepID=UPI000333E631
+          Length = 261
+
+ Score =  121 bits (303), Expect = 2e-25,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 62/71 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPS+GLSEAYDEDQLF +DF+QNTRVPRLPEFADWA++Q D P I  D 
+Sbjct: 43  TFLHTVYCQDGSPSLGLSEAYDEDQLFSYDFAQNTRVPRLPEFADWAKDQRDVPNISLDA 102
+
+Query: 61  EFCEWMIQQIG 71
+           E C+ +IQQIG
+Sbjct: 103 EICKQLIQQIG 113
+
+
+>UniRef90_UPI000B534CC7 HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=1 Tax=Tarsius syrichta TaxID=1868482
+           RepID=UPI000B534CC7
+          Length = 348
+
+ Score =  120 bits (302), Expect = 2e-25,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTV+CQDGSPSV LSE YDEDQLF FDFS+N RVPRLPEFA+WA++Q D  AILFD+
+Sbjct: 43  TFLHTVFCQDGSPSVELSETYDEDQLFSFDFSKNIRVPRLPEFAEWAKDQRDTSAILFDR 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQQIG
+Sbjct: 103 EFCQTMIQQIG 113
+
+
+>UniRef90_H0WTC2 Major histocompatibility complex, class II, DM alpha n=3
+           Tax=Otolemur garnettii TaxID=30611 RepID=H0WTC2_OTOGA
+          Length = 261
+
+ Score =  120 bits (302), Expect = 3e-25,   Method: Composition-based stats.
+ Identities = 58/71 (81%), Positives = 62/71 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQ GSPSVGLSE+YDEDQLF FDF QNTRVPRLPEFA+WAQE+ DA AI FDK
+Sbjct: 43  TFLHTVYCQYGSPSVGLSESYDEDQLFSFDFLQNTRVPRLPEFANWAQEERDASAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ IG
+Sbjct: 103 TFCQDMIQDIG 113
+
+
+>UniRef90_UPI000A33CE36 HLA class II histocompatibility antigen, DM alpha chain isoform X5
+           n=1 Tax=Heterocephalus glaber TaxID=10181
+           RepID=UPI000A33CE36
+          Length = 285
+
+ Score =  120 bits (300), Expect = 4e-25,   Method: Composition-based stats.
+ Identities = 53/70 (75%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDED LF FDFS+NTRVPRLP+FADWAQ+Q DAPAI FDK
+Sbjct: 43  TFRHTVFCQEGTPSIGLSESYDEDLLFSFDFSKNTRVPRLPDFADWAQDQSDAPAIAFDK 102
+
+Query: 61  EFCEWMIQQI 70
+           +FCE M+QQ+
+Sbjct: 103 QFCEIMVQQL 112
+
+
+>UniRef90_UPI0004D0A68A HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Galeopterus variegatus TaxID=482537
+           RepID=UPI0004D0A68A
+          Length = 266
+
+ Score =  120 bits (300), Expect = 4e-25,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSE YDED LF FDFS+NTRVPRLPEFADWAQ+  D  AI FDK
+Sbjct: 48  TFLHTVYCQDGSPSVGLSETYDEDPLFSFDFSKNTRVPRLPEFADWAQDTRDVSAISFDK 107
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ IG
+Sbjct: 108 RFCQMMIQDIG 118
+
+
+>UniRef90_A0A0P6J7G1 HLA class II histocompatibility antigen, DM alpha chain n=2
+           Tax=Heterocephalus glaber TaxID=10181
+           RepID=A0A0P6J7G1_HETGA
+          Length = 261
+
+ Score =  119 bits (299), Expect = 5e-25,   Method: Composition-based stats.
+ Identities = 53/70 (75%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDED LF FDFS+NTRVPRLP+FADWAQ+Q DAPAI FDK
+Sbjct: 43  TFRHTVFCQEGTPSIGLSESYDEDLLFSFDFSKNTRVPRLPDFADWAQDQSDAPAIAFDK 102
+
+Query: 61  EFCEWMIQQI 70
+           +FCE M+QQ+
+Sbjct: 103 QFCEMMVQQL 112
+
+
+>UniRef90_G3HQS6 Class II histocompatibility antigen, M alpha chain n=3
+           Tax=Cricetinae TaxID=10026 RepID=G3HQS6_CRIGR
+          Length = 261
+
+ Score =  119 bits (298), Expect = 7e-25,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 65/71 (91%), Gaps = 1/71 (1%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQDG+PS+GLSE+YDEDQLF+ DFSQNTRVPRLP+FADWAQEQGDA AI FDK
+Sbjct: 44  TFRHTVFCQDGNPSIGLSESYDEDQLFY-DFSQNTRVPRLPDFADWAQEQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC  +IQ+IG
+Sbjct: 103 EFCNMLIQEIG 113
+
+
+>UniRef90_M3WBG0 Major histocompatibility complex, class II, DM alpha n=6
+           Tax=Felidae TaxID=9681 RepID=M3WBG0_FELCA
+          Length = 261
+
+ Score =  119 bits (298), Expect = 8e-25,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SP++GLSE YD DQLF FDFSQNTRVPRLPEFADWAQ+ GD  AI FDK
+Sbjct: 43  TFLHTMYCQDWSPNIGLSETYDGDQLFSFDFSQNTRVPRLPEFADWAQKLGDTSAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 AFCQAMIQEIG 113
+
+
+>UniRef90_I3MD72 Major histocompatibility complex, class II, DM alpha n=3
+           Tax=Marmotini TaxID=337730 RepID=I3MD72_ICTTR
+          Length = 260
+
+ Score =  119 bits (297), Expect = 1e-24,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQDGSPS+GL+E YDED LF FDFS+NTRVPRLPEFADWAQ+Q DA AI+FDK
+Sbjct: 43  TFRHTVFCQDGSPSIGLTETYDEDLLFSFDFSRNTRVPRLPEFADWAQDQRDASAIVFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FCE MI++IG
+Sbjct: 103 GFCEAMIEKIG 113
+
+
+>UniRef90_UPI00067C0E38 class II histocompatibility antigen, M alpha chain n=1 Tax=Microtus
+           ochrogaster TaxID=79684 RepID=UPI00067C0E38
+          Length = 261
+
+ Score =  118 bits (296), Expect = 1e-24,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 64/71 (90%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQDG+PS+GLSE+YDEDQLF +DFSQNTRVPRLP FA WAQ+QGDA AI FDK
+Sbjct: 43  TFRHTVFCQDGNPSMGLSESYDEDQLFSYDFSQNTRVPRLPNFAAWAQDQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           +FC+ ++QQ+G
+Sbjct: 103 DFCQVLVQQVG 113
+
+
+>UniRef90_UPI0002C59C17 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Odobenus rosmarus divergens TaxID=9708
+           RepID=UPI0002C59C17
+          Length = 261
+
+ Score =  118 bits (296), Expect = 1e-24,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPS+ LSE YD DQLF FDFSQNTRVPRLPEFADWAQ+ GD   I FDK
+Sbjct: 43  TFLHTIYCQNWSPSISLSETYDGDQLFSFDFSQNTRVPRLPEFADWAQKPGDTSTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQ+IG
+Sbjct: 103 EFCQVMIQKIG 113
+
+
+>UniRef90_A0A1U7UP27 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Tarsius syrichta TaxID=1868482
+           RepID=A0A1U7UP27_TARSY
+          Length = 261
+
+ Score =  118 bits (296), Expect = 1e-24,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTV+CQDGSPSV LSE YDEDQLF FDFS+N RVPRLPEFA+WA++Q D  AILFD+
+Sbjct: 43  TFLHTVFCQDGSPSVELSETYDEDQLFSFDFSKNIRVPRLPEFAEWAKDQRDTSAILFDR 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQQIG
+Sbjct: 103 EFCQTMIQQIG 113
+
+
+>UniRef90_UPI00033338ED HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Jaculus jaculus TaxID=51337 RepID=UPI00033338ED
+          Length = 401
+
+ Score =  118 bits (296), Expect = 1e-24,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 62/71 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+GSPS+ L+E YDEDQLF FDFS+NTRVPRLPEFA WAQ+QGDA AI+FDK
+Sbjct: 43  TFRHTVFCQNGSPSMALTETYDEDQLFSFDFSRNTRVPRLPEFAGWAQDQGDASAIVFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FCE M Q++G
+Sbjct: 103 GFCEIMTQEVG 113
+
+
+>UniRef90_UPI00045D5D07 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Orycteropus afer afer TaxID=1230840
+           RepID=UPI00045D5D07
+          Length = 261
+
+ Score =  118 bits (295), Expect = 1e-24,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 62/71 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDG+P +GLSEAYDEDQLF +DFSQ+ RV RLPEFADWA++QGDA AI FDK
+Sbjct: 43  TFLHTVYCQDGNPKLGLSEAYDEDQLFSYDFSQSIRVARLPEFADWAKDQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           E C+ MI+ IG
+Sbjct: 103 ELCQTMIENIG 113
+
+
+>UniRef90_F7A6I1 Major histocompatibility complex, class II, DM alpha n=6 Tax=Equus
+           TaxID=35510 RepID=F7A6I1_HORSE
+          Length = 261
+
+ Score =  118 bits (295), Expect = 2e-24,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SPSVGLSE YDEDQLF F+FSQN RVPRLPEF DWAQ+ GD+  I FDK
+Sbjct: 43  TFLHTIYCQDWSPSVGLSETYDEDQLFSFNFSQNVRVPRLPEFTDWAQKAGDSSNIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 TFCQEMIQEIG 113
+
+
+>UniRef90_UPI000944F644 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Rhinolophus sinicus TaxID=89399 RepID=UPI000944F644
+          Length = 261
+
+ Score =  117 bits (293), Expect = 2e-24,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT++CQ+G+PSVGLSE YD DQLF FDFS+NTRVPRLPEFADWAQ+ G+   ILFDK
+Sbjct: 43  TFLHTMFCQNGTPSVGLSETYDGDQLFSFDFSRNTRVPRLPEFADWAQKSGNNSTILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FCE M+Q IG
+Sbjct: 103 GFCEIMMQHIG 113
+
+
+>UniRef90_UPI0005FB5877 HLA class II histocompatibility antigen, DM alpha chain isoform X2
+           n=1 Tax=Ovis aries musimon TaxID=9938
+           RepID=UPI0005FB5877
+          Length = 205
+
+ Score =  117 bits (293), Expect = 3e-24,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T LHTVYCQD SPSVGLSEAYD DQLF FDFSQN RVPRLPEFADWA + GD   I+FDK
+Sbjct: 80  TLLHTVYCQDWSPSVGLSEAYDGDQLFSFDFSQNIRVPRLPEFADWAHQHGDTSDIMFDK 139
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI++IG
+Sbjct: 140 GFCRTMIEEIG 150
+
+
+>UniRef90_Q5TJG7 MHC class II antigen DM alpha (Fragment) n=1 Tax=Canis lupus
+           familiaris TaxID=9615 RepID=Q5TJG7_CANLF
+          Length = 158
+
+ Score =  117 bits (292), Expect = 3e-24,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPS+GL EAYD DQLF F+FSQNTRVPRLPEFADWAQ+ GD P I FDK
+Sbjct: 41  TFLHTMYCQNWSPSIGLLEAYDGDQLFSFNFSQNTRVPRLPEFADWAQKSGDMPTISFDK 100
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI++IG
+Sbjct: 101 AFCQAMIEEIG 111
+
+
+>UniRef90_H0VSG0 Major histocompatibility complex, class II, DM alpha n=2 Tax=Cavia
+           porcellus TaxID=10141 RepID=H0VSG0_CAVPO
+          Length = 265
+
+ Score =  117 bits (292), Expect = 3e-24,   Method: Composition-based stats.
+ Identities = 52/70 (74%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+GSPS+GLSE+YDED LF FDF+++TRVPRLPEFADWA+++ DAPAI FDK
+Sbjct: 49  TFRHTVFCQEGSPSMGLSESYDEDLLFSFDFAKSTRVPRLPEFADWAEDRSDAPAIAFDK 108
+
+Query: 61  EFCEWMIQQI 70
+           EFCE M+QQ+
+Sbjct: 109 EFCEAMVQQL 118
+
+
+>UniRef90_UPI00042C385B HLA class II histocompatibility antigen, DM alpha chain-like n=1
+           Tax=Physeter catodon TaxID=9755 RepID=UPI00042C385B
+          Length = 359
+
+ Score =  117 bits (292), Expect = 3e-24,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+GSPSVGLSEAY+EDQLFFFDFSQN RVPRLPEFADWA +  D   I FDK
+Sbjct: 43  TFLHTMYCQNGSPSVGLSEAYNEDQLFFFDFSQNIRVPRLPEFADWAHKPRDTSNIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  +I++IG
+Sbjct: 103 AFCRAIIEEIG 113
+
+
+>UniRef90_S9YA11 HLA class II histocompatibility antigen, DM alpha chain n=5
+           Tax=Camelidae TaxID=9835 RepID=S9YA11_CAMFR
+          Length = 261
+
+ Score =  116 bits (291), Expect = 4e-24,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SP+VGLSE YDEDQLF FDFSQN RVPRLPEFADWA + GD+  I FDK
+Sbjct: 43  TFLHTMYCQNASPNVGLSETYDEDQLFSFDFSQNIRVPRLPEFADWAHKSGDSSTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI++IG
+Sbjct: 103 GFCQAMIEEIG 113
+
+
+>UniRef90_UPI00042AEEA8 class II histocompatibility antigen, M alpha chain n=1
+           Tax=Peromyscus maniculatus bairdii TaxID=230844
+           RepID=UPI00042AEEA8
+          Length = 262
+
+ Score =  116 bits (291), Expect = 5e-24,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 64/71 (90%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ G+PS+GLSE+YDEDQLF ++FSQ+TRVPRLP+FA WAQEQGDA AI FDK
+Sbjct: 44  TFRHTVFCQLGNPSIGLSESYDEDQLFTYNFSQDTRVPRLPDFAGWAQEQGDASAISFDK 103
+
+Query: 61  EFCEWMIQQIG 71
+           +FCE ++QQ+G
+Sbjct: 104 DFCEMLVQQVG 114
+
+
+>UniRef90_L5KZ13 HLA class II histocompatibility antigen, DM beta chain n=1
+           Tax=Pteropus alecto TaxID=9402 RepID=L5KZ13_PTEAL
+          Length = 630
+
+ Score =  116 bits (290), Expect = 6e-24,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPSV LSE+YDEDQLF FDFSQN RVPRLPEFADWAQ+  D   I FDK
+Sbjct: 43  TFLHTMYCQNASPSVALSESYDEDQLFSFDFSQNIRVPRLPEFADWAQKSEDISTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI +IG
+Sbjct: 103 GFCQAMIHEIG 113
+
+
+>UniRef90_M3XS77 Major histocompatibility complex, class II, DM alpha n=5
+           Tax=Caniformia TaxID=379584 RepID=M3XS77_MUSPF
+          Length = 261
+
+ Score =  116 bits (290), Expect = 6e-24,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT+YCQ+ +PS+GLSEAYD DQLF FDFSQNTRVPRLPEFADWAQ+ GD   I FDK
+Sbjct: 43  TFQHTMYCQNWNPSIGLSEAYDGDQLFSFDFSQNTRVPRLPEFADWAQKPGDTSTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 TFCQSMIQEIG 113
+
+
+>UniRef90_UPI0007A7096A HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=2 Tax=Miniopterus natalensis TaxID=291302
+           RepID=UPI0007A7096A
+          Length = 255
+
+ Score =  115 bits (289), Expect = 8e-24,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT+YCQD SP+VGLSEAYDED LF FDFSQNTRVPRLPEFADWAQ+ GD+  I FDK
+Sbjct: 38  TFQHTMYCQDWSPNVGLSEAYDEDLLFSFDFSQNTRVPRLPEFADWAQKPGDSSNIFFDK 97
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ M+++IG
+Sbjct: 98  AFCQAMVREIG 108
+
+
+>UniRef90_Q5TJG8 MHC class II antigen DM alpha n=4 Tax=Caniformia TaxID=379584
+           RepID=Q5TJG8_CANLF
+          Length = 265
+
+ Score =  115 bits (289), Expect = 9e-24,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPS+GL EAYD DQLF F+FSQNTRVPRLPEFADWAQ+ GD P I FDK
+Sbjct: 49  TFLHTMYCQNWSPSIGLLEAYDGDQLFSFNFSQNTRVPRLPEFADWAQKSGDMPTISFDK 108
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI++IG
+Sbjct: 109 AFCQAMIEEIG 119
+
+
+>UniRef90_W5PDP1 Major histocompatibility complex, class II, DM alpha n=3
+           Tax=Caprinae TaxID=9963 RepID=W5PDP1_SHEEP
+          Length = 261
+
+ Score =  115 bits (288), Expect = 1e-23,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T LHTVYCQD SPSVGLSEAYD DQLF FDFSQN RVPRLPEFADWA + GD   I+FDK
+Sbjct: 43  TLLHTVYCQDWSPSVGLSEAYDGDQLFSFDFSQNIRVPRLPEFADWAHQHGDTSNIMFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI++IG
+Sbjct: 103 GFCRTMIEEIG 113
+
+
+>UniRef90_UPI0007687483 HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=11 Tax=Pteropus TaxID=9401 RepID=UPI0007687483
+          Length = 267
+
+ Score =  114 bits (286), Expect = 2e-23,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPSV LSE+YDEDQLF FDFSQN RVPRLPEFADWAQ+  D   I FDK
+Sbjct: 49  TFLHTMYCQNASPSVALSESYDEDQLFSFDFSQNIRVPRLPEFADWAQKSEDISTIFFDK 108
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI +IG
+Sbjct: 109 GFCQAMIHEIG 119
+
+
+>UniRef90_A0A091CWQ1 HLA class II histocompatibility antigen, DM alpha chain n=2
+           Tax=Fukomys damarensis TaxID=885580
+           RepID=A0A091CWQ1_FUKDA
+          Length = 304
+
+ Score =  114 bits (286), Expect = 2e-23,   Method: Composition-based stats.
+ Identities = 51/70 (72%), Positives = 61/70 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDEDQLF FDFS+NTRVPRLPEF DWAQ+  DA AI FDK
+Sbjct: 86  TFRHTVFCQEGTPSIGLSESYDEDQLFSFDFSKNTRVPRLPEFTDWAQDLSDASAIAFDK 145
+
+Query: 61  EFCEWMIQQI 70
+           +FC  M+QQ+
+Sbjct: 146 DFCSAMVQQL 155
+
+
+>UniRef90_UPI0002C657D1 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Ceratotherium simum simum TaxID=73337
+           RepID=UPI0002C657D1
+          Length = 261
+
+ Score =  114 bits (285), Expect = 2e-23,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLH +YCQ+G+PSVGLSE YDEDQLF F+FSQNTRVPRLPEF DWAQ+  D  AI FD+
+Sbjct: 43  TFLHAIYCQNGTPSVGLSETYDEDQLFSFNFSQNTRVPRLPEFTDWAQKARDTSAIFFDQ 102
+
+Query: 61  EFCEWMIQQIG 71
+           +FC+ MIQ IG
+Sbjct: 103 QFCQEMIQGIG 113
+
+
+>UniRef90_G1L591 Major histocompatibility complex, class II, DM alpha n=8
+           Tax=Ursidae TaxID=9632 RepID=G1L591_AILME
+          Length = 261
+
+ Score =  114 bits (284), Expect = 3e-23,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPSVGL EAYD DQLF FDF+QNTRVPRLPEFADW Q+ GD   I F+K
+Sbjct: 43  TFLHTMYCQNWSPSVGLLEAYDGDQLFSFDFNQNTRVPRLPEFADWTQKPGDTSTIFFEK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MIQ+IG
+Sbjct: 103 AFCRAMIQEIG 113
+
+
+>UniRef90_L7MRN6 Uncharacterized protein n=4 Tax=Equus TaxID=35510
+           RepID=L7MRN6_HORSE
+          Length = 261
+
+ Score =  113 bits (283), Expect = 4e-23,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 59/71 (83%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SPSVGLSE YDEDQLF F+FSQN RVPRLPEF D AQ+ GD+  I FDK
+Sbjct: 43  TFLHTIYCQDWSPSVGLSETYDEDQLFSFNFSQNVRVPRLPEFTDRAQKAGDSSNIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 TFCQEMIQEIG 113
+
+
+>UniRef90_UPI0003F18991 HLA class II histocompatibility antigen, DM alpha chain isoform X3
+           n=3 Tax=Pteropodinae TaxID=77225 RepID=UPI0003F18991
+          Length = 261
+
+ Score =  113 bits (282), Expect = 5e-23,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPSV LSE+YDEDQLF FDFSQN RVPRLPEFADWAQ+  D   I FDK
+Sbjct: 43  TFLHTMYCQNASPSVALSESYDEDQLFSFDFSQNIRVPRLPEFADWAQKSEDISTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI +IG
+Sbjct: 103 GFCQAMIHEIG 113
+
+
+>UniRef90_UPI00038EBA15 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00038EBA15
+          Length = 261
+
+ Score =  112 bits (281), Expect = 7e-23,   Method: Composition-based stats.
+ Identities = 50/70 (71%), Positives = 63/70 (90%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+GSP++GLSE+YDEDQLF F+F+ +TRVPRLPEFADWA+++ DA AI FDK
+Sbjct: 43  TFRHTVFCQEGSPTIGLSESYDEDQLFSFNFATSTRVPRLPEFADWAEDKSDASAIAFDK 102
+
+Query: 61  EFCEWMIQQI 70
+           +FCE MIQQ+
+Sbjct: 103 KFCETMIQQL 112
+
+
+>UniRef90_A0A1S3GNF8 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Dipodomys ordii TaxID=10020 RepID=A0A1S3GNF8_DIPOR
+          Length = 261
+
+ Score =  112 bits (280), Expect = 9e-23,   Method: Composition-based stats.
+ Identities = 49/71 (69%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQD SPS+GLSE YD+D LF FDFS +TR+P LPEF+ W Q+QGD PAILFDK
+Sbjct: 43  TFQHTVFCQDWSPSIGLSETYDQDLLFSFDFSHDTRIPHLPEFSKWTQDQGDTPAILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           +FCE ++QQ+G
+Sbjct: 103 KFCELILQQVG 113
+
+
+>UniRef90_F1MLV2 Major histocompatibility complex, class II, DM alpha n=1 Tax=Bos
+          taurus TaxID=9913 RepID=F1MLV2_BOVIN
+          Length = 231
+
+ Score =  112 bits (280), Expect = 1e-22,   Method: Composition-based stats.
+ Identities = 51/71 (71%), Positives = 59/71 (83%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TFLHT+YCQD SP+V LSE+YDEDQLF FDFSQ+ RVPRLPEFADWA + GD   I+FDK
+Sbjct: 14 TFLHTMYCQDWSPNVALSESYDEDQLFSFDFSQSIRVPRLPEFADWAHQHGDTSDIMFDK 73
+
+Query: 61 EFCEWMIQQIG 71
+           FC  MI++IG
+Sbjct: 74 GFCRAMIEEIG 84
+
+
+>UniRef90_UPI0004ED1FCC HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Nannospalax galili TaxID=1026970 RepID=UPI0004ED1FCC
+          Length = 260
+
+ Score =  112 bits (280), Expect = 1e-22,   Method: Composition-based stats.
+ Identities = 50/71 (70%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQ+GSP +GL+E YDED LF FDFSQNTRVPRLPEFA WAQ+QGD+ AILFDK
+Sbjct: 42  TFRHTLFCQEGSPGLGLTETYDEDLLFSFDFSQNTRVPRLPEFARWAQDQGDSTAILFDK 101
+
+Query: 61  EFCEWMIQQIG 71
+             CE +I ++G
+Sbjct: 102 NVCESLIGEVG 112
+
+
+>UniRef90_UPI00064B98D3 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Ochotona princeps TaxID=9978 RepID=UPI00064B98D3
+          Length = 261
+
+ Score =  111 bits (278), Expect = 1e-22,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T LHTV+CQ GSPSVGLSE YD D LF FDF+ NT VPRLPEFADWAQEQ D P ILFD+
+Sbjct: 43  TLLHTVFCQLGSPSVGLSETYDSDLLFSFDFTHNTSVPRLPEFADWAQEQSDIPDILFDE 102
+
+Query: 61  EFCEWMIQQIG 71
+           +FC+ M+Q IG
+Sbjct: 103 DFCQKMVQIIG 113
+
+
+>UniRef90_Q24K20 Major histocompatibility complex, class II, DM alpha-chain,
+           expressed n=15 Tax=Pecora TaxID=35500 RepID=Q24K20_BOVIN
+          Length = 260
+
+ Score =  111 bits (278), Expect = 2e-22,   Method: Composition-based stats.
+ Identities = 51/71 (71%), Positives = 59/71 (83%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SP+V LSE+YDEDQLF FDFSQ+ RVPRLPEFADWA + GD   I+FDK
+Sbjct: 43  TFLHTMYCQDWSPNVALSESYDEDQLFSFDFSQSIRVPRLPEFADWAHQHGDTSDIMFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI++IG
+Sbjct: 103 GFCRAMIEEIG 113
+
+
+>UniRef90_Q95574 Class II histocompatibility antigen, M alpha chain n=4 Tax=Rattus
+           norvegicus TaxID=10116 RepID=Q95574_RAT
+          Length = 260
+
+ Score =  110 bits (276), Expect = 2e-22,   Method: Composition-based stats.
+ Identities = 51/70 (72%), Positives = 60/70 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQDG P++GLSE YDED LF FDFSQNTRVPRLPEFA+WAQEQGDA AI FDK
+Sbjct: 42  TFRHTLFCQDGFPNIGLSETYDEDALFSFDFSQNTRVPRLPEFAEWAQEQGDASAIAFDK 101
+
+Query: 61  EFCEWMIQQI 70
+            FC+ ++Q +
+Sbjct: 102 GFCDMLMQNV 111
+
+
+>UniRef90_P28078 Class II histocompatibility antigen, M alpha chain n=14
+           Tax=Bilateria TaxID=33213 RepID=DMA_MOUSE
+          Length = 261
+
+ Score =  109 bits (273), Expect = 6e-22,   Method: Composition-based stats.
+ Identities = 48/70 (68%), Positives = 60/70 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQDG P++GLSE YDED+LF FDFSQNTRVPRLP+FA+WAQ QGDA AI F K
+Sbjct: 43  TFRHTLFCQDGIPNIGLSETYDEDELFSFDFSQNTRVPRLPDFAEWAQGQGDASAIAFGK 102
+
+Query: 61  EFCEWMIQQI 70
+            FCE +++++
+Sbjct: 103 SFCEMLMREV 112
+
+
+>UniRef90_G9L0T4 HLA class II histocompatibility antigen, DM alpha chain-like
+           protein (Fragment) n=2 Tax=Mustelinae TaxID=169418
+           RepID=G9L0T4_MUSPF
+          Length = 137
+
+ Score =  109 bits (272), Expect = 8e-22,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT+YCQ+ +PS+GLSEAYD DQLF FDFSQNTRVPRLPEFADWAQ+ GD   I FDK
+Sbjct: 47  TFQHTMYCQNWNPSIGLSEAYDGDQLFSFDFSQNTRVPRLPEFADWAQKPGDTSTIFFDK 106
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 107 TFCQSMIQEIG 117
+
+
+>UniRef90_Q31096 H2-Mb1 beta chain (Fragment) n=2 Tax=Mus TaxID=862507
+          RepID=Q31096_MOUSE
+          Length = 191
+
+ Score =  109 bits (272), Expect = 8e-22,   Method: Composition-based stats.
+ Identities = 49/70 (70%), Positives = 61/70 (87%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TF HT++CQDG P++GLSE YDED+LF FDFSQNTRVPRLP+FA+WAQ QGDA AI FDK
+Sbjct: 17 TFRHTLFCQDGIPNIGLSETYDEDELFSFDFSQNTRVPRLPDFAEWAQGQGDASAIAFDK 76
+
+Query: 61 EFCEWMIQQI 70
+           FCE +++++
+Sbjct: 77 SFCEMLMREV 86
+
+
+>UniRef90_A5D9K9 Major histocompatibility complex, class II, DM alpha n=3 Tax=Sus
+           scrofa TaxID=9823 RepID=A5D9K9_PIG
+          Length = 261
+
+ Score =  108 bits (270), Expect = 1e-21,   Method: Composition-based stats.
+ Identities = 49/71 (69%), Positives = 57/71 (80%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF +T+YCQDG+P VGLSE YD DQLF F+FSQN RVPRLPEFADWA +  D PAI FDK
+Sbjct: 43  TFQYTMYCQDGNPEVGLSEVYDGDQLFSFNFSQNIRVPRLPEFADWAHQIEDTPAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI+++G
+Sbjct: 103 GFCREMIEKVG 113
+
+
+>UniRef90_UPI0004400EA1 HLA class II histocompatibility antigen, DM alpha chain-like
+           isoform X3 n=2 Tax=Balaenoptera acutorostrata scammoni
+           TaxID=310752 RepID=UPI0004400EA1
+          Length = 257
+
+ Score =  108 bits (269), Expect = 1e-21,   Method: Composition-based stats.
+ Identities = 50/71 (70%), Positives = 56/71 (78%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFL T+YCQ GSP+VGLSE YDEDQLF FDFSQN RVPRLPEFADWA +  D   I FDK
+Sbjct: 39  TFLRTMYCQKGSPNVGLSETYDEDQLFSFDFSQNIRVPRLPEFADWAHKSRDTYNIFFDK 98
+
+Query: 61  EFCEWMIQQIG 71
+            FC  +I++IG
+Sbjct: 99  AFCRAVIEEIG 109
+
+
+>UniRef90_K7GRZ3 Major histocompatibility complex, class II, DM alpha (Fragment) n=2
+           Tax=Sus scrofa TaxID=9823 RepID=K7GRZ3_PIG
+          Length = 160
+
+ Score =  108 bits (269), Expect = 2e-21,   Method: Composition-based stats.
+ Identities = 49/71 (69%), Positives = 57/71 (80%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF +T+YCQDG+P VGLSE YD DQLF F+FSQN RVPRLPEFADWA +  D PAI FDK
+Sbjct: 42  TFQYTMYCQDGNPEVGLSEVYDGDQLFSFNFSQNIRVPRLPEFADWAHQIEDTPAIFFDK 101
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI+++G
+Sbjct: 102 GFCREMIEKVG 112
+
+
+>UniRef90_UPI000B4EAC51 class II histocompatibility antigen, M alpha chain n=1 Tax=Meriones
+           unguiculatus TaxID=10047 RepID=UPI000B4EAC51
+          Length = 261
+
+ Score =  108 bits (269), Expect = 2e-21,   Method: Composition-based stats.
+ Identities = 47/70 (67%), Positives = 61/70 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQD  P VGLSE+YDEDQLF +DF Q++RVPRLP+FA WAQEQGDA AI FDK
+Sbjct: 43  TFRHTVFCQDREPRVGLSESYDEDQLFSYDFQQSSRVPRLPDFAQWAQEQGDAAAISFDK 102
+
+Query: 61  EFCEWMIQQI 70
+           +FC+++++++
+Sbjct: 103 DFCQFLVREV 112
+
+
+>UniRef90_A0A0R9CWL6 MHC class II antigen n=7 Tax=Cetacea TaxID=9721
+           RepID=A0A0R9CWL6_9CETA
+          Length = 261
+
+ Score =  107 bits (267), Expect = 3e-21,   Method: Composition-based stats.
+ Identities = 48/71 (67%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ G+P+VGLSE+Y+EDQLF FDFSQN RVPRLPEFADWA +  D   I FDK
+Sbjct: 43  TFLHTMYCQIGNPNVGLSESYNEDQLFSFDFSQNIRVPRLPEFADWAHKSRDTSNIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  ++++IG
+Sbjct: 103 AFCRAIVEEIG 113
+
+
+>UniRef90_UPI0003F13DB7 HLA class II histocompatibility antigen, DM alpha chain-like n=1
+           Tax=Chrysochloris asiatica TaxID=185453
+           RepID=UPI0003F13DB7
+          Length = 259
+
+ Score =  107 bits (266), Expect = 3e-21,   Method: Composition-based stats.
+ Identities = 46/71 (64%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLH+VYCQ+G+P++GLSEAYDEDQLF +DF+Q+ RVPRLPEFA+WA++QGDA  I FD 
+Sbjct: 41  TFLHSVYCQNGNPNMGLSEAYDEDQLFSYDFNQSIRVPRLPEFAEWAKDQGDATTISFDS 100
+
+Query: 61  EFCEWMIQQIG 71
+             C ++ Q++G
+Sbjct: 101 WLCNFLTQRLG 111
+
+
+>UniRef90_O02872 Histocompatibility antigen DM heterodimer heavy chain n=1
+           Tax=Oryctolagus cuniculus TaxID=9986 RepID=O02872_RABIT
+          Length = 258
+
+ Score =  106 bits (264), Expect = 7e-21,   Method: Composition-based stats.
+ Identities = 49/71 (69%), Positives = 57/71 (80%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTV+CQ G+PS GL EAYD D LF FDFSQ TRVPRLPEFADWAQ+Q D   ILFD+
+Sbjct: 43  TFLHTVFCQMGNPSEGLFEAYDSDLLFSFDFSQRTRVPRLPEFADWAQDQSDISDILFDR 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ ++Q +G
+Sbjct: 103 WFCQQLVQNVG 113
+
+
+>UniRef90_A0A1S3WH29 HLA class II histocompatibility antigen, DM alpha chain isoform X2
+           n=2 Tax=Erinaceus europaeus TaxID=9365
+           RepID=A0A1S3WH29_ERIEU
+          Length = 262
+
+ Score =  105 bits (263), Expect = 7e-21,   Method: Composition-based stats.
+ Identities = 47/71 (66%), Positives = 55/71 (77%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQDGSP++GLSE YD DQLF +DF  NTRVPRLPEF  WAQ+  D P+I  DK
+Sbjct: 44  TFLHTMYCQDGSPNIGLSETYDGDQLFSYDFLHNTRVPRLPEFTHWAQKIEDIPSIFSDK 103
+
+Query: 61  EFCEWMIQQIG 71
+             C+ MIQ +G
+Sbjct: 104 SICQIMIQNVG 114
+
+
+>UniRef90_UPI00062AA60B HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Octodon degus TaxID=10160 RepID=UPI00062AA60B
+          Length = 269
+
+ Score =  105 bits (262), Expect = 1e-20,   Method: Composition-based stats.
+ Identities = 46/70 (65%), Positives = 60/70 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF  TV+CQ+G P++GLSE+YDEDQ+F FDFS++TRVPRLPEFADWA++Q DA AI FD+
+Sbjct: 45  TFRRTVFCQEGFPNIGLSESYDEDQVFSFDFSKDTRVPRLPEFADWAKDQSDAAAIAFDR 104
+
+Query: 61  EFCEWMIQQI 70
+           +FC  M+Q +
+Sbjct: 105 KFCRDMVQDL 114
+
+
+>UniRef90_UPI000642A101 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Condylura cristata TaxID=143302 RepID=UPI000642A101
+          Length = 295
+
+ Score =  103 bits (256), Expect = 6e-20,   Method: Composition-based stats.
+ Identities = 43/71 (60%), Positives = 55/71 (77%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF+HT++CQ  +P++GLSE YD D LF FDFS++TRVPRLPEFA WAQ+  D   ILFDK
+Sbjct: 78  TFMHTIFCQTATPNIGLSETYDGDHLFSFDFSESTRVPRLPEFAAWAQKSDDISTILFDK 137
+
+Query: 61  EFCEWMIQQIG 71
+            FC  + +Q+G
+Sbjct: 138 TFCLMLAEQVG 148
+
+
+>UniRef90_A0A1A6GK86 Uncharacterized protein n=1 Tax=Neotoma lepida TaxID=56216
+           RepID=A0A1A6GK86_NEOLE
+          Length = 167
+
+ Score =  102 bits (254), Expect = 1e-19,   Method: Composition-based stats.
+ Identities = 46/60 (76%), Positives = 55/60 (91%)
+
+Query: 11  GSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFCEWMIQQI 70
+           G+PS+GLSE+YDEDQLF +DFSQNTRVPRLP+FADWAQEQGDA AI FD+ FCE ++QQ+
+Sbjct: 41  GNPSIGLSESYDEDQLFSYDFSQNTRVPRLPDFADWAQEQGDASAISFDQNFCEILVQQL 100
+
+
+>UniRef90_UPI0003316E96 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Sorex araneus TaxID=42254 RepID=UPI0003316E96
+          Length = 375
+
+ Score = 97.8 bits (242), Expect = 2e-18,   Method: Composition-based stats.
+ Identities = 44/71 (61%), Positives = 49/71 (69%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTVYCQ  SP  G SE YD +QLF FDF QNTRVPRLPEFADWAQ+  D   IL + 
+Sbjct: 44  TFQHTVYCQIWSPKKGFSETYDGEQLFSFDFDQNTRVPRLPEFADWAQKSEDTSKILLEN 103
+
+Query: 61  EFCEWMIQQIG 71
+             C  +I Q+G
+Sbjct: 104 TLCMALIDQVG 114
+
+
+>UniRef90_A0A0U4GH26 MHC class II alpha chain antigen n=3 Tax=Phascolarctos cinereus
+           TaxID=38626 RepID=A0A0U4GH26_PHACI
+          Length = 264
+
+ Score = 88.2 bits (217), Expect = 2e-15,   Method: Composition-based stats.
+ Identities = 39/70 (55%), Positives = 54/70 (77%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQD  P + LSEA++EDQLF FDFS+N+RVPRLPEFA WA ++GD  AI  D+
+Sbjct: 44  TFSHTLFCQDEDPVLSLSEAFNEDQLFSFDFSRNSRVPRLPEFAPWASDKGDIEAIKADQ 103
+
+Query: 61  EFCEWMIQQI 70
+             C+ + +++
+Sbjct: 104 RLCQELQKEL 113
+
+
+>UniRef90_K7E3A8 Major histocompatibility complex, class II, DM alpha n=3
+           Tax=Monodelphis domestica TaxID=13616 RepID=K7E3A8_MONDO
+          Length = 264
+
+ Score = 83.6 bits (205), Expect = 5e-14,   Method: Composition-based stats.
+ Identities = 39/64 (60%), Positives = 48/64 (75%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT +CQ+ +P V LSEA+  DQLF FDFS+N+RVPRLPEFA WA +Q D  AI  DK
+Sbjct: 44  TFSHTFFCQNEAPMVSLSEAFGGDQLFSFDFSKNSRVPRLPEFAPWAGDQSDLQAIDRDK 103
+
+Query: 61  EFCE 64
+           + C+
+Sbjct: 104 QLCQ 107
+
+
+>UniRef90_G3VMH2 Major histocompatibility complex, class II, DM alpha n=2
+           Tax=Sarcophilus harrisii TaxID=9305 RepID=G3VMH2_SARHA
+          Length = 265
+
+ Score = 80.5 bits (197), Expect = 4e-13,   Method: Composition-based stats.
+ Identities = 36/70 (51%), Positives = 49/70 (70%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF H ++CQ+G  S+GLSE ++ D LF FDFS+N+RVPRLPEFA WA ++ D   I  DK
+Sbjct: 43  TFSHILFCQNGESSLGLSENFNGDYLFSFDFSKNSRVPRLPEFAAWATDKRDIKTIDADK 102
+
+Query: 61  EFCEWMIQQI 70
+             C+ +  Q+
+Sbjct: 103 NLCQELQHQL 112
+
+
+>UniRef90_G1TG75 Major histocompatibility complex, class II, DM alpha n=1
+          Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1TG75_RABIT
+          Length = 197
+
+ Score = 58.9 bits (141), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 24/37 (64%), Positives = 30/37 (81%)
+
+Query: 35 TRVPRLPEFADWAQEQGDAPAILFDKEFCEWMIQQIG 71
+          TRVPRLPEFADWAQ+Q D   ILFD+ FC+ ++Q +G
+Sbjct: 16 TRVPRLPEFADWAQDQSDISDILFDRWFCQQLVQNVG 52
+
+
+>UniRef90_A0A0B5JLK4 DMA n=2 Tax=Nipponia nippon TaxID=128390 RepID=A0A0B5JLK4_NIPNI
+          Length = 249
+
+ Score = 56.2 bits (134), Expect = 7e-06,   Method: Composition-based stats.
+ Identities = 24/59 (40%), Positives = 34/59 (57%)
+
+Query: 6  VYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFCE 64
+          ++CQ   PS+GL+ A+DEDQLF+FDF  +   PRLP+   W         +L D   C+
+Sbjct: 36 LFCQAAVPSLGLALAFDEDQLFWFDFPGSRWTPRLPDLPSWPPTLEPPAELLRDATLCQ 94
+
+
+>UniRef90_A0A151MRQ7 Class II histocompatibility antigen, M alpha chain n=2
+          Tax=Alligator mississippiensis TaxID=8496
+          RepID=A0A151MRQ7_ALLMI
+          Length = 200
+
+ Score = 55.8 bits (133), Expect = 9e-06,   Method: Composition-based stats.
+ Identities = 24/65 (36%), Positives = 40/65 (61%)
+
+Query: 4  HTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFC 63
+            ++CQ  SPS+G ++ +DEDQLF+FDF  +  +PRLP+FA     Q     I+ +   C
+Sbjct: 27 QVLFCQPDSPSLGRADTFDEDQLFWFDFPSSHWLPRLPDFAPRTSAQSPPAQIVVEAGLC 86
+
+Query: 64 EWMIQ 68
+          + +++
+Sbjct: 87 KELLR 91
+
+
+>UniRef90_A0A1L7N0D0 MHC class II M alpha chain n=1 Tax=Ciconia boyciana TaxID=52775
+          RepID=A0A1L7N0D0_CICBO
+          Length = 249
+
+ Score = 55.8 bits (133), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 24/64 (37%), Positives = 35/64 (54%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ   PS+GL+ A+D DQLF+FDF ++   PRLP+   W         +L D 
+Sbjct: 31 TLAEVLFCQPAMPSLGLALAFDADQLFWFDFPRSRWTPRLPDLPPWPLALESPAQLLQDA 90
+
+Query: 61 EFCE 64
+            C+
+Sbjct: 91 TLCQ 94
+
+
+>UniRef90_UPI00052941EE class II histocompatibility antigen, M alpha chain n=1
+          Tax=Mesitornis unicolor TaxID=54374 RepID=UPI00052941EE
+          Length = 413
+
+ Score = 55.5 bits (132), Expect = 1e-05,   Method: Composition-based stats.
+ Identities = 24/64 (37%), Positives = 35/64 (54%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ   PS+GL+ A+D DQLF+FDF ++   PRLP+   W         +L D 
+Sbjct: 6  TLSEVLFCQPAMPSLGLALAFDGDQLFWFDFPRSRWTPRLPDLPPWPSALEPPAQLLRDA 65
+
+Query: 61 EFCE 64
+            C+
+Sbjct: 66 TLCQ 69
+
+
+>UniRef90_UPI00071E026A class II histocompatibility antigen, M alpha chain-like n=1
+          Tax=Calidris pugnax TaxID=198806 RepID=UPI00071E026A
+          Length = 246
+
+ Score = 53.1 bits (126), Expect = 6e-05,   Method: Composition-based stats.
+ Identities = 23/59 (38%), Positives = 34/59 (57%)
+
+Query: 6  VYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFCE 64
+          ++CQ   PS+GL+ A+D DQLF+FDF ++   PRLP+   W         +L D   C+
+Sbjct: 19 LFCQPAMPSLGLALAFDADQLFWFDFPRSQWTPRLPDLPPWPPNLETPKELLQDATLCQ 77
+
+
+>UniRef90_UPI00042BF0CF class II histocompatibility antigen, M alpha chain-like n=1
+           Tax=Chelonia mydas TaxID=8469 RepID=UPI00042BF0CF
+          Length = 283
+
+ Score = 53.1 bits (126), Expect = 6e-05,   Method: Composition-based stats.
+ Identities = 24/62 (38%), Positives = 33/62 (53%)
+
+Query: 6   VYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFCEW 65
+           ++CQ   PS GL++ +D DQLF FDF      PRLP+F  W   Q     I  D   C+ 
+Sbjct: 43  LFCQPDRPSQGLADTFDGDQLFSFDFPGARWEPRLPDFQPWVGAQESTEQIRNDSRLCQH 102
+
+Query: 66  MI 67
+           ++
+Sbjct: 103 LL 104
+
+
+>UniRef90_UPI00046C1DE0 class II histocompatibility antigen, M alpha chain n=1
+          Tax=Chrysemys picta bellii TaxID=8478
+          RepID=UPI00046C1DE0
+          Length = 220
+
+ Score = 51.2 bits (121), Expect = 3e-04,   Method: Composition-based stats.
+ Identities = 22/49 (44%), Positives = 29/49 (59%)
+
+Query: 6  VYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAP 54
+          ++CQ   PS+GL++ +D DQLF FDF      PRLP+F  W   Q   P
+Sbjct: 37 MFCQSDRPSLGLADTFDGDQLFSFDFPGGHWEPRLPDFQPWLSTQESTP 85
+
+
+>UniRef90_U3IFQ8 Major histocompatibility complex, class II, DM alpha n=2 Tax=Anas
+          platyrhynchos TaxID=8839 RepID=U3IFQ8_ANAPL
+          Length = 227
+
+ Score = 50.1 bits (118), Expect = 5e-04,   Method: Composition-based stats.
+ Identities = 21/65 (32%), Positives = 37/65 (56%)
+
+Query: 6  VYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFCEW 65
+          ++CQ   PS+GL+  +D +QLF+FD   +   PRLP+F  W +       ++ D   C+ 
+Sbjct: 11 LFCQPDMPSLGLAVTFDNEQLFWFDAPLSRWQPRLPDFPAWPEATEPPSELVHDTTLCQN 70
+
+Query: 66 MIQQI 70
+          M++ +
+Sbjct: 71 MLESL 75
+
+
+>UniRef90_UPI0007773073 class II histocompatibility antigen, M alpha chain isoform X1 n=2
+           Tax=Coturnix japonica TaxID=93934 RepID=UPI0007773073
+          Length = 279
+
+ Score = 50.1 bits (118), Expect = 6e-04,   Method: Composition-based stats.
+ Identities = 22/63 (34%), Positives = 34/63 (53%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T    ++CQ  +P+ GLS A+D +QLF FDF ++  +P+LP+   W         + FD 
+Sbjct: 59  TLSEVLFCQPDTPTRGLSVAFDSEQLFSFDFPKSQWLPQLPDAPSWPAGIEQPDELNFDT 118
+
+Query: 61  EFC 63
+             C
+Sbjct: 119 SLC 121
+
+
+>UniRef90_Q76LJ4 MHC class II A family peptide loading n=1 Tax=Coturnix japonica
+          TaxID=93934 RepID=Q76LJ4_COTJA
+          Length = 263
+
+ Score = 50.1 bits (118), Expect = 6e-04,   Method: Composition-based stats.
+ Identities = 22/63 (34%), Positives = 34/63 (53%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ  +P+ GLS A+D +QLF FDF ++  +P+LP+   W         + FD 
+Sbjct: 30 TLSEVLFCQPDTPTRGLSVAFDSEQLFSFDFPKSQWLPQLPDAPSWPSGIEQPDELNFDT 89
+
+Query: 61 EFC 63
+            C
+Sbjct: 90 SLC 92
+
+
+>UniRef90_A0A1L1RWS7 Uncharacterized protein n=1 Tax=Gallus gallus TaxID=9031
+          RepID=A0A1L1RWS7_CHICK
+          Length = 266
+
+ Score = 49.7 bits (117), Expect = 7e-04,   Method: Composition-based stats.
+ Identities = 22/67 (32%), Positives = 36/67 (53%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ  +PS+GLS A+D +QLF FD   +  +P+LP+   W  +      +L D 
+Sbjct: 30 TLSEVLFCQPDTPSLGLSVAFDSEQLFSFDVPNSQWLPQLPDGPSWPADIEQPHELLHDA 89
+
+Query: 61 EFCEWMI 67
+            C  ++
+Sbjct: 90 ALCRELL 96
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_M3WBG0 Major histocompatibility complex, class II, DM a...   150   2e-34
+UniRef90_M3XS77 Major histocompatibility complex, class II, DM a...   150   4e-34
+UniRef90_G1R4X6 Major histocompatibility complex, class II, DM a...   148   9e-34
+UniRef90_UPI000812D09C HLA class II histocompatibility antigen, ...   148   1e-33
+UniRef90_L5KZ13 HLA class II histocompatibility antigen, DM beta...   147   2e-33
+UniRef90_G3SWT3 Major histocompatibility complex, class II, DM a...   147   3e-33
+UniRef90_UPI00093DA83B HLA class II histocompatibility antigen, ...   147   3e-33
+UniRef90_G1P4W4 Major histocompatibility complex, class II, DM a...   147   3e-33
+UniRef90_UPI0008F45CDB HLA class II histocompatibility antigen, ...   147   4e-33
+UniRef90_UPI0006D723CC HLA class II histocompatibility antigen, ...   146   5e-33
+UniRef90_S9YA11 HLA class II histocompatibility antigen, DM alph...   146   6e-33
+UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 ...   146   6e-33
+UniRef90_UPI0005FB5877 HLA class II histocompatibility antigen, ...   146   6e-33
+UniRef90_UPI0001954657 HLA class II histocompatibility antigen, ...   145   7e-33
+UniRef90_Q5TJG7 MHC class II antigen DM alpha (Fragment) n=1 Tax...   145   1e-32
+UniRef90_UPI0002C59C17 HLA class II histocompatibility antigen, ...   145   1e-32
+UniRef90_UPI0007687483 HLA class II histocompatibility antigen, ...   145   1e-32
+UniRef90_A0A061IH88 Class II histocompatibility antigen, M alpha...   145   1e-32
+UniRef90_F7A6I1 Major histocompatibility complex, class II, DM a...   145   1e-32
+UniRef90_P28067 HLA class II histocompatibility antigen, DM alph...   145   1e-32
+UniRef90_L8Y8L3 HLA class II histocompatibility antigen, DM alph...   145   1e-32
+UniRef90_Q5SP00 HLA class II histocompatibility antigen, DM alph...   144   2e-32
+UniRef90_G3RV19 Major histocompatibility complex, class II, DM a...   144   2e-32
+UniRef90_UPI00067C0E38 class II histocompatibility antigen, M al...   143   3e-32
+UniRef90_UPI0007A7096A HLA class II histocompatibility antigen, ...   143   3e-32
+UniRef90_UPI0006438E32 HLA class II histocompatibility antigen, ...   143   3e-32
+UniRef90_I3MD72 Major histocompatibility complex, class II, DM a...   143   3e-32
+UniRef90_UPI0003F18991 HLA class II histocompatibility antigen, ...   143   3e-32
+UniRef90_G5BB05 HLA class II histocompatibility antigen, DM alph...   143   3e-32
+UniRef90_UPI0004D0A68A HLA class II histocompatibility antigen, ...   143   3e-32
+UniRef90_UPI00033338ED HLA class II histocompatibility antigen, ...   143   4e-32
+UniRef90_UPI0002AA2D40 HLA class II histocompatibility antigen, ...   143   4e-32
+UniRef90_Q5TJG8 MHC class II antigen DM alpha n=4 Tax=Caniformia...   143   5e-32
+UniRef90_UPI000B534CC7 HLA class II histocompatibility antigen, ...   143   5e-32
+UniRef90_UPI0003F0CC13 HLA class II histocompatibility antigen, ...   143   6e-32
+UniRef90_G9L0T4 HLA class II histocompatibility antigen, DM alph...   142   6e-32
+UniRef90_W5PDP1 Major histocompatibility complex, class II, DM a...   142   6e-32
+UniRef90_G1L591 Major histocompatibility complex, class II, DM a...   142   7e-32
+UniRef90_UPI000944F644 HLA class II histocompatibility antigen, ...   142   8e-32
+UniRef90_UPI0003C8F41A HLA class II histocompatibility antigen, ...   142   8e-32
+UniRef90_UPI0009824895 HLA class II histocompatibility antigen, ...   142   1e-31
+UniRef90_A0A1U7UP27 HLA class II histocompatibility antigen, DM ...   141   1e-31
+UniRef90_H0WTC2 Major histocompatibility complex, class II, DM a...   141   2e-31
+UniRef90_UPI00045D5D07 HLA class II histocompatibility antigen, ...   141   2e-31
+UniRef90_UPI000980E798 HLA class II histocompatibility antigen, ...   141   2e-31
+UniRef90_L7MRN6 Uncharacterized protein n=4 Tax=Equus TaxID=3551...   140   2e-31
+UniRef90_F1MLV2 Major histocompatibility complex, class II, DM a...   140   3e-31
+UniRef90_A0A0P6J7G1 HLA class II histocompatibility antigen, DM ...   140   3e-31
+UniRef90_Q24K20 Major histocompatibility complex, class II, DM a...   140   4e-31
+UniRef90_UPI000A33238D HLA class II histocompatibility antigen, ...   140   4e-31
+UniRef90_B7Z4Y5 cDNA FLJ51553, highly similar to HLA class II hi...   140   4e-31
+UniRef90_UPI000A33CE36 HLA class II histocompatibility antigen, ...   139   5e-31
+UniRef90_A0A091CWQ1 HLA class II histocompatibility antigen, DM ...   138   1e-30
+UniRef90_UPI00042C385B HLA class II histocompatibility antigen, ...   138   1e-30
+UniRef90_G3HQS6 Class II histocompatibility antigen, M alpha cha...   138   1e-30
+UniRef90_UPI000333E631 HLA class II histocompatibility antigen, ...   138   1e-30
+UniRef90_V5SJ36 MHC class II protein (Fragment) n=8 Tax=Macaca T...   138   1e-30
+UniRef90_K7GRZ3 Major histocompatibility complex, class II, DM a...   138   2e-30
+UniRef90_UPI0002C657D1 HLA class II histocompatibility antigen, ...   137   3e-30
+UniRef90_A5D9K9 Major histocompatibility complex, class II, DM a...   137   3e-30
+UniRef90_A0A0R9CWL6 MHC class II antigen n=7 Tax=Cetacea TaxID=9...   137   4e-30
+UniRef90_UPI0004400EA1 HLA class II histocompatibility antigen, ...   136   5e-30
+UniRef90_UPI00042AEEA8 class II histocompatibility antigen, M al...   136   6e-30
+UniRef90_H0VSG0 Major histocompatibility complex, class II, DM a...   135   1e-29
+UniRef90_A0A1S3WH29 HLA class II histocompatibility antigen, DM ...   135   1e-29
+UniRef90_UPI0004ED1FCC HLA class II histocompatibility antigen, ...   133   3e-29
+UniRef90_P28078 Class II histocompatibility antigen, M alpha cha...   133   3e-29
+UniRef90_Q31096 H2-Mb1 beta chain (Fragment) n=2 Tax=Mus TaxID=8...   133   3e-29
+UniRef90_Q95574 Class II histocompatibility antigen, M alpha cha...   133   3e-29
+UniRef90_UPI00038EBA15 HLA class II histocompatibility antigen, ...   133   3e-29
+UniRef90_A0A1S3GNF8 HLA class II histocompatibility antigen, DM ...   132   6e-29
+UniRef90_UPI000642A101 HLA class II histocompatibility antigen, ...   132   8e-29
+UniRef90_O02872 Histocompatibility antigen DM heterodimer heavy ...   131   2e-28
+UniRef90_UPI0003316E96 HLA class II histocompatibility antigen, ...   131   2e-28
+UniRef90_UPI00064B98D3 HLA class II histocompatibility antigen, ...   129   6e-28
+UniRef90_UPI00062AA60B HLA class II histocompatibility antigen, ...   129   7e-28
+UniRef90_UPI000B4EAC51 class II histocompatibility antigen, M al...   129   7e-28
+UniRef90_UPI0003F13DB7 HLA class II histocompatibility antigen, ...   128   1e-27
+UniRef90_A0A0U4GH26 MHC class II alpha chain antigen n=3 Tax=Pha...   118   1e-24
+UniRef90_A0A1A6GK86 Uncharacterized protein n=1 Tax=Neotoma lepi...   117   3e-24
+UniRef90_G3VMH2 Major histocompatibility complex, class II, DM a...   116   4e-24
+UniRef90_UPI00052941EE class II histocompatibility antigen, M al...   116   6e-24
+UniRef90_K7E3A8 Major histocompatibility complex, class II, DM a...   115   2e-23
+UniRef90_A0A1L7N0D0 MHC class II M alpha chain n=1 Tax=Ciconia b...   113   4e-23
+UniRef90_U3IFQ8 Major histocompatibility complex, class II, DM a...   111   2e-22
+UniRef90_A0A1L1RWS7 Uncharacterized protein n=1 Tax=Gallus gallu...   110   4e-22
+UniRef90_A0A0B5JLK4 DMA n=2 Tax=Nipponia nippon TaxID=128390 Rep...   108   1e-21
+UniRef90_A0A151MRQ7 Class II histocompatibility antigen, M alpha...   107   2e-21
+UniRef90_UPI00071E026A class II histocompatibility antigen, M al...   107   3e-21
+UniRef90_UPI00042BF0CF class II histocompatibility antigen, M al...   106   4e-21
+UniRef90_UPI0007773073 class II histocompatibility antigen, M al...   106   5e-21
+UniRef90_Q76LJ4 MHC class II A family peptide loading n=1 Tax=Co...   105   1e-20
+UniRef90_UPI00046C1DE0 class II histocompatibility antigen, M al...    90   4e-16
+UniRef90_G1TG75 Major histocompatibility complex, class II, DM a...    73   7e-11
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A5HUL6 MHC class II M alpha chain n=10 Tax=Gallus gallu...   108   1e-21
+UniRef90_UPI000B3E23BB class II histocompatibility antigen, M al...   103   3e-20
+UniRef90_B1N1D5 MHC class II antigen M alpha chain n=5 Tax=Phasi...    95   2e-17
+UniRef90_UPI000739DBE2 HLA class II histocompatibility antigen, ...    88   2e-15
+UniRef90_A0A091EW08 Class II histocompatibility antigen, M alpha...    83   4e-14
+UniRef90_UPI00051B134D class II histocompatibility antigen, M al...    80   6e-13
+UniRef90_UPI00074FC3E1 class II histocompatibility antigen, M al...    73   8e-11
+UniRef90_UPI0006B7D2F9 elastin-like n=1 Tax=Pseudopodoces humili...    71   3e-10
+UniRef90_UPI0009E31125 class II histocompatibility antigen, M al...    70   5e-10
+UniRef90_UPI000442090C class II histocompatibility antigen, M al...    64   3e-08
+UniRef90_Q6P7G2 MGC68534 protein n=2 Tax=Xenopus laevis TaxID=83...    63   6e-08
+UniRef90_F7EMH0 Major histocompatibility complex class II alpha ...    63   9e-08
+UniRef90_UPI00038348BA uncharacterized protein LOC101876857 n=1 ...    61   3e-07
+UniRef90_UPI000462B1B2 class II histocompatibility antigen, M al...    58   1e-06
+UniRef90_UPI0008543855 class II histocompatibility antigen, M al...    55   2e-05
+
+>UniRef90_M3WBG0 Major histocompatibility complex, class II, DM alpha n=6
+           Tax=Felidae TaxID=9681 RepID=M3WBG0_FELCA
+          Length = 261
+
+ Score =  150 bits (381), Expect = 2e-34,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SP++GLSE YD DQLF FDFSQNTRVPRLPEFADWAQ+ GD  AI FDK
+Sbjct: 43  TFLHTMYCQDWSPNIGLSETYDGDQLFSFDFSQNTRVPRLPEFADWAQKLGDTSAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 AFCQAMIQEIG 113
+
+
+>UniRef90_M3XS77 Major histocompatibility complex, class II, DM alpha n=5
+           Tax=Caniformia TaxID=379584 RepID=M3XS77_MUSPF
+          Length = 261
+
+ Score =  150 bits (379), Expect = 4e-34,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT+YCQ+ +PS+GLSEAYD DQLF FDFSQNTRVPRLPEFADWAQ+ GD   I FDK
+Sbjct: 43  TFQHTMYCQNWNPSIGLSEAYDGDQLFSFDFSQNTRVPRLPEFADWAQKPGDTSTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 TFCQSMIQEIG 113
+
+
+>UniRef90_G1R4X6 Major histocompatibility complex, class II, DM alpha n=28
+           Tax=Catarrhini TaxID=9526 RepID=G1R4X6_NOMLE
+          Length = 291
+
+ Score =  148 bits (376), Expect = 9e-34,   Method: Composition-based stats.
+ Identities = 70/71 (98%), Positives = 70/71 (98%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 73  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 132
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQQIG
+Sbjct: 133 EFCESMIQQIG 143
+
+
+>UniRef90_UPI000812D09C HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=2 Tax=Manis javanica TaxID=9974 RepID=UPI000812D09C
+          Length = 283
+
+ Score =  148 bits (375), Expect = 1e-33,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSP+VGLSE YDEDQLF FDFSQN RVPRLPEFADWAQ+ GD   I FDK
+Sbjct: 65  TFLHTVYCQDGSPTVGLSETYDEDQLFSFDFSQNIRVPRLPEFADWAQKPGDTSTIFFDK 124
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 125 GFCQAMIQEIG 135
+
+
+>UniRef90_L5KZ13 HLA class II histocompatibility antigen, DM beta chain n=1
+           Tax=Pteropus alecto TaxID=9402 RepID=L5KZ13_PTEAL
+          Length = 630
+
+ Score =  147 bits (373), Expect = 2e-33,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPSV LSE+YDEDQLF FDFSQN RVPRLPEFADWAQ+  D   I FDK
+Sbjct: 43  TFLHTMYCQNASPSVALSESYDEDQLFSFDFSQNIRVPRLPEFADWAQKSEDISTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI +IG
+Sbjct: 103 GFCQAMIHEIG 113
+
+
+>UniRef90_G3SWT3 Major histocompatibility complex, class II, DM alpha n=5
+           Tax=Afrotheria TaxID=311790 RepID=G3SWT3_LOXAF
+          Length = 261
+
+ Score =  147 bits (372), Expect = 3e-33,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 65/71 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+G+PS+GLSEAYDEDQLF FDFSQN+RVPRLPEFADWA++QGD  AI FDK
+Sbjct: 43  TFLHTMYCQNGTPSLGLSEAYDEDQLFSFDFSQNSRVPRLPEFADWAKDQGDVSAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQ IG
+Sbjct: 103 EFCQSMIQDIG 113
+
+
+>UniRef90_UPI00093DA83B HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Hipposideros armiger TaxID=186990
+           RepID=UPI00093DA83B
+          Length = 261
+
+ Score =  147 bits (372), Expect = 3e-33,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT++CQ+ SPSVGLSEAYD DQLF FDFSQNTRVPRLPEFADWAQ+ GD P ILFDK
+Sbjct: 43  TFLHTMFCQNASPSVGLSEAYDGDQLFSFDFSQNTRVPRLPEFADWAQKSGDTPNILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 GFCQAMIQEIG 113
+
+
+>UniRef90_G1P4W4 Major histocompatibility complex, class II, DM alpha n=6
+          Tax=Vespertilionidae TaxID=9431 RepID=G1P4W4_MYOLU
+          Length = 252
+
+ Score =  147 bits (371), Expect = 3e-33,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 60/71 (84%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TF HTVYCQD SP VGLSE YDEDQLF FDFSQNTRVPRLPEFADWAQ+ GDA  I FDK
+Sbjct: 29 TFQHTVYCQDWSPDVGLSEVYDEDQLFSFDFSQNTRVPRLPEFADWAQKSGDASTIFFDK 88
+
+Query: 61 EFCEWMIQQIG 71
+           FC+ M+Q++G
+Sbjct: 89 AFCQAMVQEVG 99
+
+
+>UniRef90_UPI0008F45CDB HLA class II histocompatibility antigen, DM alpha chain isoform X3
+           n=1 Tax=Gorilla gorilla gorilla TaxID=9595
+           RepID=UPI0008F45CDB
+          Length = 328
+
+ Score =  147 bits (371), Expect = 4e-33,   Method: Composition-based stats.
+ Identities = 68/71 (95%), Positives = 69/71 (97%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSP VGLSEAYDEDQLFFF+FSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 144 TFLHTVYCQDGSPGVGLSEAYDEDQLFFFNFSQNTRVPRLPEFADWAQEQGDAPAILFDK 203
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQQIG
+Sbjct: 204 EFCESMIQQIG 214
+
+
+>UniRef90_UPI0006D723CC HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Myotis lucifugus TaxID=59463 RepID=UPI0006D723CC
+          Length = 262
+
+ Score =  146 bits (369), Expect = 5e-33,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTVYCQD SP VGLSE YDEDQLF FDFSQNTRVPRLPEFADWAQ+ GDA  I FDK
+Sbjct: 44  TFQHTVYCQDWSPDVGLSEVYDEDQLFSFDFSQNTRVPRLPEFADWAQKSGDASTIFFDK 103
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ M+Q++G
+Sbjct: 104 AFCQAMVQEVG 114
+
+
+>UniRef90_S9YA11 HLA class II histocompatibility antigen, DM alpha chain n=5
+           Tax=Camelidae TaxID=9835 RepID=S9YA11_CAMFR
+          Length = 261
+
+ Score =  146 bits (369), Expect = 6e-33,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SP+VGLSE YDEDQLF FDFSQN RVPRLPEFADWA + GD+  I FDK
+Sbjct: 43  TFLHTMYCQNASPNVGLSETYDEDQLFSFDFSQNIRVPRLPEFADWAHKSGDSSTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI++IG
+Sbjct: 103 GFCQAMIEEIG 113
+
+
+>UniRef90_Q29878 HLA-DMA protein n=2 Tax=Homo sapiens TaxID=9606 RepID=Q29878_HUMAN
+          Length = 257
+
+ Score =  146 bits (369), Expect = 6e-33,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 39  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 98
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 99  EFCEWMIQQIG 109
+
+
+>UniRef90_UPI0005FB5877 HLA class II histocompatibility antigen, DM alpha chain isoform X2
+           n=1 Tax=Ovis aries musimon TaxID=9938
+           RepID=UPI0005FB5877
+          Length = 205
+
+ Score =  146 bits (369), Expect = 6e-33,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T LHTVYCQD SPSVGLSEAYD DQLF FDFSQN RVPRLPEFADWA + GD   I+FDK
+Sbjct: 80  TLLHTVYCQDWSPSVGLSEAYDGDQLFSFDFSQNIRVPRLPEFADWAHQHGDTSDIMFDK 139
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI++IG
+Sbjct: 140 GFCRTMIEEIG 150
+
+
+>UniRef90_UPI0001954657 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Dasypus novemcinctus TaxID=9361 RepID=UPI0001954657
+          Length = 261
+
+ Score =  145 bits (368), Expect = 7e-33,   Method: Composition-based stats.
+ Identities = 58/71 (81%), Positives = 64/71 (90%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPS+GLSEAYDEDQLF FDFSQN RVPRLP+FA WAQEQGDA AI FDK
+Sbjct: 43  TFLHTVYCQDGSPSLGLSEAYDEDQLFSFDFSQNVRVPRLPDFAYWAQEQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC  +I+++G
+Sbjct: 103 EFCRELIEEVG 113
+
+
+>UniRef90_Q5TJG7 MHC class II antigen DM alpha (Fragment) n=1 Tax=Canis lupus
+           familiaris TaxID=9615 RepID=Q5TJG7_CANLF
+          Length = 158
+
+ Score =  145 bits (367), Expect = 1e-32,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPS+GL EAYD DQLF F+FSQNTRVPRLPEFADWAQ+ GD P I FDK
+Sbjct: 41  TFLHTMYCQNWSPSIGLLEAYDGDQLFSFNFSQNTRVPRLPEFADWAQKSGDMPTISFDK 100
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI++IG
+Sbjct: 101 AFCQAMIEEIG 111
+
+
+>UniRef90_UPI0002C59C17 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Odobenus rosmarus divergens TaxID=9708
+           RepID=UPI0002C59C17
+          Length = 261
+
+ Score =  145 bits (367), Expect = 1e-32,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPS+ LSE YD DQLF FDFSQNTRVPRLPEFADWAQ+ GD   I FDK
+Sbjct: 43  TFLHTIYCQNWSPSISLSETYDGDQLFSFDFSQNTRVPRLPEFADWAQKPGDTSTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQ+IG
+Sbjct: 103 EFCQVMIQKIG 113
+
+
+>UniRef90_UPI0007687483 HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=11 Tax=Pteropus TaxID=9401 RepID=UPI0007687483
+          Length = 267
+
+ Score =  145 bits (367), Expect = 1e-32,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPSV LSE+YDEDQLF FDFSQN RVPRLPEFADWAQ+  D   I FDK
+Sbjct: 49  TFLHTMYCQNASPSVALSESYDEDQLFSFDFSQNIRVPRLPEFADWAQKSEDISTIFFDK 108
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI +IG
+Sbjct: 109 GFCQAMIHEIG 119
+
+
+>UniRef90_A0A061IH88 Class II histocompatibility antigen, M alpha chain-like protein n=1
+           Tax=Cricetulus griseus TaxID=10029
+           RepID=A0A061IH88_CRIGR
+          Length = 530
+
+ Score =  145 bits (367), Expect = 1e-32,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 65/71 (91%), Gaps = 1/71 (1%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQDG+PS+GLSE+YDEDQLF +DFSQNTRVPRLP+FADWAQEQGDA AI FDK
+Sbjct: 44  TFRHTVFCQDGNPSIGLSESYDEDQLF-YDFSQNTRVPRLPDFADWAQEQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC  +IQ+IG
+Sbjct: 103 EFCNMLIQEIG 113
+
+
+>UniRef90_F7A6I1 Major histocompatibility complex, class II, DM alpha n=6 Tax=Equus
+           TaxID=35510 RepID=F7A6I1_HORSE
+          Length = 261
+
+ Score =  145 bits (366), Expect = 1e-32,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SPSVGLSE YDEDQLF F+FSQN RVPRLPEF DWAQ+ GD+  I FDK
+Sbjct: 43  TFLHTIYCQDWSPSVGLSETYDEDQLFSFNFSQNVRVPRLPEFTDWAQKAGDSSNIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 TFCQEMIQEIG 113
+
+
+>UniRef90_P28067 HLA class II histocompatibility antigen, DM alpha chain n=50
+           Tax=Simiiformes TaxID=314293 RepID=DMA_HUMAN
+          Length = 261
+
+ Score =  145 bits (366), Expect = 1e-32,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 43  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 103 EFCEWMIQQIG 113
+
+
+>UniRef90_L8Y8L3 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Tupaia chinensis TaxID=246437 RepID=L8Y8L3_TUPCH
+          Length = 375
+
+ Score =  145 bits (366), Expect = 1e-32,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDG P++GL E YDEDQLF FDFSQN RVPRLPEFA+WAQEQGD PAI+FDK
+Sbjct: 43  TFLHTVYCQDGHPTMGLFETYDEDQLFSFDFSQNIRVPRLPEFAEWAQEQGDIPAIVFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ M+Q+IG
+Sbjct: 103 NFCQMMVQKIG 113
+
+
+>UniRef90_Q5SP00 HLA class II histocompatibility antigen, DM alpha chain n=12
+           Tax=Catarrhini TaxID=9526 RepID=Q5SP00_HUMAN
+          Length = 227
+
+ Score =  144 bits (365), Expect = 2e-32,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 43  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 103 EFCEWMIQQIG 113
+
+
+>UniRef90_G3RV19 Major histocompatibility complex, class II, DM alpha n=8
+           Tax=Homininae TaxID=207598 RepID=G3RV19_GORGO
+          Length = 291
+
+ Score =  144 bits (364), Expect = 2e-32,   Method: Composition-based stats.
+ Identities = 68/71 (95%), Positives = 69/71 (97%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSP VGLSEAYDEDQLFFF+FSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 73  TFLHTVYCQDGSPGVGLSEAYDEDQLFFFNFSQNTRVPRLPEFADWAQEQGDAPAILFDK 132
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQQIG
+Sbjct: 133 EFCESMIQQIG 143
+
+
+>UniRef90_UPI00067C0E38 class II histocompatibility antigen, M alpha chain n=1 Tax=Microtus
+           ochrogaster TaxID=79684 RepID=UPI00067C0E38
+          Length = 261
+
+ Score =  143 bits (363), Expect = 3e-32,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 64/71 (90%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQDG+PS+GLSE+YDEDQLF +DFSQNTRVPRLP FA WAQ+QGDA AI FDK
+Sbjct: 43  TFRHTVFCQDGNPSMGLSESYDEDQLFSYDFSQNTRVPRLPNFAAWAQDQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           +FC+ ++QQ+G
+Sbjct: 103 DFCQVLVQQVG 113
+
+
+>UniRef90_UPI0007A7096A HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=2 Tax=Miniopterus natalensis TaxID=291302
+           RepID=UPI0007A7096A
+          Length = 255
+
+ Score =  143 bits (363), Expect = 3e-32,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT+YCQD SP+VGLSEAYDED LF FDFSQNTRVPRLPEFADWAQ+ GD+  I FDK
+Sbjct: 38  TFQHTMYCQDWSPNVGLSEAYDEDLLFSFDFSQNTRVPRLPEFADWAQKPGDSSNIFFDK 97
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ M+++IG
+Sbjct: 98  AFCQAMVREIG 108
+
+
+>UniRef90_UPI0006438E32 HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=4 Tax=Lemuriformes TaxID=376915 RepID=UPI0006438E32
+          Length = 274
+
+ Score =  143 bits (363), Expect = 3e-32,   Method: Composition-based stats.
+ Identities = 58/71 (81%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQ GSP VGLSEAYDEDQLF FDFS+NTRVPRLPEFA W +EQ DA AILFD 
+Sbjct: 43  TFLHTVYCQYGSPGVGLSEAYDEDQLFSFDFSRNTRVPRLPEFAKWTEEQSDASAILFDA 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQQIG
+Sbjct: 103 GFCQMMIQQIG 113
+
+
+>UniRef90_I3MD72 Major histocompatibility complex, class II, DM alpha n=3
+           Tax=Marmotini TaxID=337730 RepID=I3MD72_ICTTR
+          Length = 260
+
+ Score =  143 bits (363), Expect = 3e-32,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQDGSPS+GL+E YDED LF FDFS+NTRVPRLPEFADWAQ+Q DA AI+FDK
+Sbjct: 43  TFRHTVFCQDGSPSIGLTETYDEDLLFSFDFSRNTRVPRLPEFADWAQDQRDASAIVFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FCE MI++IG
+Sbjct: 103 GFCEAMIEKIG 113
+
+
+>UniRef90_UPI0003F18991 HLA class II histocompatibility antigen, DM alpha chain isoform X3
+           n=3 Tax=Pteropodinae TaxID=77225 RepID=UPI0003F18991
+          Length = 261
+
+ Score =  143 bits (363), Expect = 3e-32,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPSV LSE+YDEDQLF FDFSQN RVPRLPEFADWAQ+  D   I FDK
+Sbjct: 43  TFLHTMYCQNASPSVALSESYDEDQLFSFDFSQNIRVPRLPEFADWAQKSEDISTIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI +IG
+Sbjct: 103 GFCQAMIHEIG 113
+
+
+>UniRef90_G5BB05 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Heterocephalus glaber TaxID=10181 RepID=G5BB05_HETGA
+          Length = 358
+
+ Score =  143 bits (362), Expect = 3e-32,   Method: Composition-based stats.
+ Identities = 53/70 (75%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDED LF FDFS+NTRVPRLP+FADWAQ+Q DAPAI FDK
+Sbjct: 94  TFRHTVFCQEGTPSIGLSESYDEDLLFSFDFSKNTRVPRLPDFADWAQDQSDAPAIAFDK 153
+
+Query: 61  EFCEWMIQQI 70
+           +FCE M+QQ+
+Sbjct: 154 QFCEMMVQQL 163
+
+
+>UniRef90_UPI0004D0A68A HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Galeopterus variegatus TaxID=482537
+           RepID=UPI0004D0A68A
+          Length = 266
+
+ Score =  143 bits (362), Expect = 3e-32,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSE YDED LF FDFS+NTRVPRLPEFADWAQ+  D  AI FDK
+Sbjct: 48  TFLHTVYCQDGSPSVGLSETYDEDPLFSFDFSKNTRVPRLPEFADWAQDTRDVSAISFDK 107
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ IG
+Sbjct: 108 RFCQMMIQDIG 118
+
+
+>UniRef90_UPI00033338ED HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Jaculus jaculus TaxID=51337 RepID=UPI00033338ED
+          Length = 401
+
+ Score =  143 bits (362), Expect = 4e-32,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 62/71 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+GSPS+ L+E YDEDQLF FDFS+NTRVPRLPEFA WAQ+QGDA AI+FDK
+Sbjct: 43  TFRHTVFCQNGSPSMALTETYDEDQLFSFDFSRNTRVPRLPEFAGWAQDQGDASAIVFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FCE M Q++G
+Sbjct: 103 GFCEIMTQEVG 113
+
+
+>UniRef90_UPI0002AA2D40 HLA class II histocompatibility antigen, DM alpha chain n=2
+          Tax=Homo sapiens TaxID=9606 RepID=UPI0002AA2D40
+          Length = 203
+
+ Score =  143 bits (362), Expect = 4e-32,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 17 TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 76
+
+Query: 61 EFCEWMIQQIG 71
+          EFCEWMIQQIG
+Sbjct: 77 EFCEWMIQQIG 87
+
+
+>UniRef90_Q5TJG8 MHC class II antigen DM alpha n=4 Tax=Caniformia TaxID=379584
+           RepID=Q5TJG8_CANLF
+          Length = 265
+
+ Score =  143 bits (361), Expect = 5e-32,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPS+GL EAYD DQLF F+FSQNTRVPRLPEFADWAQ+ GD P I FDK
+Sbjct: 49  TFLHTMYCQNWSPSIGLLEAYDGDQLFSFNFSQNTRVPRLPEFADWAQKSGDMPTISFDK 108
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MI++IG
+Sbjct: 109 AFCQAMIEEIG 119
+
+
+>UniRef90_UPI000B534CC7 HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=1 Tax=Tarsius syrichta TaxID=1868482
+           RepID=UPI000B534CC7
+          Length = 348
+
+ Score =  143 bits (361), Expect = 5e-32,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTV+CQDGSPSV LSE YDEDQLF FDFS+N RVPRLPEFA+WA++Q D  AILFD+
+Sbjct: 43  TFLHTVFCQDGSPSVELSETYDEDQLFSFDFSKNIRVPRLPEFAEWAKDQRDTSAILFDR 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQQIG
+Sbjct: 103 EFCQTMIQQIG 113
+
+
+>UniRef90_UPI0003F0CC13 HLA class II histocompatibility antigen, DM alpha chain-like n=1
+           Tax=Elephantulus edwardii TaxID=28737
+           RepID=UPI0003F0CC13
+          Length = 295
+
+ Score =  143 bits (361), Expect = 6e-32,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 65/71 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDG PS+GLSE+YDEDQLF +DFSQNTR+PRL EFADWA+++GDA AI FDK
+Sbjct: 43  TFLHTVYCQDGYPSLGLSESYDEDQLFSYDFSQNTRLPRLAEFADWAKDEGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQQIG
+Sbjct: 103 EFCQGMIQQIG 113
+
+
+>UniRef90_G9L0T4 HLA class II histocompatibility antigen, DM alpha chain-like
+           protein (Fragment) n=2 Tax=Mustelinae TaxID=169418
+           RepID=G9L0T4_MUSPF
+          Length = 137
+
+ Score =  142 bits (360), Expect = 6e-32,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT+YCQ+ +PS+GLSEAYD DQLF FDFSQNTRVPRLPEFADWAQ+ GD   I FDK
+Sbjct: 47  TFQHTMYCQNWNPSIGLSEAYDGDQLFSFDFSQNTRVPRLPEFADWAQKPGDTSTIFFDK 106
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 107 TFCQSMIQEIG 117
+
+
+>UniRef90_W5PDP1 Major histocompatibility complex, class II, DM alpha n=3
+           Tax=Caprinae TaxID=9963 RepID=W5PDP1_SHEEP
+          Length = 261
+
+ Score =  142 bits (360), Expect = 6e-32,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T LHTVYCQD SPSVGLSEAYD DQLF FDFSQN RVPRLPEFADWA + GD   I+FDK
+Sbjct: 43  TLLHTVYCQDWSPSVGLSEAYDGDQLFSFDFSQNIRVPRLPEFADWAHQHGDTSNIMFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI++IG
+Sbjct: 103 GFCRTMIEEIG 113
+
+
+>UniRef90_G1L591 Major histocompatibility complex, class II, DM alpha n=8
+           Tax=Ursidae TaxID=9632 RepID=G1L591_AILME
+          Length = 261
+
+ Score =  142 bits (360), Expect = 7e-32,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+ SPSVGL EAYD DQLF FDF+QNTRVPRLPEFADW Q+ GD   I F+K
+Sbjct: 43  TFLHTMYCQNWSPSVGLLEAYDGDQLFSFDFNQNTRVPRLPEFADWTQKPGDTSTIFFEK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MIQ+IG
+Sbjct: 103 AFCRAMIQEIG 113
+
+
+>UniRef90_UPI000944F644 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Rhinolophus sinicus TaxID=89399 RepID=UPI000944F644
+          Length = 261
+
+ Score =  142 bits (359), Expect = 8e-32,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT++CQ+G+PSVGLSE YD DQLF FDFS+NTRVPRLPEFADWAQ+ G+   ILFDK
+Sbjct: 43  TFLHTMFCQNGTPSVGLSETYDGDQLFSFDFSRNTRVPRLPEFADWAQKSGNNSTILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FCE M+Q IG
+Sbjct: 103 GFCEIMMQHIG 113
+
+
+>UniRef90_UPI0003C8F41A HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Tupaia chinensis TaxID=246437 RepID=UPI0003C8F41A
+          Length = 261
+
+ Score =  142 bits (359), Expect = 8e-32,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDG P++GL E YDEDQLF FDFSQN RVPRLPEFA+WAQEQGD PAI+FDK
+Sbjct: 43  TFLHTVYCQDGHPTMGLFETYDEDQLFSFDFSQNIRVPRLPEFAEWAQEQGDIPAIVFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ M+Q+IG
+Sbjct: 103 NFCQMMVQKIG 113
+
+
+>UniRef90_UPI0009824895 HLA class II histocompatibility antigen, DM alpha chain isoform X3
+           n=1 Tax=Castor canadensis TaxID=51338
+           RepID=UPI0009824895
+          Length = 226
+
+ Score =  142 bits (358), Expect = 1e-31,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQDGSPS+GLSE+Y EDQLF F+FSQN RVPRLPEFADWAQE GD+ AI FDK
+Sbjct: 42  TFRHTMFCQDGSPSIGLSESYGEDQLFSFNFSQNMRVPRLPEFADWAQEHGDSLAISFDK 101
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQ+IG
+Sbjct: 102 EFCEIMIQEIG 112
+
+
+>UniRef90_A0A1U7UP27 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Tarsius syrichta TaxID=1868482
+           RepID=A0A1U7UP27_TARSY
+          Length = 261
+
+ Score =  141 bits (357), Expect = 1e-31,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTV+CQDGSPSV LSE YDEDQLF FDFS+N RVPRLPEFA+WA++Q D  AILFD+
+Sbjct: 43  TFLHTVFCQDGSPSVELSETYDEDQLFSFDFSKNIRVPRLPEFAEWAKDQRDTSAILFDR 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC+ MIQQIG
+Sbjct: 103 EFCQTMIQQIG 113
+
+
+>UniRef90_H0WTC2 Major histocompatibility complex, class II, DM alpha n=3
+           Tax=Otolemur garnettii TaxID=30611 RepID=H0WTC2_OTOGA
+          Length = 261
+
+ Score =  141 bits (357), Expect = 2e-31,   Method: Composition-based stats.
+ Identities = 58/71 (81%), Positives = 62/71 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQ GSPSVGLSE+YDEDQLF FDF QNTRVPRLPEFA+WAQE+ DA AI FDK
+Sbjct: 43  TFLHTVYCQYGSPSVGLSESYDEDQLFSFDFLQNTRVPRLPEFANWAQEERDASAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ IG
+Sbjct: 103 TFCQDMIQDIG 113
+
+
+>UniRef90_UPI00045D5D07 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Orycteropus afer afer TaxID=1230840
+           RepID=UPI00045D5D07
+          Length = 261
+
+ Score =  141 bits (357), Expect = 2e-31,   Method: Composition-based stats.
+ Identities = 54/71 (76%), Positives = 62/71 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDG+P +GLSEAYDEDQLF +DFSQ+ RV RLPEFADWA++QGDA AI FDK
+Sbjct: 43  TFLHTVYCQDGNPKLGLSEAYDEDQLFSYDFSQSIRVARLPEFADWAKDQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           E C+ MI+ IG
+Sbjct: 103 ELCQTMIENIG 113
+
+
+>UniRef90_UPI000980E798 HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=2 Tax=Castor canadensis TaxID=51338
+           RepID=UPI000980E798
+          Length = 260
+
+ Score =  141 bits (357), Expect = 2e-31,   Method: Composition-based stats.
+ Identities = 56/71 (78%), Positives = 63/71 (88%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQDGSPS+GLSE+Y EDQLF F+FSQN RVPRLPEFADWAQE GD+ AI FDK
+Sbjct: 42  TFRHTMFCQDGSPSIGLSESYGEDQLFSFNFSQNMRVPRLPEFADWAQEHGDSLAISFDK 101
+
+Query: 61  EFCEWMIQQIG 71
+           EFCE MIQ+IG
+Sbjct: 102 EFCEIMIQEIG 112
+
+
+>UniRef90_L7MRN6 Uncharacterized protein n=4 Tax=Equus TaxID=35510
+           RepID=L7MRN6_HORSE
+          Length = 261
+
+ Score =  140 bits (355), Expect = 2e-31,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 59/71 (83%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SPSVGLSE YDEDQLF F+FSQN RVPRLPEF D AQ+ GD+  I FDK
+Sbjct: 43  TFLHTIYCQDWSPSVGLSETYDEDQLFSFNFSQNVRVPRLPEFTDRAQKAGDSSNIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ MIQ+IG
+Sbjct: 103 TFCQEMIQEIG 113
+
+
+>UniRef90_F1MLV2 Major histocompatibility complex, class II, DM alpha n=1 Tax=Bos
+          taurus TaxID=9913 RepID=F1MLV2_BOVIN
+          Length = 231
+
+ Score =  140 bits (355), Expect = 3e-31,   Method: Composition-based stats.
+ Identities = 51/71 (71%), Positives = 59/71 (83%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TFLHT+YCQD SP+V LSE+YDEDQLF FDFSQ+ RVPRLPEFADWA + GD   I+FDK
+Sbjct: 14 TFLHTMYCQDWSPNVALSESYDEDQLFSFDFSQSIRVPRLPEFADWAHQHGDTSDIMFDK 73
+
+Query: 61 EFCEWMIQQIG 71
+           FC  MI++IG
+Sbjct: 74 GFCRAMIEEIG 84
+
+
+>UniRef90_A0A0P6J7G1 HLA class II histocompatibility antigen, DM alpha chain n=2
+           Tax=Heterocephalus glaber TaxID=10181
+           RepID=A0A0P6J7G1_HETGA
+          Length = 261
+
+ Score =  140 bits (355), Expect = 3e-31,   Method: Composition-based stats.
+ Identities = 53/70 (75%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDED LF FDFS+NTRVPRLP+FADWAQ+Q DAPAI FDK
+Sbjct: 43  TFRHTVFCQEGTPSIGLSESYDEDLLFSFDFSKNTRVPRLPDFADWAQDQSDAPAIAFDK 102
+
+Query: 61  EFCEWMIQQI 70
+           +FCE M+QQ+
+Sbjct: 103 QFCEMMVQQL 112
+
+
+>UniRef90_Q24K20 Major histocompatibility complex, class II, DM alpha-chain,
+           expressed n=15 Tax=Pecora TaxID=35500 RepID=Q24K20_BOVIN
+          Length = 260
+
+ Score =  140 bits (354), Expect = 4e-31,   Method: Composition-based stats.
+ Identities = 51/71 (71%), Positives = 59/71 (83%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQD SP+V LSE+YDEDQLF FDFSQ+ RVPRLPEFADWA + GD   I+FDK
+Sbjct: 43  TFLHTMYCQDWSPNVALSESYDEDQLFSFDFSQSIRVPRLPEFADWAHQHGDTSDIMFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI++IG
+Sbjct: 103 GFCRAMIEEIG 113
+
+
+>UniRef90_UPI000A33238D HLA class II histocompatibility antigen, DM alpha chain isoform X1
+           n=4 Tax=Heterocephalus glaber TaxID=10181
+           RepID=UPI000A33238D
+          Length = 392
+
+ Score =  140 bits (353), Expect = 4e-31,   Method: Composition-based stats.
+ Identities = 53/70 (75%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDED LF FDFS+NTRVPRLP+FADWAQ+Q DAPAI FDK
+Sbjct: 150 TFRHTVFCQEGTPSIGLSESYDEDLLFSFDFSKNTRVPRLPDFADWAQDQSDAPAIAFDK 209
+
+Query: 61  EFCEWMIQQI 70
+           +FCE M+QQ+
+Sbjct: 210 QFCEIMVQQL 219
+
+
+>UniRef90_B7Z4Y5 cDNA FLJ51553, highly similar to HLA class II histocompatibility
+           antigen, DMalpha chain n=1 Tax=Homo sapiens TaxID=9606
+           RepID=B7Z4Y5_HUMAN
+          Length = 123
+
+ Score =  140 bits (353), Expect = 4e-31,   Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 35  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 94
+
+Query: 61  EFCEWMIQQIG 71
+           EFCEWMIQQIG
+Sbjct: 95  EFCEWMIQQIG 105
+
+
+>UniRef90_UPI000A33CE36 HLA class II histocompatibility antigen, DM alpha chain isoform X5
+           n=1 Tax=Heterocephalus glaber TaxID=10181
+           RepID=UPI000A33CE36
+          Length = 285
+
+ Score =  139 bits (352), Expect = 5e-31,   Method: Composition-based stats.
+ Identities = 53/70 (75%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDED LF FDFS+NTRVPRLP+FADWAQ+Q DAPAI FDK
+Sbjct: 43  TFRHTVFCQEGTPSIGLSESYDEDLLFSFDFSKNTRVPRLPDFADWAQDQSDAPAIAFDK 102
+
+Query: 61  EFCEWMIQQI 70
+           +FCE M+QQ+
+Sbjct: 103 QFCEIMVQQL 112
+
+
+>UniRef90_A0A091CWQ1 HLA class II histocompatibility antigen, DM alpha chain n=2
+           Tax=Fukomys damarensis TaxID=885580
+           RepID=A0A091CWQ1_FUKDA
+          Length = 304
+
+ Score =  138 bits (350), Expect = 1e-30,   Method: Composition-based stats.
+ Identities = 51/70 (72%), Positives = 61/70 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+G+PS+GLSE+YDEDQLF FDFS+NTRVPRLPEF DWAQ+  DA AI FDK
+Sbjct: 86  TFRHTVFCQEGTPSIGLSESYDEDQLFSFDFSKNTRVPRLPEFTDWAQDLSDASAIAFDK 145
+
+Query: 61  EFCEWMIQQI 70
+           +FC  M+QQ+
+Sbjct: 146 DFCSAMVQQL 155
+
+
+>UniRef90_UPI00042C385B HLA class II histocompatibility antigen, DM alpha chain-like n=1
+           Tax=Physeter catodon TaxID=9755 RepID=UPI00042C385B
+          Length = 359
+
+ Score =  138 bits (350), Expect = 1e-30,   Method: Composition-based stats.
+ Identities = 53/71 (74%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ+GSPSVGLSEAY+EDQLFFFDFSQN RVPRLPEFADWA +  D   I FDK
+Sbjct: 43  TFLHTMYCQNGSPSVGLSEAYNEDQLFFFDFSQNIRVPRLPEFADWAHKPRDTSNIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  +I++IG
+Sbjct: 103 AFCRAIIEEIG 113
+
+
+>UniRef90_G3HQS6 Class II histocompatibility antigen, M alpha chain n=3
+           Tax=Cricetinae TaxID=10026 RepID=G3HQS6_CRIGR
+          Length = 261
+
+ Score =  138 bits (349), Expect = 1e-30,   Method: Composition-based stats.
+ Identities = 57/71 (80%), Positives = 65/71 (91%), Gaps = 1/71 (1%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQDG+PS+GLSE+YDEDQLF +DFSQNTRVPRLP+FADWAQEQGDA AI FDK
+Sbjct: 44  TFRHTVFCQDGNPSIGLSESYDEDQLF-YDFSQNTRVPRLPDFADWAQEQGDASAISFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           EFC  +IQ+IG
+Sbjct: 103 EFCNMLIQEIG 113
+
+
+>UniRef90_UPI000333E631 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Echinops telfairi TaxID=9371 RepID=UPI000333E631
+          Length = 261
+
+ Score =  138 bits (349), Expect = 1e-30,   Method: Composition-based stats.
+ Identities = 55/71 (77%), Positives = 62/71 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTVYCQDGSPS+GLSEAYDEDQLF +DF+QNTRVPRLPEFADWA++Q D P I  D 
+Sbjct: 43  TFLHTVYCQDGSPSLGLSEAYDEDQLFSYDFAQNTRVPRLPEFADWAKDQRDVPNISLDA 102
+
+Query: 61  EFCEWMIQQIG 71
+           E C+ +IQQIG
+Sbjct: 103 EICKQLIQQIG 113
+
+
+>UniRef90_V5SJ36 MHC class II protein (Fragment) n=8 Tax=Macaca TaxID=9539
+          RepID=V5SJ36_MACMU
+          Length = 94
+
+ Score =  138 bits (348), Expect = 1e-30,   Method: Composition-based stats.
+ Identities = 67/71 (94%), Positives = 69/71 (97%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TFLHTVYCQDGSPS+GLSEAYD+DQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK
+Sbjct: 13 TFLHTVYCQDGSPSMGLSEAYDKDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 72
+
+Query: 61 EFCEWMIQQIG 71
+           FCE MIQQIG
+Sbjct: 73 AFCEMMIQQIG 83
+
+
+>UniRef90_K7GRZ3 Major histocompatibility complex, class II, DM alpha (Fragment) n=2
+           Tax=Sus scrofa TaxID=9823 RepID=K7GRZ3_PIG
+          Length = 160
+
+ Score =  138 bits (348), Expect = 2e-30,   Method: Composition-based stats.
+ Identities = 49/71 (69%), Positives = 57/71 (80%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF +T+YCQDG+P VGLSE YD DQLF F+FSQN RVPRLPEFADWA +  D PAI FDK
+Sbjct: 42  TFQYTMYCQDGNPEVGLSEVYDGDQLFSFNFSQNIRVPRLPEFADWAHQIEDTPAIFFDK 101
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI+++G
+Sbjct: 102 GFCREMIEKVG 112
+
+
+>UniRef90_UPI0002C657D1 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Ceratotherium simum simum TaxID=73337
+           RepID=UPI0002C657D1
+          Length = 261
+
+ Score =  137 bits (345), Expect = 3e-30,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLH +YCQ+G+PSVGLSE YDEDQLF F+FSQNTRVPRLPEF DWAQ+  D  AI FD+
+Sbjct: 43  TFLHAIYCQNGTPSVGLSETYDEDQLFSFNFSQNTRVPRLPEFTDWAQKARDTSAIFFDQ 102
+
+Query: 61  EFCEWMIQQIG 71
+           +FC+ MIQ IG
+Sbjct: 103 QFCQEMIQGIG 113
+
+
+>UniRef90_A5D9K9 Major histocompatibility complex, class II, DM alpha n=3 Tax=Sus
+           scrofa TaxID=9823 RepID=A5D9K9_PIG
+          Length = 261
+
+ Score =  137 bits (345), Expect = 3e-30,   Method: Composition-based stats.
+ Identities = 49/71 (69%), Positives = 57/71 (80%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF +T+YCQDG+P VGLSE YD DQLF F+FSQN RVPRLPEFADWA +  D PAI FDK
+Sbjct: 43  TFQYTMYCQDGNPEVGLSEVYDGDQLFSFNFSQNIRVPRLPEFADWAHQIEDTPAIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  MI+++G
+Sbjct: 103 GFCREMIEKVG 113
+
+
+>UniRef90_A0A0R9CWL6 MHC class II antigen n=7 Tax=Cetacea TaxID=9721
+           RepID=A0A0R9CWL6_9CETA
+          Length = 261
+
+ Score =  137 bits (345), Expect = 4e-30,   Method: Composition-based stats.
+ Identities = 48/71 (67%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQ G+P+VGLSE+Y+EDQLF FDFSQN RVPRLPEFADWA +  D   I FDK
+Sbjct: 43  TFLHTMYCQIGNPNVGLSESYNEDQLFSFDFSQNIRVPRLPEFADWAHKSRDTSNIFFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC  ++++IG
+Sbjct: 103 AFCRAIVEEIG 113
+
+
+>UniRef90_UPI0004400EA1 HLA class II histocompatibility antigen, DM alpha chain-like
+           isoform X3 n=2 Tax=Balaenoptera acutorostrata scammoni
+           TaxID=310752 RepID=UPI0004400EA1
+          Length = 257
+
+ Score =  136 bits (344), Expect = 5e-30,   Method: Composition-based stats.
+ Identities = 50/71 (70%), Positives = 56/71 (78%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFL T+YCQ GSP+VGLSE YDEDQLF FDFSQN RVPRLPEFADWA +  D   I FDK
+Sbjct: 39  TFLRTMYCQKGSPNVGLSETYDEDQLFSFDFSQNIRVPRLPEFADWAHKSRDTYNIFFDK 98
+
+Query: 61  EFCEWMIQQIG 71
+            FC  +I++IG
+Sbjct: 99  AFCRAVIEEIG 109
+
+
+>UniRef90_UPI00042AEEA8 class II histocompatibility antigen, M alpha chain n=1
+           Tax=Peromyscus maniculatus bairdii TaxID=230844
+           RepID=UPI00042AEEA8
+          Length = 262
+
+ Score =  136 bits (343), Expect = 6e-30,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 64/71 (90%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ G+PS+GLSE+YDEDQLF ++FSQ+TRVPRLP+FA WAQEQGDA AI FDK
+Sbjct: 44  TFRHTVFCQLGNPSIGLSESYDEDQLFTYNFSQDTRVPRLPDFAGWAQEQGDASAISFDK 103
+
+Query: 61  EFCEWMIQQIG 71
+           +FCE ++QQ+G
+Sbjct: 104 DFCEMLVQQVG 114
+
+
+>UniRef90_H0VSG0 Major histocompatibility complex, class II, DM alpha n=2 Tax=Cavia
+           porcellus TaxID=10141 RepID=H0VSG0_CAVPO
+          Length = 265
+
+ Score =  135 bits (341), Expect = 1e-29,   Method: Composition-based stats.
+ Identities = 52/70 (74%), Positives = 64/70 (91%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+GSPS+GLSE+YDED LF FDF+++TRVPRLPEFADWA+++ DAPAI FDK
+Sbjct: 49  TFRHTVFCQEGSPSMGLSESYDEDLLFSFDFAKSTRVPRLPEFADWAEDRSDAPAIAFDK 108
+
+Query: 61  EFCEWMIQQI 70
+           EFCE M+QQ+
+Sbjct: 109 EFCEAMVQQL 118
+
+
+>UniRef90_A0A1S3WH29 HLA class II histocompatibility antigen, DM alpha chain isoform X2
+           n=2 Tax=Erinaceus europaeus TaxID=9365
+           RepID=A0A1S3WH29_ERIEU
+          Length = 262
+
+ Score =  135 bits (340), Expect = 1e-29,   Method: Composition-based stats.
+ Identities = 47/71 (66%), Positives = 55/71 (77%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHT+YCQDGSP++GLSE YD DQLF +DF  NTRVPRLPEF  WAQ+  D P+I  DK
+Sbjct: 44  TFLHTMYCQDGSPNIGLSETYDGDQLFSYDFLHNTRVPRLPEFTHWAQKIEDIPSIFSDK 103
+
+Query: 61  EFCEWMIQQIG 71
+             C+ MIQ +G
+Sbjct: 104 SICQIMIQNVG 114
+
+
+>UniRef90_UPI0004ED1FCC HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Nannospalax galili TaxID=1026970 RepID=UPI0004ED1FCC
+          Length = 260
+
+ Score =  133 bits (337), Expect = 3e-29,   Method: Composition-based stats.
+ Identities = 50/71 (70%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQ+GSP +GL+E YDED LF FDFSQNTRVPRLPEFA WAQ+QGD+ AILFDK
+Sbjct: 42  TFRHTLFCQEGSPGLGLTETYDEDLLFSFDFSQNTRVPRLPEFARWAQDQGDSTAILFDK 101
+
+Query: 61  EFCEWMIQQIG 71
+             CE +I ++G
+Sbjct: 102 NVCESLIGEVG 112
+
+
+>UniRef90_P28078 Class II histocompatibility antigen, M alpha chain n=14
+           Tax=Bilateria TaxID=33213 RepID=DMA_MOUSE
+          Length = 261
+
+ Score =  133 bits (337), Expect = 3e-29,   Method: Composition-based stats.
+ Identities = 48/70 (68%), Positives = 60/70 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQDG P++GLSE YDED+LF FDFSQNTRVPRLP+FA+WAQ QGDA AI F K
+Sbjct: 43  TFRHTLFCQDGIPNIGLSETYDEDELFSFDFSQNTRVPRLPDFAEWAQGQGDASAIAFGK 102
+
+Query: 61  EFCEWMIQQI 70
+            FCE +++++
+Sbjct: 103 SFCEMLMREV 112
+
+
+>UniRef90_Q31096 H2-Mb1 beta chain (Fragment) n=2 Tax=Mus TaxID=862507
+          RepID=Q31096_MOUSE
+          Length = 191
+
+ Score =  133 bits (337), Expect = 3e-29,   Method: Composition-based stats.
+ Identities = 49/70 (70%), Positives = 61/70 (87%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          TF HT++CQDG P++GLSE YDED+LF FDFSQNTRVPRLP+FA+WAQ QGDA AI FDK
+Sbjct: 17 TFRHTLFCQDGIPNIGLSETYDEDELFSFDFSQNTRVPRLPDFAEWAQGQGDASAIAFDK 76
+
+Query: 61 EFCEWMIQQI 70
+           FCE +++++
+Sbjct: 77 SFCEMLMREV 86
+
+
+>UniRef90_Q95574 Class II histocompatibility antigen, M alpha chain n=4 Tax=Rattus
+           norvegicus TaxID=10116 RepID=Q95574_RAT
+          Length = 260
+
+ Score =  133 bits (337), Expect = 3e-29,   Method: Composition-based stats.
+ Identities = 51/70 (72%), Positives = 60/70 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQDG P++GLSE YDED LF FDFSQNTRVPRLPEFA+WAQEQGDA AI FDK
+Sbjct: 42  TFRHTLFCQDGFPNIGLSETYDEDALFSFDFSQNTRVPRLPEFAEWAQEQGDASAIAFDK 101
+
+Query: 61  EFCEWMIQQI 70
+            FC+ ++Q +
+Sbjct: 102 GFCDMLMQNV 111
+
+
+>UniRef90_UPI00038EBA15 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Chinchilla lanigera TaxID=34839 RepID=UPI00038EBA15
+          Length = 261
+
+ Score =  133 bits (337), Expect = 3e-29,   Method: Composition-based stats.
+ Identities = 50/70 (71%), Positives = 63/70 (90%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQ+GSP++GLSE+YDEDQLF F+F+ +TRVPRLPEFADWA+++ DA AI FDK
+Sbjct: 43  TFRHTVFCQEGSPTIGLSESYDEDQLFSFNFATSTRVPRLPEFADWAEDKSDASAIAFDK 102
+
+Query: 61  EFCEWMIQQI 70
+           +FCE MIQQ+
+Sbjct: 103 KFCETMIQQL 112
+
+
+>UniRef90_A0A1S3GNF8 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Dipodomys ordii TaxID=10020 RepID=A0A1S3GNF8_DIPOR
+          Length = 261
+
+ Score =  132 bits (334), Expect = 6e-29,   Method: Composition-based stats.
+ Identities = 49/71 (69%), Positives = 60/71 (84%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQD SPS+GLSE YD+D LF FDFS +TR+P LPEF+ W Q+QGD PAILFDK
+Sbjct: 43  TFQHTVFCQDWSPSIGLSETYDQDLLFSFDFSHDTRIPHLPEFSKWTQDQGDTPAILFDK 102
+
+Query: 61  EFCEWMIQQIG 71
+           +FCE ++QQ+G
+Sbjct: 103 KFCELILQQVG 113
+
+
+>UniRef90_UPI000642A101 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Condylura cristata TaxID=143302 RepID=UPI000642A101
+          Length = 295
+
+ Score =  132 bits (333), Expect = 8e-29,   Method: Composition-based stats.
+ Identities = 43/71 (60%), Positives = 55/71 (77%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF+HT++CQ  +P++GLSE YD D LF FDFS++TRVPRLPEFA WAQ+  D   ILFDK
+Sbjct: 78  TFMHTIFCQTATPNIGLSETYDGDHLFSFDFSESTRVPRLPEFAAWAQKSDDISTILFDK 137
+
+Query: 61  EFCEWMIQQIG 71
+            FC  + +Q+G
+Sbjct: 138 TFCLMLAEQVG 148
+
+
+>UniRef90_O02872 Histocompatibility antigen DM heterodimer heavy chain n=1
+           Tax=Oryctolagus cuniculus TaxID=9986 RepID=O02872_RABIT
+          Length = 258
+
+ Score =  131 bits (331), Expect = 2e-28,   Method: Composition-based stats.
+ Identities = 49/71 (69%), Positives = 57/71 (80%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLHTV+CQ G+PS GL EAYD D LF FDFSQ TRVPRLPEFADWAQ+Q D   ILFD+
+Sbjct: 43  TFLHTVFCQMGNPSEGLFEAYDSDLLFSFDFSQRTRVPRLPEFADWAQDQSDISDILFDR 102
+
+Query: 61  EFCEWMIQQIG 71
+            FC+ ++Q +G
+Sbjct: 103 WFCQQLVQNVG 113
+
+
+>UniRef90_UPI0003316E96 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Sorex araneus TaxID=42254 RepID=UPI0003316E96
+          Length = 375
+
+ Score =  131 bits (330), Expect = 2e-28,   Method: Composition-based stats.
+ Identities = 44/71 (61%), Positives = 49/71 (69%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTVYCQ  SP  G SE YD +QLF FDF QNTRVPRLPEFADWAQ+  D   IL + 
+Sbjct: 44  TFQHTVYCQIWSPKKGFSETYDGEQLFSFDFDQNTRVPRLPEFADWAQKSEDTSKILLEN 103
+
+Query: 61  EFCEWMIQQIG 71
+             C  +I Q+G
+Sbjct: 104 TLCMALIDQVG 114
+
+
+>UniRef90_UPI00064B98D3 HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Ochotona princeps TaxID=9978 RepID=UPI00064B98D3
+          Length = 261
+
+ Score =  129 bits (326), Expect = 6e-28,   Method: Composition-based stats.
+ Identities = 52/71 (73%), Positives = 58/71 (81%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T LHTV+CQ GSPSVGLSE YD D LF FDF+ NT VPRLPEFADWAQEQ D P ILFD+
+Sbjct: 43  TLLHTVFCQLGSPSVGLSETYDSDLLFSFDFTHNTSVPRLPEFADWAQEQSDIPDILFDE 102
+
+Query: 61  EFCEWMIQQIG 71
+           +FC+ M+Q IG
+Sbjct: 103 DFCQKMVQIIG 113
+
+
+>UniRef90_UPI00062AA60B HLA class II histocompatibility antigen, DM alpha chain n=1
+           Tax=Octodon degus TaxID=10160 RepID=UPI00062AA60B
+          Length = 269
+
+ Score =  129 bits (325), Expect = 7e-28,   Method: Composition-based stats.
+ Identities = 46/70 (65%), Positives = 60/70 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF  TV+CQ+G P++GLSE+YDEDQ+F FDFS++TRVPRLPEFADWA++Q DA AI FD+
+Sbjct: 45  TFRRTVFCQEGFPNIGLSESYDEDQVFSFDFSKDTRVPRLPEFADWAKDQSDAAAIAFDR 104
+
+Query: 61  EFCEWMIQQI 70
+           +FC  M+Q +
+Sbjct: 105 KFCRDMVQDL 114
+
+
+>UniRef90_UPI000B4EAC51 class II histocompatibility antigen, M alpha chain n=1 Tax=Meriones
+           unguiculatus TaxID=10047 RepID=UPI000B4EAC51
+          Length = 261
+
+ Score =  129 bits (325), Expect = 7e-28,   Method: Composition-based stats.
+ Identities = 47/70 (67%), Positives = 61/70 (87%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HTV+CQD  P VGLSE+YDEDQLF +DF Q++RVPRLP+FA WAQEQGDA AI FDK
+Sbjct: 43  TFRHTVFCQDREPRVGLSESYDEDQLFSYDFQQSSRVPRLPDFAQWAQEQGDAAAISFDK 102
+
+Query: 61  EFCEWMIQQI 70
+           +FC+++++++
+Sbjct: 103 DFCQFLVREV 112
+
+
+>UniRef90_UPI0003F13DB7 HLA class II histocompatibility antigen, DM alpha chain-like n=1
+           Tax=Chrysochloris asiatica TaxID=185453
+           RepID=UPI0003F13DB7
+          Length = 259
+
+ Score =  128 bits (324), Expect = 1e-27,   Method: Composition-based stats.
+ Identities = 46/71 (64%), Positives = 61/71 (85%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TFLH+VYCQ+G+P++GLSEAYDEDQLF +DF+Q+ RVPRLPEFA+WA++QGDA  I FD 
+Sbjct: 41  TFLHSVYCQNGNPNMGLSEAYDEDQLFSYDFNQSIRVPRLPEFAEWAKDQGDATTISFDS 100
+
+Query: 61  EFCEWMIQQIG 71
+             C ++ Q++G
+Sbjct: 101 WLCNFLTQRLG 111
+
+
+>UniRef90_A0A0U4GH26 MHC class II alpha chain antigen n=3 Tax=Phascolarctos cinereus
+           TaxID=38626 RepID=A0A0U4GH26_PHACI
+          Length = 264
+
+ Score =  118 bits (298), Expect = 1e-24,   Method: Composition-based stats.
+ Identities = 39/70 (55%), Positives = 54/70 (77%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT++CQD  P + LSEA++EDQLF FDFS+N+RVPRLPEFA WA ++GD  AI  D+
+Sbjct: 44  TFSHTLFCQDEDPVLSLSEAFNEDQLFSFDFSRNSRVPRLPEFAPWASDKGDIEAIKADQ 103
+
+Query: 61  EFCEWMIQQI 70
+             C+ + +++
+Sbjct: 104 RLCQELQKEL 113
+
+
+>UniRef90_A0A1A6GK86 Uncharacterized protein n=1 Tax=Neotoma lepida TaxID=56216
+           RepID=A0A1A6GK86_NEOLE
+          Length = 167
+
+ Score =  117 bits (294), Expect = 3e-24,   Method: Composition-based stats.
+ Identities = 46/60 (76%), Positives = 55/60 (91%)
+
+Query: 11  GSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFCEWMIQQI 70
+           G+PS+GLSE+YDEDQLF +DFSQNTRVPRLP+FADWAQEQGDA AI FD+ FCE ++QQ+
+Sbjct: 41  GNPSIGLSESYDEDQLFSYDFSQNTRVPRLPDFADWAQEQGDASAISFDQNFCEILVQQL 100
+
+
+>UniRef90_G3VMH2 Major histocompatibility complex, class II, DM alpha n=2
+           Tax=Sarcophilus harrisii TaxID=9305 RepID=G3VMH2_SARHA
+          Length = 265
+
+ Score =  116 bits (293), Expect = 4e-24,   Method: Composition-based stats.
+ Identities = 36/70 (51%), Positives = 49/70 (70%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF H ++CQ+G  S+GLSE ++ D LF FDFS+N+RVPRLPEFA WA ++ D   I  DK
+Sbjct: 43  TFSHILFCQNGESSLGLSENFNGDYLFSFDFSKNSRVPRLPEFAAWATDKRDIKTIDADK 102
+
+Query: 61  EFCEWMIQQI 70
+             C+ +  Q+
+Sbjct: 103 NLCQELQHQL 112
+
+
+>UniRef90_UPI00052941EE class II histocompatibility antigen, M alpha chain n=1
+          Tax=Mesitornis unicolor TaxID=54374 RepID=UPI00052941EE
+          Length = 413
+
+ Score =  116 bits (291), Expect = 6e-24,   Method: Composition-based stats.
+ Identities = 25/70 (35%), Positives = 38/70 (54%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ   PS+GL+ A+D DQLF+FDF ++   PRLP+   W         +L D 
+Sbjct: 6  TLSEVLFCQPAMPSLGLALAFDGDQLFWFDFPRSRWTPRLPDLPPWPSALEPPAQLLRDA 65
+
+Query: 61 EFCEWMIQQI 70
+            C+ + + I
+Sbjct: 66 TLCQDLRRGI 75
+
+
+>UniRef90_K7E3A8 Major histocompatibility complex, class II, DM alpha n=3
+           Tax=Monodelphis domestica TaxID=13616 RepID=K7E3A8_MONDO
+          Length = 264
+
+ Score =  115 bits (288), Expect = 2e-23,   Method: Composition-based stats.
+ Identities = 39/70 (55%), Positives = 51/70 (72%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           TF HT +CQ+ +P V LSEA+  DQLF FDFS+N+RVPRLPEFA WA +Q D  AI  DK
+Sbjct: 44  TFSHTFFCQNEAPMVSLSEAFGGDQLFSFDFSKNSRVPRLPEFAPWAGDQSDLQAIDRDK 103
+
+Query: 61  EFCEWMIQQI 70
+           + C+ + + +
+Sbjct: 104 QLCQELQKAL 113
+
+
+>UniRef90_A0A1L7N0D0 MHC class II M alpha chain n=1 Tax=Ciconia boyciana TaxID=52775
+           RepID=A0A1L7N0D0_CICBO
+          Length = 249
+
+ Score =  113 bits (284), Expect = 4e-23,   Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 38/70 (54%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T    ++CQ   PS+GL+ A+D DQLF+FDF ++   PRLP+   W         +L D 
+Sbjct: 31  TLAEVLFCQPAMPSLGLALAFDADQLFWFDFPRSRWTPRLPDLPPWPLALESPAQLLQDA 90
+
+Query: 61  EFCEWMIQQI 70
+             C+ + + +
+Sbjct: 91  TLCQDLRRSL 100
+
+
+>UniRef90_U3IFQ8 Major histocompatibility complex, class II, DM alpha n=2 Tax=Anas
+          platyrhynchos TaxID=8839 RepID=U3IFQ8_ANAPL
+          Length = 227
+
+ Score =  111 bits (278), Expect = 2e-22,   Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 38/70 (54%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          +    ++CQ   PS+GL+  +D +QLF+FD   +   PRLP+F  W +       ++ D 
+Sbjct: 6  SLSEVLFCQPDMPSLGLAVTFDNEQLFWFDAPLSRWQPRLPDFPAWPEATEPPSELVHDT 65
+
+Query: 61 EFCEWMIQQI 70
+            C+ M++ +
+Sbjct: 66 TLCQNMLESL 75
+
+
+>UniRef90_A0A1L1RWS7 Uncharacterized protein n=1 Tax=Gallus gallus TaxID=9031
+          RepID=A0A1L1RWS7_CHICK
+          Length = 266
+
+ Score =  110 bits (275), Expect = 4e-22,   Method: Composition-based stats.
+ Identities = 22/67 (32%), Positives = 36/67 (53%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ  +PS+GLS A+D +QLF FD   +  +P+LP+   W  +      +L D 
+Sbjct: 30 TLSEVLFCQPDTPSLGLSVAFDSEQLFSFDVPNSQWLPQLPDGPSWPADIEQPHELLHDA 89
+
+Query: 61 EFCEWMI 67
+            C  ++
+Sbjct: 90 ALCRELL 96
+
+
+>UniRef90_A0A0B5JLK4 DMA n=2 Tax=Nipponia nippon TaxID=128390 RepID=A0A0B5JLK4_NIPNI
+          Length = 249
+
+ Score =  108 bits (272), Expect = 1e-21,   Method: Composition-based stats.
+ Identities = 24/65 (36%), Positives = 35/65 (53%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+              ++CQ   PS+GL+ A+DEDQLF+FDF  +   PRLP+   W         +L D  
+Sbjct: 32 LAEVLFCQAAVPSLGLALAFDEDQLFWFDFPGSRWTPRLPDLPSWPPTLEPPAELLRDAT 91
+
+Query: 62 FCEWM 66
+           C+ +
+Sbjct: 92 LCQDL 96
+
+
+>UniRef90_A5HUL6 MHC class II M alpha chain n=10 Tax=Gallus gallus TaxID=9031
+          RepID=A5HUL6_CHICK
+          Length = 263
+
+ Score =  108 bits (271), Expect = 1e-21,   Method: Composition-based stats.
+ Identities = 22/67 (32%), Positives = 36/67 (53%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ  +PS+GLS A+D +QLF FD   +  +P+LP+   W  +      +L D 
+Sbjct: 30 TLSEVLFCQPDTPSLGLSVAFDSEQLFSFDVPNSQWLPQLPDGPSWPADIEQPHELLHDA 89
+
+Query: 61 EFCEWMI 67
+            C  ++
+Sbjct: 90 ALCRELL 96
+
+
+>UniRef90_A0A151MRQ7 Class II histocompatibility antigen, M alpha chain n=2
+          Tax=Alligator mississippiensis TaxID=8496
+          RepID=A0A151MRQ7_ALLMI
+          Length = 200
+
+ Score =  107 bits (269), Expect = 2e-21,   Method: Composition-based stats.
+ Identities = 24/69 (34%), Positives = 41/69 (59%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+              ++CQ  SPS+G ++ +DEDQLF+FDF  +  +PRLP+FA     Q     I+ +  
+Sbjct: 25 LSQVLFCQPDSPSLGRADTFDEDQLFWFDFPSSHWLPRLPDFAPRTSAQSPPAQIVVEAG 84
+
+Query: 62 FCEWMIQQI 70
+           C+ +++ +
+Sbjct: 85 LCKELLRGL 93
+
+
+>UniRef90_UPI00071E026A class II histocompatibility antigen, M alpha chain-like n=1
+          Tax=Calidris pugnax TaxID=198806 RepID=UPI00071E026A
+          Length = 246
+
+ Score =  107 bits (268), Expect = 3e-21,   Method: Composition-based stats.
+ Identities = 24/69 (34%), Positives = 37/69 (53%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+              ++CQ   PS+GL+ A+D DQLF+FDF ++   PRLP+   W         +L D  
+Sbjct: 15 LAEVLFCQPAMPSLGLALAFDADQLFWFDFPRSQWTPRLPDLPPWPPNLETPKELLQDAT 74
+
+Query: 62 FCEWMIQQI 70
+           C+ + + I
+Sbjct: 75 LCQDLRRGI 83
+
+
+>UniRef90_UPI00042BF0CF class II histocompatibility antigen, M alpha chain-like n=1
+           Tax=Chelonia mydas TaxID=8469 RepID=UPI00042BF0CF
+          Length = 283
+
+ Score =  106 bits (267), Expect = 4e-21,   Method: Composition-based stats.
+ Identities = 24/66 (36%), Positives = 33/66 (50%)
+
+Query: 2   FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+               ++CQ   PS GL++ +D DQLF FDF      PRLP+F  W   Q     I  D  
+Sbjct: 39  LSRVLFCQPDRPSQGLADTFDGDQLFSFDFPGARWEPRLPDFQPWVGAQESTEQIRNDSR 98
+
+Query: 62  FCEWMI 67
+            C+ ++
+Sbjct: 99  LCQHLL 104
+
+
+>UniRef90_UPI0007773073 class II histocompatibility antigen, M alpha chain isoform X1 n=2
+           Tax=Coturnix japonica TaxID=93934 RepID=UPI0007773073
+          Length = 279
+
+ Score =  106 bits (266), Expect = 5e-21,   Method: Composition-based stats.
+ Identities = 22/68 (32%), Positives = 36/68 (52%)
+
+Query: 1   TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+           T    ++CQ  +P+ GLS A+D +QLF FDF ++  +P+LP+   W         + FD 
+Sbjct: 59  TLSEVLFCQPDTPTRGLSVAFDSEQLFSFDFPKSQWLPQLPDAPSWPAGIEQPDELNFDT 118
+
+Query: 61  EFCEWMIQ 68
+             C  ++ 
+Sbjct: 119 SLCLDLLH 126
+
+
+>UniRef90_Q76LJ4 MHC class II A family peptide loading n=1 Tax=Coturnix japonica
+          TaxID=93934 RepID=Q76LJ4_COTJA
+          Length = 263
+
+ Score =  105 bits (262), Expect = 1e-20,   Method: Composition-based stats.
+ Identities = 22/68 (32%), Positives = 36/68 (52%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ  +P+ GLS A+D +QLF FDF ++  +P+LP+   W         + FD 
+Sbjct: 30 TLSEVLFCQPDTPTRGLSVAFDSEQLFSFDFPKSQWLPQLPDAPSWPSGIEQPDELNFDT 89
+
+Query: 61 EFCEWMIQ 68
+            C  ++ 
+Sbjct: 90 SLCLDLLH 97
+
+
+>UniRef90_UPI000B3E23BB class II histocompatibility antigen, M alpha chain-like n=1
+          Tax=Numida meleagris TaxID=8996 RepID=UPI000B3E23BB
+          Length = 248
+
+ Score =  103 bits (259), Expect = 3e-20,   Method: Composition-based stats.
+ Identities = 22/66 (33%), Positives = 34/66 (51%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ  +PS GL+ A+D +QLF FDF  +  +PRLP+   W  +      +  D 
+Sbjct: 30 TLAEVLFCQPDTPSQGLAVAFDAEQLFSFDFPSSQWLPRLPDGPAWPADTEQPHELQHDA 89
+
+Query: 61 EFCEWM 66
+            C  +
+Sbjct: 90 ALCRDL 95
+
+
+>UniRef90_B1N1D5 MHC class II antigen M alpha chain n=5 Tax=Phasianidae TaxID=9005
+          RepID=B1N1D5_MELGA
+          Length = 263
+
+ Score = 95.0 bits (236), Expect = 2e-17,   Method: Composition-based stats.
+ Identities = 20/70 (28%), Positives = 34/70 (48%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDK 60
+          T    ++CQ  +P +GLS A+D +QLF FD   +  +P+LP+   W         +  D 
+Sbjct: 30 TLSEVLFCQPDTPLLGLSVAFDLEQLFSFDVPNSQWLPQLPDGPAWPAGTEQPQELQHDT 89
+
+Query: 61 EFCEWMIQQI 70
+            C  +  ++
+Sbjct: 90 ILCRKLHDEL 99
+
+
+>UniRef90_UPI00046C1DE0 class II histocompatibility antigen, M alpha chain n=1
+          Tax=Chrysemys picta bellii TaxID=8478
+          RepID=UPI00046C1DE0
+          Length = 220
+
+ Score = 90.4 bits (224), Expect = 4e-16,   Method: Composition-based stats.
+ Identities = 22/53 (41%), Positives = 29/53 (54%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAP 54
+              ++CQ   PS+GL++ +D DQLF FDF      PRLP+F  W   Q   P
+Sbjct: 33 LSRVMFCQSDRPSLGLADTFDGDQLFSFDFPGGHWEPRLPDFQPWLSTQESTP 85
+
+
+>UniRef90_UPI000739DBE2 HLA class II histocompatibility antigen, DM alpha chain-like n=1
+          Tax=Gallus gallus TaxID=9031 RepID=UPI000739DBE2
+          Length = 114
+
+ Score = 88.1 bits (218), Expect = 2e-15,   Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 31/57 (54%)
+
+Query: 11 GSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFCEWMI 67
+           +PS+GLS A+D +QLF FD   +  +P+LP+   W  +      +L D   C  ++
+Sbjct: 40 DTPSLGLSVAFDSEQLFSFDVPNSQWLPQLPDGPSWPADIEQPHELLHDAALCRELL 96
+
+
+>UniRef90_A0A091EW08 Class II histocompatibility antigen, M alpha chain (Fragment) n=2
+          Tax=Corvus brachyrhynchos TaxID=85066
+          RepID=A0A091EW08_CORBR
+          Length = 220
+
+ Score = 83.5 bits (206), Expect = 4e-14,   Method: Composition-based stats.
+ Identities = 20/69 (28%), Positives = 29/69 (42%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+              + CQ  SPS  LS   D   L+ FDF  +   P +P    W         IL + +
+Sbjct: 7  LAEVLTCQPDSPSRSLSVTLDGQLLYAFDFPGSRWNPGIPSLPPWPSALETPQEILPEAQ 66
+
+Query: 62 FCEWMIQQI 70
+           C+ ++Q I
+Sbjct: 67 LCQEILQNI 75
+
+
+>UniRef90_UPI00051B134D class II histocompatibility antigen, M alpha chain n=1
+          Tax=Cuculus canorus TaxID=55661 RepID=UPI00051B134D
+          Length = 240
+
+ Score = 79.6 bits (196), Expect = 6e-13,   Method: Composition-based stats.
+ Identities = 22/69 (31%), Positives = 33/69 (47%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+              ++CQ   PS+G +  +D DQLF+FDF  +    RLP+   W         IL D  
+Sbjct: 27 LAEVLFCQPPWPSLGAAFTFDSDQLFWFDFPGSRWTSRLPDPPPWPPGLETPAQILQDAT 86
+
+Query: 62 FCEWMIQQI 70
+           C+ + + I
+Sbjct: 87 LCQDLRRAI 95
+
+
+>UniRef90_G1TG75 Major histocompatibility complex, class II, DM alpha n=1
+          Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1TG75_RABIT
+          Length = 197
+
+ Score = 72.7 bits (178), Expect = 7e-11,   Method: Composition-based stats.
+ Identities = 24/40 (60%), Positives = 30/40 (75%)
+
+Query: 32 SQNTRVPRLPEFADWAQEQGDAPAILFDKEFCEWMIQQIG 71
+             TRVPRLPEFADWAQ+Q D   ILFD+ FC+ ++Q +G
+Sbjct: 13 PSRTRVPRLPEFADWAQDQSDISDILFDRWFCQQLVQNVG 52
+
+
+>UniRef90_UPI00074FC3E1 class II histocompatibility antigen, M alpha chain n=1 Tax=Gekko
+          japonicus TaxID=146911 RepID=UPI00074FC3E1
+          Length = 255
+
+ Score = 72.7 bits (178), Expect = 8e-11,   Method: Composition-based stats.
+ Identities = 21/66 (31%), Positives = 34/66 (51%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+          F    +CQ  SP  GL++  D+DQLF+FDF  ++   RLP+F      +     +   +E
+Sbjct: 34 FSQVFFCQRDSPFFGLAQGLDDDQLFWFDFPNSSWHARLPDFDPEVPSRVPTANVSAQRE 93
+
+Query: 62 FCEWMI 67
+           C  ++
+Sbjct: 94 LCRDLL 99
+
+
+>UniRef90_UPI0006B7D2F9 elastin-like n=1 Tax=Pseudopodoces humilis TaxID=181119
+           RepID=UPI0006B7D2F9
+          Length = 616
+
+ Score = 71.2 bits (174), Expect = 3e-10,   Method: Composition-based stats.
+ Identities = 17/64 (26%), Positives = 28/64 (43%)
+
+Query: 4   HTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKEFC 63
+             + CQ   PS  L+ + D   LF+FDF  +     +P    W +E      IL + + C
+Sbjct: 87  EVLTCQPDPPSASLAISLDGLGLFWFDFPGSRWNSGIPSLPPWPRELETPQEILPEFQLC 146
+
+Query: 64  EWMI 67
+             ++
+Sbjct: 147 REIL 150
+
+
+>UniRef90_UPI0009E31125 class II histocompatibility antigen, M alpha chain n=1 Tax=Pogona
+          vitticeps TaxID=103695 RepID=UPI0009E31125
+          Length = 253
+
+ Score = 70.0 bits (171), Expect = 5e-10,   Method: Composition-based stats.
+ Identities = 23/62 (37%), Positives = 33/62 (53%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+          F    +CQ  SP  GLS++ D +QLF+FDF  ++  PRL +F   A+ +     IL    
+Sbjct: 35 FSEVFFCQRDSPFSGLSQSLDNEQLFWFDFPGSSWHPRLTDFRPEAENRTSKDEILKLSN 94
+
+Query: 62 FC 63
+           C
+Sbjct: 95 IC 96
+
+
+>UniRef90_UPI000442090C class II histocompatibility antigen, M alpha chain n=1 Tax=Python
+           bivittatus TaxID=176946 RepID=UPI000442090C
+          Length = 394
+
+ Score = 64.2 bits (156), Expect = 3e-08,   Method: Composition-based stats.
+ Identities = 20/66 (30%), Positives = 30/66 (45%)
+
+Query: 2   FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+           F    +CQ  SP  GL++  D + LF F+F  +    RLPE     Q +     I   K 
+Sbjct: 172 FSEVFFCQKDSPLYGLAQTLDNNLLFQFNFPASRWDSRLPELQPAVQNRTTEQQIAAMKT 231
+
+Query: 62  FCEWMI 67
+            C+ ++
+Sbjct: 232 ICDTVL 237
+
+
+>UniRef90_Q6P7G2 MGC68534 protein n=2 Tax=Xenopus laevis TaxID=8355
+          RepID=Q6P7G2_XENLA
+          Length = 248
+
+ Score = 63.5 bits (154), Expect = 6e-08,   Method: Composition-based stats.
+ Identities = 22/71 (30%), Positives = 40/71 (56%), Gaps = 2/71 (2%)
+
+Query: 1  TFLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWA-QEQ-GDAPAILF 58
+          +    ++CQ  SPS  L + +DE+Q+F ++F+  + VPR+P    WA Q+   ++  + F
+Sbjct: 29 SLKQVLFCQPQSPSPVLLKMFDEEQMFQYNFADKSVVPRIPNLKKWANQDLFSNSSDLAF 88
+
+Query: 59 DKEFCEWMIQQ 69
+          D + C   +Q 
+Sbjct: 89 DIQLCTEAMQN 99
+
+
+>UniRef90_F7EMH0 Major histocompatibility complex class II alpha chain precursor
+          n=2 Tax=Xenopus tropicalis TaxID=8364
+          RepID=F7EMH0_XENTR
+          Length = 251
+
+ Score = 62.7 bits (152), Expect = 9e-08,   Method: Composition-based stats.
+ Identities = 20/70 (28%), Positives = 39/70 (55%), Gaps = 2/70 (2%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQ--GDAPAILFD 59
+              ++CQ  SPS  L + +D++Q+F + F+  + VPR+P+F  W  ++    +  + FD
+Sbjct: 30 LRQVLFCQPQSPSPVLLKMFDDEQMFQYSFADKSVVPRIPDFNKWTSQEVFSSSEFLAFD 89
+
+Query: 60 KEFCEWMIQQ 69
+          +E C   ++ 
+Sbjct: 90 EELCTESMEN 99
+
+
+>UniRef90_UPI00038348BA uncharacterized protein LOC101876857 n=1 Tax=Melopsittacus
+          undulatus TaxID=13146 RepID=UPI00038348BA
+          Length = 306
+
+ Score = 61.1 bits (148), Expect = 3e-07,   Method: Composition-based stats.
+ Identities = 22/67 (32%), Positives = 35/67 (52%), Gaps = 2/67 (2%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRL-PEFADWAQEQGDAPAILFDK 60
+              ++CQ   PS+ L+     DQLF+F+FS ++ + RL PE      E      +L D 
+Sbjct: 28 LSEVLFCQPDEPSLALAVTLGTDQLFWFNFSGSSWI-RLGPELPPEPPELEPPELVLKDA 86
+
+Query: 61 EFCEWMI 67
+          EFC+ ++
+Sbjct: 87 EFCQRLL 93
+
+
+>UniRef90_UPI000462B1B2 class II histocompatibility antigen, M alpha chain isoform X1 n=2
+          Tax=Anolis carolinensis TaxID=28377 RepID=UPI000462B1B2
+          Length = 251
+
+ Score = 58.4 bits (141), Expect = 1e-06,   Method: Composition-based stats.
+ Identities = 20/67 (29%), Positives = 32/67 (47%)
+
+Query: 2  FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWAQEQGDAPAILFDKE 61
+          F    +CQ G PS+GL++A D++ LF F+FS       LPE       +     +     
+Sbjct: 32 FSEVFFCQPGDPSLGLAQALDQEPLFRFNFSTQQWRSILPELQPEEGNRTSLDQVQLLGV 91
+
+Query: 62 FCEWMIQ 68
+           C+ ++Q
+Sbjct: 92 ICQDILQ 98
+
+
+>UniRef90_UPI0008543855 class II histocompatibility antigen, M alpha chain n=1 Tax=Nanorana
+           parkeri TaxID=125878 RepID=UPI0008543855
+          Length = 253
+
+ Score = 55.0 bits (132), Expect = 2e-05,   Method: Composition-based stats.
+ Identities = 21/70 (30%), Positives = 36/70 (51%), Gaps = 1/70 (1%)
+
+Query: 2   FLHTVYCQDGSPSVGLSEAYDEDQLFFFDFSQNTRVPRLPEFADWA-QEQGDAPAILFDK 60
+               ++CQ   PS GL + +DEDQ+F ++F +++    L +F  W+ Q    A  I  D 
+Sbjct: 34  LSQVLFCQPSEPSSGLLKMFDEDQMFHYNFEEHSTSAWLSDFNQWSGQAFPSAENISSDL 93
+
+Query: 61  EFCEWMIQQI 70
+            FC+   + +
+Sbjct: 94  VFCKTFRENL 103
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.315    0.186    0.703 
+
+Lambda     K      H
+   0.267   0.0565    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 8,686,805,387
+Number of Sequences: 61934301
+Number of extensions: 405103294
+Number of successful extensions: 640542
+Number of sequences better than 9.0e-04: 114
+Number of HSP's better than  0.0 without gapping: 207
+Number of HSP's successfully gapped in prelim test: 2
+Number of HSP's that attempted gapping in prelim test: 640328
+Number of HSP's gapped (non-prelim): 209
+length of query: 71
+length of database: 21,023,703,129
+effective HSP length: 43
+effective length of query: 28
+effective length of database: 22,655,495,482
+effective search space: 634353873496
+effective search space used: 634353873496
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.1 bits)
+S2: 118 (49.6 bits)
