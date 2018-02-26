@@ -1,0 +1,2266 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1wiaA
+         (70 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_Q3V209 Transmembrane and ubiquitin-like domain-containi...   149   6e-34
+UniRef90_A0A1U7Q5R9 transmembrane and ubiquitin-like domain-cont...   148   2e-33
+UniRef90_S7MS07 Transmembrane and ubiquitin-like domain-containi...   147   2e-33
+UniRef90_UPI000A285CCB transmembrane and ubiquitin-like domain-c...   147   2e-33
+UniRef90_UPI000A28A89B transmembrane and ubiquitin-like domain-c...   147   3e-33
+UniRef90_G1P6Z0 Transmembrane and ubiquitin like domain containi...   147   4e-33
+UniRef90_H0X917 Transmembrane and ubiquitin like domain containi...   147   4e-33
+UniRef90_A0A1A6FXD2 Uncharacterized protein (Fragment) n=1 Tax=N...   146   4e-33
+UniRef90_UPI0000481BC3 hypothetical ubiquitin-like protein (RIKE...   146   5e-33
+UniRef90_A0A1S3GF78 transmembrane and ubiquitin-like domain-cont...   145   7e-33
+UniRef90_G3WRP8 Transmembrane and ubiquitin like domain containi...   145   8e-33
+UniRef90_L5KRV4 Transmembrane and ubiquitin-like domain-containi...   143   3e-32
+UniRef90_UPI000812D3C2 transmembrane and ubiquitin-like domain-c...   143   4e-32
+UniRef90_UPI0003318CEF transmembrane and ubiquitin-like domain-c...   143   4e-32
+UniRef90_I3MRS1 Transmembrane and ubiquitin like domain containi...   143   5e-32
+UniRef90_UPI0003ACAB14 transmembrane and ubiquitin-like domain-c...   143   5e-32
+UniRef90_W5PBP6 Transmembrane and ubiquitin like domain containi...   142   6e-32
+UniRef90_E7ESS3 Transmembrane and ubiquitin-like domain-containi...   142   7e-32
+UniRef90_Q71RG4-2 Isoform 2 of Transmembrane and ubiquitin-like ...   142   9e-32
+UniRef90_K7EKW3 Transmembrane and ubiquitin-like domain-containi...   142   1e-31
+UniRef90_UPI0003F169C5 transmembrane and ubiquitin-like domain-c...   142   1e-31
+UniRef90_A0A1U7TG40 transmembrane and ubiquitin-like domain-cont...   141   1e-31
+UniRef90_UPI0003F176BA transmembrane and ubiquitin-like domain-c...   141   1e-31
+UniRef90_Q71RG4 Transmembrane and ubiquitin-like domain-containi...   141   1e-31
+UniRef90_Q2HJA8 Transmembrane and ubiquitin-like domain-containi...   141   2e-31
+UniRef90_G1U6J3 Transmembrane and ubiquitin like domain containi...   140   3e-31
+UniRef90_F7EP91 Transmembrane and ubiquitin like domain containi...   140   3e-31
+UniRef90_UPI000840146B transmembrane and ubiquitin-like domain-c...   140   4e-31
+UniRef90_UPI00064CE28B LOW QUALITY PROTEIN: transmembrane and ub...   139   5e-31
+UniRef90_UPI00032AF985 transmembrane and ubiquitin-like domain-c...   139   5e-31
+UniRef90_UPI00081A1963 LOW QUALITY PROTEIN: transmembrane and ub...   139   5e-31
+UniRef90_A0A1D5Q9D8 Uncharacterized protein n=8 Tax=Catarrhini T...   137   3e-30
+UniRef90_UPI0003340C8C transmembrane and ubiquitin-like domain-c...   135   8e-30
+UniRef90_I7GL83 Macaca fascicularis brain cDNA clone: QflA-17176...   132   8e-29
+UniRef90_UPI000454A1F6 transmembrane and ubiquitin-like domain-c...   130   4e-28
+UniRef90_UPI00062AA287 transmembrane and ubiquitin-like domain-c...   128   1e-27
+UniRef90_UPI00051E569B transmembrane and ubiquitin-like domain-c...   127   2e-27
+UniRef90_A0A091D452 Transmembrane and ubiquitin-like domain-cont...   127   2e-27
+UniRef90_A0A0P6JDV2 Transmembrane and ubiquitin-like domain-cont...   127   2e-27
+UniRef90_UPI00071A4592 transmembrane and ubiquitin-like domain-c...   127   3e-27
+UniRef90_G1KTL5 Transmembrane and ubiquitin like domain containi...   126   4e-27
+UniRef90_UPI00074FE5C7 transmembrane and ubiquitin-like domain-c...   126   5e-27
+UniRef90_UPI00081A20B6 transmembrane and ubiquitin-like domain-c...   126   6e-27
+UniRef90_UPI000B4C86BD transmembrane and ubiquitin-like domain-c...   126   6e-27
+UniRef90_A0A151PC62 Transmembrane and ubiquitin-like domain-cont...   126   6e-27
+UniRef90_UPI00053CB5EE transmembrane and ubiquitin-like domain-c...   126   6e-27
+UniRef90_V8NCF4 Transmembrane and ubiquitin-like domain-containi...   125   1e-26
+UniRef90_F7FBZ1 Uncharacterized protein n=1 Tax=Ornithorhynchus ...   125   1e-26
+UniRef90_UPI00038720D7 transmembrane and ubiquitin-like domain-c...   125   1e-26
+UniRef90_A0A091FP25 Transmembrane and ubiquitin-like domain-cont...   124   2e-26
+UniRef90_UPI00071C4BE2 transmembrane and ubiquitin-like domain-c...   123   6e-26
+UniRef90_M7BP02 Transmembrane and ubiquitin-like domain-containi...   122   6e-26
+UniRef90_A0A091W497 Transmembrane and ubiquitin-like domain-cont...   122   7e-26
+UniRef90_A0A091T7I9 Transmembrane and ubiquitin-like domain-cont...   122   8e-26
+UniRef90_UPI0009E5CBB5 transmembrane and ubiquitin-like domain-c...   122   1e-25
+UniRef90_K7FG63 Transmembrane and ubiquitin like domain containi...   121   1e-25
+UniRef90_H0VAV2 Transmembrane and ubiquitin like domain containi...   121   2e-25
+UniRef90_V9KXJ5 Transmembrane and ubiquitin-like domain-containi...   121   2e-25
+UniRef90_UPI0009A31C55 transmembrane and ubiquitin-like domain-c...   120   4e-25
+UniRef90_UPI00085458C4 transmembrane and ubiquitin-like domain-c...   120   5e-25
+UniRef90_M3XJ72 Transmembrane and ubiquitin like domain containi...   119   5e-25
+UniRef90_UPI000697474F transmembrane and ubiquitin-like domain-c...   118   2e-24
+UniRef90_W5L7M1 Transmembrane and ubiquitin-like domain containi...   117   2e-24
+UniRef90_A0A1W5AA56 LOW QUALITY PROTEIN: transmembrane and ubiqu...   117   2e-24
+UniRef90_UPI0008146BCB transmembrane and ubiquitin-like domain-c...   117   3e-24
+UniRef90_A0A0F8CSH2 Transmembrane and ubiquitin-like domain-cont...   117   4e-24
+UniRef90_A0A1L8EL39 Uncharacterized protein n=3 Tax=Xenopus laev...   115   9e-24
+UniRef90_UPI000555BA8F transmembrane and ubiquitin-like domain-c...   115   1e-23
+UniRef90_Q8JFU2 Novel ubiquitin n=1 Tax=Danio rerio TaxID=7955 R...   114   2e-23
+UniRef90_W5UKD3 Transmembrane and ubiquitin-like domain-containi...   114   2e-23
+UniRef90_Q4V9Y1 Transmembrane and ubiquitin-like domain-containi...   114   2e-23
+UniRef90_UPI0005775384 transmembrane and ubiquitin-like domain-c...   114   3e-23
+UniRef90_UPI000A1C6005 transmembrane and ubiquitin-like domain-c...   114   3e-23
+UniRef90_G3P4W7 Transmembrane and ubiquitin-like domain containi...   114   3e-23
+UniRef90_W5N2F1 Transmembrane and ubiquitin-like domain containi...   114   3e-23
+UniRef90_UPI0007ACC33F transmembrane and ubiquitin-like domain-c...   114   3e-23
+UniRef90_UPI000644317F transmembrane and ubiquitin-like domain-c...   113   5e-23
+UniRef90_UPI0009B45DC8 transmembrane and ubiquitin-like domain-c...   112   7e-23
+UniRef90_UPI000873DD23 transmembrane and ubiquitin-like domain-c...   112   7e-23
+UniRef90_UPI0009B4E7AE transmembrane and ubiquitin-like domain-c...   112   7e-23
+UniRef90_UPI0004954927 transmembrane and ubiquitin-like domain-c...   112   8e-23
+UniRef90_B5X3V1 Transmembrane and Ubiquitin-like domain-containi...   112   9e-23
+UniRef90_H3CF74 Transmembrane and ubiquitin-like domain containi...   112   9e-23
+UniRef90_A0A096M4B2 Transmembrane and ubiquitin-like domain cont...   112   1e-22
+UniRef90_H2V0D8 Transmembrane and ubiquitin-like domain containi...   111   2e-22
+UniRef90_UPI0007F8D9DA transmembrane and ubiquitin-like domain-c...   111   2e-22
+UniRef90_H2V0D9 Transmembrane and ubiquitin-like domain containi...   110   3e-22
+UniRef90_UPI000497E716 transmembrane and ubiquitin-like domain-c...   110   3e-22
+UniRef90_A0A146ZNH3 Transmembrane and ubiquitin domain-containin...   110   3e-22
+UniRef90_M4A1F2 Transmembrane and ubiquitin-like domain containi...   110   4e-22
+UniRef90_A0A146VAJ0 Transmembrane and ubiquitin domain-containin...   110   5e-22
+UniRef90_UPI0007428BFA transmembrane and ubiquitin-like domain-c...   109   5e-22
+UniRef90_UPI00097CFEEA transmembrane and ubiquitin-like domain-c...   109   7e-22
+UniRef90_A0A1A8J6D1 Transmembrane and ubiquitin-like domain cont...   109   7e-22
+UniRef90_I3IWP6 Transmembrane and ubiquitin-like domain containi...   109   7e-22
+UniRef90_H2LBI1 Transmembrane and ubiquitin-like domain containi...   109   8e-22
+UniRef90_A0A1A8DRT5 Transmembrane and ubiquitin-like domain cont...   108   9e-22
+UniRef90_UPI0006444681 transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_UPI0006B320CA ankyrin repeat and SOCS box protein 16-li...   108   2e-21
+UniRef90_A0A0S7MDZ6 TMUB2 (Fragment) n=1 Tax=Poeciliopsis prolif...   107   3e-21
+UniRef90_A0A1A7ZWL8 Transmembrane and ubiquitin-like domain cont...   107   3e-21
+UniRef90_A0A1A8QWX3 Transmembrane and ubiquitin-like domain cont...   106   5e-21
+UniRef90_A0A1A8EUF6 Transmembrane and ubiquitin-like domain cont...   106   7e-21
+UniRef90_UPI00094EF446 transmembrane and ubiquitin-like domain-c...   104   2e-20
+UniRef90_UPI00081454C6 transmembrane and ubiquitin-like domain-c...   103   6e-20
+UniRef90_UPI0007F89E2F transmembrane and ubiquitin-like domain-c...   103   6e-20
+UniRef90_UPI0004963E21 transmembrane and ubiquitin-like domain-c...   102   7e-20
+UniRef90_UPI0006B3229F transmembrane and ubiquitin-like domain-c...   102   1e-19
+UniRef90_A0A1S3LUP3 transmembrane and ubiquitin-like domain-cont...   102   1e-19
+UniRef90_H2LRJ3 Transmembrane and ubiquitin-like domain containi...   101   1e-19
+UniRef90_I3JUJ8 Transmembrane and ubiquitin-like domain containi...   101   2e-19
+UniRef90_I3JUJ7 Transmembrane and ubiquitin-like domain containi...   101   2e-19
+UniRef90_W5UB03 Transmembrane and ubiquitin-like domain-containi...   101   2e-19
+UniRef90_UPI0009B43254 transmembrane and ubiquitin-like domain-c...   100   3e-19
+UniRef90_UPI00097DA3E5 transmembrane and ubiquitin-like domain-c...   100   3e-19
+UniRef90_UPI000874FFEA transmembrane and ubiquitin-like domain-c...   100   3e-19
+UniRef90_A0A1A8A9Y5 Transmembrane and ubiquitin-like domain cont...   100   3e-19
+UniRef90_M4AED9 Transmembrane and ubiquitin-like domain containi...   100   3e-19
+UniRef90_H2TIS2 Transmembrane and ubiquitin-like domain containi...   100   4e-19
+UniRef90_Q4T9Z8 Chromosome undetermined SCAF7478, whole genome s...   100   5e-19
+UniRef90_G3N9I1 Transmembrane and ubiquitin-like domain containi...   100   5e-19
+UniRef90_A0A146NUM2 Transmembrane and ubiquitin domain-containin...   100   6e-19
+UniRef90_H3CBN1 Transmembrane and ubiquitin-like domain containi...   100   6e-19
+UniRef90_A0A146Y0Q0 Transmembrane and ubiquitin domain-containin...   100   6e-19
+UniRef90_UPI0003EA8FC4 transmembrane and ubiquitin-like domain-c...    99   7e-19
+UniRef90_W5MSU4 Transmembrane and ubiquitin-like domain containi...    99   7e-19
+UniRef90_A0A0P7WH87 Transmembrane and ubiquitin-like domain-cont...    99   8e-19
+UniRef90_UPI0009E57756 transmembrane and ubiquitin-like domain-c...    99   1e-18
+UniRef90_M7AM90 Transmembrane and ubiquitin-like domain-containi...    99   1e-18
+UniRef90_A0A146NA05 Transmembrane and ubiquitin domain-containin...    98   2e-18
+UniRef90_UPI00053CEBE6 transmembrane and ubiquitin-like domain-c...    98   2e-18
+UniRef90_UPI000576AD51 transmembrane and ubiquitin-like domain-c...    98   2e-18
+UniRef90_UPI00077770A4 transmembrane and ubiquitin-like domain-c...    98   2e-18
+UniRef90_H3AM98 Transmembrane and ubiquitin like domain containi...    98   2e-18
+UniRef90_A0A0S7GU39 TMUB1 (Fragment) n=2 Tax=Poeciliopsis prolif...    97   4e-18
+UniRef90_UPI0006443F3B transmembrane and ubiquitin-like domain-c...    97   5e-18
+UniRef90_A0A1D5PFB3 Transmembrane and ubiquitin like domain cont...    97   6e-18
+UniRef90_UPI0009B3EC23 transmembrane and ubiquitin-like domain-c...    97   6e-18
+UniRef90_A0A0Q3Q3Z6 Transmembrane and ubiquitin-like domain-cont...    96   6e-18
+UniRef90_V9L3B2 Transmembrane and ubiquitin-like domain-containi...    95   2e-17
+UniRef90_S4R7Q5 Uncharacterized protein n=1 Tax=Petromyzon marin...    95   2e-17
+UniRef90_UPI0005297C5D transmembrane and ubiquitin-like domain-c...    95   2e-17
+UniRef90_Q6P135 Transmembrane and ubiquitin-like domain-containi...    94   3e-17
+UniRef90_UPI00074FAD57 transmembrane and ubiquitin-like domain-c...    94   3e-17
+UniRef90_G3W827 Transmembrane and ubiquitin like domain containi...    94   4e-17
+UniRef90_UPI0006980DCF probable threonine protease PRSS50 n=1 Ta...    94   4e-17
+UniRef90_UPI000B4C5B48 transmembrane and ubiquitin-like domain-c...    94   5e-17
+UniRef90_UPI00038EB4E7 transmembrane and ubiquitin-like domain-c...    93   5e-17
+UniRef90_UPI00094E2C5A transmembrane and ubiquitin-like domain-c...    93   6e-17
+UniRef90_H9H091 Uncharacterized protein n=3 Tax=Neognathae TaxID...    93   6e-17
+UniRef90_UPI00032B0D98 transmembrane and ubiquitin-like domain-c...    93   7e-17
+UniRef90_A0A218UGP4 Transmembrane and ubiquitin-like domain-cont...    93   8e-17
+UniRef90_E9QN77 Transmembrane and ubiquitin-like domain-containi...    93   8e-17
+UniRef90_Q9JMG3 Transmembrane and ubiquitin-like domain-containi...    93   8e-17
+UniRef90_UPI000333814D transmembrane and ubiquitin-like domain-c...    92   9e-17
+UniRef90_UPI00033156F3 transmembrane and ubiquitin-like domain-c...    92   9e-17
+UniRef90_UPI0006969E72 N-acetylglucosamine-6-sulfatase n=1 Tax=C...    92   1e-16
+UniRef90_UPI00045DC0C9 transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_G3HB66 Transmembrane and ubiquitin-like domain-containi...    92   2e-16
+UniRef90_Q53AQ4 Transmembrane and ubiquitin-like domain-containi...    91   2e-16
+UniRef90_Q9BVT8 Transmembrane and ubiquitin-like domain-containi...    91   2e-16
+UniRef90_H2PP26 Transmembrane and ubiquitin like domain containi...    91   2e-16
+UniRef90_H1A3C9 Uncharacterized protein n=2 Tax=Taeniopygia gutt...    91   3e-16
+UniRef90_G3RVM5 Transmembrane and ubiquitin like domain containi...    91   3e-16
+UniRef90_I3MQV7 Transmembrane and ubiquitin like domain containi...    91   3e-16
+UniRef90_H0XIK0 Transmembrane and ubiquitin like domain containi...    91   3e-16
+UniRef90_UPI00095352FA transmembrane and ubiquitin-like domain-c...    91   3e-16
+UniRef90_A0A1S3AL66 transmembrane and ubiquitin-like domain-cont...    91   4e-16
+UniRef90_U6D4G4 Transmembrane and ubiquitin-like domain-containi...    91   4e-16
+UniRef90_H0W3V2 Transmembrane and ubiquitin like domain containi...    91   4e-16
+UniRef90_W5NYX7 Transmembrane and ubiquitin like domain containi...    90   5e-16
+UniRef90_Q3ZBI9 Transmembrane and ubiquitin-like domain-containi...    90   7e-16
+UniRef90_A0A091DAW4 Transmembrane and ubiquitin-like domain-cont...    89   8e-16
+UniRef90_UPI00076712BA transmembrane and ubiquitin-like domain-c...    89   8e-16
+UniRef90_S4R8H2 Transmembrane and ubiquitin like domain containi...    87   3e-15
+UniRef90_H9G6Y4 Transmembrane and ubiquitin like domain containi...    86   7e-15
+UniRef90_Q3KPV4 Transmembrane and ubiquitin-like domain-containi...    84   4e-14
+UniRef90_UPI0004F0D54E transmembrane and ubiquitin-like domain-c...    82   1e-13
+UniRef90_UPI0008473382 transmembrane and ubiquitin-like domain-c...    79   1e-12
+UniRef90_UPI000678EA35 transmembrane and ubiquitin-like domain-c...    77   3e-12
+UniRef90_UPI000775A702 LOW QUALITY PROTEIN: transmembrane and ub...    70   4e-10
+UniRef90_A0A1I7V557 Uncharacterized protein n=1 Tax=Caenorhabdit...    69   1e-09
+UniRef90_V4B684 Uncharacterized protein n=1 Tax=Lottia gigantea ...    69   1e-09
+UniRef90_UPI000495DB7B transmembrane and ubiquitin-like domain-c...    67   4e-09
+UniRef90_A0A0N4UY46 Uncharacterized protein n=1 Tax=Enterobius v...    65   2e-08
+UniRef90_UPI0008F9FEE1 uncharacterized protein LOC109073511 n=1 ...    64   2e-08
+UniRef90_U6PWV6 WD40 repeat and Ubiquitin domain containing prot...    64   3e-08
+UniRef90_U6NJ12 WD40 repeat and Ubiquitin domain containing prot...    64   3e-08
+UniRef90_A0A0N4W330 Uncharacterized protein n=1 Tax=Haemonchus p...    64   3e-08
+UniRef90_A0A158PCC8 Uncharacterized protein n=2 Tax=Angiostrongy...    64   4e-08
+UniRef90_A0A016VT77 Uncharacterized protein n=2 Tax=Ancylostoma ...    64   4e-08
+UniRef90_A0A183F3M6 Uncharacterized protein n=1 Tax=Heligmosomoi...    64   4e-08
+UniRef90_A0A016VS57 Uncharacterized protein n=3 Tax=Ancylostoma ...    64   4e-08
+UniRef90_A0A0N4XYM5 Uncharacterized protein n=1 Tax=Nippostrongy...    64   5e-08
+UniRef90_A0A0N5DU61 Uncharacterized protein n=1 Tax=Trichuris mu...    63   6e-08
+UniRef90_UPI0006B18D4A transmembrane and ubiquitin-like domain-c...    63   6e-08
+UniRef90_A0A0R3RT34 Uncharacterized protein n=1 Tax=Elaeophora e...    63   6e-08
+UniRef90_A0A0D6LR80 Ubiquitin family protein n=1 Tax=Ancylostoma...    63   6e-08
+UniRef90_UPI000359CE96 transmembrane and ubiquitin-like domain-c...    63   7e-08
+UniRef90_A0A093HHT5 Transmembrane and ubiquitin-like domain-cont...    63   8e-08
+UniRef90_A0A1E1XSV7 Putative transmembrane and ubiquitin-like do...    63   8e-08
+UniRef90_A0A0D8XFY9 Ubiquitin family protein n=1 Tax=Dictyocaulu...    63   8e-08
+UniRef90_UPI000161D635 Ubiquitin family protein n=1 Tax=Brugia m...    63   8e-08
+UniRef90_A0A0P7ZGP0 Transmembrane and ubiquitin-like domain-cont...    63   9e-08
+UniRef90_A0A0H5S9Y0 Bm1746 n=5 Tax=Onchocercidae TaxID=6296 RepI...    63   9e-08
+UniRef90_G3MKG8 Uncharacterized protein n=2 Tax=Amblyomma TaxID=...    62   1e-07
+UniRef90_A0A131XI28 Putative transmembrane and ubiquitin-like do...    62   1e-07
+UniRef90_A0A182DWW7 Uncharacterized protein n=1 Tax=Onchocerca o...    62   1e-07
+UniRef90_A0A044V2A5 Uncharacterized protein n=1 Tax=Onchocerca v...    62   1e-07
+UniRef90_A0A085N611 Uncharacterized protein n=2 Tax=Trichuris su...    62   2e-07
+UniRef90_A0A1E1XDJ5 Putative transmembrane and ubiquitin-like do...    62   2e-07
+UniRef90_A0A131YXM4 Uncharacterized protein n=2 Tax=Rhipicephalu...    61   2e-07
+UniRef90_R7TWV1 Uncharacterized protein n=1 Tax=Capitella teleta...    61   2e-07
+UniRef90_UPI000778D8AE transmembrane and ubiquitin-like domain-c...    61   2e-07
+UniRef90_C3Z9M0 Uncharacterized protein n=1 Tax=Branchiostoma fl...    61   3e-07
+UniRef90_UPI0006B0F55D transmembrane and ubiquitin-like domain-c...    61   3e-07
+UniRef90_A0A1I7VT36 Uncharacterized protein n=1 Tax=Loa loa TaxI...    60   4e-07
+UniRef90_A0A0B2V781 Uncharacterized protein n=1 Tax=Toxocara can...    60   4e-07
+UniRef90_A0A1I7XWA6 Uncharacterized protein n=1 Tax=Steinernema ...    60   4e-07
+UniRef90_A0A1I7XWB5 Uncharacterized protein n=2 Tax=Steinernema ...    60   5e-07
+UniRef90_E3N069 Uncharacterized protein n=1 Tax=Caenorhabditis r...    60   7e-07
+UniRef90_A0A158RCV1 Uncharacterized protein n=1 Tax=Thelazia cal...    60   7e-07
+UniRef90_A0A0M3IWK3 Uncharacterized protein n=1 Tax=Ascaris lumb...    60   8e-07
+UniRef90_UPI0009479398 transmembrane and ubiquitin-like domain-c...    60   8e-07
+UniRef90_UPI0007638398 transmembrane and ubiquitin-like domain-c...    60   8e-07
+UniRef90_J9JQZ3 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    59   8e-07
+UniRef90_UPI00077569B3 transmembrane and ubiquitin-like domain-c...    59   8e-07
+UniRef90_A0A1I7SSZ3 Uncharacterized protein n=1 Tax=Bursaphelenc...    59   1e-06
+UniRef90_A0A0B6Y9W0 Uncharacterized protein (Fragment) n=1 Tax=A...    59   1e-06
+UniRef90_T1ISP9 Angiotensin-converting enzyme n=1 Tax=Strigamia ...    59   1e-06
+UniRef90_P34256 Uncharacterized protein B0303.4 n=1 Tax=Caenorha...    59   2e-06
+UniRef90_A8X3A3 Protein CBG06886 n=2 Tax=Caenorhabditis briggsae...    58   2e-06
+UniRef90_A0A0V1JG61 Transmembrane and ubiquitin-like domain-cont...    58   2e-06
+UniRef90_A0A0V0Y1V5 Cysteine and glycine-rich protein 2 n=1 Tax=...    58   2e-06
+UniRef90_A0A0V1F0F2 Cysteine and glycine-rich protein 2 n=4 Tax=...    58   2e-06
+UniRef90_UPI0006746326 transmembrane and ubiquitin-like domain-c...    58   2e-06
+UniRef90_A0A0V0WKI8 Transmembrane and ubiquitin-like domain-cont...    58   3e-06
+UniRef90_A0A0V1BDW3 Cysteine and glycine-rich protein 2 n=4 Tax=...    58   3e-06
+UniRef90_A0A0V1AG46 Cysteine and glycine-rich protein 2 (Fragmen...    58   3e-06
+UniRef90_UPI0008550C39 transmembrane and ubiquitin-like domain-c...    58   3e-06
+UniRef90_A0A0V1AGP5 Cysteine and glycine-rich protein 2 n=8 Tax=...    58   3e-06
+UniRef90_A0A183CX67 Uncharacterized protein n=1 Tax=Gongylonema ...    58   3e-06
+UniRef90_UPI00083EFEC3 transmembrane and ubiquitin-like domain-c...    58   3e-06
+UniRef90_UPI00076FBB32 transmembrane and ubiquitin-like domain-c...    57   3e-06
+UniRef90_A0A0M3K7X1 LD10456p (inferred by orthology to a D. mela...    57   5e-06
+UniRef90_J9LW39 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    57   6e-06
+UniRef90_B7Q289 Uncharacterized protein n=3 Tax=Ixodes TaxID=694...    57   6e-06
+UniRef90_UPI0007383D22 transmembrane and ubiquitin-like domain-c...    56   9e-06
+UniRef90_UPI000625AFB0 transmembrane and ubiquitin-like domain-c...    56   9e-06
+UniRef90_K7IBH9 Uncharacterized protein n=1 Tax=Caenorhabditis j...    55   1e-05
+UniRef90_A0A091ETH2 Transmembrane and ubiquitin-like domain-cont...    55   1e-05
+UniRef90_A0A210QWW5 Transmembrane and ubiquitin-like domain-cont...    55   1e-05
+UniRef90_A0A170Y384 Transmembrane and ubiquitin-like protein dom...    55   2e-05
+UniRef90_G0NB50 Uncharacterized protein n=1 Tax=Caenorhabditis b...    55   2e-05
+UniRef90_K1P6V6 Transmembrane and ubiquitin-like domain-containi...    55   2e-05
+UniRef90_A0A0L7RG79 Transmembrane and ubiquitin-like domain-cont...    55   2e-05
+UniRef90_UPI0006CEC128 transmembrane and ubiquitin-like domain-c...    55   2e-05
+UniRef90_A0A1I8BSA8 Uncharacterized protein n=1 Tax=Meloidogyne ...    55   2e-05
+UniRef90_UPI000A2C0427 transmembrane and ubiquitin-like domain-c...    55   2e-05
+UniRef90_R4G438 Uncharacterized protein n=1 Tax=Rhodnius prolixu...    55   2e-05
+UniRef90_UPI00061539B9 transmembrane and ubiquitin-like domain-c...    54   3e-05
+UniRef90_U3KI49 Uncharacterized protein n=2 Tax=Ficedula albicol...    54   3e-05
+UniRef90_A0A158R456 Uncharacterized protein n=1 Tax=Syphacia mur...    54   3e-05
+UniRef90_UPI0006199C73 transmembrane and ubiquitin-like domain-c...    54   3e-05
+UniRef90_UPI000A2BFCEF transmembrane and ubiquitin-like domain-c...    54   3e-05
+UniRef90_UPI0006D500B4 transmembrane and ubiquitin-like domain-c...    54   3e-05
+UniRef90_UPI00087429BC transmembrane and ubiquitin-like domain-c...    54   4e-05
+UniRef90_W4Y0A3 Uncharacterized protein n=1 Tax=Strongylocentrot...    54   4e-05
+UniRef90_UPI00084010D5 transmembrane and ubiquitin-like domain-c...    54   4e-05
+UniRef90_UPI0006BA2E8A fas-activated serine/threonine kinase n=1...    54   4e-05
+UniRef90_A0A1I8CFW8 Uncharacterized protein n=1 Tax=Rhabditophan...    54   5e-05
+UniRef90_UPI00083C57A0 LOW QUALITY PROTEIN: transmembrane and ub...    54   5e-05
+UniRef90_A0A067RHA8 Transmembrane and ubiquitin-like domain-cont...    53   6e-05
+UniRef90_A0A1S4ELP9 transmembrane and ubiquitin-like domain-cont...    53   6e-05
+UniRef90_Q71RG4-3 Isoform 3 of Transmembrane and ubiquitin-like ...    53   6e-05
+UniRef90_E9IRZ1 Uncharacterized protein (Fragment) n=1 Tax=Solen...    53   6e-05
+UniRef90_UPI0005AC6B6B transmembrane and ubiquitin-like domain-c...    53   6e-05
+UniRef90_UPI0008F9A52C transmembrane and ubiquitin-like domain-c...    53   6e-05
+UniRef90_A0A0A9YWL6 Transmembrane and ubiquitin-like domain-cont...    53   7e-05
+UniRef90_E9H8M8 Uncharacterized protein n=1 Tax=Daphnia pulex Ta...    53   7e-05
+UniRef90_UPI000994E4A9 transmembrane and ubiquitin-like domain-c...    53   7e-05
+UniRef90_V9IIE6 Transmembrane and ubiquitin-like domain-containi...    53   8e-05
+UniRef90_UPI00062647D0 transmembrane and ubiquitin-like domain-c...    53   8e-05
+UniRef90_E2A0G0 Transmembrane and ubiquitin-like domain-containi...    53   9e-05
+UniRef90_A0A026W5S1 Transmembrane and ubiquitin-like domain-cont...    53   9e-05
+UniRef90_V5H1N7 Transmembrane and ubiquitin-like domain-containi...    52   1e-04
+UniRef90_A0A1B0CBG6 Uncharacterized protein n=1 Tax=Lutzomyia lo...    52   1e-04
+UniRef90_A0A1B6L6D6 Uncharacterized protein n=4 Tax=Cicadellinae...    52   1e-04
+UniRef90_A0A1Y1KLD0 Uncharacterized protein n=1 Tax=Photinus pyr...    52   2e-04
+UniRef90_A0A1L8DSK2 Putative transmembrane and ubiquitin-like do...    52   2e-04
+UniRef90_UPI000771A37E transmembrane and ubiquitin-like domain-c...    52   2e-04
+UniRef90_A0A0T6B465 Ubiquitin (Fragment) n=1 Tax=Oryctes borboni...    51   2e-04
+UniRef90_A0A1B0D302 Uncharacterized protein n=1 Tax=Phlebotomus ...    51   2e-04
+UniRef90_UPI0005EFB8BC transmembrane and ubiquitin-like domain-c...    51   2e-04
+UniRef90_A0A158NRA2 Uncharacterized protein n=7 Tax=Attini TaxID...    51   2e-04
+UniRef90_UPI0007670F9D transmembrane and ubiquitin-like domain-c...    51   2e-04
+UniRef90_UPI0005F4724E transmembrane and ubiquitin-like domain-c...    51   2e-04
+UniRef90_A0A1B6E715 Uncharacterized protein n=3 Tax=Clastoptera ...    51   2e-04
+UniRef90_A0A1I8J856 Uncharacterized protein n=1 Tax=Macrostomum ...    51   3e-04
+UniRef90_UPI0006231BCB transmembrane and ubiquitin-like domain-c...    51   3e-04
+UniRef90_UPI00063EE542 transmembrane and ubiquitin-like domain-c...    51   4e-04
+UniRef90_A0A1I8GG24 Uncharacterized protein n=1 Tax=Macrostomum ...    50   4e-04
+UniRef90_A0A0K8TPK1 Putative transmembrane and ubiquitin-like do...    50   4e-04
+UniRef90_UPI0004CCB5DE transmembrane and ubiquitin-like domain-c...    50   4e-04
+UniRef90_UPI000718B0F0 transmembrane and ubiquitin-like domain-c...    50   5e-04
+UniRef90_UPI0006C979E6 transmembrane and ubiquitin-like domain-c...    50   5e-04
+UniRef90_UPI0006C99C48 transmembrane and ubiquitin-like domain-c...    50   6e-04
+UniRef90_UPI00084B0973 uncharacterized protein LOC108667230 n=1 ...    50   6e-04
+UniRef90_UPI00077DA0D8 transmembrane and ubiquitin-like domain-c...    50   6e-04
+UniRef90_E0VMA3 Uncharacterized protein n=1 Tax=Pediculus humanu...    50   6e-04
+UniRef90_E2BLD1 Transmembrane and ubiquitin-like domain-containi...    50   6e-04
+UniRef90_UPI0008FA8FD3 transmembrane and ubiquitin-like domain-c...    50   6e-04
+UniRef90_A0A0P5SQ78 Transmembrane and ubiquitin domain-containin...    50   7e-04
+UniRef90_UPI000711D692 transmembrane and ubiquitin-like domain-c...    49   8e-04
+UniRef90_UPI0005CE932B transmembrane and ubiquitin-like domain-c...    49   9e-04
+UniRef90_A0A0P4ZDH8 Transmembrane and ubiquitin domain-containin...    49   0.001
+UniRef90_A0A0C2CIR6 Uncharacterized protein (Fragment) n=1 Tax=A...    49   0.001
+UniRef90_UPI0005D2F589 transmembrane and ubiquitin-like domain-c...    49   0.001
+UniRef90_A0A0P5YJN1 Putative Transmembrane and ubiquitin domain-...    49   0.001
+UniRef90_A0A0P5C5V2 Putative Transmembrane and ubiquitin domain-...    49   0.001
+UniRef90_A0A1Q3FB22 Putative ubiquitin-like protein n=1 Tax=Cule...    49   0.001
+UniRef90_A0A0L8HH26 Uncharacterized protein n=1 Tax=Octopus bima...    49   0.001
+UniRef90_A0A0P5P3W0 Transmembrane and ubiquitin domain-containin...    49   0.001
+UniRef90_A0A182G9V2 Uncharacterized protein n=5 Tax=Aedes albopi...    49   0.001
+UniRef90_B0WGQ9 Uncharacterized protein n=1 Tax=Culex quinquefas...    49   0.001
+UniRef90_A0A182N5J4 Uncharacterized protein n=1 Tax=Anopheles di...    49   0.001
+UniRef90_A0A023EPS1 Putative ubiquitin-like protein (Fragment) n...    49   0.001
+UniRef90_Q17A35 AAEL005405-PA n=1 Tax=Aedes aegypti TaxID=7159 R...    49   0.001
+UniRef90_K7J1A4 Uncharacterized protein n=1 Tax=Nasonia vitripen...    49   0.002
+UniRef90_A0A0P5ECI9 Transmembrane and ubiquitin domain-containin...    49   0.002
+UniRef90_A0A0P6B1B2 Transmembrane and ubiquitin domain-containin...    49   0.002
+UniRef90_X1WRF8 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    49   0.002
+UniRef90_Q7QH50 AGAP004089-PA n=6 Tax=Pyretophorus TaxID=44537 R...    49   0.002
+UniRef90_A0A182J8V9 Uncharacterized protein n=1 Tax=Anopheles at...    49   0.002
+UniRef90_A0A0P5CZL9 Putative Transmembrane and ubiquitin domain-...    48   0.002
+UniRef90_A0A084WNP6 AGAP004089-PA-like protein n=1 Tax=Anopheles...    48   0.002
+UniRef90_A0A1W4WU16 transmembrane and ubiquitin-like domain-cont...    48   0.002
+UniRef90_A0A1A9U316 Uncharacterized protein n=1 Tax=Anopheles st...    48   0.002
+UniRef90_A0A1W5BAI1 transmembrane and ubiquitin-like domain-cont...    48   0.002
+UniRef90_A0A182PNL4 Uncharacterized protein n=1 Tax=Anopheles ep...    48   0.002
+UniRef90_A0A0N8CI13 Transmembrane and ubiquitin domain-containin...    48   0.002
+UniRef90_A0A090LBW8 Ubiquitin-like domain-containing protein n=1...    48   0.002
+UniRef90_A0A182FPS1 Uncharacterized protein n=1 Tax=Anopheles al...    48   0.002
+UniRef90_A0A182RYE6 Uncharacterized protein n=2 Tax=Myzomyia Tax...    48   0.002
+UniRef90_W5J3Z1 Uncharacterized protein n=1 Tax=Anopheles darlin...    48   0.002
+UniRef90_UPI000719CB7C transmembrane and ubiquitin-like domain-c...    48   0.002
+UniRef90_A0A0K0E2K5 Uncharacterized protein n=1 Tax=Strongyloide...    48   0.002
+UniRef90_H2ZE58 Uncharacterized protein n=1 Tax=Ciona savignyi T...    48   0.003
+UniRef90_A0A182M621 Uncharacterized protein n=1 Tax=Anopheles cu...    48   0.003
+UniRef90_T1EG18 Uncharacterized protein n=1 Tax=Helobdella robus...    48   0.003
+UniRef90_A0A1S3HXA8 transmembrane and ubiquitin-like domain-cont...    48   0.003
+UniRef90_A0A158Q2P2 Uncharacterized protein n=1 Tax=Dracunculus ...    47   0.003
+UniRef90_A0A1Y9H9M3 Uncharacterized protein n=1 Tax=Anopheles fa...    47   0.004
+UniRef90_A0A0F5CKV8 Uncharacterized protein n=1 Tax=Pristionchus...    47   0.004
+UniRef90_A0A182T8Q4 Uncharacterized protein n=2 Tax=Neocellia Ta...    47   0.004
+UniRef90_N6TT41 Uncharacterized protein (Fragment) n=4 Tax=Dendr...    47   0.004
+UniRef90_A0A077Z1W3 Ubiquitin domain containing protein n=1 Tax=...    47   0.005
+UniRef90_U5ENK6 Putative conserved plasma membrane protein (Frag...    47   0.005
+UniRef90_UPI00076AD8E6 transmembrane and ubiquitin-like domain-c...    47   0.005
+UniRef90_A0A0V1N4M0 Cysteine and glycine-rich protein 2 n=1 Tax=...    47   0.006
+UniRef90_UPI0001EAC604 transmembrane and ubiquitin-like domain-c...    47   0.006
+UniRef90_UPI0004F0E9B5 transmembrane and ubiquitin-like domain-c...    46   0.007
+UniRef90_A0A0P6FK68 Putative Transmembrane and ubiquitin domain-...    46   0.007
+UniRef90_W6UD82 Transmembrane and ubiquitin-like domain-containi...    45   0.014
+UniRef90_A0A1I7XS70 Uncharacterized protein n=1 Tax=Heterorhabdi...    45   0.014
+UniRef90_A0A1E1VYK2 Uncharacterized protein n=3 Tax=Pectinophora...    45   0.016
+UniRef90_A0A1E1WG28 Uncharacterized protein n=2 Tax=Pectinophora...    45   0.019
+UniRef90_A0A1I8JDC2 Uncharacterized protein n=3 Tax=Macrostomum ...    45   0.019
+UniRef90_J9B5S0 Ubiquitin family protein (Fragment) n=1 Tax=Wuch...    45   0.020
+UniRef90_A0A1D2N1V8 Transmembrane and ubiquitin-like domain-cont...    45   0.020
+UniRef90_A0A1J1IS20 CLUMA_CG016524, isoform B n=2 Tax=Clunio mar...    45   0.020
+UniRef90_A0A087TUB5 Transmembrane and ubiquitin-like domain-cont...    45   0.020
+UniRef90_A0A0K0F7Z0 Uncharacterized protein n=2 Tax=Strongyloide...    44   0.028
+UniRef90_A0A1R3JKE8 Ubiquitin n=1 Tax=Corchorus capsularis TaxID...    44   0.038
+UniRef90_A0A088AN85 Uncharacterized protein n=1 Tax=Apis mellife...    44   0.041
+UniRef90_A0A0R3UEW4 Uncharacterized protein n=1 Tax=Mesocestoide...    44   0.041
+UniRef90_A0A1B6KIU4 Uncharacterized protein n=1 Tax=Graphocephal...    44   0.044
+UniRef90_A0A1R3JKL9 Ubiquitin n=1 Tax=Corchorus olitorius TaxID=...    44   0.047
+UniRef90_D3PJW1 Transmembrane and ubiquitin-like domain-containi...    44   0.049
+UniRef90_H9JAB9 Uncharacterized protein n=3 Tax=Bombyx mori TaxI...    44   0.058
+UniRef90_B3RQ78 Uncharacterized protein n=1 Tax=Trichoplax adhae...    43   0.062
+UniRef90_UPI000640B858 transmembrane and ubiquitin-like domain-c...    43   0.067
+UniRef90_UPI00096B5180 transmembrane and ubiquitin-like domain-c...    43   0.074
+UniRef90_A0A183UJ20 Uncharacterized protein n=1 Tax=Toxocara can...    43   0.076
+UniRef90_UPI00067E53FC transmembrane and ubiquitin-like domain-c...    43   0.081
+UniRef90_UPI00067677A2 transmembrane and ubiquitin-like domain-c...    43   0.082
+UniRef90_A0A0N4ZMU0 Uncharacterized protein n=1 Tax=Parastrongyl...    43   0.089
+UniRef90_UPI000B379D4A transmembrane and ubiquitin-like domain-c...    43   0.092
+UniRef90_A0A212FNA9 Transmembrane and ubiquitin domain-containin...    42   0.12 
+UniRef90_A0A1B6HMV1 Uncharacterized protein n=1 Tax=Homalodisca ...    42   0.13 
+UniRef90_A0A068XH15 Transmembrane and ubiquitin n=2 Tax=Hymenole...    42   0.16 
+UniRef90_UPI0005D07FEB transmembrane and ubiquitin-like domain-c...    42   0.18 
+UniRef90_A0A194R6P3 Transmembrane and ubiquitin-like domain-cont...    42   0.19 
+UniRef90_UPI0009050247 LOW QUALITY PROTEIN: transmembrane and ub...    42   0.19 
+UniRef90_A0A0R3WQI7 Uncharacterized protein n=1 Tax=Hydatigena t...    42   0.21 
+UniRef90_A0A158R997 Uncharacterized protein n=1 Tax=Taenia asiat...    42   0.21 
+UniRef90_H3FT07 Uncharacterized protein n=1 Tax=Pristionchus pac...    42   0.22 
+UniRef90_A0A1B6GQH6 Uncharacterized protein n=1 Tax=Cuerna arida...    41   0.24 
+UniRef90_W7TTH1 Ubiquitin family n=1 Tax=Nannochloropsis gaditan...    41   0.26 
+UniRef90_UPI00077E44A3 polyubiquitin 8-like n=1 Tax=Ziziphus juj...    41   0.26 
+UniRef90_A0A1X1BP26 Dynamin-related protein DNM1 n=1 Tax=Babesia...    41   0.27 
+UniRef90_A0A194Q370 Transmembrane and ubiquitin-like domain-cont...    41   0.28 
+UniRef90_UPI000679076E transmembrane and ubiquitin-like domain-c...    41   0.28 
+UniRef90_A0A158QCV9 Uncharacterized protein n=1 Tax=Hymenolepis ...    41   0.37 
+UniRef90_UPI0005D0D68D transmembrane and ubiquitin-like domain-c...    40   0.47 
+UniRef90_A0A183HG47 Uncharacterized protein n=1 Tax=Onchocerca f...    40   0.52 
+UniRef90_A0A1V9XE53 Transmembrane and ubiquitin domain-containin...    40   0.67 
+UniRef90_E3RET8 Uncharacterized protein n=2 Tax=Pyrenophora TaxI...    40   0.73 
+UniRef90_I3ER16 Uncharacterized protein n=3 Tax=Nematocida TaxID...    40   0.81 
+UniRef90_A0A1X7UFR3 Uncharacterized protein n=1 Tax=Amphimedon q...    40   0.81 
+UniRef90_UPI000A2A810D transmembrane and ubiquitin-like domain-c...    39   0.84 
+UniRef90_A0A178AWF3 UV excision repair protein Rad23 n=1 Tax=Sta...    39   0.87 
+UniRef90_A0A167QT73 Uncharacterized protein n=1 Tax=Phycomyces b...    39   0.89 
+UniRef90_W7U412 Ubiquitin n=3 Tax=Nannochloropsis gaditana TaxID...    39   0.94 
+UniRef90_UPI00098299D3 hypothetical protein n=1 Tax=Talaromyces ...    39   1.00 
+UniRef90_UPI0009E3EF63 transmembrane and ubiquitin-like domain-c...    39   1.0  
+UniRef90_M2S9Z3 Uncharacterized protein n=9 Tax=Pleosporaceae Ta...    39   1.1  
+UniRef90_UPI000443ECD8 transmembrane and ubiquitin-like domain-c...    39   1.1  
+UniRef90_UPI00072EE038 transmembrane and ubiquitin-like domain-c...    39   1.5  
+UniRef90_A0A0D2JTT0 UV excision repair protein RAD23 n=1 Tax=Mon...    39   1.6  
+UniRef90_A0A1Y2C2K9 Ubiquitin-domain-containing protein n=1 Tax=...    39   1.6  
+UniRef90_A0A151Z999 Mannose-6-phosphate receptor domain-containi...    39   1.7  
+UniRef90_UPI0004547279 LOW QUALITY PROTEIN: transmembrane and ub...    39   1.7  
+UniRef90_A0A183AJD7 Uncharacterized protein n=1 Tax=Echinostoma ...    39   1.7  
+UniRef90_A0BZP2 Uncharacterized protein n=1 Tax=Paramecium tetra...    39   1.7  
+UniRef90_UPI0004964447 transmembrane and ubiquitin-like domain-c...    38   1.9  
+UniRef90_A0A1Y3N6R9 Uncharacterized protein n=1 Tax=Piromyces sp...    38   2.0  
+UniRef90_Q54V67 Uncharacterized protein n=1 Tax=Dictyostelium di...    38   2.0  
+UniRef90_A0A0F4YUH9 Nucleotide excision repair protein RAD23 n=1...    38   2.1  
+UniRef90_F0UEZ7 Pre-mRNA-splicing factor Cwc24 n=2 Tax=Ajellomyc...    38   2.3  
+UniRef90_A0A087XY35 Uncharacterized protein n=1 Tax=Poecilia for...    38   2.3  
+UniRef90_V5FJC2 UV excision repair protein Rad23 n=1 Tax=Byssoch...    38   2.3  
+UniRef90_B8MDP3 UV excision repair protein (RadW), putative n=3 ...    38   2.3  
+UniRef90_A0A146XZ89 Transmembrane and ubiquitin domain-containin...    38   2.4  
+UniRef90_A0DA23 Uncharacterized protein n=1 Tax=Paramecium tetra...    38   2.5  
+UniRef90_A0A0B1T2J4 Uncharacterized protein n=1 Tax=Oesophagosto...    38   2.9  
+UniRef90_A0A0U1M0Q0 UV excision repair protein rhp23 n=1 Tax=Tal...    38   3.0  
+UniRef90_A0A0C7N599 LALA0S07e02454g1_1 n=1 Tax=Lachancea lanzaro...    37   3.3  
+UniRef90_V4RZY6 Uncharacterized protein n=4 Tax=Citrus TaxID=270...    37   3.6  
+UniRef90_UPI00052E75EF caspase recruitment domain-containing pro...    37   3.6  
+UniRef90_A7APS7 Ubiquitin family protein n=1 Tax=Babesia bovis T...    37   3.7  
+UniRef90_A0A0L7KWC5 Uncharacterized protein n=1 Tax=Operophtera ...    37   4.0  
+UniRef90_A0A0F8B8I9 Ribonuclease P/MRP protein subunit POP5 n=1 ...    37   4.7  
+UniRef90_UPI0004825A29 hypothetical protein n=1 Tax=Desulfitibac...    37   4.8  
+UniRef90_UPI0006B0A2D5 uncharacterized protein LOC106494503 n=1 ...    37   4.9  
+UniRef90_C1LK55 Transmembrane and ubiquitin-like domain-containi...    37   4.9  
+UniRef90_UPI000901DA4E transmembrane and ubiquitin-like domain-c...    37   5.0  
+UniRef90_A0A075ATB5 Ubiquitin domain-containing protein n=1 Tax=...    37   5.1  
+UniRef90_A0A178EIR3 UV excision repair protein Rad23 n=1 Tax=Pyr...    37   5.3  
+UniRef90_A0A177CVJ8 UV excision repair protein Rad23 n=1 Tax=Par...    37   5.6  
+UniRef90_W9Z8X1 Uncharacterized protein n=1 Tax=Fusarium oxyspor...    37   6.1  
+UniRef90_G3Y4P5 Uncharacterized protein n=8 Tax=Aspergillus TaxI...    37   6.6  
+UniRef90_A0A1Y1WVM2 Ubiquitin-domain-containing protein n=1 Tax=...    37   6.6  
+UniRef90_C5P7L1 UV excision repair protein rhp23, putative n=7 T...    36   7.1  
+UniRef90_A0A1W5D7A0 Uv excision repair protein rad23 n=1 Tax=Umb...    36   7.3  
+UniRef90_N1JMI2 Nucleotide excision repair protein RAD23 n=1 Tax...    36   8.2  
+UniRef90_Q0V3S7 Uncharacterized protein n=1 Tax=Phaeosphaeria no...    36   8.2  
+UniRef90_F9X4W8 Uncharacterized protein n=3 Tax=Zymoseptoria tri...    36   8.2  
+UniRef90_W4HE28 Uncharacterized protein n=1 Tax=Aphanomyces asta...    36   8.4  
+UniRef90_A0A0D2UBD0 Uncharacterized protein n=1 Tax=Capsaspora o...    36   8.4  
+UniRef90_A0A061EM20 Ubiquitin 4, putative isoform 1 n=2 Tax=Bytt...    36   9.1  
+UniRef90_R1BQC1 Uncharacterized protein n=1 Tax=Emiliania huxley...    36   9.2  
+UniRef90_A0A165GTA2 UV excision repair protein Rad23 n=1 Tax=Xyl...    36   9.5  
+UniRef90_G2YH49 Similar to UV excision repair protein (RadW) n=2...    36   9.8  
+
+>UniRef90_Q3V209 Transmembrane and ubiquitin-like domain-containing protein 2 n=12
+           Tax=Muridae TaxID=10066 RepID=TMUB2_MOUSE
+          Length = 319
+
+ Score =  149 bits (376), Expect = 6e-34,   Method: Composition-based stats.
+ Identities = 69/69 (100%), Positives = 69/69 (100%)
+
+Query: 2   INVRLKFLNDTEELAVARPEDTVGTLKSKYFPGQESQMKLIYQGRLLQDPARTLSSLNIT 61
+           INVRLKFLNDTEELAVARPEDTVGTLKSKYFPGQESQMKLIYQGRLLQDPARTLSSLNIT
+Sbjct: 173 INVRLKFLNDTEELAVARPEDTVGTLKSKYFPGQESQMKLIYQGRLLQDPARTLSSLNIT 232
+
+Query: 62  NNCVIHCHR 70
+           NNCVIHCHR
+Sbjct: 233 NNCVIHCHR 241
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_W5PBP6 Transmembrane and ubiquitin like domain containi...   137   2e-30
+UniRef90_UPI0003318CEF transmembrane and ubiquitin-like domain-c...   137   2e-30
+UniRef90_Q71RG4 Transmembrane and ubiquitin-like domain-containi...   137   3e-30
+UniRef90_K7EKW3 Transmembrane and ubiquitin-like domain-containi...   137   3e-30
+UniRef90_E7ESS3 Transmembrane and ubiquitin-like domain-containi...   137   3e-30
+UniRef90_Q71RG4-2 Isoform 2 of Transmembrane and ubiquitin-like ...   137   3e-30
+UniRef90_A0A1U7Q5R9 transmembrane and ubiquitin-like domain-cont...   137   3e-30
+UniRef90_Q3V209 Transmembrane and ubiquitin-like domain-containi...   137   3e-30
+UniRef90_I3MRS1 Transmembrane and ubiquitin like domain containi...   137   3e-30
+UniRef90_UPI000812D3C2 transmembrane and ubiquitin-like domain-c...   137   3e-30
+UniRef90_UPI0003F169C5 transmembrane and ubiquitin-like domain-c...   136   4e-30
+UniRef90_UPI0003F176BA transmembrane and ubiquitin-like domain-c...   136   4e-30
+UniRef90_F7EP91 Transmembrane and ubiquitin like domain containi...   136   4e-30
+UniRef90_UPI000840146B transmembrane and ubiquitin-like domain-c...   136   4e-30
+UniRef90_H0X917 Transmembrane and ubiquitin like domain containi...   136   4e-30
+UniRef90_G3WRP8 Transmembrane and ubiquitin like domain containi...   136   4e-30
+UniRef90_A0A1S3GF78 transmembrane and ubiquitin-like domain-cont...   136   4e-30
+UniRef90_UPI000A285CCB transmembrane and ubiquitin-like domain-c...   136   4e-30
+UniRef90_UPI000A28A89B transmembrane and ubiquitin-like domain-c...   136   4e-30
+UniRef90_G1P6Z0 Transmembrane and ubiquitin like domain containi...   136   5e-30
+UniRef90_S7MS07 Transmembrane and ubiquitin-like domain-containi...   136   5e-30
+UniRef90_A0A1A6FXD2 Uncharacterized protein (Fragment) n=1 Tax=N...   136   5e-30
+UniRef90_UPI00064CE28B LOW QUALITY PROTEIN: transmembrane and ub...   136   6e-30
+UniRef90_A0A1U7TG40 transmembrane and ubiquitin-like domain-cont...   135   8e-30
+UniRef90_G1U6J3 Transmembrane and ubiquitin like domain containi...   135   9e-30
+UniRef90_Q2HJA8 Transmembrane and ubiquitin-like domain-containi...   135   9e-30
+UniRef90_UPI00032AF985 transmembrane and ubiquitin-like domain-c...   135   1e-29
+UniRef90_UPI00081454C6 transmembrane and ubiquitin-like domain-c...   135   1e-29
+UniRef90_UPI00053CB5EE transmembrane and ubiquitin-like domain-c...   134   2e-29
+UniRef90_UPI00081A1963 LOW QUALITY PROTEIN: transmembrane and ub...   134   2e-29
+UniRef90_W5UB03 Transmembrane and ubiquitin-like domain-containi...   134   2e-29
+UniRef90_UPI0000481BC3 hypothetical ubiquitin-like protein (RIKE...   134   2e-29
+UniRef90_L5KRV4 Transmembrane and ubiquitin-like domain-containi...   134   2e-29
+UniRef90_H3AM98 Transmembrane and ubiquitin like domain containi...   134   2e-29
+UniRef90_A0A0P7WH87 Transmembrane and ubiquitin-like domain-cont...   134   3e-29
+UniRef90_UPI00038720D7 transmembrane and ubiquitin-like domain-c...   134   3e-29
+UniRef90_UPI0003ACAB14 transmembrane and ubiquitin-like domain-c...   134   3e-29
+UniRef90_H2LRJ3 Transmembrane and ubiquitin-like domain containi...   133   4e-29
+UniRef90_A0A1D5Q9D8 Uncharacterized protein n=8 Tax=Catarrhini T...   133   4e-29
+UniRef90_I7GL83 Macaca fascicularis brain cDNA clone: QflA-17176...   133   5e-29
+UniRef90_A0A146NA05 Transmembrane and ubiquitin domain-containin...   133   5e-29
+UniRef90_M7AM90 Transmembrane and ubiquitin-like domain-containi...   132   7e-29
+UniRef90_G1KTL5 Transmembrane and ubiquitin like domain containi...   132   7e-29
+UniRef90_UPI00051E569B transmembrane and ubiquitin-like domain-c...   132   7e-29
+UniRef90_UPI00062AA287 transmembrane and ubiquitin-like domain-c...   132   9e-29
+UniRef90_UPI0003EA8FC4 transmembrane and ubiquitin-like domain-c...   132   9e-29
+UniRef90_UPI00071A4592 transmembrane and ubiquitin-like domain-c...   132   9e-29
+UniRef90_Q6P135 Transmembrane and ubiquitin-like domain-containi...   132   9e-29
+UniRef90_V9KXJ5 Transmembrane and ubiquitin-like domain-containi...   131   1e-28
+UniRef90_A0A1S3LUP3 transmembrane and ubiquitin-like domain-cont...   131   1e-28
+UniRef90_UPI00081A20B6 transmembrane and ubiquitin-like domain-c...   131   1e-28
+UniRef90_UPI00074FE5C7 transmembrane and ubiquitin-like domain-c...   131   1e-28
+UniRef90_UPI00097DA3E5 transmembrane and ubiquitin-like domain-c...   131   2e-28
+UniRef90_UPI00071C4BE2 transmembrane and ubiquitin-like domain-c...   131   2e-28
+UniRef90_UPI000576AD51 transmembrane and ubiquitin-like domain-c...   131   2e-28
+UniRef90_UPI0007F89E2F transmembrane and ubiquitin-like domain-c...   131   2e-28
+UniRef90_V8NCF4 Transmembrane and ubiquitin-like domain-containi...   131   2e-28
+UniRef90_A0A146NUM2 Transmembrane and ubiquitin domain-containin...   131   2e-28
+UniRef90_A0A146Y0Q0 Transmembrane and ubiquitin domain-containin...   131   2e-28
+UniRef90_UPI0009A31C55 transmembrane and ubiquitin-like domain-c...   131   2e-28
+UniRef90_W5MSU4 Transmembrane and ubiquitin-like domain containi...   131   2e-28
+UniRef90_UPI0009E57756 transmembrane and ubiquitin-like domain-c...   131   2e-28
+UniRef90_A0A151PC62 Transmembrane and ubiquitin-like domain-cont...   130   3e-28
+UniRef90_UPI000B4C86BD transmembrane and ubiquitin-like domain-c...   130   3e-28
+UniRef90_UPI000454A1F6 transmembrane and ubiquitin-like domain-c...   130   3e-28
+UniRef90_UPI0009B43254 transmembrane and ubiquitin-like domain-c...   130   4e-28
+UniRef90_A0A0S7GU39 TMUB1 (Fragment) n=2 Tax=Poeciliopsis prolif...   130   4e-28
+UniRef90_M4AED9 Transmembrane and ubiquitin-like domain containi...   130   4e-28
+UniRef90_G3N9I1 Transmembrane and ubiquitin-like domain containi...   130   5e-28
+UniRef90_W5N2F1 Transmembrane and ubiquitin-like domain containi...   129   6e-28
+UniRef90_UPI00085458C4 transmembrane and ubiquitin-like domain-c...   129   7e-28
+UniRef90_A0A1A8A9Y5 Transmembrane and ubiquitin-like domain cont...   129   7e-28
+UniRef90_UPI000874FFEA transmembrane and ubiquitin-like domain-c...   129   8e-28
+UniRef90_UPI0003340C8C transmembrane and ubiquitin-like domain-c...   129   8e-28
+UniRef90_Q4T9Z8 Chromosome undetermined SCAF7478, whole genome s...   129   9e-28
+UniRef90_UPI0006443F3B transmembrane and ubiquitin-like domain-c...   128   1e-27
+UniRef90_H2TIS2 Transmembrane and ubiquitin-like domain containi...   128   1e-27
+UniRef90_A0A1L8EL39 Uncharacterized protein n=3 Tax=Xenopus laev...   128   1e-27
+UniRef90_Q4V9Y1 Transmembrane and ubiquitin-like domain-containi...   128   1e-27
+UniRef90_UPI0004963E21 transmembrane and ubiquitin-like domain-c...   128   2e-27
+UniRef90_UPI0009E5CBB5 transmembrane and ubiquitin-like domain-c...   128   2e-27
+UniRef90_H3CBN1 Transmembrane and ubiquitin-like domain containi...   128   2e-27
+UniRef90_M3XJ72 Transmembrane and ubiquitin like domain containi...   128   2e-27
+UniRef90_A0A1W5AA56 LOW QUALITY PROTEIN: transmembrane and ubiqu...   127   2e-27
+UniRef90_A0A091FP25 Transmembrane and ubiquitin-like domain-cont...   127   2e-27
+UniRef90_S4R7Q5 Uncharacterized protein n=1 Tax=Petromyzon marin...   127   2e-27
+UniRef90_A0A091D452 Transmembrane and ubiquitin-like domain-cont...   127   2e-27
+UniRef90_M7BP02 Transmembrane and ubiquitin-like domain-containi...   127   2e-27
+UniRef90_UPI00074FAD57 transmembrane and ubiquitin-like domain-c...   127   2e-27
+UniRef90_H3CF74 Transmembrane and ubiquitin-like domain containi...   127   3e-27
+UniRef90_A0A091W497 Transmembrane and ubiquitin-like domain-cont...   127   3e-27
+UniRef90_UPI0006444681 transmembrane and ubiquitin-like domain-c...   127   3e-27
+UniRef90_A0A0P6JDV2 Transmembrane and ubiquitin-like domain-cont...   127   3e-27
+UniRef90_A0A0Q3Q3Z6 Transmembrane and ubiquitin-like domain-cont...   126   4e-27
+UniRef90_A0A0F8CSH2 Transmembrane and ubiquitin-like domain-cont...   126   4e-27
+UniRef90_I3JUJ7 Transmembrane and ubiquitin-like domain containi...   126   4e-27
+UniRef90_M4A1F2 Transmembrane and ubiquitin-like domain containi...   126   4e-27
+UniRef90_V9L3B2 Transmembrane and ubiquitin-like domain-containi...   126   4e-27
+UniRef90_I3JUJ8 Transmembrane and ubiquitin-like domain containi...   126   5e-27
+UniRef90_UPI0007F8D9DA transmembrane and ubiquitin-like domain-c...   126   6e-27
+UniRef90_A0A091T7I9 Transmembrane and ubiquitin-like domain-cont...   126   7e-27
+UniRef90_B5X3V1 Transmembrane and Ubiquitin-like domain-containi...   126   7e-27
+UniRef90_G3P4W7 Transmembrane and ubiquitin-like domain containi...   126   7e-27
+UniRef90_A0A096M4B2 Transmembrane and ubiquitin-like domain cont...   125   8e-27
+UniRef90_H2LBI1 Transmembrane and ubiquitin-like domain containi...   125   1e-26
+UniRef90_K7FG63 Transmembrane and ubiquitin like domain containi...   125   1e-26
+UniRef90_F7FBZ1 Uncharacterized protein n=1 Tax=Ornithorhynchus ...   125   1e-26
+UniRef90_A0A146ZNH3 Transmembrane and ubiquitin domain-containin...   125   1e-26
+UniRef90_UPI0009B45DC8 transmembrane and ubiquitin-like domain-c...   125   1e-26
+UniRef90_UPI0005775384 transmembrane and ubiquitin-like domain-c...   125   1e-26
+UniRef90_UPI0008146BCB transmembrane and ubiquitin-like domain-c...   125   1e-26
+UniRef90_A0A146VAJ0 Transmembrane and ubiquitin domain-containin...   125   1e-26
+UniRef90_UPI0004954927 transmembrane and ubiquitin-like domain-c...   124   1e-26
+UniRef90_UPI0006B320CA ankyrin repeat and SOCS box protein 16-li...   124   2e-26
+UniRef90_UPI0009B3EC23 transmembrane and ubiquitin-like domain-c...   124   2e-26
+UniRef90_H2V0D9 Transmembrane and ubiquitin-like domain containi...   124   2e-26
+UniRef90_UPI000A1C6005 transmembrane and ubiquitin-like domain-c...   124   2e-26
+UniRef90_UPI000497E716 transmembrane and ubiquitin-like domain-c...   123   3e-26
+UniRef90_W5L7M1 Transmembrane and ubiquitin-like domain containi...   123   4e-26
+UniRef90_UPI000555BA8F transmembrane and ubiquitin-like domain-c...   123   4e-26
+UniRef90_I3IWP6 Transmembrane and ubiquitin-like domain containi...   123   4e-26
+UniRef90_UPI000873DD23 transmembrane and ubiquitin-like domain-c...   123   5e-26
+UniRef90_UPI0009B4E7AE transmembrane and ubiquitin-like domain-c...   123   5e-26
+UniRef90_UPI00097CFEEA transmembrane and ubiquitin-like domain-c...   122   7e-26
+UniRef90_H2V0D8 Transmembrane and ubiquitin-like domain containi...   122   7e-26
+UniRef90_Q9JMG3 Transmembrane and ubiquitin-like domain-containi...   122   8e-26
+UniRef90_E9QN77 Transmembrane and ubiquitin-like domain-containi...   122   8e-26
+UniRef90_G3W827 Transmembrane and ubiquitin like domain containi...   122   8e-26
+UniRef90_A0A0S7MDZ6 TMUB2 (Fragment) n=1 Tax=Poeciliopsis prolif...   122   8e-26
+UniRef90_UPI0007428BFA transmembrane and ubiquitin-like domain-c...   122   8e-26
+UniRef90_H0XIK0 Transmembrane and ubiquitin like domain containi...   122   9e-26
+UniRef90_UPI00053CEBE6 transmembrane and ubiquitin-like domain-c...   122   9e-26
+UniRef90_A0A1A8J6D1 Transmembrane and ubiquitin-like domain cont...   122   9e-26
+UniRef90_UPI00094EF446 transmembrane and ubiquitin-like domain-c...   121   1e-25
+UniRef90_UPI0006B3229F transmembrane and ubiquitin-like domain-c...   121   1e-25
+UniRef90_W5UKD3 Transmembrane and ubiquitin-like domain-containi...   121   1e-25
+UniRef90_UPI00094E2C5A transmembrane and ubiquitin-like domain-c...   121   1e-25
+UniRef90_UPI00077770A4 transmembrane and ubiquitin-like domain-c...   121   1e-25
+UniRef90_Q53AQ4 Transmembrane and ubiquitin-like domain-containi...   121   1e-25
+UniRef90_G3HB66 Transmembrane and ubiquitin-like domain-containi...   121   1e-25
+UniRef90_UPI00045DC0C9 transmembrane and ubiquitin-like domain-c...   121   1e-25
+UniRef90_UPI00032B0D98 transmembrane and ubiquitin-like domain-c...   121   2e-25
+UniRef90_A0A1D5PFB3 Transmembrane and ubiquitin like domain cont...   121   2e-25
+UniRef90_Q8JFU2 Novel ubiquitin n=1 Tax=Danio rerio TaxID=7955 R...   121   2e-25
+UniRef90_H0VAV2 Transmembrane and ubiquitin like domain containi...   121   2e-25
+UniRef90_I3MQV7 Transmembrane and ubiquitin like domain containi...   121   2e-25
+UniRef90_UPI00033156F3 transmembrane and ubiquitin-like domain-c...   121   2e-25
+UniRef90_UPI000333814D transmembrane and ubiquitin-like domain-c...   121   2e-25
+UniRef90_Q9BVT8 Transmembrane and ubiquitin-like domain-containi...   120   3e-25
+UniRef90_G3RVM5 Transmembrane and ubiquitin like domain containi...   120   3e-25
+UniRef90_H2PP26 Transmembrane and ubiquitin like domain containi...   120   3e-25
+UniRef90_U6D4G4 Transmembrane and ubiquitin-like domain-containi...   120   3e-25
+UniRef90_H0W3V2 Transmembrane and ubiquitin like domain containi...   120   3e-25
+UniRef90_UPI00076712BA transmembrane and ubiquitin-like domain-c...   120   3e-25
+UniRef90_UPI0007ACC33F transmembrane and ubiquitin-like domain-c...   120   3e-25
+UniRef90_A0A1A8QWX3 Transmembrane and ubiquitin-like domain cont...   120   3e-25
+UniRef90_UPI000B4C5B48 transmembrane and ubiquitin-like domain-c...   120   4e-25
+UniRef90_A0A091DAW4 Transmembrane and ubiquitin-like domain-cont...   119   4e-25
+UniRef90_UPI00038EB4E7 transmembrane and ubiquitin-like domain-c...   119   4e-25
+UniRef90_UPI0006980DCF probable threonine protease PRSS50 n=1 Ta...   119   4e-25
+UniRef90_A0A1A8DRT5 Transmembrane and ubiquitin-like domain cont...   119   5e-25
+UniRef90_Q3KPV4 Transmembrane and ubiquitin-like domain-containi...   119   7e-25
+UniRef90_UPI0006969E72 N-acetylglucosamine-6-sulfatase n=1 Tax=C...   119   7e-25
+UniRef90_Q3ZBI9 Transmembrane and ubiquitin-like domain-containi...   119   9e-25
+UniRef90_W5NYX7 Transmembrane and ubiquitin like domain containi...   119   9e-25
+UniRef90_A0A1A7ZWL8 Transmembrane and ubiquitin-like domain cont...   118   1e-24
+UniRef90_UPI000644317F transmembrane and ubiquitin-like domain-c...   118   1e-24
+UniRef90_A0A1A8EUF6 Transmembrane and ubiquitin-like domain cont...   118   2e-24
+UniRef90_A0A0A9YWL6 Transmembrane and ubiquitin-like domain-cont...   118   2e-24
+UniRef90_H1A3C9 Uncharacterized protein n=2 Tax=Taeniopygia gutt...   117   2e-24
+UniRef90_A0A218UGP4 Transmembrane and ubiquitin-like domain-cont...   117   2e-24
+UniRef90_UPI000697474F transmembrane and ubiquitin-like domain-c...   117   3e-24
+UniRef90_T1ISP9 Angiotensin-converting enzyme n=1 Tax=Strigamia ...   116   5e-24
+UniRef90_A0A1S3AL66 transmembrane and ubiquitin-like domain-cont...   116   5e-24
+UniRef90_UPI00087429BC transmembrane and ubiquitin-like domain-c...   115   9e-24
+UniRef90_UPI00095352FA transmembrane and ubiquitin-like domain-c...   114   2e-23
+UniRef90_UPI000625AFB0 transmembrane and ubiquitin-like domain-c...   114   2e-23
+UniRef90_UPI000359CE96 transmembrane and ubiquitin-like domain-c...   114   2e-23
+UniRef90_UPI0005EFB8BC transmembrane and ubiquitin-like domain-c...   114   2e-23
+UniRef90_A0A1B6L6D6 Uncharacterized protein n=4 Tax=Cicadellinae...   114   3e-23
+UniRef90_UPI00076FBB32 transmembrane and ubiquitin-like domain-c...   114   3e-23
+UniRef90_H9G6Y4 Transmembrane and ubiquitin like domain containi...   114   3e-23
+UniRef90_UPI000994E4A9 transmembrane and ubiquitin-like domain-c...   113   3e-23
+UniRef90_V5H1N7 Transmembrane and ubiquitin-like domain-containi...   113   4e-23
+UniRef90_UPI00083C57A0 LOW QUALITY PROTEIN: transmembrane and ub...   113   5e-23
+UniRef90_UPI00084010D5 transmembrane and ubiquitin-like domain-c...   113   5e-23
+UniRef90_UPI0006199C73 transmembrane and ubiquitin-like domain-c...   113   6e-23
+UniRef90_H9H091 Uncharacterized protein n=3 Tax=Neognathae TaxID...   113   7e-23
+UniRef90_E9IRZ1 Uncharacterized protein (Fragment) n=1 Tax=Solen...   112   7e-23
+UniRef90_K7J1A4 Uncharacterized protein n=1 Tax=Nasonia vitripen...   112   8e-23
+UniRef90_A0A026W5S1 Transmembrane and ubiquitin-like domain-cont...   112   8e-23
+UniRef90_UPI00061539B9 transmembrane and ubiquitin-like domain-c...   112   9e-23
+UniRef90_E2BLD1 Transmembrane and ubiquitin-like domain-containi...   112   1e-22
+UniRef90_UPI0004CCB5DE transmembrane and ubiquitin-like domain-c...   112   1e-22
+UniRef90_A0A1Y1KLD0 Uncharacterized protein n=1 Tax=Photinus pyr...   112   1e-22
+UniRef90_A0A0L7RG79 Transmembrane and ubiquitin-like domain-cont...   112   1e-22
+UniRef90_V9IIE6 Transmembrane and ubiquitin-like domain-containi...   112   1e-22
+UniRef90_UPI000771A37E transmembrane and ubiquitin-like domain-c...   111   1e-22
+UniRef90_UPI0006D500B4 transmembrane and ubiquitin-like domain-c...   111   1e-22
+UniRef90_UPI00063EE542 transmembrane and ubiquitin-like domain-c...   111   2e-22
+UniRef90_UPI000711D692 transmembrane and ubiquitin-like domain-c...   111   2e-22
+UniRef90_UPI0006CEC128 transmembrane and ubiquitin-like domain-c...   111   2e-22
+UniRef90_A0A1E1XSV7 Putative transmembrane and ubiquitin-like do...   111   2e-22
+UniRef90_E0VMA3 Uncharacterized protein n=1 Tax=Pediculus humanu...   111   2e-22
+UniRef90_R4G438 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   111   2e-22
+UniRef90_A0A1B6E715 Uncharacterized protein n=3 Tax=Clastoptera ...   111   2e-22
+UniRef90_A0A131YXM4 Uncharacterized protein n=2 Tax=Rhipicephalu...   111   2e-22
+UniRef90_UPI00062647D0 transmembrane and ubiquitin-like domain-c...   111   2e-22
+UniRef90_E2A0G0 Transmembrane and ubiquitin-like domain-containi...   111   3e-22
+UniRef90_A0A170Y384 Transmembrane and ubiquitin-like protein dom...   110   3e-22
+UniRef90_UPI0006C99C48 transmembrane and ubiquitin-like domain-c...   110   3e-22
+UniRef90_UPI0005F4724E transmembrane and ubiquitin-like domain-c...   110   3e-22
+UniRef90_UPI0007383D22 transmembrane and ubiquitin-like domain-c...   110   3e-22
+UniRef90_B7Q289 Uncharacterized protein n=3 Tax=Ixodes TaxID=694...   110   3e-22
+UniRef90_A0A067RHA8 Transmembrane and ubiquitin-like domain-cont...   110   4e-22
+UniRef90_A0A182N5J4 Uncharacterized protein n=1 Tax=Anopheles di...   110   4e-22
+UniRef90_V4B684 Uncharacterized protein n=1 Tax=Lottia gigantea ...   110   4e-22
+UniRef90_UPI0006231BCB transmembrane and ubiquitin-like domain-c...   110   4e-22
+UniRef90_A0A1E1XDJ5 Putative transmembrane and ubiquitin-like do...   110   4e-22
+UniRef90_U6PWV6 WD40 repeat and Ubiquitin domain containing prot...   109   5e-22
+UniRef90_U6NJ12 WD40 repeat and Ubiquitin domain containing prot...   109   5e-22
+UniRef90_A0A158NRA2 Uncharacterized protein n=7 Tax=Attini TaxID...   109   5e-22
+UniRef90_J9JQZ3 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...   109   6e-22
+UniRef90_UPI0007670F9D transmembrane and ubiquitin-like domain-c...   109   7e-22
+UniRef90_A0A0N4XYM5 Uncharacterized protein n=1 Tax=Nippostrongy...   109   7e-22
+UniRef90_A0A1I7XWA6 Uncharacterized protein n=1 Tax=Steinernema ...   109   7e-22
+UniRef90_A0A182J8V9 Uncharacterized protein n=1 Tax=Anopheles at...   109   7e-22
+UniRef90_A0A023EPS1 Putative ubiquitin-like protein (Fragment) n...   109   7e-22
+UniRef90_G3MKG8 Uncharacterized protein n=2 Tax=Amblyomma TaxID=...   109   7e-22
+UniRef90_A0A0N4UY46 Uncharacterized protein n=1 Tax=Enterobius v...   109   7e-22
+UniRef90_Q7QH50 AGAP004089-PA n=6 Tax=Pyretophorus TaxID=44537 R...   109   7e-22
+UniRef90_A0A1I7XWB5 Uncharacterized protein n=2 Tax=Steinernema ...   109   8e-22
+UniRef90_UPI0007638398 transmembrane and ubiquitin-like domain-c...   109   9e-22
+UniRef90_A0A085N611 Uncharacterized protein n=2 Tax=Trichuris su...   109   9e-22
+UniRef90_UPI0005AC6B6B transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_A0A084WNP6 AGAP004089-PA-like protein n=1 Tax=Anopheles...   108   1e-21
+UniRef90_UPI0005CE932B transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_A0A0N5DU61 Uncharacterized protein n=1 Tax=Trichuris mu...   108   1e-21
+UniRef90_Q17A35 AAEL005405-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   108   1e-21
+UniRef90_A0A016VT77 Uncharacterized protein n=2 Tax=Ancylostoma ...   108   1e-21
+UniRef90_A0A182G9V2 Uncharacterized protein n=5 Tax=Aedes albopi...   108   1e-21
+UniRef90_UPI000718B0F0 transmembrane and ubiquitin-like domain-c...   108   2e-21
+UniRef90_A0A0N4W330 Uncharacterized protein n=1 Tax=Haemonchus p...   108   2e-21
+UniRef90_A0A016VS57 Uncharacterized protein n=3 Tax=Ancylostoma ...   108   2e-21
+UniRef90_A0A1A9U316 Uncharacterized protein n=1 Tax=Anopheles st...   108   2e-21
+UniRef90_A0A183F3M6 Uncharacterized protein n=1 Tax=Heligmosomoi...   107   2e-21
+UniRef90_A0A1Q3FB22 Putative ubiquitin-like protein n=1 Tax=Cule...   107   3e-21
+UniRef90_A0A1B0D302 Uncharacterized protein n=1 Tax=Phlebotomus ...   107   3e-21
+UniRef90_B0WGQ9 Uncharacterized protein n=1 Tax=Culex quinquefas...   107   3e-21
+UniRef90_S4R8H2 Transmembrane and ubiquitin like domain containi...   107   3e-21
+UniRef90_A0A1B0CBG6 Uncharacterized protein n=1 Tax=Lutzomyia lo...   107   3e-21
+UniRef90_A0A0D6LR80 Ubiquitin family protein n=1 Tax=Ancylostoma...   107   4e-21
+UniRef90_A0A1L8DSK2 Putative transmembrane and ubiquitin-like do...   107   4e-21
+UniRef90_A0A1S4ELP9 transmembrane and ubiquitin-like domain-cont...   106   4e-21
+UniRef90_UPI00077DA0D8 transmembrane and ubiquitin-like domain-c...   106   6e-21
+UniRef90_A0A0B6Y9W0 Uncharacterized protein (Fragment) n=1 Tax=A...   106   7e-21
+UniRef90_UPI0006746326 transmembrane and ubiquitin-like domain-c...   105   8e-21
+UniRef90_UPI00084B0973 uncharacterized protein LOC108667230 n=1 ...   105   1e-20
+UniRef90_A0A0T6B465 Ubiquitin (Fragment) n=1 Tax=Oryctes borboni...   104   2e-20
+UniRef90_A0A0M3IWK3 Uncharacterized protein n=1 Tax=Ascaris lumb...   104   2e-20
+UniRef90_A0A0B2V781 Uncharacterized protein n=1 Tax=Toxocara can...   104   2e-20
+UniRef90_UPI0006C979E6 transmembrane and ubiquitin-like domain-c...   104   3e-20
+UniRef90_UPI0005D2F589 transmembrane and ubiquitin-like domain-c...   103   4e-20
+UniRef90_J9LW39 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...   103   4e-20
+UniRef90_E3N069 Uncharacterized protein n=1 Tax=Caenorhabditis r...   103   4e-20
+UniRef90_A0A1W4WU16 transmembrane and ubiquitin-like domain-cont...   103   4e-20
+UniRef90_A0A158PCC8 Uncharacterized protein n=2 Tax=Angiostrongy...   103   4e-20
+UniRef90_E9H8M8 Uncharacterized protein n=1 Tax=Daphnia pulex Ta...   103   4e-20
+UniRef90_A0A0R3RT34 Uncharacterized protein n=1 Tax=Elaeophora e...   103   4e-20
+UniRef90_A0A1I7VT36 Uncharacterized protein n=1 Tax=Loa loa TaxI...   103   5e-20
+UniRef90_A0A0H5S9Y0 Bm1746 n=5 Tax=Onchocercidae TaxID=6296 RepI...   103   5e-20
+UniRef90_UPI000161D635 Ubiquitin family protein n=1 Tax=Brugia m...   103   5e-20
+UniRef90_A0A0V0WKI8 Transmembrane and ubiquitin-like domain-cont...   103   5e-20
+UniRef90_A0A1I7SSZ3 Uncharacterized protein n=1 Tax=Bursaphelenc...   103   6e-20
+UniRef90_A0A0D8XFY9 Ubiquitin family protein n=1 Tax=Dictyocaulu...   103   6e-20
+UniRef90_A0A131XI28 Putative transmembrane and ubiquitin-like do...   103   6e-20
+UniRef90_UPI0006B0F55D transmembrane and ubiquitin-like domain-c...   103   6e-20
+UniRef90_A0A0V1JG61 Transmembrane and ubiquitin-like domain-cont...   103   6e-20
+UniRef90_A0A044V2A5 Uncharacterized protein n=1 Tax=Onchocerca v...   103   7e-20
+UniRef90_A0A158RCV1 Uncharacterized protein n=1 Tax=Thelazia cal...   102   7e-20
+UniRef90_UPI0009479398 transmembrane and ubiquitin-like domain-c...   102   8e-20
+UniRef90_C3Z9M0 Uncharacterized protein n=1 Tax=Branchiostoma fl...   102   8e-20
+UniRef90_K1P6V6 Transmembrane and ubiquitin-like domain-containi...   102   8e-20
+UniRef90_UPI000678EA35 transmembrane and ubiquitin-like domain-c...   102   9e-20
+UniRef90_A0A182DWW7 Uncharacterized protein n=1 Tax=Onchocerca o...   102   1e-19
+UniRef90_A0A0K8TPK1 Putative transmembrane and ubiquitin-like do...   102   1e-19
+UniRef90_A0A183CX67 Uncharacterized protein n=1 Tax=Gongylonema ...   101   2e-19
+UniRef90_A0A0V1AGP5 Cysteine and glycine-rich protein 2 n=8 Tax=...   101   2e-19
+UniRef90_A0A0V1F0F2 Cysteine and glycine-rich protein 2 n=4 Tax=...   101   3e-19
+UniRef90_A8X3A3 Protein CBG06886 n=2 Tax=Caenorhabditis briggsae...   101   3e-19
+UniRef90_A0A210QWW5 Transmembrane and ubiquitin-like domain-cont...   101   3e-19
+UniRef90_A0A0V0Y1V5 Cysteine and glycine-rich protein 2 n=1 Tax=...   100   3e-19
+UniRef90_A0A0V1AG46 Cysteine and glycine-rich protein 2 (Fragmen...   100   3e-19
+UniRef90_A0A1I8BSA8 Uncharacterized protein n=1 Tax=Meloidogyne ...   100   3e-19
+UniRef90_A0A0V1BDW3 Cysteine and glycine-rich protein 2 n=4 Tax=...   100   4e-19
+UniRef90_UPI0008F9A52C transmembrane and ubiquitin-like domain-c...   100   4e-19
+UniRef90_UPI0005297C5D transmembrane and ubiquitin-like domain-c...    99   9e-19
+UniRef90_P34256 Uncharacterized protein B0303.4 n=1 Tax=Caenorha...    99   1e-18
+UniRef90_A0A0M3K7X1 LD10456p (inferred by orthology to a D. mela...    98   3e-18
+UniRef90_X1WRF8 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    96   5e-18
+UniRef90_A0A1I7V557 Uncharacterized protein n=1 Tax=Caenorhabdit...    96   6e-18
+UniRef90_R7TWV1 Uncharacterized protein n=1 Tax=Capitella teleta...    96   7e-18
+UniRef90_A0A0P5P3W0 Transmembrane and ubiquitin domain-containin...    96   7e-18
+UniRef90_A0A0P4ZDH8 Transmembrane and ubiquitin domain-containin...    96   7e-18
+UniRef90_W4Y0A3 Uncharacterized protein n=1 Tax=Strongylocentrot...    95   1e-17
+UniRef90_A0A0P5SQ78 Transmembrane and ubiquitin domain-containin...    95   1e-17
+UniRef90_K7IBH9 Uncharacterized protein n=1 Tax=Caenorhabditis j...    95   2e-17
+UniRef90_A0A0P5CZL9 Putative Transmembrane and ubiquitin domain-...    95   2e-17
+UniRef90_A0A0P6B1B2 Transmembrane and ubiquitin domain-containin...    95   2e-17
+UniRef90_A0A0P5ECI9 Transmembrane and ubiquitin domain-containin...    95   2e-17
+UniRef90_A0A0L8HH26 Uncharacterized protein n=1 Tax=Octopus bima...    95   2e-17
+UniRef90_G0NB50 Uncharacterized protein n=1 Tax=Caenorhabditis b...    95   2e-17
+UniRef90_A0A0P5C5V2 Putative Transmembrane and ubiquitin domain-...    94   3e-17
+UniRef90_UPI000A2C0427 transmembrane and ubiquitin-like domain-c...    93   5e-17
+UniRef90_A0A1I8CFW8 Uncharacterized protein n=1 Tax=Rhabditophan...    93   6e-17
+UniRef90_A0A158R456 Uncharacterized protein n=1 Tax=Syphacia mur...    93   7e-17
+UniRef90_UPI000A2BFCEF transmembrane and ubiquitin-like domain-c...    91   3e-16
+UniRef90_A0A0P5YJN1 Putative Transmembrane and ubiquitin domain-...    91   3e-16
+UniRef90_UPI0004F0D54E transmembrane and ubiquitin-like domain-c...    88   3e-15
+UniRef90_A0A1I8J856 Uncharacterized protein n=1 Tax=Macrostomum ...    87   3e-15
+UniRef90_UPI0008F9FEE1 uncharacterized protein LOC109073511 n=1 ...    86   1e-14
+UniRef90_A0A0P7ZGP0 Transmembrane and ubiquitin-like domain-cont...    85   1e-14
+UniRef90_A0A1I8GG24 Uncharacterized protein n=1 Tax=Macrostomum ...    85   2e-14
+UniRef90_UPI0008473382 transmembrane and ubiquitin-like domain-c...    84   4e-14
+UniRef90_UPI000495DB7B transmembrane and ubiquitin-like domain-c...    83   6e-14
+UniRef90_UPI00083EFEC3 transmembrane and ubiquitin-like domain-c...    80   4e-13
+UniRef90_UPI0006B18D4A transmembrane and ubiquitin-like domain-c...    80   5e-13
+UniRef90_A0A093HHT5 Transmembrane and ubiquitin-like domain-cont...    80   6e-13
+UniRef90_UPI00077569B3 transmembrane and ubiquitin-like domain-c...    77   3e-12
+UniRef90_A0A0C2CIR6 Uncharacterized protein (Fragment) n=1 Tax=A...    77   3e-12
+UniRef90_UPI000778D8AE transmembrane and ubiquitin-like domain-c...    76   1e-11
+UniRef90_U3KI49 Uncharacterized protein n=2 Tax=Ficedula albicol...    76   1e-11
+UniRef90_UPI000775A702 LOW QUALITY PROTEIN: transmembrane and ub...    75   2e-11
+UniRef90_A0A091ETH2 Transmembrane and ubiquitin-like domain-cont...    74   3e-11
+UniRef90_UPI0006BA2E8A fas-activated serine/threonine kinase n=1...    73   7e-11
+UniRef90_UPI0008550C39 transmembrane and ubiquitin-like domain-c...    68   2e-09
+UniRef90_Q71RG4-3 Isoform 3 of Transmembrane and ubiquitin-like ...    55   2e-05
+UniRef90_UPI0008FA8FD3 transmembrane and ubiquitin-like domain-c...    51   3e-04
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A182PNL4 Uncharacterized protein n=1 Tax=Anopheles ep...   110   3e-22
+UniRef90_A0A182RYE6 Uncharacterized protein n=2 Tax=Myzomyia Tax...   109   6e-22
+UniRef90_W5J3Z1 Uncharacterized protein n=1 Tax=Anopheles darlin...   108   1e-21
+UniRef90_A0A182M621 Uncharacterized protein n=1 Tax=Anopheles cu...   108   2e-21
+UniRef90_A0A182T8Q4 Uncharacterized protein n=2 Tax=Neocellia Ta...   108   2e-21
+UniRef90_A0A1Y9H9M3 Uncharacterized protein n=1 Tax=Anopheles fa...   107   2e-21
+UniRef90_A0A182FPS1 Uncharacterized protein n=1 Tax=Anopheles al...   106   7e-21
+UniRef90_U5ENK6 Putative conserved plasma membrane protein (Frag...   105   9e-21
+UniRef90_UPI00096B5180 transmembrane and ubiquitin-like domain-c...   102   1e-19
+UniRef90_A0A088AN85 Uncharacterized protein n=1 Tax=Apis mellife...   100   3e-19
+UniRef90_N6TT41 Uncharacterized protein (Fragment) n=4 Tax=Dendr...   100   7e-19
+UniRef90_A0A1E1VYK2 Uncharacterized protein n=3 Tax=Pectinophora...    97   4e-18
+UniRef90_A0A1E1WG28 Uncharacterized protein n=2 Tax=Pectinophora...    96   6e-18
+UniRef90_A0A212FNA9 Transmembrane and ubiquitin domain-containin...    95   1e-17
+UniRef90_UPI000B379D4A transmembrane and ubiquitin-like domain-c...    95   1e-17
+UniRef90_A0A0N8CI13 Transmembrane and ubiquitin domain-containin...    95   2e-17
+UniRef90_H9JAB9 Uncharacterized protein n=3 Tax=Bombyx mori TaxI...    95   2e-17
+UniRef90_UPI000679076E transmembrane and ubiquitin-like domain-c...    94   3e-17
+UniRef90_UPI000640B858 transmembrane and ubiquitin-like domain-c...    94   3e-17
+UniRef90_A0A194R6P3 Transmembrane and ubiquitin-like domain-cont...    94   3e-17
+UniRef90_A0A194Q370 Transmembrane and ubiquitin-like domain-cont...    94   3e-17
+UniRef90_UPI00067E53FC transmembrane and ubiquitin-like domain-c...    93   6e-17
+UniRef90_A0A0P6FK68 Putative Transmembrane and ubiquitin domain-...    93   7e-17
+UniRef90_UPI0005D0D68D transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_UPI00067677A2 transmembrane and ubiquitin-like domain-c...    91   2e-16
+UniRef90_UPI0005D07FEB transmembrane and ubiquitin-like domain-c...    91   2e-16
+UniRef90_A0A087TUB5 Transmembrane and ubiquitin-like domain-cont...    91   3e-16
+UniRef90_A0A1D2N1V8 Transmembrane and ubiquitin-like domain-cont...    90   6e-16
+UniRef90_A0A158Q2P2 Uncharacterized protein n=1 Tax=Dracunculus ...    89   8e-16
+UniRef90_A0A1J1IS20 CLUMA_CG016524, isoform B n=2 Tax=Clunio mar...    89   1e-15
+UniRef90_A0A1B6HMV1 Uncharacterized protein n=1 Tax=Homalodisca ...    88   2e-15
+UniRef90_T1EG18 Uncharacterized protein n=1 Tax=Helobdella robus...    87   4e-15
+UniRef90_A0A1B6GQH6 Uncharacterized protein n=1 Tax=Cuerna arida...    86   6e-15
+UniRef90_UPI0001EAC604 transmembrane and ubiquitin-like domain-c...    84   4e-14
+UniRef90_A0A1B6KIU4 Uncharacterized protein n=1 Tax=Graphocephal...    84   4e-14
+UniRef90_UPI000719CB7C transmembrane and ubiquitin-like domain-c...    83   7e-14
+UniRef90_A0A1S3HXA8 transmembrane and ubiquitin-like domain-cont...    82   1e-13
+UniRef90_A0A0K0E2K5 Uncharacterized protein n=1 Tax=Strongyloide...    82   1e-13
+UniRef90_H2ZE58 Uncharacterized protein n=1 Tax=Ciona savignyi T...    82   1e-13
+UniRef90_A0A0N4ZMU0 Uncharacterized protein n=1 Tax=Parastrongyl...    80   6e-13
+UniRef90_A0A1W5BAI1 transmembrane and ubiquitin-like domain-cont...    80   7e-13
+UniRef90_A0A090LBW8 Ubiquitin-like domain-containing protein n=1...    79   8e-13
+UniRef90_A0A0V1N4M0 Cysteine and glycine-rich protein 2 n=1 Tax=...    79   1e-12
+UniRef90_J9B5S0 Ubiquitin family protein (Fragment) n=1 Tax=Wuch...    79   1e-12
+UniRef90_D3PJW1 Transmembrane and ubiquitin-like domain-containi...    78   3e-12
+UniRef90_A0A0K0F7Z0 Uncharacterized protein n=2 Tax=Strongyloide...    77   4e-12
+UniRef90_A0A1I8JDC2 Uncharacterized protein n=3 Tax=Macrostomum ...    77   5e-12
+UniRef90_A0A0L7KWC5 Uncharacterized protein n=1 Tax=Operophtera ...    76   1e-11
+UniRef90_A0A0P5TKA4 Transmembrane and ubiquitin domain-containin...    73   6e-11
+UniRef90_A0A0F5CKV8 Uncharacterized protein n=1 Tax=Pristionchus...    73   6e-11
+UniRef90_A0A077Z1W3 Ubiquitin domain containing protein n=1 Tax=...    71   2e-10
+UniRef90_A0A0R3UEW4 Uncharacterized protein n=1 Tax=Mesocestoide...    71   3e-10
+UniRef90_A0A158QCV9 Uncharacterized protein n=1 Tax=Hymenolepis ...    71   4e-10
+UniRef90_A0A1I7XS70 Uncharacterized protein n=1 Tax=Heterorhabdi...    70   6e-10
+UniRef90_A0A0P4ZXA8 Transmembrane and ubiquitin domain-containin...    68   1e-09
+UniRef90_A0A183UJ20 Uncharacterized protein n=1 Tax=Toxocara can...    68   2e-09
+UniRef90_W6UD82 Transmembrane and ubiquitin-like domain-containi...    68   2e-09
+UniRef90_A0A068XH15 Transmembrane and ubiquitin n=2 Tax=Hymenole...    68   3e-09
+UniRef90_UPI0009E3EF63 transmembrane and ubiquitin-like domain-c...    67   5e-09
+UniRef90_A0A139WB09 Transmembrane and ubiquitin-like domain-cont...    66   6e-09
+UniRef90_H3FT07 Uncharacterized protein n=1 Tax=Pristionchus pac...    66   7e-09
+UniRef90_A0A183AJD7 Uncharacterized protein n=1 Tax=Echinostoma ...    66   7e-09
+UniRef90_A0A158R997 Uncharacterized protein n=1 Tax=Taenia asiat...    66   8e-09
+UniRef90_A0A0R3WQI7 Uncharacterized protein n=1 Tax=Hydatigena t...    66   8e-09
+UniRef90_A0A183HG47 Uncharacterized protein n=1 Tax=Onchocerca f...    66   1e-08
+UniRef90_C1LK55 Transmembrane and ubiquitin-like domain-containi...    66   1e-08
+UniRef90_A0A094ZY93 Transmembrane and ubiquitin-like domain-cont...    65   2e-08
+UniRef90_A0A0P6DMK8 Putative Transmembrane and ubiquitin domain-...    65   3e-08
+UniRef90_A0A1V9XE53 Transmembrane and ubiquitin domain-containin...    64   4e-08
+UniRef90_A0A0V0JA82 Transmembrane and ubiquitin-like domain-cont...    63   7e-08
+UniRef90_A0A183TD85 Uncharacterized protein n=1 Tax=Schistocepha...    63   8e-08
+UniRef90_A0A0B1T2J4 Uncharacterized protein n=1 Tax=Oesophagosto...    62   1e-07
+UniRef90_A0A0D2UBD0 Uncharacterized protein n=1 Tax=Capsaspora o...    62   1e-07
+UniRef90_UPI00076AD8E6 transmembrane and ubiquitin-like domain-c...    62   2e-07
+UniRef90_A7RY33 Predicted protein n=1 Tax=Nematostella vectensis...    61   2e-07
+UniRef90_K7IB14 Uncharacterized protein n=1 Tax=Caenorhabditis j...    61   4e-07
+UniRef90_UPI0002658ACA transmembrane and ubiquitin-like domain-c...    60   7e-07
+UniRef90_A0A1S8WL37 Uncharacterized protein (Fragment) n=1 Tax=O...    59   1e-06
+UniRef90_UPI000A2A810D transmembrane and ubiquitin-like domain-c...    58   2e-06
+UniRef90_UPI00077B0AA2 transmembrane and ubiquitin-like domain-c...    58   3e-06
+UniRef90_A0A087XY35 Uncharacterized protein n=1 Tax=Poecilia for...    58   3e-06
+UniRef90_UPI0007121E20 ubiquitin family protein n=1 Tax=Blastocy...    56   1e-05
+UniRef90_B3RQ78 Uncharacterized protein n=1 Tax=Trichoplax adhae...    55   2e-05
+UniRef90_W7TTH1 Ubiquitin family n=1 Tax=Nannochloropsis gaditan...    55   3e-05
+UniRef90_C1L6S6 Uncharacterized protein n=2 Tax=Schistosoma japo...    53   5e-05
+UniRef90_A0A183NEY4 Uncharacterized protein n=1 Tax=Schistosoma ...    53   7e-05
+UniRef90_UPI0008FA4CC4 ubiquitin-like n=1 Tax=Cyprinus carpio Ta...    53   9e-05
+UniRef90_UPI0004964447 transmembrane and ubiquitin-like domain-c...    53   9e-05
+UniRef90_W2TGW3 Uncharacterized protein n=1 Tax=Necator american...    52   1e-04
+UniRef90_UPI000901DA4E transmembrane and ubiquitin-like domain-c...    52   1e-04
+UniRef90_A0A1U8MRQ0 ubiquitin domain-containing protein DSK2b-li...    52   1e-04
+UniRef90_A0A1U8LAK0 ubiquitin domain-containing protein DSK2a-li...    52   2e-04
+UniRef90_A0A1X7UFR3 Uncharacterized protein n=1 Tax=Amphimedon q...    51   2e-04
+UniRef90_A0A146XZ89 Transmembrane and ubiquitin domain-containin...    51   2e-04
+UniRef90_A0A0V0I5N1 Putative ubiquitin domain-containing protein...    51   2e-04
+UniRef90_A0A1Y1W2G4 Uncharacterized protein n=1 Tax=Linderina pe...    51   2e-04
+UniRef90_A0A218X6B2 Uncharacterized protein n=1 Tax=Punica grana...    51   3e-04
+UniRef90_UPI00072EE038 transmembrane and ubiquitin-like domain-c...    51   3e-04
+UniRef90_A0A059LNE8 Uncharacterized protein (Fragment) n=1 Tax=H...    51   3e-04
+UniRef90_U5GGQ0 Ubiquitin family protein n=2 Tax=Populus TaxID=3...    51   4e-04
+UniRef90_K4B651 Uncharacterized protein n=3 Tax=Lycopersicon Tax...    50   4e-04
+UniRef90_UPI000443ECD8 transmembrane and ubiquitin-like domain-c...    50   4e-04
+UniRef90_A0A0V0H5G2 Putative ovule protein (Fragment) n=1 Tax=So...    50   5e-04
+UniRef90_M1BH34 Uncharacterized protein n=3 Tax=Solanum tuberosu...    50   5e-04
+UniRef90_A0A0F8B8I9 Ribonuclease P/MRP protein subunit POP5 n=1 ...    50   5e-04
+UniRef90_A0A1U8IMZ4 ubiquitin domain-containing protein DSK2a-li...    50   5e-04
+UniRef90_A0A1X1BP26 Dynamin-related protein DNM1 n=1 Tax=Babesia...    50   6e-04
+UniRef90_H3GQV0 Uncharacterized protein n=1 Tax=Phytophthora ram...    50   6e-04
+UniRef90_G7L9G3 Ubiquitin 1, related protein n=1 Tax=Medicago tr...    50   6e-04
+UniRef90_A0A183GRT4 Uncharacterized protein n=1 Tax=Heligmosomoi...    49   8e-04
+UniRef90_UPI000641513A uncharacterized protein LOC105844417 n=1 ...    49   8e-04
+UniRef90_A0A059BEV0 Uncharacterized protein n=4 Tax=Eucalyptus g...    49   9e-04
+UniRef90_A0A1R3IBQ7 Uncharacterized protein n=1 Tax=Corchorus ca...    49   0.001
+UniRef90_D8UA62 Uncharacterized protein n=1 Tax=Volvox carteri f...    49   0.001
+UniRef90_K4B646 Uncharacterized protein n=1 Tax=Solanum lycopers...    49   0.001
+UniRef90_D0MWX0 Ubiquitin family protein, putative n=9 Tax=Phyto...    49   0.001
+UniRef90_UPI0007B99AB4 ubiquitin-like n=1 Tax=Sinocyclocheilus r...    49   0.001
+UniRef90_A0A0D2SUE8 Uncharacterized protein n=2 Tax=Gossypium ra...    49   0.001
+UniRef90_K4B662 Uncharacterized protein n=2 Tax=Solanum lycopers...    49   0.001
+UniRef90_A0A0K9Q4R7 Ubiquitin domain-containing protein DSK2b n=...    49   0.001
+UniRef90_A0A1U8M137 ubiquitin domain-containing protein DSK2a-li...    49   0.001
+UniRef90_A0A1U8LXS7 ubiquitin domain-containing protein DSK2b-li...    49   0.001
+UniRef90_UPI0004547279 LOW QUALITY PROTEIN: transmembrane and ub...    49   0.001
+UniRef90_S8DVM4 Uncharacterized protein (Fragment) n=1 Tax=Genli...    49   0.002
+UniRef90_W6NAD8 Ubiquitin domain containing protein n=1 Tax=Haem...    48   0.002
+UniRef90_A0A158QLX9 Uncharacterized protein n=1 Tax=Haemonchus p...    48   0.002
+UniRef90_K3WU41 Uncharacterized protein n=1 Tax=Pythium ultimum ...    48   0.002
+UniRef90_A0A1U8AGE2 ubiquitin domain-containing protein DSK2a-li...    48   0.003
+UniRef90_UPI0009050247 LOW QUALITY PROTEIN: transmembrane and ub...    48   0.003
+UniRef90_A0A1S2YT05 ubiquitin domain-containing protein DSK2b-li...    48   0.003
+UniRef90_F6I0T0 Uncharacterized protein n=4 Tax=Vitis vinifera T...    48   0.003
+UniRef90_UPI0004F0E9B5 transmembrane and ubiquitin-like domain-c...    48   0.003
+UniRef90_A0A068U0W1 Uncharacterized protein n=1 Tax=Coffea canep...    47   0.004
+UniRef90_M5VJL5 Uncharacterized protein n=7 Tax=Maloideae TaxID=...    47   0.004
+UniRef90_M4BFP1 Uncharacterized protein n=1 Tax=Hyaloperonospora...    47   0.004
+UniRef90_A0A1Y2BDV6 Ubiquitin-domain-containing protein n=1 Tax=...    47   0.004
+UniRef90_K4BFI7 Uncharacterized protein n=4 Tax=Solanoideae TaxI...    47   0.004
+UniRef90_E4XXY9 Uncharacterized protein n=1 Tax=Oikopleura dioic...    47   0.004
+UniRef90_UPI00051E2CD0 caspase recruitment domain-containing pro...    47   0.004
+UniRef90_A0A1Z5K0X2 Uncharacterized protein n=2 Tax=Fistulifera ...    47   0.004
+UniRef90_UPI00053C9B5F ubiquitin domain-containing protein DSK2a...    47   0.004
+UniRef90_A0A1V9ZM73 Ubiquitin family protein n=1 Tax=Achlya hypo...    47   0.004
+UniRef90_G5ABL1 Uncharacterized protein n=1 Tax=Phytophthora soj...    47   0.005
+UniRef90_UPI00092FD599 ubiquitin domain-containing protein DSK2b...    47   0.005
+UniRef90_UPI00053C3AF5 ubiquitin domain-containing protein DSK2b...    47   0.005
+UniRef90_A0A1V9ZX79 Ubiquitin family protein n=1 Tax=Thraustothe...    47   0.005
+UniRef90_A0A067D269 Uncharacterized protein n=2 Tax=Saprolegnia ...    46   0.006
+UniRef90_L8E805 Uncharacterized protein n=1 Tax=Caenorhabditis e...    46   0.007
+UniRef90_X6LRW4 Uncharacterized protein n=1 Tax=Reticulomyxa fil...    46   0.008
+UniRef90_A0A200RA30 Ubiquitin-associated domain/translation elon...    46   0.008
+UniRef90_UPI00077E9958 ubiquitin domain-containing protein DSK2a...    46   0.008
+UniRef90_S8CGG8 Uncharacterized protein (Fragment) n=1 Tax=Genli...    46   0.009
+UniRef90_T0QQ85 Uncharacterized protein n=2 Tax=Saprolegnia dicl...    46   0.009
+UniRef90_A0A1Q3AWM9 Ubiquitin domain-containing protein/UBA doma...    46   0.009
+UniRef90_A0DA23 Uncharacterized protein n=1 Tax=Paramecium tetra...    46   0.009
+UniRef90_N1PSJ5 Uncharacterized protein n=1 Tax=Dothistroma sept...    46   0.011
+UniRef90_A0A024USD5 Uncharacterized protein n=1 Tax=Aphanomyces ...    46   0.011
+UniRef90_K4B658 Uncharacterized protein n=1 Tax=Solanum lycopers...    46   0.011
+UniRef90_A8JEC1 Predicted protein n=1 Tax=Chlamydomonas reinhard...    46   0.011
+UniRef90_M4C6L0 Uncharacterized protein n=1 Tax=Hyaloperonospora...    46   0.011
+UniRef90_A0A0K0DH00 Uncharacterized protein n=1 Tax=Angiostrongy...    46   0.011
+UniRef90_A0A166IZM1 Uncharacterized protein n=1 Tax=Fibularhizoc...    46   0.012
+
+>UniRef90_W5PBP6 Transmembrane and ubiquitin like domain containing 2 n=2 Tax=Ovis
+           aries TaxID=9940 RepID=W5PBP6_SHEEP
+          Length = 340
+
+ Score =  137 bits (347), Expect = 2e-30,   Method: Composition-based stats.
+ Identities = 65/69 (94%), Positives = 67/69 (97%)
+
+Query: 2   INVRLKFLNDTEELAVARPEDTVGTLKSKYFPGQESQMKLIYQGRLLQDPARTLSSLNIT 61
+           I+VRLKFLNDTEELAVARPEDTVG LKSKYFPGQESQMKLIYQGRLLQDPARTL SLNIT
+Sbjct: 192 ISVRLKFLNDTEELAVARPEDTVGALKSKYFPGQESQMKLIYQGRLLQDPARTLRSLNIT 251
+
+Query: 62  NNCVIHCHR 70
+           +NCVIHCHR
+Sbjct: 252 DNCVIHCHR 260
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_H3AM98 Transmembrane and ubiquitin like domain containi...   121   2e-25
+UniRef90_A0A1U7TG40 transmembrane and ubiquitin-like domain-cont...   120   3e-25
+UniRef90_Q71RG4 Transmembrane and ubiquitin-like domain-containi...   120   4e-25
+UniRef90_K7EKW3 Transmembrane and ubiquitin-like domain-containi...   120   4e-25
+UniRef90_E7ESS3 Transmembrane and ubiquitin-like domain-containi...   120   4e-25
+UniRef90_Q71RG4-2 Isoform 2 of Transmembrane and ubiquitin-like ...   120   4e-25
+UniRef90_UPI0003F169C5 transmembrane and ubiquitin-like domain-c...   120   4e-25
+UniRef90_UPI0003F176BA transmembrane and ubiquitin-like domain-c...   120   4e-25
+UniRef90_W5PBP6 Transmembrane and ubiquitin like domain containi...   119   5e-25
+UniRef90_UPI0003318CEF transmembrane and ubiquitin-like domain-c...   119   5e-25
+UniRef90_UPI00064CE28B LOW QUALITY PROTEIN: transmembrane and ub...   119   6e-25
+UniRef90_A0A1A6FXD2 Uncharacterized protein (Fragment) n=1 Tax=N...   119   6e-25
+UniRef90_A0A1U7Q5R9 transmembrane and ubiquitin-like domain-cont...   119   6e-25
+UniRef90_I3MRS1 Transmembrane and ubiquitin like domain containi...   119   6e-25
+UniRef90_UPI000812D3C2 transmembrane and ubiquitin-like domain-c...   119   6e-25
+UniRef90_F7EP91 Transmembrane and ubiquitin like domain containi...   119   6e-25
+UniRef90_UPI000840146B transmembrane and ubiquitin-like domain-c...   119   6e-25
+UniRef90_Q3V209 Transmembrane and ubiquitin-like domain-containi...   119   6e-25
+UniRef90_H0X917 Transmembrane and ubiquitin like domain containi...   119   7e-25
+UniRef90_G3WRP8 Transmembrane and ubiquitin like domain containi...   119   7e-25
+UniRef90_A0A1S3GF78 transmembrane and ubiquitin-like domain-cont...   119   7e-25
+UniRef90_UPI000A285CCB transmembrane and ubiquitin-like domain-c...   119   7e-25
+UniRef90_UPI000A28A89B transmembrane and ubiquitin-like domain-c...   119   7e-25
+UniRef90_G1P6Z0 Transmembrane and ubiquitin like domain containi...   119   8e-25
+UniRef90_S7MS07 Transmembrane and ubiquitin-like domain-containi...   119   8e-25
+UniRef90_UPI00032AF985 transmembrane and ubiquitin-like domain-c...   119   9e-25
+UniRef90_A0A0P7WH87 Transmembrane and ubiquitin-like domain-cont...   119   9e-25
+UniRef90_UPI0000481BC3 hypothetical ubiquitin-like protein (RIKE...   118   1e-24
+UniRef90_UPI00081454C6 transmembrane and ubiquitin-like domain-c...   118   1e-24
+UniRef90_W5MSU4 Transmembrane and ubiquitin-like domain containi...   118   2e-24
+UniRef90_UPI0003EA8FC4 transmembrane and ubiquitin-like domain-c...   118   2e-24
+UniRef90_H2LRJ3 Transmembrane and ubiquitin-like domain containi...   118   2e-24
+UniRef90_W5UB03 Transmembrane and ubiquitin-like domain-containi...   118   2e-24
+UniRef90_UPI00097DA3E5 transmembrane and ubiquitin-like domain-c...   118   2e-24
+UniRef90_A0A146NA05 Transmembrane and ubiquitin domain-containin...   117   2e-24
+UniRef90_A0A146Y0Q0 Transmembrane and ubiquitin domain-containin...   117   2e-24
+UniRef90_A0A146NUM2 Transmembrane and ubiquitin domain-containin...   117   2e-24
+UniRef90_S4R7Q5 Uncharacterized protein n=1 Tax=Petromyzon marin...   117   2e-24
+UniRef90_A0A1L8EL39 Uncharacterized protein n=3 Tax=Xenopus laev...   117   2e-24
+UniRef90_UPI0009E57756 transmembrane and ubiquitin-like domain-c...   117   2e-24
+UniRef90_UPI0009B43254 transmembrane and ubiquitin-like domain-c...   117   2e-24
+UniRef90_Q2HJA8 Transmembrane and ubiquitin-like domain-containi...   117   2e-24
+UniRef90_G1U6J3 Transmembrane and ubiquitin like domain containi...   117   3e-24
+UniRef90_UPI0007F89E2F transmembrane and ubiquitin-like domain-c...   117   3e-24
+UniRef90_M4AED9 Transmembrane and ubiquitin-like domain containi...   117   3e-24
+UniRef90_Q4V9Y1 Transmembrane and ubiquitin-like domain-containi...   117   3e-24
+UniRef90_UPI0003ACAB14 transmembrane and ubiquitin-like domain-c...   117   3e-24
+UniRef90_Q6P135 Transmembrane and ubiquitin-like domain-containi...   117   3e-24
+UniRef90_UPI00038720D7 transmembrane and ubiquitin-like domain-c...   117   3e-24
+UniRef90_L5KRV4 Transmembrane and ubiquitin-like domain-containi...   117   4e-24
+UniRef90_A0A0S7GU39 TMUB1 (Fragment) n=2 Tax=Poeciliopsis prolif...   117   4e-24
+UniRef90_UPI000576AD51 transmembrane and ubiquitin-like domain-c...   117   4e-24
+UniRef90_UPI0006443F3B transmembrane and ubiquitin-like domain-c...   117   4e-24
+UniRef90_UPI00081A1963 LOW QUALITY PROTEIN: transmembrane and ub...   116   4e-24
+UniRef90_UPI00062AA287 transmembrane and ubiquitin-like domain-c...   116   5e-24
+UniRef90_A0A1A8A9Y5 Transmembrane and ubiquitin-like domain cont...   116   5e-24
+UniRef90_A0A1S3LUP3 transmembrane and ubiquitin-like domain-cont...   116   5e-24
+UniRef90_I7GL83 Macaca fascicularis brain cDNA clone: QflA-17176...   116   5e-24
+UniRef90_UPI00053CB5EE transmembrane and ubiquitin-like domain-c...   116   5e-24
+UniRef90_A0A1D5Q9D8 Uncharacterized protein n=8 Tax=Catarrhini T...   116   5e-24
+UniRef90_Q4T9Z8 Chromosome undetermined SCAF7478, whole genome s...   116   5e-24
+UniRef90_UPI00071A4592 transmembrane and ubiquitin-like domain-c...   116   5e-24
+UniRef90_UPI000874FFEA transmembrane and ubiquitin-like domain-c...   116   6e-24
+UniRef90_UPI0004963E21 transmembrane and ubiquitin-like domain-c...   116   6e-24
+UniRef90_G3N9I1 Transmembrane and ubiquitin-like domain containi...   116   7e-24
+UniRef90_M7AM90 Transmembrane and ubiquitin-like domain-containi...   116   7e-24
+UniRef90_H2TIS2 Transmembrane and ubiquitin-like domain containi...   115   9e-24
+UniRef90_A0A0Q3Q3Z6 Transmembrane and ubiquitin-like domain-cont...   115   9e-24
+UniRef90_UPI00085458C4 transmembrane and ubiquitin-like domain-c...   115   9e-24
+UniRef90_H3CBN1 Transmembrane and ubiquitin-like domain containi...   115   1e-23
+UniRef90_V9KXJ5 Transmembrane and ubiquitin-like domain-containi...   115   1e-23
+UniRef90_UPI000B4C86BD transmembrane and ubiquitin-like domain-c...   115   1e-23
+UniRef90_UPI0009A31C55 transmembrane and ubiquitin-like domain-c...   115   1e-23
+UniRef90_UPI000454A1F6 transmembrane and ubiquitin-like domain-c...   115   1e-23
+UniRef90_V9L3B2 Transmembrane and ubiquitin-like domain-containi...   115   1e-23
+UniRef90_W5N2F1 Transmembrane and ubiquitin-like domain containi...   114   2e-23
+UniRef90_I3JUJ7 Transmembrane and ubiquitin-like domain containi...   114   2e-23
+UniRef90_UPI00051E569B transmembrane and ubiquitin-like domain-c...   114   2e-23
+UniRef90_UPI00071C4BE2 transmembrane and ubiquitin-like domain-c...   114   2e-23
+UniRef90_I3JUJ8 Transmembrane and ubiquitin-like domain containi...   114   3e-23
+UniRef90_UPI00081A20B6 transmembrane and ubiquitin-like domain-c...   114   3e-23
+UniRef90_G1KTL5 Transmembrane and ubiquitin like domain containi...   113   3e-23
+UniRef90_UPI00074FE5C7 transmembrane and ubiquitin-like domain-c...   113   4e-23
+UniRef90_A0A091FP25 Transmembrane and ubiquitin-like domain-cont...   113   5e-23
+UniRef90_A0A151PC62 Transmembrane and ubiquitin-like domain-cont...   113   6e-23
+UniRef90_UPI0003340C8C transmembrane and ubiquitin-like domain-c...   113   6e-23
+UniRef90_A0A146ZNH3 Transmembrane and ubiquitin domain-containin...   112   7e-23
+UniRef90_A0A146VAJ0 Transmembrane and ubiquitin domain-containin...   112   7e-23
+UniRef90_B5X3V1 Transmembrane and Ubiquitin-like domain-containi...   112   7e-23
+UniRef90_UPI00074FAD57 transmembrane and ubiquitin-like domain-c...   112   7e-23
+UniRef90_M4A1F2 Transmembrane and ubiquitin-like domain containi...   112   8e-23
+UniRef90_A0A1W5AA56 LOW QUALITY PROTEIN: transmembrane and ubiqu...   112   8e-23
+UniRef90_UPI0007F8D9DA transmembrane and ubiquitin-like domain-c...   112   8e-23
+UniRef90_H3CF74 Transmembrane and ubiquitin-like domain containi...   112   9e-23
+UniRef90_UPI0006444681 transmembrane and ubiquitin-like domain-c...   112   9e-23
+UniRef90_UPI000A1C6005 transmembrane and ubiquitin-like domain-c...   112   9e-23
+UniRef90_UPI0009B3EC23 transmembrane and ubiquitin-like domain-c...   112   1e-22
+UniRef90_M3XJ72 Transmembrane and ubiquitin like domain containi...   112   1e-22
+UniRef90_V8NCF4 Transmembrane and ubiquitin-like domain-containi...   112   1e-22
+UniRef90_A0A096M4B2 Transmembrane and ubiquitin-like domain cont...   112   1e-22
+UniRef90_A0A091W497 Transmembrane and ubiquitin-like domain-cont...   112   1e-22
+UniRef90_UPI0005775384 transmembrane and ubiquitin-like domain-c...   112   1e-22
+UniRef90_UPI0008146BCB transmembrane and ubiquitin-like domain-c...   112   1e-22
+UniRef90_UPI00053CEBE6 transmembrane and ubiquitin-like domain-c...   111   2e-22
+UniRef90_A0A0P6JDV2 Transmembrane and ubiquitin-like domain-cont...   111   2e-22
+UniRef90_UPI0006B320CA ankyrin repeat and SOCS box protein 16-li...   111   2e-22
+UniRef90_A0A0F8CSH2 Transmembrane and ubiquitin-like domain-cont...   111   2e-22
+UniRef90_T1ISP9 Angiotensin-converting enzyme n=1 Tax=Strigamia ...   111   2e-22
+UniRef90_A0A091T7I9 Transmembrane and ubiquitin-like domain-cont...   110   2e-22
+UniRef90_UPI00077770A4 transmembrane and ubiquitin-like domain-c...   110   3e-22
+UniRef90_H2LBI1 Transmembrane and ubiquitin-like domain containi...   110   3e-22
+UniRef90_A0A091D452 Transmembrane and ubiquitin-like domain-cont...   110   3e-22
+UniRef90_G3P4W7 Transmembrane and ubiquitin-like domain containi...   110   3e-22
+UniRef90_M7BP02 Transmembrane and ubiquitin-like domain-containi...   110   3e-22
+UniRef90_UPI0004954927 transmembrane and ubiquitin-like domain-c...   110   3e-22
+UniRef90_UPI0006B3229F transmembrane and ubiquitin-like domain-c...   110   4e-22
+UniRef90_F7FBZ1 Uncharacterized protein n=1 Tax=Ornithorhynchus ...   110   4e-22
+UniRef90_I3IWP6 Transmembrane and ubiquitin-like domain containi...   110   4e-22
+UniRef90_A0A1D5PFB3 Transmembrane and ubiquitin like domain cont...   110   4e-22
+UniRef90_UPI0009B45DC8 transmembrane and ubiquitin-like domain-c...   110   4e-22
+UniRef90_A0A0A9YWL6 Transmembrane and ubiquitin-like domain-cont...   110   4e-22
+UniRef90_UPI00094E2C5A transmembrane and ubiquitin-like domain-c...   110   5e-22
+UniRef90_UPI000497E716 transmembrane and ubiquitin-like domain-c...   109   5e-22
+UniRef90_UPI0009E5CBB5 transmembrane and ubiquitin-like domain-c...   109   5e-22
+UniRef90_W5L7M1 Transmembrane and ubiquitin-like domain containi...   109   6e-22
+UniRef90_H0XIK0 Transmembrane and ubiquitin like domain containi...   108   9e-22
+UniRef90_H0VAV2 Transmembrane and ubiquitin like domain containi...   108   1e-21
+UniRef90_UPI000555BA8F transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_K7FG63 Transmembrane and ubiquitin like domain containi...   108   1e-21
+UniRef90_H2V0D9 Transmembrane and ubiquitin-like domain containi...   108   1e-21
+UniRef90_UPI00033156F3 transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_Q3KPV4 Transmembrane and ubiquitin-like domain-containi...   108   1e-21
+UniRef90_A0A0S7MDZ6 TMUB2 (Fragment) n=1 Tax=Poeciliopsis prolif...   108   1e-21
+UniRef90_UPI0007428BFA transmembrane and ubiquitin-like domain-c...   108   2e-21
+UniRef90_UPI0009B4E7AE transmembrane and ubiquitin-like domain-c...   108   2e-21
+UniRef90_Q9JMG3 Transmembrane and ubiquitin-like domain-containi...   107   2e-21
+UniRef90_E9QN77 Transmembrane and ubiquitin-like domain-containi...   107   2e-21
+UniRef90_UPI00032B0D98 transmembrane and ubiquitin-like domain-c...   107   2e-21
+UniRef90_UPI00045DC0C9 transmembrane and ubiquitin-like domain-c...   107   2e-21
+UniRef90_A0A1A8J6D1 Transmembrane and ubiquitin-like domain cont...   107   2e-21
+UniRef90_H2V0D8 Transmembrane and ubiquitin-like domain containi...   107   2e-21
+UniRef90_UPI000873DD23 transmembrane and ubiquitin-like domain-c...   107   2e-21
+UniRef90_G3HB66 Transmembrane and ubiquitin-like domain-containi...   107   2e-21
+UniRef90_W5UKD3 Transmembrane and ubiquitin-like domain-containi...   107   3e-21
+UniRef90_G3W827 Transmembrane and ubiquitin like domain containi...   107   3e-21
+UniRef90_I3MQV7 Transmembrane and ubiquitin like domain containi...   107   3e-21
+UniRef90_Q53AQ4 Transmembrane and ubiquitin-like domain-containi...   107   3e-21
+UniRef90_Q9BVT8 Transmembrane and ubiquitin-like domain-containi...   107   3e-21
+UniRef90_G3RVM5 Transmembrane and ubiquitin like domain containi...   107   3e-21
+UniRef90_H2PP26 Transmembrane and ubiquitin like domain containi...   107   3e-21
+UniRef90_U6D4G4 Transmembrane and ubiquitin-like domain-containi...   107   3e-21
+UniRef90_H0W3V2 Transmembrane and ubiquitin like domain containi...   107   3e-21
+UniRef90_A0A091DAW4 Transmembrane and ubiquitin-like domain-cont...   107   3e-21
+UniRef90_UPI00076712BA transmembrane and ubiquitin-like domain-c...   107   3e-21
+UniRef90_A0A1B6L6D6 Uncharacterized protein n=4 Tax=Cicadellinae...   107   3e-21
+UniRef90_Q8JFU2 Novel ubiquitin n=1 Tax=Danio rerio TaxID=7955 R...   107   3e-21
+UniRef90_UPI0007ACC33F transmembrane and ubiquitin-like domain-c...   107   4e-21
+UniRef90_UPI00038EB4E7 transmembrane and ubiquitin-like domain-c...   107   4e-21
+UniRef90_UPI0006969E72 N-acetylglucosamine-6-sulfatase n=1 Tax=C...   107   4e-21
+UniRef90_UPI0006980DCF probable threonine protease PRSS50 n=1 Ta...   107   4e-21
+UniRef90_UPI00097CFEEA transmembrane and ubiquitin-like domain-c...   106   5e-21
+UniRef90_UPI000B4C5B48 transmembrane and ubiquitin-like domain-c...   106   5e-21
+UniRef90_Q3ZBI9 Transmembrane and ubiquitin-like domain-containi...   106   6e-21
+UniRef90_W5NYX7 Transmembrane and ubiquitin like domain containi...   106   6e-21
+UniRef90_UPI000333814D transmembrane and ubiquitin-like domain-c...   106   6e-21
+UniRef90_A0A1A8QWX3 Transmembrane and ubiquitin-like domain cont...   106   6e-21
+UniRef90_H1A3C9 Uncharacterized protein n=2 Tax=Taeniopygia gutt...   106   7e-21
+UniRef90_UPI0006CEC128 transmembrane and ubiquitin-like domain-c...   105   8e-21
+UniRef90_A0A131YXM4 Uncharacterized protein n=2 Tax=Rhipicephalu...   105   8e-21
+UniRef90_A0A218UGP4 Transmembrane and ubiquitin-like domain-cont...   105   9e-21
+UniRef90_A0A1A8DRT5 Transmembrane and ubiquitin-like domain cont...   105   9e-21
+UniRef90_A0A1E1XSV7 Putative transmembrane and ubiquitin-like do...   105   9e-21
+UniRef90_UPI00087429BC transmembrane and ubiquitin-like domain-c...   105   1e-20
+UniRef90_A0A1A7ZWL8 Transmembrane and ubiquitin-like domain cont...   105   1e-20
+UniRef90_UPI000644317F transmembrane and ubiquitin-like domain-c...   105   1e-20
+UniRef90_UPI000359CE96 transmembrane and ubiquitin-like domain-c...   105   1e-20
+UniRef90_G3MKG8 Uncharacterized protein n=2 Tax=Amblyomma TaxID=...   105   1e-20
+UniRef90_UPI00094EF446 transmembrane and ubiquitin-like domain-c...   105   1e-20
+UniRef90_A0A1E1XDJ5 Putative transmembrane and ubiquitin-like do...   105   1e-20
+UniRef90_A0A1I7XWB5 Uncharacterized protein n=2 Tax=Steinernema ...   105   2e-20
+UniRef90_A0A1I7XWA6 Uncharacterized protein n=1 Tax=Steinernema ...   105   2e-20
+UniRef90_B7Q289 Uncharacterized protein n=3 Tax=Ixodes TaxID=694...   104   2e-20
+UniRef90_A0A170Y384 Transmembrane and ubiquitin-like protein dom...   104   2e-20
+UniRef90_R4G438 Uncharacterized protein n=1 Tax=Rhodnius prolixu...   104   3e-20
+UniRef90_H9G6Y4 Transmembrane and ubiquitin like domain containi...   104   3e-20
+UniRef90_A0A1A8EUF6 Transmembrane and ubiquitin-like domain cont...   103   3e-20
+UniRef90_A0A023EPS1 Putative ubiquitin-like protein (Fragment) n...   103   3e-20
+UniRef90_UPI00083C57A0 LOW QUALITY PROTEIN: transmembrane and ub...   103   4e-20
+UniRef90_UPI00076FBB32 transmembrane and ubiquitin-like domain-c...   103   5e-20
+UniRef90_A0A1S3AL66 transmembrane and ubiquitin-like domain-cont...   103   5e-20
+UniRef90_U6PWV6 WD40 repeat and Ubiquitin domain containing prot...   103   5e-20
+UniRef90_U6NJ12 WD40 repeat and Ubiquitin domain containing prot...   103   5e-20
+UniRef90_A0A016VS57 Uncharacterized protein n=3 Tax=Ancylostoma ...   103   5e-20
+UniRef90_A0A016VT77 Uncharacterized protein n=2 Tax=Ancylostoma ...   103   5e-20
+UniRef90_A0A0N4W330 Uncharacterized protein n=1 Tax=Haemonchus p...   103   5e-20
+UniRef90_Q17A35 AAEL005405-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   103   5e-20
+UniRef90_UPI0006D500B4 transmembrane and ubiquitin-like domain-c...   103   6e-20
+UniRef90_A0A0N4XYM5 Uncharacterized protein n=1 Tax=Nippostrongy...   103   6e-20
+UniRef90_A0A183F3M6 Uncharacterized protein n=1 Tax=Heligmosomoi...   102   7e-20
+UniRef90_V5H1N7 Transmembrane and ubiquitin-like domain-containi...   102   7e-20
+UniRef90_A0A182G9V2 Uncharacterized protein n=5 Tax=Aedes albopi...   102   7e-20
+UniRef90_A0A085N611 Uncharacterized protein n=2 Tax=Trichuris su...   102   8e-20
+UniRef90_A0A1S4ELP9 transmembrane and ubiquitin-like domain-cont...   102   8e-20
+UniRef90_A0A0D6LR80 Ubiquitin family protein n=1 Tax=Ancylostoma...   102   9e-20
+UniRef90_A0A1B0D302 Uncharacterized protein n=1 Tax=Phlebotomus ...   102   9e-20
+UniRef90_UPI000625AFB0 transmembrane and ubiquitin-like domain-c...   102   9e-20
+UniRef90_UPI000697474F transmembrane and ubiquitin-like domain-c...   102   1e-19
+UniRef90_A0A1L8DSK2 Putative transmembrane and ubiquitin-like do...   102   1e-19
+UniRef90_A0A1B0CBG6 Uncharacterized protein n=1 Tax=Lutzomyia lo...   102   1e-19
+UniRef90_A0A1Q3FB22 Putative ubiquitin-like protein n=1 Tax=Cule...   102   1e-19
+UniRef90_UPI0005EFB8BC transmembrane and ubiquitin-like domain-c...   102   1e-19
+UniRef90_UPI0007638398 transmembrane and ubiquitin-like domain-c...   102   1e-19
+UniRef90_UPI000994E4A9 transmembrane and ubiquitin-like domain-c...   102   1e-19
+UniRef90_J9JQZ3 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...   102   1e-19
+UniRef90_A0A182PNL4 Uncharacterized protein n=1 Tax=Anopheles ep...   102   1e-19
+UniRef90_A0A182J8V9 Uncharacterized protein n=1 Tax=Anopheles at...   101   1e-19
+UniRef90_A0A0N5DU61 Uncharacterized protein n=1 Tax=Trichuris mu...   101   2e-19
+UniRef90_A0A182N5J4 Uncharacterized protein n=1 Tax=Anopheles di...   101   2e-19
+UniRef90_A0A084WNP6 AGAP004089-PA-like protein n=1 Tax=Anopheles...   101   2e-19
+UniRef90_UPI00095352FA transmembrane and ubiquitin-like domain-c...   101   2e-19
+UniRef90_H9H091 Uncharacterized protein n=3 Tax=Neognathae TaxID...   101   2e-19
+UniRef90_UPI000B379D4A transmembrane and ubiquitin-like domain-c...   101   2e-19
+UniRef90_B0WGQ9 Uncharacterized protein n=1 Tax=Culex quinquefas...   101   2e-19
+UniRef90_A0A182RYE6 Uncharacterized protein n=2 Tax=Myzomyia Tax...   101   2e-19
+UniRef90_Q7QH50 AGAP004089-PA n=6 Tax=Pyretophorus TaxID=44537 R...   101   2e-19
+UniRef90_E0VMA3 Uncharacterized protein n=1 Tax=Pediculus humanu...   100   3e-19
+UniRef90_A0A1B6E715 Uncharacterized protein n=3 Tax=Clastoptera ...   100   3e-19
+UniRef90_E9IRZ1 Uncharacterized protein (Fragment) n=1 Tax=Solen...   100   3e-19
+UniRef90_UPI000771A37E transmembrane and ubiquitin-like domain-c...   100   3e-19
+UniRef90_A0A0N4UY46 Uncharacterized protein n=1 Tax=Enterobius v...   100   3e-19
+UniRef90_V9IIE6 Transmembrane and ubiquitin-like domain-containi...   100   3e-19
+UniRef90_UPI0006199C73 transmembrane and ubiquitin-like domain-c...   100   3e-19
+UniRef90_UPI00061539B9 transmembrane and ubiquitin-like domain-c...   100   4e-19
+UniRef90_V4B684 Uncharacterized protein n=1 Tax=Lottia gigantea ...   100   4e-19
+UniRef90_A0A1A9U316 Uncharacterized protein n=1 Tax=Anopheles st...   100   5e-19
+UniRef90_A0A0L7RG79 Transmembrane and ubiquitin-like domain-cont...   100   5e-19
+UniRef90_E3N069 Uncharacterized protein n=1 Tax=Caenorhabditis r...   100   5e-19
+UniRef90_A0A067RHA8 Transmembrane and ubiquitin-like domain-cont...   100   5e-19
+UniRef90_W5J3Z1 Uncharacterized protein n=1 Tax=Anopheles darlin...   100   5e-19
+UniRef90_E2BLD1 Transmembrane and ubiquitin-like domain-containi...   100   5e-19
+UniRef90_A0A1E1VYK2 Uncharacterized protein n=3 Tax=Pectinophora...   100   5e-19
+UniRef90_UPI00062647D0 transmembrane and ubiquitin-like domain-c...   100   6e-19
+UniRef90_UPI00084010D5 transmembrane and ubiquitin-like domain-c...   100   6e-19
+UniRef90_A0A182M621 Uncharacterized protein n=1 Tax=Anopheles cu...   100   6e-19
+UniRef90_A0A182T8Q4 Uncharacterized protein n=2 Tax=Neocellia Ta...   100   6e-19
+UniRef90_A0A026W5S1 Transmembrane and ubiquitin-like domain-cont...   100   7e-19
+UniRef90_A0A1Y1KLD0 Uncharacterized protein n=1 Tax=Photinus pyr...    99   7e-19
+UniRef90_UPI000711D692 transmembrane and ubiquitin-like domain-c...    99   7e-19
+UniRef90_A0A0M3IWK3 Uncharacterized protein n=1 Tax=Ascaris lumb...    99   8e-19
+UniRef90_UPI0007383D22 transmembrane and ubiquitin-like domain-c...    99   9e-19
+UniRef90_U5ENK6 Putative conserved plasma membrane protein (Frag...    99   9e-19
+UniRef90_UPI0005F4724E transmembrane and ubiquitin-like domain-c...    99   9e-19
+UniRef90_A0A158PCC8 Uncharacterized protein n=2 Tax=Angiostrongy...    99   9e-19
+UniRef90_UPI00063EE542 transmembrane and ubiquitin-like domain-c...    99   9e-19
+UniRef90_UPI0006B0F55D transmembrane and ubiquitin-like domain-c...    99   1e-18
+UniRef90_A0A1I8BSA8 Uncharacterized protein n=1 Tax=Meloidogyne ...    99   1e-18
+UniRef90_A0A1E1WG28 Uncharacterized protein n=2 Tax=Pectinophora...    99   1e-18
+UniRef90_A0A1Y9H9M3 Uncharacterized protein n=1 Tax=Anopheles fa...    99   1e-18
+UniRef90_UPI0004CCB5DE transmembrane and ubiquitin-like domain-c...    99   1e-18
+UniRef90_UPI0006231BCB transmembrane and ubiquitin-like domain-c...    99   1e-18
+UniRef90_A0A0D8XFY9 Ubiquitin family protein n=1 Tax=Dictyocaulu...    99   1e-18
+UniRef90_A0A0B2V781 Uncharacterized protein n=1 Tax=Toxocara can...    99   2e-18
+UniRef90_UPI000679076E transmembrane and ubiquitin-like domain-c...    99   2e-18
+UniRef90_UPI0005AC6B6B transmembrane and ubiquitin-like domain-c...    98   2e-18
+UniRef90_A0A158NRA2 Uncharacterized protein n=7 Tax=Attini TaxID...    98   2e-18
+UniRef90_K7J1A4 Uncharacterized protein n=1 Tax=Nasonia vitripen...    98   2e-18
+UniRef90_UPI0007670F9D transmembrane and ubiquitin-like domain-c...    98   2e-18
+UniRef90_A0A182FPS1 Uncharacterized protein n=1 Tax=Anopheles al...    98   2e-18
+UniRef90_UPI0006C99C48 transmembrane and ubiquitin-like domain-c...    98   2e-18
+UniRef90_A0A131XI28 Putative transmembrane and ubiquitin-like do...    98   2e-18
+UniRef90_E2A0G0 Transmembrane and ubiquitin-like domain-containi...    98   2e-18
+UniRef90_A0A194Q370 Transmembrane and ubiquitin-like domain-cont...    98   2e-18
+UniRef90_A8X3A3 Protein CBG06886 n=2 Tax=Caenorhabditis briggsae...    98   2e-18
+UniRef90_A0A0V0WKI8 Transmembrane and ubiquitin-like domain-cont...    98   2e-18
+UniRef90_A0A0V1JG61 Transmembrane and ubiquitin-like domain-cont...    98   3e-18
+UniRef90_UPI00077DA0D8 transmembrane and ubiquitin-like domain-c...    98   3e-18
+UniRef90_UPI000718B0F0 transmembrane and ubiquitin-like domain-c...    97   3e-18
+UniRef90_UPI00067E53FC transmembrane and ubiquitin-like domain-c...    97   4e-18
+UniRef90_A0A1I7SSZ3 Uncharacterized protein n=1 Tax=Bursaphelenc...    97   4e-18
+UniRef90_A0A0K8TPK1 Putative transmembrane and ubiquitin-like do...    97   4e-18
+UniRef90_S4R8H2 Transmembrane and ubiquitin like domain containi...    97   4e-18
+UniRef90_A0A194R6P3 Transmembrane and ubiquitin-like domain-cont...    97   5e-18
+UniRef90_H9JAB9 Uncharacterized protein n=3 Tax=Bombyx mori TaxI...    97   6e-18
+UniRef90_A0A0V1AGP5 Cysteine and glycine-rich protein 2 n=8 Tax=...    97   6e-18
+UniRef90_A0A210QWW5 Transmembrane and ubiquitin-like domain-cont...    96   6e-18
+UniRef90_UPI0005D0D68D transmembrane and ubiquitin-like domain-c...    96   6e-18
+UniRef90_A0A1I7VT36 Uncharacterized protein n=1 Tax=Loa loa TaxI...    96   7e-18
+UniRef90_A0A0V1AG46 Cysteine and glycine-rich protein 2 (Fragmen...    96   7e-18
+UniRef90_UPI0006746326 transmembrane and ubiquitin-like domain-c...    96   8e-18
+UniRef90_A0A0V1F0F2 Cysteine and glycine-rich protein 2 n=4 Tax=...    96   8e-18
+UniRef90_A0A0B6Y9W0 Uncharacterized protein (Fragment) n=1 Tax=A...    96   8e-18
+UniRef90_UPI000640B858 transmembrane and ubiquitin-like domain-c...    96   8e-18
+UniRef90_UPI0005D07FEB transmembrane and ubiquitin-like domain-c...    96   9e-18
+UniRef90_A0A0V0Y1V5 Cysteine and glycine-rich protein 2 n=1 Tax=...    96   9e-18
+UniRef90_A0A0V1BDW3 Cysteine and glycine-rich protein 2 n=4 Tax=...    96   1e-17
+UniRef90_A0A183CX67 Uncharacterized protein n=1 Tax=Gongylonema ...    95   1e-17
+UniRef90_A0A0H5S9Y0 Bm1746 n=5 Tax=Onchocercidae TaxID=6296 RepI...    95   1e-17
+UniRef90_J9LW39 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    95   1e-17
+UniRef90_UPI0005CE932B transmembrane and ubiquitin-like domain-c...    95   1e-17
+UniRef90_P34256 Uncharacterized protein B0303.4 n=1 Tax=Caenorha...    95   1e-17
+UniRef90_A0A0R3RT34 Uncharacterized protein n=1 Tax=Elaeophora e...    95   1e-17
+UniRef90_UPI000161D635 Ubiquitin family protein n=1 Tax=Brugia m...    95   2e-17
+UniRef90_A0A182DWW7 Uncharacterized protein n=1 Tax=Onchocerca o...    95   2e-17
+UniRef90_K1P6V6 Transmembrane and ubiquitin-like domain-containi...    95   2e-17
+UniRef90_A0A044V2A5 Uncharacterized protein n=1 Tax=Onchocerca v...    95   2e-17
+UniRef90_UPI0006C979E6 transmembrane and ubiquitin-like domain-c...    95   2e-17
+UniRef90_A0A212FNA9 Transmembrane and ubiquitin domain-containin...    94   2e-17
+UniRef90_UPI00067677A2 transmembrane and ubiquitin-like domain-c...    94   2e-17
+UniRef90_A0A0T6B465 Ubiquitin (Fragment) n=1 Tax=Oryctes borboni...    94   3e-17
+UniRef90_G0NB50 Uncharacterized protein n=1 Tax=Caenorhabditis b...    94   3e-17
+UniRef90_UPI00084B0973 uncharacterized protein LOC108667230 n=1 ...    94   3e-17
+UniRef90_A0A158RCV1 Uncharacterized protein n=1 Tax=Thelazia cal...    94   3e-17
+UniRef90_N6TT41 Uncharacterized protein (Fragment) n=4 Tax=Dendr...    94   4e-17
+UniRef90_A0A1W4WU16 transmembrane and ubiquitin-like domain-cont...    93   5e-17
+UniRef90_UPI00096B5180 transmembrane and ubiquitin-like domain-c...    93   6e-17
+UniRef90_A0A1I7V557 Uncharacterized protein n=1 Tax=Caenorhabdit...    93   8e-17
+UniRef90_E9H8M8 Uncharacterized protein n=1 Tax=Daphnia pulex Ta...    92   9e-17
+UniRef90_UPI0005D2F589 transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_K7IBH9 Uncharacterized protein n=1 Tax=Caenorhabditis j...    92   1e-16
+UniRef90_UPI0008F9A52C transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_W4Y0A3 Uncharacterized protein n=1 Tax=Strongylocentrot...    92   2e-16
+UniRef90_UPI0009479398 transmembrane and ubiquitin-like domain-c...    92   2e-16
+UniRef90_C3Z9M0 Uncharacterized protein n=1 Tax=Branchiostoma fl...    91   2e-16
+UniRef90_A0A088AN85 Uncharacterized protein n=1 Tax=Apis mellife...    90   3e-16
+UniRef90_A0A1I8CFW8 Uncharacterized protein n=1 Tax=Rhabditophan...    90   4e-16
+UniRef90_A0A0M3K7X1 LD10456p (inferred by orthology to a D. mela...    90   6e-16
+UniRef90_A0A087TUB5 Transmembrane and ubiquitin-like domain-cont...    89   9e-16
+UniRef90_A0A0L8HH26 Uncharacterized protein n=1 Tax=Octopus bima...    89   9e-16
+UniRef90_UPI000678EA35 transmembrane and ubiquitin-like domain-c...    89   1e-15
+UniRef90_R7TWV1 Uncharacterized protein n=1 Tax=Capitella teleta...    89   1e-15
+UniRef90_A0A1B6KIU4 Uncharacterized protein n=1 Tax=Graphocephal...    89   1e-15
+UniRef90_A0A1B6HMV1 Uncharacterized protein n=1 Tax=Homalodisca ...    89   1e-15
+UniRef90_X1WRF8 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    89   1e-15
+UniRef90_A0A0P5P3W0 Transmembrane and ubiquitin domain-containin...    89   1e-15
+UniRef90_A0A0P4ZDH8 Transmembrane and ubiquitin domain-containin...    89   1e-15
+UniRef90_A0A158R456 Uncharacterized protein n=1 Tax=Syphacia mur...    88   2e-15
+UniRef90_A0A1D2N1V8 Transmembrane and ubiquitin-like domain-cont...    88   2e-15
+UniRef90_A0A0P5SQ78 Transmembrane and ubiquitin domain-containin...    88   3e-15
+UniRef90_A0A0P6B1B2 Transmembrane and ubiquitin domain-containin...    87   4e-15
+UniRef90_A0A0N8CI13 Transmembrane and ubiquitin domain-containin...    87   4e-15
+UniRef90_A0A0P5ECI9 Transmembrane and ubiquitin domain-containin...    87   4e-15
+UniRef90_A0A1B6GQH6 Uncharacterized protein n=1 Tax=Cuerna arida...    87   4e-15
+UniRef90_A0A0P5C5V2 Putative Transmembrane and ubiquitin domain-...    87   5e-15
+UniRef90_A0A0P5CZL9 Putative Transmembrane and ubiquitin domain-...    87   6e-15
+UniRef90_T1EG18 Uncharacterized protein n=1 Tax=Helobdella robus...    86   8e-15
+UniRef90_UPI000A2C0427 transmembrane and ubiquitin-like domain-c...    86   9e-15
+UniRef90_A0A158Q2P2 Uncharacterized protein n=1 Tax=Dracunculus ...    86   9e-15
+UniRef90_A0A0P6FK68 Putative Transmembrane and ubiquitin domain-...    86   1e-14
+UniRef90_A0A1J1IS20 CLUMA_CG016524, isoform B n=2 Tax=Clunio mar...    85   1e-14
+UniRef90_UPI0005297C5D transmembrane and ubiquitin-like domain-c...    85   1e-14
+UniRef90_A0A0K0E2K5 Uncharacterized protein n=1 Tax=Strongyloide...    85   2e-14
+UniRef90_A0A0N4ZMU0 Uncharacterized protein n=1 Tax=Parastrongyl...    84   4e-14
+UniRef90_UPI000A2BFCEF transmembrane and ubiquitin-like domain-c...    84   4e-14
+UniRef90_A0A090LBW8 Ubiquitin-like domain-containing protein n=1...    84   4e-14
+UniRef90_A0A0K0F7Z0 Uncharacterized protein n=2 Tax=Strongyloide...    84   5e-14
+UniRef90_A0A0P5YJN1 Putative Transmembrane and ubiquitin domain-...    83   7e-14
+UniRef90_A0A158QCV9 Uncharacterized protein n=1 Tax=Hymenolepis ...    83   7e-14
+UniRef90_UPI000719CB7C transmembrane and ubiquitin-like domain-c...    83   9e-14
+UniRef90_A0A0R3UEW4 Uncharacterized protein n=1 Tax=Mesocestoide...    82   1e-13
+UniRef90_A0A0F5CKV8 Uncharacterized protein n=1 Tax=Pristionchus...    82   2e-13
+UniRef90_D3PJW1 Transmembrane and ubiquitin-like domain-containi...    81   2e-13
+UniRef90_A0A1S3HXA8 transmembrane and ubiquitin-like domain-cont...    81   3e-13
+UniRef90_A0A068XH15 Transmembrane and ubiquitin n=2 Tax=Hymenole...    81   3e-13
+UniRef90_W6UD82 Transmembrane and ubiquitin-like domain-containi...    79   9e-13
+UniRef90_A0A0V1N4M0 Cysteine and glycine-rich protein 2 n=1 Tax=...    79   1e-12
+UniRef90_A0A1I8J856 Uncharacterized protein n=1 Tax=Macrostomum ...    79   1e-12
+UniRef90_A0A1W5BAI1 transmembrane and ubiquitin-like domain-cont...    78   2e-12
+UniRef90_A0A1I7XS70 Uncharacterized protein n=1 Tax=Heterorhabdi...    78   2e-12
+UniRef90_A0A158R997 Uncharacterized protein n=1 Tax=Taenia asiat...    78   2e-12
+UniRef90_UPI0001EAC604 transmembrane and ubiquitin-like domain-c...    78   3e-12
+UniRef90_A0A0R3WQI7 Uncharacterized protein n=1 Tax=Hydatigena t...    77   3e-12
+UniRef90_A0A183TD85 Uncharacterized protein n=1 Tax=Schistocepha...    77   3e-12
+UniRef90_A0A0V0JA82 Transmembrane and ubiquitin-like domain-cont...    77   3e-12
+UniRef90_A0A1I8GG24 Uncharacterized protein n=1 Tax=Macrostomum ...    77   4e-12
+UniRef90_A0A0L7KWC5 Uncharacterized protein n=1 Tax=Operophtera ...    77   5e-12
+UniRef90_H2ZE58 Uncharacterized protein n=1 Tax=Ciona savignyi T...    77   6e-12
+UniRef90_A0A087XY35 Uncharacterized protein n=1 Tax=Poecilia for...    77   6e-12
+UniRef90_C1LK55 Transmembrane and ubiquitin-like domain-containi...    75   1e-11
+UniRef90_A0A1I8JDC2 Uncharacterized protein n=3 Tax=Macrostomum ...    75   1e-11
+UniRef90_A0A094ZY93 Transmembrane and ubiquitin-like domain-cont...    75   2e-11
+UniRef90_A0A1V9XE53 Transmembrane and ubiquitin domain-containin...    75   2e-11
+UniRef90_A0A077Z1W3 Ubiquitin domain containing protein n=1 Tax=...    75   2e-11
+UniRef90_J9B5S0 Ubiquitin family protein (Fragment) n=1 Tax=Wuch...    75   2e-11
+UniRef90_A0A183AJD7 Uncharacterized protein n=1 Tax=Echinostoma ...    74   3e-11
+UniRef90_A0A0C2CIR6 Uncharacterized protein (Fragment) n=1 Tax=A...    74   3e-11
+UniRef90_UPI0004F0D54E transmembrane and ubiquitin-like domain-c...    74   4e-11
+UniRef90_H3FT07 Uncharacterized protein n=1 Tax=Pristionchus pac...    74   4e-11
+UniRef90_UPI0008F9FEE1 uncharacterized protein LOC109073511 n=1 ...    73   8e-11
+UniRef90_A0A0P7ZGP0 Transmembrane and ubiquitin-like domain-cont...    72   1e-10
+UniRef90_A7RY33 Predicted protein n=1 Tax=Nematostella vectensis...    71   2e-10
+UniRef90_UPI0009E3EF63 transmembrane and ubiquitin-like domain-c...    71   3e-10
+UniRef90_UPI0008473382 transmembrane and ubiquitin-like domain-c...    71   3e-10
+UniRef90_UPI00083EFEC3 transmembrane and ubiquitin-like domain-c...    70   4e-10
+UniRef90_UPI0006B18D4A transmembrane and ubiquitin-like domain-c...    70   4e-10
+UniRef90_UPI00077569B3 transmembrane and ubiquitin-like domain-c...    70   7e-10
+UniRef90_UPI000495DB7B transmembrane and ubiquitin-like domain-c...    70   8e-10
+UniRef90_UPI0002658ACA transmembrane and ubiquitin-like domain-c...    69   8e-10
+UniRef90_A0A093HHT5 Transmembrane and ubiquitin-like domain-cont...    69   1e-09
+UniRef90_A0A1U8MRQ0 ubiquitin domain-containing protein DSK2b-li...    69   1e-09
+UniRef90_A0A1S8WL37 Uncharacterized protein (Fragment) n=1 Tax=O...    69   1e-09
+UniRef90_UPI000A2A810D transmembrane and ubiquitin-like domain-c...    68   1e-09
+UniRef90_G7L9G3 Ubiquitin 1, related protein n=1 Tax=Medicago tr...    68   2e-09
+UniRef90_A0A1U8LAK0 ubiquitin domain-containing protein DSK2a-li...    68   2e-09
+UniRef90_A0A1U8IMZ4 ubiquitin domain-containing protein DSK2a-li...    67   4e-09
+UniRef90_A0A0V0I5N1 Putative ubiquitin domain-containing protein...    67   4e-09
+UniRef90_D0MWX0 Ubiquitin family protein, putative n=9 Tax=Phyto...    67   5e-09
+UniRef90_UPI000778D8AE transmembrane and ubiquitin-like domain-c...    67   6e-09
+UniRef90_H3GQV0 Uncharacterized protein n=1 Tax=Phytophthora ram...    67   6e-09
+UniRef90_K4B651 Uncharacterized protein n=3 Tax=Lycopersicon Tax...    67   7e-09
+UniRef90_A0A218X6B2 Uncharacterized protein n=1 Tax=Punica grana...    66   7e-09
+UniRef90_A0A1R3IBQ7 Uncharacterized protein n=1 Tax=Corchorus ca...    66   8e-09
+UniRef90_M1BH34 Uncharacterized protein n=3 Tax=Solanum tuberosu...    66   8e-09
+UniRef90_U5GGQ0 Ubiquitin family protein n=2 Tax=Populus TaxID=3...    66   1e-08
+UniRef90_W7TTH1 Ubiquitin family n=1 Tax=Nannochloropsis gaditan...    66   1e-08
+UniRef90_K4B646 Uncharacterized protein n=1 Tax=Solanum lycopers...    65   1e-08
+UniRef90_A0A0V0H5G2 Putative ovule protein (Fragment) n=1 Tax=So...    65   1e-08
+UniRef90_A0A0P5TKA4 Transmembrane and ubiquitin domain-containin...    65   1e-08
+UniRef90_A0A183UJ20 Uncharacterized protein n=1 Tax=Toxocara can...    65   1e-08
+UniRef90_UPI00077B0AA2 transmembrane and ubiquitin-like domain-c...    65   1e-08
+UniRef90_U3KI49 Uncharacterized protein n=2 Tax=Ficedula albicol...    65   2e-08
+UniRef90_UPI0006BA2E8A fas-activated serine/threonine kinase n=1...    65   2e-08
+UniRef90_A0A0D2UBD0 Uncharacterized protein n=1 Tax=Capsaspora o...    65   2e-08
+UniRef90_K4B662 Uncharacterized protein n=2 Tax=Solanum lycopers...    64   3e-08
+UniRef90_UPI000775A702 LOW QUALITY PROTEIN: transmembrane and ub...    64   4e-08
+UniRef90_A0A091ETH2 Transmembrane and ubiquitin-like domain-cont...    63   4e-08
+UniRef90_A0A1Y1W2G4 Uncharacterized protein n=1 Tax=Linderina pe...    63   4e-08
+UniRef90_A0A0K9Q4R7 Ubiquitin domain-containing protein DSK2b n=...    63   5e-08
+UniRef90_A0A0P4ZXA8 Transmembrane and ubiquitin domain-containin...    63   5e-08
+UniRef90_A0A059BEV0 Uncharacterized protein n=4 Tax=Eucalyptus g...    63   6e-08
+UniRef90_A0A0D2SUE8 Uncharacterized protein n=2 Tax=Gossypium ra...    63   8e-08
+UniRef90_A0A1U8M137 ubiquitin domain-containing protein DSK2a-li...    63   9e-08
+UniRef90_A0A1U8LXS7 ubiquitin domain-containing protein DSK2b-li...    63   9e-08
+UniRef90_UPI0008550C39 transmembrane and ubiquitin-like domain-c...    62   1e-07
+UniRef90_A0A183HG47 Uncharacterized protein n=1 Tax=Onchocerca f...    62   2e-07
+UniRef90_UPI0007121E20 ubiquitin family protein n=1 Tax=Blastocy...    62   2e-07
+UniRef90_B3RQ78 Uncharacterized protein n=1 Tax=Trichoplax adhae...    62   2e-07
+UniRef90_A0A183NEY4 Uncharacterized protein n=1 Tax=Schistosoma ...    62   2e-07
+UniRef90_A0A183GRT4 Uncharacterized protein n=1 Tax=Heligmosomoi...    61   3e-07
+UniRef90_A0A139WB09 Transmembrane and ubiquitin-like domain-cont...    60   6e-07
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A1S2YT05 ubiquitin domain-containing protein DSK2b-li...    68   3e-09
+UniRef90_A0A1U8AGE2 ubiquitin domain-containing protein DSK2a-li...    67   4e-09
+UniRef90_UPI00053C9B5F ubiquitin domain-containing protein DSK2a...    66   9e-09
+UniRef90_A0A1V9ZM73 Ubiquitin family protein n=1 Tax=Achlya hypo...    66   1e-08
+UniRef90_A0A067D269 Uncharacterized protein n=2 Tax=Saprolegnia ...    65   2e-08
+UniRef90_UPI00092FD599 ubiquitin domain-containing protein DSK2b...    65   2e-08
+UniRef90_M5VJL5 Uncharacterized protein n=7 Tax=Maloideae TaxID=...    64   3e-08
+UniRef90_A0A068U0W1 Uncharacterized protein n=1 Tax=Coffea canep...    64   3e-08
+UniRef90_A0A200PQV0 Ubiquitin-associated domain/translation elon...    63   5e-08
+UniRef90_G7K016 Ubiquitin 1, related protein n=4 Tax=Papilionoid...    63   5e-08
+UniRef90_K3WU41 Uncharacterized protein n=1 Tax=Pythium ultimum ...    63   5e-08
+UniRef90_UPI000901A260 ubiquitin domain-containing protein DSK2b...    63   6e-08
+UniRef90_K4BFI7 Uncharacterized protein n=4 Tax=Solanoideae TaxI...    63   6e-08
+UniRef90_UPI000786B7DD ubiquitin domain-containing protein DSK2b...    63   6e-08
+UniRef90_A0A061E598 Ubiquitin family protein isoform 3 n=1 Tax=T...    63   7e-08
+UniRef90_A0A061DYF3 Ubiquitin family protein isoform 2 n=6 Tax=B...    63   7e-08
+UniRef90_A0A1R3GCC0 Uncharacterized protein n=1 Tax=Corchorus ca...    63   7e-08
+UniRef90_A0A1U7YXT6 ubiquitin domain-containing protein DSK2a-li...    63   8e-08
+UniRef90_A0A1S4A5X4 ubiquitin domain-containing protein DSK2b-li...    63   9e-08
+UniRef90_UPI00077EBD4A ubiquitin domain-containing protein DSK2a...    62   1e-07
+UniRef90_F6I0T0 Uncharacterized protein n=4 Tax=Vitis vinifera T...    62   1e-07
+UniRef90_A0A200RA30 Ubiquitin-associated domain/translation elon...    62   1e-07
+UniRef90_UPI000B8C8BED ubiquitin domain-containing protein DSK2b...    62   1e-07
+UniRef90_F6I281 Uncharacterized protein n=1 Tax=Vitis vinifera T...    62   1e-07
+UniRef90_UPI00053F458A ubiquitin domain-containing protein DSK2b...    62   1e-07
+UniRef90_A0A1V9ZX79 Ubiquitin family protein n=1 Tax=Thraustothe...    62   2e-07
+UniRef90_UPI00098262E4 ubiquitin domain-containing protein DSK2a...    62   2e-07
+UniRef90_UPI00077E9958 ubiquitin domain-containing protein DSK2a...    62   2e-07
+UniRef90_A0A199UL45 Ubiquitin domain-containing protein DSK2b n=...    62   2e-07
+UniRef90_A0A061DF35 Ubiquitin family protein isoform 1 n=4 Tax=B...    62   2e-07
+UniRef90_A0A1S3BKE7 ubiquitin domain-containing protein DSK2a-li...    62   2e-07
+UniRef90_UPI0005814FAC ubiquitin domain-containing protein DSK2b...    62   2e-07
+UniRef90_K4B658 Uncharacterized protein n=1 Tax=Solanum lycopers...    62   2e-07
+UniRef90_A0A0A7R5G1 Ubiquitin-like protein n=1 Tax=Betula lumini...    62   2e-07
+UniRef90_UPI00098E3629 ubiquitin domain-containing protein DSK2b...    62   2e-07
+UniRef90_A0A0K9RF84 Uncharacterized protein n=2 Tax=Spinacia ole...    62   2e-07
+UniRef90_A0A1Q3AWM9 Ubiquitin domain-containing protein/UBA doma...    61   3e-07
+UniRef90_UPI00053C3AF5 ubiquitin domain-containing protein DSK2b...    61   3e-07
+UniRef90_U5G4H9 Uncharacterized protein n=3 Tax=Populus TaxID=36...    61   3e-07
+UniRef90_UPI000809CD8D ubiquitin domain-containing protein DSK2b...    61   3e-07
+UniRef90_A0A1S3BIC8 ubiquitin domain-containing protein DSK2a-li...    61   3e-07
+UniRef90_UPI0005109502 ubiquitin domain-containing protein DSK2b...    61   3e-07
+UniRef90_A0A0P1ADY7 Ubiquitin family n=1 Tax=Plasmopara halstedi...    61   3e-07
+UniRef90_M4C6L0 Uncharacterized protein n=1 Tax=Hyaloperonospora...    61   3e-07
+UniRef90_S8CGG8 Uncharacterized protein (Fragment) n=1 Tax=Genli...    61   3e-07
+UniRef90_A0A1U8ML38 ubiquitin domain-containing protein DSK2b-li...    60   4e-07
+UniRef90_A0A022RGM8 Uncharacterized protein n=3 Tax=Erythranthe ...    60   4e-07
+UniRef90_E9P1L2 Ubiquitin 1 n=7 Tax=Musa acuminata TaxID=4641 Re...    60   4e-07
+UniRef90_A0A124SFF0 Heat shock chaperonin-binding n=1 Tax=Cynara...    60   5e-07
+UniRef90_UPI0005815D51 ubiquitin domain-containing protein DSK2a...    60   5e-07
+UniRef90_Q9SII9 Ubiquitin domain-containing protein DSK2a n=4 Ta...    60   5e-07
+UniRef90_R0G413 Uncharacterized protein n=4 Tax=Camelineae TaxID...    60   5e-07
+UniRef90_A0A0B0NJZ4 Ubiquilin n=1 Tax=Gossypium arboreum TaxID=2...    60   5e-07
+UniRef90_A0A1U8N588 ubiquitin domain-containing protein DSK2b-li...    60   5e-07
+UniRef90_UPI00098DA987 ubiquitin domain-containing protein DSK2a...    60   5e-07
+UniRef90_A0A0D2MHH7 Uncharacterized protein n=1 Tax=Gossypium ra...    60   5e-07
+UniRef90_UPI00063ACFA9 ubiquitin domain-containing protein DSK2b...    60   5e-07
+UniRef90_UPI000B78C9E4 ubiquitin domain-containing protein DSK2b...    60   6e-07
+UniRef90_A0A1D1ZF67 Ubiquilin-1 (Fragment) n=1 Tax=Anthurium amn...    60   6e-07
+UniRef90_A0A1D1Y8B3 Ubiquilin-1 (Fragment) n=1 Tax=Anthurium amn...    60   6e-07
+UniRef90_A0A1R3JB06 Uncharacterized protein n=1 Tax=Corchorus ol...    60   6e-07
+
+>UniRef90_H3AM98 Transmembrane and ubiquitin like domain containing 1 n=1
+           Tax=Latimeria chalumnae TaxID=7897 RepID=H3AM98_LATCH
+          Length = 306
+
+ Score =  121 bits (305), Expect = 2e-25,   Method: Composition-based stats.
+ Identities = 42/69 (60%), Positives = 60/69 (86%)
+
+Query: 1   GINVRLKFLNDTEELAVARPEDTVGTLKSKYFPGQESQMKLIYQGRLLQDPARTLSSLNI 60
+           G+ +RLKFLNDTE+LA  + +DT+G LK  YFPGQE Q++LIYQG+LL++ ++TL+SL++
+Sbjct: 162 GMVLRLKFLNDTEKLARVKLDDTIGYLKRTYFPGQEHQVRLIYQGQLLREDSQTLASLHL 221
+
+Query: 61  TNNCVIHCH 69
+           T+NCV+HCH
+Sbjct: 222 TDNCVLHCH 230
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_H3AM98 Transmembrane and ubiquitin like domain containi...   115   1e-23
+UniRef90_A0A0P7WH87 Transmembrane and ubiquitin-like domain-cont...   114   3e-23
+UniRef90_S4R7Q5 Uncharacterized protein n=1 Tax=Petromyzon marin...   113   3e-23
+UniRef90_UPI000576AD51 transmembrane and ubiquitin-like domain-c...   113   3e-23
+UniRef90_Q4T9Z8 Chromosome undetermined SCAF7478, whole genome s...   113   4e-23
+UniRef90_Q6P135 Transmembrane and ubiquitin-like domain-containi...   113   4e-23
+UniRef90_UPI00097DA3E5 transmembrane and ubiquitin-like domain-c...   113   4e-23
+UniRef90_H2LRJ3 Transmembrane and ubiquitin-like domain containi...   113   4e-23
+UniRef90_UPI0009B43254 transmembrane and ubiquitin-like domain-c...   113   4e-23
+UniRef90_UPI0007F89E2F transmembrane and ubiquitin-like domain-c...   113   4e-23
+UniRef90_H2TIS2 Transmembrane and ubiquitin-like domain containi...   113   4e-23
+UniRef90_UPI00081454C6 transmembrane and ubiquitin-like domain-c...   113   5e-23
+UniRef90_UPI0000481BC3 hypothetical ubiquitin-like protein (RIKE...   113   5e-23
+UniRef90_W5UB03 Transmembrane and ubiquitin-like domain-containi...   113   5e-23
+UniRef90_H3CBN1 Transmembrane and ubiquitin-like domain containi...   113   5e-23
+UniRef90_UPI000874FFEA transmembrane and ubiquitin-like domain-c...   113   5e-23
+UniRef90_A0A146NA05 Transmembrane and ubiquitin domain-containin...   113   5e-23
+UniRef90_A0A146Y0Q0 Transmembrane and ubiquitin domain-containin...   113   5e-23
+UniRef90_A0A146NUM2 Transmembrane and ubiquitin domain-containin...   113   5e-23
+UniRef90_UPI0009E57756 transmembrane and ubiquitin-like domain-c...   113   5e-23
+UniRef90_A0A1A6FXD2 Uncharacterized protein (Fragment) n=1 Tax=N...   113   6e-23
+UniRef90_A0A1U7Q5R9 transmembrane and ubiquitin-like domain-cont...   113   6e-23
+UniRef90_Q71RG4 Transmembrane and ubiquitin-like domain-containi...   113   6e-23
+UniRef90_K7EKW3 Transmembrane and ubiquitin-like domain-containi...   113   6e-23
+UniRef90_E7ESS3 Transmembrane and ubiquitin-like domain-containi...   113   6e-23
+UniRef90_Q71RG4-2 Isoform 2 of Transmembrane and ubiquitin-like ...   113   6e-23
+UniRef90_M4AED9 Transmembrane and ubiquitin-like domain containi...   113   6e-23
+UniRef90_UPI0006443F3B transmembrane and ubiquitin-like domain-c...   112   7e-23
+UniRef90_A0A1U7TG40 transmembrane and ubiquitin-like domain-cont...   112   7e-23
+UniRef90_A0A1A8A9Y5 Transmembrane and ubiquitin-like domain cont...   112   7e-23
+UniRef90_W5MSU4 Transmembrane and ubiquitin-like domain containi...   112   7e-23
+UniRef90_UPI0003EA8FC4 transmembrane and ubiquitin-like domain-c...   112   7e-23
+UniRef90_A0A1S3LUP3 transmembrane and ubiquitin-like domain-cont...   112   7e-23
+UniRef90_Q3V209 Transmembrane and ubiquitin-like domain-containi...   112   7e-23
+UniRef90_UPI0003F169C5 transmembrane and ubiquitin-like domain-c...   112   8e-23
+UniRef90_UPI0003F176BA transmembrane and ubiquitin-like domain-c...   112   8e-23
+UniRef90_G3N9I1 Transmembrane and ubiquitin-like domain containi...   112   8e-23
+UniRef90_I3JUJ7 Transmembrane and ubiquitin-like domain containi...   112   8e-23
+UniRef90_I3MRS1 Transmembrane and ubiquitin like domain containi...   112   8e-23
+UniRef90_UPI000812D3C2 transmembrane and ubiquitin-like domain-c...   112   8e-23
+UniRef90_I3JUJ8 Transmembrane and ubiquitin-like domain containi...   112   9e-23
+UniRef90_F7EP91 Transmembrane and ubiquitin like domain containi...   112   9e-23
+UniRef90_UPI000840146B transmembrane and ubiquitin-like domain-c...   112   9e-23
+UniRef90_H0X917 Transmembrane and ubiquitin like domain containi...   112   9e-23
+UniRef90_G3WRP8 Transmembrane and ubiquitin like domain containi...   112   9e-23
+UniRef90_A0A1S3GF78 transmembrane and ubiquitin-like domain-cont...   112   9e-23
+UniRef90_A0A0S7GU39 TMUB1 (Fragment) n=2 Tax=Poeciliopsis prolif...   112   9e-23
+UniRef90_UPI000A285CCB transmembrane and ubiquitin-like domain-c...   112   9e-23
+UniRef90_UPI000A28A89B transmembrane and ubiquitin-like domain-c...   112   9e-23
+UniRef90_W5PBP6 Transmembrane and ubiquitin like domain containi...   112   1e-22
+UniRef90_UPI0003318CEF transmembrane and ubiquitin-like domain-c...   112   1e-22
+UniRef90_UPI00032AF985 transmembrane and ubiquitin-like domain-c...   111   1e-22
+UniRef90_G1P6Z0 Transmembrane and ubiquitin like domain containi...   111   1e-22
+UniRef90_S7MS07 Transmembrane and ubiquitin-like domain-containi...   111   1e-22
+UniRef90_UPI00064CE28B LOW QUALITY PROTEIN: transmembrane and ub...   111   2e-22
+UniRef90_G1U6J3 Transmembrane and ubiquitin like domain containi...   111   2e-22
+UniRef90_UPI00038720D7 transmembrane and ubiquitin-like domain-c...   111   2e-22
+UniRef90_UPI00053CB5EE transmembrane and ubiquitin-like domain-c...   110   3e-22
+UniRef90_A0A0Q3Q3Z6 Transmembrane and ubiquitin-like domain-cont...   110   3e-22
+UniRef90_M7AM90 Transmembrane and ubiquitin-like domain-containi...   110   3e-22
+UniRef90_A0A1L8EL39 Uncharacterized protein n=3 Tax=Xenopus laev...   110   3e-22
+UniRef90_Q4V9Y1 Transmembrane and ubiquitin-like domain-containi...   110   4e-22
+UniRef90_UPI0003ACAB14 transmembrane and ubiquitin-like domain-c...   110   4e-22
+UniRef90_V9L3B2 Transmembrane and ubiquitin-like domain-containi...   110   4e-22
+UniRef90_UPI0004963E21 transmembrane and ubiquitin-like domain-c...   110   5e-22
+UniRef90_L5KRV4 Transmembrane and ubiquitin-like domain-containi...   109   6e-22
+UniRef90_V9KXJ5 Transmembrane and ubiquitin-like domain-containi...   109   6e-22
+UniRef90_UPI00062AA287 transmembrane and ubiquitin-like domain-c...   109   6e-22
+UniRef90_Q2HJA8 Transmembrane and ubiquitin-like domain-containi...   109   7e-22
+UniRef90_UPI00081A1963 LOW QUALITY PROTEIN: transmembrane and ub...   109   8e-22
+UniRef90_UPI0009B3EC23 transmembrane and ubiquitin-like domain-c...   109   8e-22
+UniRef90_UPI0006B3229F transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_A0A091FP25 Transmembrane and ubiquitin-like domain-cont...   108   1e-21
+UniRef90_UPI0009A31C55 transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_UPI00085458C4 transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_W5N2F1 Transmembrane and ubiquitin-like domain containi...   108   1e-21
+UniRef90_UPI00071C4BE2 transmembrane and ubiquitin-like domain-c...   108   1e-21
+UniRef90_I7GL83 Macaca fascicularis brain cDNA clone: QflA-17176...   108   2e-21
+UniRef90_UPI00071A4592 transmembrane and ubiquitin-like domain-c...   108   2e-21
+UniRef90_A0A1D5Q9D8 Uncharacterized protein n=8 Tax=Catarrhini T...   107   2e-21
+UniRef90_UPI00074FE5C7 transmembrane and ubiquitin-like domain-c...   107   2e-21
+UniRef90_UPI00081A20B6 transmembrane and ubiquitin-like domain-c...   107   2e-21
+UniRef90_UPI00077770A4 transmembrane and ubiquitin-like domain-c...   107   2e-21
+UniRef90_UPI00051E569B transmembrane and ubiquitin-like domain-c...   107   2e-21
+UniRef90_UPI00053CEBE6 transmembrane and ubiquitin-like domain-c...   107   2e-21
+UniRef90_UPI000454A1F6 transmembrane and ubiquitin-like domain-c...   107   3e-21
+UniRef90_UPI000B4C86BD transmembrane and ubiquitin-like domain-c...   107   3e-21
+UniRef90_A0A1W5AA56 LOW QUALITY PROTEIN: transmembrane and ubiqu...   106   4e-21
+UniRef90_H3CF74 Transmembrane and ubiquitin-like domain containi...   106   4e-21
+UniRef90_G1KTL5 Transmembrane and ubiquitin like domain containi...   106   5e-21
+UniRef90_A0A091W497 Transmembrane and ubiquitin-like domain-cont...   106   5e-21
+UniRef90_A0A091T7I9 Transmembrane and ubiquitin-like domain-cont...   106   5e-21
+UniRef90_B5X3V1 Transmembrane and Ubiquitin-like domain-containi...   106   5e-21
+UniRef90_A0A151PC62 Transmembrane and ubiquitin-like domain-cont...   106   6e-21
+UniRef90_UPI00094E2C5A transmembrane and ubiquitin-like domain-c...   106   7e-21
+UniRef90_M3XJ72 Transmembrane and ubiquitin like domain containi...   106   8e-21
+UniRef90_UPI0006444681 transmembrane and ubiquitin-like domain-c...   106   8e-21
+UniRef90_A0A146ZNH3 Transmembrane and ubiquitin domain-containin...   106   8e-21
+UniRef90_A0A146VAJ0 Transmembrane and ubiquitin domain-containin...   106   8e-21
+UniRef90_UPI0006B320CA ankyrin repeat and SOCS box protein 16-li...   105   8e-21
+UniRef90_UPI0007F8D9DA transmembrane and ubiquitin-like domain-c...   105   9e-21
+UniRef90_A0A096M4B2 Transmembrane and ubiquitin-like domain cont...   105   9e-21
+UniRef90_M4A1F2 Transmembrane and ubiquitin-like domain containi...   105   1e-20
+UniRef90_A0A091D452 Transmembrane and ubiquitin-like domain-cont...   105   1e-20
+UniRef90_A0A1D5PFB3 Transmembrane and ubiquitin like domain cont...   105   1e-20
+UniRef90_UPI0008146BCB transmembrane and ubiquitin-like domain-c...   105   1e-20
+UniRef90_UPI0003340C8C transmembrane and ubiquitin-like domain-c...   105   1e-20
+UniRef90_UPI0005775384 transmembrane and ubiquitin-like domain-c...   105   1e-20
+UniRef90_A0A0F8CSH2 Transmembrane and ubiquitin-like domain-cont...   105   1e-20
+UniRef90_UPI00074FAD57 transmembrane and ubiquitin-like domain-c...   105   1e-20
+UniRef90_A0A0P6JDV2 Transmembrane and ubiquitin-like domain-cont...   105   2e-20
+UniRef90_M7BP02 Transmembrane and ubiquitin-like domain-containi...   105   2e-20
+UniRef90_UPI000A1C6005 transmembrane and ubiquitin-like domain-c...   105   2e-20
+UniRef90_V8NCF4 Transmembrane and ubiquitin-like domain-containi...   104   2e-20
+UniRef90_H2LBI1 Transmembrane and ubiquitin-like domain containi...   104   2e-20
+UniRef90_Q3KPV4 Transmembrane and ubiquitin-like domain-containi...   104   2e-20
+UniRef90_W5L7M1 Transmembrane and ubiquitin-like domain containi...   104   2e-20
+UniRef90_UPI0009B45DC8 transmembrane and ubiquitin-like domain-c...   104   2e-20
+UniRef90_A0A131YXM4 Uncharacterized protein n=2 Tax=Rhipicephalu...   104   3e-20
+UniRef90_UPI0004954927 transmembrane and ubiquitin-like domain-c...   104   3e-20
+UniRef90_G3P4W7 Transmembrane and ubiquitin-like domain containi...   104   3e-20
+UniRef90_T1ISP9 Angiotensin-converting enzyme n=1 Tax=Strigamia ...   103   4e-20
+UniRef90_I3IWP6 Transmembrane and ubiquitin-like domain containi...   103   4e-20
+UniRef90_UPI000497E716 transmembrane and ubiquitin-like domain-c...   103   6e-20
+UniRef90_A0A0N4UY46 Uncharacterized protein n=1 Tax=Enterobius v...   103   6e-20
+UniRef90_A0A1I7XWB5 Uncharacterized protein n=2 Tax=Steinernema ...   103   7e-20
+UniRef90_A0A1I7XWA6 Uncharacterized protein n=1 Tax=Steinernema ...   103   7e-20
+UniRef90_UPI0009E5CBB5 transmembrane and ubiquitin-like domain-c...   102   7e-20
+UniRef90_F7FBZ1 Uncharacterized protein n=1 Tax=Ornithorhynchus ...   102   9e-20
+UniRef90_H2V0D9 Transmembrane and ubiquitin-like domain containi...   102   9e-20
+UniRef90_UPI0009B4E7AE transmembrane and ubiquitin-like domain-c...   102   1e-19
+UniRef90_B7Q289 Uncharacterized protein n=3 Tax=Ixodes TaxID=694...   101   1e-19
+UniRef90_H2V0D8 Transmembrane and ubiquitin-like domain containi...   101   1e-19
+UniRef90_W5UKD3 Transmembrane and ubiquitin-like domain-containi...   101   1e-19
+UniRef90_H0XIK0 Transmembrane and ubiquitin like domain containi...   101   1e-19
+UniRef90_K7FG63 Transmembrane and ubiquitin like domain containi...   101   1e-19
+UniRef90_UPI000555BA8F transmembrane and ubiquitin-like domain-c...   101   1e-19
+UniRef90_A0A0S7MDZ6 TMUB2 (Fragment) n=1 Tax=Poeciliopsis prolif...   101   2e-19
+UniRef90_A0A1E1XSV7 Putative transmembrane and ubiquitin-like do...   101   2e-19
+UniRef90_A0A0A9YWL6 Transmembrane and ubiquitin-like domain-cont...   101   2e-19
+UniRef90_UPI000873DD23 transmembrane and ubiquitin-like domain-c...   101   2e-19
+UniRef90_UPI000359CE96 transmembrane and ubiquitin-like domain-c...   101   2e-19
+UniRef90_A0A0B2V781 Uncharacterized protein n=1 Tax=Toxocara can...   101   2e-19
+UniRef90_H1A3C9 Uncharacterized protein n=2 Tax=Taeniopygia gutt...   101   2e-19
+UniRef90_A0A0M3IWK3 Uncharacterized protein n=1 Tax=Ascaris lumb...   101   2e-19
+UniRef90_H0VAV2 Transmembrane and ubiquitin like domain containi...   101   2e-19
+UniRef90_A0A218UGP4 Transmembrane and ubiquitin-like domain-cont...   101   2e-19
+UniRef90_UPI000B4C5B48 transmembrane and ubiquitin-like domain-c...   101   2e-19
+UniRef90_A0A183F3M6 Uncharacterized protein n=1 Tax=Heligmosomoi...   100   3e-19
+UniRef90_A0A1E1XDJ5 Putative transmembrane and ubiquitin-like do...   100   3e-19
+UniRef90_UPI00033156F3 transmembrane and ubiquitin-like domain-c...   100   3e-19
+UniRef90_Q9JMG3 Transmembrane and ubiquitin-like domain-containi...   100   3e-19
+UniRef90_A0A0N5DU61 Uncharacterized protein n=1 Tax=Trichuris mu...   100   3e-19
+UniRef90_E9QN77 Transmembrane and ubiquitin-like domain-containi...   100   3e-19
+UniRef90_UPI00032B0D98 transmembrane and ubiquitin-like domain-c...   100   3e-19
+UniRef90_G3MKG8 Uncharacterized protein n=2 Tax=Amblyomma TaxID=...   100   4e-19
+UniRef90_UPI0007ACC33F transmembrane and ubiquitin-like domain-c...   100   4e-19
+UniRef90_UPI00083C57A0 LOW QUALITY PROTEIN: transmembrane and ub...   100   4e-19
+UniRef90_A0A1B6L6D6 Uncharacterized protein n=4 Tax=Cicadellinae...   100   4e-19
+UniRef90_A0A085N611 Uncharacterized protein n=2 Tax=Trichuris su...   100   4e-19
+UniRef90_Q8JFU2 Novel ubiquitin n=1 Tax=Danio rerio TaxID=7955 R...   100   4e-19
+UniRef90_UPI0007428BFA transmembrane and ubiquitin-like domain-c...   100   4e-19
+UniRef90_G3W827 Transmembrane and ubiquitin like domain containi...   100   4e-19
+UniRef90_U6PWV6 WD40 repeat and Ubiquitin domain containing prot...   100   5e-19
+UniRef90_U6NJ12 WD40 repeat and Ubiquitin domain containing prot...   100   5e-19
+UniRef90_A0A016VS57 Uncharacterized protein n=3 Tax=Ancylostoma ...   100   5e-19
+UniRef90_A0A016VT77 Uncharacterized protein n=2 Tax=Ancylostoma ...   100   5e-19
+UniRef90_A0A0D6LR80 Ubiquitin family protein n=1 Tax=Ancylostoma...   100   5e-19
+UniRef90_A0A0N4W330 Uncharacterized protein n=1 Tax=Haemonchus p...   100   5e-19
+UniRef90_UPI00045DC0C9 transmembrane and ubiquitin-like domain-c...   100   5e-19
+UniRef90_A0A182DWW7 Uncharacterized protein n=1 Tax=Onchocerca o...   100   5e-19
+UniRef90_I3MQV7 Transmembrane and ubiquitin like domain containi...   100   5e-19
+UniRef90_A0A1A8J6D1 Transmembrane and ubiquitin-like domain cont...   100   5e-19
+UniRef90_G3HB66 Transmembrane and ubiquitin-like domain-containi...   100   5e-19
+UniRef90_UPI0006CEC128 transmembrane and ubiquitin-like domain-c...   100   6e-19
+UniRef90_A0A0N4XYM5 Uncharacterized protein n=1 Tax=Nippostrongy...   100   6e-19
+UniRef90_Q53AQ4 Transmembrane and ubiquitin-like domain-containi...   100   6e-19
+UniRef90_UPI000644317F transmembrane and ubiquitin-like domain-c...   100   6e-19
+UniRef90_Q9BVT8 Transmembrane and ubiquitin-like domain-containi...   100   6e-19
+UniRef90_G3RVM5 Transmembrane and ubiquitin like domain containi...   100   6e-19
+UniRef90_H2PP26 Transmembrane and ubiquitin like domain containi...   100   6e-19
+UniRef90_U6D4G4 Transmembrane and ubiquitin-like domain-containi...   100   6e-19
+UniRef90_H0W3V2 Transmembrane and ubiquitin like domain containi...   100   6e-19
+UniRef90_A0A091DAW4 Transmembrane and ubiquitin-like domain-cont...   100   6e-19
+UniRef90_UPI00076712BA transmembrane and ubiquitin-like domain-c...   100   6e-19
+UniRef90_A0A0H5S9Y0 Bm1746 n=5 Tax=Onchocercidae TaxID=6296 RepI...   100   7e-19
+UniRef90_UPI00097CFEEA transmembrane and ubiquitin-like domain-c...   100   7e-19
+UniRef90_UPI000161D635 Ubiquitin family protein n=1 Tax=Brugia m...    99   7e-19
+UniRef90_A0A1A7ZWL8 Transmembrane and ubiquitin-like domain cont...    99   8e-19
+UniRef90_E3N069 Uncharacterized protein n=1 Tax=Caenorhabditis r...    99   8e-19
+UniRef90_UPI00038EB4E7 transmembrane and ubiquitin-like domain-c...    99   9e-19
+UniRef90_UPI0006969E72 N-acetylglucosamine-6-sulfatase n=1 Tax=C...    99   9e-19
+UniRef90_UPI0006980DCF probable threonine protease PRSS50 n=1 Ta...    99   9e-19
+UniRef90_UPI000333814D transmembrane and ubiquitin-like domain-c...    99   1e-18
+UniRef90_UPI0006D500B4 transmembrane and ubiquitin-like domain-c...    99   1e-18
+UniRef90_A0A0V1JG61 Transmembrane and ubiquitin-like domain-cont...    99   1e-18
+UniRef90_UPI00094EF446 transmembrane and ubiquitin-like domain-c...    99   1e-18
+UniRef90_A0A0V0WKI8 Transmembrane and ubiquitin-like domain-cont...    99   1e-18
+UniRef90_UPI00087429BC transmembrane and ubiquitin-like domain-c...    98   1e-18
+UniRef90_H9H091 Uncharacterized protein n=3 Tax=Neognathae TaxID...    98   2e-18
+UniRef90_A0A1A8DRT5 Transmembrane and ubiquitin-like domain cont...    98   2e-18
+UniRef90_A0A0V1AG46 Cysteine and glycine-rich protein 2 (Fragmen...    98   2e-18
+UniRef90_A0A0V1AGP5 Cysteine and glycine-rich protein 2 n=8 Tax=...    98   2e-18
+UniRef90_A0A1U8MRQ0 ubiquitin domain-containing protein DSK2b-li...    98   2e-18
+UniRef90_A0A0R3RT34 Uncharacterized protein n=1 Tax=Elaeophora e...    98   2e-18
+UniRef90_A0A0V1F0F2 Cysteine and glycine-rich protein 2 n=4 Tax=...    98   2e-18
+UniRef90_A0A044V2A5 Uncharacterized protein n=1 Tax=Onchocerca v...    98   2e-18
+UniRef90_A0A158PCC8 Uncharacterized protein n=2 Tax=Angiostrongy...    98   2e-18
+UniRef90_A0A1I7VT36 Uncharacterized protein n=1 Tax=Loa loa TaxI...    98   3e-18
+UniRef90_Q3ZBI9 Transmembrane and ubiquitin-like domain-containi...    98   3e-18
+UniRef90_W5NYX7 Transmembrane and ubiquitin like domain containi...    98   3e-18
+UniRef90_A0A1S3AL66 transmembrane and ubiquitin-like domain-cont...    97   3e-18
+UniRef90_A0A0V0Y1V5 Cysteine and glycine-rich protein 2 n=1 Tax=...    97   3e-18
+UniRef90_A0A170Y384 Transmembrane and ubiquitin-like protein dom...    97   3e-18
+UniRef90_A0A0V1BDW3 Cysteine and glycine-rich protein 2 n=4 Tax=...    97   3e-18
+UniRef90_A0A1A8EUF6 Transmembrane and ubiquitin-like domain cont...    97   3e-18
+UniRef90_UPI00076FBB32 transmembrane and ubiquitin-like domain-c...    97   3e-18
+UniRef90_R4G438 Uncharacterized protein n=1 Tax=Rhodnius prolixu...    97   3e-18
+UniRef90_A0A1B6E715 Uncharacterized protein n=3 Tax=Clastoptera ...    97   3e-18
+UniRef90_A8X3A3 Protein CBG06886 n=2 Tax=Caenorhabditis briggsae...    97   3e-18
+UniRef90_UPI0007638398 transmembrane and ubiquitin-like domain-c...    97   4e-18
+UniRef90_A0A158RCV1 Uncharacterized protein n=1 Tax=Thelazia cal...    97   4e-18
+UniRef90_V4B684 Uncharacterized protein n=1 Tax=Lottia gigantea ...    97   4e-18
+UniRef90_UPI0006B0F55D transmembrane and ubiquitin-like domain-c...    97   4e-18
+UniRef90_J9JQZ3 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    97   4e-18
+UniRef90_A0A1A8QWX3 Transmembrane and ubiquitin-like domain cont...    97   4e-18
+UniRef90_A0A0D8XFY9 Ubiquitin family protein n=1 Tax=Dictyocaulu...    97   5e-18
+UniRef90_A0A1B0CBG6 Uncharacterized protein n=1 Tax=Lutzomyia lo...    97   5e-18
+UniRef90_A0A183CX67 Uncharacterized protein n=1 Tax=Gongylonema ...    97   5e-18
+UniRef90_A0A1U8AGE2 ubiquitin domain-containing protein DSK2a-li...    97   5e-18
+UniRef90_UPI000994E4A9 transmembrane and ubiquitin-like domain-c...    97   6e-18
+UniRef90_A0A1I7SSZ3 Uncharacterized protein n=1 Tax=Bursaphelenc...    97   6e-18
+UniRef90_H9G6Y4 Transmembrane and ubiquitin like domain containi...    96   6e-18
+UniRef90_A0A1U8IMZ4 ubiquitin domain-containing protein DSK2a-li...    96   7e-18
+UniRef90_A0A067RHA8 Transmembrane and ubiquitin-like domain-cont...    96   7e-18
+UniRef90_E9IRZ1 Uncharacterized protein (Fragment) n=1 Tax=Solen...    96   7e-18
+UniRef90_A0A023EPS1 Putative ubiquitin-like protein (Fragment) n...    96   8e-18
+UniRef90_A0A1S4ELP9 transmembrane and ubiquitin-like domain-cont...    96   8e-18
+UniRef90_A0A1S2YT05 ubiquitin domain-containing protein DSK2b-li...    96   9e-18
+UniRef90_A0A1L8DSK2 Putative transmembrane and ubiquitin-like do...    96   1e-17
+UniRef90_E0VMA3 Uncharacterized protein n=1 Tax=Pediculus humanu...    96   1e-17
+UniRef90_UPI0005EFB8BC transmembrane and ubiquitin-like domain-c...    96   1e-17
+UniRef90_P34256 Uncharacterized protein B0303.4 n=1 Tax=Caenorha...    96   1e-17
+UniRef90_UPI000625AFB0 transmembrane and ubiquitin-like domain-c...    96   1e-17
+UniRef90_A0A1Q3FB22 Putative ubiquitin-like protein n=1 Tax=Cule...    95   1e-17
+UniRef90_Q17A35 AAEL005405-PA n=1 Tax=Aedes aegypti TaxID=7159 R...    95   1e-17
+UniRef90_V5H1N7 Transmembrane and ubiquitin-like domain-containi...    95   1e-17
+UniRef90_A0A068U0W1 Uncharacterized protein n=1 Tax=Coffea canep...    95   1e-17
+UniRef90_A0A1B0D302 Uncharacterized protein n=1 Tax=Phlebotomus ...    95   1e-17
+UniRef90_UPI000697474F transmembrane and ubiquitin-like domain-c...    95   1e-17
+UniRef90_UPI00053C9B5F ubiquitin domain-containing protein DSK2a...    95   1e-17
+UniRef90_UPI00077EBD4A ubiquitin domain-containing protein DSK2a...    95   1e-17
+UniRef90_A0A182N5J4 Uncharacterized protein n=1 Tax=Anopheles di...    95   1e-17
+UniRef90_B0WGQ9 Uncharacterized protein n=1 Tax=Culex quinquefas...    95   2e-17
+UniRef90_A0A182G9V2 Uncharacterized protein n=5 Tax=Aedes albopi...    95   2e-17
+UniRef90_A0A1U8LAK0 ubiquitin domain-containing protein DSK2a-li...    95   2e-17
+UniRef90_UPI000771A37E transmembrane and ubiquitin-like domain-c...    95   2e-17
+UniRef90_G0NB50 Uncharacterized protein n=1 Tax=Caenorhabditis b...    95   2e-17
+UniRef90_A0A131XI28 Putative transmembrane and ubiquitin-like do...    95   2e-17
+UniRef90_A0A1Y1KLD0 Uncharacterized protein n=1 Tax=Photinus pyr...    95   2e-17
+UniRef90_G7L9G3 Ubiquitin 1, related protein n=1 Tax=Medicago tr...    95   2e-17
+UniRef90_A0A182RYE6 Uncharacterized protein n=2 Tax=Myzomyia Tax...    95   2e-17
+UniRef90_A0A1R3IBQ7 Uncharacterized protein n=1 Tax=Corchorus ca...    95   2e-17
+UniRef90_Q7QH50 AGAP004089-PA n=6 Tax=Pyretophorus TaxID=44537 R...    95   2e-17
+UniRef90_A0A182PNL4 Uncharacterized protein n=1 Tax=Anopheles ep...    94   2e-17
+UniRef90_UPI00061539B9 transmembrane and ubiquitin-like domain-c...    94   2e-17
+UniRef90_A0A1I7V557 Uncharacterized protein n=1 Tax=Caenorhabdit...    94   3e-17
+UniRef90_UPI0004CCB5DE transmembrane and ubiquitin-like domain-c...    94   3e-17
+UniRef90_UPI000711D692 transmembrane and ubiquitin-like domain-c...    94   3e-17
+UniRef90_UPI00092FD599 ubiquitin domain-containing protein DSK2b...    94   3e-17
+UniRef90_A0A026W5S1 Transmembrane and ubiquitin-like domain-cont...    94   3e-17
+UniRef90_A0A1R3GCC0 Uncharacterized protein n=1 Tax=Corchorus ca...    94   3e-17
+UniRef90_A0A1A9U316 Uncharacterized protein n=1 Tax=Anopheles st...    94   3e-17
+UniRef90_M5VJL5 Uncharacterized protein n=7 Tax=Maloideae TaxID=...    94   3e-17
+UniRef90_UPI00095352FA transmembrane and ubiquitin-like domain-c...    94   3e-17
+UniRef90_A0A1I8BSA8 Uncharacterized protein n=1 Tax=Meloidogyne ...    94   4e-17
+UniRef90_A0A182T8Q4 Uncharacterized protein n=2 Tax=Neocellia Ta...    94   4e-17
+UniRef90_A0A0A7R5G1 Ubiquitin-like protein n=1 Tax=Betula lumini...    94   4e-17
+UniRef90_U5GGQ0 Ubiquitin family protein n=2 Tax=Populus TaxID=3...    94   4e-17
+UniRef90_UPI0005F4724E transmembrane and ubiquitin-like domain-c...    94   4e-17
+UniRef90_E2BLD1 Transmembrane and ubiquitin-like domain-containi...    94   4e-17
+UniRef90_A0A218X6B2 Uncharacterized protein n=1 Tax=Punica grana...    93   4e-17
+UniRef90_K7IBH9 Uncharacterized protein n=1 Tax=Caenorhabditis j...    93   4e-17
+UniRef90_UPI000901A260 ubiquitin domain-containing protein DSK2b...    93   4e-17
+UniRef90_S4R8H2 Transmembrane and ubiquitin like domain containi...    93   5e-17
+UniRef90_A0A158NRA2 Uncharacterized protein n=7 Tax=Attini TaxID...    93   5e-17
+UniRef90_W5J3Z1 Uncharacterized protein n=1 Tax=Anopheles darlin...    93   5e-17
+UniRef90_A0A182M621 Uncharacterized protein n=1 Tax=Anopheles cu...    93   5e-17
+UniRef90_N6TT41 Uncharacterized protein (Fragment) n=4 Tax=Dendr...    93   5e-17
+UniRef90_UPI00063EE542 transmembrane and ubiquitin-like domain-c...    93   5e-17
+UniRef90_F6I281 Uncharacterized protein n=1 Tax=Vitis vinifera T...    93   5e-17
+UniRef90_UPI00053F458A ubiquitin domain-containing protein DSK2b...    93   5e-17
+UniRef90_A0A182J8V9 Uncharacterized protein n=1 Tax=Anopheles at...    93   6e-17
+UniRef90_UPI0006231BCB transmembrane and ubiquitin-like domain-c...    93   6e-17
+UniRef90_A0A084WNP6 AGAP004089-PA-like protein n=1 Tax=Anopheles...    93   6e-17
+UniRef90_V9IIE6 Transmembrane and ubiquitin-like domain-containi...    93   6e-17
+UniRef90_K1P6V6 Transmembrane and ubiquitin-like domain-containi...    93   7e-17
+UniRef90_A0A1S4A5X4 ubiquitin domain-containing protein DSK2b-li...    93   7e-17
+UniRef90_F6I0T0 Uncharacterized protein n=4 Tax=Vitis vinifera T...    93   7e-17
+UniRef90_A0A199UL45 Ubiquitin domain-containing protein DSK2b n=...    93   7e-17
+UniRef90_UPI000786B7DD ubiquitin domain-containing protein DSK2b...    93   8e-17
+UniRef90_K7J1A4 Uncharacterized protein n=1 Tax=Nasonia vitripen...    93   8e-17
+UniRef90_G7K016 Ubiquitin 1, related protein n=4 Tax=Papilionoid...    93   8e-17
+UniRef90_A0A0B6Y9W0 Uncharacterized protein (Fragment) n=1 Tax=A...    93   8e-17
+UniRef90_UPI00062647D0 transmembrane and ubiquitin-like domain-c...    93   8e-17
+UniRef90_A0A1E1VYK2 Uncharacterized protein n=3 Tax=Pectinophora...    93   8e-17
+UniRef90_A0A061DF35 Ubiquitin family protein isoform 1 n=4 Tax=B...    92   9e-17
+UniRef90_A0A210QWW5 Transmembrane and ubiquitin-like domain-cont...    92   1e-16
+UniRef90_UPI0007670F9D transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_A0A1Y9H9M3 Uncharacterized protein n=1 Tax=Anopheles fa...    92   1e-16
+UniRef90_A0A1S3BIC8 ubiquitin domain-containing protein DSK2a-li...    92   1e-16
+UniRef90_K4BFI7 Uncharacterized protein n=4 Tax=Solanoideae TaxI...    92   1e-16
+UniRef90_UPI00077DA0D8 transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_UPI0006199C73 transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_A0A182FPS1 Uncharacterized protein n=1 Tax=Anopheles al...    92   1e-16
+UniRef90_A0A0L7RG79 Transmembrane and ubiquitin-like domain-cont...    92   1e-16
+UniRef90_UPI000B379D4A transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_UPI0006746326 transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_E2A0G0 Transmembrane and ubiquitin-like domain-containi...    92   1e-16
+UniRef90_UPI00084010D5 transmembrane and ubiquitin-like domain-c...    92   1e-16
+UniRef90_UPI00098262E4 ubiquitin domain-containing protein DSK2a...    92   1e-16
+UniRef90_A0A0K9Q4R7 Ubiquitin domain-containing protein DSK2b n=...    92   2e-16
+UniRef90_A0A1E1WG28 Uncharacterized protein n=2 Tax=Pectinophora...    92   2e-16
+UniRef90_A0A1U7YXT6 ubiquitin domain-containing protein DSK2a-li...    92   2e-16
+UniRef90_A0A0D2SUE8 Uncharacterized protein n=2 Tax=Gossypium ra...    92   2e-16
+UniRef90_A0A200PQV0 Ubiquitin-associated domain/translation elon...    92   2e-16
+UniRef90_A0A0T6B465 Ubiquitin (Fragment) n=1 Tax=Oryctes borboni...    92   2e-16
+UniRef90_A0A124SFF0 Heat shock chaperonin-binding n=1 Tax=Cynara...    92   2e-16
+UniRef90_J9LW39 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    92   2e-16
+UniRef90_A0A1Q3CSA3 Ubiquitin domain-containing protein (Fragmen...    92   2e-16
+UniRef90_A0A200RA30 Ubiquitin-associated domain/translation elon...    92   2e-16
+UniRef90_A0A1U8M137 ubiquitin domain-containing protein DSK2a-li...    91   2e-16
+UniRef90_A0A1U8LXS7 ubiquitin domain-containing protein DSK2b-li...    91   2e-16
+UniRef90_M0S007 Uncharacterized protein n=2 Tax=Musa acuminata s...    91   2e-16
+UniRef90_A0A158R456 Uncharacterized protein n=1 Tax=Syphacia mur...    91   2e-16
+UniRef90_A0A061E598 Ubiquitin family protein isoform 3 n=1 Tax=T...    91   2e-16
+UniRef90_A0A061DYF3 Ubiquitin family protein isoform 2 n=6 Tax=B...    91   2e-16
+UniRef90_UPI0006C99C48 transmembrane and ubiquitin-like domain-c...    91   2e-16
+UniRef90_U5G4H9 Uncharacterized protein n=3 Tax=Populus TaxID=36...    91   2e-16
+UniRef90_UPI0005814FAC ubiquitin domain-containing protein DSK2b...    91   3e-16
+UniRef90_M5VTV5 Uncharacterized protein n=6 Tax=Prunus TaxID=375...    91   3e-16
+UniRef90_UPI000B8C8BED ubiquitin domain-containing protein DSK2b...    91   3e-16
+UniRef90_UPI0005109502 ubiquitin domain-containing protein DSK2b...    91   3e-16
+UniRef90_A0A0M3K7X1 LD10456p (inferred by orthology to a D. mela...    91   3e-16
+UniRef90_UPI00098DA987 ubiquitin domain-containing protein DSK2a...    90   4e-16
+UniRef90_A0A0V0I5N1 Putative ubiquitin domain-containing protein...    90   4e-16
+UniRef90_UPI0007383D22 transmembrane and ubiquitin-like domain-c...    90   4e-16
+UniRef90_A0A0K9RF84 Uncharacterized protein n=2 Tax=Spinacia ole...    90   5e-16
+UniRef90_K4BAF0 Uncharacterized protein n=15 Tax=Solanaceae TaxI...    90   5e-16
+UniRef90_A0A1D2N1V8 Transmembrane and ubiquitin-like domain-cont...    90   5e-16
+UniRef90_U5ENK6 Putative conserved plasma membrane protein (Frag...    90   5e-16
+UniRef90_C3Z9M0 Uncharacterized protein n=1 Tax=Branchiostoma fl...    90   5e-16
+UniRef90_UPI00077E9958 ubiquitin domain-containing protein DSK2a...    90   5e-16
+UniRef90_UPI0005CE932B transmembrane and ubiquitin-like domain-c...    90   5e-16
+UniRef90_UPI000718B0F0 transmembrane and ubiquitin-like domain-c...    90   5e-16
+UniRef90_UPI000809CD8D ubiquitin domain-containing protein DSK2b...    90   5e-16
+UniRef90_UPI0004E540E6 ubiquitin domain-containing protein DSK2a...    90   5e-16
+UniRef90_B9H660 Uncharacterized protein n=3 Tax=Populus TaxID=36...    90   5e-16
+UniRef90_A0A0V0H5G2 Putative ovule protein (Fragment) n=1 Tax=So...    90   5e-16
+UniRef90_A0A194Q370 Transmembrane and ubiquitin-like domain-cont...    90   5e-16
+UniRef90_UPI000679076E transmembrane and ubiquitin-like domain-c...    90   5e-16
+UniRef90_A0A1S3BKE7 ubiquitin domain-containing protein DSK2a-li...    90   6e-16
+UniRef90_A0A067L974 Uncharacterized protein n=4 Tax=Crotonoideae...    90   6e-16
+UniRef90_UPI0009D6B32A ubiquitin domain-containing protein DSK2b...    90   6e-16
+UniRef90_H9JAB9 Uncharacterized protein n=3 Tax=Bombyx mori TaxI...    90   6e-16
+UniRef90_UPI00067E53FC transmembrane and ubiquitin-like domain-c...    90   6e-16
+UniRef90_Q9SII9 Ubiquitin domain-containing protein DSK2a n=4 Ta...    90   6e-16
+UniRef90_R0G413 Uncharacterized protein n=4 Tax=Camelineae TaxID...    90   6e-16
+UniRef90_A0A212FNA9 Transmembrane and ubiquitin domain-containin...    90   7e-16
+UniRef90_UPI0009479398 transmembrane and ubiquitin-like domain-c...    90   7e-16
+UniRef90_A0A1D1ZF67 Ubiquilin-1 (Fragment) n=1 Tax=Anthurium amn...    90   7e-16
+UniRef90_A0A1D1Y8B3 Ubiquilin-1 (Fragment) n=1 Tax=Anthurium amn...    90   7e-16
+UniRef90_A0A1W4WU16 transmembrane and ubiquitin-like domain-cont...    90   7e-16
+UniRef90_UPI00096B5180 transmembrane and ubiquitin-like domain-c...    90   7e-16
+UniRef90_A0A0K8TPK1 Putative transmembrane and ubiquitin-like do...    89   8e-16
+UniRef90_M1BH34 Uncharacterized protein n=3 Tax=Solanum tuberosu...    89   8e-16
+UniRef90_UPI0005AC6B6B transmembrane and ubiquitin-like domain-c...    89   8e-16
+UniRef90_S8CGG8 Uncharacterized protein (Fragment) n=1 Tax=Genli...    89   9e-16
+UniRef90_A0A1S4AGM9 ubiquitin domain-containing protein DSK2b-li...    89   9e-16
+UniRef90_V4RUZ0 Uncharacterized protein n=3 Tax=Citrus TaxID=270...    89   9e-16
+UniRef90_A0A059BEV0 Uncharacterized protein n=4 Tax=Eucalyptus g...    89   1e-15
+UniRef90_R7TWV1 Uncharacterized protein n=1 Tax=Capitella teleta...    89   1e-15
+UniRef90_E9H8M8 Uncharacterized protein n=1 Tax=Daphnia pulex Ta...    89   1e-15
+UniRef90_A0A022RGM8 Uncharacterized protein n=3 Tax=Erythranthe ...    89   1e-15
+UniRef90_UPI000640B858 transmembrane and ubiquitin-like domain-c...    89   1e-15
+UniRef90_W4Y0A3 Uncharacterized protein n=1 Tax=Strongylocentrot...    89   1e-15
+UniRef90_UPI0004E57462 ubiquitin domain-containing protein DSK2a...    89   1e-15
+UniRef90_A0A194R6P3 Transmembrane and ubiquitin-like domain-cont...    88   1e-15
+UniRef90_UPI00084B0973 uncharacterized protein LOC108667230 n=1 ...    88   2e-15
+UniRef90_UPI00057A5A50 ubiquitin domain-containing protein DSK2b...    88   2e-15
+UniRef90_UPI000B78C9E4 ubiquitin domain-containing protein DSK2b...    88   2e-15
+UniRef90_UPI0005D07FEB transmembrane and ubiquitin-like domain-c...    88   2e-15
+UniRef90_UPI0008DD23FC ubiquitin domain-containing protein DSK2a...    88   2e-15
+UniRef90_UPI0005D2F589 transmembrane and ubiquitin-like domain-c...    88   2e-15
+UniRef90_UPI0009F6313A ubiquitin domain-containing protein DSK2b...    88   2e-15
+UniRef90_Q9SII8 Ubiquitin domain-containing protein DSK2b n=10 T...    88   2e-15
+UniRef90_UPI00053FBE77 ubiquitin domain-containing protein DSK2b...    88   2e-15
+UniRef90_UPI00098E3629 ubiquitin domain-containing protein DSK2b...    88   2e-15
+UniRef90_I1LI99 Uncharacterized protein n=9 Tax=Phaseoleae TaxID...    88   2e-15
+UniRef90_A0A0R0G040 Uncharacterized protein n=1 Tax=Glycine max ...    88   3e-15
+UniRef90_UPI0008DD1E41 ubiquitin domain-containing protein DSK2b...    88   3e-15
+UniRef90_A0A1U8ML38 ubiquitin domain-containing protein DSK2b-li...    88   3e-15
+UniRef90_A0A0D2MHH7 Uncharacterized protein n=1 Tax=Gossypium ra...    88   3e-15
+UniRef90_UPI00063ACFA9 ubiquitin domain-containing protein DSK2b...    88   3e-15
+UniRef90_A0A218U233 Uncharacterized protein n=4 Tax=Manihot escu...    88   3e-15
+UniRef90_A0A0L9TNI4 Uncharacterized protein n=6 Tax=Phaseolus an...    88   3e-15
+UniRef90_S8DVM4 Uncharacterized protein (Fragment) n=1 Tax=Genli...    87   3e-15
+UniRef90_W9S8S6 Uncharacterized protein n=1 Tax=Morus notabilis ...    87   3e-15
+UniRef90_A0A0B0NJZ4 Ubiquilin n=1 Tax=Gossypium arboreum TaxID=2...    87   3e-15
+UniRef90_A0A1U8N588 ubiquitin domain-containing protein DSK2b-li...    87   3e-15
+UniRef90_UPI00067677A2 transmembrane and ubiquitin-like domain-c...    87   3e-15
+UniRef90_A0A0D3D3I9 Uncharacterized protein n=12 Tax=Brassiceae ...    87   3e-15
+UniRef90_UPI0009500F1F ubiquitin domain-containing protein DSK2a...    87   4e-15
+UniRef90_I1JCA6 Uncharacterized protein n=18 Tax=Phaseoleae TaxI...    87   4e-15
+UniRef90_A0A059APP3 Uncharacterized protein n=2 Tax=Eucalyptus g...    87   4e-15
+UniRef90_A0A1Q3AWM9 Ubiquitin domain-containing protein/UBA doma...    87   4e-15
+UniRef90_UPI00053C3AF5 ubiquitin domain-containing protein DSK2b...    87   4e-15
+UniRef90_A0A1I8CFW8 Uncharacterized protein n=1 Tax=Rhabditophan...    87   4e-15
+UniRef90_A0A166DMZ0 Uncharacterized protein n=3 Tax=Daucus carot...    87   4e-15
+UniRef90_UPI0005D0D68D transmembrane and ubiquitin-like domain-c...    87   4e-15
+UniRef90_UPI0005815D51 ubiquitin domain-containing protein DSK2a...    87   5e-15
+UniRef90_UPI00053CA6EB ubiquitin domain-containing protein DSK2b...    87   5e-15
+UniRef90_UPI000678EA35 transmembrane and ubiquitin-like domain-c...    87   5e-15
+UniRef90_UPI0006C979E6 transmembrane and ubiquitin-like domain-c...    87   5e-15
+UniRef90_A0A0L8HH26 Uncharacterized protein n=1 Tax=Octopus bima...    87   6e-15
+UniRef90_B9S6T7 Plant ubiquilin, putative n=1 Tax=Ricinus commun...    87   6e-15
+UniRef90_A0A165A625 Uncharacterized protein n=2 Tax=Daucus carot...    87   6e-15
+UniRef90_T1EG18 Uncharacterized protein n=1 Tax=Helobdella robus...    86   8e-15
+UniRef90_UPI0002C2E350 ubiquitin domain-containing protein DSK2a...    86   9e-15
+UniRef90_W1NLJ7 Uncharacterized protein n=3 Tax=Amborella tricho...    86   9e-15
+UniRef90_A0A022RL82 Uncharacterized protein n=2 Tax=Erythranthe ...    86   9e-15
+UniRef90_A0A1B6HMV1 Uncharacterized protein n=1 Tax=Homalodisca ...    86   9e-15
+UniRef90_A0A218XH57 Uncharacterized protein n=1 Tax=Punica grana...    86   9e-15
+UniRef90_A0A158Q2P2 Uncharacterized protein n=1 Tax=Dracunculus ...    86   9e-15
+UniRef90_A0A1B6KIU4 Uncharacterized protein n=1 Tax=Graphocephal...    86   1e-14
+UniRef90_A0A1B6GQH6 Uncharacterized protein n=1 Tax=Cuerna arida...    85   1e-14
+UniRef90_A0A1E5WFG4 Ubiquitin domain-containing protein DSK2b n=...    85   1e-14
+UniRef90_A0A0D3E340 Uncharacterized protein n=7 Tax=Brassica Tax...    85   1e-14
+UniRef90_A0A087TUB5 Transmembrane and ubiquitin-like domain-cont...    85   1e-14
+UniRef90_A0A1R3JB06 Uncharacterized protein n=1 Tax=Corchorus ol...    85   1e-14
+UniRef90_A0A078DFG3 BnaA06g25920D protein n=5 Tax=Brassiceae Tax...    85   1e-14
+UniRef90_M0SXJ0 Uncharacterized protein n=3 Tax=Musa acuminata s...    85   1e-14
+UniRef90_V4P2K4 Uncharacterized protein n=1 Tax=Eutrema salsugin...    85   1e-14
+UniRef90_E9P1L2 Ubiquitin 1 n=7 Tax=Musa acuminata TaxID=4641 Re...    85   1e-14
+UniRef90_UPI0009E3680E ubiquitin domain-containing protein DSK2b...    85   1e-14
+UniRef90_A0A078IE94 BnaA09g08970D protein n=1 Tax=Brassica napus...    85   1e-14
+UniRef90_UPI00090DDBBD ubiquitin domain-containing protein DSK2b...    85   2e-14
+UniRef90_A0A0D6QX22 Uncharacterized protein n=1 Tax=Araucaria cu...    85   2e-14
+UniRef90_UPI0008F9A52C transmembrane and ubiquitin-like domain-c...    85   2e-14
+UniRef90_UPI0005815384 ubiquitin domain-containing protein DSK2b...    85   2e-14
+UniRef90_A0A103XSK3 Heat shock chaperonin-binding n=1 Tax=Cynara...    85   2e-14
+UniRef90_K4B646 Uncharacterized protein n=1 Tax=Solanum lycopers...    85   2e-14
+UniRef90_UPI000B8C9E5D ubiquitin domain-containing protein DSK2a...    85   2e-14
+UniRef90_UPI0008DB4A74 polyubiquitin-C isoform X1 n=1 Tax=Serinu...    85   2e-14
+UniRef90_UPI0008DB7D86 polyubiquitin-C isoform X2 n=1 Tax=Serinu...    85   2e-14
+UniRef90_A0A1J3DS54 Ubiquitin domain-containing protein DSK2b n=...    85   2e-14
+UniRef90_A0A0K0E2K5 Uncharacterized protein n=1 Tax=Strongyloide...    84   3e-14
+UniRef90_Q7XCL2 Os10g0542200 protein n=14 Tax=Oryza TaxID=4527 R...    84   3e-14
+UniRef90_Q336W0 Ubiquitin family protein, expressed n=1 Tax=Oryz...    84   3e-14
+UniRef90_M0SAM1 Uncharacterized protein n=2 Tax=Musa acuminata s...    84   3e-14
+UniRef90_K4B662 Uncharacterized protein n=2 Tax=Solanum lycopers...    84   3e-14
+UniRef90_K4A7N5 Uncharacterized protein n=5 Tax=Setaria italica ...    84   3e-14
+UniRef90_B6TNT9 Ubiquilin-1 n=7 Tax=Panicoideae TaxID=147369 Rep...    84   3e-14
+UniRef90_A0A088AN85 Uncharacterized protein n=1 Tax=Apis mellife...    84   3e-14
+UniRef90_Q04232 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...    84   3e-14
+UniRef90_Q9WR83 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...    84   3e-14
+UniRef90_A0A1V4K2F8 Polyubiquitin-C isoform A n=2 Tax=Patagioena...    84   4e-14
+UniRef90_A0A0V0RGU1 Polyubiquitin-B n=1 Tax=Trichinella nelsoni ...    84   4e-14
+UniRef90_X1WRF8 Uncharacterized protein n=1 Tax=Acyrthosiphon pi...    83   4e-14
+UniRef90_UPI0005CABFBA ubiquitin domain-containing protein DSK2b...    83   5e-14
+UniRef90_Q9WR82 Polyprotein (Fragment) n=2 Tax=Bovine viral diar...    83   5e-14
+UniRef90_C0P3N5 Ubiquitin domain-containing protein DSK2b n=8 Ta...    83   5e-14
+UniRef90_A0A1D6K7R4 Ubiquitin domain-containing protein DSK2b n=...    83   5e-14
+UniRef90_A0A1J1IS20 CLUMA_CG016524, isoform B n=2 Tax=Clunio mar...    83   6e-14
+UniRef90_Q9WR87 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...    83   6e-14
+UniRef90_A0A0D9XM10 Uncharacterized protein n=1 Tax=Leersia perr...    83   6e-14
+UniRef90_Q9WR77 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...    83   6e-14
+UniRef90_Q9WR81 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...    83   7e-14
+UniRef90_A0A1R3ILF5 Uncharacterized protein n=1 Tax=Corchorus ol...    83   7e-14
+UniRef90_Q65810 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...    83   7e-14
+UniRef90_A0A151NSC4 Scavenger receptor class B member 1 isoform ...    83   7e-14
+UniRef90_UPI0009E18EF9 ubiquitin domain-containing protein DSK2b...    83   7e-14
+UniRef90_A0A0K0F7Z0 Uncharacterized protein n=2 Tax=Strongyloide...    83   8e-14
+UniRef90_A0A0N4ZMU0 Uncharacterized protein n=1 Tax=Parastrongyl...    83   9e-14
+UniRef90_Q9WR86 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...    83   9e-14
+UniRef90_A0A0V0RGT0 Polyubiquitin n=1 Tax=Trichinella nelsoni Ta...    83   9e-14
+UniRef90_C7AE89 Ubiquitin-like protein n=10 Tax=Triticeae TaxID=...    82   9e-14
+UniRef90_A0A1D6RDC4 Uncharacterized protein n=1 Tax=Triticum aes...    82   9e-14
+UniRef90_UPI00015386D5 Ubiquitin n=2 Tax=root TaxID=1 RepID=UPI0...    82   9e-14
+UniRef90_K4B658 Uncharacterized protein n=1 Tax=Solanum lycopers...    82   1e-13
+UniRef90_A0A1E3PMH2 Uncharacterized protein n=1 Tax=Nadsonia ful...    82   1e-13
+UniRef90_A0A0V0RGU3 Polyubiquitin-C n=12 Tax=cellular organisms ...    82   1e-13
+UniRef90_A0A1D5T0W9 Uncharacterized protein n=2 Tax=Triticum aes...    82   1e-13
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI0006B107CE ubiquitin-60S ribosomal protein L40 n=1 T...    83   9e-14
+UniRef90_UPI00071A8E17 ubiquitin-60S ribosomal protein L40 n=1 T...    83   9e-14
+UniRef90_UPI0008F5375D ubiquitin-60S ribosomal protein L40 isofo...    83   9e-14
+UniRef90_M1VD49 Ubiquitin with short C-terminal extension n=1 Ta...    82   1e-13
+UniRef90_UPI00063C7CD4 ubiquitin-60S ribosomal protein L40 isofo...    82   1e-13
+UniRef90_M2VTN6 Ubiquitin n=1 Tax=Galdieria sulphuraria TaxID=13...    82   1e-13
+UniRef90_A0A0L0DLX6 Uncharacterized protein n=1 Tax=Thecamonas t...    82   1e-13
+
+>UniRef90_H3AM98 Transmembrane and ubiquitin like domain containing 1 n=1
+           Tax=Latimeria chalumnae TaxID=7897 RepID=H3AM98_LATCH
+          Length = 306
+
+ Score =  115 bits (289), Expect = 1e-23,   Method: Composition-based stats.
+ Identities = 42/69 (60%), Positives = 60/69 (86%)
+
+Query: 1   GINVRLKFLNDTEELAVARPEDTVGTLKSKYFPGQESQMKLIYQGRLLQDPARTLSSLNI 60
+           G+ +RLKFLNDTE+LA  + +DT+G LK  YFPGQE Q++LIYQG+LL++ ++TL+SL++
+Sbjct: 162 GMVLRLKFLNDTEKLARVKLDDTIGYLKRTYFPGQEHQVRLIYQGQLLREDSQTLASLHL 221
+
+Query: 61  TNNCVIHCH 69
+           T+NCV+HCH
+Sbjct: 222 TDNCVLHCH 230
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.316    0.188    0.591 
+
+Lambda     K      H
+   0.267   0.0576    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 16,335,269,879
+Number of Sequences: 61934301
+Number of extensions: 750986085
+Number of successful extensions: 1669184
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 5048
+Number of HSP's successfully gapped in prelim test: 17961
+Number of HSP's that attempted gapping in prelim test: 1629900
+Number of HSP's gapped (non-prelim): 30068
+length of query: 70
+length of database: 21,023,703,129
+effective HSP length: 42
+effective length of query: 28
+effective length of database: 22,717,429,783
+effective search space: 636088033924
+effective search space used: 636088033924
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.1 bits)
+S2: 83 (36.1 bits)
