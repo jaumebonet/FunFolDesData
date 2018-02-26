@@ -1,0 +1,2337 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 3phxB
+         (74 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_P05161 Ubiquitin-like protein ISG15 n=16 Tax=Catarrhini...   146   4e-33
+UniRef90_G3RG63 ISG15 ubiquitin-like modifier n=7 Tax=Homininae ...   144   2e-32
+UniRef90_UPI0000DBBBE1 Interferon-induced 17 kDa protein n=3 Tax...   142   1e-31
+UniRef90_F6QHE9 ISG15 ubiquitin-like modifier n=2 Tax=Callithrix...   125   1e-26
+UniRef90_UPI00027FB2D6 ubiquitin-like protein ISG15 n=3 Tax=Plat...   122   1e-25
+UniRef90_U6DRB8 Ubiquitin-like protein ISG15 (Fragment) n=1 Tax=...   112   1e-22
+UniRef90_L8Y945 Ubiquitin-like protein ISG15 n=2 Tax=Tupaia TaxI...   112   1e-22
+UniRef90_E2R7R1 ISG15 ubiquitin-like modifier n=1 Tax=Canis lupu...   110   3e-22
+UniRef90_I3LU39 Uncharacterized protein n=4 Tax=Sus scrofa TaxID...   110   4e-22
+UniRef90_UPI0004ED4EF0 ubiquitin-like protein ISG15 n=1 Tax=Nann...   110   5e-22
+UniRef90_A0A1S3GXH4 ubiquitin-like protein ISG15 n=1 Tax=Dipodom...   110   5e-22
+UniRef90_G1MJQ9 Uncharacterized protein (Fragment) n=3 Tax=Ailur...   109   8e-22
+UniRef90_UPI00042C552C ubiquitin-like protein ISG15 n=1 Tax=Phys...   109   9e-22
+UniRef90_UPI0003292E81 ubiquitin-like protein ISG15 n=1 Tax=Dasy...   108   9e-22
+UniRef90_UPI0006435AA5 ubiquitin-like protein ISG15 n=1 Tax=Micr...   108   1e-21
+UniRef90_A0A1U8CAF8 ubiquitin-like protein ISG15 n=3 Tax=Criceti...   107   2e-21
+UniRef90_UPI000812E399 ubiquitin-like protein ISG15 n=1 Tax=Mani...   107   3e-21
+UniRef90_UPI0009816980 ubiquitin-like protein ISG15 n=1 Tax=Cast...   107   4e-21
+UniRef90_UPI00038C6402 ubiquitin-like protein ISG15 n=1 Tax=Micr...   106   5e-21
+UniRef90_H0XER2 Uncharacterized protein n=2 Tax=Otolemur garnett...   106   6e-21
+UniRef90_UPI00044065D6 ubiquitin-like protein ISG15 n=1 Tax=Bala...   105   1e-20
+UniRef90_UPI00033300F9 ubiquitin-like protein ISG15 n=1 Tax=Jacu...   105   1e-20
+UniRef90_UPI000441D5F1 uncharacterized protein LOC103076606 n=1 ...   105   1e-20
+UniRef90_F7D6U2 Uncharacterized protein n=3 Tax=Equus TaxID=3551...   103   3e-20
+UniRef90_M3YR61 ISG15 ubiquitin-like modifier n=3 Tax=Caniformia...   103   4e-20
+UniRef90_UPI0003EDDA9C ubiquitin-like protein ISG15 n=3 Tax=Cani...   103   4e-20
+UniRef90_UPI00062B7E2F ubiquitin-like protein ISG15 n=1 Tax=Orci...   103   5e-20
+UniRef90_G3TLH5 Uncharacterized protein n=2 Tax=Loxodonta africa...   102   1e-19
+UniRef90_Q9GKP4 Interferon stimulated gene 17 n=4 Tax=Bovidae Ta...   102   1e-19
+UniRef90_UPI000719843E ubiquitin-like protein ISG15 n=1 Tax=Cera...   101   1e-19
+UniRef90_UPI00064BAAC8 ubiquitin-like protein ISG15 n=1 Tax=Ocho...   101   1e-19
+UniRef90_H0XQ95 Uncharacterized protein n=2 Tax=Otolemur garnett...   101   2e-19
+UniRef90_W5PBE1 Uncharacterized protein n=3 Tax=Caprinae TaxID=9...   101   2e-19
+UniRef90_M3WNM9 Uncharacterized protein n=5 Tax=Felidae TaxID=96...   101   2e-19
+UniRef90_S9XCC0 ISG15 ubiquitin-like modifier n=2 Tax=Camelus Ta...   101   2e-19
+UniRef90_UPI00063FC7DC ubiquitin-like protein ISG15 n=1 Tax=Prop...   100   3e-19
+UniRef90_UPI00057BC8D0 ubiquitin-like protein ISG15 n=2 Tax=Came...   100   3e-19
+UniRef90_UPI000B4FD239 ubiquitin-like protein ISG15 n=1 Tax=Meri...   100   6e-19
+UniRef90_A0A1U7SRP3 ubiquitin-like protein ISG15 n=1 Tax=Tarsius...   100   6e-19
+UniRef90_UPI0007A6AEA2 ubiquitin-like protein ISG15 n=1 Tax=Mini...    99   1e-18
+UniRef90_UPI00063CD147 ubiquitin-like protein ISG15 n=1 Tax=Tric...    99   1e-18
+UniRef90_UPI000A1B8CB7 ubiquitin-like protein ISG15 n=1 Tax=Odoc...    99   1e-18
+UniRef90_I3N5J5 Uncharacterized protein n=3 Tax=Marmotini TaxID=...    99   1e-18
+UniRef90_G1TKK9 Uncharacterized protein n=2 Tax=Oryctolagus cuni...    98   2e-18
+UniRef90_H0W145 Uncharacterized protein n=2 Tax=Cavia porcellus ...    97   4e-18
+UniRef90_UPI00053F457C ubiquitin-like protein ISG15 n=1 Tax=Fuko...    97   5e-18
+UniRef90_A0A1A6H296 Uncharacterized protein n=1 Tax=Neotoma lepi...    96   9e-18
+UniRef90_D4A3X3 ISG15 ubiquitin-like modifier n=1 Tax=Rattus nor...    96   1e-17
+UniRef90_O02741 Ubiquitin-like protein ISG15 n=7 Tax=Bovinae Tax...    95   2e-17
+UniRef90_UPI00038EDE99 ubiquitin-like protein ISG15 n=1 Tax=Chin...    94   4e-17
+UniRef90_UPI00034FA2BB ubiquitin-like protein ISG15 n=1 Tax=Hete...    94   5e-17
+UniRef90_UPI00062A5DC8 ubiquitin-like protein ISG15 n=1 Tax=Octo...    93   6e-17
+UniRef90_UPI00045DDB34 ubiquitin-like protein ISG15 n=1 Tax=Oryc...    93   7e-17
+UniRef90_UPI00042AB6F9 ubiquitin-like protein ISG15 n=1 Tax=Pero...    93   8e-17
+UniRef90_Q64339 Ubiquitin-like protein ISG15 n=9 Tax=Bilateria T...    92   9e-17
+UniRef90_A0A1S2ZWT3 ubiquitin-like protein ISG15 n=1 Tax=Erinace...    92   1e-16
+UniRef90_UPI0009449555 ubiquitin-like protein ISG15 n=1 Tax=Rhin...    91   2e-16
+UniRef90_UPI000A1C7A2B Ubiquitin-like protein ISG15 n=1 Tax=Mus ...    90   5e-16
+UniRef90_UPI0004D07977 ubiquitin-like protein ISG15 n=1 Tax=Gale...    90   6e-16
+UniRef90_UPI00064FB147 ubiquitin-like protein ISG15 n=2 Tax=Echi...    89   1e-15
+UniRef90_UPI00046BC801 ubiquitin-like protein ISG15 n=1 Tax=Epte...    87   5e-15
+UniRef90_UPI0009393060 ubiquitin-like protein ISG15 n=1 Tax=Hipp...    87   5e-15
+UniRef90_UPI0003F167DF ubiquitin-like protein ISG15 n=1 Tax=Chry...    86   8e-15
+UniRef90_UPI000333EF85 ubiquitin-like protein ISG15 n=1 Tax=Octo...    86   8e-15
+UniRef90_UPI0003F08679 ubiquitin-like protein ISG15 n=1 Tax=Elep...    85   2e-14
+UniRef90_A0A0B5KMD2 Interferon-stimulated protein 15 (Fragment) ...    84   3e-14
+UniRef90_UPI00078978EA ubiquitin-like protein ISG15 n=1 Tax=Rous...    82   1e-13
+UniRef90_L5L743 Ubiquitin cross-reactive protein n=3 Tax=Pteropu...    81   3e-13
+UniRef90_L5LC70 Ubiquitin-like protein ISG15 n=5 Tax=Myotis TaxI...    80   4e-13
+UniRef90_UPI0006432592 ubiquitin-like protein ISG15 n=1 Tax=Cond...    77   3e-12
+UniRef90_UPI0003314E92 ubiquitin-like protein ISG15 n=1 Tax=Sore...    74   4e-11
+UniRef90_H9H875 Uncharacterized protein n=2 Tax=Monodelphis dome...    74   5e-11
+UniRef90_UPI00074FCCE9 ubiquitin-like protein ISG15 n=1 Tax=Gekk...    73   8e-11
+UniRef90_UPI00074FF425 ubiquitin-like protein ISG15 n=1 Tax=Gekk...    73   8e-11
+UniRef90_G3VJ63 Uncharacterized protein n=1 Tax=Sarcophilus harr...    72   9e-11
+UniRef90_UPI00042BBE0A ubiquitin-like protein ISG15-like n=2 Tax...    69   8e-10
+UniRef90_UPI0009E28664 2'-5'-oligoadenylate synthase 3-like n=1 ...    69   2e-09
+UniRef90_UPI0007789FBF ubiquitin-like protein ISG15 n=1 Tax=Pyth...    68   2e-09
+UniRef90_UPI000A287E67 ubiquitin-like protein ISG15 n=1 Tax=Phas...    67   5e-09
+UniRef90_V8NEM0 p2X purinoceptor (Fragment) n=1 Tax=Ophiophagus ...    65   2e-08
+UniRef90_H9GQN0 Uncharacterized protein n=1 Tax=Anolis carolinen...    64   4e-08
+UniRef90_A0A093EZR5 2'-5'-oligoadenylate synthase-like 2 (Fragme...    64   4e-08
+UniRef90_V9L7X9 Ubiquitin-like protein ISG15 (Fragment) n=1 Tax=...    63   8e-08
+UniRef90_V9L0T4 59 kDa 2'-5'-oligoadenylate synthase-like protei...    63   8e-08
+UniRef90_UPI0004574BD0 uncharacterized protein LOC103184093 n=1 ...    63   8e-08
+UniRef90_K4G7C7 2,5-oligo adenylate synthetase A n=1 Tax=Callorh...    62   1e-07
+UniRef90_UPI0006B15089 ubiquitin-like protein ISG15 n=1 Tax=Tham...    62   2e-07
+UniRef90_H0Z853 2'-5'-oligoadenylate synthetase like n=3 Tax=Est...    60   4e-07
+UniRef90_UPI0006B7B053 2'-5'-oligoadenylate synthase 1-like n=2 ...    60   5e-07
+UniRef90_UPI00053CB030 2'-5'-oligoadenylate synthase 1-like n=2 ...    59   1e-06
+UniRef90_UPI0003314397 ubiquitin-like protein ISG15 n=1 Tax=Sore...    59   1e-06
+UniRef90_UPI00087483F1 polyubiquitin-like isoform X1 n=1 Tax=Lat...    58   2e-06
+UniRef90_A0A093QW95 2'-5'-oligoadenylate synthase-like 1 (Fragme...    58   2e-06
+UniRef90_A0A094L8K5 2'-5'-oligoadenylate synthase-like 1 (Fragme...    58   3e-06
+UniRef90_UPI000523AEDB 2'-5'-oligoadenylate synthase 1-like n=1 ...    58   3e-06
+UniRef90_UPI00071A24DF LOW QUALITY PROTEIN: 2'-5'-oligoadenylate...    57   4e-06
+UniRef90_UPI0006B6A66E 2'-5'-oligoadenylate synthase 1-like n=1 ...    57   5e-06
+UniRef90_UPI000522C8DC 2'-5'-oligoadenylate synthase 1-like n=1 ...    57   5e-06
+UniRef90_A0A091N1D0 2'-5'-oligoadenylate synthase-like 2 (Fragme...    57   6e-06
+UniRef90_UPI0003956233 2'-5'-oligoadenylate synthase 1 n=1 Tax=G...    57   7e-06
+UniRef90_UPI0004F0251F 2'-5'-oligoadenylate synthase 1-like n=1 ...    56   8e-06
+UniRef90_A0A091J5U6 2'-5'-oligoadenylate synthase-like 2 (Fragme...    56   8e-06
+UniRef90_A0A091R2Y1 2'-5'-oligoadenylate synthase-like 2 (Fragme...    56   8e-06
+UniRef90_UPI0007759689 ubiquitin-like protein ISG15 n=1 Tax=Prot...    56   9e-06
+UniRef90_A0A091ELS9 2'-5'-oligoadenylate synthase-like 2 (Fragme...    56   9e-06
+UniRef90_M3XHQ3 Uncharacterized protein n=1 Tax=Latimeria chalum...    56   1e-05
+UniRef90_A0A091MCC1 2'-5'-oligoadenylate synthase-like 2 (Fragme...    55   1e-05
+UniRef90_UPI0008166A50 2'-5'-oligoadenylate synthase-like protei...    55   1e-05
+UniRef90_UPI00045746DB 2'-5'-oligoadenylate synthase 1-like isof...    55   2e-05
+UniRef90_UPI000522D799 ubiquitin-like n=1 Tax=Opisthocomus hoazi...    55   2e-05
+UniRef90_A0A091UR95 2'-5'-oligoadenylate synthase-like 2 (Fragme...    55   2e-05
+UniRef90_UPI000B3D9373 2'-5'-oligoadenylate synthase 1-like n=1 ...    55   2e-05
+UniRef90_UPI0007AD2B2D polyubiquitin-like isoform X1 n=9 Tax=Cyp...    55   2e-05
+UniRef90_A0A091RY69 2'-5'-oligoadenylate synthase-like 2 (Fragme...    54   3e-05
+UniRef90_UPI00071C2E4C 2'-5'-oligoadenylate synthase 1-like n=1 ...    54   3e-05
+UniRef90_UPI00053241CC 2'-5'-oligoadenylate synthase-like protei...    54   4e-05
+UniRef90_UPI00052991E2 2'-5'-oligoadenylate synthase 1-like n=1 ...    54   4e-05
+UniRef90_A0A087QTF3 2'-5'-oligoadenylate synthase-like 2 (Fragme...    54   4e-05
+UniRef90_U3K2C2 2'-5'-oligoadenylate synthetase like n=1 Tax=Fic...    54   5e-05
+UniRef90_A0A091GMJ6 2'-5'-oligoadenylate synthase-like 1 (Fragme...    54   5e-05
+UniRef90_UPI0006B0A3AF polyubiquitin-like n=1 Tax=Apteryx austra...    54   5e-05
+UniRef90_UPI0004F0E1C5 2'-5'-oligoadenylate synthase 1-like n=1 ...    53   6e-05
+UniRef90_A0A091S2W3 2'-5'-oligoadenylate synthase-like 2 (Fragme...    53   6e-05
+UniRef90_UPI0006B0CE85 2'-5'-oligoadenylate synthase 1-like n=1 ...    53   6e-05
+UniRef90_A0A1V4K8T1 2'-5'-oligoadenylate synthase 1 n=2 Tax=Colu...    53   7e-05
+UniRef90_UPI0006447955 polyubiquitin 11-like n=1 Tax=Clupea hare...    53   8e-05
+UniRef90_UPI0004F11146 2'-5'-oligoadenylate synthase 1-like isof...    53   8e-05
+UniRef90_A0A1P8LK38 2',5'-oligoadenylate synthetase-like protein...    53   9e-05
+UniRef90_W5NNN6 Uncharacterized protein n=2 Tax=Lepisosteus ocul...    53   9e-05
+UniRef90_UPI00038719AD 2'-5'-oligoadenylate synthase 1-like n=1 ...    53   9e-05
+UniRef90_UPI0008DB604E 2'-5'-oligoadenylate synthase 1-like isof...    53   9e-05
+UniRef90_UPI0003C1164F polyubiquitin-like n=1 Tax=Latimeria chal...    53   9e-05
+UniRef90_UPI0008FA652D ubiquitin-like n=1 Tax=Cyprinus carpio Ta...    52   2e-04
+UniRef90_UPI0008F9FB4E polyubiquitin-like isoform X1 n=3 Tax=Cyp...    52   2e-04
+UniRef90_A0A093JNH5 2'-5'-oligoadenylate synthase-like 2 (Fragme...    52   2e-04
+UniRef90_UPI0009A2A869 LOW QUALITY PROTEIN: polyubiquitin-like n...    52   2e-04
+UniRef90_A0A1W4ZLC5 polyubiquitin-like n=1 Tax=Scleropages formo...    52   2e-04
+UniRef90_UPI00038335F9 2'-5'-oligoadenylate synthase-like protei...    52   2e-04
+UniRef90_B5XCG4 Ubiquitin-like protein 1 n=8 Tax=Salmoninae TaxI...    52   2e-04
+UniRef90_K4FUX9 Ubiquitin-like protein n=1 Tax=Callorhinchus mil...    51   2e-04
+UniRef90_A0A1Y1XE41 Ubiquitin-domain-containing protein n=1 Tax=...    51   2e-04
+UniRef90_B5XCY2 Ubiquitin-like protein 1 n=1 Tax=Salmo salar Tax...    51   3e-04
+UniRef90_U3J6Y2 Uncharacterized protein n=1 Tax=Anas platyrhynch...    51   4e-04
+UniRef90_UPI000521399E LOW QUALITY PROTEIN: 2'-5'-oligoadenylate...    51   4e-04
+UniRef90_UPI0006440F00 polyubiquitin-like n=2 Tax=Clupea harengu...    50   4e-04
+UniRef90_A0A093PWZ1 2'-5'-oligoadenylate synthase-like 2 (Fragme...    50   4e-04
+UniRef90_UPI0009A38096 2'-5'-oligoadenylate synthase 3-like n=1 ...    50   4e-04
+UniRef90_A0A1B6QDB4 Uncharacterized protein n=1 Tax=Sorghum bico...    50   5e-04
+UniRef90_UPI000777826C 2'-5'-oligoadenylate synthase 1-like n=1 ...    50   6e-04
+UniRef90_W4YUD7 Uncharacterized protein n=1 Tax=Strongylocentrot...    50   6e-04
+UniRef90_A0A162GTS7 V-UBQ n=1 Tax=Urbanus proteus nucleopolyhedr...    50   6e-04
+UniRef90_B5XDV2 Ubiquitin-like protein 1 n=3 Tax=Salmo salar Tax...    50   7e-04
+UniRef90_Q9PTE2 Ubiquitin-like protein n=1 Tax=Carassius auratus...    50   7e-04
+UniRef90_UPI0006CF0D2E polyubiquitin-like n=4 Tax=Pseudocrenilab...    50   7e-04
+UniRef90_A0A146NQZ2 ISG15 ubiquitin modifier (Fragment) n=1 Tax=...    50   7e-04
+UniRef90_K7FNI8 2'-5'-oligoadenylate synthetase like n=1 Tax=Pel...    50   7e-04
+UniRef90_UPI000787B567 LOW QUALITY PROTEIN: ubiquitin-like n=1 T...    50   8e-04
+UniRef90_F4ZKS0 Ubiquitin n=2 Tax=Betabaculovirus TaxID=558017 R...    50   8e-04
+UniRef90_UPI0007047581 2'-5'-oligoadenylate synthase 1-like n=1 ...    50   8e-04
+UniRef90_UPI0007B85082 polyubiquitin-like n=4 Tax=Cyprinidae Tax...    50   8e-04
+UniRef90_Q7T2M6 Ubquitin-like protein 1 n=1 Tax=Carassius auratu...    50   8e-04
+UniRef90_A0A099ZUW1 2'-5'-oligoadenylate synthase-like 2 (Fragme...    49   0.001
+UniRef90_A0A093H453 2'-5'-oligoadenylate synthase-like 2 (Fragme...    49   0.001
+UniRef90_A0A1I7RMU6 Uncharacterized protein n=1 Tax=Bursaphelenc...    49   0.001
+UniRef90_UPI0008146E3A ubiquitin-like protein fubi and ribosomal...    49   0.001
+UniRef90_L0CJN1 V-ubi protein n=2 Tax=Alphabaculovirus TaxID=558...    49   0.001
+UniRef90_A0A0R7EYX9 Ubiquitin-like protein n=1 Tax=Diatraea sacc...    49   0.001
+UniRef90_K4EQE3 Viral Ubiquitin n=1 Tax=Epinotia aporema granulo...    49   0.001
+UniRef90_A0A1W0W4T7 Uncharacterized protein n=1 Tax=Sorghum bico...    49   0.001
+UniRef90_A0A166X4E3 Ubiquitin n=1 Tax=Metarhizium rileyi RCEF 48...    49   0.001
+UniRef90_UPI00081AB333 ubiquitin isoform X1 n=1 Tax=Sorghum bico...    49   0.001
+UniRef90_A0A146N304 Polyubiquitin-B n=1 Tax=Fundulus heteroclitu...    49   0.001
+UniRef90_UPI0007F87FEC polyubiquitin-like n=1 Tax=Kryptolebias m...    49   0.001
+UniRef90_K4AK09 Uncharacterized protein n=2 Tax=Setaria italica ...    49   0.002
+UniRef90_A0A0K0WS54 Ubiquitin n=1 Tax=Clostera anastomosis granu...    49   0.002
+UniRef90_L8HBA5 Ubiquitin domain containing protein n=1 Tax=Acan...    49   0.002
+UniRef90_A0A1R2CJ24 Uncharacterized protein n=1 Tax=Stentor coer...    49   0.002
+UniRef90_A0A0B5J9A8 Ubiquitin domain-containing protein n=1 Tax=...    49   0.002
+UniRef90_UPI0008142DEA polyubiquitin 12-like n=1 Tax=Pygocentrus...    49   0.002
+UniRef90_UPI000B773138 ubiquitin-like n=1 Tax=Chenopodium quinoa...    48   0.002
+UniRef90_A0A1X2GWM7 Polyubiquitin n=1 Tax=Hesseltinella vesiculo...    48   0.002
+UniRef90_Q0N477 Ubiquitin n=1 Tax=Clanis bilineata nucleopolyhed...    48   0.002
+UniRef90_K4AMP3 Uncharacterized protein n=2 Tax=Paniceae TaxID=1...    48   0.002
+UniRef90_W4YUD8 Uncharacterized protein n=1 Tax=Strongylocentrot...    48   0.002
+UniRef90_Q7T9X0 V-ubi n=1 Tax=Adoxophyes orana granulovirus TaxI...    48   0.002
+UniRef90_A0A1D5Z6K9 Uncharacterized protein n=1 Tax=Triticum aes...    48   0.002
+UniRef90_P16709 Ubiquitin-like protein n=10 Tax=Alphabaculovirus...    48   0.002
+UniRef90_A0A1Y1YJ42 Ubiquitin-domain-containing protein n=1 Tax=...    48   0.002
+UniRef90_A0A1Y1WFE2 Ubiquitin-domain-containing protein (Fragmen...    48   0.002
+UniRef90_K3ZXW6 Uncharacterized protein n=2 Tax=Setaria italica ...    48   0.002
+UniRef90_D2J4L2 UBQ n=1 Tax=Pieris rapae granulovirus TaxID=2525...    48   0.003
+UniRef90_S5N958 Ubiquitin n=1 Tax=Hemileuca sp. nucleopolyhedrov...    48   0.003
+UniRef90_A0A1Y1Y6K4 Ubiquitin-domain-containing protein n=1 Tax=...    47   0.003
+UniRef90_A2BHB8 ISG15 ubiquitin-like modifier n=1 Tax=Danio reri...    47   0.003
+UniRef90_A0A0G4F771 Uncharacterized protein n=1 Tax=Vitrella bra...    47   0.003
+UniRef90_P49633 Ubiquitin-60S ribosomal protein L40 n=15 Tax=Euk...    47   0.003
+UniRef90_K4A2K7 Uncharacterized protein n=1 Tax=Setaria italica ...    47   0.003
+UniRef90_Q8QL82 Putative ubiquitin n=4 Tax=Alphabaculovirus TaxI...    47   0.003
+UniRef90_UPI000350F9AD ubiquitin-60S ribosomal protein L40-like ...    47   0.003
+UniRef90_A0A0M3WNF4 Ubiquitin-like protein, viral ubiquitin n=1 ...    47   0.004
+UniRef90_UPI0003AF5E68 ubiquitin-like n=1 Tax=Pundamilia nyerere...    47   0.004
+UniRef90_Q91BI7 Ubiquitin GP37 fusion protein n=3 Tax=Alphabacul...    47   0.004
+UniRef90_A0A0D0CVK0 Unplaced genomic scaffold scaffold_1457, who...    47   0.004
+UniRef90_A0A1R3HSZ4 Ubiquitin n=1 Tax=Corchorus olitorius TaxID=...    47   0.004
+UniRef90_UPI0006442B44 polyubiquitin-like n=1 Tax=Clupea harengu...    47   0.004
+UniRef90_A1YJB4 Ubiquitin n=7 Tax=Alphabaculovirus TaxID=558016 ...    47   0.004
+UniRef90_V9LSZ8 Ubiquitin n=1 Tax=Dendrolimus kikuchii nucleopol...    47   0.004
+UniRef90_G3P2M0 Uncharacterized protein n=1 Tax=Gasterosteus acu...    47   0.004
+UniRef90_A0C654 Uncharacterized protein n=2 Tax=Eukaryota TaxID=...    47   0.004
+UniRef90_A0A0K9NNZ5 Polyubiquitin n=1 Tax=Zostera marina TaxID=2...    47   0.004
+UniRef90_A0A0E0ARP4 Uncharacterized protein n=1 Tax=Oryza glumip...    47   0.004
+UniRef90_L8GDL8 Ubiquitin domain containing protein n=1 Tax=Acan...    47   0.004
+UniRef90_A0A068SER0 Cation-transporting ATPase n=2 Tax=Lichtheim...    47   0.005
+UniRef90_A0A068RM11 V-type proton ATPase proteolipid subunit n=1...    47   0.005
+UniRef90_A0A0P6A359 Ubiquitin-40S ribosomal protein S27a (Fragme...    47   0.005
+UniRef90_A0EYS4 Ubiquitin n=1 Tax=Ectropis obliqua nucleopolyhed...    47   0.005
+UniRef90_E3TFV5 Ubiquitin cross-reactive protein n=1 Tax=Ictalur...    47   0.005
+UniRef90_UPI0007BA41EB polyubiquitin-like isoform X1 n=4 Tax=Cyp...    47   0.005
+UniRef90_H9L0X6 2'-5'-oligoadenylate synthetase like n=3 Tax=Gal...    47   0.005
+UniRef90_L8GPF4 Polyubiquitin 4 UBQ4, putative n=1 Tax=Acanthamo...    47   0.005
+UniRef90_A0A1D5XWI9 Uncharacterized protein n=1 Tax=Triticum aes...    47   0.005
+UniRef90_Q29W12 ISG15-like protein n=4 Tax=Salmoninae TaxID=5045...    47   0.005
+UniRef90_UPI00085A0420 polyubiquitin-like n=1 Tax=Raphanus sativ...    47   0.005
+UniRef90_UPI000866C890 polyubiquitin 5 n=1 Tax=Saitoella complic...    47   0.005
+UniRef90_A0A0E9NL44 Uncharacterized protein n=1 Tax=Saitoella co...    47   0.005
+UniRef90_UPI000A2A6E17 polyubiquitin 3-like n=1 Tax=Exaiptasia p...    47   0.006
+UniRef90_UPI0004A2F2C1 polyubiquitin-like n=2 Tax=Poecilia TaxID...    47   0.006
+UniRef90_A0A177EHE9 Large subunit ribosomal protein L4e n=1 Tax=...    47   0.006
+UniRef90_A0A0A1PDZ1 Polyubiquitin 5 n=4 Tax=Rhizopus microsporus...    47   0.006
+UniRef90_UPI00085A5539 polyubiquitin-like n=1 Tax=Raphanus sativ...    47   0.006
+UniRef90_H2YEI0 Uncharacterized protein n=1 Tax=Ciona savignyi T...    47   0.006
+UniRef90_Q39256 Polyubiquitin 8 n=2 Tax=Arabidopsis thaliana Tax...    47   0.006
+UniRef90_O13255 2',5'-oligo adenylate synthetase A (Fragment) n=...    47   0.007
+UniRef90_A0A0V0RGU3 Polyubiquitin-C n=12 Tax=cellular organisms ...    47   0.007
+UniRef90_A0A0V0RGT0 Polyubiquitin n=1 Tax=Trichinella nelsoni Ta...    46   0.007
+UniRef90_A0A1Y1XN52 Putative ubiquitin n=1 Tax=Basidiobolus meri...    46   0.007
+UniRef90_A0A0N7D5G9 Viral ubiquitin n=1 Tax=Dasychira pudibunda ...    46   0.007
+UniRef90_UPI000B779193 ubiquitin-like n=1 Tax=Chenopodium quinoa...    46   0.007
+UniRef90_A0A0V0Z8A7 Polyubiquitin-B n=1 Tax=Trichinella patagoni...    46   0.008
+UniRef90_A0A0K9RNW6 Uncharacterized protein n=2 Tax=Spinacia ole...    46   0.008
+UniRef90_A0A0V0Z903 Polyubiquitin-B n=1 Tax=Trichinella patagoni...    46   0.008
+UniRef90_A0A0V0Z8L6 Polyubiquitin-B n=26 Tax=Trichinella TaxID=6...    46   0.008
+UniRef90_W7TN89 Ubiquitin n=2 Tax=Nannochloropsis gaditana TaxID...    46   0.008
+UniRef90_H2YEI1 Uncharacterized protein n=10 Tax=Eumetazoa TaxID...    46   0.008
+UniRef90_Q1A4Q7 UBQ n=3 Tax=Betabaculovirus TaxID=558017 RepID=Q...    46   0.008
+UniRef90_Q65815 Genome polyprotein n=26 Tax=Bovine viral diarrhe...    46   0.008
+UniRef90_C5LWI5 Ubiquitin 1, putative n=2 Tax=Perkinsus marinus ...    46   0.008
+UniRef90_U9TN62 Uncharacterized protein n=2 Tax=Rhizophagus irre...    46   0.009
+UniRef90_A0A0A9DZV3 Zgc:153686 n=2 Tax=Arundo donax TaxID=35708 ...    46   0.009
+UniRef90_A0A098VQF5 Ubiquitin/60s ribosomal protein L40 fusion p...    46   0.009
+UniRef90_Q9DVZ0 PxGV-Corf41 protein n=2 Tax=Plutella xylostella ...    46   0.009
+UniRef90_R7QQT8 Ribosomal-ubiquitin fusion protein n=2 Tax=Flori...    46   0.009
+UniRef90_A0A068S648 Polyubiquitin n=2 Tax=Lichtheimia TaxID=6883...    46   0.010
+UniRef90_A0A139THH6 Ubiquitin family protein n=4 Tax=Bacteroides...    46   0.010
+UniRef90_D2W2X7 Predicted protein n=1 Tax=Naegleria gruberi TaxI...    46   0.010
+UniRef90_F0Y3Y1 Uncharacterized protein n=4 Tax=Aureococcus anop...    46   0.010
+UniRef90_S2K739 Ubiquitin C n=4 Tax=Mucorales TaxID=4827 RepID=S...    46   0.010
+UniRef90_B6D656 Ubiquitin n=2 Tax=Alphabaculovirus TaxID=558016 ...    46   0.010
+UniRef90_A0A146X1B9 Polyubiquitin-B n=7 Tax=Fundulus heteroclitu...    46   0.010
+UniRef90_A0A061B5Z7 RHTO0S10e07162g1_1 n=1 Tax=Rhodosporidium to...    46   0.010
+UniRef90_A0A1L5JHG2 V-UBI n=1 Tax=Plodia interpunctella granulov...    46   0.010
+UniRef90_Q7T2M5 Ubquitin-like protein 2 n=2 Tax=Cyprinidae TaxID...    46   0.010
+UniRef90_A0A1R0H6J6 Ubiquitin-40S ribosomal protein S27a n=2 Tax...    46   0.011
+UniRef90_E0D5D4 Interferon stimulated gene 15 n=1 Tax=Oplegnathu...    46   0.011
+UniRef90_Q10NT5 Os03g0259500 protein n=6 Tax=Oryza TaxID=4527 Re...    46   0.011
+UniRef90_A0A0A9Q6T9 RPL40 n=1 Tax=Arundo donax TaxID=35708 RepID...    46   0.011
+UniRef90_UPI0003C15EEB ubiquitin-40S ribosomal protein S27a-like...    46   0.011
+UniRef90_C1BX32 Ubiquitin cross-reactive protein n=1 Tax=Esox lu...    46   0.011
+UniRef90_A0A087U0P7 Ubiquitin-60S ribosomal protein L40 (Fragmen...    46   0.011
+UniRef90_Q91F01 ORF54 UBI n=3 Tax=Cydia pomonella granulosis vir...    46   0.011
+UniRef90_A0A0E0ETD9 Uncharacterized protein n=1 Tax=Oryza meridi...    46   0.011
+UniRef90_A0A0D1Z115 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...    46   0.011
+UniRef90_M7WX84 Polyubiquitin n=1 Tax=Rhodosporidium toruloides ...    46   0.012
+UniRef90_A0A099NZL9 PRA1 family protein n=5 Tax=Fungi TaxID=4751...    46   0.012
+UniRef90_U4LUL9 Similar to Ubiquitin-60S ribosomal protein L40 a...    46   0.012
+UniRef90_A0A178ZHF6 V-type proton ATPase subunit a n=1 Tax=Fonse...    45   0.012
+UniRef90_A0A0K0FAI6 Ubiquitin-60S ribosomal protein L40 (inferre...    45   0.012
+UniRef90_A0A0N5A2Q5 Uncharacterized protein n=1 Tax=Parastrongyl...    45   0.012
+UniRef90_F7AUY9 Ribosomal protein S27a n=6 Tax=Boreoeutheria Tax...    45   0.012
+UniRef90_A0A072V2A1 Ubiquitin-60S ribosomal L40 fusion protein n...    45   0.012
+UniRef90_C1N647 Predicted protein n=1 Tax=Micromonas pusilla (st...    45   0.012
+UniRef90_C1EI38 Uncharacterized protein n=1 Tax=Micromonas commo...    45   0.012
+UniRef90_A0A0V0GKN7 Putative ovule protein (Fragment) n=1 Tax=So...    45   0.012
+UniRef90_A0A151UF79 Ubiquitin n=1 Tax=Cajanus cajan TaxID=3821 R...    45   0.012
+UniRef90_UPI00045E0667 ubiquitin-like n=1 Tax=Orycteropus afer a...    45   0.012
+UniRef90_W9W0K9 Large subunit ribosomal protein L40e n=1 Tax=Cla...    45   0.012
+UniRef90_A0A168QSU1 Uncharacterized protein n=4 Tax=Mucorales Ta...    45   0.013
+UniRef90_UPI00042BE345 2'-5'-oligoadenylate synthase 1-like n=1 ...    45   0.013
+UniRef90_A0A1Y1X8L9 Ubiquitin-domain-containing protein n=1 Tax=...    45   0.013
+UniRef90_UPI0009810256 polyubiquitin-C-like isoform X2 n=2 Tax=A...    45   0.013
+UniRef90_A0A1L8HX68 Uncharacterized protein n=1 Tax=Xenopus laev...    45   0.013
+UniRef90_I1NXI0 Uncharacterized protein n=1 Tax=Oryza glaberrima...    45   0.014
+UniRef90_A0A1A7ZYT9 ISG15 ubiquitin-like modifier n=8 Tax=Nothob...    45   0.014
+UniRef90_UPI00053F6CBA ubiquitin-like n=2 Tax=Beta vulgaris subs...    45   0.014
+UniRef90_Q2NP30 Ubiquitin n=1 Tax=Hyphantria cunea nuclear polyh...    45   0.014
+UniRef90_A0A218ZA62 Uncharacterized protein n=1 Tax=Marssonina c...    45   0.014
+UniRef90_A0A061B1X4 CYFA0S07e04632g1_1 n=1 Tax=Cyberlindnera fab...    45   0.014
+UniRef90_UPI000802AD6D polyubiquitin-like n=1 Tax=Ictalurus punc...    45   0.014
+UniRef90_Q9YVU8 ORF MSV144 putative ubiquitin, similar to Neuros...    45   0.014
+UniRef90_A0A0K0FA93 Ubiquitin-60S ribosomal protein L40 (inferre...    45   0.014
+UniRef90_A0A1D6SFB9 Uncharacterized protein n=3 Tax=Triticinae T...    45   0.014
+UniRef90_M7ZAV9 Ubiquitin-60S ribosomal protein L40 n=4 Tax=Pooi...    45   0.014
+UniRef90_A0A162GWP9 Ubiquitin-like protein n=2 Tax=unclassified ...    45   0.015
+UniRef90_B7P0U0 40S ribosomal protein S27A, putative n=25 Tax=Me...    45   0.015
+UniRef90_A0A1D5SK57 Uncharacterized protein n=1 Tax=Triticum aes...    45   0.015
+UniRef90_U1M349 Uncharacterized protein n=1 Tax=Ascaris suum Tax...    45   0.015
+UniRef90_M0RFG5 Uncharacterized protein n=1 Tax=Musa acuminata s...    45   0.015
+UniRef90_A0A1S4FZI3 Ubiquitin (ribosomal protein L40) n=6 Tax=Cu...    45   0.015
+UniRef90_P68200 Ubiquitin-40S ribosomal protein S27a n=28 Tax=Eu...    45   0.015
+UniRef90_M7NWD9 Ubiquitin-60S ribosomal protein L40 n=3 Tax=Pneu...    45   0.016
+UniRef90_A0A177UXA4 Uncharacterized protein n=4 Tax=Tilletia Tax...    45   0.016
+UniRef90_W9YZX6 V-type proton ATPase subunit a n=6 Tax=Herpotric...    45   0.016
+UniRef90_V9DND7 V-type proton ATPase subunit a n=10 Tax=Opisthok...    45   0.016
+UniRef90_D9ZFI2 Ubiquitin-53 aa extension protein n=10 Tax=Proto...    45   0.016
+UniRef90_A0A146KA32 Ubiquitin-ribosomal protein L40 fusion prote...    45   0.016
+UniRef90_A0A0A9R4S5 Uncharacterized protein n=1 Tax=Arundo donax...    45   0.016
+UniRef90_A0A183C874 Uncharacterized protein n=1 Tax=Globodera pa...    45   0.016
+UniRef90_UPI0004F43664 ubiquitin-60S ribosomal protein L40 isofo...    45   0.016
+UniRef90_A0A1R1PK95 Ubiquitin-40S ribosomal protein S27a n=1 Tax...    45   0.016
+UniRef90_UPI0003D73A95 ubiquitin-40S ribosomal protein S27a-like...    45   0.016
+UniRef90_UPI0003C10DDC ubiquitin-like protein FUBI-like n=1 Tax=...    45   0.016
+UniRef90_W5ADS2 Uncharacterized protein n=4 Tax=Pooideae TaxID=1...    45   0.016
+UniRef90_A0A0E0B3R4 Uncharacterized protein n=1 Tax=Oryza glumip...    45   0.016
+UniRef90_UPI0003315802 ubiquitin-like n=1 Tax=Sorex araneus TaxI...    45   0.016
+UniRef90_A0A0P4X6P1 Ubiquitin-60S ribosomal protein L40 (Fragmen...    45   0.017
+UniRef90_A0A0V0Z8R1 Polyubiquitin n=2 Tax=Trichinella TaxID=6333...    45   0.017
+UniRef90_L8FSG6 Ubiquitin-40S ribosomal protein S27a n=2 Tax=sor...    45   0.017
+UniRef90_A0A0N1I678 Ubiquitin-40S ribosomal protein S27a n=1 Tax...    45   0.017
+UniRef90_M1A024 Uncharacterized protein n=3 Tax=Pentapetalae Tax...    45   0.017
+UniRef90_A0MKC8 Ubiquitin extension protein n=1 Tax=Capsicum ann...    45   0.017
+UniRef90_UPI00083BAB55 ubiquitin-60S ribosomal protein L40-like ...    45   0.017
+UniRef90_M5X9E1 Uncharacterized protein n=17 Tax=Eukaryota TaxID...    45   0.017
+UniRef90_P62979 Ubiquitin-40S ribosomal protein S27a n=32 Tax=Bi...    45   0.017
+UniRef90_J3M7U4 Uncharacterized protein n=1 Tax=Oryza brachyanth...    45   0.017
+UniRef90_UPI0006448BA8 polyubiquitin-like n=1 Tax=Fundulus heter...    45   0.017
+UniRef90_A0A0J8R221 60S ribosomal protein L40 n=1 Tax=Coccidioid...    45   0.017
+UniRef90_Q0J0U4 Os09g0483200 protein n=2 Tax=Oryza sativa TaxID=...    45   0.018
+UniRef90_H2LX76 Ubiquitin A-52 residue ribosomal protein fusion ...    45   0.018
+UniRef90_A0A135LXE3 Ubiquitin supergroup n=1 Tax=Penicillium pat...    45   0.018
+UniRef90_UPI0009FA51DD hypothetical protein n=1 Tax=Loktanella s...    45   0.018
+UniRef90_L8H9Q4 Ribosomal protein s27a, putative n=1 Tax=Acantha...    45   0.018
+UniRef90_A0A1D6DKE6 Uncharacterized protein n=1 Tax=Triticum aes...    45   0.018
+UniRef90_A4RZS0 Ribosomal protein S27a, component of cytosolic 8...    45   0.018
+UniRef90_M7XBX1 Small subunit ribosomal protein S27Ae n=3 Tax=Rh...    45   0.018
+UniRef90_UPI00042C14EE polyubiquitin 12-like n=1 Tax=Chelonia my...    45   0.018
+UniRef90_E5SH46 Ubiquitin family protein n=1 Tax=Trichinella spi...    45   0.018
+UniRef90_G7JDW1 Polyubiquitin 3 n=3 Tax=Viridiplantae TaxID=3309...    45   0.018
+UniRef90_A0A1I8AJ32 Uncharacterized protein n=1 Tax=Steinernema ...    45   0.019
+UniRef90_P62983 Ubiquitin-40S ribosomal protein S27a n=127 Tax=E...    45   0.019
+UniRef90_F6HZD7 Uncharacterized protein n=1 Tax=Vitis vinifera T...    45   0.019
+UniRef90_A0A1Y1YL57 Ubiquitin-domain-containing protein n=1 Tax=...    45   0.019
+UniRef90_A0A1R0H2W7 Ubiquitin-60S ribosomal protein L40 n=2 Tax=...    45   0.019
+UniRef90_A0A068RGP0 Ubiquitin-60s ribosomal protein l40 fusionpr...    45   0.019
+UniRef90_J7S6G7 Uncharacterized protein n=1 Tax=Kazachstania nag...    45   0.019
+UniRef90_A0A0N7ZZN5 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...    45   0.019
+UniRef90_A0A0G4GVP0 Uncharacterized protein n=1 Tax=Chromera vel...    45   0.019
+UniRef90_P79781 Ubiquitin-40S ribosomal protein S27a n=22 Tax=Bi...    45   0.019
+UniRef90_Q8JS10 Viral ubiquitin n=1 Tax=Phthorimaea operculella ...    45   0.020
+UniRef90_A0A0J5SRH5 Ubiquitin-40S ribosomal protein S27a n=3 Tax...    45   0.020
+UniRef90_A0A0B2XHD1 Uncharacterized protein n=6 Tax=Metarhizium ...    45   0.020
+UniRef90_A0A163KIJ6 Uncharacterized protein n=1 Tax=Absidia glau...    45   0.020
+UniRef90_F1L7K2 Polyubiquitin-A n=1 Tax=Ascaris suum TaxID=6253 ...    45   0.020
+UniRef90_I3ELS3 Ubiquitin n=5 Tax=Nematocida TaxID=586132 RepID=...    45   0.020
+UniRef90_Q54CI0 Uncharacterized protein n=1 Tax=Dictyostelium di...    45   0.020
+UniRef90_A0A0V0RGU1 Polyubiquitin-B n=1 Tax=Trichinella nelsoni ...    45   0.020
+UniRef90_UPI00084A9DEF ubiquitin-like n=1 Tax=Hyalella azteca Ta...    45   0.020
+UniRef90_A0A0P1BCG2 Ubiquitin-40s ribosomal protein s27a n=1 Tax...    45   0.021
+UniRef90_E5T5F3 Putative ubiquitin family protein (Fragment) n=1...    45   0.021
+UniRef90_A0A0J0XYI9 Ubiquitin/40s ribosomal protein S27a fusion ...    45   0.021
+UniRef90_M2MJG0 Uncharacterized protein n=1 Tax=Baudoinia compni...    45   0.021
+UniRef90_A0A0G4FM27 Uncharacterized protein n=1 Tax=Chromera vel...    45   0.021
+UniRef90_S9Y7C3 Ubiquitin A-52 residue ribosomal protein fusion ...    45   0.021
+UniRef90_A0A1A9ZJ33 60S ribosomal protein L40 n=2 Tax=Bilateria ...    45   0.021
+UniRef90_A0A0P5NQT1 Ubiquitin-60S ribosomal protein L40 (Fragmen...    45   0.021
+UniRef90_UPI0006AAF31E ubiquitin-40S ribosomal protein S27a-3-li...    45   0.021
+UniRef90_A0A059EVH7 Ubiquitin-40S ribosomal protein S27a n=1 Tax...    45   0.021
+UniRef90_A0A0D2UMI5 Uncharacterized protein n=3 Tax=Gossypium Ta...    45   0.021
+UniRef90_A0A0D2LS10 Uncharacterized protein n=2 Tax=malvids TaxI...    45   0.021
+UniRef90_K7KG22 Uncharacterized protein n=43 Tax=Eukaryota TaxID...    45   0.021
+UniRef90_Q86DU4 Ubiquitin extension protein n=1 Tax=Heterodera s...    45   0.021
+UniRef90_M1VEP4 60S ribosomal protein L40, ubiquitin fusion prot...    45   0.021
+UniRef90_Q65810 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...    45   0.021
+UniRef90_UPI000A28AE7B ubiquitin-like n=1 Tax=Phascolarctos cine...    45   0.021
+UniRef90_A0A0K3C6J0 BY PROTMAP: gi|472583611|gb|EMS21244.1| smal...    45   0.021
+UniRef90_K3YC38 Uncharacterized protein n=4 Tax=Viridiplantae Ta...    45   0.021
+UniRef90_G7DSA4 Uncharacterized protein n=1 Tax=Mixia osmundae (...    45   0.022
+UniRef90_W4YNX0 Uncharacterized protein n=1 Tax=Strongylocentrot...    45   0.022
+UniRef90_A0A098VV94 Putative ubiquitin/ribosomal protein S27a fu...    45   0.022
+UniRef90_UPI0006C99D85 ubiquitin n=1 Tax=Copidosoma floridanum T...    45   0.022
+UniRef90_A0A093YW15 Uncharacterized protein n=1 Tax=Pseudogymnoa...    45   0.022
+UniRef90_Q6QXK6 ORF47 n=1 Tax=Agrotis segetum granulosis virus T...    45   0.022
+UniRef90_P49632 Ubiquitin-60S ribosomal protein L40 n=144 Tax=Eu...    45   0.022
+UniRef90_G3VR81 Uncharacterized protein n=7 Tax=Euteleostomi Tax...    45   0.022
+UniRef90_A0A061DSL5 Ribosomal protein S27a / Ubiquitin family pr...    45   0.022
+UniRef90_Q9WR83 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...    45   0.022
+UniRef90_A0A1W2WQZ9 ubiquitin isoform X2 n=9 Tax=Bilateria TaxID...    45   0.023
+UniRef90_A0A1D6BPK2 Uncharacterized protein n=1 Tax=Triticum aes...    45   0.023
+UniRef90_W7U0R4 40S ribosomal protein S30 n=1 Tax=Nannochloropsi...    45   0.023
+UniRef90_Q27196 Ubiquitin n=1 Tax=Tetrahymena pyriformis TaxID=5...    45   0.023
+UniRef90_A0A1B1V537 2'-5'-oligoadenylate synthetase n=3 Tax=Anse...    45   0.023
+UniRef90_K3VDN9 Uncharacterized protein n=3 Tax=Fusarium sambuci...    45   0.023
+UniRef90_A0A094EFP9 Uncharacterized protein n=1 Tax=Pseudogymnoa...    45   0.023
+UniRef90_J9JIV0 Uncharacterized protein n=2 Tax=Acyrthosiphon pi...    45   0.023
+UniRef90_A0A0D2P6Z9 Uncharacterized protein (Fragment) n=2 Tax=r...    45   0.023
+UniRef90_A0A0A0KVL0 Uncharacterized protein n=8 Tax=rosids TaxID...    45   0.023
+UniRef90_I3N517 Uncharacterized protein n=9 Tax=Eukaryota TaxID=...    45   0.023
+UniRef90_UPI000B778E45 ubiquitin-like n=1 Tax=Chenopodium quinoa...    45   0.023
+UniRef90_A0A167MVN0 RNA polymerase 1 specific transcription init...    45   0.024
+UniRef90_P68202 Ubiquitin-40S ribosomal protein S27a n=94 Tax=Pr...    45   0.024
+UniRef90_A0A074SQ86 Ubiquitin/40S ribosomal protein S27a fusion ...    45   0.024
+UniRef90_A0A0K3CTK7 BY PROTMAP: gi|675378034|gb|KFM70936.1| Ubiq...    45   0.024
+UniRef90_UPI000182B167 ubiquitin-60S ribosomal protein L40-2 iso...    45   0.024
+UniRef90_A8Q9P6 Uncharacterized protein n=3 Tax=Ustilaginomycoti...    45   0.024
+UniRef90_F1LDA0 Polyubiquitin-A n=1 Tax=Ascaris suum TaxID=6253 ...    45   0.024
+UniRef90_K4A2G3 Uncharacterized protein n=2 Tax=Setaria italica ...    45   0.024
+UniRef90_K4AEK9 Uncharacterized protein n=6 Tax=Mesangiospermae ...    45   0.024
+UniRef90_I1CHT2 Polyubiquitin n=6 Tax=cellular organisms TaxID=1...    45   0.024
+UniRef90_A0A1E3PZ45 Uncharacterized protein n=1 Tax=Lipomyces st...    45   0.024
+UniRef90_A0A1D5T2G9 Uncharacterized protein n=1 Tax=Triticum aes...    45   0.024
+UniRef90_A0A194S564 Uncharacterized protein n=2 Tax=Basidiomycot...    45   0.024
+UniRef90_F1LGK4 Polyubiquitin (Fragment) n=1 Tax=Ascaris suum Ta...    45   0.024
+UniRef90_J3KC68 Polyubiquitin n=9 Tax=Eurotiomycetidae TaxID=451...    45   0.025
+UniRef90_Q04232 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...    45   0.025
+UniRef90_M7NNJ2 Ubiquitin-40S ribosomal protein S27a n=2 Tax=Pne...    45   0.025
+UniRef90_A0A094CX20 Uncharacterized protein n=4 Tax=Leotiomycete...    45   0.025
+UniRef90_A9CS03 SSU ribosomal protein S27AE-ubiquitin n=1 Tax=En...    45   0.025
+UniRef90_A0A061G1H4 Ubiquitin supergroup,Ribosomal protein L40e ...    45   0.025
+UniRef90_A0A0B2QH08 Ubiquitin-60S ribosomal protein L40 n=2 Tax=...    45   0.025
+UniRef90_UPI00077127DD ubiquitin n=1 Tax=Parus major TaxID=9157 ...    45   0.025
+UniRef90_UPI000846E0D0 probable phosphatase phospho2 n=1 Tax=Dro...    45   0.025
+UniRef90_A0A094J8Y6 Uncharacterized protein n=1 Tax=Pseudogymnoa...    45   0.025
+UniRef90_A0A0V0XYQ9 Ubiquitin-60S ribosomal protein L40 n=3 Tax=...    45   0.025
+UniRef90_M5W3W7 Uncharacterized protein n=8 Tax=Eukaryota TaxID=...    45   0.025
+UniRef90_UPI0009DBD2E7 hypothetical protein n=1 Tax=Lachnospira ...    45   0.025
+UniRef90_I1HK96 Uncharacterized protein n=1 Tax=Brachypodium dis...    45   0.026
+UniRef90_A0A1J3IDQ4 Polyubiquitin (Fragment) n=1 Tax=Noccaea cae...    45   0.026
+UniRef90_A0A061SHH0 Small subunit ribosomal protein S27Ae n=1 Ta...    45   0.026
+UniRef90_A0A093XDE0 Uncharacterized protein n=1 Tax=Pseudogymnoa...    45   0.026
+UniRef90_A0A094G3L5 Uncharacterized protein n=2 Tax=Pseudogymnoa...    45   0.026
+UniRef90_J9IKU9 Polyubiquitin-C n=1 Tax=Oxytricha trifallax TaxI...    45   0.026
+UniRef90_A0A0P0X6U8 Os07g0489500 protein n=3 Tax=Oryza TaxID=452...    45   0.026
+UniRef90_UPI0003EE12D1 ubiquitin-60S ribosomal protein L40 isofo...    45   0.026
+UniRef90_A0A094BL17 Uncharacterized protein n=1 Tax=Pseudogymnoa...    45   0.026
+UniRef90_A7AVT9 Ubiquitin / ribosomal protein CEP52 n=5 Tax=Euka...    45   0.026
+UniRef90_Q9WR87 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...    45   0.026
+UniRef90_A8QAU5 Uncharacterized protein n=1 Tax=Malassezia globo...    45   0.026
+UniRef90_G1X8M1 Uncharacterized protein n=2 Tax=Orbiliaceae TaxI...    45   0.026
+UniRef90_R0KPY3 Ubiquitin (Fragment) n=5 Tax=Opisthokonta TaxID=...    45   0.026
+UniRef90_A0A0N8EQ79 Polyubiquitin-C-like protein n=1 Tax=Daphnia...    45   0.026
+UniRef90_F0Y169 Uncharacterized protein n=1 Tax=Aureococcus anop...    45   0.026
+UniRef90_UPI0005404982 ubiquitin-60S ribosomal protein L40 isofo...    45   0.026
+UniRef90_UPI0005D0D275 ubiquitin-like n=1 Tax=Aquila chrysaetos ...    45   0.026
+UniRef90_P15357 Ubiquitin-40S ribosomal protein S27a n=43 Tax=Bi...    45   0.027
+UniRef90_R9PB63 Ubiquitin n=1 Tax=Pseudozyma hubeiensis (strain ...    45   0.027
+UniRef90_A0A0L0HL87 Polyubiquitin n=1 Tax=Spizellomyces punctatu...    45   0.027
+UniRef90_S7W9X5 Ubiquitin/40s ribosomal protein S27a fusion n=1 ...    45   0.027
+UniRef90_A0A1U7YVT0 ubiquitin isoform X2 n=5 Tax=Mesangiospermae...    45   0.027
+UniRef90_A0A146XNM2 Ubiquitin-40S ribosomal protein S27a n=1 Tax...    45   0.027
+UniRef90_UPI00057A9F9D ubiquitin-40S ribosomal protein S27a-like...    45   0.027
+UniRef90_A0A1E4TLU1 Uncharacterized protein n=1 Tax=Tortispora c...    44   0.027
+UniRef90_F0XYZ7 Uncharacterized protein (Fragment) n=1 Tax=Aureo...    44   0.027
+UniRef90_F0WK76 Ubiquitin extension protein putative n=1 Tax=Alb...    44   0.027
+UniRef90_I2JVB9 Ubiquitin n=2 Tax=Ascomycota TaxID=4890 RepID=I2...    44   0.027
+UniRef90_E3KFB8 Large subunit ribosomal protein L40e n=1 Tax=Puc...    44   0.027
+UniRef90_A0A1A7MHP2 Uncharacterized protein n=1 Tax=Aureobasidiu...    44   0.027
+UniRef90_A0A0A2V3S0 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...    44   0.027
+UniRef90_UPI0005124E9B polyubiquitin n=1 Tax=Musa acuminata subs...    44   0.027
+UniRef90_A0A1I9G0A2 Bm13651 n=4 Tax=Eukaryota TaxID=2759 RepID=A...    44   0.028
+UniRef90_M0SUK5 Uncharacterized protein n=1 Tax=Musa acuminata s...    44   0.028
+UniRef90_A0A1U7LPP0 Ubiquitin-40S ribosomal protein S27a n=1 Tax...    44   0.028
+UniRef90_K1X443 Ubiquitin n=3 Tax=Eukaryota TaxID=2759 RepID=K1X...    44   0.028
+UniRef90_S5MRE1 Ubiquitin-like protein n=4 Tax=Alphabaculovirus ...    44   0.028
+UniRef90_H3AHU2 Uncharacterized protein n=2 Tax=Latimeria chalum...    44   0.028
+UniRef90_UPI00046DAA9D ubiquitin n=1 Tax=Prunus mume TaxID=10210...    44   0.028
+UniRef90_V2WUC0 Ubiquitin n=29 Tax=Agaricomycetes TaxID=155619 R...    44   0.029
+UniRef90_A0A0C4EWI4 Uncharacterized protein n=3 Tax=Puccinia Tax...    44   0.029
+UniRef90_A0A094BZT0 Uncharacterized protein n=1 Tax=Pseudogymnoa...    44   0.029
+UniRef90_M1VD49 Ubiquitin with short C-terminal extension n=1 Ta...    44   0.029
+UniRef90_E9QNP0 KxDL motif-containing protein 1 n=10 Tax=Eutheri...    44   0.029
+UniRef90_H2UK34 Uncharacterized protein n=1 Tax=Takifugu rubripe...    44   0.029
+UniRef90_P0CH08 Ubiquitin-60S ribosomal protein L40 n=134 Tax=Eu...    44   0.029
+UniRef90_L2GV95 Ubiquitin-40S ribosomal protein S27a n=2 Tax=Ple...    44   0.029
+UniRef90_V4LSX1 Uncharacterized protein n=1 Tax=Eutrema salsugin...    44   0.029
+UniRef90_A0A1S5YE59 Ubiquitin n=1 Tax=Mythimna unipuncta granulo...    44   0.029
+UniRef90_A0A1E4TEY1 Uncharacterized protein n=1 Tax=Tortispora c...    44   0.030
+UniRef90_G9E5X0 Uncharacterized protein n=1 Tax=Micromonas pusil...    44   0.030
+UniRef90_A0A212FHW0 Hairy cell leukemia protein 1 n=4 Tax=Holome...    44   0.030
+UniRef90_A0A067G443 Uncharacterized protein n=3 Tax=Embryophyta ...    44   0.030
+UniRef90_A0A1J4MZ88 Ubiquitin family protein n=1 Tax=Cryptospori...    44   0.030
+UniRef90_A0A1D5RYM7 Uncharacterized protein n=5 Tax=Mesangiosper...    44   0.030
+UniRef90_A0A1D6CD83 Uncharacterized protein n=2 Tax=Triticum aes...    44   0.030
+UniRef90_Q9WR82 Polyprotein (Fragment) n=2 Tax=Bovine viral diar...    44   0.030
+UniRef90_UPI00071A8E17 ubiquitin-60S ribosomal protein L40 n=1 T...    44   0.030
+UniRef90_UPI000742BAA7 polyubiquitin-like n=1 Tax=Cyprinodon var...    44   0.030
+UniRef90_P59272 Ubiquitin-40S ribosomal protein S27a (Fragment) ...    44   0.030
+UniRef90_L8WVI0 Polyubiquitin n=1 Tax=Thanatephorus cucumeris (s...    44   0.030
+UniRef90_D8Q1K1 Uncharacterized protein ubi::crp-6 n=32 Tax=Agar...    44   0.030
+UniRef90_Q8ITI9 Ubiquitin extension protein n=1 Tax=Heterodera g...    44   0.030
+UniRef90_A0A1A9W0F3 60S ribosomal protein L40 n=1 Tax=Glossina b...    44   0.031
+UniRef90_A0A024GPK1 Uncharacterized protein n=3 Tax=Eukaryota Ta...    44   0.031
+
+>UniRef90_P05161 Ubiquitin-like protein ISG15 n=16 Tax=Catarrhini TaxID=9526
+           RepID=ISG15_HUMAN
+          Length = 165
+
+ Score =  146 bits (369), Expect = 4e-33,   Method: Composition-based stats.
+ Identities = 74/74 (100%), Positives = 74/74 (100%)
+
+Query: 1   EPLSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFEGKPLEDQLPLGE 60
+           EPLSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFEGKPLEDQLPLGE
+Sbjct: 80  EPLSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFEGKPLEDQLPLGE 139
+
+Query: 61  YGLKPLSTVFMNLR 74
+           YGLKPLSTVFMNLR
+Sbjct: 140 YGLKPLSTVFMNLR 153
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_I3LU39 Uncharacterized protein n=4 Tax=Sus scrofa TaxID...   144   3e-32
+UniRef90_E2R7R1 ISG15 ubiquitin-like modifier n=1 Tax=Canis lupu...   140   4e-31
+UniRef90_A0A091MCC1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   140   4e-31
+UniRef90_U6DRB8 Ubiquitin-like protein ISG15 (Fragment) n=1 Tax=...   139   5e-31
+UniRef90_A0A091UR95 2'-5'-oligoadenylate synthase-like 2 (Fragme...   139   6e-31
+UniRef90_UPI000441D5F1 uncharacterized protein LOC103076606 n=1 ...   139   6e-31
+UniRef90_G1MJQ9 Uncharacterized protein (Fragment) n=3 Tax=Ailur...   138   1e-30
+UniRef90_A0A091S2W3 2'-5'-oligoadenylate synthase-like 2 (Fragme...   138   1e-30
+UniRef90_F6QHE9 ISG15 ubiquitin-like modifier n=2 Tax=Callithrix...   138   2e-30
+UniRef90_UPI000522C8DC 2'-5'-oligoadenylate synthase 1-like n=1 ...   137   3e-30
+UniRef90_S9XCC0 ISG15 ubiquitin-like modifier n=2 Tax=Camelus Ta...   137   4e-30
+UniRef90_UPI00027FB2D6 ubiquitin-like protein ISG15 n=3 Tax=Plat...   136   4e-30
+UniRef90_A0A091J5U6 2'-5'-oligoadenylate synthase-like 2 (Fragme...   136   5e-30
+UniRef90_A0A091N1D0 2'-5'-oligoadenylate synthase-like 2 (Fragme...   136   8e-30
+UniRef90_UPI00053241CC 2'-5'-oligoadenylate synthase-like protei...   135   9e-30
+UniRef90_UPI00053CB030 2'-5'-oligoadenylate synthase 1-like n=2 ...   135   1e-29
+UniRef90_A0A087QTF3 2'-5'-oligoadenylate synthase-like 2 (Fragme...   135   1e-29
+UniRef90_W5PBE1 Uncharacterized protein n=3 Tax=Caprinae TaxID=9...   135   1e-29
+UniRef90_UPI0006B6A66E 2'-5'-oligoadenylate synthase 1-like n=1 ...   135   1e-29
+UniRef90_UPI000523AEDB 2'-5'-oligoadenylate synthase 1-like n=1 ...   135   1e-29
+UniRef90_UPI00042C552C ubiquitin-like protein ISG15 n=1 Tax=Phys...   134   1e-29
+UniRef90_M3YR61 ISG15 ubiquitin-like modifier n=3 Tax=Caniformia...   134   2e-29
+UniRef90_UPI00038719AD 2'-5'-oligoadenylate synthase 1-like n=1 ...   134   2e-29
+UniRef90_P05161 Ubiquitin-like protein ISG15 n=16 Tax=Catarrhini...   134   2e-29
+UniRef90_G3TLH5 Uncharacterized protein n=2 Tax=Loxodonta africa...   134   2e-29
+UniRef90_UPI0009449555 ubiquitin-like protein ISG15 n=1 Tax=Rhin...   134   2e-29
+UniRef90_UPI0009816980 ubiquitin-like protein ISG15 n=1 Tax=Cast...   134   3e-29
+UniRef90_U3K2C2 2'-5'-oligoadenylate synthetase like n=1 Tax=Fic...   134   3e-29
+UniRef90_Q9GKP4 Interferon stimulated gene 17 n=4 Tax=Bovidae Ta...   134   3e-29
+UniRef90_G3RG63 ISG15 ubiquitin-like modifier n=7 Tax=Homininae ...   133   4e-29
+UniRef90_UPI00063CD147 ubiquitin-like protein ISG15 n=1 Tax=Tric...   133   4e-29
+UniRef90_A0A091ELS9 2'-5'-oligoadenylate synthase-like 2 (Fragme...   133   5e-29
+UniRef90_UPI0006B7B053 2'-5'-oligoadenylate synthase 1-like n=2 ...   133   5e-29
+UniRef90_UPI0003EDDA9C ubiquitin-like protein ISG15 n=3 Tax=Cani...   133   6e-29
+UniRef90_UPI0004F0251F 2'-5'-oligoadenylate synthase 1-like n=1 ...   133   6e-29
+UniRef90_UPI0008166A50 2'-5'-oligoadenylate synthase-like protei...   133   7e-29
+UniRef90_UPI00071A24DF LOW QUALITY PROTEIN: 2'-5'-oligoadenylate...   132   7e-29
+UniRef90_A0A091R2Y1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   132   7e-29
+UniRef90_UPI0003956233 2'-5'-oligoadenylate synthase 1 n=1 Tax=G...   132   7e-29
+UniRef90_A0A093QW95 2'-5'-oligoadenylate synthase-like 1 (Fragme...   132   7e-29
+UniRef90_UPI00038335F9 2'-5'-oligoadenylate synthase-like protei...   132   9e-29
+UniRef90_UPI00057BC8D0 ubiquitin-like protein ISG15 n=2 Tax=Came...   132   9e-29
+UniRef90_UPI000A1B8CB7 ubiquitin-like protein ISG15 n=1 Tax=Odoc...   132   1e-28
+UniRef90_UPI0006435AA5 ubiquitin-like protein ISG15 n=1 Tax=Micr...   132   1e-28
+UniRef90_UPI0004ED4EF0 ubiquitin-like protein ISG15 n=1 Tax=Nann...   132   1e-28
+UniRef90_UPI00062A5DC8 ubiquitin-like protein ISG15 n=1 Tax=Octo...   131   1e-28
+UniRef90_UPI0003292E81 ubiquitin-like protein ISG15 n=1 Tax=Dasy...   131   1e-28
+UniRef90_UPI0000DBBBE1 Interferon-induced 17 kDa protein n=3 Tax...   131   1e-28
+UniRef90_A0A1V4K8T1 2'-5'-oligoadenylate synthase 1 n=2 Tax=Colu...   131   2e-28
+UniRef90_UPI0004F11146 2'-5'-oligoadenylate synthase 1-like isof...   131   2e-28
+UniRef90_UPI0006B0A3AF polyubiquitin-like n=1 Tax=Apteryx austra...   131   2e-28
+UniRef90_UPI0008DB604E 2'-5'-oligoadenylate synthase 1-like isof...   131   2e-28
+UniRef90_A0A093H453 2'-5'-oligoadenylate synthase-like 2 (Fragme...   131   2e-28
+UniRef90_UPI00064BAAC8 ubiquitin-like protein ISG15 n=1 Tax=Ocho...   131   3e-28
+UniRef90_M3WNM9 Uncharacterized protein n=5 Tax=Felidae TaxID=96...   130   3e-28
+UniRef90_A0A1S3GXH4 ubiquitin-like protein ISG15 n=1 Tax=Dipodom...   130   3e-28
+UniRef90_H0Z853 2'-5'-oligoadenylate synthetase like n=3 Tax=Est...   130   3e-28
+UniRef90_UPI0007A6AEA2 ubiquitin-like protein ISG15 n=1 Tax=Mini...   130   3e-28
+UniRef90_A0A093JNH5 2'-5'-oligoadenylate synthase-like 2 (Fragme...   130   4e-28
+UniRef90_UPI00053F457C ubiquitin-like protein ISG15 n=1 Tax=Fuko...   130   4e-28
+UniRef90_UPI0006B0CE85 2'-5'-oligoadenylate synthase 1-like n=1 ...   130   4e-28
+UniRef90_UPI00062B7E2F ubiquitin-like protein ISG15 n=1 Tax=Orci...   129   5e-28
+UniRef90_UPI00044065D6 ubiquitin-like protein ISG15 n=1 Tax=Bala...   129   5e-28
+UniRef90_O02741 Ubiquitin-like protein ISG15 n=7 Tax=Bovinae Tax...   129   6e-28
+UniRef90_UPI000521399E LOW QUALITY PROTEIN: 2'-5'-oligoadenylate...   129   6e-28
+UniRef90_UPI000719843E ubiquitin-like protein ISG15 n=1 Tax=Cera...   129   6e-28
+UniRef90_A0A094L8K5 2'-5'-oligoadenylate synthase-like 1 (Fragme...   129   7e-28
+UniRef90_UPI00063FC7DC ubiquitin-like protein ISG15 n=1 Tax=Prop...   128   1e-27
+UniRef90_H0XER2 Uncharacterized protein n=2 Tax=Otolemur garnett...   128   1e-27
+UniRef90_UPI00033300F9 ubiquitin-like protein ISG15 n=1 Tax=Jacu...   128   1e-27
+UniRef90_F7D6U2 Uncharacterized protein n=3 Tax=Equus TaxID=3551...   128   2e-27
+UniRef90_UPI00038EDE99 ubiquitin-like protein ISG15 n=1 Tax=Chin...   128   2e-27
+UniRef90_UPI00038C6402 ubiquitin-like protein ISG15 n=1 Tax=Micr...   127   3e-27
+UniRef90_A0A091RY69 2'-5'-oligoadenylate synthase-like 2 (Fragme...   127   3e-27
+UniRef90_UPI00034FA2BB ubiquitin-like protein ISG15 n=1 Tax=Hete...   127   3e-27
+UniRef90_A0A093PWZ1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   127   3e-27
+UniRef90_UPI00052991E2 2'-5'-oligoadenylate synthase 1-like n=1 ...   127   3e-27
+UniRef90_A0A091GMJ6 2'-5'-oligoadenylate synthase-like 1 (Fragme...   126   5e-27
+UniRef90_UPI000812E399 ubiquitin-like protein ISG15 n=1 Tax=Mani...   126   5e-27
+UniRef90_UPI0004F0E1C5 2'-5'-oligoadenylate synthase 1-like n=1 ...   126   5e-27
+UniRef90_UPI000522D799 ubiquitin-like n=1 Tax=Opisthocomus hoazi...   126   5e-27
+UniRef90_A0A093EZR5 2'-5'-oligoadenylate synthase-like 2 (Fragme...   126   6e-27
+UniRef90_UPI00045DDB34 ubiquitin-like protein ISG15 n=1 Tax=Oryc...   126   7e-27
+UniRef90_A0A1P8LK38 2',5'-oligoadenylate synthetase-like protein...   124   2e-26
+UniRef90_L8Y945 Ubiquitin-like protein ISG15 n=2 Tax=Tupaia TaxI...   124   2e-26
+UniRef90_UPI0006447955 polyubiquitin 11-like n=1 Tax=Clupea hare...   124   2e-26
+UniRef90_G1TKK9 Uncharacterized protein n=2 Tax=Oryctolagus cuni...   124   2e-26
+UniRef90_UPI0004D07977 ubiquitin-like protein ISG15 n=1 Tax=Gale...   124   2e-26
+UniRef90_A0A1U8CAF8 ubiquitin-like protein ISG15 n=3 Tax=Criceti...   124   2e-26
+UniRef90_UPI00074FF425 ubiquitin-like protein ISG15 n=1 Tax=Gekk...   124   3e-26
+UniRef90_H0W145 Uncharacterized protein n=2 Tax=Cavia porcellus ...   124   3e-26
+UniRef90_M3XHQ3 Uncharacterized protein n=1 Tax=Latimeria chalum...   123   5e-26
+UniRef90_A0A1Y1XE41 Ubiquitin-domain-containing protein n=1 Tax=...   122   7e-26
+UniRef90_L8HBA5 Ubiquitin domain containing protein n=1 Tax=Acan...   122   7e-26
+UniRef90_UPI00074FCCE9 ubiquitin-like protein ISG15 n=1 Tax=Gekk...   122   8e-26
+UniRef90_UPI000B4FD239 ubiquitin-like protein ISG15 n=1 Tax=Meri...   122   1e-25
+UniRef90_UPI00071C2E4C 2'-5'-oligoadenylate synthase 1-like n=1 ...   121   2e-25
+UniRef90_UPI0006440F00 polyubiquitin-like n=2 Tax=Clupea harengu...   121   2e-25
+UniRef90_A0A1U7SRP3 ubiquitin-like protein ISG15 n=1 Tax=Tarsius...   120   3e-25
+UniRef90_UPI000B3D9373 2'-5'-oligoadenylate synthase 1-like n=1 ...   120   3e-25
+UniRef90_A0A1B6QDB4 Uncharacterized protein n=1 Tax=Sorghum bico...   120   4e-25
+UniRef90_UPI0009393060 ubiquitin-like protein ISG15 n=1 Tax=Hipp...   120   4e-25
+UniRef90_UPI000777826C 2'-5'-oligoadenylate synthase 1-like n=1 ...   120   4e-25
+UniRef90_Q64339 Ubiquitin-like protein ISG15 n=9 Tax=Bilateria T...   119   6e-25
+UniRef90_I3N5J5 Uncharacterized protein n=3 Tax=Marmotini TaxID=...   119   6e-25
+UniRef90_D4A3X3 ISG15 ubiquitin-like modifier n=1 Tax=Rattus nor...   119   6e-25
+UniRef90_UPI0006432592 ubiquitin-like protein ISG15 n=1 Tax=Cond...   119   7e-25
+UniRef90_A0A1W0W4T7 Uncharacterized protein n=1 Tax=Sorghum bico...   119   7e-25
+UniRef90_L5L743 Ubiquitin cross-reactive protein n=3 Tax=Pteropu...   118   1e-24
+UniRef90_U3J6Y2 Uncharacterized protein n=1 Tax=Anas platyrhynch...   118   1e-24
+UniRef90_UPI0003F167DF ubiquitin-like protein ISG15 n=1 Tax=Chry...   118   1e-24
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_Q9WR83 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   127   3e-27
+UniRef90_F0Y3Y1 Uncharacterized protein n=4 Tax=Aureococcus anop...   126   4e-27
+UniRef90_A0A0N5A2Q5 Uncharacterized protein n=1 Tax=Parastrongyl...   126   4e-27
+UniRef90_S9Y7C3 Ubiquitin A-52 residue ribosomal protein fusion ...   126   5e-27
+UniRef90_UPI0009FA51DD hypothetical protein n=1 Tax=Loktanella s...   126   5e-27
+UniRef90_Q65810 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...   126   5e-27
+UniRef90_Q65815 Genome polyprotein n=26 Tax=Bovine viral diarrhe...   126   5e-27
+UniRef90_Q9WR87 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   126   5e-27
+UniRef90_A0A0K0FAI6 Ubiquitin-60S ribosomal protein L40 (inferre...   126   5e-27
+UniRef90_A0A0V0GKN7 Putative ovule protein (Fragment) n=1 Tax=So...   126   6e-27
+UniRef90_A0A0E0B3R4 Uncharacterized protein n=1 Tax=Oryza glumip...   126   6e-27
+UniRef90_UPI00071A8E17 ubiquitin-60S ribosomal protein L40 n=1 T...   126   6e-27
+UniRef90_E3KFB8 Large subunit ribosomal protein L40e n=1 Tax=Puc...   126   7e-27
+UniRef90_F7AUY9 Ribosomal protein S27a n=6 Tax=Boreoeutheria Tax...   126   7e-27
+UniRef90_Q04232 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...   126   7e-27
+UniRef90_Q9WR82 Polyprotein (Fragment) n=2 Tax=Bovine viral diar...   126   8e-27
+UniRef90_A0A0P5NQT1 Ubiquitin-60S ribosomal protein L40 (Fragmen...   126   8e-27
+UniRef90_UPI0006B107CE ubiquitin-60S ribosomal protein L40 n=1 T...   126   8e-27
+UniRef90_A0A1V4K2F8 Polyubiquitin-C isoform A n=2 Tax=Patagioena...   125   8e-27
+UniRef90_A0A0E0ARP4 Uncharacterized protein n=1 Tax=Oryza glumip...   125   9e-27
+UniRef90_A0A1S4FZI3 Ubiquitin (ribosomal protein L40) n=6 Tax=Cu...   125   1e-26
+UniRef90_UPI0008DB4A74 polyubiquitin-C isoform X1 n=1 Tax=Serinu...   125   1e-26
+UniRef90_I1QPX9 Uncharacterized protein n=6 Tax=Oryza TaxID=4527...   125   1e-26
+UniRef90_A0A0E0B4J9 Uncharacterized protein n=5 Tax=Oryza TaxID=...   125   1e-26
+UniRef90_A0A0D3H884 Uncharacterized protein n=2 Tax=Oryza TaxID=...   125   1e-26
+UniRef90_M2VTN6 Ubiquitin n=1 Tax=Galdieria sulphuraria TaxID=13...   125   1e-26
+UniRef90_A0A167MVN0 RNA polymerase 1 specific transcription init...   125   1e-26
+UniRef90_A0A1Q9DUW8 Ubiquitin n=1 Tax=Symbiodinium microadriatic...   125   1e-26
+UniRef90_A0A1Q9D8L2 Polyubiquitin n=6 Tax=Eukaryota TaxID=2759 R...   125   1e-26
+UniRef90_A0A0G4HTL3 Uncharacterized protein n=3 Tax=Eukaryota Ta...   124   2e-26
+UniRef90_A0A068RM11 V-type proton ATPase proteolipid subunit n=1...   124   2e-26
+UniRef90_A0A0G4F507 Uncharacterized protein n=1 Tax=Vitrella bra...   124   2e-26
+UniRef90_Q9WR77 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   124   2e-26
+UniRef90_F0Y169 Uncharacterized protein n=1 Tax=Aureococcus anop...   124   2e-26
+UniRef90_A0A067CTW4 Uncharacterized protein n=1 Tax=Saprolegnia ...   124   2e-26
+UniRef90_Q9WR81 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   124   2e-26
+UniRef90_A0A0D3H885 Uncharacterized protein n=3 Tax=Oryza TaxID=...   124   2e-26
+UniRef90_A0A095XXZ9 Uncharacterized protein n=1 Tax=Pseudohaliea...   124   2e-26
+UniRef90_W9YZX6 V-type proton ATPase subunit a n=6 Tax=Herpotric...   124   2e-26
+UniRef90_V9DND7 V-type proton ATPase subunit a n=10 Tax=Opisthok...   124   2e-26
+UniRef90_A0A091CWM2 Uncharacterized protein n=8 Tax=Bilateria Ta...   124   2e-26
+UniRef90_A0A0E0ETD9 Uncharacterized protein n=1 Tax=Oryza meridi...   124   2e-26
+UniRef90_W7TN89 Ubiquitin n=2 Tax=Nannochloropsis gaditana TaxID...   124   2e-26
+UniRef90_A0A1Q9DXW4 Polyubiquitin 11 n=1 Tax=Symbiodinium microa...   124   2e-26
+UniRef90_A0A1Q9DXW1 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   124   2e-26
+UniRef90_A0A1Y1WFE2 Ubiquitin-domain-containing protein (Fragmen...   124   2e-26
+UniRef90_B7P0U0 40S ribosomal protein S27A, putative n=25 Tax=Me...   124   2e-26
+UniRef90_A0A1L8HX68 Uncharacterized protein n=1 Tax=Xenopus laev...   124   2e-26
+UniRef90_UPI000B7D1480 hypothetical protein n=1 Tax=Paenibacillu...   124   3e-26
+UniRef90_G7DSA4 Uncharacterized protein n=1 Tax=Mixia osmundae (...   124   3e-26
+UniRef90_E0S5W6 Monoubiquitin/carboxy-extension fusion-like prot...   124   3e-26
+UniRef90_UPI0004F43664 ubiquitin-60S ribosomal protein L40 isofo...   124   3e-26
+UniRef90_A0A212FHW0 Hairy cell leukemia protein 1 n=4 Tax=Holome...   124   3e-26
+UniRef90_UPI00083BAB55 ubiquitin-60S ribosomal protein L40-like ...   124   3e-26
+UniRef90_P68200 Ubiquitin-40S ribosomal protein S27a n=28 Tax=Eu...   124   3e-26
+UniRef90_A0A0V0RGU1 Polyubiquitin-B n=1 Tax=Trichinella nelsoni ...   124   3e-26
+UniRef90_A0A0N1I678 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   124   3e-26
+UniRef90_P62979 Ubiquitin-40S ribosomal protein S27a n=32 Tax=Bi...   124   3e-26
+UniRef90_A0A177C1V1 Ubiquitin-domain-containing protein n=1 Tax=...   124   3e-26
+UniRef90_E5T5F3 Putative ubiquitin family protein (Fragment) n=1...   124   3e-26
+UniRef90_I1NXI0 Uncharacterized protein n=1 Tax=Oryza glaberrima...   124   3e-26
+UniRef90_A0A068SER0 Cation-transporting ATPase n=2 Tax=Lichtheim...   123   3e-26
+UniRef90_P79781 Ubiquitin-40S ribosomal protein S27a n=22 Tax=Bi...   123   3e-26
+UniRef90_P62983 Ubiquitin-40S ribosomal protein S27a n=127 Tax=E...   123   3e-26
+UniRef90_A0A0G4EN71 Uncharacterized protein n=1 Tax=Vitrella bra...   123   3e-26
+UniRef90_UPI0005D0D275 ubiquitin-like n=1 Tax=Aquila chrysaetos ...   123   3e-26
+UniRef90_A0A099NZL9 PRA1 family protein n=5 Tax=Fungi TaxID=4751...   123   4e-26
+UniRef90_A0A0V0RGU0 Polyubiquitin-B n=1 Tax=Trichinella nelsoni ...   123   4e-26
+UniRef90_P15357 Ubiquitin-40S ribosomal protein S27a n=43 Tax=Bi...   123   4e-26
+UniRef90_A0A074REZ6 Ubiquitin-60S ribosomal protein L40 n=18 Tax...   123   4e-26
+UniRef90_UPI0003EE12D1 ubiquitin-60S ribosomal protein L40 isofo...   123   4e-26
+UniRef90_A0A061B1X4 CYFA0S07e04632g1_1 n=1 Tax=Cyberlindnera fab...   123   4e-26
+UniRef90_W6USS6 Ubiquitin n=3 Tax=Echinococcus TaxID=6209 RepID=...   123   4e-26
+UniRef90_A0A0W0F300 Uncharacterized protein n=1 Tax=Moniliophtho...   123   4e-26
+UniRef90_M1VD49 Ubiquitin with short C-terminal extension n=1 Ta...   123   4e-26
+UniRef90_Q9WR86 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   123   4e-26
+UniRef90_G3VR81 Uncharacterized protein n=7 Tax=Euteleostomi Tax...   123   4e-26
+UniRef90_A0A063BYS4 Polyubiquitin n=1 Tax=Ustilaginoidea virens ...   123   4e-26
+UniRef90_UPI0008DB7D86 polyubiquitin-C isoform X2 n=1 Tax=Serinu...   123   4e-26
+UniRef90_A0A146XNM2 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   123   4e-26
+UniRef90_A0A0N7ZZN5 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   123   5e-26
+UniRef90_M8AJB6 Polyubiquitin n=9 Tax=Eukaryota TaxID=2759 RepID...   123   5e-26
+UniRef90_UPI0003315802 ubiquitin-like n=1 Tax=Sorex araneus TaxI...   123   5e-26
+UniRef90_L8WVI0 Polyubiquitin n=1 Tax=Thanatephorus cucumeris (s...   123   5e-26
+UniRef90_A0A151UF79 Ubiquitin n=1 Tax=Cajanus cajan TaxID=3821 R...   123   5e-26
+UniRef90_UPI0006AAF31E ubiquitin-40S ribosomal protein S27a-3-li...   123   5e-26
+UniRef90_A0A1A9W0F3 60S ribosomal protein L40 n=1 Tax=Glossina b...   123   5e-26
+UniRef90_UPI0008F5375D ubiquitin-60S ribosomal protein L40 isofo...   123   5e-26
+UniRef90_A0A0B2XHD1 Uncharacterized protein n=6 Tax=Metarhizium ...   123   5e-26
+UniRef90_A0A1J4MZ88 Ubiquitin family protein n=1 Tax=Cryptospori...   123   5e-26
+UniRef90_UPI00077127DD ubiquitin n=1 Tax=Parus major TaxID=9157 ...   123   5e-26
+UniRef90_A0A1A9ZVP2 Uncharacterized protein n=4 Tax=Calyptratae ...   123   5e-26
+UniRef90_UPI0009FBDF8A hypothetical protein n=1 Tax=Leeia oryzae...   123   5e-26
+UniRef90_UPI000846E0D0 probable phosphatase phospho2 n=1 Tax=Dro...   122   6e-26
+UniRef90_A0A0L0DLX6 Uncharacterized protein n=1 Tax=Thecamonas t...   122   6e-26
+UniRef90_UPI00051E2164 ubiquitin-60S ribosomal protein L40 n=1 T...   122   6e-26
+UniRef90_W7U0R4 40S ribosomal protein S30 n=1 Tax=Nannochloropsi...   122   6e-26
+UniRef90_A0A0V0RGT0 Polyubiquitin n=1 Tax=Trichinella nelsoni Ta...   122   6e-26
+UniRef90_L8WIL1 Ubiquitin domain-containing protein n=1 Tax=Than...   122   6e-26
+UniRef90_A0A0V0Z8L6 Polyubiquitin-B n=26 Tax=Trichinella TaxID=6...   122   7e-26
+UniRef90_A0A0V0Z8A7 Polyubiquitin-B n=1 Tax=Trichinella patagoni...   122   7e-26
+UniRef90_A0A094C140 Uncharacterized protein (Fragment) n=1 Tax=P...   122   7e-26
+UniRef90_A0A1A9ZJ33 60S ribosomal protein L40 n=2 Tax=Bilateria ...   122   7e-26
+UniRef90_A0A0V0Z903 Polyubiquitin-B n=1 Tax=Trichinella patagoni...   122   7e-26
+UniRef90_A0A0V0XYQ9 Ubiquitin-60S ribosomal protein L40 n=3 Tax=...   122   7e-26
+UniRef90_E5SH46 Ubiquitin family protein n=1 Tax=Trichinella spi...   122   7e-26
+UniRef90_K4AMP3 Uncharacterized protein n=2 Tax=Paniceae TaxID=1...   122   7e-26
+UniRef90_A0A0V0RGU3 Polyubiquitin-C n=12 Tax=cellular organisms ...   122   7e-26
+UniRef90_A0A0P1BCG2 Ubiquitin-40s ribosomal protein s27a n=1 Tax...   122   7e-26
+UniRef90_A0A0L0ST47 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   122   7e-26
+UniRef90_K7KG22 Uncharacterized protein n=43 Tax=Eukaryota TaxID...   122   8e-26
+UniRef90_UPI00063C7CD4 ubiquitin-60S ribosomal protein L40 isofo...   122   8e-26
+UniRef90_A0A1Y1YJ42 Ubiquitin-domain-containing protein n=1 Tax=...   122   8e-26
+UniRef90_A0A151NSC4 Scavenger receptor class B member 1 isoform ...   122   8e-26
+UniRef90_I6UKD4 Ubiquitin domain-containing protein n=2 Tax=Ence...   122   8e-26
+UniRef90_A0A061DSL5 Ribosomal protein S27a / Ubiquitin family pr...   122   8e-26
+UniRef90_Q86DU4 Ubiquitin extension protein n=1 Tax=Heterodera s...   122   8e-26
+UniRef90_A0A117NMP4 Uncharacterized protein n=2 Tax=Penicillium ...   122   8e-26
+UniRef90_K4AEK9 Uncharacterized protein n=6 Tax=Mesangiospermae ...   122   8e-26
+UniRef90_A0A0A0KVL0 Uncharacterized protein n=8 Tax=rosids TaxID...   122   8e-26
+UniRef90_A0A0A9Z4T5 Ubiquitin-40S ribosomal protein S27a n=7 Tax...   122   9e-26
+UniRef90_UPI00045E20C9 ubiquitin-60S ribosomal protein L40 isofo...   122   9e-26
+UniRef90_A0A1D6DKE6 Uncharacterized protein n=1 Tax=Triticum aes...   122   9e-26
+UniRef90_A0A093YW15 Uncharacterized protein n=1 Tax=Pseudogymnoa...   122   1e-25
+UniRef90_Q9WR85 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   122   1e-25
+UniRef90_A0A066VYD8 Ubiquitin-domain-containing protein n=1 Tax=...   122   1e-25
+UniRef90_A0A067MLF1 Uncharacterized protein n=1 Tax=Botryobasidi...   122   1e-25
+UniRef90_B7G9A2 Predicted protein n=1 Tax=Phaeodactylum tricornu...   122   1e-25
+UniRef90_Q8SWB3 Similarity to monoubiquitin/carboxy-extension pr...   122   1e-25
+UniRef90_A0A0F7S9D5 Probable ubiquitin/ribosomal protein S27a fu...   122   1e-25
+UniRef90_A0A0N8AGX8 Ubiquitin-40S ribosomal protein S27a n=2 Tax...   122   1e-25
+UniRef90_A0A059AWX7 Uncharacterized protein n=1 Tax=Eucalyptus g...   122   1e-25
+UniRef90_B4R5E7 GD16200 n=3 Tax=Bilateria TaxID=33213 RepID=B4R5...   122   1e-25
+UniRef90_A0A1D2N322 Ribosome biogenesis protein NSA2 n=1 Tax=Orc...   122   1e-25
+UniRef90_A0A094EFP9 Uncharacterized protein n=1 Tax=Pseudogymnoa...   122   1e-25
+UniRef90_UPI00057A9F9D ubiquitin-40S ribosomal protein S27a-like...   122   1e-25
+UniRef90_A0A0A2V3S0 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   122   1e-25
+UniRef90_M2MJG0 Uncharacterized protein n=1 Tax=Baudoinia compni...   122   1e-25
+UniRef90_A0A0D2A5S2 Polyubiquitin n=1 Tax=Verruconis gallopava T...   122   1e-25
+UniRef90_A0A0L9T1M6 Uncharacterized protein n=1 Tax=Ophiocordyce...   122   1e-25
+UniRef90_C1EI38 Uncharacterized protein n=1 Tax=Micromonas commo...   121   1e-25
+UniRef90_K0T5Y8 Uncharacterized protein n=1 Tax=Thalassiosira oc...   121   1e-25
+UniRef90_Q7XBP8 Ubiquitin/actin fusion protein 2 n=6 Tax=Eukaryo...   121   1e-25
+UniRef90_C1N647 Predicted protein n=1 Tax=Micromonas pusilla (st...   121   1e-25
+UniRef90_A0A078A7X4 Uncharacterized protein n=3 Tax=Oxytrichidae...   121   1e-25
+UniRef90_A0A1D6S3D6 Uncharacterized protein n=1 Tax=Triticum aes...   121   1e-25
+UniRef90_A0A196SE12 Ubiquitin n=1 Tax=Blastocystis sp. subtype 1...   121   1e-25
+UniRef90_UPI0003D73A95 ubiquitin-40S ribosomal protein S27a-like...   121   1e-25
+UniRef90_K0RS17 Uncharacterized protein n=1 Tax=Thalassiosira oc...   121   1e-25
+UniRef90_M1A024 Uncharacterized protein n=3 Tax=Pentapetalae Tax...   121   1e-25
+UniRef90_UPI00015386D5 Ubiquitin n=2 Tax=root TaxID=1 RepID=UPI0...   121   1e-25
+UniRef90_A0A074SQ86 Ubiquitin/40S ribosomal protein S27a fusion ...   121   1e-25
+UniRef90_M7ZAV9 Ubiquitin-60S ribosomal protein L40 n=4 Tax=Pooi...   121   1e-25
+UniRef90_G3JHJ9 RING and UBP finger domain protein n=1 Tax=Cordy...   121   1e-25
+UniRef90_A0A0D2LS10 Uncharacterized protein n=2 Tax=malvids TaxI...   121   1e-25
+UniRef90_A0A1D5SFS7 Uncharacterized protein n=1 Tax=Triticum aes...   121   1e-25
+UniRef90_A7AVT9 Ubiquitin / ribosomal protein CEP52 n=5 Tax=Euka...   121   1e-25
+UniRef90_A0A094J8Y6 Uncharacterized protein n=1 Tax=Pseudogymnoa...   121   2e-25
+UniRef90_D8MAB6 Uncharacterized protein n=3 Tax=Blastocystis Tax...   121   2e-25
+UniRef90_A0A094G3L5 Uncharacterized protein n=2 Tax=Pseudogymnoa...   121   2e-25
+UniRef90_A0A094B0J8 Uncharacterized protein n=1 Tax=Pseudogymnoa...   121   2e-25
+UniRef90_I3ELS3 Ubiquitin n=5 Tax=Nematocida TaxID=586132 RepID=...   121   2e-25
+UniRef90_J7S6G7 Uncharacterized protein n=1 Tax=Kazachstania nag...   121   2e-25
+UniRef90_A0A093XDE0 Uncharacterized protein n=1 Tax=Pseudogymnoa...   121   2e-25
+UniRef90_A0A0C9WVX8 Unplaced genomic scaffold K443scaffold_178, ...   121   2e-25
+UniRef90_R1DZ00 Uncharacterized protein n=1 Tax=Emiliania huxley...   121   2e-25
+UniRef90_A0A0I9XJY4 Cytoplasmic Zn-finger protein BRAP2 (BRCA1 a...   121   2e-25
+UniRef90_P46575 Ubiquitin-60S ribosomal protein L40 n=3 Tax=Euka...   121   2e-25
+UniRef90_A0BUT4 Uncharacterized protein n=2 Tax=Oligohymenophore...   121   2e-25
+UniRef90_A0A1D5T2G9 Uncharacterized protein n=1 Tax=Triticum aes...   121   2e-25
+UniRef90_A0A0C4EWI4 Uncharacterized protein n=3 Tax=Puccinia Tax...   121   2e-25
+UniRef90_A0A1D5XKQ6 Uncharacterized protein n=1 Tax=Triticum aes...   121   2e-25
+UniRef90_I3ER69 Ubiquitin/40S ribosomal protein S27a fusion prot...   121   2e-25
+UniRef90_UPI00042CDC9C polyubiquitin-C-like n=1 Tax=Bubalus buba...   121   2e-25
+UniRef90_A0A0N8DFC5 Polyubiquitin-C-like protein (Fragment) n=1 ...   121   2e-25
+UniRef90_A0A168AQ08 Ubiquitin subgroup n=1 Tax=Isaria fumosorose...   121   2e-25
+UniRef90_A0A175WEY6 Uncharacterized protein n=1 Tax=Madurella my...   121   2e-25
+UniRef90_A0A183BM42 Uncharacterized protein n=3 Tax=Globodera Ta...   121   2e-25
+UniRef90_A0A0N7L3V9 Ubiquitin-60s ribosomal protein l40 n=1 Tax=...   121   2e-25
+UniRef90_A0A0P0X6U8 Os07g0489500 protein n=3 Tax=Oryza TaxID=452...   121   2e-25
+UniRef90_A0A179G0I0 Ribosomal protein n=1 Tax=Pochonia chlamydos...   121   2e-25
+UniRef90_UPI000873C398 polyubiquitin isoform X2 n=2 Tax=Anoploph...   121   2e-25
+UniRef90_A0A094CX20 Uncharacterized protein n=4 Tax=Leotiomycete...   121   2e-25
+UniRef90_Q8ITI9 Ubiquitin extension protein n=1 Tax=Heterodera g...   121   2e-25
+UniRef90_F6HZD7 Uncharacterized protein n=1 Tax=Vitis vinifera T...   121   2e-25
+UniRef90_A4RZS0 Ribosomal protein S27a, component of cytosolic 8...   121   2e-25
+UniRef90_A0A059EVH7 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   121   2e-25
+UniRef90_A0A1A7MHP2 Uncharacterized protein n=1 Tax=Aureobasidiu...   121   2e-25
+UniRef90_A0MKC8 Ubiquitin extension protein n=1 Tax=Capsicum ann...   121   2e-25
+UniRef90_Q9WR84 Polyprotein (Fragment) n=2 Tax=Bovine viral diar...   121   2e-25
+UniRef90_A0A1R1PK95 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   121   2e-25
+UniRef90_A0A1Y1Y6K4 Ubiquitin-domain-containing protein n=1 Tax=...   121   2e-25
+UniRef90_A0A0B2QH08 Ubiquitin-60S ribosomal protein L40 n=2 Tax=...   121   2e-25
+UniRef90_UPI0003F08CAE ubiquitin-60S ribosomal protein L40-like ...   121   2e-25
+UniRef90_A0A094BL17 Uncharacterized protein n=1 Tax=Pseudogymnoa...   121   2e-25
+UniRef90_A0A0B7F544 Polyubiquitin OS=Petroselinum crispum GN=PCU...   121   2e-25
+UniRef90_UPI0007045201 polyubiquitin-B n=1 Tax=Myotis brandtii T...   121   2e-25
+UniRef90_M4C2M7 Uncharacterized protein n=11 Tax=Peronosporales ...   121   2e-25
+UniRef90_M1VEP4 60S ribosomal protein L40, ubiquitin fusion prot...   121   2e-25
+UniRef90_Q10NT5 Os03g0259500 protein n=6 Tax=Oryza TaxID=4527 Re...   121   2e-25
+UniRef90_L1I7B2 Zink finger-like fusion protein n=1 Tax=Guillard...   121   2e-25
+UniRef90_A0A1D5SK57 Uncharacterized protein n=1 Tax=Triticum aes...   121   2e-25
+UniRef90_A0A1D5XZY9 Uncharacterized protein n=4 Tax=Triticinae T...   121   2e-25
+UniRef90_V2WUC0 Ubiquitin n=29 Tax=Agaricomycetes TaxID=155619 R...   121   3e-25
+UniRef90_W5ADS2 Uncharacterized protein n=4 Tax=Pooideae TaxID=1...   121   3e-25
+UniRef90_H3AHU2 Uncharacterized protein n=2 Tax=Latimeria chalum...   121   3e-25
+UniRef90_A0A1E7FVE2 Putative nickel-containing superoxide dismut...   121   3e-25
+UniRef90_I3N517 Uncharacterized protein n=9 Tax=Eukaryota TaxID=...   121   3e-25
+UniRef90_UPI0005F41B2C ubiquitin-60S ribosomal protein L40 isofo...   121   3e-25
+UniRef90_B7G5H7 Ubiquitin extension protein 1/2 n=2 Tax=Navicula...   121   3e-25
+UniRef90_A0A182L1V1 Uncharacterized protein n=4 Tax=Bilateria Ta...   121   3e-25
+UniRef90_P68202 Ubiquitin-40S ribosomal protein S27a n=94 Tax=Pr...   120   3e-25
+UniRef90_A0A1B6FJ59 Uncharacterized protein n=1 Tax=Cuerna arida...   120   3e-25
+UniRef90_A0A0V0W2E7 Polyubiquitin (Fragment) n=7 Tax=Trichinella...   120   3e-25
+UniRef90_A0A1V6Q6L2 Uncharacterized protein n=2 Tax=Penicillium ...   120   3e-25
+UniRef90_A0A0V1EWF8 Polyubiquitin-C n=5 Tax=Opisthokonta TaxID=3...   120   3e-25
+UniRef90_K3YC38 Uncharacterized protein n=4 Tax=Viridiplantae Ta...   120   3e-25
+UniRef90_A0A1Y2I2Y8 Ubiquitin-related domain-containing protein ...   120   3e-25
+UniRef90_A0A0P7APW4 Polyubiquitin n=98 Tax=Eukaryota TaxID=2759 ...   120   3e-25
+UniRef90_A0A165UC22 WD40 repeat-like protein n=10 Tax=Basidiomyc...   120   3e-25
+UniRef90_A0A0K6FM12 Polyubiquitin-C n=6 Tax=Agaricomycetes TaxID...   120   3e-25
+UniRef90_A0A135LXE3 Ubiquitin supergroup n=1 Tax=Penicillium pat...   120   3e-25
+UniRef90_U4LUL9 Similar to Ubiquitin-60S ribosomal protein L40 a...   120   3e-25
+UniRef90_UPI0004F077E6 polyubiquitin isoform X4 n=8 Tax=Archelos...   120   3e-25
+UniRef90_A0A094BZT0 Uncharacterized protein n=1 Tax=Pseudogymnoa...   120   3e-25
+UniRef90_M5X9E1 Uncharacterized protein n=17 Tax=Eukaryota TaxID...   120   3e-25
+UniRef90_L1ILH0 Ubiquitin n=1 Tax=Guillardia theta CCMP2712 TaxI...   120   3e-25
+UniRef90_A0A068Y074 Polyubiquitin n=2 Tax=Echinococcus TaxID=620...   120   3e-25
+UniRef90_A0A0D2UMI5 Uncharacterized protein n=3 Tax=Gossypium Ta...   120   3e-25
+UniRef90_A0A0J0XYI9 Ubiquitin/40s ribosomal protein S27a fusion ...   120   3e-25
+UniRef90_A0A0G4LD50 Uncharacterized protein (Fragment) n=5 Tax=D...   120   3e-25
+UniRef90_A0A0G4LZJ2 Uncharacterized protein n=4 Tax=Hypocreomyce...   120   3e-25
+UniRef90_V5N8D2 Polyubiquitin n=1 Tax=Phaseolus vulgaris TaxID=3...   120   3e-25
+UniRef90_E9QNP0 KxDL motif-containing protein 1 n=10 Tax=Eutheri...   120   3e-25
+UniRef90_P18101 Ubiquitin-60S ribosomal protein L40 n=45 Tax=Hol...   120   3e-25
+UniRef90_L7IGX9 RING finger protein n=3 Tax=leotiomyceta TaxID=7...   120   3e-25
+UniRef90_A0A135U0E2 Forms a complex with the other RRN protein R...   120   3e-25
+UniRef90_M0RFG5 Uncharacterized protein n=1 Tax=Musa acuminata s...   120   3e-25
+UniRef90_R0KPY3 Ubiquitin (Fragment) n=5 Tax=Opisthokonta TaxID=...   120   3e-25
+UniRef90_UPI0001CC473E Monoubiquitinated Proliferating cell nucl...   120   4e-25
+UniRef90_A0A067G443 Uncharacterized protein n=3 Tax=Embryophyta ...   120   4e-25
+UniRef90_A0A0N7D5G9 Viral ubiquitin n=1 Tax=Dasychira pudibunda ...   120   4e-25
+UniRef90_A0A0X8HWZ5 HHR238Cp n=1 Tax=Eremothecium sinecaudum Tax...   120   4e-25
+UniRef90_L1INU9 Ubiquitin-superoxide dismutase fusion protein n=...   120   4e-25
+UniRef90_A0A1V6ULL2 Uncharacterized protein n=1 Tax=Penicillium ...   120   4e-25
+UniRef90_A0A0P4ZNE4 Putative Ubiquitin-40S ribosomal protein S27...   120   4e-25
+UniRef90_P59271 Ubiquitin-40S ribosomal protein S27a-1 n=216 Tax...   120   4e-25
+UniRef90_A2YLE5 Uncharacterized protein n=6 Tax=Oryza TaxID=4527...   120   4e-25
+UniRef90_A0A1X7V088 Uncharacterized protein n=1 Tax=Amphimedon q...   120   4e-25
+UniRef90_A0A183N2T0 Uncharacterized protein n=1 Tax=Schistosoma ...   120   4e-25
+UniRef90_A8I1N4 Ubiquitin n=1 Tax=Heterocapsa triquetra TaxID=66...   120   4e-25
+UniRef90_A0A1D6B0L5 Uncharacterized protein n=1 Tax=Triticum aes...   120   4e-25
+UniRef90_T1EG94 Uncharacterized protein n=1 Tax=Helobdella robus...   120   4e-25
+UniRef90_A0A072V2A1 Ubiquitin-60S ribosomal L40 fusion protein n...   120   4e-25
+UniRef90_A0A0P4X6P1 Ubiquitin-60S ribosomal protein L40 (Fragmen...   120   4e-25
+UniRef90_A0A022RNQ5 Uncharacterized protein n=1 Tax=Erythranthe ...   120   4e-25
+UniRef90_UPI00098B3C72 polyubiquitin-like n=1 Tax=Microcebus mur...   120   4e-25
+UniRef90_A0A0K0FA93 Ubiquitin-60S ribosomal protein L40 (inferre...   120   4e-25
+UniRef90_A2XEA1 Uncharacterized protein n=2 Tax=Oryza sativa Tax...   120   4e-25
+UniRef90_U4LET3 Similar to Ubiquitin-60S ribosomal protein L40 a...   120   4e-25
+UniRef90_A0A0N8EQ79 Polyubiquitin-C-like protein n=1 Tax=Daphnia...   120   4e-25
+UniRef90_UPI00063F23E7 LOW QUALITY PROTEIN: ubiquitin-40S riboso...   120   4e-25
+UniRef90_A0A1D6CD31 Uncharacterized protein n=1 Tax=Triticum aes...   120   4e-25
+UniRef90_A0A0L0VT85 Uncharacterized protein n=12 Tax=cellular or...   120   5e-25
+UniRef90_U1M349 Uncharacterized protein n=1 Tax=Ascaris suum Tax...   120   5e-25
+UniRef90_A0A0P0X0E0 Os06g0673500 protein (Fragment) n=4 Tax=Oryz...   120   5e-25
+UniRef90_A0A167YD18 Ubiquitin subgroup n=1 Tax=Aschersonia aleyr...   119   5e-25
+UniRef90_A0A068RGP0 Ubiquitin-60s ribosomal protein l40 fusionpr...   119   5e-25
+UniRef90_E5RYP4 Ubiquitin family protein n=1 Tax=Trichinella spi...   119   5e-25
+UniRef90_A0A218ZA62 Uncharacterized protein n=1 Tax=Marssonina c...   119   5e-25
+UniRef90_Q2I193 Ubiquitin and ribosomal protein S27a (Fragment) ...   119   5e-25
+UniRef90_K3ZXW7 Uncharacterized protein n=15 Tax=Poaceae TaxID=4...   119   5e-25
+UniRef90_E1ZCE0 Uncharacterized protein n=1 Tax=Chlorella variab...   119   5e-25
+UniRef90_T0S0K6 40S ribosomal protein S30 n=5 Tax=Saprolegniacea...   119   5e-25
+UniRef90_G4V9Z0 Putative ubiquitin (Ribosomal protein L40) n=1 T...   119   5e-25
+UniRef90_A0A218UVB3 Polyubiquitin-B n=7 Tax=Amniota TaxID=32524 ...   119   5e-25
+UniRef90_K3YTX1 Uncharacterized protein n=1 Tax=Setaria italica ...   119   5e-25
+UniRef90_A0A177UXA4 Uncharacterized protein n=4 Tax=Tilletia Tax...   119   5e-25
+UniRef90_UPI0005404982 ubiquitin-60S ribosomal protein L40 isofo...   119   5e-25
+UniRef90_I1SRW5 Ubiquitin and ribosomal protein S27a (Fragment) ...   119   5e-25
+UniRef90_A0A0K3CTK7 BY PROTMAP: gi|675378034|gb|KFM70936.1| Ubiq...   119   5e-25
+UniRef90_A0A1B7YC63 Zn-finger in ubiquitin-hydrolase n=1 Tax=Col...   119   5e-25
+UniRef90_A0A1Q9DY17 Polyubiquitin n=1 Tax=Symbiodinium microadri...   119   6e-25
+UniRef90_UPI0004433823 ubiquitin-60S ribosomal protein L40 isofo...   119   6e-25
+UniRef90_A0A0P5L5W7 Putative Polyubiquitin-C n=1 Tax=Daphnia mag...   119   6e-25
+UniRef90_A0A1D6B0L6 Uncharacterized protein n=1 Tax=Triticum aes...   119   6e-25
+UniRef90_P62987 Ubiquitin-60S ribosomal protein L40 n=46 Tax=Bil...   119   6e-25
+UniRef90_F0X6C0 Cgd7_2280 protein n=9 Tax=Eukaryota TaxID=2759 R...   119   6e-25
+UniRef90_P49633 Ubiquitin-60S ribosomal protein L40 n=15 Tax=Euk...   119   6e-25
+UniRef90_A0A1Z5KAW9 Uncharacterized protein n=3 Tax=Fistulifera ...   119   6e-25
+UniRef90_P0DJ25 Ubiquitin-60S ribosomal protein L40 n=3 Tax=Tetr...   119   6e-25
+UniRef90_L8FSG6 Ubiquitin-40S ribosomal protein S27a n=2 Tax=sor...   119   6e-25
+UniRef90_A0A0V0X8V6 Ubiquitin-60S ribosomal protein L40 (Fragmen...   119   6e-25
+UniRef90_K1X017 Putative ubiquitin / ribosomal protein S27a n=1 ...   119   6e-25
+UniRef90_A0A0D2FVX8 Rhinocladiella mackenziei CBS 650.93 unplace...   119   6e-25
+UniRef90_O42388 Ubiquitin-60S ribosomal protein L40 n=13 Tax=Eut...   119   6e-25
+UniRef90_B5DGL2 Ubiquitin n=125 Tax=Metazoa TaxID=33208 RepID=B5...   119   6e-25
+UniRef90_D8Q1K1 Uncharacterized protein ubi::crp-6 n=32 Tax=Agar...   119   6e-25
+UniRef90_A0A068XI13 Ribosomal protein L40 n=5 Tax=Cyclophyllidea...   119   6e-25
+UniRef90_H0Z9N6 Ribosomal protein S27a n=4 Tax=Amniota TaxID=325...   119   6e-25
+UniRef90_A0A058ZAV7 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   119   6e-25
+UniRef90_A0A1D6C9W1 Uncharacterized protein n=1 Tax=Triticum aes...   119   6e-25
+UniRef90_A0A0V1PLL5 Polyubiquitin-C n=1 Tax=Trichinella sp. T8 T...   119   6e-25
+UniRef90_A0A0G4PUW2 Ribosomal protein L40e n=3 Tax=Penicillium T...   119   7e-25
+UniRef90_L1JA52 High mobility group box fusion protein n=1 Tax=G...   119   7e-25
+UniRef90_A0A0R0M3C1 Ubiquitin/40S ribosomal protein S27a fusion ...   119   7e-25
+UniRef90_A0A0D2P6Z9 Uncharacterized protein (Fragment) n=2 Tax=r...   119   7e-25
+UniRef90_D3BHB9 Ubiquitin n=19 Tax=Eukaryota TaxID=2759 RepID=D3...   119   7e-25
+UniRef90_UPI000982975D Polyubiquitin n=1 Tax=Talaromyces atroros...   119   7e-25
+UniRef90_U9TN62 Uncharacterized protein n=2 Tax=Rhizophagus irre...   119   7e-25
+UniRef90_A8QAU5 Uncharacterized protein n=1 Tax=Malassezia globo...   119   7e-25
+UniRef90_B8P0U2 Ubiquitin/40s ribosomal protein S27a fusion n=5 ...   119   7e-25
+UniRef90_A0A1D6CD30 Uncharacterized protein n=1 Tax=Triticum aes...   119   7e-25
+UniRef90_C0H768 Ubiquitin n=92 Tax=Eukaryota TaxID=2759 RepID=C0...   119   7e-25
+UniRef90_M7XBX1 Small subunit ribosomal protein S27Ae n=3 Tax=Rh...   119   7e-25
+UniRef90_A0A194S564 Uncharacterized protein n=2 Tax=Basidiomycot...   119   7e-25
+UniRef90_A0A1D6DKG9 Uncharacterized protein n=2 Tax=commelinids ...   119   7e-25
+UniRef90_A0A183C874 Uncharacterized protein n=1 Tax=Globodera pa...   119   7e-25
+UniRef90_A0A1B0FP56 60S ribosomal protein L40 n=1 Tax=Glossina m...   119   7e-25
+UniRef90_A0A1D5RYM7 Uncharacterized protein n=5 Tax=Mesangiosper...   119   7e-25
+UniRef90_A0A0L0SFN2 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   119   7e-25
+UniRef90_A0A1U7YVT0 ubiquitin isoform X2 n=5 Tax=Mesangiospermae...   119   7e-25
+UniRef90_K9GZB0 RNA polymerase I specific transcription initiati...   119   8e-25
+UniRef90_K0SPB7 Uncharacterized protein n=1 Tax=Thalassiosira oc...   119   8e-25
+UniRef90_C5X7R5 Uncharacterized protein n=1 Tax=Sorghum bicolor ...   119   8e-25
+UniRef90_A0A1D6A689 Uncharacterized protein n=1 Tax=Triticum aes...   119   8e-25
+UniRef90_F4PKL3 Ubiquitin/ribosomal protein L40 fusion protein n...   119   8e-25
+UniRef90_W6UDU1 Ubiquitin n=1 Tax=Echinococcus granulosus TaxID=...   119   8e-25
+UniRef90_A0A1U7LPP0 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   119   8e-25
+UniRef90_K1X443 Ubiquitin n=3 Tax=Eukaryota TaxID=2759 RepID=K1X...   119   9e-25
+UniRef90_L7LX35 Putative ubiquitin/40s ribosomal protein s27a fu...   119   9e-25
+UniRef90_A0A0D2U0D4 Uncharacterized protein n=1 Tax=Capsaspora o...   119   9e-25
+UniRef90_B6AFQ6 60S ribosomal protein L40, putative n=3 Tax=Cryp...   119   9e-25
+UniRef90_J3KC68 Polyubiquitin n=9 Tax=Eurotiomycetidae TaxID=451...   119   9e-25
+UniRef90_A0A0V1NFH8 Polyubiquitin-B n=3 Tax=Trichinella TaxID=63...   119   9e-25
+UniRef90_A0A196SLI0 Ribosomal protein S27A n=1 Tax=Blastocystis ...   119   9e-25
+UniRef90_UPI000182B167 ubiquitin-60S ribosomal protein L40-2 iso...   119   1e-24
+UniRef90_A0A090CGD4 Putative fusion protein: ubiquitin-cytosolic...   119   1e-24
+UniRef90_I1HF34 Uncharacterized protein n=2 Tax=Brachypodium dis...   119   1e-24
+UniRef90_UPI00084A9DEF ubiquitin-like n=1 Tax=Hyalella azteca Ta...   119   1e-24
+UniRef90_A0DBT3 Uncharacterized protein (Fragment) n=1 Tax=Param...   119   1e-24
+UniRef90_F1LDA0 Polyubiquitin-A n=1 Tax=Ascaris suum TaxID=6253 ...   119   1e-24
+UniRef90_A0A0M8P123 Uncharacterized protein n=7 Tax=leotiomyceta...   119   1e-24
+UniRef90_A0A078CPQ6 BnaC06g21170D protein n=1 Tax=Brassica napus...   119   1e-24
+UniRef90_UPI00062BE179 polyubiquitin n=1 Tax=Sarcophilus harrisi...   118   1e-24
+UniRef90_A0A1D5XN92 Uncharacterized protein n=2 Tax=Triticum aes...   118   1e-24
+UniRef90_J9JIV0 Uncharacterized protein n=2 Tax=Acyrthosiphon pi...   118   1e-24
+UniRef90_A0A087U0P7 Ubiquitin-60S ribosomal protein L40 (Fragmen...   118   1e-24
+UniRef90_A0A0K3C6J0 BY PROTMAP: gi|472583611|gb|EMS21244.1| smal...   118   1e-24
+UniRef90_A0A0E9NL44 Uncharacterized protein n=1 Tax=Saitoella co...   118   1e-24
+UniRef90_UPI00046238F9 ubiquitin-domain-containing protein n=1 T...   118   1e-24
+UniRef90_A0A0V1EWR9 Polyubiquitin-C n=2 Tax=Trichinella pseudosp...   118   1e-24
+UniRef90_A0A0R3TT53 Uncharacterized protein n=2 Tax=Bilateria Ta...   118   1e-24
+UniRef90_B9FQ86 Uncharacterized protein n=1 Tax=Oryza sativa sub...   118   1e-24
+UniRef90_A0A024GPK1 Uncharacterized protein n=3 Tax=Eukaryota Ta...   118   1e-24
+UniRef90_A0A1E3BSM0 Uncharacterized protein n=1 Tax=Aspergillus ...   118   1e-24
+UniRef90_A0A1D6CD29 Uncharacterized protein n=1 Tax=Triticum aes...   118   1e-24
+UniRef90_Q4LAY9 Ubquitin/ribosomal protein S27Ae fusion protein ...   118   1e-24
+UniRef90_A0A0J5SRH5 Ubiquitin-40S ribosomal protein S27a n=3 Tax...   118   1e-24
+UniRef90_B5X614 Ubiquitin n=1 Tax=Salmo salar TaxID=8030 RepID=B...   118   1e-24
+UniRef90_E9DIZ1 Ubiquitin n=10 Tax=Onygenales TaxID=33183 RepID=...   118   1e-24
+UniRef90_J4G0P3 Uncharacterized protein n=2 Tax=Polyporales TaxI...   118   1e-24
+UniRef90_A9CS03 SSU ribosomal protein S27AE-ubiquitin n=1 Tax=En...   118   1e-24
+UniRef90_L2GV95 Ubiquitin-40S ribosomal protein S27a n=2 Tax=Ple...   118   1e-24
+UniRef90_A0A1I9G0A2 Bm13651 n=4 Tax=Eukaryota TaxID=2759 RepID=A...   118   1e-24
+UniRef90_A0A0V0J9J3 Polyubiquitin (Fragment) n=3 Tax=Eukaryota T...   118   1e-24
+UniRef90_A0A0K3AMU0 Ubiquitin C n=3 Tax=Eukaryota TaxID=2759 Rep...   118   1e-24
+UniRef90_A0A1D5NVA7 Polyubiquitin-B n=6 Tax=Amniota TaxID=32524 ...   118   1e-24
+UniRef90_A0A0P5B2X3 Putative Polyubiquitin-C n=1 Tax=Daphnia mag...   118   1e-24
+UniRef90_Q0J0U4 Os09g0483200 protein n=2 Tax=Oryza sativa TaxID=...   118   1e-24
+UniRef90_A0A061G1H4 Ubiquitin supergroup,Ribosomal protein L40e ...   118   1e-24
+UniRef90_P59272 Ubiquitin-40S ribosomal protein S27a (Fragment) ...   118   1e-24
+UniRef90_A0A0B2UML3 Ubiquitin domain-containing protein n=1 Tax=...   118   1e-24
+UniRef90_M5W3W7 Uncharacterized protein n=8 Tax=Eukaryota TaxID=...   118   1e-24
+UniRef90_UPI00046DAA9D ubiquitin n=1 Tax=Prunus mume TaxID=10210...   118   1e-24
+UniRef90_A0A0P6I0S0 Putative Polyubiquitin-B n=1 Tax=Daphnia mag...   118   2e-24
+UniRef90_A0A0V1PL04 Polyubiquitin-C n=6 Tax=Trichinella sp. T8 T...   118   2e-24
+UniRef90_T0MD49 Ribosomal protein s27a n=1 Tax=Nosema apis BRL 0...   118   2e-24
+UniRef90_A0A1R0H2W7 Ubiquitin-60S ribosomal protein L40 n=2 Tax=...   118   2e-24
+UniRef90_A0A1E3JYQ8 Polyubiquitin n=2 Tax=Cryptococcaceae TaxID=...   118   2e-24
+UniRef90_A0A0L9SQ79 Uncharacterized protein n=1 Tax=Ophiocordyce...   118   2e-24
+UniRef90_K3YDP8 Uncharacterized protein n=4 Tax=Eukaryota TaxID=...   118   2e-24
+UniRef90_P69201 Ubiquitin-60S ribosomal protein L40 n=26 Tax=Euk...   118   2e-24
+UniRef90_A0A1D6AIP3 Uncharacterized protein n=8 Tax=Eukaryota Ta...   118   2e-24
+UniRef90_UPI000766EB3A ubiquitin-like n=1 Tax=Myotis davidii Tax...   118   2e-24
+UniRef90_D9ZFI2 Ubiquitin-53 aa extension protein n=10 Tax=Proto...   118   2e-24
+UniRef90_A0A1D6B167 Uncharacterized protein n=6 Tax=root TaxID=1...   118   2e-24
+UniRef90_M4QQC5 Ubiquitin n=1 Tax=Micromonas pusilla virus 12T T...   118   2e-24
+UniRef90_A0A0P6A359 Ubiquitin-40S ribosomal protein S27a (Fragme...   118   2e-24
+
+>UniRef90_I3LU39 Uncharacterized protein n=4 Tax=Sus scrofa TaxID=9823
+           RepID=I3LU39_PIG
+          Length = 166
+
+ Score =  144 bits (364), Expect = 3e-32,   Method: Composition-based stats.
+ Identities = 55/74 (74%), Positives = 62/74 (83%)
+
+Query: 1   EPLSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFEGKPLEDQLPLGE 60
+           +PLSILVRN+KGRS+ YEV LTQTVA LKQQV   EGVQ D FWLTFEGKP+ED+  LGE
+Sbjct: 78  DPLSILVRNDKGRSNAYEVWLTQTVAELKQQVCQQEGVQADQFWLTFEGKPMEDEHQLGE 137
+
+Query: 61  YGLKPLSTVFMNLR 74
+           Y LKP+ TV+MNLR
+Sbjct: 138 YDLKPMCTVYMNLR 151
+
+
+
+ Score = 40.6 bits (95), Expect = 0.43,   Method: Composition-based stats.
+ Identities = 18/45 (40%), Positives = 23/45 (51%), Gaps = 1/45 (2%)
+
+Query: 28 LKQQVSGLEGVQDDLFWLTF-EGKPLEDQLPLGEYGLKPLSTVFM 71
+          LKQQ++   GV      L    G  L+D +PL   GL P STV +
+Sbjct: 27 LKQQIAREIGVPAFQQRLAHPAGNVLQDGVPLVNQGLGPGSTVLL 71
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_I3LU39 Uncharacterized protein n=4 Tax=Sus scrofa TaxID...   146   6e-33
+UniRef90_A0A091UR95 2'-5'-oligoadenylate synthase-like 2 (Fragme...   145   8e-33
+UniRef90_A0A091MCC1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   145   9e-33
+UniRef90_A0A091S2W3 2'-5'-oligoadenylate synthase-like 2 (Fragme...   144   1e-32
+UniRef90_UPI000522C8DC 2'-5'-oligoadenylate synthase 1-like n=1 ...   142   7e-32
+UniRef90_E2R7R1 ISG15 ubiquitin-like modifier n=1 Tax=Canis lupu...   142   7e-32
+UniRef90_A0A091J5U6 2'-5'-oligoadenylate synthase-like 2 (Fragme...   142   8e-32
+UniRef90_A0A087QTF3 2'-5'-oligoadenylate synthase-like 2 (Fragme...   142   1e-31
+UniRef90_U6DRB8 Ubiquitin-like protein ISG15 (Fragment) n=1 Tax=...   142   1e-31
+UniRef90_G1MJQ9 Uncharacterized protein (Fragment) n=3 Tax=Ailur...   141   1e-31
+UniRef90_UPI000441D5F1 uncharacterized protein LOC103076606 n=1 ...   141   2e-31
+UniRef90_UPI000523AEDB 2'-5'-oligoadenylate synthase 1-like n=1 ...   141   2e-31
+UniRef90_A0A091N1D0 2'-5'-oligoadenylate synthase-like 2 (Fragme...   140   3e-31
+UniRef90_UPI00053241CC 2'-5'-oligoadenylate synthase-like protei...   140   3e-31
+UniRef90_UPI00053CB030 2'-5'-oligoadenylate synthase 1-like n=2 ...   140   3e-31
+UniRef90_UPI00038719AD 2'-5'-oligoadenylate synthase 1-like n=1 ...   139   5e-31
+UniRef90_A0A093QW95 2'-5'-oligoadenylate synthase-like 1 (Fragme...   139   7e-31
+UniRef90_F6QHE9 ISG15 ubiquitin-like modifier n=2 Tax=Callithrix...   139   7e-31
+UniRef90_S9XCC0 ISG15 ubiquitin-like modifier n=2 Tax=Camelus Ta...   139   8e-31
+UniRef90_UPI0004F0251F 2'-5'-oligoadenylate synthase 1-like n=1 ...   139   8e-31
+UniRef90_UPI00038335F9 2'-5'-oligoadenylate synthase-like protei...   139   9e-31
+UniRef90_A0A091R2Y1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   139   9e-31
+UniRef90_UPI00027FB2D6 ubiquitin-like protein ISG15 n=3 Tax=Plat...   138   1e-30
+UniRef90_UPI0006B6A66E 2'-5'-oligoadenylate synthase 1-like n=1 ...   138   2e-30
+UniRef90_A0A1V4K8T1 2'-5'-oligoadenylate synthase 1 n=2 Tax=Colu...   137   2e-30
+UniRef90_UPI0009449555 ubiquitin-like protein ISG15 n=1 Tax=Rhin...   137   3e-30
+UniRef90_M3YR61 ISG15 ubiquitin-like modifier n=3 Tax=Caniformia...   137   3e-30
+UniRef90_Q9WR83 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   137   3e-30
+UniRef90_UPI0006B7B053 2'-5'-oligoadenylate synthase 1-like n=2 ...   137   4e-30
+UniRef90_UPI00042C552C ubiquitin-like protein ISG15 n=1 Tax=Phys...   136   4e-30
+UniRef90_A0A091ELS9 2'-5'-oligoadenylate synthase-like 2 (Fragme...   136   4e-30
+UniRef90_U3K2C2 2'-5'-oligoadenylate synthetase like n=1 Tax=Fic...   136   4e-30
+UniRef90_UPI0009816980 ubiquitin-like protein ISG15 n=1 Tax=Cast...   136   4e-30
+UniRef90_A0A0N5A2Q5 Uncharacterized protein n=1 Tax=Parastrongyl...   136   5e-30
+UniRef90_UPI0009FA51DD hypothetical protein n=1 Tax=Loktanella s...   136   5e-30
+UniRef90_Q65810 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...   136   5e-30
+UniRef90_A0A094L8K5 2'-5'-oligoadenylate synthase-like 1 (Fragme...   136   6e-30
+UniRef90_A0A0K0FAI6 Ubiquitin-60S ribosomal protein L40 (inferre...   136   6e-30
+UniRef90_Q9WR87 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   136   7e-30
+UniRef90_UPI0008166A50 2'-5'-oligoadenylate synthase-like protei...   136   7e-30
+UniRef90_A0A0P5NQT1 Ubiquitin-60S ribosomal protein L40 (Fragmen...   136   7e-30
+UniRef90_UPI00071A24DF LOW QUALITY PROTEIN: 2'-5'-oligoadenylate...   136   7e-30
+UniRef90_UPI00071A8E17 ubiquitin-60S ribosomal protein L40 n=1 T...   136   7e-30
+UniRef90_Q65815 Genome polyprotein n=26 Tax=Bovine viral diarrhe...   136   7e-30
+UniRef90_S9Y7C3 Ubiquitin A-52 residue ribosomal protein fusion ...   136   7e-30
+UniRef90_Q04232 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...   136   8e-30
+UniRef90_F0Y3Y1 Uncharacterized protein n=4 Tax=Aureococcus anop...   135   8e-30
+UniRef90_UPI0003956233 2'-5'-oligoadenylate synthase 1 n=1 Tax=G...   135   9e-30
+UniRef90_A0A0V0GKN7 Putative ovule protein (Fragment) n=1 Tax=So...   135   9e-30
+UniRef90_A0A0E0B3R4 Uncharacterized protein n=1 Tax=Oryza glumip...   135   9e-30
+UniRef90_A0A093H453 2'-5'-oligoadenylate synthase-like 2 (Fragme...   135   1e-29
+UniRef90_F7AUY9 Ribosomal protein S27a n=6 Tax=Boreoeutheria Tax...   135   1e-29
+UniRef90_UPI0004ED4EF0 ubiquitin-like protein ISG15 n=1 Tax=Nann...   135   1e-29
+UniRef90_UPI0006B0A3AF polyubiquitin-like n=1 Tax=Apteryx austra...   135   1e-29
+UniRef90_Q9WR82 Polyprotein (Fragment) n=2 Tax=Bovine viral diar...   135   1e-29
+UniRef90_E3KFB8 Large subunit ribosomal protein L40e n=1 Tax=Puc...   135   1e-29
+UniRef90_UPI0006B107CE ubiquitin-60S ribosomal protein L40 n=1 T...   135   1e-29
+UniRef90_A0A1S4FZI3 Ubiquitin (ribosomal protein L40) n=6 Tax=Cu...   135   1e-29
+UniRef90_W5PBE1 Uncharacterized protein n=3 Tax=Caprinae TaxID=9...   135   1e-29
+UniRef90_G3TLH5 Uncharacterized protein n=2 Tax=Loxodonta africa...   135   1e-29
+UniRef90_UPI0003EDDA9C ubiquitin-like protein ISG15 n=3 Tax=Cani...   135   1e-29
+UniRef90_A0A1V4K2F8 Polyubiquitin-C isoform A n=2 Tax=Patagioena...   134   1e-29
+UniRef90_A0A0E0ARP4 Uncharacterized protein n=1 Tax=Oryza glumip...   134   2e-29
+UniRef90_A0A0E0ETD9 Uncharacterized protein n=1 Tax=Oryza meridi...   134   2e-29
+UniRef90_W9YZX6 V-type proton ATPase subunit a n=6 Tax=Herpotric...   134   2e-29
+UniRef90_A0A167MVN0 RNA polymerase 1 specific transcription init...   134   2e-29
+UniRef90_V9DND7 V-type proton ATPase subunit a n=10 Tax=Opisthok...   134   2e-29
+UniRef90_A0A068RM11 V-type proton ATPase proteolipid subunit n=1...   134   2e-29
+UniRef90_M2VTN6 Ubiquitin n=1 Tax=Galdieria sulphuraria TaxID=13...   134   2e-29
+UniRef90_UPI0004F11146 2'-5'-oligoadenylate synthase 1-like isof...   134   2e-29
+UniRef90_A0A068SER0 Cation-transporting ATPase n=2 Tax=Lichtheim...   134   2e-29
+UniRef90_UPI0006B0CE85 2'-5'-oligoadenylate synthase 1-like n=1 ...   134   2e-29
+UniRef90_UPI0008DB4A74 polyubiquitin-C isoform X1 n=1 Tax=Serinu...   134   2e-29
+UniRef90_UPI0008DB604E 2'-5'-oligoadenylate synthase 1-like isof...   134   2e-29
+UniRef90_Q9GKP4 Interferon stimulated gene 17 n=4 Tax=Bovidae Ta...   134   2e-29
+UniRef90_UPI00063CD147 ubiquitin-like protein ISG15 n=1 Tax=Tric...   134   2e-29
+UniRef90_A0A099NZL9 PRA1 family protein n=5 Tax=Fungi TaxID=4751...   134   2e-29
+UniRef90_A0A1Y1WFE2 Ubiquitin-domain-containing protein (Fragmen...   134   2e-29
+UniRef90_A0A0G4HTL3 Uncharacterized protein n=3 Tax=Eukaryota Ta...   134   2e-29
+UniRef90_M3WNM9 Uncharacterized protein n=5 Tax=Felidae TaxID=96...   134   2e-29
+UniRef90_A0A067CTW4 Uncharacterized protein n=1 Tax=Saprolegnia ...   134   3e-29
+UniRef90_Q9WR77 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   134   3e-29
+UniRef90_I1QPX9 Uncharacterized protein n=6 Tax=Oryza TaxID=4527...   134   3e-29
+UniRef90_A0A0E0B4J9 Uncharacterized protein n=5 Tax=Oryza TaxID=...   134   3e-29
+UniRef90_A0A0D3H884 Uncharacterized protein n=2 Tax=Oryza TaxID=...   134   3e-29
+UniRef90_A0A0D3H885 Uncharacterized protein n=3 Tax=Oryza TaxID=...   134   3e-29
+UniRef90_UPI00057BC8D0 ubiquitin-like protein ISG15 n=2 Tax=Came...   134   3e-29
+UniRef90_I1NXI0 Uncharacterized protein n=1 Tax=Oryza glaberrima...   134   3e-29
+UniRef90_A0A091GMJ6 2'-5'-oligoadenylate synthase-like 1 (Fragme...   134   3e-29
+UniRef90_H0Z853 2'-5'-oligoadenylate synthetase like n=3 Tax=Est...   134   3e-29
+UniRef90_F0Y169 Uncharacterized protein n=1 Tax=Aureococcus anop...   134   3e-29
+UniRef90_Q9WR81 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   133   3e-29
+UniRef90_A0A091CWM2 Uncharacterized protein n=8 Tax=Bilateria Ta...   133   3e-29
+UniRef90_M1VD49 Ubiquitin with short C-terminal extension n=1 Ta...   133   3e-29
+UniRef90_W7TN89 Ubiquitin n=2 Tax=Nannochloropsis gaditana TaxID...   133   3e-29
+UniRef90_G7DSA4 Uncharacterized protein n=1 Tax=Mixia osmundae (...   133   3e-29
+UniRef90_UPI000521399E LOW QUALITY PROTEIN: 2'-5'-oligoadenylate...   133   4e-29
+UniRef90_A0A091RY69 2'-5'-oligoadenylate synthase-like 2 (Fragme...   133   4e-29
+UniRef90_B7P0U0 40S ribosomal protein S27A, putative n=25 Tax=Me...   133   4e-29
+UniRef90_A0A0G4F507 Uncharacterized protein n=1 Tax=Vitrella bra...   133   4e-29
+UniRef90_E0S5W6 Monoubiquitin/carboxy-extension fusion-like prot...   133   4e-29
+UniRef90_A0A0V0RGU1 Polyubiquitin-B n=1 Tax=Trichinella nelsoni ...   133   4e-29
+UniRef90_A0A0W0F300 Uncharacterized protein n=1 Tax=Moniliophtho...   133   4e-29
+UniRef90_A0A061B1X4 CYFA0S07e04632g1_1 n=1 Tax=Cyberlindnera fab...   133   4e-29
+UniRef90_A0A177C1V1 Ubiquitin-domain-containing protein n=1 Tax=...   133   4e-29
+UniRef90_A0A0N1I678 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   133   4e-29
+UniRef90_A0A1L8HX68 Uncharacterized protein n=1 Tax=Xenopus laev...   133   4e-29
+UniRef90_A0A063BYS4 Polyubiquitin n=1 Tax=Ustilaginoidea virens ...   133   4e-29
+UniRef90_A0A0V0RGU0 Polyubiquitin-B n=1 Tax=Trichinella nelsoni ...   133   4e-29
+UniRef90_P68200 Ubiquitin-40S ribosomal protein S27a n=28 Tax=Eu...   133   4e-29
+UniRef90_P62979 Ubiquitin-40S ribosomal protein S27a n=32 Tax=Bi...   133   4e-29
+UniRef90_UPI00083BAB55 ubiquitin-60S ribosomal protein L40-like ...   133   4e-29
+UniRef90_P05161 Ubiquitin-like protein ISG15 n=16 Tax=Catarrhini...   133   4e-29
+UniRef90_A0A1J4MZ88 Ubiquitin family protein n=1 Tax=Cryptospori...   133   5e-29
+UniRef90_P62983 Ubiquitin-40S ribosomal protein S27a n=127 Tax=E...   133   5e-29
+UniRef90_P79781 Ubiquitin-40S ribosomal protein S27a n=22 Tax=Bi...   133   5e-29
+UniRef90_A0A1S3GXH4 ubiquitin-like protein ISG15 n=1 Tax=Dipodom...   133   5e-29
+UniRef90_UPI0005D0D275 ubiquitin-like n=1 Tax=Aquila chrysaetos ...   133   5e-29
+UniRef90_UPI000A1B8CB7 ubiquitin-like protein ISG15 n=1 Tax=Odoc...   133   5e-29
+UniRef90_UPI000B7D1480 hypothetical protein n=1 Tax=Paenibacillu...   133   5e-29
+UniRef90_E5T5F3 Putative ubiquitin family protein (Fragment) n=1...   133   5e-29
+UniRef90_A0A095XXZ9 Uncharacterized protein n=1 Tax=Pseudohaliea...   133   5e-29
+UniRef90_A0A1Q9DUW8 Ubiquitin n=1 Tax=Symbiodinium microadriatic...   133   5e-29
+UniRef90_A0A1Q9DXW1 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   133   5e-29
+UniRef90_A0A1Q9D8L2 Polyubiquitin n=6 Tax=Eukaryota TaxID=2759 R...   133   5e-29
+UniRef90_W6USS6 Ubiquitin n=3 Tax=Echinococcus TaxID=6209 RepID=...   133   5e-29
+UniRef90_A0A093JNH5 2'-5'-oligoadenylate synthase-like 2 (Fragme...   133   5e-29
+UniRef90_UPI0004F43664 ubiquitin-60S ribosomal protein L40 isofo...   133   5e-29
+UniRef90_A0A212FHW0 Hairy cell leukemia protein 1 n=4 Tax=Holome...   133   5e-29
+UniRef90_L8WIL1 Ubiquitin domain-containing protein n=1 Tax=Than...   133   5e-29
+UniRef90_A0A074REZ6 Ubiquitin-60S ribosomal protein L40 n=18 Tax...   133   5e-29
+UniRef90_A0A1Q9DXW4 Polyubiquitin 11 n=1 Tax=Symbiodinium microa...   133   5e-29
+UniRef90_L8WVI0 Polyubiquitin n=1 Tax=Thanatephorus cucumeris (s...   133   6e-29
+UniRef90_P15357 Ubiquitin-40S ribosomal protein S27a n=43 Tax=Bi...   133   6e-29
+UniRef90_A0A0B2XHD1 Uncharacterized protein n=6 Tax=Metarhizium ...   133   6e-29
+UniRef90_M8AJB6 Polyubiquitin n=9 Tax=Eukaryota TaxID=2759 RepID...   133   6e-29
+UniRef90_A0A146XNM2 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   133   6e-29
+UniRef90_G3VR81 Uncharacterized protein n=7 Tax=Euteleostomi Tax...   133   6e-29
+UniRef90_A0A0L0DLX6 Uncharacterized protein n=1 Tax=Thecamonas t...   133   6e-29
+UniRef90_A0A1Y1XE41 Ubiquitin-domain-containing protein n=1 Tax=...   133   6e-29
+UniRef90_A0A151UF79 Ubiquitin n=1 Tax=Cajanus cajan TaxID=3821 R...   133   6e-29
+UniRef90_UPI0003292E81 ubiquitin-like protein ISG15 n=1 Tax=Dasy...   133   6e-29
+UniRef90_UPI00077127DD ubiquitin n=1 Tax=Parus major TaxID=9157 ...   133   6e-29
+UniRef90_UPI0006AAF31E ubiquitin-40S ribosomal protein S27a-3-li...   133   6e-29
+UniRef90_Q9WR86 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   133   7e-29
+UniRef90_A0A0N7ZZN5 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   133   7e-29
+UniRef90_UPI000846E0D0 probable phosphatase phospho2 n=1 Tax=Dro...   133   7e-29
+UniRef90_UPI0006435AA5 ubiquitin-like protein ISG15 n=1 Tax=Micr...   132   7e-29
+UniRef90_Q86DU4 Ubiquitin extension protein n=1 Tax=Heterodera s...   132   7e-29
+UniRef90_A0A094C140 Uncharacterized protein (Fragment) n=1 Tax=P...   132   7e-29
+UniRef90_A0A0V0Z8L6 Polyubiquitin-B n=26 Tax=Trichinella TaxID=6...   132   7e-29
+UniRef90_A0A093YW15 Uncharacterized protein n=1 Tax=Pseudogymnoa...   132   7e-29
+UniRef90_A0A0V0Z8A7 Polyubiquitin-B n=1 Tax=Trichinella patagoni...   132   8e-29
+UniRef90_UPI0003EE12D1 ubiquitin-60S ribosomal protein L40 isofo...   132   8e-29
+UniRef90_A0A0V0Z903 Polyubiquitin-B n=1 Tax=Trichinella patagoni...   132   8e-29
+UniRef90_A0A0V0RGT0 Polyubiquitin n=1 Tax=Trichinella nelsoni Ta...   132   9e-29
+UniRef90_UPI0003315802 ubiquitin-like n=1 Tax=Sorex araneus TaxI...   132   9e-29
+UniRef90_UPI0008DB7D86 polyubiquitin-C isoform X2 n=1 Tax=Serinu...   132   9e-29
+UniRef90_A0A1Y1YJ42 Ubiquitin-domain-containing protein n=1 Tax=...   132   9e-29
+UniRef90_A0A0V0XYQ9 Ubiquitin-60S ribosomal protein L40 n=3 Tax=...   132   9e-29
+UniRef90_A0A0G4EN71 Uncharacterized protein n=1 Tax=Vitrella bra...   132   9e-29
+UniRef90_L8HBA5 Ubiquitin domain containing protein n=1 Tax=Acan...   132   9e-29
+UniRef90_UPI00062B7E2F ubiquitin-like protein ISG15 n=1 Tax=Orci...   132   9e-29
+UniRef90_A0A0L0ST47 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   132   9e-29
+UniRef90_A0A0A2V3S0 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   132   9e-29
+UniRef90_A0A094EFP9 Uncharacterized protein n=1 Tax=Pseudogymnoa...   132   9e-29
+UniRef90_K4AEK9 Uncharacterized protein n=6 Tax=Mesangiospermae ...   132   9e-29
+UniRef90_A0A061DSL5 Ribosomal protein S27a / Ubiquitin family pr...   132   1e-28
+UniRef90_E5SH46 Ubiquitin family protein n=1 Tax=Trichinella spi...   132   1e-28
+UniRef90_A0A1A9W0F3 60S ribosomal protein L40 n=1 Tax=Glossina b...   132   1e-28
+UniRef90_UPI00051E2164 ubiquitin-60S ribosomal protein L40 n=1 T...   132   1e-28
+UniRef90_A0A0A0KVL0 Uncharacterized protein n=8 Tax=rosids TaxID...   132   1e-28
+UniRef90_G3RG63 ISG15 ubiquitin-like modifier n=7 Tax=Homininae ...   132   1e-28
+UniRef90_A0A0P1BCG2 Ubiquitin-40s ribosomal protein s27a n=1 Tax...   132   1e-28
+UniRef90_A0A066VYD8 Ubiquitin-domain-containing protein n=1 Tax=...   132   1e-28
+UniRef90_W7U0R4 40S ribosomal protein S30 n=1 Tax=Nannochloropsi...   132   1e-28
+UniRef90_A0A1A9ZVP2 Uncharacterized protein n=4 Tax=Calyptratae ...   131   1e-28
+UniRef90_G3JHJ9 RING and UBP finger domain protein n=1 Tax=Cordy...   131   1e-28
+UniRef90_UPI00053F457C ubiquitin-like protein ISG15 n=1 Tax=Fuko...   131   1e-28
+UniRef90_A0A0N8AGX8 Ubiquitin-40S ribosomal protein S27a n=2 Tax...   131   1e-28
+UniRef90_A0A094J8Y6 Uncharacterized protein n=1 Tax=Pseudogymnoa...   131   1e-28
+UniRef90_A0A0V0RGU3 Polyubiquitin-C n=12 Tax=cellular organisms ...   131   1e-28
+UniRef90_UPI0009FBDF8A hypothetical protein n=1 Tax=Leeia oryzae...   131   1e-28
+UniRef90_K7KG22 Uncharacterized protein n=43 Tax=Eukaryota TaxID...   131   1e-28
+UniRef90_UPI00057A9F9D ubiquitin-40S ribosomal protein S27a-like...   131   1e-28
+UniRef90_M2MJG0 Uncharacterized protein n=1 Tax=Baudoinia compni...   131   1e-28
+UniRef90_A0A1A9ZJ33 60S ribosomal protein L40 n=2 Tax=Bilateria ...   131   1e-28
+UniRef90_UPI0003D73A95 ubiquitin-40S ribosomal protein S27a-like...   131   1e-28
+UniRef90_UPI0008F5375D ubiquitin-60S ribosomal protein L40 isofo...   131   1e-28
+UniRef90_A0A093PWZ1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   131   1e-28
+UniRef90_A0A067MLF1 Uncharacterized protein n=1 Tax=Botryobasidi...   131   1e-28
+UniRef90_A0A094G3L5 Uncharacterized protein n=2 Tax=Pseudogymnoa...   131   1e-28
+UniRef90_A0A0L9T1M6 Uncharacterized protein n=1 Tax=Ophiocordyce...   131   1e-28
+UniRef90_B4R5E7 GD16200 n=3 Tax=Bilateria TaxID=33213 RepID=B4R5...   131   1e-28
+UniRef90_A0A094B0J8 Uncharacterized protein n=1 Tax=Pseudogymnoa...   131   1e-28
+UniRef90_A0A1D6DKE6 Uncharacterized protein n=1 Tax=Triticum aes...   131   1e-28
+UniRef90_A0A0A9Z4T5 Ubiquitin-40S ribosomal protein S27a n=7 Tax...   131   1e-28
+UniRef90_A0A151NSC4 Scavenger receptor class B member 1 isoform ...   131   1e-28
+UniRef90_A0A093XDE0 Uncharacterized protein n=1 Tax=Pseudogymnoa...   131   1e-28
+UniRef90_M1A024 Uncharacterized protein n=3 Tax=Pentapetalae Tax...   131   2e-28
+UniRef90_Q8SWB3 Similarity to monoubiquitin/carboxy-extension pr...   131   2e-28
+UniRef90_UPI000719843E ubiquitin-like protein ISG15 n=1 Tax=Cera...   131   2e-28
+UniRef90_A0A117NMP4 Uncharacterized protein n=2 Tax=Penicillium ...   131   2e-28
+UniRef90_A0A0D2A5S2 Polyubiquitin n=1 Tax=Verruconis gallopava T...   131   2e-28
+UniRef90_A0A094CX20 Uncharacterized protein n=4 Tax=Leotiomycete...   131   2e-28
+UniRef90_A0A179G0I0 Ribosomal protein n=1 Tax=Pochonia chlamydos...   131   2e-28
+UniRef90_UPI00052991E2 2'-5'-oligoadenylate synthase 1-like n=1 ...   131   2e-28
+UniRef90_A0A0I9XJY4 Cytoplasmic Zn-finger protein BRAP2 (BRCA1 a...   131   2e-28
+UniRef90_A0A175WEY6 Uncharacterized protein n=1 Tax=Madurella my...   131   2e-28
+UniRef90_A0A1D5SFS7 Uncharacterized protein n=1 Tax=Triticum aes...   131   2e-28
+UniRef90_UPI0007A6AEA2 ubiquitin-like protein ISG15 n=1 Tax=Mini...   131   2e-28
+UniRef90_L1I7B2 Zink finger-like fusion protein n=1 Tax=Guillard...   131   2e-28
+UniRef90_A0A1D5T2G9 Uncharacterized protein n=1 Tax=Triticum aes...   131   2e-28
+UniRef90_C1EI38 Uncharacterized protein n=1 Tax=Micromonas commo...   131   2e-28
+UniRef90_A0A0D2LS10 Uncharacterized protein n=2 Tax=malvids TaxI...   131   2e-28
+UniRef90_C1N647 Predicted protein n=1 Tax=Micromonas pusilla (st...   131   2e-28
+UniRef90_A0A196SE12 Ubiquitin n=1 Tax=Blastocystis sp. subtype 1...   131   2e-28
+UniRef90_D8MAB6 Uncharacterized protein n=3 Tax=Blastocystis Tax...   131   2e-28
+UniRef90_UPI00015386D5 Ubiquitin n=2 Tax=root TaxID=1 RepID=UPI0...   131   2e-28
+UniRef90_A0A059AWX7 Uncharacterized protein n=1 Tax=Eucalyptus g...   131   2e-28
+UniRef90_A0A094BL17 Uncharacterized protein n=1 Tax=Pseudogymnoa...   131   2e-28
+UniRef90_Q9WR85 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   131   2e-28
+UniRef90_A0A074SQ86 Ubiquitin/40S ribosomal protein S27a fusion ...   131   2e-28
+UniRef90_UPI00045E20C9 ubiquitin-60S ribosomal protein L40 isofo...   131   2e-28
+UniRef90_UPI000522D799 ubiquitin-like n=1 Tax=Opisthocomus hoazi...   131   2e-28
+UniRef90_K4AMP3 Uncharacterized protein n=2 Tax=Paniceae TaxID=1...   131   2e-28
+UniRef90_J7S6G7 Uncharacterized protein n=1 Tax=Kazachstania nag...   131   2e-28
+UniRef90_B7G9A2 Predicted protein n=1 Tax=Phaeodactylum tricornu...   131   2e-28
+UniRef90_A0A1D6S3D6 Uncharacterized protein n=1 Tax=Triticum aes...   131   2e-28
+UniRef90_I6UKD4 Ubiquitin domain-containing protein n=2 Tax=Ence...   131   2e-28
+UniRef90_UPI00063C7CD4 ubiquitin-60S ribosomal protein L40 isofo...   131   2e-28
+UniRef90_A0A168AQ08 Ubiquitin subgroup n=1 Tax=Isaria fumosorose...   131   2e-28
+UniRef90_A0A1A7MHP2 Uncharacterized protein n=1 Tax=Aureobasidiu...   131   2e-28
+UniRef90_Q7XBP8 Ubiquitin/actin fusion protein 2 n=6 Tax=Eukaryo...   131   2e-28
+UniRef90_A0A0C4EWI4 Uncharacterized protein n=3 Tax=Puccinia Tax...   131   3e-28
+UniRef90_K0RS17 Uncharacterized protein n=1 Tax=Thalassiosira oc...   131   3e-28
+UniRef90_A0A183BM42 Uncharacterized protein n=3 Tax=Globodera Ta...   130   3e-28
+UniRef90_R1DZ00 Uncharacterized protein n=1 Tax=Emiliania huxley...   130   3e-28
+UniRef90_M0RFG5 Uncharacterized protein n=1 Tax=Musa acuminata s...   130   3e-28
+UniRef90_UPI00064BAAC8 ubiquitin-like protein ISG15 n=1 Tax=Ocho...   130   3e-28
+UniRef90_A0A094BZT0 Uncharacterized protein n=1 Tax=Pseudogymnoa...   130   3e-28
+UniRef90_A0MKC8 Ubiquitin extension protein n=1 Tax=Capsicum ann...   130   3e-28
+UniRef90_UPI0000DBBBE1 Interferon-induced 17 kDa protein n=3 Tax...   130   3e-28
+UniRef90_A0A1D2N322 Ribosome biogenesis protein NSA2 n=1 Tax=Orc...   130   3e-28
+UniRef90_U4LUL9 Similar to Ubiquitin-60S ribosomal protein L40 a...   130   3e-28
+UniRef90_F6HZD7 Uncharacterized protein n=1 Tax=Vitis vinifera T...   130   3e-28
+UniRef90_L1ILH0 Ubiquitin n=1 Tax=Guillardia theta CCMP2712 TaxI...   130   3e-28
+UniRef90_A0A0F7S9D5 Probable ubiquitin/ribosomal protein S27a fu...   130   3e-28
+UniRef90_A4RZS0 Ribosomal protein S27a, component of cytosolic 8...   130   3e-28
+UniRef90_A0A1Y1Y6K4 Ubiquitin-domain-containing protein n=1 Tax=...   130   3e-28
+UniRef90_A0A0V1EWF8 Polyubiquitin-C n=5 Tax=Opisthokonta TaxID=3...   130   3e-28
+UniRef90_K0T5Y8 Uncharacterized protein n=1 Tax=Thalassiosira oc...   130   3e-28
+UniRef90_A0A0P0X6U8 Os07g0489500 protein n=3 Tax=Oryza TaxID=452...   130   3e-28
+UniRef90_A0A0B7F544 Polyubiquitin OS=Petroselinum crispum GN=PCU...   130   3e-28
+UniRef90_A0A0G4LZJ2 Uncharacterized protein n=4 Tax=Hypocreomyce...   130   3e-28
+UniRef90_A0A0P7APW4 Polyubiquitin n=98 Tax=Eukaryota TaxID=2759 ...   130   3e-28
+UniRef90_A7AVT9 Ubiquitin / ribosomal protein CEP52 n=5 Tax=Euka...   130   3e-28
+UniRef90_A0A1D5SK57 Uncharacterized protein n=1 Tax=Triticum aes...   130   3e-28
+UniRef90_M1VEP4 60S ribosomal protein L40, ubiquitin fusion prot...   130   3e-28
+UniRef90_UPI0001CC473E Monoubiquitinated Proliferating cell nucl...   130   3e-28
+UniRef90_A0A0N7L3V9 Ubiquitin-60s ribosomal protein l40 n=1 Tax=...   130   3e-28
+UniRef90_UPI00042CDC9C polyubiquitin-C-like n=1 Tax=Bubalus buba...   130   4e-28
+UniRef90_L7IGX9 RING finger protein n=3 Tax=leotiomyceta TaxID=7...   130   4e-28
+UniRef90_W5ADS2 Uncharacterized protein n=4 Tax=Pooideae TaxID=1...   130   4e-28
+UniRef90_A0A135U0E2 Forms a complex with the other RRN protein R...   130   4e-28
+UniRef90_L1INU9 Ubiquitin-superoxide dismutase fusion protein n=...   130   4e-28
+UniRef90_A0A067G443 Uncharacterized protein n=3 Tax=Embryophyta ...   130   4e-28
+UniRef90_A0A0G4LD50 Uncharacterized protein (Fragment) n=5 Tax=D...   130   4e-28
+UniRef90_A0A068RGP0 Ubiquitin-60s ribosomal protein l40 fusionpr...   130   4e-28
+UniRef90_M5X9E1 Uncharacterized protein n=17 Tax=Eukaryota TaxID...   130   4e-28
+UniRef90_V2WUC0 Ubiquitin n=29 Tax=Agaricomycetes TaxID=155619 R...   130   4e-28
+UniRef90_A0A165UC22 WD40 repeat-like protein n=10 Tax=Basidiomyc...   130   4e-28
+UniRef90_A0A0K6FM12 Polyubiquitin-C n=6 Tax=Agaricomycetes TaxID...   130   4e-28
+UniRef90_UPI0003F08CAE ubiquitin-60S ribosomal protein L40-like ...   130   4e-28
+UniRef90_A0A068Y074 Polyubiquitin n=2 Tax=Echinococcus TaxID=620...   130   4e-28
+UniRef90_A0A0B2QH08 Ubiquitin-60S ribosomal protein L40 n=2 Tax=...   130   4e-28
+UniRef90_A0A0J0XYI9 Ubiquitin/40s ribosomal protein S27a fusion ...   130   4e-28
+UniRef90_I3ER69 Ubiquitin/40S ribosomal protein S27a fusion prot...   130   4e-28
+UniRef90_A0A078A7X4 Uncharacterized protein n=3 Tax=Oxytrichidae...   130   4e-28
+UniRef90_A0A1R1PK95 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   129   4e-28
+UniRef90_A0A182L1V1 Uncharacterized protein n=4 Tax=Bilateria Ta...   129   4e-28
+UniRef90_A0A0D2UMI5 Uncharacterized protein n=3 Tax=Gossypium Ta...   129   4e-28
+UniRef90_P68202 Ubiquitin-40S ribosomal protein S27a n=94 Tax=Pr...   129   5e-28
+UniRef90_Q8ITI9 Ubiquitin extension protein n=1 Tax=Heterodera g...   129   5e-28
+UniRef90_Q10NT5 Os03g0259500 protein n=6 Tax=Oryza TaxID=4527 Re...   129   5e-28
+UniRef90_I3ELS3 Ubiquitin n=5 Tax=Nematocida TaxID=586132 RepID=...   129   5e-28
+UniRef90_UPI00038C6402 ubiquitin-like protein ISG15 n=1 Tax=Micr...   129   5e-28
+UniRef90_UPI00063FC7DC ubiquitin-like protein ISG15 n=1 Tax=Prop...   129   5e-28
+UniRef90_Q9WR84 Polyprotein (Fragment) n=2 Tax=Bovine viral diar...   129   5e-28
+UniRef90_A0A059EVH7 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   129   5e-28
+UniRef90_UPI00033300F9 ubiquitin-like protein ISG15 n=1 Tax=Jacu...   129   5e-28
+UniRef90_A0A0N8DFC5 Polyubiquitin-C-like protein (Fragment) n=1 ...   129   5e-28
+UniRef90_A0A1D6B0L5 Uncharacterized protein n=1 Tax=Triticum aes...   129   5e-28
+UniRef90_H3AHU2 Uncharacterized protein n=2 Tax=Latimeria chalum...   129   5e-28
+UniRef90_UPI000873C398 polyubiquitin isoform X2 n=2 Tax=Anoploph...   129   5e-28
+UniRef90_A0A0C9WVX8 Unplaced genomic scaffold K443scaffold_178, ...   129   5e-28
+UniRef90_K3YC38 Uncharacterized protein n=4 Tax=Viridiplantae Ta...   129   5e-28
+UniRef90_A0A072V2A1 Ubiquitin-60S ribosomal L40 fusion protein n...   129   5e-28
+UniRef90_V5N8D2 Polyubiquitin n=1 Tax=Phaseolus vulgaris TaxID=3...   129   5e-28
+UniRef90_A0A1D5XZY9 Uncharacterized protein n=4 Tax=Triticinae T...   129   5e-28
+UniRef90_A0A1Y2I2Y8 Ubiquitin-related domain-containing protein ...   129   5e-28
+UniRef90_A0A218ZA62 Uncharacterized protein n=1 Tax=Marssonina c...   129   6e-28
+UniRef90_A0A167YD18 Ubiquitin subgroup n=1 Tax=Aschersonia aleyr...   129   6e-28
+UniRef90_U4LET3 Similar to Ubiquitin-60S ribosomal protein L40 a...   129   6e-28
+UniRef90_M4C2M7 Uncharacterized protein n=11 Tax=Peronosporales ...   129   6e-28
+UniRef90_K1X017 Putative ubiquitin / ribosomal protein S27a n=1 ...   129   6e-28
+UniRef90_L8FSG6 Ubiquitin-40S ribosomal protein S27a n=2 Tax=sor...   129   6e-28
+UniRef90_A0A1D5XKQ6 Uncharacterized protein n=1 Tax=Triticum aes...   129   6e-28
+UniRef90_UPI000982975D Polyubiquitin n=1 Tax=Talaromyces atroros...   129   6e-28
+UniRef90_A0A1V6Q6L2 Uncharacterized protein n=2 Tax=Penicillium ...   129   6e-28
+UniRef90_A0A0P4X6P1 Ubiquitin-60S ribosomal protein L40 (Fragmen...   129   6e-28
+UniRef90_A0A0L0VT85 Uncharacterized protein n=12 Tax=cellular or...   129   6e-28
+UniRef90_E9QNP0 KxDL motif-containing protein 1 n=10 Tax=Eutheri...   129   6e-28
+UniRef90_UPI0007045201 polyubiquitin-B n=1 Tax=Myotis brandtii T...   129   6e-28
+UniRef90_A0A1B6FJ59 Uncharacterized protein n=1 Tax=Cuerna arida...   129   6e-28
+UniRef90_A0A1E7FVE2 Putative nickel-containing superoxide dismut...   129   6e-28
+UniRef90_P59271 Ubiquitin-40S ribosomal protein S27a-1 n=216 Tax...   129   7e-28
+UniRef90_UPI00038EDE99 ubiquitin-like protein ISG15 n=1 Tax=Chin...   129   7e-28
+UniRef90_T1EG94 Uncharacterized protein n=1 Tax=Helobdella robus...   129   7e-28
+UniRef90_O02741 Ubiquitin-like protein ISG15 n=7 Tax=Bovinae Tax...   129   7e-28
+UniRef90_A0A0V0W2E7 Polyubiquitin (Fragment) n=7 Tax=Trichinella...   129   7e-28
+UniRef90_M7ZAV9 Ubiquitin-60S ribosomal protein L40 n=4 Tax=Pooi...   129   7e-28
+UniRef90_A0A022RNQ5 Uncharacterized protein n=1 Tax=Erythranthe ...   129   7e-28
+UniRef90_A0A1V6ULL2 Uncharacterized protein n=1 Tax=Penicillium ...   129   7e-28
+UniRef90_A0A0P4ZNE4 Putative Ubiquitin-40S ribosomal protein S27...   129   7e-28
+UniRef90_A0A0N7D5G9 Viral ubiquitin n=1 Tax=Dasychira pudibunda ...   129   7e-28
+UniRef90_A0A1B7YC63 Zn-finger in ubiquitin-hydrolase n=1 Tax=Col...   129   7e-28
+UniRef90_A0A0P0X0E0 Os06g0673500 protein (Fragment) n=4 Tax=Oryz...   129   7e-28
+UniRef90_I3N517 Uncharacterized protein n=9 Tax=Eukaryota TaxID=...   129   7e-28
+UniRef90_A0A177UXA4 Uncharacterized protein n=4 Tax=Tilletia Tax...   129   7e-28
+UniRef90_A2YLE5 Uncharacterized protein n=6 Tax=Oryza TaxID=4527...   129   7e-28
+UniRef90_A0BUT4 Uncharacterized protein n=2 Tax=Oligohymenophore...   129   8e-28
+UniRef90_P46575 Ubiquitin-60S ribosomal protein L40 n=3 Tax=Euka...   129   8e-28
+UniRef90_A0A0D2FVX8 Rhinocladiella mackenziei CBS 650.93 unplace...   129   8e-28
+UniRef90_E5RYP4 Ubiquitin family protein n=1 Tax=Trichinella spi...   129   8e-28
+UniRef90_UPI00098B3C72 polyubiquitin-like n=1 Tax=Microcebus mur...   129   8e-28
+UniRef90_A0A0K3CTK7 BY PROTMAP: gi|675378034|gb|KFM70936.1| Ubiq...   129   8e-28
+UniRef90_A0A135LXE3 Ubiquitin supergroup n=1 Tax=Penicillium pat...   129   8e-28
+UniRef90_UPI0004F0E1C5 2'-5'-oligoadenylate synthase 1-like n=1 ...   129   8e-28
+UniRef90_UPI00045DDB34 ubiquitin-like protein ISG15 n=1 Tax=Oryc...   129   8e-28
+UniRef90_H0XER2 Uncharacterized protein n=2 Tax=Otolemur garnett...   129   8e-28
+UniRef90_A0A183N2T0 Uncharacterized protein n=1 Tax=Schistosoma ...   129   8e-28
+UniRef90_K3ZXW7 Uncharacterized protein n=15 Tax=Poaceae TaxID=4...   129   8e-28
+UniRef90_U9TN62 Uncharacterized protein n=2 Tax=Rhizophagus irre...   129   8e-28
+UniRef90_A2XEA1 Uncharacterized protein n=2 Tax=Oryza sativa Tax...   129   8e-28
+UniRef90_A0A1D6CD31 Uncharacterized protein n=1 Tax=Triticum aes...   129   8e-28
+UniRef90_A0A1D6B0L6 Uncharacterized protein n=1 Tax=Triticum aes...   129   9e-28
+UniRef90_B7G5H7 Ubiquitin extension protein 1/2 n=2 Tax=Navicula...   129   9e-28
+UniRef90_A0A0X8HWZ5 HHR238Cp n=1 Tax=Eremothecium sinecaudum Tax...   129   9e-28
+UniRef90_U1M349 Uncharacterized protein n=1 Tax=Ascaris suum Tax...   129   9e-28
+UniRef90_P18101 Ubiquitin-60S ribosomal protein L40 n=45 Tax=Hol...   129   9e-28
+UniRef90_R0KPY3 Ubiquitin (Fragment) n=5 Tax=Opisthokonta TaxID=...   129   9e-28
+UniRef90_E1ZCE0 Uncharacterized protein n=1 Tax=Chlorella variab...   129   1e-27
+UniRef90_A0A1D6C9W1 Uncharacterized protein n=1 Tax=Triticum aes...   129   1e-27
+UniRef90_UPI00063F23E7 LOW QUALITY PROTEIN: ubiquitin-40S riboso...   129   1e-27
+UniRef90_K3YTX1 Uncharacterized protein n=1 Tax=Setaria italica ...   129   1e-27
+UniRef90_H0Z9N6 Ribosomal protein S27a n=4 Tax=Amniota TaxID=325...   129   1e-27
+UniRef90_A0A1X7V088 Uncharacterized protein n=1 Tax=Amphimedon q...   128   1e-27
+UniRef90_A0A0D2P6Z9 Uncharacterized protein (Fragment) n=2 Tax=r...   128   1e-27
+UniRef90_A0A218UVB3 Polyubiquitin-B n=7 Tax=Amniota TaxID=32524 ...   128   1e-27
+UniRef90_UPI00044065D6 ubiquitin-like protein ISG15 n=1 Tax=Bala...   128   1e-27
+UniRef90_UPI0004F077E6 polyubiquitin isoform X4 n=8 Tax=Archelos...   128   1e-27
+UniRef90_P49633 Ubiquitin-60S ribosomal protein L40 n=15 Tax=Euk...   128   1e-27
+UniRef90_A0A0P5L5W7 Putative Polyubiquitin-C n=1 Tax=Daphnia mag...   128   1e-27
+UniRef90_A0A1D6DKG9 Uncharacterized protein n=2 Tax=commelinids ...   128   1e-27
+UniRef90_A0A0N8EQ79 Polyubiquitin-C-like protein n=1 Tax=Daphnia...   128   1e-27
+UniRef90_A8QAU5 Uncharacterized protein n=1 Tax=Malassezia globo...   128   1e-27
+UniRef90_G4V9Z0 Putative ubiquitin (Ribosomal protein L40) n=1 T...   128   1e-27
+UniRef90_UPI0005F41B2C ubiquitin-60S ribosomal protein L40 isofo...   128   1e-27
+UniRef90_M7XBX1 Small subunit ribosomal protein S27Ae n=3 Tax=Rh...   128   1e-27
+UniRef90_A0A1D5RYM7 Uncharacterized protein n=5 Tax=Mesangiosper...   128   1e-27
+UniRef90_A0A0R0M3C1 Ubiquitin/40S ribosomal protein S27a fusion ...   128   1e-27
+UniRef90_UPI00034FA2BB ubiquitin-like protein ISG15 n=1 Tax=Hete...   128   1e-27
+UniRef90_A0A194S564 Uncharacterized protein n=2 Tax=Basidiomycot...   128   1e-27
+UniRef90_I1SRW5 Ubiquitin and ribosomal protein S27a (Fragment) ...   128   1e-27
+UniRef90_K1X443 Ubiquitin n=3 Tax=Eukaryota TaxID=2759 RepID=K1X...   128   1e-27
+UniRef90_D8Q1K1 Uncharacterized protein ubi::crp-6 n=32 Tax=Agar...   128   1e-27
+UniRef90_A0A0V1EWR9 Polyubiquitin-C n=2 Tax=Trichinella pseudosp...   128   1e-27
+UniRef90_A0A1D6A689 Uncharacterized protein n=1 Tax=Triticum aes...   128   1e-27
+UniRef90_Q2I193 Ubiquitin and ribosomal protein S27a (Fragment) ...   128   1e-27
+UniRef90_J3KC68 Polyubiquitin n=9 Tax=Eurotiomycetidae TaxID=451...   128   1e-27
+UniRef90_A0A068XI13 Ribosomal protein L40 n=5 Tax=Cyclophyllidea...   128   1e-27
+UniRef90_A8I1N4 Ubiquitin n=1 Tax=Heterocapsa triquetra TaxID=66...   128   1e-27
+UniRef90_A0A1U7YVT0 ubiquitin isoform X2 n=5 Tax=Mesangiospermae...   128   1e-27
+UniRef90_A0A0J5SRH5 Ubiquitin-40S ribosomal protein S27a n=3 Tax...   128   1e-27
+UniRef90_A0A1U7LPP0 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   128   1e-27
+UniRef90_B8P0U2 Ubiquitin/40s ribosomal protein S27a fusion n=5 ...   128   1e-27
+UniRef90_I1HF34 Uncharacterized protein n=2 Tax=Brachypodium dis...   128   1e-27
+UniRef90_A0A0V1PLL5 Polyubiquitin-C n=1 Tax=Trichinella sp. T8 T...   128   1e-27
+UniRef90_A0A0L0SFN2 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   128   1e-27
+UniRef90_A0A0K0FA93 Ubiquitin-60S ribosomal protein L40 (inferre...   128   1e-27
+UniRef90_A0A0G4PUW2 Ribosomal protein L40e n=3 Tax=Penicillium T...   128   1e-27
+UniRef90_UPI0005404982 ubiquitin-60S ribosomal protein L40 isofo...   128   1e-27
+UniRef90_A0A183C874 Uncharacterized protein n=1 Tax=Globodera pa...   128   1e-27
+UniRef90_W6UDU1 Ubiquitin n=1 Tax=Echinococcus granulosus TaxID=...   128   1e-27
+UniRef90_A0A1Z5KAW9 Uncharacterized protein n=3 Tax=Fistulifera ...   128   1e-27
+UniRef90_T0S0K6 40S ribosomal protein S30 n=5 Tax=Saprolegniacea...   128   1e-27
+UniRef90_A0A1D6CD30 Uncharacterized protein n=1 Tax=Triticum aes...   128   1e-27
+UniRef90_A0A0P6A359 Ubiquitin-40S ribosomal protein S27a (Fragme...   128   1e-27
+UniRef90_O42388 Ubiquitin-60S ribosomal protein L40 n=13 Tax=Eut...   128   1e-27
+UniRef90_UPI0004433823 ubiquitin-60S ribosomal protein L40 isofo...   128   1e-27
+UniRef90_K9GZB0 RNA polymerase I specific transcription initiati...   128   2e-27
+UniRef90_L1JA52 High mobility group box fusion protein n=1 Tax=G...   128   2e-27
+UniRef90_A0A058ZAV7 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   128   2e-27
+UniRef90_A0A0V1NFH8 Polyubiquitin-B n=3 Tax=Trichinella TaxID=63...   128   2e-27
+UniRef90_UPI000182B167 ubiquitin-60S ribosomal protein L40-2 iso...   128   2e-27
+UniRef90_A0A0K3C6J0 BY PROTMAP: gi|472583611|gb|EMS21244.1| smal...   128   2e-27
+UniRef90_A0A1Q9DY17 Polyubiquitin n=1 Tax=Symbiodinium microadri...   128   2e-27
+UniRef90_E9DIZ1 Ubiquitin n=10 Tax=Onygenales TaxID=33183 RepID=...   128   2e-27
+UniRef90_A0A0V0X8V6 Ubiquitin-60S ribosomal protein L40 (Fragmen...   128   2e-27
+UniRef90_A0A196SLI0 Ribosomal protein S27A n=1 Tax=Blastocystis ...   128   2e-27
+UniRef90_P62987 Ubiquitin-60S ribosomal protein L40 n=46 Tax=Bil...   128   2e-27
+UniRef90_A0A0L9SQ79 Uncharacterized protein n=1 Tax=Ophiocordyce...   128   2e-27
+UniRef90_C0H768 Ubiquitin n=92 Tax=Eukaryota TaxID=2759 RepID=C0...   128   2e-27
+UniRef90_B5DGL2 Ubiquitin n=125 Tax=Metazoa TaxID=33208 RepID=B5...   128   2e-27
+UniRef90_UPI000530AF89 2'-5'-oligoadenylate synthase-like protei...   128   2e-27
+UniRef90_J9JIV0 Uncharacterized protein n=2 Tax=Acyrthosiphon pi...   128   2e-27
+UniRef90_A0A078CPQ6 BnaC06g21170D protein n=1 Tax=Brassica napus...   128   2e-27
+UniRef90_F0X6C0 Cgd7_2280 protein n=9 Tax=Eukaryota TaxID=2759 R...   128   2e-27
+UniRef90_C5X7R5 Uncharacterized protein n=1 Tax=Sorghum bicolor ...   128   2e-27
+UniRef90_A0A0A1PDZ1 Polyubiquitin 5 n=4 Tax=Rhizopus microsporus...   128   2e-27
+UniRef90_UPI00046238F9 ubiquitin-domain-containing protein n=1 T...   128   2e-27
+UniRef90_UPI000812E399 ubiquitin-like protein ISG15 n=1 Tax=Mani...   128   2e-27
+UniRef90_F7D6U2 Uncharacterized protein n=3 Tax=Equus TaxID=3551...   128   2e-27
+UniRef90_A9CS03 SSU ribosomal protein S27AE-ubiquitin n=1 Tax=En...   128   2e-27
+UniRef90_K0SPB7 Uncharacterized protein n=1 Tax=Thalassiosira oc...   128   2e-27
+UniRef90_A0A0E9NL44 Uncharacterized protein n=1 Tax=Saitoella co...   128   2e-27
+UniRef90_A0A093EZR5 2'-5'-oligoadenylate synthase-like 2 (Fragme...   128   2e-27
+UniRef90_L2GV95 Ubiquitin-40S ribosomal protein S27a n=2 Tax=Ple...   128   2e-27
+UniRef90_A0A1R0H2W7 Ubiquitin-60S ribosomal protein L40 n=2 Tax=...   127   2e-27
+UniRef90_A0A1B6QDB4 Uncharacterized protein n=1 Tax=Sorghum bico...   127   2e-27
+UniRef90_A0A090CGD4 Putative fusion protein: ubiquitin-cytosolic...   127   2e-27
+UniRef90_L7LX35 Putative ubiquitin/40s ribosomal protein s27a fu...   127   2e-27
+UniRef90_A0A0R3TT53 Uncharacterized protein n=2 Tax=Bilateria Ta...   127   2e-27
+UniRef90_UPI00046DAA9D ubiquitin n=1 Tax=Prunus mume TaxID=10210...   127   2e-27
+UniRef90_UPI00062BE179 polyubiquitin n=1 Tax=Sarcophilus harrisi...   127   2e-27
+UniRef90_B9FQ86 Uncharacterized protein n=1 Tax=Oryza sativa sub...   127   2e-27
+UniRef90_P59272 Ubiquitin-40S ribosomal protein S27a (Fragment) ...   127   2e-27
+UniRef90_Q4LAY9 Ubquitin/ribosomal protein S27Ae fusion protein ...   127   2e-27
+UniRef90_A0A0V0J9J3 Polyubiquitin (Fragment) n=3 Tax=Eukaryota T...   127   2e-27
+UniRef90_A0A0D2U0D4 Uncharacterized protein n=1 Tax=Capsaspora o...   127   2e-27
+UniRef90_B5X614 Ubiquitin n=1 Tax=Salmo salar TaxID=8030 RepID=B...   127   2e-27
+UniRef90_A0A1D6CD29 Uncharacterized protein n=1 Tax=Triticum aes...   127   2e-27
+UniRef90_B6AFQ6 60S ribosomal protein L40, putative n=3 Tax=Cryp...   127   2e-27
+UniRef90_A0A087U0P7 Ubiquitin-60S ribosomal protein L40 (Fragmen...   127   3e-27
+UniRef90_UPI00084A9DEF ubiquitin-like n=1 Tax=Hyalella azteca Ta...   127   3e-27
+UniRef90_A0A1B0FP56 60S ribosomal protein L40 n=1 Tax=Glossina m...   127   3e-27
+UniRef90_A0A1P8LK38 2',5'-oligoadenylate synthetase-like protein...   127   3e-27
+UniRef90_J4G0P3 Uncharacterized protein n=2 Tax=Polyporales TaxI...   127   3e-27
+UniRef90_P0DJ25 Ubiquitin-60S ribosomal protein L40 n=3 Tax=Tetr...   127   3e-27
+UniRef90_A0A024GPK1 Uncharacterized protein n=3 Tax=Eukaryota Ta...   127   3e-27
+UniRef90_A0A1D5XN92 Uncharacterized protein n=2 Tax=Triticum aes...   127   3e-27
+UniRef90_S7W9X5 Ubiquitin/40s ribosomal protein S27a fusion n=1 ...   127   3e-27
+UniRef90_F1LDA0 Polyubiquitin-A n=1 Tax=Ascaris suum TaxID=6253 ...   127   3e-27
+UniRef90_A0A0M8P123 Uncharacterized protein n=7 Tax=leotiomyceta...   127   3e-27
+UniRef90_Q0J0U4 Os09g0483200 protein n=2 Tax=Oryza sativa TaxID=...   127   3e-27
+UniRef90_A0DBT3 Uncharacterized protein (Fragment) n=1 Tax=Param...   127   3e-27
+UniRef90_K3YDP8 Uncharacterized protein n=4 Tax=Eukaryota TaxID=...   127   3e-27
+UniRef90_A0A1Q3EDZ6 Ubiquitin C n=1 Tax=Lentinula edodes TaxID=5...   127   3e-27
+UniRef90_A0A061G1H4 Ubiquitin supergroup,Ribosomal protein L40e ...   127   3e-27
+UniRef90_A0A1D6AIP3 Uncharacterized protein n=8 Tax=Eukaryota Ta...   127   3e-27
+UniRef90_A0A1E3I090 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   127   3e-27
+UniRef90_A0A1E3BSM0 Uncharacterized protein n=1 Tax=Aspergillus ...   127   3e-27
+UniRef90_A0A1F5LIG7 Uncharacterized protein n=1 Tax=Penicillium ...   127   3e-27
+UniRef90_A0A0P5WR83 Ubiquitin-40S ribosomal protein S27a (Fragme...   127   3e-27
+UniRef90_A0A1D6CD83 Uncharacterized protein n=2 Tax=Triticum aes...   127   3e-27
+UniRef90_M5W3W7 Uncharacterized protein n=8 Tax=Eukaryota TaxID=...   127   3e-27
+UniRef90_A0A1D6B167 Uncharacterized protein n=6 Tax=root TaxID=1...   127   3e-27
+UniRef90_A0A0V0Z8R1 Polyubiquitin n=2 Tax=Trichinella TaxID=6333...   127   3e-27
+UniRef90_A0A0V1PL04 Polyubiquitin-C n=6 Tax=Trichinella sp. T8 T...   127   3e-27
+UniRef90_A0A061SHH0 Small subunit ribosomal protein S27Ae n=1 Ta...   127   3e-27
+UniRef90_A7TIT6 Uncharacterized protein n=4 Tax=saccharomyceta T...   127   3e-27
+UniRef90_A0A1I9G0A2 Bm13651 n=4 Tax=Eukaryota TaxID=2759 RepID=A...   127   3e-27
+UniRef90_M1IAW7 Ubiquitin-60S ribosomal protein L40 n=4 Tax=uncl...   127   3e-27
+UniRef90_P0CH08 Ubiquitin-60S ribosomal protein L40 n=134 Tax=Eu...   127   3e-27
+UniRef90_A0A1E3PZ45 Uncharacterized protein n=1 Tax=Lipomyces st...   127   3e-27
+UniRef90_D3BHB9 Ubiquitin n=19 Tax=Eukaryota TaxID=2759 RepID=D3...   127   4e-27
+UniRef90_F4PKL3 Ubiquitin/ribosomal protein L40 fusion protein n...   127   4e-27
+UniRef90_A0A163KIJ6 Uncharacterized protein n=1 Tax=Absidia glau...   127   4e-27
+UniRef90_K3YSM3 Uncharacterized protein n=4 Tax=Mesangiospermae ...   127   4e-27
+UniRef90_L8GDL8 Ubiquitin domain containing protein n=1 Tax=Acan...   126   4e-27
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A178ZHF6 V-type proton ATPase subunit a n=1 Tax=Fonse...   132   1e-28
+UniRef90_G9E5X0 Uncharacterized protein n=1 Tax=Micromonas pusil...   132   1e-28
+UniRef90_B9FZE8 Uncharacterized protein n=1 Tax=Oryza sativa sub...   132   1e-28
+UniRef90_UPI0007753A96 polyubiquitin-D n=1 Tax=Oryza sativa subs...   132   1e-28
+UniRef90_F6T5K6 Uncharacterized protein n=9 Tax=Bilateria TaxID=...   131   2e-28
+UniRef90_K3VDN9 Uncharacterized protein n=3 Tax=Fusarium sambuci...   129   5e-28
+UniRef90_B8BBE4 Uncharacterized protein n=1 Tax=Oryza sativa sub...   129   6e-28
+UniRef90_Q201Y6 ACYPI000086 protein n=5 Tax=Macrosiphini TaxID=3...   129   7e-28
+UniRef90_UPI00062AA545 ubiquitin-40S ribosomal protein S27a-like...   129   8e-28
+UniRef90_F4RMW4 Uncharacterized protein n=5 Tax=Pucciniales TaxI...   129   8e-28
+UniRef90_U5H7T8 Ubiquitin-40S ribosomal protein S27a-1 n=2 Tax=M...   129   8e-28
+UniRef90_A0A058ZGP6 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   128   2e-27
+UniRef90_A0A1A9Y2F7 Uncharacterized protein n=1 Tax=Glossina fus...   128   2e-27
+UniRef90_M7NNJ2 Ubiquitin-40S ribosomal protein S27a n=2 Tax=Pne...   128   2e-27
+UniRef90_I1I505 Uncharacterized protein n=1 Tax=Brachypodium dis...   127   2e-27
+UniRef90_A0A0D1Z115 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   127   3e-27
+UniRef90_A0A177UUJ8 Uncharacterized protein n=4 Tax=Tilletia Tax...   127   3e-27
+UniRef90_A0A1D1YJI7 Ubiquitin-40S ribosomal protein S27a (Fragme...   127   3e-27
+UniRef90_L1IMY7 Ubiquitin n=1 Tax=Guillardia theta CCMP2712 TaxI...   127   3e-27
+
+>UniRef90_I3LU39 Uncharacterized protein n=4 Tax=Sus scrofa TaxID=9823
+           RepID=I3LU39_PIG
+          Length = 166
+
+ Score =  146 bits (369), Expect = 6e-33,   Method: Composition-based stats.
+ Identities = 55/74 (74%), Positives = 62/74 (83%)
+
+Query: 1   EPLSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFEGKPLEDQLPLGE 60
+           +PLSILVRN+KGRS+ YEV LTQTVA LKQQV   EGVQ D FWLTFEGKP+ED+  LGE
+Sbjct: 78  DPLSILVRNDKGRSNAYEVWLTQTVAELKQQVCQQEGVQADQFWLTFEGKPMEDEHQLGE 137
+
+Query: 61  YGLKPLSTVFMNLR 74
+           Y LKP+ TV+MNLR
+Sbjct: 138 YDLKPMCTVYMNLR 151
+
+
+
+ Score = 41.4 bits (97), Expect = 0.26,   Method: Composition-based stats.
+ Identities = 21/66 (31%), Positives = 30/66 (45%), Gaps = 1/66 (1%)
+
+Query: 7  VRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTF-EGKPLEDQLPLGEYGLKP 65
+          V+   G+     +R     + LKQQ++   GV      L    G  L+D +PL   GL P
+Sbjct: 6  VKMLGGKEILVPLRDCMMASDLKQQIAREIGVPAFQQRLAHPAGNVLQDGVPLVNQGLGP 65
+
+Query: 66 LSTVFM 71
+           STV +
+Sbjct: 66 GSTVLL 71
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A091S2W3 2'-5'-oligoadenylate synthase-like 2 (Fragme...   150   3e-34
+UniRef90_A0A091MCC1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   150   3e-34
+UniRef90_A0A091UR95 2'-5'-oligoadenylate synthase-like 2 (Fragme...   149   6e-34
+UniRef90_A0A091J5U6 2'-5'-oligoadenylate synthase-like 2 (Fragme...   147   3e-33
+UniRef90_A0A087QTF3 2'-5'-oligoadenylate synthase-like 2 (Fragme...   146   4e-33
+UniRef90_UPI000522C8DC 2'-5'-oligoadenylate synthase 1-like n=1 ...   146   4e-33
+UniRef90_UPI000523AEDB 2'-5'-oligoadenylate synthase 1-like n=1 ...   146   6e-33
+UniRef90_UPI00053CB030 2'-5'-oligoadenylate synthase 1-like n=2 ...   146   7e-33
+UniRef90_A0A093QW95 2'-5'-oligoadenylate synthase-like 1 (Fragme...   145   8e-33
+UniRef90_A0A091N1D0 2'-5'-oligoadenylate synthase-like 2 (Fragme...   145   9e-33
+UniRef90_UPI00053241CC 2'-5'-oligoadenylate synthase-like protei...   145   1e-32
+UniRef90_UPI00038719AD 2'-5'-oligoadenylate synthase 1-like n=1 ...   145   1e-32
+UniRef90_I3LU39 Uncharacterized protein n=4 Tax=Sus scrofa TaxID...   145   1e-32
+UniRef90_UPI0004F0251F 2'-5'-oligoadenylate synthase 1-like n=1 ...   144   2e-32
+UniRef90_A0A091R2Y1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   144   3e-32
+UniRef90_UPI0006B6A66E 2'-5'-oligoadenylate synthase 1-like n=1 ...   142   7e-32
+UniRef90_UPI00038335F9 2'-5'-oligoadenylate synthase-like protei...   142   8e-32
+UniRef90_A0A091ELS9 2'-5'-oligoadenylate synthase-like 2 (Fragme...   142   8e-32
+UniRef90_A0A1V4K8T1 2'-5'-oligoadenylate synthase 1 n=2 Tax=Colu...   142   1e-31
+UniRef90_E2R7R1 ISG15 ubiquitin-like modifier n=1 Tax=Canis lupu...   141   1e-31
+UniRef90_UPI0008166A50 2'-5'-oligoadenylate synthase-like protei...   141   1e-31
+UniRef90_UPI0006B7B053 2'-5'-oligoadenylate synthase 1-like n=2 ...   141   2e-31
+UniRef90_G1MJQ9 Uncharacterized protein (Fragment) n=3 Tax=Ailur...   141   2e-31
+UniRef90_UPI00071A24DF LOW QUALITY PROTEIN: 2'-5'-oligoadenylate...   141   2e-31
+UniRef90_A0A093H453 2'-5'-oligoadenylate synthase-like 2 (Fragme...   140   3e-31
+UniRef90_Q9WR83 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   140   3e-31
+UniRef90_U6DRB8 Ubiquitin-like protein ISG15 (Fragment) n=1 Tax=...   140   3e-31
+UniRef90_A0A094L8K5 2'-5'-oligoadenylate synthase-like 1 (Fragme...   140   4e-31
+UniRef90_U3K2C2 2'-5'-oligoadenylate synthetase like n=1 Tax=Fic...   140   4e-31
+UniRef90_A0A0P5NQT1 Ubiquitin-60S ribosomal protein L40 (Fragmen...   140   4e-31
+UniRef90_UPI000441D5F1 uncharacterized protein LOC103076606 n=1 ...   140   4e-31
+UniRef90_Q65810 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...   140   4e-31
+UniRef90_A0A0N5A2Q5 Uncharacterized protein n=1 Tax=Parastrongyl...   140   4e-31
+UniRef90_UPI0003956233 2'-5'-oligoadenylate synthase 1 n=1 Tax=G...   140   4e-31
+UniRef90_A0A0K0FAI6 Ubiquitin-60S ribosomal protein L40 (inferre...   140   4e-31
+UniRef90_UPI0009FA51DD hypothetical protein n=1 Tax=Loktanella s...   140   5e-31
+UniRef90_Q9WR87 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   140   5e-31
+UniRef90_UPI0006B0A3AF polyubiquitin-like n=1 Tax=Apteryx austra...   139   5e-31
+UniRef90_Q04232 Genome polyprotein (Fragment) n=1 Tax=Bovine vir...   139   6e-31
+UniRef90_A0A091GMJ6 2'-5'-oligoadenylate synthase-like 1 (Fragme...   139   6e-31
+UniRef90_Q65815 Genome polyprotein n=26 Tax=Bovine viral diarrhe...   139   6e-31
+UniRef90_S9Y7C3 Ubiquitin A-52 residue ribosomal protein fusion ...   139   6e-31
+UniRef90_UPI00071A8E17 ubiquitin-60S ribosomal protein L40 n=1 T...   139   7e-31
+UniRef90_UPI0004F11146 2'-5'-oligoadenylate synthase 1-like isof...   139   8e-31
+UniRef90_UPI0006B0CE85 2'-5'-oligoadenylate synthase 1-like n=1 ...   139   8e-31
+UniRef90_S9XCC0 ISG15 ubiquitin-like modifier n=2 Tax=Camelus Ta...   139   8e-31
+UniRef90_A0A0V0GKN7 Putative ovule protein (Fragment) n=1 Tax=So...   139   8e-31
+UniRef90_A0A0E0B3R4 Uncharacterized protein n=1 Tax=Oryza glumip...   139   8e-31
+UniRef90_Q9WR82 Polyprotein (Fragment) n=2 Tax=Bovine viral diar...   139   9e-31
+UniRef90_UPI0008DB604E 2'-5'-oligoadenylate synthase 1-like isof...   139   9e-31
+UniRef90_F7AUY9 Ribosomal protein S27a n=6 Tax=Boreoeutheria Tax...   138   9e-31
+UniRef90_H0Z853 2'-5'-oligoadenylate synthetase like n=3 Tax=Est...   138   9e-31
+UniRef90_UPI0006B107CE ubiquitin-60S ribosomal protein L40 n=1 T...   138   1e-30
+UniRef90_E3KFB8 Large subunit ribosomal protein L40e n=1 Tax=Puc...   138   1e-30
+UniRef90_A0A1S4FZI3 Ubiquitin (ribosomal protein L40) n=6 Tax=Cu...   138   1e-30
+UniRef90_A0A1V4K2F8 Polyubiquitin-C isoform A n=2 Tax=Patagioena...   138   1e-30
+UniRef90_A0A068SER0 Cation-transporting ATPase n=2 Tax=Lichtheim...   138   1e-30
+UniRef90_A0A0E0ETD9 Uncharacterized protein n=1 Tax=Oryza meridi...   138   1e-30
+UniRef90_M2VTN6 Ubiquitin n=1 Tax=Galdieria sulphuraria TaxID=13...   138   1e-30
+UniRef90_F0Y3Y1 Uncharacterized protein n=4 Tax=Aureococcus anop...   138   2e-30
+UniRef90_A0A0E0ARP4 Uncharacterized protein n=1 Tax=Oryza glumip...   138   2e-30
+UniRef90_UPI0008DB4A74 polyubiquitin-C isoform X1 n=1 Tax=Serinu...   138   2e-30
+UniRef90_A0A068RM11 V-type proton ATPase proteolipid subunit n=1...   138   2e-30
+UniRef90_F6QHE9 ISG15 ubiquitin-like modifier n=2 Tax=Callithrix...   138   2e-30
+UniRef90_W9YZX6 V-type proton ATPase subunit a n=6 Tax=Herpotric...   138   2e-30
+UniRef90_A0A167MVN0 RNA polymerase 1 specific transcription init...   138   2e-30
+UniRef90_V9DND7 V-type proton ATPase subunit a n=10 Tax=Opisthok...   138   2e-30
+UniRef90_A0A099NZL9 PRA1 family protein n=5 Tax=Fungi TaxID=4751...   138   2e-30
+UniRef90_UPI000521399E LOW QUALITY PROTEIN: 2'-5'-oligoadenylate...   137   2e-30
+UniRef90_A0A091RY69 2'-5'-oligoadenylate synthase-like 2 (Fragme...   137   2e-30
+UniRef90_Q9WR77 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   137   2e-30
+UniRef90_I1NXI0 Uncharacterized protein n=1 Tax=Oryza glaberrima...   137   2e-30
+UniRef90_A0A1Y1WFE2 Ubiquitin-domain-containing protein (Fragmen...   137   3e-30
+UniRef90_UPI00027FB2D6 ubiquitin-like protein ISG15 n=3 Tax=Plat...   137   3e-30
+UniRef90_A0A0G4HTL3 Uncharacterized protein n=3 Tax=Eukaryota Ta...   137   3e-30
+UniRef90_Q9WR81 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   137   3e-30
+UniRef90_B7P0U0 40S ribosomal protein S27A, putative n=25 Tax=Me...   137   3e-30
+UniRef90_A0A0V0RGU1 Polyubiquitin-B n=1 Tax=Trichinella nelsoni ...   137   3e-30
+UniRef90_M1VD49 Ubiquitin with short C-terminal extension n=1 Ta...   137   3e-30
+UniRef90_A0A0G4F507 Uncharacterized protein n=1 Tax=Vitrella bra...   137   3e-30
+UniRef90_G7DSA4 Uncharacterized protein n=1 Tax=Mixia osmundae (...   137   3e-30
+UniRef90_I1QPX9 Uncharacterized protein n=6 Tax=Oryza TaxID=4527...   137   3e-30
+UniRef90_A0A0E0B4J9 Uncharacterized protein n=5 Tax=Oryza TaxID=...   137   3e-30
+UniRef90_A0A0D3H884 Uncharacterized protein n=2 Tax=Oryza TaxID=...   137   3e-30
+UniRef90_A0A0D3H885 Uncharacterized protein n=3 Tax=Oryza TaxID=...   137   3e-30
+UniRef90_A0A0V0RGU0 Polyubiquitin-B n=1 Tax=Trichinella nelsoni ...   137   3e-30
+UniRef90_A0A091CWM2 Uncharacterized protein n=8 Tax=Bilateria Ta...   137   3e-30
+UniRef90_F0Y169 Uncharacterized protein n=1 Tax=Aureococcus anop...   137   3e-30
+UniRef90_A0A1L8HX68 Uncharacterized protein n=1 Tax=Xenopus laev...   137   3e-30
+UniRef90_A0A0W0F300 Uncharacterized protein n=1 Tax=Moniliophtho...   137   3e-30
+UniRef90_E0S5W6 Monoubiquitin/carboxy-extension fusion-like prot...   136   4e-30
+UniRef90_A0A074REZ6 Ubiquitin-60S ribosomal protein L40 n=18 Tax...   136   4e-30
+UniRef90_E5T5F3 Putative ubiquitin family protein (Fragment) n=1...   136   4e-30
+UniRef90_A0A0N1I678 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   136   4e-30
+UniRef90_P62979 Ubiquitin-40S ribosomal protein S27a n=32 Tax=Bi...   136   4e-30
+UniRef90_P68200 Ubiquitin-40S ribosomal protein S27a n=28 Tax=Eu...   136   4e-30
+UniRef90_P62983 Ubiquitin-40S ribosomal protein S27a n=127 Tax=E...   136   4e-30
+UniRef90_UPI0006AAF31E ubiquitin-40S ribosomal protein S27a-3-li...   136   4e-30
+UniRef90_A0A063BYS4 Polyubiquitin n=1 Tax=Ustilaginoidea virens ...   136   4e-30
+UniRef90_UPI0005D0D275 ubiquitin-like n=1 Tax=Aquila chrysaetos ...   136   4e-30
+UniRef90_W7TN89 Ubiquitin n=2 Tax=Nannochloropsis gaditana TaxID...   136   4e-30
+UniRef90_A0A067CTW4 Uncharacterized protein n=1 Tax=Saprolegnia ...   136   4e-30
+UniRef90_P79781 Ubiquitin-40S ribosomal protein S27a n=22 Tax=Bi...   136   4e-30
+UniRef90_A0A212FHW0 Hairy cell leukemia protein 1 n=4 Tax=Holome...   136   4e-30
+UniRef90_P15357 Ubiquitin-40S ribosomal protein S27a n=43 Tax=Bi...   136   4e-30
+UniRef90_A0A177C1V1 Ubiquitin-domain-containing protein n=1 Tax=...   136   4e-30
+UniRef90_A0A1J4MZ88 Ubiquitin family protein n=1 Tax=Cryptospori...   136   4e-30
+UniRef90_UPI00083BAB55 ubiquitin-60S ribosomal protein L40-like ...   136   5e-30
+UniRef90_M8AJB6 Polyubiquitin n=9 Tax=Eukaryota TaxID=2759 RepID...   136   5e-30
+UniRef90_UPI00077127DD ubiquitin n=1 Tax=Parus major TaxID=9157 ...   136   5e-30
+UniRef90_L8WIL1 Ubiquitin domain-containing protein n=1 Tax=Than...   136   5e-30
+UniRef90_A0A061B1X4 CYFA0S07e04632g1_1 n=1 Tax=Cyberlindnera fab...   136   5e-30
+UniRef90_UPI0004F43664 ubiquitin-60S ribosomal protein L40 isofo...   136   5e-30
+UniRef90_A0A0V0RGT0 Polyubiquitin n=1 Tax=Trichinella nelsoni Ta...   136   5e-30
+UniRef90_A0A146XNM2 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   136   5e-30
+UniRef90_A0A095XXZ9 Uncharacterized protein n=1 Tax=Pseudohaliea...   136   5e-30
+UniRef90_W6USS6 Ubiquitin n=3 Tax=Echinococcus TaxID=6209 RepID=...   136   5e-30
+UniRef90_UPI000B7D1480 hypothetical protein n=1 Tax=Paenibacillu...   136   5e-30
+UniRef90_A0A0L0DLX6 Uncharacterized protein n=1 Tax=Thecamonas t...   136   5e-30
+UniRef90_G3VR81 Uncharacterized protein n=7 Tax=Euteleostomi Tax...   136   5e-30
+UniRef90_A0A0B2XHD1 Uncharacterized protein n=6 Tax=Metarhizium ...   136   6e-30
+UniRef90_A0A0V0XYQ9 Ubiquitin-60S ribosomal protein L40 n=3 Tax=...   136   6e-30
+UniRef90_Q9WR86 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   136   6e-30
+UniRef90_L8WVI0 Polyubiquitin n=1 Tax=Thanatephorus cucumeris (s...   136   6e-30
+UniRef90_A0A151UF79 Ubiquitin n=1 Tax=Cajanus cajan TaxID=3821 R...   136   6e-30
+UniRef90_Q86DU4 Ubiquitin extension protein n=1 Tax=Heterodera s...   136   6e-30
+UniRef90_A0A0V0Z8L6 Polyubiquitin-B n=26 Tax=Trichinella TaxID=6...   136   6e-30
+UniRef90_A0A0V0Z8A7 Polyubiquitin-B n=1 Tax=Trichinella patagoni...   136   6e-30
+UniRef90_A0A1Y1XE41 Ubiquitin-domain-containing protein n=1 Tax=...   136   6e-30
+UniRef90_A0A0N7ZZN5 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   136   6e-30
+UniRef90_A0A0V0Z903 Polyubiquitin-B n=1 Tax=Trichinella patagoni...   136   6e-30
+UniRef90_A0A0V0RGU3 Polyubiquitin-C n=12 Tax=cellular organisms ...   136   7e-30
+UniRef90_A0A061DSL5 Ribosomal protein S27a / Ubiquitin family pr...   136   7e-30
+UniRef90_A0A1Q9DUW8 Ubiquitin n=1 Tax=Symbiodinium microadriatic...   136   7e-30
+UniRef90_A0A1Q9DXW1 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   136   7e-30
+UniRef90_A0A1Q9D8L2 Polyubiquitin n=6 Tax=Eukaryota TaxID=2759 R...   136   7e-30
+UniRef90_M3YR61 ISG15 ubiquitin-like modifier n=3 Tax=Caniformia...   136   7e-30
+UniRef90_G9E5X0 Uncharacterized protein n=1 Tax=Micromonas pusil...   136   7e-30
+UniRef90_UPI0003EE12D1 ubiquitin-60S ribosomal protein L40 isofo...   136   7e-30
+UniRef90_A0A094C140 Uncharacterized protein (Fragment) n=1 Tax=P...   136   7e-30
+UniRef90_A0A1Q9DXW4 Polyubiquitin 11 n=1 Tax=Symbiodinium microa...   136   7e-30
+UniRef90_A0A093JNH5 2'-5'-oligoadenylate synthase-like 2 (Fragme...   136   7e-30
+UniRef90_UPI000846E0D0 probable phosphatase phospho2 n=1 Tax=Dro...   136   7e-30
+UniRef90_E5SH46 Ubiquitin family protein n=1 Tax=Trichinella spi...   136   8e-30
+UniRef90_A0A0A0KVL0 Uncharacterized protein n=8 Tax=rosids TaxID...   136   8e-30
+UniRef90_A0A093PWZ1 2'-5'-oligoadenylate synthase-like 2 (Fragme...   135   8e-30
+UniRef90_UPI0003D73A95 ubiquitin-40S ribosomal protein S27a-like...   135   8e-30
+UniRef90_L8HBA5 Ubiquitin domain containing protein n=1 Tax=Acan...   135   8e-30
+UniRef90_K4AEK9 Uncharacterized protein n=6 Tax=Mesangiospermae ...   135   8e-30
+UniRef90_UPI00057A9F9D ubiquitin-40S ribosomal protein S27a-like...   135   8e-30
+UniRef90_A0A0A2V3S0 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   135   9e-30
+UniRef90_UPI0003315802 ubiquitin-like n=1 Tax=Sorex araneus TaxI...   135   9e-30
+UniRef90_A0A0N8AGX8 Ubiquitin-40S ribosomal protein S27a n=2 Tax...   135   9e-30
+UniRef90_A0A093YW15 Uncharacterized protein n=1 Tax=Pseudogymnoa...   135   9e-30
+UniRef90_UPI0008DB7D86 polyubiquitin-C isoform X2 n=1 Tax=Serinu...   135   9e-30
+UniRef90_A0A1A9ZVP2 Uncharacterized protein n=4 Tax=Calyptratae ...   135   9e-30
+UniRef90_A0A178ZHF6 V-type proton ATPase subunit a n=1 Tax=Fonse...   135   9e-30
+UniRef90_B9FZE8 Uncharacterized protein n=1 Tax=Oryza sativa sub...   135   9e-30
+UniRef90_UPI0007753A96 polyubiquitin-D n=1 Tax=Oryza sativa subs...   135   9e-30
+UniRef90_W7U0R4 40S ribosomal protein S30 n=1 Tax=Nannochloropsi...   135   1e-29
+UniRef90_A0A094EFP9 Uncharacterized protein n=1 Tax=Pseudogymnoa...   135   1e-29
+UniRef90_A0A1Y1YJ42 Ubiquitin-domain-containing protein n=1 Tax=...   135   1e-29
+UniRef90_A0A1A9W0F3 60S ribosomal protein L40 n=1 Tax=Glossina b...   135   1e-29
+UniRef90_UPI0009816980 ubiquitin-like protein ISG15 n=1 Tax=Cast...   135   1e-29
+UniRef90_UPI00051E2164 ubiquitin-60S ribosomal protein L40 n=1 T...   135   1e-29
+UniRef90_A0A0G4EN71 Uncharacterized protein n=1 Tax=Vitrella bra...   135   1e-29
+UniRef90_A0A151NSC4 Scavenger receptor class B member 1 isoform ...   135   1e-29
+UniRef90_UPI00042C552C ubiquitin-like protein ISG15 n=1 Tax=Phys...   135   1e-29
+UniRef90_A0A1A9ZJ33 60S ribosomal protein L40 n=2 Tax=Bilateria ...   135   1e-29
+UniRef90_A0A0P1BCG2 Ubiquitin-40s ribosomal protein s27a n=1 Tax...   135   1e-29
+UniRef90_A0A066VYD8 Ubiquitin-domain-containing protein n=1 Tax=...   135   1e-29
+UniRef90_UPI0008F5375D ubiquitin-60S ribosomal protein L40 isofo...   135   1e-29
+UniRef90_G3JHJ9 RING and UBP finger domain protein n=1 Tax=Cordy...   135   1e-29
+UniRef90_M1A024 Uncharacterized protein n=3 Tax=Pentapetalae Tax...   135   1e-29
+UniRef90_A0A0A9Z4T5 Ubiquitin-40S ribosomal protein S27a n=7 Tax...   135   1e-29
+UniRef90_K7KG22 Uncharacterized protein n=43 Tax=Eukaryota TaxID...   135   1e-29
+UniRef90_A0A094G3L5 Uncharacterized protein n=2 Tax=Pseudogymnoa...   135   1e-29
+UniRef90_B4R5E7 GD16200 n=3 Tax=Bilateria TaxID=33213 RepID=B4R5...   135   1e-29
+UniRef90_A0A067MLF1 Uncharacterized protein n=1 Tax=Botryobasidi...   134   1e-29
+UniRef90_UPI000522D799 ubiquitin-like n=1 Tax=Opisthocomus hoazi...   134   1e-29
+UniRef90_A0A1D5SFS7 Uncharacterized protein n=1 Tax=Triticum aes...   134   1e-29
+UniRef90_A0A094J8Y6 Uncharacterized protein n=1 Tax=Pseudogymnoa...   134   1e-29
+UniRef90_M2MJG0 Uncharacterized protein n=1 Tax=Baudoinia compni...   134   1e-29
+UniRef90_A0A196SE12 Ubiquitin n=1 Tax=Blastocystis sp. subtype 1...   134   1e-29
+UniRef90_A0A0I9XJY4 Cytoplasmic Zn-finger protein BRAP2 (BRCA1 a...   134   1e-29
+UniRef90_A0A1D6DKE6 Uncharacterized protein n=1 Tax=Triticum aes...   134   1e-29
+UniRef90_A0A094B0J8 Uncharacterized protein n=1 Tax=Pseudogymnoa...   134   1e-29
+UniRef90_A0A0D2A5S2 Polyubiquitin n=1 Tax=Verruconis gallopava T...   134   2e-29
+UniRef90_A0A0L9T1M6 Uncharacterized protein n=1 Tax=Ophiocordyce...   134   2e-29
+UniRef90_F6T5K6 Uncharacterized protein n=9 Tax=Bilateria TaxID=...   134   2e-29
+UniRef90_A0A1D5T2G9 Uncharacterized protein n=1 Tax=Triticum aes...   134   2e-29
+UniRef90_A0A0D2LS10 Uncharacterized protein n=2 Tax=malvids TaxI...   134   2e-29
+UniRef90_A0A0L0ST47 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   134   2e-29
+UniRef90_UPI00015386D5 Ubiquitin n=2 Tax=root TaxID=1 RepID=UPI0...   134   2e-29
+UniRef90_A0A093XDE0 Uncharacterized protein n=1 Tax=Pseudogymnoa...   134   2e-29
+UniRef90_A0A175WEY6 Uncharacterized protein n=1 Tax=Madurella my...   134   2e-29
+UniRef90_A0A179G0I0 Ribosomal protein n=1 Tax=Pochonia chlamydos...   134   2e-29
+UniRef90_C1EI38 Uncharacterized protein n=1 Tax=Micromonas commo...   134   2e-29
+UniRef90_Q8SWB3 Similarity to monoubiquitin/carboxy-extension pr...   134   2e-29
+UniRef90_A0A094CX20 Uncharacterized protein n=4 Tax=Leotiomycete...   134   2e-29
+UniRef90_A0A059AWX7 Uncharacterized protein n=1 Tax=Eucalyptus g...   134   2e-29
+UniRef90_UPI00045E20C9 ubiquitin-60S ribosomal protein L40 isofo...   134   2e-29
+UniRef90_D8MAB6 Uncharacterized protein n=3 Tax=Blastocystis Tax...   134   2e-29
+UniRef90_A0MKC8 Ubiquitin extension protein n=1 Tax=Capsicum ann...   134   2e-29
+UniRef90_M0RFG5 Uncharacterized protein n=1 Tax=Musa acuminata s...   134   2e-29
+UniRef90_I6UKD4 Ubiquitin domain-containing protein n=2 Tax=Ence...   134   2e-29
+UniRef90_Q9WR85 Polyprotein (Fragment) n=1 Tax=Bovine viral diar...   134   2e-29
+UniRef90_UPI0004ED4EF0 ubiquitin-like protein ISG15 n=1 Tax=Nann...   134   2e-29
+UniRef90_UPI00063C7CD4 ubiquitin-60S ribosomal protein L40 isofo...   134   2e-29
+UniRef90_A0A1D2N322 Ribosome biogenesis protein NSA2 n=1 Tax=Orc...   134   2e-29
+UniRef90_F6HZD7 Uncharacterized protein n=1 Tax=Vitis vinifera T...   134   2e-29
+UniRef90_A0A1D6S3D6 Uncharacterized protein n=1 Tax=Triticum aes...   134   2e-29
+UniRef90_A0A0F7S9D5 Probable ubiquitin/ribosomal protein S27a fu...   134   2e-29
+UniRef90_A0A094BL17 Uncharacterized protein n=1 Tax=Pseudogymnoa...   134   2e-29
+UniRef90_A0A0V1EWF8 Polyubiquitin-C n=5 Tax=Opisthokonta TaxID=3...   134   2e-29
+UniRef90_A0A074SQ86 Ubiquitin/40S ribosomal protein S27a fusion ...   134   2e-29
+UniRef90_A0A168AQ08 Ubiquitin subgroup n=1 Tax=Isaria fumosorose...   134   2e-29
+UniRef90_J7S6G7 Uncharacterized protein n=1 Tax=Kazachstania nag...   134   3e-29
+UniRef90_K4AMP3 Uncharacterized protein n=2 Tax=Paniceae TaxID=1...   134   3e-29
+UniRef90_A4RZS0 Ribosomal protein S27a, component of cytosolic 8...   134   3e-29
+UniRef90_A0A067G443 Uncharacterized protein n=3 Tax=Embryophyta ...   134   3e-29
+UniRef90_C1N647 Predicted protein n=1 Tax=Micromonas pusilla (st...   134   3e-29
+UniRef90_A0A117NMP4 Uncharacterized protein n=2 Tax=Penicillium ...   134   3e-29
+UniRef90_A0A0C4EWI4 Uncharacterized protein n=3 Tax=Puccinia Tax...   134   3e-29
+UniRef90_W5ADS2 Uncharacterized protein n=4 Tax=Pooideae TaxID=1...   134   3e-29
+UniRef90_A0A1D5SK57 Uncharacterized protein n=1 Tax=Triticum aes...   134   3e-29
+UniRef90_R1DZ00 Uncharacterized protein n=1 Tax=Emiliania huxley...   134   3e-29
+UniRef90_UPI0001CC473E Monoubiquitinated Proliferating cell nucl...   134   3e-29
+UniRef90_UPI000530AF89 2'-5'-oligoadenylate synthase-like protei...   134   3e-29
+UniRef90_A0A0G4LZJ2 Uncharacterized protein n=4 Tax=Hypocreomyce...   134   3e-29
+UniRef90_A0A1A7MHP2 Uncharacterized protein n=1 Tax=Aureobasidiu...   133   3e-29
+UniRef90_A0A094BZT0 Uncharacterized protein n=1 Tax=Pseudogymnoa...   133   3e-29
+UniRef90_A0A068RGP0 Ubiquitin-60s ribosomal protein l40 fusionpr...   133   3e-29
+UniRef90_M5X9E1 Uncharacterized protein n=17 Tax=Eukaryota TaxID...   133   3e-29
+UniRef90_A0A0P0X6U8 Os07g0489500 protein n=3 Tax=Oryza TaxID=452...   133   3e-29
+UniRef90_UPI00052991E2 2'-5'-oligoadenylate synthase 1-like n=1 ...   133   3e-29
+UniRef90_A0A0D2UMI5 Uncharacterized protein n=3 Tax=Gossypium Ta...   133   3e-29
+UniRef90_A0A0P7APW4 Polyubiquitin n=98 Tax=Eukaryota TaxID=2759 ...   133   3e-29
+UniRef90_U4LUL9 Similar to Ubiquitin-60S ribosomal protein L40 a...   133   3e-29
+UniRef90_A0A0B2QH08 Ubiquitin-60S ribosomal protein L40 n=2 Tax=...   133   3e-29
+UniRef90_B8BBE4 Uncharacterized protein n=1 Tax=Oryza sativa sub...   133   4e-29
+UniRef90_K0RS17 Uncharacterized protein n=1 Tax=Thalassiosira oc...   133   4e-29
+UniRef90_UPI00057BC8D0 ubiquitin-like protein ISG15 n=2 Tax=Came...   133   4e-29
+UniRef90_A7AVT9 Ubiquitin / ribosomal protein CEP52 n=5 Tax=Euka...   133   4e-29
+UniRef90_UPI00042CDC9C polyubiquitin-C-like n=1 Tax=Bubalus buba...   133   4e-29
+UniRef90_A0A068Y074 Polyubiquitin n=2 Tax=Echinococcus TaxID=620...   133   4e-29
+UniRef90_L1I7B2 Zink finger-like fusion protein n=1 Tax=Guillard...   133   4e-29
+UniRef90_A0A0B7F544 Polyubiquitin OS=Petroselinum crispum GN=PCU...   133   4e-29
+UniRef90_V2WUC0 Ubiquitin n=29 Tax=Agaricomycetes TaxID=155619 R...   133   4e-29
+UniRef90_A0A183BM42 Uncharacterized protein n=3 Tax=Globodera Ta...   133   4e-29
+UniRef90_L7IGX9 RING finger protein n=3 Tax=leotiomyceta TaxID=7...   133   4e-29
+UniRef90_G3TLH5 Uncharacterized protein n=2 Tax=Loxodonta africa...   133   4e-29
+UniRef90_M3WNM9 Uncharacterized protein n=5 Tax=Felidae TaxID=96...   133   4e-29
+UniRef90_Q8ITI9 Ubiquitin extension protein n=1 Tax=Heterodera g...   133   4e-29
+UniRef90_I3ER69 Ubiquitin/40S ribosomal protein S27a fusion prot...   133   4e-29
+UniRef90_Q7XBP8 Ubiquitin/actin fusion protein 2 n=6 Tax=Eukaryo...   133   4e-29
+UniRef90_UPI0003F08CAE ubiquitin-60S ribosomal protein L40-like ...   133   4e-29
+UniRef90_A0A0N7L3V9 Ubiquitin-60s ribosomal protein l40 n=1 Tax=...   133   4e-29
+UniRef90_A0A135U0E2 Forms a complex with the other RRN protein R...   133   4e-29
+UniRef90_A0A182L1V1 Uncharacterized protein n=4 Tax=Bilateria Ta...   133   4e-29
+UniRef90_M1VEP4 60S ribosomal protein L40, ubiquitin fusion prot...   133   4e-29
+UniRef90_UPI0009449555 ubiquitin-like protein ISG15 n=1 Tax=Rhin...   133   4e-29
+UniRef90_A0A1D6B0L5 Uncharacterized protein n=1 Tax=Triticum aes...   133   4e-29
+UniRef90_P68202 Ubiquitin-40S ribosomal protein S27a n=94 Tax=Pr...   133   4e-29
+UniRef90_A0A1Y1Y6K4 Ubiquitin-domain-containing protein n=1 Tax=...   133   4e-29
+UniRef90_V5N8D2 Polyubiquitin n=1 Tax=Phaseolus vulgaris TaxID=3...   133   4e-29
+UniRef90_A0A1R1PK95 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   133   4e-29
+UniRef90_A0A059EVH7 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   133   4e-29
+UniRef90_A0A0G4LD50 Uncharacterized protein (Fragment) n=5 Tax=D...   133   4e-29
+UniRef90_Q9WR84 Polyprotein (Fragment) n=2 Tax=Bovine viral diar...   133   4e-29
+UniRef90_Q201Y6 ACYPI000086 protein n=5 Tax=Macrosiphini TaxID=3...   133   5e-29
+UniRef90_P59271 Ubiquitin-40S ribosomal protein S27a-1 n=216 Tax...   133   5e-29
+UniRef90_B7G9A2 Predicted protein n=1 Tax=Phaeodactylum tricornu...   133   5e-29
+UniRef90_A0A165UC22 WD40 repeat-like protein n=10 Tax=Basidiomyc...   133   5e-29
+UniRef90_A0A0K6FM12 Polyubiquitin-C n=6 Tax=Agaricomycetes TaxID...   133   5e-29
+UniRef90_A0A0J0XYI9 Ubiquitin/40s ribosomal protein S27a fusion ...   133   5e-29
+UniRef90_Q10NT5 Os03g0259500 protein n=6 Tax=Oryza TaxID=4527 Re...   133   5e-29
+UniRef90_K3YC38 Uncharacterized protein n=4 Tax=Viridiplantae Ta...   133   5e-29
+UniRef90_H3AHU2 Uncharacterized protein n=2 Tax=Latimeria chalum...   133   5e-29
+UniRef90_L1ILH0 Ubiquitin n=1 Tax=Guillardia theta CCMP2712 TaxI...   133   5e-29
+UniRef90_L1INU9 Ubiquitin-superoxide dismutase fusion protein n=...   133   5e-29
+UniRef90_A0A0L0VT85 Uncharacterized protein n=12 Tax=cellular or...   133   5e-29
+UniRef90_A0A0N8DFC5 Polyubiquitin-C-like protein (Fragment) n=1 ...   133   5e-29
+UniRef90_UPI00062AA545 ubiquitin-40S ribosomal protein S27a-like...   133   5e-29
+UniRef90_UPI000873C398 polyubiquitin isoform X2 n=2 Tax=Anoploph...   133   5e-29
+UniRef90_A0A072V2A1 Ubiquitin-60S ribosomal L40 fusion protein n...   133   5e-29
+UniRef90_K3VDN9 Uncharacterized protein n=3 Tax=Fusarium sambuci...   133   6e-29
+UniRef90_A0A0P0X0E0 Os06g0673500 protein (Fragment) n=4 Tax=Oryz...   133   6e-29
+UniRef90_A0A022RNQ5 Uncharacterized protein n=1 Tax=Erythranthe ...   133   6e-29
+UniRef90_UPI0003EDDA9C ubiquitin-like protein ISG15 n=3 Tax=Cani...   133   6e-29
+UniRef90_I3ELS3 Ubiquitin n=5 Tax=Nematocida TaxID=586132 RepID=...   133   6e-29
+UniRef90_L8FSG6 Ubiquitin-40S ribosomal protein S27a n=2 Tax=sor...   133   6e-29
+UniRef90_A0A078A7X4 Uncharacterized protein n=3 Tax=Oxytrichidae...   133   6e-29
+UniRef90_U4LET3 Similar to Ubiquitin-60S ribosomal protein L40 a...   133   6e-29
+UniRef90_K0T5Y8 Uncharacterized protein n=1 Tax=Thalassiosira oc...   133   6e-29
+UniRef90_T1EG94 Uncharacterized protein n=1 Tax=Helobdella robus...   133   6e-29
+UniRef90_P05161 Ubiquitin-like protein ISG15 n=16 Tax=Catarrhini...   133   6e-29
+UniRef90_A0A218ZA62 Uncharacterized protein n=1 Tax=Marssonina c...   133   6e-29
+UniRef90_UPI000982975D Polyubiquitin n=1 Tax=Talaromyces atroros...   133   6e-29
+UniRef90_K1X017 Putative ubiquitin / ribosomal protein S27a n=1 ...   133   6e-29
+UniRef90_A0A0P4X6P1 Ubiquitin-60S ribosomal protein L40 (Fragmen...   133   6e-29
+UniRef90_E9QNP0 KxDL motif-containing protein 1 n=10 Tax=Eutheri...   133   6e-29
+UniRef90_A0A1B6FJ59 Uncharacterized protein n=1 Tax=Cuerna arida...   133   6e-29
+UniRef90_A0A167YD18 Ubiquitin subgroup n=1 Tax=Aschersonia aleyr...   133   6e-29
+UniRef90_A0A0V0W2E7 Polyubiquitin (Fragment) n=7 Tax=Trichinella...   133   6e-29
+UniRef90_K3ZXW7 Uncharacterized protein n=15 Tax=Poaceae TaxID=4...   132   7e-29
+UniRef90_A0A0C9WVX8 Unplaced genomic scaffold K443scaffold_178, ...   132   7e-29
+UniRef90_E5RYP4 Ubiquitin family protein n=1 Tax=Trichinella spi...   132   7e-29
+UniRef90_R0KPY3 Ubiquitin (Fragment) n=5 Tax=Opisthokonta TaxID=...   132   7e-29
+UniRef90_H0Z9N6 Ribosomal protein S27a n=4 Tax=Amniota TaxID=325...   132   7e-29
+UniRef90_A0A0R0M3C1 Ubiquitin/40S ribosomal protein S27a fusion ...   132   7e-29
+UniRef90_A0A1D6CD31 Uncharacterized protein n=1 Tax=Triticum aes...   132   7e-29
+UniRef90_A2YLE5 Uncharacterized protein n=6 Tax=Oryza TaxID=4527...   132   7e-29
+UniRef90_A0A1D6B0L6 Uncharacterized protein n=1 Tax=Triticum aes...   132   7e-29
+UniRef90_A0A0P4ZNE4 Putative Ubiquitin-40S ribosomal protein S27...   132   8e-29
+UniRef90_UPI0007045201 polyubiquitin-B n=1 Tax=Myotis brandtii T...   132   8e-29
+UniRef90_W5PBE1 Uncharacterized protein n=3 Tax=Caprinae TaxID=9...   132   8e-29
+UniRef90_A2XEA1 Uncharacterized protein n=2 Tax=Oryza sativa Tax...   132   8e-29
+UniRef90_U1M349 Uncharacterized protein n=1 Tax=Ascaris suum Tax...   132   8e-29
+UniRef90_E1ZCE0 Uncharacterized protein n=1 Tax=Chlorella variab...   132   8e-29
+UniRef90_UPI00098B3C72 polyubiquitin-like n=1 Tax=Microcebus mur...   132   8e-29
+UniRef90_A0A1D5XZY9 Uncharacterized protein n=4 Tax=Triticinae T...   132   8e-29
+UniRef90_A0A1Y2I2Y8 Ubiquitin-related domain-containing protein ...   132   8e-29
+UniRef90_A0A1D6C9W1 Uncharacterized protein n=1 Tax=Triticum aes...   132   8e-29
+UniRef90_A0A1D6DKG9 Uncharacterized protein n=2 Tax=commelinids ...   132   8e-29
+UniRef90_A0A1B7YC63 Zn-finger in ubiquitin-hydrolase n=1 Tax=Col...   132   8e-29
+UniRef90_I3N517 Uncharacterized protein n=9 Tax=Eukaryota TaxID=...   132   8e-29
+UniRef90_P49633 Ubiquitin-60S ribosomal protein L40 n=15 Tax=Euk...   132   9e-29
+UniRef90_A0A183N2T0 Uncharacterized protein n=1 Tax=Schistosoma ...   132   9e-29
+UniRef90_A0A0D2P6Z9 Uncharacterized protein (Fragment) n=2 Tax=r...   132   9e-29
+UniRef90_A0A0D2FVX8 Rhinocladiella mackenziei CBS 650.93 unplace...   132   9e-29
+UniRef90_K3YTX1 Uncharacterized protein n=1 Tax=Setaria italica ...   132   9e-29
+UniRef90_A0A0P5L5W7 Putative Polyubiquitin-C n=1 Tax=Daphnia mag...   132   9e-29
+UniRef90_A0A0V1EWR9 Polyubiquitin-C n=2 Tax=Trichinella pseudosp...   132   9e-29
+UniRef90_UPI00063F23E7 LOW QUALITY PROTEIN: ubiquitin-40S riboso...   132   9e-29
+UniRef90_U5H7T8 Ubiquitin-40S ribosomal protein S27a-1 n=2 Tax=M...   132   1e-28
+UniRef90_A0A0X8HWZ5 HHR238Cp n=1 Tax=Eremothecium sinecaudum Tax...   132   1e-28
+UniRef90_A0A0K3CTK7 BY PROTMAP: gi|675378034|gb|KFM70936.1| Ubiq...   132   1e-28
+UniRef90_A0A1D5RYM7 Uncharacterized protein n=5 Tax=Mesangiosper...   132   1e-28
+UniRef90_M4C2M7 Uncharacterized protein n=11 Tax=Peronosporales ...   132   1e-28
+UniRef90_A0A0N8EQ79 Polyubiquitin-C-like protein n=1 Tax=Daphnia...   132   1e-28
+UniRef90_A8QAU5 Uncharacterized protein n=1 Tax=Malassezia globo...   132   1e-28
+UniRef90_A0A1V6Q6L2 Uncharacterized protein n=2 Tax=Penicillium ...   132   1e-28
+UniRef90_A0A183C874 Uncharacterized protein n=1 Tax=Globodera pa...   132   1e-28
+UniRef90_A0A218UVB3 Polyubiquitin-B n=7 Tax=Amniota TaxID=32524 ...   132   1e-28
+UniRef90_A0A0V1NFH8 Polyubiquitin-B n=3 Tax=Trichinella TaxID=63...   132   1e-28
+UniRef90_A0A1X7V088 Uncharacterized protein n=1 Tax=Amphimedon q...   132   1e-28
+UniRef90_P46575 Ubiquitin-60S ribosomal protein L40 n=3 Tax=Euka...   132   1e-28
+UniRef90_F4RMW4 Uncharacterized protein n=5 Tax=Pucciniales TaxI...   132   1e-28
+UniRef90_A0A1D6A689 Uncharacterized protein n=1 Tax=Triticum aes...   132   1e-28
+UniRef90_A0A078CPQ6 BnaC06g21170D protein n=1 Tax=Brassica napus...   132   1e-28
+UniRef90_I1HF34 Uncharacterized protein n=2 Tax=Brachypodium dis...   131   1e-28
+UniRef90_P18101 Ubiquitin-60S ribosomal protein L40 n=45 Tax=Hol...   131   1e-28
+UniRef90_A0A1U7YVT0 ubiquitin isoform X2 n=5 Tax=Mesangiospermae...   131   1e-28
+UniRef90_A0A0J5SRH5 Ubiquitin-40S ribosomal protein S27a n=3 Tax...   131   1e-28
+UniRef90_K1X443 Ubiquitin n=3 Tax=Eukaryota TaxID=2759 RepID=K1X...   131   1e-28
+UniRef90_A0A0V1PLL5 Polyubiquitin-C n=1 Tax=Trichinella sp. T8 T...   131   1e-28
+UniRef90_U9TN62 Uncharacterized protein n=2 Tax=Rhizophagus irre...   131   1e-28
+UniRef90_G4V9Z0 Putative ubiquitin (Ribosomal protein L40) n=1 T...   131   1e-28
+UniRef90_A0A177UXA4 Uncharacterized protein n=4 Tax=Tilletia Tax...   131   1e-28
+UniRef90_M7XBX1 Small subunit ribosomal protein S27Ae n=3 Tax=Rh...   131   1e-28
+UniRef90_B8P0U2 Ubiquitin/40s ribosomal protein S27a fusion n=5 ...   131   1e-28
+UniRef90_UPI0005F41B2C ubiquitin-60S ribosomal protein L40 isofo...   131   1e-28
+UniRef90_UPI00062B7E2F ubiquitin-like protein ISG15 n=1 Tax=Orci...   131   1e-28
+UniRef90_D8Q1K1 Uncharacterized protein ubi::crp-6 n=32 Tax=Agar...   131   1e-28
+UniRef90_Q2I193 Ubiquitin and ribosomal protein S27a (Fragment) ...   131   1e-28
+UniRef90_UPI0004F077E6 polyubiquitin isoform X4 n=8 Tax=Archelos...   131   1e-28
+UniRef90_A0A194S564 Uncharacterized protein n=2 Tax=Basidiomycot...   131   1e-28
+UniRef90_W6UDU1 Ubiquitin n=1 Tax=Echinococcus granulosus TaxID=...   131   1e-28
+UniRef90_T0S0K6 40S ribosomal protein S30 n=5 Tax=Saprolegniacea...   131   1e-28
+UniRef90_Q9GKP4 Interferon stimulated gene 17 n=4 Tax=Bovidae Ta...   131   1e-28
+UniRef90_A0A1D6CD30 Uncharacterized protein n=1 Tax=Triticum aes...   131   1e-28
+UniRef90_UPI0005404982 ubiquitin-60S ribosomal protein L40 isofo...   131   1e-28
+UniRef90_I1SRW5 Ubiquitin and ribosomal protein S27a (Fragment) ...   131   1e-28
+UniRef90_A0A068XI13 Ribosomal protein L40 n=5 Tax=Cyclophyllidea...   131   1e-28
+UniRef90_UPI0004F0E1C5 2'-5'-oligoadenylate synthase 1-like n=1 ...   131   1e-28
+UniRef90_UPI000182B167 ubiquitin-60S ribosomal protein L40-2 iso...   131   1e-28
+UniRef90_J3KC68 Polyubiquitin n=9 Tax=Eurotiomycetidae TaxID=451...   131   1e-28
+UniRef90_A0A1V6ULL2 Uncharacterized protein n=1 Tax=Penicillium ...   131   1e-28
+UniRef90_A9CS03 SSU ribosomal protein S27AE-ubiquitin n=1 Tax=En...   131   1e-28
+UniRef90_A0A1D5XKQ6 Uncharacterized protein n=1 Tax=Triticum aes...   131   1e-28
+UniRef90_A0A1E7FVE2 Putative nickel-containing superoxide dismut...   131   1e-28
+UniRef90_A0A0P6A359 Ubiquitin-40S ribosomal protein S27a (Fragme...   131   1e-28
+UniRef90_A0A1U7LPP0 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   131   1e-28
+UniRef90_UPI00063CD147 ubiquitin-like protein ISG15 n=1 Tax=Tric...   131   2e-28
+UniRef90_L2GV95 Ubiquitin-40S ribosomal protein S27a n=2 Tax=Ple...   131   2e-28
+UniRef90_A0A0V0J9J3 Polyubiquitin (Fragment) n=3 Tax=Eukaryota T...   131   2e-28
+UniRef90_A0A1S3GXH4 ubiquitin-like protein ISG15 n=1 Tax=Dipodom...   131   2e-28
+UniRef90_B7G5H7 Ubiquitin extension protein 1/2 n=2 Tax=Navicula...   131   2e-28
+UniRef90_A0A0V0X8V6 Ubiquitin-60S ribosomal protein L40 (Fragmen...   131   2e-28
+UniRef90_O42388 Ubiquitin-60S ribosomal protein L40 n=13 Tax=Eut...   131   2e-28
+UniRef90_M7ZAV9 Ubiquitin-60S ribosomal protein L40 n=4 Tax=Pooi...   131   2e-28
+UniRef90_A0A196SLI0 Ribosomal protein S27A n=1 Tax=Blastocystis ...   131   2e-28
+UniRef90_C0H768 Ubiquitin n=92 Tax=Eukaryota TaxID=2759 RepID=C0...   131   2e-28
+UniRef90_S7W9X5 Ubiquitin/40s ribosomal protein S27a fusion n=1 ...   131   2e-28
+UniRef90_J9JIV0 Uncharacterized protein n=2 Tax=Acyrthosiphon pi...   131   2e-28
+UniRef90_UPI0004433823 ubiquitin-60S ribosomal protein L40 isofo...   131   2e-28
+UniRef90_P62987 Ubiquitin-60S ribosomal protein L40 n=46 Tax=Bil...   131   2e-28
+UniRef90_A0A0R3TT53 Uncharacterized protein n=2 Tax=Bilateria Ta...   131   2e-28
+UniRef90_A0A0K3C6J0 BY PROTMAP: gi|472583611|gb|EMS21244.1| smal...   131   2e-28
+UniRef90_UPI0003292E81 ubiquitin-like protein ISG15 n=1 Tax=Dasy...   131   2e-28
+UniRef90_UPI00046DAA9D ubiquitin n=1 Tax=Prunus mume TaxID=10210...   131   2e-28
+UniRef90_UPI00046238F9 ubiquitin-domain-containing protein n=1 T...   131   2e-28
+UniRef90_P59272 Ubiquitin-40S ribosomal protein S27a (Fragment) ...   131   2e-28
+UniRef90_A0BUT4 Uncharacterized protein n=2 Tax=Oligohymenophore...   131   2e-28
+UniRef90_A0A1A9Y2F7 Uncharacterized protein n=1 Tax=Glossina fus...   131   2e-28
+UniRef90_I1I505 Uncharacterized protein n=1 Tax=Brachypodium dis...   131   2e-28
+UniRef90_A0A0L9SQ79 Uncharacterized protein n=1 Tax=Ophiocordyce...   131   2e-28
+UniRef90_B5DGL2 Ubiquitin n=125 Tax=Metazoa TaxID=33208 RepID=B5...   131   2e-28
+UniRef90_L7LX35 Putative ubiquitin/40s ribosomal protein s27a fu...   131   2e-28
+UniRef90_A8I1N4 Ubiquitin n=1 Tax=Heterocapsa triquetra TaxID=66...   131   2e-28
+UniRef90_C5X7R5 Uncharacterized protein n=1 Tax=Sorghum bicolor ...   131   2e-28
+UniRef90_A0A1Q9DY17 Polyubiquitin n=1 Tax=Symbiodinium microadri...   131   2e-28
+UniRef90_Q4LAY9 Ubquitin/ribosomal protein S27Ae fusion protein ...   131   2e-28
+UniRef90_F0X6C0 Cgd7_2280 protein n=9 Tax=Eukaryota TaxID=2759 R...   131   2e-28
+UniRef90_E9DIZ1 Ubiquitin n=10 Tax=Onygenales TaxID=33183 RepID=...   131   2e-28
+UniRef90_A0A135LXE3 Ubiquitin supergroup n=1 Tax=Penicillium pat...   131   2e-28
+UniRef90_A0A1D6CD29 Uncharacterized protein n=1 Tax=Triticum aes...   131   2e-28
+UniRef90_A0A1R0H2W7 Ubiquitin-60S ribosomal protein L40 n=2 Tax=...   131   2e-28
+UniRef90_A0A0L0SFN2 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   131   2e-28
+UniRef90_UPI00062BE179 polyubiquitin n=1 Tax=Sarcophilus harrisi...   131   2e-28
+UniRef90_A0A0A1PDZ1 Polyubiquitin 5 n=4 Tax=Rhizopus microsporus...   131   2e-28
+UniRef90_Q0J0U4 Os09g0483200 protein n=2 Tax=Oryza sativa TaxID=...   131   2e-28
+UniRef90_A0A0G4PUW2 Ribosomal protein L40e n=3 Tax=Penicillium T...   131   2e-28
+UniRef90_A0A061SHH0 Small subunit ribosomal protein S27Ae n=1 Ta...   131   2e-28
+UniRef90_B5X614 Ubiquitin n=1 Tax=Salmo salar TaxID=8030 RepID=B...   131   2e-28
+UniRef90_A0A0K0FA93 Ubiquitin-60S ribosomal protein L40 (inferre...   131   2e-28
+UniRef90_A0A0D1Z115 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   130   3e-28
+UniRef90_A0A0P5WR83 Ubiquitin-40S ribosomal protein S27a (Fragme...   130   3e-28
+UniRef90_K3YDP8 Uncharacterized protein n=4 Tax=Eukaryota TaxID=...   130   3e-28
+UniRef90_L1JA52 High mobility group box fusion protein n=1 Tax=G...   130   3e-28
+UniRef90_K9GZB0 RNA polymerase I specific transcription initiati...   130   3e-28
+UniRef90_M7NNJ2 Ubiquitin-40S ribosomal protein S27a n=2 Tax=Pne...   130   3e-28
+UniRef90_A0A1B6QDB4 Uncharacterized protein n=1 Tax=Sorghum bico...   130   3e-28
+UniRef90_UPI00084A9DEF ubiquitin-like n=1 Tax=Hyalella azteca Ta...   130   3e-28
+UniRef90_A0A1Z5KAW9 Uncharacterized protein n=3 Tax=Fistulifera ...   130   3e-28
+UniRef90_A0A1F5LIG7 Uncharacterized protein n=1 Tax=Penicillium ...   130   3e-28
+UniRef90_A0A0D2U0D4 Uncharacterized protein n=1 Tax=Capsaspora o...   130   3e-28
+UniRef90_A0A1D1YJI7 Ubiquitin-40S ribosomal protein S27a (Fragme...   130   3e-28
+UniRef90_A0A058ZGP6 Ubiquitin-40S ribosomal protein S27a n=1 Tax...   130   3e-28
+UniRef90_A0A087U0P7 Ubiquitin-60S ribosomal protein L40 (Fragmen...   130   3e-28
+UniRef90_X6MMQ8 Polyubiquitin n=5 Tax=Foraminifera TaxID=29178 R...   130   3e-28
+UniRef90_A0A1D6CD83 Uncharacterized protein n=2 Tax=Triticum aes...   130   3e-28
+UniRef90_A0A1B0FP56 60S ribosomal protein L40 n=1 Tax=Glossina m...   130   3e-28
+UniRef90_B6AFQ6 60S ribosomal protein L40, putative n=3 Tax=Cryp...   130   3e-28
+UniRef90_L8GDL8 Ubiquitin domain containing protein n=1 Tax=Acan...   130   3e-28
+UniRef90_B9FQ86 Uncharacterized protein n=1 Tax=Oryza sativa sub...   130   3e-28
+UniRef90_A0A0V0Z8R1 Polyubiquitin n=2 Tax=Trichinella TaxID=6333...   130   3e-28
+UniRef90_A0A090CGD4 Putative fusion protein: ubiquitin-cytosolic...   130   3e-28
+UniRef90_A0A024GPK1 Uncharacterized protein n=3 Tax=Eukaryota Ta...   130   3e-28
+UniRef90_UPI0006435AA5 ubiquitin-like protein ISG15 n=1 Tax=Micr...   130   3e-28
+UniRef90_J4G0P3 Uncharacterized protein n=2 Tax=Polyporales TaxI...   130   3e-28
+UniRef90_A0A0K0JFG9 Bm4628 n=9 Tax=Chromadorea TaxID=119089 RepI...   130   3e-28
+UniRef90_M1JUP1 Ubiquitin 1 (Fragment) n=4 Tax=Mesangiospermae T...   130   3e-28
+UniRef90_A0A1D6B167 Uncharacterized protein n=6 Tax=root TaxID=1...   130   3e-28
+UniRef90_A0A1D6AIP3 Uncharacterized protein n=8 Tax=Eukaryota Ta...   130   3e-28
+UniRef90_F1LDA0 Polyubiquitin-A n=1 Tax=Ascaris suum TaxID=6253 ...   130   3e-28
+UniRef90_A0A0V1PL04 Polyubiquitin-C n=6 Tax=Trichinella sp. T8 T...   130   3e-28
+UniRef90_A0A061G1H4 Ubiquitin supergroup,Ribosomal protein L40e ...   130   3e-28
+UniRef90_K3YSM3 Uncharacterized protein n=4 Tax=Mesangiospermae ...   130   3e-28
+UniRef90_A0A0E9NL44 Uncharacterized protein n=1 Tax=Saitoella co...   130   3e-28
+UniRef90_M5W3W7 Uncharacterized protein n=8 Tax=Eukaryota TaxID=...   130   3e-28
+UniRef90_A0A1Q3EDZ6 Ubiquitin C n=1 Tax=Lentinula edodes TaxID=5...   130   3e-28
+UniRef90_F4PKL3 Ubiquitin/ribosomal protein L40 fusion protein n...   130   3e-28
+UniRef90_I1NAQ2 Uncharacterized protein n=3 Tax=rosids TaxID=712...   130   3e-28
+UniRef90_A0A058ZAV7 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   130   3e-28
+UniRef90_P0DJ25 Ubiquitin-60S ribosomal protein L40 n=3 Tax=Tetr...   130   4e-28
+UniRef90_UPI0000DBBBE1 Interferon-induced 17 kDa protein n=3 Tax...   130   4e-28
+UniRef90_A0A0V1GTK9 Polyubiquitin-B (Fragment) n=1 Tax=Trichinel...   130   4e-28
+UniRef90_A0A0B7FUX6 Polyubiquitin 10 OS=Arabidopsis thaliana GN=...   130   4e-28
+UniRef90_UPI000A1B8CB7 ubiquitin-like protein ISG15 n=1 Tax=Odoc...   130   4e-28
+UniRef90_E5RYR0 Ubiquitin family protein n=1 Tax=Trichinella spi...   130   4e-28
+UniRef90_K0SPB7 Uncharacterized protein n=1 Tax=Thalassiosira oc...   130   4e-28
+UniRef90_A0A1E3I090 Ubiquitin-60S ribosomal protein L40 n=1 Tax=...   130   4e-28
+UniRef90_A0A1I9G0A2 Bm13651 n=4 Tax=Eukaryota TaxID=2759 RepID=A...   130   4e-28
+UniRef90_D3BHB9 Ubiquitin n=19 Tax=Eukaryota TaxID=2759 RepID=D3...   130   4e-28
+UniRef90_A0A182MLQ4 Uncharacterized protein n=1 Tax=Anopheles cu...   130   4e-28
+UniRef90_A0A1D1UN41 Uncharacterized protein n=2 Tax=Hypsibiidae ...   130   4e-28
+UniRef90_A0A0P5B2X3 Putative Polyubiquitin-C n=1 Tax=Daphnia mag...   130   4e-28
+UniRef90_A0A098VV94 Putative ubiquitin/ribosomal protein S27a fu...   130   4e-28
+UniRef90_A0A1E3BSM0 Uncharacterized protein n=1 Tax=Aspergillus ...   130   4e-28
+UniRef90_R1DBE9 Uncharacterized protein n=2 Tax=Emiliania huxley...   130   4e-28
+UniRef90_T0MD49 Ribosomal protein s27a n=1 Tax=Nosema apis BRL 0...   130   4e-28
+UniRef90_A0A138ZXE7 Polyubiquitin 5 n=1 Tax=Gonapodya prolifera ...   130   4e-28
+UniRef90_D7L8C7 Uncharacterized protein n=2 Tax=Arabidopsis lyra...   130   4e-28
+UniRef90_A0A1E3PZ45 Uncharacterized protein n=1 Tax=Lipomyces st...   130   4e-28
+UniRef90_A0A0N5AGK7 Uncharacterized protein n=1 Tax=Syphacia mur...   130   4e-28
+UniRef90_A0A0P6I0S0 Putative Polyubiquitin-B n=1 Tax=Daphnia mag...   129   4e-28
+UniRef90_A0A0K3AMU0 Ubiquitin C n=3 Tax=Eukaryota TaxID=2759 Rep...   129   4e-28
+UniRef90_A0A0P4Z8W4 Putative Polyubiquitin-C n=1 Tax=Daphnia mag...   129   4e-28
+UniRef90_A0A093EZR5 2'-5'-oligoadenylate synthase-like 2 (Fragme...   129   4e-28
+UniRef90_S8AQJ7 Uncharacterized protein n=1 Tax=Dactylellina hap...   129   4e-28
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_J5TB49 Ubiquitin n=9 Tax=Dikarya TaxID=451864 RepID=J5T...   132   9e-29
+UniRef90_A0A139WMZ6 Ribosome biogenesis protein NSA2 homolog-lik...   131   2e-28
+UniRef90_S0EDU8 Related to polymerase I core factor (CF) subunit...   131   2e-28
+UniRef90_A0A182MP56 Uncharacterized protein n=17 Tax=Diptera Tax...   130   3e-28
+UniRef90_UPI000989E1EE ubiquitin-like n=1 Tax=Aegilops tauschii ...   130   3e-28
+UniRef90_G3JCT1 Ubiquitin fusion protein n=1 Tax=Cordyceps milit...   130   3e-28
+UniRef90_A0A0P7B3A4 Uncharacterized protein n=1 Tax=Neonectria d...   130   3e-28
+UniRef90_A0A084G0X0 Uncharacterized protein n=1 Tax=Scedosporium...   130   3e-28
+
+>UniRef90_A0A091S2W3 2'-5'-oligoadenylate synthase-like 2 (Fragment) n=2 Tax=Nestor
+           notabilis TaxID=176057 RepID=A0A091S2W3_NESNO
+          Length = 448
+
+ Score =  150 bits (381), Expect = 3e-34,   Method: Composition-based stats.
+ Identities = 29/74 (39%), Positives = 44/74 (59%)
+
+Query: 1   EPLSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFEGKPLEDQLPLGE 60
+           + + I V+++K R++TY V  T TV  LK+++   +G   D   LT+    LED+  L  
+Sbjct: 368 QAMEIFVKDDKNRTTTYTVLPTDTVRQLKEKICSHQGPPADQQRLTYGSWELEDRHTLAH 427
+
+Query: 61  YGLKPLSTVFMNLR 74
+           Y ++P STVFM LR
+Sbjct: 428 YNIQPRSTVFMLLR 441
+
+
+
+ Score = 46.8 bits (111), Expect = 0.005,   Method: Composition-based stats.
+ Identities = 18/76 (23%), Positives = 33/76 (43%), Gaps = 5/76 (6%)
+
+Query: 2   PLSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFE--GKP---LEDQL 56
+           P+ I VR+  G S +  +    T+  LK+ +    G+      L  +  G+    L+D  
+Sbjct: 288 PVKIEVRHLLGTSLSRTISSDTTIRQLKEAIEQEWGIPWYQQRLAQQELGRSPVVLQDGE 347
+
+Query: 57  PLGEYGLKPLSTVFMN 72
+            L  YG+   +T+ + 
+Sbjct: 348 TLASYGIFYSTTLLLL 363
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.312    0.200    0.672 
+
+Lambda     K      H
+   0.267   0.0616    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 20,503,223,785
+Number of Sequences: 61934301
+Number of extensions: 1212472343
+Number of successful extensions: 2881719
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 33756
+Number of HSP's successfully gapped in prelim test: 7858
+Number of HSP's that attempted gapping in prelim test: 2823771
+Number of HSP's gapped (non-prelim): 55990
+length of query: 74
+length of database: 21,023,703,129
+effective HSP length: 45
+effective length of query: 29
+effective length of database: 22,531,626,880
+effective search space: 653417179520
+effective search space used: 653417179520
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.8 bits)
+S2: 83 (36.0 bits)
