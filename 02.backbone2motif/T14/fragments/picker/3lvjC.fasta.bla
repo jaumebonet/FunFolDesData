@@ -1,0 +1,2299 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 3lvjC
+         (71 letters)
+
+Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/nr 
+           61,934,301 sequences; 21,023,703,129 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_G8LJ55 Sulfur carrier protein TusA n=21 Tax=Proteobacte...   137   3e-30
+UniRef90_D2ZIY0 Sulfur carrier protein TusA n=2 Tax=Enterobacter...   137   3e-30
+UniRef90_A0A0F6RGP8 Sulfur carrier protein TusA n=14 Tax=Enterob...   133   5e-29
+UniRef90_A0A0G3QFX2 Sulfur carrier protein TusA n=6 Tax=Enteroba...   132   7e-29
+UniRef90_A0A0L0AVC7 Sulfur carrier protein TusA n=1 Tax=Klebsiel...   131   2e-28
+UniRef90_Q57IP9 Sulfur carrier protein TusA n=78 Tax=Salmonella ...   131   2e-28
+UniRef90_UPI0004750422 sulfurtransferase TusA n=1 Tax=Enterobact...   130   4e-28
+UniRef90_A8AR31 Sulfur carrier protein TusA n=307 Tax=root TaxID...   129   6e-28
+UniRef90_A0A085A2K1 Sulfur carrier protein TusA n=26 Tax=Enterob...   129   6e-28
+UniRef90_A0A1X2QTK2 Sulfur carrier protein TusA n=14 Tax=Salmone...   128   1e-27
+UniRef90_A7MHB0 Sulfur carrier protein TusA n=22 Tax=Enterobacte...   128   1e-27
+UniRef90_A0A1B7HK18 Sulfur carrier protein TusA n=7 Tax=Buttiaux...   128   2e-27
+UniRef90_D2TKT0 Sulfur carrier protein TusA n=16 Tax=Enterobacte...   128   2e-27
+UniRef90_A4WFQ2 Sulfur carrier protein TusA n=16 Tax=Enterobacte...   126   5e-27
+UniRef90_A0A0D5X098 Sulfur carrier protein TusA n=2 Tax=Enteroba...   126   5e-27
+UniRef90_UPI00037F45DE sulfurtransferase TusA n=1 Tax=Pantoea sp...   125   1e-26
+UniRef90_L0LXI4 Sulfur carrier protein TusA n=6 Tax=Enterobacter...   125   1e-26
+UniRef90_A0A089PIP6 Sulfur carrier protein TusA n=2 Tax=Pluralib...   125   2e-26
+UniRef90_A0A090VW36 Sulfur carrier protein TusA n=2 Tax=Enteroba...   124   2e-26
+UniRef90_A0A0U5GGZ0 Sulfur carrier protein TusA n=2 Tax=Erwinia ...   124   2e-26
+UniRef90_R9VRW3 Sulfur carrier protein TusA n=12 Tax=Enterobacte...   124   2e-26
+UniRef90_A0A1X1F8J8 Sulfur carrier protein TusA n=2 Tax=Pantoea ...   124   2e-26
+UniRef90_I2B458 Sulfur carrier protein TusA n=1 Tax=Shimwellia b...   124   3e-26
+UniRef90_A0A1U7E856 Sulfur carrier protein TusA n=1 Tax=Kosakoni...   124   3e-26
+UniRef90_B5XTL8 Sulfur carrier protein TusA n=63 Tax=Gammaproteo...   123   6e-26
+UniRef90_UPI0004E1FDAE sulfurtransferase TusA n=1 Tax=Siccibacte...   122   7e-26
+UniRef90_UPI0009490FDB sulfurtransferase TusA n=1 Tax=Pantoea sp...   122   7e-26
+UniRef90_E1SHG0 Sulfur carrier protein TusA n=10 Tax=Pantoea Tax...   121   1e-25
+UniRef90_A0A1X1DF90 Sulfur carrier protein TusA n=15 Tax=Enterob...   121   1e-25
+UniRef90_A8G875 Sulfur carrier protein TusA n=36 Tax=cellular or...   121   2e-25
+UniRef90_D4GD73 Sulfur carrier protein TusA n=13 Tax=Pantoea Tax...   120   2e-25
+UniRef90_A0A1X1EPQ5 Sulfur carrier protein TusA n=1 Tax=Pantoea ...   120   2e-25
+UniRef90_A0A126VE32 Sulfur carrier protein TusA n=4 Tax=Serratia...   120   2e-25
+UniRef90_A0A1S8YJZ6 Sulfur carrier protein TusA n=2 Tax=Izhakiel...   120   3e-25
+UniRef90_A0A085JP92 Sulfur carrier protein TusA n=1 Tax=Tatumell...   120   3e-25
+UniRef90_A0A1X0WFM2 Sulfur carrier protein TusA n=1 Tax=Rouxiell...   120   3e-25
+UniRef90_H5V3J9 Sulfur carrier protein TusA n=2 Tax=Enterobacter...   120   4e-25
+UniRef90_A0A1X1CKD0 Sulfur carrier protein TusA n=5 Tax=Gammapro...   120   4e-25
+UniRef90_A0A1S2TR22 Sulfur carrier protein TusA n=2 Tax=Shewanel...   120   4e-25
+UniRef90_UPI00054FAD13 sulfurtransferase TusA n=1 Tax=Erwinia Ta...   120   5e-25
+UniRef90_E1SUL9 Sulfur carrier protein TusA n=1 Tax=Ferrimonas b...   120   5e-25
+UniRef90_A0A1E5IU67 Sulfur carrier protein TusA n=1 Tax=Shewanel...   119   5e-25
+UniRef90_UPI000933BBC3 sulfurtransferase TusA n=1 Tax=Nissabacte...   119   5e-25
+UniRef90_A0A1X1ECD7 Sulfur carrier protein TusA n=6 Tax=Erwiniac...   119   5e-25
+UniRef90_A0A0L7T6L7 Sulfur carrier protein TusA n=2 Tax=Erwinia ...   119   9e-25
+UniRef90_A0A084A1M8 Sulfur carrier protein TusA n=1 Tax=Serratia...   119   1e-24
+UniRef90_UPI00073D6FA2 sulfurtransferase TusA n=1 Tax=Erwinia te...   118   1e-24
+UniRef90_A0A095UYV9 Sulfur carrier protein TusA n=2 Tax=Tatumell...   118   1e-24
+UniRef90_A0A0H2QB81 Sulfur carrier protein TusA n=2 Tax=Moellere...   118   1e-24
+UniRef90_UPI0005D3C6F1 sulfurtransferase TusA n=1 Tax=Rouxiella ...   118   1e-24
+UniRef90_A0A0U3I6R7 Sulfur carrier protein TusA n=5 Tax=Pseudoal...   118   2e-24
+UniRef90_UPI0004B359C4 sulfurtransferase TusA n=1 Tax=Enterobact...   117   2e-24
+UniRef90_A0A1M5ZIB4 Sulfur carrier protein TusA n=1 Tax=Ferrimon...   117   2e-24
+UniRef90_A0A1X3R772 Sulfur carrier protein TusA n=3 Tax=Lonsdale...   117   3e-24
+UniRef90_D8MY83 Sulfur carrier protein TusA n=1 Tax=Erwinia bill...   117   3e-24
+UniRef90_A0A0M2KGN0 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   117   3e-24
+UniRef90_A7FDA1 Sulfur carrier protein TusA n=14 Tax=Yersinia Ta...   117   3e-24
+UniRef90_I0QMU5 Sulfur carrier protein TusA n=1 Tax=Serratia sp....   117   3e-24
+UniRef90_A0A085HCN6 Sulfur carrier protein TusA n=1 Tax=Leminore...   117   4e-24
+UniRef90_UPI000405BBDF sulfurtransferase TusA n=1 Tax=Budvicia a...   117   4e-24
+UniRef90_A0A1J0ECQ2 Sulfur carrier protein TusA n=2 Tax=Providen...   117   4e-24
+UniRef90_A0A0J8YEY7 Sulfur transfer protein SirA n=2 Tax=Bacteri...   117   4e-24
+UniRef90_A0A1E5CF86 Sulfur carrier protein TusA n=3 Tax=Enterovi...   117   4e-24
+UniRef90_UPI0007E409EB sulfurtransferase TusA n=1 Tax=Yersinia e...   116   4e-24
+UniRef90_A0A085U6I1 Sulfur carrier protein TusA n=3 Tax=Yersinia...   116   5e-24
+UniRef90_A0A1E5C1L4 Sulfur carrier protein TusA n=2 Tax=Enterovi...   116   5e-24
+UniRef90_A0A0K0HTV2 Sulfur carrier protein TusA n=9 Tax=Enteroba...   116   5e-24
+UniRef90_A0A085I076 Sulfur carrier protein TusA n=2 Tax=Enteroba...   116   5e-24
+UniRef90_A0A0G3CLR0 Sulfur carrier protein TusA n=1 Tax=Pragia f...   116   5e-24
+UniRef90_A0A034TXG1 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   116   6e-24
+UniRef90_A0A1B8HNY8 Sulfur carrier protein TusA n=2 Tax=Morganel...   116   6e-24
+UniRef90_Q6CZ00 Sulfur carrier protein TusA n=25 Tax=Enterobacte...   116   6e-24
+UniRef90_Q65W80 Sulfur carrier protein TusA n=1 Tax=Mannheimia s...   116   6e-24
+UniRef90_B1KCY7 Sulfur carrier protein TusA n=2 Tax=Shewanella T...   116   6e-24
+UniRef90_UPI00063C9406 sulfurtransferase TusA n=1 Tax=Vibrio mex...   116   6e-24
+UniRef90_A0A0E2Q4B5 Sulfur carrier protein TusA n=8 Tax=Providen...   116   7e-24
+UniRef90_A0A1T4VFJ5 Sulfur carrier protein TusA n=2 Tax=Enterovi...   116   7e-24
+UniRef90_A0A014Q0Y9 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   115   7e-24
+UniRef90_UPI0004A2F986 sulfurtransferase TusA n=1 Tax=Tatumella ...   115   7e-24
+UniRef90_A0A1Q6CMB1 Sulfur carrier protein TusA n=1 Tax=Thalasso...   115   7e-24
+UniRef90_C5B9A2 Sulfur carrier protein TusA n=8 Tax=Edwardsiella...   115   8e-24
+UniRef90_A3Q8U0 Sulfur carrier protein TusA n=8 Tax=Shewanellace...   115   8e-24
+UniRef90_A0A0U2ZB68 Sulfur carrier protein TusA n=1 Tax=Lacimicr...   115   8e-24
+UniRef90_A0A1H4EP93 Sulfur carrier protein TusA n=1 Tax=Lonsdale...   115   8e-24
+UniRef90_A1JIB4 Sulfur carrier protein TusA n=43 Tax=Yersiniacea...   115   8e-24
+UniRef90_UPI000422138B sulfurtransferase TusA n=1 Tax=Ferrimonas...   115   8e-24
+UniRef90_C6C5J8 Sulfur carrier protein TusA n=1 Tax=Dickeya para...   115   9e-24
+UniRef90_B2VJN9 Sulfur carrier protein TusA n=6 Tax=Erwinia TaxI...   115   9e-24
+UniRef90_D4ZD96 Sulfur carrier protein TusA n=7 Tax=Shewanella T...   115   1e-23
+UniRef90_UPI000509D2EE sulfurtransferase TusA n=1 Tax=Necropsoba...   115   1e-23
+UniRef90_B4EWZ6 Sulfur carrier protein TusA n=14 Tax=Enterobacte...   115   1e-23
+UniRef90_A0A0J8XVI5 Sulfur carrier protein TusA n=2 Tax=Photobac...   115   1e-23
+UniRef90_UPI00046F435B sulfurtransferase TusA n=1 Tax=Shewanella...   115   1e-23
+UniRef90_Q8EKS1 Sulfur carrier protein TusA n=21 Tax=Shewanellac...   115   1e-23
+UniRef90_A0A1A9B0L5 Sulfur carrier protein TusA n=3 Tax=Plesiomo...   114   2e-23
+UniRef90_A0A085G3E8 Sulfur carrier protein TusA n=1 Tax=Ewingell...   114   2e-23
+UniRef90_J7SKK4 Sulfur carrier protein TusA n=10 Tax=Bacteria Ta...   114   2e-23
+UniRef90_UPI0003FF10E6 sulfurtransferase TusA n=1 Tax=Ferrimonas...   114   2e-23
+UniRef90_E6RH42 Sulfur carrier protein TusA n=12 Tax=Pseudoalter...   114   2e-23
+UniRef90_Q5E8Y2 Sulfur carrier protein TusA n=4 Tax=Aliivibrio T...   114   2e-23
+UniRef90_A0A0T5PH52 Sulfur carrier protein TusA n=3 Tax=Alishewa...   114   2e-23
+UniRef90_A0A1B7UFZ4 Sulfur carrier protein TusA n=1 Tax=Rheinhei...   114   2e-23
+UniRef90_H2IWM0 Sulfur carrier protein TusA n=5 Tax=Yersiniaceae...   114   2e-23
+UniRef90_A0A140NN87 Sulfur carrier protein TusA n=4 Tax=Providen...   114   2e-23
+UniRef90_UPI00088A927F sulfurtransferase TusA n=1 Tax=Idiomarina...   114   3e-23
+UniRef90_A0A1D8MU18 Sulfur carrier protein TusA n=1 Tax=Edwardsi...   114   3e-23
+UniRef90_UPI000595FD2C sulfurtransferase TusA n=2 Tax=Pasteurell...   114   3e-23
+UniRef90_Q2NWX1 Sulfur carrier protein TusA n=6 Tax=Sodalis TaxI...   114   3e-23
+UniRef90_A0A1S1HQB3 Sulfur carrier protein TusA n=1 Tax=Providen...   114   3e-23
+UniRef90_A0A0F6A847 Sulfur carrier protein TusA n=6 Tax=Pseudoal...   114   3e-23
+UniRef90_A0A094J897 Sulfur carrier protein TusA n=1 Tax=Shewanel...   114   3e-23
+UniRef90_A0A167DZE9 Sulfur carrier protein TusA n=7 Tax=Pseudoal...   114   3e-23
+UniRef90_E0SFH4 Sulfur carrier protein TusA n=13 Tax=root TaxID=...   113   4e-23
+UniRef90_A1S1I5 Sulfur carrier protein TusA n=2 Tax=Shewanella a...   113   4e-23
+UniRef90_H3ZEP2 Sulfur carrier protein TusA n=2 Tax=Alishewanell...   113   4e-23
+UniRef90_Q12TB6 Sulfur carrier protein TusA n=1 Tax=Shewanella d...   113   4e-23
+UniRef90_UPI00083995FB sulfurtransferase TusA n=1 Tax=Thalassota...   113   5e-23
+UniRef90_A0A0A7ECG6 Sulfur carrier protein TusA n=3 Tax=Pseudoal...   113   5e-23
+UniRef90_A0A0N1ED14 Sulfur carrier protein TusA n=4 Tax=Pseudoal...   113   5e-23
+UniRef90_UPI000B87BD88 sulfurtransferase TusA n=2 Tax=Ferrimonas...   113   6e-23
+UniRef90_A0A0Q0P2Q4 Sulfur carrier protein TusA n=1 Tax=Shewanel...   112   6e-23
+UniRef90_UPI0009321598 sulfurtransferase TusA n=1 Tax=Candidatus...   112   7e-23
+UniRef90_Q3IJ25 Sulfur carrier protein TusA n=24 Tax=root TaxID=...   112   7e-23
+UniRef90_A0A0F6TS57 Sulfur carrier protein TusA n=2 Tax=Kangiell...   112   7e-23
+UniRef90_A0A068QWG2 Sulfur carrier protein TusA n=12 Tax=Xenorha...   112   8e-23
+UniRef90_UPI000836BE9E sulfurtransferase TusA n=1 Tax=Erwinia sp...   112   9e-23
+UniRef90_A0A1T4SBA6 Sulfur carrier protein TusA n=1 Tax=Vibrio c...   112   9e-23
+UniRef90_A0A167GB54 Sulfur carrier protein TusA n=1 Tax=Pseudoal...   112   9e-23
+UniRef90_A0A0H2LNW1 Sulfur carrier protein TusA n=1 Tax=Providen...   112   9e-23
+UniRef90_A0A167J8R5 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   112   1e-22
+UniRef90_A0A0Q4MN51 Sulfur carrier protein TusA n=2 Tax=Yersinia...   112   1e-22
+UniRef90_Q6LW10 Sulfur carrier protein TusA n=3 Tax=Photobacteri...   112   1e-22
+UniRef90_A0A090IHX6 Sulfur carrier protein TusA n=5 Tax=Moritell...   112   1e-22
+UniRef90_A0A1E7Q270 Sulfur carrier protein TusA n=1 Tax=Rheinhei...   112   1e-22
+UniRef90_A0A0W7TWS9 Sulfur carrier protein TusA n=2 Tax=Aeromona...   112   1e-22
+UniRef90_UPI00056EA952 sulfurtransferase TusA n=1 Tax=Vibrio pac...   112   1e-22
+UniRef90_A0A0U4W8F1 Sulfur carrier protein TusA n=2 Tax=Rheinhei...   112   1e-22
+UniRef90_UPI00041C7F5C sulfurtransferase TusA n=1 Tax=Photobacte...   112   1e-22
+UniRef90_A0A0Q4NJK2 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   112   1e-22
+UniRef90_A0A0S2JWQ7 Sulfur carrier protein TusA n=3 Tax=Pseudoal...   111   1e-22
+UniRef90_A0A0B9GJ53 Sulfur carrier protein TusA n=1 Tax=Photobac...   111   2e-22
+UniRef90_UPI0003671A11 sulfurtransferase TusA n=1 Tax=Oceanimona...   111   2e-22
+UniRef90_D3UZB0 Sulfur carrier protein TusA n=11 Tax=Xenorhabdus...   111   2e-22
+UniRef90_A0A0F4PWD4 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   111   2e-22
+UniRef90_A0A1T4UWV6 Sulfur carrier protein TusA n=3 Tax=Photobac...   111   2e-22
+UniRef90_A0A0M2VEM4 Sulfur carrier protein TusA n=1 Tax=Arsukiba...   111   2e-22
+UniRef90_UPI0006D0AD69 sulfurtransferase TusA n=1 Tax=Photobacte...   111   2e-22
+UniRef90_D3VJH1 Sulfur carrier protein TusA n=4 Tax=Xenorhabdus ...   111   2e-22
+UniRef90_UPI0008982992 sulfurtransferase n=1 Tax=Alkalimonas amy...   111   2e-22
+UniRef90_C4L772 Sulfur carrier protein TusA n=2 Tax=Tolumonas Ta...   111   2e-22
+UniRef90_A0KEK5 Sulfur carrier protein TusA n=57 Tax=Aeromonadac...   111   2e-22
+UniRef90_A0A0A0SW95 Sulfur carrier protein TusA n=5 Tax=Vibrio T...   111   2e-22
+UniRef90_A0A1A6L0Q1 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   110   2e-22
+UniRef90_R9PGQ1 Sulfur carrier protein TusA n=1 Tax=Agarivorans ...   110   3e-22
+UniRef90_A0A1E5CYH0 Sulfur carrier protein TusA n=1 Tax=Vibrio g...   110   3e-22
+UniRef90_A0A090R0I9 Sulfur carrier protein TusA n=1 Tax=Photobac...   110   3e-22
+UniRef90_Q87TP4 Sulfur carrier protein TusA n=52 Tax=Vibrio TaxI...   110   3e-22
+UniRef90_B7VGL0 Sulfur carrier protein TusA n=32 Tax=Vibrio TaxI...   110   3e-22
+UniRef90_Q08A41 Sulfur carrier protein TusA n=2 Tax=Shewanella f...   110   3e-22
+UniRef90_A0A135IDC8 Sulfur carrier protein TusA n=7 Tax=Vibriona...   110   3e-22
+UniRef90_A0A1E5BFW6 Sulfur carrier protein TusA n=2 Tax=Vibrio g...   110   3e-22
+UniRef90_K8WUS3 Sulfur carrier protein TusA n=1 Tax=Providencia ...   110   3e-22
+UniRef90_B8F8H4 Sulfur carrier protein TusA n=8 Tax=Haemophilus ...   110   3e-22
+UniRef90_A0A1R4B7G4 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   110   3e-22
+UniRef90_UPI000A366B67 sulfurtransferase TusA n=1 Tax=Pseudoalte...   110   3e-22
+UniRef90_UPI0006EC1297 sulfurtransferase TusA n=1 Tax=Agarivoran...   110   4e-22
+UniRef90_A0A1Y0D4G6 Sulfur carrier protein TusA n=1 Tax=Oceanisp...   110   4e-22
+UniRef90_I1DZV5 Sulfur carrier protein TusA n=4 Tax=Rheinheimera...   110   4e-22
+UniRef90_A0A0J1GZH7 Sulfur carrier protein TusA n=3 Tax=Photobac...   110   4e-22
+UniRef90_UPI0005A8E371 sulfurtransferase TusA n=1 Tax=Aeromonas ...   110   4e-22
+UniRef90_UPI0004046188 sulfurtransferase TusA n=3 Tax=Vibrio Tax...   110   4e-22
+UniRef90_A0A1E7ZDK9 Sulfur carrier protein TusA n=1 Tax=Alteromo...   110   4e-22
+UniRef90_A0A0Q0GAW4 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   110   5e-22
+UniRef90_A0A0J5P5J6 Sulfur carrier protein TusA n=1 Tax=Muribact...   110   5e-22
+UniRef90_UPI0005AAB690 sulfurtransferase TusA n=1 Tax=Pseudoalte...   110   5e-22
+UniRef90_A0A0D8PBE5 Sulfur carrier protein TusA n=11 Tax=Photoba...   110   5e-22
+UniRef90_U3U765 Sulfur carrier protein TusA n=2 Tax=Candidatus P...   110   5e-22
+UniRef90_F9QBQ3 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   109   6e-22
+UniRef90_A0A0M2V9Y7 Sulfur carrier protein TusA n=2 Tax=Chromati...   109   6e-22
+UniRef90_Q7MZZ5 Sulfur carrier protein TusA n=14 Tax=Photorhabdu...   109   6e-22
+UniRef90_C7R9S2 Sulfur carrier protein TusA n=2 Tax=Kangiella Ta...   109   6e-22
+UniRef90_E3BH53 Sulfur carrier protein TusA n=1 Tax=Vibrio carib...   109   7e-22
+UniRef90_UPI000412F5E8 sulfurtransferase TusA n=1 Tax=Pseudoalte...   109   7e-22
+UniRef90_UPI0008898AFC sulfurtransferase n=1 Tax=Vibrio xiamenen...   109   7e-22
+UniRef90_A0A067BAR7 Sulfur carrier protein TusA n=1 Tax=Vibrio m...   109   7e-22
+UniRef90_U3CC40 Sulfur carrier protein TusA n=3 Tax=Vibrio harve...   109   7e-22
+UniRef90_A0A1C3DV86 Sulfur carrier protein TusA n=4 Tax=Photobac...   109   7e-22
+UniRef90_UPI0008DA775C sulfurtransferase TusA n=1 Tax=Vibrio son...   109   7e-22
+UniRef90_Q15MV9 Sulfur carrier protein TusA n=2 Tax=Alteromonada...   109   8e-22
+UniRef90_U1KL72 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   109   8e-22
+UniRef90_A0A0A3B292 Sulfur carrier protein TusA n=9 Tax=Gallibac...   109   8e-22
+UniRef90_UPI0009714478 sulfurtransferase TusA n=1 Tax=Shewanella...   109   8e-22
+UniRef90_B9CWJ9 Sulfur carrier protein TusA n=2 Tax=Actinobacill...   109   8e-22
+UniRef90_A4CDI0 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   109   8e-22
+UniRef90_A0A1E5E344 Sulfur carrier protein TusA n=1 Tax=Vibrio r...   109   8e-22
+UniRef90_A0A1T0AV58 Sulfur carrier protein TusA n=1 Tax=Haemophi...   109   8e-22
+UniRef90_A0A0M9FCN8 Sulfur carrier protein TusA n=7 Tax=Photobac...   109   8e-22
+UniRef90_UPI0006ACA612 sulfurtransferase TusA n=1 Tax=Yersinia p...   109   8e-22
+UniRef90_A0A0D8CW87 Sulfur carrier protein TusA n=2 Tax=Thalasso...   108   9e-22
+UniRef90_A0A1N6MQI2 Sulfur carrier protein TusA n=2 Tax=Xenorhab...   108   1e-21
+UniRef90_A0A099L765 Sulfur carrier protein TusA n=2 Tax=Thalasso...   108   1e-21
+UniRef90_K2IYQ2 Sulfur carrier protein TusA n=2 Tax=Gallaecimona...   108   1e-21
+UniRef90_UPI0003656A69 sulfurtransferase TusA n=1 Tax=Psychromon...   108   1e-21
+UniRef90_UPI0007F952C0 sulfurtransferase TusA n=1 Tax=Photobacte...   108   1e-21
+UniRef90_A0A0F5V9E5 Sulfur carrier protein TusA n=2 Tax=Photobac...   108   1e-21
+UniRef90_A0A1C3EFM4 Sulfur carrier protein TusA n=1 Tax=Enterovi...   108   1e-21
+UniRef90_UPI0008E8C9B5 sulfurtransferase n=1 Tax=Xenorhabdus kop...   108   1e-21
+UniRef90_A0A090IIZ1 Sulfur carrier protein TusA n=1 Tax=Aliivibr...   108   1e-21
+UniRef90_H5TAL0 Sulfur carrier protein TusA n=3 Tax=Glaciecola T...   108   2e-21
+UniRef90_A6VLN8 Sulfur carrier protein TusA n=1 Tax=Actinobacill...   108   2e-21
+UniRef90_A0A1A7NUU1 Sulfur carrier protein TusA n=4 Tax=Gallibac...   108   2e-21
+UniRef90_A0A1R4IPG5 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   108   2e-21
+UniRef90_Q5QXH9 Sulfur carrier protein TusA n=7 Tax=Idiomarina T...   107   2e-21
+UniRef90_A0A1N6YLS1 Sulfur carrier protein TusA n=1 Tax=Aeromona...   107   2e-21
+UniRef90_I3DEU3 Sulfur carrier protein TusA n=1 Tax=Pasteurella ...   107   2e-21
+UniRef90_A0A1Y0D0I2 Sulfur carrier protein TusA n=1 Tax=Oceanisp...   107   2e-21
+UniRef90_UPI000B8BC474 sulfurtransferase TusA n=1 Tax=Zobellella...   107   2e-21
+UniRef90_UPI00037BDD24 sulfurtransferase TusA n=1 Tax=Gayadomona...   107   3e-21
+UniRef90_M9X3Z3 Sulfur carrier protein TusA n=6 Tax=Mannheimia h...   107   3e-21
+UniRef90_UPI0008BC744F sulfurtransferase n=1 Tax=Pasteurella sky...   107   3e-21
+UniRef90_U3B6M8 Sulfur carrier protein TusA n=5 Tax=Vibrio TaxID...   107   3e-21
+UniRef90_A3MYG4 Sulfur carrier protein TusA n=17 Tax=Actinobacil...   107   3e-21
+UniRef90_UPI0005AA4C04 sulfurtransferase TusA n=1 Tax=Vibrio dia...   107   3e-21
+UniRef90_A0A0C3DME2 Sulfur carrier protein TusA n=3 Tax=Vibrio h...   107   3e-21
+UniRef90_L8D504 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   107   3e-21
+UniRef90_A0A1E8FAK8 Sulfur carrier protein TusA n=1 Tax=Alteromo...   107   3e-21
+UniRef90_UPI0003FC8022 sulfurtransferase TusA n=1 Tax=Psychromon...   107   3e-21
+UniRef90_A0A0F4NVF7 Sulfur carrier protein TusA n=5 Tax=Pseudoal...   107   3e-21
+UniRef90_C9QD56 Sulfur carrier protein TusA n=1 Tax=Vibrio orien...   107   4e-21
+UniRef90_UPI000B80CC50 sulfurtransferase TusA n=1 Tax=Pseudoalte...   107   4e-21
+UniRef90_A0A1D8RVU8 Sulfur carrier protein TusA n=1 Tax=Colwelli...   107   4e-21
+UniRef90_UPI00082DD4D7 sulfurtransferase TusA n=1 Tax=Alteromona...   107   4e-21
+UniRef90_UPI0003FCF9FE sulfurtransferase TusA n=1 Tax=Psychromon...   106   4e-21
+UniRef90_UPI0008382330 sulfurtransferase TusA n=1 Tax=Vibrio tri...   106   4e-21
+UniRef90_A0A0F2IS42 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   106   4e-21
+UniRef90_A0A1V3H6H3 Sulfur carrier protein TusA n=4 Tax=Salinivi...   106   5e-21
+UniRef90_B6EGT6 Sulfur carrier protein TusA n=3 Tax=Aliivibrio T...   106   5e-21
+UniRef90_A0A1V3TV68 Sulfur carrier protein TusA n=1 Tax=Pasteure...   106   5e-21
+UniRef90_A0A075P6Q4 Sulfur carrier protein TusA n=1 Tax=Alteromo...   106   5e-21
+UniRef90_K6ZJ16 Sulfur carrier protein TusA n=1 Tax=Glaciecola p...   106   5e-21
+UniRef90_UPI000B34CCCF sulfurtransferase TusA n=1 Tax=Vibrio sp....   106   5e-21
+UniRef90_F9T2D8 Sulfur carrier protein TusA n=17 Tax=Vibrionales...   106   5e-21
+UniRef90_A0A0F5EZN0 Sulfur carrier protein TusA n=1 Tax=Avibacte...   106   5e-21
+UniRef90_UPI0008AF5881 sulfurtransferase TusA n=1 Tax=Colwellia ...   106   6e-21
+UniRef90_M4R6V6 Sulfur carrier protein TusA n=3 Tax=Bibersteinia...   106   6e-21
+UniRef90_Q48AT8 Sulfur carrier protein TusA n=6 Tax=Colwellia Ta...   106   6e-21
+UniRef90_A0A1J5L1T5 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   106   6e-21
+UniRef90_A5F4A1 Sulfur carrier protein TusA n=22 Tax=Vibrio TaxI...   106   7e-21
+UniRef90_A0A143WTJ1 Sulfur carrier protein TusA n=1 Tax=Candidat...   106   7e-21
+UniRef90_UPI000B3CE010 sulfurtransferase TusA n=1 Tax=Neiella ma...   106   7e-21
+UniRef90_UPI00058CB11C sulfurtransferase TusA n=1 Tax=Algicola s...   105   8e-21
+UniRef90_UPI000A16FD53 sulfurtransferase TusA n=1 Tax=Colwellia ...   105   8e-21
+UniRef90_UPI0008D062AC sulfurtransferase n=1 Tax=Thalassotalea a...   105   8e-21
+UniRef90_A0A1J4QHW6 Sulfur carrier protein TusA n=2 Tax=Aeromona...   105   8e-21
+UniRef90_UPI00094F87FC sulfurtransferase TusA n=1 Tax=Idiomarina...   105   9e-21
+UniRef90_C5WCE7 Sulfur carrier protein TusA n=1 Tax=Candidatus I...   105   9e-21
+UniRef90_A0A0H2MS54 Sulfur carrier protein TusA n=11 Tax=Vibrio ...   105   1e-20
+UniRef90_K6XIN6 Sulfur carrier protein TusA n=2 Tax=Alteromonada...   105   1e-20
+UniRef90_F0EQG6 Sulfur carrier protein TusA n=13 Tax=Pasteurella...   105   1e-20
+UniRef90_UPI0009BE4686 sulfurtransferase TusA n=1 Tax=Colwellia ...   105   1e-20
+UniRef90_A0A0A3AM89 Sulfur carrier protein TusA n=1 Tax=Chelonob...   105   1e-20
+UniRef90_UPI0009709184 sulfurtransferase TusA n=1 Tax=Vibrio ost...   105   2e-20
+UniRef90_A0A0P9B0T4 Sulfur carrier protein TusA n=1 Tax=Psychrom...   105   2e-20
+UniRef90_F7RWA8 Sulfur carrier protein TusA n=1 Tax=Idiomarina s...   104   2e-20
+UniRef90_A0A143WSQ9 Sulfur carrier protein TusA n=1 Tax=Candidat...   104   2e-20
+UniRef90_UPI000492E80E sulfurtransferase TusA n=1 Tax=Glaciecola...   104   2e-20
+UniRef90_A0A0L7ZFM9 Sulfur carrier protein TusA n=6 Tax=Vibrio T...   104   2e-20
+UniRef90_UPI000B351C72 sulfurtransferase TusA n=1 Tax=Thaumasiov...   104   2e-20
+UniRef90_UPI0003FE1856 sulfurtransferase TusA n=1 Tax=Psychromon...   104   2e-20
+UniRef90_A0A1M5FKB1 Sulfur carrier protein TusA n=1 Tax=Aestuari...   104   2e-20
+UniRef90_UPI0008EE97D3 sulfurtransferase n=1 Tax=Idiomarina mari...   103   3e-20
+UniRef90_A0A084TGK8 Sulfur carrier protein TusA n=9 Tax=Vibrio T...   103   3e-20
+UniRef90_M4UIQ5 Sulfur carrier protein TusA n=1 Tax=Psychromonas...   103   3e-20
+UniRef90_A0A0A5I117 Sulfur carrier protein TusA n=2 Tax=Vibrio o...   103   4e-20
+UniRef90_A1SRH7 Sulfur carrier protein TusA n=1 Tax=Psychromonas...   103   5e-20
+UniRef90_B0URK5 Sulfur carrier protein TusA n=2 Tax=Histophilus ...   103   5e-20
+UniRef90_UPI000479EF1E sulfurtransferase TusA n=1 Tax=Aestuariib...   103   5e-20
+UniRef90_F7XXM1 Sulfur carrier protein TusA n=2 Tax=Candidatus M...   103   5e-20
+UniRef90_U4ECT4 Sulfur carrier protein TusA n=4 Tax=Bacteria Tax...   103   6e-20
+UniRef90_I3DHP8 Sulfur carrier protein TusA n=3 Tax=Haemophilus ...   102   7e-20
+UniRef90_UPI000B4AC79A sulfurtransferase TusA n=1 Tax=Lacimicrob...   102   7e-20
+UniRef90_A0A126Q5F0 Sulfur carrier protein TusA n=15 Tax=Alterom...   102   7e-20
+UniRef90_K6Z4P1 Sulfur carrier protein TusA n=1 Tax=Paraglacieco...   102   7e-20
+UniRef90_F5ZGA7 Sulfur carrier protein TusA n=4 Tax=Alteromonas ...   102   8e-20
+UniRef90_A0A1T0AZX2 Sulfur carrier protein TusA n=1 Tax=[Haemoph...   102   9e-20
+UniRef90_G4QNZ0 Sulfur carrier protein TusA n=1 Tax=Glaciecola n...   102   9e-20
+UniRef90_A0A1V3JVM0 Sulfur carrier protein TusA n=8 Tax=Pasteure...   102   9e-20
+UniRef90_J5HLT9 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   102   9e-20
+UniRef90_UPI00098595A1 sulfurtransferase TusA n=1 Tax=Colwellia ...   102   9e-20
+UniRef90_A0A1E3MUP2 Sulfur carrier protein TusA n=11 Tax=Saliniv...   102   1e-19
+UniRef90_A0A1N6M7Z6 Sulfur carrier protein TusA n=9 Tax=Vibrio T...   102   1e-19
+UniRef90_A0A1W1V7E9 Sulfur carrier protein TusA n=1 Tax=Pasteure...   102   1e-19
+UniRef90_W7QQY7 Sulfur carrier protein TusA n=1 Tax=Catenovulum ...   102   1e-19
+UniRef90_A0A011P7H7 Sulfur carrier protein TusA n=1 Tax=Mannheim...   102   1e-19
+UniRef90_UPI000623E7D0 uncharacterized hydrolase C25B8.12c-like ...   102   1e-19
+UniRef90_A0A136HST3 Sulfur carrier protein TusA n=1 Tax=Alteromo...   102   1e-19
+UniRef90_A0A1V4AYP4 Sulfur carrier protein TusA n=1 Tax=Haemophi...   102   1e-19
+UniRef90_W0Q7R4 Sulfur carrier protein TusA n=4 Tax=Mannheimia T...   102   1e-19
+UniRef90_A0A0M0M6P4 Sulfur carrier protein TusA n=3 Tax=Rheinhei...   101   1e-19
+UniRef90_D2U2J4 Sulfur carrier protein TusA n=2 Tax=Arsenophonus...   101   1e-19
+UniRef90_F0LQ54 Sulfur carrier protein TusA n=4 Tax=Vibrio TaxID...   101   1e-19
+UniRef90_UPI00097119F0 sulfurtransferase TusA n=1 Tax=Colwellia ...   101   1e-19
+UniRef90_A0A1V3INH1 Sulfur carrier protein TusA n=2 Tax=Rodentib...   101   1e-19
+UniRef90_UPI0004719D3F sulfurtransferase TusA n=2 Tax=Salinivibr...   101   2e-19
+UniRef90_A0A1Y5CYZ1 Sulfur carrier protein TusA n=1 Tax=Colwelli...   101   2e-19
+UniRef90_A0A094IYM1 Sulfur carrier protein TusA n=1 Tax=Idiomari...   101   2e-19
+UniRef90_A0A099L2Q4 Sulfur carrier protein TusA n=1 Tax=Colwelli...   101   2e-19
+UniRef90_Q0I5B0 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   101   2e-19
+UniRef90_A0A1X1MVE0 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   101   2e-19
+UniRef90_UPI000A1740D0 sulfurtransferase TusA n=1 Tax=Colwellia ...   101   2e-19
+UniRef90_A0A0J8JNQ1 Sulfur carrier protein TusA n=1 Tax=Catenovu...   100   2e-19
+UniRef90_Q7VNY2 Sulfur carrier protein TusA n=2 Tax=Haemophilus ...   100   2e-19
+UniRef90_UPI0004757D68 sulfurtransferase TusA n=1 Tax=Salinimona...   100   3e-19
+UniRef90_UPI00098414FB sulfurtransferase TusA n=1 Tax=Colwellia ...   100   3e-19
+UniRef90_A0A094IQF5 Sulfur carrier protein TusA n=1 Tax=Idiomari...   100   3e-19
+UniRef90_UPI000A172719 sulfurtransferase TusA n=1 Tax=Colwellia ...   100   3e-19
+UniRef90_Q9CKV9 Sulfur carrier protein TusA n=11 Tax=Pasteurella...   100   3e-19
+UniRef90_UPI000509AB3F sulfurtransferase TusA n=1 Tax=Alteromona...   100   3e-19
+UniRef90_A0A1V3KCK0 Sulfur carrier protein TusA n=1 Tax=Rodentib...   100   4e-19
+UniRef90_UPI0002EA6B95 sulfurtransferase TusA n=1 Tax=Catenovulu...   100   4e-19
+UniRef90_UPI0003B78770 sulfurtransferase TusA n=1 Tax=Psychromon...   100   4e-19
+UniRef90_A0A1Y6E6J3 Sulfur carrier protein TusA n=1 Tax=Idiomari...   100   4e-19
+UniRef90_UPI0009B0D530 sulfurtransferase TusA n=1 Tax=Pasteurell...   100   5e-19
+UniRef90_A0A1J0TIU1 Sulfur carrier protein TusA n=1 Tax=Alteromo...   100   5e-19
+UniRef90_A0A136A5K3 Sulfur carrier protein TusA n=1 Tax=Paraglac...   100   5e-19
+UniRef90_A0A1J5MCQ2 Sulfur carrier protein TusA n=1 Tax=Gammapro...   100   5e-19
+UniRef90_UPI0009340199 sulfurtransferase TusA n=1 Tax=Candidatus...   100   5e-19
+UniRef90_A0A1M7YS89 Sulfur carrier protein TusA n=2 Tax=Vibrio T...   100   5e-19
+UniRef90_A0A0K1N0B5 Sulfur carrier protein TusA n=12 Tax=Aggrega...   100   6e-19
+UniRef90_K6X8R3 Sulfur carrier protein TusA n=2 Tax=Paraglacieco...   100   7e-19
+UniRef90_A0A0K6H9K1 Sulfur carrier protein TusA n=2 Tax=Idiomari...    99   8e-19
+UniRef90_UPI0004921EF6 sulfurtransferase TusA n=1 Tax=Phaseoliba...    99   8e-19
+UniRef90_UPI0008B791D0 sulfurtransferase TusA n=1 Tax=Rosenbergi...    99   1e-18
+UniRef90_P44841 Sulfur carrier protein TusA n=35 Tax=Bacteria Ta...    99   1e-18
+UniRef90_A0A0J8YDY2 Uncharacterized protein n=1 Tax=bacteria sym...    98   2e-18
+UniRef90_A0A170PD63 Sulfur carrier protein TusA n=1 Tax=Serratia...    98   2e-18
+UniRef90_A0A1V3K2P6 Sulfur carrier protein TusA n=4 Tax=Rodentib...    98   2e-18
+UniRef90_A0A0P7XVT6 Sulfur carrier protein TusA n=1 Tax=Idiomari...    98   2e-18
+UniRef90_UPI0003FE4661 sulfurtransferase TusA n=2 Tax=Aliagarivo...    98   2e-18
+UniRef90_A0A1V0KRE2 Sulfur carrier protein TusA n=1 Tax=Colwelli...    98   3e-18
+UniRef90_UPI000B35210A sulfurtransferase TusA n=1 Tax=Thaumasiov...    98   3e-18
+UniRef90_UPI0006676CFD sulfurtransferase TusA n=1 Tax=Pasteurell...    97   3e-18
+UniRef90_K6X6L6 Sulfur carrier protein TusA n=1 Tax=Aliiglacieco...    97   3e-18
+UniRef90_UPI000B5B906E sulfurtransferase TusA n=1 Tax=Vibrionace...    97   5e-18
+UniRef90_K2K6T9 Sulfur carrier protein TusA n=1 Tax=Idiomarina x...    97   5e-18
+UniRef90_A0A1B2H8T1 Sulfur carrier protein TusA n=1 Tax=Buchnera...    97   5e-18
+UniRef90_UPI0003F72A06 sulfurtransferase TusA n=1 Tax=Idiomarina...    96   6e-18
+UniRef90_B8D9M5 Sulfur carrier protein TusA n=3 Tax=Buchnera aph...    96   7e-18
+UniRef90_A0A143WU03 Sulfur carrier protein TusA n=1 Tax=Candidat...    96   9e-18
+UniRef90_A0A1V3JGP3 Sulfur carrier protein TusA n=1 Tax=Rodentib...    96   1e-17
+UniRef90_A0A0A7S234 Sulfur carrier protein TusA n=1 Tax=Frischel...    96   1e-17
+UniRef90_A0A1B9K8Q7 Sulfur carrier protein TusA n=2 Tax=Gilliame...    95   1e-17
+UniRef90_A0A1B9LE31 Sulfur carrier protein TusA n=1 Tax=Gilliame...    95   1e-17
+UniRef90_A0A0K2BKV0 Sulfur carrier protein TusA n=2 Tax=Candidat...    95   1e-17
+UniRef90_E0WRA0 Cell developmental protein SirA n=2 Tax=Candidat...    95   1e-17
+UniRef90_G2LNE7 Sulfur carrier protein TusA n=1 Tax=Buchnera aph...    95   2e-17
+UniRef90_A0A088N9Y7 Sulfur carrier protein TusA n=2 Tax=Candidat...    94   2e-17
+UniRef90_C4K3X8 Sulfur carrier protein TusA n=2 Tax=Candidatus H...    94   3e-17
+UniRef90_S3DIJ2 Sulfur carrier protein TusA n=1 Tax=Candidatus P...    94   3e-17
+UniRef90_K6YVZ6 Sulfur carrier protein TusA n=1 Tax=Paraglacieco...    94   4e-17
+UniRef90_J3Z3N0 Sulfur carrier protein TusA n=1 Tax=secondary en...    93   6e-17
+UniRef90_A0A1B9KY47 Sulfur carrier protein TusA n=1 Tax=Gilliame...    93   6e-17
+UniRef90_A0A0X9WAS2 Sulfur carrier protein TusA n=1 Tax=Arsenoph...    93   6e-17
+UniRef90_R4I0G5 Sulfur carrier protein TusA n=1 Tax=Serratia sym...    93   6e-17
+UniRef90_A0A1S2SXS1 Sulfur carrier protein TusA n=3 Tax=Idiomari...    93   7e-17
+UniRef90_X2H6L2 Sulfur carrier protein TusA n=5 Tax=Gilliamella ...    93   7e-17
+UniRef90_J3YT34 Sulfur carrier protein TusA n=1 Tax=secondary en...    92   8e-17
+UniRef90_A0A0M5K0L1 Sulfur carrier protein TusA n=1 Tax=Buchnera...    92   1e-16
+UniRef90_W0NZP6 Sulfur carrier protein TusA n=1 Tax=Buchnera aph...    92   1e-16
+UniRef90_UPI00096A9960 sulfurtransferase TusA n=1 Tax=Halomonas ...    92   2e-16
+UniRef90_A0A143WPW1 Sulfur carrier protein TusA n=1 Tax=Candidat...    91   3e-16
+UniRef90_A0A1B9MBA6 Sulfur carrier protein TusA n=1 Tax=Gilliame...    91   3e-16
+UniRef90_Q8K9B6 Sulfur carrier protein TusA n=2 Tax=Buchnera aph...    91   3e-16
+UniRef90_A0A1B9MSP1 Sulfur carrier protein TusA n=2 Tax=Gilliame...    91   3e-16
+UniRef90_A0A1C3L3M3 Sulfur carrier protein TusA n=1 Tax=secondar...    91   3e-16
+UniRef90_A0A172WDZ4 Sulfur carrier protein TusA n=1 Tax=Buchnera...    91   4e-16
+UniRef90_A0A0L7ZBI8 Sulfur carrier protein TusA n=9 Tax=Vibriona...    90   6e-16
+UniRef90_A0A0F9YI61 Uncharacterized protein n=1 Tax=marine sedim...    89   7e-16
+UniRef90_Q2BMU9 Sulfur carrier protein TusA n=1 Tax=Neptuniibact...    89   7e-16
+UniRef90_UPI000404373A sulfurtransferase TusA n=1 Tax=Zooshikell...    89   9e-16
+UniRef90_A0A139CE92 Sulfur carrier protein TusA n=1 Tax=Halomona...    89   1e-15
+UniRef90_A0A066TBS5 Sulfur carrier protein TusA n=11 Tax=Gilliam...    89   1e-15
+UniRef90_A0A1A9EZY9 Sulfur carrier protein TusA n=3 Tax=Marinoba...    89   1e-15
+UniRef90_L8J5P8 tRNA 5-methylaminomethyl-2-thiouridine synthase ...    88   2e-15
+UniRef90_A0A127M5M7 Sulfurtransferase TusA n=2 Tax=Spongiibacter...    87   3e-15
+UniRef90_UPI0009489ECC sulfurtransferase TusA n=1 Tax=Alteromona...    87   3e-15
+UniRef90_UPI00042A694F sulfurtransferase TusA n=1 Tax=Halomonas ...    87   4e-15
+UniRef90_N2JC99 Sulfur carrier protein TusA n=4 Tax=Pseudomonada...    87   4e-15
+UniRef90_A0A080KLA8 Sulfur carrier protein TusA n=8 Tax=Orbaceae...    87   4e-15
+UniRef90_A0A1E8CNJ9 tRNA 2-thiouridine(34) synthase TusA n=1 Tax...    87   5e-15
+UniRef90_UPI00041C8065 sulfurtransferase TusA n=1 Tax=Spongiibac...    87   5e-15
+UniRef90_A0A1E3E4D8 tRNA 2-thiouridine(34) synthase TusA n=1 Tax...    87   5e-15
+UniRef90_Q0VP90 Sulfur carrier protein TusA n=1 Tax=Alcanivorax ...    86   6e-15
+UniRef90_A0A136HLQ7 Preprotein translocase subunit TatC n=1 Tax=...    86   7e-15
+UniRef90_A0A1H5Y568 tRNA 2-thiouridine synthesizing protein A n=...    86   8e-15
+UniRef90_W9UQ15 Sulfur carrier protein TusA n=1 Tax=Nitrincola n...    86   8e-15
+UniRef90_A0A086D863 Sulfur carrier protein TusA n=2 Tax=Gammapro...    86   9e-15
+UniRef90_A0A0X8HGB1 Sulfurtransferase TusA n=2 Tax=Halomonas Tax...    86   9e-15
+UniRef90_UPI0007846667 sulfurtransferase TusA n=1 Tax=Endozoicom...    86   1e-14
+UniRef90_W0H6H6 Sulfur carrier protein TusA n=1 Tax=Pseudomonas ...    86   1e-14
+UniRef90_UPI000B8ADAF1 sulfurtransferase TusA n=1 Tax=Pseudomona...    86   1e-14
+UniRef90_A0A1G3E511 Sulfur carrier protein TusA n=3 Tax=Pseudomo...    86   1e-14
+UniRef90_A0A1Y5GLA2 Sulfur carrier protein TusA n=1 Tax=Gammapro...    86   1e-14
+UniRef90_UPI0008DEC5D9 TusA-like sulfurtransferase n=1 Tax=Halom...    86   1e-14
+UniRef90_U7P0B3 Uncharacterized protein n=1 Tax=Halomonas sp. PB...    86   1e-14
+UniRef90_A0A1B9JPI7 Sulfur carrier protein TusA n=1 Tax=Gilliame...    86   1e-14
+UniRef90_A0A1N7KJY8 tRNA 2-thiouridine synthesizing protein A n=...    85   1e-14
+UniRef90_UPI000409A2FD sulfurtransferase TusA n=2 Tax=Neptunomon...    85   1e-14
+UniRef90_A0A1M7IRD7 Sulfur carrier protein TusA n=1 Tax=Halomona...    85   1e-14
+UniRef90_A0A1J0VD51 Sulfurtransferase TusA n=2 Tax=Halomonas Tax...    85   2e-14
+UniRef90_A0A1Z3IQW9 Sulfurtransferase TusA n=2 Tax=Pseudomonas T...    85   2e-14
+UniRef90_A4BHZ4 Uncharacterized protein n=1 Tax=Reinekea blanden...    85   2e-14
+UniRef90_UPI000484559F sulfurtransferase TusA n=1 Tax=Marinobact...    85   2e-14
+UniRef90_Q1QUV0 SirA-like protein n=2 Tax=Chromohalobacter TaxID...    85   2e-14
+UniRef90_A0A089YTW3 Sulfur carrier protein TusA n=3 Tax=Pseudomo...    85   2e-14
+UniRef90_UPI00041A11F0 sulfurtransferase TusA n=1 Tax=Marinospir...    85   2e-14
+UniRef90_A0A165QUD7 Sulfur carrier protein TusA n=2 Tax=Halioglo...    85   2e-14
+UniRef90_S6GM21 Sulfur carrier protein TusA n=2 Tax=Bacteria Tax...    85   2e-14
+UniRef90_UPI0003679188 sulfurtransferase TusA n=1 Tax=Halomonas ...    85   2e-14
+UniRef90_A0A0R2ZJR8 Sulfur carrier protein TusA n=1 Tax=Pseudomo...    85   2e-14
+UniRef90_UPI0003A323B1 sulfurtransferase TusA n=1 Tax=Pseudomona...    85   2e-14
+UniRef90_A0A0J6JAY1 Sulfur carrier protein TusA n=9 Tax=Pseudomo...    85   2e-14
+UniRef90_A0A099PDK1 Sulfur carrier protein TusA n=1 Tax=Nitrinco...    84   3e-14
+UniRef90_A0A0D1NJS7 Sulfur carrier protein TusA n=7 Tax=Pseudomo...    84   3e-14
+UniRef90_A0A090AJ68 Sulfurtransferase TusA n=1 Tax=Candidatus Ta...    84   3e-14
+UniRef90_A0A105TBM0 Sulfur carrier protein TusA n=4 Tax=Gammapro...    84   3e-14
+UniRef90_UPI000482E71E sulfurtransferase TusA n=1 Tax=Marinospir...    84   3e-14
+UniRef90_A0A0M3CNB2 Sulfur carrier protein TusA n=13 Tax=Pseudom...    84   3e-14
+UniRef90_A0A1S1NWJ5 Sulfur carrier protein TusA n=1 Tax=Kushneri...    84   3e-14
+UniRef90_UPI0003F50249 sulfurtransferase TusA n=1 Tax=Haliea sal...    84   3e-14
+UniRef90_Q4KFD3 Sulfur carrier protein TusA n=115 Tax=Pseudomona...    84   3e-14
+UniRef90_A0A0X1T103 Sulfur carrier protein TusA n=5 Tax=Pseudomo...    84   3e-14
+UniRef90_UPI00089CCE0B sulfurtransferase TusA n=1 Tax=Marinobact...    84   3e-14
+UniRef90_A0A0M9GGD0 Sulfur carrier protein TusA n=6 Tax=Pseudomo...    84   3e-14
+UniRef90_A0A081NFJ6 Sulfur carrier protein TusA n=1 Tax=Endozoic...    84   3e-14
+UniRef90_A0A0K6ILM3 Sulfur carrier protein TusA n=2 Tax=Marinomo...    84   3e-14
+UniRef90_UPI000831E85B sulfurtransferase TusA n=1 Tax=Neptuniiba...    84   3e-14
+UniRef90_UPI00058F0FBB sulfurtransferase TusA n=1 Tax=Halomonas ...    84   4e-14
+UniRef90_A0A0B4XQ74 Sulfur carrier protein TusA n=1 Tax=Alcanivo...    84   4e-14
+UniRef90_A0A077LNT9 Sulfur carrier protein TusA n=1 Tax=Pseudomo...    84   4e-14
+UniRef90_A0A1Q8SUD8 Sulfurtransferase TusA n=1 Tax=Salinicola so...    84   4e-14
+UniRef90_A0A081KEF3 Sulfurtransferase n=1 Tax=Endozoicomonas ely...    84   4e-14
+UniRef90_UPI0004DB6DC0 sulfurtransferase TusA n=1 Tax=Halomonas ...    84   4e-14
+UniRef90_A0A1A8TIM3 Sulfur carrier protein TusA n=1 Tax=Marinomo...    84   4e-14
+UniRef90_U7FMA1 Sulfur carrier protein TusA n=2 Tax=Alcanivorax ...    84   4e-14
+UniRef90_A0A167CLZ6 Sulfur carrier protein TusA n=3 Tax=Alcanivo...    84   4e-14
+UniRef90_A0A095S7I4 Sulfur carrier protein TusA n=4 Tax=Alcanivo...    84   5e-14
+UniRef90_UPI00048A8CC3 sulfurtransferase TusA n=1 Tax=Spongiibac...    84   5e-14
+UniRef90_A0A095SP93 Sulfur carrier protein TusA n=3 Tax=Alcanivo...    84   5e-14
+UniRef90_A0A0K1XAX5 Sulfur carrier protein TusA n=2 Tax=Oblitimo...    84   5e-14
+UniRef90_A0A1Y6C4Y6 tRNA 2-thiouridine synthesizing protein A n=...    83   5e-14
+UniRef90_A0YAX0 Uncharacterized protein n=1 Tax=marine gamma pro...    83   5e-14
+UniRef90_A0A1V2DXW3 Sulfur carrier protein TusA n=1 Tax=Marinoba...    83   5e-14
+UniRef90_UPI0008EC9827 TusA-like sulfurtransferase n=1 Tax=Kushn...    83   5e-14
+UniRef90_A0A0A7JLG5 Sulfur carrier protein TusA n=2 Tax=Pseudomo...    83   5e-14
+UniRef90_A0A1X7AIC3 Sulfur carrier protein TusA n=1 Tax=Endozoic...    83   5e-14
+UniRef90_A0A0D0NB57 Sulfur carrier protein TusA n=9 Tax=Pseudomo...    83   5e-14
+UniRef90_UPI0008908678 TusA-like sulfurtransferase n=1 Tax=Halom...    83   6e-14
+UniRef90_UPI000486ED41 sulfurtransferase TusA n=1 Tax=Halomonas ...    83   6e-14
+UniRef90_A0A1G0JJ96 Sulfurtransferase TusA n=1 Tax=Gammaproteoba...    83   7e-14
+UniRef90_A0A1Y1R618 Sulfur carrier protein TusA n=1 Tax=Oceanosp...    83   7e-14
+UniRef90_A0A1H5UEV8 Sulfurtransferase TusA n=1 Tax=Pseudomonas a...    83   8e-14
+UniRef90_W8R6J0 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...    83   8e-14
+UniRef90_A0A1E2V9W1 Sulfurtransferase TusA n=1 Tax=Terasakiispir...    83   8e-14
+UniRef90_A0A1C2E610 Sulfur carrier protein TusA n=3 Tax=Pseudomo...    83   9e-14
+UniRef90_UPI000A3D2537 sulfurtransferase TusA n=2 Tax=Kushneria ...    82   9e-14
+UniRef90_K5Z7I8 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...    82   9e-14
+UniRef90_A0A1D2X5I5 Sulfur carrier protein TusA n=1 Tax=Endozoic...    82   1e-13
+UniRef90_A0A147GZ08 Sulfur carrier protein TusA n=8 Tax=Pseudomo...    82   1e-13
+UniRef90_A0A085DUY4 Sulfurtransferase n=1 Tax=Halomonas sp. SUBG...    82   1e-13
+UniRef90_A0A0F7Y8Z3 Sulfur carrier protein TusA n=2 Tax=Pseudomo...    82   1e-13
+UniRef90_UPI00096B8C60 sulfurtransferase TusA n=1 Tax=Halioglobu...    82   1e-13
+UniRef90_UPI000482E430 sulfurtransferase TusA n=1 Tax=Balneatrix...    82   1e-13
+UniRef90_UPI000B7FE6E0 sulfurtransferase TusA n=1 Tax=Moraxella ...    82   2e-13
+UniRef90_A0A0P8CID3 tRNA 2-thiouridine synthesizing protein A n=...    82   2e-13
+UniRef90_C5BR45 SirA family protein n=5 Tax=Cellvibrionaceae Tax...    82   2e-13
+UniRef90_A0A177SMK8 Sulfur carrier protein TusA n=3 Tax=Pseudomo...    82   2e-13
+UniRef90_K0CFF3 Sulfur carrier protein TusA n=4 Tax=Alcanivorax ...    82   2e-13
+UniRef90_A0A0X8BYM3 Sulfur carrier protein TusA n=1 Tax=Pseudomo...    82   2e-13
+UniRef90_A0A0E1AV94 Sulfur carrier protein TusA n=1 Tax=Pseudomo...    82   2e-13
+UniRef90_UPI00088A5557 sulfurtransferase TusA n=1 Tax=Microbulbi...    82   2e-13
+UniRef90_A0A098SRF8 Sulfur carrier protein TusA n=1 Tax=Pseudomo...    81   2e-13
+UniRef90_A0A172WU29 Sulfur carrier protein TusA n=4 Tax=Pseudomo...    81   2e-13
+UniRef90_Q1I7B2 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...    81   2e-13
+UniRef90_A0A142BEX1 Sulfur carrier protein TusA n=3 Tax=Endozoic...    81   2e-13
+UniRef90_B8KG57 Sulfur carrier protein TusA n=1 Tax=gamma proteo...    81   2e-13
+UniRef90_A0A0P8WKM5 Sulfur carrier protein TusA n=14 Tax=Pseudom...    81   2e-13
+UniRef90_A0A0J6GR06 Sulfur carrier protein TusA n=20 Tax=Pseudom...    81   2e-13
+UniRef90_A0A0B2D7U1 Sulfur carrier protein TusA n=1 Tax=Pseudomo...    81   2e-13
+UniRef90_UPI000B5B2661 sulfurtransferase TusA n=1 Tax=Alcanivora...    81   2e-13
+UniRef90_A0A1Q8TED5 Sulfurtransferase TusA n=2 Tax=Chromohalobac...    81   2e-13
+UniRef90_UPI0004207105 sulfurtransferase TusA n=1 Tax=Anaerobios...    81   2e-13
+UniRef90_A0A0X3TTZ4 Sulfur carrier protein TusA n=1 Tax=Microbul...    81   3e-13
+UniRef90_A0A1G9RE03 Sulfur carrier protein TusA n=2 Tax=Pseudomo...    81   3e-13
+UniRef90_C3K5G5 Sulfur carrier protein TusA n=81 Tax=Pseudomonad...    81   3e-13
+UniRef90_A0A1M4WXZ0 tRNA 2-thiouridine synthesizing protein A n=...    81   3e-13
+UniRef90_A0A1Q8SYJ9 Sulfurtransferase TusA n=1 Tax=Salinicola sp...    81   3e-13
+UniRef90_UPI0008E59709 sulfurtransferase TusA n=1 Tax=Marinospir...    81   3e-13
+UniRef90_A6V7T5 Sulfur carrier protein TusA n=43 Tax=Proteobacte...    81   3e-13
+UniRef90_UPI0008F1B98C TusA-like sulfurtransferase n=1 Tax=Halom...    81   3e-13
+
+>UniRef90_G8LJ55 Sulfur carrier protein TusA n=21 Tax=Proteobacteria TaxID=1224
+           RepID=G8LJ55_ENTCL
+          Length = 111
+
+ Score =  137 bits (345), Expect = 3e-30,   Method: Composition-based stats.
+ Identities = 64/71 (90%), Positives = 68/71 (95%)
+
+Query: 1   HTLDALGLRCPEPVMMVRKTVRNMQPGETLLIIADDPATTRDIPGFCTFMEHELVAKETD 60
+           HTLDA GLRCPEPVMMVRKTVRNMQ GETLLIIADDPATTRDIPGFCTFMEHELVA++T+
+Sbjct: 41  HTLDAQGLRCPEPVMMVRKTVRNMQTGETLLIIADDPATTRDIPGFCTFMEHELVAQQTE 100
+
+Query: 61  GLPYRYLIRKG 71
+            LPYRY+IRKG
+Sbjct: 101 TLPYRYVIRKG 111
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_G8LJ55 Sulfur carrier protein TusA n=21 Tax=Proteobacte...   148   2e-33
+UniRef90_E1SUL9 Sulfur carrier protein TusA n=1 Tax=Ferrimonas b...   145   1e-32
+UniRef90_A0A1M5ZIB4 Sulfur carrier protein TusA n=1 Tax=Ferrimon...   145   2e-32
+UniRef90_D2ZIY0 Sulfur carrier protein TusA n=2 Tax=Enterobacter...   144   3e-32
+UniRef90_UPI00037F45DE sulfurtransferase TusA n=1 Tax=Pantoea sp...   142   6e-32
+UniRef90_A0A085A2K1 Sulfur carrier protein TusA n=26 Tax=Enterob...   142   7e-32
+UniRef90_UPI0003FF10E6 sulfurtransferase TusA n=1 Tax=Ferrimonas...   142   8e-32
+UniRef90_A0A0G3QFX2 Sulfur carrier protein TusA n=6 Tax=Enteroba...   142   8e-32
+UniRef90_C4L772 Sulfur carrier protein TusA n=2 Tax=Tolumonas Ta...   141   2e-31
+UniRef90_UPI00063C9406 sulfurtransferase TusA n=1 Tax=Vibrio mex...   141   2e-31
+UniRef90_A0A0A3B292 Sulfur carrier protein TusA n=9 Tax=Gallibac...   141   2e-31
+UniRef90_A0A126VE32 Sulfur carrier protein TusA n=4 Tax=Serratia...   141   2e-31
+UniRef90_Q65W80 Sulfur carrier protein TusA n=1 Tax=Mannheimia s...   140   2e-31
+UniRef90_A0A1S2TR22 Sulfur carrier protein TusA n=2 Tax=Shewanel...   140   2e-31
+UniRef90_A0A0F6RGP8 Sulfur carrier protein TusA n=14 Tax=Enterob...   140   3e-31
+UniRef90_A0A1T4VFJ5 Sulfur carrier protein TusA n=2 Tax=Enterovi...   140   3e-31
+UniRef90_UPI000B87BD88 sulfurtransferase TusA n=2 Tax=Ferrimonas...   140   4e-31
+UniRef90_UPI00088A927F sulfurtransferase TusA n=1 Tax=Idiomarina...   140   4e-31
+UniRef90_A0A1A9B0L5 Sulfur carrier protein TusA n=3 Tax=Plesiomo...   140   4e-31
+UniRef90_A0A085HCN6 Sulfur carrier protein TusA n=1 Tax=Leminore...   140   4e-31
+UniRef90_A0A0A7ECG6 Sulfur carrier protein TusA n=3 Tax=Pseudoal...   140   4e-31
+UniRef90_A0A1E5IU67 Sulfur carrier protein TusA n=1 Tax=Shewanel...   140   4e-31
+UniRef90_A7MHB0 Sulfur carrier protein TusA n=22 Tax=Enterobacte...   140   4e-31
+UniRef90_A0A1X1DF90 Sulfur carrier protein TusA n=15 Tax=Enterob...   140   4e-31
+UniRef90_A0A085JP92 Sulfur carrier protein TusA n=1 Tax=Tatumell...   140   5e-31
+UniRef90_A0A0J5P5J6 Sulfur carrier protein TusA n=1 Tax=Muribact...   139   5e-31
+UniRef90_A0A1X1EPQ5 Sulfur carrier protein TusA n=1 Tax=Pantoea ...   139   6e-31
+UniRef90_A0A1X1ECD7 Sulfur carrier protein TusA n=6 Tax=Erwiniac...   139   6e-31
+UniRef90_D2TKT0 Sulfur carrier protein TusA n=16 Tax=Enterobacte...   139   6e-31
+UniRef90_A0A1E5CF86 Sulfur carrier protein TusA n=3 Tax=Enterovi...   139   6e-31
+UniRef90_UPI0004750422 sulfurtransferase TusA n=1 Tax=Enterobact...   139   6e-31
+UniRef90_B1KCY7 Sulfur carrier protein TusA n=2 Tax=Shewanella T...   139   6e-31
+UniRef90_A0A089PIP6 Sulfur carrier protein TusA n=2 Tax=Pluralib...   139   6e-31
+UniRef90_A0A090VW36 Sulfur carrier protein TusA n=2 Tax=Enteroba...   139   6e-31
+UniRef90_I2B458 Sulfur carrier protein TusA n=1 Tax=Shimwellia b...   139   7e-31
+UniRef90_A0A1A7NUU1 Sulfur carrier protein TusA n=4 Tax=Gallibac...   139   8e-31
+UniRef90_A0A095UYV9 Sulfur carrier protein TusA n=2 Tax=Tatumell...   139   8e-31
+UniRef90_A3Q8U0 Sulfur carrier protein TusA n=8 Tax=Shewanellace...   139   8e-31
+UniRef90_A0A0L0AVC7 Sulfur carrier protein TusA n=1 Tax=Klebsiel...   138   9e-31
+UniRef90_B5XTL8 Sulfur carrier protein TusA n=63 Tax=Gammaproteo...   138   9e-31
+UniRef90_A0A0J8XVI5 Sulfur carrier protein TusA n=2 Tax=Photobac...   138   9e-31
+UniRef90_UPI0003671A11 sulfurtransferase TusA n=1 Tax=Oceanimona...   138   1e-30
+UniRef90_A4WFQ2 Sulfur carrier protein TusA n=16 Tax=Enterobacte...   138   1e-30
+UniRef90_A0A1V3TV68 Sulfur carrier protein TusA n=1 Tax=Pasteure...   138   1e-30
+UniRef90_A0A1E5C1L4 Sulfur carrier protein TusA n=2 Tax=Enterovi...   138   1e-30
+UniRef90_UPI000422138B sulfurtransferase TusA n=1 Tax=Ferrimonas...   138   1e-30
+UniRef90_Q57IP9 Sulfur carrier protein TusA n=78 Tax=Salmonella ...   138   2e-30
+UniRef90_UPI0009490FDB sulfurtransferase TusA n=1 Tax=Pantoea sp...   138   2e-30
+UniRef90_UPI000933BBC3 sulfurtransferase TusA n=1 Tax=Nissabacte...   138   2e-30
+UniRef90_A0A0D8PBE5 Sulfur carrier protein TusA n=11 Tax=Photoba...   138   2e-30
+UniRef90_A0A135IDC8 Sulfur carrier protein TusA n=7 Tax=Vibriona...   138   2e-30
+UniRef90_A7FDA1 Sulfur carrier protein TusA n=14 Tax=Yersinia Ta...   138   2e-30
+UniRef90_A0KEK5 Sulfur carrier protein TusA n=57 Tax=Aeromonadac...   138   2e-30
+UniRef90_A8G875 Sulfur carrier protein TusA n=36 Tax=cellular or...   138   2e-30
+UniRef90_A0A085U6I1 Sulfur carrier protein TusA n=3 Tax=Yersinia...   137   2e-30
+UniRef90_B8F8H4 Sulfur carrier protein TusA n=8 Tax=Haemophilus ...   137   2e-30
+UniRef90_UPI0003656A69 sulfurtransferase TusA n=1 Tax=Psychromon...   137   2e-30
+UniRef90_A0A1B7HK18 Sulfur carrier protein TusA n=7 Tax=Buttiaux...   137   2e-30
+UniRef90_UPI000595FD2C sulfurtransferase TusA n=2 Tax=Pasteurell...   137   2e-30
+UniRef90_A0A0D5X098 Sulfur carrier protein TusA n=2 Tax=Enteroba...   137   2e-30
+UniRef90_E1SHG0 Sulfur carrier protein TusA n=10 Tax=Pantoea Tax...   137   2e-30
+UniRef90_A0A1X1F8J8 Sulfur carrier protein TusA n=2 Tax=Pantoea ...   137   2e-30
+UniRef90_A0A1X2QTK2 Sulfur carrier protein TusA n=14 Tax=Salmone...   137   2e-30
+UniRef90_A0A034TXG1 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   137   2e-30
+UniRef90_UPI00056EA952 sulfurtransferase TusA n=1 Tax=Vibrio pac...   137   2e-30
+UniRef90_UPI0005A8E371 sulfurtransferase TusA n=1 Tax=Aeromonas ...   137   3e-30
+UniRef90_UPI000405BBDF sulfurtransferase TusA n=1 Tax=Budvicia a...   137   3e-30
+UniRef90_A0A0U3I6R7 Sulfur carrier protein TusA n=5 Tax=Pseudoal...   137   3e-30
+UniRef90_A0A0S2JWQ7 Sulfur carrier protein TusA n=3 Tax=Pseudoal...   137   3e-30
+UniRef90_UPI0007F952C0 sulfurtransferase TusA n=1 Tax=Photobacte...   137   3e-30
+UniRef90_A0A1C3EFM4 Sulfur carrier protein TusA n=1 Tax=Enterovi...   137   3e-30
+UniRef90_A0A1T4UWV6 Sulfur carrier protein TusA n=3 Tax=Photobac...   137   3e-30
+UniRef90_A0A0M9FCN8 Sulfur carrier protein TusA n=7 Tax=Photobac...   137   3e-30
+UniRef90_A0A1S8YJZ6 Sulfur carrier protein TusA n=2 Tax=Izhakiel...   137   3e-30
+UniRef90_Q2NWX1 Sulfur carrier protein TusA n=6 Tax=Sodalis TaxI...   137   3e-30
+UniRef90_A0A0L7T6L7 Sulfur carrier protein TusA n=2 Tax=Erwinia ...   137   3e-30
+UniRef90_R9VRW3 Sulfur carrier protein TusA n=12 Tax=Enterobacte...   137   3e-30
+UniRef90_A0A1N6YLS1 Sulfur carrier protein TusA n=1 Tax=Aeromona...   137   3e-30
+UniRef90_A0A1D8MU18 Sulfur carrier protein TusA n=1 Tax=Edwardsi...   137   3e-30
+UniRef90_A0A0M2KGN0 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   136   4e-30
+UniRef90_UPI00046F435B sulfurtransferase TusA n=1 Tax=Shewanella...   136   4e-30
+UniRef90_UPI00054FAD13 sulfurtransferase TusA n=1 Tax=Erwinia Ta...   136   4e-30
+UniRef90_D4ZD96 Sulfur carrier protein TusA n=7 Tax=Shewanella T...   136   4e-30
+UniRef90_UPI0005AAB690 sulfurtransferase TusA n=1 Tax=Pseudoalte...   136   4e-30
+UniRef90_A0A090IHX6 Sulfur carrier protein TusA n=5 Tax=Moritell...   136   5e-30
+UniRef90_UPI00041C7F5C sulfurtransferase TusA n=1 Tax=Photobacte...   136   5e-30
+UniRef90_M4R6V6 Sulfur carrier protein TusA n=3 Tax=Bibersteinia...   136   5e-30
+UniRef90_A0A090R0I9 Sulfur carrier protein TusA n=1 Tax=Photobac...   136   5e-30
+UniRef90_Q6LW10 Sulfur carrier protein TusA n=3 Tax=Photobacteri...   136   5e-30
+UniRef90_A0A0K0HTV2 Sulfur carrier protein TusA n=9 Tax=Enteroba...   136   5e-30
+UniRef90_UPI000509D2EE sulfurtransferase TusA n=1 Tax=Necropsoba...   136   5e-30
+UniRef90_A0A1E5CYH0 Sulfur carrier protein TusA n=1 Tax=Vibrio g...   136   5e-30
+UniRef90_UPI0006D0AD69 sulfurtransferase TusA n=1 Tax=Photobacte...   136   5e-30
+UniRef90_UPI000B8BC474 sulfurtransferase TusA n=1 Tax=Zobellella...   136   5e-30
+UniRef90_A0A1T0AV58 Sulfur carrier protein TusA n=1 Tax=Haemophi...   136   5e-30
+UniRef90_A1S1I5 Sulfur carrier protein TusA n=2 Tax=Shewanella a...   136   5e-30
+UniRef90_Q5E8Y2 Sulfur carrier protein TusA n=4 Tax=Aliivibrio T...   136   6e-30
+UniRef90_A0A0A3AM89 Sulfur carrier protein TusA n=1 Tax=Chelonob...   136   6e-30
+UniRef90_A0A1Q6CMB1 Sulfur carrier protein TusA n=1 Tax=Thalasso...   136   6e-30
+UniRef90_UPI0007E409EB sulfurtransferase TusA n=1 Tax=Yersinia e...   136   6e-30
+UniRef90_Q8EKS1 Sulfur carrier protein TusA n=21 Tax=Shewanellac...   136   7e-30
+UniRef90_A0A0G3CLR0 Sulfur carrier protein TusA n=1 Tax=Pragia f...   136   7e-30
+UniRef90_I3DEU3 Sulfur carrier protein TusA n=1 Tax=Pasteurella ...   136   7e-30
+UniRef90_UPI0005AA4C04 sulfurtransferase TusA n=1 Tax=Vibrio dia...   136   7e-30
+UniRef90_A0A0B9GJ53 Sulfur carrier protein TusA n=1 Tax=Photobac...   136   7e-30
+UniRef90_B7VGL0 Sulfur carrier protein TusA n=32 Tax=Vibrio TaxI...   135   7e-30
+UniRef90_A3MYG4 Sulfur carrier protein TusA n=17 Tax=Actinobacil...   135   8e-30
+UniRef90_U7FMA1 Sulfur carrier protein TusA n=2 Tax=Alcanivorax ...   135   8e-30
+UniRef90_A0A0W7TWS9 Sulfur carrier protein TusA n=2 Tax=Aeromona...   135   8e-30
+UniRef90_UPI0008982992 sulfurtransferase n=1 Tax=Alkalimonas amy...   135   8e-30
+UniRef90_A0A0A0SW95 Sulfur carrier protein TusA n=5 Tax=Vibrio T...   135   8e-30
+UniRef90_A1JIB4 Sulfur carrier protein TusA n=43 Tax=Yersiniacea...   135   9e-30
+UniRef90_A0A1C2E610 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   135   9e-30
+UniRef90_A0A014Q0Y9 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   135   9e-30
+UniRef90_UPI0004046188 sulfurtransferase TusA n=3 Tax=Vibrio Tax...   135   9e-30
+UniRef90_A0A1E5BFW6 Sulfur carrier protein TusA n=2 Tax=Vibrio g...   135   1e-29
+UniRef90_C5B9A2 Sulfur carrier protein TusA n=8 Tax=Edwardsiella...   135   1e-29
+UniRef90_Q12TB6 Sulfur carrier protein TusA n=1 Tax=Shewanella d...   135   1e-29
+UniRef90_Q3IJ25 Sulfur carrier protein TusA n=24 Tax=root TaxID=...   135   1e-29
+UniRef90_A0A1X0WFM2 Sulfur carrier protein TusA n=1 Tax=Rouxiell...   135   1e-29
+UniRef90_E6RH42 Sulfur carrier protein TusA n=12 Tax=Pseudoalter...   135   1e-29
+UniRef90_A0A1E5E344 Sulfur carrier protein TusA n=1 Tax=Vibrio r...   135   1e-29
+UniRef90_A0A095S7I4 Sulfur carrier protein TusA n=4 Tax=Alcanivo...   135   1e-29
+UniRef90_A0A167J8R5 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   135   1e-29
+UniRef90_E3BH53 Sulfur carrier protein TusA n=1 Tax=Vibrio carib...   135   1e-29
+UniRef90_A0A1U7E856 Sulfur carrier protein TusA n=1 Tax=Kosakoni...   135   1e-29
+UniRef90_UPI00073D6FA2 sulfurtransferase TusA n=1 Tax=Erwinia te...   135   1e-29
+UniRef90_A0A084A1M8 Sulfur carrier protein TusA n=1 Tax=Serratia...   135   1e-29
+UniRef90_A0A085I076 Sulfur carrier protein TusA n=2 Tax=Enteroba...   135   1e-29
+UniRef90_A0A0Q0P2Q4 Sulfur carrier protein TusA n=1 Tax=Shewanel...   135   1e-29
+UniRef90_A0A0F5V9E5 Sulfur carrier protein TusA n=2 Tax=Photobac...   135   1e-29
+UniRef90_A0A094J897 Sulfur carrier protein TusA n=1 Tax=Shewanel...   135   1e-29
+UniRef90_UPI0008D062AC sulfurtransferase n=1 Tax=Thalassotalea a...   135   1e-29
+UniRef90_A0A0Q4MN51 Sulfur carrier protein TusA n=2 Tax=Yersinia...   135   1e-29
+UniRef90_A0A1W1V7E9 Sulfur carrier protein TusA n=1 Tax=Pasteure...   135   1e-29
+UniRef90_A0A0J1GZH7 Sulfur carrier protein TusA n=3 Tax=Photobac...   135   1e-29
+UniRef90_UPI000A366B67 sulfurtransferase TusA n=1 Tax=Pseudoalte...   135   2e-29
+UniRef90_Q87TP4 Sulfur carrier protein TusA n=52 Tax=Vibrio TaxI...   135   2e-29
+UniRef90_A0A1Y0D4G6 Sulfur carrier protein TusA n=1 Tax=Oceanisp...   135   2e-29
+UniRef90_H2IWM0 Sulfur carrier protein TusA n=5 Tax=Yersiniaceae...   135   2e-29
+UniRef90_UPI0004A2F986 sulfurtransferase TusA n=1 Tax=Tatumella ...   134   2e-29
+UniRef90_A8AR31 Sulfur carrier protein TusA n=307 Tax=root TaxID...   134   2e-29
+UniRef90_A0A0F4PWD4 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   134   2e-29
+UniRef90_A0A167GB54 Sulfur carrier protein TusA n=1 Tax=Pseudoal...   134   2e-29
+UniRef90_A0A1C3DV86 Sulfur carrier protein TusA n=4 Tax=Photobac...   134   2e-29
+UniRef90_F9T2D8 Sulfur carrier protein TusA n=17 Tax=Vibrionales...   134   2e-29
+UniRef90_A0A167DZE9 Sulfur carrier protein TusA n=7 Tax=Pseudoal...   134   2e-29
+UniRef90_B2VJN9 Sulfur carrier protein TusA n=6 Tax=Erwinia TaxI...   134   2e-29
+UniRef90_D3UZB0 Sulfur carrier protein TusA n=11 Tax=Xenorhabdus...   134   2e-29
+UniRef90_A0A067BAR7 Sulfur carrier protein TusA n=1 Tax=Vibrio m...   134   2e-29
+UniRef90_C6C5J8 Sulfur carrier protein TusA n=1 Tax=Dickeya para...   134   2e-29
+UniRef90_B4EWZ6 Sulfur carrier protein TusA n=14 Tax=Enterobacte...   134   2e-29
+UniRef90_J7SKK4 Sulfur carrier protein TusA n=10 Tax=Bacteria Ta...   134   2e-29
+UniRef90_A0A084TGK8 Sulfur carrier protein TusA n=9 Tax=Vibrio T...   134   2e-29
+UniRef90_UPI000B80CC50 sulfurtransferase TusA n=1 Tax=Pseudoalte...   134   2e-29
+UniRef90_F0EQG6 Sulfur carrier protein TusA n=13 Tax=Pasteurella...   134   2e-29
+UniRef90_A0A0U5GGZ0 Sulfur carrier protein TusA n=2 Tax=Erwinia ...   134   2e-29
+UniRef90_A0A1R4IPG5 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   134   2e-29
+UniRef90_Q6CZ00 Sulfur carrier protein TusA n=25 Tax=Enterobacte...   134   2e-29
+UniRef90_A0A1N6MQI2 Sulfur carrier protein TusA n=2 Tax=Xenorhab...   134   2e-29
+UniRef90_B9CWJ9 Sulfur carrier protein TusA n=2 Tax=Actinobacill...   134   2e-29
+UniRef90_Q08A41 Sulfur carrier protein TusA n=2 Tax=Shewanella f...   134   3e-29
+UniRef90_H5V3J9 Sulfur carrier protein TusA n=2 Tax=Enterobacter...   134   3e-29
+UniRef90_UPI0008898AFC sulfurtransferase n=1 Tax=Vibrio xiamenen...   134   3e-29
+UniRef90_A0A0D8CW87 Sulfur carrier protein TusA n=2 Tax=Thalasso...   134   3e-29
+UniRef90_UPI00041C8065 sulfurtransferase TusA n=1 Tax=Spongiibac...   134   3e-29
+UniRef90_I0QMU5 Sulfur carrier protein TusA n=1 Tax=Serratia sp....   134   3e-29
+UniRef90_A0A1R4B7G4 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   133   3e-29
+UniRef90_UPI0008EE97D3 sulfurtransferase n=1 Tax=Idiomarina mari...   133   3e-29
+UniRef90_A0A1T4SBA6 Sulfur carrier protein TusA n=1 Tax=Vibrio c...   133   3e-29
+UniRef90_U1KL72 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   133   3e-29
+UniRef90_A0A127M5M7 Sulfurtransferase TusA n=2 Tax=Spongiibacter...   133   3e-29
+UniRef90_A0A0M2VEM4 Sulfur carrier protein TusA n=1 Tax=Arsukiba...   133   3e-29
+UniRef90_UPI0005D3C6F1 sulfurtransferase TusA n=1 Tax=Rouxiella ...   133   3e-29
+UniRef90_UPI000479EF1E sulfurtransferase TusA n=1 Tax=Aestuariib...   133   3e-29
+UniRef90_F9QBQ3 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   133   4e-29
+UniRef90_A0A0U4W8F1 Sulfur carrier protein TusA n=2 Tax=Rheinhei...   133   4e-29
+UniRef90_A5F4A1 Sulfur carrier protein TusA n=22 Tax=Vibrio TaxI...   133   4e-29
+UniRef90_L0LXI4 Sulfur carrier protein TusA n=6 Tax=Enterobacter...   133   4e-29
+UniRef90_D8MY83 Sulfur carrier protein TusA n=1 Tax=Erwinia bill...   133   4e-29
+UniRef90_UPI000B34CCCF sulfurtransferase TusA n=1 Tax=Vibrio sp....   133   4e-29
+UniRef90_A0A1J0TIU1 Sulfur carrier protein TusA n=1 Tax=Alteromo...   133   4e-29
+UniRef90_N2JC99 Sulfur carrier protein TusA n=4 Tax=Pseudomonada...   133   5e-29
+UniRef90_J5HLT9 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   133   5e-29
+UniRef90_A0A1A6L0Q1 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   133   5e-29
+UniRef90_A0A1X1CKD0 Sulfur carrier protein TusA n=5 Tax=Gammapro...   133   5e-29
+UniRef90_U3B6M8 Sulfur carrier protein TusA n=5 Tax=Vibrio TaxID...   133   5e-29
+UniRef90_A0A068QWG2 Sulfur carrier protein TusA n=12 Tax=Xenorha...   133   5e-29
+UniRef90_UPI0008AF5881 sulfurtransferase TusA n=1 Tax=Colwellia ...   133   5e-29
+UniRef90_C9QD56 Sulfur carrier protein TusA n=1 Tax=Vibrio orien...   133   5e-29
+UniRef90_A0A0M2V9Y7 Sulfur carrier protein TusA n=2 Tax=Chromati...   133   5e-29
+UniRef90_A0A095SP93 Sulfur carrier protein TusA n=3 Tax=Alcanivo...   133   5e-29
+UniRef90_D4GD73 Sulfur carrier protein TusA n=13 Tax=Pantoea Tax...   133   5e-29
+UniRef90_L8D504 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   133   5e-29
+UniRef90_A0A1M5FKB1 Sulfur carrier protein TusA n=1 Tax=Aestuari...   133   6e-29
+UniRef90_UPI000A16FD53 sulfurtransferase TusA n=1 Tax=Colwellia ...   133   6e-29
+UniRef90_A1SRH7 Sulfur carrier protein TusA n=1 Tax=Psychromonas...   133   6e-29
+UniRef90_A0A1V3H6H3 Sulfur carrier protein TusA n=4 Tax=Salinivi...   133   6e-29
+UniRef90_UPI0003B78770 sulfurtransferase TusA n=1 Tax=Psychromon...   133   6e-29
+UniRef90_A0A126Q5F0 Sulfur carrier protein TusA n=15 Tax=Alterom...   132   6e-29
+UniRef90_K2IYQ2 Sulfur carrier protein TusA n=2 Tax=Gallaecimona...   132   6e-29
+UniRef90_A0A1J0ECQ2 Sulfur carrier protein TusA n=2 Tax=Providen...   132   6e-29
+UniRef90_U3CC40 Sulfur carrier protein TusA n=3 Tax=Vibrio harve...   132   6e-29
+UniRef90_B0URK5 Sulfur carrier protein TusA n=2 Tax=Histophilus ...   132   7e-29
+UniRef90_UPI0003FC8022 sulfurtransferase TusA n=1 Tax=Psychromon...   132   7e-29
+UniRef90_D3VJH1 Sulfur carrier protein TusA n=4 Tax=Xenorhabdus ...   132   7e-29
+UniRef90_UPI000412F5E8 sulfurtransferase TusA n=1 Tax=Pseudoalte...   132   8e-29
+UniRef90_A0A0E2Q4B5 Sulfur carrier protein TusA n=8 Tax=Providen...   132   8e-29
+UniRef90_A0A0F6A847 Sulfur carrier protein TusA n=6 Tax=Pseudoal...   132   8e-29
+UniRef90_A0A1A9EZY9 Sulfur carrier protein TusA n=3 Tax=Marinoba...   132   8e-29
+UniRef90_A0A0H2MS54 Sulfur carrier protein TusA n=11 Tax=Vibrio ...   132   8e-29
+UniRef90_A0A1S1HQB3 Sulfur carrier protein TusA n=1 Tax=Providen...   132   8e-29
+UniRef90_UPI0008BC744F sulfurtransferase n=1 Tax=Pasteurella sky...   132   8e-29
+UniRef90_I1DZV5 Sulfur carrier protein TusA n=4 Tax=Rheinheimera...   132   8e-29
+UniRef90_A0A167CLZ6 Sulfur carrier protein TusA n=3 Tax=Alcanivo...   132   8e-29
+UniRef90_Q7MZZ5 Sulfur carrier protein TusA n=14 Tax=Photorhabdu...   132   9e-29
+UniRef90_UPI0009714478 sulfurtransferase TusA n=1 Tax=Shewanella...   132   9e-29
+UniRef90_A0A0A5I117 Sulfur carrier protein TusA n=2 Tax=Vibrio o...   132   9e-29
+UniRef90_A0A0N1ED14 Sulfur carrier protein TusA n=4 Tax=Pseudoal...   132   9e-29
+UniRef90_UPI0008DA775C sulfurtransferase TusA n=1 Tax=Vibrio son...   132   1e-28
+UniRef90_A0A1N6M7Z6 Sulfur carrier protein TusA n=9 Tax=Vibrio T...   132   1e-28
+UniRef90_A0A1E7ZDK9 Sulfur carrier protein TusA n=1 Tax=Alteromo...   132   1e-28
+UniRef90_UPI0008E8C9B5 sulfurtransferase n=1 Tax=Xenorhabdus kop...   132   1e-28
+UniRef90_A0A0Q0GAW4 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   132   1e-28
+UniRef90_A0A1D8RVU8 Sulfur carrier protein TusA n=1 Tax=Colwelli...   132   1e-28
+UniRef90_UPI000B3CE010 sulfurtransferase TusA n=1 Tax=Neiella ma...   132   1e-28
+UniRef90_A0A1B8HNY8 Sulfur carrier protein TusA n=2 Tax=Morganel...   132   1e-28
+UniRef90_M9X3Z3 Sulfur carrier protein TusA n=6 Tax=Mannheimia h...   132   1e-28
+UniRef90_A0A0T5PH52 Sulfur carrier protein TusA n=3 Tax=Alishewa...   131   1e-28
+UniRef90_UPI00083995FB sulfurtransferase TusA n=1 Tax=Thalassota...   131   1e-28
+UniRef90_E0SFH4 Sulfur carrier protein TusA n=13 Tax=root TaxID=...   131   1e-28
+UniRef90_F7RWA8 Sulfur carrier protein TusA n=1 Tax=Idiomarina s...   131   1e-28
+UniRef90_A0A0F6TS57 Sulfur carrier protein TusA n=2 Tax=Kangiell...   131   1e-28
+UniRef90_UPI0004E1FDAE sulfurtransferase TusA n=1 Tax=Siccibacte...   131   1e-28
+UniRef90_A0A0F2IS42 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   131   1e-28
+UniRef90_A0A085G3E8 Sulfur carrier protein TusA n=1 Tax=Ewingell...   131   1e-28
+UniRef90_UPI0004B359C4 sulfurtransferase TusA n=1 Tax=Enterobact...   131   1e-28
+UniRef90_A0A1J5L1T5 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   131   1e-28
+UniRef90_A0A1T0AZX2 Sulfur carrier protein TusA n=1 Tax=[Haemoph...   131   1e-28
+UniRef90_UPI00048A8CC3 sulfurtransferase TusA n=1 Tax=Spongiibac...   131   1e-28
+UniRef90_Q15MV9 Sulfur carrier protein TusA n=2 Tax=Alteromonada...   131   1e-28
+UniRef90_UPI000836BE9E sulfurtransferase TusA n=1 Tax=Erwinia sp...   131   1e-28
+UniRef90_H3ZEP2 Sulfur carrier protein TusA n=2 Tax=Alishewanell...   131   1e-28
+UniRef90_A0A1J4QHW6 Sulfur carrier protein TusA n=2 Tax=Aeromona...   131   1e-28
+UniRef90_A0A0J8YEY7 Sulfur transfer protein SirA n=2 Tax=Bacteri...   131   1e-28
+UniRef90_A0A140NN87 Sulfur carrier protein TusA n=4 Tax=Providen...   131   1e-28
+UniRef90_A0A0H2QB81 Sulfur carrier protein TusA n=2 Tax=Moellere...   131   2e-28
+UniRef90_UPI0008382330 sulfurtransferase TusA n=1 Tax=Vibrio tri...   131   2e-28
+UniRef90_A0A099L765 Sulfur carrier protein TusA n=2 Tax=Thalasso...   131   2e-28
+UniRef90_A0A1B7UFZ4 Sulfur carrier protein TusA n=1 Tax=Rheinhei...   131   2e-28
+UniRef90_R9PGQ1 Sulfur carrier protein TusA n=1 Tax=Agarivorans ...   131   2e-28
+UniRef90_W8R6J0 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   131   2e-28
+UniRef90_UPI0009709184 sulfurtransferase TusA n=1 Tax=Vibrio ost...   131   2e-28
+UniRef90_UPI0009BE4686 sulfurtransferase TusA n=1 Tax=Colwellia ...   131   2e-28
+UniRef90_A0A077LNT9 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   131   2e-28
+UniRef90_UPI000A172719 sulfurtransferase TusA n=1 Tax=Colwellia ...   131   2e-28
+UniRef90_U4ECT4 Sulfur carrier protein TusA n=4 Tax=Bacteria Tax...   131   2e-28
+UniRef90_A0A0U2ZB68 Sulfur carrier protein TusA n=1 Tax=Lacimicr...   131   2e-28
+UniRef90_UPI00098414FB sulfurtransferase TusA n=1 Tax=Colwellia ...   131   2e-28
+UniRef90_Q2BMU9 Sulfur carrier protein TusA n=1 Tax=Neptuniibact...   131   2e-28
+UniRef90_W0H6H6 Sulfur carrier protein TusA n=1 Tax=Pseudomonas ...   131   2e-28
+UniRef90_A0A1E8FAK8 Sulfur carrier protein TusA n=1 Tax=Alteromo...   131   2e-28
+UniRef90_K8WUS3 Sulfur carrier protein TusA n=1 Tax=Providencia ...   130   2e-28
+UniRef90_UPI00058CB11C sulfurtransferase TusA n=1 Tax=Algicola s...   130   2e-28
+UniRef90_A0A1Y0D0I2 Sulfur carrier protein TusA n=1 Tax=Oceanisp...   130   2e-28
+UniRef90_A0A1V3INH1 Sulfur carrier protein TusA n=2 Tax=Rodentib...   130   2e-28
+UniRef90_A0A089YTW3 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   130   3e-28
+UniRef90_UPI000B8ADAF1 sulfurtransferase TusA n=1 Tax=Pseudomona...   130   3e-28
+UniRef90_K5Z7I8 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   130   3e-28
+UniRef90_UPI000623E7D0 uncharacterized hydrolase C25B8.12c-like ...   130   3e-28
+UniRef90_Q0I5B0 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   130   3e-28
+UniRef90_A0A165QUD7 Sulfur carrier protein TusA n=2 Tax=Halioglo...   130   3e-28
+UniRef90_A0A075P6Q4 Sulfur carrier protein TusA n=1 Tax=Alteromo...   130   3e-28
+UniRef90_A0A136HST3 Sulfur carrier protein TusA n=1 Tax=Alteromo...   130   3e-28
+UniRef90_UPI00097119F0 sulfurtransferase TusA n=1 Tax=Colwellia ...   130   3e-28
+UniRef90_A0A1V3K2P6 Sulfur carrier protein TusA n=4 Tax=Rodentib...   130   3e-28
+UniRef90_A4CDI0 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   130   3e-28
+UniRef90_A0A0B4XQ74 Sulfur carrier protein TusA n=1 Tax=Alcanivo...   130   3e-28
+UniRef90_A6VLN8 Sulfur carrier protein TusA n=1 Tax=Actinobacill...   130   3e-28
+UniRef90_A0A0E1AV94 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   130   3e-28
+UniRef90_Q1I7B2 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   130   3e-28
+UniRef90_UPI000509AB3F sulfurtransferase TusA n=1 Tax=Alteromona...   130   3e-28
+UniRef90_UPI0008835642 sulfurtransferase TusA n=1 Tax=Pseudomona...   130   3e-28
+UniRef90_A0A172WU29 Sulfur carrier protein TusA n=4 Tax=Pseudomo...   130   3e-28
+UniRef90_A0A1V2DXW3 Sulfur carrier protein TusA n=1 Tax=Marinoba...   130   3e-28
+UniRef90_UPI0003FCF9FE sulfurtransferase TusA n=1 Tax=Psychromon...   130   3e-28
+UniRef90_K6Z4P1 Sulfur carrier protein TusA n=1 Tax=Paraglacieco...   130   3e-28
+UniRef90_A0A1Y5GLA2 Sulfur carrier protein TusA n=1 Tax=Gammapro...   130   4e-28
+UniRef90_A0A0X3TTZ4 Sulfur carrier protein TusA n=1 Tax=Microbul...   130   4e-28
+UniRef90_A0A1V3JVM0 Sulfur carrier protein TusA n=8 Tax=Pasteure...   130   4e-28
+UniRef90_A0A1V3KCK0 Sulfur carrier protein TusA n=1 Tax=Rodentib...   130   4e-28
+UniRef90_UPI0006EC1297 sulfurtransferase TusA n=1 Tax=Agarivoran...   130   4e-28
+UniRef90_UPI00082DBCE4 sulfurtransferase TusA n=1 Tax=Endozoicom...   130   4e-28
+UniRef90_UPI00094F87FC sulfurtransferase TusA n=1 Tax=Idiomarina...   130   4e-28
+UniRef90_W0Q7R4 Sulfur carrier protein TusA n=4 Tax=Mannheimia T...   130   4e-28
+UniRef90_A0A147GZ08 Sulfur carrier protein TusA n=8 Tax=Pseudomo...   130   4e-28
+UniRef90_A0A1E5XA36 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   130   4e-28
+UniRef90_D2U2J4 Sulfur carrier protein TusA n=2 Tax=Arsenophonus...   130   5e-28
+UniRef90_A6V7T5 Sulfur carrier protein TusA n=43 Tax=Proteobacte...   130   5e-28
+UniRef90_A0A0C3DME2 Sulfur carrier protein TusA n=3 Tax=Vibrio h...   130   5e-28
+UniRef90_UPI0004757D68 sulfurtransferase TusA n=1 Tax=Salinimona...   130   5e-28
+UniRef90_A0YAX0 Uncharacterized protein n=1 Tax=marine gamma pro...   130   5e-28
+UniRef90_C7R9S2 Sulfur carrier protein TusA n=2 Tax=Kangiella Ta...   130   5e-28
+UniRef90_A0A0F5EZN0 Sulfur carrier protein TusA n=1 Tax=Avibacte...   130   5e-28
+UniRef90_A0A081NFJ6 Sulfur carrier protein TusA n=1 Tax=Endozoic...   130   5e-28
+UniRef90_UPI00037BDD24 sulfurtransferase TusA n=1 Tax=Gayadomona...   130   5e-28
+UniRef90_A0A1J5MCQ2 Sulfur carrier protein TusA n=1 Tax=Gammapro...   130   5e-28
+UniRef90_A0A090IIZ1 Sulfur carrier protein TusA n=1 Tax=Aliivibr...   129   6e-28
+UniRef90_Q0VP90 Sulfur carrier protein TusA n=1 Tax=Alcanivorax ...   129   6e-28
+UniRef90_UPI0004719D3F sulfurtransferase TusA n=2 Tax=Salinivibr...   129   6e-28
+UniRef90_UPI000A3D2537 sulfurtransferase TusA n=2 Tax=Kushneria ...   129   6e-28
+UniRef90_A0A086D863 Sulfur carrier protein TusA n=2 Tax=Gammapro...   129   6e-28
+UniRef90_I3DHP8 Sulfur carrier protein TusA n=3 Tax=Haemophilus ...   129   6e-28
+UniRef90_M4UIQ5 Sulfur carrier protein TusA n=1 Tax=Psychromonas...   129   6e-28
+UniRef90_A0A0K1N0B5 Sulfur carrier protein TusA n=12 Tax=Aggrega...   129   6e-28
+UniRef90_A0A0X8HGB1 Sulfurtransferase TusA n=2 Tax=Halomonas Tax...   129   6e-28
+UniRef90_A0A0C4WIF3 Sulfur carrier protein TusA n=5 Tax=Pseudomo...   129   6e-28
+UniRef90_UPI0003679188 sulfurtransferase TusA n=1 Tax=Halomonas ...   129   6e-28
+UniRef90_UPI0007846667 sulfurtransferase TusA n=1 Tax=Endozoicom...   129   6e-28
+UniRef90_UPI00098595A1 sulfurtransferase TusA n=1 Tax=Colwellia ...   129   6e-28
+UniRef90_H5TAL0 Sulfur carrier protein TusA n=3 Tax=Glaciecola T...   129   6e-28
+UniRef90_A0A0Q4NJK2 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   129   6e-28
+UniRef90_UPI0002EA6B95 sulfurtransferase TusA n=1 Tax=Catenovulu...   129   7e-28
+UniRef90_B6EGT6 Sulfur carrier protein TusA n=3 Tax=Aliivibrio T...   129   7e-28
+UniRef90_A0A0M0M6P4 Sulfur carrier protein TusA n=3 Tax=Rheinhei...   129   7e-28
+UniRef90_A0A1E3MUP2 Sulfur carrier protein TusA n=11 Tax=Saliniv...   129   7e-28
+UniRef90_UPI00082DD4D7 sulfurtransferase TusA n=1 Tax=Alteromona...   129   7e-28
+UniRef90_A0A1X3R772 Sulfur carrier protein TusA n=3 Tax=Lonsdale...   129   7e-28
+UniRef90_A0A0R2ZJR8 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   129   7e-28
+UniRef90_A0A1C9W8S5 Sulfur carrier protein TusA n=2 Tax=Microbul...   129   7e-28
+UniRef90_UPI00088A5557 sulfurtransferase TusA n=1 Tax=Microbulbi...   129   7e-28
+UniRef90_A0A142IRU7 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   129   8e-28
+UniRef90_UPI0009B0D530 sulfurtransferase TusA n=1 Tax=Pasteurell...   129   8e-28
+UniRef90_A0A0F4NVF7 Sulfur carrier protein TusA n=5 Tax=Pseudoal...   129   8e-28
+UniRef90_A0A0J8JNQ1 Sulfur carrier protein TusA n=1 Tax=Catenovu...   129   8e-28
+UniRef90_A0A061CTJ0 Sulfur carrier protein TusA n=19 Tax=Pseudom...   129   8e-28
+UniRef90_Q9CKV9 Sulfur carrier protein TusA n=11 Tax=Pasteurella...   129   8e-28
+UniRef90_A0A0K6H9K1 Sulfur carrier protein TusA n=2 Tax=Idiomari...   129   9e-28
+UniRef90_A0A143HR01 Preprotein translocase subunit TatC n=2 Tax=...   129   9e-28
+UniRef90_A0A011P7H7 Sulfur carrier protein TusA n=1 Tax=Mannheim...   129   9e-28
+UniRef90_A0A1G3E511 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   129   9e-28
+UniRef90_A0A1H1NTE3 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   128   9e-28
+UniRef90_A0A1E7Q270 Sulfur carrier protein TusA n=1 Tax=Rheinhei...   128   9e-28
+UniRef90_A0A1M7YS89 Sulfur carrier protein TusA n=2 Tax=Vibrio T...   128   1e-27
+UniRef90_A0A1H5Y568 tRNA 2-thiouridine synthesizing protein A n=...   128   1e-27
+UniRef90_UPI000B4AC79A sulfurtransferase TusA n=1 Tax=Lacimicrob...   128   1e-27
+UniRef90_Q5QXH9 Sulfur carrier protein TusA n=7 Tax=Idiomarina T...   128   1e-27
+UniRef90_A0A1H5UEV8 Sulfurtransferase TusA n=1 Tax=Pseudomonas a...   128   1e-27
+UniRef90_UPI0008E3F39D sulfurtransferase n=1 Tax=Pseudomonas bor...   128   1e-27
+UniRef90_A0A1Y6E6J3 Sulfur carrier protein TusA n=1 Tax=Idiomari...   128   1e-27
+UniRef90_A0A1H4EP93 Sulfur carrier protein TusA n=1 Tax=Lonsdale...   128   1e-27
+UniRef90_UPI0008E2989C sulfurtransferase TusA n=1 Tax=Marinobact...   128   1e-27
+UniRef90_UPI0003770373 sulfurtransferase TusA n=1 Tax=Pseudomona...   128   1e-27
+UniRef90_UPI000B351C72 sulfurtransferase TusA n=1 Tax=Thaumasiov...   128   1e-27
+UniRef90_A0A0J6JAY1 Sulfur carrier protein TusA n=9 Tax=Pseudomo...   128   1e-27
+UniRef90_A0A0M9GGD0 Sulfur carrier protein TusA n=6 Tax=Pseudomo...   128   1e-27
+UniRef90_A0A1D2X5I5 Sulfur carrier protein TusA n=1 Tax=Endozoic...   128   1e-27
+UniRef90_K6XIN6 Sulfur carrier protein TusA n=2 Tax=Alteromonada...   128   1e-27
+UniRef90_A0A0H2LNW1 Sulfur carrier protein TusA n=1 Tax=Providen...   128   1e-27
+UniRef90_UPI000492E80E sulfurtransferase TusA n=1 Tax=Glaciecola...   128   1e-27
+UniRef90_UPI0006676CFD sulfurtransferase TusA n=1 Tax=Pasteurell...   128   1e-27
+UniRef90_A0A139CE92 Sulfur carrier protein TusA n=1 Tax=Halomona...   128   1e-27
+UniRef90_A0A0K6ILM3 Sulfur carrier protein TusA n=2 Tax=Marinomo...   128   1e-27
+UniRef90_A0A072NGB4 tRNA 5-methylaminomethyl-2-thiouridine synth...   128   1e-27
+UniRef90_UPI0008EC9827 TusA-like sulfurtransferase n=1 Tax=Kushn...   128   1e-27
+UniRef90_P44841 Sulfur carrier protein TusA n=35 Tax=Bacteria Ta...   128   2e-27
+UniRef90_A0A105TBM0 Sulfur carrier protein TusA n=4 Tax=Gammapro...   128   2e-27
+UniRef90_Q48AT8 Sulfur carrier protein TusA n=6 Tax=Colwellia Ta...   128   2e-27
+UniRef90_I4N0T2 Sulfur carrier protein TusA n=2 Tax=Gammaproteob...   128   2e-27
+UniRef90_UPI0004772196 sulfurtransferase TusA n=1 Tax=Microbulbi...   128   2e-27
+UniRef90_UPI0009321598 sulfurtransferase TusA n=1 Tax=Candidatus...   128   2e-27
+UniRef90_A0A142BEX1 Sulfur carrier protein TusA n=3 Tax=Endozoic...   128   2e-27
+UniRef90_W7QQY7 Sulfur carrier protein TusA n=1 Tax=Catenovulum ...   128   2e-27
+UniRef90_H0J3B8 SirA protein n=1 Tax=Halomonas sp. GFAJ-1 TaxID=...   128   2e-27
+UniRef90_UPI0006ACA612 sulfurtransferase TusA n=1 Tax=Yersinia p...   128   2e-27
+UniRef90_UPI000B89E51F sulfurtransferase TusA n=1 Tax=Pseudomona...   127   2e-27
+UniRef90_A0A1J0VD51 Sulfurtransferase TusA n=2 Tax=Halomonas Tax...   127   2e-27
+UniRef90_A0A0B2D7U1 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   127   2e-27
+UniRef90_A0A1V4AYP4 Sulfur carrier protein TusA n=1 Tax=Haemophi...   127   2e-27
+UniRef90_UPI00096A9960 sulfurtransferase TusA n=1 Tax=Halomonas ...   127   2e-27
+UniRef90_A0A1Z3IQW9 Sulfurtransferase TusA n=2 Tax=Pseudomonas T...   127   2e-27
+UniRef90_UPI00096B8C60 sulfurtransferase TusA n=1 Tax=Halioglobu...   127   3e-27
+UniRef90_F6AIS5 Sulfur carrier protein TusA n=10 Tax=Pseudomonas...   127   3e-27
+UniRef90_F0LQ54 Sulfur carrier protein TusA n=4 Tax=Vibrio TaxID...   127   3e-27
+UniRef90_A0A094IQF5 Sulfur carrier protein TusA n=1 Tax=Idiomari...   127   3e-27
+UniRef90_A0A0T6UPJ5 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   127   3e-27
+UniRef90_Q4KFD3 Sulfur carrier protein TusA n=115 Tax=Pseudomona...   127   3e-27
+UniRef90_Q7VNY2 Sulfur carrier protein TusA n=2 Tax=Haemophilus ...   127   3e-27
+UniRef90_A0A094IYM1 Sulfur carrier protein TusA n=1 Tax=Idiomari...   127   3e-27
+UniRef90_S6GM21 Sulfur carrier protein TusA n=2 Tax=Bacteria Tax...   127   3e-27
+UniRef90_A0A0L7ZFM9 Sulfur carrier protein TusA n=6 Tax=Vibrio T...   127   3e-27
+UniRef90_A0A1H1SDJ9 tRNA 2-thiouridine synthesizing protein A n=...   127   3e-27
+UniRef90_UPI000404373A sulfurtransferase TusA n=1 Tax=Zooshikell...   127   3e-27
+UniRef90_A0A0X1T103 Sulfur carrier protein TusA n=5 Tax=Pseudomo...   127   3e-27
+UniRef90_S6ATW2 Sulfur carrier protein TusA n=19 Tax=Pseudomonas...   127   3e-27
+UniRef90_UPI00083A4956 sulfurtransferase TusA n=1 Tax=Pseudomona...   127   3e-27
+UniRef90_A0A1G9RE03 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   127   3e-27
+UniRef90_A0A196Q679 Sulfur carrier protein TusA n=3 Tax=Marinoba...   127   3e-27
+UniRef90_A0A1S1NWJ5 Sulfur carrier protein TusA n=1 Tax=Kushneri...   127   3e-27
+UniRef90_UPI0008DEC5D9 TusA-like sulfurtransferase n=1 Tax=Halom...   126   3e-27
+UniRef90_A0A1X1MVE0 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   126   4e-27
+UniRef90_UPI0003FE1856 sulfurtransferase TusA n=1 Tax=Psychromon...   126   4e-27
+UniRef90_UPI0008845303 sulfurtransferase TusA n=1 Tax=Pseudomona...   126   4e-27
+UniRef90_A0A0D1NJS7 Sulfur carrier protein TusA n=7 Tax=Pseudomo...   126   4e-27
+UniRef90_A0A0P7XVT6 Sulfur carrier protein TusA n=1 Tax=Idiomari...   126   4e-27
+UniRef90_A0A023WTI4 Sulfur carrier protein TusA n=16 Tax=Pseudom...   126   4e-27
+UniRef90_F5ZGA7 Sulfur carrier protein TusA n=4 Tax=Alteromonas ...   126   4e-27
+UniRef90_A0A139DEQ2 Sulfur carrier protein TusA n=2 Tax=Marinoba...   126   4e-27
+UniRef90_A0A0H3Z0B8 Sulfur carrier protein TusA n=8 Tax=Bacteria...   126   4e-27
+UniRef90_A0A1B9LE31 Sulfur carrier protein TusA n=1 Tax=Gilliame...   126   4e-27
+UniRef90_UPI0005BC7741 sulfurtransferase TusA n=1 Tax=Pseudomona...   126   4e-27
+UniRef90_A0A0F7Y8Z3 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   126   4e-27
+UniRef90_A0A081KEF3 Sulfurtransferase n=1 Tax=Endozoicomonas ely...   126   4e-27
+UniRef90_K6ZJ16 Sulfur carrier protein TusA n=1 Tax=Glaciecola p...   126   5e-27
+UniRef90_A0A1A8TIM3 Sulfur carrier protein TusA n=1 Tax=Marinomo...   126   5e-27
+UniRef90_UPI0003F50249 sulfurtransferase TusA n=1 Tax=Haliea sal...   126   5e-27
+UniRef90_A0A136A5K3 Sulfur carrier protein TusA n=1 Tax=Paraglac...   126   5e-27
+UniRef90_A0A1X7AIC3 Sulfur carrier protein TusA n=1 Tax=Endozoic...   126   5e-27
+UniRef90_A0A0F9XX30 Uncharacterized protein n=1 Tax=marine sedim...   126   5e-27
+UniRef90_K6X8R3 Sulfur carrier protein TusA n=2 Tax=Paraglacieco...   126   5e-27
+UniRef90_A0A0P9B0T4 Sulfur carrier protein TusA n=1 Tax=Psychrom...   126   5e-27
+UniRef90_UPI000409A2FD sulfurtransferase TusA n=2 Tax=Neptunomon...   126   5e-27
+UniRef90_U7GDA9 Sulfur carrier protein TusA n=2 Tax=Marinobacter...   126   5e-27
+UniRef90_A0A0K1XAX5 Sulfur carrier protein TusA n=2 Tax=Oblitimo...   126   6e-27
+UniRef90_A0A0A7JLG5 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   126   6e-27
+UniRef90_UPI00042A694F sulfurtransferase TusA n=1 Tax=Halomonas ...   126   6e-27
+UniRef90_A0A0X8BYM3 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   126   6e-27
+UniRef90_UPI00041166F0 sulfurtransferase TusA n=1 Tax=Pseudomona...   126   6e-27
+UniRef90_B1J5D6 Sulfur carrier protein TusA n=53 Tax=Gammaproteo...   126   6e-27
+UniRef90_F3KBT4 tRNA 5-methylaminomethyl-2-thiouridine synthase ...   126   6e-27
+UniRef90_UPI0003662A48 sulfurtransferase TusA n=1 Tax=Kushneria ...   126   6e-27
+UniRef90_K0CFF3 Sulfur carrier protein TusA n=4 Tax=Alcanivorax ...   126   6e-27
+UniRef90_A0A177SMK8 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   126   6e-27
+UniRef90_A0A098RGQ5 Sulfurtransferase n=2 Tax=Halomonas TaxID=27...   126   6e-27
+UniRef90_A0A143WTJ1 Sulfur carrier protein TusA n=1 Tax=Candidat...   126   6e-27
+UniRef90_A0A1Q8SYJ9 Sulfurtransferase TusA n=1 Tax=Salinicola sp...   126   7e-27
+UniRef90_A0A0D0NB57 Sulfur carrier protein TusA n=9 Tax=Pseudomo...   126   7e-27
+UniRef90_W9UQ15 Sulfur carrier protein TusA n=1 Tax=Nitrincola n...   126   7e-27
+UniRef90_C3K5G5 Sulfur carrier protein TusA n=81 Tax=Pseudomonad...   126   7e-27
+UniRef90_U7P0B3 Uncharacterized protein n=1 Tax=Halomonas sp. PB...   126   7e-27
+UniRef90_UPI0008E68668 TusA-like sulfurtransferase n=1 Tax=Marin...   126   8e-27
+UniRef90_A4BHZ4 Uncharacterized protein n=1 Tax=Reinekea blanden...   125   8e-27
+UniRef90_A0A099PDK1 Sulfur carrier protein TusA n=1 Tax=Nitrinco...   125   8e-27
+UniRef90_A0A1Q8SUD8 Sulfurtransferase TusA n=1 Tax=Salinicola so...   125   8e-27
+UniRef90_A0A1H2F2N8 tRNA 2-thiouridine synthesizing protein A n=...   125   8e-27
+UniRef90_A0A0D0MCW5 Sulfur carrier protein TusA n=7 Tax=Pseudomo...   125   8e-27
+UniRef90_G6YVT6 SirA family protein n=1 Tax=Marinobacter mangano...   125   8e-27
+UniRef90_A0A1Y5CYZ1 Sulfur carrier protein TusA n=1 Tax=Colwelli...   125   9e-27
+UniRef90_UPI000B35210A sulfurtransferase TusA n=1 Tax=Thaumasiov...   125   9e-27
+UniRef90_A0A1E4V331 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   125   9e-27
+UniRef90_W5YMG8 Sulfur carrier protein TusA n=1 Tax=Marinobacter...   125   9e-27
+UniRef90_A0A1M4WXZ0 tRNA 2-thiouridine synthesizing protein A n=...   125   9e-27
+UniRef90_A0A085UNT5 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   125   9e-27
+UniRef90_A0A1B9K8Q7 Sulfur carrier protein TusA n=2 Tax=Gilliame...   125   1e-26
+UniRef90_A0A060B9K1 Sulfurtransferase n=5 Tax=Halomonas TaxID=27...   125   1e-26
+UniRef90_UPI0008ED1B3E sulfurtransferase TusA n=1 Tax=Marinobact...   125   1e-26
+UniRef90_K6X6L6 Sulfur carrier protein TusA n=1 Tax=Aliiglacieco...   125   1e-26
+UniRef90_A0A0Q5EEM9 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   125   1e-26
+UniRef90_UPI0003FE4661 sulfurtransferase TusA n=2 Tax=Aliagarivo...   125   1e-26
+UniRef90_A0A143WSQ9 Sulfur carrier protein TusA n=1 Tax=Candidat...   125   1e-26
+UniRef90_A0A1B9MSP1 Sulfur carrier protein TusA n=2 Tax=Gilliame...   125   1e-26
+UniRef90_UPI00058F0FBB sulfurtransferase TusA n=1 Tax=Halomonas ...   125   1e-26
+UniRef90_A0A1Y1R618 Sulfur carrier protein TusA n=1 Tax=Oceanosp...   125   1e-26
+UniRef90_M7CPV0 Sulfur carrier protein TusA n=1 Tax=Marinobacter...   125   1e-26
+UniRef90_A0A147GAY4 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   125   1e-26
+UniRef90_UPI000A1740D0 sulfurtransferase TusA n=1 Tax=Colwellia ...   125   1e-26
+UniRef90_A0A078MJ38 Sulfur transfer protein SirA n=1 Tax=Pseudom...   125   1e-26
+UniRef90_UPI0003A323B1 sulfurtransferase TusA n=1 Tax=Pseudomona...   125   1e-26
+UniRef90_UPI0008EACBE0 TusA-like sulfurtransferase n=1 Tax=Pseud...   125   1e-26
+UniRef90_A0A089YIE3 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   124   1e-26
+UniRef90_A0A1E2V9W1 Sulfurtransferase TusA n=1 Tax=Terasakiispir...   124   1e-26
+UniRef90_UPI0003B4B9A5 sulfurtransferase TusA n=1 Tax=Pseudomona...   124   1e-26
+UniRef90_UPI0004DB6DC0 sulfurtransferase TusA n=1 Tax=Halomonas ...   124   1e-26
+UniRef90_A0A1H1SNU7 tRNA 2-thiouridine synthesizing protein A n=...   124   1e-26
+UniRef90_A0A1N6PXB5 tRNA 2-thiouridine synthesizing protein A n=...   124   1e-26
+UniRef90_UPI00088045D4 sulfurtransferase n=1 Tax=Pseudomonas ben...   124   1e-26
+UniRef90_A0A136HLQ7 Preprotein translocase subunit TatC n=1 Tax=...   124   2e-26
+UniRef90_UPI0003F72A06 sulfurtransferase TusA n=1 Tax=Idiomarina...   124   2e-26
+UniRef90_A0A0K1U4W3 Sulfur carrier protein TusA n=3 Tax=Marinoba...   124   2e-26
+UniRef90_A0A1V3JGP3 Sulfur carrier protein TusA n=1 Tax=Rodentib...   124   2e-26
+UniRef90_A0A0P8WKM5 Sulfur carrier protein TusA n=14 Tax=Pseudom...   124   2e-26
+UniRef90_A0A1G0JJ96 Sulfurtransferase TusA n=1 Tax=Gammaproteoba...   124   2e-26
+UniRef90_A0A085DUY4 Sulfurtransferase n=1 Tax=Halomonas sp. SUBG...   124   2e-26
+UniRef90_A0A031M1Q3 Sulfurtransferase n=1 Tax=Pseudomonas bauzan...   124   2e-26
+UniRef90_A0A1V0B5W4 Sulfurtransferase TusA n=1 Tax=Pseudomonas s...   124   2e-26
+UniRef90_UPI000371DC5D sulfurtransferase TusA n=1 Tax=Hahella ga...   124   2e-26
+UniRef90_UPI000484559F sulfurtransferase TusA n=1 Tax=Marinobact...   124   2e-26
+UniRef90_A0A0F7M6I5 Putative redox protein, regulator of disulfi...   124   2e-26
+UniRef90_A0A0N8R1J6 Sulfur carrier protein TusA n=19 Tax=Pseudom...   124   2e-26
+UniRef90_A0A1Q8TED5 Sulfurtransferase TusA n=2 Tax=Chromohalobac...   124   2e-26
+UniRef90_A0A165SB94 Uncharacterized protein n=1 Tax=Oleiphilus s...   124   2e-26
+UniRef90_A0A1D9GIF0 Sulfurtransferase TusA n=1 Tax=Marinobacter ...   124   2e-26
+UniRef90_A0A0M3CNB2 Sulfur carrier protein TusA n=13 Tax=Pseudom...   124   2e-26
+UniRef90_UPI0009340199 sulfurtransferase TusA n=1 Tax=Candidatus...   124   2e-26
+UniRef90_UPI000411CBAF sulfurtransferase TusA n=1 Tax=Marinobact...   124   2e-26
+UniRef90_UPI0009489ECC sulfurtransferase TusA n=1 Tax=Alteromona...   124   2e-26
+UniRef90_A0A1C3JU81 Sulfur carrier protein TusA n=3 Tax=Marinomo...   124   2e-26
+UniRef90_UPI000831E85B sulfurtransferase TusA n=1 Tax=Neptuniiba...   124   2e-26
+UniRef90_A0A176H230 Uncharacterized protein n=2 Tax=Oleiphilus T...   124   3e-26
+UniRef90_A0A0B1PS03 Sulfurtransferase n=2 Tax=Halomonas TaxID=27...   124   3e-26
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_G8LJ55 Sulfur carrier protein TusA n=21 Tax=Proteobacteria TaxID=1224
+           RepID=G8LJ55_ENTCL
+          Length = 111
+
+ Score =  148 bits (374), Expect = 2e-33,   Method: Composition-based stats.
+ Identities = 64/71 (90%), Positives = 68/71 (95%)
+
+Query: 1   HTLDALGLRCPEPVMMVRKTVRNMQPGETLLIIADDPATTRDIPGFCTFMEHELVAKETD 60
+           HTLDA GLRCPEPVMMVRKTVRNMQ GETLLIIADDPATTRDIPGFCTFMEHELVA++T+
+Sbjct: 41  HTLDAQGLRCPEPVMMVRKTVRNMQTGETLLIIADDPATTRDIPGFCTFMEHELVAQQTE 100
+
+Query: 61  GLPYRYLIRKG 71
+            LPYRY+IRKG
+Sbjct: 101 TLPYRYVIRKG 111
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_G8LJ55 Sulfur carrier protein TusA n=21 Tax=Proteobacte...   148   1e-33
+UniRef90_E1SUL9 Sulfur carrier protein TusA n=1 Tax=Ferrimonas b...   146   7e-33
+UniRef90_A0A1M5ZIB4 Sulfur carrier protein TusA n=1 Tax=Ferrimon...   144   1e-32
+UniRef90_D2ZIY0 Sulfur carrier protein TusA n=2 Tax=Enterobacter...   144   2e-32
+UniRef90_C4L772 Sulfur carrier protein TusA n=2 Tax=Tolumonas Ta...   143   6e-32
+UniRef90_A0A0G3QFX2 Sulfur carrier protein TusA n=6 Tax=Enteroba...   142   7e-32
+UniRef90_A0A085A2K1 Sulfur carrier protein TusA n=26 Tax=Enterob...   142   7e-32
+UniRef90_A0A0A3B292 Sulfur carrier protein TusA n=9 Tax=Gallibac...   142   8e-32
+UniRef90_UPI00037F45DE sulfurtransferase TusA n=1 Tax=Pantoea sp...   142   8e-32
+UniRef90_UPI0003FF10E6 sulfurtransferase TusA n=1 Tax=Ferrimonas...   142   9e-32
+UniRef90_A0A1S2TR22 Sulfur carrier protein TusA n=2 Tax=Shewanel...   142   1e-31
+UniRef90_A0A126VE32 Sulfur carrier protein TusA n=4 Tax=Serratia...   142   1e-31
+UniRef90_Q65W80 Sulfur carrier protein TusA n=1 Tax=Mannheimia s...   141   1e-31
+UniRef90_UPI00063C9406 sulfurtransferase TusA n=1 Tax=Vibrio mex...   141   1e-31
+UniRef90_A0A1X1ECD7 Sulfur carrier protein TusA n=6 Tax=Erwiniac...   141   2e-31
+UniRef90_A0A1A9B0L5 Sulfur carrier protein TusA n=3 Tax=Plesiomo...   141   2e-31
+UniRef90_A0A1E5IU67 Sulfur carrier protein TusA n=1 Tax=Shewanel...   141   2e-31
+UniRef90_UPI00088A927F sulfurtransferase TusA n=1 Tax=Idiomarina...   141   2e-31
+UniRef90_A0A1E5CF86 Sulfur carrier protein TusA n=3 Tax=Enterovi...   140   2e-31
+UniRef90_A0A1T4VFJ5 Sulfur carrier protein TusA n=2 Tax=Enterovi...   140   3e-31
+UniRef90_A0A034TXG1 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   140   3e-31
+UniRef90_A0A1A7NUU1 Sulfur carrier protein TusA n=4 Tax=Gallibac...   140   3e-31
+UniRef90_A0A085JP92 Sulfur carrier protein TusA n=1 Tax=Tatumell...   140   3e-31
+UniRef90_UPI0004750422 sulfurtransferase TusA n=1 Tax=Enterobact...   140   3e-31
+UniRef90_A0A0J5P5J6 Sulfur carrier protein TusA n=1 Tax=Muribact...   140   3e-31
+UniRef90_A0A1X1EPQ5 Sulfur carrier protein TusA n=1 Tax=Pantoea ...   140   3e-31
+UniRef90_A0A095UYV9 Sulfur carrier protein TusA n=2 Tax=Tatumell...   140   4e-31
+UniRef90_A0A0A7ECG6 Sulfur carrier protein TusA n=3 Tax=Pseudoal...   140   4e-31
+UniRef90_A0A1V3TV68 Sulfur carrier protein TusA n=1 Tax=Pasteure...   140   4e-31
+UniRef90_A3Q8U0 Sulfur carrier protein TusA n=8 Tax=Shewanellace...   140   4e-31
+UniRef90_D2TKT0 Sulfur carrier protein TusA n=16 Tax=Enterobacte...   140   4e-31
+UniRef90_A0A085HCN6 Sulfur carrier protein TusA n=1 Tax=Leminore...   140   4e-31
+UniRef90_A0A1X1DF90 Sulfur carrier protein TusA n=15 Tax=Enterob...   139   4e-31
+UniRef90_A0A0F6RGP8 Sulfur carrier protein TusA n=14 Tax=Enterob...   139   5e-31
+UniRef90_I2B458 Sulfur carrier protein TusA n=1 Tax=Shimwellia b...   139   5e-31
+UniRef90_A0A1E5C1L4 Sulfur carrier protein TusA n=2 Tax=Enterovi...   139   5e-31
+UniRef90_A0A135IDC8 Sulfur carrier protein TusA n=7 Tax=Vibriona...   139   5e-31
+UniRef90_UPI000B87BD88 sulfurtransferase TusA n=2 Tax=Ferrimonas...   139   5e-31
+UniRef90_A7MHB0 Sulfur carrier protein TusA n=22 Tax=Enterobacte...   139   5e-31
+UniRef90_UPI0003656A69 sulfurtransferase TusA n=1 Tax=Psychromon...   139   5e-31
+UniRef90_B5XTL8 Sulfur carrier protein TusA n=63 Tax=Gammaproteo...   139   5e-31
+UniRef90_A0A090VW36 Sulfur carrier protein TusA n=2 Tax=Enteroba...   139   5e-31
+UniRef90_B1KCY7 Sulfur carrier protein TusA n=2 Tax=Shewanella T...   139   5e-31
+UniRef90_A0A0J8XVI5 Sulfur carrier protein TusA n=2 Tax=Photobac...   139   5e-31
+UniRef90_A0A089PIP6 Sulfur carrier protein TusA n=2 Tax=Pluralib...   139   5e-31
+UniRef90_UPI000422138B sulfurtransferase TusA n=1 Tax=Ferrimonas...   139   6e-31
+UniRef90_A0KEK5 Sulfur carrier protein TusA n=57 Tax=Aeromonadac...   139   6e-31
+UniRef90_UPI00056EA952 sulfurtransferase TusA n=1 Tax=Vibrio pac...   139   7e-31
+UniRef90_Q2NWX1 Sulfur carrier protein TusA n=6 Tax=Sodalis TaxI...   139   7e-31
+UniRef90_UPI0003671A11 sulfurtransferase TusA n=1 Tax=Oceanimona...   139   8e-31
+UniRef90_A4WFQ2 Sulfur carrier protein TusA n=16 Tax=Enterobacte...   139   8e-31
+UniRef90_UPI0005A8E371 sulfurtransferase TusA n=1 Tax=Aeromonas ...   139   8e-31
+UniRef90_A8G875 Sulfur carrier protein TusA n=36 Tax=cellular or...   139   9e-31
+UniRef90_UPI000933BBC3 sulfurtransferase TusA n=1 Tax=Nissabacte...   138   1e-30
+UniRef90_A0A0L0AVC7 Sulfur carrier protein TusA n=1 Tax=Klebsiel...   138   1e-30
+UniRef90_A0A1C2E610 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   138   1e-30
+UniRef90_E1SHG0 Sulfur carrier protein TusA n=10 Tax=Pantoea Tax...   138   1e-30
+UniRef90_A0A1C3EFM4 Sulfur carrier protein TusA n=1 Tax=Enterovi...   138   1e-30
+UniRef90_UPI00046F435B sulfurtransferase TusA n=1 Tax=Shewanella...   138   1e-30
+UniRef90_A0A1N6YLS1 Sulfur carrier protein TusA n=1 Tax=Aeromona...   138   1e-30
+UniRef90_A7FDA1 Sulfur carrier protein TusA n=14 Tax=Yersinia Ta...   138   1e-30
+UniRef90_UPI0005AA4C04 sulfurtransferase TusA n=1 Tax=Vibrio dia...   138   1e-30
+UniRef90_Q5E8Y2 Sulfur carrier protein TusA n=4 Tax=Aliivibrio T...   138   1e-30
+UniRef90_UPI000595FD2C sulfurtransferase TusA n=2 Tax=Pasteurell...   138   1e-30
+UniRef90_UPI0009490FDB sulfurtransferase TusA n=1 Tax=Pantoea sp...   138   1e-30
+UniRef90_B8F8H4 Sulfur carrier protein TusA n=8 Tax=Haemophilus ...   138   1e-30
+UniRef90_Q57IP9 Sulfur carrier protein TusA n=78 Tax=Salmonella ...   138   1e-30
+UniRef90_A0A0A0SW95 Sulfur carrier protein TusA n=5 Tax=Vibrio T...   138   1e-30
+UniRef90_U7FMA1 Sulfur carrier protein TusA n=2 Tax=Alcanivorax ...   138   1e-30
+UniRef90_A0A0D8PBE5 Sulfur carrier protein TusA n=11 Tax=Photoba...   138   1e-30
+UniRef90_A0A0L7T6L7 Sulfur carrier protein TusA n=2 Tax=Erwinia ...   138   2e-30
+UniRef90_A0A1B7HK18 Sulfur carrier protein TusA n=7 Tax=Buttiaux...   138   2e-30
+UniRef90_A0A1S8YJZ6 Sulfur carrier protein TusA n=2 Tax=Izhakiel...   138   2e-30
+UniRef90_B7VGL0 Sulfur carrier protein TusA n=32 Tax=Vibrio TaxI...   138   2e-30
+UniRef90_A0A0W7TWS9 Sulfur carrier protein TusA n=2 Tax=Aeromona...   138   2e-30
+UniRef90_A0A085U6I1 Sulfur carrier protein TusA n=3 Tax=Yersinia...   138   2e-30
+UniRef90_M4R6V6 Sulfur carrier protein TusA n=3 Tax=Bibersteinia...   138   2e-30
+UniRef90_UPI0007F952C0 sulfurtransferase TusA n=1 Tax=Photobacte...   138   2e-30
+UniRef90_A0A1D8MU18 Sulfur carrier protein TusA n=1 Tax=Edwardsi...   138   2e-30
+UniRef90_A1S1I5 Sulfur carrier protein TusA n=2 Tax=Shewanella a...   138   2e-30
+UniRef90_UPI0006D0AD69 sulfurtransferase TusA n=1 Tax=Photobacte...   138   2e-30
+UniRef90_UPI00054FAD13 sulfurtransferase TusA n=1 Tax=Erwinia Ta...   138   2e-30
+UniRef90_A0A0D5X098 Sulfur carrier protein TusA n=2 Tax=Enteroba...   138   2e-30
+UniRef90_A0A0A3AM89 Sulfur carrier protein TusA n=1 Tax=Chelonob...   138   2e-30
+UniRef90_A0A0S2JWQ7 Sulfur carrier protein TusA n=3 Tax=Pseudoal...   138   2e-30
+UniRef90_A0A1X1F8J8 Sulfur carrier protein TusA n=2 Tax=Pantoea ...   138   2e-30
+UniRef90_A0A1E5CYH0 Sulfur carrier protein TusA n=1 Tax=Vibrio g...   138   2e-30
+UniRef90_A0A1T4UWV6 Sulfur carrier protein TusA n=3 Tax=Photobac...   138   2e-30
+UniRef90_A0A0U3I6R7 Sulfur carrier protein TusA n=5 Tax=Pseudoal...   138   2e-30
+UniRef90_UPI000405BBDF sulfurtransferase TusA n=1 Tax=Budvicia a...   137   2e-30
+UniRef90_A0A090IHX6 Sulfur carrier protein TusA n=5 Tax=Moritell...   137   2e-30
+UniRef90_A0A1X2QTK2 Sulfur carrier protein TusA n=14 Tax=Salmone...   137   2e-30
+UniRef90_R9VRW3 Sulfur carrier protein TusA n=12 Tax=Enterobacte...   137   2e-30
+UniRef90_Q6LW10 Sulfur carrier protein TusA n=3 Tax=Photobacteri...   137   2e-30
+UniRef90_UPI00041C7F5C sulfurtransferase TusA n=1 Tax=Photobacte...   137   2e-30
+UniRef90_D4ZD96 Sulfur carrier protein TusA n=7 Tax=Shewanella T...   137   2e-30
+UniRef90_A0A095S7I4 Sulfur carrier protein TusA n=4 Tax=Alcanivo...   137   3e-30
+UniRef90_UPI0005AAB690 sulfurtransferase TusA n=1 Tax=Pseudoalte...   137   3e-30
+UniRef90_A0A0Q4MN51 Sulfur carrier protein TusA n=2 Tax=Yersinia...   137   3e-30
+UniRef90_A0A0M9FCN8 Sulfur carrier protein TusA n=7 Tax=Photobac...   137   3e-30
+UniRef90_A0A0K0HTV2 Sulfur carrier protein TusA n=9 Tax=Enteroba...   137   3e-30
+UniRef90_A0A0M2KGN0 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   137   3e-30
+UniRef90_UPI0008982992 sulfurtransferase n=1 Tax=Alkalimonas amy...   137   3e-30
+UniRef90_A0A1W1V7E9 Sulfur carrier protein TusA n=1 Tax=Pasteure...   137   3e-30
+UniRef90_UPI000B8BC474 sulfurtransferase TusA n=1 Tax=Zobellella...   137   3e-30
+UniRef90_Q87TP4 Sulfur carrier protein TusA n=52 Tax=Vibrio TaxI...   136   4e-30
+UniRef90_Q12TB6 Sulfur carrier protein TusA n=1 Tax=Shewanella d...   136   4e-30
+UniRef90_A0A1X0WFM2 Sulfur carrier protein TusA n=1 Tax=Rouxiell...   136   4e-30
+UniRef90_A0A014Q0Y9 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   136   4e-30
+UniRef90_A0A1T0AV58 Sulfur carrier protein TusA n=1 Tax=Haemophi...   136   4e-30
+UniRef90_A0A090R0I9 Sulfur carrier protein TusA n=1 Tax=Photobac...   136   4e-30
+UniRef90_A0A0B9GJ53 Sulfur carrier protein TusA n=1 Tax=Photobac...   136   4e-30
+UniRef90_Q3IJ25 Sulfur carrier protein TusA n=24 Tax=root TaxID=...   136   4e-30
+UniRef90_H2IWM0 Sulfur carrier protein TusA n=5 Tax=Yersiniaceae...   136   4e-30
+UniRef90_A0A0G3CLR0 Sulfur carrier protein TusA n=1 Tax=Pragia f...   136   4e-30
+UniRef90_A0A085I076 Sulfur carrier protein TusA n=2 Tax=Enteroba...   136   5e-30
+UniRef90_I3DEU3 Sulfur carrier protein TusA n=1 Tax=Pasteurella ...   136   5e-30
+UniRef90_A0A1E5BFW6 Sulfur carrier protein TusA n=2 Tax=Vibrio g...   136   5e-30
+UniRef90_UPI0007E409EB sulfurtransferase TusA n=1 Tax=Yersinia e...   136   5e-30
+UniRef90_C5B9A2 Sulfur carrier protein TusA n=8 Tax=Edwardsiella...   136   5e-30
+UniRef90_A0A1Q6CMB1 Sulfur carrier protein TusA n=1 Tax=Thalasso...   136   5e-30
+UniRef90_A1JIB4 Sulfur carrier protein TusA n=43 Tax=Yersiniacea...   136   5e-30
+UniRef90_Q8EKS1 Sulfur carrier protein TusA n=21 Tax=Shewanellac...   136   5e-30
+UniRef90_A0A0J1GZH7 Sulfur carrier protein TusA n=3 Tax=Photobac...   136   5e-30
+UniRef90_B2VJN9 Sulfur carrier protein TusA n=6 Tax=Erwinia TaxI...   136   6e-30
+UniRef90_F9T2D8 Sulfur carrier protein TusA n=17 Tax=Vibrionales...   136   6e-30
+UniRef90_A0A084TGK8 Sulfur carrier protein TusA n=9 Tax=Vibrio T...   136   6e-30
+UniRef90_A0A167J8R5 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   136   6e-30
+UniRef90_A0A0F5V9E5 Sulfur carrier protein TusA n=2 Tax=Photobac...   136   6e-30
+UniRef90_A0A084A1M8 Sulfur carrier protein TusA n=1 Tax=Serratia...   136   6e-30
+UniRef90_A3MYG4 Sulfur carrier protein TusA n=17 Tax=Actinobacil...   136   6e-30
+UniRef90_UPI0004046188 sulfurtransferase TusA n=3 Tax=Vibrio Tax...   136   7e-30
+UniRef90_A0A094J897 Sulfur carrier protein TusA n=1 Tax=Shewanel...   136   7e-30
+UniRef90_UPI0008898AFC sulfurtransferase n=1 Tax=Vibrio xiamenen...   136   7e-30
+UniRef90_A0A0Q0P2Q4 Sulfur carrier protein TusA n=1 Tax=Shewanel...   136   7e-30
+UniRef90_A0A127M5M7 Sulfurtransferase TusA n=2 Tax=Spongiibacter...   136   7e-30
+UniRef90_A0A1E5E344 Sulfur carrier protein TusA n=1 Tax=Vibrio r...   136   7e-30
+UniRef90_A0A1R4B7G4 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   135   8e-30
+UniRef90_UPI000509D2EE sulfurtransferase TusA n=1 Tax=Necropsoba...   135   8e-30
+UniRef90_I0QMU5 Sulfur carrier protein TusA n=1 Tax=Serratia sp....   135   8e-30
+UniRef90_A0A1C3DV86 Sulfur carrier protein TusA n=4 Tax=Photobac...   135   8e-30
+UniRef90_A0A1U7E856 Sulfur carrier protein TusA n=1 Tax=Kosakoni...   135   8e-30
+UniRef90_D3UZB0 Sulfur carrier protein TusA n=11 Tax=Xenorhabdus...   135   8e-30
+UniRef90_A0A167DZE9 Sulfur carrier protein TusA n=7 Tax=Pseudoal...   135   9e-30
+UniRef90_J7SKK4 Sulfur carrier protein TusA n=10 Tax=Bacteria Ta...   135   9e-30
+UniRef90_E6RH42 Sulfur carrier protein TusA n=12 Tax=Pseudoalter...   135   1e-29
+UniRef90_A0A167GB54 Sulfur carrier protein TusA n=1 Tax=Pseudoal...   135   1e-29
+UniRef90_Q08A41 Sulfur carrier protein TusA n=2 Tax=Shewanella f...   135   1e-29
+UniRef90_A0A1N6MQI2 Sulfur carrier protein TusA n=2 Tax=Xenorhab...   135   1e-29
+UniRef90_A0A0U5GGZ0 Sulfur carrier protein TusA n=2 Tax=Erwinia ...   135   1e-29
+UniRef90_UPI0008D062AC sulfurtransferase n=1 Tax=Thalassotalea a...   135   1e-29
+UniRef90_UPI00073D6FA2 sulfurtransferase TusA n=1 Tax=Erwinia te...   135   1e-29
+UniRef90_A0A067BAR7 Sulfur carrier protein TusA n=1 Tax=Vibrio m...   135   1e-29
+UniRef90_U1KL72 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   135   1e-29
+UniRef90_UPI000A366B67 sulfurtransferase TusA n=1 Tax=Pseudoalte...   135   1e-29
+UniRef90_N2JC99 Sulfur carrier protein TusA n=4 Tax=Pseudomonada...   135   1e-29
+UniRef90_C6C5J8 Sulfur carrier protein TusA n=1 Tax=Dickeya para...   135   1e-29
+UniRef90_H5V3J9 Sulfur carrier protein TusA n=2 Tax=Enterobacter...   135   1e-29
+UniRef90_C9QD56 Sulfur carrier protein TusA n=1 Tax=Vibrio orien...   135   1e-29
+UniRef90_A1SRH7 Sulfur carrier protein TusA n=1 Tax=Psychromonas...   135   1e-29
+UniRef90_A0A1T4SBA6 Sulfur carrier protein TusA n=1 Tax=Vibrio c...   135   1e-29
+UniRef90_UPI00041C8065 sulfurtransferase TusA n=1 Tax=Spongiibac...   135   1e-29
+UniRef90_F9QBQ3 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   135   1e-29
+UniRef90_UPI00048A8CC3 sulfurtransferase TusA n=1 Tax=Spongiibac...   135   1e-29
+UniRef90_A0A0F4PWD4 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   135   1e-29
+UniRef90_A0A0U4W8F1 Sulfur carrier protein TusA n=2 Tax=Rheinhei...   135   1e-29
+UniRef90_F0EQG6 Sulfur carrier protein TusA n=13 Tax=Pasteurella...   135   1e-29
+UniRef90_A0A095SP93 Sulfur carrier protein TusA n=3 Tax=Alcanivo...   134   1e-29
+UniRef90_D8MY83 Sulfur carrier protein TusA n=1 Tax=Erwinia bill...   134   1e-29
+UniRef90_A0A0D8CW87 Sulfur carrier protein TusA n=2 Tax=Thalasso...   134   1e-29
+UniRef90_E3BH53 Sulfur carrier protein TusA n=1 Tax=Vibrio carib...   134   2e-29
+UniRef90_A0A1J0TIU1 Sulfur carrier protein TusA n=1 Tax=Alteromo...   134   2e-29
+UniRef90_UPI0003FC8022 sulfurtransferase TusA n=1 Tax=Psychromon...   134   2e-29
+UniRef90_A8AR31 Sulfur carrier protein TusA n=307 Tax=root TaxID...   134   2e-29
+UniRef90_W8R6J0 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   134   2e-29
+UniRef90_UPI0004A2F986 sulfurtransferase TusA n=1 Tax=Tatumella ...   134   2e-29
+UniRef90_UPI0008EE97D3 sulfurtransferase n=1 Tax=Idiomarina mari...   134   2e-29
+UniRef90_A0A068QWG2 Sulfur carrier protein TusA n=12 Tax=Xenorha...   134   2e-29
+UniRef90_A0A0M2V9Y7 Sulfur carrier protein TusA n=2 Tax=Chromati...   134   2e-29
+UniRef90_UPI000B80CC50 sulfurtransferase TusA n=1 Tax=Pseudoalte...   134   2e-29
+UniRef90_UPI0008AF5881 sulfurtransferase TusA n=1 Tax=Colwellia ...   134   2e-29
+UniRef90_A0A167CLZ6 Sulfur carrier protein TusA n=3 Tax=Alcanivo...   134   2e-29
+UniRef90_UPI0008835642 sulfurtransferase TusA n=1 Tax=Pseudomona...   134   2e-29
+UniRef90_A0A1Y5GLA2 Sulfur carrier protein TusA n=1 Tax=Gammapro...   134   2e-29
+UniRef90_A0A1Y0D4G6 Sulfur carrier protein TusA n=1 Tax=Oceanisp...   134   2e-29
+UniRef90_A0A0H2MS54 Sulfur carrier protein TusA n=11 Tax=Vibrio ...   134   2e-29
+UniRef90_A0A1R4IPG5 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   134   2e-29
+UniRef90_U3CC40 Sulfur carrier protein TusA n=3 Tax=Vibrio harve...   134   2e-29
+UniRef90_A0A126Q5F0 Sulfur carrier protein TusA n=15 Tax=Alterom...   134   2e-29
+UniRef90_UPI000479EF1E sulfurtransferase TusA n=1 Tax=Aestuariib...   134   2e-29
+UniRef90_A0A0E1AV94 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   134   2e-29
+UniRef90_U3B6M8 Sulfur carrier protein TusA n=5 Tax=Vibrio TaxID...   134   2e-29
+UniRef90_A0A0A5I117 Sulfur carrier protein TusA n=2 Tax=Vibrio o...   134   2e-29
+UniRef90_D3VJH1 Sulfur carrier protein TusA n=4 Tax=Xenorhabdus ...   134   2e-29
+UniRef90_Q1I7B2 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   134   2e-29
+UniRef90_A0A1E5XA36 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   134   2e-29
+UniRef90_A5F4A1 Sulfur carrier protein TusA n=22 Tax=Vibrio TaxI...   134   2e-29
+UniRef90_L8D504 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   134   2e-29
+UniRef90_A0A1A6L0Q1 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   134   2e-29
+UniRef90_UPI0005D3C6F1 sulfurtransferase TusA n=1 Tax=Rouxiella ...   134   2e-29
+UniRef90_Q6CZ00 Sulfur carrier protein TusA n=25 Tax=Enterobacte...   134   2e-29
+UniRef90_UPI000B34CCCF sulfurtransferase TusA n=1 Tax=Vibrio sp....   134   3e-29
+UniRef90_B4EWZ6 Sulfur carrier protein TusA n=14 Tax=Enterobacte...   134   3e-29
+UniRef90_I1DZV5 Sulfur carrier protein TusA n=4 Tax=Rheinheimera...   134   3e-29
+UniRef90_A0A1B7UFZ4 Sulfur carrier protein TusA n=1 Tax=Rheinhei...   134   3e-29
+UniRef90_A0A1D8RVU8 Sulfur carrier protein TusA n=1 Tax=Colwelli...   134   3e-29
+UniRef90_J5HLT9 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   134   3e-29
+UniRef90_UPI0003B78770 sulfurtransferase TusA n=1 Tax=Psychromon...   134   3e-29
+UniRef90_A0A1M5FKB1 Sulfur carrier protein TusA n=1 Tax=Aestuari...   133   3e-29
+UniRef90_A0A1A9EZY9 Sulfur carrier protein TusA n=3 Tax=Marinoba...   133   3e-29
+UniRef90_UPI0009714478 sulfurtransferase TusA n=1 Tax=Shewanella...   133   3e-29
+UniRef90_A6V7T5 Sulfur carrier protein TusA n=43 Tax=Proteobacte...   133   3e-29
+UniRef90_K2IYQ2 Sulfur carrier protein TusA n=2 Tax=Gallaecimona...   133   3e-29
+UniRef90_K5Z7I8 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   133   3e-29
+UniRef90_L0LXI4 Sulfur carrier protein TusA n=6 Tax=Enterobacter...   133   3e-29
+UniRef90_A0A172WU29 Sulfur carrier protein TusA n=4 Tax=Pseudomo...   133   3e-29
+UniRef90_A0A0F2IS42 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   133   3e-29
+UniRef90_A0A1T0AZX2 Sulfur carrier protein TusA n=1 Tax=[Haemoph...   133   3e-29
+UniRef90_A0A0M2VEM4 Sulfur carrier protein TusA n=1 Tax=Arsukiba...   133   3e-29
+UniRef90_UPI0008DA775C sulfurtransferase TusA n=1 Tax=Vibrio son...   133   3e-29
+UniRef90_UPI000A172719 sulfurtransferase TusA n=1 Tax=Colwellia ...   133   3e-29
+UniRef90_UPI00082DBCE4 sulfurtransferase TusA n=1 Tax=Endozoicom...   133   3e-29
+UniRef90_B9CWJ9 Sulfur carrier protein TusA n=2 Tax=Actinobacill...   133   3e-29
+UniRef90_A0A1J5L1T5 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   133   3e-29
+UniRef90_UPI0008E8C9B5 sulfurtransferase n=1 Tax=Xenorhabdus kop...   133   3e-29
+UniRef90_D4GD73 Sulfur carrier protein TusA n=13 Tax=Pantoea Tax...   133   3e-29
+UniRef90_UPI0009709184 sulfurtransferase TusA n=1 Tax=Vibrio ost...   133   3e-29
+UniRef90_UPI000B3CE010 sulfurtransferase TusA n=1 Tax=Neiella ma...   133   3e-29
+UniRef90_B0URK5 Sulfur carrier protein TusA n=2 Tax=Histophilus ...   133   4e-29
+UniRef90_A0A165QUD7 Sulfur carrier protein TusA n=2 Tax=Halioglo...   133   4e-29
+UniRef90_A0A1X1CKD0 Sulfur carrier protein TusA n=5 Tax=Gammapro...   133   4e-29
+UniRef90_A0A0B4XQ74 Sulfur carrier protein TusA n=1 Tax=Alcanivo...   133   4e-29
+UniRef90_A0A1V3H6H3 Sulfur carrier protein TusA n=4 Tax=Salinivi...   133   4e-29
+UniRef90_A0A085G3E8 Sulfur carrier protein TusA n=1 Tax=Ewingell...   133   4e-29
+UniRef90_A0A077LNT9 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   133   4e-29
+UniRef90_A0A089YTW3 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   133   4e-29
+UniRef90_UPI000412F5E8 sulfurtransferase TusA n=1 Tax=Pseudoalte...   133   4e-29
+UniRef90_A0A0X3TTZ4 Sulfur carrier protein TusA n=1 Tax=Microbul...   133   4e-29
+UniRef90_A0A1N6M7Z6 Sulfur carrier protein TusA n=9 Tax=Vibrio T...   133   4e-29
+UniRef90_U4ECT4 Sulfur carrier protein TusA n=4 Tax=Bacteria Tax...   133   4e-29
+UniRef90_A0A147GZ08 Sulfur carrier protein TusA n=8 Tax=Pseudomo...   133   4e-29
+UniRef90_UPI000836BE9E sulfurtransferase TusA n=1 Tax=Erwinia sp...   133   4e-29
+UniRef90_Q2BMU9 Sulfur carrier protein TusA n=1 Tax=Neptuniibact...   133   5e-29
+UniRef90_A0A1B8HNY8 Sulfur carrier protein TusA n=2 Tax=Morganel...   133   5e-29
+UniRef90_A0A0Q0GAW4 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   133   5e-29
+UniRef90_A0A0F6A847 Sulfur carrier protein TusA n=6 Tax=Pseudoal...   133   5e-29
+UniRef90_UPI0004B359C4 sulfurtransferase TusA n=1 Tax=Enterobact...   133   5e-29
+UniRef90_A0A1J0ECQ2 Sulfur carrier protein TusA n=2 Tax=Providen...   133   5e-29
+UniRef90_A0A061CTJ0 Sulfur carrier protein TusA n=19 Tax=Pseudom...   133   5e-29
+UniRef90_A0A1S1HQB3 Sulfur carrier protein TusA n=1 Tax=Providen...   133   5e-29
+UniRef90_A0A081NFJ6 Sulfur carrier protein TusA n=1 Tax=Endozoic...   133   5e-29
+UniRef90_A0A0E2Q4B5 Sulfur carrier protein TusA n=8 Tax=Providen...   133   5e-29
+UniRef90_W0H6H6 Sulfur carrier protein TusA n=1 Tax=Pseudomonas ...   133   5e-29
+UniRef90_UPI0003770373 sulfurtransferase TusA n=1 Tax=Pseudomona...   133   6e-29
+UniRef90_Q7MZZ5 Sulfur carrier protein TusA n=14 Tax=Photorhabdu...   133   6e-29
+UniRef90_A0A0C4WIF3 Sulfur carrier protein TusA n=5 Tax=Pseudomo...   133   6e-29
+UniRef90_UPI0008E3F39D sulfurtransferase n=1 Tax=Pseudomonas bor...   133   6e-29
+UniRef90_UPI000A16FD53 sulfurtransferase TusA n=1 Tax=Colwellia ...   133   6e-29
+UniRef90_A0A1H1NTE3 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   133   6e-29
+UniRef90_A0A0R2ZJR8 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   133   6e-29
+UniRef90_A0A1J4QHW6 Sulfur carrier protein TusA n=2 Tax=Aeromona...   132   7e-29
+UniRef90_E0SFH4 Sulfur carrier protein TusA n=13 Tax=root TaxID=...   132   7e-29
+UniRef90_UPI00058CB11C sulfurtransferase TusA n=1 Tax=Algicola s...   132   7e-29
+UniRef90_UPI0003FCF9FE sulfurtransferase TusA n=1 Tax=Psychromon...   132   7e-29
+UniRef90_A0A0N1ED14 Sulfur carrier protein TusA n=4 Tax=Pseudoal...   132   7e-29
+UniRef90_A0A142BEX1 Sulfur carrier protein TusA n=3 Tax=Endozoic...   132   7e-29
+UniRef90_A0A0J8YEY7 Sulfur transfer protein SirA n=2 Tax=Bacteri...   132   7e-29
+UniRef90_UPI00083995FB sulfurtransferase TusA n=1 Tax=Thalassota...   132   7e-29
+UniRef90_UPI00088A5557 sulfurtransferase TusA n=1 Tax=Microbulbi...   132   7e-29
+UniRef90_UPI0008BC744F sulfurtransferase n=1 Tax=Pasteurella sky...   132   7e-29
+UniRef90_I4N0T2 Sulfur carrier protein TusA n=2 Tax=Gammaproteob...   132   8e-29
+UniRef90_A0A1C9W8S5 Sulfur carrier protein TusA n=2 Tax=Microbul...   132   8e-29
+UniRef90_A0A142IRU7 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   132   8e-29
+UniRef90_F7RWA8 Sulfur carrier protein TusA n=1 Tax=Idiomarina s...   132   8e-29
+UniRef90_A0A0F6TS57 Sulfur carrier protein TusA n=2 Tax=Kangiell...   132   8e-29
+UniRef90_A0A1V2DXW3 Sulfur carrier protein TusA n=1 Tax=Marinoba...   132   8e-29
+UniRef90_A0A143HR01 Preprotein translocase subunit TatC n=2 Tax=...   132   9e-29
+UniRef90_UPI0008382330 sulfurtransferase TusA n=1 Tax=Vibrio tri...   132   9e-29
+UniRef90_A0A140NN87 Sulfur carrier protein TusA n=4 Tax=Providen...   132   9e-29
+UniRef90_Q15MV9 Sulfur carrier protein TusA n=2 Tax=Alteromonada...   132   9e-29
+UniRef90_A0A0T5PH52 Sulfur carrier protein TusA n=3 Tax=Alishewa...   132   9e-29
+UniRef90_H3ZEP2 Sulfur carrier protein TusA n=2 Tax=Alishewanell...   132   9e-29
+UniRef90_UPI0007846667 sulfurtransferase TusA n=1 Tax=Endozoicom...   132   9e-29
+UniRef90_A0A0H2QB81 Sulfur carrier protein TusA n=2 Tax=Moellere...   132   1e-28
+UniRef90_UPI00097119F0 sulfurtransferase TusA n=1 Tax=Colwellia ...   132   1e-28
+UniRef90_A0A0M9GGD0 Sulfur carrier protein TusA n=6 Tax=Pseudomo...   132   1e-28
+UniRef90_A0A1D2X5I5 Sulfur carrier protein TusA n=1 Tax=Endozoic...   132   1e-28
+UniRef90_A0A0J6JAY1 Sulfur carrier protein TusA n=9 Tax=Pseudomo...   132   1e-28
+UniRef90_UPI0004E1FDAE sulfurtransferase TusA n=1 Tax=Siccibacte...   132   1e-28
+UniRef90_UPI0009BE4686 sulfurtransferase TusA n=1 Tax=Colwellia ...   131   1e-28
+UniRef90_A0A1G3E511 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   131   1e-28
+UniRef90_A0A099L765 Sulfur carrier protein TusA n=2 Tax=Thalasso...   131   1e-28
+UniRef90_A0A1V3INH1 Sulfur carrier protein TusA n=2 Tax=Rodentib...   131   1e-28
+UniRef90_UPI000B8ADAF1 sulfurtransferase TusA n=1 Tax=Pseudomona...   131   1e-28
+UniRef90_M9X3Z3 Sulfur carrier protein TusA n=6 Tax=Mannheimia h...   131   1e-28
+UniRef90_UPI0008E2989C sulfurtransferase TusA n=1 Tax=Marinobact...   131   1e-28
+UniRef90_A0A072NGB4 tRNA 5-methylaminomethyl-2-thiouridine synth...   131   1e-28
+UniRef90_UPI000623E7D0 uncharacterized hydrolase C25B8.12c-like ...   131   1e-28
+UniRef90_A0A0C3DME2 Sulfur carrier protein TusA n=3 Tax=Vibrio h...   131   1e-28
+UniRef90_UPI00098414FB sulfurtransferase TusA n=1 Tax=Colwellia ...   131   1e-28
+UniRef90_A0A1E7ZDK9 Sulfur carrier protein TusA n=1 Tax=Alteromo...   131   1e-28
+UniRef90_A0A1H5UEV8 Sulfurtransferase TusA n=1 Tax=Pseudomonas a...   131   1e-28
+UniRef90_A0A1V3K2P6 Sulfur carrier protein TusA n=4 Tax=Rodentib...   131   1e-28
+UniRef90_A0A136HST3 Sulfur carrier protein TusA n=1 Tax=Alteromo...   131   1e-28
+UniRef90_A0A1Y0D0I2 Sulfur carrier protein TusA n=1 Tax=Oceanisp...   131   1e-28
+UniRef90_M4UIQ5 Sulfur carrier protein TusA n=1 Tax=Psychromonas...   131   1e-28
+UniRef90_K8WUS3 Sulfur carrier protein TusA n=1 Tax=Providencia ...   131   1e-28
+UniRef90_Q0I5B0 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   131   1e-28
+UniRef90_A0A075P6Q4 Sulfur carrier protein TusA n=1 Tax=Alteromo...   131   1e-28
+UniRef90_R9PGQ1 Sulfur carrier protein TusA n=1 Tax=Agarivorans ...   131   1e-28
+UniRef90_S6ATW2 Sulfur carrier protein TusA n=19 Tax=Pseudomonas...   131   2e-28
+UniRef90_A0A1J5MCQ2 Sulfur carrier protein TusA n=1 Tax=Gammapro...   131   2e-28
+UniRef90_A0A105TBM0 Sulfur carrier protein TusA n=4 Tax=Gammapro...   131   2e-28
+UniRef90_UPI00082DD4D7 sulfurtransferase TusA n=1 Tax=Alteromona...   131   2e-28
+UniRef90_UPI000A3D2537 sulfurtransferase TusA n=2 Tax=Kushneria ...   131   2e-28
+UniRef90_UPI000B89E51F sulfurtransferase TusA n=1 Tax=Pseudomona...   131   2e-28
+UniRef90_A0A0K1N0B5 Sulfur carrier protein TusA n=12 Tax=Aggrega...   131   2e-28
+UniRef90_A0A086D863 Sulfur carrier protein TusA n=2 Tax=Gammapro...   131   2e-28
+UniRef90_A0YAX0 Uncharacterized protein n=1 Tax=marine gamma pro...   131   2e-28
+UniRef90_A4CDI0 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   131   2e-28
+UniRef90_B6EGT6 Sulfur carrier protein TusA n=3 Tax=Aliivibrio T...   131   2e-28
+UniRef90_UPI00083A4956 sulfurtransferase TusA n=1 Tax=Pseudomona...   131   2e-28
+UniRef90_UPI0004772196 sulfurtransferase TusA n=1 Tax=Microbulbi...   131   2e-28
+UniRef90_UPI0009B0D530 sulfurtransferase TusA n=1 Tax=Pasteurell...   131   2e-28
+UniRef90_UPI0003679188 sulfurtransferase TusA n=1 Tax=Halomonas ...   131   2e-28
+UniRef90_K6Z4P1 Sulfur carrier protein TusA n=1 Tax=Paraglacieco...   131   2e-28
+UniRef90_A0A090IIZ1 Sulfur carrier protein TusA n=1 Tax=Aliivibr...   131   2e-28
+UniRef90_A0A0B2D7U1 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   131   2e-28
+UniRef90_A0A0X8HGB1 Sulfurtransferase TusA n=2 Tax=Halomonas Tax...   131   2e-28
+UniRef90_A0A1H5Y568 tRNA 2-thiouridine synthesizing protein A n=...   131   2e-28
+UniRef90_UPI00096B8C60 sulfurtransferase TusA n=1 Tax=Halioglobu...   131   2e-28
+UniRef90_A0A0U2ZB68 Sulfur carrier protein TusA n=1 Tax=Lacimicr...   131   2e-28
+UniRef90_C7R9S2 Sulfur carrier protein TusA n=2 Tax=Kangiella Ta...   131   2e-28
+UniRef90_A0A1M7YS89 Sulfur carrier protein TusA n=2 Tax=Vibrio T...   131   2e-28
+UniRef90_UPI0008845303 sulfurtransferase TusA n=1 Tax=Pseudomona...   131   2e-28
+UniRef90_Q4KFD3 Sulfur carrier protein TusA n=115 Tax=Pseudomona...   131   2e-28
+UniRef90_A0A1E8FAK8 Sulfur carrier protein TusA n=1 Tax=Alteromo...   131   2e-28
+UniRef90_Q9CKV9 Sulfur carrier protein TusA n=11 Tax=Pasteurella...   130   3e-28
+UniRef90_W0Q7R4 Sulfur carrier protein TusA n=4 Tax=Mannheimia T...   130   3e-28
+UniRef90_A0A0K6H9K1 Sulfur carrier protein TusA n=2 Tax=Idiomari...   130   3e-28
+UniRef90_A0A023WTI4 Sulfur carrier protein TusA n=16 Tax=Pseudom...   130   3e-28
+UniRef90_A6VLN8 Sulfur carrier protein TusA n=1 Tax=Actinobacill...   130   3e-28
+UniRef90_A0A0Q4NJK2 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   130   3e-28
+UniRef90_A0A1X7AIC3 Sulfur carrier protein TusA n=1 Tax=Endozoic...   130   3e-28
+UniRef90_UPI00037BDD24 sulfurtransferase TusA n=1 Tax=Gayadomona...   130   3e-28
+UniRef90_A0A139DEQ2 Sulfur carrier protein TusA n=2 Tax=Marinoba...   130   3e-28
+UniRef90_Q0VP90 Sulfur carrier protein TusA n=1 Tax=Alcanivorax ...   130   3e-28
+UniRef90_H0J3B8 SirA protein n=1 Tax=Halomonas sp. GFAJ-1 TaxID=...   130   3e-28
+UniRef90_A0A1V3KCK0 Sulfur carrier protein TusA n=1 Tax=Rodentib...   130   3e-28
+UniRef90_A0A1Z3IQW9 Sulfurtransferase TusA n=2 Tax=Pseudomonas T...   130   3e-28
+UniRef90_A0A196Q679 Sulfur carrier protein TusA n=3 Tax=Marinoba...   130   3e-28
+UniRef90_A0A0F9XX30 Uncharacterized protein n=1 Tax=marine sedim...   130   3e-28
+UniRef90_UPI0006EC1297 sulfurtransferase TusA n=1 Tax=Agarivoran...   130   3e-28
+UniRef90_H5TAL0 Sulfur carrier protein TusA n=3 Tax=Glaciecola T...   130   3e-28
+UniRef90_UPI0004719D3F sulfurtransferase TusA n=2 Tax=Salinivibr...   130   3e-28
+UniRef90_U7GDA9 Sulfur carrier protein TusA n=2 Tax=Marinobacter...   130   3e-28
+UniRef90_A0A0F4NVF7 Sulfur carrier protein TusA n=5 Tax=Pseudoal...   130   3e-28
+UniRef90_A0A0X1T103 Sulfur carrier protein TusA n=5 Tax=Pseudomo...   130   3e-28
+UniRef90_UPI000509AB3F sulfurtransferase TusA n=1 Tax=Alteromona...   130   3e-28
+UniRef90_A0A0F5EZN0 Sulfur carrier protein TusA n=1 Tax=Avibacte...   130   3e-28
+UniRef90_A0A1X3R772 Sulfur carrier protein TusA n=3 Tax=Lonsdale...   130   3e-28
+UniRef90_A0A1G9RE03 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   130   3e-28
+UniRef90_A0A1V3JVM0 Sulfur carrier protein TusA n=8 Tax=Pasteure...   130   3e-28
+UniRef90_A0A0T6UPJ5 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   130   3e-28
+UniRef90_F6AIS5 Sulfur carrier protein TusA n=10 Tax=Pseudomonas...   130   3e-28
+UniRef90_A0A1E3MUP2 Sulfur carrier protein TusA n=11 Tax=Saliniv...   130   3e-28
+UniRef90_A0A0F7Y8Z3 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   130   3e-28
+UniRef90_A0A1H4EP93 Sulfur carrier protein TusA n=1 Tax=Lonsdale...   130   4e-28
+UniRef90_B1J5D6 Sulfur carrier protein TusA n=53 Tax=Gammaproteo...   130   4e-28
+UniRef90_I3DHP8 Sulfur carrier protein TusA n=3 Tax=Haemophilus ...   130   4e-28
+UniRef90_A0A0M0M6P4 Sulfur carrier protein TusA n=3 Tax=Rheinhei...   130   4e-28
+UniRef90_A0A1Y6E6J3 Sulfur carrier protein TusA n=1 Tax=Idiomari...   130   4e-28
+UniRef90_A0A1E4V331 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   130   4e-28
+UniRef90_A0A0J8JNQ1 Sulfur carrier protein TusA n=1 Tax=Catenovu...   130   4e-28
+UniRef90_A0A1H1SDJ9 tRNA 2-thiouridine synthesizing protein A n=...   130   4e-28
+UniRef90_UPI0008EC9827 TusA-like sulfurtransferase n=1 Tax=Kushn...   129   4e-28
+UniRef90_UPI0002EA6B95 sulfurtransferase TusA n=1 Tax=Catenovulu...   129   4e-28
+UniRef90_UPI0004757D68 sulfurtransferase TusA n=1 Tax=Salinimona...   129   5e-28
+UniRef90_A0A0H3Z0B8 Sulfur carrier protein TusA n=8 Tax=Bacteria...   129   5e-28
+UniRef90_UPI00041166F0 sulfurtransferase TusA n=1 Tax=Pseudomona...   129   5e-28
+UniRef90_G6YVT6 SirA family protein n=1 Tax=Marinobacter mangano...   129   5e-28
+UniRef90_A0A078MJ38 Sulfur transfer protein SirA n=1 Tax=Pseudom...   129   5e-28
+UniRef90_C3K5G5 Sulfur carrier protein TusA n=81 Tax=Pseudomonad...   129   5e-28
+UniRef90_A0A0D0MCW5 Sulfur carrier protein TusA n=7 Tax=Pseudomo...   129   5e-28
+UniRef90_UPI000B4AC79A sulfurtransferase TusA n=1 Tax=Lacimicrob...   129   5e-28
+UniRef90_UPI0003662A48 sulfurtransferase TusA n=1 Tax=Kushneria ...   129   5e-28
+UniRef90_UPI0008E68668 TusA-like sulfurtransferase n=1 Tax=Marin...   129   5e-28
+UniRef90_F0LQ54 Sulfur carrier protein TusA n=4 Tax=Vibrio TaxID...   129   5e-28
+UniRef90_A0A0A7JLG5 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   129   5e-28
+UniRef90_UPI000492E80E sulfurtransferase TusA n=1 Tax=Glaciecola...   129   5e-28
+UniRef90_A0A1E7Q270 Sulfur carrier protein TusA n=1 Tax=Rheinhei...   129   6e-28
+UniRef90_A0A0K6ILM3 Sulfur carrier protein TusA n=2 Tax=Marinomo...   129   6e-28
+UniRef90_A0A1J0VD51 Sulfurtransferase TusA n=2 Tax=Halomonas Tax...   129   6e-28
+UniRef90_Q5QXH9 Sulfur carrier protein TusA n=7 Tax=Idiomarina T...   129   6e-28
+UniRef90_A0A0D0NB57 Sulfur carrier protein TusA n=9 Tax=Pseudomo...   129   6e-28
+UniRef90_UPI0005BC7741 sulfurtransferase TusA n=1 Tax=Pseudomona...   129   6e-28
+UniRef90_A0A0D1NJS7 Sulfur carrier protein TusA n=7 Tax=Pseudomo...   129   6e-28
+UniRef90_S6GM21 Sulfur carrier protein TusA n=2 Tax=Bacteria Tax...   129   6e-28
+UniRef90_UPI0006676CFD sulfurtransferase TusA n=1 Tax=Pasteurell...   129   6e-28
+UniRef90_A0A177SMK8 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   129   6e-28
+UniRef90_A0A0L7ZFM9 Sulfur carrier protein TusA n=6 Tax=Vibrio T...   129   6e-28
+UniRef90_UPI00098595A1 sulfurtransferase TusA n=1 Tax=Colwellia ...   129   6e-28
+UniRef90_A0A139CE92 Sulfur carrier protein TusA n=1 Tax=Halomona...   129   6e-28
+UniRef90_A0A0X8BYM3 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   129   6e-28
+UniRef90_A0A011P7H7 Sulfur carrier protein TusA n=1 Tax=Mannheim...   129   6e-28
+UniRef90_F3KBT4 tRNA 5-methylaminomethyl-2-thiouridine synthase ...   129   6e-28
+UniRef90_UPI00088045D4 sulfurtransferase n=1 Tax=Pseudomonas ben...   129   6e-28
+UniRef90_UPI000404373A sulfurtransferase TusA n=1 Tax=Zooshikell...   129   7e-28
+UniRef90_UPI000B351C72 sulfurtransferase TusA n=1 Tax=Thaumasiov...   129   7e-28
+UniRef90_D2U2J4 Sulfur carrier protein TusA n=2 Tax=Arsenophonus...   129   7e-28
+UniRef90_P44841 Sulfur carrier protein TusA n=35 Tax=Bacteria Ta...   129   7e-28
+UniRef90_A0A098RGQ5 Sulfurtransferase n=2 Tax=Halomonas TaxID=27...   129   7e-28
+UniRef90_UPI0003B4B9A5 sulfurtransferase TusA n=1 Tax=Pseudomona...   129   8e-28
+UniRef90_K6XIN6 Sulfur carrier protein TusA n=2 Tax=Alteromonada...   129   8e-28
+UniRef90_A0A089YIE3 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   129   8e-28
+UniRef90_UPI0009321598 sulfurtransferase TusA n=1 Tax=Candidatus...   129   8e-28
+UniRef90_A0A1H1SNU7 tRNA 2-thiouridine synthesizing protein A n=...   129   8e-28
+UniRef90_A0A081KEF3 Sulfurtransferase n=1 Tax=Endozoicomonas ely...   129   8e-28
+UniRef90_UPI00094F87FC sulfurtransferase TusA n=1 Tax=Idiomarina...   129   8e-28
+UniRef90_UPI0008ED1B3E sulfurtransferase TusA n=1 Tax=Marinobact...   128   1e-27
+UniRef90_A0A1H2F2N8 tRNA 2-thiouridine synthesizing protein A n=...   128   1e-27
+UniRef90_UPI0008DEC5D9 TusA-like sulfurtransferase n=1 Tax=Halom...   128   1e-27
+UniRef90_UPI0006ACA612 sulfurtransferase TusA n=1 Tax=Yersinia p...   128   1e-27
+UniRef90_A0A085UNT5 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   128   1e-27
+UniRef90_A0A147GAY4 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   128   1e-27
+UniRef90_A0A094IQF5 Sulfur carrier protein TusA n=1 Tax=Idiomari...   128   1e-27
+UniRef90_A0A0P9B0T4 Sulfur carrier protein TusA n=1 Tax=Psychrom...   128   1e-27
+UniRef90_A0A0P8WKM5 Sulfur carrier protein TusA n=14 Tax=Pseudom...   128   1e-27
+UniRef90_A0A1X1MVE0 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   128   1e-27
+UniRef90_A0A0H2LNW1 Sulfur carrier protein TusA n=1 Tax=Providen...   128   1e-27
+UniRef90_UPI00058F0FBB sulfurtransferase TusA n=1 Tax=Halomonas ...   128   1e-27
+UniRef90_A0A0K1XAX5 Sulfur carrier protein TusA n=2 Tax=Oblitimo...   128   1e-27
+UniRef90_A0A031M1Q3 Sulfurtransferase n=1 Tax=Pseudomonas bauzan...   128   1e-27
+UniRef90_M7CPV0 Sulfur carrier protein TusA n=1 Tax=Marinobacter...   128   1e-27
+UniRef90_W9UQ15 Sulfur carrier protein TusA n=1 Tax=Nitrincola n...   128   1e-27
+UniRef90_A0A0K1U4W3 Sulfur carrier protein TusA n=3 Tax=Marinoba...   128   1e-27
+UniRef90_A0A143WTJ1 Sulfur carrier protein TusA n=1 Tax=Candidat...   128   2e-27
+UniRef90_A0A060B9K1 Sulfurtransferase n=5 Tax=Halomonas TaxID=27...   128   2e-27
+UniRef90_UPI0003A323B1 sulfurtransferase TusA n=1 Tax=Pseudomona...   128   2e-27
+UniRef90_UPI0008EACBE0 TusA-like sulfurtransferase n=1 Tax=Pseud...   128   2e-27
+UniRef90_A0A1V0B5W4 Sulfurtransferase TusA n=1 Tax=Pseudomonas s...   128   2e-27
+UniRef90_UPI00096A9960 sulfurtransferase TusA n=1 Tax=Halomonas ...   128   2e-27
+UniRef90_UPI000364913F sulfurtransferase TusA n=1 Tax=Dasania ma...   128   2e-27
+UniRef90_UPI000411CBAF sulfurtransferase TusA n=1 Tax=Marinobact...   128   2e-27
+UniRef90_A0A1V4AYP4 Sulfur carrier protein TusA n=1 Tax=Haemophi...   128   2e-27
+UniRef90_UPI00042A694F sulfurtransferase TusA n=1 Tax=Halomonas ...   128   2e-27
+UniRef90_A0A0M3CNB2 Sulfur carrier protein TusA n=13 Tax=Pseudom...   128   2e-27
+UniRef90_A0A094IYM1 Sulfur carrier protein TusA n=1 Tax=Idiomari...   128   2e-27
+UniRef90_A0A1M4WXZ0 tRNA 2-thiouridine synthesizing protein A n=...   128   2e-27
+UniRef90_A0A0J6GR06 Sulfur carrier protein TusA n=20 Tax=Pseudom...   128   2e-27
+UniRef90_UPI0003FE1856 sulfurtransferase TusA n=1 Tax=Psychromon...   128   2e-27
+UniRef90_A0A1M5HB16 tRNA 2-thiouridine synthesizing protein A n=...   128   2e-27
+UniRef90_K0CFF3 Sulfur carrier protein TusA n=4 Tax=Alcanivorax ...   128   2e-27
+UniRef90_UPI0003F50249 sulfurtransferase TusA n=1 Tax=Haliea sal...   128   2e-27
+UniRef90_A0A1S1NWJ5 Sulfur carrier protein TusA n=1 Tax=Kushneri...   128   2e-27
+UniRef90_A0A1V9UBV8 Sulfur carrier protein TusA n=4 Tax=Pseudomo...   127   2e-27
+UniRef90_A0A1S8DE58 Sulfurtransferase TusA n=1 Tax=Pseudomonas p...   127   2e-27
+UniRef90_W5YMG8 Sulfur carrier protein TusA n=1 Tax=Marinobacter...   127   2e-27
+UniRef90_UPI0003FE4661 sulfurtransferase TusA n=2 Tax=Aliagarivo...   127   2e-27
+UniRef90_A0A0Q5EEM9 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   127   2e-27
+UniRef90_A0A1B9LE31 Sulfur carrier protein TusA n=1 Tax=Gilliame...   127   2e-27
+UniRef90_W7QQY7 Sulfur carrier protein TusA n=1 Tax=Catenovulum ...   127   2e-27
+UniRef90_UPI0008257644 sulfurtransferase TusA n=1 Tax=Endozoicom...   127   2e-27
+UniRef90_Q48AT8 Sulfur carrier protein TusA n=6 Tax=Colwellia Ta...   127   2e-27
+UniRef90_A0A1G0JJ96 Sulfurtransferase TusA n=1 Tax=Gammaproteoba...   127   2e-27
+UniRef90_A0A136A5K3 Sulfur carrier protein TusA n=1 Tax=Paraglac...   127   2e-27
+UniRef90_A0A1Y1R618 Sulfur carrier protein TusA n=1 Tax=Oceanosp...   127   2e-27
+UniRef90_U7P0B3 Uncharacterized protein n=1 Tax=Halomonas sp. PB...   127   2e-27
+UniRef90_UPI00083B4287 sulfurtransferase TusA n=1 Tax=Pseudohong...   127   3e-27
+UniRef90_A0A0N8R1J6 Sulfur carrier protein TusA n=19 Tax=Pseudom...   127   3e-27
+UniRef90_K6ZJ16 Sulfur carrier protein TusA n=1 Tax=Glaciecola p...   127   3e-27
+UniRef90_UPI00058B486D sulfurtransferase TusA n=1 Tax=Pseudomona...   127   3e-27
+UniRef90_A0A143WSQ9 Sulfur carrier protein TusA n=1 Tax=Candidat...   127   3e-27
+UniRef90_UPI000409A2FD sulfurtransferase TusA n=2 Tax=Neptunomon...   127   3e-27
+UniRef90_A0A1Q2M3J9 Sulfurtransferase TusA n=5 Tax=Microbulbifer...   127   3e-27
+UniRef90_A0A1A8TIM3 Sulfur carrier protein TusA n=1 Tax=Marinomo...   127   3e-27
+UniRef90_A0A1Q8SYJ9 Sulfurtransferase TusA n=1 Tax=Salinicola sp...   127   3e-27
+UniRef90_UPI000B35210A sulfurtransferase TusA n=1 Tax=Thaumasiov...   127   3e-27
+UniRef90_Q7VNY2 Sulfur carrier protein TusA n=2 Tax=Haemophilus ...   127   3e-27
+UniRef90_A0A1D9GIF0 Sulfurtransferase TusA n=1 Tax=Marinobacter ...   127   3e-27
+UniRef90_A0A1Y5CYZ1 Sulfur carrier protein TusA n=1 Tax=Colwelli...   127   3e-27
+UniRef90_A0A1Q8SUD8 Sulfurtransferase TusA n=1 Tax=Salinicola so...   127   3e-27
+UniRef90_A0A165SB94 Uncharacterized protein n=1 Tax=Oleiphilus s...   127   3e-27
+UniRef90_A0A0F9S692 Uncharacterized protein n=1 Tax=marine sedim...   127   3e-27
+UniRef90_A0A0B1PS03 Sulfurtransferase n=2 Tax=Halomonas TaxID=27...   127   3e-27
+UniRef90_K6X6L6 Sulfur carrier protein TusA n=1 Tax=Aliiglacieco...   127   3e-27
+UniRef90_A0A0P7Z744 tRNA 2-thiouridine synthesizing protein A n=...   127   3e-27
+UniRef90_UPI000482E430 sulfurtransferase TusA n=1 Tax=Balneatrix...   127   4e-27
+UniRef90_F5ZGA7 Sulfur carrier protein TusA n=4 Tax=Alteromonas ...   127   4e-27
+UniRef90_A0A0J7JA35 TusA-like sulfurtransferase n=2 Tax=Marinoba...   127   4e-27
+UniRef90_A0A1N6PXB5 tRNA 2-thiouridine synthesizing protein A n=...   126   4e-27
+UniRef90_A0A099PDK1 Sulfur carrier protein TusA n=1 Tax=Nitrinco...   126   4e-27
+UniRef90_A0A1B5DAE1 Sulfur carrier protein TusA n=6 Tax=Pseudomo...   126   4e-27
+UniRef90_A0A1R1MGA3 Sulfur carrier protein TusA n=1 Tax=Motilipr...   126   4e-27
+UniRef90_UPI000371DC5D sulfurtransferase TusA n=1 Tax=Hahella ga...   126   4e-27
+UniRef90_UPI0004DB6DC0 sulfurtransferase TusA n=1 Tax=Halomonas ...   126   4e-27
+UniRef90_UPI000811237E sulfurtransferase TusA n=1 Tax=Pseudomona...   126   4e-27
+UniRef90_A0A136HLQ7 Preprotein translocase subunit TatC n=1 Tax=...   126   4e-27
+UniRef90_A0A176H230 Uncharacterized protein n=2 Tax=Oleiphilus T...   126   4e-27
+UniRef90_A0A085V3R4 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   126   5e-27
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_G8LJ55 Sulfur carrier protein TusA n=21 Tax=Proteobacteria TaxID=1224
+           RepID=G8LJ55_ENTCL
+          Length = 111
+
+ Score =  148 bits (376), Expect = 1e-33,   Method: Composition-based stats.
+ Identities = 64/71 (90%), Positives = 68/71 (95%)
+
+Query: 1   HTLDALGLRCPEPVMMVRKTVRNMQPGETLLIIADDPATTRDIPGFCTFMEHELVAKETD 60
+           HTLDA GLRCPEPVMMVRKTVRNMQ GETLLIIADDPATTRDIPGFCTFMEHELVA++T+
+Sbjct: 41  HTLDAQGLRCPEPVMMVRKTVRNMQTGETLLIIADDPATTRDIPGFCTFMEHELVAQQTE 100
+
+Query: 61  GLPYRYLIRKG 71
+            LPYRY+IRKG
+Sbjct: 101 TLPYRYVIRKG 111
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_G8LJ55 Sulfur carrier protein TusA n=21 Tax=Proteobacte...   147   3e-33
+UniRef90_E1SUL9 Sulfur carrier protein TusA n=1 Tax=Ferrimonas b...   144   2e-32
+UniRef90_A0A1M5ZIB4 Sulfur carrier protein TusA n=1 Tax=Ferrimon...   143   4e-32
+UniRef90_D2ZIY0 Sulfur carrier protein TusA n=2 Tax=Enterobacter...   143   5e-32
+UniRef90_C4L772 Sulfur carrier protein TusA n=2 Tax=Tolumonas Ta...   141   1e-31
+UniRef90_A0A0G3QFX2 Sulfur carrier protein TusA n=6 Tax=Enteroba...   141   2e-31
+UniRef90_A0A0A3B292 Sulfur carrier protein TusA n=9 Tax=Gallibac...   141   2e-31
+UniRef90_UPI0003FF10E6 sulfurtransferase TusA n=1 Tax=Ferrimonas...   141   2e-31
+UniRef90_UPI00037F45DE sulfurtransferase TusA n=1 Tax=Pantoea sp...   141   2e-31
+UniRef90_A0A085A2K1 Sulfur carrier protein TusA n=26 Tax=Enterob...   141   2e-31
+UniRef90_A0A1S2TR22 Sulfur carrier protein TusA n=2 Tax=Shewanel...   141   2e-31
+UniRef90_A0A126VE32 Sulfur carrier protein TusA n=4 Tax=Serratia...   141   2e-31
+UniRef90_Q65W80 Sulfur carrier protein TusA n=1 Tax=Mannheimia s...   140   3e-31
+UniRef90_UPI00063C9406 sulfurtransferase TusA n=1 Tax=Vibrio mex...   140   3e-31
+UniRef90_A0A034TXG1 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   140   4e-31
+UniRef90_A0A1A9B0L5 Sulfur carrier protein TusA n=3 Tax=Plesiomo...   139   4e-31
+UniRef90_A0A1E5CF86 Sulfur carrier protein TusA n=3 Tax=Enterovi...   139   5e-31
+UniRef90_A0A1E5IU67 Sulfur carrier protein TusA n=1 Tax=Shewanel...   139   5e-31
+UniRef90_A0A1T4VFJ5 Sulfur carrier protein TusA n=2 Tax=Enterovi...   139   6e-31
+UniRef90_A0A1A7NUU1 Sulfur carrier protein TusA n=4 Tax=Gallibac...   139   6e-31
+UniRef90_UPI0003656A69 sulfurtransferase TusA n=1 Tax=Psychromon...   139   6e-31
+UniRef90_A0A1X1ECD7 Sulfur carrier protein TusA n=6 Tax=Erwiniac...   139   6e-31
+UniRef90_A0KEK5 Sulfur carrier protein TusA n=57 Tax=Aeromonadac...   139   7e-31
+UniRef90_A0A085JP92 Sulfur carrier protein TusA n=1 Tax=Tatumell...   139   7e-31
+UniRef90_A0A1X1EPQ5 Sulfur carrier protein TusA n=1 Tax=Pantoea ...   139   8e-31
+UniRef90_A0A1V3TV68 Sulfur carrier protein TusA n=1 Tax=Pasteure...   139   8e-31
+UniRef90_UPI00088A927F sulfurtransferase TusA n=1 Tax=Idiomarina...   139   8e-31
+UniRef90_A3Q8U0 Sulfur carrier protein TusA n=8 Tax=Shewanellace...   139   8e-31
+UniRef90_A0A095UYV9 Sulfur carrier protein TusA n=2 Tax=Tatumell...   139   8e-31
+UniRef90_UPI0004750422 sulfurtransferase TusA n=1 Tax=Enterobact...   139   9e-31
+UniRef90_A0A1E5C1L4 Sulfur carrier protein TusA n=2 Tax=Enterovi...   139   9e-31
+UniRef90_A0A0J5P5J6 Sulfur carrier protein TusA n=1 Tax=Muribact...   139   9e-31
+UniRef90_A0A1X1DF90 Sulfur carrier protein TusA n=15 Tax=Enterob...   138   1e-30
+UniRef90_UPI000B87BD88 sulfurtransferase TusA n=2 Tax=Ferrimonas...   138   1e-30
+UniRef90_A0A135IDC8 Sulfur carrier protein TusA n=7 Tax=Vibriona...   138   1e-30
+UniRef90_D2TKT0 Sulfur carrier protein TusA n=16 Tax=Enterobacte...   138   1e-30
+UniRef90_B1KCY7 Sulfur carrier protein TusA n=2 Tax=Shewanella T...   138   1e-30
+UniRef90_A0A085HCN6 Sulfur carrier protein TusA n=1 Tax=Leminore...   138   1e-30
+UniRef90_UPI000422138B sulfurtransferase TusA n=1 Tax=Ferrimonas...   138   1e-30
+UniRef90_A7MHB0 Sulfur carrier protein TusA n=22 Tax=Enterobacte...   138   1e-30
+UniRef90_UPI0005A8E371 sulfurtransferase TusA n=1 Tax=Aeromonas ...   138   1e-30
+UniRef90_I2B458 Sulfur carrier protein TusA n=1 Tax=Shimwellia b...   138   1e-30
+UniRef90_UPI00046F435B sulfurtransferase TusA n=1 Tax=Shewanella...   138   1e-30
+UniRef90_A0A0A7ECG6 Sulfur carrier protein TusA n=3 Tax=Pseudoal...   138   1e-30
+UniRef90_B5XTL8 Sulfur carrier protein TusA n=63 Tax=Gammaproteo...   138   1e-30
+UniRef90_A0A0F6RGP8 Sulfur carrier protein TusA n=14 Tax=Enterob...   138   1e-30
+UniRef90_A0A090VW36 Sulfur carrier protein TusA n=2 Tax=Enteroba...   138   2e-30
+UniRef90_UPI0003671A11 sulfurtransferase TusA n=1 Tax=Oceanimona...   138   2e-30
+UniRef90_A0A0J8XVI5 Sulfur carrier protein TusA n=2 Tax=Photobac...   138   2e-30
+UniRef90_A0A089PIP6 Sulfur carrier protein TusA n=2 Tax=Pluralib...   138   2e-30
+UniRef90_A0A0W7TWS9 Sulfur carrier protein TusA n=2 Tax=Aeromona...   138   2e-30
+UniRef90_UPI00056EA952 sulfurtransferase TusA n=1 Tax=Vibrio pac...   138   2e-30
+UniRef90_A0A090IHX6 Sulfur carrier protein TusA n=5 Tax=Moritell...   138   2e-30
+UniRef90_A8G875 Sulfur carrier protein TusA n=36 Tax=cellular or...   137   2e-30
+UniRef90_A0A1C2E610 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   137   2e-30
+UniRef90_Q2NWX1 Sulfur carrier protein TusA n=6 Tax=Sodalis TaxI...   137   2e-30
+UniRef90_A0A1N6YLS1 Sulfur carrier protein TusA n=1 Tax=Aeromona...   137   2e-30
+UniRef90_A4WFQ2 Sulfur carrier protein TusA n=16 Tax=Enterobacte...   137   2e-30
+UniRef90_E1SHG0 Sulfur carrier protein TusA n=10 Tax=Pantoea Tax...   137   2e-30
+UniRef90_A0A1C3EFM4 Sulfur carrier protein TusA n=1 Tax=Enterovi...   137   3e-30
+UniRef90_A0A0L0AVC7 Sulfur carrier protein TusA n=1 Tax=Klebsiel...   137   3e-30
+UniRef90_UPI0007F952C0 sulfurtransferase TusA n=1 Tax=Photobacte...   137   3e-30
+UniRef90_A7FDA1 Sulfur carrier protein TusA n=14 Tax=Yersinia Ta...   137   3e-30
+UniRef90_UPI000933BBC3 sulfurtransferase TusA n=1 Tax=Nissabacte...   137   3e-30
+UniRef90_UPI000595FD2C sulfurtransferase TusA n=2 Tax=Pasteurell...   137   3e-30
+UniRef90_Q5E8Y2 Sulfur carrier protein TusA n=4 Tax=Aliivibrio T...   137   3e-30
+UniRef90_UPI0005AA4C04 sulfurtransferase TusA n=1 Tax=Vibrio dia...   137   3e-30
+UniRef90_A1S1I5 Sulfur carrier protein TusA n=2 Tax=Shewanella a...   137   3e-30
+UniRef90_A0A1B7HK18 Sulfur carrier protein TusA n=7 Tax=Buttiaux...   136   4e-30
+UniRef90_Q57IP9 Sulfur carrier protein TusA n=78 Tax=Salmonella ...   136   4e-30
+UniRef90_B7VGL0 Sulfur carrier protein TusA n=32 Tax=Vibrio TaxI...   136   4e-30
+UniRef90_UPI0009490FDB sulfurtransferase TusA n=1 Tax=Pantoea sp...   136   4e-30
+UniRef90_A0A0D8PBE5 Sulfur carrier protein TusA n=11 Tax=Photoba...   136   4e-30
+UniRef90_B8F8H4 Sulfur carrier protein TusA n=8 Tax=Haemophilus ...   136   4e-30
+UniRef90_A0A0A0SW95 Sulfur carrier protein TusA n=5 Tax=Vibrio T...   136   4e-30
+UniRef90_U7FMA1 Sulfur carrier protein TusA n=2 Tax=Alcanivorax ...   136   4e-30
+UniRef90_M4R6V6 Sulfur carrier protein TusA n=3 Tax=Bibersteinia...   136   4e-30
+UniRef90_A0A1S8YJZ6 Sulfur carrier protein TusA n=2 Tax=Izhakiel...   136   4e-30
+UniRef90_A0A085U6I1 Sulfur carrier protein TusA n=3 Tax=Yersinia...   136   4e-30
+UniRef90_UPI0006D0AD69 sulfurtransferase TusA n=1 Tax=Photobacte...   136   4e-30
+UniRef90_A0A0L7T6L7 Sulfur carrier protein TusA n=2 Tax=Erwinia ...   136   4e-30
+UniRef90_A0A1E5CYH0 Sulfur carrier protein TusA n=1 Tax=Vibrio g...   136   4e-30
+UniRef90_UPI000405BBDF sulfurtransferase TusA n=1 Tax=Budvicia a...   136   4e-30
+UniRef90_UPI00041C7F5C sulfurtransferase TusA n=1 Tax=Photobacte...   136   5e-30
+UniRef90_Q6LW10 Sulfur carrier protein TusA n=3 Tax=Photobacteri...   136   5e-30
+UniRef90_A0A1D8MU18 Sulfur carrier protein TusA n=1 Tax=Edwardsi...   136   5e-30
+UniRef90_A0A1X1F8J8 Sulfur carrier protein TusA n=2 Tax=Pantoea ...   136   5e-30
+UniRef90_UPI00054FAD13 sulfurtransferase TusA n=1 Tax=Erwinia Ta...   136   5e-30
+UniRef90_A0A0D5X098 Sulfur carrier protein TusA n=2 Tax=Enteroba...   136   5e-30
+UniRef90_A0A1T4UWV6 Sulfur carrier protein TusA n=3 Tax=Photobac...   136   5e-30
+UniRef90_A0A0A3AM89 Sulfur carrier protein TusA n=1 Tax=Chelonob...   136   5e-30
+UniRef90_UPI000B8BC474 sulfurtransferase TusA n=1 Tax=Zobellella...   136   5e-30
+UniRef90_A0A1X2QTK2 Sulfur carrier protein TusA n=14 Tax=Salmone...   136   6e-30
+UniRef90_A0A0S2JWQ7 Sulfur carrier protein TusA n=3 Tax=Pseudoal...   136   6e-30
+UniRef90_R9VRW3 Sulfur carrier protein TusA n=12 Tax=Enterobacte...   136   6e-30
+UniRef90_A0A0K0HTV2 Sulfur carrier protein TusA n=9 Tax=Enteroba...   136   6e-30
+UniRef90_A0A1W1V7E9 Sulfur carrier protein TusA n=1 Tax=Pasteure...   136   6e-30
+UniRef90_A0A0Q4MN51 Sulfur carrier protein TusA n=2 Tax=Yersinia...   136   6e-30
+UniRef90_D4ZD96 Sulfur carrier protein TusA n=7 Tax=Shewanella T...   136   6e-30
+UniRef90_A0A0U3I6R7 Sulfur carrier protein TusA n=5 Tax=Pseudoal...   136   6e-30
+UniRef90_A0A0M9FCN8 Sulfur carrier protein TusA n=7 Tax=Photobac...   136   6e-30
+UniRef90_UPI0005AAB690 sulfurtransferase TusA n=1 Tax=Pseudoalte...   136   7e-30
+UniRef90_Q12TB6 Sulfur carrier protein TusA n=1 Tax=Shewanella d...   136   7e-30
+UniRef90_Q87TP4 Sulfur carrier protein TusA n=52 Tax=Vibrio TaxI...   135   9e-30
+UniRef90_A0A090R0I9 Sulfur carrier protein TusA n=1 Tax=Photobac...   135   9e-30
+UniRef90_A0A095S7I4 Sulfur carrier protein TusA n=4 Tax=Alcanivo...   135   9e-30
+UniRef90_A0A1X0WFM2 Sulfur carrier protein TusA n=1 Tax=Rouxiell...   135   9e-30
+UniRef90_A0A0M2KGN0 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   135   9e-30
+UniRef90_Q8EKS1 Sulfur carrier protein TusA n=21 Tax=Shewanellac...   135   1e-29
+UniRef90_A0A0B9GJ53 Sulfur carrier protein TusA n=1 Tax=Photobac...   135   1e-29
+UniRef90_UPI0008982992 sulfurtransferase n=1 Tax=Alkalimonas amy...   135   1e-29
+UniRef90_A0A0J1GZH7 Sulfur carrier protein TusA n=3 Tax=Photobac...   135   1e-29
+UniRef90_A0A0F5V9E5 Sulfur carrier protein TusA n=2 Tax=Photobac...   135   1e-29
+UniRef90_A0A1E5BFW6 Sulfur carrier protein TusA n=2 Tax=Vibrio g...   135   1e-29
+UniRef90_A0A085I076 Sulfur carrier protein TusA n=2 Tax=Enteroba...   135   1e-29
+UniRef90_Q3IJ25 Sulfur carrier protein TusA n=24 Tax=root TaxID=...   135   1e-29
+UniRef90_A0A0G3CLR0 Sulfur carrier protein TusA n=1 Tax=Pragia f...   135   1e-29
+UniRef90_A0A1E5E344 Sulfur carrier protein TusA n=1 Tax=Vibrio r...   135   1e-29
+UniRef90_H2IWM0 Sulfur carrier protein TusA n=5 Tax=Yersiniaceae...   135   1e-29
+UniRef90_C5B9A2 Sulfur carrier protein TusA n=8 Tax=Edwardsiella...   135   1e-29
+UniRef90_A1JIB4 Sulfur carrier protein TusA n=43 Tax=Yersiniacea...   135   1e-29
+UniRef90_A0A1T0AV58 Sulfur carrier protein TusA n=1 Tax=Haemophi...   135   1e-29
+UniRef90_A0A1Q6CMB1 Sulfur carrier protein TusA n=1 Tax=Thalasso...   135   1e-29
+UniRef90_A0A084TGK8 Sulfur carrier protein TusA n=9 Tax=Vibrio T...   135   1e-29
+UniRef90_F9T2D8 Sulfur carrier protein TusA n=17 Tax=Vibrionales...   135   1e-29
+UniRef90_I3DEU3 Sulfur carrier protein TusA n=1 Tax=Pasteurella ...   135   1e-29
+UniRef90_A0A167J8R5 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   135   1e-29
+UniRef90_UPI0007E409EB sulfurtransferase TusA n=1 Tax=Yersinia e...   135   1e-29
+UniRef90_A0A0Q0P2Q4 Sulfur carrier protein TusA n=1 Tax=Shewanel...   134   1e-29
+UniRef90_UPI0008898AFC sulfurtransferase n=1 Tax=Vibrio xiamenen...   134   1e-29
+UniRef90_A0A084A1M8 Sulfur carrier protein TusA n=1 Tax=Serratia...   134   1e-29
+UniRef90_A0A1R4B7G4 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   134   1e-29
+UniRef90_A0A014Q0Y9 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   134   2e-29
+UniRef90_B2VJN9 Sulfur carrier protein TusA n=6 Tax=Erwinia TaxI...   134   2e-29
+UniRef90_A0A094J897 Sulfur carrier protein TusA n=1 Tax=Shewanel...   134   2e-29
+UniRef90_I0QMU5 Sulfur carrier protein TusA n=1 Tax=Serratia sp....   134   2e-29
+UniRef90_Q08A41 Sulfur carrier protein TusA n=2 Tax=Shewanella f...   134   2e-29
+UniRef90_UPI0004046188 sulfurtransferase TusA n=3 Tax=Vibrio Tax...   134   2e-29
+UniRef90_D3UZB0 Sulfur carrier protein TusA n=11 Tax=Xenorhabdus...   134   2e-29
+UniRef90_A0A167GB54 Sulfur carrier protein TusA n=1 Tax=Pseudoal...   134   2e-29
+UniRef90_UPI0003FC8022 sulfurtransferase TusA n=1 Tax=Psychromon...   134   2e-29
+UniRef90_A3MYG4 Sulfur carrier protein TusA n=17 Tax=Actinobacil...   134   2e-29
+UniRef90_A0A1C3DV86 Sulfur carrier protein TusA n=4 Tax=Photobac...   134   2e-29
+UniRef90_A0A1N6MQI2 Sulfur carrier protein TusA n=2 Tax=Xenorhab...   134   2e-29
+UniRef90_A0A167DZE9 Sulfur carrier protein TusA n=7 Tax=Pseudoal...   134   2e-29
+UniRef90_A0A1Y5GLA2 Sulfur carrier protein TusA n=1 Tax=Gammapro...   134   2e-29
+UniRef90_UPI000509D2EE sulfurtransferase TusA n=1 Tax=Necropsoba...   134   2e-29
+UniRef90_N2JC99 Sulfur carrier protein TusA n=4 Tax=Pseudomonada...   134   2e-29
+UniRef90_A0A1U7E856 Sulfur carrier protein TusA n=1 Tax=Kosakoni...   134   2e-29
+UniRef90_E6RH42 Sulfur carrier protein TusA n=12 Tax=Pseudoalter...   134   2e-29
+UniRef90_A0A127M5M7 Sulfurtransferase TusA n=2 Tax=Spongiibacter...   134   2e-29
+UniRef90_A0A0U5GGZ0 Sulfur carrier protein TusA n=2 Tax=Erwinia ...   134   2e-29
+UniRef90_J7SKK4 Sulfur carrier protein TusA n=10 Tax=Bacteria Ta...   134   2e-29
+UniRef90_UPI00073D6FA2 sulfurtransferase TusA n=1 Tax=Erwinia te...   134   3e-29
+UniRef90_A1SRH7 Sulfur carrier protein TusA n=1 Tax=Psychromonas...   134   3e-29
+UniRef90_W8R6J0 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   134   3e-29
+UniRef90_A0A067BAR7 Sulfur carrier protein TusA n=1 Tax=Vibrio m...   134   3e-29
+UniRef90_C9QD56 Sulfur carrier protein TusA n=1 Tax=Vibrio orien...   134   3e-29
+UniRef90_A0A0F4PWD4 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   134   3e-29
+UniRef90_U1KL72 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   134   3e-29
+UniRef90_UPI0008D062AC sulfurtransferase n=1 Tax=Thalassotalea a...   134   3e-29
+UniRef90_A0A1T4SBA6 Sulfur carrier protein TusA n=1 Tax=Vibrio c...   134   3e-29
+UniRef90_UPI000A366B67 sulfurtransferase TusA n=1 Tax=Pseudoalte...   134   3e-29
+UniRef90_H5V3J9 Sulfur carrier protein TusA n=2 Tax=Enterobacter...   134   3e-29
+UniRef90_A0A0D8CW87 Sulfur carrier protein TusA n=2 Tax=Thalasso...   133   3e-29
+UniRef90_F9QBQ3 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   133   3e-29
+UniRef90_C6C5J8 Sulfur carrier protein TusA n=1 Tax=Dickeya para...   133   3e-29
+UniRef90_A0A1R4IPG5 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   133   3e-29
+UniRef90_E3BH53 Sulfur carrier protein TusA n=1 Tax=Vibrio carib...   133   3e-29
+UniRef90_A0A0E1AV94 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   133   3e-29
+UniRef90_U3CC40 Sulfur carrier protein TusA n=3 Tax=Vibrio harve...   133   3e-29
+UniRef90_A0A0U4W8F1 Sulfur carrier protein TusA n=2 Tax=Rheinhei...   133   3e-29
+UniRef90_D8MY83 Sulfur carrier protein TusA n=1 Tax=Erwinia bill...   133   3e-29
+UniRef90_F0EQG6 Sulfur carrier protein TusA n=13 Tax=Pasteurella...   133   4e-29
+UniRef90_A0A0H2MS54 Sulfur carrier protein TusA n=11 Tax=Vibrio ...   133   4e-29
+UniRef90_A0A068QWG2 Sulfur carrier protein TusA n=12 Tax=Xenorha...   133   4e-29
+UniRef90_UPI00048A8CC3 sulfurtransferase TusA n=1 Tax=Spongiibac...   133   4e-29
+UniRef90_A0A1M5FKB1 Sulfur carrier protein TusA n=1 Tax=Aestuari...   133   4e-29
+UniRef90_A8AR31 Sulfur carrier protein TusA n=307 Tax=root TaxID...   133   4e-29
+UniRef90_UPI00082DBCE4 sulfurtransferase TusA n=1 Tax=Endozoicom...   133   4e-29
+UniRef90_A0A1Y0D4G6 Sulfur carrier protein TusA n=1 Tax=Oceanisp...   133   4e-29
+UniRef90_UPI00041C8065 sulfurtransferase TusA n=1 Tax=Spongiibac...   133   4e-29
+UniRef90_D3VJH1 Sulfur carrier protein TusA n=4 Tax=Xenorhabdus ...   133   4e-29
+UniRef90_UPI0008835642 sulfurtransferase TusA n=1 Tax=Pseudomona...   133   4e-29
+UniRef90_A0A0M2V9Y7 Sulfur carrier protein TusA n=2 Tax=Chromati...   133   4e-29
+UniRef90_UPI000479EF1E sulfurtransferase TusA n=1 Tax=Aestuariib...   133   4e-29
+UniRef90_UPI0008AF5881 sulfurtransferase TusA n=1 Tax=Colwellia ...   133   4e-29
+UniRef90_UPI0008EE97D3 sulfurtransferase n=1 Tax=Idiomarina mari...   133   4e-29
+UniRef90_UPI000B34CCCF sulfurtransferase TusA n=1 Tax=Vibrio sp....   133   4e-29
+UniRef90_A0A095SP93 Sulfur carrier protein TusA n=3 Tax=Alcanivo...   133   4e-29
+UniRef90_A0A0A5I117 Sulfur carrier protein TusA n=2 Tax=Vibrio o...   133   5e-29
+UniRef90_A0A1J0TIU1 Sulfur carrier protein TusA n=1 Tax=Alteromo...   133   5e-29
+UniRef90_A6V7T5 Sulfur carrier protein TusA n=43 Tax=Proteobacte...   133   5e-29
+UniRef90_UPI0004A2F986 sulfurtransferase TusA n=1 Tax=Tatumella ...   133   5e-29
+UniRef90_Q1I7B2 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   133   5e-29
+UniRef90_UPI000B80CC50 sulfurtransferase TusA n=1 Tax=Pseudoalte...   133   5e-29
+UniRef90_A0A1E5XA36 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   133   5e-29
+UniRef90_A0A126Q5F0 Sulfur carrier protein TusA n=15 Tax=Alterom...   133   5e-29
+UniRef90_UPI0003B78770 sulfurtransferase TusA n=1 Tax=Psychromon...   133   5e-29
+UniRef90_A5F4A1 Sulfur carrier protein TusA n=22 Tax=Vibrio TaxI...   133   5e-29
+UniRef90_Q6CZ00 Sulfur carrier protein TusA n=25 Tax=Enterobacte...   133   5e-29
+UniRef90_A0A081NFJ6 Sulfur carrier protein TusA n=1 Tax=Endozoic...   133   6e-29
+UniRef90_A0A1D8RVU8 Sulfur carrier protein TusA n=1 Tax=Colwelli...   133   6e-29
+UniRef90_UPI0005D3C6F1 sulfurtransferase TusA n=1 Tax=Rouxiella ...   133   6e-29
+UniRef90_U3B6M8 Sulfur carrier protein TusA n=5 Tax=Vibrio TaxID...   133   6e-29
+UniRef90_A0A172WU29 Sulfur carrier protein TusA n=4 Tax=Pseudomo...   133   6e-29
+UniRef90_A0A167CLZ6 Sulfur carrier protein TusA n=3 Tax=Alcanivo...   133   6e-29
+UniRef90_L8D504 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   133   6e-29
+UniRef90_UPI0009714478 sulfurtransferase TusA n=1 Tax=Shewanella...   133   6e-29
+UniRef90_A0A1V3H6H3 Sulfur carrier protein TusA n=4 Tax=Salinivi...   133   6e-29
+UniRef90_K5Z7I8 Sulfur carrier protein TusA n=4 Tax=Pseudomonas ...   133   6e-29
+UniRef90_B4EWZ6 Sulfur carrier protein TusA n=14 Tax=Enterobacte...   132   7e-29
+UniRef90_A0A1B7UFZ4 Sulfur carrier protein TusA n=1 Tax=Rheinhei...   132   7e-29
+UniRef90_A0A1T0AZX2 Sulfur carrier protein TusA n=1 Tax=[Haemoph...   132   7e-29
+UniRef90_I1DZV5 Sulfur carrier protein TusA n=4 Tax=Rheinheimera...   132   7e-29
+UniRef90_UPI0009709184 sulfurtransferase TusA n=1 Tax=Vibrio ost...   132   7e-29
+UniRef90_UPI0008DA775C sulfurtransferase TusA n=1 Tax=Vibrio son...   132   7e-29
+UniRef90_A0A1A6L0Q1 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   132   7e-29
+UniRef90_Q2BMU9 Sulfur carrier protein TusA n=1 Tax=Neptuniibact...   132   8e-29
+UniRef90_UPI0008E8C9B5 sulfurtransferase n=1 Tax=Xenorhabdus kop...   132   8e-29
+UniRef90_A0A142BEX1 Sulfur carrier protein TusA n=3 Tax=Endozoic...   132   8e-29
+UniRef90_A0A165QUD7 Sulfur carrier protein TusA n=2 Tax=Halioglo...   132   8e-29
+UniRef90_D4GD73 Sulfur carrier protein TusA n=13 Tax=Pantoea Tax...   132   8e-29
+UniRef90_A0A077LNT9 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   132   8e-29
+UniRef90_L0LXI4 Sulfur carrier protein TusA n=6 Tax=Enterobacter...   132   8e-29
+UniRef90_J5HLT9 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   132   8e-29
+UniRef90_UPI0004B359C4 sulfurtransferase TusA n=1 Tax=Enterobact...   132   8e-29
+UniRef90_UPI000B3CE010 sulfurtransferase TusA n=1 Tax=Neiella ma...   132   8e-29
+UniRef90_A0A0F2IS42 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   132   8e-29
+UniRef90_K2IYQ2 Sulfur carrier protein TusA n=2 Tax=Gallaecimona...   132   8e-29
+UniRef90_A0A085G3E8 Sulfur carrier protein TusA n=1 Tax=Ewingell...   132   8e-29
+UniRef90_U4ECT4 Sulfur carrier protein TusA n=4 Tax=Bacteria Tax...   132   8e-29
+UniRef90_B9CWJ9 Sulfur carrier protein TusA n=2 Tax=Actinobacill...   132   8e-29
+UniRef90_A0A1X1CKD0 Sulfur carrier protein TusA n=5 Tax=Gammapro...   132   9e-29
+UniRef90_A0A0C4WIF3 Sulfur carrier protein TusA n=5 Tax=Pseudomo...   132   9e-29
+UniRef90_A0A0M2VEM4 Sulfur carrier protein TusA n=1 Tax=Arsukiba...   132   9e-29
+UniRef90_A0A1J5L1T5 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   132   9e-29
+UniRef90_A0A1N6M7Z6 Sulfur carrier protein TusA n=9 Tax=Vibrio T...   132   1e-28
+UniRef90_A0A147GZ08 Sulfur carrier protein TusA n=8 Tax=Pseudomo...   132   1e-28
+UniRef90_A0A0B4XQ74 Sulfur carrier protein TusA n=1 Tax=Alcanivo...   132   1e-28
+UniRef90_B0URK5 Sulfur carrier protein TusA n=2 Tax=Histophilus ...   132   1e-28
+UniRef90_A0A1A9EZY9 Sulfur carrier protein TusA n=3 Tax=Marinoba...   132   1e-28
+UniRef90_UPI000A172719 sulfurtransferase TusA n=1 Tax=Colwellia ...   132   1e-28
+UniRef90_A0A1V2DXW3 Sulfur carrier protein TusA n=1 Tax=Marinoba...   132   1e-28
+UniRef90_UPI000412F5E8 sulfurtransferase TusA n=1 Tax=Pseudoalte...   132   1e-28
+UniRef90_A0A142IRU7 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   131   1e-28
+UniRef90_A0A0F6A847 Sulfur carrier protein TusA n=6 Tax=Pseudoal...   131   1e-28
+UniRef90_UPI0003770373 sulfurtransferase TusA n=1 Tax=Pseudomona...   131   1e-28
+UniRef90_UPI0007846667 sulfurtransferase TusA n=1 Tax=Endozoicom...   131   1e-28
+UniRef90_A0A0Q0GAW4 Sulfur carrier protein TusA n=2 Tax=Pseudoal...   131   1e-28
+UniRef90_UPI000623E7D0 uncharacterized hydrolase C25B8.12c-like ...   131   1e-28
+UniRef90_A0A1J4QHW6 Sulfur carrier protein TusA n=2 Tax=Aeromona...   131   1e-28
+UniRef90_A0A1B8HNY8 Sulfur carrier protein TusA n=2 Tax=Morganel...   131   1e-28
+UniRef90_A0A0X3TTZ4 Sulfur carrier protein TusA n=1 Tax=Microbul...   131   1e-28
+UniRef90_I4N0T2 Sulfur carrier protein TusA n=2 Tax=Gammaproteob...   131   1e-28
+UniRef90_A0A1D2X5I5 Sulfur carrier protein TusA n=1 Tax=Endozoic...   131   1e-28
+UniRef90_A0A1S1HQB3 Sulfur carrier protein TusA n=1 Tax=Providen...   131   1e-28
+UniRef90_A0A1J0ECQ2 Sulfur carrier protein TusA n=2 Tax=Providen...   131   1e-28
+UniRef90_UPI00058CB11C sulfurtransferase TusA n=1 Tax=Algicola s...   131   1e-28
+UniRef90_A0A089YTW3 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   131   1e-28
+UniRef90_UPI000836BE9E sulfurtransferase TusA n=1 Tax=Erwinia sp...   131   1e-28
+UniRef90_A0A061CTJ0 Sulfur carrier protein TusA n=19 Tax=Pseudom...   131   1e-28
+UniRef90_A0A1E7ZDK9 Sulfur carrier protein TusA n=1 Tax=Alteromo...   131   1e-28
+UniRef90_UPI0008E2989C sulfurtransferase TusA n=1 Tax=Marinobact...   131   1e-28
+UniRef90_E0SFH4 Sulfur carrier protein TusA n=13 Tax=root TaxID=...   131   1e-28
+UniRef90_M9X3Z3 Sulfur carrier protein TusA n=6 Tax=Mannheimia h...   131   1e-28
+UniRef90_UPI0008BC744F sulfurtransferase n=1 Tax=Pasteurella sky...   131   1e-28
+UniRef90_Q7MZZ5 Sulfur carrier protein TusA n=14 Tax=Photorhabdu...   131   2e-28
+UniRef90_A0A0E2Q4B5 Sulfur carrier protein TusA n=8 Tax=Providen...   131   2e-28
+UniRef90_UPI0008E3F39D sulfurtransferase n=1 Tax=Pseudomonas bor...   131   2e-28
+UniRef90_UPI0003FCF9FE sulfurtransferase TusA n=1 Tax=Psychromon...   131   2e-28
+UniRef90_W0H6H6 Sulfur carrier protein TusA n=1 Tax=Pseudomonas ...   131   2e-28
+UniRef90_UPI000A16FD53 sulfurtransferase TusA n=1 Tax=Colwellia ...   131   2e-28
+UniRef90_A0A0R2ZJR8 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   131   2e-28
+UniRef90_F7RWA8 Sulfur carrier protein TusA n=1 Tax=Idiomarina s...   131   2e-28
+UniRef90_A0A0F6TS57 Sulfur carrier protein TusA n=2 Tax=Kangiell...   131   2e-28
+UniRef90_A0A140NN87 Sulfur carrier protein TusA n=4 Tax=Providen...   131   2e-28
+UniRef90_UPI00083995FB sulfurtransferase TusA n=1 Tax=Thalassota...   131   2e-28
+UniRef90_UPI00097119F0 sulfurtransferase TusA n=1 Tax=Colwellia ...   131   2e-28
+UniRef90_A0A0N1ED14 Sulfur carrier protein TusA n=4 Tax=Pseudoal...   131   2e-28
+UniRef90_Q15MV9 Sulfur carrier protein TusA n=2 Tax=Alteromonada...   131   2e-28
+UniRef90_A0A1H1NTE3 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   131   2e-28
+UniRef90_A0A0H2QB81 Sulfur carrier protein TusA n=2 Tax=Moellere...   131   2e-28
+UniRef90_A0A0J8YEY7 Sulfur transfer protein SirA n=2 Tax=Bacteri...   131   2e-28
+UniRef90_A0A0C3DME2 Sulfur carrier protein TusA n=3 Tax=Vibrio h...   131   2e-28
+UniRef90_A0A0X8HGB1 Sulfurtransferase TusA n=2 Tax=Halomonas Tax...   131   2e-28
+UniRef90_A0A072NGB4 tRNA 5-methylaminomethyl-2-thiouridine synth...   131   2e-28
+UniRef90_UPI00088A5557 sulfurtransferase TusA n=1 Tax=Microbulbi...   131   2e-28
+UniRef90_UPI0003679188 sulfurtransferase TusA n=1 Tax=Halomonas ...   131   2e-28
+UniRef90_UPI00083A4956 sulfurtransferase TusA n=1 Tax=Pseudomona...   131   2e-28
+UniRef90_A0A1C9W8S5 Sulfur carrier protein TusA n=2 Tax=Microbul...   131   2e-28
+UniRef90_S6ATW2 Sulfur carrier protein TusA n=19 Tax=Pseudomonas...   131   2e-28
+UniRef90_UPI00098414FB sulfurtransferase TusA n=1 Tax=Colwellia ...   131   2e-28
+UniRef90_A0A0T5PH52 Sulfur carrier protein TusA n=3 Tax=Alishewa...   131   2e-28
+UniRef90_H3ZEP2 Sulfur carrier protein TusA n=2 Tax=Alishewanell...   131   2e-28
+UniRef90_A0A1H5Y568 tRNA 2-thiouridine synthesizing protein A n=...   130   3e-28
+UniRef90_A0A1V3INH1 Sulfur carrier protein TusA n=2 Tax=Rodentib...   130   3e-28
+UniRef90_UPI0008382330 sulfurtransferase TusA n=1 Tax=Vibrio tri...   130   3e-28
+UniRef90_K8WUS3 Sulfur carrier protein TusA n=1 Tax=Providencia ...   130   3e-28
+UniRef90_A0A0J6JAY1 Sulfur carrier protein TusA n=9 Tax=Pseudomo...   130   3e-28
+UniRef90_A0A099L765 Sulfur carrier protein TusA n=2 Tax=Thalasso...   130   3e-28
+UniRef90_UPI0004E1FDAE sulfurtransferase TusA n=1 Tax=Siccibacte...   130   3e-28
+UniRef90_B6EGT6 Sulfur carrier protein TusA n=3 Tax=Aliivibrio T...   130   3e-28
+UniRef90_W0Q7R4 Sulfur carrier protein TusA n=4 Tax=Mannheimia T...   130   3e-28
+UniRef90_A0A143HR01 Preprotein translocase subunit TatC n=2 Tax=...   130   3e-28
+UniRef90_A0A1V3K2P6 Sulfur carrier protein TusA n=4 Tax=Rodentib...   130   3e-28
+UniRef90_A0A1G3E511 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   130   3e-28
+UniRef90_M4UIQ5 Sulfur carrier protein TusA n=1 Tax=Psychromonas...   130   3e-28
+UniRef90_A0A0M9GGD0 Sulfur carrier protein TusA n=6 Tax=Pseudomo...   130   3e-28
+UniRef90_A0A139DEQ2 Sulfur carrier protein TusA n=2 Tax=Marinoba...   130   3e-28
+UniRef90_A4CDI0 Sulfur carrier protein TusA n=1 Tax=Pseudoaltero...   130   3e-28
+UniRef90_A0A136HST3 Sulfur carrier protein TusA n=1 Tax=Alteromo...   130   3e-28
+UniRef90_UPI0009BE4686 sulfurtransferase TusA n=1 Tax=Colwellia ...   130   3e-28
+UniRef90_R9PGQ1 Sulfur carrier protein TusA n=1 Tax=Agarivorans ...   130   3e-28
+UniRef90_Q0I5B0 Sulfur carrier protein TusA n=1 Tax=Haemophilus ...   130   4e-28
+UniRef90_UPI0008845303 sulfurtransferase TusA n=1 Tax=Pseudomona...   130   4e-28
+UniRef90_A0A1J5MCQ2 Sulfur carrier protein TusA n=1 Tax=Gammapro...   130   4e-28
+UniRef90_K6Z4P1 Sulfur carrier protein TusA n=1 Tax=Paraglacieco...   130   4e-28
+UniRef90_A0A196Q679 Sulfur carrier protein TusA n=3 Tax=Marinoba...   130   4e-28
+UniRef90_A0A0K6H9K1 Sulfur carrier protein TusA n=2 Tax=Idiomari...   130   4e-28
+UniRef90_U7GDA9 Sulfur carrier protein TusA n=2 Tax=Marinobacter...   130   4e-28
+UniRef90_A0A1H5UEV8 Sulfurtransferase TusA n=1 Tax=Pseudomonas a...   130   4e-28
+UniRef90_A0A1E8FAK8 Sulfur carrier protein TusA n=1 Tax=Alteromo...   130   4e-28
+UniRef90_A0A1Y0D0I2 Sulfur carrier protein TusA n=1 Tax=Oceanisp...   130   4e-28
+UniRef90_Q0VP90 Sulfur carrier protein TusA n=1 Tax=Alcanivorax ...   130   4e-28
+UniRef90_A0A105TBM0 Sulfur carrier protein TusA n=4 Tax=Gammapro...   130   4e-28
+UniRef90_UPI00096B8C60 sulfurtransferase TusA n=1 Tax=Halioglobu...   130   4e-28
+UniRef90_A0A1Z3IQW9 Sulfurtransferase TusA n=2 Tax=Pseudomonas T...   130   4e-28
+UniRef90_A0A023WTI4 Sulfur carrier protein TusA n=16 Tax=Pseudom...   130   4e-28
+UniRef90_C7R9S2 Sulfur carrier protein TusA n=2 Tax=Kangiella Ta...   129   4e-28
+UniRef90_H0J3B8 SirA protein n=1 Tax=Halomonas sp. GFAJ-1 TaxID=...   129   4e-28
+UniRef90_A0A0K1N0B5 Sulfur carrier protein TusA n=12 Tax=Aggrega...   129   5e-28
+UniRef90_UPI00082DD4D7 sulfurtransferase TusA n=1 Tax=Alteromona...   129   5e-28
+UniRef90_A0A090IIZ1 Sulfur carrier protein TusA n=1 Tax=Aliivibr...   129   5e-28
+UniRef90_A0A075P6Q4 Sulfur carrier protein TusA n=1 Tax=Alteromo...   129   5e-28
+UniRef90_B1J5D6 Sulfur carrier protein TusA n=53 Tax=Gammaproteo...   129   5e-28
+UniRef90_A0A086D863 Sulfur carrier protein TusA n=2 Tax=Gammapro...   129   5e-28
+UniRef90_UPI000B8ADAF1 sulfurtransferase TusA n=1 Tax=Pseudomona...   129   5e-28
+UniRef90_A0A0B2D7U1 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   129   5e-28
+UniRef90_UPI0009B0D530 sulfurtransferase TusA n=1 Tax=Pasteurell...   129   5e-28
+UniRef90_A0A1G9RE03 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   129   5e-28
+UniRef90_A0YAX0 Uncharacterized protein n=1 Tax=marine gamma pro...   129   5e-28
+UniRef90_UPI00037BDD24 sulfurtransferase TusA n=1 Tax=Gayadomona...   129   5e-28
+UniRef90_UPI0004772196 sulfurtransferase TusA n=1 Tax=Microbulbi...   129   5e-28
+UniRef90_A0A0F7Y8Z3 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   129   5e-28
+UniRef90_A0A1V3KCK0 Sulfur carrier protein TusA n=1 Tax=Rodentib...   129   6e-28
+UniRef90_UPI000A3D2537 sulfurtransferase TusA n=2 Tax=Kushneria ...   129   6e-28
+UniRef90_A0A1E3MUP2 Sulfur carrier protein TusA n=11 Tax=Saliniv...   129   6e-28
+UniRef90_UPI000B89E51F sulfurtransferase TusA n=1 Tax=Pseudomona...   129   6e-28
+UniRef90_A0A0U2ZB68 Sulfur carrier protein TusA n=1 Tax=Lacimicr...   129   6e-28
+UniRef90_UPI0004719D3F sulfurtransferase TusA n=2 Tax=Salinivibr...   129   6e-28
+UniRef90_Q5QXH9 Sulfur carrier protein TusA n=7 Tax=Idiomarina T...   129   6e-28
+UniRef90_Q4KFD3 Sulfur carrier protein TusA n=115 Tax=Pseudomona...   129   6e-28
+UniRef90_A0A1M7YS89 Sulfur carrier protein TusA n=2 Tax=Vibrio T...   129   6e-28
+UniRef90_H5TAL0 Sulfur carrier protein TusA n=3 Tax=Glaciecola T...   129   6e-28
+UniRef90_A0A0F4NVF7 Sulfur carrier protein TusA n=5 Tax=Pseudoal...   129   7e-28
+UniRef90_Q9CKV9 Sulfur carrier protein TusA n=11 Tax=Pasteurella...   129   7e-28
+UniRef90_A0A0Q4NJK2 Sulfur carrier protein TusA n=1 Tax=Erwinia ...   129   7e-28
+UniRef90_G6YVT6 SirA family protein n=1 Tax=Marinobacter mangano...   129   7e-28
+UniRef90_A0A139CE92 Sulfur carrier protein TusA n=1 Tax=Halomona...   129   7e-28
+UniRef90_A0A1X7AIC3 Sulfur carrier protein TusA n=1 Tax=Endozoic...   129   7e-28
+UniRef90_UPI0006EC1297 sulfurtransferase TusA n=1 Tax=Agarivoran...   129   7e-28
+UniRef90_UPI0004757D68 sulfurtransferase TusA n=1 Tax=Salinimona...   129   7e-28
+UniRef90_A0A011P7H7 Sulfur carrier protein TusA n=1 Tax=Mannheim...   129   7e-28
+UniRef90_UPI0008E68668 TusA-like sulfurtransferase n=1 Tax=Marin...   129   7e-28
+UniRef90_F6AIS5 Sulfur carrier protein TusA n=10 Tax=Pseudomonas...   129   8e-28
+UniRef90_UPI0003B4B9A5 sulfurtransferase TusA n=1 Tax=Pseudomona...   129   8e-28
+UniRef90_A0A0H3Z0B8 Sulfur carrier protein TusA n=8 Tax=Bacteria...   129   8e-28
+UniRef90_A0A0X1T103 Sulfur carrier protein TusA n=5 Tax=Pseudomo...   129   8e-28
+UniRef90_A0A1V3JVM0 Sulfur carrier protein TusA n=8 Tax=Pasteure...   129   8e-28
+UniRef90_A0A098RGQ5 Sulfurtransferase n=2 Tax=Halomonas TaxID=27...   129   9e-28
+UniRef90_A0A1X3R772 Sulfur carrier protein TusA n=3 Tax=Lonsdale...   129   9e-28
+UniRef90_I3DHP8 Sulfur carrier protein TusA n=3 Tax=Haemophilus ...   129   9e-28
+UniRef90_A6VLN8 Sulfur carrier protein TusA n=1 Tax=Actinobacill...   129   9e-28
+UniRef90_A0A0F9XX30 Uncharacterized protein n=1 Tax=marine sedim...   129   9e-28
+UniRef90_UPI000509AB3F sulfurtransferase TusA n=1 Tax=Alteromona...   129   9e-28
+UniRef90_A0A0J8JNQ1 Sulfur carrier protein TusA n=1 Tax=Catenovu...   129   9e-28
+UniRef90_A0A1E4V331 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   129   9e-28
+UniRef90_A0A0T6UPJ5 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   129   9e-28
+UniRef90_A0A1H4EP93 Sulfur carrier protein TusA n=1 Tax=Lonsdale...   129   9e-28
+UniRef90_A0A0F5EZN0 Sulfur carrier protein TusA n=1 Tax=Avibacte...   129   9e-28
+UniRef90_UPI00041166F0 sulfurtransferase TusA n=1 Tax=Pseudomona...   129   9e-28
+UniRef90_UPI000492E80E sulfurtransferase TusA n=1 Tax=Glaciecola...   128   1e-27
+UniRef90_A0A1Y6E6J3 Sulfur carrier protein TusA n=1 Tax=Idiomari...   128   1e-27
+UniRef90_A0A0D0MCW5 Sulfur carrier protein TusA n=7 Tax=Pseudomo...   128   1e-27
+UniRef90_UPI0005BC7741 sulfurtransferase TusA n=1 Tax=Pseudomona...   128   1e-27
+UniRef90_A0A081KEF3 Sulfurtransferase n=1 Tax=Endozoicomonas ely...   128   1e-27
+UniRef90_F0LQ54 Sulfur carrier protein TusA n=4 Tax=Vibrio TaxID...   128   1e-27
+UniRef90_A0A0M0M6P4 Sulfur carrier protein TusA n=3 Tax=Rheinhei...   128   1e-27
+UniRef90_A0A0L7ZFM9 Sulfur carrier protein TusA n=6 Tax=Vibrio T...   128   1e-27
+UniRef90_A0A1H1SDJ9 tRNA 2-thiouridine synthesizing protein A n=...   128   1e-27
+UniRef90_UPI0002EA6B95 sulfurtransferase TusA n=1 Tax=Catenovulu...   128   1e-27
+UniRef90_A0A177SMK8 Sulfur carrier protein TusA n=3 Tax=Pseudomo...   128   1e-27
+UniRef90_A0A0A7JLG5 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   128   1e-27
+UniRef90_A0A0K1XAX5 Sulfur carrier protein TusA n=2 Tax=Oblitimo...   128   1e-27
+UniRef90_A0A1E7Q270 Sulfur carrier protein TusA n=1 Tax=Rheinhei...   128   1e-27
+UniRef90_A0A0K6ILM3 Sulfur carrier protein TusA n=2 Tax=Marinomo...   128   1e-27
+UniRef90_UPI0006676CFD sulfurtransferase TusA n=1 Tax=Pasteurell...   128   1e-27
+UniRef90_UPI000B351C72 sulfurtransferase TusA n=1 Tax=Thaumasiov...   128   1e-27
+UniRef90_UPI0008ED1B3E sulfurtransferase TusA n=1 Tax=Marinobact...   128   1e-27
+UniRef90_UPI0009321598 sulfurtransferase TusA n=1 Tax=Candidatus...   128   1e-27
+UniRef90_A0A1J0VD51 Sulfurtransferase TusA n=2 Tax=Halomonas Tax...   128   1e-27
+UniRef90_C3K5G5 Sulfur carrier protein TusA n=81 Tax=Pseudomonad...   128   1e-27
+UniRef90_UPI000B4AC79A sulfurtransferase TusA n=1 Tax=Lacimicrob...   128   1e-27
+UniRef90_UPI0008EC9827 TusA-like sulfurtransferase n=1 Tax=Kushn...   128   1e-27
+UniRef90_UPI0003662A48 sulfurtransferase TusA n=1 Tax=Kushneria ...   128   1e-27
+UniRef90_A0A085UNT5 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   128   1e-27
+UniRef90_UPI00088045D4 sulfurtransferase n=1 Tax=Pseudomonas ben...   128   1e-27
+UniRef90_A0A0D0NB57 Sulfur carrier protein TusA n=9 Tax=Pseudomo...   128   1e-27
+UniRef90_S6GM21 Sulfur carrier protein TusA n=2 Tax=Bacteria Tax...   128   1e-27
+UniRef90_A0A078MJ38 Sulfur transfer protein SirA n=1 Tax=Pseudom...   128   1e-27
+UniRef90_M7CPV0 Sulfur carrier protein TusA n=1 Tax=Marinobacter...   128   1e-27
+UniRef90_A0A0X8BYM3 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   128   1e-27
+UniRef90_A0A0D1NJS7 Sulfur carrier protein TusA n=7 Tax=Pseudomo...   128   1e-27
+UniRef90_UPI000411CBAF sulfurtransferase TusA n=1 Tax=Marinobact...   128   2e-27
+UniRef90_UPI00098595A1 sulfurtransferase TusA n=1 Tax=Colwellia ...   128   2e-27
+UniRef90_A0A1B9LE31 Sulfur carrier protein TusA n=1 Tax=Gilliame...   128   2e-27
+UniRef90_D2U2J4 Sulfur carrier protein TusA n=2 Tax=Arsenophonus...   128   2e-27
+UniRef90_A0A1X1MVE0 Sulfur carrier protein TusA n=1 Tax=Vibrio s...   128   2e-27
+UniRef90_A0A089YIE3 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   128   2e-27
+UniRef90_UPI000404373A sulfurtransferase TusA n=1 Tax=Zooshikell...   128   2e-27
+UniRef90_P44841 Sulfur carrier protein TusA n=35 Tax=Bacteria Ta...   128   2e-27
+UniRef90_A0A147GAY4 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   128   2e-27
+UniRef90_K6XIN6 Sulfur carrier protein TusA n=2 Tax=Alteromonada...   128   2e-27
+UniRef90_A0A0K1U4W3 Sulfur carrier protein TusA n=3 Tax=Marinoba...   128   2e-27
+UniRef90_UPI0006ACA612 sulfurtransferase TusA n=1 Tax=Yersinia p...   128   2e-27
+UniRef90_UPI00094F87FC sulfurtransferase TusA n=1 Tax=Idiomarina...   128   2e-27
+UniRef90_A0A1M4WXZ0 tRNA 2-thiouridine synthesizing protein A n=...   128   2e-27
+UniRef90_F3KBT4 tRNA 5-methylaminomethyl-2-thiouridine synthase ...   128   2e-27
+UniRef90_A0A1H1SNU7 tRNA 2-thiouridine synthesizing protein A n=...   128   2e-27
+UniRef90_A0A0P9B0T4 Sulfur carrier protein TusA n=1 Tax=Psychrom...   128   2e-27
+UniRef90_A0A094IYM1 Sulfur carrier protein TusA n=1 Tax=Idiomari...   127   2e-27
+UniRef90_A0A0P8WKM5 Sulfur carrier protein TusA n=14 Tax=Pseudom...   127   3e-27
+UniRef90_A0A060B9K1 Sulfurtransferase n=5 Tax=Halomonas TaxID=27...   127   3e-27
+UniRef90_UPI0008257644 sulfurtransferase TusA n=1 Tax=Endozoicom...   127   3e-27
+UniRef90_A0A0B1PS03 Sulfurtransferase n=2 Tax=Halomonas TaxID=27...   127   3e-27
+UniRef90_A0A143WTJ1 Sulfur carrier protein TusA n=1 Tax=Candidat...   127   3e-27
+UniRef90_UPI00058F0FBB sulfurtransferase TusA n=1 Tax=Halomonas ...   127   3e-27
+UniRef90_A0A0H2LNW1 Sulfur carrier protein TusA n=1 Tax=Providen...   127   3e-27
+UniRef90_A0A0Q5EEM9 Sulfur carrier protein TusA n=1 Tax=Pseudomo...   127   3e-27
+UniRef90_W5YMG8 Sulfur carrier protein TusA n=1 Tax=Marinobacter...   127   3e-27
+UniRef90_A0A1V9UBV8 Sulfur carrier protein TusA n=4 Tax=Pseudomo...   127   3e-27
+UniRef90_U7P0B3 Uncharacterized protein n=1 Tax=Halomonas sp. PB...   127   3e-27
+UniRef90_UPI0008DEC5D9 TusA-like sulfurtransferase n=1 Tax=Halom...   127   3e-27
+UniRef90_W9UQ15 Sulfur carrier protein TusA n=1 Tax=Nitrincola n...   127   3e-27
+UniRef90_A0A0P7Z744 tRNA 2-thiouridine synthesizing protein A n=...   127   3e-27
+UniRef90_A0A1H2F2N8 tRNA 2-thiouridine synthesizing protein A n=...   127   3e-27
+UniRef90_A0A094IQF5 Sulfur carrier protein TusA n=1 Tax=Idiomari...   127   3e-27
+UniRef90_A0A031M1Q3 Sulfurtransferase n=1 Tax=Pseudomonas bauzan...   127   4e-27
+UniRef90_A0A0N8R1J6 Sulfur carrier protein TusA n=19 Tax=Pseudom...   127   4e-27
+UniRef90_UPI000364913F sulfurtransferase TusA n=1 Tax=Dasania ma...   127   4e-27
+UniRef90_UPI0003FE4661 sulfurtransferase TusA n=2 Tax=Aliagarivo...   127   4e-27
+UniRef90_A0A1N6PXB5 tRNA 2-thiouridine synthesizing protein A n=...   126   4e-27
+UniRef90_A0A1N7JPM2 tRNA 2-thiouridine synthesizing protein A n=...   126   4e-27
+UniRef90_A0A1B9MSP1 Sulfur carrier protein TusA n=2 Tax=Gilliame...   126   4e-27
+UniRef90_A0A1D9GIF0 Sulfurtransferase TusA n=1 Tax=Marinobacter ...   126   4e-27
+UniRef90_UPI00096A9960 sulfurtransferase TusA n=1 Tax=Halomonas ...   126   4e-27
+UniRef90_A0A165SB94 Uncharacterized protein n=1 Tax=Oleiphilus s...   126   4e-27
+UniRef90_A0A0J7JA35 TusA-like sulfurtransferase n=2 Tax=Marinoba...   126   4e-27
+UniRef90_UPI0003FE1856 sulfurtransferase TusA n=1 Tax=Psychromon...   126   4e-27
+UniRef90_UPI0008EACBE0 TusA-like sulfurtransferase n=1 Tax=Pseud...   126   4e-27
+UniRef90_A0A136A5K3 Sulfur carrier protein TusA n=1 Tax=Paraglac...   126   5e-27
+UniRef90_UPI0004DB6DC0 sulfurtransferase TusA n=1 Tax=Halomonas ...   126   5e-27
+UniRef90_A0A0M3CNB2 Sulfur carrier protein TusA n=13 Tax=Pseudom...   126   5e-27
+UniRef90_UPI0003F50249 sulfurtransferase TusA n=1 Tax=Haliea sal...   126   5e-27
+UniRef90_A0A143WSQ9 Sulfur carrier protein TusA n=1 Tax=Candidat...   126   5e-27
+UniRef90_A0A1M5HB16 tRNA 2-thiouridine synthesizing protein A n=...   126   5e-27
+UniRef90_A0A0J6GR06 Sulfur carrier protein TusA n=20 Tax=Pseudom...   126   5e-27
+UniRef90_A0A1S8DE58 Sulfurtransferase TusA n=1 Tax=Pseudomonas p...   126   5e-27
+UniRef90_UPI00058B486D sulfurtransferase TusA n=1 Tax=Pseudomona...   126   5e-27
+UniRef90_UPI00083B4287 sulfurtransferase TusA n=1 Tax=Pseudohong...   126   5e-27
+UniRef90_UPI000B35210A sulfurtransferase TusA n=1 Tax=Thaumasiov...   126   5e-27
+UniRef90_A0A1V4AYP4 Sulfur carrier protein TusA n=1 Tax=Haemophi...   126   6e-27
+UniRef90_A0A1S2CJ87 tRNA 2-thiouridine(34) synthase TusA n=1 Tax...   126   6e-27
+UniRef90_K6ZJ16 Sulfur carrier protein TusA n=1 Tax=Glaciecola p...   126   6e-27
+UniRef90_A0A0P7XVT6 Sulfur carrier protein TusA n=1 Tax=Idiomari...   126   6e-27
+UniRef90_UPI0003A323B1 sulfurtransferase TusA n=1 Tax=Pseudomona...   126   6e-27
+UniRef90_Q48AT8 Sulfur carrier protein TusA n=6 Tax=Colwellia Ta...   126   6e-27
+UniRef90_W7QQY7 Sulfur carrier protein TusA n=1 Tax=Catenovulum ...   126   6e-27
+UniRef90_Q7VNY2 Sulfur carrier protein TusA n=2 Tax=Haemophilus ...   126   6e-27
+UniRef90_K6X6L6 Sulfur carrier protein TusA n=1 Tax=Aliiglacieco...   126   6e-27
+UniRef90_A0A1V0B5W4 Sulfurtransferase TusA n=1 Tax=Pseudomonas s...   126   6e-27
+UniRef90_H8WCI1 Sulfurtransferase, tRNA 2-thiouridine synthesizi...   126   6e-27
+UniRef90_UPI00042A694F sulfurtransferase TusA n=1 Tax=Halomonas ...   126   7e-27
+UniRef90_UPI000811237E sulfurtransferase TusA n=1 Tax=Pseudomona...   126   7e-27
+UniRef90_A0A1B5DAE1 Sulfur carrier protein TusA n=6 Tax=Pseudomo...   126   7e-27
+UniRef90_A0A1G0JJ96 Sulfurtransferase TusA n=1 Tax=Gammaproteoba...   126   7e-27
+UniRef90_A0A1C2EF93 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   126   7e-27
+UniRef90_A0A1Y5CYZ1 Sulfur carrier protein TusA n=1 Tax=Colwelli...   126   7e-27
+UniRef90_UPI00040D3FE0 TusA-like sulfurtransferase n=1 Tax=Ocean...   126   7e-27
+UniRef90_A0A1Q2M3J9 Sulfurtransferase TusA n=5 Tax=Microbulbifer...   126   7e-27
+UniRef90_A0A1Q8SYJ9 Sulfurtransferase TusA n=1 Tax=Salinicola sp...   126   7e-27
+UniRef90_K0CFF3 Sulfur carrier protein TusA n=4 Tax=Alcanivorax ...   126   7e-27
+UniRef90_UPI000482E430 sulfurtransferase TusA n=1 Tax=Balneatrix...   126   8e-27
+UniRef90_A0A1Y1R618 Sulfur carrier protein TusA n=1 Tax=Oceanosp...   126   8e-27
+UniRef90_UPI000409A2FD sulfurtransferase TusA n=2 Tax=Neptunomon...   126   8e-27
+UniRef90_F5ZGA7 Sulfur carrier protein TusA n=4 Tax=Alteromonas ...   126   8e-27
+UniRef90_A0A085V3R4 Sulfur carrier protein TusA n=2 Tax=Pseudomo...   126   8e-27
+UniRef90_A0A1M6SEY0 tRNA 2-thiouridine synthesizing protein A n=...   125   8e-27
+UniRef90_A0A0F9S692 Uncharacterized protein n=1 Tax=marine sedim...   125   8e-27
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_G8LJ55 Sulfur carrier protein TusA n=21 Tax=Proteobacteria TaxID=1224
+           RepID=G8LJ55_ENTCL
+          Length = 111
+
+ Score =  147 bits (372), Expect = 3e-33,   Method: Composition-based stats.
+ Identities = 64/71 (90%), Positives = 68/71 (95%)
+
+Query: 1   HTLDALGLRCPEPVMMVRKTVRNMQPGETLLIIADDPATTRDIPGFCTFMEHELVAKETD 60
+           HTLDA GLRCPEPVMMVRKTVRNMQ GETLLIIADDPATTRDIPGFCTFMEHELVA++T+
+Sbjct: 41  HTLDAQGLRCPEPVMMVRKTVRNMQTGETLLIIADDPATTRDIPGFCTFMEHELVAQQTE 100
+
+Query: 61  GLPYRYLIRKG 71
+            LPYRY+IRKG
+Sbjct: 101 TLPYRYVIRKG 111
+
+
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r
+    Posted date:  Oct 10, 2017  7:43 PM
+  Number of letters in database: 999,999,854
+  Number of sequences in database:  2,732,787
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.01
+    Posted date:  Oct 10, 2017  7:44 PM
+  Number of letters in database: 999,999,750
+  Number of sequences in database:  2,273,407
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.02
+    Posted date:  Oct 10, 2017  7:46 PM
+  Number of letters in database: 999,999,935
+  Number of sequences in database:  2,394,344
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.03
+    Posted date:  Oct 10, 2017  7:47 PM
+  Number of letters in database: 999,999,971
+  Number of sequences in database:  2,398,357
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.04
+    Posted date:  Oct 10, 2017  7:48 PM
+  Number of letters in database: 999,999,811
+  Number of sequences in database:  2,623,449
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.05
+    Posted date:  Oct 10, 2017  7:50 PM
+  Number of letters in database: 999,999,708
+  Number of sequences in database:  2,894,066
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.06
+    Posted date:  Oct 10, 2017  7:51 PM
+  Number of letters in database: 999,999,873
+  Number of sequences in database:  3,366,160
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.07
+    Posted date:  Oct 10, 2017  7:53 PM
+  Number of letters in database: 999,999,957
+  Number of sequences in database:  3,303,815
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.08
+    Posted date:  Oct 10, 2017  7:54 PM
+  Number of letters in database: 999,999,999
+  Number of sequences in database:  3,310,936
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.09
+    Posted date:  Oct 10, 2017  7:56 PM
+  Number of letters in database: 999,999,981
+  Number of sequences in database:  3,285,453
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.10
+    Posted date:  Oct 10, 2017  7:57 PM
+  Number of letters in database: 999,999,656
+  Number of sequences in database:  3,287,215
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.11
+    Posted date:  Oct 10, 2017  7:59 PM
+  Number of letters in database: 999,999,865
+  Number of sequences in database:  3,230,140
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.12
+    Posted date:  Oct 10, 2017  8:00 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,243,647
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.13
+    Posted date:  Oct 10, 2017  8:02 PM
+  Number of letters in database: 999,999,447
+  Number of sequences in database:  3,278,745
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.14
+    Posted date:  Oct 10, 2017  8:03 PM
+  Number of letters in database: 999,999,994
+  Number of sequences in database:  3,517,325
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.15
+    Posted date:  Oct 10, 2017  8:05 PM
+  Number of letters in database: 999,999,870
+  Number of sequences in database:  2,721,309
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.16
+    Posted date:  Oct 10, 2017  8:06 PM
+  Number of letters in database: 999,999,345
+  Number of sequences in database:  2,877,530
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.17
+    Posted date:  Oct 10, 2017  8:07 PM
+  Number of letters in database: 999,999,814
+  Number of sequences in database:  2,717,238
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.18
+    Posted date:  Oct 10, 2017  8:09 PM
+  Number of letters in database: 999,999,988
+  Number of sequences in database:  2,529,014
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.19
+    Posted date:  Oct 10, 2017  8:10 PM
+  Number of letters in database: 999,999,661
+  Number of sequences in database:  2,905,868
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.20
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 999,999,802
+  Number of sequences in database:  2,976,089
+  
+  Database: /scratch/lpdi/bin/Rosetta/tools/fragment_tools/databases/n
+  r.21
+    Posted date:  Oct 10, 2017  8:11 PM
+  Number of letters in database: 23,706,923
+  Number of sequences in database:  67,407
+  
+Lambda     K      H
+   0.316    0.208    0.809 
+
+Lambda     K      H
+   0.267   0.0634    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 21,084,052,814
+Number of Sequences: 61934301
+Number of extensions: 1208438160
+Number of successful extensions: 2359869
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 31720
+Number of HSP's successfully gapped in prelim test: 2713
+Number of HSP's that attempted gapping in prelim test: 2326371
+Number of HSP's gapped (non-prelim): 34566
+length of query: 71
+length of database: 21,023,703,129
+effective HSP length: 43
+effective length of query: 28
+effective length of database: 22,655,495,482
+effective search space: 634353873496
+effective search space used: 634353873496
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.0 bits)
+S2: 83 (36.0 bits)
