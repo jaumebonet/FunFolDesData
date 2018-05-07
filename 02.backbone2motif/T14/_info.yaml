@@ -2,6 +2,7 @@ benchmark:
   id: T14
   cath: CATH.3.30.110.40
   motifs: 1
+  hmm: 3lvjC00.hmm
 structures:
   reference: 1jdqA.pdb
   query: 3lvjC.pdb

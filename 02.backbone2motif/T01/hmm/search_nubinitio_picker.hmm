@@ -1,0 +1,507 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  hmm/2pw9C03.hmm
+# target sequence database:        hmm/sequence_nubinitio_picker.fa
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 100
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cath|4_1_0|2pw9C03/120-257  [M=141]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                            -----------
+  ------ inclusion threshold ------
+        3.6    6.4   0.0          4    6.3   0.0    1.2  1  nubinitio_picker_58451_2pw9C_0461:C  
+        4.5    6.1   0.0        4.7    6.0   0.0    1.1  1  nubinitio_picker_49242_2pw9C_0443:C  
+        9.1    5.1   0.0         11    4.8   0.0    1.1  1  nubinitio_picker_54643_2pw9C_0107:C  
+         10    4.9   0.0         10    5.0   0.0    1.1  1  nubinitio_picker_60238_2pw9C_0262:C  
+         15    4.4   0.0         15    4.4   0.0    1.2  1  nubinitio_picker_55615_2pw9C_0412:C  
+         17    4.2   0.0         20    4.0   0.0    1.2  1  nubinitio_picker_14140_2pw9C_0557:C  
+         20    4.0   0.0         25    3.7   0.0    1.2  1  nubinitio_picker_38781_2pw9C_0157:C  
+         22    3.9   0.0         25    3.6   0.0    1.1  1  nubinitio_picker_55615_2pw9C_0499:C  
+         22    3.8   0.0         25    3.7   0.0    1.1  1  nubinitio_picker_54643_2pw9C_0535:C  
+         25    3.7   0.0         32    3.3   0.0    1.2  1  nubinitio_picker_19167_2pw9C_0011:C  
+         26    3.6   0.0         27    3.5   0.0    1.1  1  nubinitio_picker_72054_2pw9C_0438:C  
+         28    3.5   0.0         26    3.6   0.0    1.1  1  nubinitio_picker_58451_2pw9C_0483:C  
+         29    3.5   0.0         31    3.4   0.0    1.1  1  nubinitio_picker_38377_2pw9C_0343:C  
+         29    3.4   0.0         29    3.4   0.0    1.1  1  nubinitio_picker_54643_2pw9C_0141:C  
+         30    3.4   0.0         27    3.6   0.0    1.1  1  nubinitio_picker_58451_2pw9C_0299:C  
+         34    3.2   0.0         38    3.1   0.0    1.1  1  nubinitio_picker_14140_2pw9C_0084:C  
+         38    3.1   0.0         37    3.1   0.0    1.1  1  nubinitio_picker_60233_2pw9C_0027:C  
+         39    3.0   0.0         41    3.0   0.0    1.1  1  nubinitio_picker_60238_2pw9C_0099:C  
+         42    2.9   0.1         44    2.9   0.1    1.1  1  nubinitio_picker_55615_2pw9C_0237:C  
+         44    2.9   0.0         44    2.9   0.0    1.1  1  nubinitio_picker_58451_2pw9C_0372:C  
+         53    2.6   0.0         59    2.4   0.0    1.1  1  nubinitio_picker_47571_2pw9C_0436:C  
+         53    2.6   0.0         59    2.4   0.0    1.1  1  nubinitio_picker_60233_2pw9C_0371:C  
+         54    2.6   0.0         58    2.5   0.0    1.1  1  nubinitio_picker_54862_2pw9C_0325:C  
+         57    2.5   0.0         54    2.6   0.0    1.1  1  nubinitio_picker_49242_2pw9C_0099:C  
+         57    2.5   0.0         60    2.4   0.0    1.1  1  nubinitio_picker_72054_2pw9C_0546:C  
+         57    2.5   0.0         75    2.1   0.0    1.2  1  nubinitio_picker_14140_2pw9C_0398:C  
+         58    2.5   0.0         60    2.4   0.0    1.1  1  nubinitio_picker_54643_2pw9C_0548:C  
+         59    2.5   0.0         59    2.5   0.0    1.1  1  nubinitio_picker_54862_2pw9C_0086:C  
+         59    2.5   0.0         64    2.3   0.0    1.1  1  nubinitio_picker_54643_2pw9C_0213:C  
+         59    2.5   0.0         68    2.3   0.0    1.1  1  nubinitio_picker_54862_2pw9C_0231:C  
+         59    2.4   0.0         63    2.4   0.0    1.1  1  nubinitio_picker_72054_2pw9C_0070:C  
+         60    2.4   0.0         72    2.2   0.0    1.1  1  nubinitio_picker_50829_2pw9C_0251:C  
+         61    2.4   0.1         67    2.3   0.1    1.1  1  nubinitio_picker_47571_2pw9C_0222:C  
+         62    2.4   0.0         84    2.0   0.0    1.2  1  nubinitio_picker_60233_2pw9C_0088:C  
+         67    2.3   0.0         71    2.2   0.0    1.1  1  nubinitio_picker_43649_2pw9C_0364:C  
+         67    2.3   0.0         71    2.2   0.0    1.1  1  nubinitio_picker_38781_2pw9C_0271:C  
+         68    2.3   0.0         68    2.2   0.0    1.1  1  nubinitio_picker_50829_2pw9C_0487:C  
+         68    2.3   0.0         65    2.3   0.0    1.0  1  nubinitio_picker_60238_2pw9C_0036:C  
+         70    2.2   0.0         73    2.2   0.0    1.1  1  nubinitio_picker_38377_2pw9C_0009:C  
+         72    2.2   0.0         74    2.1   0.0    1.1  1  nubinitio_picker_38781_2pw9C_0005:C  
+         73    2.2   0.0         81    2.0   0.0    1.1  1  nubinitio_picker_12792_2pw9C_0406:C  
+         75    2.1   0.0         70    2.2   0.0    1.2  1  nubinitio_picker_19167_2pw9C_0451:C  
+         75    2.1   0.0         85    1.9   0.0    1.1  1  nubinitio_picker_58451_2pw9C_0054:C  
+         75    2.1   0.0         92    1.8   0.0    1.1  1  nubinitio_picker_54643_2pw9C_0136:C  
+         76    2.1   0.1         90    1.9   0.1    1.1  1  nubinitio_picker_38377_2pw9C_0569:C  
+         77    2.1   0.0         80    2.0   0.0    1.1  1  nubinitio_picker_69839_2pw9C_0251:C  
+         77    2.1   0.0         86    1.9   0.0    1.2  1  nubinitio_picker_54643_2pw9C_0122:C  
+         77    2.1   0.0         86    1.9   0.0    1.1  1  nubinitio_picker_60233_2pw9C_0385:C  
+         77    2.1   0.0         87    1.9   0.0    1.1  1  nubinitio_picker_49768_2pw9C_0105:C  
+         80    2.0   0.0         88    1.9   0.0    1.1  1  nubinitio_picker_12792_2pw9C_0100:C  
+         82    2.0   0.0         82    2.0   0.0    1.1  1  nubinitio_picker_60233_2pw9C_0162:C  
+         83    2.0   0.0         85    1.9   0.0    1.2  1  nubinitio_picker_49768_2pw9C_0354:C  
+         83    2.0   0.1    1.6e+02    1.1   0.0    1.2  1  nubinitio_picker_38781_2pw9C_0363:C  
+         85    1.9   0.1    1.6e+02    1.0   0.0    1.4  2  nubinitio_picker_50829_2pw9C_0239:C  
+         86    1.9   0.0         98    1.7   0.0    1.1  1  nubinitio_picker_38781_2pw9C_0128:C  
+         86    1.9   0.1      1e+02    1.7   0.1    1.1  1  nubinitio_picker_19167_2pw9C_0541:C  
+         87    1.9   0.0         87    1.9   0.0    1.1  1  nubinitio_picker_60233_2pw9C_0359:C  
+         87    1.9   0.0         94    1.8   0.0    1.1  1  nubinitio_picker_58451_2pw9C_0303:C  
+         89    1.9   0.0         94    1.8   0.0    1.2  1  nubinitio_picker_60238_2pw9C_0324:C  
+         90    1.9   0.0         95    1.8   0.0    1.1  1  nubinitio_picker_38377_2pw9C_0085:C  
+         90    1.9   0.1      2e+02    0.8   0.1    1.2  2  nubinitio_picker_43649_2pw9C_0100:C  
+         91    1.8   0.0    1.4e+02    1.3   0.0    1.2  1  nubinitio_picker_38781_2pw9C_0244:C  
+         92    1.8   0.0    1.2e+02    1.4   0.0    1.3  1  nubinitio_picker_19167_2pw9C_0082:C  
+         93    1.8   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_picker_55615_2pw9C_0422:C  
+         93    1.8   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_picker_55615_2pw9C_0218:C  
+         93    1.8   0.0    1.3e+02    1.4   0.0    1.2  1  nubinitio_picker_72054_2pw9C_0246:C  
+         94    1.8   0.0    1.1e+02    1.6   0.0    1.1  1  nubinitio_picker_72054_2pw9C_0050:C  
+         94    1.8   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_picker_38377_2pw9C_0074:C  
+         95    1.8   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_picker_49768_2pw9C_0042:C  
+         95    1.8   0.1    2.6e+02    0.3   0.0    1.3  1  nubinitio_picker_47571_2pw9C_0415:C  
+         96    1.8   0.0         84    2.0   0.0    1.1  1  nubinitio_picker_49768_2pw9C_0514:C  
+         97    1.8   0.0    1.1e+02    1.6   0.0    1.1  1  nubinitio_picker_55615_2pw9C_0427:C  
+         99    1.7   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_picker_54862_2pw9C_0221:C  
+         99    1.7   0.0         97    1.8   0.0    1.1  1  nubinitio_picker_54862_2pw9C_0276:C  
+         99    1.7   0.0    1.2e+02    1.5   0.0    1.2  1  nubinitio_picker_58451_2pw9C_0178:C  
+         99    1.7   0.0    1.2e+02    1.5   0.0    1.1  1  nubinitio_picker_14140_2pw9C_0192:C  
+      1e+02    1.7   0.0    1.1e+02    1.6   0.0    1.1  1  nubinitio_picker_72054_2pw9C_0334:C  
+      1e+02    1.7   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_picker_54643_2pw9C_0084:C  
+
+
+Domain annotation for each sequence:
+>> nubinitio_picker_58451_2pw9C_0461:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.3   0.0      0.03         4      11      34 ..      17      40 ..       7      53 .. 0.84
+
+>> nubinitio_picker_49242_2pw9C_0443:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   0.0     0.035       4.7      94     131 ..      14      50 ..       4      56 .. 0.84
+
+>> nubinitio_picker_54643_2pw9C_0107:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.8   0.0     0.083        11      24      54 ..       4      34 ..       2      40 .. 0.87
+
+>> nubinitio_picker_60238_2pw9C_0262:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.0   0.0     0.076        10      95     115 ..      15      35 ..       6      48 .. 0.89
+
+>> nubinitio_picker_55615_2pw9C_0412:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.0      0.11        15      96     117 ..      16      37 ..       2      53 .. 0.76
+
+>> nubinitio_picker_14140_2pw9C_0557:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.0   0.0      0.15        20       4      33 ..      16      45 ..      13      53 .. 0.81
+
+>> nubinitio_picker_38781_2pw9C_0157:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.7   0.0      0.19        25     117     138 ..       4      25 ..       1      28 [. 0.84
+
+>> nubinitio_picker_55615_2pw9C_0499:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0      0.19        25      30      53 ..      10      34 ..       5      40 .. 0.83
+
+>> nubinitio_picker_54643_2pw9C_0535:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.7   0.0      0.19        25      29      52 ..       9      32 ..       4      38 .. 0.81
+
+>> nubinitio_picker_19167_2pw9C_0011:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.24        32     124     138 ..      11      25 ..       4      28 .. 0.81
+
+>> nubinitio_picker_72054_2pw9C_0438:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   0.0      0.21        27      99     115 ..      19      35 ..       6      42 .. 0.84
+
+>> nubinitio_picker_58451_2pw9C_0483:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0       0.2        26      97     114 ..      13      30 ..       5      55 .. 0.70
+
+>> nubinitio_picker_38377_2pw9C_0343:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.0      0.24        31       3      28 ..      15      40 ..      13      50 .. 0.83
+
+>> nubinitio_picker_54643_2pw9C_0141:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.0      0.22        29      43      66 ..      19      42 ..       3      53 .. 0.80
+
+>> nubinitio_picker_58451_2pw9C_0299:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0       0.2        27      95     117 ..      15      37 ..       2      50 .. 0.86
+
+>> nubinitio_picker_14140_2pw9C_0084:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.29        38      96     115 ..      16      35 ..      10      44 .. 0.90
+
+>> nubinitio_picker_60233_2pw9C_0027:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.28        37      96     115 ..      16      35 ..       4      53 .. 0.81
+
+>> nubinitio_picker_60238_2pw9C_0099:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.0      0.31        41      97     114 ..      13      30 ..       5      43 .. 0.80
+
+>> nubinitio_picker_55615_2pw9C_0237:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.1      0.33        44       2      29 ..      14      41 ..      13      54 .. 0.84
+
+>> nubinitio_picker_58451_2pw9C_0372:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0      0.34        44       4      31 ..      16      43 ..      13      55 .. 0.75
+
+>> nubinitio_picker_47571_2pw9C_0436:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.45        59       9      28 ..      21      40 ..      14      49 .. 0.84
+
+>> nubinitio_picker_60233_2pw9C_0371:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.45        59      39      58 ..      20      39 ..       9      44 .. 0.84
+
+>> nubinitio_picker_54862_2pw9C_0325:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0      0.44        58      10      34 ..      16      40 ..       8      48 .. 0.83
+
+>> nubinitio_picker_49242_2pw9C_0099:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.41        54      33      55 ..      13      36 ..       4      53 .. 0.74
+
+>> nubinitio_picker_72054_2pw9C_0546:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.46        60       5      28 ..      17      40 ..      13      51 .. 0.79
+
+>> nubinitio_picker_14140_2pw9C_0398:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.57        75     124     138 ..      13      28 ..       6      31 .. 0.73
+
+>> nubinitio_picker_54643_2pw9C_0548:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.45        60      33      58 ..      14      39 ..       4      51 .. 0.82
+
+>> nubinitio_picker_54862_2pw9C_0086:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0      0.44        59       3      22 ..      15      34 ..       5      49 .. 0.63
+
+>> nubinitio_picker_54643_2pw9C_0213:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.48        64       7      35 ..      20      48 ..      15      56 .. 0.85
+
+>> nubinitio_picker_54862_2pw9C_0231:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.51        68       6      28 ..      18      40 ..      14      47 .. 0.84
+
+>> nubinitio_picker_72054_2pw9C_0070:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.48        63       3      27 ..      15      39 ..      13      50 .. 0.82
+
+>> nubinitio_picker_50829_2pw9C_0251:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.54        72      86     105 ..       3      22 ..       2      33 .. 0.87
+
+>> nubinitio_picker_47571_2pw9C_0222:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.1      0.51        67       3      28 ..      15      40 ..      13      48 .. 0.80
+
+>> nubinitio_picker_60233_2pw9C_0088:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.64        84     124     138 ..      11      25 ..       4      30 .. 0.75
+
+>> nubinitio_picker_43649_2pw9C_0364:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.54        71       4      28 ..      16      40 ..      13      51 .. 0.83
+
+>> nubinitio_picker_38781_2pw9C_0271:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.54        71      88     119 ..      17      48 ..       4      50 .. 0.78
+
+>> nubinitio_picker_50829_2pw9C_0487:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.52        68       4      29 ..      16      41 ..      13      55 .. 0.80
+
+>> nubinitio_picker_60238_2pw9C_0036:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0       0.5        65       5      38 ..      17      50 ..      13      58 .] 0.78
+
+>> nubinitio_picker_38377_2pw9C_0009:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.55        73      15      45 ..      15      46 ..       4      51 .. 0.73
+
+>> nubinitio_picker_38781_2pw9C_0005:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.56        74       6      36 ..      18      48 ..      13      57 .. 0.75
+
+>> nubinitio_picker_12792_2pw9C_0406:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.61        81      72      92 ..      13      33 ..       3      37 .. 0.79
+
+>> nubinitio_picker_19167_2pw9C_0451:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.53        70      59      81 ..      33      54 ..      10      57 .. 0.81
+
+>> nubinitio_picker_58451_2pw9C_0054:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.64        85       2      28 ..      14      40 ..      13      48 .. 0.81
+
+>> nubinitio_picker_54643_2pw9C_0136:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0       0.7        92     125     139 ..      12      26 ..       5      28 .. 0.82
+
+>> nubinitio_picker_38377_2pw9C_0569:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.1      0.68        90       5      28 ..      17      40 ..      13      43 .. 0.84
+
+>> nubinitio_picker_69839_2pw9C_0251:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.61        80      15      34 ..      21      40 ..      15      53 .. 0.80
+
+>> nubinitio_picker_54643_2pw9C_0122:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.65        86       8      32 ..      22      46 ..      11      49 .. 0.83
+
+>> nubinitio_picker_60233_2pw9C_0385:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.65        86     102     115 ..      22      35 ..      11      42 .. 0.79
+
+>> nubinitio_picker_49768_2pw9C_0105:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.66        87      10      29 ..      22      41 ..      14      46 .. 0.83
+
+>> nubinitio_picker_12792_2pw9C_0100:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.67        88       7      34 ..      13      40 ..       7      48 .. 0.79
+
+>> nubinitio_picker_60233_2pw9C_0162:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.62        82      90     113 ..       6      29 ..       3      47 .. 0.86
+
+>> nubinitio_picker_49768_2pw9C_0354:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.64        85       7      28 ..      19      40 ..       6      49 .. 0.81
+
+>> nubinitio_picker_38781_2pw9C_0363:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.0       1.2   1.6e+02       5      28 ..      17      40 ..      13      45 .. 0.76
+
+>> nubinitio_picker_50829_2pw9C_0239:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.0       1.2   1.6e+02      25      41 ..       5      21 ..       2      34 .. 0.70
+   2 ?   -1.2   0.0         6     8e+02      80      92 ..      25      37 ..      23      50 .. 0.71
+
+>> nubinitio_picker_38781_2pw9C_0128:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.74        98      96     125 ..       3      32 ..       2      41 .. 0.79
+
+>> nubinitio_picker_19167_2pw9C_0541:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.1      0.77     1e+02       2      28 ..      14      40 ..      13      45 .. 0.85
+
+>> nubinitio_picker_60233_2pw9C_0359:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.66        87       7      29 ..      19      41 ..      13      55 .. 0.79
+
+>> nubinitio_picker_58451_2pw9C_0303:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.71        94      96     115 ..      16      35 ..       7      42 .. 0.77
+
+>> nubinitio_picker_60238_2pw9C_0324:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.72        94      20      34 ..      26      40 ..      11      56 .. 0.64
+
+>> nubinitio_picker_38377_2pw9C_0085:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.72        95       6      28 ..      18      40 ..      13      48 .. 0.85
+
+>> nubinitio_picker_43649_2pw9C_0100:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.1       1.5     2e+02      92     113 ..       7      29 ..       4      37 .. 0.59
+   2 ?    0.4   0.1       1.9   2.5e+02       7      28 ..      19      40 ..      13      52 .. 0.70
+
+>> nubinitio_picker_38781_2pw9C_0244:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0         1   1.4e+02     126     137 ..      13      24 ..       3      28 .. 0.77
+
+>> nubinitio_picker_19167_2pw9C_0082:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.94   1.2e+02      22      48 ..       2      28 ..       1      39 [. 0.76
+
+>> nubinitio_picker_55615_2pw9C_0422:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.76     1e+02      17      38 ..      15      36 ..      10      51 .. 0.77
+
+>> nubinitio_picker_55615_2pw9C_0218:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.76     1e+02       6      31 ..      19      44 ..      14      56 .. 0.74
+
+>> nubinitio_picker_72054_2pw9C_0246:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.98   1.3e+02     127     138 ..      14      25 ..       3      28 .. 0.75
+
+>> nubinitio_picker_72054_2pw9C_0050:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0      0.84   1.1e+02       5      28 ..      17      40 ..      13      44 .. 0.83
+
+>> nubinitio_picker_38377_2pw9C_0074:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.77     1e+02       8      30 ..      13      35 ..      10      49 .. 0.73
+
+>> nubinitio_picker_49768_2pw9C_0042:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.78     1e+02       8      37 ..      21      50 ..      14      56 .. 0.81
+
+>> nubinitio_picker_47571_2pw9C_0415:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.0         2   2.6e+02      61      84 ..      35      57 ..      30      58 .] 0.68
+
+>> nubinitio_picker_49768_2pw9C_0514:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.63        84      45      65 ..      21      41 ..       4      56 .. 0.74
+
+>> nubinitio_picker_55615_2pw9C_0427:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0      0.81   1.1e+02     125     139 ..      19      33 ..       5      35 .. 0.85
+
+>> nubinitio_picker_54862_2pw9C_0221:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.75     1e+02      10      34 ..      22      40 ..      13      55 .. 0.65
+
+>> nubinitio_picker_54862_2pw9C_0276:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.73        97      97     131 ..      13      49 ..       5      58 .] 0.55
+
+>> nubinitio_picker_58451_2pw9C_0178:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.5   0.0      0.91   1.2e+02     124     138 ..      11      25 ..       1      28 [. 0.72
+
+>> nubinitio_picker_14140_2pw9C_0192:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.5   0.0      0.89   1.2e+02       7      32 ..      22      47 ..      16      49 .. 0.85
+
+>> nubinitio_picker_72054_2pw9C_0334:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0      0.82   1.1e+02       3      28 ..      15      40 ..      13      48 .. 0.78
+
+>> nubinitio_picker_54643_2pw9C_0084:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.79     1e+02      97     116 ..      17      36 ..       9      48 .. 0.78
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (141 nodes)
+Target sequences:                        10296  (597168 residues searched)
+Passed MSV filter:                     10296  (1); expected 10296.0 (1)
+Passed bias filter:                    10296  (1); expected 10296.0 (1)
+Passed Vit filter:                     10296  (1); expected 10296.0 (1)
+Passed Fwd filter:                     10296  (1); expected 10296.0 (1)
+Initial search space (Z):              10296  [actual number of targets]
+Domain search space  (domZ):              78  [number of targets reported over threshold]
+# CPU time: 13.67u 0.08s 00:00:13.75 Elapsed: 00:00:05.23
+# Mc/sec: 16.10
+//
+[ok]

@@ -1,0 +1,651 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  hmm/2pw9C03.hmm
+# target sequence database:        hmm/sequence_nubinitio_auto.fa
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 100
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cath|4_1_0|2pw9C03/120-257  [M=141]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                          -----------
+  ------ inclusion threshold ------
+       0.59    8.9   0.0       0.64    8.8   0.0    1.1  1  nubinitio_auto_37841_2pw9C_0084:C  
+        1.7    7.5   0.0          2    7.2   0.0    1.1  1  nubinitio_auto_26095_2pw9C_0363:C  
+        6.1    5.6   0.0        6.7    5.5   0.0    1.1  1  nubinitio_auto_17684_2pw9C_0010:C  
+        7.3    5.4   0.0        7.5    5.3   0.0    1.1  1  nubinitio_auto_60560_2pw9C_0526:C  
+        8.3    5.2   0.0        9.3    5.1   0.0    1.0  1  nubinitio_auto_28737_2pw9C_0084:C  
+        8.8    5.1   0.0        8.8    5.1   0.0    1.1  1  nubinitio_auto_28737_2pw9C_0316:C  
+         12    4.7   0.0         12    4.8   0.0    1.1  1  nubinitio_auto_2461_2pw9C_0295:C   
+         12    4.7   0.0         13    4.6   0.0    1.1  1  nubinitio_auto_14996_2pw9C_0200:C  
+         12    4.7   0.0         13    4.6   0.0    1.0  1  nubinitio_auto_16716_2pw9C_0184:C  
+         15    4.4   0.0         15    4.4   0.0    1.1  1  nubinitio_auto_52077_2pw9C_0358:C  
+         15    4.4   0.0         17    4.2   0.0    1.1  1  nubinitio_auto_26095_2pw9C_0094:C  
+         16    4.3   0.0         18    4.2   0.0    1.1  1  nubinitio_auto_32347_2pw9C_0051:C  
+         17    4.2   0.0         17    4.2   0.0    1.1  1  nubinitio_auto_52077_2pw9C_0326:C  
+         17    4.2   0.0         18    4.1   0.0    1.1  1  nubinitio_auto_34419_2pw9C_0193:C  
+         20    4.0   0.0         20    4.0   0.0    1.2  1  nubinitio_auto_30136_2pw9C_0330:C  
+         20    4.0   0.0         21    3.9   0.0    1.1  1  nubinitio_auto_37005_2pw9C_0236:C  
+         22    3.8   0.0         23    3.8   0.0    1.1  1  nubinitio_auto_26095_2pw9C_0019:C  
+         23    3.8   0.0         26    3.6   0.0    1.1  1  nubinitio_auto_2461_2pw9C_0406:C   
+         23    3.8   0.0         23    3.8   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0422:C  
+         25    3.7   0.0         27    3.5   0.0    1.1  1  nubinitio_auto_27539_2pw9C_0104:C  
+         28    3.5   0.0         30    3.4   0.0    1.1  1  nubinitio_auto_60560_2pw9C_0053:C  
+         28    3.5   0.0         35    3.2   0.0    1.1  1  nubinitio_auto_32347_2pw9C_0086:C  
+         28    3.5   0.0         29    3.5   0.0    1.1  1  nubinitio_auto_22634_2pw9C_0293:C  
+         29    3.5   0.0         33    3.3   0.0    1.1  1  nubinitio_auto_52077_2pw9C_0213:C  
+         30    3.4   0.0         35    3.2   0.0    1.1  1  nubinitio_auto_14996_2pw9C_0482:C  
+         31    3.3   0.0         31    3.4   0.0    1.1  1  nubinitio_auto_6570_2pw9C_0568:C   
+         32    3.3   0.0         33    3.3   0.0    1.1  1  nubinitio_auto_34419_2pw9C_0282:C  
+         32    3.3   0.0         32    3.3   0.0    1.1  1  nubinitio_auto_27539_2pw9C_0495:C  
+         32    3.3   0.0         35    3.2   0.0    1.1  1  nubinitio_auto_30136_2pw9C_0340:C  
+         32    3.3   0.0         39    3.0   0.0    1.1  1  nubinitio_auto_28737_2pw9C_0275:C  
+         33    3.3   0.0         36    3.1   0.0    1.1  1  nubinitio_auto_14996_2pw9C_0434:C  
+         33    3.3   0.0         37    3.1   0.0    1.1  1  nubinitio_auto_27539_2pw9C_0236:C  
+         35    3.2   0.0         37    3.1   0.0    1.1  1  nubinitio_auto_37841_2pw9C_0106:C  
+         39    3.0   0.0         54    2.6   0.0    1.2  1  nubinitio_auto_26095_2pw9C_0056:C  
+         39    3.0   0.0         44    2.9   0.0    1.1  1  nubinitio_auto_30136_2pw9C_0344:C  
+         42    2.9   0.1         74    2.1   0.1    1.4  2  nubinitio_auto_28737_2pw9C_0211:C  
+         42    2.9   0.0         45    2.8   0.0    1.1  1  nubinitio_auto_30136_2pw9C_0120:C  
+         44    2.9   0.1         50    2.7   0.1    1.1  1  nubinitio_auto_16716_2pw9C_0395:C  
+         50    2.7   0.0         57    2.5   0.0    1.1  1  nubinitio_auto_26095_2pw9C_0323:C  
+         50    2.7   0.0         53    2.6   0.0    1.1  1  nubinitio_auto_37005_2pw9C_0361:C  
+         51    2.7   0.0         50    2.7   0.0    1.2  1  nubinitio_auto_6570_2pw9C_0085:C   
+         51    2.6   0.0         64    2.3   0.0    1.1  1  nubinitio_auto_16716_2pw9C_0002:C  
+         52    2.6   0.0         54    2.6   0.0    1.1  1  nubinitio_auto_14996_2pw9C_0128:C  
+         53    2.6   0.0         59    2.4   0.0    1.1  1  nubinitio_auto_37841_2pw9C_0322:C  
+         55    2.5   0.0         63    2.4   0.0    1.1  1  nubinitio_auto_22634_2pw9C_0354:C  
+         57    2.5   0.0         66    2.3   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0254:C  
+         60    2.4   0.0         64    2.3   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0175:C  
+         61    2.4   0.0         67    2.3   0.0    1.1  1  nubinitio_auto_31844_2pw9C_0170:C  
+         61    2.4   0.0         65    2.3   0.0    1.2  1  nubinitio_auto_26095_2pw9C_0165:C  
+         64    2.3   0.0         52    2.6   0.0    1.1  1  nubinitio_auto_16716_2pw9C_0546:C  
+         65    2.3   0.0         62    2.4   0.0    1.1  1  nubinitio_auto_34419_2pw9C_0252:C  
+         65    2.3   0.0         64    2.3   0.0    1.2  1  nubinitio_auto_52077_2pw9C_0428:C  
+         65    2.3   0.0         53    2.6   0.0    1.1  1  nubinitio_auto_27539_2pw9C_0509:C  
+         65    2.3   0.1         75    2.1   0.1    1.1  1  nubinitio_auto_60560_2pw9C_0247:C  
+         66    2.3   0.0         78    2.1   0.0    1.1  1  nubinitio_auto_16716_2pw9C_0435:C  
+         67    2.3   0.0         71    2.2   0.0    1.1  1  nubinitio_auto_28737_2pw9C_0567:C  
+         68    2.3   0.0         72    2.2   0.0    1.1  1  nubinitio_auto_30136_2pw9C_0254:C  
+         68    2.3   0.0         73    2.1   0.0    1.1  1  nubinitio_auto_16716_2pw9C_0548:C  
+         70    2.2   0.0         70    2.2   0.0    1.1  1  nubinitio_auto_26095_2pw9C_0553:C  
+         70    2.2   0.0         81    2.0   0.0    1.1  1  nubinitio_auto_17684_2pw9C_0160:C  
+         70    2.2   0.0         79    2.0   0.0    1.1  1  nubinitio_auto_52077_2pw9C_0525:C  
+         71    2.2   0.0         75    2.1   0.0    1.1  1  nubinitio_auto_34419_2pw9C_0205:C  
+         73    2.1   0.0         66    2.3   0.0    1.1  1  nubinitio_auto_6570_2pw9C_0049:C   
+         74    2.1   0.0         87    1.9   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0436:C  
+         74    2.1   0.0         75    2.1   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0265:C  
+         75    2.1   0.0         73    2.2   0.0    1.1  1  nubinitio_auto_28737_2pw9C_0330:C  
+         75    2.1   0.0         74    2.1   0.0    1.1  1  nubinitio_auto_28737_2pw9C_0244:C  
+         75    2.1   0.0         75    2.1   0.0    1.1  1  nubinitio_auto_16716_2pw9C_0149:C  
+         75    2.1   0.0         81    2.0   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0193:C  
+         76    2.1   0.0         80    2.0   0.0    1.1  1  nubinitio_auto_32347_2pw9C_0083:C  
+         76    2.1   0.0         79    2.0   0.0    1.1  1  nubinitio_auto_34419_2pw9C_0241:C  
+         76    2.1   0.0         74    2.1   0.0    1.1  1  nubinitio_auto_60560_2pw9C_0507:C  
+         77    2.1   0.0         82    2.0   0.0    1.1  1  nubinitio_auto_26095_2pw9C_0457:C  
+         78    2.1   0.0    1.3e+02    1.3   0.0    1.3  1  nubinitio_auto_14996_2pw9C_0109:C  
+         78    2.1   0.0         96    1.8   0.0    1.1  1  nubinitio_auto_37005_2pw9C_0347:C  
+         78    2.1   0.0         92    1.8   0.0    1.1  1  nubinitio_auto_26095_2pw9C_0317:C  
+         80    2.0   0.0         97    1.8   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0329:C  
+         80    2.0   0.0         87    1.9   0.0    1.1  1  nubinitio_auto_6570_2pw9C_0468:C   
+         83    2.0   0.0         82    2.0   0.0    1.1  1  nubinitio_auto_22634_2pw9C_0318:C  
+         84    2.0   0.0         97    1.8   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0035:C  
+         86    1.9   0.0         78    2.1   0.0    1.2  1  nubinitio_auto_34419_2pw9C_0201:C  
+         87    1.9   0.0         85    1.9   0.0    1.1  1  nubinitio_auto_37841_2pw9C_0386:C  
+         88    1.9   0.0    1.1e+02    1.5   0.0    1.3  1  nubinitio_auto_52077_2pw9C_0196:C  
+         88    1.9   0.0         92    1.8   0.0    1.1  1  nubinitio_auto_22634_2pw9C_0106:C  
+         89    1.9   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_auto_14996_2pw9C_0142:C  
+         89    1.9   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_auto_34419_2pw9C_0387:C  
+         90    1.9   0.0         93    1.8   0.0    1.1  1  nubinitio_auto_22634_2pw9C_0076:C  
+         90    1.9   0.0         92    1.8   0.0    1.1  1  nubinitio_auto_60560_2pw9C_0323:C  
+         91    1.8   0.0         87    1.9   0.0    1.1  1  nubinitio_auto_16716_2pw9C_0252:C  
+         92    1.8   0.0         94    1.8   0.0    1.1  1  nubinitio_auto_31844_2pw9C_0389:C  
+         92    1.8   0.0    1.1e+02    1.6   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0005:C  
+         93    1.8   0.1    3.7e+02   -0.1   0.0    1.5  2  nubinitio_auto_24672_2pw9C_0528:C  
+         94    1.8   0.0    1.1e+02    1.6   0.0    1.3  1  nubinitio_auto_17684_2pw9C_0489:C  
+         94    1.8   0.0         95    1.8   0.0    1.1  1  nubinitio_auto_27539_2pw9C_0549:C  
+         96    1.8   0.0         94    1.8   0.0    1.1  1  nubinitio_auto_32347_2pw9C_0390:C  
+         97    1.8   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_auto_32347_2pw9C_0067:C  
+         97    1.8   0.0         99    1.7   0.0    1.1  1  nubinitio_auto_6570_2pw9C_0217:C   
+         97    1.8   0.0    1.1e+02    1.6   0.0    1.1  1  nubinitio_auto_37005_2pw9C_0400:C  
+         98    1.7   0.0    1.1e+02    1.6   0.0    1.1  1  nubinitio_auto_30136_2pw9C_0248:C  
+         99    1.7   0.0    1.1e+02    1.6   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0469:C  
+         99    1.7   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_auto_14996_2pw9C_0438:C  
+         99    1.7   0.0      1e+02    1.7   0.0    1.1  1  nubinitio_auto_24672_2pw9C_0085:C  
+
+
+Domain annotation for each sequence:
+>> nubinitio_auto_37841_2pw9C_0084:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.8   0.0    0.0063      0.64      91     132 ..      11      51 ..       5      57 .. 0.76
+
+>> nubinitio_auto_26095_2pw9C_0363:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.2   0.0      0.02         2      25      55 ..       5      31 ..       2      38 .. 0.85
+
+>> nubinitio_auto_17684_2pw9C_0010:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.5   0.0     0.066       6.7      94     117 ..      14      37 ..      11      51 .. 0.92
+
+>> nubinitio_auto_60560_2pw9C_0526:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.0     0.075       7.5       5      32 ..      17      44 ..      13      57 .. 0.81
+
+>> nubinitio_auto_28737_2pw9C_0084:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.1   0.0     0.092       9.3      75     106 ..      15      46 ..       7      49 .. 0.89
+
+>> nubinitio_auto_28737_2pw9C_0316:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.1   0.0     0.087       8.8      93     115 ..      13      35 ..       6      54 .. 0.91
+
+>> nubinitio_auto_2461_2pw9C_0295:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.8   0.0      0.11        12      11      34 ..      16      40 ..       7      56 .. 0.77
+
+>> nubinitio_auto_14996_2pw9C_0200:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.0      0.13        13      98     131 ..      13      50 ..       6      55 .. 0.80
+
+>> nubinitio_auto_16716_2pw9C_0184:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.0      0.13        13       2      44 ..      14      55 ..      13      58 .] 0.80
+
+>> nubinitio_auto_52077_2pw9C_0358:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.0      0.15        15       8      35 ..      14      41 ..       8      54 .. 0.84
+
+>> nubinitio_auto_26095_2pw9C_0094:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0      0.17        17       5      28 ..      17      40 ..      13      45 .. 0.86
+
+>> nubinitio_auto_32347_2pw9C_0051:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0      0.17        18       4      38 ..      16      50 ..      13      57 .. 0.81
+
+>> nubinitio_auto_52077_2pw9C_0326:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0      0.17        17       8      37 ..      20      49 ..      14      58 .] 0.76
+
+>> nubinitio_auto_34419_2pw9C_0193:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1   0.0      0.18        18       3      28 ..      15      40 ..      13      51 .. 0.88
+
+>> nubinitio_auto_30136_2pw9C_0330:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.0   0.0       0.2        20      52      69 ..       5      22 ..       4      47 .. 0.79
+
+>> nubinitio_auto_37005_2pw9C_0236:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.9   0.0      0.21        21      10      35 ..      32      57 ..      23      58 .] 0.81
+
+>> nubinitio_auto_26095_2pw9C_0019:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.8   0.0      0.23        23       3      29 ..      15      41 ..      13      55 .. 0.84
+
+>> nubinitio_auto_2461_2pw9C_0406:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0      0.26        26       4      34 ..      10      40 ..       7      43 .. 0.87
+
+>> nubinitio_auto_24672_2pw9C_0422:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.8   0.0      0.23        23      96     115 ..      16      35 ..       5      54 .. 0.75
+
+>> nubinitio_auto_27539_2pw9C_0104:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   0.0      0.27        27      96     117 ..      16      37 ..       6      41 .. 0.85
+
+>> nubinitio_auto_60560_2pw9C_0053:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.0       0.3        30       3      28 ..      15      40 ..      13      50 .. 0.86
+
+>> nubinitio_auto_32347_2pw9C_0086:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0      0.34        35       5      30 ..      20      45 ..      17      50 .. 0.85
+
+>> nubinitio_auto_22634_2pw9C_0293:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   0.0      0.28        29      26      52 ..       6      32 ..       2      46 .. 0.82
+
+>> nubinitio_auto_52077_2pw9C_0213:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.33        33       7      28 ..      19      40 ..      15      48 .. 0.86
+
+>> nubinitio_auto_14996_2pw9C_0482:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0      0.34        35      57      75 ..      10      28 ..       9      49 .. 0.80
+
+>> nubinitio_auto_6570_2pw9C_0568:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.0       0.3        31       4      28 ..      16      40 ..      13      55 .. 0.84
+
+>> nubinitio_auto_34419_2pw9C_0282:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.33        33       5      37 ..      17      49 ..      13      57 .. 0.84
+
+>> nubinitio_auto_27539_2pw9C_0495:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.31        32       3      35 ..      15      47 ..      13      57 .. 0.81
+
+>> nubinitio_auto_30136_2pw9C_0340:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0      0.35        35      11      34 ..      17      40 ..      11      49 .. 0.88
+
+>> nubinitio_auto_28737_2pw9C_0275:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.0      0.39        39       7      29 ..      19      41 ..      16      48 .. 0.85
+
+>> nubinitio_auto_14996_2pw9C_0434:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.36        36       4      38 ..      16      50 ..      13      57 .. 0.82
+
+>> nubinitio_auto_27539_2pw9C_0236:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.37        37       5      29 ..      17      41 ..      13      50 .. 0.85
+
+>> nubinitio_auto_37841_2pw9C_0106:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.37        37       5      29 ..      17      41 ..      13      53 .. 0.84
+
+>> nubinitio_auto_26095_2pw9C_0056:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.53        54     116     139 ..       1      24 [.       1      26 [. 0.88
+
+>> nubinitio_auto_30136_2pw9C_0344:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0      0.43        44       3      32 ..      15      45 ..      13      52 .. 0.79
+
+>> nubinitio_auto_28737_2pw9C_0211:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.2   0.0         8     8e+02      93     109 ..       1      17 [.       1      20 [. 0.82
+   2 ?    2.1   0.1      0.73        74       6      28 ..      18      40 ..      13      49 .. 0.84
+
+>> nubinitio_auto_30136_2pw9C_0120:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.0      0.45        45       9      34 ..      15      40 ..       8      49 .. 0.81
+
+>> nubinitio_auto_16716_2pw9C_0395:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.1       0.5        50       3      28 ..      15      40 ..      13      47 .. 0.84
+
+>> nubinitio_auto_26095_2pw9C_0323:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0      0.56        57       7      28 ..      19      40 ..      14      46 .. 0.83
+
+>> nubinitio_auto_37005_2pw9C_0361:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.53        53     115     135 ..      19      38 ..       9      44 .. 0.69
+
+>> nubinitio_auto_6570_2pw9C_0085:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0      0.49        50      87     103 ..      37      53 ..      10      56 .. 0.79
+
+>> nubinitio_auto_16716_2pw9C_0002:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.63        64       5      28 ..      17      40 ..      14      43 .. 0.86
+
+>> nubinitio_auto_14996_2pw9C_0128:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.53        54       6      31 ..      18      43 ..      13      55 .. 0.79
+
+>> nubinitio_auto_37841_2pw9C_0322:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.59        59       6      33 ..      18      46 ..      14      54 .. 0.73
+
+>> nubinitio_auto_22634_2pw9C_0354:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.63        63       5      29 ..      17      41 ..      14      49 .. 0.84
+
+>> nubinitio_auto_24672_2pw9C_0254:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.65        66      78      99 ..      14      35 ..       8      43 .. 0.83
+
+>> nubinitio_auto_24672_2pw9C_0175:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.63        64       5      28 ..      17      40 ..      13      49 .. 0.88
+
+>> nubinitio_auto_31844_2pw9C_0170:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.66        67       4      34 ..      10      40 ..       7      46 .. 0.84
+
+>> nubinitio_auto_26095_2pw9C_0165:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.64        65      94     116 ..      14      36 ..       6      57 .. 0.69
+
+>> nubinitio_auto_16716_2pw9C_0546:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.52        52      70      84 ..      43      57 ..       7      58 .] 0.75
+
+>> nubinitio_auto_34419_2pw9C_0252:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.61        62      75     112 ..      16      32 ..       3      48 .. 0.65
+
+>> nubinitio_auto_52077_2pw9C_0428:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.63        64      56      69 ..       9      22 ..       7      49 .. 0.81
+
+>> nubinitio_auto_27539_2pw9C_0509:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.53        53      17      35 ..      23      41 ..       7      58 .] 0.80
+
+>> nubinitio_auto_60560_2pw9C_0247:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.1      0.74        75      10      29 ..      18      37 ..       7      43 .. 0.71
+
+>> nubinitio_auto_16716_2pw9C_0435:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.78        78       6      31 ..      21      46 ..      17      49 .. 0.83
+
+>> nubinitio_auto_28737_2pw9C_0567:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0       0.7        71       3      34 ..      15      46 ..      13      54 .. 0.85
+
+>> nubinitio_auto_30136_2pw9C_0254:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.72        72       4      29 ..      16      41 ..      13      55 .. 0.78
+
+>> nubinitio_auto_16716_2pw9C_0548:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.73        73       5      28 ..      17      40 ..      13      49 .. 0.86
+
+>> nubinitio_auto_26095_2pw9C_0553:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.69        70      16      34 ..      22      40 ..       7      51 .. 0.73
+
+>> nubinitio_auto_17684_2pw9C_0160:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.81        81       6      28 ..      18      40 ..      14      47 .. 0.86
+
+>> nubinitio_auto_52077_2pw9C_0525:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.78        79       5      31 ..      20      46 ..      16      49 .. 0.86
+
+>> nubinitio_auto_34419_2pw9C_0205:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.74        75     106     132 ..      26      51 ..      15      57 .. 0.73
+
+>> nubinitio_auto_6570_2pw9C_0049:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0      0.66        66     103     117 ..      23      37 ..       7      54 .. 0.85
+
+>> nubinitio_auto_24672_2pw9C_0436:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.86        87       6      34 ..      12      40 ..       8      46 .. 0.88
+
+>> nubinitio_auto_24672_2pw9C_0265:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.74        75      86     117 ..       5      37 ..       2      54 .. 0.64
+
+>> nubinitio_auto_28737_2pw9C_0330:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.2   0.0      0.72        73       7      30 ..      19      42 ..      13      57 .. 0.74
+
+>> nubinitio_auto_28737_2pw9C_0244:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.73        74       6      28 ..      18      40 ..      13      54 .. 0.81
+
+>> nubinitio_auto_16716_2pw9C_0149:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.74        75      95     132 ..      15      51 ..       3      57 .. 0.71
+
+>> nubinitio_auto_24672_2pw9C_0193:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0       0.8        81      15      34 ..      21      40 ..      12      49 .. 0.84
+
+>> nubinitio_auto_32347_2pw9C_0083:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0       0.8        80       6      28 ..      18      40 ..      14      51 .. 0.85
+
+>> nubinitio_auto_34419_2pw9C_0241:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.78        79       3      30 ..      15      42 ..      13      54 .. 0.79
+
+>> nubinitio_auto_60560_2pw9C_0507:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.74        74     100     115 ..      20      35 ..      13      55 .. 0.81
+
+>> nubinitio_auto_26095_2pw9C_0457:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.81        82       5      29 ..      17      41 ..      13      56 .. 0.77
+
+>> nubinitio_auto_14996_2pw9C_0109:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       1.3   1.3e+02      58      66 ..      11      21 ..       8      40 .. 0.58
+
+>> nubinitio_auto_37005_2pw9C_0347:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.96        96     128     138 ..      15      25 ..       6      28 .. 0.78
+
+>> nubinitio_auto_26095_2pw9C_0317:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.91        92      12      31 ..      17      36 ..      10      40 .. 0.85
+
+>> nubinitio_auto_24672_2pw9C_0329:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.96        97      73      89 ..      14      30 ..       4      34 .. 0.79
+
+>> nubinitio_auto_6570_2pw9C_0468:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.86        87       8      28 ..      20      40 ..      13      48 .. 0.72
+
+>> nubinitio_auto_22634_2pw9C_0318:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.0   0.0      0.81        82      52      71 ..       7      27 ..       6      48 .. 0.80
+
+>> nubinitio_auto_24672_2pw9C_0035:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.96        97      76     111 ..      17      31 ..       4      37 .. 0.62
+
+>> nubinitio_auto_34419_2pw9C_0201:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0      0.78        78      41      55 ..      17      31 ..       3      48 .. 0.80
+
+>> nubinitio_auto_37841_2pw9C_0386:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.84        85      46      64 ..      22      40 ..       4      48 .. 0.80
+
+>> nubinitio_auto_52077_2pw9C_0196:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.5   0.0       1.1   1.1e+02       5      35 ..       7      37 ..       4      51 .. 0.74
+
+>> nubinitio_auto_22634_2pw9C_0106:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.91        92      11      34 ..      17      40 ..      12      54 .. 0.84
+
+>> nubinitio_auto_14996_2pw9C_0142:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0         1     1e+02      90     113 ..       6      30 ..       4      39 .. 0.75
+
+>> nubinitio_auto_34419_2pw9C_0387:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0         1     1e+02      76      93 ..      16      33 ..       5      35 .. 0.86
+
+>> nubinitio_auto_22634_2pw9C_0076:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.92        93       5      28 ..      17      40 ..      11      53 .. 0.79
+
+>> nubinitio_auto_60560_2pw9C_0323:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.91        92       4      28 ..      16      40 ..      13      53 .. 0.81
+
+>> nubinitio_auto_16716_2pw9C_0252:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.86        87     101     115 ..      17      31 ..       7      52 .. 0.65
+
+>> nubinitio_auto_31844_2pw9C_0389:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.93        94     101     117 ..      21      37 ..       7      47 .. 0.71
+
+>> nubinitio_auto_24672_2pw9C_0005:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0       1.1   1.1e+02       8      32 ..      23      47 ..      18      49 .. 0.86
+
+>> nubinitio_auto_24672_2pw9C_0528:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.0       6.6   6.6e+02      55      70 ..       8      23 ..       7      30 .. 0.75
+   2 ?   -0.1   0.0       3.7   3.7e+02      47      53 ..      40      46 ..      30      49 .. 0.82
+
+>> nubinitio_auto_17684_2pw9C_0489:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0       1.1   1.1e+02      86     102 ..      36      52 ..      15      55 .. 0.84
+
+>> nubinitio_auto_27539_2pw9C_0549:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.94        95       5      29 ..      17      41 ..      13      54 .. 0.81
+
+>> nubinitio_auto_32347_2pw9C_0390:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.93        94      50      71 ..      17      37 ..       4      56 .. 0.56
+
+>> nubinitio_auto_32347_2pw9C_0067:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0         1     1e+02      12      31 ..      17      36 ..      10      48 .. 0.80
+
+>> nubinitio_auto_6570_2pw9C_0217:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0      0.98        99      26      42 ..      10      26 ..       4      42 .. 0.79
+
+>> nubinitio_auto_37005_2pw9C_0400:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0       1.1   1.1e+02       7      28 ..      19      40 ..      13      51 .. 0.81
+
+>> nubinitio_auto_30136_2pw9C_0248:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0       1.1   1.1e+02       3      27 ..      16      40 ..      14      46 .. 0.76
+
+>> nubinitio_auto_24672_2pw9C_0469:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.0       1.1   1.1e+02      73      92 ..       9      28 ..       2      35 .. 0.82
+
+>> nubinitio_auto_14996_2pw9C_0438:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0         1     1e+02       4      41 ..      16      52 ..      13      58 .] 0.77
+
+>> nubinitio_auto_24672_2pw9C_0085:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.7   0.0         1     1e+02      57      69 ..      10      23 ..       9      49 .. 0.74
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (141 nodes)
+Target sequences:                        10296  (597168 residues searched)
+Passed MSV filter:                     10296  (1); expected 10296.0 (1)
+Passed bias filter:                    10296  (1); expected 10296.0 (1)
+Passed Vit filter:                     10296  (1); expected 10296.0 (1)
+Passed Fwd filter:                     10296  (1); expected 10296.0 (1)
+Initial search space (Z):              10296  [actual number of targets]
+Domain search space  (domZ):             102  [number of targets reported over threshold]
+# CPU time: 13.26u 0.08s 00:00:13.34 Elapsed: 00:00:04.96
+# Mc/sec: 16.98
+//
+[ok]

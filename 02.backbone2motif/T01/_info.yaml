@@ -2,6 +2,7 @@ benchmark:
   id: T01
   cath: CATH.3.40.140.10
   motifs: 1
+  hmm: 2pw9C03.hmm
 structures:
   reference: 1pgxA.pdb
   query: 2pw9C.pdb

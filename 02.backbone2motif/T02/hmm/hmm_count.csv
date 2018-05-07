@@ -1,0 +1,7 @@
+count,experiment,fragments,benchmark
+479,abinitio,auto,T02
+912,abinitio,picker,T02
+1403,abinitio,wauto,T02
+10070,nubinitio,auto,T02
+10056,nubinitio,picker,T02
+10184,nubinitio,wauto,T02

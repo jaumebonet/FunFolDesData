@@ -2,6 +2,7 @@ benchmark:
   id: T11
   cath: CATH.3.10.320.10
   motifs: 1
+  hmm: 2bc4C01.hmm
 structures:
   reference: 4p5mA.pdb
   query: 2bc4C.pdb

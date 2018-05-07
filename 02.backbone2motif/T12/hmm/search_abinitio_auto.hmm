@@ -1,0 +1,806 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  hmm/4kdlA02.hmm
+# target sequence database:        hmm/sequence_abinitio_auto.fa
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 100
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cath|4_1_0|4kdlA02/108-196  [M=89]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                         -----------
+    0.00028   20.3   0.0    0.00032   20.1   0.0    1.0  1  abinitio_auto_25034_2pjhB_0403:B  
+    0.00031   20.1   0.1    0.00034   20.0   0.1    1.1  1  abinitio_auto_10989_2pjhB_0004:B  
+  ------ inclusion threshold ------
+      0.072   12.6   0.0      0.078   12.5   0.0    1.1  1  abinitio_auto_24615_2pjhB_0394:B  
+       0.11   12.0   0.0       0.13   11.7   0.0    1.2  1  abinitio_auto_2810_2pjhB_0202:B   
+       0.15   11.5   0.0       0.15   11.5   0.0    1.1  1  abinitio_auto_12175_2pjhB_0380:B  
+       0.21   11.0   0.0       0.24   10.9   0.0    1.1  1  abinitio_auto_3280_2pjhB_0427:B   
+       0.25   10.8   0.0       0.28   10.7   0.0    1.1  1  abinitio_auto_2810_2pjhB_0225:B   
+       0.56    9.7   0.0       0.62    9.6   0.0    1.1  1  abinitio_auto_51584_2pjhB_0277:B  
+       0.58    9.7   0.0       0.69    9.4   0.0    1.1  1  abinitio_auto_21923_2pjhB_0122:B  
+       0.69    9.4   0.0        0.9    9.0   0.0    1.2  1  abinitio_auto_21923_2pjhB_0410:B  
+       0.95    9.0   0.0          1    8.9   0.0    1.1  1  abinitio_auto_3280_2pjhB_0455:B   
+          1    8.9   0.0          1    8.9   0.0    1.0  1  abinitio_auto_6427_2pjhB_0460:B   
+        1.2    8.7   0.0        1.2    8.6   0.0    1.1  1  abinitio_auto_6427_2pjhB_0571:B   
+        1.3    8.6   0.0        1.4    8.5   0.0    1.1  1  abinitio_auto_27784_2pjhB_0557:B  
+        1.3    8.6   0.0        1.4    8.5   0.0    1.1  1  abinitio_auto_27784_2pjhB_0178:B  
+        1.5    8.3   0.0        1.6    8.2   0.0    1.0  1  abinitio_auto_50961_2pjhB_0142:B  
+        1.5    8.3   0.0        1.7    8.2   0.0    1.0  1  abinitio_auto_6427_2pjhB_0526:B   
+        2.1    7.9   0.0        2.2    7.8   0.0    1.0  1  abinitio_auto_56647_2pjhB_0283:B  
+        2.2    7.8   0.0        2.3    7.7   0.0    1.1  1  abinitio_auto_27784_2pjhB_0472:B  
+        2.2    7.8   0.0        2.5    7.7   0.0    1.1  1  abinitio_auto_27784_2pjhB_0299:B  
+        2.2    7.8   0.0        2.4    7.7   0.0    1.1  1  abinitio_auto_24615_2pjhB_0001:B  
+        2.5    7.6   0.0        2.9    7.4   0.0    1.0  1  abinitio_auto_24615_2pjhB_0535:B  
+        2.5    7.6   0.0        2.6    7.5   0.0    1.1  1  abinitio_auto_51584_2pjhB_0079:B  
+        2.9    7.4   0.0        3.6    7.1   0.0    1.1  1  abinitio_auto_51584_2pjhB_0311:B  
+        3.4    7.2   0.0        5.3    6.6   0.0    1.4  1  abinitio_auto_53710_2pjhB_0430:B  
+        3.5    7.2   0.0        3.8    7.0   0.0    1.1  1  abinitio_auto_24615_2pjhB_0388:B  
+        3.6    7.1   0.0        3.7    7.1   0.0    1.1  1  abinitio_auto_6427_2pjhB_0328:B   
+        4.2    6.9   0.0        4.6    6.8   0.0    1.1  1  abinitio_auto_27784_2pjhB_0301:B  
+        4.5    6.8   0.0        4.8    6.7   0.0    1.1  1  abinitio_auto_24615_2pjhB_0340:B  
+        4.6    6.8   0.0        5.2    6.6   0.0    1.1  1  abinitio_auto_25034_2pjhB_0305:B  
+        4.6    6.8   0.0        4.8    6.7   0.0    1.1  1  abinitio_auto_2810_2pjhB_0504:B   
+        4.8    6.7   0.0        4.9    6.7   0.0    1.1  1  abinitio_auto_10989_2pjhB_0560:B  
+        4.8    6.7   0.0        4.9    6.7   0.0    1.1  1  abinitio_auto_51584_2pjhB_0310:B  
+          5    6.7   0.0        5.7    6.5   0.0    1.0  1  abinitio_auto_21923_2pjhB_0376:B  
+        5.7    6.5   0.0        6.4    6.3   0.0    1.1  1  abinitio_auto_12175_2pjhB_0511:B  
+        5.7    6.5   0.0        6.1    6.4   0.0    1.1  1  abinitio_auto_21923_2pjhB_0152:B  
+        5.9    6.4   0.0        6.8    6.2   0.0    1.1  1  abinitio_auto_53710_2pjhB_0501:B  
+        6.7    6.3   0.0        6.9    6.2   0.0    1.1  1  abinitio_auto_24615_2pjhB_0160:B  
+        6.8    6.2   0.0          7    6.2   0.0    1.1  1  abinitio_auto_10989_2pjhB_0315:B  
+          7    6.2   0.0        7.8    6.0   0.0    1.1  1  abinitio_auto_6427_2pjhB_0034:B   
+          8    6.0   0.0        7.7    6.1   0.0    1.3  1  abinitio_auto_51584_2pjhB_0024:B  
+        8.7    5.9   0.0        9.3    5.8   0.0    1.2  1  abinitio_auto_50961_2pjhB_0241:B  
+        9.6    5.8   0.0         10    5.6   0.0    1.1  1  abinitio_auto_21923_2pjhB_0493:B  
+         10    5.7   0.0         11    5.6   0.0    1.0  1  abinitio_auto_2810_2pjhB_0452:B   
+         10    5.7   0.0         10    5.7   0.0    1.1  1  abinitio_auto_25034_2pjhB_0123:B  
+         10    5.7   0.0         12    5.4   0.0    1.1  1  abinitio_auto_25034_2pjhB_0511:B  
+         10    5.7   0.0         11    5.6   0.0    1.1  1  abinitio_auto_48656_2pjhB_0129:B  
+         10    5.7   0.0         12    5.5   0.0    1.1  1  abinitio_auto_51584_2pjhB_0139:B  
+         11    5.5   0.0         13    5.4   0.0    1.1  1  abinitio_auto_10989_2pjhB_0167:B  
+         11    5.5   0.0         11    5.5   0.0    1.1  1  abinitio_auto_56647_2pjhB_0101:B  
+         12    5.5   0.0         13    5.3   0.0    1.1  1  abinitio_auto_6427_2pjhB_0393:B   
+         12    5.4   0.0         15    5.2   0.0    1.2  1  abinitio_auto_24615_2pjhB_0076:B  
+         13    5.3   0.0         14    5.2   0.0    1.1  1  abinitio_auto_10989_2pjhB_0157:B  
+         14    5.2   0.0         16    5.0   0.0    1.0  1  abinitio_auto_51584_2pjhB_0013:B  
+         14    5.2   0.0         16    5.0   0.0    1.1  1  abinitio_auto_53710_2pjhB_0059:B  
+         14    5.2   0.0         16    5.1   0.0    1.1  1  abinitio_auto_27784_2pjhB_0417:B  
+         15    5.2   0.0         17    5.0   0.0    1.2  1  abinitio_auto_56647_2pjhB_0186:B  
+         15    5.1   0.0         17    4.9   0.0    1.1  1  abinitio_auto_72379_2pjhB_0282:B  
+         16    5.0   0.0         17    4.9   0.0    1.2  1  abinitio_auto_51584_2pjhB_0345:B  
+         16    5.0   0.0         15    5.1   0.0    1.2  1  abinitio_auto_53710_2pjhB_0398:B  
+         17    5.0   0.0         22    4.6   0.0    1.1  1  abinitio_auto_59231_2pjhB_0101:B  
+         18    4.9   0.0         23    4.5   0.0    1.1  1  abinitio_auto_3280_2pjhB_0451:B   
+         20    4.8   0.0         23    4.6   0.0    1.1  1  abinitio_auto_24615_2pjhB_0355:B  
+         20    4.7   0.0         20    4.7   0.0    1.1  1  abinitio_auto_12175_2pjhB_0161:B  
+         21    4.7   0.0         24    4.5   0.0    1.1  1  abinitio_auto_72379_2pjhB_0428:B  
+         22    4.6   0.0         23    4.5   0.0    1.1  1  abinitio_auto_50961_2pjhB_0250:B  
+         22    4.6   0.0         24    4.5   0.0    1.1  1  abinitio_auto_2810_2pjhB_0493:B   
+         23    4.5   0.0         22    4.6   0.0    1.1  1  abinitio_auto_72379_2pjhB_0228:B  
+         24    4.5   0.0         25    4.4   0.0    1.1  1  abinitio_auto_3280_2pjhB_0363:B   
+         24    4.5   0.0         28    4.2   0.0    1.1  1  abinitio_auto_53710_2pjhB_0026:B  
+         24    4.5   0.0         30    4.2   0.0    1.1  1  abinitio_auto_72379_2pjhB_0290:B  
+         25    4.4   0.0         27    4.3   0.0    1.1  1  abinitio_auto_21923_2pjhB_0368:B  
+         27    4.3   0.0         36    3.9   0.0    1.2  1  abinitio_auto_12175_2pjhB_0414:B  
+         27    4.3   0.0         30    4.2   0.0    1.1  1  abinitio_auto_2810_2pjhB_0247:B   
+         27    4.3   0.0         30    4.2   0.0    1.1  1  abinitio_auto_27784_2pjhB_0476:B  
+         31    4.1   0.0         35    3.9   0.0    1.1  1  abinitio_auto_3280_2pjhB_0495:B   
+         33    4.0   0.0         39    3.8   0.0    1.1  1  abinitio_auto_10989_2pjhB_0510:B  
+         41    3.7   0.0         47    3.5   0.0    1.1  1  abinitio_auto_6427_2pjhB_0566:B   
+         42    3.7   0.0         44    3.6   0.0    1.2  1  abinitio_auto_56647_2pjhB_0524:B  
+         43    3.7   0.0         46    3.6   0.0    1.2  1  abinitio_auto_59231_2pjhB_0043:B  
+         43    3.7   0.0         44    3.6   0.0    1.1  1  abinitio_auto_25034_2pjhB_0458:B  
+         45    3.6   0.0         55    3.3   0.0    1.4  1  abinitio_auto_51584_2pjhB_0108:B  
+         47    3.6   0.0         55    3.3   0.0    1.1  1  abinitio_auto_56123_2pjhB_0431:B  
+         48    3.5   0.0         51    3.4   0.0    1.2  1  abinitio_auto_10989_2pjhB_0554:B  
+         50    3.5   0.0         57    3.3   0.0    1.1  1  abinitio_auto_6427_2pjhB_0001:B   
+         50    3.5   0.0         51    3.4   0.0    1.1  1  abinitio_auto_72379_2pjhB_0564:B  
+         51    3.4   0.0         59    3.2   0.0    1.1  1  abinitio_auto_3280_2pjhB_0509:B   
+         51    3.4   0.0         48    3.5   0.0    1.1  1  abinitio_auto_56647_2pjhB_0077:B  
+         53    3.4   0.0         61    3.2   0.0    1.1  1  abinitio_auto_6427_2pjhB_0513:B   
+         55    3.3   0.0         63    3.1   0.0    1.2  1  abinitio_auto_21923_2pjhB_0250:B  
+         58    3.2   0.0         59    3.2   0.0    1.1  1  abinitio_auto_3280_2pjhB_0128:B   
+         58    3.2   0.0         58    3.3   0.0    1.1  1  abinitio_auto_27784_2pjhB_0244:B  
+         59    3.2   0.0         59    3.2   0.0    1.1  1  abinitio_auto_25034_2pjhB_0275:B  
+         60    3.2   0.0         63    3.1   0.0    1.1  1  abinitio_auto_21923_2pjhB_0282:B  
+         60    3.2   0.1    2.6e+02    1.2   0.1    1.6  2  abinitio_auto_50961_2pjhB_0494:B  
+         61    3.2   0.0         64    3.1   0.0    1.1  1  abinitio_auto_3280_2pjhB_0330:B   
+         61    3.2   0.0         67    3.0   0.0    1.1  1  abinitio_auto_27784_2pjhB_0479:B  
+         61    3.2   0.0         80    2.8   0.0    1.1  1  abinitio_auto_2727_2pjhB_0313:B   
+         63    3.1   0.0         88    2.7   0.0    1.2  1  abinitio_auto_53710_2pjhB_0492:B  
+         64    3.1   0.0         72    2.9   0.0    1.1  1  abinitio_auto_51584_2pjhB_0332:B  
+         65    3.1   0.0         79    2.8   0.0    1.1  1  abinitio_auto_25034_2pjhB_0519:B  
+         68    3.0   0.0         64    3.1   0.0    1.1  1  abinitio_auto_27784_2pjhB_0165:B  
+         68    3.0   0.0         83    2.7   0.0    1.2  1  abinitio_auto_2810_2pjhB_0040:B   
+         69    3.0   0.0         75    2.9   0.0    1.3  1  abinitio_auto_3280_2pjhB_0400:B   
+         69    3.0   0.0         77    2.9   0.0    1.1  1  abinitio_auto_6427_2pjhB_0420:B   
+         70    3.0   0.0         81    2.8   0.0    1.1  1  abinitio_auto_12175_2pjhB_0166:B  
+         71    3.0   0.0         86    2.7   0.0    1.1  1  abinitio_auto_25034_2pjhB_0472:B  
+         72    2.9   0.0         88    2.7   0.0    1.2  1  abinitio_auto_25034_2pjhB_0442:B  
+         72    2.9   0.0         72    2.9   0.0    1.2  1  abinitio_auto_50961_2pjhB_0422:B  
+         74    2.9   0.0         96    2.5   0.0    1.1  1  abinitio_auto_50961_2pjhB_0474:B  
+         74    2.9   0.0         84    2.7   0.0    1.2  1  abinitio_auto_21923_2pjhB_0112:B  
+         76    2.9   0.0         93    2.6   0.0    1.1  1  abinitio_auto_2810_2pjhB_0066:B   
+         77    2.9   0.0         85    2.7   0.0    1.1  1  abinitio_auto_3280_2pjhB_0254:B   
+         81    2.8   0.0         92    2.6   0.0    1.1  1  abinitio_auto_53710_2pjhB_0178:B  
+         82    2.8   0.0         86    2.7   0.0    1.2  1  abinitio_auto_2727_2pjhB_0326:B   
+         83    2.7   0.0         87    2.7   0.0    1.0  1  abinitio_auto_48656_2pjhB_0545:B  
+         84    2.7   0.0         89    2.6   0.0    1.2  1  abinitio_auto_56123_2pjhB_0313:B  
+         85    2.7   0.0    1.2e+02    2.3   0.0    1.1  1  abinitio_auto_21923_2pjhB_0328:B  
+         88    2.7   0.0         98    2.5   0.0    1.1  1  abinitio_auto_10989_2pjhB_0096:B  
+         89    2.7   0.0      1e+02    2.5   0.0    1.1  1  abinitio_auto_72379_2pjhB_0154:B  
+         90    2.6   0.0    1.1e+02    2.3   0.0    1.1  1  abinitio_auto_6427_2pjhB_0182:B   
+         93    2.6   0.0      1e+02    2.5   0.0    1.2  1  abinitio_auto_2727_2pjhB_0375:B   
+         94    2.6   0.0    1.1e+02    2.4   0.0    1.2  1  abinitio_auto_25034_2pjhB_0346:B  
+         94    2.6   0.0    1.1e+02    2.3   0.0    1.1  1  abinitio_auto_24615_2pjhB_0190:B  
+         96    2.5   0.0    1.3e+02    2.1   0.0    1.2  1  abinitio_auto_59231_2pjhB_0209:B  
+         96    2.5   0.0         98    2.5   0.0    1.1  1  abinitio_auto_12175_2pjhB_0358:B  
+         99    2.5   0.0    1.1e+02    2.4   0.0    1.1  1  abinitio_auto_2810_2pjhB_0199:B   
+         99    2.5   0.0      1e+02    2.5   0.0    1.1  1  abinitio_auto_59231_2pjhB_0254:B  
+
+
+Domain annotation for each sequence:
+>> abinitio_auto_25034_2pjhB_0403:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.1   0.0   4.3e-06   0.00032       5      64 ..       5      64 ..       2      72 .. 0.93
+
+>> abinitio_auto_10989_2pjhB_0004:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.0   0.1   4.5e-06   0.00034      18      70 ..      18      70 ..       6      77 .. 0.82
+
+>> abinitio_auto_24615_2pjhB_0394:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.0     0.001     0.078       7      51 ..       7      51 ..       2      70 .. 0.85
+
+>> abinitio_auto_2810_2pjhB_0202:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0    0.0018      0.13       8      49 ..       8      49 ..       3      70 .. 0.77
+
+>> abinitio_auto_12175_2pjhB_0380:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.5   0.0    0.0021      0.15      25      58 ..      25      58 ..      12      76 .. 0.82
+
+>> abinitio_auto_3280_2pjhB_0427:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0    0.0032      0.24      16      60 ..      16      60 ..       7      70 .. 0.91
+
+>> abinitio_auto_2810_2pjhB_0225:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0    0.0037      0.28      14      77 ..      14      77 ..       7      79 .] 0.92
+
+>> abinitio_auto_51584_2pjhB_0277:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.6   0.0    0.0083      0.62       6      61 ..       6      61 ..       2      71 .. 0.89
+
+>> abinitio_auto_21923_2pjhB_0122:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.4   0.0    0.0093      0.69      12      61 ..      11      61 ..       9      71 .. 0.82
+
+>> abinitio_auto_21923_2pjhB_0410:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.0   0.0     0.012       0.9       3      24 ..       3      24 ..       2      36 .. 0.85
+
+>> abinitio_auto_3280_2pjhB_0455:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   0.0     0.013         1       4      49 ..       4      49 ..       2      69 .. 0.88
+
+>> abinitio_auto_6427_2pjhB_0460:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   0.0     0.013         1       9      76 ..       9      76 ..       2      79 .] 0.84
+
+>> abinitio_auto_6427_2pjhB_0571:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.6   0.0     0.016       1.2      18      59 ..      18      58 ..       3      72 .. 0.81
+
+>> abinitio_auto_27784_2pjhB_0557:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.5   0.0     0.018       1.4       4      59 ..       4      59 ..       2      70 .. 0.85
+
+>> abinitio_auto_27784_2pjhB_0178:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.5   0.0     0.018       1.4      36      79 ..      35      79 .]       7      79 .] 0.83
+
+>> abinitio_auto_50961_2pjhB_0142:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.2   0.0     0.022       1.6       8      60 ..       8      60 ..       2      68 .. 0.89
+
+>> abinitio_auto_6427_2pjhB_0526:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.2   0.0     0.023       1.7       7      79 ..       7      79 .]       2      79 .] 0.87
+
+>> abinitio_auto_56647_2pjhB_0283:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.8   0.0      0.03       2.2       5      78 ..       5      78 ..       2      79 .] 0.88
+
+>> abinitio_auto_27784_2pjhB_0472:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.7   0.0     0.032       2.3      12      64 ..      12      64 ..       6      74 .. 0.82
+
+>> abinitio_auto_27784_2pjhB_0299:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.7   0.0     0.033       2.5      12      49 ..      11      49 ..       9      71 .. 0.88
+
+>> abinitio_auto_24615_2pjhB_0001:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.7   0.0     0.032       2.4      26      72 ..      26      72 ..       8      78 .. 0.91
+
+>> abinitio_auto_24615_2pjhB_0535:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.4   0.0     0.039       2.9      12      68 ..      11      68 ..       7      72 .. 0.84
+
+>> abinitio_auto_51584_2pjhB_0079:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.5   0.0     0.036       2.6      19      58 ..      19      58 ..       9      70 .. 0.86
+
+>> abinitio_auto_51584_2pjhB_0311:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.1   0.0     0.048       3.6      38      72 ..      38      72 ..      33      78 .. 0.89
+
+>> abinitio_auto_53710_2pjhB_0430:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.6   0.0     0.071       5.3      15      34 ..      15      34 ..       9      46 .. 0.86
+
+>> abinitio_auto_24615_2pjhB_0388:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.0   0.0     0.051       3.8      19      67 ..      19      67 ..       6      72 .. 0.84
+
+>> abinitio_auto_6427_2pjhB_0328:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.1   0.0      0.05       3.7      22      62 ..      22      62 ..       1      75 [. 0.72
+
+>> abinitio_auto_27784_2pjhB_0301:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.8   0.0     0.062       4.6      22      57 ..      22      57 ..       9      69 .. 0.80
+
+>> abinitio_auto_24615_2pjhB_0340:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.065       4.8      32      71 ..      32      78 ..      10      79 .] 0.78
+
+>> abinitio_auto_25034_2pjhB_0305:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.6   0.0      0.07       5.2      14      56 ..      14      56 ..       8      70 .. 0.87
+
+>> abinitio_auto_2810_2pjhB_0504:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.064       4.8       8      59 ..       8      59 ..       2      72 .. 0.86
+
+>> abinitio_auto_10989_2pjhB_0560:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.066       4.9      20      67 ..      20      67 ..       3      76 .. 0.85
+
+>> abinitio_auto_51584_2pjhB_0310:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.066       4.9      13      56 ..      13      56 ..       2      74 .. 0.82
+
+>> abinitio_auto_21923_2pjhB_0376:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.5   0.0     0.076       5.7      12      61 ..      11      61 ..       7      73 .. 0.85
+
+>> abinitio_auto_12175_2pjhB_0511:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.3   0.0     0.086       6.4      19      57 ..      19      57 ..       9      67 .. 0.81
+
+>> abinitio_auto_21923_2pjhB_0152:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.4   0.0     0.083       6.1       9      63 ..       8      63 ..       5      77 .. 0.81
+
+>> abinitio_auto_53710_2pjhB_0501:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.2   0.0     0.091       6.8      26      63 ..      26      63 ..       8      69 .. 0.87
+
+>> abinitio_auto_24615_2pjhB_0160:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.2   0.0     0.093       6.9      17      52 ..      17      52 ..       6      72 .. 0.81
+
+>> abinitio_auto_10989_2pjhB_0315:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.2   0.0     0.095         7       4      67 ..       4      67 ..       2      78 .. 0.85
+
+>> abinitio_auto_6427_2pjhB_0034:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.0   0.0      0.11       7.8      12      79 ..      12      79 .]       4      79 .] 0.87
+
+>> abinitio_auto_51584_2pjhB_0024:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.1   0.0       0.1       7.7      37      76 ..      37      76 ..       2      79 .] 0.86
+
+>> abinitio_auto_50961_2pjhB_0241:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.8   0.0      0.13       9.3      25      55 ..      25      55 ..       6      65 .. 0.86
+
+>> abinitio_auto_21923_2pjhB_0493:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.6   0.0      0.14        10      16      62 ..      16      59 ..      10      74 .. 0.82
+
+>> abinitio_auto_2810_2pjhB_0452:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.6   0.0      0.15        11      10      58 ..      10      58 ..       4      68 .. 0.88
+
+>> abinitio_auto_25034_2pjhB_0123:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.7   0.0      0.14        10      25      49 ..      25      49 ..       9      65 .. 0.86
+
+>> abinitio_auto_25034_2pjhB_0511:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.4   0.0      0.16        12      14      57 ..      14      56 ..       8      66 .. 0.82
+
+>> abinitio_auto_48656_2pjhB_0129:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.6   0.0      0.14        11       7      72 ..       7      72 ..       3      79 .] 0.82
+
+>> abinitio_auto_51584_2pjhB_0139:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.5   0.0      0.16        12      20      57 ..      20      57 ..      12      70 .. 0.85
+
+>> abinitio_auto_10989_2pjhB_0167:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.4   0.0      0.17        13       1      46 [.       1      46 [.       1      61 [. 0.90
+
+>> abinitio_auto_56647_2pjhB_0101:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.5   0.0      0.15        11      22      50 ..      22      50 ..       4      67 .. 0.84
+
+>> abinitio_auto_6427_2pjhB_0393:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.0      0.18        13      14      61 ..      14      61 ..       7      73 .. 0.83
+
+>> abinitio_auto_24615_2pjhB_0076:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.2   0.0       0.2        15      41      74 ..      41      74 ..      32      79 .] 0.87
+
+>> abinitio_auto_10989_2pjhB_0157:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.2   0.0      0.19        14      10      47 ..      10      48 ..       2      59 .. 0.73
+
+>> abinitio_auto_51584_2pjhB_0013:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.0   0.0      0.22        16      13      60 ..      13      60 ..      10      69 .. 0.88
+
+>> abinitio_auto_53710_2pjhB_0059:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.0   0.0      0.22        16      16      60 ..      16      60 ..      10      70 .. 0.79
+
+>> abinitio_auto_27784_2pjhB_0417:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.1   0.0      0.21        16      24      49 ..      24      49 ..      13      68 .. 0.85
+
+>> abinitio_auto_56647_2pjhB_0186:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.0   0.0      0.22        17       6      21 ..      26      41 ..      22      64 .. 0.82
+
+>> abinitio_auto_72379_2pjhB_0282:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0      0.23        17       3      49 ..       3      49 ..       2      58 .. 0.84
+
+>> abinitio_auto_51584_2pjhB_0345:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.0      0.23        17      21      47 ..      21      47 ..       8      73 .. 0.82
+
+>> abinitio_auto_53710_2pjhB_0398:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.1   0.0       0.2        15      19      54 ..      19      54 ..       1      75 [. 0.84
+
+>> abinitio_auto_59231_2pjhB_0101:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.0      0.29        22      32      73 ..      32      74 ..      29      76 .. 0.89
+
+>> abinitio_auto_3280_2pjhB_0451:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0      0.31        23      11      49 ..      11      49 ..      10      58 .. 0.88
+
+>> abinitio_auto_24615_2pjhB_0355:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.0      0.31        23      21      47 ..      24      54 ..      13      64 .. 0.75
+
+>> abinitio_auto_12175_2pjhB_0161:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.7   0.0      0.28        20      26      62 ..      26      62 ..       5      72 .. 0.79
+
+>> abinitio_auto_72379_2pjhB_0428:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0      0.33        24      12      49 ..      12      49 ..       6      63 .. 0.86
+
+>> abinitio_auto_50961_2pjhB_0250:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0      0.31        23       8      66 ..       8      66 ..       3      76 .. 0.83
+
+>> abinitio_auto_2810_2pjhB_0493:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0      0.33        24      12      59 ..      11      59 ..       9      68 .. 0.80
+
+>> abinitio_auto_72379_2pjhB_0228:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.6   0.0      0.29        22      31      60 ..      31      60 ..       8      79 .] 0.75
+
+>> abinitio_auto_3280_2pjhB_0363:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.0      0.34        25      31      57 ..      31      57 ..      23      76 .. 0.82
+
+>> abinitio_auto_53710_2pjhB_0026:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0      0.38        28      16      47 ..      16      47 ..      10      55 .. 0.83
+
+>> abinitio_auto_72379_2pjhB_0290:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0       0.4        30      13      49 ..      13      49 ..      10      59 .. 0.81
+
+>> abinitio_auto_21923_2pjhB_0368:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0      0.36        27      23      57 ..      23      57 ..       7      67 .. 0.79
+
+>> abinitio_auto_12175_2pjhB_0414:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.9   0.0      0.48        36      34      60 ..      34      60 ..      32      71 .. 0.88
+
+>> abinitio_auto_2810_2pjhB_0247:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0       0.4        30       7      34 ..       7      34 ..       2      51 .. 0.84
+
+>> abinitio_auto_27784_2pjhB_0476:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0       0.4        30      13      62 ..      13      62 ..       3      77 .. 0.82
+
+>> abinitio_auto_3280_2pjhB_0495:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.9   0.0      0.48        35      14      49 ..      14      49 ..       8      76 .. 0.49
+
+>> abinitio_auto_10989_2pjhB_0510:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.8   0.0      0.52        39      25      57 ..      25      57 ..      12      61 .. 0.81
+
+>> abinitio_auto_6427_2pjhB_0566:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   0.0      0.64        47       4      25 ..      24      46 ..      15      59 .. 0.69
+
+>> abinitio_auto_56647_2pjhB_0524:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0      0.59        44      22      49 ..      22      49 ..       4      67 .. 0.83
+
+>> abinitio_auto_59231_2pjhB_0043:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0      0.62        46      23      49 ..      23      49 ..      10      70 .. 0.77
+
+>> abinitio_auto_25034_2pjhB_0458:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0       0.6        44      36      61 ..      36      61 ..      18      75 .. 0.84
+
+>> abinitio_auto_51584_2pjhB_0108:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.75        55      38      61 ..      38      61 ..      11      70 .. 0.83
+
+>> abinitio_auto_56123_2pjhB_0431:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.74        55      11      52 ..      11      52 ..       9      62 .. 0.84
+
+>> abinitio_auto_10989_2pjhB_0554:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.0      0.69        51      24      53 ..      24      53 ..       2      71 .. 0.73
+
+>> abinitio_auto_6427_2pjhB_0001:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.77        57      12      35 ..      12      35 ..       9      52 .. 0.87
+
+>> abinitio_auto_72379_2pjhB_0564:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.4   0.0      0.68        51      22      60 ..      22      60 ..       6      74 .. 0.76
+
+>> abinitio_auto_3280_2pjhB_0509:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0      0.79        59      14      53 ..      13      53 ..       9      63 .. 0.83
+
+>> abinitio_auto_56647_2pjhB_0077:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.5   0.0      0.64        48      27      49 ..       6      28 ..       3      66 .. 0.85
+
+>> abinitio_auto_6427_2pjhB_0513:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0      0.83        61       3      62 ..       3      62 ..       2      74 .. 0.84
+
+>> abinitio_auto_21923_2pjhB_0250:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.85        63      36      64 ..      36      64 ..      20      74 .. 0.85
+
+>> abinitio_auto_3280_2pjhB_0128:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0       0.8        59      13      50 ..      13      50 ..       3      70 .. 0.81
+
+>> abinitio_auto_27784_2pjhB_0244:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.3   0.0      0.78        58      28      61 ..      28      61 ..       5      73 .. 0.84
+
+>> abinitio_auto_25034_2pjhB_0275:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.2   0.0       0.8        59      30      61 ..      30      61 ..       9      71 .. 0.87
+
+>> abinitio_auto_21923_2pjhB_0282:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.84        63       4      58 ..       4      58 ..       2      76 .. 0.78
+
+>> abinitio_auto_50961_2pjhB_0494:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.0       6.5   4.9e+02      69      87 ..       9      27 ..       3      28 .. 0.74
+   2 ?    1.2   0.1       3.4   2.6e+02      36      62 ..      36      62 ..      23      76 .. 0.70
+
+>> abinitio_auto_3280_2pjhB_0330:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.86        64      14      44 ..      14      44 ..      11      69 .. 0.77
+
+>> abinitio_auto_27784_2pjhB_0479:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.0   0.0      0.91        67      19      49 ..      19      49 ..       8      64 .. 0.82
+
+>> abinitio_auto_2727_2pjhB_0313:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.0       1.1        80       4      34 ..       4      34 ..       2      41 .. 0.76
+
+>> abinitio_auto_53710_2pjhB_0492:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0       1.2        88      73      86 ..      36      49 ..      29      52 .. 0.86
+
+>> abinitio_auto_51584_2pjhB_0332:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0      0.98        72      11      47 ..      10      47 ..       4      61 .. 0.78
+
+>> abinitio_auto_25034_2pjhB_0519:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.0       1.1        79      39      73 ..      39      73 ..      33      76 .. 0.80
+
+>> abinitio_auto_27784_2pjhB_0165:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.1   0.0      0.86        64      20      60 ..      20      60 ..       3      78 .. 0.67
+
+>> abinitio_auto_2810_2pjhB_0040:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0       1.1        83      36      73 ..      36      73 ..      29      79 .] 0.82
+
+>> abinitio_auto_3280_2pjhB_0400:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0         1        75      30      43 ..       9      22 ..       3      56 .. 0.82
+
+>> abinitio_auto_6427_2pjhB_0420:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0         1        77      25      49 ..      17      42 ..      11      64 .. 0.82
+
+>> abinitio_auto_12175_2pjhB_0166:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.0       1.1        81      13      38 ..      12      37 ..       9      47 .. 0.84
+
+>> abinitio_auto_25034_2pjhB_0472:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0       1.2        86      13      58 ..      13      58 ..       9      62 .. 0.83
+
+>> abinitio_auto_25034_2pjhB_0442:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0       1.2        88      18      49 ..      18      58 ..       7      66 .. 0.71
+
+>> abinitio_auto_50961_2pjhB_0422:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0      0.97        72       5      36 ..       5      36 ..       2      67 .. 0.78
+
+>> abinitio_auto_50961_2pjhB_0474:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0       1.3        96      11      36 ..      11      40 ..       6      47 .. 0.87
+
+>> abinitio_auto_21923_2pjhB_0112:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0       1.1        84      27      44 ..      27      44 ..       9      63 .. 0.68
+
+>> abinitio_auto_2810_2pjhB_0066:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0       1.2        93      42      67 ..      42      67 ..      33      73 .. 0.82
+
+>> abinitio_auto_3280_2pjhB_0254:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0       1.1        85      37      75 ..      37      75 ..      14      77 .. 0.80
+
+>> abinitio_auto_53710_2pjhB_0178:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0       1.2        92       7      48 ..       6      48 ..       2      62 .. 0.78
+
+>> abinitio_auto_2727_2pjhB_0326:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0       1.2        86      32      61 ..      32      61 ..       9      77 .. 0.77
+
+>> abinitio_auto_48656_2pjhB_0545:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0       1.2        87      10      68 ..      10      77 ..       8      79 .] 0.76
+
+>> abinitio_auto_56123_2pjhB_0313:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0       1.2        89      23      58 ..      23      58 ..       5      75 .. 0.70
+
+>> abinitio_auto_21923_2pjhB_0328:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0       1.6   1.2e+02      35      51 ..      42      58 ..      39      63 .. 0.84
+
+>> abinitio_auto_10989_2pjhB_0096:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0       1.3        98      28      49 ..      28      49 ..      22      74 .. 0.84
+
+>> abinitio_auto_72379_2pjhB_0154:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0       1.3     1e+02       3      46 ..       3      46 ..       2      61 .. 0.82
+
+>> abinitio_auto_6427_2pjhB_0182:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0       1.5   1.1e+02       8      34 ..       8      34 ..       3      38 .. 0.86
+
+>> abinitio_auto_2727_2pjhB_0375:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0       1.3     1e+02      27      47 ..      31      56 ..       9      72 .. 0.71
+
+>> abinitio_auto_25034_2pjhB_0346:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0       1.4   1.1e+02      16      49 ..      16      49 ..       9      69 .. 0.78
+
+>> abinitio_auto_24615_2pjhB_0190:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.0       1.5   1.1e+02      12      46 ..      11      46 ..       8      56 .. 0.78
+
+>> abinitio_auto_59231_2pjhB_0209:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.1   0.0       1.8   1.3e+02      39      77 ..      39      77 ..      32      79 .] 0.80
+
+>> abinitio_auto_12175_2pjhB_0358:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0       1.3        98      33      63 ..      33      63 ..      11      75 .. 0.80
+
+>> abinitio_auto_2810_2pjhB_0199:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0       1.5   1.1e+02      12      47 ..      12      47 ..       9      63 .. 0.82
+
+>> abinitio_auto_59231_2pjhB_0254:B  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0       1.4     1e+02      23      51 ..      23      50 ..      12      75 .. 0.83
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (89 nodes)
+Target sequences:                         9498  (750342 residues searched)
+Passed MSV filter:                      9498  (1); expected 9498.0 (1)
+Passed bias filter:                     9498  (1); expected 9498.0 (1)
+Passed Vit filter:                      9498  (1); expected 9498.0 (1)
+Passed Fwd filter:                      9498  (1); expected 9498.0 (1)
+Initial search space (Z):               9498  [actual number of targets]
+Domain search space  (domZ):             128  [number of targets reported over threshold]
+# CPU time: 4.58u 0.04s 00:00:04.62 Elapsed: 00:00:02.75
+# Mc/sec: 24.28
+//
+[ok]

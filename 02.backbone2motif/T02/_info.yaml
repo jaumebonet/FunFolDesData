@@ -2,6 +2,7 @@ benchmark:
   id: T02
   cath: CATH.3.30.310.50
   motifs: 1
+  hmm: 4bjuA03.hmm
 structures:
   reference: 3i3wA.pdb
   query: 4bjuA.pdb

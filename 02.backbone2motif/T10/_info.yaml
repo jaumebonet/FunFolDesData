@@ -2,6 +2,7 @@ benchmark:
   id: T10
   cath: CATH.3.10.20.310
   motifs: 1
+  hmm: 2qdfA02.hmm
 structures:
   reference: 2x8xX.pdb
   query: 2qdfA.pdb

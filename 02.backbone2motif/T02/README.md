@@ -17,11 +17,10 @@ from IPython.display import display_javascript, display_html, display
 sys.path.append(os.path.abspath("../"))
 import readme_utils
 
-
-sns.set(font_scale=3)
 matplotlib.rcParams['svg.fonttype'] = 'none'
 pd.set_option('display.max_columns', None)
 sns.set_style("whitegrid")
+sns.set_palette('deep')
 ```
 
 # Load baseline data for the Benchmark
@@ -137,10 +136,10 @@ base
     <tr>
       <th>0</th>
       <td>238.806</td>
-      <td>7,9,12,15,30,34,37-38,41,46,48-49,56-57,59,61,63,69,72-73,76-77,80,84</td>
-      <td>48-49,57,80</td>
-      <td>8-30</td>
-      <td>47-57</td>
+      <td>[A]</td>
+      <td>[A]</td>
+      <td>[A]</td>
+      <td>[A]</td>
       <td>PSRLVRVEVAERSIFKAYDAERKLESPPGLQAKIDSLQSRYNKGRSFARASGTEDAVRVYAEAASRSEADDLATRVANAVRDAG</td>
       <td>LEEEEEEELLLHHHLEEELLLLEEEELLLHHHHHHHHHHHLLLLEEEEEELLLLLEEEEEEELLLHHHHHHHHHHHHHHHHHHL</td>
       <td>6-7,31-36,45-58,60,76,79-84</td>
@@ -160,6 +159,7 @@ fragments = readme_utils.io.load_fragments( info )
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_fragments( fragments, info, base )
 ```
 
@@ -206,6 +206,7 @@ df.groupby(["experiment", "fragments"]).count()["description"]
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_main_summary( df )
 ```
 
@@ -215,6 +216,7 @@ readme_utils.plot.plot_main_summary( df )
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 25})
 readme_utils.plot.plot_main_distributions( df, 15 )
 ```
 
@@ -226,6 +228,7 @@ readme_utils.plot.plot_main_distributions( df, 15 )
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_aa_heatmaps( df, info, base, 0.1 )
 ```
 
@@ -235,6 +238,7 @@ readme_utils.plot.plot_aa_heatmaps( df, info, base, 0.1 )
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_aa_similarities( df, info, base )
 ```
 
@@ -242,19 +246,31 @@ readme_utils.plot.plot_aa_similarities( df, info, base )
 ![png](README_files/README_15_0.png)
 
 
-## Success?
-We measure success over the top 10% scored decoys of each experiment/fragment type; comparing the performance of FFL vs. that of _abinitio_.
+## HMM analysis
+Check sequence recovery against the template's hmm.
 
 
 ```python
-readme_utils.plot.check_success(df, info, base, 0.1, 3.0)
+hmm = readme_utils.io.load_hmm_data( df, info )
+matplotlib.rcParams.update({'font.size': 10})
+sns.factorplot(x="fragments", y="count", col="experiment", order=["wauto", "picker", "auto"],
+                data=hmm, kind="bar", size=4, aspect=.7);
+plt.show()
 ```
 
 
 ![png](README_files/README_17_0.png)
 
 
+## Success?
+We measure success over the top 10% scored decoys of each experiment/fragment type; comparing the performance of FFL vs. that of _abinitio_.
+
 
 ```python
-
+matplotlib.rcParams.update({'font.size': 30})
+readme_utils.plot.check_success(df, info, base, 0.1, 3.0)
 ```
+
+
+![png](README_files/README_19_0.png)
+

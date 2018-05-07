@@ -1,13 +1,6 @@
 
 
 ```python
-%load_ext autoreload
-%reload_ext autoreload
-%autoreload 2
-```
-
-
-```python
 # base libraries
 import warnings; warnings.simplefilter('ignore')
 import os
@@ -24,11 +17,10 @@ from IPython.display import display_javascript, display_html, display
 sys.path.append(os.path.abspath("../"))
 import readme_utils
 
-
-sns.set(font_scale=3)
 matplotlib.rcParams['svg.fonttype'] = 'none'
 pd.set_option('display.max_columns', None)
 sns.set_style("whitegrid")
+sns.set_palette('deep')
 ```
 
 # Load baseline data for the Benchmark
@@ -144,10 +136,10 @@ base
     <tr>
       <th>0</th>
       <td>35.082</td>
-      <td>3,5,13,24,30,32,34,36,39,43,47,64,66,70</td>
-      <td>3,30,32,43,46,66,68</td>
-      <td>5-28</td>
-      <td>38-50</td>
+      <td>[C]</td>
+      <td>[C]</td>
+      <td>[C]</td>
+      <td>[C]</td>
       <td>HTLDALGLRCPEPVMMVRKTVRNMQPGETLLIIADDPATTRDIPGFCTFMEHELVAKETDGLPYRYLIRKG</td>
       <td>LEEELLLLLLLHHHHHHHHHHHLLLLLLEEEEEELLHHHHHHHHHHHHHLLLEEEEEELLLLLEEEEEELL</td>
       <td>1-4,29-30,32-39,41-43,45-47,50,52-53,62-64,66,68-71</td>
@@ -167,15 +159,16 @@ fragments = readme_utils.io.load_fragments( info )
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_fragments( fragments, info, base )
 ```
 
 
-![png](README_files/README_7_0.png)
+![png](README_files/README_6_0.png)
 
 
 
-![png](README_files/README_7_1.png)
+![png](README_files/README_6_1.png)
 
 
 # Main data analysis
@@ -213,40 +206,60 @@ df.groupby(["experiment", "fragments"]).count()["description"]
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_main_summary( df )
+```
+
+
+![png](README_files/README_11_0.png)
+
+
+
+```python
+matplotlib.rcParams.update({'font.size': 25})
+readme_utils.plot.plot_main_distributions( df, 15 )
 ```
 
 
 ![png](README_files/README_12_0.png)
 
 
-
-```python
-readme_utils.plot.plot_main_distributions( df, 15 )
-```
-
-
-![png](README_files/README_13_0.png)
-
-
 ## FFL sequence retrieval
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_aa_heatmaps( df, info, base, 0.1 )
+```
+
+
+![png](README_files/README_14_0.png)
+
+
+
+```python
+matplotlib.rcParams.update({'font.size': 30})
+readme_utils.plot.plot_aa_similarities( df, info, base )
 ```
 
 
 ![png](README_files/README_15_0.png)
 
 
+## HMM analysis
+Check sequence recovery against the template's hmm.
+
 
 ```python
-readme_utils.plot.plot_aa_similarities( df, info, base )
+hmm = readme_utils.io.load_hmm_data( df, info )
+matplotlib.rcParams.update({'font.size': 10})
+sns.factorplot(x="fragments", y="count", col="experiment", order=["wauto", "picker", "auto"],
+                data=hmm, kind="bar", size=4, aspect=.7);
+plt.show()
 ```
 
 
-![png](README_files/README_16_0.png)
+![png](README_files/README_17_0.png)
 
 
 ## Success?
@@ -254,14 +267,10 @@ We measure success over the top 10% scored decoys of each experiment/fragment ty
 
 
 ```python
+matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.check_success(df, info, base, 0.1, 3.0)
 ```
 
 
-![png](README_files/README_18_0.png)
+![png](README_files/README_19_0.png)
 
-
-
-```python
-
-```

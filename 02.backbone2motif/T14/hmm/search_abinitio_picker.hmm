@@ -1,0 +1,55 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  hmm/3lvjC00.hmm
+# target sequence database:        hmm/sequence_abinitio_picker.fa
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 100
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cath|4_1_0|3lvjC00/4-80  [M=79]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                           -----------
+      0.008   13.6   0.0     0.0089   13.5   0.0    1.1  1  abinitio_picker_66531_3lvjC_0044:C  
+  ------ inclusion threshold ------
+        4.9    4.7   0.0        5.9    4.4   0.0    1.1  1  abinitio_picker_49178_3lvjC_0271:C  
+         60    1.2   0.0         65    1.1   0.0    1.2  1  abinitio_picker_66531_3lvjC_0102:C  
+
+
+Domain annotation for each sequence:
+>> abinitio_picker_66531_3lvjC_0044:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.5   0.0   8.5e-06    0.0089      10      60 ..       2      52 ..       1      61 [. 0.94
+
+>> abinitio_picker_49178_3lvjC_0271:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.4   0.0    0.0057       5.9      26      59 ..      18      51 ..      16      62 .. 0.92
+
+>> abinitio_picker_66531_3lvjC_0102:C  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.0     0.062        65      45      61 ..      37      53 ..      14      64 .. 0.71
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (79 nodes)
+Target sequences:                         3130  (222230 residues searched)
+Passed MSV filter:                      3130  (1); expected 3130.0 (1)
+Passed bias filter:                     3130  (1); expected 3130.0 (1)
+Passed Vit filter:                      3130  (1); expected 3130.0 (1)
+Passed Fwd filter:                      3130  (1); expected 3130.0 (1)
+Initial search space (Z):               3130  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.24u 0.01s 00:00:00.25 Elapsed: 00:00:00.12
+# Mc/sec: 146.30
+//
+[ok]

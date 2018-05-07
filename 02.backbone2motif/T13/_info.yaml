@@ -2,6 +2,7 @@ benchmark:
   id: T13
   cath: CATH.2.40.40.20
   motifs: 2
+  hmm: 4kdlA02.hmm
 structures:
   reference: 1cr5B.pdb
   query: 2pjhB.pdb

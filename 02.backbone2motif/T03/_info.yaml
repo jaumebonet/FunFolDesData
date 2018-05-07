@@ -2,6 +2,7 @@ benchmark:
   id: T03
   cath: CATH.3.30.70.980
   motifs: 1
+  hmm: 1mw7A03.hmm
 structures:
   reference: 1lfpA.pdb
   query: 1mw7A.pdb

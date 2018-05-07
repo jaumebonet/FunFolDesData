@@ -2,6 +2,7 @@ benchmark:
   id: T06
   cath: CATH.2.30.29.30
   motifs: 1
+  hmm: 1h4rA01.hmm
 structures:
   reference: 1c1yB.pdb
   query: 1h4rA.pdb

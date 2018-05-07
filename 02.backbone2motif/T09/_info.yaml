@@ -2,6 +2,7 @@ benchmark:
   id: T09
   cath: CATH.3.10.20.90
   motifs: 1
+  hmm: 3phxB00.hmm
 structures:
   reference: 3ny5B.pdb
   query: 3phxB.pdb

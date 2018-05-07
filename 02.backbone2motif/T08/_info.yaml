@@ -2,6 +2,7 @@ benchmark:
   id: T08
   cath: CATH.3.10.20.90
   motifs: 1
+  hmm: 1wiaA01.hmm
 structures:
   reference: 1wj4a.pdb
   query: 1wiaA.pdb

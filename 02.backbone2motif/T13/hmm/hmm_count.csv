@@ -1,0 +1,7 @@
+count,experiment,fragments,benchmark
+103,abinitio,auto,T13
+380,abinitio,picker,T13
+628,abinitio,wauto,T13
+10296,nubinitio,auto,T13
+10296,nubinitio,picker,T13
+10296,nubinitio,wauto,T13

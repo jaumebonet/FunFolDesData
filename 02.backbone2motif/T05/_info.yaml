@@ -2,6 +2,7 @@ benchmark:
   id: T05
   cath: CATH.3.10.20.30
   motifs: 1
+  hmm: 2qjlA00.hmm
 structures:
   reference: 2q5wD.pdb
   query: 2pkoA.pdb
