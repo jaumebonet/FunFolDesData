@@ -8,9 +8,9 @@
 #SBATCH --constraint=mc
 #SBATCH --time 03:00:00
 #SBATCH --mem=120GB
-#SBATCH --job-name="T12"
-#SBATCH --output=/scratch/snx3000/jbonet/logs/T12.%A_%a.out
-#SBATCH --error=/scratch/snx3000/jbonet/logs/T12.%A_%a.err
+#SBATCH --job-name="T02"
+#SBATCH --output=/scratch/snx3000/jbonet/logs/T02.%A_%a.out
+#SBATCH --error=/scratch/snx3000/jbonet/logs/T02.%A_%a.err
 
 export OMP_NUM_THREADS=1
 

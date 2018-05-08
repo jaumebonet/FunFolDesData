@@ -7,9 +7,9 @@
 #SBATCH --partition=normal
 #SBATCH --constraint=mc
 #SBATCH --time 03:00:00
-#SBATCH --job-name="T16"
-#SBATCH --output=/scratch/snx3000/jbonet/logs/T16.%A_%a.out
-#SBATCH --error=/scratch/snx3000/jbonet/logs/T16.%A_%a.err
+#SBATCH --job-name="T04"
+#SBATCH --output=/scratch/snx3000/jbonet/logs/T04.%A_%a.out
+#SBATCH --error=/scratch/snx3000/jbonet/logs/T04.%A_%a.err
 
 export OMP_NUM_THREADS=1
 

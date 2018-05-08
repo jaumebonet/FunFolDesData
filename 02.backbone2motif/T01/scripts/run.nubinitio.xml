@@ -118,7 +118,7 @@
     <SavePoseMover name="readMotif" reference_name="motif_pose" pdb_file="structures/%%pdb%%.pdb" />
 
     ## PREPROCESSING: MAKING FRAGMENTS
-    <StructFragmentMover name="makeFrags" prefix="T12"
+    <StructFragmentMover name="makeFrags" prefix="frags"
       small_frag_file="fragments/%%pdb%%.%%frags%%.200.3mers" large_frag_file="fragments/%%pdb%%.%%frags%%.200.9mers"
     />
 
@@ -130,7 +130,7 @@
     </AddConstraints>
 
     # MAIN: NUBINITIO FOLDING
-    <NubInitioMover name="FFL" fragments_id="T12" template_motif_selector="motif"
+    <NubInitioMover name="FFL" fragments_id="frags" template_motif_selector="motif"
       dump_centroid="true" design="true" use_cst="true" clear_motif_cst="false"
       rmsd_threshold="5" fullatom_scorefxn="fullatom" >
       <Nub reference_name="motif_pose" residue_selector="motif" >
@@ -156,7 +156,7 @@
     </FastDesign>
 
     # POSTPROCESSING: LOOP CLOSURE
-    <NubInitioLoopClosureMover name="loopC" fragments_id="T12"
+    <NubInitioLoopClosureMover name="loopC" fragments_id="frags"
       break_side_ramp="true" design="true" fullatom_scorefxn="fullatom" />
 
     ## VERBOSE
