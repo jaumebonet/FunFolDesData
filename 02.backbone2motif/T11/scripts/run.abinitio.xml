@@ -108,11 +108,11 @@
     <SavePoseMover name="saveFlded" reference_name="folded_pose" restore_pose="0" />
     <SavePoseMover name="saveTmpl"  reference_name="template_pose" restore_pose="0" />
     # ** SavePoseMover used like this does not need to be called during PROTOCOL to work.
-    <SavePoseMover name="readMotif" reference_name="motif_pose" pdb_file="%%pdb%%.pdb" />
+    <SavePoseMover name="readMotif" reference_name="motif_pose" pdb_file="structures/%%pdb%%.pdb" />
 
     ## PREPROCESSING: MAKING FRAGMENTS
     <StructFragmentMover name="makeFrags" prefix="T12"
-      small_frag_file="%%pdb%%.%%frags%%.200.3mers" large_frag_file="%%pdb%%.%%frags%%.200.9mers"
+      small_frag_file="fragments/%%pdb%%.%%frags%%.200.3mers" large_frag_file="fragments/%%pdb%%.%%frags%%.200.9mers"
     />
 
     ## PREPROCESSING: CONSTRAINTS

@@ -37,7 +37,7 @@ ROSETTADB="-in:path:database /scratch/snx3000/"${USER}"/database"
 EXP="abinitio"
 FRAG="wauto"
 PREFIX=${EXP}_${FRAG}_${SLURM_TASK_PID}
-OUTDIR=${EXP}_${FRAG}
+OUTDIR="output/"${EXP}_${FRAG}
 PDB="4bjuA"
 
 # Trace log files
@@ -45,4 +45,4 @@ TRACER="-mpi_tracer_to_file "${TRACEDIR}"/"${PREFIX}"_tracer.log"
 
 mkdir -p ${OUTDIR}
 
-srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ${ROSETTAEXE} -parser:protocol run.${EXP}.xml -s ${PDB}.pdb -out:prefix ${PREFIX}_ -out:file:silent ${OUTDIR}/${PREFIX} ${TRACER} ${NSTRUCT} ${ROSETTADB} ${COMMON} -parser:script_vars frags=${FRAG} pdb=${PDB}
+srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ${ROSETTAEXE} -parser:protocol scripts/run.${EXP}.xml -s structures/${PDB}.pdb -out:prefix ${PREFIX}_ -out:file:silent ${OUTDIR}/${PREFIX} ${TRACER} ${NSTRUCT} ${ROSETTADB} ${COMMON} -parser:script_vars frags=${FRAG} pdb=${PDB}
