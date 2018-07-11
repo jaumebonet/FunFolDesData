@@ -1,0 +1,352 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= mota_1kx8_d3
+         (96 letters)
+
+Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
+r_pfilt 
+           70,953,096 sequences; 24,046,686,692 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_A0A1W1CYH2 3-methyl-2-oxobutanoate hydroxymethyltransfe...    38   2.4  
+UniRef90_UPI000CDDFBCE type I polyketide synthase n=1 Tax=Flavob...    37   5.7  
+UniRef90_J0V0D5 3-methyl-2-oxobutanoate hydroxymethyltransferase...    37   8.1  
+UniRef90_H1FVX0 3-methyl-2-oxobutanoate hydroxymethyltransferase...    36   8.4  
+
+>UniRef90_A0A1W1CYH2 3-methyl-2-oxobutanoate hydroxymethyltransferase n=1
+           Tax=hydrothermal vent metagenome TaxID=652676
+           RepID=A0A1W1CYH2_9ZZZZ
+          Length = 263
+
+ Score = 38.1 bits (87), Expect = 2.4,   Method: Composition-based stats.
+ Identities = 19/72 (26%), Positives = 39/72 (54%), Gaps = 1/72 (1%)
+
+Query: 24  QGTSSDECRRVAEIFENYIFGGGTGADEDQQKEA-QKIMKWFQEYSPSELLSWINDAPIT 82
+           +GT +D  + +AE     + G G GAD D Q      ++  F+ ++P  +  +++ A + 
+Sbjct: 181 EGTKADVAKEIAEAVNIPVIGIGAGADVDGQVLVFSDMLGLFEAFTPKFVKKYLDGATLV 240
+
+Query: 83  NDAKKEFSNQAA 94
+            +A KE++++ A
+Sbjct: 241 KNAVKEYADEVA 252
+
+
+>UniRef90_UPI000CDDFBCE type I polyketide synthase n=1 Tax=Flavobacterium sp. HR-AY
+           TaxID=2080416 RepID=UPI000CDDFBCE
+          Length = 2215
+
+ Score = 37.0 bits (84), Expect = 5.7,   Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 37/86 (43%), Gaps = 12/86 (13%)
+
+Query: 14  LEEIQKWLNNQGTSSDECRRVAEIFENYIFG--------GGTGADEDQQKEAQKIMKWFQ 65
+           L EI+  +NN     DE +R   I  N+I G          +G  +D      K+ +   
+Sbjct: 427 LGEIESVINNL----DEIKRATVIVSNHIGGEPSLVAYLQSSGTAQDTNSIRHKLEELLP 482
+
+Query: 66  EYSPSELLSWINDAPITNDAKKEFSN 91
+           E+       WIND PIT + K + SN
+Sbjct: 483 EFMVPTFFMWINDFPITTNGKIDKSN 508
+
+
+>UniRef90_J0V0D5 3-methyl-2-oxobutanoate hydroxymethyltransferase n=1 Tax=Thiovulum
+           sp. ES TaxID=1177931 RepID=J0V0D5_9HELI
+          Length = 260
+
+ Score = 36.6 bits (83), Expect = 8.1,   Method: Composition-based stats.
+ Identities = 18/73 (24%), Positives = 37/73 (50%), Gaps = 1/73 (1%)
+
+Query: 24  QGTSSDECRRVAEIFENYIFGGGTGADEDQQKEA-QKIMKWFQEYSPSELLSWINDAPIT 82
+           +GT SD  + +AE     + G G G D D Q      ++ +F+++ P  +  ++N   I 
+Sbjct: 178 EGTESDLAKEIAETLTIPVIGIGAGKDVDGQVLVWSDLLGFFEDFKPKFVKRYLNGGEIV 237
+
+Query: 83  NDAKKEFSNQAAN 95
+            +A  +++++  N
+Sbjct: 238 RNAITQYADEVRN 250
+
+
+>UniRef90_H1FVX0 3-methyl-2-oxobutanoate hydroxymethyltransferase n=1
+           Tax=Sulfurimonas gotlandica (strain DSM 19862 / JCM
+           16533 / GD1) TaxID=929558 RepID=H1FVX0_SULGG
+          Length = 263
+
+ Score = 36.2 bits (82), Expect = 8.4,   Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 49/95 (51%), Gaps = 2/95 (2%)
+
+Query: 2   KSPLEWLNDPKCLEEIQKW-LNNQGTSSDECRRVAEIFENYIFGGGTGADEDQQKEA-QK 59
+           K  L+ + D K +E+   + +  +G  +D    +A+  E  + G G GAD D Q      
+Sbjct: 158 KEKLKLIEDAKAIEKAGAFCMVIEGVKTDVATAIAKCVEVPVIGIGAGADVDGQVLVFSD 217
+
+Query: 60  IMKWFQEYSPSELLSWINDAPITNDAKKEFSNQAA 94
+           ++  F+E++P  +  +++ A +  +A K ++++ +
+Sbjct: 218 MLGLFEEFTPKFVKKYMDGATLVKEAIKNYADEVS 252
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI000CDDFBCE type I polyketide synthase n=1 Tax=Flavob...    39   1.0  
+UniRef90_A0A1W1CYH2 3-methyl-2-oxobutanoate hydroxymethyltransfe...    39   1.4  
+UniRef90_J0V0D5 3-methyl-2-oxobutanoate hydroxymethyltransferase...    37   3.8  
+
+
+CONVERGED!
+>UniRef90_UPI000CDDFBCE type I polyketide synthase n=1 Tax=Flavobacterium sp. HR-AY
+           TaxID=2080416 RepID=UPI000CDDFBCE
+          Length = 2215
+
+ Score = 39.3 bits (90), Expect = 1.0,   Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 37/86 (43%), Gaps = 12/86 (13%)
+
+Query: 14  LEEIQKWLNNQGTSSDECRRVAEIFENYIFG--------GGTGADEDQQKEAQKIMKWFQ 65
+           L EI+  +NN     DE +R   I  N+I G          +G  +D      K+ +   
+Sbjct: 427 LGEIESVINNL----DEIKRATVIVSNHIGGEPSLVAYLQSSGTAQDTNSIRHKLEELLP 482
+
+Query: 66  EYSPSELLSWINDAPITNDAKKEFSN 91
+           E+       WIND PIT + K + SN
+Sbjct: 483 EFMVPTFFMWINDFPITTNGKIDKSN 508
+
+
+>UniRef90_A0A1W1CYH2 3-methyl-2-oxobutanoate hydroxymethyltransferase n=1
+           Tax=hydrothermal vent metagenome TaxID=652676
+           RepID=A0A1W1CYH2_9ZZZZ
+          Length = 263
+
+ Score = 38.9 bits (89), Expect = 1.4,   Method: Composition-based stats.
+ Identities = 19/72 (26%), Positives = 39/72 (54%), Gaps = 1/72 (1%)
+
+Query: 24  QGTSSDECRRVAEIFENYIFGGGTGADEDQQKEA-QKIMKWFQEYSPSELLSWINDAPIT 82
+           +GT +D  + +AE     + G G GAD D Q      ++  F+ ++P  +  +++ A + 
+Sbjct: 181 EGTKADVAKEIAEAVNIPVIGIGAGADVDGQVLVFSDMLGLFEAFTPKFVKKYLDGATLV 240
+
+Query: 83  NDAKKEFSNQAA 94
+            +A KE++++ A
+Sbjct: 241 KNAVKEYADEVA 252
+
+
+>UniRef90_J0V0D5 3-methyl-2-oxobutanoate hydroxymethyltransferase n=1 Tax=Thiovulum
+           sp. ES TaxID=1177931 RepID=J0V0D5_9HELI
+          Length = 260
+
+ Score = 37.4 bits (85), Expect = 3.8,   Method: Composition-based stats.
+ Identities = 18/73 (24%), Positives = 37/73 (50%), Gaps = 1/73 (1%)
+
+Query: 24  QGTSSDECRRVAEIFENYIFGGGTGADEDQQKEA-QKIMKWFQEYSPSELLSWINDAPIT 82
+           +GT SD  + +AE     + G G G D D Q      ++ +F+++ P  +  ++N   I 
+Sbjct: 178 EGTESDLAKEIAETLTIPVIGIGAGKDVDGQVLVWSDLLGFFEDFKPKFVKRYLNGGEIV 237
+
+Query: 83  NDAKKEFSNQAAN 95
+            +A  +++++  N
+Sbjct: 238 RNAITQYADEVRN 250
+
+
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt
+    Posted date:  Apr 25, 2018  9:20 PM
+  Number of letters in database: 999,999,817
+  Number of sequences in database:  2,892,040
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.01
+    Posted date:  Apr 25, 2018  9:21 PM
+  Number of letters in database: 999,999,684
+  Number of sequences in database:  2,278,212
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.02
+    Posted date:  Apr 25, 2018  9:23 PM
+  Number of letters in database: 999,999,632
+  Number of sequences in database:  2,327,781
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.03
+    Posted date:  Apr 25, 2018  9:24 PM
+  Number of letters in database: 999,999,448
+  Number of sequences in database:  2,390,013
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.04
+    Posted date:  Apr 25, 2018  9:25 PM
+  Number of letters in database: 999,999,920
+  Number of sequences in database:  2,473,854
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.05
+    Posted date:  Apr 25, 2018  9:27 PM
+  Number of letters in database: 999,999,766
+  Number of sequences in database:  2,699,369
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.06
+    Posted date:  Apr 25, 2018  9:28 PM
+  Number of letters in database: 999,999,949
+  Number of sequences in database:  3,052,090
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.07
+    Posted date:  Apr 25, 2018  9:30 PM
+  Number of letters in database: 999,999,857
+  Number of sequences in database:  3,195,405
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.08
+    Posted date:  Apr 25, 2018  9:31 PM
+  Number of letters in database: 999,999,795
+  Number of sequences in database:  3,377,833
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.09
+    Posted date:  Apr 25, 2018  9:33 PM
+  Number of letters in database: 999,999,945
+  Number of sequences in database:  3,278,025
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.10
+    Posted date:  Apr 25, 2018  9:35 PM
+  Number of letters in database: 999,999,598
+  Number of sequences in database:  3,262,026
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.11
+    Posted date:  Apr 25, 2018  9:36 PM
+  Number of letters in database: 999,999,937
+  Number of sequences in database:  3,258,308
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.12
+    Posted date:  Apr 25, 2018  9:38 PM
+  Number of letters in database: 999,999,704
+  Number of sequences in database:  3,256,364
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.13
+    Posted date:  Apr 25, 2018  9:39 PM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  3,248,470
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.14
+    Posted date:  Apr 25, 2018  9:41 PM
+  Number of letters in database: 999,999,916
+  Number of sequences in database:  3,197,486
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.15
+    Posted date:  Apr 25, 2018  9:43 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,238,042
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.16
+    Posted date:  Apr 25, 2018  9:44 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,253,045
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.17
+    Posted date:  Apr 25, 2018  9:46 PM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  3,203,921
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.18
+    Posted date:  Apr 25, 2018  9:47 PM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,080,352
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.19
+    Posted date:  Apr 25, 2018  9:49 PM
+  Number of letters in database: 999,999,076
+  Number of sequences in database:  2,927,914
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.20
+    Posted date:  Apr 25, 2018  9:50 PM
+  Number of letters in database: 999,999,697
+  Number of sequences in database:  2,780,386
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.21
+    Posted date:  Apr 25, 2018  9:51 PM
+  Number of letters in database: 999,999,630
+  Number of sequences in database:  2,547,286
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.22
+    Posted date:  Apr 25, 2018  9:53 PM
+  Number of letters in database: 999,997,037
+  Number of sequences in database:  2,858,393
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.23
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 999,999,954
+  Number of sequences in database:  2,746,101
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.24
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 46,695,217
+  Number of sequences in database:  130,380
+  
+Lambda     K      H
+   0.312    0.130    0.400 
+
+Lambda     K      H
+   0.267   0.0409    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 9,556,835,927
+Number of Sequences: 70953096
+Number of extensions: 350365735
+Number of successful extensions: 617183
+Number of sequences better than 10.0: 3
+Number of HSP's better than 10.0 without gapping: 3
+Number of HSP's successfully gapped in prelim test: 8
+Number of HSP's that attempted gapping in prelim test: 617177
+Number of HSP's gapped (non-prelim): 11
+length of query: 96
+length of database: 24,046,686,692
+effective HSP length: 65
+effective length of query: 31
+effective length of database: 23,729,702,748
+effective search space: 735620785188
+effective search space used: 735620785188
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 82 (36.2 bits)

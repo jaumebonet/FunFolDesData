@@ -1,0 +1,16 @@
+-in:file:fasta          t001_.fasta
+-in:path:database       /work/lpdi/bin/Rosetta/tools/fragment_tools/../../v3.8/database
+-in:file:vall           /work/lpdi/bin/Rosetta/tools/fragment_tools/vall.jul19.2011
+-frags:n_candidates     1000
+-frags:n_frags          200
+-frags:frag_sizes       3
+-out:file:frag_prefix   t001_
+-frags:scoring:config   t001__scores3.cfg
+#-out:level 2000
+-in:file:checkpoint     t001_.checkpoint
+-frags:write_ca_coordinates
+-frags:describe_fragments t001__frags.3.score
+-spine_x                  t001_.fasta.phipsi
+
+
+-frags:ss_pred t001_.psipred_ss2 psipred

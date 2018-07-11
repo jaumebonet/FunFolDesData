@@ -1,0 +1,2 @@
+1kx8 seqfrags t001_
+1kx8 strfrags wauto

@@ -1,0 +1,345 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= mota_1kx8_d6
+         (96 letters)
+
+Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
+r_pfilt 
+           70,953,096 sequences; 24,046,686,692 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_K3V4E9 Uncharacterized protein n=1 Tax=Fusarium pseudog...    39   1.6  
+UniRef90_A0A0E0SES1 Uncharacterized protein n=5 Tax=Fusarium sam...    38   2.6  
+UniRef90_F9F210 Uncharacterized protein n=10 Tax=Fusarium oxyspo...    37   6.2  
+
+>UniRef90_K3V4E9 Uncharacterized protein n=1 Tax=Fusarium pseudograminearum (strain
+            CS3096) TaxID=1028729 RepID=K3V4E9_FUSPC
+          Length = 1725
+
+ Score = 38.9 bits (89), Expect = 1.6,   Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 35/79 (44%), Gaps = 7/79 (8%)
+
+Query: 18   KKACEGQGQASQDMEEACRQVRIWIVKGGKDLDDEERKQAEKAAAALARGWGSELLSWIN 77
+            +K CE   +  +       +VRI   K  K+   EERK  E  A  + RG+   + SW  
+Sbjct: 1609 RKRCEENRKPGRGGRAVPNEVRIMTSKMWKEATPEERKPYEDQATEMKRGYAEAVQSW-- 1666
+
+Query: 78   DAPITNDAKKKWSNQAAKL 96
+                 N A +KW  ++A L
+Sbjct: 1667 -----NQATEKWDRESAAL 1680
+
+
+>UniRef90_A0A0E0SES1 Uncharacterized protein n=5 Tax=Fusarium sambucinum species complex
+            TaxID=569360 RepID=A0A0E0SES1_GIBZE
+          Length = 1093
+
+ Score = 38.1 bits (87), Expect = 2.6,   Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 35/79 (44%), Gaps = 7/79 (8%)
+
+Query: 18   KKACEGQGQASQDMEEACRQVRIWIVKGGKDLDDEERKQAEKAAAALARGWGSELLSWIN 77
+            +K CE   +  +       +VRI   K  K+   EERK  E  A  + RG+   + SW  
+Sbjct: 977  RKRCEENRKPGRGGRAVPNEVRIMTSKMWKEATPEERKPYEDQATEMKRGYAEAVQSW-- 1034
+
+Query: 78   DAPITNDAKKKWSNQAAKL 96
+                 N A +KW  ++A L
+Sbjct: 1035 -----NQATEKWDRESAAL 1048
+
+
+>UniRef90_F9F210 Uncharacterized protein n=10 Tax=Fusarium oxysporum TaxID=5507
+            RepID=F9F210_FUSOF
+          Length = 1778
+
+ Score = 37.0 bits (84), Expect = 6.2,   Method: Composition-based stats.
+ Identities = 23/79 (29%), Positives = 33/79 (41%), Gaps = 7/79 (8%)
+
+Query: 18   KKACEGQGQASQDMEEACRQVRIWIVKGGKDLDDEERKQAEKAAAALARGWGSELLSWIN 77
+            +K CE   +  +       +VRI   K  KD   EERK  E  A    RG+   + +W  
+Sbjct: 1665 RKKCEENRKPGKGGRAVPNEVRIMTSKMWKDASSEERKPYEDQATEQKRGYAEAVQAWTR 1724
+
+Query: 78   DAPITNDAKKKWSNQAAKL 96
+                   A ++W  +AA L
+Sbjct: 1725 -------ATERWDQEAAAL 1736
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_A0A0E0SES1 Uncharacterized protein n=5 Tax=Fusarium sam...    42   0.15 
+UniRef90_K3V4E9 Uncharacterized protein n=1 Tax=Fusarium pseudog...    42   0.15 
+UniRef90_A0A1B9HY15 Uncharacterized protein n=1 Tax=Kwoniella pi...    38   2.3  
+UniRef90_A0A1B9GRR2 Uncharacterized protein n=2 Tax=Kwoniella he...    37   4.2  
+
+
+CONVERGED!
+>UniRef90_A0A0E0SES1 Uncharacterized protein n=5 Tax=Fusarium sambucinum species complex
+            TaxID=569360 RepID=A0A0E0SES1_GIBZE
+          Length = 1093
+
+ Score = 42.1 bits (97), Expect = 0.15,   Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 35/79 (44%), Gaps = 7/79 (8%)
+
+Query: 18   KKACEGQGQASQDMEEACRQVRIWIVKGGKDLDDEERKQAEKAAAALARGWGSELLSWIN 77
+            +K CE   +  +       +VRI   K  K+   EERK  E  A  + RG+   + SW  
+Sbjct: 977  RKRCEENRKPGRGGRAVPNEVRIMTSKMWKEATPEERKPYEDQATEMKRGYAEAVQSW-- 1034
+
+Query: 78   DAPITNDAKKKWSNQAAKL 96
+                 N A +KW  ++A L
+Sbjct: 1035 -----NQATEKWDRESAAL 1048
+
+
+>UniRef90_K3V4E9 Uncharacterized protein n=1 Tax=Fusarium pseudograminearum (strain
+            CS3096) TaxID=1028729 RepID=K3V4E9_FUSPC
+          Length = 1725
+
+ Score = 42.1 bits (97), Expect = 0.15,   Method: Composition-based stats.
+ Identities = 24/79 (30%), Positives = 35/79 (44%), Gaps = 7/79 (8%)
+
+Query: 18   KKACEGQGQASQDMEEACRQVRIWIVKGGKDLDDEERKQAEKAAAALARGWGSELLSWIN 77
+            +K CE   +  +       +VRI   K  K+   EERK  E  A  + RG+   + SW  
+Sbjct: 1609 RKRCEENRKPGRGGRAVPNEVRIMTSKMWKEATPEERKPYEDQATEMKRGYAEAVQSW-- 1666
+
+Query: 78   DAPITNDAKKKWSNQAAKL 96
+                 N A +KW  ++A L
+Sbjct: 1667 -----NQATEKWDRESAAL 1680
+
+
+>UniRef90_A0A1B9HY15 Uncharacterized protein n=1 Tax=Kwoniella pini CBS 10737
+           TaxID=1296096 RepID=A0A1B9HY15_9TREE
+          Length = 322
+
+ Score = 38.2 bits (87), Expect = 2.3,   Method: Composition-based stats.
+ Identities = 18/54 (33%), Positives = 32/54 (59%), Gaps = 4/54 (7%)
+
+Query: 12  EAWKKFKKACEGQGQASQDMEEACRQVRIWIVKGGKDLDDEERKQAEKAAAALA 65
+           +AW +FK+  E QG +   + +   ++ +    GG++L ++ERK+AE A   LA
+Sbjct: 171 DAWSEFKEILENQGDSEDPLNDGWDELDL----GGEELSEDERKRAEAAKPLLA 220
+
+
+>UniRef90_A0A1B9GRR2 Uncharacterized protein n=2 Tax=Kwoniella heveanensis TaxID=89924
+           RepID=A0A1B9GRR2_9TREE
+          Length = 361
+
+ Score = 37.4 bits (85), Expect = 4.2,   Method: Composition-based stats.
+ Identities = 21/64 (32%), Positives = 36/64 (56%), Gaps = 2/64 (3%)
+
+Query: 2   EGWEAIAKDPEAWKKFKKACEGQGQASQDMEEACRQVRIWIVKGGKDLDDEERKQAEKAA 61
+           +G +   KD  AW++FK   + +G A  ++E+        +  GG++L D+ER++AE A 
+Sbjct: 187 KGQQGTVKD--AWEEFKGIVDNRGGAEAELEDGDEDGWDELDLGGEELSDQERQRAEGAK 244
+
+Query: 62  AALA 65
+             LA
+Sbjct: 245 PLLA 248
+
+
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt
+    Posted date:  Apr 25, 2018  9:20 PM
+  Number of letters in database: 999,999,817
+  Number of sequences in database:  2,892,040
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.01
+    Posted date:  Apr 25, 2018  9:21 PM
+  Number of letters in database: 999,999,684
+  Number of sequences in database:  2,278,212
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.02
+    Posted date:  Apr 25, 2018  9:23 PM
+  Number of letters in database: 999,999,632
+  Number of sequences in database:  2,327,781
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.03
+    Posted date:  Apr 25, 2018  9:24 PM
+  Number of letters in database: 999,999,448
+  Number of sequences in database:  2,390,013
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.04
+    Posted date:  Apr 25, 2018  9:25 PM
+  Number of letters in database: 999,999,920
+  Number of sequences in database:  2,473,854
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.05
+    Posted date:  Apr 25, 2018  9:27 PM
+  Number of letters in database: 999,999,766
+  Number of sequences in database:  2,699,369
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.06
+    Posted date:  Apr 25, 2018  9:28 PM
+  Number of letters in database: 999,999,949
+  Number of sequences in database:  3,052,090
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.07
+    Posted date:  Apr 25, 2018  9:30 PM
+  Number of letters in database: 999,999,857
+  Number of sequences in database:  3,195,405
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.08
+    Posted date:  Apr 25, 2018  9:31 PM
+  Number of letters in database: 999,999,795
+  Number of sequences in database:  3,377,833
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.09
+    Posted date:  Apr 25, 2018  9:33 PM
+  Number of letters in database: 999,999,945
+  Number of sequences in database:  3,278,025
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.10
+    Posted date:  Apr 25, 2018  9:35 PM
+  Number of letters in database: 999,999,598
+  Number of sequences in database:  3,262,026
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.11
+    Posted date:  Apr 25, 2018  9:36 PM
+  Number of letters in database: 999,999,937
+  Number of sequences in database:  3,258,308
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.12
+    Posted date:  Apr 25, 2018  9:38 PM
+  Number of letters in database: 999,999,704
+  Number of sequences in database:  3,256,364
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.13
+    Posted date:  Apr 25, 2018  9:39 PM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  3,248,470
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.14
+    Posted date:  Apr 25, 2018  9:41 PM
+  Number of letters in database: 999,999,916
+  Number of sequences in database:  3,197,486
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.15
+    Posted date:  Apr 25, 2018  9:43 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,238,042
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.16
+    Posted date:  Apr 25, 2018  9:44 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,253,045
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.17
+    Posted date:  Apr 25, 2018  9:46 PM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  3,203,921
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.18
+    Posted date:  Apr 25, 2018  9:47 PM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,080,352
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.19
+    Posted date:  Apr 25, 2018  9:49 PM
+  Number of letters in database: 999,999,076
+  Number of sequences in database:  2,927,914
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.20
+    Posted date:  Apr 25, 2018  9:50 PM
+  Number of letters in database: 999,999,697
+  Number of sequences in database:  2,780,386
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.21
+    Posted date:  Apr 25, 2018  9:51 PM
+  Number of letters in database: 999,999,630
+  Number of sequences in database:  2,547,286
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.22
+    Posted date:  Apr 25, 2018  9:53 PM
+  Number of letters in database: 999,997,037
+  Number of sequences in database:  2,858,393
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.23
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 999,999,954
+  Number of sequences in database:  2,746,101
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.24
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 46,695,217
+  Number of sequences in database:  130,380
+  
+Lambda     K      H
+   0.310    0.126    0.392 
+
+Lambda     K      H
+   0.267   0.0404    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 8,895,508,481
+Number of Sequences: 70953096
+Number of extensions: 288493444
+Number of successful extensions: 655180
+Number of sequences better than 10.0: 4
+Number of HSP's better than 10.0 without gapping: 1
+Number of HSP's successfully gapped in prelim test: 20
+Number of HSP's that attempted gapping in prelim test: 655156
+Number of HSP's gapped (non-prelim): 28
+length of query: 96
+length of database: 24,046,686,692
+effective HSP length: 65
+effective length of query: 31
+effective length of database: 23,729,702,748
+effective search space: 735620785188
+effective search space used: 735620785188
+T: 11
+A: 40
+X1: 15 ( 6.7 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.8 bits)
+S2: 82 (36.2 bits)

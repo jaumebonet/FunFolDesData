@@ -1,0 +1,88 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../mota_1kx8_d3.fasta
+# target HMM database:             /Volumes/MiniTwo/data/FoldFromLoopsData/resources/database/Pfam-A.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       mota_1kx8_d3  [L=96]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+  ------ inclusion threshold ------
+      0.014   15.1   0.1        1.8    8.4   0.1    2.3  2  NCBP3            Nuclear cap-binding protein subunit 3
+      0.042   13.7   0.1       0.17   11.8   0.1    2.0  1  Slx4             Slx4 endonuclease
+      0.043   13.4   0.1      0.087   12.4   0.1    1.6  2  ThylakoidFormat  Thylakoid formation protein
+
+
+Domain annotation for each model (and alignments):
+>> NCBP3  Nuclear cap-binding protein subunit 3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.5   0.0    0.0053        30      33      43 ..       3      13 ..       1      14 [. 0.83
+   2 ?    8.4   0.1   0.00031       1.8      17      41 ..      58      79 ..      54      85 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 4.5 bits;  conditional E-value: 0.0053
+         NCBP3 33 friEWIdDtsv 43
+                  + +EW++D ++
+  mota_1kx8_d3  3 SPLEWLNDPKC 13
+                  568*****998 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 0.00031
+         NCBP3 17 edikaYvdeylnyeepfriEWIdDt 41
+                  + i+++++ey   ++ + + WI+D 
+  mota_1kx8_d3 58 QKIMKWFQEY---SPSELLSWINDA 79
+                  6899******...37899******7 PP
+
+>> Slx4  Slx4 endonuclease
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.1   3.1e-05      0.17      25      51 ..      13      75 ..       7      83 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 3.1e-05
+                  EHHHHHHHHHHH-GGGG....................................GS-HHHHHHH CS
+          Slx4 25 vLedltawLnteglglk....................................evdpaelrkw 51
+                   Le++++wLn++g   +                                    e++p+el  w
+  mota_1kx8_d3 13 CLEEIQKWLNNQGTSSDecrrvaeifenyifgggtgadedqqkeaqkimkwfqEYSPSELLSW 75
+                  59**********775558888887777777777777777775555555555555555555555 PP
+
+>> ThylakoidFormat  Thylakoid formation protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0      0.11   6.4e+02     100     119 ..      12      31 ..       5      44 .. 0.67
+   2 ?   12.4   0.1   1.6e-05     0.087      69     123 ..      35      91 ..      24      96 .] 0.70
+
+  Alignments for each domain:
+  == domain 1  score: -0.2 bits;  conditional E-value: 0.11
+  ThylakoidFormat 100 ksaeellsllkqeeeeeeae 119
+                      k  ee++++l+++++++++ 
+     mota_1kx8_d3  12 KCLEEIQKWLNNQGTSSDEC 31 
+                      45689999999987766553 PP
+
+  == domain 2  score: 12.4 bits;  conditional E-value: 1.6e-05
+  ThylakoidFormat  69 esifealckavee.dpeqyredaeeleelakeksaeellsllkqeeeeeeaed.lak 123
+                      ++ife ++ + +    e+ +++a+++ ++ +e s +ells+++ +  +++a++ +++
+     mota_1kx8_d3  35 AEIFENYIFGGGTgADEDQQKEAQKIMKWFQEYSPSELLSWINDAPITNDAKKeFSN 91 
+                      5677776654333133456789********************998655544433444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (96 residues searched)
+Target model(s):                       16712  (2907032 nodes)
+Passed MSV filter:                       834  (0.0499043); expected 334.2 (0.02)
+Passed bias filter:                      591  (0.0353638); expected 334.2 (0.02)
+Passed Vit filter:                        49  (0.00293202); expected 16.7 (0.001)
+Passed Fwd filter:                         3  (0.000179512); expected 0.2 (1e-05)
+Initial search space (Z):              16712  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.48u 0.56s 00:00:01.04 Elapsed: 00:00:01.11
+# Mc/sec: 251.42
+//
+[ok]

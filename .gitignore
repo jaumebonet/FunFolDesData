@@ -105,3 +105,9 @@ ENV/
 
 *.combinedsilent.gz
 vall.jul19.2011.gz
+resources/database/Pfam-A.*
+raw/
+
+# full data is too big, save minisilent instead
+*_seqfrags.tgz
+*_strfrags.tgz

@@ -1,0 +1,2 @@
+mota_1kx8_d7 seqfrags t001_
+mota_1kx8_d7 strfrags wauto

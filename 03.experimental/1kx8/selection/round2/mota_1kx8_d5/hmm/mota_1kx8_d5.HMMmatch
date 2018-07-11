@@ -1,0 +1,48 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../mota_1kx8_d5.fasta
+# target HMM database:             /Volumes/MiniTwo/data/FoldFromLoopsData/resources/database/Pfam-A.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       mota_1kx8_d5  [L=96]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+  ------ inclusion threshold ------
+      0.026   14.1   0.6       0.03   13.9   0.6    1.0  1  EcoR124_C  Type I restriction and modification enzyme - subun
+
+
+Domain annotation for each model (and alignments):
+>> EcoR124_C  Type I restriction and modification enzyme - subunit R C terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.9   0.6   1.8e-06      0.03     131     214 ..       8      95 ..       2      96 .] 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.9 bits;  conditional E-value: 1.8e-06
+                   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX...XXX..XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX CS
+     EcoR124_C 131 eddkeereeiekalrssaelrskkdlieefindlkk...kle..ddkedieeefeefknkekekeleelieeegldeealkkfikeilk 214
+                   +  +++ +e+++a++++ e  ++++++ e+++++     k +  ++ +    e+  ++++++ +el + i+++ ++++a k++ +e+ k
+  mota_1kx8_d5   8 QRGQKVEDEVRNAIENKGERSDEAQEVAEILKKYFVlggK-GlsEERKRCARELMIYFARKRPSELLSWINDWPITNDAKKEYSNEAAK 95 
+                   56688899**************************996651.15588899*********************************9999876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (96 residues searched)
+Target model(s):                       16712  (2907032 nodes)
+Passed MSV filter:                       837  (0.0500838); expected 334.2 (0.02)
+Passed bias filter:                      488  (0.0292006); expected 334.2 (0.02)
+Passed Vit filter:                        32  (0.00191479); expected 16.7 (0.001)
+Passed Fwd filter:                         1  (5.98372e-05); expected 0.2 (1e-05)
+Initial search space (Z):              16712  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.51u 0.62s 00:00:01.12 Elapsed: 00:00:01.46
+# Mc/sec: 191.15
+//
+[ok]

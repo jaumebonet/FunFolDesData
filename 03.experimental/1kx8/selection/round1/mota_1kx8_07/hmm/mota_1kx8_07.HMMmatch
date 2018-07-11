@@ -1,0 +1,61 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../mota_1kx8_07.fasta
+# target HMM database:             /Volumes/MiniTwo/data/FoldFromLoopsData/resources/database/Pfam-A.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       mota_1kx8_07  [L=96]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+      0.001   19.2   0.1     0.0011   19.1   0.1    1.1  1  DUF5304   Family of unknown function (DUF5304)
+  ------ inclusion threshold ------
+      0.073   13.5   0.8       0.08   13.4   0.8    1.1  1  FlgN      FlgN protein
+
+
+Domain annotation for each model (and alignments):
+>> DUF5304  Family of unknown function (DUF5304)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.1   0.1   1.3e-07    0.0011      19      85 ..      14      80 ..       2      91 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 19.1 bits;  conditional E-value: 1.3e-07
+       DUF5304 19 Rrr.aeegaepGsaaeelrklvdavadklsglqspllgavagpaaqqvvrqvveqakaavepviernP 85
+                    r ++  + +G+a e+l++l+ a+ +  ++ +s l  +  ++aa+++ r +v+q+k+   + i+  P
+  mota_1kx8_07 14 TERlKAAIQGKGTASEDLKRLARALQEWWANGGSGLGED-EQKAAENILRWFVKQSKSELLSLINDAP 80
+                  33436667889********************99998665.999**************98877776655 PP
+
+>> FlgN  FlgN protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.8   9.6e-06      0.08      37     103 ..      14      79 ..       5      95 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 9.6e-06
+                   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT--...SCHHHHHHHHCTTCCHHHHHHHHHHHHHHHHH CS
+          FlgN  37 ieaLeelleekqellekleqleqkrakllaelgls...aeeatlsellakeedeelkelwqelkelleel 103
+                   +e+L + ++ k +  e+l++l+++++++ a+ g +   +e++  +++l++     +k+  +el +l++++
+  mota_1kx8_07  14 TERLKAAIQGKGTASEDLKRLARALQEWWANGGSGlgeDEQKAAENILRW----FVKQSKSELLSLINDA 79 
+                   799********************************887777777777664....4555555555555544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (96 residues searched)
+Target model(s):                       16712  (2907032 nodes)
+Passed MSV filter:                       708  (0.0423648); expected 334.2 (0.02)
+Passed bias filter:                      467  (0.027944); expected 334.2 (0.02)
+Passed Vit filter:                        32  (0.00191479); expected 16.7 (0.001)
+Passed Fwd filter:                         2  (0.000119674); expected 0.2 (1e-05)
+Initial search space (Z):              16712  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.51u 0.63s 00:00:01.14 Elapsed: 00:00:01.43
+# Mc/sec: 195.16
+//
+[ok]

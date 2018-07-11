@@ -2,3 +2,11 @@
   <Backbone enable="true" residue_selector="FLEXIBLE_OR_TEMPLATE" />
   <Chi      enable="true" residue_selector="COLDSPOT_OR_FLEXIBLE_OR_TEMPLATE" />
 </MoveMapFactory>
+<MoveMapFactory name="FFLBINDERPACK_MOVEMAP" bb="false" chi="false" nu="false" branches="false" jumps="false" >
+  <Backbone enable="true" residue_selector="CONTEXT_OR_FLEXIBLE_OR_TEMPLATE" />
+  <Chi      enable="true" residue_selector="COLDSPOT_OR_FLEXIBLE_OR_TEMPLATE" />
+</MoveMapFactory>
+<MoveMapFactory name="FFLBINDERPACKMIN_MOVEMAP" bb="false" chi="false" nu="false" branches="false" jumps="false" >
+  <Backbone enable="true" residue_selector="CONTEXT_OR_FLEXIBLE_OR_TEMPLATE" />
+  <Chi      enable="true" residue_selector="COLDSPOT_OR_CONTEXT_OR_FLEXIBLE_OR_TEMPLATE" />
+</MoveMapFactory>

@@ -1,0 +1,2331 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= 1kx8
+         (100 letters)
+
+Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
+r 
+           70,953,096 sequences; 24,046,686,692 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_UPI000B39749B uncharacterized protein LOC110376358 n=1 ...   174   2e-41
+UniRef90_A0A0K1DCX4 Chemosensory protein 7 n=2 Tax=Spodoptera Ta...   170   3e-40
+UniRef90_U5Q2Q5 Putative chemosensory protein n=1 Tax=Sesamia in...   165   1e-38
+UniRef90_A0A097QQU2 Chemosensory protein n=2 Tax=Obtectomera Tax...   164   3e-38
+UniRef90_Q8ITL3 Chemosensory protein n=6 Tax=Heliothinae TaxID=9...   162   7e-38
+UniRef90_A0A0U3BLK7 Chemosensory protein 24 n=1 Tax=Cnaphalocroc...   162   1e-37
+UniRef90_A0A1W5LAS8 Putative chemosensory protein 2 n=2 Tax=Ectr...   159   5e-37
+UniRef90_A0A1V1WBZ6 Chemosensory protein 14 n=1 Tax=Mythimna sep...   158   1e-36
+UniRef90_A0A0P0ISF4 Chemosensory protein CSP1 n=1 Tax=Athetis di...   157   2e-36
+UniRef90_A0A0L7LE98 Olfactory protein n=1 Tax=Operophtera brumat...   155   9e-36
+UniRef90_U5KD26 Chemosensory protein 7 n=2 Tax=Agrotis ipsilon T...   153   4e-35
+UniRef90_A0A0C4K6E0 CSP1 protein n=2 Tax=Crambidae TaxID=268499 ...   152   8e-35
+UniRef90_A0A0A1CNK0 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   150   3e-34
+UniRef90_O18639 Olfactory protein n=1 Tax=Cactoblastis cactorum ...   147   3e-33
+UniRef90_Q9U4Z6 Sensory appendage protein 2 n=1 Tax=Manduca sext...   147   3e-33
+UniRef90_UPI0005D0537F uncharacterized protein LOC105393182 n=1 ...   145   9e-33
+UniRef90_Q8MMK7 Chemosensory protein 4 n=33 Tax=Bombyx mori TaxI...   141   2e-31
+UniRef90_A0A1B3P5K9 Chemosensory protein n=1 Tax=Eogystia hippop...   140   2e-31
+UniRef90_D0E9M6 Chemosensory protein 1 (Fragment) n=1 Tax=Amyelo...   139   6e-31
+UniRef90_A0A0K8TUT0 Chemosensory Protein n=1 Tax=Epiphyas postvi...   139   9e-31
+UniRef90_A0A194QVW3 Ejaculatory bulb-specific protein 3 n=2 Tax=...   137   3e-30
+UniRef90_B4XT63 Chemosensory protein n=3 Tax=Pieris TaxID=51679 ...   136   5e-30
+UniRef90_A0A212F7U3 Chemosensory protein 4 n=2 Tax=Danaus plexip...   136   7e-30
+UniRef90_A0A0M3R8G6 Chemosensory protein 3 n=1 Tax=Grapholita mo...   135   1e-29
+UniRef90_A8QWQ8 Chemosensory protein n=3 Tax=Papilio xuthus TaxI...   132   1e-28
+UniRef90_UPI0006763DF6 ejaculatory bulb-specific protein 3-like ...   130   5e-28
+UniRef90_A8QWQ9 Chemosensory protein n=2 Tax=Papilio xuthus TaxI...   130   5e-28
+UniRef90_A0A1E1WSQ3 Uncharacterized protein n=1 Tax=Pectinophora...   129   8e-28
+UniRef90_A0A194QJP5 Putative odorant-binding protein A10 n=3 Tax...   128   2e-27
+UniRef90_UPI000675C524 ejaculatory bulb-specific protein 3-like ...   127   3e-27
+UniRef90_UPI000675EFDB ejaculatory bulb-specific protein 3-like ...   127   3e-27
+UniRef90_UPI0005D0A7B9 ejaculatory bulb-specific protein 3-like ...   127   4e-27
+UniRef90_A0A194QW19 Ejaculatory bulb-specific protein 3 n=2 Tax=...   127   4e-27
+UniRef90_A0A194QWJ0 Ejaculatory bulb-specific protein 3 n=2 Tax=...   125   9e-27
+UniRef90_UPI000CE5CB2C ejaculatory bulb-specific protein 3-like ...   125   2e-26
+UniRef90_UPI0006760E82 ejaculatory bulb-specific protein 3-like ...   124   3e-26
+UniRef90_A0A194QW24 Putative odorant-binding protein A10 n=3 Tax...   121   2e-25
+UniRef90_UPI000B9281AC uncharacterized protein LOC110991530 n=1 ...   120   5e-25
+UniRef90_A0A1B3P5L0 Chemosensory protein n=1 Tax=Eogystia hippop...   119   6e-25
+UniRef90_A0A212FKT6 Chemosensory protein n=1 Tax=Danaus plexippu...   119   6e-25
+UniRef90_UPI00067602BF ejaculatory bulb-specific protein 3-like ...   119   1e-24
+UniRef90_A0A0A1CNC1 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   118   1e-24
+UniRef90_A8QWQ4 Chemosensory protein n=3 Tax=Papilio TaxID=7145 ...   117   3e-24
+UniRef90_Q5MGD4 Sensory protein 1 n=1 Tax=Lonomia obliqua TaxID=...   117   3e-24
+UniRef90_UPI0006784B71 ejaculatory bulb-specific protein 3-like ...   116   5e-24
+UniRef90_UPI0006EB0B09 ejaculatory bulb-specific protein 3-like ...   116   5e-24
+UniRef90_A0A1L2BL72 Chemosensory protein 8 n=1 Tax=Ectropis obli...   116   6e-24
+UniRef90_U5KCX1 Chemosensory protein 3 n=1 Tax=Agrotis ipsilon T...   116   7e-24
+UniRef90_A0A2H1WBZ5 SFRICE025769.2 n=7 Tax=Spodoptera TaxID=7106...   116   7e-24
+UniRef90_A0A1Z2R8R1 Chemosensory protein 25 n=2 Tax=Helicoverpa ...   116   8e-24
+UniRef90_UPI000B9297B4 ejaculatory bulb-specific protein 3-like ...   115   9e-24
+UniRef90_A0A1B4ZBJ8 Chemosensory protein 7 n=2 Tax=Crambidae Tax...   115   1e-23
+UniRef90_A0A2A4JRD4 Uncharacterized protein n=4 Tax=Heliothis vi...   115   1e-23
+UniRef90_UPI00067C11CB ejaculatory bulb-specific protein 3-like ...   115   2e-23
+UniRef90_UPI00096B57BC ejaculatory bulb-specific protein 3-like ...   114   2e-23
+UniRef90_H6TDY1 CSP4 n=3 Tax=Helicoverpa armigera TaxID=29058 Re...   114   2e-23
+UniRef90_D2SNN6 Chemosensory protein n=3 Tax=Heliothinae TaxID=9...   114   3e-23
+UniRef90_A0A2H4FYL7 Chemosensory protein n=1 Tax=Conogethes punc...   114   4e-23
+UniRef90_A0A2A4J5F1 Uncharacterized protein n=2 Tax=Heliothis vi...   113   4e-23
+UniRef90_UPI000CE5972B ejaculatory bulb-specific protein 3-like ...   113   4e-23
+UniRef90_UPI000C202A67 ejaculatory bulb-specific protein 3-like ...   113   4e-23
+UniRef90_B5U9W9 Chemosensory protein 8b n=1 Tax=Papilio xuthus T...   113   4e-23
+UniRef90_A0A1J0KKH5 Chemosensory protein 4 n=2 Tax=Pyrrhalta Tax...   113   5e-23
+UniRef90_A0A2A4J7E9 Uncharacterized protein n=3 Tax=Heliothis vi...   113   6e-23
+UniRef90_A0A2A4JQ89 Uncharacterized protein n=2 Tax=Heliothinae ...   113   7e-23
+UniRef90_A0A1B3P5M3 Chemosensory protein n=1 Tax=Eogystia hippop...   112   8e-23
+UniRef90_A0A0A0VB62 Chemosensory protein n=1 Tax=Helicoverpa arm...   112   9e-23
+UniRef90_UPI000C20AAFB ejaculatory bulb-specific protein 3-like ...   112   1e-22
+UniRef90_A0A0A0VDH1 Chemosensory protein n=2 Tax=Holometabola Ta...   112   1e-22
+UniRef90_UPI0005D09BE2 ejaculatory bulb-specific protein 3-like ...   112   1e-22
+UniRef90_A0A0G2YDA2 CSP4 n=1 Tax=Holotrichia parallela TaxID=934...   112   1e-22
+UniRef90_UPI000B92C212 ejaculatory bulb-specific protein 3-like ...   112   1e-22
+UniRef90_A0A0U3BJT0 Chemosensory protein 23 n=1 Tax=Cnaphalocroc...   111   2e-22
+UniRef90_A0A0A1CTE9 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   111   2e-22
+UniRef90_J9VFG9 Chemosensory protein 12 n=1 Tax=Helicoverpa armi...   111   2e-22
+UniRef90_UPI000B92AC51 ejaculatory bulb-specific protein 3-like ...   111   2e-22
+UniRef90_A0A0L7LDQ0 Putative chemosensory protein n=1 Tax=Operop...   111   2e-22
+UniRef90_UPI000CE5ACB7 ejaculatory bulb-specific protein 3-like ...   111   2e-22
+UniRef90_A2IBC3 Chemosensory protein CSP2 n=3 Tax=Plutella xylos...   111   2e-22
+UniRef90_Q0MRL1 Chemosensory protein 12 n=2 Tax=Tribolium castan...   111   2e-22
+UniRef90_H9C8D8 Mutant chemosensory protein 1 variant (Fragment)...   111   2e-22
+UniRef90_UPI00096B383F ejaculatory bulb-specific protein 3-like ...   111   3e-22
+UniRef90_A0A1B3P5L6 Chemosensory protein n=1 Tax=Eogystia hippop...   110   3e-22
+UniRef90_V9PY40 Chemosensory protein n=1 Tax=Chilo suppressalis ...   110   3e-22
+UniRef90_A0A172QDQ3 Chemosensory protein 9 n=1 Tax=Athetis dissi...   110   4e-22
+UniRef90_Q9NG95 Chemosensory protein n=2 Tax=Mamestra brassicae ...   110   4e-22
+UniRef90_A0A0A0V9F9 Chemosensory protein n=7 Tax=Heliothinae Tax...   110   4e-22
+UniRef90_B5U9W6 Chemosensory protein 4a n=1 Tax=Papilio xuthus T...   110   4e-22
+UniRef90_A0A1Z2R8P3 Chemosensory protein 21 n=2 Tax=Helicoverpa ...   110   4e-22
+UniRef90_A0A0K8TVF1 Chemosensory Protein n=1 Tax=Epiphyas postvi...   110   4e-22
+UniRef90_A0A151I3T5 Ejaculatory bulb-specific protein 3 n=1 Tax=...   110   4e-22
+UniRef90_A0A1W5LDL1 Putative chemosensory protein 4 n=2 Tax=Ectr...   110   4e-22
+UniRef90_Q8MTC3 Chemosensory protein n=1 Tax=Rhyparobia maderae ...   110   5e-22
+UniRef90_A0A2H4G2R7 Chemosensory protein n=1 Tax=Conogethes punc...   110   5e-22
+UniRef90_U5Q2R2 Putative chemosensory protein n=1 Tax=Sesamia in...   110   5e-22
+UniRef90_A2IBC6 Chemosensory protein CSP3 n=2 Tax=Ditrysia TaxID...   110   5e-22
+UniRef90_UPI00067C4594 ejaculatory bulb-specific protein 3-like ...   109   6e-22
+UniRef90_A0A1V1WC09 Chemosensory protein 7 n=2 Tax=Noctuidae Tax...   109   6e-22
+UniRef90_A0A1V1WBX5 Chemosensory protein 2 n=1 Tax=Mythimna sepa...   109   6e-22
+UniRef90_A0A1E1WIS8 Uncharacterized protein n=1 Tax=Pectinophora...   109   6e-22
+UniRef90_A0A0A0VB58 Chemosensory protein n=1 Tax=Helicoverpa arm...   109   7e-22
+UniRef90_A0A2A4J5K3 Uncharacterized protein n=1 Tax=Heliothis vi...   109   8e-22
+UniRef90_F5ANH3 CSP5 n=2 Tax=Helicoverpa armigera TaxID=29058 Re...   109   9e-22
+UniRef90_A0A0X8DBJ2 Chemosensory protein (Fragment) n=1 Tax=Blat...   108   1e-21
+UniRef90_Q9NG94 Chemosensory protein (Fragment) n=2 Tax=Mamestra...   108   1e-21
+UniRef90_A0A1B4ZBL8 Chemosensory protein 11 n=1 Tax=Ostrinia fur...   108   1e-21
+UniRef90_UPI000874CB2D uncharacterized protein LOC108904802 n=1 ...   108   1e-21
+UniRef90_A0A1W4WC46 ejaculatory bulb-specific protein 3-like n=1...   108   2e-21
+UniRef90_A0A1B3P5L5 Chemosensory protein n=1 Tax=Eogystia hippop...   108   2e-21
+UniRef90_UPI000675E27D ejaculatory bulb-specific protein 3-like ...   108   2e-21
+UniRef90_UPI0006761D6F ejaculatory bulb-specific protein 3-like ...   107   2e-21
+UniRef90_A0A1B6LFB3 Uncharacterized protein n=1 Tax=Graphocephal...   107   2e-21
+UniRef90_I4DIJ9 Ejaculatory bulb protein III n=1 Tax=Papilio xut...   107   2e-21
+UniRef90_A0A0L7LDQ3 Chemosensory protein 6 n=1 Tax=Operophtera b...   107   2e-21
+UniRef90_A0A0G2YIV7 CSP11 n=1 Tax=Holotrichia parallela TaxID=93...   107   3e-21
+UniRef90_A0A151X6Q8 Ejaculatory bulb-specific protein 3 n=2 Tax=...   107   3e-21
+UniRef90_A0A0N9JMS5 Chemosensory protein 8 n=1 Tax=Sclerodermus ...   107   3e-21
+UniRef90_E0W2K0 Ejaculatory bulb-specific protein 3 precursor,pu...   107   3e-21
+UniRef90_Q3LBA2 Chemosensory protein 3 n=3 Tax=Bombyx TaxID=7090...   107   3e-21
+UniRef90_Q3LB63 Uncharacterized protein n=1 Tax=Biphyllus lunatu...   107   3e-21
+UniRef90_UPI000CE5C10C uncharacterized protein LOC112049035 n=1 ...   107   3e-21
+UniRef90_A0A0G2YKM6 CSP10 n=1 Tax=Holotrichia parallela TaxID=93...   107   3e-21
+UniRef90_A0A0U3AKE8 Chemosensory protein 29 n=1 Tax=Cnaphalocroc...   107   3e-21
+UniRef90_A0A2H4ZB52 Chemosensory protein n=1 Tax=Anoplophora chi...   107   3e-21
+UniRef90_B5U9W8 Chemosensory protein 4c n=3 Tax=Papilio xuthus T...   107   3e-21
+UniRef90_A0A0X8U7S3 Chemosensory protein 7 n=1 Tax=Rhyzopertha d...   107   3e-21
+UniRef90_UPI0006231335 ejaculatory bulb-specific protein 3 n=1 T...   107   4e-21
+UniRef90_UPI00083C5ACE ejaculatory bulb-specific protein 3-like ...   107   4e-21
+UniRef90_UPI000CE5C9C0 ejaculatory bulb-specific protein 3-like ...   107   4e-21
+UniRef90_UPI000718CEA8 ejaculatory bulb-specific protein 3 n=2 T...   107   4e-21
+UniRef90_UPI0005D0B4B1 ejaculatory bulb-specific protein 3-like ...   107   4e-21
+UniRef90_D6BJF5 Odorant-binding protein n=2 Tax=Bombus TaxID=144...   107   4e-21
+UniRef90_A0A195FEW1 Ejaculatory bulb-specific protein 3 (Fragmen...   107   4e-21
+UniRef90_A0A0E3Y5Z5 Chemosensory protein 5 n=2 Tax=Scarabaeidae ...   107   5e-21
+UniRef90_F6MFX2 Putative chemosensory-binding protein n=2 Tax=Ny...   106   5e-21
+UniRef90_A0A2A4JQV2 Uncharacterized protein n=2 Tax=Heliothis vi...   106   5e-21
+UniRef90_A0A172QDP2 Chemosensory protein 1 n=1 Tax=Athetis dissi...   106   5e-21
+UniRef90_UPI00063F447D ejaculatory bulb-specific protein 3-like ...   106   6e-21
+UniRef90_M3UZC9 Chemosensory protein 1 (Fragment) n=1 Tax=Ips ty...   106   6e-21
+UniRef90_UPI00083C3476 ejaculatory bulb-specific protein 3-like ...   106   6e-21
+UniRef90_A0A0U3A8Y9 Chemosensory protein 25 n=1 Tax=Cnaphalocroc...   106   6e-21
+UniRef90_U5PZ65 Putative chemosensory protein n=1 Tax=Sesamia in...   106   7e-21
+UniRef90_A0A0U3CDR3 Chemosensory protein 27 (Fragment) n=1 Tax=C...   106   7e-21
+UniRef90_A0A2H1W9A3 SFRICE036034.2 n=3 Tax=Spodoptera TaxID=7106...   106   7e-21
+UniRef90_H9C8H1 Mutant chemosensory protein 1 variant (Fragment)...   106   8e-21
+UniRef90_A0A195CCT5 Ejaculatory bulb-specific protein 3 n=1 Tax=...   106   8e-21
+UniRef90_UPI000C207B2F ejaculatory bulb-specific protein 3-like ...   106   8e-21
+UniRef90_A0A0L7QSW3 Ejaculatory bulb-specific protein 3 (Fragmen...   106   8e-21
+UniRef90_A0A0R8P118 Chemosensory protein 4 n=1 Tax=Chrysopa pall...   106   8e-21
+UniRef90_A2TIK4 Chemosensory protein 3 n=4 Tax=Plutella xylostel...   105   8e-21
+UniRef90_UPI00076790C3 ejaculatory bulb-specific protein 3-like ...   105   9e-21
+UniRef90_UPI0006CEC1C9 ejaculatory bulb-specific protein 3-like ...   105   9e-21
+UniRef90_A0A1V1WC64 Chemosensory protein 5 n=1 Tax=Mythimna sepa...   105   9e-21
+UniRef90_UPI00096AE932 uncharacterized protein LOC109595889 n=1 ...   105   9e-21
+UniRef90_Q0MRL3 Chemosensory protein 10 n=1 Tax=Tribolium castan...   105   9e-21
+UniRef90_F4WYC0 Ejaculatory bulb-specific protein 3 n=1 Tax=Acro...   105   9e-21
+UniRef90_UPI0006CEF918 ejaculatory bulb-specific protein 3-like ...   105   1e-20
+UniRef90_A0A2J7QAD9 Ejaculatory bulb-specific protein 3 n=1 Tax=...   105   1e-20
+UniRef90_UPI000711A155 ejaculatory bulb-specific protein 3 n=1 T...   105   1e-20
+UniRef90_A0A0B4KZD7 Chemosensory protein 6 n=1 Tax=Lissorhoptrus...   105   1e-20
+UniRef90_UPI00022C92A9 ejaculatory bulb-specific protein 3 n=1 T...   105   1e-20
+UniRef90_Q4ZIK7 Chemosensory protein CSP n=2 Tax=Spodoptera litu...   105   1e-20
+UniRef90_A0A1I9HZM9 Chemosensory protein 5 n=1 Tax=Monochamus al...   105   1e-20
+UniRef90_Q9U503 Sensory appendage protein 3 n=1 Tax=Manduca sext...   105   1e-20
+UniRef90_A0A0G2YGX2 CSP8 n=1 Tax=Holotrichia parallela TaxID=934...   105   1e-20
+UniRef90_U5PZ70 Putative chemosensory protein n=1 Tax=Sesamia in...   105   1e-20
+UniRef90_Q3LB73 Uncharacterized protein (Fragment) n=1 Tax=Locus...   105   1e-20
+UniRef90_A0A0N9JS20 Chemosensory protein 6 n=1 Tax=Sclerodermus ...   105   1e-20
+UniRef90_UPI00083C6413 ejaculatory bulb-specific protein 3-like ...   105   1e-20
+UniRef90_Q6F438 Sensory appendage protein 3-like protein n=2 Tax...   105   1e-20
+UniRef90_A0A0U2JSX2 Chemosensory protein 28 n=1 Tax=Cnaphalocroc...   105   2e-20
+UniRef90_UPI0006409BB7 ejaculatory bulb-specific protein 3-like ...   105   2e-20
+UniRef90_A0A1B4ZBL5 Chemosensory protein 19 n=1 Tax=Ostrinia fur...   105   2e-20
+UniRef90_A0A109VYC4 Chemosensory protein 2 n=1 Tax=Rhyzopertha d...   105   2e-20
+UniRef90_A0A1I9HZN7 Chemosensory protein 8 n=3 Tax=Lamiinae TaxI...   105   2e-20
+UniRef90_A0A2H1VXU6 SFRICE041981.2 n=1 Tax=Spodoptera frugiperda...   105   2e-20
+UniRef90_UPI0006CEC7D0 ejaculatory bulb-specific protein 3-like ...   105   2e-20
+UniRef90_A0A1Z2R8Q3 Chemosensory protein 21 n=6 Tax=Heliothinae ...   105   2e-20
+UniRef90_A0A0N7I632 Putative chemosensory protein CSP3 n=2 Tax=S...   104   2e-20
+UniRef90_A0A0G2YDC1 CSP2 n=1 Tax=Holotrichia parallela TaxID=934...   104   2e-20
+UniRef90_A0A1L2BL63 Chemosensory protein 9 n=1 Tax=Ectropis obli...   104   2e-20
+UniRef90_UPI00076FD94C ejaculatory bulb-specific protein 3 n=1 T...   104   2e-20
+UniRef90_A0A2D1VLM9 Chemosensory protein (Fragment) n=2 Tax=Anop...   104   2e-20
+UniRef90_A0A026WW33 Uncharacterized protein n=1 Tax=Ooceraea bir...   104   2e-20
+UniRef90_A0A097GUD6 Chemosensory protein 3 n=2 Tax=Bemisia tabac...   104   2e-20
+UniRef90_UPI000625525C ejaculatory bulb-specific protein 3 n=1 T...   104   2e-20
+UniRef90_Q3LBA3 Chemosensory protein 5 n=1 Tax=Bombyx mori TaxID...   104   3e-20
+UniRef90_UPI0005F3F828 ejaculatory bulb-specific protein 3 n=1 T...   104   3e-20
+UniRef90_A0A1B6JEL1 Uncharacterized protein n=2 Tax=Cicadellinae...   103   3e-20
+UniRef90_D2SNY4 Chemosensory protein n=1 Tax=Heliothis virescens...   103   3e-20
+UniRef90_E2BGF3 Ejaculatory bulb-specific protein 3 n=2 Tax=Harp...   103   4e-20
+UniRef90_UPI0005D3F473 ejaculatory bulb-specific protein 3 n=1 T...   103   4e-20
+UniRef90_A0A0T6BCP4 Uncharacterized protein n=1 Tax=Oryctes borb...   103   4e-20
+UniRef90_A3RG67 Chemosensory protein 1 n=2 Tax=Microplitis TaxID...   103   4e-20
+UniRef90_A0A0A1CP63 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   103   4e-20
+UniRef90_A0A1B4ZBM6 Chemosensory protein 4 n=1 Tax=Ostrinia furn...   103   4e-20
+UniRef90_A0A076E957 Chemosensory protein n=1 Tax=Dendrolimus hou...   103   5e-20
+UniRef90_A0A076E5S5 Chemosensory protein n=1 Tax=Dendrolimus hou...   103   5e-20
+UniRef90_A0A1S3DC45 uncharacterized protein LOC103515708 n=1 Tax...   103   5e-20
+UniRef90_A0A0A1CN82 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   103   5e-20
+UniRef90_UPI00067DBE04 ejaculatory bulb-specific protein 3-like ...   103   5e-20
+UniRef90_A8QWQ1 Chemosensory protein n=4 Tax=Papilio TaxID=7145 ...   103   5e-20
+UniRef90_A0A1B6GV50 Uncharacterized protein (Fragment) n=1 Tax=C...   103   6e-20
+UniRef90_A0A076E961 Chemosensory protein n=2 Tax=Dendrolimus Tax...   103   6e-20
+UniRef90_J7IAJ1 Chemosensory protein n=1 Tax=Grapholita molesta ...   103   7e-20
+UniRef90_A0A172QDP4 Chemosensory protein 8 n=1 Tax=Athetis dissi...   103   7e-20
+UniRef90_U5KCX2 Chemosensory protein 8 n=1 Tax=Agrotis ipsilon T...   103   7e-20
+UniRef90_A0A067XN15 Chemosensory protein 11 n=2 Tax=Nilaparvata ...   102   8e-20
+UniRef90_Q0MRK4 Chemosensory protein 19 n=1 Tax=Tribolium castan...   102   8e-20
+UniRef90_A0A067RPJ6 Ejaculatory bulb-specific protein 3 n=2 Tax=...   102   9e-20
+UniRef90_UPI000626B06B ejaculatory bulb-specific protein 3-like ...   102   9e-20
+UniRef90_A0A0R8P3T5 Chemosensory protein 4 n=1 Tax=Chrysoperla n...   102   9e-20
+UniRef90_Q9U4Y9 Sensory appendage protein 4 n=1 Tax=Manduca sext...   102   1e-19
+UniRef90_UPI000B92CF04 ejaculatory bulb-specific protein 3-like ...   102   1e-19
+UniRef90_UPI000C255B65 uncharacterized protein LOC111510033 n=1 ...   102   1e-19
+UniRef90_U5PZD9 Putative chemosensory protein n=2 Tax=Sesamia in...   102   1e-19
+UniRef90_UPI0006766487 ejaculatory bulb-specific protein 3-like ...   102   1e-19
+UniRef90_A0A0K1DDS9 Chemosensory protein 6 n=4 Tax=Spodoptera Ta...   102   1e-19
+UniRef90_UPI000B935A69 putative mediator of RNA polymerase II tr...   102   1e-19
+UniRef90_A0A0U3C1C9 Chemosensory protein 30 n=1 Tax=Cnaphalocroc...   102   1e-19
+UniRef90_I4DKW7 Protein serine/threonine kinase n=3 Tax=Papilio ...   102   1e-19
+UniRef90_UPI0006CEE0A9 ejaculatory bulb-specific protein 3-like ...   102   1e-19
+UniRef90_UPI00067DE16A ejaculatory bulb-specific protein 3-like ...   102   1e-19
+UniRef90_A0A1B6EL86 Uncharacterized protein (Fragment) n=1 Tax=C...   102   1e-19
+UniRef90_L7XDI4 Chemosensory protein 1 n=3 Tax=Mirini TaxID=2366...   102   1e-19
+UniRef90_A0A023F9L6 Ejaculatory bulb-specific protein 3 n=2 Tax=...   102   1e-19
+UniRef90_Q0MRK7 Chemosensory protein 16 n=1 Tax=Tribolium castan...   102   1e-19
+UniRef90_A0A0C9RRW4 PebIII_6 protein n=1 Tax=Fopius arisanus Tax...   102   1e-19
+UniRef90_A0A0H3W580 Chemosensory protein 2 n=8 Tax=Dendroctonus ...   102   1e-19
+UniRef90_A0A2H8TJL0 Ejaculatory bulb-specific protein 3 n=1 Tax=...   102   2e-19
+UniRef90_A0A1B4ZBL0 Chemosensory protein 8 n=1 Tax=Ostrinia furn...   102   2e-19
+UniRef90_A0A158NSY6 Uncharacterized protein n=8 Tax=Myrmicinae T...   102   2e-19
+UniRef90_G8HHA2 Chemosensory protein 3 n=1 Tax=Apolygus lucorum ...   102   2e-19
+UniRef90_A0A2A3EP22 DC-STAMP domain-containing protein n=2 Tax=A...   101   2e-19
+UniRef90_A0A212FFZ6 Sensory appendage protein 3 n=1 Tax=Danaus p...   101   2e-19
+UniRef90_M1JPA1 Chemosensory protein 6 n=2 Tax=Aphis TaxID=46492...   101   2e-19
+UniRef90_A0A2J7QAE1 Ejaculatory bulb-specific protein 3 n=1 Tax=...   101   2e-19
+UniRef90_A0A1I9HZR3 Chemosensory protein 11 (Fragment) n=1 Tax=M...   101   2e-19
+UniRef90_UPI000B92C0AD ejaculatory bulb-specific protein 3-like ...   101   2e-19
+UniRef90_A0A0C4K8H1 CSP2 protein n=1 Tax=Conogethes punctiferali...   101   2e-19
+UniRef90_A0A1Z2R8P5 Chemosensory protein 24 (Fragment) n=1 Tax=H...   101   2e-19
+UniRef90_UPI000B926021 ejaculatory bulb-specific protein 3-like ...   101   2e-19
+UniRef90_A0A0M3VGJ7 Chemosensory protein n=3 Tax=Camponotus TaxI...   101   2e-19
+UniRef90_H9J3I1 Uncharacterized protein n=82 Tax=Bombyx mori Tax...   101   2e-19
+UniRef90_A0A0K8TVE6 Chemosensory Protein n=1 Tax=Epiphyas postvi...   101   2e-19
+UniRef90_M4VTH1 Chemosensory protein 6 n=3 Tax=Dendroctonus pond...   101   2e-19
+UniRef90_A0A1B6EXN7 Uncharacterized protein (Fragment) n=1 Tax=C...   101   3e-19
+UniRef90_UPI0005EF0BBA ejaculatory bulb-specific protein 3-like ...   101   3e-19
+UniRef90_A0A1B3P5J5 Chemosensory protein n=1 Tax=Eogystia hippop...   100   3e-19
+UniRef90_A0A0N1IPK5 Ejaculatory bulb-specific protein 3 n=2 Tax=...   100   3e-19
+UniRef90_L7XDT2 Chemosensory protein 8 n=3 Tax=Mirini TaxID=2366...   100   3e-19
+UniRef90_A0A0X8T3E2 Chemosensory protein 6 n=1 Tax=Rhyzopertha d...   100   3e-19
+UniRef90_F5AXS7 Chemosensory protein n=1 Tax=Batocera horsfieldi...   100   3e-19
+UniRef90_A0A2H1WBX0 SFRICE025771.2 (Fragment) n=1 Tax=Spodoptera...   100   3e-19
+UniRef90_I4DM24 Ejaculatory bulb protein III n=1 Tax=Papilio pol...   100   3e-19
+UniRef90_UPI000C2547D5 ejaculatory bulb-specific protein 3-like ...   100   3e-19
+UniRef90_B0W7K3 Chemosensory protein 1 n=1 Tax=Culex quinquefasc...   100   3e-19
+UniRef90_A0A1W6L150 Chemosensory protein 4 n=1 Tax=Cephus cinctu...   100   3e-19
+UniRef90_A0A1B6LTU9 Uncharacterized protein (Fragment) n=1 Tax=G...   100   3e-19
+UniRef90_UPI00096B09D4 ejaculatory bulb-specific protein 3-like ...   100   3e-19
+UniRef90_Q0MRL9 Chemosensory protein 11 n=1 Tax=Tribolium castan...   100   4e-19
+UniRef90_I1VJ19 Chemosensory protein n=3 Tax=Dendroctonus ponder...   100   4e-19
+UniRef90_UPI00096B383B ejaculatory bulb-specific protein 3-like ...   100   4e-19
+UniRef90_A0A1B6HNW9 Uncharacterized protein (Fragment) n=1 Tax=H...   100   4e-19
+UniRef90_UPI00062551A1 ejaculatory bulb-specific protein 3 n=1 T...   100   4e-19
+UniRef90_Q0MRL8 Chemosensory protein 14 n=1 Tax=Tribolium castan...   100   4e-19
+UniRef90_A0A1B6D2D2 Uncharacterized protein (Fragment) n=1 Tax=C...   100   4e-19
+UniRef90_U5PZE3 Putative chemosensory protein (Fragment) n=1 Tax...   100   4e-19
+UniRef90_A0A0K1DDI9 Chemosensory protein 18 n=1 Tax=Spodoptera e...   100   5e-19
+UniRef90_Q6TAA3 Chemosensory protein 3 n=1 Tax=Choristoneura fum...   100   5e-19
+UniRef90_A0A0S3J433 Chemosensory protein 12 n=1 Tax=Colaphellus ...   100   5e-19
+UniRef90_A0A0G2YGX8 CSP13 n=1 Tax=Holotrichia parallela TaxID=93...   100   5e-19
+UniRef90_A0A1W4WBY9 ejaculatory bulb-specific protein 3-like n=1...   100   5e-19
+UniRef90_UPI0007383B4E ejaculatory bulb-specific protein 3-like ...   100   5e-19
+UniRef90_E9IV35 Uncharacterized protein (Fragment) n=1 Tax=Solen...   100   6e-19
+UniRef90_A0A1B6I1A3 Uncharacterized protein (Fragment) n=1 Tax=H...   100   6e-19
+UniRef90_UPI00096B3FDA ejaculatory bulb-specific protein 3-like ...   100   6e-19
+UniRef90_A0A1B3P5K0 Chemosensory protein n=1 Tax=Eogystia hippop...   100   6e-19
+UniRef90_UPI000C207999 ejaculatory bulb-specific protein 3-like ...   100   6e-19
+UniRef90_D0E9M7 Chemosensory protein 2 (Fragment) n=2 Tax=Amyelo...   100   6e-19
+UniRef90_A0A212FG03 Chemosensory protein n=1 Tax=Danaus plexippu...   100   7e-19
+UniRef90_UPI000626C94D ejaculatory bulb-specific protein 3-like ...   100   7e-19
+UniRef90_UPI000994DB72 ejaculatory bulb-specific protein 3 n=1 T...   100   7e-19
+UniRef90_UPI000CE5BDA1 ejaculatory bulb-specific protein 3-like ...   100   7e-19
+UniRef90_A0A2H4ZB62 Chemosensory protein n=2 Tax=Anoplophora Tax...   100   7e-19
+UniRef90_A0A0R7JHR1 Olfactory protein (Fragment) n=2 Tax=Solenop...   100   7e-19
+UniRef90_A0A1W5LB09 Putative chemosensory protein 11 n=2 Tax=Ect...   100   8e-19
+UniRef90_UPI000718CF1F ejaculatory bulb-specific protein 3-like ...   100   8e-19
+UniRef90_Q0MRL2 Chemosensory protein 1 n=1 Tax=Tribolium castane...    99   8e-19
+UniRef90_A0A023F7T9 Putative insect pheromone-binding family n=2...    99   8e-19
+UniRef90_UPI00073D9BB8 transcriptional adapter 2B isoform X13 n=...    99   8e-19
+UniRef90_A0A1A9WI62 Chemosensory protein 1 n=1 Tax=Glossina brev...    99   9e-19
+UniRef90_A0A1W4WN81 ejaculatory bulb-specific protein 3-like n=1...    99   9e-19
+UniRef90_UPI000258F6A6 ejaculatory bulb-specific protein 3-like ...    99   1e-18
+UniRef90_A8QWQ5 Chemosensory protein n=2 Tax=Papilio xuthus TaxI...    99   1e-18
+UniRef90_E0X9F6 Tha p 1 allergen n=2 Tax=Thaumetopoea pityocampa...    99   1e-18
+UniRef90_A0A076E5U7 Chemosensory protein n=1 Tax=Dendrolimus kik...    99   1e-18
+UniRef90_A0A1B6CT51 Uncharacterized protein n=1 Tax=Clastoptera ...    99   1e-18
+UniRef90_UPI00083C3617 ejaculatory bulb-specific protein 3-like ...    99   1e-18
+UniRef90_UPI0005CE3CF9 ejaculatory bulb-specific protein 3-like ...    99   1e-18
+UniRef90_A0A0B4KZC8 Chemosensory protein 8 n=1 Tax=Lissorhoptrus...    99   1e-18
+UniRef90_R4WD24 Protein serine/threonine kinase, putative n=1 Ta...    99   1e-18
+UniRef90_A0A194QVW8 Putative odorant-binding protein A10 n=2 Tax...    99   1e-18
+UniRef90_A0A0A1CP88 Chemosensory protein n=1 Tax=Cnaphalocrocis ...    99   1e-18
+UniRef90_A0A0K8TUT5 Chemosensory Protein n=1 Tax=Epiphyas postvi...    99   1e-18
+UniRef90_A0A2H1WTV4 SFRICE029483.1 n=2 Tax=Spodoptera TaxID=7106...    99   1e-18
+UniRef90_A0A0G2YDB1 CSP14 n=1 Tax=Holotrichia parallela TaxID=93...    99   1e-18
+UniRef90_A0A1B6MID6 Uncharacterized protein (Fragment) n=1 Tax=G...    99   2e-18
+UniRef90_Q0MRK6 Chemosensory protein 17 n=1 Tax=Tribolium castan...    98   2e-18
+UniRef90_A0A162RQ85 Putative chemosensory protein n=1 Tax=Triato...    98   2e-18
+UniRef90_Q0MRK3 Chemosensory protein 18 n=1 Tax=Tribolium castan...    98   2e-18
+UniRef90_A0A194R1E5 Ejaculatory bulb-specific protein 3 n=4 Tax=...    98   2e-18
+UniRef90_H6UKS9 CSP1 n=2 Tax=Bemisia tabaci TaxID=7038 RepID=H6U...    98   2e-18
+UniRef90_UPI000C208BAC ejaculatory bulb-specific protein 3-like ...    98   2e-18
+UniRef90_A0A2H4ZB67 Chemosensory protein n=2 Tax=Anoplophora Tax...    98   2e-18
+UniRef90_A0A0C5D652 Chemosensory protein CSP6 mRNA n=1 Tax=Teneb...    98   2e-18
+UniRef90_A0A1W6R6E7 Chemosensory protein 6 n=1 Tax=Daktulosphair...    98   2e-18
+UniRef90_A0A0U3AA98 Chemosensory protein 26 (Fragment) n=1 Tax=C...    98   2e-18
+UniRef90_Q3LB40 Uncharacterized protein n=1 Tax=Heliconius melpo...    98   2e-18
+UniRef90_UPI00099D2809 hypothetical protein n=2 Tax=Kitasatospor...    98   2e-18
+UniRef90_A0A1W5LAT6 Putative chemosensory protein 13 n=1 Tax=Ect...    98   2e-18
+UniRef90_A0A023SDZ8 Acid trehalase n=1 Tax=Aphis gossypii TaxID=...    98   2e-18
+UniRef90_A0A224Y2A8 Putative pheromone binding protein (Fragment...    98   2e-18
+UniRef90_R4G3I9 Putative chemosensory protein csp8 n=1 Tax=Rhodn...    98   3e-18
+UniRef90_UPI00096B1202 ejaculatory bulb-specific protein 3-like ...    98   3e-18
+UniRef90_A0A1B6KJL8 Uncharacterized protein (Fragment) n=1 Tax=G...    98   3e-18
+UniRef90_Q0MRK9 Chemosensory protein 14 n=1 Tax=Tribolium castan...    98   3e-18
+UniRef90_J3JZ35 Uncharacterized protein n=3 Tax=Dendroctonus pon...    97   3e-18
+UniRef90_A0A076E969 Chemosensory protein n=1 Tax=Dendrolimus kik...    97   3e-18
+UniRef90_UPI0006CF1767 ejaculatory bulb-specific protein 3-like ...    97   3e-18
+UniRef90_A0A1W4WND1 ejaculatory bulb-specific protein 3-like n=1...    97   3e-18
+UniRef90_Q3LBA6 Chemosensory protein 4 n=6 Tax=Apis TaxID=7459 R...    97   3e-18
+UniRef90_UPI000C20D6AB ejaculatory bulb-specific protein 3-like ...    97   3e-18
+UniRef90_A0A0R8PHU2 Chemosensory protein 17 n=2 Tax=Chrysopinae ...    97   3e-18
+UniRef90_A0A0R8P0G2 Chemosensory protein 15 n=1 Tax=Chrysopa pal...    97   3e-18
+UniRef90_UPI0005D06BC4 ejaculatory bulb-specific protein 3-like ...    97   3e-18
+UniRef90_C4WXP3 ACYPI009116 protein n=1 Tax=Acyrthosiphon pisum ...    97   4e-18
+UniRef90_A0A0K8TUS5 Chemosensory Protein n=1 Tax=Epiphyas postvi...    97   4e-18
+UniRef90_A0A1S3DC40 ejaculatory bulb-specific protein 3-like n=1...    97   4e-18
+UniRef90_Q0MRK1 Chemosensory protein 2 n=1 Tax=Bombyx mori TaxID...    97   4e-18
+UniRef90_Q3LBA0 Chemosensory protein 1 n=2 Tax=cellular organism...    97   4e-18
+UniRef90_A0A0H3W576 Chemosensory protein 1 n=1 Tax=Dendroctonus ...    97   4e-18
+UniRef90_UPI0006D4D5DF ejaculatory bulb-specific protein 3-like ...    97   4e-18
+UniRef90_A0A212FG07 Chemosensory protein CSP1 n=1 Tax=Danaus ple...    97   4e-18
+UniRef90_A0A0K8TVD2 Chemosensory Protein (Fragment) n=1 Tax=Epip...    97   4e-18
+UniRef90_M4VR62 Chemosensory protein 8 n=3 Tax=Dendroctonus pond...    97   4e-18
+UniRef90_A0A0C9QFN9 PebIII_1 protein n=1 Tax=Fopius arisanus Tax...    97   4e-18
+UniRef90_A0A1S4ELV4 ejaculatory bulb-specific protein 3-like n=1...    97   4e-18
+UniRef90_R4G4C1 Putative chemosensory protein 12 n=1 Tax=Rhodniu...    97   4e-18
+UniRef90_A0A1S3D047 ejaculatory bulb-specific protein 3-like n=2...    97   4e-18
+UniRef90_D2EBB0 Chemosensory protein 4 n=5 Tax=Glossina TaxID=44...    97   4e-18
+UniRef90_B7TVG7 Putative chemosensory protein CSP1 n=1 Tax=Myzus...    97   4e-18
+UniRef90_A0A0U5AMM1 Putative chemosensory protein n=1 Tax=Reticu...    97   4e-18
+UniRef90_V5FZA5 Ejaculatory bulb-specific protein 3 n=2 Tax=Anop...    97   4e-18
+UniRef90_UPI00096AE454 ejaculatory bulb-specific protein 3-like ...    97   5e-18
+UniRef90_A0A1S4FBD1 Protein serine/threonine kinase, putative n=...    97   5e-18
+UniRef90_A0A212F7U4 Chemosensory protein n=1 Tax=Danaus plexippu...    97   5e-18
+UniRef90_A0A1W6L1C0 Chemosensory protein 2 n=1 Tax=Cephus cinctu...    97   5e-18
+UniRef90_UPI000625FF80 ejaculatory bulb-specific protein 3 n=1 T...    97   5e-18
+UniRef90_A0A2A4J066 Uncharacterized protein n=2 Tax=Heliothinae ...    97   6e-18
+UniRef90_A0A0A9XYG7 Ejaculatory bulb-specific protein 3 n=5 Tax=...    97   6e-18
+UniRef90_A0A076E962 Chemosensory protein n=2 Tax=Dendrolimus Tax...    97   6e-18
+UniRef90_A0A0C5DAQ0 Chemosensory protein CSP7 mRNA n=1 Tax=Teneb...    97   6e-18
+UniRef90_A0A1B0BQW0 Chemosensory protein 4 n=2 Tax=Nemorhina Tax...    96   7e-18
+UniRef90_A0A162SJU5 Putative chemosensory protein n=1 Tax=Triato...    96   7e-18
+UniRef90_A0A1I8PGN5 Uncharacterized protein n=1 Tax=Stomoxys cal...    96   7e-18
+UniRef90_A0A0M9A4W2 Ejaculatory bulb-specific protein 3 n=1 Tax=...    96   7e-18
+UniRef90_A0A2C9PH04 CSP9 n=3 Tax=Anoplophora TaxID=157304 RepID=...    96   7e-18
+UniRef90_UPI0007382FD0 ejaculatory bulb-specific protein 3-like ...    96   7e-18
+UniRef90_A0A0C5DMM4 Chemosensory protein CSP4 mRNA n=1 Tax=Teneb...    96   7e-18
+UniRef90_A0A0X8DBS1 Chemosensory protein n=1 Tax=Blattella germa...    96   7e-18
+UniRef90_A0A1W6GWG3 Chemosensory protein n=1 Tax=Galeruca dauric...    96   8e-18
+UniRef90_W5JKP3 Serine/threonine kinase n=3 Tax=Nyssorhynchus Ta...    96   8e-18
+UniRef90_A0A162S9V4 Putative chemosensory protein n=4 Tax=Triato...    96   8e-18
+UniRef90_A0A1W6AWJ0 Chemosensory protein 2 n=1 Tax=Cyrtorhinus l...    96   9e-18
+UniRef90_UPI00096B49FA ejaculatory bulb-specific protein 3-like ...    96   9e-18
+UniRef90_UPI00096B6010 ejaculatory bulb-specific protein 3-like ...    96   9e-18
+UniRef90_E2CAG4 Putative odorant-binding protein A10 n=2 Tax=Pon...    96   9e-18
+UniRef90_A0A0R8PAP6 Chemosensory protein 13 n=1 Tax=Chrysopa pal...    96   1e-17
+UniRef90_UPI0005F4E041 ejaculatory bulb-specific protein 3-like ...    96   1e-17
+UniRef90_UPI000994DAF7 ejaculatory bulb-specific protein 3-like ...    96   1e-17
+UniRef90_A0A0S3J2I6 Chemosensory protein 1 n=1 Tax=Colaphellus b...    96   1e-17
+UniRef90_B0W7K8 Chemosensory protein 1 n=1 Tax=Culex quinquefasc...    96   1e-17
+UniRef90_A0A1W5LAR4 Putative chemosensory protein 7 n=2 Tax=Ectr...    96   1e-17
+UniRef90_A0A182F6D9 Uncharacterized protein n=1 Tax=Anopheles al...    96   1e-17
+UniRef90_T1IAF9 Chemosensory protein (Fragment) n=1 Tax=Rhodnius...    96   1e-17
+UniRef90_R4UMX3 Ejaculatory bulb-specific protein III n=1 Tax=Co...    96   1e-17
+UniRef90_A0A171EBK0 Putative chemosensory protein n=1 Tax=Triato...    96   1e-17
+UniRef90_A0A0C5D653 Chemosensory protein CSP11 mRNA n=1 Tax=Tene...    96   1e-17
+UniRef90_UPI000258D893 ejaculatory bulb-specific protein 3-like ...    96   1e-17
+UniRef90_A0A2A4JJS7 Uncharacterized protein (Fragment) n=1 Tax=H...    96   1e-17
+UniRef90_A0A1B6JS85 Uncharacterized protein (Fragment) n=1 Tax=H...    96   1e-17
+UniRef90_Q9U4Z4 Sensory appendage protein 5 n=2 Tax=Manduca sext...    96   1e-17
+UniRef90_A0A0C5DMM7 Chemosensory protein CSP9 mRNA n=1 Tax=Teneb...    96   1e-17
+UniRef90_A0A1W4WM24 ejaculatory bulb-specific protein 3-like n=1...    96   1e-17
+UniRef90_K7J1E1 Uncharacterized protein n=2 Tax=Nasonia vitripen...    96   1e-17
+UniRef90_B0W7J4 Protein serine/threonine kinase, putative n=2 Ta...    95   2e-17
+UniRef90_A0A0C5D649 Chemosensory protein CSP1 mRNA n=1 Tax=Teneb...    95   2e-17
+UniRef90_A0A1L2BLC4 Chemosensory protein 5 n=1 Tax=Ectropis obli...    95   2e-17
+UniRef90_A0A034WWI9 Chemosensory protein 2 n=5 Tax=Dacinae TaxID...    95   2e-17
+UniRef90_UPI000C2548FB ejaculatory bulb-specific protein 3-like ...    95   2e-17
+UniRef90_A0A0A9WVI0 Putative chemosensory protein 11 n=2 Tax=Lyg...    95   2e-17
+UniRef90_A0A1V1WC03 Chemosensory protein 8 n=1 Tax=Mythimna sepa...    95   2e-17
+UniRef90_A0A1V1WC32 Chemosensory protein 3 n=1 Tax=Mythimna sepa...    95   2e-17
+UniRef90_A0A0C5D1H6 Chemosensory protein CSP5 mRNA n=1 Tax=Teneb...    95   2e-17
+UniRef90_A0A2D1ABH3 Chemosensory protein 4 n=9 Tax=Oedipodinae T...    95   2e-17
+UniRef90_UPI0006C9B361 uncharacterized protein LOC106660041 n=1 ...    95   2e-17
+UniRef90_Q9U8H3 Chemosensory protein CSP-sg2 (Fragment) n=2 Tax=...    95   2e-17
+UniRef90_Q0MRK5 Chemosensory protein 18 n=1 Tax=Tribolium castan...    95   2e-17
+UniRef90_A0A068F7S6 Chemosensory protein n=3 Tax=Calliphoridae T...    95   2e-17
+UniRef90_UPI0006C9D436 ejaculatory bulb-specific protein 3-like ...    95   2e-17
+UniRef90_V9PY24 Chemosensory protein (Fragment) n=1 Tax=Chilo su...    95   2e-17
+UniRef90_UPI0008403BBC ejaculatory bulb-specific protein 3-like ...    95   2e-17
+UniRef90_UPI00096B2782 ejaculatory bulb-specific protein 3-like ...    95   2e-17
+UniRef90_UPI00076FC8C6 ejaculatory bulb-specific protein 3-like ...    95   2e-17
+UniRef90_B0W7L2 Sensory appendage protein n=1 Tax=Culex quinquef...    95   2e-17
+UniRef90_UPI000B925D5C ejaculatory bulb-specific protein 3-like ...    95   2e-17
+UniRef90_A0A1A9ZZI4 Chemosensory protein 3 n=1 Tax=Glossina pall...    95   2e-17
+UniRef90_A0A182H496 Uncharacterized protein n=39 Tax=Stegomyia T...    95   2e-17
+UniRef90_A0A154P480 Ejaculatory bulb-specific protein 3 n=1 Tax=...    95   2e-17
+UniRef90_A0A1I9HZM8 Chemosensory protein 2 n=1 Tax=Monochamus al...    95   2e-17
+UniRef90_UPI00067C718A ejaculatory bulb-specific protein 3-like ...    95   2e-17
+UniRef90_UPI0007E85346 putative odorant-binding protein A10 n=1 ...    95   2e-17
+UniRef90_UPI0007E755FC putative odorant-binding protein A10 n=2 ...    94   3e-17
+UniRef90_A0A0C4K659 CSP4 protein n=1 Tax=Conogethes punctiferali...    94   3e-17
+UniRef90_A0A076E5S9 Chemosensory protein n=1 Tax=Dendrolimus hou...    94   3e-17
+UniRef90_A0A195AVM4 Transcriptional adapter 2B n=12 Tax=Attini T...    94   3e-17
+UniRef90_A0A0R7JHP8 Olfactory protein (Fragment) n=2 Tax=Solenop...    94   3e-17
+UniRef90_A0A182NU77 Uncharacterized protein n=1 Tax=Anopheles di...    94   3e-17
+UniRef90_A0A0B4KZC5 Chemosensory protein 9 n=1 Tax=Lissorhoptrus...    94   3e-17
+UniRef90_U5Q2S7 Putative chemosensory protein n=1 Tax=Sesamia in...    94   3e-17
+UniRef90_A0A172QDQ0 Chemosensory protein 4 n=1 Tax=Athetis dissi...    94   3e-17
+UniRef90_O76476 Chemosensory protein CSP-sg4 (Fragment) n=3 Tax=...    94   3e-17
+UniRef90_D2EBA9 Chemosensory protein 3 n=5 Tax=Glossina TaxID=44...    94   3e-17
+UniRef90_A0A1B6LRT9 Uncharacterized protein (Fragment) n=1 Tax=G...    94   3e-17
+UniRef90_B4M2Q7 Uncharacterized protein n=1 Tax=Drosophila viril...    94   3e-17
+UniRef90_T1H8I5 Chemosensory protein n=3 Tax=Triatominae TaxID=7...    94   3e-17
+UniRef90_A0A076E7F2 Chemosensory protein n=2 Tax=Dendrolimus Tax...    94   3e-17
+UniRef90_A0A067RHP2 Ejaculatory bulb-specific protein 3 n=1 Tax=...    94   3e-17
+UniRef90_A0A084VNC4 AGAP008053-PA-like protein n=1 Tax=Anopheles...    94   3e-17
+UniRef90_UPI000CE59E4E ejaculatory bulb-specific protein 3-like ...    94   3e-17
+UniRef90_UPI000676A9FB ejaculatory bulb-specific protein 3-like ...    94   3e-17
+UniRef90_A0A0A1CN97 Chemosensory protein n=1 Tax=Cnaphalocrocis ...    94   3e-17
+UniRef90_UPI0005CF1DD0 ejaculatory bulb-specific protein 3-like ...    94   3e-17
+UniRef90_O17447 p10 n=1 Tax=Periplaneta americana TaxID=6978 Rep...    94   4e-17
+UniRef90_A0A1B3P5N1 Chemosensory protein n=1 Tax=Eogystia hippop...    94   4e-17
+UniRef90_U5PZ61 Putative chemosensory protein n=1 Tax=Sesamia in...    94   4e-17
+UniRef90_A0A1W4VS11 putative odorant-binding protein A10 n=1 Tax...    94   4e-17
+UniRef90_A0A0G2YDA6 CSP9 n=1 Tax=Holotrichia parallela TaxID=934...    94   4e-17
+UniRef90_A0A1D1ZHP1 Ejaculatory bulb-specific protein 3 (Fragmen...    94   4e-17
+UniRef90_A2I411 OS-D-like protein n=1 Tax=Maconellicoccus hirsut...    94   4e-17
+UniRef90_Q8I6X7 Antennal-specific protein 3c n=5 Tax=Apis TaxID=...    94   4e-17
+UniRef90_UPI000B9847C7 ejaculatory bulb-specific protein 3-like ...    94   4e-17
+UniRef90_A0A0C5DAP6 Chemosensory protein CSP2 mRNA n=1 Tax=Teneb...    94   4e-17
+UniRef90_UPI0007E6E06A putative odorant-binding protein A10 n=3 ...    94   4e-17
+UniRef90_R4FME8 Putative ejaculatory bulb-specific protein 3 n=1...    94   4e-17
+UniRef90_A0A1L8DPP6 Putative insect pheromone-binding family (Fr...    94   4e-17
+UniRef90_A0A068F6S2 Chemosensory protein n=2 Tax=Calliphoridae T...    94   4e-17
+UniRef90_Q27377 Putative odorant-binding protein A10 n=6 Tax=mel...    94   4e-17
+UniRef90_M3V872 Chemosensory protein 5 n=1 Tax=Ips typographus T...    94   4e-17
+UniRef90_T1E2M0 Protein serine/threonine kinase n=1 Tax=Psoropho...    94   4e-17
+UniRef90_A0A1W6GWH8 Chemosensory protein n=3 Tax=Galerucini TaxI...    94   4e-17
+UniRef90_UPI00061881E1 ejaculatory bulb-specific protein 3 n=1 T...    94   5e-17
+UniRef90_A0A068F5S3 Chemosensory protein n=1 Tax=Calliphora styg...    94   5e-17
+UniRef90_UPI000B92C4E4 ejaculatory bulb-specific protein 3-like ...    94   5e-17
+UniRef90_A0A0A9Y874 Ejaculatory bulb-specific protein 3 n=4 Tax=...    94   5e-17
+UniRef90_W5JM80 Sensory appendage protein n=1 Tax=Anopheles darl...    94   5e-17
+UniRef90_UPI0005D2DC04 ejaculatory bulb-specific protein 3-like ...    94   5e-17
+UniRef90_UPI000994F4A6 ejaculatory bulb-specific protein 3-like ...    94   5e-17
+UniRef90_A0A163AMY3 Putative chemosensory protein n=1 Tax=Triato...    94   5e-17
+UniRef90_A2IBC2 Chemosensory protein CSP1 n=2 Tax=Plutella xylos...    94   5e-17
+UniRef90_A0A0L7QTX3 Ejaculatory bulb-specific protein 3 n=1 Tax=...    94   5e-17
+UniRef90_T1E9H3 Putative insect pheromone-binding family (Fragme...    94   5e-17
+UniRef90_Q179A5 AAEL005698-PA n=2 Tax=Aedes aegypti TaxID=7159 R...    93   6e-17
+UniRef90_D7R4I0 Putative chemosensory binding protein n=1 Tax=St...    93   6e-17
+UniRef90_UPI00096B3EBD ejaculatory bulb-specific protein 3-like ...    93   6e-17
+UniRef90_UPI0007E65F29 ejaculatory bulb-specific protein 3 n=2 T...    93   6e-17
+UniRef90_UPI0005ACD705 ejaculatory bulb-specific protein 3-like ...    93   6e-17
+UniRef90_UPI000711E93A ejaculatory bulb-specific protein 3-like ...    93   6e-17
+UniRef90_A0A0C5KA81 Chemosensory protein n=1 Tax=Phenacoccus sol...    93   6e-17
+UniRef90_A0A084VNC6 Uncharacterized protein n=1 Tax=Anopheles si...    93   7e-17
+UniRef90_UPI0005D425C8 ejaculatory bulb-specific protein 3-like ...    93   7e-17
+UniRef90_R4G7Z6 Chemosensory protein n=1 Tax=Rhodnius prolixus T...    93   7e-17
+UniRef90_A0A1I8N2C2 Uncharacterized protein n=1 Tax=Musca domest...    93   7e-17
+UniRef90_A0A1I8MMU3 Uncharacterized protein n=1 Tax=Musca domest...    93   7e-17
+UniRef90_Q3LB85 Uncharacterized protein n=1 Tax=Locusta migrator...    93   7e-17
+UniRef90_A0A1I8NHK8 Uncharacterized protein n=1 Tax=Musca domest...    93   7e-17
+UniRef90_A0A1Q3FSQ4 Putative insect pheromone-binding family (Fr...    93   7e-17
+UniRef90_UPI0006D4FA0C ejaculatory bulb-specific protein 3-like ...    93   7e-17
+UniRef90_V9PYP8 Chemosensory protein (Fragment) n=1 Tax=Chilo su...    93   7e-17
+UniRef90_UPI00081164B8 ejaculatory bulb-specific protein 3 n=1 T...    93   8e-17
+UniRef90_Q5Q049 Chemosensory protein n=1 Tax=Vespa crabro TaxID=...    93   8e-17
+UniRef90_A0A067RFA4 Putative odorant-binding protein A10 n=1 Tax...    93   8e-17
+UniRef90_R4G7W1 Putative chemosensory protein csp8 n=1 Tax=Rhodn...    93   8e-17
+UniRef90_A0A1A9X9M0 Chemosensory protein 1 n=1 Tax=Glossina fusc...    93   8e-17
+UniRef90_UPI0007E5D27B putative odorant-binding protein A10 n=2 ...    93   9e-17
+UniRef90_A0A0C5KAL6 Chemosensory protein n=1 Tax=Phenacoccus sol...    93   9e-17
+UniRef90_UPI000948F306 LOW QUALITY PROTEIN: uncharacterized prot...    93   9e-17
+UniRef90_A0A076ED99 Chemosensory protein n=1 Tax=Dendrolimus kik...    93   9e-17
+UniRef90_U4UIQ9 Uncharacterized protein n=2 Tax=Dendroctonus pon...    93   9e-17
+
+>UniRef90_UPI000B39749B uncharacterized protein LOC110376358 n=1 Tax=Helicoverpa armigera
+           TaxID=29058 RepID=UPI000B39749B
+          Length = 294
+
+ Score =  174 bits (441), Expect = 2e-41,   Method: Composition-based stats.
+ Identities = 86/100 (86%), Positives = 92/100 (92%)
+
+Query: 1   NINLDEILANKRLLVAYVNCVMERGKCSPEGKELKEHLQDAIENGCKKCTENQEKGAYRV 60
+           NINLDEIL NKRLL+AYVNCVMERGKCSPEGKELKEHLQDAIE GC KCTE QEKGAY+V
+Sbjct: 50  NINLDEILENKRLLLAYVNCVMERGKCSPEGKELKEHLQDAIETGCSKCTEAQEKGAYKV 109
+
+Query: 61  IEHLIKNEIEIWRELTAKYDPTGNWRKKYEDRAKAAGIVI 100
+           IEHLIKNE++IWREL AKYDP G+WRKKYEDRA+A GI I
+Sbjct: 110 IEHLIKNELDIWRELAAKYDPKGDWRKKYEDRARANGIQI 149
+
+
+
+ Score =  108 bits (270), Expect = 1e-21,   Method: Composition-based stats.
+ Identities = 45/90 (50%), Positives = 70/90 (77%)
+
+Query: 1   NINLDEILANKRLLVAYVNCVMERGKCSPEGKELKEHLQDAIENGCKKCTENQEKGAYRV 60
+           NIN+DEI+ N++LLV Y+ CV+E+G+C+PEG+ELK H++DA++  C KCT+ Q K + +V
+Sbjct: 198 NINIDEIIENRKLLVPYIKCVLEQGRCTPEGRELKAHIKDALQTSCTKCTQKQRKASRKV 257
+
+Query: 61  IEHLIKNEIEIWRELTAKYDPTGNWRKKYE 90
+           ++H+  NE++ W++L AKYDP   + K YE
+Sbjct: 258 VKHIRANELDYWKQLLAKYDPDSIYEKNYE 287
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A084VNC4 AGAP008053-PA-like protein n=1 Tax=Anopheles...   186   6e-45
+UniRef90_A0A2A3EP22 DC-STAMP domain-containing protein n=2 Tax=A...   184   2e-44
+UniRef90_A0A182F6D9 Uncharacterized protein n=1 Tax=Anopheles al...   183   4e-44
+UniRef90_W5JM80 Sensory appendage protein n=1 Tax=Anopheles darl...   179   5e-43
+UniRef90_A0A151X6Q8 Ejaculatory bulb-specific protein 3 n=2 Tax=...   178   2e-42
+UniRef90_A0A151I3T5 Ejaculatory bulb-specific protein 3 n=1 Tax=...   177   2e-42
+UniRef90_A0A195CCT5 Ejaculatory bulb-specific protein 3 n=1 Tax=...   176   6e-42
+UniRef90_F6MFX2 Putative chemosensory-binding protein n=2 Tax=Ny...   175   9e-42
+UniRef90_UPI00096B57BC ejaculatory bulb-specific protein 3-like ...   175   1e-41
+UniRef90_B0W7L2 Sensory appendage protein n=1 Tax=Culex quinquef...   174   2e-41
+UniRef90_F4WYC0 Ejaculatory bulb-specific protein 3 n=1 Tax=Acro...   174   2e-41
+UniRef90_A0A2J7QAE1 Ejaculatory bulb-specific protein 3 n=1 Tax=...   174   2e-41
+UniRef90_W5JMN0 Serine/threonine kinase n=1 Tax=Anopheles darlin...   173   4e-41
+UniRef90_A0A182J6W5 Uncharacterized protein n=2 Tax=Anopheles Ta...   173   4e-41
+UniRef90_A0A182P4W5 Uncharacterized protein n=1 Tax=Anopheles ep...   173   5e-41
+UniRef90_A0A084VNC6 Uncharacterized protein n=1 Tax=Anopheles si...   173   7e-41
+UniRef90_A0A068F6S2 Chemosensory protein n=2 Tax=Calliphoridae T...   172   9e-41
+UniRef90_A0A0N9JS20 Chemosensory protein 6 n=1 Tax=Sclerodermus ...   171   1e-40
+UniRef90_B4M2Q7 Uncharacterized protein n=1 Tax=Drosophila viril...   171   1e-40
+UniRef90_D6BJF5 Odorant-binding protein n=2 Tax=Bombus TaxID=144...   171   2e-40
+UniRef90_UPI00022C92A9 ejaculatory bulb-specific protein 3 n=1 T...   170   3e-40
+UniRef90_A0A1S4FBD1 Protein serine/threonine kinase, putative n=...   170   3e-40
+UniRef90_A0A1L8DPP6 Putative insect pheromone-binding family (Fr...   170   3e-40
+UniRef90_A0A195FEW1 Ejaculatory bulb-specific protein 3 (Fragmen...   170   3e-40
+UniRef90_Q17JH7 AAEL002022-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   169   4e-40
+UniRef90_UPI00073D9BB8 transcriptional adapter 2B isoform X13 n=...   169   4e-40
+UniRef90_D4AHN9 Chemosensory protein 1 n=1 Tax=Delia antiqua Tax...   169   5e-40
+UniRef90_A0A1B6LFB3 Uncharacterized protein n=1 Tax=Graphocephal...   169   5e-40
+UniRef90_A0A034WWI9 Chemosensory protein 2 n=5 Tax=Dacinae TaxID...   169   6e-40
+UniRef90_A0A182JK44 Uncharacterized protein n=1 Tax=Anopheles at...   169   6e-40
+UniRef90_A0A0M3VGJ7 Chemosensory protein n=3 Tax=Camponotus TaxI...   169   7e-40
+UniRef90_D2EBA9 Chemosensory protein 3 n=5 Tax=Glossina TaxID=44...   169   8e-40
+UniRef90_UPI0006CEC1C9 ejaculatory bulb-specific protein 3-like ...   169   9e-40
+UniRef90_A0A1I8NHK8 Uncharacterized protein n=1 Tax=Musca domest...   169   9e-40
+UniRef90_A0A182QUR3 Uncharacterized protein n=1 Tax=Anopheles fa...   169   9e-40
+UniRef90_A0A1W4WBY9 ejaculatory bulb-specific protein 3-like n=1...   169   1e-39
+UniRef90_A0A182W797 Uncharacterized protein n=1 Tax=Anopheles mi...   168   1e-39
+UniRef90_UPI0007E65F29 ejaculatory bulb-specific protein 3 n=2 T...   168   1e-39
+UniRef90_A0A1A9WI62 Chemosensory protein 1 n=1 Tax=Glossina brev...   168   1e-39
+UniRef90_B3MCQ6 Uncharacterized protein n=2 Tax=ananassae subgro...   168   1e-39
+UniRef90_A0A1B6HNW9 Uncharacterized protein (Fragment) n=1 Tax=H...   168   1e-39
+UniRef90_A0A182HUV9 Uncharacterized protein n=8 Tax=Cellia TaxID...   168   1e-39
+UniRef90_UPI0007383B4E ejaculatory bulb-specific protein 3-like ...   168   1e-39
+UniRef90_A0A0B4KZD7 Chemosensory protein 6 n=1 Tax=Lissorhoptrus...   168   1e-39
+UniRef90_A0A1A9ZZI4 Chemosensory protein 3 n=1 Tax=Glossina pall...   168   2e-39
+UniRef90_Q8I6X7 Antennal-specific protein 3c n=5 Tax=Apis TaxID=...   168   2e-39
+UniRef90_UPI000718CEA8 ejaculatory bulb-specific protein 3 n=2 T...   168   2e-39
+UniRef90_A0A1Q3FQG9 Putative insect pheromone-binding family (Fr...   168   2e-39
+UniRef90_Q8MTC3 Chemosensory protein n=1 Tax=Rhyparobia maderae ...   168   2e-39
+UniRef90_A0A0L7LE98 Olfactory protein n=1 Tax=Operophtera brumat...   168   2e-39
+UniRef90_A0A023F7T9 Putative insect pheromone-binding family n=2...   168   2e-39
+UniRef90_UPI0006231335 ejaculatory bulb-specific protein 3 n=1 T...   168   2e-39
+UniRef90_UPI00083C6413 ejaculatory bulb-specific protein 3-like ...   168   2e-39
+UniRef90_A0A1S3DC45 uncharacterized protein LOC103515708 n=1 Tax...   167   2e-39
+UniRef90_Q27377 Putative odorant-binding protein A10 n=6 Tax=mel...   167   2e-39
+UniRef90_A0A0L7QSW3 Ejaculatory bulb-specific protein 3 (Fragmen...   167   2e-39
+UniRef90_B4L4E8 Uncharacterized protein n=3 Tax=mojavensis speci...   167   2e-39
+UniRef90_UPI000C255B65 uncharacterized protein LOC111510033 n=1 ...   167   2e-39
+UniRef90_A0A1B6JEL1 Uncharacterized protein n=2 Tax=Cicadellinae...   167   3e-39
+UniRef90_A0A109VYC4 Chemosensory protein 2 n=1 Tax=Rhyzopertha d...   167   3e-39
+UniRef90_UPI0005D0537F uncharacterized protein LOC105393182 n=1 ...   167   3e-39
+UniRef90_A0A0C9RRW4 PebIII_6 protein n=1 Tax=Fopius arisanus Tax...   166   4e-39
+UniRef90_UPI00076790C3 ejaculatory bulb-specific protein 3-like ...   166   4e-39
+UniRef90_A0A0B4KZC8 Chemosensory protein 8 n=1 Tax=Lissorhoptrus...   166   4e-39
+UniRef90_B4J670 GH21706 n=1 Tax=Drosophila grimshawi TaxID=7222 ...   166   5e-39
+UniRef90_UPI000625525C ejaculatory bulb-specific protein 3 n=1 T...   166   5e-39
+UniRef90_UPI0007E755FC putative odorant-binding protein A10 n=2 ...   166   5e-39
+UniRef90_B0W7K3 Chemosensory protein 1 n=1 Tax=Culex quinquefasc...   166   5e-39
+UniRef90_A0A1A9ZZH9 Chemosensory protein 1 n=1 Tax=Glossina pall...   166   5e-39
+UniRef90_UPI0006CEF918 ejaculatory bulb-specific protein 3-like ...   166   5e-39
+UniRef90_UPI0007E6E06A putative odorant-binding protein A10 n=3 ...   166   5e-39
+UniRef90_A0A0G2YIV7 CSP11 n=1 Tax=Holotrichia parallela TaxID=93...   166   7e-39
+UniRef90_A0A1W4VS11 putative odorant-binding protein A10 n=1 Tax...   166   7e-39
+UniRef90_A0A0M9A4W2 Ejaculatory bulb-specific protein 3 n=1 Tax=...   166   7e-39
+UniRef90_T1IAF9 Chemosensory protein (Fragment) n=1 Tax=Rhodnius...   166   8e-39
+UniRef90_Q0MRL3 Chemosensory protein 10 n=1 Tax=Tribolium castan...   165   8e-39
+UniRef90_UPI00081164B8 ejaculatory bulb-specific protein 3 n=1 T...   165   9e-39
+UniRef90_UPI0006CEE0A9 ejaculatory bulb-specific protein 3-like ...   165   9e-39
+UniRef90_D7R4I0 Putative chemosensory binding protein n=1 Tax=St...   165   9e-39
+UniRef90_A0A182H496 Uncharacterized protein n=39 Tax=Stegomyia T...   165   1e-38
+UniRef90_UPI000B39749B uncharacterized protein LOC110376358 n=1 ...   165   1e-38
+UniRef90_E0W2K0 Ejaculatory bulb-specific protein 3 precursor,pu...   165   1e-38
+UniRef90_UPI00063F447D ejaculatory bulb-specific protein 3-like ...   165   1e-38
+UniRef90_A0A1Q3FQQ8 Protein serine/threonine kinase n=5 Tax=Cule...   165   1e-38
+UniRef90_A0A1I8PGN5 Uncharacterized protein n=1 Tax=Stomoxys cal...   165   1e-38
+UniRef90_T1E2M0 Protein serine/threonine kinase n=1 Tax=Psoropho...   165   1e-38
+UniRef90_A0A097GUD6 Chemosensory protein 3 n=2 Tax=Bemisia tabac...   165   1e-38
+UniRef90_E9IV35 Uncharacterized protein (Fragment) n=1 Tax=Solen...   165   1e-38
+UniRef90_R4G3I9 Putative chemosensory protein csp8 n=1 Tax=Rhodn...   165   1e-38
+UniRef90_A0A162SJU5 Putative chemosensory protein n=1 Tax=Triato...   165   1e-38
+UniRef90_UPI0006CEC7D0 ejaculatory bulb-specific protein 3-like ...   165   1e-38
+UniRef90_B0W7L4 Sensory appendage protein n=2 Tax=Culex quinquef...   165   1e-38
+UniRef90_A0A1V1WC03 Chemosensory protein 8 n=1 Tax=Mythimna sepa...   164   1e-38
+UniRef90_UPI0005D3F473 ejaculatory bulb-specific protein 3 n=1 T...   164   1e-38
+UniRef90_A0A154P480 Ejaculatory bulb-specific protein 3 n=1 Tax=...   164   1e-38
+UniRef90_A0A182GQA7 Uncharacterized protein n=3 Tax=Aedes albopi...   164   1e-38
+UniRef90_A0A1A9X9M0 Chemosensory protein 1 n=1 Tax=Glossina fusc...   164   1e-38
+UniRef90_A0A182RC90 Uncharacterized protein n=1 Tax=Anopheles fu...   164   2e-38
+UniRef90_A0A182MHY6 Uncharacterized protein n=2 Tax=Myzomyia Tax...   164   2e-38
+UniRef90_B4KLX1 Uncharacterized protein n=2 Tax=mojavensis speci...   164   2e-38
+UniRef90_UPI0007E5D27B putative odorant-binding protein A10 n=2 ...   164   2e-38
+UniRef90_B0W7J4 Protein serine/threonine kinase, putative n=2 Ta...   164   2e-38
+UniRef90_A0A1X9H816 Chemosensory protein n=1 Tax=Bradysia odorip...   164   2e-38
+UniRef90_Q179A5 AAEL005698-PA n=2 Tax=Aedes aegypti TaxID=7159 R...   164   2e-38
+UniRef90_E2BGF3 Ejaculatory bulb-specific protein 3 n=2 Tax=Harp...   164   2e-38
+UniRef90_Q179A3 AAEL005691-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   164   2e-38
+UniRef90_A0A023EFH6 Protein serine/threonine kinase n=6 Tax=Steg...   164   2e-38
+UniRef90_A0A1B6GV50 Uncharacterized protein (Fragment) n=1 Tax=C...   164   2e-38
+UniRef90_UPI0005F3F828 ejaculatory bulb-specific protein 3 n=1 T...   164   2e-38
+UniRef90_A0A0R7JHR1 Olfactory protein (Fragment) n=2 Tax=Solenop...   164   2e-38
+UniRef90_A0A182Q2T4 Uncharacterized protein n=9 Tax=Cellia TaxID...   164   3e-38
+UniRef90_A0A0X8DBS1 Chemosensory protein n=1 Tax=Blattella germa...   164   3e-38
+UniRef90_A0A067RHP2 Ejaculatory bulb-specific protein 3 n=1 Tax=...   164   3e-38
+UniRef90_T1P8W4 Pheromone-binding family, A10/OS-D n=1 Tax=Musca...   163   3e-38
+UniRef90_UPI000C20AAFB ejaculatory bulb-specific protein 3-like ...   163   3e-38
+UniRef90_A0A0H3W580 Chemosensory protein 2 n=8 Tax=Dendroctonus ...   163   3e-38
+UniRef90_Q0MRK7 Chemosensory protein 16 n=1 Tax=Tribolium castan...   163   3e-38
+UniRef90_A0A182GQA8 Uncharacterized protein n=2 Tax=Stegomyia Ta...   163   3e-38
+UniRef90_A0A1I8MMU3 Uncharacterized protein n=1 Tax=Musca domest...   163   4e-38
+UniRef90_A0A1I8MUF0 Uncharacterized protein n=1 Tax=Musca domest...   163   4e-38
+UniRef90_B4LP05 Uncharacterized protein n=1 Tax=Drosophila viril...   163   4e-38
+UniRef90_A0A182NU77 Uncharacterized protein n=1 Tax=Anopheles di...   163   4e-38
+UniRef90_UPI000711A155 ejaculatory bulb-specific protein 3 n=1 T...   163   4e-38
+UniRef90_A0A1I8MVA8 Uncharacterized protein n=2 Tax=Musca domest...   163   4e-38
+UniRef90_U4UIQ9 Uncharacterized protein n=2 Tax=Dendroctonus pon...   163   4e-38
+UniRef90_UPI000C6C708B ejaculatory bulb-specific protein 3 n=1 T...   163   4e-38
+UniRef90_UPI00096B383B ejaculatory bulb-specific protein 3-like ...   163   4e-38
+UniRef90_A0A1I9HZN7 Chemosensory protein 8 n=3 Tax=Lamiinae TaxI...   163   5e-38
+UniRef90_A0A0G2YDA2 CSP4 n=1 Tax=Holotrichia parallela TaxID=934...   163   5e-38
+UniRef90_A0A0G2YKM6 CSP10 n=1 Tax=Holotrichia parallela TaxID=93...   163   6e-38
+UniRef90_UPI00096B49FA ejaculatory bulb-specific protein 3-like ...   163   6e-38
+UniRef90_U5Q2Q5 Putative chemosensory protein n=1 Tax=Sesamia in...   163   6e-38
+UniRef90_UPI000994DB72 ejaculatory bulb-specific protein 3 n=1 T...   163   6e-38
+UniRef90_Q0MRL1 Chemosensory protein 12 n=2 Tax=Tribolium castan...   163   6e-38
+UniRef90_A0A0A0V9F9 Chemosensory protein n=7 Tax=Heliothinae Tax...   163   6e-38
+UniRef90_A0A2H8TJL0 Ejaculatory bulb-specific protein 3 n=1 Tax=...   163   7e-38
+UniRef90_M4VR62 Chemosensory protein 8 n=3 Tax=Dendroctonus pond...   162   7e-38
+UniRef90_A0A194QW19 Ejaculatory bulb-specific protein 3 n=2 Tax=...   162   7e-38
+UniRef90_A0A1W6L150 Chemosensory protein 4 n=1 Tax=Cephus cinctu...   162   7e-38
+UniRef90_A0A182TCG7 Uncharacterized protein n=2 Tax=Neocellia Ta...   162   8e-38
+UniRef90_A0A1A9ZF38 Chemosensory protein 2 n=6 Tax=Glossina TaxI...   162   8e-38
+UniRef90_A0A0S3J433 Chemosensory protein 12 n=1 Tax=Colaphellus ...   162   9e-38
+UniRef90_A0A1Q3FR86 Protein serine/threonine kinase n=2 Tax=Cule...   162   9e-38
+UniRef90_UPI000994DAF7 ejaculatory bulb-specific protein 3-like ...   162   9e-38
+UniRef90_A0A1I9HZM9 Chemosensory protein 5 n=1 Tax=Monochamus al...   162   1e-37
+UniRef90_UPI000258F6A6 ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_UPI0006784B71 ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_A0A2H4ZB52 Chemosensory protein n=1 Tax=Anoplophora chi...   162   1e-37
+UniRef90_A0A097QQU2 Chemosensory protein n=2 Tax=Obtectomera Tax...   161   1e-37
+UniRef90_UPI000C202A67 ejaculatory bulb-specific protein 3-like ...   161   1e-37
+UniRef90_A0A1V1WC09 Chemosensory protein 7 n=2 Tax=Noctuidae Tax...   161   1e-37
+UniRef90_I1VJ19 Chemosensory protein n=3 Tax=Dendroctonus ponder...   161   1e-37
+UniRef90_A0A0E3Y5Z5 Chemosensory protein 5 n=2 Tax=Scarabaeidae ...   161   1e-37
+UniRef90_A0A194QW24 Putative odorant-binding protein A10 n=3 Tax...   161   1e-37
+UniRef90_A0A1L2BL72 Chemosensory protein 8 n=1 Tax=Ectropis obli...   161   1e-37
+UniRef90_Q0MRK9 Chemosensory protein 14 n=1 Tax=Tribolium castan...   161   1e-37
+UniRef90_A0A0X8T3E2 Chemosensory protein 6 n=1 Tax=Rhyzopertha d...   161   1e-37
+UniRef90_UPI0005EFB4F6 ejaculatory bulb-specific protein 3-like ...   161   2e-37
+UniRef90_UPI000C6C7C3E putative odorant-binding protein A10 n=1 ...   161   2e-37
+UniRef90_A0A182Y014 Uncharacterized protein n=1 Tax=Anopheles st...   161   2e-37
+UniRef90_UPI000626C94D ejaculatory bulb-specific protein 3-like ...   161   2e-37
+UniRef90_A0A2D1VLM9 Chemosensory protein (Fragment) n=2 Tax=Anop...   161   2e-37
+UniRef90_A0A023SDZ8 Acid trehalase n=1 Tax=Aphis gossypii TaxID=...   161   2e-37
+UniRef90_UPI00062551A1 ejaculatory bulb-specific protein 3 n=1 T...   161   2e-37
+UniRef90_Q3LB73 Uncharacterized protein (Fragment) n=1 Tax=Locus...   161   2e-37
+UniRef90_A0A1D1ZHP1 Ejaculatory bulb-specific protein 3 (Fragmen...   161   2e-37
+UniRef90_UPI000B935A69 putative mediator of RNA polymerase II tr...   161   2e-37
+UniRef90_A0A1V1WBZ6 Chemosensory protein 14 n=1 Tax=Mythimna sep...   161   2e-37
+UniRef90_A0A1W4WC46 ejaculatory bulb-specific protein 3-like n=1...   161   2e-37
+UniRef90_M3UZC9 Chemosensory protein 1 (Fragment) n=1 Tax=Ips ty...   161   2e-37
+UniRef90_A0A0N9JMS5 Chemosensory protein 8 n=1 Tax=Sclerodermus ...   161   2e-37
+UniRef90_UPI00096AE932 uncharacterized protein LOC109595889 n=1 ...   161   2e-37
+UniRef90_B7TVH4 Chemosensory protein 8 n=1 Tax=Nilaparvata lugen...   161   2e-37
+UniRef90_A0A162J9G6 Chemosensory protein CSP1 (Fragment) n=1 Tax...   161   2e-37
+UniRef90_A0A1I8Q5N5 Uncharacterized protein n=2 Tax=Stomoxys cal...   161   2e-37
+UniRef90_A0A1S5VFI4 Chemosensory protein 2 n=1 Tax=Meteorus pulc...   161   3e-37
+UniRef90_B0W7K9 Protein serine/threonine kinase, putative n=1 Ta...   160   3e-37
+UniRef90_UPI0007E85346 putative odorant-binding protein A10 n=1 ...   160   3e-37
+UniRef90_B0W7K8 Chemosensory protein 1 n=1 Tax=Culex quinquefasc...   160   3e-37
+UniRef90_UPI000C2547D5 ejaculatory bulb-specific protein 3-like ...   160   3e-37
+UniRef90_A0A0L7QTX3 Ejaculatory bulb-specific protein 3 n=1 Tax=...   160   3e-37
+UniRef90_A0A182JF33 Uncharacterized protein n=1 Tax=Anopheles at...   160   3e-37
+UniRef90_Q3LB63 Uncharacterized protein n=1 Tax=Biphyllus lunatu...   160   3e-37
+UniRef90_UPI00083C5ACE ejaculatory bulb-specific protein 3-like ...   160   3e-37
+UniRef90_A0A162S9V4 Putative chemosensory protein n=4 Tax=Triato...   160   3e-37
+UniRef90_A0A182W795 Chemosensory protein 3 n=1 Tax=Anopheles min...   160   3e-37
+UniRef90_Q0MRL2 Chemosensory protein 1 n=1 Tax=Tribolium castane...   160   3e-37
+UniRef90_A0A1I8PKC1 Uncharacterized protein n=1 Tax=Stomoxys cal...   160   3e-37
+UniRef90_A0A0B4KZC5 Chemosensory protein 9 n=1 Tax=Lissorhoptrus...   160   4e-37
+UniRef90_UPI00076FD94C ejaculatory bulb-specific protein 3 n=1 T...   160   4e-37
+UniRef90_UPI0006CECE9F ejaculatory bulb-specific protein 3-like ...   160   4e-37
+UniRef90_A0A0T6BCP4 Uncharacterized protein n=1 Tax=Oryctes borb...   160   4e-37
+UniRef90_A0A1I8M5F9 Uncharacterized protein n=1 Tax=Musca domest...   160   4e-37
+UniRef90_B3MCC8 Uncharacterized protein n=1 Tax=Drosophila anana...   160   4e-37
+UniRef90_A0A1B3P5L5 Chemosensory protein n=1 Tax=Eogystia hippop...   160   4e-37
+UniRef90_A0A1I9HZR3 Chemosensory protein 11 (Fragment) n=1 Tax=M...   160   4e-37
+UniRef90_A0A158P251 Uncharacterized protein n=5 Tax=Attini TaxID...   160   4e-37
+UniRef90_UPI000614A32B ejaculatory bulb-specific protein 3-like ...   160   4e-37
+UniRef90_UPI00096B383F ejaculatory bulb-specific protein 3-like ...   160   4e-37
+UniRef90_A0A182GXD6 Uncharacterized protein n=3 Tax=Stegomyia Ta...   160   4e-37
+UniRef90_A0A1W4WND1 ejaculatory bulb-specific protein 3-like n=1...   160   4e-37
+UniRef90_A0A162SJT1 Putative chemosensory protein n=2 Tax=Triato...   160   4e-37
+UniRef90_L7XDI4 Chemosensory protein 1 n=3 Tax=Mirini TaxID=2366...   160   4e-37
+UniRef90_A0A1Q3FSQ4 Putative insect pheromone-binding family (Fr...   160   4e-37
+UniRef90_A0A0K1DCX4 Chemosensory protein 7 n=2 Tax=Spodoptera Ta...   160   4e-37
+UniRef90_Q0MRK5 Chemosensory protein 18 n=1 Tax=Tribolium castan...   159   5e-37
+UniRef90_A0A182JTL7 Uncharacterized protein n=2 Tax=Pyretophorus...   159   5e-37
+UniRef90_W8AIH5 Putative odorant-binding protein A10 n=2 Tax=Cer...   159   5e-37
+UniRef90_A0A1W4UZE6 ejaculatory bulb-specific protein 3 n=4 Tax=...   159   5e-37
+UniRef90_Q17JK0 AAEL001981-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   159   5e-37
+UniRef90_UPI0007382FD0 ejaculatory bulb-specific protein 3-like ...   159   5e-37
+UniRef90_A0A2A4JQ89 Uncharacterized protein n=2 Tax=Heliothinae ...   159   5e-37
+UniRef90_Q9W1C9 Ejaculatory bulb-specific protein 3 n=10 Tax=mel...   159   5e-37
+UniRef90_UPI00099D2809 hypothetical protein n=2 Tax=Kitasatospor...   159   6e-37
+UniRef90_UPI000B9847C7 ejaculatory bulb-specific protein 3-like ...   159   6e-37
+UniRef90_A0A026WW33 Uncharacterized protein n=1 Tax=Ooceraea bir...   159   6e-37
+UniRef90_UPI0007E8348B putative odorant-binding protein A10 n=2 ...   159   6e-37
+UniRef90_UPI00083C425C ejaculatory bulb-specific protein 3-like ...   159   6e-37
+UniRef90_A0A0C5DMM4 Chemosensory protein CSP4 mRNA n=1 Tax=Teneb...   159   6e-37
+UniRef90_A0A1B6EL86 Uncharacterized protein (Fragment) n=1 Tax=C...   159   6e-37
+UniRef90_A0A182SQ39 Chemosensory protein 3 n=1 Tax=Anopheles mac...   159   6e-37
+UniRef90_M3V872 Chemosensory protein 5 n=1 Tax=Ips typographus T...   159   6e-37
+UniRef90_A0A1B6BZK0 Uncharacterized protein (Fragment) n=1 Tax=C...   159   6e-37
+UniRef90_A0A068F5S3 Chemosensory protein n=1 Tax=Calliphora styg...   159   7e-37
+UniRef90_UPI0008403BBC ejaculatory bulb-specific protein 3-like ...   159   7e-37
+UniRef90_A0A0C4K8H1 CSP2 protein n=1 Tax=Conogethes punctiferali...   159   7e-37
+UniRef90_UPI000C20D6AB ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_A0A1S3DC40 ejaculatory bulb-specific protein 3-like n=1...   159   9e-37
+UniRef90_UPI00083C3476 ejaculatory bulb-specific protein 3-like ...   159   9e-37
+UniRef90_A0A0L7LDQ3 Chemosensory protein 6 n=1 Tax=Operophtera b...   159   9e-37
+UniRef90_Q68K20 Sensory appendage protein 1 n=1 Tax=Culicoides s...   159   1e-36
+UniRef90_UPI0008119CD2 putative odorant-binding protein A10 isof...   158   1e-36
+UniRef90_U5KD26 Chemosensory protein 7 n=2 Tax=Agrotis ipsilon T...   158   1e-36
+UniRef90_A0A0G2YDC1 CSP2 n=1 Tax=Holotrichia parallela TaxID=934...   158   1e-36
+UniRef90_B4JJP2 GH12519 n=1 Tax=Drosophila grimshawi TaxID=7222 ...   158   1e-36
+UniRef90_R4G4C1 Putative chemosensory protein 12 n=1 Tax=Rhodniu...   158   1e-36
+UniRef90_UPI0006B7291D putative odorant-binding protein A10 isof...   158   1e-36
+UniRef90_R4G7Z6 Chemosensory protein n=1 Tax=Rhodnius prolixus T...   158   1e-36
+UniRef90_G8HHA2 Chemosensory protein 3 n=1 Tax=Apolygus lucorum ...   158   1e-36
+UniRef90_UPI0006D51519 ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_U5PZ70 Putative chemosensory protein n=1 Tax=Sesamia in...   158   1e-36
+UniRef90_A0A1B4ZBM6 Chemosensory protein 4 n=1 Tax=Ostrinia furn...   158   1e-36
+UniRef90_Q0MRK6 Chemosensory protein 17 n=1 Tax=Tribolium castan...   158   1e-36
+UniRef90_U5EWH7 Protein serine/threonine kinase n=1 Tax=Corethre...   158   1e-36
+UniRef90_A0A1I8MHQ2 Uncharacterized protein n=1 Tax=Musca domest...   158   1e-36
+UniRef90_UPI000840515C ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_A0A2C9PH04 CSP9 n=3 Tax=Anoplophora TaxID=157304 RepID=...   158   1e-36
+UniRef90_A0A1B3P5K9 Chemosensory protein n=1 Tax=Eogystia hippop...   158   1e-36
+UniRef90_A0A172QDQ3 Chemosensory protein 9 n=1 Tax=Athetis dissi...   158   1e-36
+UniRef90_UPI0005D2DC04 ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_UPI0005D0A7B9 ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_A0A0A1CN82 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   158   1e-36
+UniRef90_E0W2J9 Ejaculatory bulb-specific protein 3 precursor,pu...   158   1e-36
+UniRef90_A0A0C5D653 Chemosensory protein CSP11 mRNA n=1 Tax=Tene...   158   1e-36
+UniRef90_A0A0C9QFN9 PebIII_1 protein n=1 Tax=Fopius arisanus Tax...   158   1e-36
+UniRef90_A0A162J9J5 Chemosensory protein CSP2 (Fragment) n=1 Tax...   158   2e-36
+UniRef90_A0A096W1H9 Chemosensory protein 1 n=1 Tax=Sogatella fur...   158   2e-36
+UniRef90_B0W7K5 Chemosensory protein 1 n=3 Tax=Culex quinquefasc...   158   2e-36
+UniRef90_A0A1B0BQW0 Chemosensory protein 4 n=2 Tax=Nemorhina Tax...   158   2e-36
+UniRef90_W5JKP3 Serine/threonine kinase n=3 Tax=Nyssorhynchus Ta...   158   2e-36
+UniRef90_A0A034WNV4 Putative odorant-binding protein A10 n=5 Tax...   158   2e-36
+UniRef90_Q5Q049 Chemosensory protein n=1 Tax=Vespa crabro TaxID=...   158   2e-36
+UniRef90_A0A232F1P8 Uncharacterized protein n=1 Tax=Trichomalops...   158   2e-36
+UniRef90_A0A1E1WSQ3 Uncharacterized protein n=1 Tax=Pectinophora...   158   2e-36
+UniRef90_A0A0X8DBJ2 Chemosensory protein (Fragment) n=1 Tax=Blat...   158   2e-36
+UniRef90_B5U9W6 Chemosensory protein 4a n=1 Tax=Papilio xuthus T...   158   2e-36
+UniRef90_A0A1B6JS85 Uncharacterized protein (Fragment) n=1 Tax=H...   158   2e-36
+UniRef90_K7J1E1 Uncharacterized protein n=2 Tax=Nasonia vitripen...   158   2e-36
+UniRef90_A0A1L8EHT3 Putative insect pheromone-binding family n=1...   158   2e-36
+UniRef90_A0A1J0KKH5 Chemosensory protein 4 n=2 Tax=Pyrrhalta Tax...   158   2e-36
+UniRef90_UPI0005D0B4B1 ejaculatory bulb-specific protein 3-like ...   158   2e-36
+UniRef90_A0A182F6D8 Uncharacterized protein n=2 Tax=albimanus se...   158   2e-36
+UniRef90_A0A2D1AC31 Chemosensory protein 17 n=1 Tax=Oedaleus asi...   158   2e-36
+UniRef90_A8QWQ4 Chemosensory protein n=3 Tax=Papilio TaxID=7145 ...   158   2e-36
+UniRef90_A0A0M3QVM2 PebIII n=2 Tax=Drosophila busckii TaxID=3001...   158   2e-36
+UniRef90_A0A194QVW3 Ejaculatory bulb-specific protein 3 n=2 Tax=...   158   2e-36
+UniRef90_A0A1W6GWH8 Chemosensory protein n=3 Tax=Galerucini TaxI...   158   2e-36
+UniRef90_Q3LBB1 Uncharacterized protein n=3 Tax=obscura group Ta...   158   2e-36
+UniRef90_A0A0L0C325 Putative odorant-binding protein A10 n=1 Tax...   158   2e-36
+UniRef90_A0A1B6I1A3 Uncharacterized protein (Fragment) n=1 Tax=H...   158   2e-36
+UniRef90_A0A0R3NL72 Uncharacterized protein, isoform B n=3 Tax=p...   158   2e-36
+UniRef90_A0A0A0VDH1 Chemosensory protein n=2 Tax=Holometabola Ta...   158   2e-36
+UniRef90_Q7Q3U7 AGAP008051-PA n=7 Tax=gambiae species complex Ta...   158   2e-36
+UniRef90_A0A182RC93 Chemosensory protein 3 n=2 Tax=Myzomyia TaxI...   157   2e-36
+UniRef90_Q17JK2 AAEL001975-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   157   2e-36
+UniRef90_A0A158NSY6 Uncharacterized protein n=8 Tax=Myrmicinae T...   157   2e-36
+UniRef90_A3RG67 Chemosensory protein 1 n=2 Tax=Microplitis TaxID...   157   3e-36
+UniRef90_A0A182HUV8 Uncharacterized protein n=15 Tax=Cellia TaxI...   157   3e-36
+UniRef90_UPI000C207B2F ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_UPI000937E2E8 ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_E0W2K1 Ejaculatory bulb-specific protein 3 precursor,pu...   157   3e-36
+UniRef90_E2CAG4 Putative odorant-binding protein A10 n=2 Tax=Pon...   157   3e-36
+UniRef90_UPI00096B09D4 ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_A0A0P0ISF4 Chemosensory protein CSP1 n=1 Tax=Athetis di...   157   3e-36
+UniRef90_A0A212FKT6 Chemosensory protein n=1 Tax=Danaus plexippu...   157   3e-36
+UniRef90_UPI00061881E1 ejaculatory bulb-specific protein 3 n=1 T...   157   3e-36
+UniRef90_UPI00067602BF ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_M1JPA1 Chemosensory protein 6 n=2 Tax=Aphis TaxID=46492...   157   3e-36
+UniRef90_A0A1W5LAS8 Putative chemosensory protein 2 n=2 Tax=Ectr...   157   3e-36
+UniRef90_A0A1B6LTU9 Uncharacterized protein (Fragment) n=1 Tax=G...   157   3e-36
+UniRef90_A0A1A9V698 Chemosensory protein 1 n=1 Tax=Glossina aust...   157   4e-36
+UniRef90_UPI0005CE3CF9 ejaculatory bulb-specific protein 3-like ...   157   4e-36
+UniRef90_Q0MRK4 Chemosensory protein 19 n=1 Tax=Tribolium castan...   157   4e-36
+UniRef90_UPI0005B79C69 ejaculatory bulb-specific protein 3-like ...   157   4e-36
+UniRef90_A0A1Z2R8P3 Chemosensory protein 21 n=2 Tax=Helicoverpa ...   156   4e-36
+UniRef90_A0A0U3BLK7 Chemosensory protein 24 n=1 Tax=Cnaphalocroc...   156   4e-36
+UniRef90_A0A182QLL8 Chemosensory protein 3 n=1 Tax=Anopheles far...   156   4e-36
+UniRef90_A0A182GNG2 Uncharacterized protein n=19 Tax=Stegomyia T...   156   4e-36
+UniRef90_A0A0C5DMM7 Chemosensory protein CSP9 mRNA n=1 Tax=Teneb...   156   4e-36
+UniRef90_H9J3I1 Uncharacterized protein n=82 Tax=Bombyx mori Tax...   156   5e-36
+UniRef90_A0A0M3R8G6 Chemosensory protein 3 n=1 Tax=Grapholita mo...   156   5e-36
+UniRef90_L7XDT2 Chemosensory protein 8 n=3 Tax=Mirini TaxID=2366...   156   5e-36
+UniRef90_B4MQS8 GK21931 n=1 Tax=Drosophila willistoni TaxID=7260...   156   5e-36
+UniRef90_A0A1L8EE19 Putative insect pheromone-binding family n=1...   156   5e-36
+UniRef90_D2EBA7 Chemosensory protein 1 n=3 Tax=Glossina TaxID=44...   156   5e-36
+UniRef90_A0A0B4KZD4 Chemosensory protein 10 n=1 Tax=Lissorhoptru...   156   5e-36
+UniRef90_A0A182P4W7 Chemosensory protein 3 n=1 Tax=Anopheles epi...   156   5e-36
+UniRef90_UPI000675E27D ejaculatory bulb-specific protein 3-like ...   156   5e-36
+UniRef90_UPI000B9FDBA7 putative odorant-binding protein A10 n=1 ...   156   5e-36
+UniRef90_UPI000718CF1F ejaculatory bulb-specific protein 3-like ...   156   5e-36
+UniRef90_UPI0007E8A5F1 ejaculatory bulb-specific protein 3 n=2 T...   156   5e-36
+UniRef90_UPI00083C3617 ejaculatory bulb-specific protein 3-like ...   156   5e-36
+UniRef90_UPI000675EFDB ejaculatory bulb-specific protein 3-like ...   156   6e-36
+UniRef90_E0X9F6 Tha p 1 allergen n=2 Tax=Thaumetopoea pityocampa...   156   6e-36
+UniRef90_Q0MRK3 Chemosensory protein 18 n=1 Tax=Tribolium castan...   156   6e-36
+UniRef90_UPI00096B3EBD ejaculatory bulb-specific protein 3-like ...   156   6e-36
+UniRef90_Q8ITL3 Chemosensory protein n=6 Tax=Heliothinae TaxID=9...   156   6e-36
+UniRef90_UPI000C2548FB ejaculatory bulb-specific protein 3-like ...   156   6e-36
+UniRef90_UPI000625FF80 ejaculatory bulb-specific protein 3 n=1 T...   156   6e-36
+UniRef90_UPI0006CF0ACF ejaculatory bulb-specific protein 3-like ...   156   7e-36
+UniRef90_F5AXS7 Chemosensory protein n=1 Tax=Batocera horsfieldi...   156   7e-36
+UniRef90_A0A068F7S6 Chemosensory protein n=3 Tax=Calliphoridae T...   156   7e-36
+UniRef90_A0A0K8TVF1 Chemosensory Protein n=1 Tax=Epiphyas postvi...   156   7e-36
+UniRef90_UPI00067DBE04 ejaculatory bulb-specific protein 3-like ...   156   7e-36
+UniRef90_A0A1B4ZBJ8 Chemosensory protein 7 n=2 Tax=Crambidae Tax...   156   7e-36
+UniRef90_A0A2D1A9F1 Chemosensory protein 18 n=2 Tax=Oedaleus asi...   156   7e-36
+UniRef90_A0A0K8T6S0 Uncharacterized protein (Fragment) n=4 Tax=L...   156   7e-36
+UniRef90_A0A0M4U222 Chemosensory protein n=2 Tax=Camponotus TaxI...   156   7e-36
+UniRef90_D2D0D0 Putative chemosensory binding protein n=1 Tax=St...   156   8e-36
+UniRef90_A0A163AMU3 Putative chemosensory protein n=3 Tax=Triato...   156   8e-36
+UniRef90_UPI00076FC8C6 ejaculatory bulb-specific protein 3-like ...   156   8e-36
+UniRef90_A0A0A1CP88 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   156   8e-36
+UniRef90_A0A1I8MJZ0 Uncharacterized protein n=1 Tax=Musca domest...   156   8e-36
+UniRef90_Q0MRL9 Chemosensory protein 11 n=1 Tax=Tribolium castan...   155   8e-36
+UniRef90_A0A182GNF3 Uncharacterized protein n=3 Tax=Aedes albopi...   155   9e-36
+UniRef90_UPI0005EF0BBA ejaculatory bulb-specific protein 3-like ...   155   9e-36
+UniRef90_UPI000874CB2D uncharacterized protein LOC108904802 n=1 ...   155   9e-36
+UniRef90_A0A0S3J2I6 Chemosensory protein 1 n=1 Tax=Colaphellus b...   155   9e-36
+UniRef90_A0A0C5DAP6 Chemosensory protein CSP2 mRNA n=1 Tax=Teneb...   155   9e-36
+UniRef90_O18639 Olfactory protein n=1 Tax=Cactoblastis cactorum ...   155   9e-36
+UniRef90_T1E9H3 Putative insect pheromone-binding family (Fragme...   155   9e-36
+UniRef90_A0A1A9X5P8 Chemosensory protein 2 n=1 Tax=Glossina brev...   155   1e-35
+UniRef90_A0A0A1CNC1 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   155   1e-35
+UniRef90_V5FZA5 Ejaculatory bulb-specific protein 3 n=2 Tax=Anop...   155   1e-35
+UniRef90_UPI0006D4E07B ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_A0A0T6B9K2 Uncharacterized protein n=1 Tax=Oryctes borb...   155   1e-35
+UniRef90_A0A0C5D649 Chemosensory protein CSP1 mRNA n=1 Tax=Teneb...   155   1e-35
+UniRef90_M4VTH1 Chemosensory protein 6 n=3 Tax=Dendroctonus pond...   155   1e-35
+UniRef90_Q9U4Z6 Sensory appendage protein 2 n=1 Tax=Manduca sext...   155   1e-35
+UniRef90_UPI0006D4E1F8 uncharacterized protein LOC106681351 n=1 ...   155   1e-35
+UniRef90_A8QWQ8 Chemosensory protein n=3 Tax=Papilio xuthus TaxI...   155   1e-35
+UniRef90_UPI000626B06B ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_A0A1I8N2C2 Uncharacterized protein n=1 Tax=Musca domest...   155   1e-35
+UniRef90_A0A1W4ULU1 ejaculatory bulb-specific protein 3 n=1 Tax=...   155   1e-35
+UniRef90_Q3LBB2 Uncharacterized protein n=3 Tax=pseudoobscura su...   155   1e-35
+UniRef90_H6TDY1 CSP4 n=3 Tax=Helicoverpa armigera TaxID=29058 Re...   155   1e-35
+UniRef90_A0A034W0K7 Chemosensory protein 1 n=5 Tax=Dacini TaxID=...   155   1e-35
+UniRef90_R4FME8 Putative ejaculatory bulb-specific protein 3 n=1...   155   1e-35
+UniRef90_A0A0U2JSX2 Chemosensory protein 28 n=1 Tax=Cnaphalocroc...   155   1e-35
+UniRef90_Q9U4Y9 Sensory appendage protein 4 n=1 Tax=Manduca sext...   155   1e-35
+UniRef90_A0A2H4ZB71 Chemosensory protein n=2 Tax=Anoplophora Tax...   155   1e-35
+UniRef90_Q17JJ1 AAEL001993-PA n=9 Tax=Aedes aegypti TaxID=7159 R...   154   2e-35
+UniRef90_A0A0R8PHU2 Chemosensory protein 17 n=2 Tax=Chrysopinae ...   154   2e-35
+UniRef90_A0A0G2YGX2 CSP8 n=1 Tax=Holotrichia parallela TaxID=934...   154   2e-35
+UniRef90_A2IBC6 Chemosensory protein CSP3 n=2 Tax=Ditrysia TaxID...   154   2e-35
+UniRef90_A0A194R1E5 Ejaculatory bulb-specific protein 3 n=4 Tax=...   154   2e-35
+UniRef90_B0W7L1 Protein serine/threonine kinase, putative n=1 Ta...   154   2e-35
+UniRef90_UPI000BA0E9C6 ejaculatory bulb-specific protein 3 n=1 T...   154   2e-35
+UniRef90_A0A0C5DAQ4 Chemosensory protein CSP12 mRNA n=1 Tax=Tene...   154   2e-35
+UniRef90_R4UMX3 Ejaculatory bulb-specific protein III n=1 Tax=Co...   154   2e-35
+UniRef90_A0A0K8TUT0 Chemosensory Protein n=1 Tax=Epiphyas postvi...   154   2e-35
+UniRef90_UPI000936E0A9 uncharacterized protein LOC109432491 n=1 ...   154   2e-35
+UniRef90_A0A023F9L6 Ejaculatory bulb-specific protein 3 n=2 Tax=...   154   2e-35
+UniRef90_A0A0K1DDS9 Chemosensory protein 6 n=4 Tax=Spodoptera Ta...   154   2e-35
+UniRef90_A0A067XN15 Chemosensory protein 11 n=2 Tax=Nilaparvata ...   154   2e-35
+UniRef90_A0A163AMY3 Putative chemosensory protein n=1 Tax=Triato...   154   2e-35
+UniRef90_UPI00076FAAFE ejaculatory bulb-specific protein 3 n=1 T...   154   2e-35
+UniRef90_A0A2A4J7E9 Uncharacterized protein n=3 Tax=Heliothis vi...   154   2e-35
+UniRef90_R4WRA4 Protein serine/threonine kinase, putative n=1 Ta...   154   2e-35
+UniRef90_A0A1B6MID6 Uncharacterized protein (Fragment) n=1 Tax=G...   154   2e-35
+UniRef90_UPI0006C9D436 ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_A0A195AVM4 Transcriptional adapter 2B n=12 Tax=Attini T...   154   2e-35
+UniRef90_UPI000C2525EB ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_A0A2A4JRD4 Uncharacterized protein n=4 Tax=Heliothis vi...   154   2e-35
+UniRef90_A0A0A1CTE9 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   154   2e-35
+UniRef90_UPI00067C11CB ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_A0A1Q3FSS0 Putative insect pheromone-binding family n=1...   154   2e-35
+UniRef90_UPI0005D425C8 ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_B0W7J3 Chemosensory protein n=1 Tax=Culex quinquefascia...   154   2e-35
+UniRef90_UPI00076FDE95 ejaculatory bulb-specific protein 3-like ...   154   3e-35
+UniRef90_A0A1W5LDL1 Putative chemosensory protein 4 n=2 Tax=Ectr...   154   3e-35
+UniRef90_A0A182H5I5 Uncharacterized protein n=3 Tax=Aedes albopi...   154   3e-35
+UniRef90_A0A1B3P5M3 Chemosensory protein n=1 Tax=Eogystia hippop...   154   3e-35
+UniRef90_A0A0J7KCJ4 Ejaculatory bulb-specific protein 3-like pro...   154   3e-35
+UniRef90_B4PBY6 Phk-3 n=3 Tax=melanogaster subgroup TaxID=32351 ...   154   3e-35
+UniRef90_A0A224Y1M1 Putative pheromone binding protein (Fragment...   154   3e-35
+UniRef90_A0A2H4ZB62 Chemosensory protein n=2 Tax=Anoplophora Tax...   154   3e-35
+UniRef90_A0A2A4J5F1 Uncharacterized protein n=2 Tax=Heliothis vi...   154   3e-35
+UniRef90_Q17JK3 AAEL002034-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   154   3e-35
+UniRef90_A0A0U3A8Y9 Chemosensory protein 25 n=1 Tax=Cnaphalocroc...   154   3e-35
+UniRef90_A0A182IP17 Chemosensory protein 3 n=1 Tax=Anopheles atr...   154   3e-35
+UniRef90_UPI0006D4D5DF ejaculatory bulb-specific protein 3-like ...   154   3e-35
+UniRef90_B4XT63 Chemosensory protein n=3 Tax=Pieris TaxID=51679 ...   153   3e-35
+UniRef90_A0A162RQ85 Putative chemosensory protein n=1 Tax=Triato...   153   3e-35
+UniRef90_U5PZ65 Putative chemosensory protein n=1 Tax=Sesamia in...   153   3e-35
+UniRef90_Q0MRL6 Chemosensory protein 12 n=2 Tax=Tenebrionidae Ta...   153   3e-35
+UniRef90_A0A1W6L1C0 Chemosensory protein 2 n=1 Tax=Cephus cinctu...   153   3e-35
+UniRef90_UPI0006CEEE69 ejaculatory bulb-specific protein 3 n=1 T...   153   3e-35
+UniRef90_J7IAJ1 Chemosensory protein n=1 Tax=Grapholita molesta ...   153   4e-35
+UniRef90_Q5MGD4 Sensory protein 1 n=1 Tax=Lonomia obliqua TaxID=...   153   4e-35
+UniRef90_A0A0S3J3C5 Chemosensory protein 4 n=1 Tax=Colaphellus b...   153   4e-35
+UniRef90_A0A182GNG0 Uncharacterized protein n=5 Tax=Aedes albopi...   153   4e-35
+UniRef90_A0A224XT80 Putative pheromone binding protein (Fragment...   153   4e-35
+UniRef90_A0A2H1WBZ5 SFRICE025769.2 n=7 Tax=Spodoptera TaxID=7106...   153   4e-35
+UniRef90_U5KCX1 Chemosensory protein 3 n=1 Tax=Agrotis ipsilon T...   153   4e-35
+UniRef90_A0A0R8P118 Chemosensory protein 4 n=1 Tax=Chrysopa pall...   153   4e-35
+UniRef90_A0A1B6EXN7 Uncharacterized protein (Fragment) n=1 Tax=C...   153   4e-35
+UniRef90_A0A0X8U7S3 Chemosensory protein 7 n=1 Tax=Rhyzopertha d...   153   5e-35
+UniRef90_UPI00067C4594 ejaculatory bulb-specific protein 3-like ...   153   5e-35
+UniRef90_A0A2H1WBX0 SFRICE025771.2 (Fragment) n=1 Tax=Spodoptera...   153   5e-35
+UniRef90_A0A109ZT31 Chemosensory protein n=1 Tax=Blattella germa...   153   5e-35
+UniRef90_A0A0A9XYG7 Ejaculatory bulb-specific protein 3 n=5 Tax=...   153   5e-35
+UniRef90_A0A2H4ZB67 Chemosensory protein n=2 Tax=Anoplophora Tax...   153   5e-35
+UniRef90_Q0MRL8 Chemosensory protein 14 n=1 Tax=Tribolium castan...   153   5e-35
+UniRef90_A0A1I9HZN6 Chemosensory protein 3 n=1 Tax=Monochamus al...   153   5e-35
+UniRef90_A0A2H4ZB89 Chemosensory protein n=1 Tax=Anoplophora chi...   153   5e-35
+UniRef90_UPI0005F4E041 ejaculatory bulb-specific protein 3-like ...   153   5e-35
+UniRef90_A0A0A9WVI0 Putative chemosensory protein 11 n=2 Tax=Lyg...   153   5e-35
+UniRef90_A0A1J1IXH0 CLUMA_CG016200, isoform A n=1 Tax=Clunio mar...   153   5e-35
+UniRef90_A0A1B4ZBL0 Chemosensory protein 8 n=1 Tax=Ostrinia furn...   153   5e-35
+UniRef90_A0A212F7U3 Chemosensory protein 4 n=2 Tax=Danaus plexip...   153   5e-35
+UniRef90_A0A1I8M222 Uncharacterized protein n=3 Tax=Musca domest...   153   6e-35
+UniRef90_G8HHA3 Chemosensory protein 4 n=3 Tax=Apolygus lucorum ...   153   6e-35
+UniRef90_A0A1B6KJL8 Uncharacterized protein (Fragment) n=1 Tax=G...   153   6e-35
+UniRef90_UPI0007384F93 ejaculatory bulb-specific protein 3-like ...   153   6e-35
+UniRef90_U5Q2S7 Putative chemosensory protein n=1 Tax=Sesamia in...   153   6e-35
+UniRef90_U5Q2R2 Putative chemosensory protein n=1 Tax=Sesamia in...   153   6e-35
+UniRef90_A0A1I9HZN4 Chemosensory protein 7 n=1 Tax=Monochamus al...   153   6e-35
+UniRef90_I4DKW7 Protein serine/threonine kinase n=3 Tax=Papilio ...   153   6e-35
+UniRef90_A0A1S4ELV4 ejaculatory bulb-specific protein 3-like n=1...   153   7e-35
+UniRef90_D0E9M6 Chemosensory protein 1 (Fragment) n=1 Tax=Amyelo...   153   7e-35
+UniRef90_A0A0L7RK18 Ejaculatory bulb-specific protein 3 n=1 Tax=...   153   7e-35
+UniRef90_R4WD24 Protein serine/threonine kinase, putative n=1 Ta...   153   7e-35
+UniRef90_E2J7B1 Putative pheromone binding protein n=1 Tax=Triat...   152   7e-35
+UniRef90_UPI0006C9830D ejaculatory bulb-specific protein 3 n=1 T...   152   7e-35
+UniRef90_R4G7W1 Putative chemosensory protein csp8 n=1 Tax=Rhodn...   152   7e-35
+UniRef90_B4MNU6 Uncharacterized protein n=1 Tax=Drosophila willi...   152   8e-35
+UniRef90_A0A182GNF5 Uncharacterized protein n=7 Tax=Stegomyia Ta...   152   8e-35
+UniRef90_A0A224Y164 Putative insect pheromone-binding family (Fr...   152   8e-35
+UniRef90_A0A182F6D7 Chemosensory protein 3 n=1 Tax=Anopheles alb...   152   8e-35
+UniRef90_A0A1Z2R8R1 Chemosensory protein 25 n=2 Tax=Helicoverpa ...   152   8e-35
+UniRef90_A0A1Z2R8Q3 Chemosensory protein 21 n=6 Tax=Heliothinae ...   152   8e-35
+UniRef90_A0A0P9CFL1 Uncharacterized protein n=1 Tax=Drosophila a...   152   8e-35
+UniRef90_E2IGV4 Chemosensory protein n=2 Tax=Delphacidae TaxID=3...   152   8e-35
+UniRef90_UPI0006231AE5 ejaculatory bulb-specific protein 3-like ...   152   8e-35
+UniRef90_A0A1I8M3B0 Uncharacterized protein n=1 Tax=Musca domest...   152   9e-35
+UniRef90_UPI0008112EB1 ejaculatory bulb-specific protein 3 n=1 T...   152   9e-35
+UniRef90_Q3LBA6 Chemosensory protein 4 n=6 Tax=Apis TaxID=7459 R...   152   9e-35
+UniRef90_A0A0G2YDA6 CSP9 n=1 Tax=Holotrichia parallela TaxID=934...   152   9e-35
+UniRef90_UPI000C207999 ejaculatory bulb-specific protein 3-like ...   152   9e-35
+UniRef90_UPI00096B1202 ejaculatory bulb-specific protein 3-like ...   152   9e-35
+UniRef90_A0A2J7QAD9 Ejaculatory bulb-specific protein 3 n=1 Tax=...   152   9e-35
+UniRef90_Q9U503 Sensory appendage protein 3 n=1 Tax=Manduca sext...   152   9e-35
+UniRef90_Q6TAA3 Chemosensory protein 3 n=1 Tax=Choristoneura fum...   152   1e-34
+UniRef90_A2TIK4 Chemosensory protein 3 n=4 Tax=Plutella xylostel...   152   1e-34
+UniRef90_UPI0006C9A54D ejaculatory bulb-specific protein 3-like ...   152   1e-34
+UniRef90_UPI000C208BAC ejaculatory bulb-specific protein 3-like ...   152   1e-34
+UniRef90_Q17JK9 AAEL001985-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   152   1e-34
+UniRef90_UPI000258D893 ejaculatory bulb-specific protein 3-like ...   152   1e-34
+UniRef90_A0A2H4ZB99 Chemosensory protein n=2 Tax=Anoplophora Tax...   152   1e-34
+UniRef90_R4G848 Putative insect pheromone-binding family n=2 Tax...   152   1e-34
+UniRef90_A0A0C4K6E0 CSP1 protein n=2 Tax=Crambidae TaxID=268499 ...   152   1e-34
+UniRef90_UPI0007E311D4 ejaculatory bulb-specific protein 3 n=3 T...   152   1e-34
+UniRef90_A0A1W6GWG3 Chemosensory protein n=1 Tax=Galeruca dauric...   152   1e-34
+UniRef90_A2IBC3 Chemosensory protein CSP2 n=3 Tax=Plutella xylos...   152   1e-34
+UniRef90_A0A1I8PXA2 Uncharacterized protein n=2 Tax=Stomoxys cal...   152   1e-34
+UniRef90_UPI000626DEA8 ejaculatory bulb-specific protein 3 n=1 T...   152   1e-34
+UniRef90_UPI0006D52963 ejaculatory bulb-specific protein 3-like ...   151   1e-34
+UniRef90_UPI000258EA3C ejaculatory bulb-specific protein 3-like ...   151   1e-34
+UniRef90_Q17JK6 AAEL002026-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   151   1e-34
+UniRef90_UPI000711E93A ejaculatory bulb-specific protein 3-like ...   151   1e-34
+UniRef90_A0A194QVW8 Putative odorant-binding protein A10 n=2 Tax...   151   1e-34
+UniRef90_UPI000675C524 ejaculatory bulb-specific protein 3-like ...   151   1e-34
+UniRef90_A0A1W5LB09 Putative chemosensory protein 11 n=2 Tax=Ect...   151   1e-34
+UniRef90_V9PY40 Chemosensory protein n=1 Tax=Chilo suppressalis ...   151   1e-34
+UniRef90_A0A1B6C5Y1 Uncharacterized protein (Fragment) n=2 Tax=C...   151   1e-34
+UniRef90_D2EBB0 Chemosensory protein 4 n=5 Tax=Glossina TaxID=44...   151   1e-34
+UniRef90_A0A0U3BJT0 Chemosensory protein 23 n=1 Tax=Cnaphalocroc...   151   2e-34
+UniRef90_UPI0006760E82 ejaculatory bulb-specific protein 3-like ...   151   2e-34
+UniRef90_UPI00096B2782 ejaculatory bulb-specific protein 3-like ...   151   2e-34
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_A0A084VNC4 AGAP008053-PA-like protein n=1 Tax=Anopheles sinensis TaxID=74873
+           RepID=A0A084VNC4_ANOSI
+          Length = 589
+
+ Score =  186 bits (473), Expect = 6e-45,   Method: Composition-based stats.
+ Identities = 42/99 (42%), Positives = 62/99 (62%)
+
+Query: 2   INLDEILANKRLLVAYVNCVMERGKCSPEGKELKEHLQDAIENGCKKCTENQEKGAYRVI 61
+           ++LDEIL + RL   Y  C++++G+C+P+G ELK  L DA++  C KC+E Q+ G  +VI
+Sbjct: 491 VDLDEILKSDRLFNNYYKCLLDQGRCTPDGNELKRILPDALQTDCAKCSEKQKSGTEKVI 550
+
+Query: 62  EHLIKNEIEIWRELTAKYDPTGNWRKKYEDRAKAAGIVI 100
+            +LI N  + W+ L  KYDP   +  KY D A   GI +
+Sbjct: 551 NYLIDNRNDQWQNLQKKYDPENIYVNKYRDEANKKGIKL 589
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A084VNC4 AGAP008053-PA-like protein n=1 Tax=Anopheles...   190   2e-46
+UniRef90_A0A2A3EP22 DC-STAMP domain-containing protein n=2 Tax=A...   188   2e-45
+UniRef90_A0A182F6D9 Uncharacterized protein n=1 Tax=Anopheles al...   186   4e-45
+UniRef90_W5JM80 Sensory appendage protein n=1 Tax=Anopheles darl...   183   4e-44
+UniRef90_A0A151X6Q8 Ejaculatory bulb-specific protein 3 n=2 Tax=...   180   3e-43
+UniRef90_A0A151I3T5 Ejaculatory bulb-specific protein 3 n=1 Tax=...   179   6e-43
+UniRef90_A0A195CCT5 Ejaculatory bulb-specific protein 3 n=1 Tax=...   178   1e-42
+UniRef90_B0W7L2 Sensory appendage protein n=1 Tax=Culex quinquef...   178   1e-42
+UniRef90_F6MFX2 Putative chemosensory-binding protein n=2 Tax=Ny...   178   1e-42
+UniRef90_W5JMN0 Serine/threonine kinase n=1 Tax=Anopheles darlin...   178   2e-42
+UniRef90_UPI00096B57BC ejaculatory bulb-specific protein 3-like ...   177   3e-42
+UniRef90_A0A182J6W5 Uncharacterized protein n=2 Tax=Anopheles Ta...   177   4e-42
+UniRef90_A0A182P4W5 Uncharacterized protein n=1 Tax=Anopheles ep...   176   4e-42
+UniRef90_F4WYC0 Ejaculatory bulb-specific protein 3 n=1 Tax=Acro...   176   4e-42
+UniRef90_A0A084VNC6 Uncharacterized protein n=1 Tax=Anopheles si...   176   5e-42
+UniRef90_A0A2J7QAE1 Ejaculatory bulb-specific protein 3 n=1 Tax=...   176   6e-42
+UniRef90_A0A068F6S2 Chemosensory protein n=2 Tax=Calliphoridae T...   175   1e-41
+UniRef90_D6BJF5 Odorant-binding protein n=2 Tax=Bombus TaxID=144...   174   3e-41
+UniRef90_A0A182JK44 Uncharacterized protein n=1 Tax=Anopheles at...   173   3e-41
+UniRef90_A0A0N9JS20 Chemosensory protein 6 n=1 Tax=Sclerodermus ...   173   3e-41
+UniRef90_B4M2Q7 Uncharacterized protein n=1 Tax=Drosophila viril...   173   3e-41
+UniRef90_UPI00022C92A9 ejaculatory bulb-specific protein 3 n=1 T...   173   4e-41
+UniRef90_Q17JH7 AAEL002022-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   173   4e-41
+UniRef90_A0A1S4FBD1 Protein serine/threonine kinase, putative n=...   173   4e-41
+UniRef90_A0A1L8DPP6 Putative insect pheromone-binding family (Fr...   173   6e-41
+UniRef90_A0A195FEW1 Ejaculatory bulb-specific protein 3 (Fragmen...   173   7e-41
+UniRef90_D4AHN9 Chemosensory protein 1 n=1 Tax=Delia antiqua Tax...   172   7e-41
+UniRef90_A0A1B6LFB3 Uncharacterized protein n=1 Tax=Graphocephal...   172   8e-41
+UniRef90_A0A182QUR3 Uncharacterized protein n=1 Tax=Anopheles fa...   172   8e-41
+UniRef90_A0A182W797 Uncharacterized protein n=1 Tax=Anopheles mi...   172   8e-41
+UniRef90_A0A034WWI9 Chemosensory protein 2 n=5 Tax=Dacinae TaxID...   172   9e-41
+UniRef90_A0A1I8NHK8 Uncharacterized protein n=1 Tax=Musca domest...   172   9e-41
+UniRef90_B3MCQ6 Uncharacterized protein n=2 Tax=ananassae subgro...   172   1e-40
+UniRef90_A0A182HUV9 Uncharacterized protein n=8 Tax=Cellia TaxID...   171   1e-40
+UniRef90_UPI00073D9BB8 transcriptional adapter 2B isoform X13 n=...   171   1e-40
+UniRef90_D2EBA9 Chemosensory protein 3 n=5 Tax=Glossina TaxID=44...   171   1e-40
+UniRef90_UPI0006CEC1C9 ejaculatory bulb-specific protein 3-like ...   171   1e-40
+UniRef90_A0A0M3VGJ7 Chemosensory protein n=3 Tax=Camponotus TaxI...   171   1e-40
+UniRef90_UPI0007E65F29 ejaculatory bulb-specific protein 3 n=2 T...   171   2e-40
+UniRef90_A0A1A9WI62 Chemosensory protein 1 n=1 Tax=Glossina brev...   171   2e-40
+UniRef90_A0A1W4WBY9 ejaculatory bulb-specific protein 3-like n=1...   171   2e-40
+UniRef90_Q8I6X7 Antennal-specific protein 3c n=5 Tax=Apis TaxID=...   171   2e-40
+UniRef90_UPI000C255B65 uncharacterized protein LOC111510033 n=1 ...   171   2e-40
+UniRef90_A0A1Q3FQG9 Putative insect pheromone-binding family (Fr...   171   2e-40
+UniRef90_UPI000718CEA8 ejaculatory bulb-specific protein 3 n=2 T...   171   2e-40
+UniRef90_A0A1B6HNW9 Uncharacterized protein (Fragment) n=1 Tax=H...   171   3e-40
+UniRef90_UPI0007383B4E ejaculatory bulb-specific protein 3-like ...   170   3e-40
+UniRef90_A0A1A9ZZI4 Chemosensory protein 3 n=1 Tax=Glossina pall...   170   3e-40
+UniRef90_UPI00083C6413 ejaculatory bulb-specific protein 3-like ...   170   3e-40
+UniRef90_A0A0L7QSW3 Ejaculatory bulb-specific protein 3 (Fragmen...   170   3e-40
+UniRef90_B4L4E8 Uncharacterized protein n=3 Tax=mojavensis speci...   170   4e-40
+UniRef90_A0A0B4KZC8 Chemosensory protein 8 n=1 Tax=Lissorhoptrus...   170   4e-40
+UniRef90_A0A023F7T9 Putative insect pheromone-binding family n=2...   170   4e-40
+UniRef90_A0A109VYC4 Chemosensory protein 2 n=1 Tax=Rhyzopertha d...   170   4e-40
+UniRef90_Q8MTC3 Chemosensory protein n=1 Tax=Rhyparobia maderae ...   169   5e-40
+UniRef90_A0A0M9A4W2 Ejaculatory bulb-specific protein 3 n=1 Tax=...   169   5e-40
+UniRef90_Q27377 Putative odorant-binding protein A10 n=6 Tax=mel...   169   6e-40
+UniRef90_UPI0006231335 ejaculatory bulb-specific protein 3 n=1 T...   169   6e-40
+UniRef90_UPI0007E6E06A putative odorant-binding protein A10 n=3 ...   169   6e-40
+UniRef90_A0A1B6JEL1 Uncharacterized protein n=2 Tax=Cicadellinae...   169   6e-40
+UniRef90_B4J670 GH21706 n=1 Tax=Drosophila grimshawi TaxID=7222 ...   169   6e-40
+UniRef90_A0A1S3DC45 uncharacterized protein LOC103515708 n=1 Tax...   169   7e-40
+UniRef90_A0A1A9ZZH9 Chemosensory protein 1 n=1 Tax=Glossina pall...   169   8e-40
+UniRef90_A0A0G2YIV7 CSP11 n=1 Tax=Holotrichia parallela TaxID=93...   169   8e-40
+UniRef90_UPI0006CEF918 ejaculatory bulb-specific protein 3-like ...   169   8e-40
+UniRef90_UPI00081164B8 ejaculatory bulb-specific protein 3 n=1 T...   169   9e-40
+UniRef90_Q0MRL3 Chemosensory protein 10 n=1 Tax=Tribolium castan...   169   9e-40
+UniRef90_A0A0B4KZD7 Chemosensory protein 6 n=1 Tax=Lissorhoptrus...   169   9e-40
+UniRef90_UPI00076790C3 ejaculatory bulb-specific protein 3-like ...   169   1e-39
+UniRef90_UPI000625525C ejaculatory bulb-specific protein 3 n=1 T...   169   1e-39
+UniRef90_B4KLX1 Uncharacterized protein n=2 Tax=mojavensis speci...   168   1e-39
+UniRef90_B0W7K3 Chemosensory protein 1 n=1 Tax=Culex quinquefasc...   168   1e-39
+UniRef90_A0A182GQA7 Uncharacterized protein n=3 Tax=Aedes albopi...   168   1e-39
+UniRef90_UPI0007E755FC putative odorant-binding protein A10 n=2 ...   168   1e-39
+UniRef90_A0A0C9RRW4 PebIII_6 protein n=1 Tax=Fopius arisanus Tax...   168   1e-39
+UniRef90_A0A1I8PGN5 Uncharacterized protein n=1 Tax=Stomoxys cal...   168   1e-39
+UniRef90_UPI0006CEC7D0 ejaculatory bulb-specific protein 3-like ...   168   1e-39
+UniRef90_A0A1V1WC03 Chemosensory protein 8 n=1 Tax=Mythimna sepa...   168   1e-39
+UniRef90_A0A162SJU5 Putative chemosensory protein n=1 Tax=Triato...   168   1e-39
+UniRef90_D7R4I0 Putative chemosensory binding protein n=1 Tax=St...   168   1e-39
+UniRef90_A0A1W4VS11 putative odorant-binding protein A10 n=1 Tax...   168   1e-39
+UniRef90_A0A182H496 Uncharacterized protein n=39 Tax=Stegomyia T...   168   2e-39
+UniRef90_A0A182Q2T4 Uncharacterized protein n=9 Tax=Cellia TaxID...   168   2e-39
+UniRef90_T1IAF9 Chemosensory protein (Fragment) n=1 Tax=Rhodnius...   168   2e-39
+UniRef90_UPI0006CEE0A9 ejaculatory bulb-specific protein 3-like ...   168   2e-39
+UniRef90_A0A1A9X9M0 Chemosensory protein 1 n=1 Tax=Glossina fusc...   168   2e-39
+UniRef90_E0W2K0 Ejaculatory bulb-specific protein 3 precursor,pu...   168   2e-39
+UniRef90_A0A182NU77 Uncharacterized protein n=1 Tax=Anopheles di...   167   2e-39
+UniRef90_UPI00063F447D ejaculatory bulb-specific protein 3-like ...   167   2e-39
+UniRef90_R4G3I9 Putative chemosensory protein csp8 n=1 Tax=Rhodn...   167   3e-39
+UniRef90_A0A182RC90 Uncharacterized protein n=1 Tax=Anopheles fu...   167   3e-39
+UniRef90_A0A182MHY6 Uncharacterized protein n=2 Tax=Myzomyia Tax...   167   3e-39
+UniRef90_T1E2M0 Protein serine/threonine kinase n=1 Tax=Psoropho...   167   3e-39
+UniRef90_UPI0007E5D27B putative odorant-binding protein A10 n=2 ...   167   3e-39
+UniRef90_E9IV35 Uncharacterized protein (Fragment) n=1 Tax=Solen...   167   3e-39
+UniRef90_A0A1X9H816 Chemosensory protein n=1 Tax=Bradysia odorip...   167   3e-39
+UniRef90_Q179A5 AAEL005698-PA n=2 Tax=Aedes aegypti TaxID=7159 R...   167   3e-39
+UniRef90_B4LP05 Uncharacterized protein n=1 Tax=Drosophila viril...   167   3e-39
+UniRef90_A0A154P480 Ejaculatory bulb-specific protein 3 n=1 Tax=...   167   3e-39
+UniRef90_Q179A3 AAEL005691-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   167   3e-39
+UniRef90_UPI0005D3F473 ejaculatory bulb-specific protein 3 n=1 T...   167   3e-39
+UniRef90_A0A097GUD6 Chemosensory protein 3 n=2 Tax=Bemisia tabac...   167   3e-39
+UniRef90_A0A1Q3FQQ8 Protein serine/threonine kinase n=5 Tax=Cule...   167   3e-39
+UniRef90_UPI000C20AAFB ejaculatory bulb-specific protein 3-like ...   167   4e-39
+UniRef90_B0W7L4 Sensory appendage protein n=2 Tax=Culex quinquef...   167   4e-39
+UniRef90_U4UIQ9 Uncharacterized protein n=2 Tax=Dendroctonus pon...   166   4e-39
+UniRef90_T1P8W4 Pheromone-binding family, A10/OS-D n=1 Tax=Musca...   166   4e-39
+UniRef90_A0A1B6GV50 Uncharacterized protein (Fragment) n=1 Tax=C...   166   4e-39
+UniRef90_E2BGF3 Ejaculatory bulb-specific protein 3 n=2 Tax=Harp...   166   4e-39
+UniRef90_B0W7J4 Protein serine/threonine kinase, putative n=2 Ta...   166   4e-39
+UniRef90_A0A0R7JHR1 Olfactory protein (Fragment) n=2 Tax=Solenop...   166   4e-39
+UniRef90_A0A1I8MUF0 Uncharacterized protein n=1 Tax=Musca domest...   166   5e-39
+UniRef90_A0A023EFH6 Protein serine/threonine kinase n=6 Tax=Steg...   166   5e-39
+UniRef90_UPI0005F3F828 ejaculatory bulb-specific protein 3 n=1 T...   166   5e-39
+UniRef90_UPI00096B383B ejaculatory bulb-specific protein 3-like ...   166   5e-39
+UniRef90_A0A182TCG7 Uncharacterized protein n=2 Tax=Neocellia Ta...   166   6e-39
+UniRef90_A0A1W6L150 Chemosensory protein 4 n=1 Tax=Cephus cinctu...   166   6e-39
+UniRef90_A0A1I8MMU3 Uncharacterized protein n=1 Tax=Musca domest...   166   6e-39
+UniRef90_A0A182GQA8 Uncharacterized protein n=2 Tax=Stegomyia Ta...   166   6e-39
+UniRef90_UPI0005D0537F uncharacterized protein LOC105393182 n=1 ...   166   6e-39
+UniRef90_A0A1I8MVA8 Uncharacterized protein n=2 Tax=Musca domest...   166   6e-39
+UniRef90_A0A067RHP2 Ejaculatory bulb-specific protein 3 n=1 Tax=...   166   7e-39
+UniRef90_UPI000C6C708B ejaculatory bulb-specific protein 3 n=1 T...   166   7e-39
+UniRef90_A0A0H3W580 Chemosensory protein 2 n=8 Tax=Dendroctonus ...   166   7e-39
+UniRef90_A0A0L7LE98 Olfactory protein n=1 Tax=Operophtera brumat...   166   8e-39
+UniRef90_A0A0X8DBS1 Chemosensory protein n=1 Tax=Blattella germa...   165   8e-39
+UniRef90_M4VR62 Chemosensory protein 8 n=3 Tax=Dendroctonus pond...   165   9e-39
+UniRef90_UPI000994DB72 ejaculatory bulb-specific protein 3 n=1 T...   165   1e-38
+UniRef90_Q0MRK7 Chemosensory protein 16 n=1 Tax=Tribolium castan...   165   1e-38
+UniRef90_UPI00096B49FA ejaculatory bulb-specific protein 3-like ...   165   1e-38
+UniRef90_UPI000711A155 ejaculatory bulb-specific protein 3 n=1 T...   165   1e-38
+UniRef90_UPI000258F6A6 ejaculatory bulb-specific protein 3-like ...   165   1e-38
+UniRef90_A0A1I8Q5N5 Uncharacterized protein n=2 Tax=Stomoxys cal...   164   1e-38
+UniRef90_A0A1I9HZN7 Chemosensory protein 8 n=3 Tax=Lamiinae TaxI...   164   1e-38
+UniRef90_A0A0G2YKM6 CSP10 n=1 Tax=Holotrichia parallela TaxID=93...   164   2e-38
+UniRef90_A0A023SDZ8 Acid trehalase n=1 Tax=Aphis gossypii TaxID=...   164   2e-38
+UniRef90_Q0MRK9 Chemosensory protein 14 n=1 Tax=Tribolium castan...   164   2e-38
+UniRef90_UPI000B39749B uncharacterized protein LOC110376358 n=1 ...   164   2e-38
+UniRef90_Q0MRL1 Chemosensory protein 12 n=2 Tax=Tribolium castan...   164   2e-38
+UniRef90_A0A182Y014 Uncharacterized protein n=1 Tax=Anopheles st...   164   2e-38
+UniRef90_A0A2H8TJL0 Ejaculatory bulb-specific protein 3 n=1 Tax=...   164   2e-38
+UniRef90_A0A0A0V9F9 Chemosensory protein n=7 Tax=Heliothinae Tax...   164   2e-38
+UniRef90_UPI0006784B71 ejaculatory bulb-specific protein 3-like ...   164   2e-38
+UniRef90_A0A0S3J433 Chemosensory protein 12 n=1 Tax=Colaphellus ...   164   2e-38
+UniRef90_UPI000994DAF7 ejaculatory bulb-specific protein 3-like ...   164   3e-38
+UniRef90_A0A0E3Y5Z5 Chemosensory protein 5 n=2 Tax=Scarabaeidae ...   164   3e-38
+UniRef90_UPI0006CECE9F ejaculatory bulb-specific protein 3-like ...   164   3e-38
+UniRef90_Q0MRK6 Chemosensory protein 17 n=1 Tax=Tribolium castan...   164   3e-38
+UniRef90_A0A1Q3FR86 Protein serine/threonine kinase n=2 Tax=Cule...   164   3e-38
+UniRef90_A0A1A9ZF38 Chemosensory protein 2 n=6 Tax=Glossina TaxI...   164   3e-38
+UniRef90_A0A2H4ZB52 Chemosensory protein n=1 Tax=Anoplophora chi...   164   3e-38
+UniRef90_UPI0005EFB4F6 ejaculatory bulb-specific protein 3-like ...   163   3e-38
+UniRef90_Q17JK0 AAEL001981-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   163   3e-38
+UniRef90_A0A182JF33 Uncharacterized protein n=1 Tax=Anopheles at...   163   3e-38
+UniRef90_A0A0G2YDA2 CSP4 n=1 Tax=Holotrichia parallela TaxID=934...   163   3e-38
+UniRef90_A0A1D1ZHP1 Ejaculatory bulb-specific protein 3 (Fragmen...   163   3e-38
+UniRef90_A0A1I8M5F9 Uncharacterized protein n=1 Tax=Musca domest...   163   3e-38
+UniRef90_A0A162J9G6 Chemosensory protein CSP1 (Fragment) n=1 Tax...   163   4e-38
+UniRef90_B7TVH4 Chemosensory protein 8 n=1 Tax=Nilaparvata lugen...   163   4e-38
+UniRef90_A0A0X8T3E2 Chemosensory protein 6 n=1 Tax=Rhyzopertha d...   163   4e-38
+UniRef90_A0A0N9JMS5 Chemosensory protein 8 n=1 Tax=Sclerodermus ...   163   4e-38
+UniRef90_I1VJ19 Chemosensory protein n=3 Tax=Dendroctonus ponder...   163   4e-38
+UniRef90_A0A1W4WND1 ejaculatory bulb-specific protein 3-like n=1...   163   4e-38
+UniRef90_A0A232F1P8 Uncharacterized protein n=1 Tax=Trichomalops...   163   4e-38
+UniRef90_A0A194QW19 Ejaculatory bulb-specific protein 3 n=2 Tax=...   163   4e-38
+UniRef90_A0A182W795 Chemosensory protein 3 n=1 Tax=Anopheles min...   163   4e-38
+UniRef90_B3MCC8 Uncharacterized protein n=1 Tax=Drosophila anana...   163   4e-38
+UniRef90_B0W7K8 Chemosensory protein 1 n=1 Tax=Culex quinquefasc...   163   5e-38
+UniRef90_UPI000C6C7C3E putative odorant-binding protein A10 n=1 ...   163   5e-38
+UniRef90_B0W7K9 Protein serine/threonine kinase, putative n=1 Ta...   163   5e-38
+UniRef90_A0A1V1WC09 Chemosensory protein 7 n=2 Tax=Noctuidae Tax...   163   5e-38
+UniRef90_A0A1S5VFI4 Chemosensory protein 2 n=1 Tax=Meteorus pulc...   163   5e-38
+UniRef90_A0A194QW24 Putative odorant-binding protein A10 n=3 Tax...   163   5e-38
+UniRef90_M3V872 Chemosensory protein 5 n=1 Tax=Ips typographus T...   163   5e-38
+UniRef90_A0A1Q3FSQ4 Putative insect pheromone-binding family (Fr...   163   5e-38
+UniRef90_Q3LB73 Uncharacterized protein (Fragment) n=1 Tax=Locus...   163   5e-38
+UniRef90_A0A2D1VLM9 Chemosensory protein (Fragment) n=2 Tax=Anop...   163   5e-38
+UniRef90_A0A182JTL7 Uncharacterized protein n=2 Tax=Pyretophorus...   163   6e-38
+UniRef90_A0A1L2BL72 Chemosensory protein 8 n=1 Tax=Ectropis obli...   163   6e-38
+UniRef90_A0A162S9V4 Putative chemosensory protein n=4 Tax=Triato...   163   6e-38
+UniRef90_A0A0L7QTX3 Ejaculatory bulb-specific protein 3 n=1 Tax=...   163   6e-38
+UniRef90_A0A2A4JQ89 Uncharacterized protein n=2 Tax=Heliothinae ...   163   6e-38
+UniRef90_A0A1I8PKC1 Uncharacterized protein n=1 Tax=Stomoxys cal...   163   6e-38
+UniRef90_U5EWH7 Protein serine/threonine kinase n=1 Tax=Corethre...   163   6e-38
+UniRef90_A0A1W4WC46 ejaculatory bulb-specific protein 3-like n=1...   163   6e-38
+UniRef90_UPI000626C94D ejaculatory bulb-specific protein 3-like ...   163   6e-38
+UniRef90_UPI0007E85346 putative odorant-binding protein A10 n=1 ...   163   6e-38
+UniRef90_A0A182GXD6 Uncharacterized protein n=3 Tax=Stegomyia Ta...   163   6e-38
+UniRef90_UPI000614A32B ejaculatory bulb-specific protein 3-like ...   163   7e-38
+UniRef90_Q0MRK5 Chemosensory protein 18 n=1 Tax=Tribolium castan...   162   7e-38
+UniRef90_UPI0008403BBC ejaculatory bulb-specific protein 3-like ...   162   7e-38
+UniRef90_A0A182SQ39 Chemosensory protein 3 n=1 Tax=Anopheles mac...   162   8e-38
+UniRef90_W8AIH5 Putative odorant-binding protein A10 n=2 Tax=Cer...   162   8e-38
+UniRef90_A0A162SJT1 Putative chemosensory protein n=2 Tax=Triato...   162   8e-38
+UniRef90_A0A1I9HZM9 Chemosensory protein 5 n=1 Tax=Monochamus al...   162   8e-38
+UniRef90_A0A0B4KZC5 Chemosensory protein 9 n=1 Tax=Lissorhoptrus...   162   8e-38
+UniRef90_UPI00096AE932 uncharacterized protein LOC109595889 n=1 ...   162   9e-38
+UniRef90_Q3LB63 Uncharacterized protein n=1 Tax=Biphyllus lunatu...   162   9e-38
+UniRef90_Q0MRL2 Chemosensory protein 1 n=1 Tax=Tribolium castane...   162   9e-38
+UniRef90_UPI0007E8348B putative odorant-binding protein A10 n=2 ...   162   9e-38
+UniRef90_A0A1B6EL86 Uncharacterized protein (Fragment) n=1 Tax=C...   162   9e-38
+UniRef90_M3UZC9 Chemosensory protein 1 (Fragment) n=1 Tax=Ips ty...   162   9e-38
+UniRef90_UPI00083C5ACE ejaculatory bulb-specific protein 3-like ...   162   9e-38
+UniRef90_UPI00076FD94C ejaculatory bulb-specific protein 3 n=1 T...   162   9e-38
+UniRef90_UPI0008119CD2 putative odorant-binding protein A10 isof...   162   1e-37
+UniRef90_UPI00096B383F ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_UPI000C202A67 ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_UPI000C2547D5 ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_E0W2J9 Ejaculatory bulb-specific protein 3 precursor,pu...   162   1e-37
+UniRef90_UPI000B9847C7 ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_L7XDI4 Chemosensory protein 1 n=3 Tax=Mirini TaxID=2366...   162   1e-37
+UniRef90_Q9W1C9 Ejaculatory bulb-specific protein 3 n=10 Tax=mel...   162   1e-37
+UniRef90_A0A1W4UZE6 ejaculatory bulb-specific protein 3 n=4 Tax=...   162   1e-37
+UniRef90_A0A1I9HZR3 Chemosensory protein 11 (Fragment) n=1 Tax=M...   162   1e-37
+UniRef90_A0A0T6BCP4 Uncharacterized protein n=1 Tax=Oryctes borb...   162   1e-37
+UniRef90_UPI000C20D6AB ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_UPI00062551A1 ejaculatory bulb-specific protein 3 n=1 T...   161   1e-37
+UniRef90_A0A0C5DMM4 Chemosensory protein CSP4 mRNA n=1 Tax=Teneb...   161   1e-37
+UniRef90_A0A1I8MHQ2 Uncharacterized protein n=1 Tax=Musca domest...   161   1e-37
+UniRef90_UPI000B935A69 putative mediator of RNA polymerase II tr...   161   1e-37
+UniRef90_UPI00099D2809 hypothetical protein n=2 Tax=Kitasatospor...   161   1e-37
+UniRef90_A0A158P251 Uncharacterized protein n=5 Tax=Attini TaxID...   161   1e-37
+UniRef90_R4G4C1 Putative chemosensory protein 12 n=1 Tax=Rhodniu...   161   2e-37
+UniRef90_A0A0C4K8H1 CSP2 protein n=1 Tax=Conogethes punctiferali...   161   2e-37
+UniRef90_A0A1L8EHT3 Putative insect pheromone-binding family n=1...   161   2e-37
+UniRef90_UPI0007382FD0 ejaculatory bulb-specific protein 3-like ...   161   2e-37
+UniRef90_A0A1B6BZK0 Uncharacterized protein (Fragment) n=1 Tax=C...   161   2e-37
+UniRef90_A0A026WW33 Uncharacterized protein n=1 Tax=Ooceraea bir...   161   2e-37
+UniRef90_A0A182F6D8 Uncharacterized protein n=2 Tax=albimanus se...   161   2e-37
+UniRef90_U5Q2Q5 Putative chemosensory protein n=1 Tax=Sesamia in...   161   2e-37
+UniRef90_UPI00083C425C ejaculatory bulb-specific protein 3-like ...   161   2e-37
+UniRef90_UPI00083C3476 ejaculatory bulb-specific protein 3-like ...   161   2e-37
+UniRef90_Q17JK2 AAEL001975-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   161   2e-37
+UniRef90_Q68K20 Sensory appendage protein 1 n=1 Tax=Culicoides s...   161   2e-37
+UniRef90_A0A068F5S3 Chemosensory protein n=1 Tax=Calliphora styg...   161   2e-37
+UniRef90_E0W2K1 Ejaculatory bulb-specific protein 3 precursor,pu...   161   2e-37
+UniRef90_UPI0006B7291D putative odorant-binding protein A10 isof...   161   2e-37
+UniRef90_B4JJP2 GH12519 n=1 Tax=Drosophila grimshawi TaxID=7222 ...   161   2e-37
+UniRef90_B0W7K5 Chemosensory protein 1 n=3 Tax=Culex quinquefasc...   161   2e-37
+UniRef90_A0A182HUV8 Uncharacterized protein n=15 Tax=Cellia TaxI...   161   2e-37
+UniRef90_A0A1B3P5L5 Chemosensory protein n=1 Tax=Eogystia hippop...   161   2e-37
+UniRef90_Q7Q3U7 AGAP008051-PA n=7 Tax=gambiae species complex Ta...   161   2e-37
+UniRef90_A0A162J9J5 Chemosensory protein CSP2 (Fragment) n=1 Tax...   161   2e-37
+UniRef90_W5JKP3 Serine/threonine kinase n=3 Tax=Nyssorhynchus Ta...   161   2e-37
+UniRef90_A0A1B6I1A3 Uncharacterized protein (Fragment) n=1 Tax=H...   161   3e-37
+UniRef90_A0A097QQU2 Chemosensory protein n=2 Tax=Obtectomera Tax...   161   3e-37
+UniRef90_A0A0C5D653 Chemosensory protein CSP11 mRNA n=1 Tax=Tene...   160   3e-37
+UniRef90_A0A0A0VDH1 Chemosensory protein n=2 Tax=Holometabola Ta...   160   3e-37
+UniRef90_G8HHA2 Chemosensory protein 3 n=1 Tax=Apolygus lucorum ...   160   3e-37
+UniRef90_A0A182RC93 Chemosensory protein 3 n=2 Tax=Myzomyia TaxI...   160   3e-37
+UniRef90_UPI0006D51519 ejaculatory bulb-specific protein 3-like ...   160   3e-37
+UniRef90_A0A1B0BQW0 Chemosensory protein 4 n=2 Tax=Nemorhina Tax...   160   3e-37
+UniRef90_A0A1J0KKH5 Chemosensory protein 4 n=2 Tax=Pyrrhalta Tax...   160   3e-37
+UniRef90_U5PZ70 Putative chemosensory protein n=1 Tax=Sesamia in...   160   3e-37
+UniRef90_A0A034WNV4 Putative odorant-binding protein A10 n=5 Tax...   160   3e-37
+UniRef90_A0A0L0C325 Putative odorant-binding protein A10 n=1 Tax...   160   3e-37
+UniRef90_B5U9W6 Chemosensory protein 4a n=1 Tax=Papilio xuthus T...   160   3e-37
+UniRef90_A0A096W1H9 Chemosensory protein 1 n=1 Tax=Sogatella fur...   160   3e-37
+UniRef90_K7J1E1 Uncharacterized protein n=2 Tax=Nasonia vitripen...   160   4e-37
+UniRef90_A0A172QDQ3 Chemosensory protein 9 n=1 Tax=Athetis dissi...   160   4e-37
+UniRef90_R4G7Z6 Chemosensory protein n=1 Tax=Rhodnius prolixus T...   160   4e-37
+UniRef90_A0A1B4ZBM6 Chemosensory protein 4 n=1 Tax=Ostrinia furn...   160   4e-37
+UniRef90_UPI000840515C ejaculatory bulb-specific protein 3-like ...   160   4e-37
+UniRef90_UPI00061881E1 ejaculatory bulb-specific protein 3 n=1 T...   160   4e-37
+UniRef90_UPI00096B09D4 ejaculatory bulb-specific protein 3-like ...   160   4e-37
+UniRef90_A0A1Z2R8P3 Chemosensory protein 21 n=2 Tax=Helicoverpa ...   160   4e-37
+UniRef90_A0A1S3DC40 ejaculatory bulb-specific protein 3-like n=1...   160   4e-37
+UniRef90_A0A2C9PH04 CSP9 n=3 Tax=Anoplophora TaxID=157304 RepID=...   160   4e-37
+UniRef90_A0A0C5DMM7 Chemosensory protein CSP9 mRNA n=1 Tax=Teneb...   160   4e-37
+UniRef90_A0A1W6GWH8 Chemosensory protein n=3 Tax=Galerucini TaxI...   160   4e-37
+UniRef90_A0A1B6JS85 Uncharacterized protein (Fragment) n=1 Tax=H...   159   5e-37
+UniRef90_A0A0L7LDQ3 Chemosensory protein 6 n=1 Tax=Operophtera b...   159   5e-37
+UniRef90_A0A1B6LTU9 Uncharacterized protein (Fragment) n=1 Tax=G...   159   5e-37
+UniRef90_A0A1A9V698 Chemosensory protein 1 n=1 Tax=Glossina aust...   159   5e-37
+UniRef90_A0A0C9QFN9 PebIII_1 protein n=1 Tax=Fopius arisanus Tax...   159   5e-37
+UniRef90_A0A0R3NL72 Uncharacterized protein, isoform B n=3 Tax=p...   159   5e-37
+UniRef90_A0A0G2YDC1 CSP2 n=1 Tax=Holotrichia parallela TaxID=934...   159   5e-37
+UniRef90_A0A0M3QVM2 PebIII n=2 Tax=Drosophila busckii TaxID=3001...   159   6e-37
+UniRef90_A0A182QLL8 Chemosensory protein 3 n=1 Tax=Anopheles far...   159   6e-37
+UniRef90_A0A0B4KZD4 Chemosensory protein 10 n=1 Tax=Lissorhoptru...   159   6e-37
+UniRef90_A0A182GNG2 Uncharacterized protein n=19 Tax=Stegomyia T...   159   6e-37
+UniRef90_A3RG67 Chemosensory protein 1 n=2 Tax=Microplitis TaxID...   159   6e-37
+UniRef90_A8QWQ4 Chemosensory protein n=3 Tax=Papilio TaxID=7145 ...   159   6e-37
+UniRef90_A0A182GNF3 Uncharacterized protein n=3 Tax=Aedes albopi...   159   6e-37
+UniRef90_E2CAG4 Putative odorant-binding protein A10 n=2 Tax=Pon...   159   6e-37
+UniRef90_A0A0X8DBJ2 Chemosensory protein (Fragment) n=1 Tax=Blat...   159   6e-37
+UniRef90_A0A1V1WBZ6 Chemosensory protein 14 n=1 Tax=Mythimna sep...   159   6e-37
+UniRef90_A0A182P4W7 Chemosensory protein 3 n=1 Tax=Anopheles epi...   159   6e-37
+UniRef90_A0A0C5DAP6 Chemosensory protein CSP2 mRNA n=1 Tax=Teneb...   159   7e-37
+UniRef90_Q5Q049 Chemosensory protein n=1 Tax=Vespa crabro TaxID=...   159   7e-37
+UniRef90_A0A158NSY6 Uncharacterized protein n=8 Tax=Myrmicinae T...   159   7e-37
+UniRef90_A0A2D1AC31 Chemosensory protein 17 n=1 Tax=Oedaleus asi...   159   7e-37
+UniRef90_A0A0C5D649 Chemosensory protein CSP1 mRNA n=1 Tax=Teneb...   159   7e-37
+UniRef90_B4MQS8 GK21931 n=1 Tax=Drosophila willistoni TaxID=7260...   159   7e-37
+UniRef90_Q3LBB1 Uncharacterized protein n=3 Tax=obscura group Ta...   159   8e-37
+UniRef90_UPI000C207B2F ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_UPI000937E2E8 ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_UPI000675E27D ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_A0A1E1WSQ3 Uncharacterized protein n=1 Tax=Pectinophora...   159   8e-37
+UniRef90_UPI00076FC8C6 ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_UPI0005D0B4B1 ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_UPI0005CE3CF9 ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_UPI000C2548FB ejaculatory bulb-specific protein 3-like ...   159   9e-37
+UniRef90_A0A212FKT6 Chemosensory protein n=1 Tax=Danaus plexippu...   159   9e-37
+UniRef90_A0A0A1CN82 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   159   9e-37
+UniRef90_A0A1L8EE19 Putative insect pheromone-binding family n=1...   159   1e-36
+UniRef90_A0A068F7S6 Chemosensory protein n=3 Tax=Calliphoridae T...   159   1e-36
+UniRef90_D2EBA7 Chemosensory protein 1 n=3 Tax=Glossina TaxID=44...   158   1e-36
+UniRef90_UPI0005D2DC04 ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_UPI00096B3EBD ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_UPI0007E8A5F1 ejaculatory bulb-specific protein 3 n=2 T...   158   1e-36
+UniRef90_T1E9H3 Putative insect pheromone-binding family (Fragme...   158   1e-36
+UniRef90_UPI00067602BF ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_A0A1I8N2C2 Uncharacterized protein n=1 Tax=Musca domest...   158   1e-36
+UniRef90_M1JPA1 Chemosensory protein 6 n=2 Tax=Aphis TaxID=46492...   158   1e-36
+UniRef90_L7XDT2 Chemosensory protein 8 n=3 Tax=Mirini TaxID=2366...   158   1e-36
+UniRef90_A0A2D1A9F1 Chemosensory protein 18 n=2 Tax=Oedaleus asi...   158   1e-36
+UniRef90_UPI0005B79C69 ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_A0A1A9X5P8 Chemosensory protein 2 n=1 Tax=Glossina brev...   158   1e-36
+UniRef90_UPI000625FF80 ejaculatory bulb-specific protein 3 n=1 T...   158   1e-36
+UniRef90_A0A1B3P5K9 Chemosensory protein n=1 Tax=Eogystia hippop...   158   1e-36
+UniRef90_A0A0K8TVF1 Chemosensory Protein n=1 Tax=Epiphyas postvi...   158   1e-36
+UniRef90_UPI00083C3617 ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_UPI000B9FDBA7 putative odorant-binding protein A10 n=1 ...   158   1e-36
+UniRef90_A0A034W0K7 Chemosensory protein 1 n=5 Tax=Dacini TaxID=...   158   2e-36
+UniRef90_D2D0D0 Putative chemosensory binding protein n=1 Tax=St...   158   2e-36
+UniRef90_A0A0K1DCX4 Chemosensory protein 7 n=2 Tax=Spodoptera Ta...   158   2e-36
+UniRef90_A0A1B4ZBJ8 Chemosensory protein 7 n=2 Tax=Crambidae Tax...   158   2e-36
+UniRef90_R4FME8 Putative ejaculatory bulb-specific protein 3 n=1...   158   2e-36
+UniRef90_A0A0M4U222 Chemosensory protein n=2 Tax=Camponotus TaxI...   158   2e-36
+UniRef90_A0A1I8MJZ0 Uncharacterized protein n=1 Tax=Musca domest...   158   2e-36
+UniRef90_Q17JJ1 AAEL001993-PA n=9 Tax=Aedes aegypti TaxID=7159 R...   158   2e-36
+UniRef90_V5FZA5 Ejaculatory bulb-specific protein 3 n=2 Tax=Anop...   158   2e-36
+UniRef90_A0A1W4ULU1 ejaculatory bulb-specific protein 3 n=1 Tax=...   158   2e-36
+UniRef90_UPI0005D0A7B9 ejaculatory bulb-specific protein 3-like ...   158   2e-36
+UniRef90_Q3LBB2 Uncharacterized protein n=3 Tax=pseudoobscura su...   158   2e-36
+UniRef90_UPI0006CF0ACF ejaculatory bulb-specific protein 3-like ...   158   2e-36
+UniRef90_H9J3I1 Uncharacterized protein n=82 Tax=Bombyx mori Tax...   158   2e-36
+UniRef90_UPI000626B06B ejaculatory bulb-specific protein 3-like ...   158   2e-36
+UniRef90_Q0MRK4 Chemosensory protein 19 n=1 Tax=Tribolium castan...   158   2e-36
+UniRef90_F5AXS7 Chemosensory protein n=1 Tax=Batocera horsfieldi...   157   2e-36
+UniRef90_UPI000936E0A9 uncharacterized protein LOC109432491 n=1 ...   157   2e-36
+UniRef90_U5KD26 Chemosensory protein 7 n=2 Tax=Agrotis ipsilon T...   157   2e-36
+UniRef90_Q0MRK3 Chemosensory protein 18 n=1 Tax=Tribolium castan...   157   2e-36
+UniRef90_UPI000874CB2D uncharacterized protein LOC108904802 n=1 ...   157   2e-36
+UniRef90_A0A0S3J2I6 Chemosensory protein 1 n=1 Tax=Colaphellus b...   157   2e-36
+UniRef90_A0A2H4ZB71 Chemosensory protein n=2 Tax=Anoplophora Tax...   157   3e-36
+UniRef90_A0A163AMY3 Putative chemosensory protein n=1 Tax=Triato...   157   3e-36
+UniRef90_E0X9F6 Tha p 1 allergen n=2 Tax=Thaumetopoea pityocampa...   157   3e-36
+UniRef90_A0A2A4J7E9 Uncharacterized protein n=3 Tax=Heliothis vi...   157   3e-36
+UniRef90_UPI00076FAAFE ejaculatory bulb-specific protein 3 n=1 T...   157   3e-36
+UniRef90_A0A0A1CNC1 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   157   3e-36
+UniRef90_A0A0K8T6S0 Uncharacterized protein (Fragment) n=4 Tax=L...   157   3e-36
+UniRef90_UPI0006D4E07B ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_H6TDY1 CSP4 n=3 Tax=Helicoverpa armigera TaxID=29058 Re...   157   3e-36
+UniRef90_Q17JK3 AAEL002034-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   157   3e-36
+UniRef90_M4VTH1 Chemosensory protein 6 n=3 Tax=Dendroctonus pond...   157   3e-36
+UniRef90_A0A163AMU3 Putative chemosensory protein n=3 Tax=Triato...   157   3e-36
+UniRef90_UPI000BA0E9C6 ejaculatory bulb-specific protein 3 n=1 T...   157   3e-36
+UniRef90_UPI0006D4E1F8 uncharacterized protein LOC106681351 n=1 ...   157   3e-36
+UniRef90_A0A023F9L6 Ejaculatory bulb-specific protein 3 n=2 Tax=...   157   3e-36
+UniRef90_A0A182H5I5 Uncharacterized protein n=3 Tax=Aedes albopi...   157   3e-36
+UniRef90_A0A182GNG0 Uncharacterized protein n=5 Tax=Aedes albopi...   157   3e-36
+UniRef90_B0W7L1 Protein serine/threonine kinase, putative n=1 Ta...   157   3e-36
+UniRef90_UPI00067DBE04 ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_UPI000718CF1F ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_UPI000C2525EB ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_UPI0005EF0BBA ejaculatory bulb-specific protein 3-like ...   157   4e-36
+UniRef90_A0A0G2YGX2 CSP8 n=1 Tax=Holotrichia parallela TaxID=934...   157   4e-36
+UniRef90_R4UMX3 Ejaculatory bulb-specific protein III n=1 Tax=Co...   157   4e-36
+UniRef90_A0A194QVW3 Ejaculatory bulb-specific protein 3 n=2 Tax=...   157   4e-36
+UniRef90_A0A0R8PHU2 Chemosensory protein 17 n=2 Tax=Chrysopinae ...   157   4e-36
+UniRef90_UPI0006C9D436 ejaculatory bulb-specific protein 3-like ...   156   4e-36
+UniRef90_A0A067XN15 Chemosensory protein 11 n=2 Tax=Nilaparvata ...   156   4e-36
+UniRef90_Q0MRL9 Chemosensory protein 11 n=1 Tax=Tribolium castan...   156   4e-36
+UniRef90_A0A0M3R8G6 Chemosensory protein 3 n=1 Tax=Grapholita mo...   156   4e-36
+UniRef90_A0A0A1CP88 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   156   4e-36
+UniRef90_A0A1I8M222 Uncharacterized protein n=3 Tax=Musca domest...   156   4e-36
+UniRef90_A0A0U2JSX2 Chemosensory protein 28 n=1 Tax=Cnaphalocroc...   156   5e-36
+UniRef90_B0W7J3 Chemosensory protein n=1 Tax=Culex quinquefascia...   156   5e-36
+UniRef90_B4PBY6 Phk-3 n=3 Tax=melanogaster subgroup TaxID=32351 ...   156   5e-36
+UniRef90_A0A1Q3FSS0 Putative insect pheromone-binding family n=1...   156   5e-36
+UniRef90_A0A182IP17 Chemosensory protein 3 n=1 Tax=Anopheles atr...   156   5e-36
+UniRef90_A0A0J7KCJ4 Ejaculatory bulb-specific protein 3-like pro...   156   5e-36
+UniRef90_A0A2A4JRD4 Uncharacterized protein n=4 Tax=Heliothis vi...   156   6e-36
+UniRef90_UPI0007384F93 ejaculatory bulb-specific protein 3-like ...   156   6e-36
+UniRef90_R4WRA4 Protein serine/threonine kinase, putative n=1 Ta...   156   6e-36
+UniRef90_Q0MRL6 Chemosensory protein 12 n=2 Tax=Tenebrionidae Ta...   156   6e-36
+UniRef90_A0A0C5DAQ4 Chemosensory protein CSP12 mRNA n=1 Tax=Tene...   156   6e-36
+UniRef90_A0A162RQ85 Putative chemosensory protein n=1 Tax=Triato...   156   6e-36
+UniRef90_A0A182GNF5 Uncharacterized protein n=7 Tax=Stegomyia Ta...   156   6e-36
+UniRef90_A0A1W5LDL1 Putative chemosensory protein 4 n=2 Tax=Ectr...   156   6e-36
+UniRef90_UPI0006D4D5DF ejaculatory bulb-specific protein 3-like ...   156   6e-36
+UniRef90_A2IBC6 Chemosensory protein CSP3 n=2 Tax=Ditrysia TaxID...   156   6e-36
+UniRef90_A0A109ZT31 Chemosensory protein n=1 Tax=Blattella germa...   156   7e-36
+UniRef90_Q9U4Y9 Sensory appendage protein 4 n=1 Tax=Manduca sext...   156   7e-36
+UniRef90_A0A1B6EXN7 Uncharacterized protein (Fragment) n=1 Tax=C...   156   7e-36
+UniRef90_A0A2H4ZB89 Chemosensory protein n=1 Tax=Anoplophora chi...   156   7e-36
+UniRef90_A0A1B3P5M3 Chemosensory protein n=1 Tax=Eogystia hippop...   156   7e-36
+UniRef90_A0A194R1E5 Ejaculatory bulb-specific protein 3 n=4 Tax=...   156   7e-36
+UniRef90_UPI00076FDE95 ejaculatory bulb-specific protein 3-like ...   156   7e-36
+UniRef90_A0A0A1CTE9 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   156   7e-36
+UniRef90_A0A1J1IXH0 CLUMA_CG016200, isoform A n=1 Tax=Clunio mar...   156   7e-36
+UniRef90_A0A0K1DDS9 Chemosensory protein 6 n=4 Tax=Spodoptera Ta...   156   8e-36
+UniRef90_A0A1Z2R8Q3 Chemosensory protein 21 n=6 Tax=Heliothinae ...   156   8e-36
+UniRef90_A0A0U3BLK7 Chemosensory protein 24 n=1 Tax=Cnaphalocroc...   156   8e-36
+UniRef90_UPI000675EFDB ejaculatory bulb-specific protein 3-like ...   156   8e-36
+UniRef90_A0A0P0ISF4 Chemosensory protein CSP1 n=1 Tax=Athetis di...   156   8e-36
+UniRef90_UPI00067C4594 ejaculatory bulb-specific protein 3-like ...   156   8e-36
+UniRef90_A0A1W5LAS8 Putative chemosensory protein 2 n=2 Tax=Ectr...   156   8e-36
+UniRef90_A0A1I9HZN6 Chemosensory protein 3 n=1 Tax=Monochamus al...   155   9e-36
+UniRef90_A0A2A4J5F1 Uncharacterized protein n=2 Tax=Heliothis vi...   155   9e-36
+UniRef90_A0A0T6B9K2 Uncharacterized protein n=1 Tax=Oryctes borb...   155   9e-36
+UniRef90_A0A1B6KJL8 Uncharacterized protein (Fragment) n=1 Tax=G...   155   1e-35
+UniRef90_UPI0005D425C8 ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_A0A0S3J3C5 Chemosensory protein 4 n=1 Tax=Colaphellus b...   155   1e-35
+UniRef90_UPI00067C11CB ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_J7IAJ1 Chemosensory protein n=1 Tax=Grapholita molesta ...   155   1e-35
+UniRef90_A0A224Y164 Putative insect pheromone-binding family (Fr...   155   1e-35
+UniRef90_A0A182F6D7 Chemosensory protein 3 n=1 Tax=Anopheles alb...   155   1e-35
+UniRef90_O18639 Olfactory protein n=1 Tax=Cactoblastis cactorum ...   155   1e-35
+UniRef90_A0A2H4ZB62 Chemosensory protein n=2 Tax=Anoplophora Tax...   155   1e-35
+UniRef90_UPI0006CEEE69 ejaculatory bulb-specific protein 3 n=1 T...   155   1e-35
+UniRef90_A0A0A9XYG7 Ejaculatory bulb-specific protein 3 n=5 Tax=...   155   1e-35
+UniRef90_A0A195AVM4 Transcriptional adapter 2B n=12 Tax=Attini T...   155   1e-35
+UniRef90_A0A1S4ELV4 ejaculatory bulb-specific protein 3-like n=1...   155   1e-35
+UniRef90_R4G7W1 Putative chemosensory protein csp8 n=1 Tax=Rhodn...   155   1e-35
+UniRef90_U5Q2S7 Putative chemosensory protein n=1 Tax=Sesamia in...   155   1e-35
+UniRef90_UPI0006C9830D ejaculatory bulb-specific protein 3 n=1 T...   155   1e-35
+UniRef90_A0A224Y1M1 Putative pheromone binding protein (Fragment...   155   1e-35
+UniRef90_A0A0L7RK18 Ejaculatory bulb-specific protein 3 n=1 Tax=...   155   1e-35
+UniRef90_A0A0R8P118 Chemosensory protein 4 n=1 Tax=Chrysopa pall...   155   1e-35
+UniRef90_UPI0006231AE5 ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_Q8ITL3 Chemosensory protein n=6 Tax=Heliothinae TaxID=9...   155   1e-35
+UniRef90_U5KCX1 Chemosensory protein 3 n=1 Tax=Agrotis ipsilon T...   155   1e-35
+UniRef90_UPI0008112EB1 ejaculatory bulb-specific protein 3 n=1 T...   155   1e-35
+UniRef90_I4DKW7 Protein serine/threonine kinase n=3 Tax=Papilio ...   155   1e-35
+UniRef90_A0A0U3A8Y9 Chemosensory protein 25 n=1 Tax=Cnaphalocroc...   155   1e-35
+UniRef90_A0A1I8M3B0 Uncharacterized protein n=1 Tax=Musca domest...   155   1e-35
+UniRef90_U5PZ65 Putative chemosensory protein n=1 Tax=Sesamia in...   155   1e-35
+UniRef90_E2J7B1 Putative pheromone binding protein n=1 Tax=Triat...   155   1e-35
+UniRef90_A0A0P9CFL1 Uncharacterized protein n=1 Tax=Drosophila a...   155   1e-35
+UniRef90_A0A1W6L1C0 Chemosensory protein 2 n=1 Tax=Cephus cinctu...   155   1e-35
+UniRef90_U5Q2R2 Putative chemosensory protein n=1 Tax=Sesamia in...   155   1e-35
+UniRef90_A0A1B6MID6 Uncharacterized protein (Fragment) n=1 Tax=G...   155   1e-35
+UniRef90_UPI000626DEA8 ejaculatory bulb-specific protein 3 n=1 T...   155   1e-35
+UniRef90_A0A1B6C5Y1 Uncharacterized protein (Fragment) n=2 Tax=C...   154   1e-35
+UniRef90_UPI000258EA3C ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_A0A2H1WBX0 SFRICE025771.2 (Fragment) n=1 Tax=Spodoptera...   154   2e-35
+UniRef90_Q5MGD4 Sensory protein 1 n=1 Tax=Lonomia obliqua TaxID=...   154   2e-35
+UniRef90_E2IGV4 Chemosensory protein n=2 Tax=Delphacidae TaxID=3...   154   2e-35
+UniRef90_A0A1B4ZBL0 Chemosensory protein 8 n=1 Tax=Ostrinia furn...   154   2e-35
+UniRef90_A0A224XT80 Putative pheromone binding protein (Fragment...   154   2e-35
+UniRef90_UPI0005F4E041 ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_A0A2H4ZB99 Chemosensory protein n=2 Tax=Anoplophora Tax...   154   2e-35
+UniRef90_Q0MRL8 Chemosensory protein 14 n=1 Tax=Tribolium castan...   154   2e-35
+UniRef90_G8HHA3 Chemosensory protein 4 n=3 Tax=Apolygus lucorum ...   154   2e-35
+UniRef90_R4WD24 Protein serine/threonine kinase, putative n=1 Ta...   154   2e-35
+UniRef90_Q9U503 Sensory appendage protein 3 n=1 Tax=Manduca sext...   154   2e-35
+UniRef90_UPI0006C9A54D ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_Q9U4Z6 Sensory appendage protein 2 n=1 Tax=Manduca sext...   154   2e-35
+UniRef90_A0A0X8U7S3 Chemosensory protein 7 n=1 Tax=Rhyzopertha d...   154   2e-35
+UniRef90_A0A0U3BJT0 Chemosensory protein 23 n=1 Tax=Cnaphalocroc...   154   2e-35
+UniRef90_A8QWQ8 Chemosensory protein n=3 Tax=Papilio xuthus TaxI...   154   2e-35
+UniRef90_UPI000995CA52 ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_A0A1W6GWG3 Chemosensory protein n=1 Tax=Galeruca dauric...   154   2e-35
+UniRef90_A0A1I8PXA2 Uncharacterized protein n=2 Tax=Stomoxys cal...   154   2e-35
+UniRef90_A2IBC3 Chemosensory protein CSP2 n=3 Tax=Plutella xylos...   154   2e-35
+UniRef90_Q6TAA3 Chemosensory protein 3 n=1 Tax=Choristoneura fum...   154   2e-35
+UniRef90_A0A182NU81 Chemosensory protein 3 n=1 Tax=Anopheles dir...   154   2e-35
+UniRef90_A0A2H1WBZ5 SFRICE025769.2 n=7 Tax=Spodoptera TaxID=7106...   154   2e-35
+UniRef90_A0A0G2YDA6 CSP9 n=1 Tax=Holotrichia parallela TaxID=934...   154   2e-35
+UniRef90_UPI0007E311D4 ejaculatory bulb-specific protein 3 n=3 T...   154   2e-35
+UniRef90_A0A0A9WVI0 Putative chemosensory protein 11 n=2 Tax=Lyg...   154   2e-35
+UniRef90_Q17JK9 AAEL001985-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   154   2e-35
+UniRef90_A0A084VNC3 AGAP008055-PA-like protein n=1 Tax=Anopheles...   154   2e-35
+UniRef90_A0A1Z2R8R1 Chemosensory protein 25 n=2 Tax=Helicoverpa ...   154   3e-35
+UniRef90_A0A2H1VXU6 SFRICE041981.2 n=1 Tax=Spodoptera frugiperda...   154   3e-35
+UniRef90_A0A1W6R6E7 Chemosensory protein 6 n=1 Tax=Daktulosphair...   154   3e-35
+UniRef90_B4MNU6 Uncharacterized protein n=1 Tax=Drosophila willi...   154   3e-35
+UniRef90_UPI0005AC4990 ejaculatory bulb-specific protein 3-like ...   154   3e-35
+UniRef90_D2EBB0 Chemosensory protein 4 n=5 Tax=Glossina TaxID=44...   154   3e-35
+UniRef90_A0A0K8TUT0 Chemosensory Protein n=1 Tax=Epiphyas postvi...   154   3e-35
+UniRef90_UPI000258D893 ejaculatory bulb-specific protein 3-like ...   154   3e-35
+UniRef90_UPI00096B1202 ejaculatory bulb-specific protein 3-like ...   154   3e-35
+UniRef90_A2TIK4 Chemosensory protein 3 n=4 Tax=Plutella xylostel...   154   3e-35
+UniRef90_A0A110A072 Chemosensory protein n=1 Tax=Blattella germa...   153   3e-35
+UniRef90_UPI000C208BAC ejaculatory bulb-specific protein 3-like ...   153   3e-35
+UniRef90_Q3LBA6 Chemosensory protein 4 n=6 Tax=Apis TaxID=7459 R...   153   3e-35
+UniRef90_A0A1I9HZN4 Chemosensory protein 7 n=1 Tax=Monochamus al...   153   3e-35
+UniRef90_UPI0006409BB7 ejaculatory bulb-specific protein 3-like ...   153   3e-35
+UniRef90_UPI000C207999 ejaculatory bulb-specific protein 3-like ...   153   3e-35
+UniRef90_A0A0C5KA81 Chemosensory protein n=1 Tax=Phenacoccus sol...   153   3e-35
+UniRef90_A0A2H4ZB67 Chemosensory protein n=2 Tax=Anoplophora Tax...   153   4e-35
+UniRef90_UPI00083FDFF8 ejaculatory bulb-specific protein 3-like ...   153   4e-35
+UniRef90_Q6H8Y9 AGAP008055-PA n=6 Tax=gambiae species complex Ta...   153   4e-35
+UniRef90_A0A182JZP3 Chemosensory protein 3 n=1 Tax=Anopheles chr...   153   4e-35
+UniRef90_A0A172QDQ0 Chemosensory protein 4 n=1 Tax=Athetis dissi...   153   4e-35
+UniRef90_R4G848 Putative insect pheromone-binding family n=2 Tax...   153   4e-35
+UniRef90_A0A194QVW8 Putative odorant-binding protein A10 n=2 Tax...   153   4e-35
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_A0A084VNC4 AGAP008053-PA-like protein n=1 Tax=Anopheles sinensis TaxID=74873
+           RepID=A0A084VNC4_ANOSI
+          Length = 589
+
+ Score =  190 bits (485), Expect = 2e-46,   Method: Composition-based stats.
+ Identities = 42/99 (42%), Positives = 62/99 (62%)
+
+Query: 2   INLDEILANKRLLVAYVNCVMERGKCSPEGKELKEHLQDAIENGCKKCTENQEKGAYRVI 61
+           ++LDEIL + RL   Y  C++++G+C+P+G ELK  L DA++  C KC+E Q+ G  +VI
+Sbjct: 491 VDLDEILKSDRLFNNYYKCLLDQGRCTPDGNELKRILPDALQTDCAKCSEKQKSGTEKVI 550
+
+Query: 62  EHLIKNEIEIWRELTAKYDPTGNWRKKYEDRAKAAGIVI 100
+            +LI N  + W+ L  KYDP   +  KY D A   GI +
+Sbjct: 551 NYLIDNRNDQWQNLQKKYDPENIYVNKYRDEANKKGIKL 589
+
+
+Searching..................................................done
+
+
+Results from round 4
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_A0A084VNC4 AGAP008053-PA-like protein n=1 Tax=Anopheles...   190   3e-46
+UniRef90_A0A2A3EP22 DC-STAMP domain-containing protein n=2 Tax=A...   188   2e-45
+UniRef90_A0A182F6D9 Uncharacterized protein n=1 Tax=Anopheles al...   186   4e-45
+UniRef90_W5JM80 Sensory appendage protein n=1 Tax=Anopheles darl...   183   3e-44
+UniRef90_A0A151X6Q8 Ejaculatory bulb-specific protein 3 n=2 Tax=...   180   3e-43
+UniRef90_A0A151I3T5 Ejaculatory bulb-specific protein 3 n=1 Tax=...   179   6e-43
+UniRef90_B0W7L2 Sensory appendage protein n=1 Tax=Culex quinquef...   179   8e-43
+UniRef90_F6MFX2 Putative chemosensory-binding protein n=2 Tax=Ny...   179   9e-43
+UniRef90_A0A195CCT5 Ejaculatory bulb-specific protein 3 n=1 Tax=...   178   1e-42
+UniRef90_W5JMN0 Serine/threonine kinase n=1 Tax=Anopheles darlin...   178   2e-42
+UniRef90_A0A182P4W5 Uncharacterized protein n=1 Tax=Anopheles ep...   177   3e-42
+UniRef90_A0A182J6W5 Uncharacterized protein n=2 Tax=Anopheles Ta...   177   3e-42
+UniRef90_UPI00096B57BC ejaculatory bulb-specific protein 3-like ...   177   3e-42
+UniRef90_F4WYC0 Ejaculatory bulb-specific protein 3 n=1 Tax=Acro...   176   5e-42
+UniRef90_A0A2J7QAE1 Ejaculatory bulb-specific protein 3 n=1 Tax=...   176   6e-42
+UniRef90_A0A084VNC6 Uncharacterized protein n=1 Tax=Anopheles si...   176   6e-42
+UniRef90_A0A068F6S2 Chemosensory protein n=2 Tax=Calliphoridae T...   175   9e-42
+UniRef90_D6BJF5 Odorant-binding protein n=2 Tax=Bombus TaxID=144...   174   2e-41
+UniRef90_A0A0N9JS20 Chemosensory protein 6 n=1 Tax=Sclerodermus ...   174   3e-41
+UniRef90_Q17JH7 AAEL002022-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   174   3e-41
+UniRef90_A0A182JK44 Uncharacterized protein n=1 Tax=Anopheles at...   173   4e-41
+UniRef90_UPI00022C92A9 ejaculatory bulb-specific protein 3 n=1 T...   173   4e-41
+UniRef90_B4M2Q7 Uncharacterized protein n=1 Tax=Drosophila viril...   173   4e-41
+UniRef90_A0A1B6LFB3 Uncharacterized protein n=1 Tax=Graphocephal...   173   5e-41
+UniRef90_A0A1S4FBD1 Protein serine/threonine kinase, putative n=...   173   6e-41
+UniRef90_UPI00073D9BB8 transcriptional adapter 2B isoform X13 n=...   173   6e-41
+UniRef90_A0A182W797 Uncharacterized protein n=1 Tax=Anopheles mi...   173   6e-41
+UniRef90_A0A034WWI9 Chemosensory protein 2 n=5 Tax=Dacinae TaxID...   172   7e-41
+UniRef90_A0A1L8DPP6 Putative insect pheromone-binding family (Fr...   172   7e-41
+UniRef90_A0A195FEW1 Ejaculatory bulb-specific protein 3 (Fragmen...   172   8e-41
+UniRef90_A0A182QUR3 Uncharacterized protein n=1 Tax=Anopheles fa...   172   8e-41
+UniRef90_A0A1I8NHK8 Uncharacterized protein n=1 Tax=Musca domest...   172   8e-41
+UniRef90_B3MCQ6 Uncharacterized protein n=2 Tax=ananassae subgro...   172   8e-41
+UniRef90_D4AHN9 Chemosensory protein 1 n=1 Tax=Delia antiqua Tax...   172   8e-41
+UniRef90_A0A182HUV9 Uncharacterized protein n=8 Tax=Cellia TaxID...   172   9e-41
+UniRef90_D2EBA9 Chemosensory protein 3 n=5 Tax=Glossina TaxID=44...   172   1e-40
+UniRef90_A0A0M3VGJ7 Chemosensory protein n=3 Tax=Camponotus TaxI...   171   1e-40
+UniRef90_UPI0006CEC1C9 ejaculatory bulb-specific protein 3-like ...   171   1e-40
+UniRef90_A0A1B6HNW9 Uncharacterized protein (Fragment) n=1 Tax=H...   171   2e-40
+UniRef90_Q8I6X7 Antennal-specific protein 3c n=5 Tax=Apis TaxID=...   171   2e-40
+UniRef90_UPI0007383B4E ejaculatory bulb-specific protein 3-like ...   171   2e-40
+UniRef90_A0A1W4WBY9 ejaculatory bulb-specific protein 3-like n=1...   171   2e-40
+UniRef90_UPI0007E65F29 ejaculatory bulb-specific protein 3 n=2 T...   171   2e-40
+UniRef90_A0A1A9ZZI4 Chemosensory protein 3 n=1 Tax=Glossina pall...   171   2e-40
+UniRef90_A0A1A9WI62 Chemosensory protein 1 n=1 Tax=Glossina brev...   171   2e-40
+UniRef90_UPI000C255B65 uncharacterized protein LOC111510033 n=1 ...   171   2e-40
+UniRef90_A0A1Q3FQG9 Putative insect pheromone-binding family (Fr...   170   3e-40
+UniRef90_UPI000718CEA8 ejaculatory bulb-specific protein 3 n=2 T...   170   3e-40
+UniRef90_A0A0M9A4W2 Ejaculatory bulb-specific protein 3 n=1 Tax=...   170   3e-40
+UniRef90_A0A0L7QSW3 Ejaculatory bulb-specific protein 3 (Fragmen...   170   3e-40
+UniRef90_A0A109VYC4 Chemosensory protein 2 n=1 Tax=Rhyzopertha d...   170   3e-40
+UniRef90_UPI00083C6413 ejaculatory bulb-specific protein 3-like ...   170   3e-40
+UniRef90_A0A0B4KZC8 Chemosensory protein 8 n=1 Tax=Lissorhoptrus...   170   4e-40
+UniRef90_B4L4E8 Uncharacterized protein n=3 Tax=mojavensis speci...   170   4e-40
+UniRef90_A0A1S3DC45 uncharacterized protein LOC103515708 n=1 Tax...   169   5e-40
+UniRef90_B4J670 GH21706 n=1 Tax=Drosophila grimshawi TaxID=7222 ...   169   5e-40
+UniRef90_Q8MTC3 Chemosensory protein n=1 Tax=Rhyparobia maderae ...   169   5e-40
+UniRef90_A0A023F7T9 Putative insect pheromone-binding family n=2...   169   5e-40
+UniRef90_A0A1B6JEL1 Uncharacterized protein n=2 Tax=Cicadellinae...   169   5e-40
+UniRef90_UPI0006231335 ejaculatory bulb-specific protein 3 n=1 T...   169   6e-40
+UniRef90_UPI0007E6E06A putative odorant-binding protein A10 n=3 ...   169   7e-40
+UniRef90_A0A1A9ZZH9 Chemosensory protein 1 n=1 Tax=Glossina pall...   169   7e-40
+UniRef90_Q0MRL3 Chemosensory protein 10 n=1 Tax=Tribolium castan...   169   7e-40
+UniRef90_A0A182GQA7 Uncharacterized protein n=3 Tax=Aedes albopi...   169   8e-40
+UniRef90_Q27377 Putative odorant-binding protein A10 n=6 Tax=mel...   169   8e-40
+UniRef90_UPI0006CEF918 ejaculatory bulb-specific protein 3-like ...   169   8e-40
+UniRef90_A0A0G2YIV7 CSP11 n=1 Tax=Holotrichia parallela TaxID=93...   169   8e-40
+UniRef90_UPI000625525C ejaculatory bulb-specific protein 3 n=1 T...   169   9e-40
+UniRef90_UPI00081164B8 ejaculatory bulb-specific protein 3 n=1 T...   169   9e-40
+UniRef90_A0A0B4KZD7 Chemosensory protein 6 n=1 Tax=Lissorhoptrus...   169   1e-39
+UniRef90_B0W7K3 Chemosensory protein 1 n=1 Tax=Culex quinquefasc...   169   1e-39
+UniRef90_B4KLX1 Uncharacterized protein n=2 Tax=mojavensis speci...   168   1e-39
+UniRef90_A0A1V1WC03 Chemosensory protein 8 n=1 Tax=Mythimna sepa...   168   1e-39
+UniRef90_UPI00076790C3 ejaculatory bulb-specific protein 3-like ...   168   1e-39
+UniRef90_A0A0C9RRW4 PebIII_6 protein n=1 Tax=Fopius arisanus Tax...   168   1e-39
+UniRef90_UPI0006CEC7D0 ejaculatory bulb-specific protein 3-like ...   168   1e-39
+UniRef90_D7R4I0 Putative chemosensory binding protein n=1 Tax=St...   168   1e-39
+UniRef90_A0A1I8PGN5 Uncharacterized protein n=1 Tax=Stomoxys cal...   168   1e-39
+UniRef90_A0A162SJU5 Putative chemosensory protein n=1 Tax=Triato...   168   1e-39
+UniRef90_UPI0007E755FC putative odorant-binding protein A10 n=2 ...   168   1e-39
+UniRef90_UPI0006CEE0A9 ejaculatory bulb-specific protein 3-like ...   168   1e-39
+UniRef90_A0A182Q2T4 Uncharacterized protein n=9 Tax=Cellia TaxID...   168   1e-39
+UniRef90_A0A1A9X9M0 Chemosensory protein 1 n=1 Tax=Glossina fusc...   168   2e-39
+UniRef90_A0A182H496 Uncharacterized protein n=39 Tax=Stegomyia T...   168   2e-39
+UniRef90_E0W2K0 Ejaculatory bulb-specific protein 3 precursor,pu...   168   2e-39
+UniRef90_A0A1W4VS11 putative odorant-binding protein A10 n=1 Tax...   168   2e-39
+UniRef90_A0A1B6GV50 Uncharacterized protein (Fragment) n=1 Tax=C...   168   2e-39
+UniRef90_T1IAF9 Chemosensory protein (Fragment) n=1 Tax=Rhodnius...   168   2e-39
+UniRef90_A0A182NU77 Uncharacterized protein n=1 Tax=Anopheles di...   167   2e-39
+UniRef90_E9IV35 Uncharacterized protein (Fragment) n=1 Tax=Solen...   167   2e-39
+UniRef90_A0A182RC90 Uncharacterized protein n=1 Tax=Anopheles fu...   167   3e-39
+UniRef90_U4UIQ9 Uncharacterized protein n=2 Tax=Dendroctonus pon...   167   3e-39
+UniRef90_R4G3I9 Putative chemosensory protein csp8 n=1 Tax=Rhodn...   167   3e-39
+UniRef90_A0A182MHY6 Uncharacterized protein n=2 Tax=Myzomyia Tax...   167   3e-39
+UniRef90_UPI00063F447D ejaculatory bulb-specific protein 3-like ...   167   3e-39
+UniRef90_A0A1X9H816 Chemosensory protein n=1 Tax=Bradysia odorip...   167   3e-39
+UniRef90_UPI0007E5D27B putative odorant-binding protein A10 n=2 ...   167   3e-39
+UniRef90_B4LP05 Uncharacterized protein n=1 Tax=Drosophila viril...   167   3e-39
+UniRef90_UPI0005D3F473 ejaculatory bulb-specific protein 3 n=1 T...   167   3e-39
+UniRef90_T1E2M0 Protein serine/threonine kinase n=1 Tax=Psoropho...   167   3e-39
+UniRef90_Q179A5 AAEL005698-PA n=2 Tax=Aedes aegypti TaxID=7159 R...   167   3e-39
+UniRef90_A0A097GUD6 Chemosensory protein 3 n=2 Tax=Bemisia tabac...   167   3e-39
+UniRef90_Q179A3 AAEL005691-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   167   3e-39
+UniRef90_A0A154P480 Ejaculatory bulb-specific protein 3 n=1 Tax=...   167   3e-39
+UniRef90_A0A0R7JHR1 Olfactory protein (Fragment) n=2 Tax=Solenop...   167   4e-39
+UniRef90_T1P8W4 Pheromone-binding family, A10/OS-D n=1 Tax=Musca...   167   4e-39
+UniRef90_A0A1Q3FQQ8 Protein serine/threonine kinase n=5 Tax=Cule...   166   4e-39
+UniRef90_UPI000C20AAFB ejaculatory bulb-specific protein 3-like ...   166   4e-39
+UniRef90_A0A1I8MUF0 Uncharacterized protein n=1 Tax=Musca domest...   166   4e-39
+UniRef90_B0W7L4 Sensory appendage protein n=2 Tax=Culex quinquef...   166   4e-39
+UniRef90_E2BGF3 Ejaculatory bulb-specific protein 3 n=2 Tax=Harp...   166   5e-39
+UniRef90_UPI00096B383B ejaculatory bulb-specific protein 3-like ...   166   5e-39
+UniRef90_UPI0005F3F828 ejaculatory bulb-specific protein 3 n=1 T...   166   5e-39
+UniRef90_B0W7J4 Protein serine/threonine kinase, putative n=2 Ta...   166   5e-39
+UniRef90_A0A182TCG7 Uncharacterized protein n=2 Tax=Neocellia Ta...   166   5e-39
+UniRef90_A0A1W6L150 Chemosensory protein 4 n=1 Tax=Cephus cinctu...   166   6e-39
+UniRef90_A0A023EFH6 Protein serine/threonine kinase n=6 Tax=Steg...   166   6e-39
+UniRef90_A0A1I8MMU3 Uncharacterized protein n=1 Tax=Musca domest...   166   6e-39
+UniRef90_A0A182GQA8 Uncharacterized protein n=2 Tax=Stegomyia Ta...   166   6e-39
+UniRef90_A0A1I8MVA8 Uncharacterized protein n=2 Tax=Musca domest...   166   6e-39
+UniRef90_A0A067RHP2 Ejaculatory bulb-specific protein 3 n=1 Tax=...   166   7e-39
+UniRef90_A0A0X8DBS1 Chemosensory protein n=1 Tax=Blattella germa...   166   7e-39
+UniRef90_UPI000C6C708B ejaculatory bulb-specific protein 3 n=1 T...   166   7e-39
+UniRef90_A0A0H3W580 Chemosensory protein 2 n=8 Tax=Dendroctonus ...   166   8e-39
+UniRef90_M4VR62 Chemosensory protein 8 n=3 Tax=Dendroctonus pond...   165   8e-39
+UniRef90_UPI00096B49FA ejaculatory bulb-specific protein 3-like ...   165   9e-39
+UniRef90_UPI000994DB72 ejaculatory bulb-specific protein 3 n=1 T...   165   1e-38
+UniRef90_UPI0005D0537F uncharacterized protein LOC105393182 n=1 ...   165   1e-38
+UniRef90_A0A1I8Q5N5 Uncharacterized protein n=2 Tax=Stomoxys cal...   165   1e-38
+UniRef90_Q0MRK7 Chemosensory protein 16 n=1 Tax=Tribolium castan...   165   1e-38
+UniRef90_UPI000258F6A6 ejaculatory bulb-specific protein 3-like ...   165   1e-38
+UniRef90_A0A1I9HZN7 Chemosensory protein 8 n=3 Tax=Lamiinae TaxI...   165   1e-38
+UniRef90_UPI000711A155 ejaculatory bulb-specific protein 3 n=1 T...   164   1e-38
+UniRef90_A0A023SDZ8 Acid trehalase n=1 Tax=Aphis gossypii TaxID=...   164   1e-38
+UniRef90_A0A0G2YKM6 CSP10 n=1 Tax=Holotrichia parallela TaxID=93...   164   2e-38
+UniRef90_A0A0L7LE98 Olfactory protein n=1 Tax=Operophtera brumat...   164   2e-38
+UniRef90_A0A182Y014 Uncharacterized protein n=1 Tax=Anopheles st...   164   2e-38
+UniRef90_Q0MRK9 Chemosensory protein 14 n=1 Tax=Tribolium castan...   164   2e-38
+UniRef90_Q0MRK6 Chemosensory protein 17 n=1 Tax=Tribolium castan...   164   2e-38
+UniRef90_UPI000994DAF7 ejaculatory bulb-specific protein 3-like ...   164   2e-38
+UniRef90_A0A0S3J433 Chemosensory protein 12 n=1 Tax=Colaphellus ...   164   2e-38
+UniRef90_Q0MRL1 Chemosensory protein 12 n=2 Tax=Tribolium castan...   164   2e-38
+UniRef90_A0A0A0V9F9 Chemosensory protein n=7 Tax=Heliothinae Tax...   164   2e-38
+UniRef90_Q17JK0 AAEL001981-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   164   2e-38
+UniRef90_UPI0005EFB4F6 ejaculatory bulb-specific protein 3-like ...   164   2e-38
+UniRef90_UPI0006CECE9F ejaculatory bulb-specific protein 3-like ...   164   2e-38
+UniRef90_A0A0E3Y5Z5 Chemosensory protein 5 n=2 Tax=Scarabaeidae ...   164   3e-38
+UniRef90_A0A182W795 Chemosensory protein 3 n=1 Tax=Anopheles min...   164   3e-38
+UniRef90_UPI0006784B71 ejaculatory bulb-specific protein 3-like ...   164   3e-38
+UniRef90_A0A1D1ZHP1 Ejaculatory bulb-specific protein 3 (Fragmen...   164   3e-38
+UniRef90_A0A2H8TJL0 Ejaculatory bulb-specific protein 3 n=1 Tax=...   164   3e-38
+UniRef90_A0A0X8T3E2 Chemosensory protein 6 n=1 Tax=Rhyzopertha d...   164   3e-38
+UniRef90_A0A1A9ZF38 Chemosensory protein 2 n=6 Tax=Glossina TaxI...   164   3e-38
+UniRef90_A0A0G2YDA2 CSP4 n=1 Tax=Holotrichia parallela TaxID=934...   163   3e-38
+UniRef90_B0W7K8 Chemosensory protein 1 n=1 Tax=Culex quinquefasc...   163   3e-38
+UniRef90_A0A2H4ZB52 Chemosensory protein n=1 Tax=Anoplophora chi...   163   3e-38
+UniRef90_I1VJ19 Chemosensory protein n=3 Tax=Dendroctonus ponder...   163   3e-38
+UniRef90_A0A0N9JMS5 Chemosensory protein 8 n=1 Tax=Sclerodermus ...   163   3e-38
+UniRef90_A0A182JF33 Uncharacterized protein n=1 Tax=Anopheles at...   163   3e-38
+UniRef90_A0A1W4WND1 ejaculatory bulb-specific protein 3-like n=1...   163   3e-38
+UniRef90_M3V872 Chemosensory protein 5 n=1 Tax=Ips typographus T...   163   3e-38
+UniRef90_A0A1I8M5F9 Uncharacterized protein n=1 Tax=Musca domest...   163   4e-38
+UniRef90_UPI000B39749B uncharacterized protein LOC110376358 n=1 ...   163   4e-38
+UniRef90_B3MCC8 Uncharacterized protein n=1 Tax=Drosophila anana...   163   4e-38
+UniRef90_A0A1Q3FR86 Protein serine/threonine kinase n=2 Tax=Cule...   163   4e-38
+UniRef90_A0A232F1P8 Uncharacterized protein n=1 Tax=Trichomalops...   163   4e-38
+UniRef90_A0A162J9G6 Chemosensory protein CSP1 (Fragment) n=1 Tax...   163   4e-38
+UniRef90_B0W7K9 Protein serine/threonine kinase, putative n=1 Ta...   163   4e-38
+UniRef90_U5EWH7 Protein serine/threonine kinase n=1 Tax=Corethre...   163   4e-38
+UniRef90_B7TVH4 Chemosensory protein 8 n=1 Tax=Nilaparvata lugen...   163   4e-38
+UniRef90_A0A182SQ39 Chemosensory protein 3 n=1 Tax=Anopheles mac...   163   5e-38
+UniRef90_A0A1Q3FSQ4 Putative insect pheromone-binding family (Fr...   163   5e-38
+UniRef90_UPI000614A32B ejaculatory bulb-specific protein 3-like ...   163   5e-38
+UniRef90_A0A1S5VFI4 Chemosensory protein 2 n=1 Tax=Meteorus pulc...   163   5e-38
+UniRef90_A0A2A4JQ89 Uncharacterized protein n=2 Tax=Heliothinae ...   163   5e-38
+UniRef90_A0A194QW19 Ejaculatory bulb-specific protein 3 n=2 Tax=...   163   5e-38
+UniRef90_Q0MRK5 Chemosensory protein 18 n=1 Tax=Tribolium castan...   163   5e-38
+UniRef90_A0A182JTL7 Uncharacterized protein n=2 Tax=Pyretophorus...   163   5e-38
+UniRef90_Q3LB73 Uncharacterized protein (Fragment) n=1 Tax=Locus...   163   5e-38
+UniRef90_A0A1V1WC09 Chemosensory protein 7 n=2 Tax=Noctuidae Tax...   163   5e-38
+UniRef90_UPI000C6C7C3E putative odorant-binding protein A10 n=1 ...   163   6e-38
+UniRef90_A0A0L7QTX3 Ejaculatory bulb-specific protein 3 n=1 Tax=...   163   6e-38
+UniRef90_A0A2D1VLM9 Chemosensory protein (Fragment) n=2 Tax=Anop...   163   6e-38
+UniRef90_A0A1I8PKC1 Uncharacterized protein n=1 Tax=Stomoxys cal...   163   6e-38
+UniRef90_A0A194QW24 Putative odorant-binding protein A10 n=3 Tax...   163   6e-38
+UniRef90_A0A182GXD6 Uncharacterized protein n=3 Tax=Stegomyia Ta...   163   6e-38
+UniRef90_UPI000626C94D ejaculatory bulb-specific protein 3-like ...   162   7e-38
+UniRef90_W8AIH5 Putative odorant-binding protein A10 n=2 Tax=Cer...   162   7e-38
+UniRef90_A0A1B6EL86 Uncharacterized protein (Fragment) n=1 Tax=C...   162   8e-38
+UniRef90_A0A162S9V4 Putative chemosensory protein n=4 Tax=Triato...   162   8e-38
+UniRef90_E0W2J9 Ejaculatory bulb-specific protein 3 precursor,pu...   162   8e-38
+UniRef90_UPI0008119CD2 putative odorant-binding protein A10 isof...   162   8e-38
+UniRef90_A0A1W4WC46 ejaculatory bulb-specific protein 3-like n=1...   162   8e-38
+UniRef90_UPI0007E85346 putative odorant-binding protein A10 n=1 ...   162   8e-38
+UniRef90_UPI0008403BBC ejaculatory bulb-specific protein 3-like ...   162   8e-38
+UniRef90_A0A0B4KZC5 Chemosensory protein 9 n=1 Tax=Lissorhoptrus...   162   9e-38
+UniRef90_A0A1I9HZM9 Chemosensory protein 5 n=1 Tax=Monochamus al...   162   9e-38
+UniRef90_A0A1W4UZE6 ejaculatory bulb-specific protein 3 n=4 Tax=...   162   9e-38
+UniRef90_UPI000C2547D5 ejaculatory bulb-specific protein 3-like ...   162   9e-38
+UniRef90_UPI0007E8348B putative odorant-binding protein A10 n=2 ...   162   9e-38
+UniRef90_Q0MRL2 Chemosensory protein 1 n=1 Tax=Tribolium castane...   162   9e-38
+UniRef90_UPI00083C5ACE ejaculatory bulb-specific protein 3-like ...   162   9e-38
+UniRef90_Q9W1C9 Ejaculatory bulb-specific protein 3 n=10 Tax=mel...   162   9e-38
+UniRef90_A0A162SJT1 Putative chemosensory protein n=2 Tax=Triato...   162   9e-38
+UniRef90_A0A0T6BCP4 Uncharacterized protein n=1 Tax=Oryctes borb...   162   9e-38
+UniRef90_UPI00096B383F ejaculatory bulb-specific protein 3-like ...   162   9e-38
+UniRef90_UPI000C202A67 ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_A0A158P251 Uncharacterized protein n=5 Tax=Attini TaxID...   162   1e-37
+UniRef90_A0A1I8MHQ2 Uncharacterized protein n=1 Tax=Musca domest...   162   1e-37
+UniRef90_UPI000C20D6AB ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_A0A1L2BL72 Chemosensory protein 8 n=1 Tax=Ectropis obli...   162   1e-37
+UniRef90_UPI00096AE932 uncharacterized protein LOC109595889 n=1 ...   162   1e-37
+UniRef90_UPI00099D2809 hypothetical protein n=2 Tax=Kitasatospor...   162   1e-37
+UniRef90_Q3LB63 Uncharacterized protein n=1 Tax=Biphyllus lunatu...   162   1e-37
+UniRef90_UPI0007382FD0 ejaculatory bulb-specific protein 3-like ...   162   1e-37
+UniRef90_A0A0C4K8H1 CSP2 protein n=1 Tax=Conogethes punctiferali...   161   1e-37
+UniRef90_M3UZC9 Chemosensory protein 1 (Fragment) n=1 Tax=Ips ty...   161   1e-37
+UniRef90_L7XDI4 Chemosensory protein 1 n=3 Tax=Mirini TaxID=2366...   161   1e-37
+UniRef90_UPI00076FD94C ejaculatory bulb-specific protein 3 n=1 T...   161   1e-37
+UniRef90_R4G4C1 Putative chemosensory protein 12 n=1 Tax=Rhodniu...   161   1e-37
+UniRef90_UPI000B9847C7 ejaculatory bulb-specific protein 3-like ...   161   1e-37
+UniRef90_E0W2K1 Ejaculatory bulb-specific protein 3 precursor,pu...   161   1e-37
+UniRef90_A0A0C5DMM4 Chemosensory protein CSP4 mRNA n=1 Tax=Teneb...   161   1e-37
+UniRef90_A0A1L8EHT3 Putative insect pheromone-binding family n=1...   161   1e-37
+UniRef90_A0A068F5S3 Chemosensory protein n=1 Tax=Calliphora styg...   161   1e-37
+UniRef90_Q17JK2 AAEL001975-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   161   1e-37
+UniRef90_UPI000B935A69 putative mediator of RNA polymerase II tr...   161   1e-37
+UniRef90_UPI00083C425C ejaculatory bulb-specific protein 3-like ...   161   1e-37
+UniRef90_UPI00062551A1 ejaculatory bulb-specific protein 3 n=1 T...   161   2e-37
+UniRef90_Q68K20 Sensory appendage protein 1 n=1 Tax=Culicoides s...   161   2e-37
+UniRef90_B0W7K5 Chemosensory protein 1 n=3 Tax=Culex quinquefasc...   161   2e-37
+UniRef90_A0A1B6BZK0 Uncharacterized protein (Fragment) n=1 Tax=C...   161   2e-37
+UniRef90_A0A026WW33 Uncharacterized protein n=1 Tax=Ooceraea bir...   161   2e-37
+UniRef90_A0A1I9HZR3 Chemosensory protein 11 (Fragment) n=1 Tax=M...   161   2e-37
+UniRef90_UPI0006B7291D putative odorant-binding protein A10 isof...   161   2e-37
+UniRef90_B4JJP2 GH12519 n=1 Tax=Drosophila grimshawi TaxID=7222 ...   161   2e-37
+UniRef90_A0A182RC93 Chemosensory protein 3 n=2 Tax=Myzomyia TaxI...   161   2e-37
+UniRef90_A0A0C5D653 Chemosensory protein CSP11 mRNA n=1 Tax=Tene...   161   2e-37
+UniRef90_A0A182F6D8 Uncharacterized protein n=2 Tax=albimanus se...   161   2e-37
+UniRef90_UPI00083C3476 ejaculatory bulb-specific protein 3-like ...   161   2e-37
+UniRef90_A0A1B6I1A3 Uncharacterized protein (Fragment) n=1 Tax=H...   161   2e-37
+UniRef90_A0A1B3P5L5 Chemosensory protein n=1 Tax=Eogystia hippop...   161   2e-37
+UniRef90_W5JKP3 Serine/threonine kinase n=3 Tax=Nyssorhynchus Ta...   161   2e-37
+UniRef90_Q7Q3U7 AGAP008051-PA n=7 Tax=gambiae species complex Ta...   161   2e-37
+UniRef90_A0A162J9J5 Chemosensory protein CSP2 (Fragment) n=1 Tax...   161   2e-37
+UniRef90_A0A0L0C325 Putative odorant-binding protein A10 n=1 Tax...   161   2e-37
+UniRef90_A0A182HUV8 Uncharacterized protein n=15 Tax=Cellia TaxI...   161   3e-37
+UniRef90_U5PZ70 Putative chemosensory protein n=1 Tax=Sesamia in...   161   3e-37
+UniRef90_A0A1B0BQW0 Chemosensory protein 4 n=2 Tax=Nemorhina Tax...   160   3e-37
+UniRef90_A0A0A0VDH1 Chemosensory protein n=2 Tax=Holometabola Ta...   160   3e-37
+UniRef90_A0A1B4ZBM6 Chemosensory protein 4 n=1 Tax=Ostrinia furn...   160   3e-37
+UniRef90_A0A034WNV4 Putative odorant-binding protein A10 n=5 Tax...   160   3e-37
+UniRef90_G8HHA2 Chemosensory protein 3 n=1 Tax=Apolygus lucorum ...   160   3e-37
+UniRef90_A0A2C9PH04 CSP9 n=3 Tax=Anoplophora TaxID=157304 RepID=...   160   3e-37
+UniRef90_A0A1S3DC40 ejaculatory bulb-specific protein 3-like n=1...   160   3e-37
+UniRef90_UPI0006D51519 ejaculatory bulb-specific protein 3-like ...   160   3e-37
+UniRef90_UPI00061881E1 ejaculatory bulb-specific protein 3 n=1 T...   160   3e-37
+UniRef90_UPI000840515C ejaculatory bulb-specific protein 3-like ...   160   3e-37
+UniRef90_A0A1W6GWH8 Chemosensory protein n=3 Tax=Galerucini TaxI...   160   3e-37
+UniRef90_A0A182QLL8 Chemosensory protein 3 n=1 Tax=Anopheles far...   160   3e-37
+UniRef90_A0A1B6LTU9 Uncharacterized protein (Fragment) n=1 Tax=G...   160   3e-37
+UniRef90_A0A0C5DMM7 Chemosensory protein CSP9 mRNA n=1 Tax=Teneb...   160   4e-37
+UniRef90_A0A1Z2R8P3 Chemosensory protein 21 n=2 Tax=Helicoverpa ...   160   4e-37
+UniRef90_UPI00096B09D4 ejaculatory bulb-specific protein 3-like ...   160   4e-37
+UniRef90_B5U9W6 Chemosensory protein 4a n=1 Tax=Papilio xuthus T...   160   4e-37
+UniRef90_A0A096W1H9 Chemosensory protein 1 n=1 Tax=Sogatella fur...   160   4e-37
+UniRef90_U5Q2Q5 Putative chemosensory protein n=1 Tax=Sesamia in...   160   4e-37
+UniRef90_A0A182P4W7 Chemosensory protein 3 n=1 Tax=Anopheles epi...   160   4e-37
+UniRef90_A0A0C9QFN9 PebIII_1 protein n=1 Tax=Fopius arisanus Tax...   160   4e-37
+UniRef90_A0A1J0KKH5 Chemosensory protein 4 n=2 Tax=Pyrrhalta Tax...   160   4e-37
+UniRef90_A0A182GNF3 Uncharacterized protein n=3 Tax=Aedes albopi...   160   4e-37
+UniRef90_K7J1E1 Uncharacterized protein n=2 Tax=Nasonia vitripen...   160   4e-37
+UniRef90_A0A097QQU2 Chemosensory protein n=2 Tax=Obtectomera Tax...   159   5e-37
+UniRef90_E2CAG4 Putative odorant-binding protein A10 n=2 Tax=Pon...   159   5e-37
+UniRef90_A0A182GNG2 Uncharacterized protein n=19 Tax=Stegomyia T...   159   5e-37
+UniRef90_A0A1A9V698 Chemosensory protein 1 n=1 Tax=Glossina aust...   159   5e-37
+UniRef90_A0A172QDQ3 Chemosensory protein 9 n=1 Tax=Athetis dissi...   159   5e-37
+UniRef90_A0A0R3NL72 Uncharacterized protein, isoform B n=3 Tax=p...   159   5e-37
+UniRef90_A0A1B6JS85 Uncharacterized protein (Fragment) n=1 Tax=H...   159   5e-37
+UniRef90_A0A0M3QVM2 PebIII n=2 Tax=Drosophila busckii TaxID=3001...   159   5e-37
+UniRef90_A0A0C5D649 Chemosensory protein CSP1 mRNA n=1 Tax=Teneb...   159   5e-37
+UniRef90_A0A0C5DAP6 Chemosensory protein CSP2 mRNA n=1 Tax=Teneb...   159   5e-37
+UniRef90_UPI00076FC8C6 ejaculatory bulb-specific protein 3-like ...   159   5e-37
+UniRef90_A0A0L7LDQ3 Chemosensory protein 6 n=1 Tax=Operophtera b...   159   5e-37
+UniRef90_A0A0B4KZD4 Chemosensory protein 10 n=1 Tax=Lissorhoptru...   159   5e-37
+UniRef90_B4MQS8 GK21931 n=1 Tax=Drosophila willistoni TaxID=7260...   159   5e-37
+UniRef90_Q5Q049 Chemosensory protein n=1 Tax=Vespa crabro TaxID=...   159   6e-37
+UniRef90_A0A0G2YDC1 CSP2 n=1 Tax=Holotrichia parallela TaxID=934...   159   6e-37
+UniRef90_UPI000C2548FB ejaculatory bulb-specific protein 3-like ...   159   6e-37
+UniRef90_R4G7Z6 Chemosensory protein n=1 Tax=Rhodnius prolixus T...   159   6e-37
+UniRef90_UPI0005D0A7B9 ejaculatory bulb-specific protein 3-like ...   159   6e-37
+UniRef90_A8QWQ4 Chemosensory protein n=3 Tax=Papilio TaxID=7145 ...   159   7e-37
+UniRef90_A0A158NSY6 Uncharacterized protein n=8 Tax=Myrmicinae T...   159   7e-37
+UniRef90_T1E9H3 Putative insect pheromone-binding family (Fragme...   159   7e-37
+UniRef90_A3RG67 Chemosensory protein 1 n=2 Tax=Microplitis TaxID...   159   7e-37
+UniRef90_UPI0005D0B4B1 ejaculatory bulb-specific protein 3-like ...   159   7e-37
+UniRef90_UPI000675E27D ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_A0A0X8DBJ2 Chemosensory protein (Fragment) n=1 Tax=Blat...   159   8e-37
+UniRef90_UPI00096B3EBD ejaculatory bulb-specific protein 3-like ...   159   8e-37
+UniRef90_A0A068F7S6 Chemosensory protein n=3 Tax=Calliphoridae T...   159   8e-37
+UniRef90_UPI0007E8A5F1 ejaculatory bulb-specific protein 3 n=2 T...   159   8e-37
+UniRef90_Q3LBB1 Uncharacterized protein n=3 Tax=obscura group Ta...   159   8e-37
+UniRef90_A0A2D1AC31 Chemosensory protein 17 n=1 Tax=Oedaleus asi...   159   8e-37
+UniRef90_UPI000C207B2F ejaculatory bulb-specific protein 3-like ...   159   9e-37
+UniRef90_UPI0005D2DC04 ejaculatory bulb-specific protein 3-like ...   159   9e-37
+UniRef90_A0A1A9X5P8 Chemosensory protein 2 n=1 Tax=Glossina brev...   159   9e-37
+UniRef90_UPI0005CE3CF9 ejaculatory bulb-specific protein 3-like ...   159   9e-37
+UniRef90_A0A0A1CN82 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   159   9e-37
+UniRef90_UPI000937E2E8 ejaculatory bulb-specific protein 3-like ...   159   9e-37
+UniRef90_A0A212FKT6 Chemosensory protein n=1 Tax=Danaus plexippu...   159   1e-36
+UniRef90_A0A1L8EE19 Putative insect pheromone-binding family n=1...   159   1e-36
+UniRef90_D2EBA7 Chemosensory protein 1 n=3 Tax=Glossina TaxID=44...   158   1e-36
+UniRef90_A0A1E1WSQ3 Uncharacterized protein n=1 Tax=Pectinophora...   158   1e-36
+UniRef90_A0A1I8N2C2 Uncharacterized protein n=1 Tax=Musca domest...   158   1e-36
+UniRef90_UPI0005B79C69 ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_UPI00083C3617 ejaculatory bulb-specific protein 3-like ...   158   1e-36
+UniRef90_R4FME8 Putative ejaculatory bulb-specific protein 3 n=1...   158   1e-36
+UniRef90_A0A034W0K7 Chemosensory protein 1 n=5 Tax=Dacini TaxID=...   158   1e-36
+UniRef90_L7XDT2 Chemosensory protein 8 n=3 Tax=Mirini TaxID=2366...   158   1e-36
+UniRef90_Q17JJ1 AAEL001993-PA n=9 Tax=Aedes aegypti TaxID=7159 R...   158   1e-36
+UniRef90_A0A1I8MJZ0 Uncharacterized protein n=1 Tax=Musca domest...   158   1e-36
+UniRef90_A0A1V1WBZ6 Chemosensory protein 14 n=1 Tax=Mythimna sep...   158   1e-36
+UniRef90_Q3LBB2 Uncharacterized protein n=3 Tax=pseudoobscura su...   158   1e-36
+UniRef90_A0A0M4U222 Chemosensory protein n=2 Tax=Camponotus TaxI...   158   1e-36
+UniRef90_A0A0K8TVF1 Chemosensory Protein n=1 Tax=Epiphyas postvi...   158   1e-36
+UniRef90_D2D0D0 Putative chemosensory binding protein n=1 Tax=St...   158   2e-36
+UniRef90_A0A2D1A9F1 Chemosensory protein 18 n=2 Tax=Oedaleus asi...   158   2e-36
+UniRef90_UPI000625FF80 ejaculatory bulb-specific protein 3 n=1 T...   158   2e-36
+UniRef90_M1JPA1 Chemosensory protein 6 n=2 Tax=Aphis TaxID=46492...   158   2e-36
+UniRef90_UPI000626B06B ejaculatory bulb-specific protein 3-like ...   158   2e-36
+UniRef90_UPI000B9FDBA7 putative odorant-binding protein A10 n=1 ...   158   2e-36
+UniRef90_H9J3I1 Uncharacterized protein n=82 Tax=Bombyx mori Tax...   158   2e-36
+UniRef90_UPI0006CF0ACF ejaculatory bulb-specific protein 3-like ...   158   2e-36
+UniRef90_A0A1W4ULU1 ejaculatory bulb-specific protein 3 n=1 Tax=...   158   2e-36
+UniRef90_UPI00067602BF ejaculatory bulb-specific protein 3-like ...   158   2e-36
+UniRef90_UPI000936E0A9 uncharacterized protein LOC109432491 n=1 ...   158   2e-36
+UniRef90_A0A1B4ZBJ8 Chemosensory protein 7 n=2 Tax=Crambidae Tax...   158   2e-36
+UniRef90_A0A163AMY3 Putative chemosensory protein n=1 Tax=Triato...   158   2e-36
+UniRef90_A0A2A4J7E9 Uncharacterized protein n=3 Tax=Heliothis vi...   158   2e-36
+UniRef90_V5FZA5 Ejaculatory bulb-specific protein 3 n=2 Tax=Anop...   158   2e-36
+UniRef90_A0A1B3P5K9 Chemosensory protein n=1 Tax=Eogystia hippop...   158   2e-36
+UniRef90_Q0MRK4 Chemosensory protein 19 n=1 Tax=Tribolium castan...   158   2e-36
+UniRef90_A0A0K1DCX4 Chemosensory protein 7 n=2 Tax=Spodoptera Ta...   157   2e-36
+UniRef90_E0X9F6 Tha p 1 allergen n=2 Tax=Thaumetopoea pityocampa...   157   2e-36
+UniRef90_UPI00076FAAFE ejaculatory bulb-specific protein 3 n=1 T...   157   2e-36
+UniRef90_A0A0S3J2I6 Chemosensory protein 1 n=1 Tax=Colaphellus b...   157   2e-36
+UniRef90_Q0MRK3 Chemosensory protein 18 n=1 Tax=Tribolium castan...   157   3e-36
+UniRef90_Q17JK3 AAEL002034-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   157   3e-36
+UniRef90_A0A023F9L6 Ejaculatory bulb-specific protein 3 n=2 Tax=...   157   3e-36
+UniRef90_F5AXS7 Chemosensory protein n=1 Tax=Batocera horsfieldi...   157   3e-36
+UniRef90_A0A182IP17 Chemosensory protein 3 n=1 Tax=Anopheles atr...   157   3e-36
+UniRef90_UPI000874CB2D uncharacterized protein LOC108904802 n=1 ...   157   3e-36
+UniRef90_A0A2H4ZB71 Chemosensory protein n=2 Tax=Anoplophora Tax...   157   3e-36
+UniRef90_A0A0K8T6S0 Uncharacterized protein (Fragment) n=4 Tax=L...   157   3e-36
+UniRef90_A0A0A1CNC1 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   157   3e-36
+UniRef90_A0A182GNG0 Uncharacterized protein n=5 Tax=Aedes albopi...   157   3e-36
+UniRef90_H6TDY1 CSP4 n=3 Tax=Helicoverpa armigera TaxID=29058 Re...   157   3e-36
+UniRef90_A0A182H5I5 Uncharacterized protein n=3 Tax=Aedes albopi...   157   3e-36
+UniRef90_A0A0R8PHU2 Chemosensory protein 17 n=2 Tax=Chrysopinae ...   157   3e-36
+UniRef90_UPI00067DBE04 ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_UPI0006D4E07B ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_UPI000BA0E9C6 ejaculatory bulb-specific protein 3 n=1 T...   157   3e-36
+UniRef90_A0A067XN15 Chemosensory protein 11 n=2 Tax=Nilaparvata ...   157   3e-36
+UniRef90_UPI000718CF1F ejaculatory bulb-specific protein 3-like ...   157   3e-36
+UniRef90_B0W7L1 Protein serine/threonine kinase, putative n=1 Ta...   157   4e-36
+UniRef90_A0A0G2YGX2 CSP8 n=1 Tax=Holotrichia parallela TaxID=934...   157   4e-36
+UniRef90_U5KD26 Chemosensory protein 7 n=2 Tax=Agrotis ipsilon T...   156   4e-36
+UniRef90_UPI0006D4E1F8 uncharacterized protein LOC106681351 n=1 ...   156   4e-36
+UniRef90_A0A0U2JSX2 Chemosensory protein 28 n=1 Tax=Cnaphalocroc...   156   4e-36
+UniRef90_UPI000C2525EB ejaculatory bulb-specific protein 3-like ...   156   4e-36
+UniRef90_UPI0007384F93 ejaculatory bulb-specific protein 3-like ...   156   4e-36
+UniRef90_A0A0A1CP88 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   156   4e-36
+UniRef90_Q0MRL9 Chemosensory protein 11 n=1 Tax=Tribolium castan...   156   4e-36
+UniRef90_B0W7J3 Chemosensory protein n=1 Tax=Culex quinquefascia...   156   4e-36
+UniRef90_A0A163AMU3 Putative chemosensory protein n=3 Tax=Triato...   156   4e-36
+UniRef90_UPI0006C9D436 ejaculatory bulb-specific protein 3-like ...   156   4e-36
+UniRef90_R4UMX3 Ejaculatory bulb-specific protein III n=1 Tax=Co...   156   4e-36
+UniRef90_A0A0J7KCJ4 Ejaculatory bulb-specific protein 3-like pro...   156   4e-36
+UniRef90_A0A2A4JRD4 Uncharacterized protein n=4 Tax=Heliothis vi...   156   4e-36
+UniRef90_A0A182GNF5 Uncharacterized protein n=7 Tax=Stegomyia Ta...   156   4e-36
+UniRef90_A0A0M3R8G6 Chemosensory protein 3 n=1 Tax=Grapholita mo...   156   4e-36
+UniRef90_B4PBY6 Phk-3 n=3 Tax=melanogaster subgroup TaxID=32351 ...   156   5e-36
+UniRef90_A0A1Q3FSS0 Putative insect pheromone-binding family n=1...   156   5e-36
+UniRef90_A0A1I8M222 Uncharacterized protein n=3 Tax=Musca domest...   156   5e-36
+UniRef90_M4VTH1 Chemosensory protein 6 n=3 Tax=Dendroctonus pond...   156   5e-36
+UniRef90_UPI0005EF0BBA ejaculatory bulb-specific protein 3-like ...   156   5e-36
+UniRef90_A0A2H4ZB89 Chemosensory protein n=1 Tax=Anoplophora chi...   156   5e-36
+UniRef90_Q0MRL6 Chemosensory protein 12 n=2 Tax=Tenebrionidae Ta...   156   5e-36
+UniRef90_A0A109ZT31 Chemosensory protein n=1 Tax=Blattella germa...   156   5e-36
+UniRef90_Q9U4Y9 Sensory appendage protein 4 n=1 Tax=Manduca sext...   156   5e-36
+UniRef90_UPI0006D4D5DF ejaculatory bulb-specific protein 3-like ...   156   5e-36
+UniRef90_R4WRA4 Protein serine/threonine kinase, putative n=1 Ta...   156   6e-36
+UniRef90_A0A1B6EXN7 Uncharacterized protein (Fragment) n=1 Tax=C...   156   6e-36
+UniRef90_A0A194QVW3 Ejaculatory bulb-specific protein 3 n=2 Tax=...   156   6e-36
+UniRef90_A2IBC6 Chemosensory protein CSP3 n=2 Tax=Ditrysia TaxID...   156   6e-36
+UniRef90_A0A0C5DAQ4 Chemosensory protein CSP12 mRNA n=1 Tax=Tene...   156   6e-36
+UniRef90_A0A1J1IXH0 CLUMA_CG016200, isoform A n=1 Tax=Clunio mar...   156   6e-36
+UniRef90_A0A1Z2R8Q3 Chemosensory protein 21 n=6 Tax=Heliothinae ...   156   6e-36
+UniRef90_A0A182F6D7 Chemosensory protein 3 n=1 Tax=Anopheles alb...   156   6e-36
+UniRef90_UPI00076FDE95 ejaculatory bulb-specific protein 3-like ...   156   6e-36
+UniRef90_A0A162RQ85 Putative chemosensory protein n=1 Tax=Triato...   156   6e-36
+UniRef90_A0A194R1E5 Ejaculatory bulb-specific protein 3 n=4 Tax=...   156   7e-36
+UniRef90_U5Q2S7 Putative chemosensory protein n=1 Tax=Sesamia in...   156   7e-36
+UniRef90_A0A1B6KJL8 Uncharacterized protein (Fragment) n=1 Tax=G...   156   7e-36
+UniRef90_A0A0T6B9K2 Uncharacterized protein n=1 Tax=Oryctes borb...   156   7e-36
+UniRef90_A0A0L7RK18 Ejaculatory bulb-specific protein 3 n=1 Tax=...   156   7e-36
+UniRef90_A0A0K1DDS9 Chemosensory protein 6 n=4 Tax=Spodoptera Ta...   156   7e-36
+UniRef90_A0A2A4J5F1 Uncharacterized protein n=2 Tax=Heliothis vi...   156   7e-36
+UniRef90_J7IAJ1 Chemosensory protein n=1 Tax=Grapholita molesta ...   156   8e-36
+UniRef90_A0A224Y164 Putative insect pheromone-binding family (Fr...   156   8e-36
+UniRef90_A0A1W5LDL1 Putative chemosensory protein 4 n=2 Tax=Ectr...   156   8e-36
+UniRef90_A0A1B3P5M3 Chemosensory protein n=1 Tax=Eogystia hippop...   156   8e-36
+UniRef90_A0A1I8M3B0 Uncharacterized protein n=1 Tax=Musca domest...   156   8e-36
+UniRef90_UPI0005D425C8 ejaculatory bulb-specific protein 3-like ...   156   8e-36
+UniRef90_UPI0006C9830D ejaculatory bulb-specific protein 3 n=1 T...   155   9e-36
+UniRef90_A0A1I9HZN6 Chemosensory protein 3 n=1 Tax=Monochamus al...   155   9e-36
+UniRef90_A0A2H4ZB62 Chemosensory protein n=2 Tax=Anoplophora Tax...   155   9e-36
+UniRef90_UPI000675EFDB ejaculatory bulb-specific protein 3-like ...   155   9e-36
+UniRef90_UPI0006231AE5 ejaculatory bulb-specific protein 3-like ...   155   9e-36
+UniRef90_UPI0008112EB1 ejaculatory bulb-specific protein 3 n=1 T...   155   1e-35
+UniRef90_A0A0R8P118 Chemosensory protein 4 n=1 Tax=Chrysopa pall...   155   1e-35
+UniRef90_UPI00067C4594 ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_A0A0A9XYG7 Ejaculatory bulb-specific protein 3 n=5 Tax=...   155   1e-35
+UniRef90_A0A0S3J3C5 Chemosensory protein 4 n=1 Tax=Colaphellus b...   155   1e-35
+UniRef90_I4DKW7 Protein serine/threonine kinase n=3 Tax=Papilio ...   155   1e-35
+UniRef90_R4G7W1 Putative chemosensory protein csp8 n=1 Tax=Rhodn...   155   1e-35
+UniRef90_A0A1B6C5Y1 Uncharacterized protein (Fragment) n=2 Tax=C...   155   1e-35
+UniRef90_A0A0U3BLK7 Chemosensory protein 24 n=1 Tax=Cnaphalocroc...   155   1e-35
+UniRef90_A0A0A1CTE9 Chemosensory protein n=1 Tax=Cnaphalocrocis ...   155   1e-35
+UniRef90_E2J7B1 Putative pheromone binding protein n=1 Tax=Triat...   155   1e-35
+UniRef90_UPI000258EA3C ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_A0A195AVM4 Transcriptional adapter 2B n=12 Tax=Attini T...   155   1e-35
+UniRef90_U5KCX1 Chemosensory protein 3 n=1 Tax=Agrotis ipsilon T...   155   1e-35
+UniRef90_UPI000626DEA8 ejaculatory bulb-specific protein 3 n=1 T...   155   1e-35
+UniRef90_UPI0006CEEE69 ejaculatory bulb-specific protein 3 n=1 T...   155   1e-35
+UniRef90_A0A1S4ELV4 ejaculatory bulb-specific protein 3-like n=1...   155   1e-35
+UniRef90_A0A2H1WBX0 SFRICE025771.2 (Fragment) n=1 Tax=Spodoptera...   155   1e-35
+UniRef90_A0A0U3BJT0 Chemosensory protein 23 n=1 Tax=Cnaphalocroc...   155   1e-35
+UniRef90_A0A1B4ZBL0 Chemosensory protein 8 n=1 Tax=Ostrinia furn...   155   1e-35
+UniRef90_A0A084VNC3 AGAP008055-PA-like protein n=1 Tax=Anopheles...   155   1e-35
+UniRef90_UPI000995CA52 ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_A0A0U3A8Y9 Chemosensory protein 25 n=1 Tax=Cnaphalocroc...   155   1e-35
+UniRef90_UPI0006C9A54D ejaculatory bulb-specific protein 3-like ...   155   1e-35
+UniRef90_U5Q2R2 Putative chemosensory protein n=1 Tax=Sesamia in...   155   1e-35
+UniRef90_A0A1W5LAS8 Putative chemosensory protein 2 n=2 Tax=Ectr...   155   1e-35
+UniRef90_A0A0P9CFL1 Uncharacterized protein n=1 Tax=Drosophila a...   154   1e-35
+UniRef90_UPI00067C11CB ejaculatory bulb-specific protein 3-like ...   154   1e-35
+UniRef90_O18639 Olfactory protein n=1 Tax=Cactoblastis cactorum ...   154   1e-35
+UniRef90_A0A0P0ISF4 Chemosensory protein CSP1 n=1 Tax=Athetis di...   154   1e-35
+UniRef90_E2IGV4 Chemosensory protein n=2 Tax=Delphacidae TaxID=3...   154   2e-35
+UniRef90_Q9U503 Sensory appendage protein 3 n=1 Tax=Manduca sext...   154   2e-35
+UniRef90_A0A182NU81 Chemosensory protein 3 n=1 Tax=Anopheles dir...   154   2e-35
+UniRef90_A0A1W6L1C0 Chemosensory protein 2 n=1 Tax=Cephus cinctu...   154   2e-35
+UniRef90_A0A224Y1M1 Putative pheromone binding protein (Fragment...   154   2e-35
+UniRef90_A0A0G2YDA6 CSP9 n=1 Tax=Holotrichia parallela TaxID=934...   154   2e-35
+UniRef90_A0A2H1VXU6 SFRICE041981.2 n=1 Tax=Spodoptera frugiperda...   154   2e-35
+UniRef90_U5PZ65 Putative chemosensory protein n=1 Tax=Sesamia in...   154   2e-35
+UniRef90_Q5MGD4 Sensory protein 1 n=1 Tax=Lonomia obliqua TaxID=...   154   2e-35
+UniRef90_A0A1W6GWG3 Chemosensory protein n=1 Tax=Galeruca dauric...   154   2e-35
+UniRef90_Q6H8Y9 AGAP008055-PA n=6 Tax=gambiae species complex Ta...   154   2e-35
+UniRef90_A0A1B6MID6 Uncharacterized protein (Fragment) n=1 Tax=G...   154   2e-35
+UniRef90_UPI000258D893 ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_UPI0005F4E041 ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_Q8ITL3 Chemosensory protein n=6 Tax=Heliothinae TaxID=9...   154   2e-35
+UniRef90_A0A2H4ZB99 Chemosensory protein n=2 Tax=Anoplophora Tax...   154   2e-35
+UniRef90_A2IBC3 Chemosensory protein CSP2 n=3 Tax=Plutella xylos...   154   2e-35
+UniRef90_G8HHA3 Chemosensory protein 4 n=3 Tax=Apolygus lucorum ...   154   2e-35
+UniRef90_UPI0007E311D4 ejaculatory bulb-specific protein 3 n=3 T...   154   2e-35
+UniRef90_A0A224XT80 Putative pheromone binding protein (Fragment...   154   2e-35
+UniRef90_A0A1Z2R8R1 Chemosensory protein 25 n=2 Tax=Helicoverpa ...   154   2e-35
+UniRef90_Q6TAA3 Chemosensory protein 3 n=1 Tax=Choristoneura fum...   154   2e-35
+UniRef90_A0A1I8PXA2 Uncharacterized protein n=2 Tax=Stomoxys cal...   154   2e-35
+UniRef90_Q17JK9 AAEL001985-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   154   2e-35
+UniRef90_A0A182JZP3 Chemosensory protein 3 n=1 Tax=Anopheles chr...   154   2e-35
+UniRef90_A0A172QDQ0 Chemosensory protein 4 n=1 Tax=Athetis dissi...   154   2e-35
+UniRef90_A0A110A072 Chemosensory protein n=1 Tax=Blattella germa...   154   2e-35
+UniRef90_UPI00083FDFF8 ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_UPI0005AC4990 ejaculatory bulb-specific protein 3-like ...   154   2e-35
+UniRef90_D2EBB0 Chemosensory protein 4 n=5 Tax=Glossina TaxID=44...   154   3e-35
+UniRef90_Q9U4Z6 Sensory appendage protein 2 n=1 Tax=Manduca sext...   154   3e-35
+UniRef90_UPI000C208BAC ejaculatory bulb-specific protein 3-like ...   154   3e-35
+UniRef90_A0A1W6R6E7 Chemosensory protein 6 n=1 Tax=Daktulosphair...   154   3e-35
+UniRef90_B4MNU6 Uncharacterized protein n=1 Tax=Drosophila willi...   154   3e-35
+UniRef90_R4WD24 Protein serine/threonine kinase, putative n=1 Ta...   154   3e-35
+UniRef90_A0A2H1WBZ5 SFRICE025769.2 n=7 Tax=Spodoptera TaxID=7106...   154   3e-35
+UniRef90_Q3LBA6 Chemosensory protein 4 n=6 Tax=Apis TaxID=7459 R...   154   3e-35
+UniRef90_UPI0006409BB7 ejaculatory bulb-specific protein 3-like ...   154   3e-35
+UniRef90_UPI00096B1202 ejaculatory bulb-specific protein 3-like ...   154   3e-35
+UniRef90_A0A1I9HZN4 Chemosensory protein 7 n=1 Tax=Monochamus al...   154   3e-35
+UniRef90_A0A1V1WC32 Chemosensory protein 3 n=1 Tax=Mythimna sepa...   154   3e-35
+UniRef90_Q17JK6 AAEL002026-PA n=1 Tax=Aedes aegypti TaxID=7159 R...   154   3e-35
+UniRef90_UPI000C207999 ejaculatory bulb-specific protein 3-like ...   153   3e-35
+UniRef90_A0A194QVW8 Putative odorant-binding protein A10 n=2 Tax...   153   3e-35
+UniRef90_A0A0A9WVI0 Putative chemosensory protein 11 n=2 Tax=Lyg...   153   3e-35
+UniRef90_Q0MRL8 Chemosensory protein 14 n=1 Tax=Tribolium castan...   153   3e-35
+UniRef90_A0A1W4WM24 ejaculatory bulb-specific protein 3-like n=1...   153   3e-35
+UniRef90_D4AHP0 Chemosensory protein 2 n=1 Tax=Delia antiqua Tax...   153   4e-35
+UniRef90_A2TIK4 Chemosensory protein 3 n=4 Tax=Plutella xylostel...   153   4e-35
+UniRef90_A0A0X8U7S3 Chemosensory protein 7 n=1 Tax=Rhyzopertha d...   153   4e-35
+UniRef90_A8QWQ8 Chemosensory protein n=3 Tax=Papilio xuthus TaxI...   153   4e-35
+
+Sequences not found previously or not previously below threshold:
+
+>UniRef90_A0A084VNC4 AGAP008053-PA-like protein n=1 Tax=Anopheles sinensis TaxID=74873
+           RepID=A0A084VNC4_ANOSI
+          Length = 589
+
+ Score =  190 bits (484), Expect = 3e-46,   Method: Composition-based stats.
+ Identities = 42/99 (42%), Positives = 62/99 (62%)
+
+Query: 2   INLDEILANKRLLVAYVNCVMERGKCSPEGKELKEHLQDAIENGCKKCTENQEKGAYRVI 61
+           ++LDEIL + RL   Y  C++++G+C+P+G ELK  L DA++  C KC+E Q+ G  +VI
+Sbjct: 491 VDLDEILKSDRLFNNYYKCLLDQGRCTPDGNELKRILPDALQTDCAKCSEKQKSGTEKVI 550
+
+Query: 62  EHLIKNEIEIWRELTAKYDPTGNWRKKYEDRAKAAGIVI 100
+            +LI N  + W+ L  KYDP   +  KY D A   GI +
+Sbjct: 551 NYLIDNRNDQWQNLQKKYDPENIYVNKYRDEANKKGIKL 589
+
+
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr
+    Posted date:  Apr 25, 2018  7:10 PM
+  Number of letters in database: 999,999,817
+  Number of sequences in database:  2,892,040
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.01
+    Posted date:  Apr 25, 2018  7:12 PM
+  Number of letters in database: 999,999,684
+  Number of sequences in database:  2,278,212
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.02
+    Posted date:  Apr 25, 2018  7:13 PM
+  Number of letters in database: 999,999,632
+  Number of sequences in database:  2,327,781
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.03
+    Posted date:  Apr 25, 2018  7:14 PM
+  Number of letters in database: 999,999,448
+  Number of sequences in database:  2,390,013
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.04
+    Posted date:  Apr 25, 2018  7:15 PM
+  Number of letters in database: 999,999,920
+  Number of sequences in database:  2,473,854
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.05
+    Posted date:  Apr 25, 2018  7:17 PM
+  Number of letters in database: 999,999,766
+  Number of sequences in database:  2,699,369
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.06
+    Posted date:  Apr 25, 2018  7:18 PM
+  Number of letters in database: 999,999,949
+  Number of sequences in database:  3,052,090
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.07
+    Posted date:  Apr 25, 2018  7:20 PM
+  Number of letters in database: 999,999,857
+  Number of sequences in database:  3,195,405
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.08
+    Posted date:  Apr 25, 2018  7:22 PM
+  Number of letters in database: 999,999,795
+  Number of sequences in database:  3,377,833
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.09
+    Posted date:  Apr 25, 2018  7:23 PM
+  Number of letters in database: 999,999,945
+  Number of sequences in database:  3,278,025
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.10
+    Posted date:  Apr 25, 2018  7:25 PM
+  Number of letters in database: 999,999,598
+  Number of sequences in database:  3,262,026
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.11
+    Posted date:  Apr 25, 2018  7:27 PM
+  Number of letters in database: 999,999,937
+  Number of sequences in database:  3,258,308
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.12
+    Posted date:  Apr 25, 2018  7:28 PM
+  Number of letters in database: 999,999,704
+  Number of sequences in database:  3,256,364
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.13
+    Posted date:  Apr 25, 2018  7:30 PM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  3,248,470
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.14
+    Posted date:  Apr 25, 2018  7:31 PM
+  Number of letters in database: 999,999,916
+  Number of sequences in database:  3,197,486
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.15
+    Posted date:  Apr 25, 2018  7:33 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,238,042
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.16
+    Posted date:  Apr 25, 2018  7:35 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,253,045
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.17
+    Posted date:  Apr 25, 2018  7:36 PM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  3,203,921
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.18
+    Posted date:  Apr 25, 2018  7:38 PM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,080,352
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.19
+    Posted date:  Apr 25, 2018  7:39 PM
+  Number of letters in database: 999,999,076
+  Number of sequences in database:  2,927,914
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.20
+    Posted date:  Apr 25, 2018  7:41 PM
+  Number of letters in database: 999,999,697
+  Number of sequences in database:  2,780,386
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.21
+    Posted date:  Apr 25, 2018  7:42 PM
+  Number of letters in database: 999,999,630
+  Number of sequences in database:  2,547,286
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.22
+    Posted date:  Apr 25, 2018  7:44 PM
+  Number of letters in database: 999,997,037
+  Number of sequences in database:  2,858,393
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.23
+    Posted date:  Apr 25, 2018  7:45 PM
+  Number of letters in database: 999,999,954
+  Number of sequences in database:  2,746,101
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.24
+    Posted date:  Apr 25, 2018  7:45 PM
+  Number of letters in database: 46,695,217
+  Number of sequences in database:  130,380
+  
+Lambda     K      H
+   0.314    0.212    0.813 
+
+Lambda     K      H
+   0.267   0.0648    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 36,232,988,733
+Number of Sequences: 70953096
+Number of extensions: 2434116777
+Number of successful extensions: 4916885
+Number of sequences better than 10.0: 500
+Number of HSP's better than 10.0 without gapping: 7879
+Number of HSP's successfully gapped in prelim test: 355
+Number of HSP's that attempted gapping in prelim test: 4907151
+Number of HSP's gapped (non-prelim): 8603
+length of query: 100
+length of database: 24,046,686,692
+effective HSP length: 69
+effective length of query: 31
+effective length of database: 23,445,890,364
+effective search space: 726822601284
+effective search space used: 726822601284
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.8 bits)
+S2: 84 (36.3 bits)

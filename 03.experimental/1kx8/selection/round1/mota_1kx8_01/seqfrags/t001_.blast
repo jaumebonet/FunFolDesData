@@ -1,0 +1,217 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= mota_1kx8_01
+         (96 letters)
+
+Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
+r 
+           70,953,096 sequences; 24,046,686,692 total letters
+
+Searching..................................................done
+
+
+
+ ***** No hits found ******
+
+Searching..................................................done
+
+
+
+ ***** No hits found ******
+
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr
+    Posted date:  Apr 25, 2018  7:10 PM
+  Number of letters in database: 999,999,817
+  Number of sequences in database:  2,892,040
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.01
+    Posted date:  Apr 25, 2018  7:12 PM
+  Number of letters in database: 999,999,684
+  Number of sequences in database:  2,278,212
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.02
+    Posted date:  Apr 25, 2018  7:13 PM
+  Number of letters in database: 999,999,632
+  Number of sequences in database:  2,327,781
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.03
+    Posted date:  Apr 25, 2018  7:14 PM
+  Number of letters in database: 999,999,448
+  Number of sequences in database:  2,390,013
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.04
+    Posted date:  Apr 25, 2018  7:15 PM
+  Number of letters in database: 999,999,920
+  Number of sequences in database:  2,473,854
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.05
+    Posted date:  Apr 25, 2018  7:17 PM
+  Number of letters in database: 999,999,766
+  Number of sequences in database:  2,699,369
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.06
+    Posted date:  Apr 25, 2018  7:18 PM
+  Number of letters in database: 999,999,949
+  Number of sequences in database:  3,052,090
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.07
+    Posted date:  Apr 25, 2018  7:20 PM
+  Number of letters in database: 999,999,857
+  Number of sequences in database:  3,195,405
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.08
+    Posted date:  Apr 25, 2018  7:22 PM
+  Number of letters in database: 999,999,795
+  Number of sequences in database:  3,377,833
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.09
+    Posted date:  Apr 25, 2018  7:23 PM
+  Number of letters in database: 999,999,945
+  Number of sequences in database:  3,278,025
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.10
+    Posted date:  Apr 25, 2018  7:25 PM
+  Number of letters in database: 999,999,598
+  Number of sequences in database:  3,262,026
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.11
+    Posted date:  Apr 25, 2018  7:27 PM
+  Number of letters in database: 999,999,937
+  Number of sequences in database:  3,258,308
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.12
+    Posted date:  Apr 25, 2018  7:28 PM
+  Number of letters in database: 999,999,704
+  Number of sequences in database:  3,256,364
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.13
+    Posted date:  Apr 25, 2018  7:30 PM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  3,248,470
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.14
+    Posted date:  Apr 25, 2018  7:31 PM
+  Number of letters in database: 999,999,916
+  Number of sequences in database:  3,197,486
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.15
+    Posted date:  Apr 25, 2018  7:33 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,238,042
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.16
+    Posted date:  Apr 25, 2018  7:35 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,253,045
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.17
+    Posted date:  Apr 25, 2018  7:36 PM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  3,203,921
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.18
+    Posted date:  Apr 25, 2018  7:38 PM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,080,352
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.19
+    Posted date:  Apr 25, 2018  7:39 PM
+  Number of letters in database: 999,999,076
+  Number of sequences in database:  2,927,914
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.20
+    Posted date:  Apr 25, 2018  7:41 PM
+  Number of letters in database: 999,999,697
+  Number of sequences in database:  2,780,386
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.21
+    Posted date:  Apr 25, 2018  7:42 PM
+  Number of letters in database: 999,999,630
+  Number of sequences in database:  2,547,286
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.22
+    Posted date:  Apr 25, 2018  7:44 PM
+  Number of letters in database: 999,997,037
+  Number of sequences in database:  2,858,393
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.23
+    Posted date:  Apr 25, 2018  7:45 PM
+  Number of letters in database: 999,999,954
+  Number of sequences in database:  2,746,101
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.24
+    Posted date:  Apr 25, 2018  7:45 PM
+  Number of letters in database: 46,695,217
+  Number of sequences in database:  130,380
+  
+Lambda     K      H
+   0.316    0.131    0.384 
+
+Lambda     K      H
+   0.267   0.0400    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 9,470,045,472
+Number of Sequences: 70953096
+Number of extensions: 347344081
+Number of successful extensions: 1027459
+Number of sequences better than 9.0e-04: 0
+Number of HSP's better than  0.0 without gapping: 0
+Number of HSP's successfully gapped in prelim test: 0
+Number of HSP's that attempted gapping in prelim test: 1027459
+Number of HSP's gapped (non-prelim): 0
+length of query: 96
+length of database: 24,046,686,692
+effective HSP length: 65
+effective length of query: 31
+effective length of database: 23,729,702,748
+effective search space: 735620785188
+effective search space used: 735620785188
+T: 11
+A: 40
+X1: 16 ( 7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.6 bits)
+S2: 117 (49.7 bits)

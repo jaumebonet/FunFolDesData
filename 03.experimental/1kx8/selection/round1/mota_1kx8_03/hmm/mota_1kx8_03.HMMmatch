@@ -1,0 +1,94 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../mota_1kx8_03.fasta
+# target HMM database:             /Volumes/MiniTwo/data/FoldFromLoopsData/resources/database/Pfam-A.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       mota_1kx8_03  [L=96]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+  ------ inclusion threshold ------
+       0.03   13.9   0.6      0.072   12.7   0.2    1.7  2  ThylakoidFormat  Thylakoid formation protein
+       0.03   14.3   0.0      0.035   14.1   0.0    1.2  1  OS-D             Insect pheromone-binding family, A10/OS-D
+       0.05   12.4   0.1      0.066   12.0   0.1    1.3  1  DUF4507          Domain of unknown function (DUF4507)
+       0.17   12.1   0.0       0.21   11.8   0.0    1.2  1  DUF4129          Domain of unknown function (DUF4129)
+
+
+Domain annotation for each model (and alignments):
+>> ThylakoidFormat  Thylakoid formation protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.0     0.058   2.4e+02      97     123 ..       9      36 ..       2      44 .. 0.56
+   2 ?   12.7   0.2   1.7e-05     0.072      67     123 ..      33      91 ..      23      96 .] 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 1.2 bits;  conditional E-value: 0.058
+  ThylakoidFormat  97 akeksaeellsllkqeeeeeeaed.lak 123
+                       + k  +e+++ l+++++++++++ la+
+     mota_1kx8_03   9 KDPKALKEIQKQLNNQGQSSDEAKrLAD 36 
+                      4445566777777666655555433444 PP
+
+  == domain 2  score: 12.7 bits;  conditional E-value: 1.7e-05
+  ThylakoidFormat  67 dkesifealckavee.dpeqyredaeeleelakeksaeellsllkqeeeeeeaed.lak 123
+                      + + ife ++ + +    e+ +++a+++ ++ +e s +ells+++ +  +++a++ +++
+     mota_1kx8_03  33 RLADIFENYIFGGGTgADEDQQKEAQKIMKWFQEYSPSELLSWINDAPITNDAKKeFSN 91 
+                      556788777754443133456789********************998655544433444 PP
+
+>> OS-D  Insect pheromone-binding family, A10/OS-D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.0   8.4e-06     0.035      12      77 ..       6      71 ..       3      89 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 8.4e-06
+                  HHHT-HHHHHHHHHHHTSSS---HHHHHHHHHHHHHHTTS-TTS-HHHHHHHHHHHHHHHHT-HHH CS
+          OS-D 12 eilkndrllkeYvkClldkgpCtpegkelkkllpealetkCakCtekqkellkkvikaliknkpee 77
+                  e+lk+ + lke  k l ++g+ ++e+k l +++++ +    +   e+q++ ++k++k++++ +p+e
+  mota_1kx8_03  6 EVLKDPKALKEIQKQLNNQGQSSDEAKRLADIFENYIFGGGTGADEDQQKEAQKIMKWFQEYSPSE 71
+                  799**********************************************************99986 PP
+
+>> DUF4507  Domain of unknown function (DUF4507)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.1   1.6e-05     0.066      18      69 ..      12      67 ..       3      86 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 1.6e-05
+       DUF4507 18 eaLsklekllaseeksknkqldllmelieefiFlerdergk.....rrkrlsalqEl 69
+                  +aL  ++k+l+++ +s+ ++ + l ++ e++iF   + +++      +k ++ +qE+
+  mota_1kx8_03 12 KALKEIQKQLNNQGQSSDEA-KRLADIFENYIFGGGTGADEdqqkeAQKIMKWFQEY 67
+                  6999************8777.999*********754433333334477778888887 PP
+
+>> DUF4129  Domain of unknown function (DUF4129)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.0     5e-05      0.21      33      62 ..      25      54 ..       6      60 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 5e-05
+       DUF4129 33 pspaaalarlaelfeearYGgrpasaeeyr 62
+                  ++ ++++ rla++fe   +Gg+++  e+ +
+  mota_1kx8_03 25 GQSSDEAKRLADIFENYIFGGGTGADEDQQ 54
+                  5578899************99977776655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (96 residues searched)
+Target model(s):                       16712  (2907032 nodes)
+Passed MSV filter:                      1166  (0.0697702); expected 334.2 (0.02)
+Passed bias filter:                      676  (0.04045); expected 334.2 (0.02)
+Passed Vit filter:                        41  (0.00245333); expected 16.7 (0.001)
+Passed Fwd filter:                         4  (0.000239349); expected 0.2 (1e-05)
+Initial search space (Z):              16712  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.51u 0.54s 00:00:01.05 Elapsed: 00:00:00.94
+# Mc/sec: 296.89
+//
+[ok]

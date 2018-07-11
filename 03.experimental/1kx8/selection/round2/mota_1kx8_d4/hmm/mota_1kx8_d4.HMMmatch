@@ -1,0 +1,103 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             ../mota_1kx8_d4.fasta
+# target HMM database:             /Volumes/MiniTwo/data/FoldFromLoopsData/resources/database/Pfam-A.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       mota_1kx8_d4  [L=96]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+     0.0054   16.5   0.8     0.0073   16.0   0.7    1.3  1  YebG         YebG protein
+  ------ inclusion threshold ------
+      0.011   16.2   0.2      0.013   15.9   0.2    1.2  1  TipAS        TipAS antibiotic-recognition domain
+      0.013   15.6   0.5      0.016   15.3   0.5    1.1  1  Lsr2         Lsr2
+      0.017   15.6   0.1      0.021   15.3   0.1    1.1  1  Hemerythrin  Hemerythrin HHE cation binding domain
+      0.021   14.8   0.3       0.14   12.2   0.3    2.0  1  OS-D         Insect pheromone-binding family, A10/OS-D
+
+
+Domain annotation for each model (and alignments):
+>> YebG  YebG protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.0   0.7   2.2e-06    0.0073      15      54 ..      17      54 ..       7      73 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 16.0 bits;  conditional E-value: 2.2e-06
+                  X..XXXHHHHHHHHHHHHHHHHHHHHHHHHHSTT--HHHH CS
+          YebG 15 ekmtftsKkeADayDkmLdladeLaelLeqselgldeeqa 54
+                   k  f+ K eA  +D   +la +L+e+L++ + g+de++ 
+  mota_1kx8_d4 17 AKAAFEGKSEA--HDEFKELAKALQEFLKNGSKGIDEKRE 54
+                  37788888875..9*********************99764 PP
+
+>> TipAS  TipAS antibiotic-recognition domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.2   3.9e-06     0.013      30      93 ..      24      84 ..      13      95 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 3.9e-06
+                  XXXXXXXXXXXXXXXXXX..XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX CS
+         TipAS 30 weelkaelkelfaklaaalaagkdpdseeaqelaeehralieefwgecskeilaglaqmYvadp 93
+                  + e+++e+kel ++l++ l++g +  +e+  ++a++  a++ +   +   eil+ + +m ++++
+  mota_1kx8_d4 24 KSEAHDEFKELAKALQEFLKNGSKGIDEKRERMARRALAWLAR---QNPSEILSWINDMPITND 84
+                  6789**************************************6...577888888888877665 PP
+
+>> Lsr2  Lsr2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.3   0.5   4.7e-06     0.016      38     104 ..      29      94 ..      25      96 .] 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 4.7e-06
+          Lsr2  38 enaeklrdalapyieaarrvggrkkarrarrkaaaaasreqaaaiReWakengievserGripaevi 104
+                   +++++l +al+++++++ +   +k ++r +r+a a  +r++ ++i +W ++  i+  ++ ++++ev 
+  mota_1kx8_d4  29 DEFKELAKALQEFLKNGSKGIDEK-RERMARRALAWLARQNPSEILSWINDMPITNDAKKKLSNEVA 94 
+                   6789**************977655.7888888899999*************************9997 PP
+
+>> Hemerythrin  Hemerythrin HHE cation binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.3   0.1   6.3e-06     0.021      68     120 ..      16      68 ..       7      72 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 15.3 bits;  conditional E-value: 6.3e-06
+                   C.HHHHHHHHHHHHHHHHHHHHHHHHCHTCGGSTCHHHHHHHHHHHHHHHHHH CS
+   Hemerythrin  68 ggravldvlereHdeirelleelrellkgleepsaaafaelleeladllreHi 120
+                   +++a +++ ++ Hde+ el+++l+e+lk+ + + ++  ++++++  ++l++ +
+  mota_1kx8_d4  16 EAKAAFEGKSEAHDEFKELAKALQEFLKNGSKGIDEKRERMARRALAWLARQN 68 
+                   567778888999*******************899999999********99865 PP
+
+>> OS-D  Insect pheromone-binding family, A10/OS-D
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.3   4.2e-05      0.14      14      77 ..       8      71 ..       4      87 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.2 bits;  conditional E-value: 4.2e-05
+                  HT-HHHHHHHHHHHTSSS---HHHHHHHHHHHHHHTTS-TTS-HHHHHHHHHHHHHHHHT-HHH CS
+          OS-D 14 lkndrllkeYvkClldkgpCtpegkelkkllpealetkCakCtekqkellkkvikaliknkpee 77
+                  +kn +  ke    +  k++ ++e kel k l+e l++  +   ek+ +++++++ +l +++p+e
+  mota_1kx8_d4  8 MKNPECGKEAKAAFEGKSEAHDEFKELAKALQEFLKNGSKGIDEKRERMARRALAWLARQNPSE 71
+                  566666666667777788889999***********************************99987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (96 residues searched)
+Target model(s):                       16712  (2907032 nodes)
+Passed MSV filter:                      1128  (0.0674964); expected 334.2 (0.02)
+Passed bias filter:                      760  (0.0454763); expected 334.2 (0.02)
+Passed Vit filter:                        52  (0.00311154); expected 16.7 (0.001)
+Passed Fwd filter:                         5  (0.000299186); expected 0.2 (1e-05)
+Initial search space (Z):              16712  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.51u 0.64s 00:00:01.14 Elapsed: 00:00:01.99
+# Mc/sec: 140.24
+//
+[ok]

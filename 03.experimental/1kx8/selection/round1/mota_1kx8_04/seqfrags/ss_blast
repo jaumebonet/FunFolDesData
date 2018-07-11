@@ -1,0 +1,895 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= mota_1kx8_04
+         (96 letters)
+
+Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
+r_pfilt 
+           70,953,096 sequences; 24,046,686,692 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_UPI0008A09DE5 Fusion glycoprotein F0 n=2 Tax=Respirator...    40   0.52 
+UniRef90_UPI0006730511 Fusion glycoprotein F0,Fibritin n=14 Tax=...    40   0.56 
+UniRef90_X5F7Y0 Fusion glycoprotein F0 n=1 Tax=Respiratory syncy...    40   0.62 
+UniRef90_X5F6J7 Fusion glycoprotein F0 n=2 Tax=Respiratory syncy...    40   0.78 
+UniRef90_UPI000211EFFD Fusion glycoprotein F0 n=6 Tax=Viruses Ta...    40   0.79 
+UniRef90_P03420 Fusion glycoprotein F0 n=400 Tax=root TaxID=1 Re...    40   0.83 
+UniRef90_A0A060AC89 Fusion glycoprotein F0 n=2 Tax=Respiratory s...    40   0.90 
+UniRef90_X5F747 Fusion glycoprotein F0 n=1 Tax=Respiratory syncy...    39   1.1  
+UniRef90_K4NVA5 Fusion glycoprotein F0 (Fragment) n=25 Tax=Human...    39   1.4  
+UniRef90_X5F723 Fusion glycoprotein F0 (Fragment) n=1 Tax=Respir...    39   1.8  
+UniRef90_Q9E8A8 Fusion glycoprotein F0 (Fragment) n=11 Tax=Bovin...    39   2.0  
+UniRef90_A0A0X8XSG2 Fusion glycoprotein F0 (Fragment) n=2 Tax=Hu...    39   2.0  
+UniRef90_UPI000B950401 Bovine prefusion RSV F glycoprotein n=1 T...    39   2.0  
+UniRef90_A0A0X8XQ75 Fusion glycoprotein F0 (Fragment) n=2 Tax=Hu...    38   2.4  
+UniRef90_A0A1Z5KP34 Uncharacterized protein n=1 Tax=Fistulifera ...    38   2.7  
+UniRef90_O36634 Fusion glycoprotein F0 n=1220 Tax=Pneumoviridae ...    38   2.8  
+UniRef90_A0A0X8XRB3 Fusion glycoprotein F0 (Fragment) n=1 Tax=Hu...    38   3.0  
+UniRef90_UPI000C784558 probable G-protein coupled receptor Mth-l...    38   3.0  
+UniRef90_UPI000C782918 probable G-protein coupled receptor Mth-l...    38   3.0  
+UniRef90_Q9QAA9 Fusion glycoprotein F0 (Fragment) n=1 Tax=Bovine...    38   3.2  
+UniRef90_A0A110BF23 Fusion glycoprotein F0 (Fragment) n=4 Tax=Hu...    37   3.8  
+UniRef90_K4NV73 Fusion glycoprotein F0 (Fragment) n=26 Tax=Human...    37   3.9  
+UniRef90_X5F8E4 Fusion glycoprotein F0 n=3 Tax=Respiratory syncy...    37   3.9  
+UniRef90_A0A1B2VS58 Fusion glycoprotein F0 n=1 Tax=Human respira...    37   3.9  
+UniRef90_X5F8C9 Fusion glycoprotein F0 (Fragment) n=1 Tax=Respir...    37   4.0  
+UniRef90_K4I038 Fusion glycoprotein F0 (Fragment) n=5 Tax=Pneumo...    37   7.0  
+
+>UniRef90_UPI0008A09DE5 Fusion glycoprotein F0 n=2 Tax=Respiratory syncytial virus
+           TaxID=12814 RepID=UPI0008A09DE5
+          Length = 394
+
+ Score = 40.4 bits (93), Expect = 0.52,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 109 SELLSLINDMPITNDQKKLMSNNV 132
+
+
+>UniRef90_UPI0006730511 Fusion glycoprotein F0,Fibritin n=14 Tax=Viruses TaxID=10239
+           RepID=UPI0006730511
+          Length = 498
+
+ Score = 40.4 bits (93), Expect = 0.56,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 203 SELLSLINDMPITNDQKKLMSNNV 226
+
+
+>UniRef90_X5F7Y0 Fusion glycoprotein F0 n=1 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=X5F7Y0_9MONO
+          Length = 574
+
+ Score = 40.0 bits (92), Expect = 0.62,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_X5F6J7 Fusion glycoprotein F0 n=2 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=X5F6J7_9MONO
+          Length = 574
+
+ Score = 39.7 bits (91), Expect = 0.78,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_UPI000211EFFD Fusion glycoprotein F0 n=6 Tax=Viruses TaxID=10239
+           RepID=UPI000211EFFD
+          Length = 568
+
+ Score = 39.7 bits (91), Expect = 0.79,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_P03420 Fusion glycoprotein F0 n=400 Tax=root TaxID=1 RepID=FUS_HRSVA
+          Length = 574
+
+ Score = 39.7 bits (91), Expect = 0.83,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_A0A060AC89 Fusion glycoprotein F0 n=2 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=A0A060AC89_9MONO
+          Length = 574
+
+ Score = 39.7 bits (91), Expect = 0.90,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_X5F747 Fusion glycoprotein F0 n=1 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=X5F747_9MONO
+          Length = 574
+
+ Score = 39.3 bits (90), Expect = 1.1,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_K4NVA5 Fusion glycoprotein F0 (Fragment) n=25 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=K4NVA5_HRSV
+          Length = 316
+
+ Score = 38.9 bits (89), Expect = 1.4,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 239 SELLSLINDMPITNDQKKLMSNNV 262
+
+
+>UniRef90_X5F723 Fusion glycoprotein F0 (Fragment) n=1 Tax=Respiratory syncytial
+           virus type A TaxID=1439707 RepID=X5F723_9MONO
+          Length = 528
+
+ Score = 38.5 bits (88), Expect = 1.8,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 209 SELLSLINDMPITNDQKKLMSNNV 232
+
+
+>UniRef90_Q9E8A8 Fusion glycoprotein F0 (Fragment) n=11 Tax=Bovine orthopneumovirus
+           TaxID=11246 RepID=Q9E8A8_9MONO
+          Length = 248
+
+ Score = 38.5 bits (88), Expect = 2.0,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 89  SELLSLINDMPITNDQKKLMSSNV 112
+
+
+>UniRef90_A0A0X8XSG2 Fusion glycoprotein F0 (Fragment) n=2 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=A0A0X8XSG2_HRSV
+          Length = 234
+
+ Score = 38.5 bits (88), Expect = 2.0,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 106 SELLSLINDMPITNDQKKLMSSNV 129
+
+
+>UniRef90_UPI000B950401 Bovine prefusion RSV F glycoprotein n=1 Tax=Enterobacteria phage T4
+           TaxID=10665 RepID=UPI000B950401
+          Length = 531
+
+ Score = 38.5 bits (88), Expect = 2.0,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 218 SELLSLINDMPITNDQKKLMSSNV 241
+
+
+>UniRef90_A0A0X8XQ75 Fusion glycoprotein F0 (Fragment) n=2 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=A0A0X8XQ75_HRSV
+          Length = 461
+
+ Score = 38.1 bits (87), Expect = 2.4,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSSNV 278
+
+
+>UniRef90_A0A1Z5KP34 Uncharacterized protein n=1 Tax=Fistulifera solaris TaxID=1519565
+           RepID=A0A1Z5KP34_FISSO
+          Length = 308
+
+ Score = 38.1 bits (87), Expect = 2.7,   Method: Composition-based stats.
+ Identities = 24/66 (36%), Positives = 37/66 (56%), Gaps = 3/66 (4%)
+
+Query: 17  VKAAFEGKSEGSDDMKELAKALQEFLKNGSKGIDEKRERMARAFLAWLARQNPSEILSWI 76
+           VK A EGKS     +KE+   ++  L      ID +RE++   F A +  +NPS + ++I
+Sbjct: 195 VKVALEGKS--GQRIKEVQSLIEGMLTRKDINIDRQREQIHELFDA-IHLRNPSMLPAFI 251
+
+Query: 77  NDMPIT 82
+           N MP+T
+Sbjct: 252 NPMPLT 257
+
+
+>UniRef90_O36634 Fusion glycoprotein F0 n=1220 Tax=Pneumoviridae TaxID=11244
+           RepID=FUS_HRSVB
+          Length = 574
+
+ Score = 38.1 bits (87), Expect = 2.8,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSSNV 278
+
+
+>UniRef90_A0A0X8XRB3 Fusion glycoprotein F0 (Fragment) n=1 Tax=Human respiratory
+          syncytial virus TaxID=11250 RepID=A0A0X8XRB3_HRSV
+          Length = 272
+
+ Score = 37.7 bits (86), Expect = 3.0,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 19/24 (79%)
+
+Query: 70 SEILSWINDMPITNDAKKKLSNEV 93
+          SE+LS INDMPITND KK +S  V
+Sbjct: 68 SELLSLINDMPITNDQKKLMSXNV 91
+
+
+>UniRef90_UPI000C784558 probable G-protein coupled receptor Mth-like 3 isoform X2 n=1
+           Tax=Eurytemora affinis TaxID=88015 RepID=UPI000C784558
+          Length = 747
+
+ Score = 37.7 bits (86), Expect = 3.0,   Method: Composition-based stats.
+ Identities = 25/61 (40%), Positives = 35/61 (57%), Gaps = 5/61 (8%)
+
+Query: 3   GLELAMKGKEEAKKVKAAFEGKSEGSDDMKELAKALQEFLKNGS----KGIDEKRERMAR 58
+           GL LA  G+EEAK V+ A  G  + +++ K L K  QE  KNGS     G++E + R  +
+Sbjct: 615 GLNLAKTGQEEAKSVQLAKNGH-DATNEGKSLTKNEQELTKNGSIRAKSGLNETKLRHDQ 673
+
+Query: 59  A 59
+           A
+Sbjct: 674 A 674
+
+
+>UniRef90_UPI000C782918 probable G-protein coupled receptor Mth-like 3 isoform X1 n=1
+           Tax=Eurytemora affinis TaxID=88015 RepID=UPI000C782918
+          Length = 777
+
+ Score = 37.7 bits (86), Expect = 3.0,   Method: Composition-based stats.
+ Identities = 25/61 (40%), Positives = 35/61 (57%), Gaps = 5/61 (8%)
+
+Query: 3   GLELAMKGKEEAKKVKAAFEGKSEGSDDMKELAKALQEFLKNGS----KGIDEKRERMAR 58
+           GL LA  G+EEAK V+ A  G  + +++ K L K  QE  KNGS     G++E + R  +
+Sbjct: 645 GLNLAKTGQEEAKSVQLAKNGH-DATNEGKSLTKNEQELTKNGSIRAKSGLNETKLRHDQ 703
+
+Query: 59  A 59
+           A
+Sbjct: 704 A 704
+
+
+>UniRef90_Q9QAA9 Fusion glycoprotein F0 (Fragment) n=1 Tax=Bovine orthopneumovirus
+           TaxID=11246 RepID=Q9QAA9_9MONO
+          Length = 361
+
+ Score = 37.7 bits (86), Expect = 3.2,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 202 SELLSLINDMPITNDQKKLMSSNV 225
+
+
+>UniRef90_A0A110BF23 Fusion glycoprotein F0 (Fragment) n=4 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=A0A110BF23_HRSV
+          Length = 310
+
+ Score = 37.4 bits (85), Expect = 3.8,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 181 SELLSLINDMPITNDQKKLMSSNV 204
+
+
+>UniRef90_K4NV73 Fusion glycoprotein F0 (Fragment) n=26 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=K4NV73_HRSV
+          Length = 317
+
+ Score = 37.4 bits (85), Expect = 3.9,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 240 SELLSLINDMPITNDQKKLMSSNV 263
+
+
+>UniRef90_X5F8E4 Fusion glycoprotein F0 n=3 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=X5F8E4_9MONO
+          Length = 574
+
+ Score = 37.4 bits (85), Expect = 3.9,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSSNV 278
+
+
+>UniRef90_A0A1B2VS58 Fusion glycoprotein F0 n=1 Tax=Human respiratory syncytial virus
+           TaxID=11250 RepID=A0A1B2VS58_HRSV
+          Length = 574
+
+ Score = 37.4 bits (85), Expect = 3.9,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSSNV 278
+
+
+>UniRef90_X5F8C9 Fusion glycoprotein F0 (Fragment) n=1 Tax=Respiratory syncytial
+           virus type A TaxID=1439707 RepID=X5F8C9_9MONO
+          Length = 447
+
+ Score = 37.4 bits (85), Expect = 4.0,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 128 SELLSLINDMPITNDQKKLMSSNV 151
+
+
+>UniRef90_K4I038 Fusion glycoprotein F0 (Fragment) n=5 Tax=Pneumoviridae TaxID=11244
+           RepID=K4I038_9MONO
+          Length = 268
+
+ Score = 36.6 bits (83), Expect = 7.0,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 215 SELLSLINDMPITNDQKKLMSSNV 238
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_P03420 Fusion glycoprotein F0 n=400 Tax=root TaxID=1 Re...    42   0.21 
+UniRef90_X5F723 Fusion glycoprotein F0 (Fragment) n=1 Tax=Respir...    42   0.21 
+UniRef90_A0A060AC89 Fusion glycoprotein F0 n=2 Tax=Respiratory s...    42   0.21 
+UniRef90_X5F7Y0 Fusion glycoprotein F0 n=1 Tax=Respiratory syncy...    42   0.21 
+UniRef90_X5F6J7 Fusion glycoprotein F0 n=2 Tax=Respiratory syncy...    42   0.21 
+UniRef90_X5F747 Fusion glycoprotein F0 n=1 Tax=Respiratory syncy...    42   0.21 
+UniRef90_K4NVA5 Fusion glycoprotein F0 (Fragment) n=25 Tax=Human...    42   0.21 
+UniRef90_UPI000211EFFD Fusion glycoprotein F0 n=6 Tax=Viruses Ta...    42   0.21 
+UniRef90_UPI0006730511 Fusion glycoprotein F0,Fibritin n=14 Tax=...    42   0.21 
+UniRef90_UPI0008A09DE5 Fusion glycoprotein F0 n=2 Tax=Respirator...    42   0.21 
+UniRef90_A0A1Z9MQY3 Iron ABC transporter substrate-binding prote...    41   0.36 
+UniRef90_A0A1Z5KP34 Uncharacterized protein n=1 Tax=Fistulifera ...    41   0.47 
+UniRef90_O36634 Fusion glycoprotein F0 n=1220 Tax=Pneumoviridae ...    39   0.95 
+UniRef90_Q9E8A8 Fusion glycoprotein F0 (Fragment) n=11 Tax=Bovin...    39   0.95 
+UniRef90_Q9QAA9 Fusion glycoprotein F0 (Fragment) n=1 Tax=Bovine...    39   0.95 
+UniRef90_K4I038 Fusion glycoprotein F0 (Fragment) n=5 Tax=Pneumo...    39   0.95 
+UniRef90_X5F8C9 Fusion glycoprotein F0 (Fragment) n=1 Tax=Respir...    39   0.95 
+UniRef90_X5F8E4 Fusion glycoprotein F0 n=3 Tax=Respiratory syncy...    39   0.95 
+UniRef90_A0A0X8XQ75 Fusion glycoprotein F0 (Fragment) n=2 Tax=Hu...    39   0.95 
+UniRef90_A0A0X8XSG2 Fusion glycoprotein F0 (Fragment) n=2 Tax=Hu...    39   0.95 
+UniRef90_A0A1B2VS58 Fusion glycoprotein F0 n=1 Tax=Human respira...    39   0.95 
+UniRef90_K4NV73 Fusion glycoprotein F0 (Fragment) n=26 Tax=Human...    39   0.95 
+UniRef90_A0A110BF23 Fusion glycoprotein F0 (Fragment) n=4 Tax=Hu...    39   0.95 
+UniRef90_UPI000B950401 Bovine prefusion RSV F glycoprotein n=1 T...    39   0.95 
+
+
+CONVERGED!
+>UniRef90_P03420 Fusion glycoprotein F0 n=400 Tax=root TaxID=1 RepID=FUS_HRSVA
+          Length = 574
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_X5F723 Fusion glycoprotein F0 (Fragment) n=1 Tax=Respiratory syncytial
+           virus type A TaxID=1439707 RepID=X5F723_9MONO
+          Length = 528
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 209 SELLSLINDMPITNDQKKLMSNNV 232
+
+
+>UniRef90_A0A060AC89 Fusion glycoprotein F0 n=2 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=A0A060AC89_9MONO
+          Length = 574
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_X5F7Y0 Fusion glycoprotein F0 n=1 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=X5F7Y0_9MONO
+          Length = 574
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_X5F6J7 Fusion glycoprotein F0 n=2 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=X5F6J7_9MONO
+          Length = 574
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_X5F747 Fusion glycoprotein F0 n=1 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=X5F747_9MONO
+          Length = 574
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_K4NVA5 Fusion glycoprotein F0 (Fragment) n=25 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=K4NVA5_HRSV
+          Length = 316
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 239 SELLSLINDMPITNDQKKLMSNNV 262
+
+
+>UniRef90_UPI000211EFFD Fusion glycoprotein F0 n=6 Tax=Viruses TaxID=10239
+           RepID=UPI000211EFFD
+          Length = 568
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSNNV 278
+
+
+>UniRef90_UPI0006730511 Fusion glycoprotein F0,Fibritin n=14 Tax=Viruses TaxID=10239
+           RepID=UPI0006730511
+          Length = 498
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 203 SELLSLINDMPITNDQKKLMSNNV 226
+
+
+>UniRef90_UPI0008A09DE5 Fusion glycoprotein F0 n=2 Tax=Respiratory syncytial virus
+           TaxID=12814 RepID=UPI0008A09DE5
+          Length = 394
+
+ Score = 41.7 bits (96), Expect = 0.21,   Method: Composition-based stats.
+ Identities = 18/24 (75%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +SN V
+Sbjct: 109 SELLSLINDMPITNDQKKLMSNNV 132
+
+
+>UniRef90_A0A1Z9MQY3 Iron ABC transporter substrate-binding protein n=1 Tax=Candidatus
+           Puniceispirillum sp. TMED213 TaxID=1986634
+           RepID=A0A1Z9MQY3_9PROT
+          Length = 337
+
+ Score = 40.9 bits (94), Expect = 0.36,   Method: Composition-based stats.
+ Identities = 19/46 (41%), Positives = 29/46 (63%), Gaps = 3/46 (6%)
+
+Query: 52  KRERMARAFLAWLARQNPSEILSWIN-DMPITNDAKKKLSNEVAKW 96
+           K++  ARAFL WL  +   +I + +N + P+  + + KLSNEVA W
+Sbjct: 265 KKKNQARAFLEWLTSEEAQQIYTEVNFEYPV--NPRAKLSNEVASW 308
+
+
+>UniRef90_A0A1Z5KP34 Uncharacterized protein n=1 Tax=Fistulifera solaris TaxID=1519565
+           RepID=A0A1Z5KP34_FISSO
+          Length = 308
+
+ Score = 40.5 bits (93), Expect = 0.47,   Method: Composition-based stats.
+ Identities = 24/66 (36%), Positives = 37/66 (56%), Gaps = 3/66 (4%)
+
+Query: 17  VKAAFEGKSEGSDDMKELAKALQEFLKNGSKGIDEKRERMARAFLAWLARQNPSEILSWI 76
+           VK A EGKS     +KE+   ++  L      ID +RE++   F A +  +NPS + ++I
+Sbjct: 195 VKVALEGKS--GQRIKEVQSLIEGMLTRKDINIDRQREQIHELFDA-IHLRNPSMLPAFI 251
+
+Query: 77  NDMPIT 82
+           N MP+T
+Sbjct: 252 NPMPLT 257
+
+
+>UniRef90_O36634 Fusion glycoprotein F0 n=1220 Tax=Pneumoviridae TaxID=11244
+           RepID=FUS_HRSVB
+          Length = 574
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSSNV 278
+
+
+>UniRef90_Q9E8A8 Fusion glycoprotein F0 (Fragment) n=11 Tax=Bovine orthopneumovirus
+           TaxID=11246 RepID=Q9E8A8_9MONO
+          Length = 248
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 89  SELLSLINDMPITNDQKKLMSSNV 112
+
+
+>UniRef90_Q9QAA9 Fusion glycoprotein F0 (Fragment) n=1 Tax=Bovine orthopneumovirus
+           TaxID=11246 RepID=Q9QAA9_9MONO
+          Length = 361
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 202 SELLSLINDMPITNDQKKLMSSNV 225
+
+
+>UniRef90_K4I038 Fusion glycoprotein F0 (Fragment) n=5 Tax=Pneumoviridae TaxID=11244
+           RepID=K4I038_9MONO
+          Length = 268
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 215 SELLSLINDMPITNDQKKLMSSNV 238
+
+
+>UniRef90_X5F8C9 Fusion glycoprotein F0 (Fragment) n=1 Tax=Respiratory syncytial
+           virus type A TaxID=1439707 RepID=X5F8C9_9MONO
+          Length = 447
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 128 SELLSLINDMPITNDQKKLMSSNV 151
+
+
+>UniRef90_X5F8E4 Fusion glycoprotein F0 n=3 Tax=Respiratory syncytial virus type A
+           TaxID=1439707 RepID=X5F8E4_9MONO
+          Length = 574
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSSNV 278
+
+
+>UniRef90_A0A0X8XQ75 Fusion glycoprotein F0 (Fragment) n=2 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=A0A0X8XQ75_HRSV
+          Length = 461
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSSNV 278
+
+
+>UniRef90_A0A0X8XSG2 Fusion glycoprotein F0 (Fragment) n=2 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=A0A0X8XSG2_HRSV
+          Length = 234
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 106 SELLSLINDMPITNDQKKLMSSNV 129
+
+
+>UniRef90_A0A1B2VS58 Fusion glycoprotein F0 n=1 Tax=Human respiratory syncytial virus
+           TaxID=11250 RepID=A0A1B2VS58_HRSV
+          Length = 574
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 255 SELLSLINDMPITNDQKKLMSSNV 278
+
+
+>UniRef90_K4NV73 Fusion glycoprotein F0 (Fragment) n=26 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=K4NV73_HRSV
+          Length = 317
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 240 SELLSLINDMPITNDQKKLMSSNV 263
+
+
+>UniRef90_A0A110BF23 Fusion glycoprotein F0 (Fragment) n=4 Tax=Human respiratory
+           syncytial virus TaxID=11250 RepID=A0A110BF23_HRSV
+          Length = 310
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 181 SELLSLINDMPITNDQKKLMSSNV 204
+
+
+>UniRef90_UPI000B950401 Bovine prefusion RSV F glycoprotein n=1 Tax=Enterobacteria phage T4
+           TaxID=10665 RepID=UPI000B950401
+          Length = 531
+
+ Score = 39.4 bits (90), Expect = 0.95,   Method: Composition-based stats.
+ Identities = 17/24 (70%), Positives = 20/24 (83%)
+
+Query: 70  SEILSWINDMPITNDAKKKLSNEV 93
+           SE+LS INDMPITND KK +S+ V
+Sbjct: 218 SELLSLINDMPITNDQKKLMSSNV 241
+
+
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt
+    Posted date:  Apr 25, 2018  9:20 PM
+  Number of letters in database: 999,999,817
+  Number of sequences in database:  2,892,040
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.01
+    Posted date:  Apr 25, 2018  9:21 PM
+  Number of letters in database: 999,999,684
+  Number of sequences in database:  2,278,212
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.02
+    Posted date:  Apr 25, 2018  9:23 PM
+  Number of letters in database: 999,999,632
+  Number of sequences in database:  2,327,781
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.03
+    Posted date:  Apr 25, 2018  9:24 PM
+  Number of letters in database: 999,999,448
+  Number of sequences in database:  2,390,013
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.04
+    Posted date:  Apr 25, 2018  9:25 PM
+  Number of letters in database: 999,999,920
+  Number of sequences in database:  2,473,854
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.05
+    Posted date:  Apr 25, 2018  9:27 PM
+  Number of letters in database: 999,999,766
+  Number of sequences in database:  2,699,369
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.06
+    Posted date:  Apr 25, 2018  9:28 PM
+  Number of letters in database: 999,999,949
+  Number of sequences in database:  3,052,090
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.07
+    Posted date:  Apr 25, 2018  9:30 PM
+  Number of letters in database: 999,999,857
+  Number of sequences in database:  3,195,405
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.08
+    Posted date:  Apr 25, 2018  9:31 PM
+  Number of letters in database: 999,999,795
+  Number of sequences in database:  3,377,833
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.09
+    Posted date:  Apr 25, 2018  9:33 PM
+  Number of letters in database: 999,999,945
+  Number of sequences in database:  3,278,025
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.10
+    Posted date:  Apr 25, 2018  9:35 PM
+  Number of letters in database: 999,999,598
+  Number of sequences in database:  3,262,026
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.11
+    Posted date:  Apr 25, 2018  9:36 PM
+  Number of letters in database: 999,999,937
+  Number of sequences in database:  3,258,308
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.12
+    Posted date:  Apr 25, 2018  9:38 PM
+  Number of letters in database: 999,999,704
+  Number of sequences in database:  3,256,364
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.13
+    Posted date:  Apr 25, 2018  9:39 PM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  3,248,470
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.14
+    Posted date:  Apr 25, 2018  9:41 PM
+  Number of letters in database: 999,999,916
+  Number of sequences in database:  3,197,486
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.15
+    Posted date:  Apr 25, 2018  9:43 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,238,042
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.16
+    Posted date:  Apr 25, 2018  9:44 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,253,045
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.17
+    Posted date:  Apr 25, 2018  9:46 PM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  3,203,921
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.18
+    Posted date:  Apr 25, 2018  9:47 PM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,080,352
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.19
+    Posted date:  Apr 25, 2018  9:49 PM
+  Number of letters in database: 999,999,076
+  Number of sequences in database:  2,927,914
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.20
+    Posted date:  Apr 25, 2018  9:50 PM
+  Number of letters in database: 999,999,697
+  Number of sequences in database:  2,780,386
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.21
+    Posted date:  Apr 25, 2018  9:51 PM
+  Number of letters in database: 999,999,630
+  Number of sequences in database:  2,547,286
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.22
+    Posted date:  Apr 25, 2018  9:53 PM
+  Number of letters in database: 999,997,037
+  Number of sequences in database:  2,858,393
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.23
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 999,999,954
+  Number of sequences in database:  2,746,101
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.24
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 46,695,217
+  Number of sequences in database:  130,380
+  
+Lambda     K      H
+   0.308    0.125    0.347 
+
+Lambda     K      H
+   0.267   0.0399    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 7,577,849,921
+Number of Sequences: 70953096
+Number of extensions: 237215035
+Number of successful extensions: 652679
+Number of sequences better than 10.0: 25
+Number of HSP's better than 10.0 without gapping: 47
+Number of HSP's successfully gapped in prelim test: 15
+Number of HSP's that attempted gapping in prelim test: 652628
+Number of HSP's gapped (non-prelim): 63
+length of query: 96
+length of database: 24,046,686,692
+effective HSP length: 65
+effective length of query: 31
+effective length of database: 23,729,702,748
+effective search space: 735620785188
+effective search space used: 735620785188
+T: 11
+A: 40
+X1: 16 ( 7.1 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.7 bits)
+S2: 82 (36.2 bits)
