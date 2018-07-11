@@ -34,7 +34,7 @@ COMMON="-overwrite -in:ignore_unrecognized_res -in:ignore_waters -out:file:silen
 ROSETTADB="-in:path:database /scratch/snx3000/"${USER}"/database"
 
 # JOB
-OUTDIR="output/"
+OUTDIR="output/"${1}"_"${2}"/"
 PDB="1kx8"
 PREFIX=${PDB}_${SLURM_TASK_PID}
 

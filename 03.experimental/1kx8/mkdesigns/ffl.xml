@@ -80,7 +80,7 @@
     </AddConstraints>
 
     # MAIN: NUBINITIO FOLDING
-    <NubInitioMover name="no_target" fragments_id="frags" template_motif_selector="insertion"
+    <NubInitioMover name="notarget" fragments_id="frags" template_motif_selector="insertion"
       rmsd_threshold="5" fullatom_scorefxn="fullatom" >
       <Nub reference_name="motif_pose" residue_selector="motif" >
         <Segment order="1" n_term_flex="3" c_term_flex="3" editable="3,6,10,16,20" />
@@ -92,7 +92,7 @@
         <Segment order="1" n_term_flex="3" c_term_flex="3" editable="3,6,10,16,20" />
       </Nub>
     </NubInitioMover>
-    <SwitchMover name="FFL" movers="no_target,target" selected="%%protocol%%" />
+    <SwitchMover name="FFL" movers="notarget,target" selected="%%protocol%%" />
 
     # POSTPROCESSING: CONSTRAINTS
     <AddConstraints name="designCST" >
@@ -126,7 +126,6 @@
     ## VERBOSE
     <DisplayPoseLabelsMover name="showDesign" movemap_factory="FFLSTANDARD_MOVEMAP"
       task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
-    <WriteSSEMover name="writesse" dssp="1" write_phipsi="1" />
 
   </MOVERS>
 
@@ -146,7 +145,6 @@
     <Add mover="compositionCST" />
     <Add mover="DesignRelax"    />
     <Add mover="clearCST"       />
-    <Add mover="writesse"       />
     # EVALUATION
     <Add filter="driftRMSD"    />
     <Add filter="finalRMSD"    />
