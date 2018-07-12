@@ -1,0 +1,161 @@
+<ROSETTASCRIPTS>
+
+  <SCOREFXNS>
+    # A weight is added to small-range hbonds to favor helix formation.
+    # A weight is added to long-range hbonds to favor beta formation.
+    <ScoreFunction name="fullatom" weights="talaris2014">
+      <Reweight scoretype="hbond_sr_bb"          weight="1.6" />
+      <Reweight scoretype="hbond_lr_bb"          weight="1.6" />
+      <Reweight scoretype="atom_pair_constraint" weight="1.6" />
+    </ScoreFunction>
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS>
+    # Standard FFL ResidueSelectors.
+    <xi:include href="xml_pieces/selectors.xml" />
+
+    ## TEMPLATE (1qys)
+    ### usable template
+    <Index name="template" resnums="3A-94A" />
+    <Not name="!template" selector="template" />
+    ### insertion point
+    <Index name="insertion" resnums="5A-8A,15A-21A" />
+
+    ## MOTIF (motif)
+    ### motif
+    <Index name="motif" resnums="4P-7P,13P-19P" />
+    <Chain name="binder" chains="H,L" />
+
+    ### Design
+    <Chain name="design" chains="P" />
+  </RESIDUE_SELECTORS>
+
+  <MOVE_MAP_FACTORIES>
+    # Standard FFL MoveMap
+    <xi:include href="xml_pieces/movemap.xml" />
+  </MOVE_MAP_FACTORIES>
+
+  <TASKOPERATIONS>
+    # Standard FFL TaskOperators
+    <xi:include href="xml_pieces/taskoperators.xml" />
+  </TASKOPERATIONS>
+
+  <FILTERS> # (confidence=0 -> to score not to filter)
+
+    # Globals
+    <RmsdFromResidueSelectorFilter name="driftRMSD" reference_name="folded_pose"
+       reference_selector="design" query_selector="design" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="finalRMSD" reference_name="template_pose"
+      reference_selector="template" query_selector="design" confidence="0" />
+    <BuriedUnsatHbonds name="BUNS" jump_number="0" confidence="0"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
+    <PackStat name="packstat" repeats="5" chain="1" confidence="0" />
+    <CavityVolume name="cav_vol" confidence="0" />
+    <ScorePoseSegmentFromResidueSelectorFilter name="design_score" confidence="0"
+      residue_selector="design" scorefxn="fullatom" />
+  </FILTERS>
+
+  <MOVERS>
+    ## CLEAN STRUCTURE:
+    <DeleteRegionMover name="delete" residue_selector="!template" />
+
+    ## PREPROCESSING: STORING INPUT STRUCTURES
+    <SavePoseMover name="saveFlded" reference_name="folded_pose" restore_pose="0" />
+    <SavePoseMover name="saveTmpl"  reference_name="template_pose" restore_pose="0" />
+    # ** SavePoseMover used like this does not need to be called during PROTOCOL to work.
+    <SavePoseMover name="readMotif" reference_name="motif_pose" pdb_file="motif.pdb" />
+
+    ## PREPROCESSING: MAKING FRAGMENTS
+    <StructFragmentMover name="makeFrags" prefix="frags"
+      vall_file="database/vall.jul19.2011.gz" output_frag_files="1"
+      small_frag_file="frags.200.3mers" large_frag_file="frags.200.9mers"
+      frag_weight_file="scores.cfg"
+    />
+
+    ## PREPROCESSING: CONSTRAINTS
+    <AddConstraints name="foldingCST" >
+      <AtomPairConstraintGenerator name="atompairCST1" sd="3.0" ca_only="true"
+        use_harmonic="true" unweighted="true" min_seq_sep="6" max_distance="40" residue_selector="template"
+      />
+    </AddConstraints>
+
+    # MAIN: NUBINITIO FOLDING
+    <NubInitioMover name="notarget" fragments_id="frags" template_motif_selector="insertion"
+      rmsd_threshold="5" fullatom_scorefxn="fullatom" >
+      <Nub reference_name="motif_pose" residue_selector="motif" >
+        <Segment order="1" c_term_flex="1" />
+        <Segment order="2" c_term_flex="1" /> 
+      </Nub>
+    </NubInitioMover>
+    <NubInitioMover name="target" fragments_id="frags" template_motif_selector="insertion"
+      rmsd_threshold="5" fullatom_scorefxn="fullatom" >
+      <Nub reference_name="motif_pose" residue_selector="motif" binder_selector="binder" >
+        <Segment order="1" c_term_flex="1" />
+        <Segment order="2" c_term_flex="1" />
+      </Nub>
+    </NubInitioMover>
+    <SwitchMover name="FFL" movers="notarget,target" selected="%%protocol%%" />
+
+    # POSTPROCESSING: CONSTRAINTS
+    <AddConstraints name="designCST" >
+      <AtomPairConstraintGenerator name="atompairCST2" sd="1" ca_only="true"
+        use_harmonic="true" unweighted="true" min_seq_sep="6" max_distance="40" residue_selector="design"
+      />
+    </AddConstraints>
+    <ClearConstraintsMover name="clearCST" />
+
+    # POSTPROCESSING: SEQUENCE CONSTRAINTS
+    <AddHelixSequenceConstraints name="compositionCST" />
+
+    # POSTPROCESSING: DESING
+    <FastDesign name="static" scorefxn="fullatom" clear_designable_residues="true"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP"
+      repeats="3" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLSTANDARD_MOVEMAP" >
+    </FastDesign>
+    <FastDesign name="pack" scorefxn="fullatom" clear_designable_residues="true"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP"
+      repeats="3" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLBINDERPACK_MOVEMAP" >
+    </FastDesign>
+    <FastDesign name="packmin" scorefxn="fullatom" clear_designable_residues="true"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP"
+      repeats="3" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLBINDERPACKMIN_MOVEMAP" >
+    </FastDesign>
+    <SwitchMover name="DesignRelax" movers="static,pack,packmin" selected="%%status%%" />
+
+    ## VERBOSE
+    <DisplayPoseLabelsMover name="showDesign" movemap_factory="FFLSTANDARD_MOVEMAP"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
+
+  </MOVERS>
+
+  <PROTOCOLS>
+    # PREPROCESSING:
+    <Add mover="delete"     />
+    <Add mover="saveTmpl"   />
+    <Add mover="makeFrags"  />
+    <Add mover="foldingCST" />
+    # MAIN
+    <Add mover="FFL"        />
+    <Add mover="showDesign" />
+    <Add mover="clearCST"   />
+    <Add mover="saveFlded"  />
+    # POSTPROCESSING
+    <Add mover="designCST"      />
+    <Add mover="compositionCST" />
+    <Add mover="DesignRelax"    />
+    <Add mover="clearCST"       />
+    # EVALUATION
+    <Add filter="driftRMSD"    />
+    <Add filter="finalRMSD"    />
+    <Add filter="BUNS"         />
+    <Add filter="packstat"     />
+    <Add filter="cav_vol"      />
+    <Add filter="design_score" />
+  </PROTOCOLS>
+
+  <OUTPUT scorefxn="fullatom"/>
+
+</ROSETTASCRIPTS>

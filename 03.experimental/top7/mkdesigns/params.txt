@@ -1,0 +1,4 @@
+notarget static
+target static
+target pack
+target packmin

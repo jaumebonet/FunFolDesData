@@ -1,9 +1,7 @@
 <ROSETTASCRIPTS>
 
   <SCOREFXNS>
-    # A weight is added to small-range hbonds to favor helix, and beta pairing
-    # and to take residue propensity into account. This way, we can favor
-    # helix-forming residues in our designs.
+    # A weight is added to small-range hbonds to favor helix formation.
     <ScoreFunction name="fullatom" weights="talaris2014">
       <Reweight scoretype="hbond_sr_bb"          weight="1.6" />
       <Reweight scoretype="atom_pair_constraint" weight="1.6" />
