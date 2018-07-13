@@ -43,4 +43,4 @@ TRACER="-mpi_tracer_to_file "${TRACEDIR}"/"${PREFIX}"_tracer.log"
 
 mkdir -p ${OUTDIR}
 
-srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ${ROSETTAEXE} -parser:protocol ffl.xml -s ${PDB}.pdb -out:prefix ${PREFIX}_ -out:file:silent ${OUTDIR}/${PREFIX} ${TRACER} ${NSTRUCT} ${ROSETTADB} ${COMMON} -parser:script_vars protocol=${1} status=${2}
+srun -n $SLURM_NTASKS --ntasks-per-node=$SLURM_NTASKS_PER_NODE -c $SLURM_CPUS_PER_TASK ${ROSETTAEXE} -parser:protocol ffl.xml -s ${PDB}.pdb -out:prefix ${PREFIX}_ -out:file:silent ${OUTDIR}/${PREFIX}.silent ${TRACER} ${NSTRUCT} ${ROSETTADB} ${COMMON} -parser:script_vars protocol=${1} status=${2}

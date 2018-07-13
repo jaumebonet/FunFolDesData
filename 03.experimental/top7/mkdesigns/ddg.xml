@@ -1,0 +1,74 @@
+<ROSETTASCRIPTS>
+
+  <SCOREFXNS>
+    # A weight is added to small-range hbonds to favor helix formation.
+    <ScoreFunction name="fullatom" weights="talaris2014">
+      <Reweight scoretype="atom_pair_constraint" weight="1.6" />
+      <Reweight scoretype="hbond_sr_bb"          weight="1.6" />
+      <Reweight scoretype="hbond_lr_bb"          weight="1.6" />
+    </ScoreFunction>
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS>
+    <Chain name="design" chains="P" />
+    <Chain name="binder" chains="H,L" />
+    <Not name="!binder" selector="binder" />
+  </RESIDUE_SELECTORS>
+
+  <FILTERS> # (confidence=0 -> to score not to filter)
+
+    # Globals
+    <RmsdFromResidueSelectorFilter name="designDriftRMSD" reference_name="input_pose"
+      reference_selector="design" query_selector="design" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="binderDriftRMSD" reference_name="input_pose"
+      reference_selector="binder" query_selector="binder" confidence="0" />
+    <Ddg name="filterDDG" scorefxn="fullatom" confidence="0" />
+    <ScorePoseSegmentFromResidueSelectorFilter name="designMinScore" confidence="0"
+      residue_selector="design" scorefxn="fullatom" />
+  </FILTERS>
+
+  <MOVERS>
+
+    # Adding binder to notarget designs
+    <SavePoseMover name="saveInput"  reference_name="input_pose"  restore_pose="0" />
+
+    <MinMover name="minimize" scorefxn="fullatom" chi="true" bb="true" jump="0" />
+    <AddChain name="addBinder" update_PDBInfo="false" file_name="binder.pdb" scorefxn="fullatom" />
+    <ddG name="moverDDGpre" scorefxn="fullatom" />
+    <ddG name="moverDDGpost" scorefxn="fullatom" />
+    <FilterReportAsPoseExtraScoresMover name="filterDDGpre" report_as="filterDDGpre" filter_name="filterDDG"/>
+    <FilterReportAsPoseExtraScoresMover name="filterDDGpost" report_as="filterDDGpost" filter_name="filterDDG"/>
+
+    <ParsedProtocol name="target">
+      <Add mover_name="saveInput" />
+      <Add mover_name="moverDDGpre" />
+      <Add mover_name="filterDDGpre" />
+      <Add mover_name="minimize" />
+      <Add mover_name="moverDDGpost" />
+      <Add mover_name="filterDDGpost" />
+    </ParsedProtocol>
+    <ParsedProtocol name="notarget">
+      <Add mover_name="addBinder" />
+      <Add mover_name="saveInput" />
+      <Add mover_name="moverDDGpre" />
+      <Add mover_name="filterDDGpre" />
+      <Add mover_name="minimize" />
+      <Add mover_name="moverDDGpost" />
+      <Add mover_name="filterDDGpost" />
+    </ParsedProtocol>
+    <SwitchMover name="MIN" movers="notarget,target" selected="%%protocol%%" />
+
+  </MOVERS>
+
+  <PROTOCOLS>
+    <Add mover="MIN"              />
+    <Add filter="designDriftRMSD" />
+    <Add filter="binderDriftRMSD" />
+    <Add filter="designMinScore"  />
+
+  </PROTOCOLS>
+
+  <OUTPUT scorefxn="fullatom"/>
+
+</ROSETTASCRIPTS>
+
