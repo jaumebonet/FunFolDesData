@@ -27,8 +27,8 @@ sns.set_palette('deep')
 
 
 ```python
-info = readme_utils.io.load_benchmark_info("_info.yaml")
-readme_utils.plot.show_info(info)
+info = readme_utils.io.load_benchmark_info( "_info.yaml" )
+readme_utils.plot.show_info( info )
 ```
 
 
@@ -74,22 +74,18 @@ readme_utils.plot.show_info(info)
         <tr style="border-top: 3px solid black;">
             <th colspan="2" style="text-align:center;border-right: 1px solid black;" >Experiments</th>
             <td colspan="2" style="text-align:center;" >abinitio</td>
-            <td colspan="2" style="text-align:center;" >nubinitio</td>
+            <td colspan="2" style="text-align:center;" >FunFolDes</td>
         </tr>
         <tr style="border-top: 3px solid black;border-bottom: 1px solid black;">
             <th colspan="6" style="text-align:center;" >Fragment types</th>
         </tr>
         <tr>
-            <th colspan="1" style="text-align:center;" >auto</th>
-            <td colspan="5" style="text-align:left;" >Automatic fragment generation (sequence + secondary structure)</td>
+            <th colspan="2" style="text-align:center;" >sequence-based</th>
+            <td colspan="4" style="text-align:left;" >Standard Rosetta fragment generation (sequence-based data)</td>
         </tr>
         <tr>
-            <th colspan="1" style="text-align:center;" >picker</th>
-            <td colspan="5" style="text-align:left;" >Standard Rosetta fragment generation (sequence-based data)</td>
-        </tr>
-        <tr>
-            <th colspan="1" style="text-align:center;" >wauto</th>
-            <td colspan="5" style="text-align:left;" >Automatic fragment generation (secondary structure + angles + sasa)</td>
+            <th colspan="2" style="text-align:center;" >structure-based</th>
+            <td colspan="4" style="text-align:left;" >Automatic fragment generation (secondary structure + angles + sasa)</td>
         </tr>
     </table>
     </div>
@@ -154,123 +150,81 @@ base
 
 
 ```python
-fragments = readme_utils.io.load_fragments( info )
-```
-
-
-```python
 matplotlib.rcParams.update({'font.size': 30})
-readme_utils.plot.plot_fragments( fragments, info, base )
+readme_utils.plot.plot_fragments( readme_utils.io.load_fragments( info ), info, base )
 ```
 
 
-![png](README_files/README_6_0.png)
+![png](README_files/README_5_0.png)
 
 
 
-![png](README_files/README_6_1.png)
+![png](README_files/README_5_1.png)
 
 
-# Main data analysis
+# Main data analysis:
+## Recovery
 
 
 ```python
 df = readme_utils.io.load_main_data( info, base )
+readme_utils.plot.plot_coverage( df )
 ```
 
 
-```python
-print "columns:", ", ".join([str(x) for x in df.columns.values]), "\n"
-df.groupby(["experiment", "fragments"]).count()["description"]
-```
-
-    columns: score, ALIGNRMSD, A_ni_mtcontacts, A_ni_rmsd, A_ni_rmsd_threshold, A_ni_trials, BUNS, COMPRRMSD, MOTIFRMSD, cav_vol, driftRMSD, finalRMSD, packstat, A_ni_rmsd_type, description, experiment, fragments, sequence_A, benchmark 
-    
+![png](README_files/README_7_0.png)
 
 
-
-
-
-    experiment  fragments
-    abinitio    auto         10296
-                picker       10296
-                wauto        10296
-    nubinitio   auto         10296
-                picker       10296
-                wauto        10296
-    Name: description, dtype: int64
-
-
-
-## Compare FFL vs. abinitio RMSD
+## FunFolDes vs. abinitio RMSD
 
 
 ```python
-matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_main_summary( df )
 ```
 
 
-![png](README_files/README_11_0.png)
+![png](README_files/README_9_0.png)
 
 
 
 ```python
-matplotlib.rcParams.update({'font.size': 25})
 readme_utils.plot.plot_main_distributions( df, 15 )
+```
+
+
+![png](README_files/README_10_0.png)
+
+
+## FunFolDes sequence retrieval
+
+
+```python
+readme_utils.plot.plot_aa_heatmaps( df, info, base, 0.1 )
 ```
 
 
 ![png](README_files/README_12_0.png)
 
 
-## FFL sequence retrieval
-
 
 ```python
-matplotlib.rcParams.update({'font.size': 30})
-readme_utils.plot.plot_aa_heatmaps( df, info, base, 0.1 )
-```
-
-
-![png](README_files/README_14_0.png)
-
-
-
-```python
-matplotlib.rcParams.update({'font.size': 30})
 readme_utils.plot.plot_aa_similarities( df, info, base )
 ```
 
 
-![png](README_files/README_15_0.png)
+![png](README_files/README_13_0.png)
 
 
 ## HMM analysis
-Check sequence recovery against the template's hmm.
+Check % of design recovered by using the HMM of the **template protein**.
+
+A blue line defines, for the same filter conditions, the % recovery of all the protein of the CATH superfamily.
 
 
 ```python
-hmm = readme_utils.io.load_hmm_data( df, info )
-matplotlib.rcParams.update({'font.size': 10})
-sns.factorplot(x="fragments", y="count", col="experiment", order=["wauto", "picker", "auto"],
-                data=hmm, kind="bar", size=4, aspect=.7);
-plt.show()
+readme_utils.plot.plot_hmm(readme_utils.io.load_hmm_data( df, info, 0.5, 10 ))
 ```
 
 
-![png](README_files/README_17_0.png)
-
-
-## Success?
-We measure success over the top 10% scored decoys of each experiment/fragment type; comparing the performance of FFL vs. that of _abinitio_.
-
-
-```python
-matplotlib.rcParams.update({'font.size': 30})
-readme_utils.plot.check_success(df, info, base, 0.1, 3.0)
-```
-
-
-![png](README_files/README_19_0.png)
+![png](README_files/README_15_0.png)
 
