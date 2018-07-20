@@ -1,5 +1,4 @@
 import os
-import re
 
 import yaml
 import pandas as pd
@@ -64,23 +63,33 @@ def load_main_data( data, base, folder=".", ignore=None ):
     return rstoolbox.utils.add_column( df, "benchmark", data["benchmark"]["id"])
 
 
-def load_hmm_data( df, info ):
-    data = {"experiment": [], "fragments": [], "count": []}
+def load_hmm_data( df, info, coverage, evalue ):
+    import re
+    import pandas as pd
+    import rstoolbox
+
+    # Family Matches
+    cath_fam = 'hmm/cath-superfamily-seqs-{}.fa'.format(info['benchmark']['cath'].replace('CATH.', ''))
+    cath_siz = rstoolbox.io.read_fasta(cath_fam).shape[0]
+    cath_hmm = rstoolbox.io.read_hmmsearch('hmm/cath_family.hmm')
+    cath_hmm = cath_hmm[(cath_hmm['full-e-value'] <= evalue) & (cath_hmm['acc'] > coverage)].drop_duplicates('description')
+    cath_cov = float(cath_hmm.shape[0])/cath_siz
+
+    # Design Matches
+    data = {"experiment": [], "fragments": [], "count": [], "benchmark": [], "family": []}
     for g in df.groupby(["experiment", "fragments"]):
         fafile = os.path.join("hmm", "sequence_{}_{}.fa".format(g[0][0], g[0][1]))
         if not os.path.isfile(fafile):
             rstoolbox.io.write_fasta(g[1], seqID=info['design']['chain'], filename=fafile)
+        facount = rstoolbox.io.read_fasta(fafile).shape[0]
         hmmfile = os.path.join("hmm", "search_{}_{}.hmm".format(g[0][0], g[0][1]))
         if not os.path.isfile(hmmfile):
             os.system("hmmsearch --max --noali -E 100 hmm/{2} {0} > {1}".format(fafile, hmmfile, info['benchmark']['hmm']))
-        with open(hmmfile) as fd:
-            for line in fd:
-                if line.startswith("Domain search space"):
-                    m = re.search('(\d+)', line)
-                    data['experiment'].append(g[0][0])
-                    data['fragments'].append(g[0][1])
-                    data['count'].append(int(m.group(1)) if m else 0)
-    data = pd.DataFrame(data)
-    data = rstoolbox.utils.add_column(data, name='benchmark', value=info['benchmark']['id'])
-    data.to_csv('hmm/hmm_count.csv', index=False)
-    return data
+        dhmm = rstoolbox.io.read_hmmsearch(hmmfile)
+        dhmm = dhmm[(dhmm['full-e-value'] <= evalue) & (dhmm['acc'] > coverage)].drop_duplicates('description')
+        data['experiment'].append(g[0][0])
+        data['fragments'].append(g[0][1])
+        data['benchmark'].append(info['benchmark']['id'])
+        data['count'].append(float(dhmm.shape[0])/facount)
+        data['family'].append(cath_cov)
+    return pd.DataFrame(data)

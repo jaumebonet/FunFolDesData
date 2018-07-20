@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
@@ -53,39 +54,53 @@ def show_info( info ):
         <tr style="border-top: 3px solid black;">
             <th colspan="2" style="text-align:center;border-right: 1px solid black;" >Experiments</th>
             <td colspan="2" style="text-align:center;" >{experiments[0]}</td>
-            <td colspan="2" style="text-align:center;" >{experiments[1]}</td>
+            <td colspan="2" style="text-align:center;" >FunFolDes</td>
         </tr>
         <tr style="border-top: 3px solid black;border-bottom: 1px solid black;">
             <th colspan="6" style="text-align:center;" >Fragment types</th>
         </tr>
         <tr>
-            <th colspan="1" style="text-align:center;" >{fragments[0][0]}</th>
-            <td colspan="5" style="text-align:left;" >{fragments[0][1]}</td>
+            <th colspan="2" style="text-align:center;" >{fragments[0][2]}</th>
+            <td colspan="4" style="text-align:left;" >{fragments[0][1]}</td>
         </tr>
         <tr>
-            <th colspan="1" style="text-align:center;" >{fragments[1][0]}</th>
-            <td colspan="5" style="text-align:left;" >{fragments[1][1]}</td>
-        </tr>
-        <tr>
-            <th colspan="1" style="text-align:center;" >{fragments[2][0]}</th>
-            <td colspan="5" style="text-align:left;" >{fragments[2][1]}</td>
+            <th colspan="2" style="text-align:center;" >{fragments[1][2]}</th>
+            <td colspan="4" style="text-align:left;" >{fragments[1][1]}</td>
         </tr>
     </table>
     </div>""".format(**info), raw=True)
 
 def plot_fragments( fragments, info, base ):
 
-    for f in ["picker", "wauto"]:
-        tst3 = fragments[(fragments["fragments"] == f) & (fragments["size"] == 3)]
-        tst9 = fragments[(fragments["fragments"] == f) & (fragments["size"] == 9)]
+    for f in info['fragments']:
+        tst3 = fragments[(fragments["fragments"] == f[0]) & (fragments["size"] == 3)]
+        tst9 = fragments[(fragments["fragments"] == f[0]) & (fragments["size"] == 9)]
 
-        fig  = plt.figure(figsize=(60, 15))
+        fig = plt.figure(figsize=(60, 15))
         rstoolbox.plot.plot_fragment_profiles(fig, tst3, tst9, base.get_sequence(info["design"]["chain"])[0],
                                               base.get_structure(info["design"]["chain"])[0])
-        plt.suptitle(f)
+        plt.suptitle(f[2])
         plt.show()
 
+
+def plot_coverage( df ):
+    gf = df.groupby(["experiment", "fragments"]).count()["description"].reset_index()
+    gf = gf.replace('nubinitio', 'FunFolDes')
+    matplotlib.rcParams.update({'font.size': 10})
+    g = sns.factorplot(x="fragments", y="description", col="experiment",
+                       order=["picker", "wauto"], data=gf, kind="bar",
+                       size=4, aspect=.7)
+    for axlist in g.axes:
+        for ax in axlist:
+            ax.set_ylim(0, 10296)
+            ax.set_xticklabels(['seq-based', 'str-based'])
+        axlist[0].set_ylabel('Number of Decoys')
+    plt.show()
+
+
 def plot_main_summary( df, toprmsd=10, top=None ):
+    matplotlib.rcParams.update({'font.size': 30})
+    df = df.replace('nubinitio', 'FunFolDes')
     fig = plt.figure(figsize=(40, 10))
     grid = (1, 4)
     ax00 = plt.subplot2grid(grid, (0, 0), fig=fig)
@@ -98,9 +113,9 @@ def plot_main_summary( df, toprmsd=10, top=None ):
     for x, r in enumerate(["finalRMSD", "ALIGNRMSD", "MOTIFRMSD", "COMPRRMSD"]):
         sns.boxplot(x="experiment", y=r, hue="fragments", ax=ax[x],
                     data=df if top is None else df.sort_values(["score"]).groupby(["experiment", "fragments"]).head(top),
-                    showfliers=False, hue_order=["wauto", "picker", "auto"], order=["nubinitio", "abinitio"])
+                    showfliers=False, hue_order=["wauto", "picker"], order=["FunFolDes", "abinitio"])
         ax[x].legend_.remove()
-        ax[x].set_xticklabels(["FFL", "abinitio"])
+        ax[x].set_xticklabels(["FunFolDes", "abinitio"])
         rstoolbox.utils.add_top_title(ax[x], tl[x])
         if x == 0:
             rstoolbox.utils.add_right_title(ax00, df["benchmark"].values[0])
@@ -112,14 +127,12 @@ def plot_main_summary( df, toprmsd=10, top=None ):
     fig.subplots_adjust(wspace=0, hspace=0)
 
     fig.legend(handles=[
-            mpatches.Patch(color=sns.color_palette()[0], label="wauto"),
-            mpatches.Patch(color=sns.color_palette()[1], label="picker"),
-            mpatches.Patch(color=sns.color_palette()[2], label="auto")
-        ], ncol=3, loc='lower center', borderaxespad=-0.3)
-
+            mpatches.Patch(color=sns.color_palette()[0], label="str-based fragments"),
+            mpatches.Patch(color=sns.color_palette()[1], label="seq-based fragments")
+        ], ncol=2, loc='lower center', borderaxespad=-0.3)
     ax00.set_ylim(0, toprmsd)
-
     plt.show()
+
 
 def line_plot( df, ax, bins, linestyle, color, area ):
     """
@@ -132,22 +145,25 @@ def line_plot( df, ax, bins, linestyle, color, area ):
         ax.fill_between(x, 0, y, color=sns.color_palette()[color], alpha=0.3)
     return raw, x, y
 
+
 def plot_main_distributions( df, toprmsd=10 ):
+    matplotlib.rcParams.update({'font.size': 25})
+    df = df.replace('nubinitio', 'FunFolDes')
     fig  = plt.figure(figsize=(30, 10))
-    grid = (1, 3)
+    grid = (1, 2)
 
     ax00 = plt.subplot2grid(grid, (0, 0), fig=fig)
     ax01 = plt.subplot2grid(grid, (0, 1), sharey=ax00, fig=fig)
-    ax02 = plt.subplot2grid(grid, (0, 2), sharey=ax00, fig=fig)
-    ax   = [ax00, ax01, ax02]
+    ax   = [ax00, ax01]
     maxf = 0
-    for _, f in enumerate(["wauto", "picker", "auto"]):
-        for c, e in enumerate(["abinitio", "nubinitio"]):
+    for _, f in enumerate(["wauto", "picker"]):
+        for c, e in enumerate(["abinitio", "FunFolDes"]):
             dfs = df[(df["fragments"] == f) & (df["experiment"] == e)]
             r, x, y = line_plot(dfs["COMPRRMSD"], ax[_], 100, "solid", c, False)
             maxf = np.max(y) if np.max(y) > maxf else maxf
             ax[_].set_xlim(0, toprmsd)
-        rstoolbox.utils.add_top_title(ax[_], f)
+        ss = 'seq' if f == 'picker' else 'str'
+        rstoolbox.utils.add_top_title(ax[_], '{}-based fragments'.format(ss))
         ax[_].set_xlabel("RMSD")
         if _ == 0:
             rstoolbox.utils.add_right_title(ax00, df["benchmark"].values[0])
@@ -161,14 +177,15 @@ def plot_main_distributions( df, toprmsd=10 ):
 
     fig.legend(handles=[
             mpatches.Patch(color=sns.color_palette()[0], label="abinitio"),
-            mpatches.Patch(color=sns.color_palette()[1], label="FFL")
+            mpatches.Patch(color=sns.color_palette()[1], label="FunFolDes")
         ], ncol=2, loc='lower center', borderaxespad=-0.3)
 
     plt.suptitle("Query Segment RMSD")
     plt.show()
 
-def plot_aa_heatmaps( df, info, base, top=None ):
 
+def plot_aa_heatmaps( df, info, base, top=None ):
+    matplotlib.rcParams.update({'font.size': 15})
     core    = rstoolbox.components.Selection(base.iloc[0].get_label("core"))
     motif   = rstoolbox.components.Selection(base.iloc[0].get_label("motif"))
     core    = core - motif
@@ -179,25 +196,29 @@ def plot_aa_heatmaps( df, info, base, top=None ):
     aa = [core, query, contact, manual]
     tl = ["CORE", "QUERY REGION", "MOTIF CONTACT", "MANUAL"]
 
-    fig = plt.figure(figsize=(50, 20))
-    grid = (1, 4)
+    fig = plt.figure(figsize=(15, 25))
+    grid = (4, 1)
     ax00 = plt.subplot2grid(grid, (0, 0), fig=fig)
-    ax01 = plt.subplot2grid(grid, (0, 1), fig=fig, sharey=ax00)
-    ax02 = plt.subplot2grid(grid, (0, 2), fig=fig, sharey=ax00)
-    ax03 = plt.subplot2grid(grid, (0, 3), fig=fig, sharey=ax00)
+    ax01 = plt.subplot2grid(grid, (1, 0), fig=fig, sharey=ax00)
+    ax02 = plt.subplot2grid(grid, (2, 0), fig=fig, sharey=ax00)
+    ax03 = plt.subplot2grid(grid, (3, 0), fig=fig, sharey=ax00)
     ax = [ax00, ax01, ax02, ax03]
 
     df = df[(df["fragments"] == "wauto") & (df["experiment"] == "nubinitio")].sort_values("score")
     count = df.shape[0] if top is None else int(float(df.shape[0]) * top)
     for _, a in enumerate(aa):
         if not a.is_empty():
-            rstoolbox.plot.sequence_frequency_plot( df.head(count), info["design"]["chain"], ax[_], key_residues=a, xrotation=90 )
+            rstoolbox.plot.sequence_frequency_plot( df.head(count), info["design"]["chain"],
+                                                   ax[_], key_residues=a, xrotation=90,
+                                                   cbar_kws={"orientation": "vertical"} )
         rstoolbox.utils.add_top_title(ax[_], tl[_])
 
-    plt.suptitle("FFL-wauto Sequence Recovery")
+    plt.suptitle("FunFolDes & Seq-based Fragments Sequence Recovery")
     plt.show()
 
+
 def plot_aa_similarities( df, info, base, matrix="BLOSUM62", top=None ):
+    matplotlib.rcParams.update({'font.size': 30})
     df = df[(df["fragments"] == "wauto") & (df["experiment"] == "nubinitio")].sort_values("score")
     count = df.shape[0] if top is None else int(float(df.shape[0]) * top)
     df = df.head(count)
@@ -213,7 +234,7 @@ def plot_aa_similarities( df, info, base, matrix="BLOSUM62", top=None ):
             mpatches.Patch(color="orange", label="similarities")
         ], ncol=2, loc='lower center', borderaxespad=-0.3)
 
-    plt.suptitle("FFL-wauto Sequence Recovery (BLOSUM62)")
+    plt.suptitle("FunFolDes & Seq-based Fragments Sequence Recovery (BLOSUM62)")
     plt.show()
 
 def check_success( df, info, base, top, max_rmsd, matrix="BLOSUM62" ):
@@ -373,111 +394,14 @@ def plot_global_query_distributions(df, info, base, toprmsd=10):
     plt.tight_layout()
     plt.show()
 
-def plot_global_aa_heatmaps( df, info, base, top=None ):
 
-    fig  = plt.figure(figsize=(40, 140))
-    grid = (43, 4)
-    tl = ["CORE", "QUERY REGION", "MOTIF CONTACT", "MANUAL"]
-    # tl2 = ["C", "Q", "T", "M"]
-
-    axbottom = plt.subplot2grid(grid, (grid[0] - 1, 1), fig=fig, colspan=2)
-    show = True
-    for _i, data in enumerate(df):
-        ax = []
-        ax.append(plt.subplot2grid(grid, ((3*_i), 0), fig=fig, rowspan=3))
-        ax.append(plt.subplot2grid(grid, ((3*_i), 1), sharey=ax[0], fig=fig, rowspan=3))
-        ax.append(plt.subplot2grid(grid, ((3*_i), 2), sharey=ax[0], fig=fig, rowspan=3))
-        ax.append(plt.subplot2grid(grid, ((3*_i), 3), sharey=ax[0], fig=fig, rowspan=3))
-        #ax.append(plt.subplot2grid(grid, (row, 4), fig=fig, rowspan=3))
-
-        core    = rstoolbox.components.Selection(base[_i].get_label("core"))
-        motif   = rstoolbox.components.Selection(base[_i].get_label("motif"))
-        core    = core - motif
-        query   = rstoolbox.components.Selection(base[_i].get_label("query"))
-        contact = rstoolbox.components.Selection(base[_i].get_label("contacts"))
-        contact = contact - motif
-        manual  = rstoolbox.components.Selection(base[_i].get_label("picked"))
-        aa = [core, query, contact, manual]
-
-        dfs = df[_i][(df[_i]["fragments"] == "wauto") & (df[_i]["experiment"] == "nubinitio")].sort_values("score")
-        count = dfs.shape[0] if top is None else int(float(dfs.shape[0]) * top)
-        dfs = dfs.head(count)
-
-        # mdata = []
-        # for _, a in enumerate(aa):
-        #     a_shift = a + info[_i]["design"]["shift"]
-        #     seqlen = len(base[_i].get_sequence(info[_i]["design"]["chain"])[0])
-        #     tmdata = rstoolbox.analysis.sequence_similarity(dfs, info[_i]["design"]["chain"], a_shift.to_list() )
-        #     identity = "blosum62_{}_identity".format(info[_i]["design"]["chain"])
-        #     positive = "blosum62_{}_positive".format(info[_i]["design"]["chain"])
-        #     tmdata["identity_perc"] = tmdata[identity]/float(seqlen)
-        #     tmdata["positive_perc"] = tmdata[positive]/float(seqlen)
-        #     tmdata = rstoolbox.utils.split_values(tmdata, {"split": [("identity_perc", "identity"), ("positive_perc", "positive")],
-        #                                                  "names": ["recovery", "simtype"], "keep":["description"]})
-        #     tmdata = rstoolbox.utils.add_column(tmdata, "selection", tl2[_])
-        #     mdata.append(tmdata)
-        # mdata = pd.concat(mdata)
-        # mdata = mdata.groupby(["selection", "simtype"]).mean()
-        # print mdata
-        #plt.bar(mdata[], menMeans, width, color='#d62728', yerr=menStd)
-
-
-        for _, a in enumerate(aa):
-            if not a.is_empty():
-                if show:
-                    rstoolbox.plot.sequence_frequency_plot( dfs, info[_i]["design"]["chain"], ax[_], key_residues=a, xrotation=90, cbar_ax=axbottom ,vmin=0, vmax=1)
-                    show = False
-                else:
-                    rstoolbox.plot.sequence_frequency_plot( dfs, info[_i]["design"]["chain"], ax[_], key_residues=a, xrotation=90, cbar=False,vmin=0, vmax=1)
-
-            rstoolbox.utils.add_top_title(ax[_], "{}: {}".format(info[_i]["benchmark"]["id"], tl[_]))
-
-    plt.suptitle("FFL-wauto Sequence Recovery")
-    plt.tight_layout()
-    plt.savefig("SFig1C.benchmark_overview.sequence_recovery.svg")
+def plot_hmm(df):
+    df = df.replace('nubinitio', 'FunFolDes')
+    matplotlib.rcParams.update({'font.size': 10})
+    g = sns.factorplot(x="fragments", y="count", col="experiment", order=["wauto", "picker"],
+                       data=df, kind="bar", size=4, aspect=.7)
+    for axlist in g.axes:
+        for ax in axlist:
+            ax.axhline(df.iloc[0]['family'])
+            ax.set_xticklabels(['str-based', 'seq-based'])
     plt.show()
-
-
-def plot_global_success(df, info, base):
-    rmsd_th = 2
-    fig = plt.figure(figsize=(40, 140))
-    grid = (14, 4)
-    tl = ["Global RMSD", "Motif RMSD", "Query RMSD", "Motif + Query RMSD"]
-    for _i, data in enumerate(df):
-        for _j, v in enumerate(["finalRMSD", "MOTIFRMSD", "COMPRRMSD", "COMBINED"]):
-            ax = plt.subplot2grid(grid, (_i, _j), fig=fig)
-            d = {"experiment":[], "ratio":[], "value":[]}
-            for r in range(1, 11):
-                for f in ["wauto", "picker"]:
-                    for e in ["nubinitio", "abinitio"]:
-                        dfna = data[(data["fragments"] == f) & (data["experiment"] == e)].sort_values("score")
-                        dfna = dfna.head(int(dfna.shape[0] * float(r) / 10))
-                        d["experiment"].append("{0}_{1}".format(e, f))
-                        d["ratio"].append(r)
-                        if v != "COMBINED":
-                            d["value"].append(dfna[dfna[v] <= rmsd_th].shape[0] / float(dfna.shape[0]))
-                        else:
-                            d["value"].append(dfna[(dfna["MOTIFRMSD"] <= rmsd_th) & (dfna["COMPRRMSD"] <= rmsd_th)].shape[0] / float(dfna.shape[0]))
-            d = pd.DataFrame(d)
-            sns.barplot(x="ratio", y="value", hue="experiment", data=d, ax=ax,
-                        hue_order=reversed(["nubinitio_wauto", "abinitio_wauto", "nubinitio_picker", "abinitio_picker"]),
-                        palette=reversed([sns.color_palette()[0], "blue", sns.color_palette()[1], "darkgreen"]))
-            ax.set_xlim(9.5, -0.5)
-            ax.set_xticklabels(reversed([1, .9, .8, .7, .6, .5, .4, .3, .2, .1]))
-            ax.set_xlabel("top % scored")
-            ax.set_ylim(0, 1)
-            ax.set_ylabel("percentage")
-            ax.legend_.remove()
-            rstoolbox.utils.add_top_title(ax, "{0}: {1}".format(info[_i]["benchmark"]["id"], v))
-
-    fig.legend(handles=[
-            mpatches.Patch(color=sns.color_palette()[0], label="FFL - automatic"),
-            mpatches.Patch(color="blue", label="abinitio - automatic"),
-            mpatches.Patch(color=sns.color_palette()[1], label="FFL - picker"),
-            mpatches.Patch(color="darkgreen", label="abinitio - picker")
-        ], ncol=4, loc='lower center', borderaxespad=-0.3)
-    plt.suptitle("Recovered structures with RMSD < {}".format(rmsd_th))
-    plt.tight_layout()
-    plt.savefig("SFig1D.benchmark_overview.success_rawscores.svg")
-    plt.show()
-

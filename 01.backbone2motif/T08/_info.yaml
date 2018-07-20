@@ -11,9 +11,8 @@ design:
   motif: 181-200
   shift: 162
 fragments:
-  - [auto, Automatic fragment generation (sequence + secondary structure)]
-  - [picker, Standard Rosetta fragment generation (sequence-based data)]
-  - [wauto, Automatic fragment generation (secondary structure + angles + sasa)]
+  - [picker, Standard Rosetta fragment generation (sequence-based data), sequence-based]
+  - [wauto, Automatic fragment generation (secondary structure + angles + sasa), structure-based]
 experiments:
   - abinitio
   - nubinitio
