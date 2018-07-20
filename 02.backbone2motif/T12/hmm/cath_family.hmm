@@ -1,0 +1,1507 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  4kdlA02.hmm
+# target sequence database:        cath-superfamily-seqs-2.40.40.20.fa
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 100
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cath|4_1_0|4kdlA02/108-196  [M=89]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                 -----------
+  ------ inclusion threshold ------
+          6    1.9   0.1        7.5    1.6   0.1    1.6  1  cath|current|2ki8A01/22-146               
+        7.2    1.7   0.1         21    0.1   0.0    1.6  0  cath|current|5t5iD00/1-130                
+        7.2    1.7   0.1         21    0.1   0.0    1.6  0  cath|current|5t5iL00/1-130                
+        7.2    1.7   0.1         21    0.1   0.0    1.6  0  cath|current|5t5mD00/1-126                
+        7.3    1.6   0.1        9.3    1.3   0.0    1.3  1  cath|current|3ougA00/2-108                
+        7.3    1.6   0.1        9.3    1.3   0.0    1.3  1  cath|current|3ougB00/2-108                
+        7.3    1.6   0.1        9.3    1.3   0.0    1.3  1  cath|current|3ougC00/2-108                
+        7.3    1.6   0.1        9.3    1.3   0.0    1.3  1  cath|current|3ougE00/2-108                
+        7.3    1.6   0.1        9.3    1.3   0.0    1.3  1  cath|current|3ougF00/2-108                
+        7.3    1.6   0.1        9.3    1.3   0.0    1.3  1  cath|current|3ougG00/2-108                
+        7.3    1.6   0.1        9.3    1.3   0.0    1.3  1  cath|current|3ougH00/2-108                
+        7.3    1.6   0.1        9.3    1.3   0.0    1.3  1  cath|current|3ougI00/2-108                
+         11    1.0   0.0         14    0.7   0.0    1.3  0  cath|current|2nyaA04/668-791              
+         11    1.0   0.0         14    0.7   0.0    1.3  0  cath|current|2nyaF04/668-791              
+         14    0.7   0.0         17    0.5   0.0    1.3  0  cath|current|1cz4A01/1-92                 
+         14    0.7   0.0         17    0.5   0.0    1.3  0  cath|current|1cz5A01/1-92                 
+         15    0.6   0.0         24   -0.0   0.0    1.4  0  cath|current|2jimA04/610-723              
+         15    0.6   0.0         24   -0.0   0.0    1.4  0  cath|current|2jioA04/610-723              
+         15    0.6   0.0         24   -0.0   0.0    1.4  0  cath|current|2jipA04/610-723              
+         15    0.6   0.0         24   -0.0   0.0    1.4  0  cath|current|2jiqA04/610-723              
+         15    0.6   0.0         24   -0.0   0.0    1.4  0  cath|current|2jirA04/610-723              
+         15    0.6   0.0         24   -0.0   0.0    1.4  0  cath|current|2napA04/610-723              
+         15    0.6   0.0         24   -0.0   0.0    1.4  0  cath|current|2v3vA04/610-723              
+         15    0.6   0.0         24   -0.0   0.0    1.4  0  cath|current|2v45A04/610-723              
+         15    0.6   0.0         23    0.0   0.0    1.3  0  cath|current|4c2mA03/478-504_582-656      
+         15    0.6   0.0         23    0.0   0.0    1.3  0  cath|current|4c2mP03/478-504_582-656      
+         16    0.5   0.1         19    0.3   0.1    1.4  0  cath|current|3plxB00/26-125               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|1s3sA01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|1s3sB01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|1s3sD01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|1s3sE01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|3tiwB01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|4kdlA01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|4kodC01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|4kodE01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|4kodF01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|4kodG01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|4kodK01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|5ftnA01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|5ftnB01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|5ftnC01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|5ftnD01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|5ftnE01/23-107               
+         17    0.5   0.0         22    0.1   0.0    1.4  0  cath|current|5ftnF01/23-107               
+         17    0.5   0.0         29   -0.3   0.0    1.3  0  cath|current|4rv0A01/16-104               
+         17    0.5   0.0         29   -0.3   0.0    1.3  0  cath|current|4rv0C01/16-104               
+         17    0.5   0.0         29   -0.3   0.0    1.3  0  cath|current|4rv0E01/16-104               
+         17    0.5   0.0         29   -0.3   0.0    1.3  0  cath|current|4rv0G01/16-104               
+         17    0.5   0.0         24   -0.0   0.0    1.4  0  cath|current|1s3sC01/22-107               
+         17    0.5   0.0         24   -0.0   0.0    1.4  0  cath|current|3tiwA01/22-107               
+         17    0.5   0.0         24   -0.0   0.0    1.4  0  cath|current|4kdiB01/22-107               
+         17    0.5   0.0         24   -0.0   0.0    1.4  0  cath|current|4kodA01/22-107               
+         17    0.5   0.0         24   -0.0   0.0    1.4  0  cath|current|4kodD01/22-107               
+         17    0.5   0.0         24   -0.0   0.0    1.4  0  cath|current|4kodH01/22-107               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|3cf2A01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|3cf2B01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|3cf2C01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|3cf2D01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c18A01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c18B01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c18C01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c18D01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c18F01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c1bA01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c1bB01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c1bC01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c1bD01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c1bE01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c1bF01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftjA01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftjB01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftjC01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftjD01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftjE01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftjF01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftkA01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftkB01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftkC01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftkD01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftkE01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftkF01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftlA01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftlB01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftlC01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftlD01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftlE01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftlF01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftmA01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftmB01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftmC01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftmD01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftmE01/21-108               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5ftmF01/21-108               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|1e32A01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|1s3sF01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|2pjhB01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|4kdiA01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|4kodB01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|4kodI01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|4kodJ01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|4kodL01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dygA01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiA01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiB01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiC01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiD01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiE01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiF01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiG01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiH01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiI01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiJ01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiK01/21-107               
+         17    0.4   0.0         23    0.1   0.0    1.4  0  cath|current|5dyiL01/21-107               
+         17    0.4   0.0         36   -0.6   0.0    1.4  0  cath|current|5c18E01/20-108               
+         18    0.4   0.0         25   -0.1   0.0    1.4  0  cath|current|3qq7A01/20-107               
+         18    0.4   0.0         53   -1.1   0.0    1.4  0  cath|current|3qwzA01/23-107               
+         18    0.4   0.0         26   -0.1   0.0    1.4  0  cath|current|3qc8A01/23-107               
+         18    0.4   0.0         26   -0.1   0.0    1.4  0  cath|current|5b6cA01/19-107               
+         18    0.4   0.0         38   -0.7   0.0    1.4  0  cath|current|1r7rA01/17-108               
+         18    0.4   0.0         38   -0.7   0.0    1.4  0  cath|current|1ypwA01/17-108               
+         18    0.4   0.0         38   -0.7   0.0    1.4  0  cath|current|1ypwB01/17-108               
+         18    0.4   0.0         38   -0.7   0.0    1.4  0  cath|current|1ypwC01/17-108               
+         18    0.4   0.0         38   -0.7   0.0    1.4  0  cath|current|1ypwD01/17-108               
+         18    0.3   0.0         27   -0.2   0.0    1.4  0  cath|current|3hu3A01/17-107               
+         18    0.3   0.0         27   -0.2   0.0    1.4  0  cath|current|3hu3B01/17-107               
+         18    0.3   0.0         27   -0.2   0.0    1.4  0  cath|current|4ko8B01/17-107               
+         19    0.3   0.0         39   -0.7   0.0    1.4  0  cath|current|5eppA01/21-107               
+         19    0.3   0.0         39   -0.7   0.0    1.4  0  cath|current|5glfA01/23-107               
+         19    0.3   0.0         39   -0.7   0.0    1.4  0  cath|current|5glfC01/22-107               
+         19    0.3   0.0         39   -0.7   0.0    1.4  0  cath|current|5glfE01/24-107               
+         19    0.3   0.0         39   -0.7   0.0    1.4  0  cath|current|5glfG01/23-107               
+         21    0.1   0.0         46   -1.0   0.0    1.4  0  cath|current|3hu2A01/12-107               
+         21    0.1   0.0         46   -1.0   0.0    1.4  0  cath|current|3hu2B01/12-107               
+         21    0.1   0.0         46   -1.0   0.0    1.4  0  cath|current|3hu2C01/12-107               
+         21    0.1   0.0         46   -1.0   0.0    1.4  0  cath|current|3hu2D01/12-107               
+         21    0.1   0.0         46   -1.0   0.0    1.4  0  cath|current|3hu2E01/12-107               
+         21    0.1   0.0         46   -1.0   0.0    1.4  0  cath|current|3hu2F01/12-107               
+         22    0.1   0.0         50   -1.1   0.0    1.4  0  cath|current|3qq8A01/10-107               
+         23    0.0   0.0         51   -1.1   0.0    1.4  0  cath|current|4klnA01/12-107               
+         23    0.0   0.0         51   -1.1   0.0    1.4  0  cath|current|4klnB01/12-107               
+         23    0.0   0.0         51   -1.1   0.0    1.4  0  cath|current|4klnC01/12-107               
+         23    0.0   0.0         51   -1.1   0.0    1.4  0  cath|current|4klnD01/12-107               
+         23    0.0   0.0         51   -1.1   0.0    1.4  0  cath|current|4klnE01/12-107               
+         23    0.0   0.0         51   -1.1   0.0    1.4  0  cath|current|4klnF01/12-107               
+         23    0.0   0.0         51   -1.1   0.0    1.4  0  cath|current|4ko8A01/14-107               
+         27   -0.2   0.0         49   -1.0   0.0    1.3  0  cath|current|3hu1A01/12-107               
+         27   -0.2   0.0         49   -1.0   0.0    1.3  0  cath|current|3hu1B01/12-107               
+         27   -0.2   0.0         49   -1.0   0.0    1.3  0  cath|current|3hu1C01/12-107               
+         27   -0.2   0.0         49   -1.0   0.0    1.3  0  cath|current|3hu1D01/12-107               
+         27   -0.2   0.0         49   -1.0   0.0    1.3  0  cath|current|3hu1E01/12-107               
+         27   -0.2   0.0         49   -1.0   0.0    1.3  0  cath|current|3hu1F01/12-107               
+         34   -0.5   0.0         53   -1.1   0.0    1.3  0  cath|current|1g8kC04/683-825              
+         36   -0.6   0.0         35   -0.6   0.0    1.3  0  cath|current|1uhdA00/26-120               
+         36   -0.6   0.1         32   -0.4   0.1    1.3  0  cath|current|1uheA00/26-122               
+         40   -0.7   0.0         44   -0.9   0.0    1.3  0  cath|current|4qiwA02/327-353_416-490      
+         40   -0.7   0.0         44   -0.9   0.0    1.3  0  cath|current|4qiwI02/327-353_416-490      
+         41   -0.8   0.0         72   -1.6   0.0    1.2  0  cath|current|1tmoA04/618-790              
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga5A01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga5B01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga5C01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga5D01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga5E01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga5F01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga5G01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga5H01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga6A01/1-83                 
+         42   -0.8   0.0         53   -1.1   0.0    1.3  0  cath|current|4ga6B01/1-83                 
+         43   -0.8   0.1         55   -1.2   0.1    1.3  0  cath|current|3o5aA04/678-802              
+         44   -0.9   0.0         70   -1.5   0.0    1.3  0  cath|current|1g8jA04/683-817              
+         44   -0.9   0.0         70   -1.5   0.0    1.3  0  cath|current|1g8jC04/683-817              
+         44   -0.9   0.0         70   -1.5   0.0    1.3  0  cath|current|1g8kA04/683-817              
+         44   -0.9   0.0         70   -1.5   0.0    1.3  0  cath|current|1g8kE04/683-817              
+         44   -0.9   0.0         70   -1.5   0.0    1.3  0  cath|current|1g8kG04/683-817              
+         45   -0.9   0.0         76   -1.6   0.0    1.3  0  cath|current|3h0gA02/353-379_443-516      
+         45   -0.9   0.0         60   -1.3   0.0    1.3  0  cath|current|4azdA00/-4-117               
+         45   -0.9   0.0         56   -1.2   0.0    1.3  0  cath|current|4azdB00/1-117                
+         46   -0.9   0.1         59   -1.3   0.1    1.3  0  cath|current|3ml1A04/678-802              
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1i3qA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1i50A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1i6hA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1k83A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1r9rA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1r9tA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1sfoA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1twaA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1twcA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1twfA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1twgA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1twhA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1wcmA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1y1vA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|1y1wA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2b63A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2e2hA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2e2iA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2e2jA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2ja5A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2ja6A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2ja7A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2ja7M03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2ja8A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2nvqA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2nvsA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2nvtA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2nvxA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2nvyA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2r7zA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2r92A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2r93A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2vumA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|2yu9A03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3cqzA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3fkiA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3gtgA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3gtjA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3gtkA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3gtlA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3gtmA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3gtoA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3gtpA03/347-373_437-510      
+         46   -0.9   0.0         95   -1.9   0.0    1.2  0  cath|current|3gtqA03/347-373_437-510      
+         48   -1.0   0.0         61   -1.3   0.0    1.3  0  cath|current|1pt0A00/0-116                
+         48   -1.0   0.0         83   -1.8   0.0    1.2  0  cath|current|1dmsA04/612-774              
+         49   -1.0   0.0         65   -1.4   0.0    1.3  0  cath|current|1pt0B00/1-116                
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1dmrA04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1e18A04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1e5vA04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1e5vC04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1e60A04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1e60C04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1e61A04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1e61C04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1h5nA04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|1h5nC04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|2dmrA04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|3dmrA04/612-774              
+         49   -1.0   0.0         90   -1.9   0.0    1.2  0  cath|current|4dmrA04/612-774              
+         50   -1.0   0.0         71   -1.5   0.0    1.3  0  cath|current|2c45A00/1-114                
+         50   -1.0   0.0         71   -1.5   0.0    1.3  0  cath|current|2c45B00/1-114                
+         50   -1.0   0.0         71   -1.5   0.0    1.3  0  cath|current|2c45C00/1-114                
+         50   -1.0   0.0         71   -1.5   0.0    1.3  0  cath|current|2c45D00/1-114                
+         50   -1.0   0.0         71   -1.5   0.0    1.3  0  cath|current|2c45E00/1-114                
+         50   -1.0   0.0         71   -1.5   0.0    1.3  0  cath|current|2c45F00/1-114                
+         50   -1.0   0.0         71   -1.5   0.0    1.3  0  cath|current|2c45G00/1-114                
+         50   -1.0   0.0         71   -1.5   0.0    1.3  0  cath|current|2c45H00/1-114                
+         51   -1.1   0.0         70   -1.5   0.0    1.3  0  cath|current|4crzA00/0-126                
+         52   -1.1   0.0    1.4e+02   -2.5   0.0    1.3  0  cath|current|1pyqA00/-3-116               
+         52   -1.1   0.0    1.3e+02   -2.4   0.0    1.3  0  cath|current|1pqfA00/-3-123               
+         53   -1.1   0.0         72   -1.6   0.0    1.3  0  cath|current|1pt1A00/-1-115               
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti2A04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti2C04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti2E04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti2G04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti2I04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti2K04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti4A04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti4C04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti4E04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti4G04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti4I04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti4K04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti6A04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti6C04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti6E04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti6G04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti6I04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1ti6K04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vldM04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vldO04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vldQ04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vldS04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vldU04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vldW04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vleM04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vleO04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vleQ04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vleS04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vleU04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vleW04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vlfM04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vlfO04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vlfQ04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vlfS04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vlfU04/721-875              
+         54   -1.2   0.0         83   -1.8   0.0    1.3  0  cath|current|1vlfW04/721-875              
+         57   -1.2   0.0         80   -1.7   0.0    1.3  0  cath|current|1pyqB00/1-116                
+         57   -1.2   0.0    1.5e+02   -2.6   0.0    1.3  0  cath|current|1pqhA00/-2-116               
+         57   -1.2   0.0         81   -1.7   0.0    1.3  0  cath|current|1pqeA00/1-117                
+         58   -1.3   0.0    1.3e+02   -2.3   0.0    1.3  0  cath|current|1pqfB00/1-116                
+         58   -1.3   0.0    1.8e+02   -2.8   0.0    1.3  0  cath|current|1kqfA04/840-1015             
+         58   -1.3   0.0    1.8e+02   -2.8   0.0    1.3  0  cath|current|1kqgA04/840-1015             
+         58   -1.3   0.0    1.5e+02   -2.6   0.0    1.2  0  cath|current|1aa6A04/572-688              
+         58   -1.3   0.0    1.5e+02   -2.6   0.0    1.2  0  cath|current|2iv2X04/572-688              
+         58   -1.3   0.0         94   -1.9   0.0    1.2  0  cath|current|1fdoA04/573-688              
+         59   -1.3   0.0         92   -1.9   0.0    1.3  0  cath|current|1pt1B00/1-115                
+         59   -1.3   0.0         75   -1.6   0.0    1.2  0  cath|current|1iw7D04/622-644_698-767      
+         59   -1.3   0.0    1.7e+02   -2.8   0.0    1.2  0  cath|current|1fdiA04/568-688              
+         60   -1.3   0.0    2.2e+02   -3.1   0.0    1.3  0  cath|current|2vpwA05/605-764              
+         60   -1.3   0.0    2.2e+02   -3.1   0.0    1.3  0  cath|current|2vpwE05/605-764              
+         60   -1.3   0.0    2.2e+02   -3.1   0.0    1.3  0  cath|current|2vpxA05/605-764              
+         60   -1.3   0.0    2.2e+02   -3.1   0.0    1.3  0  cath|current|2vpxE05/605-764              
+         60   -1.3   0.0    2.2e+02   -3.1   0.0    1.3  0  cath|current|2vpyA05/605-764              
+         60   -1.3   0.0    2.2e+02   -3.1   0.0    1.3  0  cath|current|2vpyE05/605-764              
+         60   -1.3   0.0    2.2e+02   -3.1   0.0    1.3  0  cath|current|2vpzA05/605-764              
+         60   -1.3   0.0    2.2e+02   -3.1   0.0    1.3  0  cath|current|2vpzE05/605-764              
+         61   -1.3   0.0         56   -1.2   0.0    1.2  0  cath|current|4cryG00/25-126               
+         61   -1.3   0.0         78   -1.7   0.0    1.3  0  cath|current|4cs0A00/0-126                
+         62   -1.3   0.0         84   -1.8   0.0    1.3  0  cath|current|1pqhB00/1-115                
+         63   -1.4   0.0         89   -1.9   0.0    1.3  0  cath|current|1ppyA00/1-118                
+         63   -1.4   0.0         89   -1.9   0.0    1.3  0  cath|current|1ppyB00/1-115                
+         65   -1.4   0.0         64   -1.4   0.0    1.2  0  cath|current|2eeoB00/26-120               
+         66   -1.4   0.0         56   -1.2   0.0    1.2  0  cath|current|1vc3B00/26-120               
+         69   -1.5   0.0         78   -1.7   0.0    1.2  0  cath|current|2o5iN04/623-645_698-767      
+         69   -1.5   0.0         79   -1.7   0.0    1.2  0  cath|current|2o5jN04/623-645_698-768      
+         72   -1.6   0.0         74   -1.6   0.0    1.2  0  cath|current|1pyuB00/25-116               
+         72   -1.6   0.0         74   -1.6   0.0    1.2  0  cath|current|1pyuD00/25-115               
+         72   -1.6   0.0    2.1e+02   -3.0   0.0    1.2  0  cath|current|1ogyA04/678-801              
+         72   -1.6   0.0    2.1e+02   -3.0   0.0    1.2  0  cath|current|1ogyC04/678-801              
+         72   -1.6   0.0    2.1e+02   -3.0   0.0    1.2  0  cath|current|1ogyE04/678-801              
+         72   -1.6   0.0    2.1e+02   -3.0   0.0    1.2  0  cath|current|1ogyG04/678-801              
+         72   -1.6   0.0    2.1e+02   -3.0   0.0    1.2  0  cath|current|1ogyI04/678-801              
+         72   -1.6   0.0    2.1e+02   -3.0   0.0    1.2  0  cath|current|1ogyK04/678-801              
+         72   -1.6   0.0    2.1e+02   -3.0   0.0    1.2  0  cath|current|1ogyM04/678-801              
+         72   -1.6   0.0    2.1e+02   -3.0   0.0    1.2  0  cath|current|1ogyO04/678-801              
+         72   -1.6   0.0         74   -1.6   0.0    1.2  0  cath|current|1yleA02/274-340              
+         73   -1.6   0.0    1.9e+02   -2.9   0.0    1.2  0  cath|current|1r27A04/1047-1237            
+         73   -1.6   0.0    1.9e+02   -2.9   0.0    1.2  0  cath|current|1r27C04/1047-1237            
+         73   -1.6   0.0    1.9e+02   -2.9   0.0    1.2  0  cath|current|1y4zA04/1047-1237            
+         73   -1.6   0.0    1.9e+02   -2.9   0.0    1.2  0  cath|current|1y5iA04/1047-1237            
+         73   -1.6   0.0    1.9e+02   -2.9   0.0    1.2  0  cath|current|3ir5A04/1047-1237            
+         73   -1.6   0.0    1.9e+02   -2.9   0.0    1.2  0  cath|current|3ir6A04/1047-1237            
+         73   -1.6   0.0         74   -1.6   0.0    1.2  0  cath|current|4aokB00/26-123               
+         73   -1.6   0.0         74   -1.6   0.0    1.2  0  cath|current|4aokE00/26-116               
+         73   -1.6   0.0         74   -1.6   0.0    1.2  0  cath|current|4aonB00/25-122               
+         73   -1.6   0.0         74   -1.6   0.0    1.2  0  cath|current|4aonE00/25-115               
+         74   -1.6   0.0    3.3e+02   -3.7   0.0    1.2  0  cath|current|2waqA02/303-347_414-482      
+         74   -1.6   0.0    3.3e+02   -3.7   0.0    1.2  0  cath|current|2wb1A02/303-347_414-482      
+         74   -1.6   0.0    3.3e+02   -3.7   0.0    1.2  0  cath|current|2wb1W02/303-347_414-482      
+         74   -1.6   0.0    3.3e+02   -3.7   0.0    1.2  0  cath|current|2y0sA02/303-347_414-482      
+         74   -1.6   0.0    3.3e+02   -3.7   0.0    1.2  0  cath|current|2y0sW02/303-347_414-482      
+         74   -1.6   0.0    3.3e+02   -3.7   0.0    1.2  0  cath|current|4aybA02/303-347_414-482      
+         75   -1.6   0.0    3.6e+02   -3.8   0.0    1.2  0  cath|current|2pmzA02/303-347_414-482      
+         75   -1.6   0.0    3.6e+02   -3.8   0.0    1.2  0  cath|current|2pmzQ02/303-347_414-482      
+         75   -1.6   0.0    3.6e+02   -3.8   0.0    1.2  0  cath|current|3hkzA02/303-347_414-482      
+         75   -1.6   0.0    3.6e+02   -3.8   0.0    1.2  0  cath|current|3hkzI02/303-347_414-482      
+         77   -1.7   0.0         78   -1.7   0.0    1.2  0  cath|current|3tm7B00/25-118               
+         77   -1.7   0.0         78   -1.7   0.0    1.2  0  cath|current|3tm7D00/25-125               
+         79   -1.7   0.0    1.3e+02   -2.4   0.0    1.2  0  cath|current|4d7zB00/26-119               
+         80   -1.7   0.0    2.4e+02   -3.2   0.0    1.2  0  cath|current|4aayA04/700-835              
+         80   -1.7   0.0    2.4e+02   -3.2   0.0    1.2  0  cath|current|4aayC04/700-835              
+         80   -1.7   0.0    2.4e+02   -3.2   0.0    1.2  0  cath|current|4aayE04/700-835              
+         80   -1.7   0.0    2.4e+02   -3.2   0.0    1.2  0  cath|current|4aayG04/700-835              
+         85   -1.8   0.0    1.3e+02   -2.4   0.0    1.2  0  cath|current|1aw8B00/25-115               
+         85   -1.8   0.0    1.3e+02   -2.4   0.0    1.2  0  cath|current|1aw8E00/26-115               
+         87   -1.8   0.0    1.3e+02   -2.4   0.0    1.2  0  cath|current|1qdnC01/1-83                 
+         87   -1.8   0.0    1.3e+02   -2.4   0.0    1.2  0  cath|current|1qdnA01/1-83                 
+         87   -1.8   0.0    1.3e+02   -2.4   0.0    1.2  0  cath|current|1qdnB01/1-83                 
+         88   -1.8   0.0    1.5e+02   -2.6   0.0    1.2  0  cath|current|1qcsA01/2-83                 
+         89   -1.8   0.1    2.1e+02   -3.1   0.1    1.2  0  cath|current|1q16A13/1067-1191_1220-1244  
+         89   -1.8   0.1    2.1e+02   -3.1   0.1    1.2  0  cath|current|1siwA13/1067-1191_1220-1243  
+         89   -1.8   0.1    2.1e+02   -3.1   0.1    1.2  0  cath|current|3ir7A13/1067-1191_1220-1244  
+         89   -1.9   0.0    1.9e+02   -2.9   0.0    1.2  0  cath|current|1wlfA01/13-99                
+
+
+Domain annotation for each sequence:
+>> cath|current|2ki8A01/22-146  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.1       7.3       7.5      39      48 ..      46      55 ..       4     117 .. 0.67
+
+>> cath|current|5t5iD00/1-130  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5t5iL00/1-130  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5t5mD00/1-126  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3ougA00/2-108  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       9.1       9.3      36      50 ..      15      47 ..       4      92 .. 0.64
+
+>> cath|current|3ougB00/2-108  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       9.1       9.3      36      50 ..      15      47 ..       4      92 .. 0.64
+
+>> cath|current|3ougC00/2-108  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       9.1       9.3      36      50 ..      15      47 ..       4      92 .. 0.64
+
+>> cath|current|3ougE00/2-108  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       9.1       9.3      36      50 ..      15      47 ..       4      92 .. 0.64
+
+>> cath|current|3ougF00/2-108  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       9.1       9.3      36      50 ..      15      47 ..       4      92 .. 0.64
+
+>> cath|current|3ougG00/2-108  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       9.1       9.3      36      50 ..      15      47 ..       4      92 .. 0.64
+
+>> cath|current|3ougH00/2-108  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       9.1       9.3      36      50 ..      15      47 ..       4      92 .. 0.64
+
+>> cath|current|3ougI00/2-108  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0       9.1       9.3      36      50 ..      15      47 ..       4      92 .. 0.64
+
+>> cath|current|2nyaA04/668-791  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2nyaF04/668-791  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1cz4A01/1-92  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1cz5A01/1-92  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2jimA04/610-723  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2jioA04/610-723  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2jipA04/610-723  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2jiqA04/610-723  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2jirA04/610-723  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2napA04/610-723  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2v3vA04/610-723  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2v45A04/610-723  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4c2mA03/478-504_582-656  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4c2mP03/478-504_582-656  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3plxB00/26-125  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1s3sA01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1s3sB01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1s3sD01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1s3sE01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3tiwB01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kdlA01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodC01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodE01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodF01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodG01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodK01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftnA01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftnB01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftnC01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftnD01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftnE01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftnF01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4rv0A01/16-104  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4rv0C01/16-104  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4rv0E01/16-104  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4rv0G01/16-104  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1s3sC01/22-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3tiwA01/22-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kdiB01/22-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodA01/22-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodD01/22-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodH01/22-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3cf2A01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3cf2B01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3cf2C01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3cf2D01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c18A01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c18B01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c18C01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c18D01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c18F01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c1bA01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c1bB01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c1bC01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c1bD01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c1bE01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c1bF01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftjA01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftjB01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftjC01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftjD01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftjE01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftjF01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftkA01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftkB01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftkC01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftkD01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftkE01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftkF01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftlA01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftlB01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftlC01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftlD01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftlE01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftlF01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftmA01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftmB01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftmC01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftmD01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftmE01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5ftmF01/21-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1e32A01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1s3sF01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2pjhB01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kdiA01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodB01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodI01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodJ01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4kodL01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dygA01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiA01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiB01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiC01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiD01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiE01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiF01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiG01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiH01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiI01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiJ01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiK01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5dyiL01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5c18E01/20-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3qq7A01/20-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3qwzA01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3qc8A01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5b6cA01/19-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1r7rA01/17-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ypwA01/17-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ypwB01/17-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ypwC01/17-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ypwD01/17-108  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu3A01/17-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu3B01/17-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ko8B01/17-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5eppA01/21-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5glfA01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5glfC01/22-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5glfE01/24-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|5glfG01/23-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu2A01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu2B01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu2C01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu2D01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu2E01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu2F01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3qq8A01/10-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4klnA01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4klnB01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4klnC01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4klnD01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4klnE01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4klnF01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ko8A01/14-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu1A01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu1B01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu1C01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu1D01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu1E01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hu1F01/12-107  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1g8kC04/683-825  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1uhdA00/26-120  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1uheA00/26-122  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4qiwA02/327-353_416-490  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4qiwI02/327-353_416-490  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1tmoA04/618-790  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga5A01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga5B01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga5C01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga5D01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga5E01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga5F01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga5G01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga5H01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga6A01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4ga6B01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3o5aA04/678-802  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1g8jA04/683-817  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1g8jC04/683-817  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1g8kA04/683-817  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1g8kE04/683-817  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1g8kG04/683-817  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3h0gA02/353-379_443-516  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4azdA00/-4-117  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4azdB00/1-117  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3ml1A04/678-802  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1i3qA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1i50A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1i6hA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1k83A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1r9rA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1r9tA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1sfoA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1twaA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1twcA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1twfA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1twgA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1twhA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1wcmA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1y1vA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1y1wA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2b63A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2e2hA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2e2iA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2e2jA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2ja5A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2ja6A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2ja7A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2ja7M03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2ja8A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2nvqA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2nvsA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2nvtA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2nvxA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2nvyA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2r7zA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2r92A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2r93A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vumA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2yu9A03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3cqzA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3fkiA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3gtgA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3gtjA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3gtkA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3gtlA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3gtmA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3gtoA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3gtpA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3gtqA03/347-373_437-510  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pt0A00/0-116  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1dmsA04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pt0B00/1-116  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1dmrA04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1e18A04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1e5vA04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1e5vC04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1e60A04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1e60C04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1e61A04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1e61C04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1h5nA04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1h5nC04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2dmrA04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3dmrA04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4dmrA04/612-774  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2c45A00/1-114  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2c45B00/1-114  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2c45C00/1-114  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2c45D00/1-114  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2c45E00/1-114  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2c45F00/1-114  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2c45G00/1-114  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2c45H00/1-114  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4crzA00/0-126  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pyqA00/-3-116  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pqfA00/-3-123  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pt1A00/-1-115  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti2A04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti2C04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti2E04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti2G04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti2I04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti2K04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti4A04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti4C04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti4E04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti4G04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti4I04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti4K04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti6A04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti6C04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti6E04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti6G04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti6I04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ti6K04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vldM04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vldO04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vldQ04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vldS04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vldU04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vldW04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vleM04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vleO04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vleQ04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vleS04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vleU04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vleW04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vlfM04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vlfO04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vlfQ04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vlfS04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vlfU04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vlfW04/721-875  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pyqB00/1-116  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pqhA00/-2-116  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pqeA00/1-117  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pqfB00/1-116  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1kqfA04/840-1015  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1kqgA04/840-1015  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1aa6A04/572-688  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2iv2X04/572-688  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1fdoA04/573-688  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pt1B00/1-115  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1iw7D04/622-644_698-767  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1fdiA04/568-688  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vpwA05/605-764  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vpwE05/605-764  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vpxA05/605-764  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vpxE05/605-764  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vpyA05/605-764  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vpyE05/605-764  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vpzA05/605-764  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2vpzE05/605-764  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4cryG00/25-126  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4cs0A00/0-126  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pqhB00/1-115  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ppyA00/1-118  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ppyB00/1-115  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2eeoB00/26-120  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1vc3B00/26-120  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2o5iN04/623-645_698-767  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2o5jN04/623-645_698-768  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pyuB00/25-116  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1pyuD00/25-115  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ogyA04/678-801  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ogyC04/678-801  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ogyE04/678-801  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ogyG04/678-801  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ogyI04/678-801  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ogyK04/678-801  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ogyM04/678-801  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1ogyO04/678-801  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1yleA02/274-340  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1r27A04/1047-1237  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1r27C04/1047-1237  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1y4zA04/1047-1237  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1y5iA04/1047-1237  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3ir5A04/1047-1237  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3ir6A04/1047-1237  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aokB00/26-123  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aokE00/26-116  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aonB00/25-122  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aonE00/25-115  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2waqA02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2wb1A02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2wb1W02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2y0sA02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2y0sW02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aybA02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2pmzA02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|2pmzQ02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hkzA02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3hkzI02/303-347_414-482  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3tm7B00/25-118  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3tm7D00/25-125  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4d7zB00/26-119  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aayA04/700-835  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aayC04/700-835  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aayE04/700-835  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|4aayG04/700-835  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1aw8B00/25-115  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1aw8E00/26-115  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1qdnC01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1qdnA01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1qdnB01/1-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1qcsA01/2-83  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1q16A13/1067-1191_1220-1244  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1siwA13/1067-1191_1220-1243  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|3ir7A13/1067-1191_1220-1244  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> cath|current|1wlfA01/13-99  
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (89 nodes)
+Target sequences:                          372  (42249 residues searched)
+Passed MSV filter:                       372  (1); expected 372.0 (1)
+Passed bias filter:                      372  (1); expected 372.0 (1)
+Passed Vit filter:                       372  (1); expected 372.0 (1)
+Passed Fwd filter:                       372  (1); expected 372.0 (1)
+Initial search space (Z):                372  [actual number of targets]
+Domain search space  (domZ):             363  [number of targets reported over threshold]
+# CPU time: 0.36u 0.01s 00:00:00.37 Elapsed: 00:00:00.38
+# Mc/sec: 9.90
+//
+[ok]

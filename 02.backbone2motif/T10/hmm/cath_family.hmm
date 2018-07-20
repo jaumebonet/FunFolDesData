@@ -1,0 +1,415 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  2qdfA02.hmm
+# target sequence database:        cath-superfamily-seqs-3.10.20.310.fa
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 100
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       cath|4_1_0|2qdfA02/92-174  [M=80]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+      3e-23   74.4   0.4    3.4e-23   74.2   0.4    1.0  1  cath|current|4k3bA03/174-265  
+    1.3e-22   72.4   0.1    1.4e-22   72.2   0.1    1.1  1  cath|current|2qczA03/175-265  
+    1.3e-22   72.4   0.1    1.4e-22   72.2   0.1    1.1  1  cath|current|2qczB03/175-265  
+    1.3e-22   72.4   0.1    1.4e-22   72.2   0.1    1.1  1  cath|current|2qdfA03/175-265  
+    1.3e-22   72.4   0.1    1.4e-22   72.2   0.1    1.1  1  cath|current|3efcA03/175-265  
+    1.3e-22   72.4   0.1    1.4e-22   72.2   0.1    1.1  1  cath|current|4xgaB01/175-265  
+    1.5e-22   72.1   0.1    1.7e-22   72.0   0.1    1.1  1  cath|current|4pk1A01/176-265  
+    3.3e-18   58.2   0.2    3.6e-18   58.1   0.2    1.0  1  cath|current|4k3bA02/90-173   
+    1.3e-16   53.1   0.0    1.4e-16   53.0   0.0    1.0  1  cath|current|2qczA02/92-174   
+    1.3e-16   53.1   0.0    1.4e-16   53.0   0.0    1.0  1  cath|current|2qczB02/92-174   
+    1.3e-16   53.1   0.0    1.4e-16   53.0   0.0    1.0  1  cath|current|2qdfA02/92-174   
+    1.3e-16   53.1   0.0    1.4e-16   53.0   0.0    1.0  1  cath|current|3efcA02/92-174   
+    2.1e-16   52.5   0.0    2.3e-16   52.3   0.0    1.0  1  cath|current|2v9hA02/90-174   
+    4.6e-14   45.0   0.1    5.7e-14   44.6   0.1    1.0  1  cath|current|4k3cA02/344-419  
+    3.6e-13   42.1   0.0    4.7e-13   41.7   0.0    1.1  1  cath|current|4k3bA05/344-422  
+    4.2e-13   41.9   0.1    4.8e-13   41.7   0.1    1.0  1  cath|current|3og5A01/262-346  
+    4.2e-13   41.9   0.1    4.8e-13   41.7   0.1    1.0  1  cath|current|3og5B01/264-346  
+    4.8e-13   41.7   0.0      6e-13   41.4   0.0    1.0  1  cath|current|4c4vA01/347-421  
+    4.8e-13   41.7   0.0    5.7e-13   41.4   0.0    1.0  1  cath|current|3q6bA02/347-420  
+    5.5e-13   41.5   0.0      7e-13   41.2   0.0    1.0  1  cath|current|4c4vB01/344-421  
+    7.6e-13   41.0   0.1    8.6e-13   40.9   0.1    1.0  1  cath|current|3q6bA01/266-346  
+    7.6e-13   41.0   0.1    8.6e-13   40.9   0.1    1.0  1  cath|current|4pk1A02/266-346  
+    8.2e-13   40.9   0.1    9.5e-13   40.7   0.1    1.0  1  cath|current|4xgaB02/266-348  
+    8.6e-13   40.9   0.1    9.9e-13   40.7   0.1    1.0  1  cath|current|3efcA04/266-349  
+    9.3e-13   40.8   0.1    1.1e-12   40.5   0.1    1.0  1  cath|current|2qczA04/266-351  
+    9.3e-13   40.8   0.1    1.1e-12   40.5   0.1    1.0  1  cath|current|2qczB04/266-351  
+    9.3e-13   40.8   0.1    1.1e-12   40.5   0.1    1.0  1  cath|current|2qdfA04/266-351  
+    1.8e-12   39.9   0.5    2.1e-12   39.6   0.5    1.0  1  cath|current|4k3cA01/262-343  
+    5.5e-12   38.3   0.1      7e-12   38.0   0.1    1.0  1  cath|current|3og5A02/347-421  
+    5.5e-12   38.3   0.1      7e-12   38.0   0.1    1.0  1  cath|current|3og5B02/347-420  
+    4.1e-11   35.5   0.0    4.8e-11   35.3   0.0    1.0  1  cath|current|4k3bA04/266-343  
+    8.5e-11   34.5   0.0    9.3e-11   34.3   0.0    1.1  1  cath|current|2x8xX02/143-218  
+    9.8e-11   34.3   0.0    1.3e-10   33.9   0.0    1.1  1  cath|current|2mhjA00/1-95     
+    5.8e-07   22.2   0.0    5.9e-07   22.2   0.0    1.2  1  cath|current|3mc9A02/296-381  
+    5.8e-07   22.2   0.0    5.9e-07   22.2   0.0    1.2  1  cath|current|3mc9B02/296-381  
+    6.7e-07   22.0   0.0    6.7e-07   22.0   0.0    1.2  1  cath|current|3mc8A02/297-378  
+    9.7e-07   21.5   0.0    1.1e-06   21.3   0.0    1.1  1  cath|current|4c00A03/189-263  
+    1.1e-06   21.3   0.0    1.4e-06   21.0   0.0    1.1  1  cath|current|4bzaA03/189-267  
+    1.4e-06   21.0   0.0    1.8e-06   20.6   0.0    1.1  1  cath|current|4qayA03/189-274  
+    3.7e-05   16.4   0.0    3.9e-05   16.3   0.0    1.1  1  cath|current|4c00A02/104-188  
+    3.9e-05   16.3   0.0    4.2e-05   16.2   0.0    1.1  1  cath|current|4bzaA02/102-188  
+    3.9e-05   16.3   0.0    4.2e-05   16.2   0.0    1.1  1  cath|current|4qayA02/102-188  
+    0.00011   14.9   0.2    0.00024   13.8   0.2    1.7  1  cath|current|3mc8A03/379-473  
+    0.00025   13.8   0.0     0.0003   13.5   0.0    1.2  1  cath|current|2v9hA01/21-89    
+    0.00029   13.6   0.0    0.00035   13.3   0.0    1.2  1  cath|current|3efcA01/23-91    
+     0.0003   13.5   0.0    0.00037   13.2   0.0    1.2  1  cath|current|2qczA01/22-91    
+     0.0003   13.5   0.0    0.00037   13.2   0.0    1.2  1  cath|current|2qczB01/22-91    
+     0.0003   13.5   0.0    0.00037   13.2   0.0    1.2  1  cath|current|2qdfA01/20-91    
+    0.00043   13.0   0.0    0.00069   12.3   0.0    1.4  1  cath|current|4k3bA01/21-89    
+    0.00081   12.1   0.0     0.0017   11.1   0.0    1.5  1  cath|current|2x8xX03/219-301  
+  ------ inclusion threshold ------
+       0.02    7.7   0.0      0.021    7.6   0.0    1.2  1  cath|current|3njtA02/62-134   
+      0.024    7.4   0.0      0.028    7.2   0.0    1.3  1  cath|current|2qdzA02/53-134   
+      0.026    7.3   0.0      0.039    6.7   0.0    1.3  1  cath|current|2x8xX01/67-142   
+      0.028    7.2   0.0       0.03    7.1   0.0    1.1  1  cath|current|4bzaA01/25-101   
+       0.05    6.4   0.0      0.068    5.9   0.0    1.1  1  cath|current|2vh2A01/57-126   
+      0.054    6.3   0.0      0.074    5.8   0.0    1.1  1  cath|current|2vh2B01/55-126   
+       0.18    4.6   0.0       0.22    4.3   0.0    1.3  1  cath|current|3mc9A01/217-295  
+       0.18    4.6   0.0       0.22    4.3   0.0    1.3  1  cath|current|3mc9B01/217-295  
+       0.18    4.6   0.0       0.23    4.3   0.0    1.3  1  cath|current|3mc8A01/217-296  
+       0.64    2.8   0.0       0.77    2.6   0.0    1.2  1  cath|current|2vh1A01/58-126   
+       0.64    2.8   0.0       0.77    2.6   0.0    1.2  1  cath|current|2vh1B01/58-126   
+        5.1   -0.1   0.0        5.4   -0.1   0.0    1.3  1  cath|current|2qdzA03/135-207  
+        5.1   -0.1   0.0        5.4   -0.1   0.0    1.3  1  cath|current|3njtA03/135-207  
+
+
+Domain annotation for each sequence:
+>> cath|current|4k3bA03/174-265  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.2   0.4   3.4e-23   3.4e-23       2      78 ..       2      89 ..       1      91 [. 0.87
+
+>> cath|current|2qczA03/175-265  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   0.1   1.4e-22   1.4e-22       2      79 ..       2      90 ..       1      91 [] 0.88
+
+>> cath|current|2qczB03/175-265  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   0.1   1.4e-22   1.4e-22       2      79 ..       2      90 ..       1      91 [] 0.88
+
+>> cath|current|2qdfA03/175-265  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   0.1   1.4e-22   1.4e-22       2      79 ..       2      90 ..       1      91 [] 0.88
+
+>> cath|current|3efcA03/175-265  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   0.1   1.4e-22   1.4e-22       2      79 ..       2      90 ..       1      91 [] 0.88
+
+>> cath|current|4xgaB01/175-265  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.2   0.1   1.4e-22   1.4e-22       2      79 ..       2      90 ..       1      91 [] 0.88
+
+>> cath|current|4pk1A01/176-265  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   72.0   0.1   1.7e-22   1.7e-22       2      79 ..       6      94 ..       5      95 .] 0.88
+
+>> cath|current|4k3bA02/90-173  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   58.1   0.2   3.6e-18   3.6e-18       1      80 []       2      84 .]       2      84 .] 0.98
+
+>> cath|current|2qczA02/92-174  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.0   1.4e-16   1.4e-16       1      78 [.       1      81 [.       1      83 [] 0.98
+
+>> cath|current|2qczB02/92-174  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.0   1.4e-16   1.4e-16       1      78 [.       1      81 [.       1      83 [] 0.98
+
+>> cath|current|2qdfA02/92-174  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.0   1.4e-16   1.4e-16       1      78 [.       1      81 [.       1      83 [] 0.98
+
+>> cath|current|3efcA02/92-174  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.0   0.0   1.4e-16   1.4e-16       1      78 [.       1      81 [.       1      83 [] 0.98
+
+>> cath|current|2v9hA02/90-174  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.3   0.0   2.3e-16   2.3e-16       1      78 [.       3      83 ..       3      85 .. 0.98
+
+>> cath|current|4k3cA02/344-419  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.6   0.1   5.7e-14   5.7e-14       3      77 ..       3      74 ..       2      75 .. 0.95
+
+>> cath|current|4k3bA05/344-422  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   0.0   4.7e-13   4.7e-13       3      77 ..       6      77 ..       5      77 .. 0.94
+
+>> cath|current|3og5A01/262-346  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   0.1   4.8e-13   4.8e-13       4      79 ..       9      85 ..       7      86 .] 0.93
+
+>> cath|current|3og5B01/264-346  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.7   0.1   4.8e-13   4.8e-13       4      79 ..       9      85 ..       7      86 .] 0.93
+
+>> cath|current|4c4vA01/347-421  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.4   0.0     6e-13     6e-13       3      77 ..       3      74 ..       2      74 .. 0.92
+
+>> cath|current|3q6bA02/347-420  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.4   0.0   5.7e-13   5.7e-13       3      77 ..       3      74 .]       2      74 .] 0.92
+
+>> cath|current|4c4vB01/344-421  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   41.2   0.0     7e-13     7e-13       3      77 ..       6      77 ..       5      77 .. 0.92
+
+>> cath|current|3q6bA01/266-346  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.9   0.1   8.6e-13   8.6e-13       4      79 ..       4      80 ..       2      81 .] 0.94
+
+>> cath|current|4pk1A02/266-346  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.9   0.1   8.6e-13   8.6e-13       4      79 ..       4      80 ..       2      81 .] 0.94
+
+>> cath|current|4xgaB02/266-348  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.7   0.1   9.5e-13   9.5e-13       4      79 ..       4      80 ..       2      81 .. 0.94
+
+>> cath|current|3efcA04/266-349  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.7   0.1   9.9e-13   9.9e-13       4      79 ..       4      80 ..       2      81 .. 0.94
+
+>> cath|current|2qczA04/266-351  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.1   1.1e-12   1.1e-12       4      79 ..       4      80 ..       2      81 .. 0.94
+
+>> cath|current|2qczB04/266-351  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.1   1.1e-12   1.1e-12       4      79 ..       4      80 ..       2      81 .. 0.94
+
+>> cath|current|2qdfA04/266-351  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.1   1.1e-12   1.1e-12       4      79 ..       4      80 ..       2      81 .. 0.94
+
+>> cath|current|4k3cA01/262-343  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.6   0.5   2.1e-12   2.1e-12       3      79 ..       3      81 ..       2      82 .] 0.92
+
+>> cath|current|3og5A02/347-421  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.0   0.1     7e-12     7e-12       3      77 ..       3      74 ..       2      76 .. 0.92
+
+>> cath|current|3og5B02/347-420  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.0   0.1     7e-12     7e-12       3      77 ..       3      74 ..       2      76 .. 0.92
+
+>> cath|current|4k3bA04/266-343  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.3   0.0   4.8e-11   4.8e-11       5      76 ..       4      77 ..       2      78 .] 0.93
+
+>> cath|current|2x8xX02/143-218  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.3   0.0   9.3e-11   9.3e-11       1      78 [.       1      76 []       1      76 [] 0.87
+
+>> cath|current|2mhjA00/1-95  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.9   0.0   1.3e-10   1.3e-10       3      73 ..      22      92 ..      21      93 .. 0.96
+
+>> cath|current|3mc9A02/296-381  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.0   5.9e-07   5.9e-07      18      78 ..      25      83 ..       2      85 .. 0.76
+
+>> cath|current|3mc9B02/296-381  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.0   5.9e-07   5.9e-07      18      78 ..      25      83 ..       2      85 .. 0.76
+
+>> cath|current|3mc8A02/297-378  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.0   0.0   6.7e-07   6.7e-07      18      77 ..      24      81 ..       1      82 [] 0.75
+
+>> cath|current|4c00A03/189-263  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   0.0   1.1e-06   1.1e-06       3      62 ..       3      57 ..       2      69 .. 0.85
+
+>> cath|current|4bzaA03/189-267  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.0   0.0   1.4e-06   1.4e-06       3      62 ..       3      57 ..       2      69 .. 0.85
+
+>> cath|current|4qayA03/189-274  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.6   0.0   1.8e-06   1.8e-06       3      62 ..       3      57 ..       2      69 .. 0.85
+
+>> cath|current|4c00A02/104-188  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.3   0.0   3.9e-05   3.9e-05      16      64 ..      17      67 ..       6      84 .. 0.79
+
+>> cath|current|4bzaA02/102-188  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.0   4.2e-05   4.2e-05      16      64 ..      19      69 ..       8      86 .. 0.79
+
+>> cath|current|4qayA02/102-188  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.0   4.2e-05   4.2e-05      16      64 ..      19      69 ..       8      86 .. 0.79
+
+>> cath|current|3mc8A03/379-473  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.8   0.2   0.00024   0.00024      15      44 ..      29      58 ..      11      88 .. 0.77
+
+>> cath|current|2v9hA01/21-89  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.5   0.0    0.0003    0.0003       3      43 ..       6      46 ..       5      57 .. 0.95
+
+>> cath|current|3efcA01/23-91  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.3   0.0   0.00035   0.00035       3      43 ..       9      49 ..       8      62 .. 0.95
+
+>> cath|current|2qczA01/22-91  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.0   0.00037   0.00037       3      43 ..      10      50 ..       9      63 .. 0.95
+
+>> cath|current|2qczB01/22-91  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.0   0.00037   0.00037       3      43 ..      10      50 ..       9      63 .. 0.95
+
+>> cath|current|2qdfA01/20-91  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.0   0.00037   0.00037       3      43 ..      10      50 ..       9      63 .. 0.95
+
+>> cath|current|4k3bA01/21-89  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.3   0.0   0.00069   0.00069       2      38 ..       4      40 ..       4      62 .. 0.81
+
+>> cath|current|2x8xX03/219-301  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.1   0.0    0.0017    0.0017      13      77 ..      20      80 ..      17      82 .. 0.77
+
+>> cath|current|3njtA02/62-134  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.6   0.0     0.021     0.021      31      61 ..      28      58 ..      10      71 .. 0.80
+
+>> cath|current|2qdzA02/53-134  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.2   0.0     0.028     0.028      31      61 ..      37      67 ..      18      80 .. 0.80
+
+>> cath|current|2x8xX01/67-142  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.039     0.039       3      73 ..       7      71 ..       5      75 .. 0.71
+
+>> cath|current|4bzaA01/25-101  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.1   0.0      0.03      0.03      16      62 ..      16      64 ..       5      81 .] 0.71
+
+>> cath|current|2vh2A01/57-126  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.9   0.0     0.068     0.068       6      46 ..       5      47 ..       2      49 .. 0.81
+
+>> cath|current|2vh2B01/55-126  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.8   0.0     0.074     0.074       6      46 ..       7      49 ..       4      51 .. 0.81
+
+>> cath|current|3mc9A01/217-295  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0      0.22      0.22      21      53 ..      29      57 ..      15      79 .] 0.69
+
+>> cath|current|3mc9B01/217-295  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0      0.22      0.22      21      53 ..      29      57 ..      15      79 .] 0.69
+
+>> cath|current|3mc8A01/217-296  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0      0.23      0.23      21      53 ..      29      57 ..      15      79 .. 0.69
+
+>> cath|current|2vh1A01/58-126  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.77      0.77       9      45 ..       7      45 ..       2      57 .. 0.73
+
+>> cath|current|2vh1B01/58-126  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.6   0.0      0.77      0.77       9      45 ..       7      45 ..       2      57 .. 0.73
+
+>> cath|current|2qdzA03/135-207  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.0       5.4       5.4      56      65 ..      37      46 ..       7      61 .. 0.70
+
+>> cath|current|3njtA03/135-207  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.0       5.4       5.4      56      65 ..      37      46 ..       7      61 .. 0.70
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (80 nodes)
+Target sequences:                           63  (5133 residues searched)
+Passed MSV filter:                        63  (1); expected 63.0 (1)
+Passed bias filter:                       63  (1); expected 63.0 (1)
+Passed Vit filter:                        63  (1); expected 63.0 (1)
+Passed Fwd filter:                        63  (1); expected 63.0 (1)
+Initial search space (Z):                 63  [actual number of targets]
+Domain search space  (domZ):              63  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 20.53
+//
+[ok]
