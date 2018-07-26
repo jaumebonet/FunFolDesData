@@ -1,0 +1,28 @@
+<ROSETTASCRIPTS>
+       <TASKOPERATIONS>
+       </TASKOPERATIONS>
+       <SCOREFXNS>
+               <PPI_scorefxn  weights=talaris2013/>
+       </SCOREFXNS>
+       <FILTERS>
+                <CavityVolume name="cav_vol" />
+		<BuriedUnsatHbonds name="BUNS" scorefxn=sfxn_talaris2013 jump_number=0 cutoff=120/>
+       		<Rmsd name=rmsd threshold=3/>
+	</FILTERS>
+
+       <MOVERS>
+		<FastRelax name="FR" scorefxn=PPI_scorefxn >
+			<MoveMap name="mm1">
+			<Chain number=1 chi=1 bb=1 />
+		</MoveMap>
+		</FastRelax>
+	</MOVERS>
+
+       <PROTOCOLS>
+               <Add mover_name = FR/>
+               <Add filter_name=cav_vol/>
+               <Add filter_name=BUNS/>
+               <Add filter_name=rmsd/>
+       </PROTOCOLS>
+
+</ROSETTASCRIPTS>

@@ -147,7 +147,7 @@ Site IV was grafted into **TOP7** by means of the _NubInitioMover_ with the Rose
 
 A total of 800 decoys were generated without allowing for any sequence mutation to the template residues. The aim of this firts run was to explore and find a folded conformation that would:
 
-* carry and stabilize at backbone lever site IV.
+* carry and stabilize at backbone level site IV.
 * fold back to a conformation close to **TOP7** keeping the proper beta pairing.
 * shift enought the conformation to be productive in presenting site IV to 101F (avoid clashes).
 
@@ -194,6 +194,8 @@ readme.plot_part(partdes)
 ### Remodel and Resurface
 
 Both selected designs were submited to REMODEL to shorten the first loop of the structure and fix surface residues in order to improve the quality of the decoys, yielding the final two designs as described in the paper.
+
+# Experimental Data
 
 
 ```python
