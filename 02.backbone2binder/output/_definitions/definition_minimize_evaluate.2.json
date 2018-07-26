@@ -1,0 +1,7 @@
+{
+  "scores": ["min_clash", "min_design_score", "minimize_design_rmsd_drift"],
+  "scores_rename": {
+    "cav_vol": "min_cav_vol", "packstat": "min_packstat"
+  },
+  "naming": ["", "", "", "", "", "condition", "motif", "", "helix", "binder_state", "cluster", "", "decoy"]
+}

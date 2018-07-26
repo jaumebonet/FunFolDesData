@@ -1,0 +1,59 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+		<ScoreFunction name="fullatom" weights="talaris2014">
+			<Reweight scoretype="hbond_sr_bb" weight="1.6"/>
+		</ScoreFunction>
+	</SCOREFXNS>
+	<RESIDUE_SELECTORS>
+		<Chain name="designChain" chains="B" />
+		<Chain name="binderChain" chains="A" />
+		<Or    name="all" selectors="designChain,binderChain" />
+		<InterfaceByVector name="interface" cb_dist_cut="8" grp1_selector="designChain" grp2_selector="binderChain"/>
+	</RESIDUE_SELECTORS>
+	<TASKOPERATIONS>
+		<OperateOnResidueSubset name="REPACK" selector="all" >
+			<RestrictToRepackingRLT/>
+		</OperateOnResidueSubset>
+	</TASKOPERATIONS>
+	<FILTERS>
+		<Ddg name="post_ddg" scorefxn="fullatom" repack="false" repack_bound="false" confidence="0" />
+		<ChainCountFilter name="chaincount" max_chains="1" />
+		<RmsdFromResidueSelectorFilter name="ddg_design_rmsd_drift" reference_name="ref_pose"
+			reference_selector="designChain" query_selector="designChain" confidence="0" />
+		<RmsdFromResidueSelectorFilter name="ddg_binder_rmsd_drift" reference_name="ref_pose"
+			reference_selector="binderChain" query_selector="binderChain" confidence="0" />
+		<PackStat name="packstat" repeats="5" chain="1" confidence="0" />
+		<CavityVolume name="cav_vol" confidence="0" />
+		<ScorePoseSegmentFromResidueSelectorFilter name="ddg_design_score" confidence="0" residue_selector="designChain" scorefxn="fullatom" />
+	</FILTERS>
+	<MOVERS>
+		<SavePoseMover name="reference" reference_name="ref_pose" restore_pose="0" />
+		<AddChain name="appendCh" file_name="2wh6_Binder_realigned.pdb" scorefxn="fullatom" update_chains="false" />
+		<If name="addChain" filter_name="chaincount" true_mover_name="appendCh" />
+		<AtomTree name="fix_tree" fold_tree_file="2wh6_binder.foldtree"/>
+		# Evaluate ddG before and after minimize
+		<ddG name="ddg" scorefxn="fullatom" />
+		# Minimize
+		<PackRotamersMover name="prepack" scorefxn="fullatom" task_operations="REPACK"/>
+		<MinMover name="minimize" scorefxn="fullatom" chi="true" bb="true" jump="0" tolerance="0.001" />
+		<LabelPoseFromResidueSelectorMover name="labeler" residue_selector="interface" property="INTERFACE" />
+    		<DisplayPoseLabelsMover name="writeLabels" write="true" />
+	</MOVERS>
+
+	<PROTOCOLS>
+		<Add mover="addChain" />
+		<Add mover="fix_tree" />
+		<Add mover="reference" />
+		<Add mover="ddg" />
+		<Add mover="prepack" />
+		<Add mover="minimize" />
+		<Add filter="post_ddg" />
+		<Add filter="ddg_design_rmsd_drift" />
+		<Add filter="ddg_binder_rmsd_drift" />
+		<Add filter="ddg_design_score" />
+		<Add filter="packstat" />
+		<Add filter="cav_vol" />
+		<Add mover="labeler" />
+		<Add mover="writeLabels" />
+	</PROTOCOLS>
+</ROSETTASCRIPTS>

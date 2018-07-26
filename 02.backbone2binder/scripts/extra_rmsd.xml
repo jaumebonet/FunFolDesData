@@ -1,0 +1,78 @@
+<ROSETTASCRIPTS>
+
+  <RESIDUE_SELECTORS>
+
+    # Alignment selector can be applied to both the final design and the target.
+    # This is required to do a non-global alignemnt RMSD.
+    # This selector means that we are aligning through the inserted motif WITHOUT
+    # the FLEXIBLE regions assigned to it.
+    # As the alignement was performed in the main script, there is no actual need
+    # to aligm here, just leave it as reference.
+    <Index name="target_alignment" resnums="45B-62B" />
+
+    # This is what we missed in the main script, measuring the independent alpha
+    # helices, we did it as a bundle only.
+    <Index name="alpha1"        resnums="2B-33B"    />
+    <Index name="local_alpha1"  resnums="10B-31B"   />
+    <Index name="alpha2"        resnums="39B-75B"   />
+    <Index name="local_alpha2"  resnums="43B-64B"   />
+    <Index name="alpha3"        resnums="82B-115B"  />
+    <Index name="local_alpha3"  resnums="95B-114B"  />
+
+    <Or    name="alpha13"       selectors="alpha1,alpha3"             />
+    <Or    name="local_alpha13" selectors="local_alpha1,local_alpha3" />
+
+  </RESIDUE_SELECTORS>
+
+  <FILTERS> # (confidence=0 -> to score not to filter)
+    # Check RMSD against the target PDB (4OYD.pdb) aligned through the inserted region for each alpha helix independently
+    <RmsdFromResidueSelectorFilter name="RMSDTargetH1"
+        reference_name="target_pose" superimpose="false" confidence="0"
+        reference_selector="alpha1" query_selector="alpha1" />
+    <RmsdFromResidueSelectorFilter name="RMSDTargetH2"
+        reference_name="target_pose" superimpose="false" confidence="0"
+        reference_selector="alpha2" query_selector="alpha2" />
+    <RmsdFromResidueSelectorFilter name="RMSDTargetH3"
+        reference_name="target_pose" superimpose="false" confidence="0"
+        reference_selector="alpha3" query_selector="alpha3" />
+
+    <RmsdFromResidueSelectorFilter name="RMSDTargetHL1"
+        reference_name="target_pose" superimpose="false" confidence="0"
+        reference_selector="local_alpha1" query_selector="local_alpha1" />
+    <RmsdFromResidueSelectorFilter name="RMSDTargetHL2"
+        reference_name="target_pose" superimpose="false" confidence="0"
+        reference_selector="local_alpha2" query_selector="local_alpha2" />
+    <RmsdFromResidueSelectorFilter name="RMSDTargetHL3"
+        reference_name="target_pose" superimpose="false" confidence="0"
+        reference_selector="local_alpha3" query_selector="local_alpha3" />
+
+    # Check RMSD against the target PDB (4OYD.pdb) aligned through the inserted region for the a1-a3 pair
+    <RmsdFromResidueSelectorFilter name="RMSDTargetH13"
+        reference_name="target_pose" superimpose="false" confidence="0"
+        reference_selector="alpha13" query_selector="alpha13" />
+    <RmsdFromResidueSelectorFilter name="RMSDTargetHL13"
+        reference_name="target_pose" superimpose="false" confidence="0"
+        reference_selector="local_alpha13" query_selector="local_alpha13" />
+
+  </FILTERS>
+
+  <MOVERS>
+    # We work with 1 PDB here:
+    # 4oyd.pdb.gz is the PDB that constains the design that we aim to mimic.
+    # ** SavePoseMover used like this does not need to be called during PROTOCOL to work.
+    <SavePoseMover name="load_target"   reference_name="target_pose"   pdb_file="../pdbs/4oyd.pdb.gz" />
+
+  </MOVERS>
+
+  <PROTOCOLS>
+    <Add filter="RMSDTargetH1"   />
+    <Add filter="RMSDTargetH2"   />
+    <Add filter="RMSDTargetH3"   />
+    <Add filter="RMSDTargetHL1"  />
+    <Add filter="RMSDTargetHL2"  />
+    <Add filter="RMSDTargetHL3"  />
+    <Add filter="RMSDTargetH13"  />
+    <Add filter="RMSDTargetHL13" />
+  </PROTOCOLS>
+
+</ROSETTASCRIPTS>

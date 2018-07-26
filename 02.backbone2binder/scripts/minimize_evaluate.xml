@@ -1,0 +1,53 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+		<ScoreFunction name="fullatom" weights="talaris2014">
+			<Reweight scoretype="hbond_sr_bb" weight="1.6"/>
+		</ScoreFunction>
+	</SCOREFXNS>
+	<RESIDUE_SELECTORS>
+		<Chain name="designChain" chains="B" />
+		<Chain name="binderChain" chains="A" />
+		<Or    name="allChains" selectors="designChain,binderChain" />
+		<InterfaceByVector name="interface" cb_dist_cut="8" grp1_selector="designChain" grp2_selector="binderChain"/>
+	</RESIDUE_SELECTORS>
+	<TASKOPERATIONS>
+		<OperateOnResidueSubset name="REPACK" selector="allChains" >
+			<RestrictToRepackingRLT/>
+		</OperateOnResidueSubset>
+	</TASKOPERATIONS>
+	<FILTERS>
+		<Ddg name="min_clash" scorefxn="fullatom" repack="false" repack_bound="false" confidence="0" />
+		<ChainCountFilter name="chaincount" max_chains="1" />
+		<RmsdFromResidueSelectorFilter name="minimize_design_rmsd_drift" reference_name="ref_pose"
+			reference_selector="designChain" query_selector="designChain" confidence="0" />
+		<PackStat name="packstat" repeats="5" chain="1" confidence="0" />
+		<CavityVolume name="cav_vol" confidence="0" />
+		<ScorePoseSegmentFromResidueSelectorFilter name="min_design_score" confidence="0" residue_selector="designChain" scorefxn="fullatom" />
+	</FILTERS>
+	<MOVERS>
+		<DeleteRegionMover name="removeExtraChains" residue_selector="binderChain" />
+		<If name="removeChain" filter_name="chaincount" true_mover_name="null" false_mover_name="removeExtraChains" />
+
+		<SavePoseMover name="reference" reference_name="ref_pose" restore_pose="0" />
+		<AddChain name="appendCh" file_name="2wh6_Binder_realigned.pdb" scorefxn="fullatom" update_chains="false" />
+
+		<AtomTree name="fix_tree" fold_tree_file="2wh6_binder.foldtree"/>
+		# Minimize
+		<MinMover name="minimize" scorefxn="fullatom" chi="true" bb="true" jump="0" tolerance="0.001" />
+		<MutateResidue name="cleanside" residue_selector="allChains" new_res="GLY" preserve_atom_coords="true" />
+	</MOVERS>
+
+	<PROTOCOLS>
+		<Add mover="removeChain" />
+		<Add mover="reference" />
+		<Add mover="minimize" />
+		<Add mover="appendCh" />
+		<Add mover="fix_tree" />
+		<Add mover="cleanside" />
+		<Add filter="min_clash" />
+		<Add filter="minimize_design_rmsd_drift" />
+		<Add filter="min_design_score" />
+		<Add filter="packstat" />
+		<Add filter="cav_vol" />
+	</PROTOCOLS>
+</ROSETTASCRIPTS>

@@ -1,0 +1,4 @@
+{
+  "scores": ["RMSDTargetH1", "RMSDTargetH13", "RMSDTargetH2", "RMSDTargetH3", "RMSDTargetHL1", "RMSDTargetHL13", "RMSDTargetHL2", "RMSDTargetHL3"],
+  "naming": ["", "", "", "", "", "condition", "motif", "", "helix", "binder_state", "cluster", "", "decoy"]
+}

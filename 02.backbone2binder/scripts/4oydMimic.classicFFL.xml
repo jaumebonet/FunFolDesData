@@ -1,0 +1,277 @@
+<ROSETTASCRIPTS>
+
+  <SCOREFXNS>
+    # A weight is added to small-range hbonds to favor helix
+    <ScoreFunction name="fullatom_helix" weights="talaris2014">
+      <Reweight scoretype="hbond_sr_bb"    weight="1.6"/>
+    </ScoreFunction>
+
+    # Similar to the previous one, but an extra weight is added
+    # to take residue propensity into account. This way, we can favor
+    # helix-forming residues in our designs.
+    <ScoreFunction name="fullatom_aa" weights="talaris2014">
+      <Reweight scoretype="hbond_sr_bb"    weight="1.6"/>
+      <Reweight scoretype="aa_composition" weight="1.0" />
+    </ScoreFunction>
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS>
+    # Standard FFL ResidueSelectors.
+    <xi:include href="xml_pieces/selectors.xml" />
+
+    # Template: 3lhp.pdb.gz: Engineered protein.
+    # From this structure we will take our SCAFFOLD.
+    <Index name="insertion"      resnums="49S-70S" />
+    <Chain name="templateChain"  chains="S" />
+    <Not   name="!templateChain" selector="templateChain" />
+
+    # Motif: pdbs/2wh6.pdb.gz: BCL-2-LIKE PROTEIN 11: BH3
+    # This structure contains the binding MOTIF and the BINDER
+    <Index name="query_motif" resnums="51B-72B" />
+    <Chain name="designChain" chains="B" />
+    <Chain name="binder"      chains="A" />
+
+    # Target: pdbs/4oyd.pdb.gz: COMPUTATIONALLY DESIGNED INHIBITOR
+    # This known PDB represents a possible solution to the design we
+    # are trying to attempt. We will use it to compare our designs with,
+    # to see how close to this solution we can go.
+    # We cannot use a chain selector as this crystal is 1 residue longer,
+    # so we have to take them out (from the C-term).
+    <Index name="targetChain" resnums="1B-116B" />
+
+    # Alignment selector can be applied to both the final design and the target.
+    # This is required to do a non-global alignemnt RMSD.
+    # This selector means that we are aligning through the inserted motif WITHOUT
+    # the FLEXIBLE regions assigned to it.
+    <Index name="target_alignment" resnums="45B-62B" />
+
+    # When comparing with the target structure, we can do it for all the structure,
+    # just for those residues that should be alpha helix, or those that should be
+    # directly bound to the inserted motif
+    <Index name="target_alphas"       resnums="2B-33B,39B-75B,82B-115B"  />
+    <Index name="target_local_alphas" resnums="10B-31B,43B-64B,95B-114B" />
+
+    # Control optional repacking of contact residues in the CONTEXT chain
+    # Index is added in post-nubinitio count.
+    <Index name="repackable"  resnums="59A-117A" />
+    <Not   name="!repackable" selector="repackable" />
+    <And   name="bindpack"    selectors="CONTEXT,repackable" />
+    <And   name="bindnopack"  selectors="CONTEXT,!repackable" />
+    <And   name="HOTSPOT_AND_!FLEXIBLE"  selectors="HOTSPOT,!FLEXIBLE" />
+    <Or    name="allstatic"   selectors="HOTSPOT_AND_!FLEXIBLE,bindnopack" />
+
+    # Control optional minimization of the CONTEXT
+    <Or name="FLEXIBLE_OR_TEMPLATE_OR_CONTEXT" selectors="FLEXIBLE_OR_TEMPLATE,CONTEXT" />
+    <Or name="COLDSPOT_OR_FLEXIBLE_OR_TEMPLATE_OR_CONTEXT" selectors="COLDSPOT_OR_FLEXIBLE_OR_TEMPLATE,CONTEXT" />
+
+  </RESIDUE_SELECTORS>
+
+  <MOVE_MAP_FACTORIES>
+    # Standard FFL MoveMap
+    <xi:include href="xml_pieces/movemap.xml" />
+    <MoveMapFactory name="CONTEXT_MOVEMAP" bb="false" chi="false" nu="false" branches="false" jumps="false" >
+      <Backbone enable="true" residue_selector="FLEXIBLE_OR_TEMPLATE_OR_CONTEXT" />
+      <Chi      enable="true" residue_selector="COLDSPOT_OR_FLEXIBLE_OR_TEMPLATE_OR_CONTEXT" />
+    </MoveMapFactory>
+  </MOVE_MAP_FACTORIES>
+
+  <TASKOPERATIONS>
+    # Standard FFL TaskOperators
+    <xi:include href="xml_pieces/taskoperators.xml" />
+    <OperateOnResidueSubset name="STATIC_TASKOP" selector="allstatic" >
+      <PreventRepackingRLT/>
+    </OperateOnResidueSubset>
+    <OperateOnResidueSubset name="BINDER_PACK" selector="bindpack" >
+      <RestrictToRepackingRLT/>
+    </OperateOnResidueSubset>
+  </TASKOPERATIONS>
+
+  <FILTERS> # (confidence=0 -> to score not to filter)
+    # Check global RMSD against the source Template
+    <RmsdFromResidueSelectorFilter name="GRMSD2Template"
+      reference_name="template_pose" reference_selector="templateChain" query_selector="designChain" confidence="0" />
+    # Check global RMSD against the target PDB (4OYD.pdb)
+    <RmsdFromResidueSelectorFilter name="GRMSD2Target"
+      reference_name="target_pose" reference_selector="targetChain" query_selector="designChain" confidence="0" />
+    # Check RMSD against the target PDB (4OYD.pdb) aligned through the inserted region
+    # Needs to be preceded by an alignment through the region of interest
+    <RmsdFromResidueSelectorFilter name="LRMSD2Target"  superimpose="false"
+      reference_name="target_pose" reference_selector="targetChain" query_selector="designChain" confidence="0" />
+    # Check RMSD against the target PDB (4OYD.pdb) aligned through the inserted region only for alhpa helices
+    # Needs to be preceded by an alignment through the region of interest
+    <RmsdFromResidueSelectorFilter name="LRMSDH2Target"  superimpose="false"
+      reference_name="target_pose" reference_selector="target_alphas" query_selector="target_alphas" confidence="0" />
+    # Check RMSD against the target PDB (4OYD.pdb) aligned through the inserted region only for alhpa helices regions
+    # in contact with the binding motif. Needs to be preceded by an alignment through the region of interest
+    <RmsdFromResidueSelectorFilter name="LRMSDLH2Target"  superimpose="false"
+      reference_name="target_pose" reference_selector="target_local_alphas" query_selector="target_local_alphas" confidence="0" />
+    # check rmsd drift
+    <RmsdFromResidueSelectorFilter name="rmsd_drift"
+      reference_name="folded_pose" reference_selector="designChain" query_selector="designChain" confidence="0" />
+    # Make sure to get an evaluation of the design alone
+    <ScorePoseSegmentFromResidueSelectorFilter name="design_score" confidence="0" residue_selector="designChain" scorefxn="fullatom_helix" />
+
+    <ChainCountFilter name="chaincount" max_chains="1" />
+
+    <BuriedUnsatHbonds name="BUNS" jump_number="0" confidence="0"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
+    <PackStat name="packstat" repeats="5" chain="1" confidence="0" />
+    <CavityVolume name="cav_vol" confidence="0" />
+  </FILTERS>
+
+  <MOVERS>
+    # We work with 3 PDBs here:
+    # 3lhp.pdb.gz is the PDB that contains the template that we will use. It will be loaded
+    #             through -s flag but also here as a reference pose: template_pose
+    # 3lhp.pdb.gz is the PDB that contains the binder and the motif.
+    # 4oyd.pdb.gz is the PDB that constains motif andthe design that we aim to mimic.
+    # ** SavePoseMover used like this does not need to be called during PROTOCOL to work.
+    <SavePoseMover name="load_template" reference_name="template_pose" pdb_file="../pdbs/3lhp.pdb.gz" />
+    <SavePoseMover name="load_motif"    reference_name="motif_pose"    pdb_file="../pdbs/2wh6.pdb.gz" />
+    <SavePoseMover name="load_target"   reference_name="target_pose"   pdb_file="../pdbs/4oyd.pdb.gz" />
+    <SavePoseMover name="save_folded"   reference_name="folded_pose"   restore_pose="0" />
+
+    # 3lhp has other chains than the one we need (S). We must delete them.
+    <DeleteRegionMover name="removeExtraChains" residue_selector="!templateChain" />
+
+    # The creates the fragments (if they need to be created) or loads them from a file
+    # into the DataMap with the "frags" identifier (that needs to be specified in the NubInitio).
+    <StructFragmentMover name="FragmentPicker" prefix="frags"
+      vall_file="database/vall.jul19.2011.gz" output_frag_files="1"
+      small_frag_file="frags.200.3mers" large_frag_file="frags.200.9mers"
+    />
+
+    # CONSTRAINTS
+    # Constraints to guide the FOLDING
+    <AddConstraints name="foldingCST" >
+      <AtomPairConstraintGenerator name="atompairCST" sd="2.5" ca_only="true"
+        use_harmonic="true" unweighted="true" min_seq_sep="6" max_distance="40" residue_selector="templateChain"
+      />
+    </AddConstraints>
+    # Constraints to guide the DESIGN
+    <AddConstraints name="designCST" >
+      <AtomPairConstraintGenerator name="atompairCST" sd="2.0" ca_only="true"
+        use_harmonic="true" unweighted="true" min_seq_sep="6" max_distance="40" residue_selector="designChain"
+      />
+    </AddConstraints>
+    # Add Sequence Propensity Constraints
+    <AddHelixSequenceConstraints name="compositionCST" />
+    # Clear Constraints
+    <ClearConstraintsMover name="clearCST" />
+
+    # NUBINITIO FOLDING TYPES
+    # The NubInitio folding with binding and only core
+    <NubInitioMover name="FFL_binder_core" fragments_id="frags" template_motif_selector="insertion"
+      use_cst="true" rmsd_threshold="5" fullatom_scorefxn="fullatom_helix" >
+      <Nub reference_name="motif_pose" residue_selector="query_motif" binder_selector="binder" >
+        <Segment order="1" n_term_flex="2" c_term_flex="2" editable="3,4,6,7,10,11,14,17,18,21,22" />
+      </Nub>
+    </NubInitioMover>
+    # The NubInitio folding with binding and all different motif residues
+    <NubInitioMover name="FFL_binder_motif" fragments_id="frags" template_motif_selector="insertion"
+      use_cst="true" rmsd_threshold="5" fullatom_scorefxn="fullatom_helix" >
+      <Nub reference_name="motif_pose" residue_selector="query_motif" binder_selector="binder" >
+        <Segment order="1" n_term_flex="2" c_term_flex="2" editable="1,2,3,4,5,6,7,10,11,13,14,17,18,19,21,22" />
+      </Nub>
+    </NubInitioMover>
+    # The NubInitio folding without binding and only core
+    <NubInitioMover name="FFL_nobinder_core" fragments_id="frags" template_motif_selector="insertion"
+      use_cst="true" rmsd_threshold="5" fullatom_scorefxn="fullatom_helix" >
+      <Nub reference_name="motif_pose" residue_selector="query_motif" >
+        <Segment order="1" n_term_flex="2" c_term_flex="2" editable="3,4,6,7,10,11,14,17,18,21,22" />
+      </Nub>
+    </NubInitioMover>
+    # The NubInitio folding without binding and all different motif residues
+    <NubInitioMover name="FFL_nobinder_motif" fragments_id="frags" template_motif_selector="insertion"
+      use_cst="true" rmsd_threshold="5" fullatom_scorefxn="fullatom_helix" >
+      <Nub reference_name="motif_pose" residue_selector="query_motif" >
+        <Segment order="1" n_term_flex="2" c_term_flex="2" editable="1,2,3,4,5,6,7,10,11,13,14,17,18,19,21,22" />
+      </Nub>
+    </NubInitioMover>
+    <SwitchMover name="FFL" movers="FFL_binder_core,FFL_binder_motif,FFL_nobinder_core,FFL_nobinder_motif"
+      selected="%%ffl%%" />
+
+    # This is good to have to see a schema of what residues are going to be affected in which way
+    <DisplayPoseLabelsMover name="showDesign" movemap_factory="FFLSTANDARD_MOVEMAP"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP" />
+
+    <LabelPoseFromResidueSelectorMover name="labeler" residue_selector="repackable" property="REPACKED" />
+    <DisplayPoseLabelsMover name="writeLabels" write="true" />
+    <ParsedProtocol name="doLabel" >
+      <Add mover_name="labeler" />
+      <Add mover_name="writeLabels" />
+    </ParsedProtocol>
+    <If name="labelContacts" filter_name="chaincount"
+      true_mover_name="null" false_mover_name="doLabel" />
+
+    # Design/Relax cycles
+    <FastDesign name="DesignRelax_aa" scorefxn="fullatom_aa" clear_designable_residues="true"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP"
+      repeats="3" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLSTANDARD_MOVEMAP" >
+    </FastDesign>
+    <FastDesign name="DesignRelax_noaa" scorefxn="fullatom_helix" clear_designable_residues="true"
+      task_operations="FFLMOTIF_TASKOP,FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP"
+      repeats="3" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLSTANDARD_MOVEMAP" >
+    </FastDesign>
+    <FastDesign name="DesignRelax_aa_pack" scorefxn="fullatom_aa" clear_designable_residues="true"
+      task_operations="FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP,BINDER_PACK,STATIC_TASKOP"
+      repeats="1" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLSTANDARD_MOVEMAP" >
+    </FastDesign>
+    <FastDesign name="DesignRelax_noaa_pack" scorefxn="fullatom_helix" clear_designable_residues="true"
+      task_operations="FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP,BINDER_PACK,STATIC_TASKOP"
+      repeats="1" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="FFLSTANDARD_MOVEMAP" >
+    </FastDesign>
+    <FastDesign name="DesignRelax_aa_min" scorefxn="fullatom_aa" clear_designable_residues="true"
+      task_operations="FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP,BINDER_PACK,STATIC_TASKOP"
+      repeats="1" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="CONTEXT_MOVEMAP" >
+    </FastDesign>
+    <FastDesign name="DesignRelax_noaa_min" scorefxn="fullatom_helix" clear_designable_residues="true"
+      task_operations="FFLFLEX_TASKOP,FFLTEMPLATE_TASKOP,BINDER_PACK,STATIC_TASKOP"
+      repeats="1" delete_virtual_residues_after_FastRelax="true"
+      movemap_factory="CONTEXT_MOVEMAP" >
+    </FastDesign>
+    <SwitchMover name="DesignRelax" movers="DesignRelax_aa,DesignRelax_noaa,DesignRelax_aa_pack,DesignRelax_noaa_pack,DesignRelax_aa_min,DesignRelax_noaa_min"
+      selected="%%desrel%%" />
+
+    # Local alignment for final evaluation
+    <AlignByResidueSelectorMover name="align" reference_name="target_pose"
+      reference_selector="target_alignment" query_selector="target_alignment" />
+
+  </MOVERS>
+
+  <PROTOCOLS>
+    # Preparing Template
+    <Add mover="removeExtraChains" />
+    <Add mover="FragmentPicker"    />
+    # Fold
+    <Add mover="foldingCST"  />
+    <Add mover="FFL"         />
+    <Add mover="showDesign"  />
+    <Add mover="clearCST"    />
+    <Add mover="save_folded" />
+    # Design
+    <Add mover="labelContacts"  />
+    <Add mover="designCST"      />
+    <Add mover="compositionCST" />
+    <Add mover="DesignRelax"    />
+    <Add mover="clearCST"       />
+    # Evaluate
+    <Add filter="GRMSD2Template" />
+    <Add filter="GRMSD2Target"   />
+    <Add mover="align"           />
+    <Add filter="LRMSD2Target"   />
+    <Add filter="LRMSDH2Target"  />
+    <Add filter="LRMSDLH2Target" />
+    <Add filter="rmsd_drift"     />
+    <Add filter="design_score"   />
+    <Add filter="BUNS"           />
+    <Add filter="packstat"       />
+    <Add filter="cav_vol"        />
+  </PROTOCOLS>
+
+</ROSETTASCRIPTS>

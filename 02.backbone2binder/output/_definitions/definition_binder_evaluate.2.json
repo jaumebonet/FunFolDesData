@@ -1,0 +1,7 @@
+{
+  "scores": ["ddg_binder_rmsd_drift", "ddg_design_rmsd_drift", "ddg_design_score", "post_ddg"],
+  "scores_rename": {
+    "cav_vol": "ddg_cav_vol", "ddg": "pre_ddg", "packstat": "ddg_packstat"
+  },
+  "naming": ["", "", "", "", "", "condition", "motif", "", "helix", "binder_state", "cluster", "", "decoy"]
+}
