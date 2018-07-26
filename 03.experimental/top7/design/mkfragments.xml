@@ -1,0 +1,9 @@
+<ROSETTASCRIPTS>
+  <MOVERS>
+    <StructFragmentMover name="FragmentPicker" prefix="frags" vall_file="database/vall.jul19.2011.gz" output_frag_files="1"
+      small_frag_file="frags.200.3mers" large_frag_file="frags.200.9mers" />
+  </MOVERS>
+  <PROTOCOLS>
+    <Add mover="FragmentPicker" />
+  </PROTOCOLS>
+</ROSETTASCRIPTS>

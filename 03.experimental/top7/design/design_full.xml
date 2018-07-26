@@ -1,0 +1,238 @@
+<ROSETTASCRIPTS>
+
+# The FFL-output poses were filtered based on RMSD to Top7 and the extent of beta-sheet hydrogen bond long range backbone
+# interactions and the best scoring ones are used as input-pose for this Sequence Design protocol.
+
+  <SCOREFXNS>
+
+   # SCOREFUNCTION
+   #   The following score function is defined to be used during the FastDesign and FastRelax Movers and to score the output pose:
+   <ScoreFunction name="score" weights="talaris2014_highAlanineHighMethionine.wts">
+     <Reweight scoretype="atom_pair_constraint" weight="0.5" />
+    </ScoreFunction>
+
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS >
+
+   # EPITOPE
+   #  	The epitope will not be allowed any degrees of freedom throughout the protocol and is defined here:
+    <Chain  name="designChain"          chains="P" />
+    <Index  name="epitope"      	resnums="13P-18P" />
+
+   # BINDER:
+   # 	The 101F Fab will not be allowed any degrees of freedom throughout the protocol and is defined here:
+    <Chain  name="101F_HC"      	chains="H" />
+    <Chain  name="101F_LC"      	chains="L" />
+    <Or     name="101F_Fab"     	selectors="101F_HC,101F_LC" />
+
+
+   # BETA-SHEET
+   # 	Since preservation of the continuous beta-sheet is crucial to the overall structure, its backbone movements
+   # 	will be restrained. The strands and sheet are defined here:
+     <Index name="strand1" 		resnums="3P-8P" />
+     <Index name="strand2" 		resnums="14P-20P" />
+     <Index name="strand3" 		resnums="45P-51P" />
+     <Index name="strand4" 		resnums="75P-82P" />
+     <Index name="strand5" 		resnums="85P-91P" />
+     <Or    name="full_sheet" 		selectors="strand1,strand2,strand3,strand4,strand5" />
+
+
+   # PROTEIN-LAYERS
+   # 	The following three selectors define the surface, core and boundary-residues of the protein:
+    <Layer name="core_residues" 	select_core="true" />
+    <Layer name="boundary_residues" 	select_boundary="true" />
+    <Layer name="surface_residues" 	select_surface="true" surface_cutoff="2.0" />
+
+
+   # SECONDARY-STRUCTURE
+   # 	The following three selectors define the secondary structure elements of the protein (based on dssp-assignation):
+    <SecondaryStructure name="Sheet" 	use_dssp="0" 	ss="E"
+      pose_secstruct="LEEEEEEELLLLLEEEEEEEELLHHHHHHHHHHHHHHHHHHLLLEEEEEELLLLHHHHHHHHHHHHHHHHHHLLEEEEEEEELLEEEEEEEL" />
+    <SecondaryStructure name="Loop" 	use_dssp="0"	ss="L"
+      pose_secstruct="LEEEEEEELLLLLEEEEEEEELLHHHHHHHHHHHHHHHHHHLLLEEEEEELLLLHHHHHHHHHHHHHHHHHHLLEEEEEEEELLEEEEEEEL" />
+
+   # SHEET-SURFACE
+   # 	The following selectors define residues that are on the surface of the sheet:
+    <And name="sheet_surface" 		selectors="Sheet,surface_residues" />
+
+  </RESIDUE_SELECTORS>
+
+  <TASKOPERATIONS>
+
+   # INITIALISE FROM COMMANDLINE:
+    <InitializeFromCommandline name="init" />
+
+   # PROHIBTING SIDECHAIN MOVEMENT OF THE EPITOPE AND 101F-FAB
+   # 	The following taskoperations disallow any side chain movements in the epitope or Fab:
+     <OperateOnResidueSubset 		name="restrict_epitope" 	selector="epitope" >
+     	<PreventRepackingRLT />
+     </OperateOnResidueSubset>
+
+     <OperateOnResidueSubset 		name="restrict_Fab" 		selector="101F_Fab" >
+     	<PreventRepackingRLT />
+     </OperateOnResidueSubset>
+
+   # RESTRICTION OF AMINO-ACID TYPES DURING DESIGN
+   # 	The following taskoperations define limited subsets of residues to be sampled for indicated residues  according
+   #    to their layer and secondary structure:
+     <OperateOnResidueSubset 		name="core_resfile" 		selector="core_residues" >
+        <RestrictAbsentCanonicalAASRLT 	aas="FILMVW" />
+     </OperateOnResidueSubset>
+      <OperateOnResidueSubset           name="boundary_resfile"         selector="boundary_residues" >
+        <RestrictAbsentCanonicalAASRLT  aas="DEIKLNQRSTVWY" />
+      </OperateOnResidueSubset>
+     <OperateOnResidueSubset 		name="B_surface_resfile" 	selector="sheet_surface" >
+       <RestrictAbsentCanonicalAASRLT  aas="QRENHST" />
+     </OperateOnResidueSubset>
+     <OperateOnResidueSubset            name="loop_resfile"             selector="Loop" >
+        <RestrictAbsentCanonicalAASRLT  aas="DNSTAPG" />
+     </OperateOnResidueSubset>
+
+
+   # EXTRA-ROTAMERS
+   #   The following mover enables extra rotamer sampling for all designable positions:
+      <ExtraRotamersGeneric name="ex1" ex1="1" ex2="1" />
+
+   </TASKOPERATIONS>
+
+  <FILTERS>
+
+   # FILTERS THAT NEED TO BE PASSED IN MONTE CARLO SAMPLING PROTOCOL OF FASTDESIGN/FASTRELAX
+   # 	The following filters will be applied in combined form during the Monte Carlo sampling to allow a pose to pass or not:
+    <ScoreType          name="rama"       confidence="0" scorefxn="score" score_type="rama" threshold="-4"  />
+    <PackStat 	        name="pack" 	  confidence="0" threshold="0.65" />
+
+    <CombinedValue     name="comb_filters" confidence="1" >
+      <Add filter_name="rama" factor="0.2" />
+      <Add filter_name="pack" factor="-0.8" />
+    </CombinedValue>
+
+    <Rmsd               name="RMSD"       confidence="1" threshold="1.5" superimpose="1" by_aln="false" />
+    <SecondaryStructure name="check_ss"   confidence="1" residue_selector="full_sheet" ss="LEEEEEEELLLLLEEEEEEEELLHHHHHHHHHHHHHHHHHHLLLEEEEEELLLLHHHHHHHHHHHHHHHHHHLLEEEEEEEELLEEEEEEELLLEEEEELLLEELLLLLEEEEEEEELLLLLLLLEEEEEEEELLLLLLEEEEEEELLLLEEELLLLHHHEEEEEEHHHLEEEEEELLLLHHHLEEEEEEEEELLLLLEEEELLLEEEEELLLLLEEEELLEEEELLLLLEEEEEEELLLLEELLEELEEEEEELLLLLLEEEEELLLEELLLLLLLEEEEEELLEEEEEELLLLHHHLEEEEEEELLLLLLLELLLEEEEEL" threshold="0.8" />
+
+
+   # METRIC FILTERS FOR EVALUATING THE OUTPUT POSE
+   #   The following metric filters are applied to the output pose to differentially evaluate different design trajectories:
+    <ResidueCount       name="gly_count"  confidence="0" residue_types="GLY" max_residue_count="10" residue_selector="designChain" />
+    <CavityVolume       name="cav_vol"    confidence="0" />
+    <BuriedUnsatHbonds  name="BUNS"       confidence="0" jump_number="0" cutoff="10" residue_selector="designChain"  />
+    <SecondaryStructureCount name="count_ss" filter_sheet="1" num_sheet="5" filter_helix_sheet="0" min_sheet_length="5"
+        residue_selector="designChain" />
+
+  </FILTERS>
+
+  <MOVERS>
+
+   # DSSP
+   # 	The dssp mover is used for traceability of the intermediate secondary structure of a pose during FastDesign and FastRelax:
+    <Dssp name="dssp" />
+
+   # CONSTRAINTS - SHEET
+   # 	Since preservation of the continuous beta-sheet is crucial to the overall structure, its movements will be restrained
+   #    by adding tight atom pair constraints derived from the input structure:
+    <AddConstraints name="add_csts" >
+      <AtomPairConstraintGenerator name="sheet_cst" native="1" sd="0.5" weight="1.0" ca_only="1"
+        max_distance="5" min_seq_sep="1" residue_selector="full_sheet" /> 
+    </AddConstraints>
+
+
+   # REMOVE CONSTRAINTS
+   #   After the design step, the constraints are removed again:
+    <RemoveConstraints name="rm_csts" constraint_generators="sheet_cst" />
+
+   # FIXED BACKBONE DESIGN
+   #   The following mover enables a first round of fixed-backbone sequence design of the protein to generate
+   #   a suitable input pose for the subsequent FastDesign mover (the current sequence is still from Top7 except for the inserted fragments):
+    <PackRotamersMover name="design_prot1" scorefxn="score" task_operations="init,loop_resfile,restrict_epitope,restrict_Fab" />
+
+   # ITERATIVE DESIGN AND MINIMISATION
+   # 	The following movers defines the main design step using the above defined taskoperations for side chain sampling.
+   # 	A Movemap is set up to prohibit backbone movements of the epitope and Fab:
+    <FastDesign name="fdesign" scorefxn="score" clear_designable_residues="false" ramp_down_constraints="false" repeats="5"
+	task_operations="B_surface_resfile,boundary_resfile,core_resfile,loop_resfile,restrict_epitope,restrict_Fab,ex1" >
+    	<MoveMap name="fix_epitope" >
+	   <Span begin="1" end="999" bb="0" chi="0" />
+           <Span begin="1" end="12" bb="1" chi="1" />
+           <Span begin="19" end="92" bb="1" chi="1" />
+    	</MoveMap>
+    </FastDesign>
+
+
+
+   # REPACK AND MINIMISATION
+   #    The following mover repacks and minimises the pose after design to allow optimal side chain packing.
+   #    A Movemap is set up to prohibit backbone movements of the epitope and Fab:
+    <FastRelax name="frelax1" repeats="5" task_operations="init,restrict_epitope,restrict_Fab,ex1" ramp_down_constraints="false" >
+   	<MoveMap name="fix_epitope" >
+           <Span begin="1" end="999" bb="0" chi="0" />
+           <Span begin="1" end="12" bb="1" chi="1" />
+           <Span begin="19" end="92" bb="1" chi="1" />
+    	</MoveMap>
+    </FastRelax>
+
+
+   # COMPARING DSSP-ASSIGNATIONS
+   # 	 The following movers combine the FastDesignMover and FastRelaxMover each with a dssp mover before and after to allow
+   # 	 traceability of the pose's secondary structure assignation throughout the different steps that involve backbone movements:
+   <ParsedProtocol name="parsed" >
+      <Add mover_name="dssp"/>
+      <Add mover_name="fdesign" />
+      <Add mover_name="dssp" />
+   </ParsedProtocol>
+
+
+   <ParsedProtocol name="parsed2" >
+      <Add mover_name="dssp"/>
+      <Add mover_name="frelax1" />
+      <Add mover_name="dssp" />
+   </ParsedProtocol>
+
+
+   # GENERIC MONTECARLO-FASTDESIGN
+   # 	 The following mover calls the above defined FastDesignMover (parsed with a DsspMover before and after) in the context of
+   # 	 Monte Carlo sampling protocol. To pass the Monte Carlo Metropolis Criterion, the pose has to pass a filter counting
+   #     the amount of retained beta-sheet secondary structure identity. If met, the pose is further scored based on a composite
+   # 	 filter for Ramachandran probabilities and packing:
+   <GenericMonteCarlo name="genericmc1" mover_name="parsed" preapply="1" filter_name="check_ss" temperature="0" sample_type="high" trials="3" drift="1" >
+	 <Filters>
+	   <AND filter_name="comb_filters" temperature="2" sample_type="low" rank="1" />
+         </Filters>
+  </GenericMonteCarlo>
+
+   # GENERIC MONTECARLO-FASTRELAX
+   #     The following mover calls the above defined FastRelaxMover (parsed with a DsspMover before and after) in the context of
+   #     Monte Carlo sampling protocol. To pass the Monte Carlo Metropolis Criterion, the pose has to pass a filter counting
+   #     the amount of retained beta-sheet secondary structure identity. If met, the pose is further scored based on a RMSD filter:
+    <GenericMonteCarlo name="genericmc2" mover_name="parsed2" preapply="0" filter_name="check_ss" temperature="0" sample_type="high" trials="5"  drift="1" >
+	 <Filters>
+           <AND filter_name="RMSD" temperature="2" sample_type="low" rank="1" />
+         </Filters>
+    </GenericMonteCarlo>
+
+  </MOVERS>
+
+  <PROTOCOLS>
+    # Preparing pose for design
+    <Add mover_name="add_csts" />
+    <Add mover_name="dssp" />
+    <Add mover_name="design_prot1" />
+    <Add mover_name="dssp" />
+    # Fast Design
+    <Add mover_name="genericmc1" />
+    # FastRelax
+    <Add mover_name="genericmc2" />
+    # Removal of constraints
+    <Add mover_name="rm_csts" />
+    # Adding metric filters for evaluation
+    <Add filter_name="count_ss" />
+    <Add filter_name="gly_count" />
+    <Add filter_name="cav_vol" />
+    <Add filter_name="BUNS" />
+    <Add filter_name="pack" />
+    <Add filter_name="RMSD" />
+  </PROTOCOLS>
+
+  <OUTPUT />
+
+</ROSETTASCRIPTS>

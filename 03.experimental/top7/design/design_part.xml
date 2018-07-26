@@ -1,0 +1,187 @@
+<ROSETTASCRIPTS>
+
+  <SCOREFXNS>
+   <ScoreFunction name="score" weights="talaris2014_highAlanineHighMethionine.wts">
+  	<Reweight scoretype="atom_pair_constraint" weight="0.5" />
+    </ScoreFunction>
+
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS >
+    #Index  name="stabilisation" resnums="7A-9A" />
+    <Index name="epitope" resnums="13P-18P" />
+    #Or name="full_epitope" selectors="stabilisation,epitope" />
+
+    #Select the different chains
+    <Chain name="designChain" chains="P" />
+    <Chain name="antibody_H" chains="H" />
+    <Chain name="antibody_L" chains="L" />
+    <Or name="antibody" selectors="antibody_H,antibody_L" />
+
+
+    # Select the different strands to keep similar in bb
+     <Index name="sheet1" resnums="3P-8P" />
+     <Index name="sheet2" resnums="14P-20P" />
+     <Index name="sheet3" resnums="45P-51P" />
+     <Index name="sheet4" resnums="75P-82P" />
+     <Index name="sheet5" resnums="85P-91P" />
+     <Or name="guide_sheet" selectors="sheet1,sheet2,sheet3,sheet4,sheet5" />
+
+
+    <Index name="C_term" resnums="45P-92P"  />
+
+    <Layer name="surface_residues" select_surface="true" surface_cutoff="2.0" />
+    <Layer name="core_residues" select_core="true" />
+    <Layer name="boundary_residues" select_boundary="true" />
+    # Select the surface of sheet residues
+    <SecondaryStructure name="Sheet" use_dssp="0" pose_secstruct="LEEEEEEELLLLLEEEEEEEELLHHHHHHHHHHHHHHHHHHLLLEEEEEELLLLHHHHHHHHHHHHHHHHHHLLEEEEEEEELLEEEEEEEL" ss="E" />
+    <And name="sheet_surface" selectors="Sheet,surface_residues" />
+    # Select the surface of helix residues
+    <SecondaryStructure name="Helix" use_dssp="0" pose_secstruct="LEEEEEEELLLLLEEEEEEEELLHHHHHHHHHHHHHHHHHHLLLEEEEEELLLLHHHHHHHHHHHHHHHHHHLLEEEEEEEELLEEEEEEEL" ss="H"/>
+    <SecondaryStructure name="Loop" use_dssp="0" pose_secstruct="LEEEEEEELLLLLEEEEEEEELLHHHHHHHHHHHHHHHHHHLLLEEEEEELLLLHHHHHHHHHHHHHHHHHHLLEEEEEEEELLEEEEEEEL" ss="L" />
+    <And name="helix_surface" selectors="Helix,surface_residues" />
+
+  </RESIDUE_SELECTORS>
+
+  <TASKOPERATIONS>
+     <InitializeFromCommandline name="init" />
+     <OperateOnResidueSubset name="core_resfile" selector="core_residues" >
+        <RestrictAbsentCanonicalAASRLT aas="FILMVW" />
+     </OperateOnResidueSubset>
+
+     <OperateOnResidueSubset name="loop_resfile" selector="Loop" >
+        <RestrictAbsentCanonicalAASRLT aas="DNSTAPG" />
+     </OperateOnResidueSubset>
+      <OperateOnResidueSubset name="boundary_resfile" selector="boundary_residues" >
+        <RestrictAbsentCanonicalAASRLT aas="DEIKLNQRSTVWY" />
+      </OperateOnResidueSubset>
+     # Prevent epitope from changing at all
+     <OperateOnResidueSubset name="restrict_epitope" selector="epitope" >
+     <PreventRepackingRLT />
+     </OperateOnResidueSubset>
+
+     <OperateOnResidueSubset name="restrict_ab" selector="antibody" >
+     <PreventRepackingRLT />
+     </OperateOnResidueSubset>
+
+     <OperateOnResidueSubset name="keep_Cterm" selector="C_term" >
+     <RestrictToRepackingRLT />
+     </OperateOnResidueSubset>
+
+
+     <OperateOnResidueSubset name="B_surface_resfile" selector="sheet_surface" >
+        <RestrictAbsentCanonicalAASRLT aas="QRENHST" />
+        </OperateOnResidueSubset>
+
+        <OperateOnResidueSubset name="H_surface_resfile" selector="helix_surface" >
+        <RestrictAbsentCanonicalAASRLT aas="DEGHKNPQRS" />
+        </OperateOnResidueSubset>
+        <ExtraRotamersGeneric name="ex1" ex1="1" ex2="1" />
+   </TASKOPERATIONS>
+
+  <FILTERS>
+    <ResidueCount name="gly_count" residue_types="GLY" max_residue_count="10" confidence="0" residue_selector="designChain" />
+    <CavityVolume name="cav_vol" confidence="0" />
+    <ScoreType name="rama" scorefxn="score" score_type="rama" threshold="-4" confidence="0"  />
+    <BuriedUnsatHbonds name="BUNS"  jump_number="0" cutoff="10" confidence="0" residue_selector="designChain"  />
+    <Rmsd name="RMSD" threshold="1.5" superimpose="1" by_aln="false" confidence="1" />
+    <RmsdFromResidueSelectorFilter name="RMSD_sheet" CA_only="1" threshold="0.5" superimpose="1" reference_selector="guide_sheet" query_selector="guide_sheet" confidence="0"  />
+     <SecondaryStructure name="check_ss" residue_selector="guide_sheet" ss="LEEEEEEELLLLLEEEEEEEELLHHHHHHHHHHHHHHHHHHLLLEEEEEELLLLHHHHHHHHHHHHHHHHHHLLEEEEEEEELLEEEEEEELLLEEEEELLLEELLLLLEEEEEEEELLLLLLLLEEEEEEEELLLLLLEEEEEEELLLLEEELLLLHHHEEEEEEHHHLEEEEEELLLLHHHLEEEEEEEEELLLLLEEEELLLEEEEELLLLLEEEELLEEEELLLLLEEEEEEELLLLEELLEELEEEEEELLLLLLEEEEELLLEELLLLLLLEEEEEELLEEEEEELLLLHHHLEEEEEEELLLLLLLELLLEEEEEL" threshold="0.8" confidence="1" />
+    <PackStat name="pack" threshold="0.65" confidence="0" />
+    <CombinedValue name="comb_filters" confidence="1" >
+            <Add filter_name="rama" factor="0.2" />
+            <Add filter_name="pack" factor="-0.8" />
+    </CombinedValue>
+    <CompoundStatement name="pass" >
+	<AND filter_name="check_ss" />
+	<AND filter_name="comb_filters" />
+    </CompoundStatement>
+    <SecondaryStructureCount name="count_ss" filter_sheet="1" num_sheet="5" filter_helix_sheet="0" min_sheet_length="5" residue_selector="designChain" />
+     <ScorePoseSegmentFromResidueSelectorFilter name="design_score" confidence="0" residue_selector="designChain" />
+  </FILTERS>
+
+<MOVERS>
+    <Dssp name="dssp" />
+    <SavePoseMover name="save_native" reference_name="native.pdb" />
+    # set the constraint
+    <AddConstraints name="add_csts" >
+	<AtomPairConstraintGenerator name="sheet_cst" native="1" sd="0.5" weight="1.0" ca_only="1" max_distance="5" min_seq_sep="1"  residue_selector="guide_sheet" />
+    SheetConstraintGenerator name="betaconstraint" secstruct="LLEEEEEEELLLEEEEEEEELLLHHHHHHHHHHHHHHHHLLLLLEEEEEELLLLHHHHHHHHHHHHHHHH" spairs="1-2.A.1;1-3.A.1" angle_tolerance="0.5" weight="1.5" />
+    </AddConstraints>
+    <RemoveConstraints name="rm_csts" constraint_generators="sheet_cst" />
+
+    # Setup packing and minimizing for all residues surrounding the disulfide bonds w/o the cysteins themselves!
+     <PackRotamersMover name="design_prot1" scorefxn="score" task_operations="init,loop_resfile,restrict_epitope,restrict_ab,keep_Cterm" />
+
+    <FastDesign name="fdesign" scorefxn="score" clear_designable_residues="false" ramp_down_constraints="false" repeats="2" task_operations="B_surface_resfile,restrict_epitope,boundary_resfile,core_resfile,ex1,loop_resfile,restrict_ab,keep_Cterm" >
+    	<MoveMap name="fix_epitope" >
+		<Span begin="1" end="999" bb="0" chi="0" />
+                <Span begin="1" end="12" bb="1" chi="1" />
+                <Span begin="19" end="92" bb="1" chi="1" />
+    	</MoveMap>
+    </FastDesign>
+
+    <FastRelax name="frelax1" repeats="3" task_operations="restrict_epitope,init,ex1,restrict_ab" ramp_down_constraints="false" >
+   	<MoveMap name="fix_epitope" >
+                <Span begin="1" end="999" bb="0" chi="0" />
+                <Span begin="1" end="12" bb="1" chi="1" />
+                <Span begin="19" end="92" bb="1" chi="1" />
+    	</MoveMap>
+    </FastRelax>
+
+
+   <ParsedProtocol name="parsed" >
+      <Add mover_name="dssp"/>
+      <Add mover_name="fdesign" />
+      <Add mover_name="dssp" />
+   </ParsedProtocol>
+
+
+   <ParsedProtocol name="parsed2" >
+      <Add mover_name="dssp"/>
+      <Add mover_name="frelax1" />
+      <Add mover_name="dssp" />
+   </ParsedProtocol>
+
+   <GenericMonteCarlo name="genericmc1" mover_name="parsed" preapply="1" filter_name="check_ss" temperature="0" sample_type="high" trials="5" drift="1" >
+	 <Filters>
+	   <AND filter_name="comb_filters" temperature="2" sample_type="low" rank="1" />
+         </Filters>
+  </GenericMonteCarlo>
+
+    <GenericMonteCarlo name="genericmc2" mover_name="parsed2" preapply="0" filter_name="check_ss" temperature="0" sample_type="high" trials="5"  drift="1" >
+	 <Filters>
+           <AND filter_name="RMSD" temperature="2" sample_type="low" rank="1" />
+         </Filters>
+    </GenericMonteCarlo>
+
+<AddHelixSequenceConstraints name="helixcsts" />
+
+  </MOVERS>
+
+   # LoopOver name="loopover" mover_name="design" iterations="2" />
+  <APPLY_TO_POSE>
+  </APPLY_TO_POSE>
+
+  <PROTOCOLS>
+    <Add mover_name="add_csts" />
+    #Add mover_name="save_native" />
+    <Add mover_name="helixcsts" />
+    <Add mover_name="dssp" />
+    <Add mover_name="design_prot1" />
+    <Add mover_name="dssp" />
+    <Add mover_name="genericmc1" />
+    <Add mover_name="genericmc2" />
+    <Add mover_name="rm_csts" />
+    <Add filter_name="count_ss" />
+    <Add filter_name="gly_count" />
+    <Add filter_name="cav_vol" />
+    <Add filter_name="BUNS" />
+    <Add filter_name="pack" />
+    <Add filter_name="RMSD" />
+
+  </PROTOCOLS>
+
+  <OUTPUT />
+
+</ROSETTASCRIPTS>
