@@ -5,6 +5,8 @@ import rstoolbox
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import numpy as np
+
 
 def plot_step1(df):
     fig = plt.figure(figsize=(10, 5))
@@ -72,6 +74,11 @@ def load_experimental():
     designs['top7_full'].setdefault('MALS', pd.read_csv(os.path.join('selection', 'top7_full', 'experimental', 'MALS', 'top7_full_peak.csv')))
     designs['top7_partial'].setdefault('MALS', rstoolbox.io.read_MALS(os.path.join('selection', 'top7_partial', 'experimental', 'MALS', 'top7_partial_peak.txt')))
 
+    designs['top7_full'].setdefault('CD', pd.read_csv(os.path.join('selection', 'top7_full', 'experimental', 'CD', 'top7_cd.csv.gz') ))
+    designs['top7_partial'].setdefault('CD', rstoolbox.io.read_CD(os.path.join('selection', 'top7_partial', 'experimental', 'CD')))
+    designs['top7_partial']['CD'].drop(columns=['voltage', 'title', 'bin', 'minw'], inplace=True)
+    designs['top7_partial']['CD'] = pd.DataFrame(designs['top7_partial']['CD'])
+
     designs['top7_full'].setdefault('SPR', rstoolbox.io.read_SPR(os.path.join('selection', 'top7_full', 'experimental', 'SPR', 'top7_full.csv')))
     designs['top7_partial'].setdefault('SPR', rstoolbox.io.read_SPR(os.path.join('selection', 'top7_partial', 'experimental', 'SPR', 'top7_partial.txt')))
     return designs
@@ -89,14 +96,20 @@ def data_plot(data, melt_wave=220):
             rstoolbox.utils.add_top_title(ax, 'MALS')
         df = dfd['MALS']
         rstoolbox.plot.plot_MALS(df, ax, lscolor=False, mwcolor=False)
-        # SPR
+        # CD
         ax = plt.subplot2grid(grid, (i, 1), fig=fig)
+        if i == 0:
+            rstoolbox.utils.add_top_title(ax, 'CD')
+        df = dfd['CD']
+        rstoolbox.plot.plot_CD(df, ax)
+        # SPR
+        ax = plt.subplot2grid(grid, (i, 2), fig=fig)
         if i == 0:
             rstoolbox.utils.add_top_title(ax, 'SPR')
         df = dfd['SPR']
         rstoolbox.plot.plot_SPR(df, ax, datacolor='black', fitcolor='red')
 
     plt.tight_layout()
-    #plt.savefig('top7_compare.svg')
+    #plt.savefig('top7_compare2.svg')
     plt.show()
 
