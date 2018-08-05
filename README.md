@@ -6,6 +6,8 @@ This repository contains all the data and scripts required to reproduce the data
 
 *Jaume Bonet*, *Sarah Wehrle*, *Karen Schriever*, *Che Yang*, Anne Billet, Fabian Sesterhenn, Andreas Scheck, Freyr Sverrisson, Sabrina Vollers, Roxanne Lourman, Melanie Villard, Stéphane Rosset, Bruno E. Correia
 
+**preprint - bioRxiv:** https://doi.org/10.1101/378976 
+
 *[doi to add upon publication]*
 
 **FunFolDes** is part of the [Rosetta Suite](https://www.rosettacommons.org/software) and can be freely obtained with an academic license.
