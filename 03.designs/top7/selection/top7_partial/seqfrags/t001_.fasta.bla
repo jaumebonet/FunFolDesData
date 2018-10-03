@@ -1,0 +1,330 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= top7_partial
+         (90 letters)
+
+Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
+r 
+           70,953,096 sequences; 24,046,686,692 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...    96   1e-17
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...    89   9e-16
+UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    83   7e-14
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...    62   1e-07
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...    60   4e-07
+UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    42   0.21 
+UniRef90_T1HBP0 Uncharacterized protein n=1 Tax=Rhodnius prolixu...    37   5.5  
+
+>UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI00006833D1
+          Length = 106
+
+ Score = 95.5 bits (236), Expect = 1e-17,   Method: Composition-based stats.
+ Identities = 56/88 (63%), Positives = 66/88 (75%)
+
+Query: 3  ELHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAI 62
+          ++++   G+    T   T+  E+++ L    D   K G+ RVRISITARTKKEAEKFAAI
+Sbjct: 7  QVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFAAI 66
+
+Query: 63 LIKVFAELGYNDINVTFDGDTVTVEGQL 90
+          LIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 67 LIKVFAELGYNDINVTFDGDTVTVEGQL 94
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   150   3e-34
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   139   8e-31
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   127   4e-27
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...    95   2e-17
+UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    92   2e-16
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    54   4e-05
+UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    41   0.32 
+UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    40   0.68 
+UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    39   1.1  
+UniRef90_A0A0A1TD69 Putative Fermentation associated protein n=1...    39   1.3  
+UniRef90_UPI000C78408F chain length-determining protein n=1 Tax=...    38   3.2  
+UniRef90_UPI000646C762 ABC transporter permease n=1 Tax=Alistipe...    38   3.8  
+UniRef90_UPI000C6E6898 cadmium-translocating P-type ATPase n=1 T...    37   4.6  
+UniRef90_A0A0M7A3A6 Bacteriophytochrome cph2 n=4 Tax=Alphaproteo...    37   4.7  
+UniRef90_A0A1X2DU74 Uncharacterized protein n=2 Tax=Mycobacteriu...    37   6.0  
+UniRef90_A0A0B7N9N2 Uncharacterized protein n=1 Tax=Parasitella ...    36   7.4  
+UniRef90_A3CT98 Uncharacterized protein n=2 Tax=Methanoculleus T...    36   8.9  
+UniRef90_S2IYL4 Uncharacterized protein n=3 Tax=Mucor TaxID=4830...    36   9.4  
+
+>UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI00006833D1
+          Length = 106
+
+ Score =  150 bits (380), Expect = 3e-34,   Method: Composition-based stats.
+ Identities = 56/88 (63%), Positives = 66/88 (75%)
+
+Query: 3  ELHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAI 62
+          ++++   G+    T   T+  E+++ L    D   K G+ RVRISITARTKKEAEKFAAI
+Sbjct: 7  QVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFAAI 66
+
+Query: 63 LIKVFAELGYNDINVTFDGDTVTVEGQL 90
+          LIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 67 LIKVFAELGYNDINVTFDGDTVTVEGQL 94
+
+
+Searching..................................................done
+
+
+Results from round 3
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   140   4e-31
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   132   8e-29
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   118   2e-24
+UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...   104   3e-20
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...   104   3e-20
+UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    85   2e-14
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    42   0.22 
+UniRef90_U4KUT3 Similar to 3-oxoacyl-[acyl-carrier-protein] redu...    39   1.9  
+UniRef90_UPI00047A7073 hypothetical protein n=1 Tax=Gillisia sp....    37   4.2  
+UniRef90_UPI000CE18A3C berberine bridge enzyme-like 21 n=1 Tax=Q...    37   4.5  
+UniRef90_UPI000C78408F chain length-determining protein n=1 Tax=...    36   7.6  
+UniRef90_UPI00037D0877 hypothetical protein n=1 Tax=Desulfurispo...    36   8.9  
+
+
+CONVERGED!
+>UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI00006833D1
+          Length = 106
+
+ Score =  140 bits (353), Expect = 4e-31,   Method: Composition-based stats.
+ Identities = 56/88 (63%), Positives = 66/88 (75%)
+
+Query: 3  ELHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAI 62
+          ++++   G+    T   T+  E+++ L    D   K G+ RVRISITARTKKEAEKFAAI
+Sbjct: 7  QVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFAAI 66
+
+Query: 63 LIKVFAELGYNDINVTFDGDTVTVEGQL 90
+          LIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 67 LIKVFAELGYNDINVTFDGDTVTVEGQL 94
+
+
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr
+    Posted date:  Apr 25, 2018  7:10 PM
+  Number of letters in database: 999,999,817
+  Number of sequences in database:  2,892,040
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.01
+    Posted date:  Apr 25, 2018  7:12 PM
+  Number of letters in database: 999,999,684
+  Number of sequences in database:  2,278,212
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.02
+    Posted date:  Apr 25, 2018  7:13 PM
+  Number of letters in database: 999,999,632
+  Number of sequences in database:  2,327,781
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.03
+    Posted date:  Apr 25, 2018  7:14 PM
+  Number of letters in database: 999,999,448
+  Number of sequences in database:  2,390,013
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.04
+    Posted date:  Apr 25, 2018  7:15 PM
+  Number of letters in database: 999,999,920
+  Number of sequences in database:  2,473,854
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.05
+    Posted date:  Apr 25, 2018  7:17 PM
+  Number of letters in database: 999,999,766
+  Number of sequences in database:  2,699,369
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.06
+    Posted date:  Apr 25, 2018  7:18 PM
+  Number of letters in database: 999,999,949
+  Number of sequences in database:  3,052,090
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.07
+    Posted date:  Apr 25, 2018  7:20 PM
+  Number of letters in database: 999,999,857
+  Number of sequences in database:  3,195,405
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.08
+    Posted date:  Apr 25, 2018  7:22 PM
+  Number of letters in database: 999,999,795
+  Number of sequences in database:  3,377,833
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.09
+    Posted date:  Apr 25, 2018  7:23 PM
+  Number of letters in database: 999,999,945
+  Number of sequences in database:  3,278,025
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.10
+    Posted date:  Apr 25, 2018  7:25 PM
+  Number of letters in database: 999,999,598
+  Number of sequences in database:  3,262,026
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.11
+    Posted date:  Apr 25, 2018  7:27 PM
+  Number of letters in database: 999,999,937
+  Number of sequences in database:  3,258,308
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.12
+    Posted date:  Apr 25, 2018  7:28 PM
+  Number of letters in database: 999,999,704
+  Number of sequences in database:  3,256,364
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.13
+    Posted date:  Apr 25, 2018  7:30 PM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  3,248,470
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.14
+    Posted date:  Apr 25, 2018  7:31 PM
+  Number of letters in database: 999,999,916
+  Number of sequences in database:  3,197,486
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.15
+    Posted date:  Apr 25, 2018  7:33 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,238,042
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.16
+    Posted date:  Apr 25, 2018  7:35 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,253,045
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.17
+    Posted date:  Apr 25, 2018  7:36 PM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  3,203,921
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.18
+    Posted date:  Apr 25, 2018  7:38 PM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,080,352
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.19
+    Posted date:  Apr 25, 2018  7:39 PM
+  Number of letters in database: 999,999,076
+  Number of sequences in database:  2,927,914
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.20
+    Posted date:  Apr 25, 2018  7:41 PM
+  Number of letters in database: 999,999,697
+  Number of sequences in database:  2,780,386
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.21
+    Posted date:  Apr 25, 2018  7:42 PM
+  Number of letters in database: 999,999,630
+  Number of sequences in database:  2,547,286
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.22
+    Posted date:  Apr 25, 2018  7:44 PM
+  Number of letters in database: 999,997,037
+  Number of sequences in database:  2,858,393
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.23
+    Posted date:  Apr 25, 2018  7:45 PM
+  Number of letters in database: 999,999,954
+  Number of sequences in database:  2,746,101
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr.24
+    Posted date:  Apr 25, 2018  7:45 PM
+  Number of letters in database: 46,695,217
+  Number of sequences in database:  130,380
+  
+Lambda     K      H
+   0.314    0.156    0.409 
+
+Lambda     K      H
+   0.267   0.0475    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 12,001,808,966
+Number of Sequences: 70953096
+Number of extensions: 431835464
+Number of successful extensions: 1828937
+Number of sequences better than 10.0: 30
+Number of HSP's better than 10.0 without gapping: 23
+Number of HSP's successfully gapped in prelim test: 55
+Number of HSP's that attempted gapping in prelim test: 1828883
+Number of HSP's gapped (non-prelim): 87
+length of query: 90
+length of database: 24,046,686,692
+effective HSP length: 60
+effective length of query: 30
+effective length of database: 24,084,468,228
+effective search space: 722534046840
+effective search space used: 722534046840
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.2 bits)
+S2: 83 (36.4 bits)

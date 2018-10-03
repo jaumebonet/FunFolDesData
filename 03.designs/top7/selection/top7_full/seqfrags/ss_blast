@@ -1,0 +1,374 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= top7_full
+         (90 letters)
+
+Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
+r_pfilt 
+           70,953,096 sequences; 24,046,686,692 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...    42   0.16 
+UniRef90_A0A067RUN8 Clathrin interactor 1 (Fragment) n=3 Tax=Zoo...    38   3.4  
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...    37   4.3  
+
+>UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI00006833D1
+          Length = 106
+
+ Score = 42.0 bits (97), Expect = 0.16,   Method: Composition-based stats.
+ Identities = 24/90 (26%), Positives = 49/90 (54%)
+
+Query: 1  RFELHVETHARGIIKTTSFNTREEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFE 60
+          + +++++ + +    T +  T  E++K L  + D +KK G+  VRI +T  T+++   F 
+Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFA 64
+
+Query: 61 KKIKKLFKEVGGTNLESRNHGNTVRVRMEL 90
+            + K+F E+G  ++     G+TV V  +L
+Sbjct: 65 AILIKVFAELGYNDINVTFDGDTVTVEGQL 94
+
+
+>UniRef90_A0A067RUN8 Clathrin interactor 1 (Fragment) n=3 Tax=Zootermopsis nevadensis
+            TaxID=136037 RepID=A0A067RUN8_ZOONE
+          Length = 1479
+
+ Score = 37.7 bits (86), Expect = 3.4,   Method: Composition-based stats.
+ Identities = 15/40 (37%), Positives = 28/40 (70%)
+
+Query: 23   EEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFEKK 62
+            E+++K+ E +  +LKKLG +++ +EV G  + +R DF+ K
+Sbjct: 993  EDLRKDAESIVKALKKLGPTKIVVEVKGQQDSERCDFQNK 1032
+
+
+>UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic construct TaxID=32630
+          RepID=UPI00034F232F
+          Length = 172
+
+ Score = 37.4 bits (85), Expect = 4.3,   Method: Composition-based stats.
+ Identities = 23/87 (26%), Positives = 47/87 (54%), Gaps = 3/87 (3%)
+
+Query: 1  RFELHVETHARGIIKTTSFNTREEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFE 60
+          + +++++ + +    T +  T  E++K L  + D +KK G+  VRI +T  + ++ + F 
+Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYKFL 64
+
+Query: 61 KKIKKLFKEVGGTNLESRNHGNTVRVR 87
+            + K+F E+G  ++   N   TVR R
+Sbjct: 65 AILAKVFAELGYNDI---NRKMTVRFR 88
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...    46   0.008
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...    42   0.17 
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...    40   0.77 
+UniRef90_A0A067RUN8 Clathrin interactor 1 (Fragment) n=3 Tax=Zoo...    39   1.00 
+UniRef90_A0A0C2XIK1 Uncharacterized protein n=1 Tax=Amanita musc...    37   4.7  
+UniRef90_A0A173ZV73 Uncharacterized protein n=1 Tax=Bacteroides ...    37   7.0  
+
+
+CONVERGED!
+>UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI00006833D1
+          Length = 106
+
+ Score = 46.2 bits (108), Expect = 0.008,   Method: Composition-based stats.
+ Identities = 24/90 (26%), Positives = 49/90 (54%)
+
+Query: 1  RFELHVETHARGIIKTTSFNTREEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFE 60
+          + +++++ + +    T +  T  E++K L  + D +KK G+  VRI +T  T+++   F 
+Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFA 64
+
+Query: 61 KKIKKLFKEVGGTNLESRNHGNTVRVRMEL 90
+            + K+F E+G  ++     G+TV V  +L
+Sbjct: 65 AILIKVFAELGYNDINVTFDGDTVTVEGQL 94
+
+
+>UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic construct TaxID=32630
+          RepID=UPI00034F232F
+          Length = 172
+
+ Score = 42.0 bits (97), Expect = 0.17,   Method: Composition-based stats.
+ Identities = 23/87 (26%), Positives = 47/87 (54%), Gaps = 3/87 (3%)
+
+Query: 1  RFELHVETHARGIIKTTSFNTREEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFE 60
+          + +++++ + +    T +  T  E++K L  + D +KK G+  VRI +T  + ++ + F 
+Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYKFL 64
+
+Query: 61 KKIKKLFKEVGGTNLESRNHGNTVRVR 87
+            + K+F E+G  ++   N   TVR R
+Sbjct: 65 AILAKVFAELGYNDI---NRKMTVRFR 88
+
+
+>UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32630 RepID=UPI00071AFAB7
+          Length = 106
+
+ Score = 39.7 bits (91), Expect = 0.77,   Method: Composition-based stats.
+ Identities = 21/75 (28%), Positives = 39/75 (52%)
+
+Query: 16  TTSFNTREEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFEKKIKKLFKEVGGTNL 75
+           T +  T  E++K L  ++D +KK G    R  +T  T+++   F   + K++ E+G  ++
+Sbjct: 28  TYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEKFAAILIKVYAELGYNDI 87
+
+Query: 76  ESRNHGNTVRVRMEL 90
+                G+TV V  +L
+Sbjct: 88  NVTWDGDTVTVEGQL 102
+
+
+>UniRef90_A0A067RUN8 Clathrin interactor 1 (Fragment) n=3 Tax=Zootermopsis nevadensis
+            TaxID=136037 RepID=A0A067RUN8_ZOONE
+          Length = 1479
+
+ Score = 39.3 bits (90), Expect = 1.00,   Method: Composition-based stats.
+ Identities = 15/40 (37%), Positives = 28/40 (70%)
+
+Query: 23   EEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFEKK 62
+            E+++K+ E +  +LKKLG +++ +EV G  + +R DF+ K
+Sbjct: 993  EDLRKDAESIVKALKKLGPTKIVVEVKGQQDSERCDFQNK 1032
+
+
+>UniRef90_A0A0C2XIK1 Uncharacterized protein n=1 Tax=Amanita muscaria Koide BX008
+           TaxID=946122 RepID=A0A0C2XIK1_AMAMU
+          Length = 246
+
+ Score = 37.0 bits (84), Expect = 4.7,   Method: Composition-based stats.
+ Identities = 20/70 (28%), Positives = 37/70 (52%), Gaps = 3/70 (4%)
+
+Query: 5   HVETHARGIIKTTSFNTREEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFEKKIK 64
+            VET   G++  T  +   +  K LE+++   + LG+SE R+   G    DR D+ + ++
+Sbjct: 123 QVETQISGVLPVTLGDQLSDANKYLEKMK---RALGNSEARLMNGGINASDRFDWSRPLR 179
+
+Query: 65  KLFKEVGGTN 74
+           ++ KE  G +
+Sbjct: 180 EIVKEEDGAS 189
+
+
+>UniRef90_A0A173ZV73 Uncharacterized protein n=1 Tax=Bacteroides uniformis TaxID=820
+           RepID=A0A173ZV73_BACUN
+          Length = 181
+
+ Score = 36.6 bits (83), Expect = 7.0,   Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 37/75 (49%)
+
+Query: 12  GIIKTTSFNTREEMKKELERVRDSLKKLGSSEVRIEVTGDTEQDRHDFEKKIKKLFKEVG 71
+           G+++  +F T+EE    +E V D+ +  GS  +  E+T D+      F K+I  L  E+ 
+Sbjct: 33  GVVEEKTFRTQEEYDAYMEGVNDTAEWSGSHFLEPEITPDSNTPAPSFAKRISALRNEIR 92
+
+Query: 72  GTNLESRNHGNTVRV 86
+            + + +    N  ++
+Sbjct: 93  ASIVSALEDNNLTKL 107
+
+
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt
+    Posted date:  Apr 25, 2018  9:20 PM
+  Number of letters in database: 999,999,817
+  Number of sequences in database:  2,892,040
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.01
+    Posted date:  Apr 25, 2018  9:21 PM
+  Number of letters in database: 999,999,684
+  Number of sequences in database:  2,278,212
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.02
+    Posted date:  Apr 25, 2018  9:23 PM
+  Number of letters in database: 999,999,632
+  Number of sequences in database:  2,327,781
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.03
+    Posted date:  Apr 25, 2018  9:24 PM
+  Number of letters in database: 999,999,448
+  Number of sequences in database:  2,390,013
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.04
+    Posted date:  Apr 25, 2018  9:25 PM
+  Number of letters in database: 999,999,920
+  Number of sequences in database:  2,473,854
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.05
+    Posted date:  Apr 25, 2018  9:27 PM
+  Number of letters in database: 999,999,766
+  Number of sequences in database:  2,699,369
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.06
+    Posted date:  Apr 25, 2018  9:28 PM
+  Number of letters in database: 999,999,949
+  Number of sequences in database:  3,052,090
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.07
+    Posted date:  Apr 25, 2018  9:30 PM
+  Number of letters in database: 999,999,857
+  Number of sequences in database:  3,195,405
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.08
+    Posted date:  Apr 25, 2018  9:31 PM
+  Number of letters in database: 999,999,795
+  Number of sequences in database:  3,377,833
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.09
+    Posted date:  Apr 25, 2018  9:33 PM
+  Number of letters in database: 999,999,945
+  Number of sequences in database:  3,278,025
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.10
+    Posted date:  Apr 25, 2018  9:35 PM
+  Number of letters in database: 999,999,598
+  Number of sequences in database:  3,262,026
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.11
+    Posted date:  Apr 25, 2018  9:36 PM
+  Number of letters in database: 999,999,937
+  Number of sequences in database:  3,258,308
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.12
+    Posted date:  Apr 25, 2018  9:38 PM
+  Number of letters in database: 999,999,704
+  Number of sequences in database:  3,256,364
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.13
+    Posted date:  Apr 25, 2018  9:39 PM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  3,248,470
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.14
+    Posted date:  Apr 25, 2018  9:41 PM
+  Number of letters in database: 999,999,916
+  Number of sequences in database:  3,197,486
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.15
+    Posted date:  Apr 25, 2018  9:43 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,238,042
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.16
+    Posted date:  Apr 25, 2018  9:44 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,253,045
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.17
+    Posted date:  Apr 25, 2018  9:46 PM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  3,203,921
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.18
+    Posted date:  Apr 25, 2018  9:47 PM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,080,352
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.19
+    Posted date:  Apr 25, 2018  9:49 PM
+  Number of letters in database: 999,999,076
+  Number of sequences in database:  2,927,914
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.20
+    Posted date:  Apr 25, 2018  9:50 PM
+  Number of letters in database: 999,999,697
+  Number of sequences in database:  2,780,386
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.21
+    Posted date:  Apr 25, 2018  9:51 PM
+  Number of letters in database: 999,999,630
+  Number of sequences in database:  2,547,286
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.22
+    Posted date:  Apr 25, 2018  9:53 PM
+  Number of letters in database: 999,997,037
+  Number of sequences in database:  2,858,393
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.23
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 999,999,954
+  Number of sequences in database:  2,746,101
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.24
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 46,695,217
+  Number of sequences in database:  130,380
+  
+Lambda     K      H
+   0.314    0.131    0.351 
+
+Lambda     K      H
+   0.267   0.0409    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 7,376,103,683
+Number of Sequences: 70953096
+Number of extensions: 235946327
+Number of successful extensions: 734353
+Number of sequences better than 10.0: 8
+Number of HSP's better than 10.0 without gapping: 16
+Number of HSP's successfully gapped in prelim test: 10
+Number of HSP's that attempted gapping in prelim test: 734331
+Number of HSP's gapped (non-prelim): 27
+length of query: 90
+length of database: 24,046,686,692
+effective HSP length: 60
+effective length of query: 30
+effective length of database: 24,084,468,228
+effective search space: 722534046840
+effective search space used: 722534046840
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 42 (21.9 bits)
+S2: 82 (36.2 bits)

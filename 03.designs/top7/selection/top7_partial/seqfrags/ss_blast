@@ -1,0 +1,590 @@
+BLASTP 2.2.17 [Aug-26-2007]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= top7_partial
+         (90 letters)
+
+Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
+r_pfilt 
+           70,953,096 sequences; 24,046,686,692 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...    96   1e-17
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...    89   9e-16
+UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    83   7e-14
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...    62   1e-07
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...    60   4e-07
+UniRef90_T1HBP0 Uncharacterized protein n=1 Tax=Rhodnius prolixu...    37   5.5  
+
+>UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI00006833D1
+          Length = 106
+
+ Score = 95.5 bits (236), Expect = 1e-17,   Method: Composition-based stats.
+ Identities = 56/88 (63%), Positives = 66/88 (75%)
+
+Query: 3  ELHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAI 62
+          ++++   G+    T   T+  E+++ L    D   K G+ RVRISITARTKKEAEKFAAI
+Sbjct: 7  QVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFAAI 66
+
+Query: 63 LIKVFAELGYNDINVTFDGDTVTVEGQL 90
+          LIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 67 LIKVFAELGYNDINVTFDGDTVTVEGQL 94
+
+
+>UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32630 RepID=UPI00071AFAB7
+          Length = 106
+
+ Score = 89.4 bits (220), Expect = 9e-16,   Method: Composition-based stats.
+ Identities = 52/81 (64%), Positives = 60/81 (74%)
+
+Query: 10  GRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFAE 69
+           G+    T   T+  E+++ L   +D   K G  R R SITARTKKEAEKFAAILIKV+AE
+Sbjct: 22  GKTFDYTYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEKFAAILIKVYAE 81
+
+Query: 70  LGYNDINVTFDGDTVTVEGQL 90
+           LGYNDINVT+DGDTVTVEGQL
+Sbjct: 82  LGYNDINVTWDGDTVTVEGQL 102
+
+
+>UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI0000E5718E
+          Length = 62
+
+ Score = 83.2 bits (204), Expect = 7e-14,   Method: Composition-based stats.
+ Identities = 47/48 (97%), Positives = 48/48 (100%)
+
+Query: 43 RVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 90
+          RVRISITARTKKEAEKFAAILIKVFAELGYNDINVT+DGDTVTVEGQL
+Sbjct: 3  RVRISITARTKKEAEKFAAILIKVFAELGYNDINVTWDGDTVTVEGQL 50
+
+
+>UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic construct TaxID=32630
+          RepID=UPI00034F232F
+          Length = 172
+
+ Score = 62.4 bits (150), Expect = 1e-07,   Method: Composition-based stats.
+ Identities = 41/84 (48%), Positives = 52/84 (61%), Gaps = 4/84 (4%)
+
+Query: 3  ELHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAI 62
+          ++++   G+    T   T+  E+++ L    D   K G+ RVRISITAR+ KEA KF AI
+Sbjct: 7  QVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYKFLAI 66
+
+Query: 63 LIKVFAELGYNDIN----VTFDGD 82
+          L KVFAELGYNDIN    V F GD
+Sbjct: 67 LAKVFAELGYNDINRKMTVRFRGD 90
+
+
+>UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthetic construct TaxID=32630
+           RepID=UPI0003C63F44
+          Length = 120
+
+ Score = 60.5 bits (145), Expect = 4e-07,   Method: Composition-based stats.
+ Identities = 51/78 (65%), Positives = 58/78 (74%), Gaps = 10/78 (12%)
+
+Query: 23  EEVKEQLKR---ER-DSFLKMGSSRVRISITAR------TKKEAEKFAAILIKVFAELGY 72
+           EE+KE+LK+   ER D   K+G  RVRISI  +       KKEA+KFAAIL KVFAELGY
+Sbjct: 31  EELKEKLKKVLNERMDPIKKLGCKRVRISIRVKHSDAAEEKKEAKKFAAILNKVFAELGY 90
+
+Query: 73  NDINVTFDGDTVTVEGQL 90
+           ND NVT+DGDTVTVEGQL
+Sbjct: 91  NDSNVTWDGDTVTVEGQL 108
+
+
+>UniRef90_T1HBP0 Uncharacterized protein n=1 Tax=Rhodnius prolixus TaxID=13249
+            RepID=T1HBP0_RHOPR
+          Length = 1757
+
+ Score = 37.0 bits (84), Expect = 5.5,   Method: Composition-based stats.
+ Identities = 22/81 (27%), Positives = 37/81 (45%), Gaps = 7/81 (8%)
+
+Query: 5    HVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILI 64
+            H++V  R      R      + +QL R  D+ L + S R  +S++A  + + E+   +LI
+Sbjct: 1367 HIKVAARKDSTAQRNARLRHLAQQLNRTVDNVLLLESQRADVSLSANEENDDERSYVLLI 1426
+
+Query: 65   KVFAELGYNDINVTFDGDTVT 85
+                   Y D+N T   D V+
+Sbjct: 1427 -------YEDVNATVTKDCVS 1440
+
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   150   3e-34
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   139   8e-31
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   127   4e-27
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...    95   2e-17
+UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    92   2e-16
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    41   0.32 
+UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    40   0.68 
+UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    39   1.1  
+UniRef90_A0A0A1TD69 Putative Fermentation associated protein n=1...    39   1.3  
+UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    38   2.2  
+UniRef90_A0A0M7A3A6 Bacteriophytochrome cph2 n=4 Tax=Alphaproteo...    37   4.7  
+UniRef90_UPI000C6E6898 cadmium-translocating P-type ATPase n=1 T...    37   4.8  
+UniRef90_A0A1X2DU74 Uncharacterized protein n=2 Tax=Mycobacteriu...    37   6.0  
+UniRef90_A0A0B7N9N2 Uncharacterized protein n=1 Tax=Parasitella ...    36   7.4  
+UniRef90_A3CT98 Uncharacterized protein n=2 Tax=Methanoculleus T...    36   8.9  
+UniRef90_S2IYL4 Uncharacterized protein n=3 Tax=Mucor TaxID=4830...    36   9.4  
+
+
+CONVERGED!
+>UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI00006833D1
+          Length = 106
+
+ Score =  150 bits (380), Expect = 3e-34,   Method: Composition-based stats.
+ Identities = 56/88 (63%), Positives = 66/88 (75%)
+
+Query: 3  ELHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAI 62
+          ++++   G+    T   T+  E+++ L    D   K G+ RVRISITARTKKEAEKFAAI
+Sbjct: 7  QVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFAAI 66
+
+Query: 63 LIKVFAELGYNDINVTFDGDTVTVEGQL 90
+          LIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 67 LIKVFAELGYNDINVTFDGDTVTVEGQL 94
+
+
+>UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32630 RepID=UPI00071AFAB7
+          Length = 106
+
+ Score =  139 bits (350), Expect = 8e-31,   Method: Composition-based stats.
+ Identities = 52/82 (63%), Positives = 60/82 (73%)
+
+Query: 9   EGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFA 68
+            G+    T   T+  E+++ L   +D   K G  R R SITARTKKEAEKFAAILIKV+A
+Sbjct: 21  NGKTFDYTYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEKFAAILIKVYA 80
+
+Query: 69  ELGYNDINVTFDGDTVTVEGQL 90
+           ELGYNDINVT+DGDTVTVEGQL
+Sbjct: 81  ELGYNDINVTWDGDTVTVEGQL 102
+
+
+>UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic construct TaxID=32630
+          RepID=UPI00034F232F
+          Length = 172
+
+ Score =  127 bits (318), Expect = 4e-27,   Method: Composition-based stats.
+ Identities = 41/84 (48%), Positives = 52/84 (61%), Gaps = 4/84 (4%)
+
+Query: 3  ELHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAI 62
+          ++++   G+    T   T+  E+++ L    D   K G+ RVRISITAR+ KEA KF AI
+Sbjct: 7  QVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYKFLAI 66
+
+Query: 63 LIKVFAELGYNDIN----VTFDGD 82
+          L KVFAELGYNDIN    V F GD
+Sbjct: 67 LAKVFAELGYNDINRKMTVRFRGD 90
+
+
+>UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthetic construct TaxID=32630
+           RepID=UPI0003C63F44
+          Length = 120
+
+ Score = 95.0 bits (235), Expect = 2e-17,   Method: Composition-based stats.
+ Identities = 47/100 (47%), Positives = 61/100 (61%), Gaps = 12/100 (12%)
+
+Query: 3   ELHVQVEGRGIIKTTRFTS------SEEVKEQLKRERDSFLKMGSSRVRISITARTK--- 53
+           ++ +   G+   +T +  +       E++K+ L    D   K+G  RVRISI  +     
+Sbjct: 9   QVKITCNGKTYERTYQLYAVRDEELKEKLKKVLNERMDPIKKLGCKRVRISIRVKHSDAA 68
+
+Query: 54  ---KEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 90
+              KEA+KFAAIL KVFAELGYND NVT+DGDTVTVEGQL
+Sbjct: 69  EEKKEAKKFAAILNKVFAELGYNDSNVTWDGDTVTVEGQL 108
+
+
+>UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unknown TaxID=
+          RepID=UPI0000E5718E
+          Length = 62
+
+ Score = 91.6 bits (226), Expect = 2e-16,   Method: Composition-based stats.
+ Identities = 47/49 (95%), Positives = 48/49 (97%)
+
+Query: 42 SRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 90
+           RVRISITARTKKEAEKFAAILIKVFAELGYNDINVT+DGDTVTVEGQL
+Sbjct: 2  ERVRISITARTKKEAEKFAAILIKVFAELGYNDINVTWDGDTVTVEGQL 50
+
+
+>UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=synthetic construct
+           TaxID=32630 RepID=UPI0004F13E6B
+          Length = 117
+
+ Score = 41.1 bits (95), Expect = 0.32,   Method: Composition-based stats.
+ Identities = 22/89 (24%), Positives = 36/89 (40%), Gaps = 8/89 (8%)
+
+Query: 7   QVEGRGIIKTTRFTSSEE--VKEQLKRERDSFLKMGSSRVRISITAR-----TKKEAEKF 59
+             +              +  +K+  ++  D   K G  RV+I    +      +K+A+K+
+Sbjct: 17  DDKETTYDLYFSKAEEAKELLKKVAEKAADKIKKQGCKRVKIRFEKKGLDDDARKKAKKW 76
+
+Query: 60  A-AILIKVFAELGYNDINVTFDGDTVTVE 87
+           A  +  K+  ELG      T DGDT  VE
+Sbjct: 77  ALEVANKIANELGAKQSTTTTDGDTFEVE 105
+
+
+>UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobacterium TaxID=1763
+            RepID=UPI0009EE212E
+          Length = 1581
+
+ Score = 40.0 bits (92), Expect = 0.68,   Method: Composition-based stats.
+ Identities = 22/73 (30%), Positives = 32/73 (43%), Gaps = 9/73 (12%)
+
+Query: 21   SSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFAELG-----YNDI 75
+            +  E++      RD   +  + R+   + AR  + AE F A    V  +LG     YN  
+Sbjct: 1009 TRFELQASRDSLRDLARQQTALRLVAELVAREAEPAEVFTA----VAEQLGECLDVYNTT 1064
+
+Query: 76   NVTFDGDTVTVEG 88
+             + FDGD V VE 
+Sbjct: 1065 VIRFDGDDVVVEA 1077
+
+
+>UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobacterium TaxID=1763
+           RepID=UPI0009ECCF6B
+          Length = 1364
+
+ Score = 39.2 bits (90), Expect = 1.1,   Method: Composition-based stats.
+ Identities = 22/73 (30%), Positives = 31/73 (42%), Gaps = 9/73 (12%)
+
+Query: 21  SSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFAELG-----YNDI 75
+           +  E++      RD   +  + R+   + AR    AE F A    V  +LG     YN  
+Sbjct: 792 TRVELQASRDSLRDLARQQTALRLVAELVAREAAPAEVFKA----VAEQLGECLDVYNTT 847
+
+Query: 76  NVTFDGDTVTVEG 88
+            + FDGD V VE 
+Sbjct: 848 VIRFDGDDVVVEA 860
+
+
+>UniRef90_A0A0A1TD69 Putative Fermentation associated protein n=1 Tax=Torrubiella
+            hemipterigena TaxID=1531966 RepID=A0A0A1TD69_9HYPO
+          Length = 3172
+
+ Score = 39.2 bits (90), Expect = 1.3,   Method: Composition-based stats.
+ Identities = 21/55 (38%), Positives = 27/55 (49%), Gaps = 4/55 (7%)
+
+Query: 30   KRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFAELGY----NDINVTFD 80
+             RE D   K+G S+ RISIT+      E  A IL  V A + Y     DI V ++
+Sbjct: 2187 SRELDYLKKLGQSKPRISITSDEGVAEEDDADILDSVLAAVTYRFQLRDIKVCWN 2241
+
+
+>UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified TaxID=32644
+          RepID=UPI00017BDAF0
+          Length = 96
+
+ Score = 38.4 bits (88), Expect = 2.2,   Method: Composition-based stats.
+ Identities = 19/84 (22%), Positives = 39/84 (46%)
+
+Query: 4  LHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAIL 63
+          + +Q +G+ I    R ++                      V+I+I+A   ++A++   ++
+Sbjct: 10 IKIQRDGQEIEIDIRVSTXXXXXXXXXXXXXXXXXXXXXNVQITISAENDEQAKELLELI 69
+
+Query: 64 IKVFAELGYNDINVTFDGDTVTVE 87
+           ++  +LGY DINV  +G  V +E
+Sbjct: 70 ARLLQKLGYKDINVRVNGTEVKIE 93
+
+
+>UniRef90_A0A0M7A3A6 Bacteriophytochrome cph2 n=4 Tax=Alphaproteobacteria TaxID=28211
+           RepID=A0A0M7A3A6_9RHOB
+          Length = 1042
+
+ Score = 37.3 bits (85), Expect = 4.7,   Method: Composition-based stats.
+ Identities = 16/69 (23%), Positives = 32/69 (46%), Gaps = 12/69 (17%)
+
+Query: 22  SEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDG 81
+           SE +        D+      ++ R++   RT++EAE+ +A+             N TFD 
+Sbjct: 442 SERLTRLFNALMDTVQSQEQAQSRVADAKRTQEEAERLSAL------------ANATFDA 489
+
+Query: 82  DTVTVEGQL 90
+             ++V+G++
+Sbjct: 490 IVISVDGRI 498
+
+
+>UniRef90_UPI000C6E6898 cadmium-translocating P-type ATPase n=1 Tax=Herbivorax saccincola
+           TaxID=1677857 RepID=UPI000C6E6898
+          Length = 620
+
+ Score = 37.3 bits (85), Expect = 4.8,   Method: Composition-based stats.
+ Identities = 21/69 (30%), Positives = 36/69 (52%), Gaps = 6/69 (8%)
+
+Query: 4   LHVQVEGRGIIKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAIL 63
+           +H+ V G+          S+E+KE  K   +   KMG  ++ + +T  ++  A+K  +IL
+Sbjct: 423 VHIAVGGK---YAGVLVISDELKEDAKETVEDLRKMGVKKISM-LTGDSENVAKKVGSIL 478
+
+Query: 64  I--KVFAEL 70
+              KV+AEL
+Sbjct: 479 NLDKVYAEL 487
+
+
+>UniRef90_A0A1X2DU74 Uncharacterized protein n=2 Tax=Mycobacterium TaxID=1763
+           RepID=A0A1X2DU74_9MYCO
+          Length = 1277
+
+ Score = 36.9 bits (84), Expect = 6.0,   Method: Composition-based stats.
+ Identities = 21/73 (28%), Positives = 31/73 (42%), Gaps = 9/73 (12%)
+
+Query: 21  SSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFAELG-----YNDI 75
+           +  E++      RD   +  + R+   + AR    AE F A    V  +LG     YN  
+Sbjct: 705 TRVELQASRDSLRDLAGQQTALRLVAELVAREAAPAEVFNA----VAEQLGECLDVYNTT 760
+
+Query: 76  NVTFDGDTVTVEG 88
+            + FDGD + VE 
+Sbjct: 761 VIRFDGDDIVVEA 773
+
+
+>UniRef90_A0A0B7N9N2 Uncharacterized protein n=1 Tax=Parasitella parasitica TaxID=35722
+           RepID=A0A0B7N9N2_9FUNG
+          Length = 273
+
+ Score = 36.5 bits (83), Expect = 7.4,   Method: Composition-based stats.
+ Identities = 22/63 (34%), Positives = 31/63 (49%), Gaps = 7/63 (11%)
+
+Query: 21  SSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFD 80
+           S E+VKEQ+ ++ D   K    RVR+      +        +  KV +ELGY DI   +D
+Sbjct: 133 SEEQVKEQMNKQSDIIYKATGKRVRL-----MRPPEGVVDDVSSKVLSELGYYDI--MWD 185
+
+Query: 81  GDT 83
+            DT
+Sbjct: 186 VDT 188
+
+
+>UniRef90_A3CT98 Uncharacterized protein n=2 Tax=Methanoculleus TaxID=45989
+          RepID=A3CT98_METMJ
+          Length = 217
+
+ Score = 36.1 bits (82), Expect = 8.9,   Method: Composition-based stats.
+ Identities = 20/88 (22%), Positives = 35/88 (39%), Gaps = 21/88 (23%)
+
+Query: 1  TYELHVQVEGRGI--IKTTRFTSSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEK 58
+          T E+H +V         +   T+S   +      ++S  + G S +R S+T+  +    K
+Sbjct: 23 TLEVHTKVNPDATLSSYSYDLTTS---QFVYNALKESAKEQGYSSLRESMTSNAEPGTYK 79
+
+Query: 59 FAAILIKVFAELGYNDINVTFDGDTVTV 86
+          +  I                +DGDTVT+
+Sbjct: 80 YDEI----------------WDGDTVTI 91
+
+
+>UniRef90_S2IYL4 Uncharacterized protein n=3 Tax=Mucor TaxID=4830 RepID=S2IYL4_MUCC1
+          Length = 304
+
+ Score = 36.1 bits (82), Expect = 9.4,   Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 31/63 (49%), Gaps = 7/63 (11%)
+
+Query: 21  SSEEVKEQLKRERDSFLKMGSSRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFD 80
+           + E+VKEQ+ ++ D   K    RVR+      +        +  KV +ELGY DI   +D
+Sbjct: 135 TEEQVKEQMNKQSDIIYKAIGKRVRL-----MRPPEGVIDDVSSKVLSELGYYDI--MWD 187
+
+Query: 81  GDT 83
+            DT
+Sbjct: 188 VDT 190
+
+
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt
+    Posted date:  Apr 25, 2018  9:20 PM
+  Number of letters in database: 999,999,817
+  Number of sequences in database:  2,892,040
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.01
+    Posted date:  Apr 25, 2018  9:21 PM
+  Number of letters in database: 999,999,684
+  Number of sequences in database:  2,278,212
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.02
+    Posted date:  Apr 25, 2018  9:23 PM
+  Number of letters in database: 999,999,632
+  Number of sequences in database:  2,327,781
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.03
+    Posted date:  Apr 25, 2018  9:24 PM
+  Number of letters in database: 999,999,448
+  Number of sequences in database:  2,390,013
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.04
+    Posted date:  Apr 25, 2018  9:25 PM
+  Number of letters in database: 999,999,920
+  Number of sequences in database:  2,473,854
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.05
+    Posted date:  Apr 25, 2018  9:27 PM
+  Number of letters in database: 999,999,766
+  Number of sequences in database:  2,699,369
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.06
+    Posted date:  Apr 25, 2018  9:28 PM
+  Number of letters in database: 999,999,949
+  Number of sequences in database:  3,052,090
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.07
+    Posted date:  Apr 25, 2018  9:30 PM
+  Number of letters in database: 999,999,857
+  Number of sequences in database:  3,195,405
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.08
+    Posted date:  Apr 25, 2018  9:31 PM
+  Number of letters in database: 999,999,795
+  Number of sequences in database:  3,377,833
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.09
+    Posted date:  Apr 25, 2018  9:33 PM
+  Number of letters in database: 999,999,945
+  Number of sequences in database:  3,278,025
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.10
+    Posted date:  Apr 25, 2018  9:35 PM
+  Number of letters in database: 999,999,598
+  Number of sequences in database:  3,262,026
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.11
+    Posted date:  Apr 25, 2018  9:36 PM
+  Number of letters in database: 999,999,937
+  Number of sequences in database:  3,258,308
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.12
+    Posted date:  Apr 25, 2018  9:38 PM
+  Number of letters in database: 999,999,704
+  Number of sequences in database:  3,256,364
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.13
+    Posted date:  Apr 25, 2018  9:39 PM
+  Number of letters in database: 999,999,486
+  Number of sequences in database:  3,248,470
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.14
+    Posted date:  Apr 25, 2018  9:41 PM
+  Number of letters in database: 999,999,916
+  Number of sequences in database:  3,197,486
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.15
+    Posted date:  Apr 25, 2018  9:43 PM
+  Number of letters in database: 999,999,995
+  Number of sequences in database:  3,238,042
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.16
+    Posted date:  Apr 25, 2018  9:44 PM
+  Number of letters in database: 999,999,925
+  Number of sequences in database:  3,253,045
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.17
+    Posted date:  Apr 25, 2018  9:46 PM
+  Number of letters in database: 999,999,914
+  Number of sequences in database:  3,203,921
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.18
+    Posted date:  Apr 25, 2018  9:47 PM
+  Number of letters in database: 999,999,793
+  Number of sequences in database:  3,080,352
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.19
+    Posted date:  Apr 25, 2018  9:49 PM
+  Number of letters in database: 999,999,076
+  Number of sequences in database:  2,927,914
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.20
+    Posted date:  Apr 25, 2018  9:50 PM
+  Number of letters in database: 999,999,697
+  Number of sequences in database:  2,780,386
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.21
+    Posted date:  Apr 25, 2018  9:51 PM
+  Number of letters in database: 999,999,630
+  Number of sequences in database:  2,547,286
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.22
+    Posted date:  Apr 25, 2018  9:53 PM
+  Number of letters in database: 999,997,037
+  Number of sequences in database:  2,858,393
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.23
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 999,999,954
+  Number of sequences in database:  2,746,101
+  
+  Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
+  /nr_pfilt.24
+    Posted date:  Apr 25, 2018  9:54 PM
+  Number of letters in database: 46,695,217
+  Number of sequences in database:  130,380
+  
+Lambda     K      H
+   0.312    0.142    0.395 
+
+Lambda     K      H
+   0.267   0.0438    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Hits to DB: 7,376,936,346
+Number of Sequences: 70953096
+Number of extensions: 245941177
+Number of successful extensions: 944604
+Number of sequences better than 10.0: 32
+Number of HSP's better than 10.0 without gapping: 12
+Number of HSP's successfully gapped in prelim test: 31
+Number of HSP's that attempted gapping in prelim test: 944571
+Number of HSP's gapped (non-prelim): 49
+length of query: 90
+length of database: 24,046,686,692
+effective HSP length: 60
+effective length of query: 30
+effective length of database: 24,084,468,228
+effective search space: 722534046840
+effective search space used: 722534046840
+T: 11
+A: 40
+X1: 16 ( 7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.2 bits)
+S2: 82 (36.1 bits)
