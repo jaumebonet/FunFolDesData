@@ -7,13 +7,14 @@
     <RmsdFromResidueSelectorFilter name="rms" reference_selector="epitope" query_selector="epitope" confidence="0" />
   </FILTERS>
   <MOVERS>
-		<FastRelax name="FR" />
+    <FastRelax name="FR" />
     <ddG name="ddgm" jump="2" />
-	</MOVERS>
+  </MOVERS>
 
   <PROTOCOLS>
     <Add mover="FR" />
     <Add mover="ddgm" />
     <Add filter="ddgf" />
+    <Add filter="rms" />
   </PROTOCOLS>
 </ROSETTASCRIPTS>

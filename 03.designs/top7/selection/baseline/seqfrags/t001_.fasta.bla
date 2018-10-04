@@ -15,7 +15,7 @@ Eugene V. Koonin, and Stephen F. Altschul (2001),
 composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
 
 Query= top7
-         (91 letters)
+         (92 letters)
 
 Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
 r 
@@ -30,32 +30,33 @@ Results from round 1
                                                                  Score    E
 Sequences producing significant alignments:                      (bits) Value
 
-UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   149   7e-34
-UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   133   6e-29
-UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   122   1e-25
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   153   6e-35
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   137   4e-30
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   125   8e-27
 UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    85   2e-14
-UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...    75   1e-11
-UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    51   3e-04
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...    77   6e-12
+UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    52   2e-04
 UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    41   0.40 
-UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    40   0.71 
+UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    40   0.67 
+UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    39   2.1  
 UniRef90_A0A2A2TPJ6 Acetolactate synthase n=1 Tax=Calothrix elst...    38   3.5  
-UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    37   7.2  
-UniRef90_UPI000566AAEA RNA-binding transcriptional accessory pro...    37   8.0  
+UniRef90_A9GIJ6 Conserved carbohydrate-binding protein, Rhs fami...    37   5.9  
+UniRef90_UPI000566AAEA RNA-binding transcriptional accessory pro...    37   6.9  
 
 >UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
           RepID=UPI00006833D1
           Length = 106
 
- Score =  149 bits (376), Expect = 7e-34,   Method: Composition-based stats.
- Identities = 89/90 (98%), Positives = 89/90 (98%)
+ Score =  153 bits (386), Expect = 6e-35,   Method: Composition-based stats.
+ Identities = 91/92 (98%), Positives = 91/92 (98%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          QVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEKFA
-Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFA 64
+Query: 1  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+          DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEK
+Sbjct: 3  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEK 62
 
-Query: 62 AILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-          AILIKVFAELGYNDINVTFDGDTVTVEGQL
-Sbjct: 65 AILIKVFAELGYNDINVTFDGDTVTVEGQL 94
+Query: 61 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+          FAAILIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 63 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 94
 
 
 Searching..................................................done
@@ -68,24 +69,23 @@ Results from round 2
 Sequences producing significant alignments:                      (bits) Value
 Sequences used in model and found again:
 
-UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   146   4e-33
-UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   143   5e-32
-UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   126   8e-27
-UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...   107   3e-21
-UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...   106   7e-21
-UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    86   1e-14
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   149   9e-34
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   146   7e-33
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   128   1e-27
+UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...   109   9e-22
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...   107   4e-21
+UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    85   2e-14
 
 Sequences not found previously or not previously below threshold:
 
-UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    44   0.057
-UniRef90_UPI00047A7073 hypothetical protein n=1 Tax=Gillisia sp....    39   0.86 
-UniRef90_U4KUT3 Similar to 3-oxoacyl-[acyl-carrier-protein] redu...    38   2.1  
-UniRef90_A0A1R4HEF6 Uncharacterized protein n=1 Tax=Crenothrix p...    37   5.2  
-UniRef90_UPI00071715C5 hypothetical protein n=1 Tax=Bacillus hum...    37   5.8  
-UniRef90_A0A1Y4CVY9 GNAT family N-acetyltransferase n=1 Tax=Para...    37   6.2  
-UniRef90_A0A1Q2KV88 Ribose-phosphate pyrophosphokinase n=2 Tax=P...    37   6.9  
-UniRef90_R6VGV8 Uncharacterized protein n=1 Tax=Firmicutes bacte...    36   7.8  
-UniRef90_UPI000CE18A3C berberine bridge enzyme-like 21 n=1 Tax=Q...    36   8.8  
+UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    44   0.041
+UniRef90_UPI00047A7073 hypothetical protein n=1 Tax=Gillisia sp....    39   1.1  
+UniRef90_U4KUT3 Similar to 3-oxoacyl-[acyl-carrier-protein] redu...    38   2.2  
+UniRef90_A0A1R4HEF6 Uncharacterized protein n=1 Tax=Crenothrix p...    37   6.0  
+UniRef90_A0A1Q2KV88 Ribose-phosphate pyrophosphokinase n=2 Tax=P...    37   6.2  
+UniRef90_A0A1Y4CVY9 GNAT family N-acetyltransferase n=1 Tax=Para...    37   6.4  
+UniRef90_UPI00071715C5 hypothetical protein n=1 Tax=Bacillus hum...    37   7.1  
+UniRef90_R6VGV8 Uncharacterized protein n=1 Tax=Firmicutes bacte...    36   7.7  
 
 
 CONVERGED!
@@ -93,16 +93,16 @@ CONVERGED!
           RepID=UPI00006833D1
           Length = 106
 
- Score =  146 bits (370), Expect = 4e-33,   Method: Composition-based stats.
- Identities = 89/90 (98%), Positives = 89/90 (98%)
+ Score =  149 bits (376), Expect = 9e-34,   Method: Composition-based stats.
+ Identities = 91/92 (98%), Positives = 91/92 (98%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          QVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEKFA
-Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFA 64
+Query: 1  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+          DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEK
+Sbjct: 3  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEK 62
 
-Query: 62 AILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-          AILIKVFAELGYNDINVTFDGDTVTVEGQL
-Sbjct: 65 AILIKVFAELGYNDINVTFDGDTVTVEGQL 94
+Query: 61 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+          FAAILIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 63 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 94
 
 
   Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
@@ -256,34 +256,34 @@ Sbjct: 65 AILIKVFAELGYNDINVTFDGDTVTVEGQL 94
   Number of sequences in database:  130,380
   
 Lambda     K      H
-   0.313    0.155    0.416 
+   0.314    0.157    0.421 
 
 Lambda     K      H
-   0.267   0.0474    0.140 
+   0.267   0.0476    0.140 
 
 
 Matrix: BLOSUM62
 Gap Penalties: Existence: 11, Extension: 1
-Number of Hits to DB: 8,151,382,112
+Number of Hits to DB: 8,227,853,790
 Number of Sequences: 70953096
-Number of extensions: 292347097
-Number of successful extensions: 1078691
-Number of sequences better than 10.0: 36
-Number of HSP's better than 10.0 without gapping: 22
-Number of HSP's successfully gapped in prelim test: 40
-Number of HSP's that attempted gapping in prelim test: 1078653
-Number of HSP's gapped (non-prelim): 66
-length of query: 91
+Number of extensions: 296527716
+Number of successful extensions: 1095014
+Number of sequences better than 10.0: 38
+Number of HSP's better than 10.0 without gapping: 23
+Number of HSP's successfully gapped in prelim test: 43
+Number of HSP's that attempted gapping in prelim test: 1094974
+Number of HSP's gapped (non-prelim): 69
+length of query: 92
 length of database: 24,046,686,692
-effective HSP length: 61
+effective HSP length: 62
 effective length of query: 30
-effective length of database: 24,013,515,132
-effective search space: 720405453960
-effective search space used: 720405453960
+effective length of database: 23,942,562,036
+effective search space: 718276861080
+effective search space used: 718276861080
 T: 11
 A: 40
 X1: 16 ( 7.2 bits)
 X2: 38 (14.6 bits)
 X3: 64 (24.7 bits)
-S1: 42 (21.6 bits)
+S1: 42 (21.7 bits)
 S2: 83 (36.4 bits)

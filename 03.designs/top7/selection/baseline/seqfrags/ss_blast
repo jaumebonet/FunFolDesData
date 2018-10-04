@@ -15,7 +15,7 @@ Eugene V. Koonin, and Stephen F. Altschul (2001),
 composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
 
 Query= top7
-         (91 letters)
+         (92 letters)
 
 Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases/n
 r_pfilt 
@@ -30,62 +30,63 @@ Results from round 1
                                                                  Score    E
 Sequences producing significant alignments:                      (bits) Value
 
-UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   149   7e-34
-UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   133   6e-29
-UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   122   1e-25
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   153   6e-35
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   137   4e-30
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   125   8e-27
 UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    85   2e-14
-UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...    75   1e-11
-UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    40   0.43 
-UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    40   0.73 
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...    77   6e-12
+UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    41   0.40 
+UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    40   0.69 
+UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    39   2.1  
 UniRef90_A0A2A2TPJ6 Acetolactate synthase n=1 Tax=Calothrix elst...    38   3.5  
-UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    37   7.2  
-UniRef90_UPI000566AAEA RNA-binding transcriptional accessory pro...    37   8.0  
+UniRef90_A9GIJ6 Conserved carbohydrate-binding protein, Rhs fami...    37   5.7  
+UniRef90_UPI000566AAEA RNA-binding transcriptional accessory pro...    37   6.9  
 
 >UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
           RepID=UPI00006833D1
           Length = 106
 
- Score =  149 bits (376), Expect = 7e-34,   Method: Composition-based stats.
- Identities = 89/90 (98%), Positives = 89/90 (98%)
+ Score =  153 bits (386), Expect = 6e-35,   Method: Composition-based stats.
+ Identities = 91/92 (98%), Positives = 91/92 (98%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          QVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEKFA
-Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFA 64
+Query: 1  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+          DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEK
+Sbjct: 3  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEK 62
 
-Query: 62 AILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-          AILIKVFAELGYNDINVTFDGDTVTVEGQL
-Sbjct: 65 AILIKVFAELGYNDINVTFDGDTVTVEGQL 94
+Query: 61 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+          FAAILIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 63 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 94
 
 
 >UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32630 RepID=UPI00071AFAB7
           Length = 106
 
- Score =  133 bits (334), Expect = 6e-29,   Method: Composition-based stats.
- Identities = 80/90 (88%), Positives = 82/90 (91%)
+ Score =  137 bits (344), Expect = 4e-30,   Method: Composition-based stats.
+ Identities = 82/92 (89%), Positives = 84/92 (91%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-           QVQ N   NGK FDYTYTVTTESELQKVLNELKDYIKKQG KR R SITARTKKEAEKFA
-Sbjct: 13  QVQNNNTCNGKTFDYTYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEKFA 72
+Query: 1   DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+           DIQVQ N   NGK FDYTYTVTTESELQKVLNELKDYIKKQG KR R SITARTKKEAEK
+Sbjct: 11  DIQVQNNNTCNGKTFDYTYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEK 70
 
-Query: 62  AILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-           AILIKV+AELGYNDINVT+DGDTVTVEGQL
-Sbjct: 73  AILIKVYAELGYNDINVTWDGDTVTVEGQL 102
+Query: 61  FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+           FAAILIKV+AELGYNDINVT+DGDTVTVEGQL
+Sbjct: 71  FAAILIKVYAELGYNDINVTWDGDTVTVEGQL 102
 
 
 >UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic construct TaxID=32630
           RepID=UPI00034F232F
           Length = 172
 
- Score =  122 bits (306), Expect = 1e-25,   Method: Composition-based stats.
- Identities = 74/86 (86%), Positives = 75/86 (87%), Gaps = 4/86 (4%)
+ Score =  125 bits (315), Expect = 8e-27,   Method: Composition-based stats.
+ Identities = 76/88 (86%), Positives = 77/88 (87%), Gaps = 4/88 (4%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          QVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITAR+ KEA KF 
-Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYKFL 64
+Query: 1  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+          DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITAR+ KEA K
+Sbjct: 3  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYK 62
 
-Query: 62 AILIKVFAELGYNDIN----VTFDGD 83
-          AIL KVFAELGYNDIN    V F GD
-Sbjct: 65 AILAKVFAELGYNDINRKMTVRFRGD 90
+Query: 61 FAAILIKVFAELGYNDIN----VTFDGD 84
+          F AIL KVFAELGYNDIN    V F GD
+Sbjct: 63 FLAILAKVFAELGYNDINRKMTVRFRGD 90
 
 
 >UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unknown TaxID=
@@ -95,7 +96,7 @@ Sbjct: 65 AILAKVFAELGYNDINRKMTVRFRGD 90
  Score = 85.1 bits (209), Expect = 2e-14,   Method: Composition-based stats.
  Identities = 47/49 (95%), Positives = 49/49 (100%)
 
-Query: 43 KRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 91
+Query: 44 KRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
           +RVRISITARTKKEAEKFAAILIKVFAELGYNDINVT+DGDTVTVEGQL
 Sbjct: 2  ERVRISITARTKKEAEKFAAILIKVFAELGYNDINVTWDGDTVTVEGQL 50
 
@@ -104,30 +105,30 @@ Sbjct: 2  ERVRISITARTKKEAEKFAAILIKVFAELGYNDINVTWDGDTVTVEGQL 50
            RepID=UPI0003C63F44
           Length = 120
 
- Score = 75.5 bits (184), Expect = 1e-11,   Method: Composition-based stats.
- Identities = 61/102 (59%), Positives = 71/102 (69%), Gaps = 12/102 (11%)
+ Score = 76.6 bits (187), Expect = 6e-12,   Method: Composition-based stats.
+ Identities = 61/103 (59%), Positives = 72/103 (69%), Gaps = 12/103 (11%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVTT------ESELQKVLNELKDYIKKQGAKRVRISITAR--- 52
-           +VQV I  NGK ++ TY +        + +L+KVLNE  D IKK G KRVRISI  +   
-Sbjct: 7   EVQVKITCNGKTYERTYQLYAVRDEELKEKLKKVLNERMDPIKKLGCKRVRISIRVKHSD 66
+Query: 2   IQVQVNIDDNGKNFDYTYTVTT------ESELQKVLNELKDYIKKQGAKRVRISITAR-- 53
+           ++VQV I  NGK ++ TY +        + +L+KVLNE  D IKK G KRVRISI  +  
+Sbjct: 6   VEVQVKITCNGKTYERTYQLYAVRDEELKEKLKKVLNERMDPIKKLGCKRVRISIRVKHS 65
 
-Query: 53  ---TKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-               KKEA+KFAAIL KVFAELGYND NVT+DGDTVTVEGQL
-Sbjct: 67  AAEEKKEAKKFAAILNKVFAELGYNDSNVTWDGDTVTVEGQL 108
+Query: 54  ----TKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+                KKEA+KFAAIL KVFAELGYND NVT+DGDTVTVEGQL
+Sbjct: 66  DAAEEKKEAKKFAAILNKVFAELGYNDSNVTWDGDTVTVEGQL 108
 
 
 >UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobacterium TaxID=1763
             RepID=UPI0009EE212E
           Length = 1581
 
- Score = 40.4 bits (93), Expect = 0.43,   Method: Composition-based stats.
+ Score = 40.8 bits (94), Expect = 0.40,   Method: Composition-based stats.
  Identities = 25/69 (36%), Positives = 36/69 (52%), Gaps = 1/69 (1%)
 
-Query: 22   TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-YNDINVTF 80
+Query: 23   TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-YNDINVTF 81
             T  ELQ   + L+D  ++Q A R+   + AR  + AE F A+  ++   L  YN   + F
 Sbjct: 1009 TRFELQASRDSLRDLARQQTALRLVAELVAREAEPAEVFTAVAEQLGECLDVYNTTVIRF 1068
 
-Query: 81   DGDTVTVEG 89
+Query: 82   DGDTVTVEG 90
             DGD V VE 
 Sbjct: 1069 DGDDVVVEA 1077
 
@@ -136,16 +137,32 @@ Sbjct: 1069 DGDDVVVEA 1077
            RepID=UPI0009ECCF6B
           Length = 1364
 
- Score = 39.7 bits (91), Expect = 0.73,   Method: Composition-based stats.
+ Score = 40.0 bits (92), Expect = 0.69,   Method: Composition-based stats.
  Identities = 25/69 (36%), Positives = 35/69 (50%), Gaps = 1/69 (1%)
 
-Query: 22  TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-YNDINVTF 80
+Query: 23  TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-YNDINVTF 81
            T  ELQ   + L+D  ++Q A R+   + AR    AE F A+  ++   L  YN   + F
 Sbjct: 792 TRVELQASRDSLRDLARQQTALRLVAELVAREAAPAEVFKAVAEQLGECLDVYNTTVIRF 851
 
-Query: 81  DGDTVTVEG 89
+Query: 82  DGDTVTVEG 90
            DGD V VE 
 Sbjct: 852 DGDDVVVEA 860
+
+
+>UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=synthetic construct
+           TaxID=32630 RepID=UPI0004F13E6B
+          Length = 117
+
+ Score = 38.5 bits (88), Expect = 2.1,   Method: Composition-based stats.
+ Identities = 33/97 (34%), Positives = 51/97 (52%), Gaps = 8/97 (8%)
+
+Query: 1   DIQVQVNIDDNGKNFDYTYTVTTESE--LQKVLNELKDYIKKQGAKRVRISITAR----- 53
+           +I++    DD    +D  ++   E++  L+KV  +  D IKKQG KRV+I    +     
+Sbjct: 9   EIKIDCGNDDKETTYDLYFSKAEEAKELLKKVAEKAADKIKKQGCKRVKIRFEKKGLDDD 68
+
+Query: 54  TKKEAEKFA-AILIKVFAELGYNDINVTFDGDTVTVE 89
+            +K+A+K+A  +  K+  ELG      T DGDT  VE
+Sbjct: 69  ARKKAKKWALEVANKIANELGAKQSTTTTDGDTFEVE 105
 
 
 >UniRef90_A0A2A2TPJ6 Acetolactate synthase n=1 Tax=Calothrix elsteri CCALA 953
@@ -155,39 +172,40 @@ Sbjct: 852 DGDDVVVEA 860
  Score = 37.7 bits (86), Expect = 3.5,   Method: Composition-based stats.
  Identities = 19/39 (48%), Positives = 24/39 (61%)
 
-Query: 11  GKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISI 49
+Query: 12  GKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISI 50
            G  FDY  T+TT SELQK+  EL   IK+ G   V ++I
 Sbjct: 154 GTVFDYAKTITTSSELQKIQEELALQIKRPGGFVVHLNI 192
 
 
->UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=synthetic construct
-           TaxID=32630 RepID=UPI0004F13E6B
-          Length = 117
+>UniRef90_A9GIJ6 Conserved carbohydrate-binding protein, Rhs family n=1 Tax=Sorangium
+            cellulosum (strain So ce56) TaxID=448385
+            RepID=A9GIJ6_SORC5
+          Length = 1429
 
- Score = 36.6 bits (83), Expect = 7.2,   Method: Composition-based stats.
- Identities = 32/89 (35%), Positives = 47/89 (52%), Gaps = 8/89 (8%)
+ Score = 37.0 bits (84), Expect = 5.7,   Method: Composition-based stats.
+ Identities = 25/82 (30%), Positives = 42/82 (51%), Gaps = 1/82 (1%)
 
-Query: 8   DDNGKNFDYTYTVTTESE--LQKVLNELKDYIKKQGAKRVRISITAR-----TKKEAEKF 60
-           DD    +D  ++   E++  L+KV  +  D IKKQG KRV+I    +      +K+A+K+
-Sbjct: 17  DDKETTYDLYFSKAEEAKELLKKVAEKAADKIKKQGCKRVKIRFEKKGLDDDARKKAKKW 76
+Query: 1    DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+            DI+ +++ D NGK+ D    ++      +V NEL++  ++ GAK    S   + K  +EK
+Sbjct: 1235 DIRQRLSKDANGKDCDKWAKISEAERNARVRNELREEYRR-GAKIEAHSKKGKPKDSSEK 1293
 
-Query: 61  A-AILIKVFAELGYNDINVTFDGDTVTVE 88
-           A  +  K+  ELG      T DGDT  VE
-Sbjct: 77  ALEVANKIANELGAKQSTTTTDGDTFEVE 105
+Query: 61   FAAILIKVFAELGYNDINVTFD 82
+                  +VF ELG +  N+  D
+Sbjct: 1294 PCPFCAQVFRELGIHPDNINAD 1315
 
 
 >UniRef90_UPI000566AAEA RNA-binding transcriptional accessory protein n=1 Tax=Stenoxybacter
            acetivorans TaxID=422441 RepID=UPI000566AAEA
           Length = 762
 
- Score = 36.6 bits (83), Expect = 8.0,   Method: Composition-based stats.
+ Score = 36.6 bits (83), Expect = 6.9,   Method: Composition-based stats.
  Identities = 27/87 (31%), Positives = 41/87 (47%), Gaps = 3/87 (3%)
 
-Query: 7   IDDNGK--NFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAIL 64
+Query: 8   IDDNGK--NFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAIL 65
            +DD GK  + D  Y     ++    L+ L   +K+ G K + I       +E +K A  L
 Sbjct: 340 VDDTGKLLDTDTVYPHQPRNDWAGALSSLLRLVKRHGVKLIAIG-NGTASRETDKLAGEL 398
 
-Query: 65  IKVFAELGYNDINVTFDGDTVTVEGQL 91
+Query: 66  IKVFAELGYNDINVTFDGDTVTVEGQL 92
            IKV  ELG + I V+  G +V    +L
 Sbjct: 399 IKVLPELGLHKIVVSEAGASVYSASEL 425
 
@@ -202,72 +220,70 @@ Results from round 2
 Sequences producing significant alignments:                      (bits) Value
 Sequences used in model and found again:
 
-UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   165   8e-39
-UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   161   2e-37
-UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   142   7e-32
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   167   2e-39
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   163   3e-38
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   145   2e-32
 UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...   122   8e-26
-UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    98   3e-18
+UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    97   7e-18
 
 Sequences not found previously or not previously below threshold:
 
-UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    52   2e-04
-UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    41   0.31 
-UniRef90_UPI00047A7073 hypothetical protein n=1 Tax=Gillisia sp....    41   0.37 
-UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    40   0.49 
-UniRef90_A0A1R4HEF6 Uncharacterized protein n=1 Tax=Crenothrix p...    40   0.57 
-UniRef90_A3CT98 Uncharacterized protein n=2 Tax=Methanoculleus T...    40   0.69 
-UniRef90_A0A0M7A3A6 Bacteriophytochrome cph2 n=4 Tax=Alphaproteo...    40   0.98 
-UniRef90_UPI000566AAEA RNA-binding transcriptional accessory pro...    38   3.3  
-UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    37   4.0  
-UniRef90_UPI0006EAE429 ER membrane protein complex subunit 10 n=...    37   4.7  
-UniRef90_A0A2A2TPJ6 Acetolactate synthase n=1 Tax=Calothrix elst...    37   5.5  
-UniRef90_H2BSD4 Membrane-flanked domain DUF304 n=1 Tax=Gillisia ...    37   6.0  
+UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    53   1e-04
+UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    41   0.36 
+UniRef90_UPI00047A7073 hypothetical protein n=1 Tax=Gillisia sp....    40   0.53 
+UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    40   0.58 
+UniRef90_A3CT98 Uncharacterized protein n=2 Tax=Methanoculleus T...    40   0.72 
+UniRef90_A0A1R4HEF6 Uncharacterized protein n=1 Tax=Crenothrix p...    40   0.82 
+UniRef90_A0A0M7A3A6 Bacteriophytochrome cph2 n=4 Tax=Alphaproteo...    39   1.1  
+UniRef90_UPI0006EAE429 ER membrane protein complex subunit 10 n=...    39   1.5  
+UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    38   2.8  
+UniRef90_H2BSD4 Membrane-flanked domain DUF304 n=1 Tax=Gillisia ...    36   8.2  
 
 >UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unknown TaxID=
           RepID=UPI00006833D1
           Length = 106
 
- Score =  165 bits (419), Expect = 8e-39,   Method: Composition-based stats.
- Identities = 89/90 (98%), Positives = 89/90 (98%)
+ Score =  167 bits (424), Expect = 2e-39,   Method: Composition-based stats.
+ Identities = 91/92 (98%), Positives = 91/92 (98%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          QVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEKFA
-Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFA 64
+Query: 1  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+          DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEK
+Sbjct: 3  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEK 62
 
-Query: 62 AILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-          AILIKVFAELGYNDINVTFDGDTVTVEGQL
-Sbjct: 65 AILIKVFAELGYNDINVTFDGDTVTVEGQL 94
+Query: 61 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+          FAAILIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 63 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 94
 
 
 >UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32630 RepID=UPI00071AFAB7
           Length = 106
 
- Score =  161 bits (408), Expect = 2e-37,   Method: Composition-based stats.
- Identities = 80/90 (88%), Positives = 82/90 (91%)
+ Score =  163 bits (414), Expect = 3e-38,   Method: Composition-based stats.
+ Identities = 82/92 (89%), Positives = 84/92 (91%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-           QVQ N   NGK FDYTYTVTTESELQKVLNELKDYIKKQG KR R SITARTKKEAEKFA
-Sbjct: 13  QVQNNNTCNGKTFDYTYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEKFA 72
+Query: 1   DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+           DIQVQ N   NGK FDYTYTVTTESELQKVLNELKDYIKKQG KR R SITARTKKEAEK
+Sbjct: 11  DIQVQNNNTCNGKTFDYTYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEK 70
 
-Query: 62  AILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-           AILIKV+AELGYNDINVT+DGDTVTVEGQL
-Sbjct: 73  AILIKVYAELGYNDINVTWDGDTVTVEGQL 102
+Query: 61  FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+           FAAILIKV+AELGYNDINVT+DGDTVTVEGQL
+Sbjct: 71  FAAILIKVYAELGYNDINVTWDGDTVTVEGQL 102
 
 
 >UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic construct TaxID=32630
           RepID=UPI00034F232F
           Length = 172
 
- Score =  142 bits (359), Expect = 7e-32,   Method: Composition-based stats.
- Identities = 74/86 (86%), Positives = 75/86 (87%), Gaps = 4/86 (4%)
+ Score =  145 bits (365), Expect = 2e-32,   Method: Composition-based stats.
+ Identities = 76/88 (86%), Positives = 77/88 (87%), Gaps = 4/88 (4%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          QVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITAR+ KEA KF 
-Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYKFL 64
+Query: 1  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+          DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITAR+ KEA K
+Sbjct: 3  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYK 62
 
-Query: 62 AILIKVFAELGYNDIN----VTFDGD 83
-          AIL KVFAELGYNDIN    V F GD
-Sbjct: 65 AILAKVFAELGYNDINRKMTVRFRGD 90
+Query: 61 FAAILIKVFAELGYNDIN----VTFDGD 84
+          F AIL KVFAELGYNDIN    V F GD
+Sbjct: 63 FLAILAKVFAELGYNDINRKMTVRFRGD 90
 
 
 >UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthetic construct TaxID=32630
@@ -275,25 +291,25 @@ Sbjct: 65 AILAKVFAELGYNDINRKMTVRFRGD 90
           Length = 120
 
  Score =  122 bits (307), Expect = 8e-26,   Method: Composition-based stats.
- Identities = 60/102 (58%), Positives = 70/102 (68%), Gaps = 12/102 (11%)
+ Identities = 60/103 (58%), Positives = 71/103 (68%), Gaps = 12/103 (11%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVTT------ESELQKVLNELKDYIKKQGAKRVRISITARTK- 54
-           +VQV I  NGK ++ TY +        + +L+KVLNE  D IKK G KRVRISI  +   
-Sbjct: 7   EVQVKITCNGKTYERTYQLYAVRDEELKEKLKKVLNERMDPIKKLGCKRVRISIRVKHSD 66
+Query: 2   IQVQVNIDDNGKNFDYTYTVTT------ESELQKVLNELKDYIKKQGAKRVRISITARTK 55
+           ++VQV I  NGK ++ TY +        + +L+KVLNE  D IKK G KRVRISI  +  
+Sbjct: 6   VEVQVKITCNGKTYERTYQLYAVRDEELKEKLKKVLNERMDPIKKLGCKRVRISIRVKHS 65
 
-Query: 55  -----KEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-                KEA+KFAAIL KVFAELGYND NVT+DGDTVTVEGQL
-Sbjct: 67  AAEEKKEAKKFAAILNKVFAELGYNDSNVTWDGDTVTVEGQL 108
+Query: 56  ------KEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+                 KEA+KFAAIL KVFAELGYND NVT+DGDTVTVEGQL
+Sbjct: 66  DAAEEKKEAKKFAAILNKVFAELGYNDSNVTWDGDTVTVEGQL 108
 
 
 >UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unknown TaxID=
           RepID=UPI0000E5718E
           Length = 62
 
- Score = 97.7 bits (242), Expect = 3e-18,   Method: Composition-based stats.
+ Score = 96.6 bits (239), Expect = 7e-18,   Method: Composition-based stats.
  Identities = 47/49 (95%), Positives = 49/49 (100%)
 
-Query: 43 KRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 91
+Query: 44 KRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
           +RVRISITARTKKEAEKFAAILIKVFAELGYNDINVT+DGDTVTVEGQL
 Sbjct: 2  ERVRISITARTKKEAEKFAAILIKVFAELGYNDINVTWDGDTVTVEGQL 50
 
@@ -302,30 +318,30 @@ Sbjct: 2  ERVRISITARTKKEAEKFAAILIKVFAELGYNDINVTWDGDTVTVEGQL 50
            TaxID=32630 RepID=UPI0004F13E6B
           Length = 117
 
- Score = 51.9 bits (123), Expect = 2e-04,   Method: Composition-based stats.
- Identities = 33/99 (33%), Positives = 50/99 (50%), Gaps = 12/99 (12%)
+ Score = 52.7 bits (125), Expect = 1e-04,   Method: Composition-based stats.
+ Identities = 33/101 (32%), Positives = 52/101 (51%), Gaps = 12/101 (11%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVT------TESELQKVLNELKDYIKKQGAKRVRISITAR--- 52
-           +V++ ID    + + TY +        +  L+KV  +  D IKKQG KRV+I    +   
-Sbjct: 7   RVEIKIDCGNDDKETTYDLYFSKAEEAKELLKKVAEKAADKIKKQGCKRVKIRFEKKGLD 66
+Query: 1   DIQVQVNIDDNGKNFDYTYTVT------TESELQKVLNELKDYIKKQGAKRVRISITAR- 53
+           +++V++ ID    + + TY +        +  L+KV  +  D IKKQG KRV+I    + 
+Sbjct: 5   ELRVEIKIDCGNDDKETTYDLYFSKAEEAKELLKKVAEKAADKIKKQGCKRVKIRFEKKG 64
 
-Query: 53  --TKKEAEKFA-AILIKVFAELGYNDINVTFDGDTVTVE 88
-              +K+A+K+A  +  K+  ELG      T DGDT  VE
-Sbjct: 67  DDARKKAKKWALEVANKIANELGAKQSTTTTDGDTFEVE 105
+Query: 54  ----TKKEAEKFA-AILIKVFAELGYNDINVTFDGDTVTVE 89
+                +K+A+K+A  +  K+  ELG      T DGDT  VE
+Sbjct: 65  LDDDARKKAKKWALEVANKIANELGAKQSTTTTDGDTFEVE 105
 
 
 >UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobacterium TaxID=1763
             RepID=UPI0009EE212E
           Length = 1581
 
- Score = 41.1 bits (95), Expect = 0.31,   Method: Composition-based stats.
+ Score = 40.7 bits (94), Expect = 0.36,   Method: Composition-based stats.
  Identities = 27/73 (36%), Positives = 36/73 (49%), Gaps = 9/73 (12%)
 
-Query: 22   TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-----YNDI 76
+Query: 23   TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-----YNDI 77
             T  ELQ   + L+D  ++Q A R+   + AR  + AE F A    V  +LG     YN  
 Sbjct: 1009 TRFELQASRDSLRDLARQQTALRLVAELVAREAEPAEVFTA----VAEQLGECLDVYNTT 1064
 
-Query: 77   NVTFDGDTVTVEG 89
+Query: 78   NVTFDGDTVTVEG 90
              + FDGD V VE 
 Sbjct: 1065 VIRFDGDDVVVEA 1077
 
@@ -334,14 +350,14 @@ Sbjct: 1065 VIRFDGDDVVVEA 1077
            RepID=UPI00047A7073
           Length = 502
 
- Score = 40.7 bits (94), Expect = 0.37,   Method: Composition-based stats.
+ Score = 40.3 bits (93), Expect = 0.53,   Method: Composition-based stats.
  Identities = 27/80 (33%), Positives = 40/80 (50%), Gaps = 1/80 (1%)
 
-Query: 6   NIDDNGKNFDYTYTVTTE-SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAIL 64
+Query: 7   NIDDNGKNFDYTYTVTTE-SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAIL 65
            N +D    FD    V  + S LQ++LN     I+  G+K+  ISI A + ++A +  AIL
 Sbjct: 93  NTEDIAIPFDRIQQVYIKRSILQRILNVNSFVIETAGSKKEEISIKAISHEKANQLLAIL 152
 
-Query: 65  IKVFAELGYNDINVTFDGDT 84
+Query: 66  IKVFAELGYNDINVTFDGDT 85
            IKV  +      N    G+T
 Sbjct: 153 IKVKDKYSEEITNTETTGET 172
 
@@ -350,134 +366,106 @@ Sbjct: 153 IKVKDKYSEEITNTETTGET 172
            RepID=UPI0009ECCF6B
           Length = 1364
 
- Score = 40.3 bits (93), Expect = 0.49,   Method: Composition-based stats.
+ Score = 40.3 bits (93), Expect = 0.58,   Method: Composition-based stats.
  Identities = 27/73 (36%), Positives = 35/73 (47%), Gaps = 9/73 (12%)
 
-Query: 22  TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-----YNDI 76
+Query: 23  TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-----YNDI 77
            T  ELQ   + L+D  ++Q A R+   + AR    AE F A    V  +LG     YN  
 Sbjct: 792 TRVELQASRDSLRDLARQQTALRLVAELVAREAAPAEVFKA----VAEQLGECLDVYNTT 847
 
-Query: 77  NVTFDGDTVTVEG 89
+Query: 78  NVTFDGDTVTVEG 90
             + FDGD V VE 
 Sbjct: 848 VIRFDGDDVVVEA 860
-
-
->UniRef90_A0A1R4HEF6 Uncharacterized protein n=1 Tax=Crenothrix polyspora TaxID=360316
-           RepID=A0A1R4HEF6_9GAMM
-          Length = 403
-
- Score = 40.3 bits (93), Expect = 0.57,   Method: Composition-based stats.
- Identities = 24/65 (36%), Positives = 36/65 (55%), Gaps = 5/65 (7%)
-
-Query: 16  YTYTVTTESELQKVLNELKD--YIKKQGAK---RVRISITARTKKEAEKFAAILIKVFAE 70
-           Y Y+  T  EL+K LNE+KD  +I  Q AK   + R+++TA    E +K  + +  V A 
-Sbjct: 36  YRYSSDTREELEKALNEIKDKVFITHQAAKEFLKNRLNVTAGQADEYKKTISSINNVLAT 95
-
-Query: 71  LGYND 75
-           L  +D
-Sbjct: 96  LSSSD 100
 
 
 >UniRef90_A3CT98 Uncharacterized protein n=2 Tax=Methanoculleus TaxID=45989
           RepID=A3CT98_METMJ
           Length = 217
 
- Score = 40.0 bits (92), Expect = 0.69,   Method: Composition-based stats.
- Identities = 24/86 (27%), Positives = 39/86 (45%), Gaps = 19/86 (22%)
+ Score = 39.9 bits (92), Expect = 0.72,   Method: Composition-based stats.
+ Identities = 24/87 (27%), Positives = 40/87 (45%), Gaps = 19/87 (21%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          +V   ++ +     Y+Y +TT    Q V N LK+  K+QG   +R S+T+  +    K+ 
-Sbjct: 25 EVHTKVNPDATLSSYSYDLTTS---QFVYNALKESAKEQGYSSLRESMTSNAEPGTYKYD 81
+Query: 2  IQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKF 61
+          ++V   ++ +     Y+Y +TT    Q V N LK+  K+QG   +R S+T+  +    K+
+Sbjct: 24 LEVHTKVNPDATLSSYSYDLTTS---QFVYNALKESAKEQGYSSLRESMTSNAEPGTYKY 80
 
-Query: 62 AILIKVFAELGYNDINVTFDGDTVTV 87
-           I                +DGDTVT+
-Sbjct: 82 EI----------------WDGDTVTI 91
+Query: 62 AAILIKVFAELGYNDINVTFDGDTVTV 88
+            I                +DGDTVT+
+Sbjct: 81 DEI----------------WDGDTVTI 91
+
+
+>UniRef90_A0A1R4HEF6 Uncharacterized protein n=1 Tax=Crenothrix polyspora TaxID=360316
+           RepID=A0A1R4HEF6_9GAMM
+          Length = 403
+
+ Score = 39.6 bits (91), Expect = 0.82,   Method: Composition-based stats.
+ Identities = 24/65 (36%), Positives = 36/65 (55%), Gaps = 5/65 (7%)
+
+Query: 17  YTYTVTTESELQKVLNELKD--YIKKQGAK---RVRISITARTKKEAEKFAAILIKVFAE 71
+           Y Y+  T  EL+K LNE+KD  +I  Q AK   + R+++TA    E +K  + +  V A 
+Sbjct: 36  YRYSSDTREELEKALNEIKDKVFITHQAAKEFLKNRLNVTAGQADEYKKTISSINNVLAT 95
+
+Query: 72  LGYND 76
+           L  +D
+Sbjct: 96  LSSSD 100
 
 
 >UniRef90_A0A0M7A3A6 Bacteriophytochrome cph2 n=4 Tax=Alphaproteobacteria TaxID=28211
            RepID=A0A0M7A3A6_9RHOB
           Length = 1042
 
- Score = 39.6 bits (91), Expect = 0.98,   Method: Composition-based stats.
+ Score = 39.2 bits (90), Expect = 1.1,   Method: Composition-based stats.
  Identities = 18/68 (26%), Positives = 35/68 (51%), Gaps = 12/68 (17%)
 
-Query: 24  SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGD 83
+Query: 25  SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGD 84
              L ++ N L D ++ Q   + R++   RT++EAE+ +A+             N TFD  
 Sbjct: 443 ERLTRLFNALMDTVQSQEQAQSRVADAKRTQEEAERLSAL------------ANATFDAI 490
 
-Query: 84  TVTVEGQL 91
+Query: 85  TVTVEGQL 92
             ++V+G++
 Sbjct: 491 VISVDGRI 498
-
-
->UniRef90_UPI000566AAEA RNA-binding transcriptional accessory protein n=1 Tax=Stenoxybacter
-           acetivorans TaxID=422441 RepID=UPI000566AAEA
-          Length = 762
-
- Score = 37.6 bits (86), Expect = 3.3,   Method: Composition-based stats.
- Identities = 29/88 (32%), Positives = 42/88 (47%), Gaps = 5/88 (5%)
-
-Query: 7   IDDNGKNFDYTYTVTT---ESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAI 63
-           +DD GK  D T TV      ++    L+ L   +K+ G K + I       +E +K A  
-Sbjct: 340 VDDTGKLLD-TDTVYPHQPRNDWAGALSSLLRLVKRHGVKLIAIG-NGTASRETDKLAGE 397
-
-Query: 64  LIKVFAELGYNDINVTFDGDTVTVEGQL 91
-           LIKV  ELG + I V+  G +V    +L
-Sbjct: 398 LIKVLPELGLHKIVVSEAGASVYSASEL 425
-
-
->UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified TaxID=32644
-          RepID=UPI00017BDAF0
-          Length = 96
-
- Score = 37.3 bits (85), Expect = 4.0,   Method: Composition-based stats.
- Identities = 19/87 (21%), Positives = 39/87 (44%)
-
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-           + + I  +G+  +    V+T                      V+I+I+A   ++A++  
-Sbjct: 7  DITIKIQRDGQEIEIDIRVSTXXXXXXXXXXXXXXXXXXXXXNVQITISAENDEQAKELL 66
-
-Query: 62 AILIKVFAELGYNDINVTFDGDTVTVE 88
-           ++ ++  +LGY DINV  +G  V +E
-Sbjct: 67 ELIARLLQKLGYKDINVRVNGTEVKIE 93
 
 
 >UniRef90_UPI0006EAE429 ER membrane protein complex subunit 10 n=2 Tax=Papilio TaxID=7145
            RepID=UPI0006EAE429
           Length = 223
 
- Score = 37.3 bits (85), Expect = 4.7,   Method: Composition-based stats.
- Identities = 25/105 (23%), Positives = 48/105 (45%), Gaps = 15/105 (14%)
+ Score = 38.8 bits (89), Expect = 1.5,   Method: Composition-based stats.
+ Identities = 26/107 (24%), Positives = 50/107 (46%), Gaps = 15/107 (14%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVTTESEL------------QKVLNELKDYIKKQGAKRVRISI 49
-           ++Q +++ NG+ +     ++ +S              Q+ +NELK+     G   +R  +
-Sbjct: 28  KIQHSLNCNGEKYCTRGNISLKSLRAGTSIIEQIPFQQQHINELKELADFDGFYTIRSLV 87
+Query: 1   DIQVQVNIDDNGKNFDYTYTVTTESE------------LQKVLNELKDYIKKQGAKRVRI 48
+           +I++Q +++ NG+ +     ++ +S              Q+ +NELK+     G   +R 
+Sbjct: 26  NIKIQHSLNCNGEKYCTRGNISLKSLRAGTSIIEQIPFQQQHINELKELADFDGFYTIRS 85
 
-Query: 50  TARTKKEAEKFAAILIKVFAELGYNDINVTF---DGDTVTVEGQL 91
-           TA   KE E F+++  K F E G  D+   +   +G  + V  Q+
-Sbjct: 88  TAADTKETEFFSSVKAKAFLENGLTDVINAWVLPNGAVIAVSFQV 132
+Query: 49  SITARTKKEAEKFAAILIKVFAELGYNDINVTF---DGDTVTVEGQL 92
+            +TA   KE E F+++  K F E G  D+   +   +G  + V  Q+
+Sbjct: 86  LVTAADTKETEFFSSVKAKAFLENGLTDVINAWVLPNGAVIAVSFQV 132
 
 
->UniRef90_A0A2A2TPJ6 Acetolactate synthase n=1 Tax=Calothrix elsteri CCALA 953
-           TaxID=987040 RepID=A0A2A2TPJ6_9CYAN
-          Length = 582
+>UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified TaxID=32644
+          RepID=UPI00017BDAF0
+          Length = 96
 
- Score = 36.9 bits (84), Expect = 5.5,   Method: Composition-based stats.
- Identities = 19/39 (48%), Positives = 24/39 (61%)
+ Score = 38.0 bits (87), Expect = 2.8,   Method: Composition-based stats.
+ Identities = 19/88 (21%), Positives = 40/88 (45%)
 
-Query: 11  GKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISI 49
-           G  FDY  T+TT SELQK+  EL   IK+ G   V ++I
-Sbjct: 154 GTVFDYAKTITTSSELQKIQEELALQIKRPGGFVVHLNI 192
+Query: 2  IQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKF 61
+          + + + I  +G+  +    V+T                      V+I+I+A   ++A++ 
+Sbjct: 6  VDITIKIQRDGQEIEIDIRVSTXXXXXXXXXXXXXXXXXXXXXNVQITISAENDEQAKEL 65
+
+Query: 62 AAILIKVFAELGYNDINVTFDGDTVTVE 89
+            ++ ++  +LGY DINV  +G  V +E
+Sbjct: 66 LELIARLLQKLGYKDINVRVNGTEVKIE 93
 
 
 >UniRef90_H2BSD4 Membrane-flanked domain DUF304 n=1 Tax=Gillisia limnaea DSM 15749
            TaxID=865937 RepID=H2BSD4_9FLAO
           Length = 505
 
- Score = 36.9 bits (84), Expect = 6.0,   Method: Composition-based stats.
+ Score = 36.5 bits (83), Expect = 8.2,   Method: Composition-based stats.
  Identities = 21/55 (38%), Positives = 33/55 (60%), Gaps = 1/55 (1%)
 
-Query: 14  FDYTYTVTTE-SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKV 67
+Query: 15  FDYTYTVTTE-SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKV 68
            FD    V  + S LQ+++N     I+  G+    ISI A +K++A+K +A+LIKV
 Sbjct: 100 FDKIQQVYLKRSILQRIINVYSLVIETAGSSDKEISIKAISKEKADKLSALLIKV 154
 
@@ -492,27 +480,27 @@ Results from round 3
 Sequences producing significant alignments:                      (bits) Value
 Sequences used in model and found again:
 
-UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   155   1e-35
-UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   149   8e-34
-UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   133   7e-29
-UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...   120   6e-25
-UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    97   6e-18
-UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    91   2e-16
+UniRef90_UPI00006833D1 UPI00006833D1 related cluster n=1 Tax=unk...   158   1e-36
+UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32...   153   6e-35
+UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic ...   135   9e-30
+UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthet...   120   3e-25
+UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=sy...    99   1e-18
+UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unk...    91   3e-16
 
 Sequences not found previously or not previously below threshold:
 
-UniRef90_UPI00047A7073 hypothetical protein n=1 Tax=Gillisia sp....    43   0.075
-UniRef90_A3CT98 Uncharacterized protein n=2 Tax=Methanoculleus T...    40   0.75 
-UniRef90_UPI0009887D20 phosphosulfolactate synthase n=1 Tax=Sedi...    40   1.0  
-UniRef90_A0A1Z4G830 (2R)-phospho-3-sulfolactate synthase n=3 Tax...    39   1.4  
-UniRef90_UPI000C77705A phosphosulfolactate synthase n=1 Tax=Baci...    38   2.2  
-UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    38   2.9  
+UniRef90_UPI00047A7073 hypothetical protein n=1 Tax=Gillisia sp....    43   0.088
+UniRef90_A3CT98 Uncharacterized protein n=2 Tax=Methanoculleus T...    41   0.40 
+UniRef90_UPI0009887D20 phosphosulfolactate synthase n=1 Tax=Sedi...    39   1.1  
+UniRef90_A0A1Z4G830 (2R)-phospho-3-sulfolactate synthase n=3 Tax...    39   1.6  
+UniRef90_UPI000C77705A phosphosulfolactate synthase n=1 Tax=Baci...    38   2.7  
+UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobact...    38   3.0  
 UniRef90_UPI00084C8C77 YjbH domain-containing protein n=4 Tax=Vi...    38   3.2  
-UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    37   4.6  
-UniRef90_A0A0M7A3A6 Bacteriophytochrome cph2 n=4 Tax=Alphaproteo...    37   4.6  
+UniRef90_UPI0009ECCF6B PAS domain S-box protein n=4 Tax=Mycobact...    37   4.7  
+UniRef90_A0A0M7A3A6 Bacteriophytochrome cph2 n=4 Tax=Alphaproteo...    37   4.7  
 UniRef90_A0A1Y5PYT9 Peptidyl-dipeptidase A n=8 Tax=Xanthomonadac...    37   6.1  
-UniRef90_G5GI48 Uncharacterized protein n=1 Tax=Johnsonella igna...    36   7.2  
-UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    36   9.7  
+UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified T...    36   7.4  
+UniRef90_G5GI48 Uncharacterized protein n=1 Tax=Johnsonella igna...    36   7.7  
 
 
 CONVERGED!
@@ -520,89 +508,89 @@ CONVERGED!
           RepID=UPI00006833D1
           Length = 106
 
- Score =  155 bits (393), Expect = 1e-35,   Method: Composition-based stats.
- Identities = 89/90 (98%), Positives = 89/90 (98%)
+ Score =  158 bits (400), Expect = 1e-36,   Method: Composition-based stats.
+ Identities = 91/92 (98%), Positives = 91/92 (98%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          QVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEKFA
-Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEKFA 64
+Query: 1  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+          DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITARTKKEAEK
+Sbjct: 3  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARTKKEAEK 62
 
-Query: 62 AILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-          AILIKVFAELGYNDINVTFDGDTVTVEGQL
-Sbjct: 65 AILIKVFAELGYNDINVTFDGDTVTVEGQL 94
+Query: 61 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+          FAAILIKVFAELGYNDINVTFDGDTVTVEGQL
+Sbjct: 63 FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 94
 
 
 >UniRef90_UPI00071AFAB7 OR34 n=1 Tax=synthetic construct TaxID=32630 RepID=UPI00071AFAB7
           Length = 106
 
- Score =  149 bits (376), Expect = 8e-34,   Method: Composition-based stats.
- Identities = 80/90 (88%), Positives = 82/90 (91%)
+ Score =  153 bits (386), Expect = 6e-35,   Method: Composition-based stats.
+ Identities = 82/92 (89%), Positives = 84/92 (91%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-           QVQ N   NGK FDYTYTVTTESELQKVLNELKDYIKKQG KR R SITARTKKEAEKFA
-Sbjct: 13  QVQNNNTCNGKTFDYTYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEKFA 72
+Query: 1   DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+           DIQVQ N   NGK FDYTYTVTTESELQKVLNELKDYIKKQG KR R SITARTKKEAEK
+Sbjct: 11  DIQVQNNNTCNGKTFDYTYTVTTESELQKVLNELKDYIKKQGCKRSRTSITARTKKEAEK 70
 
-Query: 62  AILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-           AILIKV+AELGYNDINVT+DGDTVTVEGQL
-Sbjct: 73  AILIKVYAELGYNDINVTWDGDTVTVEGQL 102
+Query: 61  FAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+           FAAILIKV+AELGYNDINVT+DGDTVTVEGQL
+Sbjct: 71  FAAILIKVYAELGYNDINVTWDGDTVTVEGQL 102
 
 
 >UniRef90_UPI00034F232F designed protein OR327 n=1 Tax=synthetic construct TaxID=32630
           RepID=UPI00034F232F
           Length = 172
 
- Score =  133 bits (334), Expect = 7e-29,   Method: Composition-based stats.
- Identities = 74/89 (83%), Positives = 76/89 (85%), Gaps = 4/89 (4%)
+ Score =  135 bits (341), Expect = 9e-30,   Method: Composition-based stats.
+ Identities = 76/91 (83%), Positives = 78/91 (85%), Gaps = 4/91 (4%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          QVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITAR+ KEA KF 
-Sbjct: 5  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYKFL 64
+Query: 1  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEK 60
+          DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNEL DYIKKQGAKRVRISITAR+ KEA K
+Sbjct: 3  DIQVQVNIDDNGKNFDYTYTVTTESELQKVLNELMDYIKKQGAKRVRISITARSSKEAYK 62
 
-Query: 62 AILIKVFAELGYNDIN----VTFDGDTVT 86
-          AIL KVFAELGYNDIN    V F GD + 
-Sbjct: 65 AILAKVFAELGYNDINRKMTVRFRGDDLE 93
+Query: 61 FAAILIKVFAELGYNDIN----VTFDGDTVT 87
+          F AIL KVFAELGYNDIN    V F GD + 
+Sbjct: 63 FLAILAKVFAELGYNDINRKMTVRFRGDDLE 93
 
 
 >UniRef90_UPI0003C63F44 Top7 Fold Protein Top7m13 n=1 Tax=synthetic construct TaxID=32630
            RepID=UPI0003C63F44
           Length = 120
 
- Score =  120 bits (300), Expect = 6e-25,   Method: Composition-based stats.
- Identities = 60/102 (58%), Positives = 70/102 (68%), Gaps = 12/102 (11%)
+ Score =  120 bits (302), Expect = 3e-25,   Method: Composition-based stats.
+ Identities = 60/103 (58%), Positives = 71/103 (68%), Gaps = 12/103 (11%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVTT------ESELQKVLNELKDYIKKQGAKRVRISITARTK- 54
-           +VQV I  NGK ++ TY +        + +L+KVLNE  D IKK G KRVRISI  +   
-Sbjct: 7   EVQVKITCNGKTYERTYQLYAVRDEELKEKLKKVLNERMDPIKKLGCKRVRISIRVKHSD 66
+Query: 2   IQVQVNIDDNGKNFDYTYTVTT------ESELQKVLNELKDYIKKQGAKRVRISITARTK 55
+           ++VQV I  NGK ++ TY +        + +L+KVLNE  D IKK G KRVRISI  +  
+Sbjct: 6   VEVQVKITCNGKTYERTYQLYAVRDEELKEKLKKVLNERMDPIKKLGCKRVRISIRVKHS 65
 
-Query: 55  -----KEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 91
-                KEA+KFAAIL KVFAELGYND NVT+DGDTVTVEGQL
-Sbjct: 67  AAEEKKEAKKFAAILNKVFAELGYNDSNVTWDGDTVTVEGQL 108
+Query: 56  ------KEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
+                 KEA+KFAAIL KVFAELGYND NVT+DGDTVTVEGQL
+Sbjct: 66  DAAEEKKEAKKFAAILNKVFAELGYNDSNVTWDGDTVTVEGQL 108
 
 
 >UniRef90_UPI0004F13E6B De novo designed protein OR459 n=1 Tax=synthetic construct
            TaxID=32630 RepID=UPI0004F13E6B
           Length = 117
 
- Score = 96.5 bits (239), Expect = 6e-18,   Method: Composition-based stats.
- Identities = 33/99 (33%), Positives = 50/99 (50%), Gaps = 12/99 (12%)
+ Score = 98.8 bits (245), Expect = 1e-18,   Method: Composition-based stats.
+ Identities = 33/101 (32%), Positives = 52/101 (51%), Gaps = 12/101 (11%)
 
-Query: 2   QVQVNIDDNGKNFDYTYTVT------TESELQKVLNELKDYIKKQGAKRVRISITAR--- 52
-           +V++ ID    + + TY +        +  L+KV  +  D IKKQG KRV+I    +   
-Sbjct: 7   RVEIKIDCGNDDKETTYDLYFSKAEEAKELLKKVAEKAADKIKKQGCKRVKIRFEKKGLD 66
+Query: 1   DIQVQVNIDDNGKNFDYTYTVT------TESELQKVLNELKDYIKKQGAKRVRISITAR- 53
+           +++V++ ID    + + TY +        +  L+KV  +  D IKKQG KRV+I    + 
+Sbjct: 5   ELRVEIKIDCGNDDKETTYDLYFSKAEEAKELLKKVAEKAADKIKKQGCKRVKIRFEKKG 64
 
-Query: 53  --TKKEAEKFA-AILIKVFAELGYNDINVTFDGDTVTVE 88
-              +K+A+K+A  +  K+  ELG      T DGDT  VE
-Sbjct: 67  DDARKKAKKWALEVANKIANELGAKQSTTTTDGDTFEVE 105
+Query: 54  ----TKKEAEKFA-AILIKVFAELGYNDINVTFDGDTVTVE 89
+                +K+A+K+A  +  K+  ELG      T DGDT  VE
+Sbjct: 65  LDDDARKKAKKWALEVANKIANELGAKQSTTTTDGDTFEVE 105
 
 
 >UniRef90_UPI0000E5718E UPI0000E5718E related cluster n=1 Tax=unknown TaxID=
           RepID=UPI0000E5718E
           Length = 62
 
- Score = 91.1 bits (225), Expect = 2e-16,   Method: Composition-based stats.
+ Score = 90.7 bits (224), Expect = 3e-16,   Method: Composition-based stats.
  Identities = 47/49 (95%), Positives = 49/49 (100%)
 
-Query: 43 KRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 91
+Query: 44 KRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQL 92
           +RVRISITARTKKEAEKFAAILIKVFAELGYNDINVT+DGDTVTVEGQL
 Sbjct: 2  ERVRISITARTKKEAEKFAAILIKVFAELGYNDINVTWDGDTVTVEGQL 50
 
@@ -611,14 +599,14 @@ Sbjct: 2  ERVRISITARTKKEAEKFAAILIKVFAELGYNDINVTWDGDTVTVEGQL 50
            RepID=UPI00047A7073
           Length = 502
 
- Score = 43.0 bits (100), Expect = 0.075,   Method: Composition-based stats.
+ Score = 43.0 bits (100), Expect = 0.088,   Method: Composition-based stats.
  Identities = 25/72 (34%), Positives = 37/72 (51%), Gaps = 1/72 (1%)
 
-Query: 14  FDYTYTVTTE-SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG 72
+Query: 15  FDYTYTVTTE-SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG 73
            FD    V  + S LQ++LN     I+  G+K+  ISI A + ++A +  AILIKV  +  
 Sbjct: 101 FDRIQQVYIKRSILQRILNVNSFVIETAGSKKEEISIKAISHEKANQLLAILIKVKDKYS 160
 
-Query: 73  YNDINVTFDGDT 84
+Query: 74  YNDINVTFDGDT 85
                N    G+T
 Sbjct: 161 EEITNTETTGET 172
 
@@ -627,30 +615,30 @@ Sbjct: 161 EEITNTETTGET 172
           RepID=A3CT98_METMJ
           Length = 217
 
- Score = 39.9 bits (92), Expect = 0.75,   Method: Composition-based stats.
- Identities = 24/86 (27%), Positives = 39/86 (45%), Gaps = 19/86 (22%)
+ Score = 40.7 bits (94), Expect = 0.40,   Method: Composition-based stats.
+ Identities = 24/87 (27%), Positives = 40/87 (45%), Gaps = 19/87 (21%)
 
-Query: 2  QVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFA 61
-          +V   ++ +     Y+Y +TT    Q V N LK+  K+QG   +R S+T+  +    K+ 
-Sbjct: 25 EVHTKVNPDATLSSYSYDLTTS---QFVYNALKESAKEQGYSSLRESMTSNAEPGTYKYD 81
+Query: 2  IQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKF 61
+          ++V   ++ +     Y+Y +TT    Q V N LK+  K+QG   +R S+T+  +    K+
+Sbjct: 24 LEVHTKVNPDATLSSYSYDLTTS---QFVYNALKESAKEQGYSSLRESMTSNAEPGTYKY 80
 
-Query: 62 AILIKVFAELGYNDINVTFDGDTVTV 87
-           I                +DGDTVT+
-Sbjct: 82 EI----------------WDGDTVTI 91
+Query: 62 AAILIKVFAELGYNDINVTFDGDTVTV 88
+            I                +DGDTVT+
+Sbjct: 81 DEI----------------WDGDTVTI 91
 
 
 >UniRef90_UPI0009887D20 phosphosulfolactate synthase n=1 Tax=Sediminibacillus massiliensis
            TaxID=1926277 RepID=UPI0009887D20
           Length = 263
 
- Score = 39.5 bits (91), Expect = 1.0,   Method: Composition-based stats.
+ Score = 39.1 bits (90), Expect = 1.1,   Method: Composition-based stats.
  Identities = 24/92 (26%), Positives = 38/92 (41%), Gaps = 8/92 (8%)
 
-Query: 3   VQVNIDDNGKN---FDYTYTVTTESELQKVLNELKDYIKKQGAKRVRIS---ITARTKKE 56
+Query: 4   VQVNIDDNGKN---FDYTYTVTTESELQKVLNELKDYIKKQGAKRVRIS---ITARTKKE 57
            +Q  ID   K    F +  T+  +   Q  +    DY +  G + V IS   I    +K+
 Sbjct: 60  LQEKIDCLQKENVAFFFGGTLFEKFLSQDKVEAYMDYCQSFGCRYVEISNGTINLSNRKK 119
 
-Query: 57  AEKFAAILI--KVFAELGYNDINVTFDGDTVT 86
+Query: 58  AEKFAAILI--KVFAELGYNDINVTFDGDTVT 87
            AE  +A      VF+E+G  D   +   D+  
 Sbjct: 120 AEYISAFSGHFTVFSEVGSKDSAASTGQDSSE 151
 
@@ -659,14 +647,14 @@ Sbjct: 120 AEYISAFSGHFTVFSEVGSKDSAASTGQDSSE 151
            RepID=A0A1Z4G830_9CYAN
           Length = 257
 
- Score = 38.8 bits (89), Expect = 1.4,   Method: Composition-based stats.
+ Score = 38.7 bits (89), Expect = 1.6,   Method: Composition-based stats.
  Identities = 22/79 (27%), Positives = 36/79 (45%), Gaps = 8/79 (10%)
 
-Query: 6   NIDD---NGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRIS---ITARTKKEAEK 59
+Query: 7   NIDD---NGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRIS---ITARTKKEAEK 60
             I+    NG  F +  T   +  LQ  LN+  DY K  G   + IS   I    +++A+ 
 Sbjct: 62  KIECLQLNGVQFYFGGTFFEKCLLQGKLNDFYDYHKAFGCTHMEISNGTIDLSNREKAKY 121
 
-Query: 60  FAAILIK--VFAELGYNDI 76
+Query: 61  FAAILIK--VFAELGYNDI 77
             A   ++  + +E+GY D 
 Sbjct: 122 IAEFSLEFTILSEVGYKDS 140
 
@@ -675,30 +663,30 @@ Sbjct: 122 IAEFSLEFTILSEVGYKDS 140
            RepID=UPI000C77705A
           Length = 259
 
- Score = 38.4 bits (88), Expect = 2.2,   Method: Composition-based stats.
- Identities = 24/93 (25%), Positives = 41/93 (44%), Gaps = 8/93 (8%)
+ Score = 38.0 bits (87), Expect = 2.7,   Method: Composition-based stats.
+ Identities = 24/88 (27%), Positives = 39/88 (44%), Gaps = 8/88 (9%)
 
-Query: 1   DQVQVNIDD---NGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRIS---ITARTK 54
-           + +   I     N   F +  T+  +   QK L++   Y+KK G   V IS   I    +
-Sbjct: 58  NNISKKIACLRENNVEFFFGGTLFEKFLSQKKLDDYYLYLKKFGCNYVEISNGTIEIANR 117
+Query: 7   NIDD---NGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRIS---ITARTKKEAEK 60
+            I     N   F +  T+  +   QK L++   Y+KK G   V IS   I    + +A+ 
+Sbjct: 63  KIACLRENNVEFFFGGTLFEKFLSQKKLDDYYLYLKKFGCNYVEISNGTIEIANRDKAKF 122
 
-Query: 55  KEAEKFAAILIK--VFAELGYNDINVTFDGDTV 85
-            +A+       +  VF+E+G  D +V+   D+V
-Sbjct: 118 DKAKFINEFSSEFYVFSEVGSKDSDVSGSIDSV 150
+Query: 61  FAAILIK--VFAELGYNDINVTFDGDTV 86
+                 +  VF+E+G  D +V+   D+V
+Sbjct: 123 INEFSSEFYVFSEVGSKDSDVSGSIDSV 150
 
 
 >UniRef90_UPI0009EE212E PAS domain S-box protein n=2 Tax=Mycobacterium TaxID=1763
             RepID=UPI0009EE212E
           Length = 1581
 
- Score = 38.0 bits (87), Expect = 2.9,   Method: Composition-based stats.
+ Score = 38.0 bits (87), Expect = 3.0,   Method: Composition-based stats.
  Identities = 25/69 (36%), Positives = 36/69 (52%), Gaps = 1/69 (1%)
 
-Query: 22   TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-YNDINVTF 80
+Query: 23   TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-YNDINVTF 81
             T  ELQ   + L+D  ++Q A R+   + AR  + AE F A+  ++   L  YN   + F
 Sbjct: 1009 TRFELQASRDSLRDLARQQTALRLVAELVAREAEPAEVFTAVAEQLGECLDVYNTTVIRF 1068
 
-Query: 81   DGDTVTVEG 89
+Query: 82   DGDTVTVEG 90
             DGD V VE 
 Sbjct: 1069 DGDDVVVEA 1077
 
@@ -710,7 +698,7 @@ Sbjct: 1069 DGDDVVVEA 1077
  Score = 37.6 bits (86), Expect = 3.2,   Method: Composition-based stats.
  Identities = 14/34 (41%), Positives = 21/34 (61%)
 
-Query: 57  AEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQ 90
+Query: 58  AEKFAAILIKVFAELGYNDINVTFDGDTVTVEGQ 91
            A+++  +  ++    GY D  V FDGDTVTV G+
 Sbjct: 312 ADQWQRLSTQLANVAGYKDNRVHFDGDTVTVTGE 345
 
@@ -719,14 +707,14 @@ Sbjct: 312 ADQWQRLSTQLANVAGYKDNRVHFDGDTVTVTGE 345
            RepID=UPI0009ECCF6B
           Length = 1364
 
- Score = 37.2 bits (85), Expect = 4.6,   Method: Composition-based stats.
+ Score = 37.2 bits (85), Expect = 4.7,   Method: Composition-based stats.
  Identities = 25/69 (36%), Positives = 35/69 (50%), Gaps = 1/69 (1%)
 
-Query: 22  TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-YNDINVTF 80
+Query: 23  TESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELG-YNDINVTF 81
            T  ELQ   + L+D  ++Q A R+   + AR    AE F A+  ++   L  YN   + F
 Sbjct: 792 TRVELQASRDSLRDLARQQTALRLVAELVAREAAPAEVFKAVAEQLGECLDVYNTTVIRF 851
 
-Query: 81  DGDTVTVEG 89
+Query: 82  DGDTVTVEG 90
            DGD V VE 
 Sbjct: 852 DGDDVVVEA 860
 
@@ -735,14 +723,14 @@ Sbjct: 852 DGDDVVVEA 860
            RepID=A0A0M7A3A6_9RHOB
           Length = 1042
 
- Score = 37.2 bits (85), Expect = 4.6,   Method: Composition-based stats.
+ Score = 37.2 bits (85), Expect = 4.7,   Method: Composition-based stats.
  Identities = 18/68 (26%), Positives = 35/68 (51%), Gaps = 12/68 (17%)
 
-Query: 24  SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGD 83
+Query: 25  SELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFDGD 84
              L ++ N L D ++ Q   + R++   RT++EAE+ +A+             N TFD  
 Sbjct: 443 ERLTRLFNALMDTVQSQEQAQSRVADAKRTQEEAERLSALA------------NATFDAI 490
 
-Query: 84  TVTVEGQL 91
+Query: 85  TVTVEGQL 92
             ++V+G++
 Sbjct: 491 VISVDGRI 498
 
@@ -754,41 +742,41 @@ Sbjct: 491 VISVDGRI 498
  Score = 36.8 bits (84), Expect = 6.1,   Method: Composition-based stats.
  Identities = 17/57 (29%), Positives = 31/57 (54%)
 
-Query: 25  ELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFD 81
+Query: 26  ELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAELGYNDINVTFD 82
            +L+KVL   +DY K+  A +   S    ++K  ++FA ++ +   ELGY+D    + 
 Sbjct: 167 DLEKVLALSRDYDKQLDAWQGWHSTAVASRKPYQRFAELVNEGARELGYDDAGQMWR 223
-
-
->UniRef90_G5GI48 Uncharacterized protein n=1 Tax=Johnsonella ignava ATCC 51276
-           TaxID=679200 RepID=G5GI48_9FIRM
-          Length = 822
-
- Score = 36.4 bits (83), Expect = 7.2,   Method: Composition-based stats.
- Identities = 21/63 (33%), Positives = 30/63 (47%), Gaps = 9/63 (14%)
-
-Query: 12  KNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAEL 71
-           KNF+Y Y         KV NE  D  KK+  K   +S    + +E EKF A+  ++   L
-Sbjct: 409 KNFEYCY---------KVCNEFMDKYKKEIEKIRSLSFENMSIQECEKFMAVSYELTKNL 459
-
-Query: 72  GYN 74
-            Y+
-Sbjct: 460 AYD 462
 
 
 >UniRef90_UPI00017BDAF0 de novo protein M7 n=1 Tax=unidentified TaxID=32644
           RepID=UPI00017BDAF0
           Length = 96
 
- Score = 36.1 bits (82), Expect = 9.7,   Method: Composition-based stats.
- Identities = 19/86 (22%), Positives = 39/86 (45%)
+ Score = 36.4 bits (83), Expect = 7.4,   Method: Composition-based stats.
+ Identities = 19/88 (21%), Positives = 40/88 (45%)
 
-Query: 3  VQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAA 62
-          + + I  +G+  +    V+T                      V+I+I+A   ++A++   
-Sbjct: 8  ITIKIQRDGQEIEIDIRVSTXXXXXXXXXXXXXXXXXXXXXNVQITISAENDEQAKELLE 67
+Query: 2  IQVQVNIDDNGKNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKF 61
+          + + + I  +G+  +    V+T                      V+I+I+A   ++A++ 
+Sbjct: 6  VDITIKIQRDGQEIEIDIRVSTXXXXXXXXXXXXXXXXXXXXXNVQITISAENDEQAKEL 65
 
-Query: 63 ILIKVFAELGYNDINVTFDGDTVTVE 88
-          ++ ++  +LGY DINV  +G  V +E
-Sbjct: 68 LIARLLQKLGYKDINVRVNGTEVKIE 93
+Query: 62 AAILIKVFAELGYNDINVTFDGDTVTVE 89
+            ++ ++  +LGY DINV  +G  V +E
+Sbjct: 66 LELIARLLQKLGYKDINVRVNGTEVKIE 93
+
+
+>UniRef90_G5GI48 Uncharacterized protein n=1 Tax=Johnsonella ignava ATCC 51276
+           TaxID=679200 RepID=G5GI48_9FIRM
+          Length = 822
+
+ Score = 36.4 bits (83), Expect = 7.7,   Method: Composition-based stats.
+ Identities = 21/63 (33%), Positives = 30/63 (47%), Gaps = 9/63 (14%)
+
+Query: 13  KNFDYTYTVTTESELQKVLNELKDYIKKQGAKRVRISITARTKKEAEKFAAILIKVFAEL 72
+           KNF+Y Y         KV NE  D  KK+  K   +S    + +E EKF A+  ++   L
+Sbjct: 409 KNFEYCY---------KVCNEFMDKYKKEIEKIRSLSFENMSIQECEKFMAVSYELTKNL 459
+
+Query: 73  GYN 75
+            Y+
+Sbjct: 460 AYD 462
 
 
   Database: /work/upcorreia/bin/Rosetta/tools/fragment_tools/databases
@@ -942,30 +930,30 @@ Sbjct: 68 LIARLLQKLGYKDINVRVNGTEVKIE 93
   Number of sequences in database:  130,380
   
 Lambda     K      H
-   0.306    0.147    0.406 
+   0.307    0.148    0.408 
 
 Lambda     K      H
-   0.267   0.0455    0.140 
+   0.267   0.0459    0.140 
 
 
 Matrix: BLOSUM62
 Gap Penalties: Existence: 11, Extension: 1
-Number of Hits to DB: 12,300,181,952
+Number of Hits to DB: 12,447,681,523
 Number of Sequences: 70953096
-Number of extensions: 439009415
-Number of successful extensions: 1259455
-Number of sequences better than 10.0: 22
-Number of HSP's better than 10.0 without gapping: 28
+Number of extensions: 448020414
+Number of successful extensions: 1292711
+Number of sequences better than 10.0: 23
+Number of HSP's better than 10.0 without gapping: 27
 Number of HSP's successfully gapped in prelim test: 40
-Number of HSP's that attempted gapping in prelim test: 1259406
-Number of HSP's gapped (non-prelim): 71
-length of query: 91
+Number of HSP's that attempted gapping in prelim test: 1292663
+Number of HSP's gapped (non-prelim): 69
+length of query: 92
 length of database: 24,046,686,692
-effective HSP length: 61
+effective HSP length: 62
 effective length of query: 30
-effective length of database: 24,013,515,132
-effective search space: 720405453960
-effective search space used: 720405453960
+effective length of database: 23,942,562,036
+effective search space: 718276861080
+effective search space used: 718276861080
 T: 11
 A: 40
 X1: 16 ( 7.1 bits)
