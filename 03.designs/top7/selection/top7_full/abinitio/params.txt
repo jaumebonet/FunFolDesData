@@ -1,0 +1,2 @@
+top7_full seqfrags t001_
+top7_full strfrags wauto
