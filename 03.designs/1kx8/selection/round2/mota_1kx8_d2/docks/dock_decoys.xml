@@ -1,21 +1,33 @@
 <ROSETTASCRIPTS>
   <RESIDUE_SELECTORS>
     <Chain name="epitope" chains="P" />
+    <Chain name="design" chains="A" />
     <Index name="motif" resnums="69A-92A" />
+    <Chain name="binder" chains="H,L" />
   </RESIDUE_SELECTORS>
   <FILTERS>
     <Ddg name="ddgf" jump="2" confidence="0" />
     <RmsdFromResidueSelectorFilter name="rms" reference_selector="epitope" query_selector="motif" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="brms" reference_selector="binder" query_selector="binder" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="drms" reference_selector="design" query_selector="design" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="irms" reference_selector="epitope" query_selector="motif" superimpose="0" confidence="0" />
   </FILTERS>
   <MOVERS>
+    <SavePoseMover name="reference" reference_name="ref_pose" restore_pose="0" />
     <FastRelax name="FR" />
     <ddG name="ddgm" jump="2" />
+    <AlignByResidueSelectorMover name="align" reference_selector="binder" query_selector="binder" />
 	</MOVERS>
 
   <PROTOCOLS>
+    <Add mover="reference" />
     <Add mover="FR" />
+    <Add mover="align" />
     <Add mover="ddgm" />
     <Add filter="ddgf" />
     <Add filter="rms" />
+    <Add filter="brms" />
+    <Add filter="drms" />
+    <Add filter="irms" />
   </PROTOCOLS>
 </ROSETTASCRIPTS>
