@@ -1,0 +1,20 @@
+<ROSETTASCRIPTS>
+  <RESIDUE_SELECTORS>
+    <Chain name="design" chains="A" />
+    <Index name="motif" resnums="69A-92A" />
+  </RESIDUE_SELECTORS>
+  <FILTERS>
+    <Ddg name="ddgf" jump="2" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="rms" reference_selector="design" query_selector="design" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="mrms" reference_selector="motif" query_selector="motif" confidence="0" />
+  </FILTERS>
+  <MOVERS>
+    <FastRelax name="FR" />
+  </MOVERS>
+
+  <PROTOCOLS>
+    <Add mover="FR" />
+    <Add filter="rms" />
+    <Add filter="mrms" />
+  </PROTOCOLS>
+</ROSETTASCRIPTS>
