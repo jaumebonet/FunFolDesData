@@ -1,0 +1,16 @@
+<ROSETTASCRIPTS>
+  <RESIDUE_SELECTORS>
+    <Chain name="design" chains="A" />
+  </RESIDUE_SELECTORS>
+  <FILTERS>
+    <RmsdFromResidueSelectorFilter name="rms" reference_selector="design" query_selector="design" confidence="0" />
+  </FILTERS>
+  <MOVERS>
+    <FastRelax name="FR" />
+  </MOVERS>
+
+  <PROTOCOLS>
+    <Add mover="FR" />
+    <Add filter="rms" />
+  </PROTOCOLS>
+</ROSETTASCRIPTS>
