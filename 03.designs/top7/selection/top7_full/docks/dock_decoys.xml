@@ -7,12 +7,13 @@
   </RESIDUE_SELECTORS>
   <FILTERS>
     <Ddg name="ddgf" jump="2" confidence="0" />
-    <RmsdFromResidueSelectorFilter name="rms" reference_selector="epitope" query_selector="motif" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="rms" reference_name="siteIV" reference_selector="epitope" query_selector="motif" confidence="0" />
     <RmsdFromResidueSelectorFilter name="brms" reference_selector="binder" query_selector="binder" confidence="0" />
     <RmsdFromResidueSelectorFilter name="drms" reference_name="ref_pose" reference_selector="design" query_selector="design" confidence="0" />
     <RmsdFromResidueSelectorFilter name="irms" reference_selector="epitope" query_selector="motif" superimpose="0" confidence="0" />
   </FILTERS>
   <MOVERS>
+    <SavePoseMover name="siteIV" reference_name="siteIV" pdb_file="peptide.pdb" />
     <SavePoseMover name="reference" reference_name="ref_pose" restore_pose="0" />
     <FastRelax name="FR" />
     <ddG name="ddgm" jump="2" />
