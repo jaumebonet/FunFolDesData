@@ -1,0 +1,36 @@
+<ROSETTASCRIPTS>
+  <TASKOPERATIONS>
+    <RestrictToRepacking name="repackonly" />
+</TASKOPERATIONS>
+  <RESIDUE_SELECTORS>
+    <Chain name="epitope" chains="P" />
+    <Chain name="binder" chains="H,L" />
+  </RESIDUE_SELECTORS>
+  <FILTERS>
+    <Ddg name="ddgf" jump="2" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="rms" reference_selector="epitope" query_selector="epitope" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="brms" reference_selector="binder" query_selector="binder" confidence="0" />
+    <RmsdFromResidueSelectorFilter name="irms" reference_selector="epitope" query_selector="epitope" superimpose="0" confidence="0" />
+  </FILTERS>
+  <MOVERS>
+    <PackRotamersMover name="pack" task_operations="repackonly" />
+    <MinMover name="min" chi="0" bb="1" />
+    <ParsedProtocol name="packmin" >
+            <Add mover_name="pack" />
+            <Add mover_name="min" />
+    </ParsedProtocol>
+    <LoopOver name="FR"  mover_name="packmin" iterations="10" />
+    <ddG name="ddgm" jump="2" />
+    <AlignByResidueSelectorMover name="align" reference_selector="binder" query_selector="binder" />
+</MOVERS>
+
+<PROTOCOLS>
+<Add mover="FR" />
+<Add mover="align" />
+<Add mover="ddgm" />
+<Add filter="ddgf" />
+<Add filter="rms" />
+    <Add filter="brms" />
+    <Add filter="irms" />
+  </PROTOCOLS>
+</ROSETTASCRIPTS>
