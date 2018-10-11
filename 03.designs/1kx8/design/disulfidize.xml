@@ -1,0 +1,83 @@
+<ROSETTASCRIPTS>
+
+  <SCOREFXNS>
+  </SCOREFXNS>
+
+  <RESIDUE_SELECTORS>
+    # Find all residues that were converted to disulfides by the Disulfidize mover
+    <ResiduePDBInfoHasLabel name="all_disulfides" property="DISULFIDIZE" />
+
+    # Find all residues surrounding the disulfides, including the disulfides themselves
+    <Neighborhood name="disulfide_neighbors" selector="all_disulfides" distance="10.0"/>
+
+    # Select residues by burial to later restrict the possible amino acids used for design
+    <Layer name="core_residues" select_core="true" />
+    <Layer name="boundary_residues" select_boundary="true" />
+    <Layer name="surface_residues" select_surface="true" />
+
+    # Get the intersection of disulfide surrounding residues and the different levels of burial
+    <And name="core_disulf_surrounding" selectors="core_residues,disulfide_neighbors" />
+    <And name="boundary_disulf_surrounding" selectors="boundary_residues,disulfide_neighbors" />
+    <And name="surface_disulf_surrounding" selectors="surface_residues,disulfide_neighbors" />
+
+    # Select all residues that are not neighbors of disulfides. We don't want those to change.
+    <Or name="mutable_res" selectors="core_disulf_surrounding,boundary_disulf_surrounding,surface_disulf_surrounding" />
+    <Not name="non_mutable" selector="mutable_res" />
+
+    # Select the inserted epitope to prevent to later prevent it from changing
+    <Index name="epitope" resnums="69-96"/>
+  </RESIDUE_SELECTORS>
+
+  <TASKOPERATIONS>
+    # Limit the possible amino acids used during packing depending on the location of the residues in the pose
+    <ReadResfile name="core_resfile" filename="core_resfile.txt" selector="core_disulf_surrounding" />
+    <ReadResfile name="boundary_resfile" filename="boundary_resfile.txt" selector="boundary_disulf_surrounding" />
+    <ReadResfile name="surface_resfile" filename="surface_resfile.txt" selector="surface_disulf_surrounding" />
+
+    # Prevent the converted disulfides from packing (by default packing performs sequence design)
+    <NoRepackDisulfides name="dont_pack_disulfides" />
+
+    # Prevent all residues not part of the disulfide neighborhoods from sequence design (re-packing still possible)
+    <OperateOnResidueSubset name="restrict" selector="non_mutable" >
+          <RestrictToRepackingRLT />
+    </OperateOnResidueSubset>
+
+    # Prevent epitope from changing at all
+    <OperateOnResidueSubset name="restrict_epitope" selector="epitope" >
+        <PreventRepackingRLT />
+    </OperateOnResidueSubset>
+  </TASKOPERATIONS>
+
+  <FILTERS>
+    <ResidueCount name="cys_count" residue_types="CYS" min_residue_count="1" confidence="1" />
+    <ResidueCount name="ala_count" residue_types="ALA" max_residue_count="4" confidence="1" />
+    <CavityVolume name="cav_vol" confidence="0" />
+    <BuriedUnsatHbonds name="BUNS"  jump_number="0" cutoff="10" confidence="0"/>
+    <DisulfideEntropy name="entropy" lower_bound="0" tightness="2" confidence="0"/>
+  </FILTERS>
+
+  <MOVERS>
+    # Find and insert disulfide bonds
+    <Disulfidize name="add_disulfides" match_rt_limit="2.0" score_or_matchrt="false" max_disulf_score="1.5" min_loop="8" use_l_cys="true" keep_current_disulfides="false" include_current_disulfides="false" use_d_cys="false" use_beta_cys="false"  mutate_gly="false" mutate_pro="false" />
+
+    # Setup packing and minimizing for all residues surrounding the disulfide bonds w/o the cysteins themselves!
+    <FastDesign name="fdesign" clear_designable_residues="false" ramp_down_constraints="true" repeats="8" task_operations="restrict,restrict_epitope,dont_pack_disulfides,core_resfile,boundary_resfile,surface_resfile" />
+  </MOVERS>
+
+  <APPLY_TO_POSE>
+  </APPLY_TO_POSE>
+
+  <PROTOCOLS>
+    <Add mover_name="add_disulfides" />
+    <Add filter_name="cys_count" />
+    <Add mover_name="fdesign" />
+    <Add filter_name="ala_count" />
+    <Add filter_name="cav_vol" />
+    <Add filter_name="BUNS" />
+    <Add filter_name="entropy" />
+
+  </PROTOCOLS>
+
+  <OUTPUT />
+
+</ROSETTASCRIPTS>
