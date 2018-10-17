@@ -15,7 +15,7 @@ import networkx as nx
 from IPython.display import FileLink, FileLinks
 
 # Own Libraries
-import rstoolbox  # Learn about this library at: http://lpdi-epfl.github.io/RosettaSilentToolbox
+import rstoolbox  # Learn about this library at: http://lpdi-epfl.github.io/rstoolbox
 
 import readme
 
