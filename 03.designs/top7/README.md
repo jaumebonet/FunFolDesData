@@ -25,16 +25,6 @@ rstoolbox.utils.format_Ipython()
 ```
 
 
-
-
-<style>
-table.dataframe {
-    font-family: monospace;
-}
-</style>
-
-
-
 # Design of a RSVF site IV carrier from TOP7
 
 > This summary does not track all attempts and variations, just the pathway towards obtaining the designs that were experimentally characterized.
@@ -47,22 +37,6 @@ baseline
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
