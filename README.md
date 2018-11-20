@@ -4,7 +4,7 @@ This repository contains all the data and scripts required to reproduce the data
 
 **Rosetta FunFolDes – a general framework for the computational design of functional proteins.**
 
-*Jaume Bonet*, *Sarah Wehrle*, *Karen Schriever*, *Che Yang*, Anne Billet, Fabian Sesterhenn, Andreas Scheck, Freyr Sverrisson, Sabrina Vollers, Roxanne Lourman, Melanie Villard, Stéphane Rosset, Bruno E. Correia
+*Jaume Bonet*, *Sarah Wehrle*, *Karen Schriever*, *Che Yang*, Anne Billet, Fabian Sesterhenn, Andreas Scheck, Freyr Sverrisson, Barbora Veselkova, Sabrina Vollers, Roxanne Lourman, Mélanie Villard, Stéphane Rosset, Thomas Krey, Bruno E. Correia
 
 [![bioRxiv](https://img.shields.io/badge/bioRxiv%20preprint-doi.org/10.1101/378976-blue.svg)](https://doi.org/10.1101/378976)
 [![PLoS Computational Biology](https://img.shields.io/badge/PLoS%20Computational%20Biology-doi.org/10.1371/journal.pcbi.1006623-green.svg)](https://doi.org/10.1371/journal.pcbi.1006623)
